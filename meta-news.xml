@@ -4,151 +4,90 @@
     <title>Meta SI Lab 动态</title>
     <description>Meta Scalable Intelligence (MSL/SI Lab) 及相关 Meta AI 动态</description>
     <link>file://rss-research/feeds/meta-news.xml</link>
-    <lastBuildDate>Fri, 20 Mar 2026 16:16:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 17:36:45 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
-      <title>Meta Superintelligence Labs 成立：Alexandr Wang 与 Shengjia Zhao 领衔超智能研究</title>
-      <description>&lt;p&gt;2025 年 6 月 30 日，Meta CEO Mark Zuckerberg 正式宣布成立 &lt;strong&gt;Meta Superintelligence Labs（MSL）&lt;/strong&gt;，将原有 FAIR、产品与应用研究、基础设施等团队整合为统一的超智能研究部门，总部位于加州门洛帕克。&lt;/p&gt;
+      <title>Meta MTIA 芯片四代路线图发布：两年内将自研硅片 HBM 带宽提升 4.5 倍</title>
+      <description>&lt;p&gt;2026 年 3 月 11 日，Meta 正式对外披露其 Meta Training and Inference Accelerator（MTIA）芯片的完整四代路线图，包括 MTIA 300、400、450 和 500，计划以约每六个月一款的节奏滚动部署。这是 Meta 迄今为止最系统化的自研硅片公告。&lt;/p&gt;
 
-&lt;p&gt;MSL 设四个核心团队：&lt;strong&gt;TBD Lab&lt;/strong&gt;（负责 Meta 大型语言模型，由 Alexandr Wang 直管）、&lt;strong&gt;FAIR&lt;/strong&gt;（基础研究，Rob Fergus 领导）、&lt;strong&gt;Products and Applied Research&lt;/strong&gt;（消费者集成，Nat Friedman 领导）、&lt;strong&gt;MSL Infra&lt;/strong&gt;（基础设施，Aparna Ramani 领导）。&lt;/p&gt;
-
-&lt;p&gt;7 月 25 日，Zuckerberg 宣布任命前 OpenAI 研究员 &lt;strong&gt;Shengjia Zhao&lt;/strong&gt; 担任 MSL 首席科学家。Zhao 在 OpenAI 期间深度参与了 ChatGPT、GPT-4 和推理模型 o1 的研发，是 GPT-4 的联合创造者，在 Stanford 取得计算机科学博士学位。Zuckerberg 表示，Zhao "已经开创了多项突破，包括一种全新的规模化范式"，将负责制定 MSL 的研究议程与科学方向，向 Zuckerberg 和 Wang 双线汇报。&lt;/p&gt;
-
-&lt;p&gt;此次 MSL 的组建伴随着 Meta 对 Scale AI 49% 股权的战略收购（约 143 亿美元），Wang 从 Scale AI CEO 身份转型为 Meta 首席 AI 官，标志着 Meta 从开源驱动的 Llama 路线向闭源前沿模型的战略转向。&lt;/p&gt;
-
-&lt;p&gt;与此同时，另有三位前 OpenAI 顶尖研究员——Jiahui Yu、Shuchao Bi、Hongyu Ren——一同加入 MSL，凸显 Meta 在人才争夺战中的强势出击。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;各型号定位与时间线&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html"&gt;https://www.cnbc.com/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://techcrunch.com/2025/07/25/meta-names-shengjia-zhao-as-chief-scientist-of-ai-superintelligence-unit/"&gt;https://techcrunch.com/2025/07/25/meta-names-shengjia-zhao-as-chief-scientist-of-ai-superintelligence-unit/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.axios.com/2025/07/25/mark-zuckerberg-details-metas-superintelligence-plans"&gt;https://www.axios.com/2025/07/25/mark-zuckerberg-details-metas-superintelligence-plans&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://builtin.com/artificial-intelligence/meta-superintelligence-labs"&gt;https://builtin.com/artificial-intelligence/meta-superintelligence-labs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d03e00c3-e731-5c9f-82d5-61d1d195d7be</guid>
-      <pubDate>Fri, 20 Mar 2026 16:15:08 +0000</pubDate>
-      <link>https://www.cnbc.com/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html</link>
-    </item>
-    <item>
-      <title>Llama 4 系列正式发布：MoE 多模态架构与首届 LlamaCon 开发者大会</title>
-      <description>&lt;p&gt;2025 年 4 月 5 日，Meta 正式发布 &lt;strong&gt;Llama 4&lt;/strong&gt; 系列，这是其首批原生多模态开源大语言模型，采用混合专家（MoE）架构。&lt;/p&gt;
-
-&lt;p&gt;此次发布包含两款可用模型：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Llama 4 Scout&lt;/strong&gt;：170 亿激活参数，16 个专家，支持业界领先的 &lt;strong&gt;1000 万 token 上下文窗口&lt;/strong&gt;，可在单张 NVIDIA H100 GPU 上运行，是同类最优多模态模型。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Llama 4 Maverick&lt;/strong&gt;：170 亿激活参数，128 个专家，在多项广泛报告的 benchmark 上超越 GPT-4o 和 Gemini 2.0 Flash。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MTIA 300&lt;/strong&gt;：已于 2026 年初投入生产，用于内容排序与推荐系统的训练工作负载。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MTIA 400&lt;/strong&gt;：实验室测试完成，正在推向数据中心部署。相较 300 系，FP8 算力提升 400%，HBM 带宽提升 51%，重点覆盖 GenAI 推理（图像、视频生成等）。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MTIA 450&lt;/strong&gt;：计划 2027 年初量产。HBM 带宽较 400 系翻倍，据称高于现有主流商业产品（即 NVIDIA H/B 系列）。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MTIA 500&lt;/strong&gt;：计划 2027 年下半年量产。在 450 基础上再提升 50% HBM 带宽，同时 HBM 容量最高增加 80%。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;此外，Meta 还公布了仍在训练中的教师模型 &lt;strong&gt;Llama 4 Behemoth&lt;/strong&gt;：2880 亿激活参数，在多项 STEM benchmark 上超越 GPT-4.5、Claude Sonnet 3.7 和 Gemini 2.0 Pro，将用于知识蒸馏到小模型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为何重要&lt;/strong&gt;：从 300 到 500，HBM 带宽累计提升 &lt;strong&gt;4.5 倍&lt;/strong&gt;，算力 FLOPS 提升 &lt;strong&gt;25 倍&lt;/strong&gt;。对于大规模 GenAI 推理而言，内存带宽是核心瓶颈；Meta 的路线图直接瞄准这一软肋。副总裁 Yee Jiun Song 明确表示，自研芯片战略的目标是在供应链层面摆脱对单一厂商（主要指 NVIDIA）的依赖，同时降低每次推理的硅片成本。&lt;/p&gt;
 
-&lt;p&gt;4 月 29 日，Meta 在门洛帕克总部举办首届 &lt;strong&gt;LlamaCon&lt;/strong&gt; 开发者大会，主要公告包括：&lt;strong&gt;Llama API&lt;/strong&gt; 预览上线（与 OpenAI SDK 兼容、无厂商锁定）；新开源安全工具套件 Llama Guard 4、LlamaFirewall 和 Llama Prompt Guard 2；与 Cerebras、Groq 的推理加速合作。Llama 系列累计下载量超 &lt;strong&gt;12 亿次&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;与 MSL 的关联&lt;/strong&gt;：在之前的条目中我们提到 Meta 的 Prometheus 1GW 集群依赖 NVIDIA H100/H200 进行训练；MTIA 路线图意味着 Meta 的长期算力策略是 GPU 做重型训练、MTIA 做规模化推理的双轨并行格局。随着 Avocado 和 Mango 等模型走向大规模服务，MTIA 450/500 将是其核心推理基础设施。&lt;/p&gt;
 
-&lt;p&gt;值得关注的是，Llama 4 的 MoE 设计使激活参数量远低于总参数量，在保持竞争力性能的同时大幅降低推理成本，这一路线与 Mixtral、DeepSeek 的方向一致，但在 10M token 超长上下文支持上形成差异化。&lt;/p&gt;
+&lt;p&gt;Meta 同期宣布将在 2026 年完成资本支出 &lt;strong&gt;1150 亿至 1350 亿美元&lt;/strong&gt;，其中自研芯片的加速规模化是重要组成部分。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/"&gt;https://ai.meta.com/blog/llama-4-multimodal-intelligence/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models/"&gt;https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/llamacon-llama-news/"&gt;https://ai.meta.com/blog/llamacon-llama-news/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2025/05/meta-llamacon-announcements/"&gt;https://www.infoq.com/news/2025/05/meta-llamacon-announcements/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/"&gt;https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html"&gt;https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/"&gt;https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">4d42224a-98ee-5ce0-be87-ac17caa495d3</guid>
-      <pubDate>Fri, 20 Mar 2026 16:15:26 +0000</pubDate>
-      <link>https://ai.meta.com/blog/llama-4-multimodal-intelligence/</link>
+      <guid isPermaLink="false">4d863967-5b49-5cf3-ac94-f1063cc68f29</guid>
+      <pubDate>Fri, 20 Mar 2026 17:36:03 +0000</pubDate>
+      <link>https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/</link>
     </item>
     <item>
-      <title>MSL 旗舰模型 Avocado 与 Mango：瞄准 2026 上半年挑战 OpenAI 和 Google</title>
-      <description>&lt;p&gt;MSL 目前正在开发两款代号为 &lt;strong&gt;Avocado&lt;/strong&gt;（文本 LLM）和 &lt;strong&gt;Mango&lt;/strong&gt;（图像与视频生成）的新一代旗舰模型，目标发布窗口为 2026 年上半年。&lt;/p&gt;
+      <title>Meta 新建应用 AI 工程组：由 Maher Saba 主导，为 MSL 构建数据飞轮与后训练基础设施</title>
+      <description>&lt;p&gt;据《华尔街日报》等多家媒体于 2026 年 3 月初报道，Meta 正在组建一个全新的&lt;strong&gt;应用 AI 工程组（Applied AI Engineering Organization）&lt;/strong&gt;，直接服务于 Meta Superintelligence Labs（MSL）的模型研发。该组织由 Reality Labs 副总裁 &lt;strong&gt;Maher Saba&lt;/strong&gt; 领衔，汇报线接至 CTO Andrew Bosworth。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Avocado&lt;/strong&gt; 是一个专注于代码能力和推理能力的文本大语言模型，直接对标 Meta 历来被认为在编码方面弱于竞争对手的短板。Alexandr Wang 表示，Avocado 还将探索"世界模型"方向，使模型能够在不需要针对每种可能性进行专门训练的情况下进行推理、规划和行动。然而，据内部消息人士透露，截至 2025 年 12 月，Avocado 在训练性能测试上仍面临挑战，项目存在一定程度的内部张力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心职能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;数据引擎&lt;/strong&gt;：为模型持续提供真实世界的反馈、标注和训练信号，形成"现实数据 → 模型迭代"的闭环飞轮。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;工具链与界面&lt;/strong&gt;：构建供研究人员和工程师使用的评估框架、任务执行工具及模型接口。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;强化学习与后训练&lt;/strong&gt;：工业化 RL 和 post-training 流程——Meta 内部已看到这两个方向的显著增益，此次组织设立是对该策略的加注。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Mango&lt;/strong&gt; 则是针对图像和视频生成的多模态模型，对标 OpenAI Sora 和 Google 的多模态系列。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;组织结构&lt;/strong&gt;：极度扁平化，单个管理者可带领最多 &lt;strong&gt;50 名工程师&lt;/strong&gt;。Saba 在内部 memo 中写道："打造优秀模型不只需要研究员和算力，还需要真实数据、反馈和评估——这正是将强力模型转化为领先模型的飞轮。"&lt;/p&gt;
 
-&lt;p&gt;这两个项目被 MSL 内部定位为"成立后首批旗舰模型"，也是 Meta 从开源 Llama 路线转向闭源前沿竞争的核心体现。此次战略转向伴随着组织层面的高压——MSL 同期进行了裁员并加速外部顶尖人才引进，在内部引发了一定程度的文化冲突和目标混乱。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;背景与意义&lt;/strong&gt;：此举填补了 MSL 结构中一个关键空缺。此前 MSL 由 Alexandr Wang（前 Scale AI CEO）主导前沿模型研究，但缺乏专属的工程化数据与评测基础设施。新工程组将两者打通，逻辑类似 OpenAI 的 post-training 团队或 Google DeepMind 的 Gemini 工程组。&lt;/p&gt;
 
-&lt;p&gt;从更宏观的视角看，Avocado 若能兑现在推理和代码方面的承诺，将是 Meta 首次在闭源模型竞争中与 OpenAI o 系列和 Google Gemini 正面交锋。&lt;/p&gt;
+&lt;p&gt;值得注意的是，该组织设在 Reality Labs 业务线下，而非 MSL 或 FAIR 旗下，反映出 Meta 在 AI 算力与研究之间正在形成更复杂的汇报与协调结构。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/"&gt;https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://techcrunch.com/2025/12/19/meta-is-developing-a-new-image-and-video-model-for-a-2026-release-report-says/"&gt;https://techcrunch.com/2025/12/19/meta-is-developing-a-new-image-and-video-model-for-a-2026-release-report-says/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2025/12/09/meta-avocado-ai-strategy-issues.html"&gt;https://www.cnbc.com/2025/12/09/meta-avocado-ai-strategy-issues.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://royfactory.net/posts/ai/202512/meta-mango-avocado-2026-frontier-ai/"&gt;https://royfactory.net/posts/ai/202512/meta-mango-avocado-2026-frontier-ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dnyuz.com/2026/03/03/meta-is-forming-a-new-ai-engineering-org-for-its-superintelligence-push-with-teams-as-large-as-50-people-per-manager/"&gt;https://dnyuz.com/2026/03/03/meta-is-forming-a-new-ai-engineering-org-for-its-superintelligence-push-with-teams-as-large-as-50-people-per-manager/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eweek.com/news/meta-forms-new-ai-engineering-org-superintelligence/"&gt;https://www.eweek.com/news/meta-forms-new-ai-engineering-org-superintelligence/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://the-decoder.com/meta-creates-new-applied-ai-engineering-division/"&gt;https://the-decoder.com/meta-creates-new-applied-ai-engineering-division/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">c3b07c3f-acad-5869-a163-8802b13c3e1e</guid>
-      <pubDate>Fri, 20 Mar 2026 16:15:42 +0000</pubDate>
-      <link>https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/</link>
+      <guid isPermaLink="false">cafb1095-fdc2-5592-9244-7591cce52a7b</guid>
+      <pubDate>Fri, 20 Mar 2026 17:36:27 +0000</pubDate>
+      <link>https://dnyuz.com/2026/03/03/meta-is-forming-a-new-ai-engineering-org-for-its-superintelligence-push-with-teams-as-large-as-50-people-per-manager/</link>
     </item>
     <item>
-      <title>FAIR 发布 V-JEPA 2：12 亿参数视觉世界模型，支持机器人零样本操作</title>
-      <description>&lt;p&gt;2025 年 6 月 11 日，Meta FAIR 发布 &lt;strong&gt;V-JEPA 2&lt;/strong&gt;（Video Joint Embedding Predictive Architecture 2），这是一个 12 亿参数的视觉世界模型，能够理解、预测并在物理世界中进行规划，是 JEPA 架构系列的重要里程碑。&lt;/p&gt;
+      <title>Meta 与 Nebius 签署五年 270 亿美元云算力框架协议，首批基于 NVIDIA Vera Rubin 平台</title>
+      <description>&lt;p&gt;2026 年 3 月 16 日，Nebius Group NV 宣布与 Meta 签订长期 AI 基础设施供应协议，合同总价值最高 &lt;strong&gt;270 亿美元&lt;/strong&gt;，期限五年。Nebius 股价当日随即上涨 14%。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;核心技术&lt;/strong&gt;：V-JEPA 2 采用自监督学习方式，在超过 &lt;strong&gt;100 万小时视频&lt;/strong&gt;和 100 万张图像上进行预训练，无需人工标注，即可学习物理世界的动态规律。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;协议结构&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;专属算力（120 亿美元）&lt;/strong&gt;：Nebius 将在多个地点为 Meta 提供专属集群容量，这是 NVIDIA Vera Rubin 平台首批大规模商业部署之一，预计 2027 年初起交付。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;弹性算力（最高 150 亿美元）&lt;/strong&gt;：Meta 承诺在 Nebius 即将建设的部分集群中，优先购买第三方客户剩余的可用计算资源，形成对专属容量的补充。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;V-JEPA 2 同时发布了动作条件版本 &lt;strong&gt;V-JEPA 2-AC&lt;/strong&gt;，仅使用 62 小时无标注机器人视频（来自 Droid 数据集）进行训练后，即可 &lt;strong&gt;零样本部署&lt;/strong&gt;到两个不同实验室的 Franka 机械臂上，完成物体抓取与放置任务，无需从目标机器人收集数据，也无需任务特定训练或奖励函数——这对机器人领域是一个显著的泛化能力证明。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为何重要&lt;/strong&gt;：此前我们已报道 Meta 自建 Prometheus 1GW 数据中心集群，以及与 NVIDIA 签署的深度硬件合作协议。本次 Nebius 协议与之形成互补——自建集群覆盖战略性重型训练，外采云算力则在高峰期和新产品快速扩容阶段提供弹性支撑。&lt;/p&gt;
 
-&lt;p&gt;Meta 将 V-JEPA 2 的代码和模型权重以可商用和研究用许可证开源（&lt;a href="https://github.com/facebookresearch/vjepa2"&gt;GitHub&lt;/a&gt;）。&lt;/p&gt;
+&lt;p&gt;Nebius 是从 Yandex 分拆出来的 AI 云公司，自 2024 年在纽约上市以来已累计上涨超过 400%；其与 Meta 的大额合约在资本市场被视为新一代 AI 云服务商崛起的信号。&lt;/p&gt;
 
-&lt;p&gt;V-JEPA 2 与 LeCun 长期倡导的"世界模型"路线一脉相承——通过预测表征而非像素生成来理解世界，区别于主流的生成式扩散模型路线。其在机器人零样本迁移上的成果，为具身智能的低数据成本训练提供了新思路，也与 MSL 在"理解视觉信息并推理规划"上的长期目标直接呼应。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vera Rubin 平台&lt;/strong&gt;：这是该协议另一值得关注的技术细节。NVIDIA Vera Rubin 是 Blackwell 的下一代架构，首批大规模商业落地即锁定在 Nebius-Meta 的专属集群中，表明 Meta 正在早期卡位下一代 GPU 算力。&lt;/p&gt;
+
+&lt;p&gt;结合 Meta 全年 1150 亿至 1350 亿美元的资本支出计划，此次 Nebius 协议（年均约 54 亿美元）约占其对外云算力采购的相当比例，凸显了 Meta 在算力储备上不惜重金的战略意图。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/"&gt;https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ai.meta.com/research/publications/v-jepa-2-self-supervised-video-models-enable-understanding-prediction-and-planning/"&gt;https://ai.meta.com/research/publications/v-jepa-2-self-supervised-video-models-enable-understanding-prediction-and-planning/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2025/06/meta-vjepa2/"&gt;https://www.infoq.com/news/2025/06/meta-vjepa2/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/facebookresearch/vjepa2"&gt;https://github.com/facebookresearch/vjepa2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta"&gt;https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-16/meta-to-spend-up-to-27-billion-on-ai-infrastructure-from-nebius"&gt;https://www.bloomberg.com/news/articles/2026-03-16/meta-to-spend-up-to-27-billion-on-ai-infrastructure-from-nebius&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html"&gt;https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">ea9f3929-23b5-5de4-8851-9806b646d103</guid>
-      <pubDate>Fri, 20 Mar 2026 16:15:58 +0000</pubDate>
-      <link>https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/</link>
-    </item>
-    <item>
-      <title>MSL 裁员 600 人重组精简，随即收购 AI 智能体社交平台 Moltbook</title>
-      <description>&lt;p&gt;过去数月，MSL 经历了"裁员与扩招并行"的剧烈调整，折射出超智能研究部门寻找平衡点的过程。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2025 年 10 月裁员&lt;/strong&gt;：Meta 宣布在 MSL 内裁减约 &lt;strong&gt;600 个岗位&lt;/strong&gt;，主要波及 FAIR、产品与应用研究（Products and Applied Research）以及 MSL Infra 团队；核心的 TBD Lab（汇聚高端引进人才）未受影响。首席 AI 官 Alexandr Wang 将此次裁员定性为纠正"官僚臃肿"，目标是打造"更敏捷、更人才密集"的结构。受影响员工获得 16 周遣散费（每满一年额外 2 周），正式离职日为 11 月 21 日。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2026 年 3 月收购 Moltbook&lt;/strong&gt;：就在裁员后不到五个月，Meta 于 3 月 10 日收购了 &lt;strong&gt;Moltbook&lt;/strong&gt;——一个专为 AI 智能体设计的类 Reddit 社交网络平台。Moltbook 上线数日内即注册了超过 &lt;strong&gt;150 万 AI 智能体用户&lt;/strong&gt;、11 万篇帖子和 50 万条评论，引发广泛关注。联合创始人 Matt Schlicht 和 Ben Parr 将于 3 月 16 日正式加入 MSL。此次收购被外界普遍解读为 "acqui-hire"（人才并购），交易金额未公开。&lt;/p&gt;
-
-&lt;p&gt;Meta 方面表示，Moltbook 团队加入 MSL "为 AI 智能体代表用户和企业运作开辟了新方式"，契合 Zuckerberg 此前描述的"智能体 Web"愿景——在这一愿景中，企业与消费者将通过自主 AI 助手完成交互。&lt;/p&gt;
-
-&lt;p&gt;裁员 FAIR 部分研究人员、同时引入智能体领域创业团队，可以解读为 MSL 正在将资源从长线基础研究向直接服务于智能体产品目标的方向倾斜。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html"&gt;https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/"&gt;https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network"&gt;https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.pymnts.com/artificial-intelligence-2/2026/meta-acquisition-brings-moltbook-founders-to-superintelligence-labs/"&gt;https://www.pymnts.com/artificial-intelligence-2/2026/meta-acquisition-brings-moltbook-founders-to-superintelligence-labs/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">78e84bec-c724-5027-8dab-cb3d28d8f14f</guid>
-      <pubDate>Fri, 20 Mar 2026 16:16:17 +0000</pubDate>
-      <link>https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html</link>
-    </item>
-    <item>
-      <title>算力基础设施：Prometheus 1GW 集群落地，Meta 与 NVIDIA 签署全栈深度合作</title>
-      <description>&lt;p&gt;Meta 正在为 MSL 的模型训练雄心配套建设与之匹配的算力基础设施，规模和深度均达到历史新高。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prometheus 超级集群&lt;/strong&gt;：Meta 正在俄亥俄州部署代号 &lt;strong&gt;Prometheus&lt;/strong&gt; 的 AI 训练集群，目标到 2026 年上线 &lt;strong&gt;1 吉瓦（GW）&lt;/strong&gt; 算力，使 Meta 成为首批拥有该规模训练集群的科技公司之一。届时，Shengjia Zhao 和 MSL 研究员将可以使用这一集群推进 Avocado 等前沿模型的训练。Meta 计划今年采购超过 &lt;strong&gt;130 万张 GPU&lt;/strong&gt;，2025 年资本支出预计达 680 亿美元，大部分流向 AI 方向。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;与 NVIDIA 的全栈合作&lt;/strong&gt;：2025-2026 年间，Meta 与 NVIDIA 的关系从单纯的 GPU 大宗采购演变为"多代全栈联合设计伙伴关系"。Meta 承诺部署 NVIDIA 未来的 Blackwell 和 Rubin GPU，以及基于 Arm 架构的 Grace/Vera CPU 和 Spectrum-X 以太网网络结构，涵盖了从芯片到网络的全层次合作。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Grand Teton 硬件平台&lt;/strong&gt;：Meta 自研的 &lt;strong&gt;Grand Teton&lt;/strong&gt; 开放式 GPU 硬件平台已贡献至开放计算项目（OCP），新版本采用单体系统设计，整合电源、控制、计算和网络接口。此前 Meta 已部署两套各含 24,576 张 GPU 的集群（分别采用 RoCE 和 InfiniBand 网络），用于 Llama 3 的训练。&lt;/p&gt;
-
-&lt;p&gt;此外，Meta 正在推进定制 AI 芯片 &lt;strong&gt;MTIA&lt;/strong&gt;（Meta Training and Inference Accelerator），与 NVIDIA GPU 并行部署，以降低对单一供应商的依赖，并针对 Meta 自身工作负载优化成本效率。&lt;/p&gt;
-
-&lt;p&gt;1GW 集群的量级意味着 MSL 在训练 Avocado、Behemoth 等下一代模型时将具备与 OpenAI、Google 相当的算力储备，算力瓶颈不再是 Meta 前沿模型竞争的主要制约因素。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/"&gt;https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://enkiai.com/data-center/ai-infrastructure-2026-unpacking-metas-nvidia-deal"&gt;https://enkiai.com/data-center/ai-infrastructure-2026-unpacking-metas-nvidia-deal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nextplatform.com/2026/02/18/some-game-theory-on-that-nvidia-meta-platforms-partnership/"&gt;https://www.nextplatform.com/2026/02/18/some-game-theory-on-that-nvidia-meta-platforms-partnership/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/meta-ai-infrastructure-overview/"&gt;https://ai.meta.com/blog/meta-ai-infrastructure-overview/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">352cb3a0-2cd1-5c61-b016-e9fd9e62676e</guid>
-      <pubDate>Fri, 20 Mar 2026 16:16:38 +0000</pubDate>
-      <link>https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/</link>
+      <guid isPermaLink="false">91494079-730c-5245-abf7-590621a0af9a</guid>
+      <pubDate>Fri, 20 Mar 2026 17:36:45 +0000</pubDate>
+      <link>https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta</link>
     </item>
   </channel>
 </rss>
