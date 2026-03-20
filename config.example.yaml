@@ -1,0 +1,34 @@
+# rss-research configuration
+# Copy this to config.yaml and customize your topics.
+
+settings:
+  feeds_dir: ./feeds
+  state_dir: ./.state
+  max_entries: 30          # per feed, oldest pruned automatically
+
+feeds:
+  - id: ai-research
+    name: "AI Research Highlights"
+    description: |
+      Notable new research in machine learning and AI.
+      Focus on: papers with novel methods or surprising results, new benchmarks,
+      significant open-source releases (models, datasets, tools).
+      Skip: product launches, funding announcements, opinion pieces, hype.
+    depth: standard
+
+  - id: systems-programming
+    name: "Systems & Programming Languages"
+    description: |
+      Developments in systems programming, compilers, and language design.
+      Interested in: Rust, Zig, new compiler techniques, WebAssembly advances,
+      database internals, distributed systems papers.
+      Skip: beginner tutorials, "X vs Y" comparison posts, listicles.
+    depth: standard
+
+  - id: climate-tech
+    name: "Climate Tech & Energy"
+    description: |
+      Technical progress in clean energy, carbon capture, and climate science.
+      Focus on: peer-reviewed results, pilot project outcomes, grid-scale deployments.
+      Skip: policy debates, corporate pledges without technical substance, doom content.
+    depth: deep
