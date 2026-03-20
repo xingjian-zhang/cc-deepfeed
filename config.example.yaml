@@ -15,6 +15,7 @@ feeds:
       significant open-source releases (models, datasets, tools).
       Skip: product launches, funding announcements, opinion pieces, hype.
     depth: standard
+    # language: zh           # optional, defaults to en
 
   - id: systems-programming
     name: "Systems & Programming Languages"

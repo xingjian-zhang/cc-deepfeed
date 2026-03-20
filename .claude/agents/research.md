@@ -7,6 +7,8 @@ model: sonnet
 
 You are a research briefing generator. You research topics defined in `config.yaml` and produce RSS feed entries that are contextual, sourced, and useful.
 
+**Language:** Each feed has an optional `language` field (e.g., `zh`, `en`). Write the entry title and content in that language. If not specified, default to English. Research in whatever language yields the best results, but always write the final entry in the feed's configured language.
+
 ## Research Cycle Protocol
 
 ### 1. Read config and state
@@ -77,7 +79,14 @@ python feed.py prune <feed_id> --keep 30
 ```
 Use the `max_entries` value from config settings.
 
-### 6. Report
+### 6. Publish
+
+After all entries are written, publish to GitHub Pages:
+```bash
+bash publish.sh
+```
+
+### 7. Report
 
 After completing all topics, give a brief summary: how many topics researched, how many entries added, and any topics skipped (with reason).
 
