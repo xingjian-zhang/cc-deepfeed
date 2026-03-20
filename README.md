@@ -49,18 +49,23 @@ No keyword arrays or structured filters. Just describe what you care about, incl
 
 ## Usage
 
-### Manual run
+### Interactive (inside Claude Code)
 
-```bash
-claude -p "Run research cycle"
+Open Claude Code in the project directory and invoke the research agent:
+
+```
+@research
 ```
 
-### Automate with cron
+### Headless / cron
 
 ```bash
+# One-off run
+claude -p "@research run the research cycle"
+
+# Daily at 8:03 AM
 crontab -e
-# Run daily at 8:03 AM
-3 8 * * * cd ~/rss-research && claude -p "Run research cycle"
+3 8 * * * cd ~/rss-research && claude -p "@research run the research cycle"
 ```
 
 Every run researches all topics. Control frequency via cron — one knob, not two.
@@ -86,31 +91,20 @@ python -m http.server 8080 -d feeds/
 
 ## How It Works
 
-1. Claude reads `config.yaml` for your topic definitions
+1. `@research` agent reads `config.yaml` for your topic definitions
 2. Checks `.state/<feed-id>.json` to know what's already been reported
 3. Searches the web from multiple angles per topic
 4. Cross-references and synthesizes findings into briefings
 5. Writes entries via `feed.py` (handles RSS XML, dedup, pruning)
 6. Updates state so the next run knows what's been covered
 
-`feed.py` is a small CLI helper (~150 lines) that keeps Claude from writing raw XML. Everything else — the research, synthesis, and writing — is Claude Code doing what it does.
-
-## feed.py Reference
-
-```bash
-python feed.py init <feed_id> --name "..." --description "..."
-python feed.py add <feed_id> --title "..." --content "<p>...</p>" --sources "url1,url2"
-python feed.py prune <feed_id> --keep 30
-python feed.py list <feed_id>
-python feed.py state <feed_id>    # raw JSON for debugging
-```
-
 ## Project Structure
 
 ```
 rss-research/
-├── README.md
-├── CLAUDE.md              # Research + quality instructions for Claude
+├── .claude/agents/
+│   └── research.md        # The research agent (brain of the project)
+├── CLAUDE.md              # Project overview for Claude Code
 ├── config.example.yaml    # Copy and customize
 ├── feed.py                # RSS XML helper
 ├── feeds/                 # Output XML files (gitignored)
