@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Daily Briefings</title>
     <description>Deep research briefings on AI, tech, sports, and local news</description>
     <link>https://xingjianz.com/rss-research/daily-briefings.xml</link>
-    <lastBuildDate>Sat, 21 Mar 2026 13:12:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 16:17:04 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/rss-research/daily-briefings.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/rss-research/daily-briefings.xml" type="application/rss+xml" />
     <item>
       <title>密歇根研究生工会 GEO 新一轮谈判：合同 5 月到期，劳资关系再临考验</title>
       <description>&lt;p&gt;密歇根大学研究生员工组织（GEO）与校方的集体谈判正进入关键阶段。现行合同将于 &lt;strong&gt;2026 年 5 月 1 日&lt;/strong&gt;到期，谈判已进行多轮。&lt;/p&gt;&lt;p&gt;2026 年 2 月 17 日，GEO 在第 7 号谈判公告中披露，密歇根就业关系委员会（MERC）发出 &lt;strong&gt;28 天暂停令&lt;/strong&gt;，暂缓相关劳动程序推进，GEO 随即呼吁成员积极应对这一行政干预。2 月 9 日刚刚发出第 6 号公告，密集的通报频率反映出谈判双方角力的紧迫性。&lt;/p&gt;&lt;p&gt;背景：2023 年，GEO 经历了一次持续数周的罢工，最终以三年合同收场——第一年涨薪 8%，第二、三年各涨 6%，附加 1000 美元一次性奖金。随着该合同即将届满，研究生助教群体对住房成本高涨、生活补贴不足的抱怨持续升温，新一轮合同谈判的走向将直接影响密大数千名研究生的经济状况，也是安娜堡春季学期最值得关注的校园劳资议题。&lt;/p&gt;
@@ -375,6 +375,47 @@
       <pubDate>Sat, 21 Mar 2026 13:12:44 +0000</pubDate>
       <link>https://annarborobserver.com/in-the-works-marketplace-changes-feb-2026/</link>
       <category>umich-a2</category>
+    </item>
+    <item>
+      <title>【景观简报】RLVR 与 GRPO：2025 年以强化学习驱动 LLM 推理的变革浪潮</title>
+      <description>&lt;p&gt;&lt;strong&gt;DeepSeek-R1 开启新范式。&lt;/strong&gt;2025 年 1 月，DeepSeek 发布 R1 及其前身 R1-Zero，证明仅凭强化学习（无需监督微调冷启动）即可在 LLM 中激发出自发的推理能力。其核心算法 &lt;strong&gt;GRPO（Group Relative Policy Optimization）&lt;/strong&gt; 以组内奖励分布估计优势函数，彻底去掉了 PPO 所需的值函数模型，也省去了独立的奖励模型，大幅压缩了训练成本。R1-Zero 在 AIME 2024 上的 pass@1 从 15.6% 跃升至 71.0%，多数投票后达 86.7%，媲美 OpenAI o1-0912。该论文已发表于 &lt;em&gt;Nature&lt;/em&gt;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RLVR（Reinforcement Learning with Verifiable Rewards）&lt;/strong&gt; 是更广泛的方法论标签，指用符号验证器或规则工具提供二元反馈，绕过人类偏好标注。2025 年间，OpenAI、Anthropic、Google 等主要实验室纷纷发布推理模型变体，RLVR+GRPO 成为事实上的行业范式。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;围绕 RLVR 的学术争论。&lt;/strong&gt;然而，研究界对其本质存在争议。清华大学的研究发现，RLVR 训练后模型生成的推理路径仍在基础模型的原始分布范围内，更像是压缩搜索（提高采样效率），而非真正扩展了推理容量。另一项论文（arXiv:2506.14245，入选 ICLR 2026 poster）则从理论角度论证 RLVR 在训练早期确实能激励正确推理，并带来推理质量的实质提升。这一争论尚未有定论，但已推动社区开始寻求更严格的评估框架。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ThinkPRM：生成式过程奖励模型。&lt;/strong&gt;传统 PRM 以判别分类器逐步打分，Apple Research 于 2025 年 4 月发布 &lt;strong&gt;ThinkPRM&lt;/strong&gt;（arXiv:2504.16828），将验证过程本身重构为长链式思考（CoT）生成任务。ThinkPRM 仅需 PRM800K 1% 的过程标注即可超越全量判别式验证器：在 ProcessBench、MATH-500 和 AIME'24 的 best-of-N 选择与奖励引导搜索场景下均优于基线；在 GPQA-Diamond 和 LiveCodeBench 的域外评估中分别高出 8% 和 4.5%。这标志着奖励建模正在从判别走向生成+推理。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;展望。&lt;/strong&gt;RL 训练的 LLM 正在被用于越来越宽泛的领域——数学与代码之外，化学、生物等可验证场景将是下一个前沿。ICLR 2026 的 Meta FAIR 团队贡献了一篇用 GRPO 联合优化 thoughts/scores/judgments 的论文，在 8B 和 70B 规模上超越 o1-mini，在部分基准上接近 R1 水平，显示 GRPO 的潜力仍未被充分发掘。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2501.12948"&gt;https://arxiv.org/abs/2501.12948&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-09422-z"&gt;https://www.nature.com/articles/s41586-025-09422-z&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2504.16828"&gt;https://arxiv.org/abs/2504.16828&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2506.14245"&gt;https://arxiv.org/abs/2506.14245&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://limit-of-rlvr.github.io/"&gt;https://limit-of-rlvr.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5ba64e06-2527-558c-b00b-507323c3909d</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:02 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2501.12948</link>
+    </item>
+    <item>
+      <title>MSL 内部权力角力浮出水面：Wang 与 Cox/Bosworth 矛盾公开，Meta 辟谣「被架空」传言</title>
+      <description>&lt;p&gt;3 月 9 日至 10 日，围绕 Alexandr Wang 在 Meta 内部地位的争议突然升温：一篇印度媒体报道将 Meta 新设应用 AI 工程组（Maher Saba 领导，向 CTO Andrew Bosworth 汇报）解读为 Wang 被架空的信号，消息随即在科技圈广泛流传。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meta 的公开辟谣极为罕见且措辞强硬。&lt;/strong&gt;发言人 Andy Stone 在 X 上直接将相关报道定性为「完全错误」（「Totally false」），并逐条反驳：Wang「帮助创建了新团队、仍然主导 MSL 和 TBD Lab，其影响力是在扩大而非萎缩。」该报道此后已被原媒体更正。&lt;/p&gt;
+
+&lt;p&gt;然而，辟谣本身也从侧面坐实了外界对 MSL 内部张力的持续关注。据 2025 年 12 月《金融时报》的早期报道，Wang 曾私下对同事表达在 Zuckerberg 的高压管控下感到「窒息」（suffocated）。而当前更实质性的冲突线索是：Wang 与首席产品官 Chris Cox 及 CTO Andrew Bosworth 之间的战略分歧——后两者希望将 MSL 的 AI 能力与 Meta 的广告业务深度绑定，而 Wang 主导的方向更侧重技术竞争力本身。正是这一分歧催生了独立于 MSL 的应用 AI 工程组。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Avocado 的性能短板让内部张力更加棘手。&lt;/strong&gt;最新披露的基准细节显示，Avocado 的目标是在 SWE-bench Verified（代码自主修复基准）上达到约 60% 的得分，而 Anthropic Claude Opus 4.5 目前以约 80.9% 的成绩领跑同一榜单，Gemini 3.1 Pro 也已达到 80.6%。这意味着即便 Avocado 如期在 5 月发布，其推理与编程能力仍将落后竞争对手约 20 个百分点——这在以「超级智能」为旗帜的 MSL 内部无疑是沉重的压力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为何值得关注：&lt;/strong&gt;MSL 成立时的核心叙事是「用 Scale AI 的数据飞轮 + 精英研究团队打赢 AI 军备竞赛」。如今，旗舰模型延期、开源 Llama 4 因基准造假争议声誉受损、组织内部双线权力结构引发猜测——三重压力同时叠加，正在考验 Zuckerberg 这笔逾 140 亿美元押注的实际回报。Wang 能否在 Avocado 发布前稳住队伍、拿出让市场信服的成绩，将是 MSL 接下来数月最关键的观察点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.benzinga.com/markets/tech/26/03/51148272/meta-shuts-down-rumors-mark-zuckerberg-sidelined-chief-ai-officer-alexandr-wang-spokesperson-calls-report-false-this-is-so-silly"&gt;https://www.benzinga.com/markets/tech/26/03/51148272/meta-shuts-down-rumors-mark-zuckerberg-sidelined-chief-ai-officer-alexandr-wang-spokesperson-calls-report-false-this-is-so-silly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techbuzz.ai/articles/meta-s-avocado-ai-model-delayed-as-internal-tensions-rise"&gt;https://www.techbuzz.ai/articles/meta-s-avocado-ai-model-delayed-as-internal-tensions-rise&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://piunikaweb.com/2026/03/10/meta-denies-rumors-zuckerberg-sidelined-ai-chief-alexandr-wang/"&gt;https://piunikaweb.com/2026/03/10/meta-denies-rumors-zuckerberg-sidelined-ai-chief-alexandr-wang/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://llm-stats.com/benchmarks/swe-bench-verified"&gt;https://llm-stats.com/benchmarks/swe-bench-verified&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3d5b3346-2195-526d-bb4b-603441bc7400</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:04 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.benzinga.com/markets/tech/26/03/51148272/meta-shuts-down-rumors-mark-zuckerberg-sidelined-chief-ai-officer-alexandr-wang-spokesperson-calls-report-false-this-is-so-silly</link>
     </item>
   </channel>
 </rss>
