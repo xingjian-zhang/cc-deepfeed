@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss version="2.0">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>足球赛事动态</title>
     <description>全球主要足球赛事赛果与动态</description>
@@ -46,5 +46,7 @@
       <pubDate>Sat, 21 Mar 2026 13:11:45 +0000</pubDate>
       <link>https://k.sina.com.cn/article_7857201856_1d45362c001903foyc.html</link>
     </item>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <atom:link rel="self" href="https://xingjianz.com/rss-research/soccer.xml" type="application/rss+xml" />
   </channel>
 </rss>

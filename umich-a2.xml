@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss version="2.0">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>密歇根大学与安娜堡动态</title>
     <description>University of Michigan（密歇根大学）与 Ann Arbor（安娜堡）本地新闻</description>
@@ -100,5 +100,7 @@
       <pubDate>Sat, 21 Mar 2026 13:12:44 +0000</pubDate>
       <link>https://annarborobserver.com/in-the-works-marketplace-changes-feb-2026/</link>
     </item>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <atom:link rel="self" href="https://xingjianz.com/rss-research/umich-a2.xml" type="application/rss+xml" />
   </channel>
 </rss>
