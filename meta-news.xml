@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Meta Scalable Intelligence (MSL/SI Lab) 及相关 Meta AI 动态</description>
     <link>file://rss-research/feeds/meta-news.xml</link>
-    <lastBuildDate>Sat, 21 Mar 2026 04:06:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 13:10:14 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>Meta MTIA 芯片四代路线图发布：两年内将自研硅片 HBM 带宽提升 4.5 倍</title>
@@ -101,6 +101,51 @@
       <guid isPermaLink="false">5abd5c94-9fcb-55c5-9d92-d993aef89768</guid>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       <link>https://www.geekqu.com/meta-avocado-ai-model-delay/</link>
+    </item>
+    <item>
+      <title>LeCun 出走 Meta 创立 AMI Labs：融资 10.3 亿美元押注「世界模型」对抗 LLM 范式</title>
+      <description>&lt;p&gt;2026 年 3 月 10 日，图灵奖得主 Yann LeCun 正式宣布创立 &lt;strong&gt;AMI Labs&lt;/strong&gt;（Advanced Machine Intelligence Labs），并完成史上规模最大的种子轮融资——&lt;strong&gt;10.3 亿美元&lt;/strong&gt;，估值约 45 亿美元（pre-money 35 亿美元）。投资方包括 NVIDIA、Jeff Bezos、Eric Schmidt 及多家欧亚顶级基金。&lt;/p&gt;&lt;p&gt;AMI Labs 的技术核心是 LeCun 在 Meta 期间提出并开发的 &lt;strong&gt;JEPA（联合嵌入预测架构）&lt;/strong&gt;框架。与 GPT 类模型逐词生成文本不同，JEPA 通过学习数据的抽象表示（而非直接重建）来理解物理世界规律，并支持规划与行动。Meta 已发布的 V-JEPA 2（基于逾百万小时互联网视频训练）是该路线的早期验证，已被集成至机器人零样本操作任务中。AMI Labs 将在此基础上大幅扩展规模。&lt;/p&gt;&lt;p&gt;LeCun 离职时明确表态：「研究者不应被告知该做什么」，并批评 Llama 4 基准测试数据曾被「稍微篡改」。此次离职源于 Meta 2025 年中重组后，研究话语权向 Alexandr Wang 领导的 MSL 倾斜，LeCun 主导的 FAIR 长期路线与管理层优先项发生实质冲突。&lt;/p&gt;&lt;p&gt;对于 Meta 而言，这意味着失去了全球最具公众影响力的 AI 科学家。AMI Labs 的成立本身也是对 LLM 主流范式的公开挑战，将为「世界模型」方向吸引更多研究者和资本。Meta FAIR 现由 Rob Fergus 主持，其与 MSL 的协作关系仍待观察。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"&gt;https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/"&gt;https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fastcompany.com/91469583/yann-lecun-meta-llama-4-model-zuckerberg"&gt;https://www.fastcompany.com/91469583/yann-lecun-meta-llama-4-model-zuckerberg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://siliconangle.com/2026/03/10/yann-lecuns-new-startup-ami-labs-raises-1-03b-train-world-models/"&gt;https://siliconangle.com/2026/03/10/yann-lecuns-new-startup-ami-labs-raises-1-03b-train-world-models/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">24231ba8-3daa-5e6f-bd9d-869f4581bfb3</guid>
+      <pubDate>Sat, 21 Mar 2026 13:09:38 +0000</pubDate>
+      <link>https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/</link>
+    </item>
+    <item>
+      <title>Avocado 延期最新进展：性能卡在 Gemini 2.5 与 3 之间，Meta 考虑授权 Google 技术应急</title>
+      <description>&lt;p&gt;上期简报（3 月 19 日）已报道 Avocado 模型推迟至 5 月的消息，本周有更多细节披露。据多方报道，Avocado 当前内部测试成绩&lt;strong&gt;处于 Google Gemini 2.5 与 Gemini 3 之间&lt;/strong&gt;，在复杂推理、编程、写作三项核心指标上未能超越 Gemini 3.0，与 OpenAI 及 Anthropic 旗舰模型相比亦存在差距。&lt;/p&gt;&lt;p&gt;为避免 Meta AI 产品出现能力空窗，管理层内部讨论了&lt;strong&gt;临时授权 Google Gemini 技术&lt;/strong&gt;的备选方案。目前尚无正式决定，但这一讨论本身揭示了 MSL 当前所承受的交付压力——尤其是在 Meta 宣布 2026 年全年资本开支将达 1150 亿至 1350 亿美元的背景下，外界对于 Avocado 能否证明投入价值十分关注。&lt;/p&gt;&lt;p&gt;Meta 发言人表示，公司计划在不久后发布 Avocado 以展示技术轨迹，并在 2026 年全年持续推出前沿模型。分析人士注意到，Avocado 延期的直接后果之一是 LlamaCon（2025 年 4 月首届）等开发者生态活动的节奏可能受到影响。MSL 现任负责人 Alexandr Wang 此前承诺该模型将「挑战同期最强竞对」，当前局面使这一表态面临验证压力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://mlq.ai/news/meta-postpones-avocado-ai-model-launch-to-may-amid-performance-gaps-with-competitors/"&gt;https://mlq.ai/news/meta-postpones-avocado-ai-model-launch-to-may-amid-performance-gaps-with-competitors/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"&gt;https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pymnts.com/news/artificial-intelligence/2026/meta-avocado-delay-puts-135-billion-dollar-ai-bet-under-scrutiny/"&gt;https://www.pymnts.com/news/artificial-intelligence/2026/meta-avocado-delay-puts-135-billion-dollar-ai-bet-under-scrutiny/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://creati.ai/ai-news/2026-03-14/meta-delays-avocado-ai-model-launch-may-2026-performance-concerns-gemini-licensing/"&gt;https://creati.ai/ai-news/2026-03-14/meta-delays-avocado-ai-model-launch-may-2026-performance-concerns-gemini-licensing/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">36d21e87-7646-5be0-878e-aac8463e0cc2</guid>
+      <pubDate>Sat, 21 Mar 2026 13:09:56 +0000</pubDate>
+      <link>https://mlq.ai/news/meta-postpones-avocado-ai-model-launch-to-may-amid-performance-gaps-with-competitors/</link>
+    </item>
+    <item>
+      <title>NVIDIA GTC 2026：Vera Rubin 平台正式发布，Jensen Huang 预估 Blackwell+Rubin 订单规模超万亿美元</title>
+      <description>&lt;p&gt;3 月 16 日，NVIDIA CEO Jensen Huang 在 GTC 2026 主旨演讲中正式发布 &lt;strong&gt;Vera Rubin AI 平台&lt;/strong&gt;——这是一套机架级超算系统，将全新 Vera CPU 与 Rubin GPU 架构结合，主打 Agentic AI 工作负载。官方数据称其每瓦性能是前代 Grace Blackwell 的 10 倍，系统由 130 万个组件构成。&lt;/p&gt;&lt;p&gt;Huang 透露，Blackwell 与 Vera Rubin 的合计采购订单预计在 2027 年前突破&lt;strong&gt;万亿美元&lt;/strong&gt;，是此前 5000 亿美元预测的两倍。这一数字直接关联 Meta——后者与 NVIDIA 已签署全栈深度合作，并通过 Nebius 五年 270 亿美元框架协议锁定了首批 Vera Rubin 机架产能。&lt;/p&gt;&lt;p&gt;GTC 另一看点是 &lt;strong&gt;Nvidia Groq 3 LPU&lt;/strong&gt;（语言处理单元）亮相，这是 NVIDIA 以 200 亿美元收购 Groq 资产后首款集成产品，预计 Q3 出货。Huang 称 Groq LPX 机架可将 Rubin GPU 的 token/瓦性能提升 35 倍，实现高吞吐与低延迟的统一。路线图方面，&lt;strong&gt;Kyber&lt;/strong&gt; 架构（Rubin 的继任者）已展示原型，144 颗 GPU 竖排排列以提升密度，预计 2027 年随 Vera Rubin Ultra 推出。&lt;/p&gt;&lt;p&gt;对 Meta MSL 而言，Vera Rubin 的落地时间表直接影响 Avocado 之后模型（内部代号未公开）的训练成本与算力可用性，是需要持续跟踪的基础设施变量。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"&gt;https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang"&gt;https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.datacenterknowledge.com/data-center-chips/gtc-2026-nvidia-unveils-vera-rubin-ai-platform-eyes-1t-by-2027"&gt;https://www.datacenterknowledge.com/data-center-chips/gtc-2026-nvidia-unveils-vera-rubin-ai-platform-eyes-1t-by-2027&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techrepublic.com/article/news-nvidia-gtc-2026-recap/"&gt;https://www.techrepublic.com/article/news-nvidia-gtc-2026-recap/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">26dba868-7bc1-588d-bbb3-4039968a2a40</guid>
+      <pubDate>Sat, 21 Mar 2026 13:10:14 +0000</pubDate>
+      <link>https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html</link>
     </item>
   </channel>
 </rss>
