@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <rss version="2.0">
   <channel>
     <title>Meta SI Lab 动态</title>
     <description>Meta Scalable Intelligence (MSL/SI Lab) 及相关 Meta AI 动态</description>
     <link>file://rss-research/feeds/meta-news.xml</link>
-    <lastBuildDate>Fri, 20 Mar 2026 17:36:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 04:06:19 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>Meta MTIA 芯片四代路线图发布：两年内将自研硅片 HBM 带宽提升 4.5 倍</title>
@@ -88,6 +88,19 @@
       <guid isPermaLink="false">91494079-730c-5245-abf7-590621a0af9a</guid>
       <pubDate>Fri, 20 Mar 2026 17:36:45 +0000</pubDate>
       <link>https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta</link>
+    </item>
+    <item>
+      <title>Avocado 模型发布推迟至 5 月，Meta 考虑临时授权 Google Gemini</title>
+      <description>&lt;p&gt;Meta 旗舰文本大模型 &lt;strong&gt;Avocado&lt;/strong&gt; 原计划于 2026 年 3 月发布，现已推迟至 &lt;strong&gt;5 月或更晚&lt;/strong&gt;。据《纽约时报》和路透社报道，内部测试显示 Avocado 在多项基准测试中仅介于 Google Gemini 2.5 与 Gemini 3.0 之间，落后于 OpenAI 和 Anthropic 的最新系统。&lt;/p&gt;&lt;p&gt;为避免发布一款竞争力不足的产品损害公信力，Meta 选择延长开发周期，重点强化 Avocado 的推理能力、编程辅助与语言处理表现。更引人关注的是，据报道 Meta 正考虑&lt;strong&gt;临时授权 Google Gemini 技术&lt;/strong&gt;作为过渡方案——这对于一家长期以开源 Llama 系列标榜自身 AI 路线的公司而言，是一次显著的战略转向。&lt;/p&gt;&lt;p&gt;此次推迟发生在 Meta 宣布 2026 年将投入 &lt;strong&gt;1150 亿至 1350 亿美元&lt;/strong&gt;用于 AI 基础设施的背景下，也紧随 Meta Superintelligence Labs（MSL）成立、Alexandr Wang 出任首席 AI 官之后。上周报道的 MSL 架构搭建（新成立应用 AI 工程组由 Maher Saba 主导、Moltbook 收购入队）显示出组织层面的快速集结，而 Avocado 的延迟则提醒外界：模型能力追赶仍是 MSL 面临的核心挑战。&lt;/p&gt;&lt;p&gt;与 Avocado 配套的图像/视频生成模型 &lt;strong&gt;Mango&lt;/strong&gt; 目前尚无延迟报道，首半年内发布的目标据悉维持不变。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.geekqu.com/meta-avocado-ai-model-delay/"&gt;https://www.geekqu.com/meta-avocado-ai-model-delay/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/"&gt;https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5abd5c94-9fcb-55c5-9d92-d993aef89768</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://www.geekqu.com/meta-avocado-ai-model-delay/</link>
     </item>
   </channel>
 </rss>
