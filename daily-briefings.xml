@@ -4,7 +4,7 @@
     <title>Daily Briefings</title>
     <description>Deep research briefings on AI, tech, sports, and local news</description>
     <link>https://xingjianz.com/rss-research/daily-briefings.xml</link>
-    <lastBuildDate>Sat, 21 Mar 2026 16:17:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 16:18:35 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/rss-research/daily-briefings.xml" type="application/rss+xml" />
@@ -416,6 +416,210 @@
       <pubDate>Sat, 21 Mar 2026 16:17:04 +0000</pubDate>
       <category>meta-news</category>
       <link>https://www.benzinga.com/markets/tech/26/03/51148272/meta-shuts-down-rumors-mark-zuckerberg-sidelined-chief-ai-officer-alexandr-wang-spokesperson-calls-report-false-this-is-so-silly</link>
+    </item>
+    <item>
+      <title>【景观简报】LLM Agent 记忆体系：从 RAG 到 Episodic/Semantic/Procedural 分层架构</title>
+      <description>&lt;p&gt;&lt;strong&gt;为什么 agent 记忆变得关键。&lt;/strong&gt;上下文窗口的扩大（Gemini 2.5 达百万 token）解决了短期信息容纳问题，但跨会话的长期知识留存仍是核心挑战。研究界正在系统性地将人类记忆学的分类框架——&lt;strong&gt;情节记忆（episodic）&lt;/strong&gt;存储具体经历、&lt;strong&gt;语义记忆（semantic）&lt;/strong&gt;存储世界知识与概念、&lt;strong&gt;程序记忆（procedural）&lt;/strong&gt;编码技能执行方式——移植到 LLM agent 架构中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A-MEM：类 Zettelkasten 的动态记忆网络。&lt;/strong&gt;AGI Research Institute 于 2025 年 2 月发布 &lt;strong&gt;A-MEM&lt;/strong&gt;（arXiv:2502.12110，NeurIPS 2025 收录）。A-MEM 受 Zettelkasten 笔记法启发，为每条新记忆生成包含上下文描述、关键词和标签的结构化笔记，并在集成时触发对历史记忆的联动更新，形成持续演化的知识网络。在六种基础模型上的实验均显示出对已有 SOTA 基线的明显提升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MemRL：运行时 RL 驱动的情节记忆自进化。&lt;/strong&gt;2026 年 1 月的论文 &lt;strong&gt;MemRL&lt;/strong&gt;（arXiv:2601.03192）明确将模型的稳定认知推理与动态情节记忆解耦，引入 Intent-Experience-Utility 三元组来协调稳定性与可塑性的矛盾，实现无需微调的在线 agent 学习。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AgeMem：将记忆操作本身变成可训练的 RL 策略。&lt;/strong&gt;2026 年 1 月的 &lt;strong&gt;AgeMem&lt;/strong&gt; 将五种记忆操作（存储、检索、更新、摘要、丢弃）定义为 agent 策略中的可调用工具，再用 RL 端到端优化整个记忆管理流程，是将 RL 应用于记忆系统最彻底的尝试之一。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;更大图景：超越 RAG。&lt;/strong&gt;VentureBeat 预测 2026 年上下文记忆将在 agentic 场景中取代传统 RAG。ICLR 2026 批准了 &lt;strong&gt;MemAgents 工作坊&lt;/strong&gt;，专门讨论基于 LLM 的 agent 系统中的记忆机制，可见该方向已被学界视为独立研究分支。MIRIX 系统则走向极致模块化——核心记忆、情节记忆、语义记忆、程序记忆、资源库、知识仓库六层并行，这一方向的碎片化同时也意味着标准化接口的缺失，预计 2026 年内会出现整合性框架。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2502.12110"&gt;https://arxiv.org/abs/2502.12110&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2601.03192"&gt;https://arxiv.org/html/2601.03192&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2603.07670"&gt;https://arxiv.org/html/2603.07670&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://openreview.net/pdf?id=U51WxL382H"&gt;https://openreview.net/pdf?id=U51WxL382H&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">baecb779-9ae2-56af-a624-7ecd6662c77b</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:23 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2502.12110</link>
+    </item>
+    <item>
+      <title>英超第 31 轮周六赛果：布莱顿 2-1 击败利物浦，韦尔贝克梅开二度</title>
+      <description>&lt;p&gt;北京时间 3 月 21 日，英超第 31 轮周六赛事全面展开。&lt;strong&gt;布莱顿 2-1 击败利物浦&lt;/strong&gt;，老将丹尼·韦尔贝克（Danny Welbeck）梅开二度，是本场最大功臣。利物浦先由克尔克兹（Milos Kerkez）补时扳平，但随即再度落后，最终饮恨。这是布莱顿近五场比赛的第四场胜利，帮助主队重返积分榜前半区。&lt;/p&gt;&lt;p&gt;对利物浦而言，此役代价沉重：球队已从早前的积分榜前四滑落至第五，与领跑的阿森纳（70 分）差距进一步扩大，欧冠资格席位的争夺愈发被动。值得关注的是，利物浦在&lt;strong&gt;欧冠四分之一决赛&lt;/strong&gt;（4 月 7-8 日首回合）将面对大巴黎，状态低迷在时间节点上尤为不利。&lt;/p&gt;&lt;p&gt;同日其他赛果：&lt;strong&gt;富勒姆 0-0 伯恩利&lt;/strong&gt;（平局）。周日还将上演英超焦点战：纽卡斯尔 vs 桑德兰（德比）、阿斯顿维拉 vs 西汉姆、热刺 vs 诺丁汉森林。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/report/_/gameId/740898"&gt;https://www.espn.com/soccer/report/_/gameId/740898&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.vavel.com/en-us/soccer/2026/03/21/1254871-brighton-vs-liverpool-live-score-premier-league.html"&gt;https://www.vavel.com/en-us/soccer/2026/03/21/1254871-brighton-vs-liverpool-live-score-premier-league.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a3ab3bb7-329a-56e9-bdaa-4aae6fda3ede</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:25 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.espn.com/soccer/report/_/gameId/740898</link>
+    </item>
+    <item>
+      <title>德甲第 27 轮：拜仁 4-0 横扫联柏林，奥利斯、格纳布里、凯恩轮番破门</title>
+      <description>&lt;p&gt;北京时间 3 月 21 日，2025-26 赛季&lt;strong&gt;德甲第 27 轮&lt;/strong&gt;，拜仁慕尼黑在安联球场以 &lt;strong&gt;4-0 大胜联柏林&lt;/strong&gt;，凭借这场完胜进一步巩固德甲领头羊地位。&lt;/p&gt;&lt;p&gt;进球分布：&lt;strong&gt;迈克尔·奥利斯&lt;/strong&gt;（Michael Olise）率先在禁区中路以左脚劲射破门，打开比分；&lt;strong&gt;塞尔日·格纳布里&lt;/strong&gt;（Serge Gnabry）随后低射近角，锁定优势；&lt;strong&gt;哈里·凯恩&lt;/strong&gt;（Harry Kane）再以右脚精射将比分扩大至 3-0，最终拜仁完成 4-0 的大比分胜利。&lt;/p&gt;&lt;p&gt;全场比赛拜仁主导控球，联柏林几无反击之机。这是拜仁本赛季德甲第 27 场比赛，持续领跑积分榜。&lt;/p&gt;&lt;p&gt;就更宏观背景而言，拜仁下月还将迎战&lt;strong&gt;皇家马德里&lt;/strong&gt;（欧冠四分之一决赛首回合 4 月 7-8 日），此役 4-0 大胜有助于主帅文森佐·孔帕尼（Vincent Kompany）稳定球队状态，为双线作战积蓄士气。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.vavel.com/en-us/soccer/2026/03/21/1254835-bayern-vs-union-berlin-live-score-bundesliga-match.html"&gt;https://www.vavel.com/en-us/soccer/2026/03/21/1254835-bayern-vs-union-berlin-live-score-bundesliga-match.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.foxsports.com/soccer/bundesliga-bayern-munich-vs-fc-union-berlin-mar-21-2026-game-boxscore-631825"&gt;https://www.foxsports.com/soccer/bundesliga-bayern-munich-vs-fc-union-berlin-mar-21-2026-game-boxscore-631825&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">77131765-742e-57ff-b44c-55ff403eb7f5</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:38 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.vavel.com/en-us/soccer/2026/03/21/1254835-bayern-vs-union-berlin-live-score-bundesliga-match.html</link>
+    </item>
+    <item>
+      <title>【景观简报】Agent 框架格局：OpenAI Agents SDK、Google ADK、LangGraph 1.0 与 MCP 生态标准化</title>
+      <description>&lt;p&gt;&lt;strong&gt;框架竞争格局快速成型。&lt;/strong&gt;2025 年是 agent 框架的爆发年，各主要玩家在短短 12 个月内完成了从实验性工具到生产级平台的蜕变。以下是当前格局的核心坐标：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;OpenAI Agents SDK&lt;/strong&gt;（2025 年 3 月发布）：极简主义设计，专注多 agent 工作流、tracing 与 guardrails，兼容 100+ LLM，已积累 19,000+ GitHub stars，月均下载量 1030 万。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Google ADK&lt;/strong&gt;（2025 年 4 月发布，已至 v1.26.0）：针对 Gemini 优化，但支持其他模型；深度集成 Google 云服务与 Vertex AI。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;LangGraph 1.0 GA&lt;/strong&gt;（2025 年 10 月正式发布，当前 v1.0.10）：图状态机范式，支持持久化状态、human-in-the-loop 和流式执行，已成为需要精细控制流的生产部署首选。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Microsoft Agent Framework&lt;/strong&gt;：将 AutoGen v0.4（2025 年 1 月完全重构，引入异步事件驱动架构）与 Semantic Kernel 合并，于 2026 年 2 月 19 日发布 Release Candidate，提供图状态工作流、A2A 与 MCP 协议支持、checkpointing 和 human-in-the-loop。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;（v1.10.1，44,600+ stars）：原生支持 MCP 与 A2A 协议。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;MCP 成为行业标准基础设施。&lt;/strong&gt;Model Context Protocol 是 2024-2025 年间最重要的技术标准化事件之一。Anthropic 于 2024 年 11 月发布 MCP，随后在 2025 年 12 月将其捐赠给 Linux Foundation 旗下新成立的 &lt;strong&gt;Agentic AI Foundation（AAIF）&lt;/strong&gt;，由 Anthropic、Block 和 OpenAI 联合创立。目前 MCP 生态已有 5,800+ 服务端、300+ 客户端，月均 SDK 下载量 9700 万，被 ChatGPT、Claude、Cursor、Gemini、VS Code、Microsoft Copilot 等主流平台直接支持。GitHub 和 Microsoft 在 Build 2025 上宣布加入 MCP 指导委员会。&lt;strong&gt;2026 年 MCP 路线图&lt;/strong&gt;的重点是触发器与事件驱动更新、流式与引用式结果类型、更深入的安全授权机制，以及拓展扩展生态。MCP Dev Summit 北美站定于 2026 年 4 月 2-3 日举行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A2A 协议与跨 agent 通信。&lt;/strong&gt;伴随 MCP（模型-工具通信）的成熟，Google 主导的 Agent-to-Agent（A2A）协议聚焦 agent 间的标准化协作消息格式，CrewAI 和 Microsoft Agent Framework 已率先支持。这两层协议的组合，正在构建 agent 间互操作性的完整栈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;格局总结。&lt;/strong&gt;Gartner 预测 2026 年底前企业应用中采用 agent 的比例将从 5% 以下升至 40%。框架层面的分化正在缩小：事件驱动架构、持久化状态和 MCP 支持已成为入场券而非差异化要素，框架竞争的核心将转向调试体验、安全护栏和跨云编排能力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation"&gt;https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/"&gt;https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/"&gt;https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://openai.com/index/agentic-ai-foundation/"&gt;https://openai.com/index/agentic-ai-foundation/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f75d294a-bcfa-59d5-8cc8-75393dc86062</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:49 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation</link>
+    </item>
+    <item>
+      <title>三星 Galaxy S26 系列发布：全球首款 2nm 智能手机芯片 + 硬件级防窥屏</title>
+      <description>&lt;p&gt;2026 年 2 月 26 日，三星在旧金山 Galaxy Unpacked 发布会上推出 &lt;strong&gt;Galaxy S26 / S26+ / S26 Ultra&lt;/strong&gt; 三款新机，国行版于 3 月 6 日正式发货，起售价 &lt;strong&gt;6,999 元&lt;/strong&gt;（S26）、7,999 元（S26+）、9,999 元（S26 Ultra）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最大亮点一：Exynos 2600 — 全球首款 2nm 智能手机芯片&lt;/strong&gt;&lt;br&gt;
+S26 和 S26+ 的欧洲版搭载三星自研 &lt;strong&gt;Exynos 2600&lt;/strong&gt;，采用 GAA（Gate-All-Around）2nm 工艺，10 核 CPU（1 超大核 + 3 大核 + 6 能效核），GPU 换用 Xclipse 960，官方称图形性能较上代 Xclipse 950 提升 &lt;strong&gt;2 倍&lt;/strong&gt;，NPU 推理提速约 113%，同时首次不集成蜂窝基带（外挂 Shannon 5410 调制解调器）。中国、韩国及北美市场版本则搭载高通&lt;strong&gt;第五代骁龙 8 至尊版（Snapdragon 8 Elite Gen 5）&lt;/strong&gt;。S26 Ultra 则全球统一使用骁龙 8 Elite Gen 5。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最大亮点二：硬件级防窥显示屏&lt;/strong&gt;&lt;br&gt;
+Galaxy S26 Ultra 历史首次搭载内置物理防窥层 OLED。屏幕通过控制像素发光角度，切换至「防窥模式」后仅正面可见内容，侧面旁观者看到的是黑屏。这一实现基于&lt;strong&gt;宽角像素与窄角像素双层架构&lt;/strong&gt;，由软件动态开关；&lt;a href=https://www.androidcentral.com/phones/samsung-galaxy/galaxy-s26-ultra-display-review&gt;Android Central&lt;/a&gt; 的实测称防窥效果接近贴膜级，但峰值亮度略有损失。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;其他规格要点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;S26 Ultra：6.9 英寸 LTPO AMOLED 2X（2600 nits），骁龙 8 Elite Gen 5，2 亿像素主摄 + f/1.4 光圈，5000mAh 电池，&lt;strong&gt;60W 快充&lt;/strong&gt;（较 S25 Ultra 的 45W 大幅提升）&lt;/li&gt;
+  &lt;li&gt;S26 / S26+：最高 45W 快充；存储起步升至 12GB+256GB&lt;/li&gt;
+  &lt;li&gt;全系引入 Galaxy AI 第三代，支持「On-device」与「Cloud」双模自动切换&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;为何值得关注：&lt;/strong&gt; Exynos 2600 标志着三星晶圆代工在 2nm GAA 工艺上的商业落地，与台积电 N3E（苹果 A19 Pro 采用）形成直接竞争。尽管中国版不用 Exynos，但该芯片的成败将深刻影响三星未来是否在 Galaxy S27 上扩大自研比例。防窥屏若口碑良好，预计 OPPO、vivo 等厂商将在 2026 年下半年跟进。&lt;/p&gt;
+
+&lt;p&gt;参考来源：&lt;a href="https://www.ifanr.com/1655822"&gt;爱范儿评测&lt;/a&gt;、&lt;a href="https://www.pingwest.com/a/311637"&gt;品玩报道&lt;/a&gt;、&lt;a href="https://www.gsmarena.com/samsung_galaxy_s26_ultra_s26_plus_s26_handson-review-2935p4.php"&gt;GSMArena 上手&lt;/a&gt;、&lt;a href="https://www.androidcentral.com/phones/samsung-galaxy/galaxy-s26-ultra-display-review"&gt;Android Central 屏幕评测&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.ifanr.com/1655822"&gt;https://www.ifanr.com/1655822&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pingwest.com/a/311637"&gt;https://www.pingwest.com/a/311637&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gsmarena.com/samsung_galaxy_s26_ultra_s26_plus_s26_handson-review-2935p4.php"&gt;https://www.gsmarena.com/samsung_galaxy_s26_ultra_s26_plus_s26_handson-review-2935p4.php&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidcentral.com/phones/samsung-galaxy/galaxy-s26-ultra-display-review"&gt;https://www.androidcentral.com/phones/samsung-galaxy/galaxy-s26-ultra-display-review&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e3c94851-143f-5d38-8ed4-66037c40516c</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:51 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.ifanr.com/1655822</link>
+    </item>
+    <item>
+      <title>2026 世界杯欧洲区附加赛对阵出炉：意大利战北爱尔兰，波黑迎战威尔士，3 月 26 日开打</title>
+      <description>&lt;p&gt;2026 年北美世界杯欧洲区预选赛最终阶段——&lt;strong&gt;16 队附加赛&lt;/strong&gt;——对阵正式敲定。共 4 条赛道（Path A–D），每路 4 队淘汰赛制，仅路段冠军直接晋级世界杯正赛。半决赛定于&lt;strong&gt;3 月 26 日&lt;/strong&gt;，决赛于&lt;strong&gt;3 月 31 日&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;赛道与对阵如下：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;A 路&lt;/strong&gt;：意大利 vs 北爱尔兰、威尔士 vs 波黑 → A 路决赛&lt;/li&gt;&lt;li&gt;&lt;strong&gt;B 路&lt;/strong&gt;：乌克兰 vs 瑞典、波兰 vs 阿尔巴尼亚 → B 路决赛&lt;/li&gt;&lt;li&gt;&lt;strong&gt;C 路&lt;/strong&gt;：土耳其 vs 罗马尼亚、斯洛伐克 vs 科索沃 → C 路决赛&lt;/li&gt;&lt;li&gt;&lt;strong&gt;D 路&lt;/strong&gt;：丹麦 vs 北马其顿、捷克 vs 爱尔兰共和国 → D 路决赛&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;12 队来自小组赛各组第二，另有 4 队（罗马尼亚、瑞典、北马其顿、北爱尔兰）通过 2024-25 欧国联附加资格获得参赛席位。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;最受关注的是意大利&lt;/strong&gt;：四届世界杯冠军在 2022 年卡塔尔世界杯小组赛都未能出线，若本次再折戟将是历史性奇耻大辱。意大利主场坐镇贝加莫迎战北爱尔兰，纸面实力占优，但欧洲附加赛历来爆冷不罕见。另一焦点是波兰的卡茨珀·克里霍维亚克（Kacper Kozlowski）领衔出战阿尔巴尼亚，英超球星辈出的乌克兰（萨林加特、穆德里克等）对阵瑞典亦值得期待。&lt;/p&gt;&lt;p&gt;胜出的 4 支球队将进入 2026 年 6 月开幕的美加墨世界杯正赛。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/story/_/id/48223034/2026-world-cup-european-playoffs-explained-how-works-teams-schedule-how-watch-uk-tv-channel-italy-wales-northern-ireland-republic"&gt;https://www.espn.com/soccer/story/_/id/48223034/2026-world-cup-european-playoffs-explained-how-works-teams-schedule-how-watch-uk-tv-channel-italy-wales-northern-ireland-republic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uefa.com/european-qualifiers/news/029f-1f3b80561189-baf8ec42c5d1-1000--european-play-off-draw-for-the-2026-fifa-world-cup/"&gt;https://www.uefa.com/european-qualifiers/news/029f-1f3b80561189-baf8ec42c5d1-1000--european-play-off-draw-for-the-2026-fifa-world-cup/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0c43eb2a-e4aa-5065-bc51-dd5df68463d8</guid>
+      <pubDate>Sat, 21 Mar 2026 16:17:57 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.espn.com/soccer/story/_/id/48223034/2026-world-cup-european-playoffs-explained-how-works-teams-schedule-how-watch-uk-tv-channel-italy-wales-northern-ireland-republic</link>
+    </item>
+    <item>
+      <title>联邦科研经费大幅削减：密歇根大学预计损失 1.63 亿美元，安娜堡本地经济承压</title>
+      <description>&lt;p&gt;特朗普政府提出的 2026 财年预算大幅削减联邦科研拨款，密歇根大学已预计净损失达 &lt;strong&gt;1.63 亿美元&lt;/strong&gt;，受波及的实际金额可能超过 2 亿美元（含停工订单与审核中项目）。&lt;/p&gt;
+
+&lt;p&gt;削减的核心机制是&lt;strong&gt;间接成本上限政策&lt;/strong&gt;——联邦政府将对大学科研项目报销的间接成本（涵盖设施、水电、行政合规等）比例上限从密大此前的逾 50% 骤降至 15%。对于年均科研经费超过 20 亿美元、其中逾半来自联邦拨款的密大而言，这意味着数千万乃至数亿美元的资金缺口。NIH 拟削减约 180 亿美元，NSF 拟削减逾 50%，CDC 则削减逾 40%。&lt;/p&gt;
+
+&lt;p&gt;受冲击领域涵盖：核研究、五大湖环境研究、文理与人文学科、公共卫生项目，以及本科生科研机会计划（UROP）。社会学教授 Jason Owen-Smith 指出，联邦政府对科研的定位正在发生根本性转变。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;密大已宣布应对措施&lt;/strong&gt;：一是建立内部桥接资助计划，允许受影响教职人员申请最长一年的部分支持，最高可获原联邦提案直接成本年均金额的 35%（上限 15 万美元/年）；二是对全校招聘、预算与支出实施新管控要求，以应对长期冲击。&lt;/p&gt;
+
+&lt;p&gt;安娜堡本地经济同样面临连锁影响：科研活动萎缩意味着学术研讨会、会议减少，直接影响餐饮和零售客流——M-36 Coffee Roasters 联合创始人 Lisa Tuveson 表示，其 90-95% 的顾客与密大科研圈相关。研究生就业机会、实验室岗位也将随之减少。&lt;/p&gt;
+
+&lt;p&gt;这一背景也为 GEO 谈判增添了复杂变量：在学校整体预算趋紧的情况下，研究生工会提出的 42% 三年涨薪诉求将面临更大压力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://bridgemi.com/talent-education/gutted-michigan-losing-200m-fed-research-funding-more-limbo/"&gt;https://bridgemi.com/talent-education/gutted-michigan-losing-200m-fed-research-funding-more-limbo/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://eu.detroitnews.com/story/news/local/michigan/2026/01/26/university-michigan-fund-faculty-research-impacted-federal-cuts/88359543007/"&gt;https://eu.detroitnews.com/story/news/local/michigan/2026/01/26/university-michigan-fund-faculty-research-impacted-federal-cuts/88359543007/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.michigandaily.com/news/research/researchers-worry-about-impacts-of-grant-funding-cuts-on-ann-arbor-economy/"&gt;https://www.michigandaily.com/news/research/researchers-worry-about-impacts-of-grant-funding-cuts-on-ann-arbor-economy/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://research.umich.edu/federal-funding-updates/"&gt;https://research.umich.edu/federal-funding-updates/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">78807487-736a-5676-8d5c-8f816582bb67</guid>
+      <pubDate>Sat, 21 Mar 2026 16:18:13 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://bridgemi.com/talent-education/gutted-michigan-losing-200m-fed-research-funding-more-limbo/</link>
+    </item>
+    <item>
+      <title>Intel Panther Lake（Core Ultra Series 3）评测出炉：核显首次逼近独立显卡，笔电形态迎来拐点</title>
+      <description>&lt;p&gt;自 2026 年 1 月 27 日起量产、2 月起陆续铺货的 &lt;strong&gt;Intel Core Ultra Series 3（代号 Panther Lake）&lt;/strong&gt;，近期已收获来自 Tom's Hardware、PCWorld、HotHardware 等媒体的正式评测，结果普遍令人意外：旗舰型号 &lt;strong&gt;Core Ultra X9 388H&lt;/strong&gt; 的集成显卡性能被认为可在部分场景下&lt;strong&gt;接近 NVIDIA RTX 4050 独立显卡&lt;/strong&gt;水准。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;核心架构参数：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CPU：16 核（性能核 + 能效核混合），最大睿频 5.1GHz&lt;/li&gt;
+  &lt;li&gt;GPU：12 颗 Xe3（Arc B390）核心，运行频率最高 2.5GHz&lt;/li&gt;
+  &lt;li&gt;NPU：50 TOPS，支持 Microsoft Copilot+ PC 全部 AI 功能&lt;/li&gt;
+  &lt;li&gt;制程：Intel 18A（约等效 2nm 级别），首次由 Intel 自家 FAB 量产&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;评测关键数据：&lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://www.pcworld.com/article/3034214/intel-core-ultra-x9-388h-review-epic-graphics-battery-life.html"&gt;PCWorld&lt;/a&gt; 在 &lt;em&gt;Cyberpunk 2077&lt;/em&gt;（1080p 低画质）测试中，X9 388H 达到流畅游戏帧率，且&lt;strong&gt;同场景不插电续航可达 14 小时&lt;/strong&gt;以上；配合 Intel XeSS 超分辨率，1440p 游戏体验进一步改善。&lt;a href="https://hothardware.com/reviews/intel-core-ultra-x9-388h-panther-lake-review"&gt;HotHardware&lt;/a&gt; 指出其多线程性能较上代 Lunar Lake 提升约 60%，同等功耗下能效比显著优于 AMD Strix Halo 低端 SKU。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;已发布的代表机型：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dell XPS 14（2026）&lt;/strong&gt;：2.8K OLED 触屏，32GB + 1TB，约 ,200（美国），国内预计 20,999 元起；Tom's Guide 给出「A-」评分&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ASUS ZenBook Duo（2026）&lt;/strong&gt;：双 14 英寸 OLED 屏，Tom's Hardware 称其为「Panther Lake 最佳展示台」&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LG gram Pro 16（2026）&lt;/strong&gt;：2880×1800 OLED，1.35kg，搭载 Aerominum 新材质，3 月 12 日中国首销&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;联想 YOGA Pro 16 Aura AI 元启版&lt;/strong&gt;：3 月 18 日国内上市&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;为何这是一个形态拐点：&lt;/strong&gt; 过去，轻薄本用户若追求游戏性能必须接受独显机型带来的厚度与重量代价；Panther Lake X9 使「1.3kg 级轻薄本 + 主流 1080p 游戏」的组合首次变得现实可行。这也挤压了 RTX 4050 级入门游戏本的市场定位。对比此前本站报道的 &lt;em&gt;Apple M5（iPad Pro）&lt;/em&gt; 与 &lt;em&gt;Apple M4（MacBook Air）&lt;/em&gt; 强劲的能效表现，Intel 以自研 18A 工艺重夺能效竞争的姿态值得持续跟踪。&lt;/p&gt;
+
+&lt;p&gt;参考来源：&lt;a href="https://www.pcworld.com/article/3034214/intel-core-ultra-x9-388h-review-epic-graphics-battery-life.html"&gt;PCWorld 评测&lt;/a&gt;、&lt;a href="https://hothardware.com/reviews/intel-core-ultra-x9-388h-panther-lake-review"&gt;HotHardware 评测&lt;/a&gt;、&lt;a href="https://www.tomshardware.com/laptops/dell-xps-14-2026-da14260-review"&gt;Tom's Hardware XPS 14 评测&lt;/a&gt;、&lt;a href="https://www.ultrabookreview.com/74624-intel-panther-lake-laptops/"&gt;Panther Lake 机型汇总&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pcworld.com/article/3034214/intel-core-ultra-x9-388h-review-epic-graphics-battery-life.html"&gt;https://www.pcworld.com/article/3034214/intel-core-ultra-x9-388h-review-epic-graphics-battery-life.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hothardware.com/reviews/intel-core-ultra-x9-388h-panther-lake-review"&gt;https://hothardware.com/reviews/intel-core-ultra-x9-388h-panther-lake-review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/laptops/dell-xps-14-2026-da14260-review"&gt;https://www.tomshardware.com/laptops/dell-xps-14-2026-da14260-review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ultrabookreview.com/74624-intel-panther-lake-laptops/"&gt;https://www.ultrabookreview.com/74624-intel-panther-lake-laptops/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">62d40364-bf28-59a0-8cd6-2ce415488780</guid>
+      <pubDate>Sat, 21 Mar 2026 16:18:18 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.pcworld.com/article/3034214/intel-core-ultra-x9-388h-review-epic-graphics-battery-life.html</link>
+    </item>
+    <item>
+      <title>西甲前瞻：皇马 vs 马竞马德里德比明日伯纳乌上演，皇马 66 分领跑、马竞 57 分追赶</title>
+      <description>&lt;p&gt;北京时间 3 月 22 日（北京时间 23 日凌晨），&lt;strong&gt;皇家马德里与马德里竞技&lt;/strong&gt;将在伯纳乌球场上演西甲第 29 轮马德里德比，开球时间北京时间凌晨 3:00（欧洲中部时间 21:00）。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;积分榜背景：&lt;/strong&gt; 皇马目前以 &lt;strong&gt;66 分&lt;/strong&gt;排名积分榜第一（21 胜 3 平 4 负），第二名巴塞罗那紧随其后，马竞以 57 分排名第三。一旦皇马赢得此役，将进一步拉大与马竞的差距，稳固冠军宝座。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;伤病情况：&lt;/strong&gt; 皇马主力大面积缺阵，&lt;strong&gt;贝林厄姆、罗德里戈、门迪、米利唐、科尔图瓦&lt;/strong&gt;等悉数缺席；马竞方面因伤缺少奥布拉克（门将）和巴里奥斯（中场）。两队同时深陷伤病泥潭，使得比赛结果更难预测。&lt;/p&gt;&lt;p&gt;历史数据显示，两队过去 13 场德比中有 12 场均出现双方进球。皇马此前在欧冠 1/8 决赛中双杀曼城晋级八强，状态回升明显；马竞近四场赢了三场，但客场成绩相对欠佳。&lt;/p&gt;&lt;p&gt;这场德比对于西甲冠军走势至关重要——马竞在欧冠八强中将迎战巴萨（4 月），双线作战的体能管理亦是本场用兵考量。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-real-madrid-atletico-se-jugara-el-domingo-22-de-marzo-a-las-21-h-24-02-2026"&gt;https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-real-madrid-atletico-se-jugara-el-domingo-22-de-marzo-a-las-21-h-24-02-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dailysports.net/predictions/real-madrid-vs-atletico-madrid-prediction-head-to-head-and-probable-line-ups-22-march-2026/"&gt;https://dailysports.net/predictions/real-madrid-vs-atletico-madrid-prediction-head-to-head-and-probable-line-ups-22-march-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">82c88d9f-0c3e-597f-9264-a5ba4ac6e260</guid>
+      <pubDate>Sat, 21 Mar 2026 16:18:19 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-real-madrid-atletico-se-jugara-el-domingo-22-de-marzo-a-las-21-h-24-02-2026</link>
+    </item>
+    <item>
+      <title>【景观简报】Computer Use Agent 三强竞逐：Anthropic、OpenAI Operator 与 Google Mariner 的当前状态</title>
+      <description>&lt;p&gt;&lt;strong&gt;Computer use 进入产品化阶段。&lt;/strong&gt;让 LLM 直接操控浏览器和操作系统界面，是 2025 年 agent 产品化的最重要方向之一。三大实验室均已推出面向终端用户或开发者的产品：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Anthropic Claude Computer Use：&lt;/strong&gt;通过截屏感知界面、解析像素并生成鼠标/键盘操作。Claude for Chrome 扩展于 2025 年 8 月进入 Max 计划的限量预览，12 月扩展至 Pro/Team/Enterprise。Anthropic 发布了将提示注入攻击成功率从 23.6% 压低至 11.2% 的研究，并引入站点级权限控制。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;OpenAI Operator + CUA：&lt;/strong&gt;Computer-Using Agent（CUA）在 WebVoyager 基准上达到 87% 已发布最高分。Operator 于 2026 年初扩大访问，可直接在浏览器内完成表单填写、购物、预订等任务，限 Pro 计划（200 美元/月）美国用户。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Google Project Mariner + Gemini 2.5：&lt;/strong&gt;2025 年 10 月 27 日发布 Gemini 2.5 Computer Use 开发者 API，浏览器自动化基准精度达 70%+（延迟约 225 秒）。Mariner 支持同时并行处理 10 个任务，向 Google AI Ultra 订阅者开放。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Agent-native 产品：Devin 2.0 与 Cursor。&lt;/strong&gt;Cognition 的 Devin 是"AI 软件工程师"产品化最成功的案例。ARR 从 2024 年 9 月的 100 万美元增至 2025 年 6 月的 7300 万美元，PR 合并率从 34% 提升至 67%，进入 Goldman Sachs、Santander 等企业工程团队。Devin 2.0 引入 Devin Search（可查询代码库的 agent 工具），定价降至 20 美元/月起，速度提升 4 倍，资源消耗降低 50%。Cursor 则代表 agent 嵌入开发者 IDE 工作流的方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;安全与提示注入仍是主要技术债。&lt;/strong&gt;随着 agent 获得更大系统权限，恶意网页内容劫持 agent 行为的提示注入攻击成为最高风险威胁向量，目前尚无行业标准应对方案。ICLR 2026 批准了"Agents in the Wild: Safety, Security, and Beyond"工作坊，安全话题正式进入顶会主流议程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;基准进展：&lt;/strong&gt;WebVoyager、OSWorld、WebArena 是该方向主要评测工具。OpenAI CUA 的 87% WebVoyager 分目前最高，但各团队评测条件各异，跨团队直接比较需谨慎。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://workos.com/blog/anthropics-computer-use-versus-openais-computer-using-agent-cua"&gt;https://workos.com/blog/anthropics-computer-use-versus-openais-computer-using-agent-cua&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2025/05/20/google-rolls-out-project-mariner-its-web-browsing-ai-agent/"&gt;https://techcrunch.com/2025/05/20/google-rolls-out-project-mariner-its-web-browsing-ai-agent/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cognition.ai/blog/devin-annual-performance-review-2025"&gt;https://cognition.ai/blog/devin-annual-performance-review-2025&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cognition.ai/blog/devin-2"&gt;https://cognition.ai/blog/devin-2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://siliconangle.com/2025/10/07/googles-gemini-2-5-computer-use-model-can-navigate-web-like-human/"&gt;https://siliconangle.com/2025/10/07/googles-gemini-2-5-computer-use-model-can-navigate-web-like-human/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">dc460403-6eea-5f6a-9376-8fe276f4f5cf</guid>
+      <pubDate>Sat, 21 Mar 2026 16:18:35 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://workos.com/blog/anthropics-computer-use-versus-openais-computer-using-agent-cua</link>
     </item>
   </channel>
 </rss>
