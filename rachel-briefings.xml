@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Rachel's Personalized Feed</title>
     <image>
@@ -871,5 +871,7 @@
       <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
       <enclosure url="https://feed.muzli.cloud/muzli_feed/wp-content/uploads/2026/01/21170642/vibe.png" type="image/jpeg" length="0" />
     </item>
+    <itunes:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
+    <atom:icon>https://xingjianz.com/rss-research/icon-rachel.png</atom:icon>
   </channel>
 </rss>
