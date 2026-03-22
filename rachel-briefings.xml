@@ -9,7 +9,7 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Sun, 22 Mar 2026 03:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 03:36:58 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>2026 产品设计全景：AI 工具浪潮、界面商品化与设计师角色的根本性重塑</title>
@@ -705,6 +705,171 @@
       <pubDate>Sun, 22 Mar 2026 03:14:52 +0000</pubDate>
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands</link>
+    </item>
+    <item>
+      <title>Apple Liquid Glass 设计语言正式扎根：创新突破还是形式主义的代价？</title>
+      <description>&lt;figure&gt;&lt;img src="https://techbriefly.com/wp-content/uploads/2026/03/Apple_clamps_Liquid_Glass_UI.jpeg" alt="Apple Liquid Glass 设计语言正式扎根：创新突破还是形式主义的代价？" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;3月16日，彭博社记者 Mark Gurman 发布报告，明确了苹果的设计方向：&lt;strong&gt;Liquid Glass（液态玻璃）不会消失，而会成为接下来数年苹果全平台的设计语言基础。&lt;/strong&gt; iOS 27 和 macOS 27 的内部版本显示，苹果目前的策略是「渐进式优化」而非重头翻新——这与 2013 年 iOS 7 推出后的演进路径如出一辙。&lt;/p&gt;
+
+&lt;p&gt;Liquid Glass 最初源于苹果多年对 visionOS 的研发积累，在 2025 年 WWDC 上正式亮相并随 iOS 26、iPadOS 26、macOS Tahoe 26、watchOS 26 全面铺开。其核心视觉特征是&lt;strong&gt;透明玻璃质感叠层&lt;/strong&gt;——菜单、Widget、系统元素均采用实时渲染的高光反射效果，随背景内容动态变化，带来一种「液体在玻璃后流动」的视觉感。Craig Federighi 用一句话概括：「Glass just looks super cool.」&lt;/p&gt;
+
+&lt;h3&gt;设计争议：当「看起来酷」遭遇可用性拷问&lt;/h3&gt;
+
+&lt;p&gt;然而，现实数据泼了一盆冷水：&lt;strong&gt;iOS 26 的用户升级率仅为 45%，创苹果历史最低纪录。&lt;/strong&gt; 同样是大刀阔斧的设计革新，iOS 7 当年的升级率高达 85%。差距背后，设计界列出了几条具体的可用性问题：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;文字可读性下降&lt;/strong&gt;：透明元素与背景文字叠压时对比度不足，在强光环境和大尺寸屏幕（尤其是 Mac）上尤为明显&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;动效过载&lt;/strong&gt;：部分过渡动画被用户描述为「无意义的抖动」，在注意力分散的场景中适得其反&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;图标一致性缺失&lt;/strong&gt;：各 App 对 Liquid Glass 的适配程度参差不齐，整体视觉凝聚力不足&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;耗电问题&lt;/strong&gt;：实时渲染的玻璃效果对 GPU 有持续负载，影响续航&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Conversation 的设计评论人撰文指出，这一问题折射出苹果内部的结构性困境：Jobs 时代之后，硬件设计团队与软件设计团队的协同机制弱化，导致 Liquid Glass 更像是一个「设计师的独立作品」，而非生根于苹果产品哲学的系统性决策。&lt;/p&gt;
+
+&lt;h3&gt;苹果的应对：减弱选项 + iOS 27 的可读性改进&lt;/h3&gt;
+
+&lt;p&gt;苹果已在 iOS 26 的 Beta 版本中加入&lt;strong&gt;「降低玻璃效果强度」的辅助功能选项&lt;/strong&gt;，允许用户在不关闭所有视觉效果的前提下降低透明叠层的不透明度。Gurman 报告称，iOS 27 将进一步在可读性和文字对比度上做出更深度的修正，但核心设计语言不会改变。&lt;/p&gt;
+
+&lt;h3&gt;对产品设计师的实操启示&lt;/h3&gt;
+
+&lt;p&gt;Liquid Glass 争议提供了一个绝佳的设计案例，值得深入拆解：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;材质设计（Material Design）不能脱离内容语境。&lt;/strong&gt; 玻璃质感的美学价值在内容单一、背景可控时成立；一旦内容复杂（如富文本、深色图片背景），透明叠层便成为可读性的敌人。Google 在 Material You 中通过「色调表面（Tonal Surface）」而非纯透明来解决这个问题，是值得参考的对比案例。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;系统级设计语言需要「降级路径」。&lt;/strong&gt; 苹果事后补加的「减弱效果」选项，理应在设计阶段就被纳入规划。任何高强度视觉效果，都需要为可访问性场景、低端设备和用户偏好预设降级方案。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;形式与功能的优先级排序是设计决策，不是审美偏好。&lt;/strong&gt; 45% 的升级率告诉我们：当用户感知到「这个界面让我用起来更费劲」时，再炫的视觉语言也会付出留存代价。这对于任何在 App 中引入大量视觉动效的设计团队，都是直接的警示。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从更大的视角看，Liquid Glass 的困境与我们之前讨论的「AI 疲惫」本质相似——当技术能力（实时渲染、AI 生成）超越了设计判断，产品往往会先酷一步、再难用一步。设计师的核心价值，正在于在「能做到」与「该做到」之间做出清醒的取舍。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://macdailynews.com/2026/03/16/apples-liquid-glass-isnt-going-anywhere-years-of-refinements-ahead-for-new-design-language/"&gt;https://macdailynews.com/2026/03/16/apples-liquid-glass-isnt-going-anywhere-years-of-refinements-ahead-for-new-design-language/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geeky-gadgets.com/apple-liquid-glass-adoption-rate/"&gt;https://www.geeky-gadgets.com/apple-liquid-glass-adoption-rate/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/"&gt;https://apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fbe7c3c0-a5ac-5bcd-a893-ecf89614a2b7</guid>
+      <pubDate>Sun, 22 Mar 2026 03:35:36 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://macdailynews.com/2026/03/16/apples-liquid-glass-isnt-going-anywhere-years-of-refinements-ahead-for-new-design-language/</link>
+      <enclosure url="https://techbriefly.com/wp-content/uploads/2026/03/Apple_clamps_Liquid_Glass_UI.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>W3C 发布 WCAG 3.0 最新工作草案：无障碍设计规则即将从「对错判断」转向「评分制」</title>
+      <description>&lt;figure&gt;&lt;img src="https://rubyroidlabs.com/blog/wp-content/uploads/2025/09/01-3.png" alt="W3C 发布 WCAG 3.0 最新工作草案：无障碍设计规则即将从「对错判断」转向「评分制」" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;3月3日，W3C（万维网联盟）无障碍倡议（WAI）正式更新了 &lt;strong&gt;WCAG 3.0 工作草案（Working Draft）&lt;/strong&gt;，这是 2025 年 9 月版本之后的最新进展。本次更新主要调整了草案的结构与术语体系，新增了关于「最佳实践（Best Practices）」和「合规模型（Conformance）」的专节，同时有多条指南（Guideline）从「探索（Exploratory）」状态推进至「开发中（Developing）」状态，代表这些条目在走向正式标准的路上又迈进了一步。&lt;/p&gt;
+
+&lt;h3&gt;最大变革：从 A/AA/AAA 到 Bronze / Silver / Gold&lt;/h3&gt;
+
+&lt;p&gt;WCAG 3.0 最核心的转变是&lt;strong&gt;彻底抛弃现行的二元合规逻辑&lt;/strong&gt;。WCAG 2.x 的世界里，一个界面要么「通过」某条标准，要么「失败」——成功标准（Success Criteria）是一道硬门槛。WCAG 3.0 引入了全新的评分制合规模型：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bronze（铜级）&lt;/strong&gt;：满足所有基础要求（Foundational Requirements），大致等同于现行 WCAG 2.2 AA 标准。这是「法律基准线」。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Silver（银级）&lt;/strong&gt;：在 Bronze 基础上，满足更多补充要求（Supplemental Requirements），代表对更广泛用户群体的主动关怀。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gold（金级）&lt;/strong&gt;：最高层级，还需提交组织流程层面的「断言（Assertions）」，包括员工无障碍培训记录、辅助技术测试覆盖证明等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;每条指南的评分采用 0-4 的量化评分制，而非简单的通过/失败标记。这意味着&lt;strong&gt;无障碍合规将从「项目验收的一次性检查清单」演变为「持续改进的可量化 KPI」&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h3&gt;APCA：颜色对比度的计算方式将根本改变&lt;/h3&gt;
+
+&lt;p&gt;对产品设计师影响最直接的技术变更，是颜色对比度的评估方式。WCAG 2.x 使用简单的亮度比值（如文本与背景需达 4.5:1），但这个算法不考虑字号、字重和人眼感知差异。WCAG 3.0 引入了 &lt;strong&gt;APCA（Advanced Perceptual Contrast Algorithm，高级感知对比度算法）&lt;/strong&gt;，基于人类视觉感知研究，综合考虑：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;字号和字重（大字号可接受更低的绝对对比度）&lt;/li&gt;
+  &lt;li&gt;文字是亮色还是暗色（人眼对「亮底暗字」和「暗底亮字」的感知阈值不同）&lt;/li&gt;
+  &lt;li&gt;字体笔画的粗细&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;实际结果是：APCA 可能允许某些在 WCAG 2.x 下会「失败」的大号标题组合通过，同时对某些看似符合比值要求但实际很难辨认的细字号组合更加严格。设计团队需要更新颜色检查工具链（如 Figma 插件、Stark、Colour Contrast Analyser），因为这些工具目前大多仍基于 WCAG 2.x 算法。&lt;/p&gt;
+
+&lt;h3&gt;范围扩张：不只是「网页」&lt;/h3&gt;
+
+&lt;p&gt;WCAG 3.0 的全称从「Web Content Accessibility Guidelines」改名为「&lt;strong&gt;W3C Accessibility Guidelines&lt;/strong&gt;」——这个名称变化本身就是一个信号。新版本的覆盖范围从网页扩展至移动 App、增强现实/虚拟现实内容、发布工具、创作工具和操作系统级界面。对于同时负责移动端和 Web 端产品的设计团队，这意味着无障碍设计不再是「我们也有个网页版」的附加项，而是整个产品体验的系统性承诺。&lt;/p&gt;
+
+&lt;h3&gt;时间线与现在该做什么&lt;/h3&gt;
+
+&lt;p&gt;重要提示：&lt;strong&gt;WCAG 3.0 预计不会在 2028 年之前成为正式标准。&lt;/strong&gt; W3C 计划在 2026 年 4 月前制定详细时间表，候选推荐版本（Candidate Recommendation）预计最早在 2027 年 Q4。因此，欧盟《无障碍法案》（European Accessibility Act）等现行法规仍以 WCAG 2.2 AA 为强制要求。&lt;/p&gt;
+
+&lt;p&gt;当下最务实的行动清单：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;把 WCAG 2.2 AA 合规做扎实——它几乎直接对应 WCAG 3.0 Bronze 级别&lt;/li&gt;
+  &lt;li&gt;开始熟悉 APCA 算法，评估现有设计系统的颜色 token 是否需要调整&lt;/li&gt;
+  &lt;li&gt;将无障碍评分纳入设计 QA 流程，而非留给验收阶段的一次性检查&lt;/li&gt;
+  &lt;li&gt;关注认知无障碍（Cognitive Accessibility）新增内容：清晰的错误提示、非字面语言的替代解释，这些正是目前 AI 产品 UX 设计的薄弱环节&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从趋势上看，WCAG 3.0 的「评分制」思维方式与前两期我们讨论过的「设计系统变量化」方向高度吻合——两者都在推动设计团队从「一次性产出」转向「动态维护的质量体系」。无障碍设计不再是「最后一关的修补」，而是从 Token 层面就需要考量的设计决策。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/WAI/news/2026-03-03/wcag3/"&gt;https://www.w3.org/WAI/news/2026-03-03/wcag3/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://rubyroidlabs.com/blog/2025/10/how-to-prepare-for-wcag-3-0/"&gt;https://rubyroidlabs.com/blog/2025/10/how-to-prepare-for-wcag-3-0/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://wecreate.digital/blog/wcag-3-whats-changing-why-it-matters/"&gt;https://wecreate.digital/blog/wcag-3-whats-changing-why-it-matters/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/"&gt;https://www.deque.com/blog/w3c-unveils-174-new-outcomes-for-wcag-3-0/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0098d9c9-3a26-5e84-b9e5-b1f50162bdde</guid>
+      <pubDate>Sun, 22 Mar 2026 03:36:18 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.w3.org/WAI/news/2026-03-03/wcag3/</link>
+      <enclosure url="https://rubyroidlabs.com/blog/wp-content/uploads/2025/09/01-3.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>「氛围编程」正在重写设计师的工作方式：Vibe Coding 工具链完整解析</title>
+      <description>&lt;figure&gt;&lt;img src="https://feed.muzli.cloud/muzli_feed/wp-content/uploads/2026/01/21170642/vibe.png" alt="「氛围编程」正在重写设计师的工作方式：Vibe Coding 工具链完整解析" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;「Vibe Coding（氛围编程）」这个词在 2025 年由 Andrej Karpathy 提出，含义是：&lt;em&gt;用自然语言描述你想要什么，让 AI 写代码，自己不需要逐行理解实现细节，只要「感觉对了」就迭代下去&lt;/em&gt;。一年多过去，这个概念已经从技术圈的黑话演变为产品设计师的日常工作方式——而与此同时，对它的理性批判也随之成熟。&lt;/p&gt;
+
+&lt;p&gt;Muzli 在今年初发布的《设计师 Vibe Coding 完整指南》开篇便说：&lt;strong&gt;「2026 年，'我用 AI 做了个原型'已经不够看了。」&lt;/strong&gt; 真正的门槛不是「能不能用 AI 生成界面」，而是「能不能用 AI 生成出有一致性、可扩展、真正可交付的产品代码」。&lt;/p&gt;
+
+&lt;h3&gt;工具链全景：三层架构&lt;/h3&gt;
+
+&lt;p&gt;目前市场上的 Vibe Coding 工具可以按使用场景分成三个层次，对应设计工作的不同阶段：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Layer 1 — 探索层（快速出原型）&lt;/strong&gt;&lt;br&gt;
+代表工具：&lt;strong&gt;Figma Make&lt;/strong&gt;、&lt;strong&gt;v0（Vercel）&lt;/strong&gt;。适合用来快速验证视觉方向、生成 UI 变体给利益相关方看。v0 由 Vercel 出品，生成的是基于 shadcn/ui + Tailwind CSS 的 React 组件，代码质量相对整洁，设计师可以直接把生成结果导入现有 Vercel/Next.js 项目。Figma Make 的优势是不出设计工具就能运行 AI 生成的界面，但输出偏「演示级」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Layer 2 — MVP 层（可运行的完整流程）&lt;/strong&gt;&lt;br&gt;
+代表工具：&lt;strong&gt;Lovable&lt;/strong&gt;、&lt;strong&gt;Bolt&lt;/strong&gt;。Lovable 面向非技术背景的创始人和设计师，用自然语言描述整个产品（UI + 后端逻辑 + 数据库结构），平台自动生成并托管，适合快速验证商业假设。Bolt 更接近「浏览器内的 AI 编程环境」，给有一定前端基础的设计师更高的控制粒度。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Layer 3 — 工程层（生产质量代码）&lt;/strong&gt;&lt;br&gt;
+代表工具：&lt;strong&gt;Cursor&lt;/strong&gt;（配合 Figma MCP）。当 MVP 验证完毕需要进入工程化阶段，Cursor 提供的是对现有代码库有完整上下文理解的 AI 辅助编辑。关键在于 &lt;strong&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt;——Cursor 通过 Figma MCP 服务器，可以直接读取设计稿中的组件、变量命名和约束，而不是「猜测」设计意图，从而生成真正符合设计系统的代码。&lt;/p&gt;
+
+&lt;h3&gt;设计师需要警惕的三个陷阱&lt;/h3&gt;
+
+&lt;p&gt;Muzli 的指南明确指出，AI 是「实习生」，设计师是「主导者」。这不是在贬低工具，而是在强调一个清醒认知：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;一致性幻觉&lt;/strong&gt;：Vibe Coding 工具非常擅长生成「看起来一致」的界面，但当你有 20 个页面时，按钮的 padding、颜色 token、交互反馈往往已经悄悄分叉了。没有设计系统约束的 AI 生成代码，一致性是假象。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可访问性盲区&lt;/strong&gt;：AI 生成的代码通常不考虑键盘导航、屏幕阅读器语义标签（ARIA）或颜色对比度。如果你不在 prompt 里显式要求，输出物默认是不符合无障碍标准的。（这与我们上面讨论的 WCAG 3.0 趋势直接呼应。）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;技术债积累&lt;/strong&gt;：Layer 1/2 的工具生成的代码往往不关注性能、安全性和可维护性。把 Lovable 的输出直接推上生产环境，是在快速积累未来的重构成本。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;推荐的工作流：从 Figma 到生产的四步链路&lt;/h3&gt;
+
+&lt;p&gt;综合各方实践，目前效果最好的「设计师 Vibe Coding」工作流大致如下：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;在 Figma 中建立设计意图&lt;/strong&gt;：不需要高保真，但需要清晰的组件结构和 Variables 定义&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;用 v0 或 Figma Make 快速出多个视觉方向&lt;/strong&gt;：评审时给利益相关方看的是「可运行的原型」而不是静态截图&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;用 Lovable 或 Bolt 搭建可验证的 MVP&lt;/strong&gt;：关注用户流程是否走通，而不是代码质量&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;用 Cursor + Figma MCP 进行工程化重写&lt;/strong&gt;：把 MVP 验证的设计决策，转化成与设计系统对齐的可维护代码&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Vibe Coding 的真正价值，不是「设计师不需要懂代码了」，而是&lt;strong&gt;设计师可以更快地把想法推进到「有人在用」的阶段，从而得到真实反馈、做出更好的设计决策&lt;/strong&gt;。这是一个把决策循环压缩到以天计算的工具革命——但能用好它的前提，是你对设计系统、组件约束和代码质量有足够清晰的判断力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/"&gt;https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://uibakery.io/blog/bolt-vs-lovable-vs-v0"&gt;https://uibakery.io/blog/bolt-vs-lovable-vs-v0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/resource-library/vibe-coding-tools/"&gt;https://www.figma.com/resource-library/vibe-coding-tools/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://freeacademy.ai/blog/v0-vs-bolt-vs-lovable-ai-app-builders-comparison-2026"&gt;https://freeacademy.ai/blog/v0-vs-bolt-vs-lovable-ai-app-builders-comparison-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2a76cedf-7c7b-5b68-9a61-a1e40ebd5171</guid>
+      <pubDate>Sun, 22 Mar 2026 03:36:58 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
+      <enclosure url="https://feed.muzli.cloud/muzli_feed/wp-content/uploads/2026/01/21170642/vibe.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
