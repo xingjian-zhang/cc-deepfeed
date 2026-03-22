@@ -4,12 +4,50 @@
 import argparse
 import html
 import json
+import re
 import sys
 import uuid
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
+
+
+def fetch_og_image(url, timeout=10):
+    """Try to extract og:image or twitter:image from a URL. Returns image URL or None."""
+    try:
+        import urllib.request
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; rss-research/1.0)",
+            "Accept": "text/html",
+        })
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            # Only read first 50KB to find meta tags quickly
+            head_bytes = resp.read(51200)
+            try:
+                head_html = head_bytes.decode("utf-8", errors="ignore")
+            except Exception:
+                head_html = head_bytes.decode("latin-1", errors="ignore")
+
+        # Try og:image first, then twitter:image
+        for pattern in [
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+        ]:
+            match = re.search(pattern, head_html, re.IGNORECASE)
+            if match:
+                img_url = match.group(1).strip()
+                # Basic validation: must look like a URL
+                parsed = urlparse(img_url)
+                if parsed.scheme in ("http", "https") and parsed.netloc:
+                    return img_url
+        return None
+    except Exception as e:
+        print(f"  ⚠️  Auto-image fetch failed for {url}: {e}", file=sys.stderr)
+        return None
 
 
 def load_config(config_path=None):
@@ -139,6 +177,15 @@ def add_entry(feed_id, title, content_html, sources, feeds_dir, state_dir, combi
 
     # Normalize sources to list once
     source_list = sources if isinstance(sources, list) else split_csv(sources or "")
+
+    # Auto-extract og:image from first source if no image provided
+    if not image_url and source_list:
+        print(f"  📷 No --image provided, auto-extracting from {source_list[0]}...")
+        image_url = fetch_og_image(source_list[0])
+        if image_url:
+            print(f"  ✅ Found og:image: {image_url[:80]}...")
+        else:
+            print(f"  ⚠️  No og:image found. Entry will lack thumbnail.")
 
     # Prepend image if provided
     if image_url:
@@ -557,6 +604,68 @@ def generate_index_html(config, base_url):
     print(f"Generated index: {index_path}")
 
 
+def backfill_images(feeds_dir, combined_feed):
+    """Add og:image to existing entries that lack images."""
+    path = feed_path(feeds_dir, combined_feed)
+    if not path.exists():
+        print(f"Feed not found: {path}", file=sys.stderr)
+        return
+
+    tree = ET.parse(path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        print("Invalid feed XML.", file=sys.stderr)
+        return
+
+    items = channel.findall("item")
+    updated = 0
+    skipped = 0
+    failed = 0
+
+    for item in items:
+        # Skip items that already have an enclosure (image)
+        if item.find("enclosure") is not None:
+            skipped += 1
+            continue
+
+        # Get the first source URL from the link element
+        link_el = item.find("link")
+        if link_el is None or not link_el.text:
+            failed += 1
+            continue
+
+        title_el = item.find("title")
+        title = title_el.text if title_el is not None else "untitled"
+
+        print(f"  Fetching image for: {title[:50]}...")
+        image_url = fetch_og_image(link_el.text)
+
+        if not image_url:
+            print(f"    ❌ No og:image found")
+            failed += 1
+            continue
+
+        # Add enclosure element
+        ET.SubElement(item, "enclosure", url=image_url, type="image/jpeg", length="0")
+
+        # Prepend figure to description
+        desc_el = item.find("description")
+        if desc_el is not None and desc_el.text:
+            escaped_img = html.escape(image_url)
+            escaped_title = html.escape(title)
+            figure_html = f'<figure><img src="{escaped_img}" alt="{escaped_title}" style="max-width:100%;height:auto;" /></figure>\n'
+            desc_el.text = figure_html + desc_el.text
+
+        updated += 1
+        print(f"    ✅ Added: {image_url[:60]}...")
+
+    if updated > 0:
+        write_xml(tree, path)
+
+    print(f"\nBackfill complete: {updated} images added, {skipped} already had images, {failed} no image found.")
+
+
 def main():
     parser = argparse.ArgumentParser(description="RSS feed helper for rss-research")
     parser.add_argument("--config", default="config.yaml", help="Path to config file (default: config.yaml)")
@@ -627,6 +736,9 @@ def main():
     p_index = sub.add_parser("index-html", help="Generate index.html for all feeds")
     p_index.add_argument("--base-url", required=True, help="Base URL where feeds are hosted")
 
+    # backfill-images
+    sub.add_parser("backfill-images", help="Add og:image to existing entries that lack images")
+
     args = parser.parse_args()
     config = load_config(args.config)
     feeds_dir, state_dir = get_dirs(config)
@@ -683,6 +795,8 @@ def main():
         generate_opml(config, args.base_url)
     elif args.command == "index-html":
         generate_index_html(config, args.base_url)
+    elif args.command == "backfill-images":
+        backfill_images(feeds_dir, combined_feed)
 
 
 if __name__ == "__main__":

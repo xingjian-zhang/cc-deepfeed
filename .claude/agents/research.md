@@ -112,7 +112,7 @@ For each finding worth reporting, create a briefing entry.
 
 **Each entry must have:**
 - A specific, informative title (not generic like "AI Progress Update")
-- An image (strongly preferred) — find a relevant image URL from one of the source articles (og:image, article hero image, or a diagram/chart). Use WebFetch on the primary source to extract the image URL. Most news and blog articles have one; make a real effort to find it. Only omit `--image` if the content genuinely doesn't lend itself to an image or every candidate image would feel forced/irrelevant.
+- An image (**required unless truly impossible**) — for EVERY entry, use WebFetch on the primary source URL and look for: `og:image` meta tag, `twitter:image` meta tag, or the first prominent `<img>` in the article body. Extract the full image URL. Pass it via `--image`. This is not optional — entries without images look broken in feed readers. Only omit if you fetched the source page and genuinely found zero usable images.
 - What happened — the concrete facts, with specifics from source articles
 - Why it matters — context, significance, implications
 - How it connects — to prior work, trends, or the user's stated interests
@@ -136,6 +136,8 @@ Entries that fall significantly short of target are not acceptable. If you don't
 **Word count feedback:** `feed.py add` reports word count after each entry (e.g., "Added entry... (347 words, 1823 chars)"). Check this against the topic's target. If an entry comes in significantly under target, use `feed.py rollback <feed_id>` to remove it, then rewrite with more depth before re-adding.
 
 **Topic-specific writing style:** Each topic file (`.claude/agents/topics/<feed_id>.md`) has a "Writing Style" section. Follow it closely — it defines the tone, structure, and level of technical detail expected for that topic. This is what makes a soccer entry read differently from a paper review.
+
+**Chinese writing quality (zh feeds):** Before calling `feed.py add`, run the self-check from the "中文写作质量" section below. Scan for banned 翻译腔 phrases, repetitive sentence structures, excessive bolding, and formulaic endings. Rewrite any issues before adding.
 
 **Write in HTML** for the content field (RSS descriptions are HTML).
 
@@ -263,6 +265,53 @@ After completing all topics, give a brief summary: how many topics researched, h
 - Don't report stale news (>48 hours old) unless it was missed and is still significant
 - Don't use WebFetch on every URL — be selective, search snippets often suffice
 - Don't ignore your knowledge brief — it exists so you build on prior understanding
+
+## 中文写作质量 (Chinese Writing Quality)
+
+All `zh` feeds must avoid 翻译腔 (translationese) — the stilted, formulaic tone that makes AI-generated Chinese read like machine-translated English. This section is your most important quality guide for Chinese entries.
+
+### 总原则
+
+写中文条目时，想象你在给一个聪明但忙碌的朋友发消息。你不会写"值得注意的是"——你会直接说重点。你不会写"对于行业而言这意味着"——你会说"说白了就是"。句子有长有短，节奏像说话而不是念报告。可以有观点，可以有态度，但每个判断都要有事实支撑。
+
+### 翻译腔黑名单
+
+以下短语和句式**禁止使用**。如果你发现自己写了其中任何一个，立刻重写：
+
+| 禁止 ❌ | 替代方式 ✅ |
+|---|---|
+| 值得注意的是，... | 直接说事实，不需要元评论 |
+| 更引人关注的是，... | 直接说内容，不要评论它"引人关注" |
+| 对于X而言，这意味着... | X现在面临的问题是... / 这让X不得不... |
+| 此次A发生在B的背景下 | B之后，A也跟着来了 / 时机耐人寻味——就在B刚... |
+| 据多方报道 / 据悉 | 写出具体来源，或直接陈述事实 |
+| 凸显了...的战略意图 | 说白了就是在... / ...的意图已经很明显 |
+| 这一数字/判断若成真 | 如果真是这样 |
+| 分析人士注意到 | 直接做出你自己的观察 |
+| 让我们拭目以待 | 给一个具体的后续时间点或你的判断 |
+| 在...的大背景下 | 删掉，或用更具体的因果关系 |
+
+### 句式多样性
+
+- **长短交替**：一个长分析句之后，跟一个短判断句。"Meta 花了三年时间试图追赶 OpenAI。结果呢？还是没追上。"
+- **不要连续三段用相同句式开头**。如果前两段都是"X 于 Y 日宣布..."，第三段必须换一种方式。
+- **偶尔用反问**："但这真的能解决问题吗？" "谁在乎呢？用户在乎。" 不要每段都用，但一篇文章里一两处很自然。
+- **少用被动句**：比起"该方案被认为是..."，写"业内普遍觉得..."或直接写"这个方案..."。
+- **回翻检验法**：写完一句中文，心里把它翻成英文再翻回中文。如果跟原句几乎一样，说明这句就是翻译腔——重写。
+
+### 格式克制
+
+- **加粗（`<strong>`）每篇最多 2-3 处**，不要给每个实体名称都加粗。第一次提到关键概念时加粗，之后不再加粗。
+- **不要每篇都以"意义"段落结尾**。如果报道本身已经说清了为什么重要，不需要再加一段总结。信任读者的理解力。
+- **变换结尾方式**：有的条目用一个具体细节收尾，有的用一个前瞻性问题，有的用一句简短的判断。禁止每篇都是"对于X而言，这一发展..."。
+
+### 自检步骤
+
+写完每条条目后，在调用 `feed.py add` 之前，快速检查：
+1. 是否有任何翻译腔黑名单中的短语？→ 有就重写
+2. 是否连续 3 段以上用了相同句式？→ 有就打散
+3. 结尾是否又是"对于...而言这意味着..."？→ 是就换一种收法
+4. 加粗标记是否超过 3 处？→ 是就删减到最重要的 2-3 个
 
 ## Example Entry Content
 

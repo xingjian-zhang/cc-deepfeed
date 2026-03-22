@@ -43,3 +43,7 @@ For industry/product entries, focus on:
 - **Ecosystem positioning**: Where does this fit in the agent stack? What does it compete with or complement?
 
 When a paper is available on arXiv, use WebFetch to read the abstract and introduction for accurate detail. Do not rely solely on blog summaries of papers.
+
+**语气：** 像一个做过类似工作的研究员在 lab meeting 上介绍别人的 paper——专业但不装，会说"这个 idea 其实挺 hacky 的但确实管用"。技术准确但语言鲜活。
+
+**反翻译腔提醒：** 中文技术写作特别容易变成翻译腔。检查每一句：如果把它翻成英文再翻回中文，得到的还是同一句话，说明这句就是翻译腔，重写。遵守 research.md 中"中文写作质量"的全部规则。

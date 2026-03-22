@@ -5,6 +5,7 @@ settings:
   combined_feed: rachel-briefings
   feed_name: "Rachel's Personalized Feed"
   feed_description: "产品设计、健康生活、每日新闻与冷知识"
+  base_url: "https://xingjianz.com/rss-research"
 
 feeds:
   - id: product-design
