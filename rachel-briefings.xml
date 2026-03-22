@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Rachel's Personalized Feed</title>
     <image>
@@ -9,7 +9,7 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Sun, 22 Mar 2026 03:36:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 04:36:54 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>2026 产品设计全景：AI 工具浪潮、界面商品化与设计师角色的根本性重塑</title>
@@ -871,7 +871,37 @@
       <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
       <enclosure url="https://feed.muzli.cloud/muzli_feed/wp-content/uploads/2026/01/21170642/vibe.png" type="image/jpeg" length="0" />
     </item>
-    <itunes:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
-    <atom:icon>https://xingjianz.com/rss-research/icon-rachel.png</atom:icon>
+    <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
+    <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
+    <item>
+      <title>35 亿年前的地球已经在漂移了：古磁学如何从石头里读出太古宙板块运动</title>
+      <description>&lt;p&gt;想象一下：35 亿年前的地球，一块比整个澳大利亚还古老的岩石，以每年 47 厘米的速度漂移——这比今天任何大陆板块移动的速度快整整六倍。更奇特的是，这块岩石边漂移边旋转，在大约 3000 万年里顺时针转过了 90 多度，同时从南纬 53 度跑到了 77 度——相当于从悉尼的纬度一路漂到了南极圈边缘。&lt;/p&gt;&lt;p&gt;这就是 2026 年 3 月 19 日发表在《科学》杂志上的一项研究（Science vol.391, issue 6791）带来的发现。耶鲁大学博士后 Alec Brenner 和哈佛大学教授 Roger Fu 率领的团队，在澳大利亚西部皮尔巴拉克拉通（Pilbara Craton）的"北极穹丘"（North Pole Dome）采集了超过 900 个岩石样品，这些岩石是地球上保存最完好的太古宙地层之一，形成于约 35 亿年前。&lt;/p&gt;&lt;p&gt;他们用的方法叫&lt;strong&gt;古地磁学（Paleomagnetism）&lt;/strong&gt;——这是地质学里最精巧的侦探技术之一。岩石在冷却固化时，其中的磁性矿物晶体会像小指南针一样，锁定当时地球磁场的方向和强度，永久保存在岩石里。研究人员把岩芯在实验室里加热到 590°C，分步骤把不同温度下退磁释放出来的磁信号分离开，再用灵敏的磁力仪读取——这相当于在 35 亿年前的岩石里"读档"，还原出当时这块地壳所在的纬度和朝向。&lt;/p&gt;&lt;p&gt;结果让人吃了一惊。北极穹丘的板块运动比同时期的南非巴伯顿绿岩带（Barberton Greenstone Belt）快得多，而且方向不同——后者在同一时期几乎纹丝未动。这说明 35 亿年前地球表面已经&lt;strong&gt;不是一个整体，而是被分割成了若干独立移动的板块&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;为什么这件事重要？过去几十年里，关于地球板块构造何时启动一直有两种截然对立的观点：一派认为地球早期是个"静滞盖层"（stagnant lid），地表是一整张不动的外壳，直到约 10 亿年前才开始活动；另一派认为板块构造启动得更早。这项研究用 35 亿年前的直接物理证据，把板块活动的最早记录往前推了 1.4 亿年，基本上给"静滞盖层"理论判了死刑——至少在 35 亿年前，地球表面已经是动态的了。&lt;/p&gt;&lt;p&gt;而动态地表带来的后果，远比地质学上的分类之争更深远：流动的板块会把富含磷等营养元素的岩浆带到海洋边缘，为早期微生物光合作用提供原料。有研究者认为，正是板块运动触发的营养物质循环，最终推动了大氧化事件（Great Oxygenation Event，约 24 亿年前），把地球大气从无氧变成了我们今天呼吸的样子。所以某种程度上说，板块构造是复杂生命得以出现的一个前提条件。&lt;/p&gt;&lt;p&gt;下次有人说地球"老了"——35 亿年前，它其实刚刚开始动起来。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260321012636.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260321012636.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.uchicago.edu/story/study-suggests-tectonic-plates-began-moving-half-billion-years-earlier-thought"&gt;https://news.uchicago.edu/story/study-suggests-tectonic-plates-began-moving-half-billion-years-earlier-thought&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2026-03-planet-history-earth.html"&gt;https://phys.org/news/2026-03-planet-history-earth.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4fee52a3-1b6c-5efe-97ab-8f85ca7b2c04</guid>
+      <pubDate>Sun, 22 Mar 2026 04:36:31 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.sciencedaily.com/releases/2026/03/260321012636.htm</link>
+    </item>
+    <item>
+      <title>35 亿年前的地球已经在漂移了：古磁学如何从石头里读出太古宙板块运动</title>
+      <description>&lt;p&gt;想象一下：35 亿年前的地球，一块比整个澳大利亚还古老的岩石，以每年 47 厘米的速度漂移——这比今天任何大陆板块移动的速度快整整六倍。更奇特的是，这块岩石边漂移边旋转，在大约 3000 万年里顺时针转过了 90 多度，同时从南纬 53 度跑到了 77 度——相当于从悉尼的纬度一路漂到了南极圈边缘。&lt;/p&gt;&lt;p&gt;这就是 2026 年 3 月 19 日发表在《科学》杂志上的一项研究（Science vol.391, issue 6791）带来的发现。耶鲁大学博士后 Alec Brenner 和哈佛大学教授 Roger Fu 率领的团队，在澳大利亚西部皮尔巴拉克拉通（Pilbara Craton）的"北极穹丘"（North Pole Dome）采集了超过 900 个岩石样品，这些岩石是地球上保存最完好的太古宙地层之一，形成于约 35 亿年前。&lt;/p&gt;&lt;p&gt;他们用的方法叫&lt;strong&gt;古地磁学（Paleomagnetism）&lt;/strong&gt;——这是地质学里最精巧的侦探技术之一。原理是这样的：岩石在冷却固化时，其中的磁性矿物晶体会像小指南针一样，锁定当时地球磁场的方向和强度，永久保存在岩石里。研究人员把岩芯在实验室里分步加热到 590°C，把不同温度下退磁释放出来的磁信号逐层分离，再用灵敏的磁力仪读取——这相当于在 35 亿年前的岩石里"读档"，还原出当时这块地壳所在的纬度和朝向。整个测量过程需要两年，分析了来自 100 多个采样点的 900 余份样品。&lt;/p&gt;&lt;p&gt;结果让人吃了一惊。北极穹丘的板块运动速度和方向，和同一时期的南非巴伯顿绿岩带（Barberton Greenstone Belt）完全不同——后者在同一段时间里几乎纹丝未动。两块古老地壳各走各的路，说明 35 亿年前地球表面已经&lt;strong&gt;不是一个整体，而是被分割成了若干独立运动的板块&lt;/strong&gt;，而且它们之间有相对运动。这比之前学界公认的"最早板块构造证据"整整提前了 1.4 亿年。&lt;/p&gt;&lt;p&gt;为什么这件事重要？几十年来，关于地球板块构造何时启动一直有两派截然对立的观点：一派认为地球早期是个"静滞盖层"（stagnant lid），地表是一整张不动的外壳，直到约 10 亿年前才开始活动；另一派认为板块构造启动得远比我们以为的早。这项研究用 35 亿年前的直接物理测量，把板块活动的最早记录大幅前推，基本上给"静滞盖层"理论判了死刑——至少 35 亿年前，地球表面已经是动态分裂的了。&lt;/p&gt;&lt;p&gt;而动态地表带来的连锁效应，远比地质分类之争更深远。流动的板块会把富含磷等营养元素的岩浆带到海洋边缘；一些研究者认为，正是板块运动触发的营养物质循环，为早期微生物光合作用提供了原料，最终推动了大氧化事件（Great Oxygenation Event，约 24 亿年前）——把地球大气从几乎无氧变成了我们今天呼吸的样子。没有板块运动，就没有氧气；没有氧气，就没有复杂生命。如果这个链条是对的，那这块在 35 亿年前不安分漂移的古老岩石，其实和我们每一次呼吸都有关系。&lt;/p&gt;&lt;p&gt;顺便一提：这项研究的采样地叫"北极穹丘"，但它在澳大利亚的热带沙漠里，离北极远得很。这个名字是 19 世纪地质学家起的，因为那片区域的条纹状岩层乍一看像极地景观。连地名都在说：地质学上的很多事，都和你以为的不一样。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260321012636.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260321012636.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.uchicago.edu/story/study-suggests-tectonic-plates-began-moving-half-billion-years-earlier-thought"&gt;https://news.uchicago.edu/story/study-suggests-tectonic-plates-began-moving-half-billion-years-earlier-thought&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2026-03-planet-history-earth.html"&gt;https://phys.org/news/2026-03-planet-history-earth.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4fee52a3-1b6c-5efe-97ab-8f85ca7b2c04</guid>
+      <pubDate>Sun, 22 Mar 2026 04:36:54 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.sciencedaily.com/releases/2026/03/260321012636.htm</link>
+    </item>
   </channel>
 </rss>
