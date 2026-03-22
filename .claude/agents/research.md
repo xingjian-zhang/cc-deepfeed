@@ -52,6 +52,8 @@ date -u +%Y-%m-%dT%H:%M:%SZ
 
 For each topic, launch a `research-worker` agent using the Agent tool. **Launch ALL workers simultaneously in a single message** (multiple Agent tool calls in one response).
 
+**CRITICAL: Spawn a worker for EVERY topic. Do NOT skip topics, pre-filter, or decide that a topic "probably has nothing new." Every topic has a target that the worker must try to meet. Let the worker decide what to write — your job is only to spawn them all.**
+
 For each topic in the config:
 
 ```

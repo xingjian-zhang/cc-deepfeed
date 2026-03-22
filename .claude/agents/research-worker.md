@@ -59,27 +59,40 @@ Use the **topic instruction file** as your editorial brief and your **knowledge 
 
 **If first run (no state entries, empty knowledge brief):** Generate a **landscape briefing** — "here's the current state of this field." Cover key players, recent milestones, and emerging trends.
 
-**If subsequent run:** Focus on **what's new since `last_run`**. Your knowledge brief tells you what you already know — don't re-research established facts, look for developments.
+**If subsequent run:** Your knowledge brief tells you what you already know. Look for new developments, but also stories you haven't covered yet regardless of when they happened.
 
-**Freshness rule:** Strongly prefer news from the **last 48 hours**. Older stories should only be included if they are genuinely significant and were missed in prior runs. Do not report stories that are a week or more old — if it wasn't caught when it happened, it's too late.
+**How to find enough stories to meet your target:**
+- Start with news from the **last 48 hours**
+- Expand to the **last 1-2 weeks** for stories not already in state
+- For evergreen topics (random-knowledge, healthy-life, product-design, etc.): recency does NOT matter. Research interesting subjects within the topic's scope. A fascinating deep dive from last month that you haven't covered is perfectly valid.
+- Check existing state fingerprints to avoid duplicates, but anything NOT in state is a candidate
+- The only criterion for inclusion is: is it substantive and interesting? NOT "is it new today?"
 
 **Thread follow-up:** Check `active_threads` from knowledge. For each thread with status `ongoing`, do at least one targeted search to check for updates. For example, if a thread says "Avocado model delayed to May," search specifically for "Avocado model release update." This is how you follow developing stories.
 
-**Research method:**
-- Use WebSearch with multiple angles per topic. Scale effort to the `target`: for target <= 2, do 3-4 searches; for target 3-4, do 5-7 searches with varied phrasings and sub-topics.
+**Research method — minimum search effort is `target * 2` queries:**
+- For target 3: at least 6 searches. For target 4: at least 8. For target 5: at least 10.
+- Each search must use a **different angle or sub-topic**. Do NOT search the same thing with different wording. Example for tech-products (target 4): search smartphones, laptops, chips, wearables, display tech, charging tech — not just "Apple new products" 4 times.
 - Include at least one targeted search per active `ongoing` thread
 - Cross-reference findings across sources
 - Prioritize: peer-reviewed research > technical blog posts > news coverage > social media
 - Skip anything that matches existing fingerprints in state
-- **If under target after initial searches:** do a second round with broader/alternative queries before moving on
+- **If under target after initial searches:** do MORE searches with broader angles until you hit `target * 3` queries before giving up
 
-**Entry target:** Read the `target` field from the feed's config entry (e.g., `target: 3`). This is a **goal, not a ceiling** — produce more if the news warrants it, but work hard to meet the target:
-- If your first round of searches yields fewer stories than the target, do **additional searches** with different angles, phrasings, or sub-topics. Broaden your scope within the topic.
-- If still under target after extra searches, relax the 48-hour freshness rule to **up to 7 days** for stories that were missed or under-covered in prior runs. Flag these as catch-ups naturally (e.g., "Earlier this week...").
-- If still under target, consider **deeper dives** into stories you'd normally cover briefly — split a multi-faceted story into separate entries, each with its own angle.
-- Only fall short of the target when you genuinely cannot find enough substantive material after exhausting these strategies.
+**Entry target is mandatory.** Read the `target` field from the topic's config entry (e.g., `target: 3`). You MUST produce this many entries. This is not a suggestion — it is a hard requirement.
 
-**If no target is set and nothing new is found:** Skip the topic entirely. Do not generate filler.
+**You must do at least `target * 2` searches before concluding you can't find enough.** If still under target, continue searching up to `target * 3` queries. Each query must explore a DIFFERENT angle or sub-topic — not the same thing rephrased.
+
+Strategies to meet the target:
+1. **Broaden scope across sub-topics:** A tech-products worker should search smartphones, laptops, chips, wearables, display tech, charging standards, smart home — not just one brand. A soccer worker should search Champions League, Premier League, La Liga, Serie A, transfers, injuries, tactics — not just one match.
+2. **Expand time window:** Go back up to 2 weeks for stories not already in state.
+3. **Deeper dives:** Split multi-faceted stories into separate entries, each with its own angle.
+4. **Evergreen content:** For topics like random-knowledge, healthy-life, product-design — you don't need "news." Research interesting subjects within scope regardless of recency.
+5. **Read source articles:** Use WebFetch on promising search results to find deeper content worth writing about.
+
+Falling short of the target is a failure. If you produce fewer entries than the target, explain exactly what searches you tried and why they yielded nothing.
+
+**If no target is set:** Skip the topic if nothing new is found.
 
 ### 3. Write entries
 
@@ -185,7 +198,7 @@ End your response with a structured summary so the orchestrator can aggregate:
 
 ## Writing Quality Rules
 
-1. **No filler.** If you can't find anything substantive, skip the topic.
+1. **No filler, but meet the target.** Every entry must be substantive — but you must meet the target. Research harder, broaden scope, or go deeper rather than skipping.
 2. **Be specific.** "researchers at MIT" not "researchers." Dates, numbers, names.
 3. **Explain significance.** Every entry answers "why should I care?"
 4. **Source everything.** No claims without links.
