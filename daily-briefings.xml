@@ -1,7 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Daily Briefings</title>
+    <title>Jimmy's Personalized Feed</title>
+    <image>
+      <url>https://xingjianz.com/rss-research/icon-jimmy.png</url>
+      <title>Jimmy's Personalized Feed</title>
+      <link>https://xingjianz.com/rss-research</link>
+    </image>
     <description>Deep research briefings on AI, tech, sports, and local news</description>
     <link>https://xingjianz.com/rss-research/daily-briefings.xml</link>
     <lastBuildDate>Sun, 22 Mar 2026 03:04:52 +0000</lastBuildDate>

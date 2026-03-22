@@ -1,10 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
-    <title>GF Daily Briefings</title>
+    <title>Rachel's Personalized Feed</title>
+    <image>
+      <url>https://xingjianz.com/rss-research/icon-rachel.png</url>
+      <title>Rachel's Personalized Feed</title>
+      <link>https://xingjianz.com/rss-research</link>
+    </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://example.com/gf-briefings.xml</link>
-    <lastBuildDate>Sun, 22 Mar 2026 03:04:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 03:14:04 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>2026 产品设计全景：AI 工具浪潮、界面商品化与设计师角色的根本性重塑</title>
@@ -524,6 +529,152 @@
       <category>random-knowledge</category>
       <link>https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html</link>
       <enclosure url="https://nycity.media/wp-content/uploads/2025/10/cover-the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Figma MCP 服务器扩展至双向工作流：设计师如何重新掌控「设计到代码」全链路</title>
+      <description>&lt;figure&gt;&lt;img src="https://cdn.figma.com/blog/figma-mcp.png" alt="Figma MCP 服务器扩展至双向工作流：设计师如何重新掌控「设计到代码」全链路" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;2026 年 3 月，Figma 完成了一系列对设计-开发协作具有根本影响的更新，其中最值得设计师关注的是：&lt;strong&gt;Figma MCP（Model Context Protocol）服务器正式扩展为双向工作流&lt;/strong&gt;，并同时接入了 Cursor、Warp、Factory、Firebender、Augment 等主流 AI 编程环境，以及通过 VS Code 的 GitHub Copilot（3月7日更新）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;双向是什么意思？&lt;/strong&gt;在此之前，设计师的「交付」基本是单向的——把设计稿扔给开发，然后等着对方实现。现在这个循环变短了：设计师可以把 Figma 的一个设计帧「推」进开发者的 IDE，让 AI 根据设计意图生成组件代码；开发者反过来也可以把渲染好的 UI 代码「推」回 Figma 画布，自动生成可编辑的设计图层。这是设计稿与代码之间第一次真正实现双向流动，而不仅仅是传统意义上的「从设计导出代码」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;底层原理&lt;/strong&gt;：Figma 的 MCP 服务器将设计元数据——帧层级、组件属性、Design Tokens、文字样式、布局约束、图片引用——封装为 LLM 可消费的结构化数据。AI 读取的不是一张静态 PNG，而是完整的设计意图描述。配合 Code Connect（3月5日更新，支持多代码文件绑定和跨框架预览），开发者可以将真实生产组件与 Figma 组件关联，MCP 在生成代码时直接引用已有设计系统，避免凭空生成不符合规范的新代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这对设计师的日常工作意味着什么&lt;/strong&gt;：以往设计稿交付之后，设计师很难高效介入开发环节；现在这个反馈循环被大幅压缩。设计师可以在 Figma 中调整组件，通过 MCP 同步更新到开发者 IDE，代码实现后又能反推回 Figma 校验视觉准确性。整个「设计决策——代码实现——视觉回归」的循环从以往的几天变成了几小时甚至更短。&lt;/p&gt;
+
+&lt;p&gt;对于设计系统负责人而言，这也带来了新的职责边界——需要认真维护 Code Connect 的映射关系，确保 MCP 生成的代码确实来自组织内部的设计系统，而不是 AI 自行臆造的。这是「设计系统质量」从视觉规范延伸到代码实现规范的关键一步。&lt;/p&gt;
+
+&lt;p&gt;同期，3月6日发布的 &lt;strong&gt;Slots（动态插槽）测试版&lt;/strong&gt;值得额外关注：它允许在不断开（Detach）组件实例的情况下，自定义实例的内部内容区域。这解决了设计系统中长期存在的「要么复用组件要么保持灵活性」的两难困境——以往一旦实例化，想替换内部图标或文本块就必须 Detach，从而失去与主组件的连接。Slots 让你可以在保持与设计系统连接的同时，在预设的插槽位置填入不同内容，这与前端开发中的 Slot/Children 模式高度对齐。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3月12日&lt;/strong&gt;，Figma 同步推出了 &lt;strong&gt;Make AI Administration&lt;/strong&gt;：团队管理员现在可以为 Organization 和 Enterprise 计划按量或按月订阅 AI 积分（Professional 版 5 月上线）。这标志着 Figma 正式将 AI 功能从「全员免费试用」推向「可管控、可计量的企业级能力」。对于负责控制设计工具成本的设计团队管理者来说，这是一个重要信号——AI 使用将开始产生可追踪的成本，需要纳入工具预算管理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;设计视角总结&lt;/strong&gt;：这轮更新的核心不是「AI 替你写代码」，而是&lt;em&gt;设计师作为工作流的协调者，重新获得了对实现过程的可见性和掌控权&lt;/em&gt;。未来优质设计师不一定要会写代码，但必须懂得如何借助 MCP 和 Code Connect 这套双向工具，确认自己的设计决策在代码层被准确还原——这是新一代「设计-开发协作素养」的核心。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://releasebot.io/updates/figma"&gt;https://releasebot.io/updates/figma&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/"&gt;https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/blog/introducing-figma-mcp-server/"&gt;https://www.figma.com/blog/introducing-figma-mcp-server/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://research.aimultiple.com/figma-to-code/"&gt;https://research.aimultiple.com/figma-to-code/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7dc6c007-72cf-5d62-aa0a-666df5193956</guid>
+      <pubDate>Sun, 22 Mar 2026 03:10:38 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://releasebot.io/updates/figma</link>
+      <enclosure url="https://cdn.figma.com/blog/figma-mcp.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>美以打击纳坦兹核设施，伊朗首次还击以色列核点附近，战争进入最危险阶段</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/03/natanz.jpg" alt="美以打击纳坦兹核设施，伊朗首次还击以色列核点附近，战争进入最危险阶段" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;3月21日（周六），美国和以色列空袭了伊朗最重要的铀浓缩设施——&lt;strong&gt;纳坦兹（Natanz）核综合体&lt;/strong&gt;，这是自2月28日开战以来，美以联军对伊朗核设施的第四次打击，也是纳坦兹本轮冲突中第二次遭受直接攻击（该设施在2025年6月的12天战争中已曾受损）。伊朗原子能组织证实攻击属实，国际原子能机构（IAEA）确认周边辐射水平正常，但总干事 Rafael Grossi 随即呼吁各方「保持军事克制，避免任何核事故风险」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;伊朗随即对等升级&lt;/strong&gt;：数小时内，伊朗向以色列南部城市迪莫纳（Dimona）和阿拉德（Arad）发射导弹，造成超过100人受伤。迪莫纳是以色列核研究中心 Negev Nuclear Research Center 所在地——这是本轮战争中伊朗第一次打击以色列核相关设施附近，实现了明确的「以核对核」升级逻辑。以色列国防部长 Israel Katz 随后宣布，以色列对伊朗的打击力度将在本周「大幅提升」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这一步格外危险&lt;/strong&gt;：纳坦兹是伊朗约400公斤高浓缩铀的核心存储点，西方国家认为这批铀理论上足以制造多枚核武器。美国政府已将「彻底摧毁伊朗核能力」列为明确目标之一，美军中将 Brad Cooper 评估美以已打击伊朗境内8000个军事目标，「伊朗作战能力正在稳定下降」。而伊朗方面明确将以色列核研究中心纳入报复目标范围，意味着冲突升级的底线正在被逐步突破。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;特朗普的矛盾信号与能源压力&lt;/strong&gt;：打击纳坦兹前一天，特朗普曾公开表示正在考虑「结束战争」，但同日又威胁称若伊朗不在48小时内重开霍尔木兹海峡，美国将摧毁伊朗电力设施，并继续向中东增兵。与此同时，财政部长 Scott Bessent 周五宣布发布30天伊朗石油制裁豁免令（Iran General License U），允许约1.4亿桶滞海伊朗原油入市，试图压低国内油价——布伦特原油当周收于约111美元/桶，较年初涨约84%，美国零售汽油均价比战前上涨0.93美元/加仑。批评者指出，这等于美国「一边轰炸伊朗，一边向伊朗财政注资140亿美元」，策略自相矛盾。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;下一步关注&lt;/strong&gt;：霍尔木兹海峡是否重开（承担全球约20%石油运输）、以色列是否升级为对伊核武设施的饱和打击、特朗普48小时最后期限届满后的实际行动、以及 IAEA 对纳坦兹损毁情况的调查结论——这些将是本周影响全球局势的核心变量。延续3月22日首次报道中「美以空中主导」的判断，今天的事态发展标志着冲突已从「消耗战」进入「核设施互打」的全新阶段。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility"&gt;https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html"&gt;https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/20/us-issues-30-day-sanctions-waiver-for-sale-of-iranian-oil-at-sea.html"&gt;https://www.cnbc.com/2026/03/20/us-issues-30-day-sanctions-waiver-for-sale-of-iranian-oil-at-sea.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week"&gt;https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">75008053-a726-5b13-9825-f4917d20e917</guid>
+      <pubDate>Sun, 22 Mar 2026 03:12:13 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/03/natanz.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>湾区：Foster City 勒索软件攻击致市政服务全面瘫痪，宣布紧急状态</title>
+      <description>&lt;p&gt;3月19日深夜，加州半岛城市 Foster City（人口约3.5万，位于 San Mateo 以北）遭受严重&lt;strong&gt;勒索软件（Ransomware）攻击&lt;/strong&gt;，IT 人员在3月20日早间发现市政网络已被入侵并加密。城市经理 Stefan Chatwin 随即宣布申请「紧急状态」，以争取联邦和州级资金用于恢复工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;影响范围&lt;/strong&gt;：除紧急救援服务（911调度和警务）外，Foster City 几乎所有市政服务均已停摆，包括：建筑许可申请、公用事业账单处理、停车执法、公共记录查询等。官方网站 fostercity.org 提示居民，此前与市政府有业务往来的人员应及时更改相关账户密码，因为「公共信息可能已被访问，但目前尚不确定」。截至报道时，尚无已知的勒索软件团伙认领此次攻击，市政府也未透露具体勒索金额或恢复时间线。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;放在湾区更大背景下看&lt;/strong&gt;：近年来，湾区地方政府已成为勒索软件团伙的高频目标：Oakland 在2023年2月遭受 Play 勒索软件攻击，历经数月仍有部分系统未恢复，敏感数据大量外泄；Hayward、Palo Alto 学区也均有过类似遭遇。Foster City 此次事件的规模虽然较小，但其宣布紧急状态的速度——发现入侵后不足24小时内——说明地方政府已从过去的案例中汲取教训，在公开处理节奏和外部寻援上变得更加主动。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对半岛居民的实际影响&lt;/strong&gt;：如果你在 Foster City 有待处理的建筑许可、公用事业相关事务或与市政府的合同往来，预计这些事项将延迟至少数周。由于 Foster City 临近大量科技公司（Oracle 美国总部设于此），该事件也提示企业园区管理者及时检查与当地政府系统的业务连接。&lt;/p&gt;
+
+&lt;p&gt;湾区地方政府网络基础设施长期面临「预算有限、攻击面大」的结构性困境——多数小城市的 IT 预算和安全能力远不及私营科技公司，却承担着存储居民个人信息、税务数据和土地记录等高价值数据的职责。Foster City 此次攻击是这一长期弱点的又一次暴露。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://localnewsmatters.org/2026/03/20/foster-city-cybersecurity-breach-state-of-emergency/"&gt;https://localnewsmatters.org/2026/03/20/foster-city-cybersecurity-breach-state-of-emergency/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mercurynews.com/2026/03/19/foster-city-services-impacted-by-cyber-security-breach/"&gt;https://www.mercurynews.com/2026/03/19/foster-city-services-impacted-by-cyber-security-breach/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/sanfrancisco/news/foster-city-cybersecurity-breach-plans-state-of-emergency/"&gt;https://www.cbsnews.com/sanfrancisco/news/foster-city-cybersecurity-breach-plans-state-of-emergency/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f31a0fcb-b414-569c-b0c3-212b3cc6f9b7</guid>
+      <pubDate>Sun, 22 Mar 2026 03:12:35 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://localnewsmatters.org/2026/03/20/foster-city-cybersecurity-breach-state-of-emergency/</link>
+    </item>
+    <item>
+      <title>带状疱疹疫苗意外的「心脏护盾」：打一针，主要心脏事件风险降低 46%，相当于戒烟的心血管获益</title>
+      <description>&lt;p&gt;你有没有想过，带状疱疹疫苗打的是「皮肤病」，却能大幅保护你的心脏？一项发表于美国心脏病学会年会（ACC.26）前夕的大规模研究给出了令人惊讶的答案——保护效果大到「堪比戒烟」的程度。这对已过50岁、或有心血管风险因素的人来说，是一个非常值得认真对待的信号。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;研究是怎么做的&lt;/strong&gt;：加州大学河滨分校（UC Riverside）住院医生 Robert Nguyen 领衔的团队，利用 TriNetX 医疗数据库，分析了 &lt;strong&gt;246,822 名患有动脉粥样硬化性心脏病的美国成年人&lt;/strong&gt;的健康数据（覆盖2018至2025年）。研究者将 123,411 名接种过带状疱疹疫苗（Shingrix 或 Zostavax）的患者，与等量、人口学特征相匹配的未接种患者进行对比，追踪接种后1个月至1年内的心脏事件发生率。&lt;/p&gt;
+
+&lt;p&gt;结果令研究者本人也印象深刻。接种组在以下几个维度上均明显优于未接种组：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;主要心血管不良事件（MACE）风险降低 &lt;strong&gt;46%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;全因死亡率降低 &lt;strong&gt;66%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;心脏病发作风险降低 &lt;strong&gt;32%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;卒中（中风）风险降低 &lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;心力衰竭风险降低 &lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;研究将于 2026 年 3 月 28 至 30 日在美国新奥尔良举办的 ACC.26 年会上正式发布。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么一个「皮肤病疫苗」会保护心脏？&lt;/strong&gt;机制并不神秘。带状疱疹本质上是幼年感染的水痘病毒（VZV）在神经中沉默多年后重新激活。感染发作期间，病毒会诱发全身性炎症反应，并在脑部和心脏附近触发血栓形成，从而直接增加心脏病发作、卒中和静脉血栓栓塞的风险。Nguyen 解释：「通过疫苗预防感染，我们同时也预防了这些危险的血栓形成事件。」这一机制和欧洲心脏病学会（ESC）此前发布的一项纳入数十万人的研究完全吻合——后者显示带状疱疹疫苗的心血管保护效果甚至可以持续长达8年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这个效果有多强？研究者自己是怎么说的&lt;/strong&gt;：Nguyen 的原话是，「这些风险降低幅度是实质性的，和戒烟带来的心血管获益相当（comparable to the benefits seen from quitting smoking）。」戒烟是迄今证据最强的单一心血管干预措施之一，能把这个标准和打一针疫苗相提并论，说明这个发现的意义相当重大。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;研究的局限性是什么？&lt;/strong&gt;和一切观察性研究一样，需要诚实地指出：接种疫苗的人本来就倾向于更重视健康、更积极就医（健康用户偏差，Healthy User Bias），这可能在一定程度上高估了疫苗的心脏保护效果。此外，1年的观察窗口也不足以评估终身获益。研究者自己也承认了这两点，随机对照试验（RCT）将是下一步验证的金标准。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;放到你的生活里来想&lt;/strong&gt;：美国 CDC 目前推荐 50 岁以上成年人接种 Shingrix 带状疱疹疫苗（共两剂，间隔 2–6 个月）。以往大多数人打这针是为了预防带状疱疹那种令人难以忍受的神经痛——现在来看，心血管保护很可能是「买一送一」的额外收益。在大多数美国保险计划下，Shingrix 可全额或部分报销；没有保险的自费价格约 300–350 美元（两剂合计）。各大连锁药店（CVS、Walgreens、Costco Pharmacy）均可预约，通常无需长时间等待。如果你已过50岁、有心血管家族史或本身存在心血管风险因素，而你还没打过这针，值得和你的医生聊聊。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;和此前覆盖过的内容的关联&lt;/strong&gt;：3月22日的景观简报中，我们提到「超加工食品每天多一份，心血管风险升5%」。现在这项研究提供了一个对称的视角——你不仅要管好吃什么，还要管好打什么疫苗。预防心血管疾病是多个维度同时发力的系统工程，这两项研究放在一起看，能帮助你建立更完整的风险管理思维。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.acc.org/About-ACC/Press-Releases/2026/03/16/19/33/Shingles-Vaccine-Drastically-Cuts-Risk-of-Serious-Cardiac-Events"&gt;https://www.acc.org/About-ACC/Press-Releases/2026/03/16/19/33/Shingles-Vaccine-Drastically-Cuts-Risk-of-Serious-Cardiac-Events&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260319044659.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260319044659.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://knowridge.com/2026/03/shingles-vaccine-may-cut-heart-disease-risk-by-nearly-50/"&gt;https://knowridge.com/2026/03/shingles-vaccine-may-cut-heart-disease-risk-by-nearly-50/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.escardio.org/The-ESC/Press-Office/Press-releases/shingles-vaccine-lowers-the-risk-of-heart-disease-for-up-to-eight-years"&gt;https://www.escardio.org/The-ESC/Press-Office/Press-releases/shingles-vaccine-lowers-the-risk-of-heart-disease-for-up-to-eight-years&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9055174b-1faa-58fc-8a52-e92bdbe96942</guid>
+      <pubDate>Sun, 22 Mar 2026 03:13:34 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.acc.org/About-ACC/Press-Releases/2026/03/16/19/33/Shingles-Vaccine-Drastically-Cuts-Risk-of-Serious-Cardiac-Events</link>
+    </item>
+    <item>
+      <title>每天一粒药，LDL 胆固醇降低 60%：口服 PCSK9 抑制剂 Enlicitide 三期临床试验结果发表于《新英格兰医学杂志》</title>
+      <description>&lt;p&gt;「他汀类药物以来效果最强的口服降脂药」——这是主研究者对这项结果的评价。2026年3月，一种名为 &lt;strong&gt;Enlicitide&lt;/strong&gt; 的实验性口服药的三期临床试验结果正式发表在《新英格兰医学杂志》（NEJM，394卷6期），其 LDL「坏胆固醇」降幅达到约 60%，超越了任何一种现有的口服降脂药。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这个药是怎么工作的&lt;/strong&gt;：Enlicitide 是一种&lt;strong&gt;口服 PCSK9 抑制剂&lt;/strong&gt;。PCSK9 是一种蛋白质，会降解肝细胞表面清除 LDL 的受体——简单说，它就像是专门拆除「胆固醇回收站」的破坏者。抑制 PCSK9 之后，肝脏表面留下更多 LDL 受体，可以把血液中的 LDL 更有效地「打扫」干净。这个机制本身并不新鲜——Repatha 和 Praluent 这两种注射型 PCSK9 抑制剂已经在市场上多年——但 Enlicitide 的突破在于：它做成了每天一粒的口服药片，而不需要每月注射。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三期试验的关键数字&lt;/strong&gt;：由默克公司（Merck）赞助、德克萨斯大学西南医学中心（UT Southwestern）心脏病学家 Ann Marie Navar 博士领衔的研究，共纳入 &lt;strong&gt;2,909 名参与者&lt;/strong&gt;——均为已确诊动脉粥样硬化或有高心血管风险的患者。三分之二服用 Enlicitide，三分之一服用安慰剂。结果：服药24周后，LDL 相较安慰剂下降约 60%；这一效果在为期一年的随访中保持稳定。除 LDL 外，非 HDL 脂蛋白、载脂蛋白 B（ApoB）以及脂蛋白(a)（Lp(a)）也显著下降——后者是近年来心血管风险研究的重点关注指标。&lt;/p&gt;
+
+&lt;p&gt;Navar 博士说：「这是自他汀类药物问世以来，我们用任何一种口服药物取得的最大 LDL 降幅。」&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么「口服」是关键突破？&lt;/strong&gt;目前美国有数以百万计的心血管高风险患者，即便用尽最大剂量的他汀类药物，LDL 仍无法达标。注射型 PCSK9 抑制剂效果优秀，但两大障碍让许多患者望而却步：注射本身的心理负担，以及价格问题（每年3,000至6,000美元，保险覆盖情况参差不齐）。一旦口服片剂版本上市，依从性有望大幅提升。&lt;em&gt;Enlicitide 尚未获得 FDA 批准&lt;/em&gt;，目前正有一项单独的大型临床试验研究其是否能在降 LDL 之外，进一步降低心脏病发作和卒中的实际发生率——这是批准前最关键的下一步。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;和你的关系&lt;/strong&gt;：如果你或你身边有人正在与高 LDL 较劲，或者已在服用他汀但效果不理想，Enlicitide 的进展是值得持续关注的。和你的医生讨论时，可以问问「PCSK9 抑制剂」是否适合你的情况——目前已获批的注射版（Repatha/Praluent）有时是有效选项，而口服版的临床路径正在推进中。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260321012659.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260321012659.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.utsouthwestern.edu/newsroom/articles/year-2026/feb-experimental-pill-bad-cholesterol.html"&gt;https://www.utsouthwestern.edu/newsroom/articles/year-2026/feb-experimental-pill-bad-cholesterol.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.merck.com/news/mercks-enlicitide-decanoate-an-investigational-oral-pcsk9-inhibitor-significantly-reduced-ldl-c-in-phase-3-coralreef-lipids-trial/"&gt;https://www.merck.com/news/mercks-enlicitide-decanoate-an-investigational-oral-pcsk9-inhibitor-significantly-reduced-ldl-c-in-phase-3-coralreef-lipids-trial/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ajmc.com/view/oral-pcsk9-inhibitor-enlicitide-lowers-ldl-by-57-at-24-weeks"&gt;https://www.ajmc.com/view/oral-pcsk9-inhibitor-enlicitide-lowers-ldl-by-57-at-24-weeks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">10deb3e7-d725-52ff-af48-ed7075542b5c</guid>
+      <pubDate>Sun, 22 Mar 2026 03:14:04 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/03/260321012659.htm</link>
     </item>
   </channel>
 </rss>
