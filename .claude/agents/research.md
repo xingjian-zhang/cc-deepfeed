@@ -69,12 +69,27 @@ If `--dry-run` was specified, add "This is a dry run — do not write entries, k
 
 **Model selection:** If a topic has a `model` field in config (e.g., `model: sonnet`), pass it as the `model` parameter to the Agent tool. This overrides the worker's default (opus). If no `model` field is set, omit the parameter to use the default.
 
-### 5. Collect results
+### 5. Check targets and re-run shortfalls
 
-After all workers complete, parse each worker's summary for:
-- entries_added vs entries_target
-- errors
-- threads_updated
+After all workers complete, run the target check:
+```bash
+python feed.py check-targets --run-id "<run_id>"
+```
+
+If it exits 0: all targets met, proceed to prune.
+
+If it exits 1: parse the `__SHORTFALLS_JSON__` line from the output. This gives you a list of `{topic_id, target, added, gap}` objects. **Re-spawn workers for each shortfall topic**, telling them how many more entries are needed:
+
+```
+Agent(
+  subagent_type: "research-worker",
+  description: "<topic_id> retry",
+  model: <topic's model from config>,
+  prompt: "Process topic '<topic_id>' with run-id '<run_id>'. You MUST produce at least <gap> more entries. Previous round only produced <added>/<target>. Search harder, broader, and deeper."
+)
+```
+
+After the retry workers complete, run `check-targets` again. If still short, accept the shortfall and note it in the report — but two rounds of workers should meet most targets.
 
 ### 6. Prune (skip if dry run)
 
@@ -99,10 +114,10 @@ Give a brief summary table:
 | Topic | Target | Added | Status |
 |-------|--------|-------|--------|
 | meta-news | 3 | 3 | OK |
-| soccer | 4 | 2 | Under target (quiet news day) |
+| soccer | 4 | 4 | OK (2 from retry) |
 | ... | ... | ... | ... |
 
-Include: total entries added, any errors, any knowledge updates (new/resolved threads).
+Include: total entries added, any retries triggered, any remaining shortfalls, any errors, and knowledge updates.
 
 ## Error Handling
 

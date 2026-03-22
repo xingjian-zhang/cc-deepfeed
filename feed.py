@@ -554,6 +554,53 @@ def show_status(config):
         print(f"{topic_id:<22} {lr_display:<25} {entry_count}/{max_entries:<7} {str(target):<8} {feeds_str}")
 
 
+def check_targets(config, run_id):
+    """Check if today's run met entry targets. Returns list of shortfall dicts.
+
+    Exits 0 if all targets met, 1 if any shortfalls.
+    """
+    _, state_dir = get_dirs(config)
+    topics = config.get("topics", [])
+    shortfalls = []
+
+    for topic in topics:
+        topic_id = topic["id"]
+        target = topic.get("target")
+        if not target:
+            continue
+
+        state = load_state(topic_id, state_dir)
+        entries = state.get("entries", [])
+
+        # Count entries from this run_id
+        if run_id:
+            added = sum(1 for e in entries if e.get("run_id") == run_id)
+        else:
+            # Count today's entries
+            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            added = sum(1 for e in entries if e.get("date") == today)
+
+        if added < target:
+            shortfalls.append({
+                "topic_id": topic_id,
+                "target": target,
+                "added": added,
+                "gap": target - added,
+            })
+
+    if not shortfalls:
+        print("All targets met.")
+        return shortfalls
+
+    print("TARGET SHORTFALLS:")
+    for s in shortfalls:
+        print(f"  {s['topic_id']:<22} added {s['added']}/{s['target']}  (need {s['gap']} more)")
+
+    # Output as JSON for orchestrator to parse
+    print(f"\n__SHORTFALLS_JSON__:{json.dumps(shortfalls)}")
+    sys.exit(1)
+
+
 def log_run(feed_id, log_data):
     """Append a structured log entry for a research run."""
     base = Path(__file__).parent
@@ -792,6 +839,10 @@ def main():
     p_index = sub.add_parser("index-html", help="Generate index.html for all feeds")
     p_index.add_argument("--base-url", required=True, help="Base URL where feeds are hosted")
 
+    # check-targets
+    p_check = sub.add_parser("check-targets", help="Check if entry targets were met for a run")
+    p_check.add_argument("--run-id", default=None, help="Run ID to check (default: today's entries)")
+
     # backfill-images
     sub.add_parser("backfill-images", help="Add og:image to existing entries that lack images")
 
@@ -849,6 +900,8 @@ def main():
         generate_opml(config, args.base_url)
     elif args.command == "index-html":
         generate_index_html(config, args.base_url)
+    elif args.command == "check-targets":
+        check_targets(config, args.run_id)
     elif args.command == "backfill-images":
         for combined_feed in get_all_feed_names(config):
             print(f"\nBackfilling images for {combined_feed}...")
