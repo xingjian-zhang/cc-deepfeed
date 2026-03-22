@@ -9,677 +9,12 @@
     </image>
     <description>Deep research briefings on AI, tech, sports, and local news</description>
     <link>https://xingjianz.com/rss-research/daily-briefings.xml</link>
-    <lastBuildDate>Sun, 22 Mar 2026 15:59:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 16:34:31 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/rss-research/daily-briefings.xml" type="application/rss+xml" />
-    <item>
-      <title>安娜堡联邦大楼前抗议：多组织联合反对 ICE 执法与美国对伊朗军事行动（3 月 16 日）</title>
-      <description>&lt;figure&gt;&lt;img src="https://www.michigandaily.com/wp-content/uploads/2026/03/edited_vvt.NEW_.IranProtest.3.15.26.17.jpg" alt="安娜堡联邦大楼前抗议：多组织联合反对 ICE 执法与美国对伊朗军事行动（3 月 16 日）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;2026 年 3 月 16 日（周日），多个安娜堡倡导团体在联邦大楼外联合举行抗议集会，同时反对 ICE 执法行动与美国对伊朗的军事介入。抗议的直接导火索是美国对一所伊朗女子小学的轰炸，造成约 150 名女学生死亡、近百人受伤。&lt;/p&gt;
-
-&lt;p&gt;集会由 A2 Against ICE、密歇根大学人权党（HRP）、东密歇根大学、Washtenaw 社区学院及密大学院民主党人等多个组织联合发起。密大 LSA 大二学生、HRP 联合创始人 Summit Louth 在台上强调"持续行动的重要性"；安娜堡市长候选人 Yousef Rabhi 将此次冲突定性为"资本主义战争"。&lt;/p&gt;
-
-&lt;p&gt;与会者的核心诉求包括：限制 ICE 在密大校园公共区域的执法权限、禁止 ICE 特工遮脸行动，以及将军费支出转向全民医保和学生债务减免等国内需求。&lt;/p&gt;
-
-&lt;p&gt;此次抗议是安娜堡今年以来持续不断的 ICE 抗议浪潮的最新一波。此前（1 月 30 日），数百人曾在安娜堡参加呼应明尼阿波利斯"全国罢工"的游行；安娜堡市官员也多次公开表态抵制配合 ICE 执法。这一系列动态与 GEO 谈判中要求校方限制配合 ICE 的诉求相互呼应，共同折射出安娜堡社区在移民政策上与联邦政府的深层张力。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.michigandaily.com/news/government/ann-arbor-protesters-rally-against-ice-and-u-s-military-action-in-iran/"&gt;https://www.michigandaily.com/news/government/ann-arbor-protesters-rally-against-ice-and-u-s-military-action-in-iran/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.michiganpublic.org/politics-government/2026-01-30/hundreds-march-in-ann-arbor-as-part-of-general-strike-against-ice-crackdown-in-minneapolis"&gt;https://www.michiganpublic.org/politics-government/2026-01-30/hundreds-march-in-ann-arbor-as-part-of-general-strike-against-ice-crackdown-in-minneapolis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">439b59c0-9db1-58dd-bf63-f1c91a902c1e</guid>
-      <pubDate>Sat, 21 Mar 2026 16:19:01 +0000</pubDate>
-      <category>umich-a2</category>
-      <link>https://www.michigandaily.com/news/government/ann-arbor-protesters-rally-against-ice-and-u-s-military-action-in-iran/</link>
-      <enclosure url="https://www.michigandaily.com/wp-content/uploads/2026/03/edited_vvt.NEW_.IranProtest.3.15.26.17.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>EverMind MSA：突破 1 亿 Token 上限的端到端长程记忆架构</title>
-      <description>&lt;figure&gt;&lt;img src="https://mma.prnewswire.com/media/2937737/image1.jpg?p=facebook" alt="EverMind MSA：突破 1 亿 Token 上限的端到端长程记忆架构" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;2026 年 3 月 18 日，AI 初创公司 EverMind 发布论文《Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens》，并同步在 GitHub 开源代码。这是目前已知首个在主流基准上将 LLM 上下文窗口稳定推至 &lt;strong&gt;1 亿 token&lt;/strong&gt; 且性能衰减不超过 9% 的端到端架构。&lt;/p&gt;&lt;h3&gt;核心设计：双阶路由 + 文档级 RoPE&lt;/h3&gt;&lt;p&gt;MSA（Memory Sparse Attention）的核心思路是在 Transformer 注意力层引入&lt;strong&gt;可微分内容稀疏化机制&lt;/strong&gt;，让模型在推理时不必对全量历史记忆进行全局注意力运算，而是通过一个「Routing 模块」动态筛选最相关的记忆子集。具体分两阶段执行：第一阶段在整个知识库做粗粒度主题筛选，第二阶段在候选文档内做 token 级精筛。辅助对比损失（Auxiliary Contrastive Loss）防止查询向热门文档坍塌。&lt;/p&gt;&lt;p&gt;位置编码方面，MSA 放弃全局 RoPE，改用&lt;strong&gt;文档级独立 RoPE（Document-wise RoPE）&lt;/strong&gt;：每篇文档的内部坐标系独立从 0 起算，彻底解耦了文档内的相对位置关系与文档间的全局顺序。这一设计使模型能从 64K token 的训练长度外推到 1 亿 token 的推理窗口，无需针对超长上下文专门微调。&lt;/p&gt;&lt;h3&gt;硬件感知：分级 KV 缓存 + Memory Interleave&lt;/h3&gt;&lt;p&gt;为在消费级 GPU 上可部署，MSA 采用&lt;strong&gt;分级 KV 存储&lt;/strong&gt;：精简的 Routing Key 留在 GPU VRAM，体积更大的 Content KV 放在 CPU DRAM，仅在 top-k 路由完成后异步 fetch，将内存瓶颈从有限的显存转移至充裕的主存。多跳推理则由&lt;strong&gt;Memory Interleave 机制&lt;/strong&gt;驱动——模型迭代执行「生成式检索 → 上下文扩展」循环，自主决定每次查询所需的检索轮次。&lt;/p&gt;&lt;h3&gt;基准成绩&lt;/h3&gt;&lt;p&gt;在 RULER 基准从 32K 扩展至 100 万 token 的测试中，MSA 准确率仅下降 3.93 个百分点；在 100M token 全量测试中，性能衰减低于 9%，而未改造的 Transformer 基线在这一规模下几乎完全失效。在主流长文本 QA 和「百万针草堆（NIAH）」测试中同样居于首位。&lt;/p&gt;&lt;h3&gt;对 Agent 系统的意义&lt;/h3&gt;&lt;p&gt;今日前序简报中已介绍了 MemRL 与 SYNAPSE 以&lt;em&gt;外挂记忆库&lt;/em&gt;为路线的演进；MSA 代表另一个方向——&lt;strong&gt;将长程记忆能力内化到模型自身的注意力层&lt;/strong&gt;，消除外部向量库带来的延迟、一致性管理与检索误差等额外开销。对于需要全量对话历史（如超长代码库理解、多轮谈判 Agent）的场景，这一架构提供了更简洁的工程路径。EverMind 的 GitHub 仓库已开放，研究者可在现有 Transformer 权重上以「即插即用」方式集成 MSA 注意力头。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.prnewswire.com/news-releases/breaking-the-100m-token-limit-everminds-msa-architecture-achieves-efficient-end-to-end-long-term-memory-for-llms-302718382.html"&gt;https://www.prnewswire.com/news-releases/breaking-the-100m-token-limit-everminds-msa-architecture-achieves-efficient-end-to-end-long-term-memory-for-llms-302718382.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/EverMind-AI/MSA"&gt;https://github.com/EverMind-AI/MSA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://technode.global/prnasia/breaking-the-100m-token-limit-everminds-msa-architecture-achieves-efficient-end-to-end-long-term-memory-for-llms/"&gt;https://technode.global/prnasia/breaking-the-100m-token-limit-everminds-msa-architecture-achieves-efficient-end-to-end-long-term-memory-for-llms/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d31a02fc-8f99-5154-aa4c-7c90a388e5b8</guid>
-      <pubDate>Sat, 21 Mar 2026 18:26:24 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://www.prnewswire.com/news-releases/breaking-the-100m-token-limit-everminds-msa-architecture-achieves-efficient-end-to-end-long-term-memory-for-llms-302718382.html</link>
-      <enclosure url="https://mma.prnewswire.com/media/2937737/image1.jpg?p=facebook" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Google 研究：「对手池多样性」足以在去中心化 RL 中自发涌现 Agent 合作行为</title>
-      <description>&lt;p&gt;2026 年 3 月 11 日，Google Paradigms of Intelligence 团队公布了一项关于多智能体强化学习（MARL）的研究成果：在&lt;strong&gt;无需任何显式协调机制&lt;/strong&gt;的前提下，仅凭训练时对手池的多样性，就能使去中心化训练的 LLM Agent 自发学会合作。这项发现为企业级多 Agent 系统的规模化部署提供了一条计算效率更高的路径，也重新厘定了「协作能力」与「训练数据工程」之间的关系。&lt;/p&gt;&lt;h3&gt;问题背景：去中心化 MARL 的囚徒困境&lt;/h3&gt;&lt;p&gt;在多智能体系统中，去中心化训练（每个 Agent 只优化自身局部奖励）长期面临一个核心难题：当双方各自最大化个体收益时，系统极易陷入&lt;strong&gt;相互背叛均衡&lt;/strong&gt;，集体效用远低于合作解——与博弈论中的囚徒困境同构。传统解法通常依赖三种手段：（1）共享全局状态以引入集中化信息；（2）设计专用协调器（Coordinator），统一调度 Agent 行动；（3）人工注入通信协议，让 Agent 在决策前先交换意图。但这三种方法在真实分布式部署中均面临高延迟、高工程复杂度和单点故障的问题。&lt;/p&gt;&lt;h3&gt;研究方法：异质对手池 + 上下文内适应&lt;/h3&gt;&lt;p&gt;Google 团队的解法出发点截然不同——他们构建了一个&lt;strong&gt;高度异质的对手训练池&lt;/strong&gt;，其中混入两类实体：一是「正在主动学习的模型（Active Learners）」，行为随训练持续漂移；二是「静态规则型程序（Static Rule-based Programs）」，策略固定但多样。&lt;/p&gt;&lt;p&gt;Agent 在这一混合池中反复对弈，每次交互时通过&lt;strong&gt;上下文内学习（In-Context Learning）&lt;/strong&gt;即时读取当前对手的行为特征，实时推断对方意图并调整自身策略。整个过程不依赖显式通信协议、不共享隐状态、不引入集中调度器——仅凭对交互历史的归纳实现行为适应。&lt;/p&gt;&lt;p&gt;研究者横向对比了五种多 Agent 架构：单 Agent（Single-Agent）、独立多 Agent（Independent MARL）、集中式多 Agent（Centralized MARL）、去中心化多 Agent（Decentralized MARL）和混合型（Hybrid），在四个多样化基准任务上进行全面评测。&lt;/p&gt;&lt;h3&gt;关键结论：多样性替代协调器&lt;/h3&gt;&lt;p&gt;核心发现是：&lt;strong&gt;在对手池足够异质的条件下，去中心化架构能够逼近集中式协调的合作水平&lt;/strong&gt;，同时将总计算开销降低约 30–40%。研究者给出的理论解释颇具洞见：当对手极度不可预测时，Agent 习得的最优泛化策略必然包含对「对手意图建模」的能力——这与合作所需的「心智化（Theory of Mind）」能力在本质上同构。Agent 在反复应对各类陌生对手的过程中，被迫内化「先建立信任 / 互惠预期，再进行博弈」的元策略，将&lt;strong&gt;合作作为对多样性适应的副产品&lt;/strong&gt;习得，而非被显式灌输。&lt;/p&gt;&lt;p&gt;研究者进一步指出，这一机制与现代 LLM 训练范式（大规模预训练 + RLHF）存在深层类比：多样化的预训练语料使模型泛化为通用助手，同理，多样化的对手池使 Agent 泛化为合作者。这暗示以类似方式构建多 Agent 训练数据集，可能成为下一代&lt;strong&gt;协作型 Agent 预训练&lt;/strong&gt;的基础方法论。&lt;/p&gt;&lt;h3&gt;对现有 Agent 框架的工程意义&lt;/h3&gt;&lt;p&gt;结合前序简报中介绍的 OpenAI Agents SDK、Google ADK 和 LangGraph 1.0 等框架，Google 此次研究提供了一个重要的训练侧配套理论：框架层只需做好 Agent 间消息路由，无需内嵌集中式协调逻辑；合作行为可以通过&lt;strong&gt;训练数据的多样性工程&lt;/strong&gt;自然涌现。对于代码审查 + 测试 + 部署流水线、多轮谈判 Agent 等需要多 Sub-Agent 协同的工业场景，这意味着训练侧多样性设计可以替代运行时架构复杂度，大幅降低系统工程门槛。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://venturebeat.com/orchestration/google-finds-that-ai-agents-learn-to-cooperate-when-trained-against"&gt;https://venturebeat.com/orchestration/google-finds-that-ai-agents-learn-to-cooperate-when-trained-against&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/"&gt;https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a2d428bc-f2bf-51f9-a32b-d6b9f3f577b3</guid>
-      <pubDate>Sat, 21 Mar 2026 18:27:17 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://venturebeat.com/orchestration/google-finds-that-ai-agents-learn-to-cooperate-when-trained-against</link>
-    </item>
-    <item>
-      <title>AriadneMem：用时序知识图谱解开终身记忆的多跳迷宫（arXiv 2603.03290）</title>
-      <description>&lt;figure&gt;&lt;img src="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" alt="AriadneMem：用时序知识图谱解开终身记忆的多跳迷宫（arXiv 2603.03290）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;2026 年 3 月，来自多所机构的 15 位研究者联合发表论文《AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents》（arXiv 2603.03290），提出一套&lt;strong&gt;离线图构建 + 在线拓扑推理&lt;/strong&gt;的两阶段架构，专门对抗长期对话场景下两个长期悬而未决的难题：多跳证据链断裂与状态演化冲突。&lt;/p&gt;&lt;h3&gt;两大核心问题&lt;/h3&gt;&lt;p&gt;现有记忆系统（包括前序简报介绍的 MemRL 与 SYNAPSE）在处理长期对话时普遍面临两类失效模式：&lt;br&gt;（1）&lt;strong&gt;证据链断裂（Disconnected Evidence）&lt;/strong&gt;：多跳问答要求将分散在不同时间节点的事实串联起来，但向量相似度检索只能召回局部相关片段，无法重建推理链；&lt;br&gt;（2）&lt;strong&gt;状态演化冲突（State Update Conflicts）&lt;/strong&gt;：用户信息随时间变化（如「住址从北京改为上海」），静态日志型记忆会积累矛盾条目，导致系统依据过时事实作答。&lt;/p&gt;&lt;h3&gt;离线构建：熵感知门控 + 冲突感知粗化&lt;/h3&gt;&lt;p&gt;在对话结束后，AriadneMem 对原始消息流执行两步处理：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;熵感知门控（Entropy-aware Gating）&lt;/strong&gt;：计算每条消息的信息熵，过滤噪声与低价值内容后再调用 LLM 提取实体和关系，降低提取成本同时减少噪声注入。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;冲突感知粗化（Conflict-aware Coarsening）&lt;/strong&gt;：对静态重复（同一事实的多次表述）执行合并，但关键地——将&lt;strong&gt;状态转变保留为时序边（Temporal Edges）&lt;/strong&gt;而非覆盖。例如「住址：北京」和「住址：上海（更新于第 47 轮）」在图中以有向时序边相连，保存完整状态迁移历史。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;最终构建出一个&lt;strong&gt;异质时序知识图谱&lt;/strong&gt;，节点为事实实体，边分为语义边（关联关系）和时序边（状态演化），为在线推理提供结构化基础。&lt;/p&gt;&lt;h3&gt;在线推理：算法式桥接发现 + 拓扑感知合成&lt;/h3&gt;&lt;p&gt;面对新查询时，AriadneMem 不再调用迭代式规划器（如 ReAct 的多轮调用），而是利用图结构直接执行&lt;strong&gt;算法式桥接发现（Algorithmic Bridge Discovery）&lt;/strong&gt;：在知识图谱的拓扑层面重建检索到的事实之间缺失的逻辑连接。随后通过一次&lt;strong&gt;拓扑感知合成（Topology-aware Synthesis）&lt;/strong&gt;将路径信息汇总为答案，整个推理过程仅占用 &lt;strong&gt;497 个上下文 token&lt;/strong&gt;。&lt;/p&gt;&lt;h3&gt;LoCoMo 基准成绩&lt;/h3&gt;&lt;p&gt;在专为超长对话记忆设计的 LoCoMo 基准（每个样本含 200–400 轮对话，带时序跳跃和交叉主题）上，以 GPT-4o 为底座：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;多跳 F1 提升 15.2%&lt;/strong&gt;（相对强基线）&lt;/li&gt;&lt;li&gt;&lt;strong&gt;平均 F1 提升 9.0%&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;总运行时间减少 77.8%&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;上下文消耗仅为 497 token，远低于全文本拼接方案&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;同期发布的 SimpleMem（arXiv 2601.02553）在 LoCoMo 平均 F1 上达 43.24（比 Mem0 的 34.20 高 9 点），而 AriadneMem 的多跳 F1 提升幅度（15.2%）表明两者侧重点不同：SimpleMem 以语义压缩降低 token 消耗见长，AriadneMem 以时序图推理解决多跳与状态更新见长，两篇论文形成互补。&lt;/p&gt;&lt;h3&gt;与现有研究的关系&lt;/h3&gt;&lt;p&gt;本月前序简报《LLM Agent 记忆体系》已介绍 Episodic/Semantic/Procedural 分层架构；AriadneMem 在 Episodic 记忆层引入了图结构时序建模，弥补了现有方案在状态演化追踪上的盲点。加之 EverMind MSA 将长程记忆内化到注意力层，当前记忆研究正呈现&lt;strong&gt;外挂图结构（AriadneMem）、外挂压缩存储（SimpleMem）与内生注意力扩展（MSA）三路并进&lt;/strong&gt;的格局，各有其适用的部署约束和场景边界。代码已开源：&lt;a href="https://github.com/LLM-VLM-GSL/AriadneMem"&gt;github.com/LLM-VLM-GSL/AriadneMem&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.03290"&gt;https://arxiv.org/abs/2603.03290&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/html/2603.03290"&gt;https://arxiv.org/html/2603.03290&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2601.02553"&gt;https://arxiv.org/abs/2601.02553&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a2c605fa-af31-5159-bf0d-f4d8e2f6de3f</guid>
-      <pubDate>Sat, 21 Mar 2026 18:27:50 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2603.03290</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>MARTI-MARS²：异构多智能体树搜索 RL 确立代码生成新标杆，双 32B 模型超越 GPT-5.1（arXiv 2602.07848，ICLR 2026）</title>
-      <description>&lt;figure&gt;&lt;img src="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" alt="MARTI-MARS²：异构多智能体树搜索 RL 确立代码生成新标杆，双 32B 模型超越 GPT-5.1（arXiv 2602.07848，ICLR 2026）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;清华大学 C3I 团队与 Shanghai AI Lab 联合发布的 &lt;strong&gt;MARTI-MARS²&lt;/strong&gt;（Multi-Agent Reinforced Training and Inference — Multi-Agent Self-Search v2）在 ICLR 2026 正式亮相，并已在 arXiv 上释出完整论文（2602.07848）。该工作将多智能体 RL 训练与测试时树搜索深度融合，在 LiveCodeBench v6（01/25–05/25）上以两个协作 32B 模型取得 &lt;strong&gt;77.7% Pass@1(MCTS)&lt;/strong&gt;，超越 GPT-5.1 等强基线，并系统性地揭示了政策多样性才是多智能体 RL 扩展的核心瓶颈。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;三阶段扩展律：从单智能体到异构多智能体&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;论文提出一条清晰的能力演化路线：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;单智能体&lt;/strong&gt;（vanilla GRPO）作为基线；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;同构多角色（Homo-MARS²）&lt;/strong&gt;：参数共享、多角色并行探索树节点，相比 vanilla GRPO 个体 Pass@1 提升 +4.6%、集成 Pass@1(MCTS) 提升 +5.1%；但参数共享导致训练后期奖励标准差骤降，政策快速向同质化收敛，性能随之停滞；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;异构多智能体（Heter-MARS²）&lt;/strong&gt;：各 agent 拥有独立参数，在 Qwen3-8B 上较 Homo-MARS² 再提升 +2.9%；Pass@K 指标（正确解覆盖率）在 8B 达 75.4%、14B 达 81.7%，G-Vendi（梯度空间认知策略多样性）随 agent 数量系统性增长。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;MARS²-T+：测试时三重增强&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在推理阶段，MARS²-T+ 通过以下组件在 Qwen3-8B 上再增 +3.4% Pass@1(MCTS)：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;结构化错误反馈（执行摘要、错误信息、失败测试用例）替代二元通过/失败信号；&lt;/li&gt;
-  &lt;li&gt;衰减加权 Thompson 采样引导深层探索（使深度 ≥4 节点占比从 6.3% 提升至 20.2%）；&lt;/li&gt;
-  &lt;li&gt;精调后的奖励模型（AUC-ROC 从 73.0% 提升至 79.3%，Spearman 相关系数从 39.7 升至 50.6）区分通过公开测试的候选解。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;为何值得关注&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;继本刊此前报道的 &lt;strong&gt;Tree-GRPO&lt;/strong&gt; 与 &lt;strong&gt;ToolTree&lt;/strong&gt;（均于 ICLR 2026 发表）之后，MARTI-MARS² 是树形搜索范式在&lt;em&gt;多智能体训练侧&lt;/em&gt;的最新验证。前两者聚焦单智能体推理预算压缩；MARTI-MARS² 揭示的新问题是：&lt;em&gt;多智能体参数共享会制造同质性陷阱&lt;/em&gt;，独立参数的异构策略才能维持探索多样性并突破代码生成瓶颈。对框架开发者而言，这意味着多智能体 RL 基础设施需要支持非参数共享的异步分布式训练。MARTI 已与 OpenRLHF 生态深度集成，代码开源于 &lt;a href=https://github.com/TsinghuaC3I/MARTI&gt;TsinghuaC3I/MARTI&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2602.07848"&gt;https://arxiv.org/abs/2602.07848&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://openreview.net/forum?id=E7jZqo0A50"&gt;https://openreview.net/forum?id=E7jZqo0A50&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/TsinghuaC3I/MARTI"&gt;https://github.com/TsinghuaC3I/MARTI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">296388f1-91f9-544e-af9c-4e974299b86e</guid>
-      <pubDate>Sat, 21 Mar 2026 18:30:08 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2602.07848</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>AgeMem：用步进式 GRPO 统一长短期记忆管理，五项长程基准全面领先（arXiv 2601.01885）</title>
-      <description>&lt;figure&gt;&lt;img src="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" alt="AgeMem：用步进式 GRPO 统一长短期记忆管理，五项长程基准全面领先（arXiv 2601.01885）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;来自阿里巴巴 DAMO 院的 Yi Yu 等人于 2026 年 1 月在 arXiv 发布 &lt;strong&gt;AgeMem&lt;/strong&gt;（Agentic Memory，arXiv 2601.01885），提出首个将长期记忆（LTM）与短期记忆（STM）管理&lt;em&gt;统一纳入单一 agent 策略&lt;/em&gt;的端到端 RL 框架，在五项长程基准上平均超越现有最强记忆增强基线 &lt;strong&gt;4.82 至 8.57 个百分点&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题背景：碎片化记忆管理的代价&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现有 LLM Agent 通常将 LTM（外部知识库/向量数据库）与 STM（上下文窗口管理）视作两套独立子系统，各自依赖启发式规则或辅助控制器，无法端到端联合优化。AgeMem 的切入点是：&lt;em&gt;记忆操作本身就是 agent 的可学习行为&lt;/em&gt;，应当像工具调用一样暴露为策略动作。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;核心设计：记忆操作即动作&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AgeMem 将以下操作全部定义为 agent 可选的工具动作，由 LLM 策略自主决定何时触发：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;存储（store）、检索（retrieve）、更新（update）、摘要（summarize）、遗忘（discard）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这使得 agent 在长程任务中可以动态维护一个随任务演化的活性知识库，而非依赖静态外部 RAG。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;三阶段渐进式 RL 训练 + 步进式 GRPO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;记忆操作带来的奖励信号稀疏且不连续（操作效果需多步后才能体现于任务结果），这是朴素 GRPO 难以应对的。AgeMem 的解法：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;三阶段渐进式 RL&lt;/strong&gt;：先训单步记忆操作，再训多步协调，最后联合优化全局任务目标，逐步提升训练信号密度；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;步进式 GRPO（Step-wise GRPO）&lt;/strong&gt;：在每一个记忆操作步骤上分配局部组相对优势，而非仅在最终任务完成处计算，使稀疏奖励问题得到显著缓解。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;实验结果&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在五项长程基准（涵盖多跳问答、长文档理解、持续对话等场景）上，AgeMem 相比强记忆增强基线（如 MemGPT、外挂 RAG 等）提升 4.82–8.57 pp，且在多个主干 LLM（包括 GPT-4o-mini、LLaMA-3 系列）上均保持稳定领先。同时，AgeMem 在 LTM 质量（信息压缩率、检索准确率）和上下文效率（每步消耗 token 数）上也优于基线。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为何值得关注&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本刊的 agent-memory 线索此前跟踪了 MemRL（运行时 RL 优化 Episodic Memory）和 SYNAPSE（动态图扩散激活），两者均属后装增强。AgeMem 走向更为彻底：&lt;em&gt;记忆策略与任务策略是同一个端到端 RL 优化目标的两个面&lt;/em&gt;。步进式 GRPO 对稀疏奖励的处理思路，也与 Tree-GRPO 在树节点级别分配监督信号的逻辑形成呼应，预示着细粒度中间信号将成为 Agent RL 训练的共同设计原则。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2601.01885"&gt;https://arxiv.org/abs/2601.01885&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/html/2601.01885v1"&gt;https://arxiv.org/html/2601.01885v1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.marktechpost.com/2026/01/12/how-this-agentic-memory-research-unifies-long-term-and-short-term-memory-for-llm-agents/"&gt;https://www.marktechpost.com/2026/01/12/how-this-agentic-memory-research-unifies-long-term-and-short-term-memory-for-llm-agents/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9cfb8bde-3f0e-5ccf-99cf-1a61bd0de34e</guid>
-      <pubDate>Sat, 21 Mar 2026 18:30:37 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2601.01885</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>信息自锁（Information Self-Locking）：RL 训练中 LLM Agent 停止有效提问的根因与修复方案 AReW（arXiv 2603.12109）</title>
-      <description>&lt;figure&gt;&lt;img src="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" alt="信息自锁（Information Self-Locking）：RL 训练中 LLM Agent 停止有效提问的根因与修复方案 AReW（arXiv 2603.12109）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;2026 年 3 月 12 日，Deyu Zou、Yongqiang Chen 等研究者在 arXiv 发布论文（2603.12109），正式命名并系统性分析了 RL 训练 LLM Agent 时的一个关键失效模式——&lt;strong&gt;信息自锁（Information Self-Locking，SeL）&lt;/strong&gt;：agent 在基于结果奖励的 RL 训练中逐渐停止发出有信息量的提问，且无法有效内化已收集的证据，最终陷入低信息交互的恶性循环。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题拆解：动作选择与信念追踪的相互依存&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;作者将 Agent 的主动推理能力分解为两个耦合组件：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;动作选择（Action Selection，AS）&lt;/strong&gt;：决定 agent 提出什么问题，控制观察流；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;信念追踪（Belief Tracking，BT）&lt;/strong&gt;：决定 agent 如何将新证据纳入当前信念并影响最终决策。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;两者形成负向锁定环路：BT 薄弱时，agent 无法感知高信息量提问的价值（AS 退化为随机/低效询问）；AS 退化后，收集到的证据质量下降，BT 进一步难以改善。标准 outcome-based RL 因为奖励信号只在任务末尾给出，无力打破此环路。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解法：AReW — 优势重加权 + 定向批判注入&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;论文提出的方案 &lt;strong&gt;AReW&lt;/strong&gt;（Advantage Reweighting）在不修改主体策略梯度框架的前提下，注入两类易获取的"定向批判"辅助信号：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AS 批判（z_t^Q）&lt;/strong&gt;：二值信号，标记某一提问步骤是否获得了真正有信息量的反馈；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;BT 批判（z_t^U）&lt;/strong&gt;：信号，标记新信息是否实质性强化了 agent 的信念更新。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;两类批判通过边际感知辅助目标对优势函数重新加权，使 RL 优化器在训练早期就能感知"提问质量"和"信念更新质量"，从而打破自锁循环。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;基准结果：跨三个领域 7 个数据集，最高 +62%&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;偏好估计任务（PE-GS=3）：从 18.33 提升至 80.33，&lt;strong&gt;提升 +62%&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;医疗诊断任务（MediQ）：从 50.50 提升至 61.25，提升 +10.8%；&lt;/li&gt;
-  &lt;li&gt;故障排查任务（FloDial-Hard）：从 21.33 提升至 42.33，提升 &lt;strong&gt;+21%&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;为何值得关注&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;信息自锁是一个此前缺乏系统性命名的失效模式，却很可能普遍存在于所有基于稀疏结果奖励训练的 Agent 系统中。本刊 rl-for-llm 线索长期追踪"如何让 RL 为 Agent 提供更细粒度信号"这一主题。Tree-GRPO 在树节点层面构造步骤监督、AgeMem 设计步进式 GRPO 应对记忆奖励稀疏，SeL 论文从另一维度（&lt;em&gt;探索信息质量&lt;/em&gt;）切入同一问题，三者共同构成 2026 年上半年 Agent RL 训练信号工程的核心方向。AReW 实现轻量，只需对优势函数重加权而无需改变 RL 算法主体，对已部署 GRPO/PPO 训练流水线的团队有直接适用价值。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.12109"&gt;https://arxiv.org/abs/2603.12109&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/html/2603.12109v1"&gt;https://arxiv.org/html/2603.12109v1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.simplenews.ai/news/information-self-locking-why-rl-trained-ai-agents-stop-asking-questions-f2v3"&gt;https://www.simplenews.ai/news/information-self-locking-why-rl-trained-ai-agents-stop-asking-questions-f2v3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">44891367-4028-57e7-9651-9656ce94a07f</guid>
-      <pubDate>Sat, 21 Mar 2026 18:31:36 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2603.12109</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>史前人类的惊天壮举：狩猎采集者在8500年前横渡地中海抵达马耳他</title>
-      <description>&lt;p&gt;2025年4月，一项发表于《自然》杂志的研究彻底改写了史前航海史：考古学家在马耳他北部梅利耶哈地区的&lt;strong&gt;拉特尼亚洞穴（Latnija Cave）&lt;/strong&gt;发现了距今约8500年的人类遗迹——石器、灶台与烹饪废料，证明狩猎采集者曾在此居住长达千年（约公元前6500年至5500年）。&lt;/p&gt;&lt;p&gt;这一发现令人震惊之处在于：当时抵达马耳他需要在开阔海域中跨越&lt;strong&gt;至少100公里&lt;/strong&gt;。研究者认为，这些史前航海者依靠简单的&lt;strong&gt;独木舟&lt;/strong&gt;，借助海面洋流、盛行风以及星象导航完成了这段旅程——即便在夏至最长的白昼，他们也需要在漆黑的大洋中行驶数小时。而在此之前，学界普遍认为如此长距离的地中海横渡只有在&lt;strong&gt;帆船发明后&lt;/strong&gt;才可能实现。&lt;/p&gt;&lt;p&gt;更令人意外的是，这批狩猎采集者比&lt;strong&gt;马耳他最早的农耕定居者早了整整1000年&lt;/strong&gt;抵达此地，且两者在技术、饮食和原料来源上几乎毫无传承关系——说明这是两次独立的迁徙。该研究由马克斯·普朗克进化人类学研究所与澳大利亚格里菲斯大学合作完成，发表于《自然》（DOI: 10.1038/s41586-025-08780-y）。&lt;/p&gt;&lt;p&gt;这项发现的深远意义在于：它迫使我们重新评估旧石器时代晚期与中石器时代人类的&lt;strong&gt;认知能力与技术水平&lt;/strong&gt;。能够规划并执行100公里以上的开放性海洋航行，意味着这些原始人拥有超乎想象的空间推理、团队协作与风险评估能力。正如研究者所言，他们并不是偶然漂流到马耳他的——这是一次有意为之的远征。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-08780-y"&gt;https://www.nature.com/articles/s41586-025-08780-y&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://phys.org/news/2025-04-hunter-sea-journey-malta-predates.html"&gt;https://phys.org/news/2025-04-hunter-sea-journey-malta-predates.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://news.griffith.edu.au/2025/04/14/longest-known-seafaring-venture-8500-years-ago-brings-hunter-gatherers-to-malta-before-early-farmers/"&gt;https://news.griffith.edu.au/2025/04/14/longest-known-seafaring-venture-8500-years-ago-brings-hunter-gatherers-to-malta-before-early-farmers/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.mpg.de/24496805/0408-wisy-menschliche-anwesenheit-auf-malta-frueher-als-bisher-vermutet-9347732-x"&gt;https://www.mpg.de/24496805/0408-wisy-menschliche-anwesenheit-auf-malta-frueher-als-bisher-vermutet-9347732-x&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5501b436-9c67-5849-a4f5-e42fac2aad97</guid>
-      <pubDate>Sun, 22 Mar 2026 01:17:42 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.nature.com/articles/s41586-025-08780-y</link>
-    </item>
-    <item>
-      <title>电场中的杀手：寄生线虫如何用静电钓住飞行昆虫</title>
-      <description>&lt;figure&gt;&lt;img src="https://news.berkeley.edu/wp-content/uploads/2025/10/Nematode_jumping_on_charged_Fly_OrtegaJVM-crop.jpg" alt="电场中的杀手：寄生线虫如何用静电钓住飞行昆虫" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;2025年10月，加州大学伯克利分校与埃默里大学的研究者在《美国国家科学院院刊》（PNAS）上发表了一项令人瞠目的发现：一种名为&lt;strong&gt;斯氏线虫（Steinernema carpocapsae）&lt;/strong&gt;的寄生圆虫，进化出了利用&lt;strong&gt;静电吸引力&lt;/strong&gt;在空中捕获飞行昆虫的能力。&lt;/p&gt;&lt;p&gt;这种仅约1毫米长的线虫会将身体弹射到空中，弹跳高度可达体长的&lt;strong&gt;25倍&lt;/strong&gt;，且在腾空过程中以高达&lt;strong&gt;每秒1000转&lt;/strong&gt;的速度旋转。研究者原本以为它们是在随机跳跃，碰运气附着到路过的昆虫身上——但数学模型揭示了一个全然不同的机制。&lt;/p&gt;&lt;p&gt;昆虫翅膀在空气中扇动时，会在自身表面积累&lt;strong&gt;数百伏特的正静电荷&lt;/strong&gt;。而带负电的线虫在跳跃瞬间，会被这一电场吸引并修正弹道。埃默里大学物理学家Justin Burton的模型显示：当昆虫携带100伏静电时，线虫命中概率不足10%；但当静电荷升至800伏时，命中率跃升至&lt;strong&gt;80%&lt;/strong&gt;。这实际上是一种被动制导系统——线虫本身并不主动感知猎物，而是被动响应电场。&lt;/p&gt;&lt;p&gt;伯克利整合生物学助理教授Victor Ortega-Jiménez领导了这项研究。研究者指出，这是&lt;strong&gt;首次在动物界发现利用环境静电场进行空中捕食导航&lt;/strong&gt;的例子。更有趣的是，斯氏线虫在农业上被广泛用作生物杀虫剂（通过感染并杀死土壤害虫），这一发现可能彻底改变其在叶面喷洒场景中的应用逻辑——因为叶面上的带电昆虫恰好是它的理想猎场。&lt;/p&gt;&lt;p&gt;这项研究也提醒我们：自然界中&lt;strong&gt;静电生态学（electrostatic ecology）&lt;/strong&gt;这一领域仍然极度低估，从蜜蜂感知花朵电场到现在线虫的空中猎杀，电场正成为生物感知与行为研究的新前沿。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://news.berkeley.edu/2025/10/29/parasitic-worms-rely-on-static-electricity-to-find-prey-in-midair/"&gt;https://news.berkeley.edu/2025/10/29/parasitic-worms-rely-on-static-electricity-to-find-prey-in-midair/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://news.emory.edu/features/2025/10/esc_feature_nematode_electrostatic_ecology_14-10-2025/index.html"&gt;https://news.emory.edu/features/2025/10/esc_feature_nematode_electrostatic_ecology_14-10-2025/index.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/static-electricity-helps-parasitic-nematodes-leap-onto-insects/"&gt;https://www.scientificamerican.com/article/static-electricity-helps-parasitic-nematodes-leap-onto-insects/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2025/10/251015032304.htm"&gt;https://www.sciencedaily.com/releases/2025/10/251015032304.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a44170c0-168d-5fff-b021-f6829762b4bb</guid>
-      <pubDate>Sun, 22 Mar 2026 01:18:03 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://news.berkeley.edu/2025/10/29/parasitic-worms-rely-on-static-electricity-to-find-prey-in-midair/</link>
-      <enclosure url="https://news.berkeley.edu/wp-content/uploads/2025/10/Nematode_jumping_on_charged_Fly_OrtegaJVM-crop.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>卡拉汉特佩：11000年前的新石器时代圆形剧场与最古老的人面雕柱</title>
-      <description>&lt;figure&gt;&lt;img src="https://arkeonews.net/wp-content/uploads/2025/11/Karahantepe.jpg" alt="卡拉汉特佩：11000年前的新石器时代圆形剧场与最古老的人面雕柱" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;土耳其东南部的&lt;strong&gt;卡拉汉特佩（Karahantepe）&lt;/strong&gt;遗址近年来频繁刷新考古学界的认知下限。2025年，该遗址斩获《考古学》杂志年度十大发现，两项突破尤为引人关注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;一、新石器时代的"圆形剧场"&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;考古学家在此发掘出一座直径约17米的圆形建筑，内部有三层弧形石质座席向中央主雕塑延伸——其布局与今日的圆形剧场如出一辙。地板直接凿入石灰岩基岩，四壁镶嵌多个人头雕像。这座建筑距今约&lt;strong&gt;11000年&lt;/strong&gt;（约公元前9400年），其建造年代比农业在该地区普及还早数百年，证明&lt;strong&gt;大型公共仪式建筑早于定居农耕文明&lt;/strong&gt;而存在。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;二、史上第一根刻有人脸的T形石柱&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;2025年10月，研究者在同一遗址发现了一根高135厘米的T形石柱，柱顶雕刻着突出的鼻梁、深陷的双眼与棱角分明的下颌——这是迄今已知&lt;strong&gt;最古老的人脸T形石柱&lt;/strong&gt;，距今约12000年。T形石柱是"塔什特佩勒（Tas Tepeler，石丘群）"遗址群的标志性构造，此前学界争论这类石柱究竟代表建筑构件还是人形象征；刻有人脸的这根石柱直接回答了这一问题——它们&lt;strong&gt;是人的象征，而非单纯的建筑元素&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;卡拉汉特佩与邻近的世界遗产哥贝克力石阵（Gobeklitepe）同属"塔什特佩勒项目"，研究时段约为公元前9400至8000年。值得注意的是，卡拉汉特佩的岩基雕凿规模&lt;strong&gt;超过了哥贝克力石阵&lt;/strong&gt;，且集中了新石器时代已知数量最多的人脸描绘。&lt;/p&gt;&lt;p&gt;这些发现共同指向一个颠覆性结论：&lt;strong&gt;宗教仪式、象征性艺术与公共空间的组织，并非农业革命的产物，而恰恰是其前提&lt;/strong&gt;。换言之，人类先建起了神庙，才学会了种田。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arkeonews.net/a-11000-year-old-neolithic-amphitheater-discovered-at-karahantepe/"&gt;https://arkeonews.net/a-11000-year-old-neolithic-amphitheater-discovered-at-karahantepe/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/a-human-face-was-carved-into-this-stone-pillar-in-turkey-11000-years-ago-180987489/"&gt;https://www.smithsonianmag.com/smart-news/a-human-face-was-carved-into-this-stone-pillar-in-turkey-11000-years-ago-180987489/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.theartnewspaper.com/2025/10/09/discovery-of-11000-year-old-carved-face-in-turkey-offers-new-insight-into-early-human-expression"&gt;https://www.theartnewspaper.com/2025/10/09/discovery-of-11000-year-old-carved-face-in-turkey-offers-new-insight-into-early-human-expression&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aa.com.tr/en/turkiye/neolithic-turkish-site-of-karahantepe-named-among-top-10-archaeological-discoveries-of-2025/3778748"&gt;https://www.aa.com.tr/en/turkiye/neolithic-turkish-site-of-karahantepe-named-among-top-10-archaeological-discoveries-of-2025/3778748&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">df72dde9-0972-5e7a-b03d-03990cb9bc28</guid>
-      <pubDate>Sun, 22 Mar 2026 01:18:56 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://arkeonews.net/a-11000-year-old-neolithic-amphitheater-discovered-at-karahantepe/</link>
-      <enclosure url="https://arkeonews.net/wp-content/uploads/2025/11/Karahantepe.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>细胞核里的隐秘新陈代谢：超过200种能量酶竟然直接附着在人类DNA上</title>
-      <description>&lt;figure&gt;&lt;img src="https://scx2.b-cdn.net/gfx/news/hires/2026/cancer-has-a-unique-nu.jpg" alt="细胞核里的隐秘新陈代谢：超过200种能量酶竟然直接附着在人类DNA上" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;你知道细胞的能量工厂在哪里吗？几乎所有中学生物课都会告诉你：是线粒体（mitochondria）。线粒体负责通过&lt;strong&gt;氧化磷酸化（oxidative phosphorylation）&lt;/strong&gt;产生ATP，也就是细胞的"通用货币"。而细胞核（cell nucleus）呢？那是基因组的保险库，DNA的居所，负责指挥和转录——是信息中心，不是能量中心。&lt;/p&gt;
-
-&lt;p&gt;2026年3月，来自西班牙&lt;strong&gt;基因组调控中心（Center for Genomic Regulation, CRG）&lt;/strong&gt;的科学家在《自然·通讯》（Nature Communications）上发表了一项颠覆这一常识的研究。第一作者 Savvas Kourtis 和通讯作者 Sara Sdelci 领导的团队发现：超过&lt;strong&gt;200种代谢酶（metabolic enzymes）&lt;/strong&gt;并不只待在线粒体或细胞质里，它们还直接附着在细胞核内的&lt;strong&gt;染色质（chromatin）&lt;/strong&gt;上——也就是说，能量代谢的分子机器正在 DNA 上工作。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7%：一个令人震惊的数字&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;研究团队开发了一套名为"&lt;strong&gt;天然染色质组谱（native chromatome profiling）&lt;/strong&gt;"的技术，能在不破坏细胞结构的前提下，系统性地识别所有附着在染色质上的蛋白质。结果令他们自己都感到意外：在所有被检测到的染色质结合蛋白中，有整整&lt;strong&gt;7%&lt;/strong&gt;竟然是代谢酶——这些酶本应该在线粒体或细胞质里忙碌，却跑到了 DNA 的旁边安了家。&lt;/p&gt;
-
-&lt;p&gt;这项研究涵盖了&lt;strong&gt;44种癌细胞系和来自10种健康组织的细胞&lt;/strong&gt;，发现不同类型的细胞拥有截然不同的核内代谢酶分布模式。研究者将这种模式称为"&lt;strong&gt;核代谢指纹（nuclear metabolic fingerprint）&lt;/strong&gt;"——就像指纹一样，每种细胞类型、每种癌症都有独特的图案。举个具体例子：参与氧化磷酸化的酶在乳腺癌细胞的细胞核中大量出现，但在肺癌细胞的细胞核中几乎不见踪影。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;一个酶，两种命运&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;最引人入胜的发现来自一个名叫 &lt;strong&gt;IMPDH2&lt;/strong&gt;（次黄嘌呤单磷酸脱氢酶2，inosine monophosphate dehydrogenase 2）的酶。它原本是嘌呤合成路径中的关键酶，在细胞质中负责调节核苷酸的供给。然而，当研究人员人为地将 IMPDH2 锁定在细胞核内时，它展现出了完全不同的行为：开始&lt;strong&gt;维护基因组稳定性（genome stability）&lt;/strong&gt;，参与 DNA 损伤修复。而当同一个酶被锁定在细胞质中时，它则影响的是完全不同的细胞通路。&lt;/p&gt;
-
-&lt;p&gt;更精确的机制研究发现，IMPDH2 在 DNA 受损时会被招募到染色质上，通过调节细胞核内的 &lt;strong&gt;NAD+&lt;/strong&gt; 水平来控制 &lt;strong&gt;PARP1&lt;/strong&gt;（多聚ADP核糖聚合酶1，poly ADP-ribose polymerase 1）的活性——而 PARP1 正是 DNA 损伤修复的核心酶，也是目前一大类癌症靶向药物（PARP 抑制剂）的攻击对象。同一个酶，在不同地点，做着完全不同的工作。这种"&lt;strong&gt;功能的地点依赖性（location-dependent function）&lt;/strong&gt;"现象，此前几乎没有人想到会如此普遍。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;更大的谜题：它们是怎么进去的？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;细胞核外面有一层双层膜，上面布满了&lt;strong&gt;核孔复合体（nuclear pore complex）&lt;/strong&gt;——这些"关卡"通常只允许直径约40纳米以下的分子自由通过。但线粒体中的代谢酶，很多都比这个尺寸大得多。它们是怎么进入细胞核的？目前还没有答案。研究团队认为，细胞可能存在一种尚未被发现的转运机制，能将这些"超重货物"送入核内。这是整个发现中最令人着迷的悬案之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么这件事很重要&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Sara Sdelci 解释说："这些酶在细胞核中的存在与 DNA 损伤修复密切相关。这意味着它们可能直接影响癌细胞对基因毒性压力（genotoxic stress）的反应。" 这个发现为长期困扰肿瘤学家的一个问题提供了新的解释角度：&lt;strong&gt;为什么两个基因突变完全相同的肿瘤，对同一种化疗或放疗方案的反应可以截然不同？&lt;/strong&gt; 答案也许就藏在它们不同的核代谢指纹里。&lt;/p&gt;
-
-&lt;p&gt;从更宏观的视角看，这项研究动摇了一个已存在数十年的细胞生物学基本假设——代谢与基因调控是两个相对独立的过程。现在看来，它们在细胞核内深度交织，代谢酶不只是能量生产的机器，也是基因组的守护者和调控者。&lt;/p&gt;
-
-&lt;p&gt;接下来，研究者希望系统性地弄清楚：这200多种酶，各自在细胞核内具体做什么？它们是否全都有功能活性？针对特定癌症的核代谢指纹，能否成为新的诊断标志物或治疗靶点？这些问题的答案，可能会在未来几年内重塑我们对癌症生物学的理解。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260309183010.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260309183010.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medicalxpress.com/news/2026-03-cancer-unique-nuclear-metabolic-fingerprint.html"&gt;https://medicalxpress.com/news/2026-03-cancer-unique-nuclear-metabolic-fingerprint.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41467-026-69217-2"&gt;https://www.nature.com/articles/s41467-026-69217-2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8897240f-fe99-5dee-965f-f359ee7fa2b9</guid>
-      <pubDate>Sun, 22 Mar 2026 01:32:39 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.sciencedaily.com/releases/2026/03/260309183010.htm</link>
-      <enclosure url="https://scx2.b-cdn.net/gfx/news/hires/2026/cancer-has-a-unique-nu.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>疟原虫体内的微型火箭：困扰寄生虫学界数十年的旋转铁晶体之谜</title>
-      <description>&lt;p&gt;在恶性疟原虫（&lt;em&gt;Plasmodium falciparum&lt;/em&gt;）的细胞深处，有一场永不停歇的混乱运动。数以千计的铁晶体在一个叫做食物泡的微型区室中疯狂旋转、弹跳、碰撞，只要疟原虫还活着，这些晶体就不会停下来。一旦疟原虫死亡，一切骚动也瞬间归于平静。&lt;/p&gt;
-
-&lt;p&gt;这个现象在显微镜下早已被观察到，却困扰了寄生虫学界几十年。犹他大学生物化学副教授 &lt;strong&gt;Paul Sigala&lt;/strong&gt; 直言不讳：人们不谈他们不理解的事情。这些晶体的运动是如此神秘而奇异，几十年来一直是寄生虫学的一个盲区。直到2025年10月，他与博士后研究员 &lt;strong&gt;Erica Hastings&lt;/strong&gt; 等人终于在 &lt;em&gt;PNAS&lt;/em&gt;（美国国家科学院院刊）发表了答案：这些晶体是被一种和航天火箭相同的化学反应所驱动的。&lt;/p&gt;
-
-&lt;p&gt;这些晶体叫做&lt;strong&gt;疟色素（hemozoin）&lt;/strong&gt;。疟原虫寄生在人体红细胞中，以血红蛋白为食。但血红蛋白中游离的亚铁血红素（heme）对疟原虫来说是毒素——它会促进氧化损伤，杀死寄生虫自身。疟原虫的解决方案是：把游离血红素聚合成疟色素晶体，封存在食物泡中无害化。这一解毒机制早已为人所知，但晶体为何要旋转，始终没有答案。&lt;/p&gt;
-
-&lt;p&gt;Sigala 团队用了一个精妙的实验来破局：把疟原虫放在低氧浓度的环境下培养。低氧条件下，疟原虫依然存活，但晶体的转速骤降至正常水平的约 &lt;strong&gt;50%&lt;/strong&gt;。这个结果指向了关键线索——驱动晶体运动的，是某种依赖氧气的化学物质。而疟原虫在代谢过程中会持续产生大量&lt;strong&gt;过氧化氢（hydrogen peroxide）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;过氧化氢在与疟色素晶体接触时，会在晶体表面发生催化分解，生成水和氧气，同时释放能量。这个化学反应推动了晶体的持续旋转。Hastings 描述道：过氧化氢分解一直被用来驱动大型火箭，但我认为它从未在生物系统中被观察到过。这项发现将疟色素晶体确认为迄今已知的&lt;strong&gt;第一个生物界自推进金属纳米颗粒&lt;/strong&gt;的实例——大自然在疟原虫体内悄悄运行着火箭发动机，已经运行了数百万年。&lt;/p&gt;
-
-&lt;p&gt;旋转的功能是双重的。其一，疟原虫代谢产生的过氧化氢对自身也有毒性；晶体旋转本身就在不断消耗这些有害副产物，相当于一个内置的解毒装置。其二，旋转能防止晶体相互聚集粘连，保持晶体表面的有效面积，让食物泡得以持续高效地处理更多游离血红素。两个功能叠加，共同维持了疟原虫的生存能力。&lt;/p&gt;
-
-&lt;p&gt;这一发现的药物开发意义尤为值得关注。疟色素的形成与晶体表面的化学反应是疟原虫所独有的机制，人类细胞中完全没有对应的过程。这意味着，针对这一机制开发的药物在理论上可以精准杀死疟原虫而不损伤宿主细胞，产生副作用的风险极低。全球每年仍有约2.4亿人感染疟疾，并且耐药性正成为日益严峻的挑战——新靶点的发现是抗疟领域的迫切需求。&lt;/p&gt;
-
-&lt;p&gt;此外，纳米技术领域同样从中受益。工程师们长期致力于设计能在微纳米尺度自主运动的微型机器人，用于靶向药物递送或微创手术。疟色素晶体的化学推进范例——以体内天然产生的化学物质驱动金属颗粒运动——提供了前所未有的生物学蓝图。大自然先于人类工程师数百万年，已经解决了这个问题。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.pnas.org/doi/10.1073/pnas.2513845122"&gt;https://www.pnas.org/doi/10.1073/pnas.2513845122&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://attheu.utah.edu/science-technology/malaria-parasites-are-full-of-wildly-spinning-iron-crystals-scientists-finally-know-why/"&gt;https://attheu.utah.edu/science-technology/malaria-parasites-are-full-of-wildly-spinning-iron-crystals-scientists-finally-know-why/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.futurity.org/malaria-spinning-iron-crystals-3305132-2/"&gt;https://www.futurity.org/malaria-spinning-iron-crystals-3305132-2/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">19f40ddb-3ba0-5e69-8bf2-7f5271e996ae</guid>
-      <pubDate>Sun, 22 Mar 2026 01:39:08 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.pnas.org/doi/10.1073/pnas.2513845122</link>
-    </item>
-    <item>
-      <title>扭了半圈的莫比乌斯分子：IBM 科学家合成了一种拓扑结构前所未有的分子</title>
-      <description>&lt;figure&gt;&lt;img src="https://static.scientificamerican.com/dam/m/504f22093f28b4f9/original/half-mobius-molecule.png?m=1772736306.315&amp;amp;w=1200" alt="扭了半圈的莫比乌斯分子：IBM 科学家合成了一种拓扑结构前所未有的分子" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;想象一只蚂蚁沿着一个普通圆环爬行。它绕一圈就能回到出发点，上下方向始终不变。现在想象同一只蚂蚁走上一条&lt;strong&gt;莫比乌斯带（Möbius strip）&lt;/strong&gt;——那条只有一个面的奇特纸带。蚂蚁绕完一圈，会发现自己站在了"背面"；再绕一圈，才能真正回到起点。这种扭转一次、需要两圈才能还原的结构，在化学界已有对应物，叫做莫比乌斯分子。&lt;/p&gt;
-
-&lt;p&gt;但2026年3月5日，发表在《科学》（&lt;em&gt;Science&lt;/em&gt;）杂志上的一项研究打破了这个已知的边界：IBM 苏黎世研究院联合牛津大学、曼彻斯特大学、苏黎世联邦理工学院（ETH Zurich）、洛桑联邦理工学院（EPFL）和雷根斯堡大学的研究团队，合成了一种被称为&lt;strong&gt;半莫比乌斯分子（half-Möbius molecule）&lt;/strong&gt;的全新化合物——一种自然界中从未存在过、在此之前甚至没有被正式预测过的分子。&lt;/p&gt;
-
-&lt;p&gt;这种分子的化学式是 &lt;strong&gt;C₁₃Cl₂&lt;/strong&gt;，由13个碳原子和2个氯原子构成，在接近绝对零度的温度下、用扫描探针显微镜（scanning probe microscopy）在金的绝缘层上一步步构建而成。它的奇特之处不在于原子的排列，而在于它的&lt;strong&gt;电子云的拓扑结构&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;在普通化学键中，电子云的相位绕一圈后会回到原点。在标准莫比乌斯分子中，电子云完成一次翻转，需要两圈。而在这个半莫比乌斯分子中，电子云每绕一圈就扭转 &lt;strong&gt;90度&lt;/strong&gt;——意味着必须绕 &lt;strong&gt;四圈&lt;/strong&gt;，才能回到初始相位。这是一种前所未有的拓扑阶数，在整个化学记录中找不到任何对应物。&lt;/p&gt;
-
-&lt;p&gt;用蚂蚁比喻来说：走这个半莫比乌斯环的蚂蚁，需要四趟才能回到它出发时的朝向。这不是量子效应的比喻，这字面上就是这个分子中电子波函数的行为。&lt;/p&gt;
-
-&lt;p&gt;更令人惊奇的是，这种拓扑结构是&lt;strong&gt;可切换的&lt;/strong&gt;。研究人员发现，分子可以在右手半莫比乌斯、左手半莫比乌斯和拓扑平庸（topologically trivial）三种构型之间可逆地相互转换，拓扑性质因此变成了一个可工程化控制的参数，而不是一个固定特征。&lt;/p&gt;
-
-&lt;p&gt;这种分子在自然界中永远不会自发形成——它的极端扭曲状态在常规条件下不稳定。"在自然界中，它们永远不会稳定存在，"参与研究的科学家表示。这也正是量子计算在此发挥关键作用的原因：要验证这种前所未见的电子结构，仅靠经典计算机根本无法完成。团队使用了 IBM 的 SqDRIFT 算法，在 IBM Heron 量子处理器上调用了多达 &lt;strong&gt;100个量子比特&lt;/strong&gt;，探索了远超经典对角化所能处理的活性空间，最终解开了驱动拓扑切换的螺旋赝 Jahn-Teller 效应——分子扭曲几何结构对电子结构的反向影响。&lt;/p&gt;
-
-&lt;p&gt;这项工作被认为是量子计算机从"理论工具"走向"实用化学工具"的一个里程碑。此前量子计算机在化学模拟中的多数应用仍属演示性质，而这次是真正用量子计算机去解决经典方法无法处理的真实科学问题，并由此揭示了一种全新的物质形态。&lt;/p&gt;
-
-&lt;p&gt;在拓扑化学（topological chemistry）这个年轻领域，研究者致力于理解形状如何决定量子行为。半莫比乌斯分子的出现，意味着分子拓扑的可能空间比我们想象的还要宽广。它也许无法在常温常压下稳定存在，却已经存在于科学记录中——一种需要绕四圈才能回到原点的电子云，静静地等待下一个将其用于量子信息、分子开关或催化剂设计的工程师。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://newsroom.ibm.com/2026-03-05-ibm-and-university-researchers-create-a-never-before-seen-molecule-m4hbtrjd63nc.html"&gt;https://newsroom.ibm.com/2026-03-05-ibm-and-university-researchers-create-a-never-before-seen-molecule-m4hbtrjd63nc.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://research.ibm.com/blog/half-mobius-molecule"&gt;https://research.ibm.com/blog/half-mobius-molecule&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/ibm-scientists-unveil-the-first-ever-half-moebius-molecule-with-the-help-of/"&gt;https://www.scientificamerican.com/article/ibm-scientists-unveil-the-first-ever-half-moebius-molecule-with-the-help-of/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d256e83c-d457-5541-b8a5-ebdf1ded8191</guid>
-      <pubDate>Sun, 22 Mar 2026 01:40:03 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://newsroom.ibm.com/2026-03-05-ibm-and-university-researchers-create-a-never-before-seen-molecule-m4hbtrjd63nc.html</link>
-      <enclosure url="https://static.scientificamerican.com/dam/m/504f22093f28b4f9/original/half-mobius-molecule.png?m=1772736306.315&amp;w=1200" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>「诺珀面体」：300年后，数学家终于找到了一个无法穿过自身的凸多面体</title>
-      <description>&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2025/10/Self_Containing_Shapes-Fig2-crMarkBelan-Desktopv1.svg" alt="「诺珀面体」：300年后，数学家终于找到了一个无法穿过自身的凸多面体" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;如果你拿一个立方体，能不能在它内部凿一条隧道，让另一个一模一样的立方体穿过去？答案是可以的——只需要把隧道对角斜切，穿过的那个立方体就能从容通过。这听起来已经够奇怪了，但更奇怪的是：&lt;strong&gt;几乎所有凸多面体都具备这一性质&lt;/strong&gt;，包括那些你能想象到的各种形状——球体、锥体、正十二面体，统统可以。&lt;/p&gt;
-
-&lt;p&gt;这个性质有个名字，叫做「鲁伯特性质」（Rupert's property），得名自17世纪的普法尔茨亲王鲁伯特（Prince Rupert of the Rhine）。1693年，这位亲王在一次打赌中声称，可以在一个标准立方体里凿出一条通道，让一个稍大的立方体穿过——当时的人们认为这不可能，但他证明了自己是对的。此后300多年里，数学家们陆续验证了越来越多的形状都具有鲁伯特性质，逐渐形成了一种共识甚至猜想：&lt;strong&gt;所有凸多面体都具有鲁伯特性质&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;直到2025年8月，这个猜想被推翻了。&lt;/p&gt;
-
-&lt;p&gt;奥地利统计局的数学家 Jakob Steininger（30岁）和科技公司 A&amp;R Tech 的 Sergey Yurkevich（29岁）在 arxiv 上发表了他们的研究成果：一个拥有 90 个顶点、152 个面（其中150个三角形和2个正十五边形）的凸多面体，它被证明&lt;strong&gt;无法被自身的任何副本穿过&lt;/strong&gt;。两人给它起了一个妙趣横生的名字——「Noperthedron」（诺珀面体，源自「Nope + polyhedron」，即「不行的多面体」）。外形上，它像一个宽底宽口的圆润水晶花瓶。&lt;/p&gt;
-
-&lt;p&gt;这个证明的技术难度极高。问题的本质是：对于这个形状的&lt;strong&gt;所有可能的打孔朝向&lt;/strong&gt;，能不能找到任何一个方向，使得隧道截面大到足以让另一个相同的形状通过？两人将所有可能的朝向参数化为一个五维空间中的「立方体」（五个轴各代表一种旋转维度），然后将整个五维空间分割成约 1800 万个小块，对每一块进行数学检验。他们开发了两条关键定理：一条处理「投影面积明显超出」的朝向，另一条处理涉及特殊顶点构型的边缘情况。两条定理合力覆盖了全部 1800 万个小块，得出结论：&lt;strong&gt;不存在任何方向可以让诺珀面体穿过自身&lt;/strong&gt;。Steininger 事后感叹，「这能成功，简直是个奇迹。」&lt;/p&gt;
-
-&lt;p&gt;两人的研究方法本身也很有启发性。他们最初系统地检索了现有数据库中数百个最对称、最优美的凸多面体，希望从中找到一个反例——结果每一个都具有鲁伯特性质。碰壁之后，他们决定转换思路：用算法&lt;strong&gt;主动生成&lt;/strong&gt;一个理论上可能不具备该性质的形状，再对它进行计算机辅助的严格数学证明。这种「先构造目标，再证明性质」的逆向工程方式，在几何学研究中颇为罕见。&lt;/p&gt;
-
-&lt;p&gt;这个发现的意义不只是「终于找到了例外」。它提示数学家，&lt;strong&gt;几何直觉和数值实验的共识有时会指向错误的方向&lt;/strong&gt;——300年的正向证据并不足以确立一个猜想为定理。更深远的影响在于，这为凸几何学打开了一扇新门：如果存在一个反例，那么「不具备鲁伯特性质的形状」是否有其他规律？它们在高维空间中又是什么样的？这些问题目前都还没有答案。&lt;/p&gt;
-
-&lt;p&gt;顺带一提：如果你对立方体能否穿过自身这件事感到吃惊，不妨想想正方形——在二维世界里，一个正方形当然无法穿过自身；但在三维世界里，维度多出来的那一个自由度，就足以让这件「不可能的事」成为可能。诺珀面体提醒我们，维度直觉是多么容易出错。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/"&gt;https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2508.18475"&gt;https://arxiv.org/abs/2508.18475&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/mathematicians-make-surprising-breakthrough-in-3d-geometry-with-noperthedron/"&gt;https://www.scientificamerican.com/article/mathematicians-make-surprising-breakthrough-in-3d-geometry-with-noperthedron/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">3a62483e-dd1d-5327-8415-7c63e917cfdd</guid>
-      <pubDate>Sun, 22 Mar 2026 02:34:23 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/</link>
-      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2025/10/Self_Containing_Shapes-Fig2-crMarkBelan-Desktopv1.svg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>语言并非「树状结构」：2026年新研究动摇了乔姆斯基语法理论70年的根基</title>
-      <description>&lt;figure&gt;&lt;img src="https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2025-01/iStock-1297430726.jpg" alt="语言并非「树状结构」：2026年新研究动摇了乔姆斯基语法理论70年的根基" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;「can I have a」是一个合法的语法结构吗？&lt;/p&gt;
-
-&lt;p&gt;你肯定听过也说过这个短语，但按照主流语言学理论，这四个词凑在一起，属于彻头彻尾的「非法组合」——它既不是名词短语，也不是动词短语，更不符合任何一种传统意义上的句法成分（constituent）。语言学家把这类短语叫做「非成分」（non-constituent）：它出现在真实语言里，却游离于语法树的所有节点之外。&lt;/p&gt;
-
-&lt;p&gt;过去70年里，语言学主流理论——主要是由诺姆·乔姆斯基（Noam Chomsky）在1950年代奠定的生成语法（Generative Grammar）——认为，人类语言的心理表征建立在&lt;strong&gt;层级性句法结构&lt;/strong&gt;之上：每一句话都是一棵树，词语构成短语，短语构成子句，子句构成句子，层层嵌套，递归无限。这个「树形语言观」不仅支配了语言学，也深刻影响了人工智能、认知科学和神经语言学。&lt;/p&gt;
-
-&lt;p&gt;2026年1月，康奈尔大学心理学教授 Morten H. Christiansen 与丹麦奥胡斯大学的 Yngwie A. Nielsen 在《自然·人类行为》（&lt;em&gt;Nature Human Behaviour&lt;/em&gt;）上发表了两篇背靠背论文，提出了一个激进的替代方案：&lt;strong&gt;人类语言的基本单元，并非语法树上的节点，而是线性排列的词类序列——更像是把预制的乐高积木块拼在一起，而不是从头按规则生长出一棵树&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;他们的证据来自三类实验。首先是眼动实验（eye-tracking）：当受试者反复接触某个词序之后，再次遇到它时，眼球停留时间明显缩短——这种「启动效应」（priming）说明大脑对这个序列形成了独立的心理表征，而不是每次都从语法规则重新推导出来。其次是真实电话对话语料的分析：自然语言中最高频的三词到四词序列，恰恰大量是「非成分」，比如「can I have a」、「it was in the」、「in the middle of the」、「wondered if you」——它们完全不符合生成语法的任何句法节点，却在日常对话中俯拾皆是。第三，启动效应即使在没有语法成分边界的序列里依然存在，说明人脑确实存储了这些「非成分块」，而不只是它们的树形推导规则。&lt;/p&gt;
-
-&lt;p&gt;Christiansen 将这种模型比作「预制积木」（pre-assembled LEGO pieces）：我们说话时不是实时按照语法规则搭树，而是直接调取存储在记忆里的常见词块，然后把它们线性拼接起来。他把这种结构描述为「扁平化」（flatter）——没有深层递归嵌套，只有浅层的序列组合。&lt;/p&gt;
-
-&lt;p&gt;这对语言学理论的冲击是根本性的。生成语法的核心主张之一，是人类语言凭借有限词汇和有限规则生成无限句子的能力——「递归性」是这一能力的基石，也是人类语言区别于动物沟通系统的核心特征。而如果 Christiansen 和 Nielsen 是对的，语言的基本构建逻辑也许远没有那么复杂：&lt;strong&gt;更多是统计性记忆，更少是递归性推导&lt;/strong&gt;。这个结论令人不安——它意味着人类语言和动物沟通系统之间的鸿沟，比我们一直认为的要窄得多。&lt;/p&gt;
-
-&lt;p&gt;当然，这篇论文并不是语言层级结构的「终审判决」。Christiansen 本人也承认，复杂的书面语言和正式的语法结构中，层级性显然仍发挥作用。更可能的情况是：人类语言是一个混合系统——既有线性词块的快速提取，也有规则驱动的递归生成，两套机制在不同情境下协同工作。&lt;/p&gt;
-
-&lt;p&gt;但这项研究最值得关注的，也许不只是它对语法理论的挑战，而是它对语言习得和语言教学的潜在影响。如果大脑学习语言的方式，主要是记住高频词块而非内化抽象规则，那么第二语言教学是否应该更侧重词块输入，而不是语法讲解？这是一个已经在应用语言学界争论多年、如今有了更多理论支撑的问题。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://news.cornell.edu/stories/2026/01/discovery-challenges-assumptions-about-structure-language"&gt;https://news.cornell.edu/stories/2026/01/discovery-challenges-assumptions-about-structure-language&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41562-025-02387-z"&gt;https://www.nature.com/articles/s41562-025-02387-z&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41562-025-02388-y"&gt;https://www.nature.com/articles/s41562-025-02388-y&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9ffcc824-96f6-58b3-98bf-047af0ebed9f</guid>
-      <pubDate>Sun, 22 Mar 2026 02:34:59 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://news.cornell.edu/stories/2026/01/discovery-challenges-assumptions-about-structure-language</link>
-      <enclosure url="https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2025-01/iStock-1297430726.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>「折返厌恶」：为什么我们宁愿走更长的路，也不愿回头走捷径</title>
-      <description>&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2025/07/backtrack.jpg" alt="「折返厌恶」：为什么我们宁愿走更长的路，也不愿回头走捷径" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;想象你正在一个陌生城市徒步，走了20分钟之后发现前面的路不通。地图显示，如果你原路返回5分钟，然后换一条岔路走，总共只需要再走15分钟就能到目的地。但如果继续沿着当前这条路绕大圈，则需要再走35分钟。你会怎么选？&lt;/p&gt;
-
-&lt;p&gt;理性上，答案显而易见——折返是更短、更有效率的选择。但在现实中，&lt;strong&gt;大多数人会选择绕大圈&lt;/strong&gt;，哪怕这意味着多走20分钟。这种非理性的行为倾向，直到2025年才被正式命名，它叫做「折返厌恶」（doubling-back aversion）。&lt;/p&gt;
-
-&lt;p&gt;2025年5月，加州大学伯克利分校哈斯商学院的博士生 Kristine Y. Cho 和教授 Clayton R. Critcher 在《心理科学》（&lt;em&gt;Psychological Science&lt;/em&gt;）上发表了对这一认知偏差的系统性研究，涉及超过2500名成人受试者的四组实验。&lt;/p&gt;
-
-&lt;p&gt;第一个实验在虚拟现实环境中进行：受试者在VR中沿着一条路前进，走到岔路口时被告知可以选择：继续当前路线（更长），或者回头走捷径（更短）。结果只有 &lt;strong&gt;31%&lt;/strong&gt; 的人选择了捷径，而在没有「折返」要素的控制组里，选择更短路线的比例达到了 &lt;strong&gt;57%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;最有说服力的是第二个实验。研究者让参与者用字母「G」开头造词，生成40个词，已经造了10个之后，告知他们可以切换到字母「T」——「T」的词汇更丰富，剩下30个词会更容易完成。关键在于措辞：同一个选项，用两种方式表述：一种说「你可以从『T』开始继续这个任务」，另一种说「你需要回到起点，重新开始」。结果，&lt;strong&gt;前一种表述下，75%的人选择切换；后一种表述下，只有25%的人切换&lt;/strong&gt;——客观上完全相同的决定，因为措辞里有没有「折返」的含义，接受率就相差了三倍。&lt;/p&gt;
-
-&lt;p&gt;第三和第四组实验进一步剥离出了两个独立的心理机制：一是「已完成工作被否定的痛苦」（fear of wasting progress），二是「从头再来的额外负担感」（dread of restarting）。两者都独立地贡献了折返厌恶——即使你知道之前的努力并没有真的浪费，仅仅是「感觉上」要推倒重来，就足以让人打退堂鼓。&lt;/p&gt;
-
-&lt;p&gt;Cho 和 Critcher 特别强调，折返厌恶与两个著名的心理偏差不同：&lt;strong&gt;沉没成本谬误&lt;/strong&gt;（sunk-cost fallacy）是因为舍不得已经投入的资源而继续，而折返厌恶是在两个同样「新」的选项之间做选择时产生的——你并不是在比较「坚持还是放弃」，而是在比较「两条新路哪条更合算」，偏见却依然出现了。&lt;strong&gt;现状偏误&lt;/strong&gt;（status quo bias）是对改变本身的抵抗，而折返厌恶更具体地指向了「改变方向需要回头」这一特殊情境。&lt;/p&gt;
-
-&lt;p&gt;这个偏差的现实影响远比徒步迷路要深远。研究者列举了三类高代价的真实情境：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;职业路径&lt;/strong&gt;：在一个已经走了5年的行业里意识到这并不适合自己，切换到另一个领域需要「退步」几年从基层做起——折返厌恶会让人倾向于继续走在错误的路上。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;长期关系&lt;/strong&gt;：恋爱或婚姻进入某个阶段后，分开、回到单身状态再重新开始被感知为「退步」——即使留下来才是更差的选择。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;大型项目&lt;/strong&gt;：一个项目做到一半，发现最优解需要推翻已完成的部分——团队通常会用「在现有基础上修补」代替「推倒重来」，哪怕后者效果更好。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;有意思的是，这个偏差如此普遍，却在它被正式命名之前几乎完全被心理学文献忽视了。Critcher 在采访中说，这种现象「太常见了，以至于人们没有意识到它是一种偏差」——我们太习惯于把「回头」等同于「失败」，以至于连提问都忘了。&lt;/p&gt;
-
-&lt;p&gt;了解这个偏差最直接的用途，是在日常决策中加一个自我检查：当我拒绝某个更好的选项时，是因为它本身不够好，还是因为它需要我「先往后退一步」？如果是后者，那很可能是折返厌恶在作祟，而不是理性的权衡。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/scientists-reveal-a-widespread-but-previously-unidentified-psychological-phenomenon/"&gt;https://www.psypost.org/scientists-reveal-a-widespread-but-previously-unidentified-psychological-phenomenon/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/09567976251331053"&gt;https://journals.sagepub.com/doi/10.1177/09567976251331053&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://newsroom.haas.berkeley.edu/uc-berkeley-haas-researchers-uncover-a-psychological-bias-that-keeps-people-on-the-wrong-path/"&gt;https://newsroom.haas.berkeley.edu/uc-berkeley-haas-researchers-uncover-a-psychological-bias-that-keeps-people-on-the-wrong-path/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">6e6def82-59c7-5cd0-ba68-82832bdf1a36</guid>
-      <pubDate>Sun, 22 Mar 2026 02:35:36 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.psypost.org/scientists-reveal-a-widespread-but-previously-unidentified-psychological-phenomenon/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/07/backtrack.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>比尔·塔维尔：地球上唯一一块「两国都不要」的陆地，背后是一道精心设计的外交难题</title>
-      <description>&lt;figure&gt;&lt;img src="https://i2.wp.com/www.youngpioneertours.com/wp-content/uploads/2020/04/Bir-Tarwil-2-map.jpg" alt="比尔·塔维尔：地球上唯一一块「两国都不要」的陆地，背后是一道精心设计的外交难题" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;你能想象有一块土地，两个国家都有能力占有它，但双方都&lt;strong&gt;刻意选择不要&lt;/strong&gt;吗？&lt;/p&gt;
-
-&lt;p&gt;这块地方真实存在，叫做&lt;strong&gt;比尔·塔维尔（Bir Tawil）&lt;/strong&gt;，面积 2,060 平方公里（大约是上海市区的两倍），就夹在埃及和苏丹的边境线上，是地球上极少数「可居住但无主权归属」的陆地之一——一块名副其实的「无主之地（terra nullius）」。&lt;/p&gt;
-
-&lt;h3&gt;一个殖民时代留下的地图悖论&lt;/h3&gt;
-
-&lt;p&gt;故事要从 19 世纪末的英国殖民地管理说起。英国在 1899 年划定了一条笔直的纬度线，作为埃及和苏丹的政治边界；但到了 1902 年，出于行政管理的便利，英国又画了一条弯曲的行政边界线，把部落牧场的管辖权做了不同安排。&lt;/p&gt;
-
-&lt;p&gt;问题来了：这两条线互相矛盾。在两条线之间，出现了两个「交叉地带」：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;哈拉伊卜三角（Halaib Triangle）&lt;/strong&gt;：面积约 20,580 平方公里，有海岸线、资源，价值更高；1899 年的线给埃及，1902 年的线给苏丹&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;比尔·塔维尔&lt;/strong&gt;：面积 2,060 平方公里，内陆沙漠，无海岸线，资源贫乏；1899 年的线给苏丹，1902 年的线给埃及&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;关键的逻辑陷阱在于：&lt;strong&gt;两块地的归属是联动的&lt;/strong&gt;。如果埃及承认 1899 年的边界，它就拥有哈拉伊卜，但同时失去比尔·塔维尔；如果苏丹承认 1902 年的边界，它拥有哈拉伊卜，也失去比尔·塔维尔。于是，两国都声索哈拉伊卜，都默默放弃比尔·塔维尔——因为声索任何一条边界线，都会导致自己放弃更有价值的那块地。&lt;/p&gt;
-
-&lt;p&gt;这是一个罕见的博弈论困境在真实地缘政治中的体现：&lt;strong&gt;理性选择导致了没有人拥有一块可以拥有的土地。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;「我要建国！」——微国主义者的圣地&lt;/h3&gt;
-
-&lt;p&gt;无主之地对互联网时代的冒险者和「微国家（micronation）」爱好者来说，有着难以抗拒的吸引力。&lt;/p&gt;
-
-&lt;p&gt;其中最著名的案例发生在 2014 年：美国弗吉尼亚州的农场主杰里迈亚·希顿（Jeremiah Heaton）驾车穿越埃及沙漠，徒步走进比尔·塔维尔，在那里插下一面旗帜，宣布成立「北苏丹王国（Kingdom of North Sudan）」——原因是他想兑现对 6 岁女儿艾米丽的承诺：让她成为一位「真正的公主」。这个故事后来被拍成了迪士尼风格的纪录片，一时引发广泛关注。&lt;/p&gt;
-
-&lt;p&gt;此后，印度人迪利普·迪克西特宣布成立「迪克西特王国（Kingdom of Dixit）」，各路网络微国主义者的「宣称」层出不穷——但联合国没有承认任何一个，埃及和苏丹政府也对这些宣称视而不见。&lt;/p&gt;
-
-&lt;h3&gt;被遗忘的真相：那里早就有人住了&lt;/h3&gt;
-
-&lt;p&gt;比尔·塔维尔最常被呈现为「空旷无人的沙漠」，但这是一个相当大的误解。事实上，&lt;strong&gt;阿巴达（Ababda）部落&lt;/strong&gt;长期在此活动，进行游牧放牧，并且近年来随着非正式采金活动的兴起，这片土地上出现了数千名矿工、临时商店和餐馆组成的「比尔·塔维尔镇」。&lt;/p&gt;
-
-&lt;p&gt;这些居民没有任何国家的法律保护，但也没有任何国家的法律约束——他们武装自卫，按照部落规则运作，形成了一个事实上的无政府社会实验。&lt;/p&gt;
-
-&lt;h3&gt;「没人要」的悖论意义&lt;/h3&gt;
-
-&lt;p&gt;比尔·塔维尔最有趣的地方不是它的地理，而是它揭示的人类政治逻辑：国家之间的领土争端，通常是「两个都想要」的抢夺；但比尔·塔维尔是一个「两个都不要」的特例，而原因恰恰是因为两国都想要另一块更有价值的地方。&lt;/p&gt;
-
-&lt;p&gt;这个小故事让人想到博弈论中的「负向协调（negative coordination）」——有时候，最理性的选择，就是主动放弃一个选项，以便在另一个更重要的博弈中占据优势。只是在这个案例里，代价是地球上永久性地留下了一块「没人」的土地。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.thecollector.com/bir-tawil-unclaimed-land/"&gt;https://www.thecollector.com/bir-tawil-unclaimed-land/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youngpioneertours.com/strange-tale-bir-tawil/"&gt;https://www.youngpioneertours.com/strange-tale-bir-tawil/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bir_Tawil"&gt;https://en.wikipedia.org/wiki/Bir_Tawil&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e4d6b891-50d1-58d0-972f-27e0e52ba02c</guid>
-      <pubDate>Sun, 22 Mar 2026 03:04:10 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.thecollector.com/bir-tawil-unclaimed-land/</link>
-      <enclosure url="https://i2.wp.com/www.youngpioneertours.com/wp-content/uploads/2020/04/Bir-Tarwil-2-map.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>1870 年纽约地下的秘密地铁：一个人用 58 天偷偷挖出了美国第一条气动列车隧道</title>
-      <description>&lt;figure&gt;&lt;img src="https://nycity.media/wp-content/uploads/2025/10/cover-the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.jpg" alt="1870 年纽约地下的秘密地铁：一个人用 58 天偷偷挖出了美国第一条气动列车隧道" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;1870 年 2 月 26 日，纽约百老汇大街下方，一个惊天秘密被公开了。&lt;/p&gt;
-
-&lt;p&gt;在德夫林（Devlin's）服装店的地下室里，发明家&lt;strong&gt;艾尔弗雷德·伊利·比奇（Alfred Ely Beach）&lt;/strong&gt;邀请纽约上流社会的宾客走进一扇不起眼的门，进入一个完全不在任何地图上的空间——一列地下列车，一条长约 90 米的砖砌隧道，以及一个装饰着壁画、水晶吊灯、喷泉和金鱼缸的豪华候车室。更令人震惊的是：这一切都是&lt;strong&gt;在没有任何政府许可的情况下&lt;/strong&gt;秘密建造的。&lt;/p&gt;
-
-&lt;h3&gt;比奇是何许人&lt;/h3&gt;
-
-&lt;p&gt;比奇当时是著名科学杂志《科学美国人》（Scientific American）的编辑和联合发行人，同时也是多项专利的持有者。1849 年，他曾发明了一种早期的「打字机」；另一项专利则涉及气动管道传输系统。&lt;/p&gt;
-
-&lt;p&gt;19 世纪中叶的纽约，地面交通已经陷入噩梦。马拉街车在泥泞和粪便中挣扎，堵塞程度不亚于今天的高峰期。比奇相信地下气动运输系统是解法，他甚至在 1867 年纽约美国学会博览会上展示了一个迷你版的气动隧道运输模型，引发轰动。&lt;/p&gt;
-
-&lt;h3&gt;为什么必须秘密进行&lt;/h3&gt;
-
-&lt;p&gt;当时纽约的政治生态，被「坦慕尼厅（Tammany Hall）」政治机器把持，其中最臭名昭著的人物是「博斯·特威德（Boss Tweed）」。特威德深度绑定了地面交通运营商的利益——如果地下铁路成功，他们的马拉街车帝国就会崩溃，大量贿赂收益也随之消失。&lt;/p&gt;
-
-&lt;p&gt;比奇试图正规申请许可，但被一再拒绝。于是他想出了一个迂回方案：以「建造邮件气动传输管道」的名义获得了一个小型许可，然后在凌晨秘密施工，将沙土装袋运出，让街道上没有任何动静。工人们用一种名为「盾构机（tunneling shield）」的圆形掘进装置，在百老汇大街下方推进——而行人就在他们头顶几米处，毫不知情。&lt;/p&gt;
-
-&lt;p&gt;整个隧道，&lt;strong&gt;在 58 天内&lt;/strong&gt;完工。&lt;/p&gt;
-
-&lt;h3&gt;候车室：地下的豪华客厅&lt;/h3&gt;
-
-&lt;p&gt;比奇深知，要说服纽约人接受地下出行，体验必须超乎想象。于是他把候车室打造成了当时最豪华的公共空间之一：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;铺设了精致瓷砖的地面&lt;/li&gt;
-  &lt;li&gt;墙上挂着大幅油画和壁画&lt;/li&gt;
-  &lt;li&gt;中央放置着一架三角钢琴（供等车的乘客演奏）&lt;/li&gt;
-  &lt;li&gt;喷泉里养着活的金鱼&lt;/li&gt;
-  &lt;li&gt;水晶吊灯提供照明&lt;/li&gt;
-  &lt;li&gt;列车车厢内部铺着天鹅绒座椅，安装了当时最先进的锆光灯&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;列车的驱动原理是气压：一台巨大的风机（名为「西风之神 Aeolus」）产生气流，将车厢推向前方；回程则反转风机，将车厢吸回来。当时试乘的体验报告描述「平稳、安静、快速」，与地面上的马拉街车是截然不同的世界。&lt;/p&gt;
-
-&lt;h3&gt;失败：政治与时机的双重打击&lt;/h3&gt;
-
-&lt;p&gt;比奇地铁在 1870 至 1873 年间以「展示线」形式运营，吸引了大量付费参观者，但没有真正服务日常通勤。1873 年，他终于通过政治运作拿到了修建延长线的许可——然而，就在同一年，美国股市爆发了「1873 年恐慌（Panic of 1873）」，投资者纷纷撤资，项目资金断裂。&lt;/p&gt;
-
-&lt;p&gt;比奇最终封闭了隧道入口，整个地下世界就这样被遗忘。&lt;/p&gt;
-
-&lt;h3&gt;1912 年的惊人重现&lt;/h3&gt;
-
-&lt;p&gt;四十年后，1912 年，工人们在为纽约 BMT 地铁系统挖掘新隧道时，挖穿了一堵砖墙——意外发现了比奇的隧道。里面，&lt;strong&gt;那列列车还停在轨道上，几乎完好无损&lt;/strong&gt;，只是蒙上了数十年的尘埃。候车室里的陈设依然在那里，仿佛时间凝固了一样。&lt;/p&gt;
-
-&lt;p&gt;比奇没能看到这一幕——他于 1896 年去世，距离自己的地铁被重新发现还有 16 年。&lt;/p&gt;
-
-&lt;h3&gt;历史遗产&lt;/h3&gt;
-
-&lt;p&gt;纽约第一条官方地铁于 1904 年 10 月 27 日开通，距离比奇的秘密演示整整过去了 34 年。没有人能确切说出，如果比奇当年得到许可，纽约的城市面貌会有多么不同。但他的「偷挖地铁」行为，确实证明了一件事：技术上，在 19 世纪就可以做到地下城市运输——只是政治和利益阻挡了它 34 年。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html"&gt;https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nyhistory.org/blogs/beach-pneumatic-transit-the-1870-subway-that-could-have-been"&gt;https://www.nyhistory.org/blogs/beach-pneumatic-transit-the-1870-subway-that-could-have-been&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Beach_Pneumatic_Transit"&gt;https://en.wikipedia.org/wiki/Beach_Pneumatic_Transit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">46480361-fe28-5e2a-9b4a-0125c4acf97a</guid>
-      <pubDate>Sun, 22 Mar 2026 03:04:52 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html</link>
-      <enclosure url="https://nycity.media/wp-content/uploads/2025/10/cover-the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>一粒肉豆蔻换了曼哈顿：人类历史上最昂贵的香料战争，以及荷兰人为此屠杀了一座岛</title>
-      <description>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kaart_van_de_Banda-eilanden%2C_1599%2C_RP-P-OB-75.391.jpg/1280px-Kaart_van_de_Banda-eilanden%2C_1599%2C_RP-P-OB-75.391.jpg" alt="一粒肉豆蔻换了曼哈顿：人类历史上最昂贵的香料战争，以及荷兰人为此屠杀了一座岛" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;你听说过「曼哈顿是用一粒肉豆蔻换来的」这个说法吗？这个比喻虽然稍有夸张，但背后的历史却出人意料地真实——而且比任何故事都要残忍。这是一段关于香料、垄断、种族灭绝与帝国贪婪的历史，主角是印度尼西亚东部一个你几乎肯定没听说过的小岛群：&lt;strong&gt;班达群岛（Banda Islands）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;世界上唯一的肉豆蔻产地&lt;/strong&gt;：直到19世纪中叶，全球所有的肉豆蔻（Nutmeg）和肉豆蔻皮（Mace）都只来自一个地方——班达群岛。这11座火山岛散落在现代印度尼西亚马鲁古省最东端，合计面积不过约180平方公里。在中世纪欧洲，肉豆蔻的价值难以想象：一磅肉豆蔻的价格一度等于七头肥壮公牛，人们相信它能治愈从肠胃胀气到鼠疫在内的几乎一切疾病。14世纪鼠疫肆虐期间，欧洲医生建议把肉豆蔻装进小袋挂在脖子上以防感染——这种迷信性需求把一种调味料推上了和黄金并驾齐驱的价格高位。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;葡萄牙、荷兰、英国的争夺&lt;/strong&gt;：1512年，葡萄牙人率先找到了班达群岛的海路，打破了此前阿拉伯商人长达数个世纪的中间商垄断。但班达人不愿接受任何欧洲势力的独家合同，他们坚持「多方竞争买家」的自由贸易原则，继续同时与葡萄牙、荷兰和英国人做生意。这让荷兰东印度公司（VOC，Vereenigde Oostindische Compagnie）怒不可遏——VOC 成立于1602年，本质上是一家被授权动用军队和外交手段来垄断贸易的股份制殖民公司。&lt;/p&gt;
-
-&lt;p&gt;英国人也来了。1603年，英国东印度公司（EIC）的水手发现了班达群岛中最小的一个岛屿：&lt;strong&gt;朗岛（Run）&lt;/strong&gt;，面积不足3平方公里，当时却是全球最密集的肉豆蔻产地之一。1616年圣诞节，英国船长 Nathaniel Courthope 带着40名守军在岛上建起防御工事，以抵抗荷兰的强制接管。他们在荷兰海军的重重包围下坚守了整整 &lt;strong&gt;1540天&lt;/strong&gt;——超过四年。1620年，Courthope 在一次袭击中阵亡，英国人才最终撤退。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;大屠杀&lt;/strong&gt;：1621年，VOC 总督 Jan Pieterszoon Coen 亲率军队对班达群岛发动最终征服。在接下来的数周内，VOC 雇佣的日本武士和荷兰士兵屠杀了大部分班达人——据历史记录，战前班达群岛约有1.5万原住民，屠杀、强制流放和饥荒之后仅剩约 &lt;strong&gt;500 人&lt;/strong&gt;。1621年5月8日，44名班达社区领袖（Orangkaya）在一次谈判中被捕，随即在众目睽睽之下被斩首并肢解，以示警告。剩余土地被重新分配给荷兰种植园主，以及从其他地方带来的奴隶和契约劳工。这是欧洲殖民历史上有充分文献记录的最早种族灭绝案例之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;曼哈顿换朗岛&lt;/strong&gt;：屠杀之后，朗岛的战略意义仍然悬而未决——技术上，英国仍然对这座岛持有主权主张（基于Courthope当年与岛民签订的条约）。1667年，第二次英荷战争结束，双方签订《布雷达条约》（Treaty of Breda）。协议内容：&lt;strong&gt;英国正式放弃朗岛；荷兰正式放弃新阿姆斯特丹（New Amsterdam）&lt;/strong&gt;——即日后的纽约曼哈顿。荷兰人用整个纽约换了一座面积不足3平方公里的香料岛，在他们的算盘上这笔账值得。&lt;/p&gt;
-
-&lt;p&gt;历史的讽刺在于：几十年后，一位法国植物学家 Pierre Poivre 偷运出肉豆蔻的幼苗，成功在毛里求斯种植成活；英国人随后将其引种至马来西亚、加勒比海和格林纳达（格林纳达至今国旗上还有一颗肉豆蔻）。荷兰人拼尽一切维护的垄断，在19世纪中叶轰然崩塌。今天，肉豆蔻是全球第二大消费香料，价格在超市调料架上普通得令人忘记了一切。&lt;/p&gt;
-
-&lt;p&gt;班达群岛现在怎样了？它还在那里，属于印度尼西亚马鲁古省，岛上有一些当年 VOC 留下的荷兰堡垒废墟，以及世界顶级的珊瑚礁潜水点。如今到访的游客寥寥无几，但每一棵还在结果的肉豆蔻树，都长在那段被遗忘的历史的土地上。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands"&gt;https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.atlasobscura.com/articles/island-traded-for-manhattan"&gt;https://www.atlasobscura.com/articles/island-traded-for-manhattan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.worldhistory.org/article/1777/the-spice-trade--the-age-of-exploration/"&gt;https://www.worldhistory.org/article/1777/the-spice-trade--the-age-of-exploration/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://history.howstuffworks.com/history-vs-myth/nutmeg-new-netherland.htm"&gt;https://history.howstuffworks.com/history-vs-myth/nutmeg-new-netherland.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9f12b386-941d-5653-a654-e3a0a2e0e0e0</guid>
-      <pubDate>Sun, 22 Mar 2026 03:14:52 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kaart_van_de_Banda-eilanden%2C_1599%2C_RP-P-OB-75.391.jpg/1280px-Kaart_van_de_Banda-eilanden%2C_1599%2C_RP-P-OB-75.391.jpg" type="image/jpeg" length="0" />
-    </item>
     <ns1:image href="https://xingjianz.com/rss-research/icon-jimmy.png" />
     <ns0:icon>https://xingjianz.com/rss-research/icon-jimmy.png</ns0:icon>
-    <item>
-      <title>Avocado 延期背后：MSL 内部权力摩擦与开源路线的悄然逆转</title>
-      <description>&lt;p&gt;从表面看，Avocado 被推迟到 5 月以后只是一次普通的产品延期。但这周陆续流出的内部信息拼在一起，指向的是一场比技术问题更复杂的麻烦。&lt;/p&gt;&lt;p&gt;首先是性能差距本身。内部测试显示，Avocado 的推理和编程能力目前夹在 Gemini 2.5 和 Gemini 3 之间——勉强及格，但对一个号称要追赶 OpenAI 和 Google 的模型来说，这个成绩很难看。更棘手的是时机：GPT-5.4 和 Gemini 3 的评测已经大量流出，外界对"前沿模型"的预期已经被拉高，Avocado 如果现在发布，会是一次公开的失败。&lt;/p&gt;&lt;p&gt;但性能只是问题的一半。&lt;strong&gt;更深层的分裂是文化和战略上的&lt;/strong&gt;。Alexandr Wang 入主后推行的"demo, don't memo"风格，加上 70 小时工作制，和 Meta 过去那种相对扁平协作的文化正面撞上。计算资源的分配争夺、招聘权限集中在 Wang 一人手里、跨部门协作受阻——这些摩擦已经在内部积累了相当时间。&lt;/p&gt;&lt;p&gt;然后是更根本的路线之争。Llama 4 在 2025 年 4 月发布后，开发者社区的反应相当冷淡——基准测试被指稍微篡改（LeCun 本人后来也承认了），MoE 架构的实际使用体验和宣传有差距。更讽刺的是，DeepSeek 拿着 Llama 的架构搭出了 R1，让 Zuckerberg 一度引以为豪的开源策略显得尴尬。于是 MSL 悄悄从开源转向了闭源开发——这一转向从未被官方公开宣布，但已经是圈内知道的事情，和 Zuckerberg 过去两年反复在公开场合力挺开源的姿态直接矛盾。&lt;/p&gt;&lt;p&gt;Yann LeCun 的离开算是这一系列变化的注脚。他在 2025 年底出走，3 月初正式宣布创立 AMI Labs（10.3 亿美元种子轮，押注 JEPA 世界模型），再结合他这周对 LLM 路线的公开批评，可以看出 FAIR 和 MSL 之间的分歧早已不是学术争论。Chris Cox 也已不再主管 AI 业务，整个 AI 组织的权力结构比半年前要混乱得多。&lt;/p&gt;&lt;p&gt;Meta 发言人的口径是"会尽快发布，以展示发展轨迹"——这句话本身就透露了一些信息。Meta 清楚现在发布会挨批，但他们可能更担心继续拖下去造成的市场信心损失。5 月还是 Q3，现在没有人能确定。唯一确定的是，Avocado 的发布已经从一场技术发布会变成了一次公关测试。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.techbuzz.ai/articles/meta-s-avocado-ai-model-delayed-as-internal-tensions-rise"&gt;https://www.techbuzz.ai/articles/meta-s-avocado-ai-model-delayed-as-internal-tensions-rise&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://markets.financialcontent.com/stocks/article/marketminute-2026-3-17-meta-hits-pause-on-avocado-ai-ambitions-face-seasonal-setback-as-execution-hurdles-mount"&gt;https://markets.financialcontent.com/stocks/article/marketminute-2026-3-17-meta-hits-pause-on-avocado-ai-ambitions-face-seasonal-setback-as-execution-hurdles-mount&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.outlookbusiness.com/deeptech/meta-delays-avocado-ai-model-launch-to-may-amid-performance-lag-and-internal-turmoil"&gt;https://www.outlookbusiness.com/deeptech/meta-delays-avocado-ai-model-launch-to-may-amid-performance-lag-and-internal-turmoil&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">61b5c04f-72c3-5421-91c1-93a19f535f8e</guid>
-      <pubDate>Sun, 22 Mar 2026 04:33:17 +0000</pubDate>
-      <category>meta-news</category>
-      <link>https://www.techbuzz.ai/articles/meta-s-avocado-ai-model-delayed-as-internal-tensions-rise</link>
-    </item>
-    <item>
-      <title>FAIR 五项集中发布：感知编码器、3D 定位与字节级语言模型</title>
-      <description>&lt;figure&gt;&lt;img src="https://scontent-det1-1.xx.fbcdn.net/v/t39.2365-6/490224022_1580146686003914_6051736965298732696_n.png?_nc_cat=103&amp;amp;amp;ccb=1-7&amp;amp;amp;_nc_sid=e280be&amp;amp;amp;_nc_ohc=uQTO117LM_8Q7kNvwFCaCqb&amp;amp;amp;_nc_oc=AdqBDgs6aO4sYeYa4knjfu4JQqtM6BztJgXorrDCa9lDJurlI_B5of1cnWwRyg6XkNYSfZousc8X35HYB-w61zNA&amp;amp;amp;_nc_zt=14&amp;amp;amp;_nc_ht=scontent-det1-1.xx&amp;amp;amp;_nc_gid=CdbU23KVh022QttRL2Sn0Q&amp;amp;amp;_nc_ss=7a30f&amp;amp;amp;oh=00_AfwuORbZQylT3qgR7A6Eu5H4msYNZe9r397eBhdhqqF5xA&amp;amp;amp;oe=69D9A91A" alt="FAIR 五项集中发布：感知编码器、3D 定位与字节级语言模型" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;Meta FAIR 在 2025 年 4 月 17 日一次性放出了五项新工作，涵盖感知、定位和推理三大方向。虽然不是本周的新消息，但这批发布的影响正在持续显现，值得专门梳理一遍，因为其中几个方向和 MSL 的工作线有直接关联。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Perception Encoder&lt;/strong&gt; 是这批发布里技术含量最高的一个。这是一个大规模视觉编码器，在零样本图像和视频分类、检索任务上超过了所有现有开源和闭源模型。听起来像是常规的性能排行宣传，但它的一个具体细节更有意思：在识别"把自己埋在沙里的黄貂鱼"、"画面角落里一只米粒大的金雀"这类高难度图像任务上，PE 明显比其他模型可靠。这说明它的视觉特征提取不是靠更多数据堆出来的——中间层特征比输出层特征更好用，这和传统的视觉模型设计思路相反。论文标题就叫《最好的视觉嵌入不在网络输出层》（arXiv:2504.13181），直接挑明了这个反直觉结论。&lt;/p&gt;&lt;p&gt;配套的 &lt;strong&gt;Perception Language Model（PLM）&lt;/strong&gt; 有 1B、3B、8B 三个版本，用合成数据训练，没有从外部模型蒸馏，开放权重。FAIR 为此标注了 250 万条细粒度视频问答和时空描述样本，号称同类数据集里最大。目前这个数据集也一并开源，对做视觉语言模型的研究者来说是个实在的礼物。&lt;/p&gt;&lt;p&gt;另外两个值得关注的是 &lt;strong&gt;Meta Locate 3D&lt;/strong&gt;——用自然语言查询在 3D 环境中定位物体，处理 RGB-D 传感器输入，同时发布了三个数据集的 13 万条新标注，直接把现有标注覆盖翻倍——以及 &lt;strong&gt;Dynamic Byte Latent Transformer（8B）&lt;/strong&gt;，一个字节级语言模型，首次在规模上追平了传统分词器路线，在特定基准上最高有 +55 分的鲁棒性优势。&lt;/p&gt;&lt;p&gt;还有一个 Collaborative Reasoner，用合成自协作数据提升多轮对话推理能力，最高比 chain-of-thought 高出 29.4%。&lt;/p&gt;&lt;p&gt;把这五项放在一起看，FAIR 现在的方向很清晰：感知（视觉编码）、空间理解（3D 定位）、语言（字节级模型）、协作推理——这些都是通往具身智能和 Agent 系统的基础件。和 MSL 专注大型语言模型竞赛的路线不同，Rob Fergus 主导下的 FAIR 更像是在铺地基，不急着发布旗舰模型。两条线能不能拧在一起，目前还看不出来。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/"&gt;https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2504.13181"&gt;https://arxiv.org/abs/2504.13181&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.artificialintelligence-news.com/news/meta-fair-advances-human-like-ai-five-major-releases/"&gt;https://www.artificialintelligence-news.com/news/meta-fair-advances-human-like-ai-five-major-releases/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">56ea4e84-fb7e-51b1-b1c8-00ac2532f165</guid>
-      <pubDate>Sun, 22 Mar 2026 04:33:43 +0000</pubDate>
-      <category>meta-news</category>
-      <link>https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/</link>
-      <enclosure url="https://scontent-det1-1.xx.fbcdn.net/v/t39.2365-6/490224022_1580146686003914_6051736965298732696_n.png?_nc_cat=103&amp;amp;ccb=1-7&amp;amp;_nc_sid=e280be&amp;amp;_nc_ohc=uQTO117LM_8Q7kNvwFCaCqb&amp;amp;_nc_oc=AdqBDgs6aO4sYeYa4knjfu4JQqtM6BztJgXorrDCa9lDJurlI_B5of1cnWwRyg6XkNYSfZousc8X35HYB-w61zNA&amp;amp;_nc_zt=14&amp;amp;_nc_ht=scontent-det1-1.xx&amp;amp;_nc_gid=CdbU23KVh022QttRL2Sn0Q&amp;amp;_nc_ss=7a30f&amp;amp;oh=00_AfwuORbZQylT3qgR7A6Eu5H4msYNZe9r397eBhdhqqF5xA&amp;amp;oe=69D9A91A" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>MacBook Neo 上市： 的苹果笔记本，A18 Pro 打掉同价位 Windows 对手</title>
-      <description>&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/eUtUULFLe-rs76M241emfNWEyQ4=/2500x/article-new/2026/03/MacBook-Neo-Feature-Pastel-1.jpg" alt="MacBook Neo 上市： 的苹果笔记本，A18 Pro 打掉同价位 Windows 对手" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;苹果在 3 月初悄悄做了一件颇有意思的事：发布了一台起售价 599 美元（教育优惠 499 美元）的 Mac 笔记本，芯片用的是 iPhone 16 Pro 上的 A18 Pro——而不是 Mac 系列惯用的 M 系列芯片。这台机器叫 &lt;strong&gt;MacBook Neo&lt;/strong&gt;，是苹果史上最便宜的 Mac 电脑。&lt;/p&gt;&lt;p&gt;规格说完就算了，关键是为什么这台机器值得认真对待。A18 Pro 的 CPU、GPU、神经网络引擎对大多数日常任务来说绰绰有余：苹果自己说比同价位英特尔 Core Ultra 5 笔记本快 50%，AI 任务快 3 倍。13 寸 Liquid Retina 屏（2408×1506），16 小时续航，2.7 磅重。Macworld 评测用了"令人惊讶的好"这种措辞——对 $599 的 Mac 来说，这不是客套话。&lt;/p&gt;&lt;p&gt;但要说得公道，限制也不少。只有 8GB 内存，没有升级选项。两个 USB-C 口，但其中一个只有 USB 2 速度（也就是说传大文件会很慢）。键盘没有背光——这在 2026 年的笔记本市场已经相当罕见，是苹果为了压成本主动砍掉的。没有 MagSafe。&lt;/p&gt;&lt;p&gt;这台机器真正有意思的地方在于苹果的战略逻辑。苹果这几年靠 M 系列把 Mac 的性能口碑打出来了，但入门价格也随之水涨船高——最便宜的 MacBook Air M5 要 1099 美元。MacBook Neo 等于把入门门槛直接砍了一半，用"够用"而不是"最强"的思路占领学生和预算买家市场。iPhone 芯片用在 Mac 上本身也是一个信号：苹果的芯片供应链效率已经高到可以用上一代手机旗舰芯片来做廉价电脑，而性能仍然可以打过大多数同价位竞争对手。&lt;/p&gt;&lt;p&gt;对比同价位：Dell、HP 的 $599 笔记本通常是 1080p 屏幕、Windows 11 Home、Core Ultra 5、8GB DDR5 内存的组合，续航 8-10 小时。MacBook Neo 在屏幕质量、续航和 AI 性能上全面领先，但 RAM 的硬顶和只有单 USB 2 速度的 C 口会让工作强度稍高的用户犹豫。&lt;/p&gt;&lt;p&gt;3 月 11 日已经开售。如果你或者你认识的人正在给大学生找第一台笔记本，这是目前市场上最值得考虑的选项之一。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/"&gt;https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.macworld.com/article/3081612/macbook-neo-a18-pro-review.html"&gt;https://www.macworld.com/article/3081612/macbook-neo-a18-pro-review.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.tomshardware.com/laptops/ultrabooks-ultraportables/apple-announces-macbook-neo-running-a18-pro-chip-budget-laptop-starts-at-usd599-and-comes-in-fun-colors"&gt;https://www.tomshardware.com/laptops/ultrabooks-ultraportables/apple-announces-macbook-neo-running-a18-pro-chip-budget-laptop-starts-at-usd599-and-comes-in-fun-colors&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d99fc619-6d0e-5b68-b7fc-af6dbbac5fe6</guid>
-      <pubDate>Sun, 22 Mar 2026 04:34:06 +0000</pubDate>
-      <category>tech-products</category>
-      <link>https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/</link>
-      <enclosure url="https://images.macrumors.com/t/eUtUULFLe-rs76M241emfNWEyQ4=/2500x/article-new/2026/03/MacBook-Neo-Feature-Pastel-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>密歇根男篮 95-72 横扫圣路易斯，晋级 Sweet 16 追平队史单赛季胜场纪录</title>
-      <description>&lt;figure&gt;&lt;img src="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0321%2Fr1631803_1296x729_16%2D9.jpg" alt="密歇根男篮 95-72 横扫圣路易斯，晋级 Sweet 16 追平队史单赛季胜场纪录" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;密歇根男篮昨天（3 月 21 日）在布法罗以 95-72 横扫 9 号种子圣路易斯大学，拿到 Sweet 16 的入场券，本赛季战绩来到 33 胜 3 负，追平了 2018 年闯入 Final Four 那届的队史单赛季胜场纪录。&lt;/p&gt;&lt;p&gt;比赛本身几乎没有悬念。前 10 分钟双方你来我往换了六次领先，但 Trey McKenney 在剩余 9 分 37 秒命中一记三分后，密歇根拉开了一波 9-0，之后就没回头。上半场奠定基础，下半年靠转换进攻和逼抢防守彻底锁定比赛。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Yaxel Lendeborg&lt;/strong&gt; 是当晚最亮的那个人——25 分，9 投 13 中，包括一个满贯的快攻扣篮。更值得一说的数据是：Lendeborg 全场零失误，25+ 分零失误，是密歇根队员自 1989 年 Glen Rice 以来头一次在 NCAA 锦标赛单场做到这一点。Aday Mara（7 尺 3 寸中锋）贡献 16 分、5 篮板、4 盖帽，Morez Johnson Jr. 15 分 8 篮板。五名首发全部上双。&lt;/p&gt;&lt;p&gt;最让圣路易斯懵的可能是投篮命中率：密歇根全场 61 投 34 中，命中率 55.7%——而圣路易斯本赛季联赛对手投篮命中率只有 37.7%，是全 NCAA 最低的。意思就是，这支联赛防守最好的球队，被密歇根正面打穿了。另外密歇根全场 9 次盖帽，是队史 NCAA 锦标赛单场盖帽最多的纪录（自 1985-86 赛季开始统计）。&lt;/p&gt;&lt;p&gt;下一轮（Sweet 16）在芝加哥，时间是下周五（3 月 27 日），对手是 4 号种子阿拉巴马和 5 号种子德州理工的胜者。阿拉巴马有 Mark Sears 这个级别的持球手，德州理工的防守体系历来让比赛变得难看。无论哪个对手，都比圣路易斯更有威胁。但这支密歇根队——中锋组合、外线投篮、还有 Lendeborg 这个什么都能做的侧翼——看起来真的是冲着 Elite Eight 去的。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.espn.com/mens-college-basketball/story/_/id/48270045/michigan-overpowers-game-saint-louis-advance-sweet-16"&gt;https://www.espn.com/mens-college-basketball/story/_/id/48270045/michigan-overpowers-game-saint-louis-advance-sweet-16&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sports.yahoo.com/articles/yaxel-lendeborg-michigan-scorch-saint-181655328.html"&gt;https://sports.yahoo.com/articles/yaxel-lendeborg-michigan-scorch-saint-181655328.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.foxsports.com/stories/college-basketball/midwest-regions-top-seeded-michigan-rolls-95-72-win-over-saint-louis"&gt;https://www.foxsports.com/stories/college-basketball/midwest-regions-top-seeded-michigan-rolls-95-72-win-over-saint-louis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">788a8e21-0a6f-53c3-9e40-19c3d3c85c7c</guid>
-      <pubDate>Sun, 22 Mar 2026 04:34:32 +0000</pubDate>
-      <category>umich-a2</category>
-      <link>https://www.espn.com/mens-college-basketball/story/_/id/48270045/michigan-overpowers-game-saint-louis-advance-sweet-16</link>
-      <enclosure url="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0321%2Fr1631803_1296x729_16%2D9.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>西甲马德里德比今晚伯纳乌开打：9 分差、Lookman 首秀与 Mbappé 的复出考验</title>
       <description>&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/03/reuters_69be6051-1774084177_38987c-1774084352.jpg?resize=1200%2C630&amp;amp;amp;quality=80" alt="西甲马德里德比今晚伯纳乌开打：9 分差、Lookman 首秀与 Mbappé 的复出考验" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
@@ -1239,6 +574,604 @@
       <category>random-knowledge</category>
       <link>https://public.nrao.edu/news/alma-detects-extremely-abundant-alcohol-in-interstellar-comet-3i-atlas/</link>
       <enclosure url="https://public.nrao.edu/wp-content/uploads/2026/02/nrao-016-3I_ATLAS_2F_lrg-1024x683.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>小米时隔四年重返笔记本：Book Pro 14 用 1.08kg 和 OLED 叫板 MacBook Air</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-book-pro-14-release-kv.jpg" alt="小米时隔四年重返笔记本：Book Pro 14 用 1.08kg 和 OLED 叫板 MacBook Air" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;小米上一次做笔记本还是 2022 年的事。时隔四年，&lt;strong&gt;Xiaomi Book Pro 14&lt;/strong&gt; 在 3 月 19 日正式亮相，21 日首销即开启——这是一款明摆着对标 MacBook Air 的产品，但定价和配置走了一条颇有攻击性的路线。&lt;/p&gt;
+
+&lt;p&gt;先说最抓眼球的数字：整机 1.08kg，15mm 厚。这个重量放在 14 英寸级别已经是第一梯队，和 MacBook Air M5 的 1.24kg 拉开了明显差距。外壳有蓝、灰、粉、白四色可选，造型走简洁路线，没有花哨的灯效——很明显瞄准的是商务和创意人群，而不是游戏玩家。&lt;/p&gt;
+
+&lt;p&gt;屏幕是 14.6 英寸 OLED，分辨率 3120×2080（3:2 比例），120Hz 刷新率，500nit 常规亮度、峰值可达 1600nit。3:2 比例对文档编辑和网页浏览的体验提升，用过的人都知道——16:9 宽屏看代码和写稿实在太局促。触控支持也没落下，对于 Windows 用户来说这是实打实的加分项。&lt;/p&gt;
+
+&lt;p&gt;处理器全系用上了 Intel 最新的 Panther Lake 架构，提供三档选择：Core Ultra 5 325 搭配 24GB 内存（7999 元）、Core Ultra 5 338H 搭 32GB（9199 元）、旗舰 Core Ultra X7 358H 搭 32GB（9999 元）。全系标配 1TB 存储，这点比 MacBook Air 256GB 起步厚道太多。首销叠加 500 元平台优惠和国家补贴后，入门款到手价 6800 元出头。&lt;/p&gt;
+
+&lt;p&gt;对比一下竞品：MacBook Air M5 国行 9999 元起，但只有 16GB/256GB，屏幕也是传统 16:10 LCD。参数层面，小米几乎全面碾压。72Wh 电池配 100W PD 快充，官方标称续航 19.8 小时。即使打个六折，12 小时实际使用也够撑一个工作日。接口方面更是 MacBook Air 的痛点：Thunderbolt 4、USB-C、全尺寸 USB-A、HDMI 2.1、3.5mm 耳机孔一应俱全，出差不用带扩展坞。&lt;/p&gt;
+
+&lt;p&gt;话说回来，MacBook 的竞争力从来不只是硬件参数表。macOS 的生态粘性、M 系列芯片的能效比一致性、以及苹果产品出了名的二手残值，都是 Windows 阵营难以复制的隐性优势。小米要在高端轻薄本市场站住脚，光靠堆料远远不够——Windows 笔记本的老毛病（驱动兼容、散热调度、系统更新翻车）需要靠持续的软件优化来解决。&lt;/p&gt;
+
+&lt;p&gt;目前 Book Pro 14 仅限中国市场发售，没有全球上市的时间表。如果你在国内、预算控制在万元以内、对 Windows 生态没有排斥，这台机器的性价比几乎找不到对手。至于「MacBook 杀手」这个称号——等它在海外市场也卖到这个价，再说吧。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.gizmochina.com/2026/03/19/xiaomi-returns-to-laptops-after-four-years-with-the-xiaomi-book-pro-14/"&gt;https://www.gizmochina.com/2026/03/19/xiaomi-returns-to-laptops-after-four-years-with-the-xiaomi-book-pro-14/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.notebookcheck.net/Xiaomi-releases-new-lightweight-laptop-with-Intel-Panther-Lake-and-120-Hz-OLED-display.1254878.0.html"&gt;https://www.notebookcheck.net/Xiaomi-releases-new-lightweight-laptop-with-Intel-Panther-Lake-and-120-Hz-OLED-display.1254878.0.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://the-gadgeteer.com/2026/03/22/xiaomi-priced-its-macbook-pro-rival-under-1300/"&gt;https://the-gadgeteer.com/2026/03/22/xiaomi-priced-its-macbook-pro-rival-under-1300/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">959f039f-a13e-5aa0-9ead-c75a54cf6ae5</guid>
+      <pubDate>Sun, 22 Mar 2026 16:23:18 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.gizmochina.com/2026/03/19/xiaomi-returns-to-laptops-after-four-years-with-the-xiaomi-book-pro-14/</link>
+      <enclosure url="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-book-pro-14-release-kv.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>NVIDIA GTC 2026 全面解读：Vera Rubin 平台六芯齐发，推理成本要砍到 Blackwell 的十分之一</title>
+      <description>&lt;figure&gt;&lt;img src="https://iprsoftwaremedia.com/219/files/202601/695c3b3b3d63323e2ab85448_nvidia-rubin-platform/nvidia-rubin-platform_mid.jpg" alt="NVIDIA GTC 2026 全面解读：Vera Rubin 平台六芯齐发，推理成本要砍到 Blackwell 的十分之一" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;GTC 2026 上，黄仁勋没有像往年一样只亮一颗芯片——这次是六颗，组成了完整的 &lt;strong&gt;Vera Rubin 平台&lt;/strong&gt;。这是 NVIDIA 继 Blackwell 之后的下一代 AI 基础设施架构，目标很直白：让推理成本再降一个数量级。&lt;/p&gt;
+
+&lt;p&gt;六颗芯片各司其职。Rubin GPU 是核心算力单元，单颗提供 50 PFLOPS 的 NVFP4 推理性能，比 Blackwell 快 5 倍。Vera CPU 则是 NVIDIA 第一款完全自研的 Arm 架构处理器（不再基于 Grace），88 个 Olympus 核心，能效比 x86 CPU 高两倍，内存带宽高三倍——专门为 7×24 小时喂数据给 GPU 而设计。剩下四颗分别是 NVLink 6 交换芯片、ConnectX-9 超级网卡、BlueField-4 DPU 和 Spectrum-6 以太网交换机，负责把算力粘合成一个整体。&lt;/p&gt;
+
+&lt;p&gt;组装起来是什么规模？Vera Rubin NVL72 机柜塞进 72 颗 Rubin GPU 和 36 颗 Vera CPU，总推理算力 3.6 exaFLOPS，内存带宽 260TB/s。跟 Blackwell 平台相比，NVIDIA 的承诺是：推理 token 成本降低 10 倍，训练 MoE 模型所需 GPU 数量减少 75%。&lt;/p&gt;
+
+&lt;p&gt;更值得关注的是同期发布的 &lt;strong&gt;Rubin CPX&lt;/strong&gt;——一颗专门为百万 token 级长上下文推理设计的 GPU。单颗 30 PFLOPS，配 128GB GDDR7 显存。NVL144 CPX 机柜把 144 颗这种芯片装在一起，总算力 8 exaFLOPS、100TB 内存。它的定位很具体：给 AI 代码编辑器、生成式视频这类需要一次处理百万 token 的场景提供专用硬件。按 NVIDIA 的说法，每投入 1 亿美元基础设施，可以产生 50 亿美元的 token 收入。这个 ROI 测算，明显是在帮客户算账。&lt;/p&gt;
+
+&lt;p&gt;还有一个彩蛋：GTC 上首次出现了 Groq 3 LPX 低延迟推理加速器——这是 NVIDIA 2025 年 12 月收购 Groq 低延迟技术授权后的第一个落地产品，256 颗 LPU 组成的机柜专攻实时代理系统的推理需求。NVIDIA 把竞争对手的长处直接整合进了自己的平台。&lt;/p&gt;
+
+&lt;p&gt;时间线方面，Vera Rubin NVL72 将在 2026 下半年开始供货，首批客户包括 AWS、Google Cloud、微软 Azure 和 Oracle OCI，以及 CoreWeave、Lambda 等云厂商。Rubin CPX 预计年底到位。黄仁勋同时上调了营收预期——到 2027 年，Blackwell 加 Vera Rubin 合计订单将突破 1 万亿美元。&lt;/p&gt;
+
+&lt;p&gt;对普通消费者来说，这些数字很遥远。但它们直接决定了未来一两年 AI 服务的价格——推理成本降 10 倍意味着 ChatGPT 们的订阅费可能终于有下调空间，或者同样价格能用到强得多的模型。这才是跟每个人有关的部分。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"&gt;https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference"&gt;https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"&gt;https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tweaktown.com/news/110548/from-vera-rubin-to-pcie-gen-6-and-hbm4e-heres-some-of-the-tech-we-saw-at-nvidia-gtc-2026/index.html"&gt;https://www.tweaktown.com/news/110548/from-vera-rubin-to-pcie-gen-6-and-hbm4e-heres-some-of-the-tech-we-saw-at-nvidia-gtc-2026/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8a22ba79-dc39-52f8-b85a-c8c5eb20cb9e</guid>
+      <pubDate>Sun, 22 Mar 2026 16:23:55 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer</link>
+      <enclosure url="https://iprsoftwaremedia.com/219/files/202601/695c3b3b3d63323e2ab85448_nvidia-rubin-platform/nvidia-rubin-platform_mid.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Garmin 即将发布 CIRQA 无屏手环：盯上 Whoop 的地盘，下周揭晓</title>
+      <description>&lt;figure&gt;&lt;img src="https://the5krunner.com/wp-content/uploads/2026/01/Garmin-CIRQA-Wrist-Band-1.png" alt="Garmin 即将发布 CIRQA 无屏手环：盯上 Whoop 的地盘，下周揭晓" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;Garmin 终于要踏进无屏可穿戴设备这个赛道了。多个独立信源确认，&lt;strong&gt;Garmin CIRQA&lt;/strong&gt; 智能手环将在 3 月 24-25 日正式发布——一款没有屏幕、没有 GPS、专注于全天候健康监测的手环，直接对标近两年风头正劲的 Whoop 5.0。&lt;/p&gt;
+
+&lt;p&gt;CIRQA 的产品逻辑和传统运动手表完全不同。FCC 备案文件显示，这是一款纯贴肤佩戴的设备：支持 Wi-Fi 和低功耗蓝牙，但不内置 GPS（户外运动时通过手机蓝牙获取定位数据）。两种尺码（S/M 和 L/XL），仅黑色和法式灰两个配色。去掉屏幕和 GPS 意味着更轻的重量、更长的续航、更低的存在感——它的目标用户不是盯着手腕看配速的跑者，而是 24 小时佩戴、关心睡眠质量和身体恢复状态的人。&lt;/p&gt;
+
+&lt;p&gt;虽然 Garmin 没有提前公布完整规格，但从产品定位可以推断核心功能：光学心率传感器阵列、血氧（SpO2）监测、高级睡眠分析、以及 Garmin 招牌的 Body Battery 身体电量和恢复指标。CIRQA 还支持 Garmin 的 &lt;strong&gt;TrueUp&lt;/strong&gt; 多设备同步技术——你可以跑步时戴 Forerunner、日常和睡觉时戴 CIRQA，所有数据汇总到同一个账户，互不干扰。这个设计思路很聪明：不是让你换掉手上的 Garmin 手表，而是让你多买一个。&lt;/p&gt;
+
+&lt;p&gt;竞争格局方面，CIRQA 的直接对手是 Whoop 5.0。Whoop 的模式是硬件免费、每月 30 美元订阅费，两年下来花费超过 700 美元。如果 Garmin 走一次性购买的路线（极大概率），加上 Garmin Connect 生态完全免费，对不想被「健康订阅」绑架的用户来说吸引力很大。Polar Loop 和 Amazfit Helio 也在这个赛道，但品牌号召力和数据生态都差 Garmin 一截。&lt;/p&gt;
+
+&lt;p&gt;不过也有值得观望的地方。Whoop 的社区功能和教练整合做得非常成熟，Garmin 能不能在软件层面跟上还是问号。另外，部分供应链信息暗示 CIRQA 的实际发货可能要到 5-6 月——下周可能只是发布而非开售。&lt;/p&gt;
+
+&lt;p&gt;对耐力运动爱好者来说，这可能是 2026 年最值得关注的可穿戴新品之一。Garmin 的传感器精度和算法积累是真功夫，如果价格控制在 150-200 美元区间，Whoop 会很难受。3 月 24 日见分晓。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://the5krunner.com/2026/03/18/garmin-cirqa-launch-next-week/"&gt;https://the5krunner.com/2026/03/18/garmin-cirqa-launch-next-week/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://smartwatchinsight.com/garmin-cirqa-smart-band-leak/"&gt;https://smartwatchinsight.com/garmin-cirqa-smart-band-leak/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techradar.com/health-fitness/fitness-trackers/garmin-could-finally-take-on-whoop-with-a-screenless-fitness-tracker-next-week-heres-what-to-expect"&gt;https://www.techradar.com/health-fitness/fitness-trackers/garmin-could-finally-take-on-whoop-with-a-screenless-fitness-tracker-next-week-heres-what-to-expect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gadgetsandwearables.com/2026/01/26/garmin-cirqa-smart-band/"&gt;https://gadgetsandwearables.com/2026/01/26/garmin-cirqa-smart-band/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b55f3689-2a2b-5340-b3c7-48cba794767f</guid>
+      <pubDate>Sun, 22 Mar 2026 16:24:25 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://the5krunner.com/2026/03/18/garmin-cirqa-launch-next-week/</link>
+      <enclosure url="https://the5krunner.com/wp-content/uploads/2026/01/Garmin-CIRQA-Wrist-Band-1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>中国首台商用电子束光刻机「曦之」：0.6nm 精度听着吓人，但离替代 ASML 还远得很</title>
+      <description>&lt;figure&gt;&lt;img src="https://csis-website-prod.s3.amazonaws.com/s3fs-public/styles/500_x_300/s3/2025-09/AdobeStock-1185352214_cropped.jpg" alt="中国首台商用电子束光刻机「曦之」：0.6nm 精度听着吓人，但离替代 ASML 还远得很" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;杭州市政府近期高调宣布了中国首台商用电子束光刻机&lt;strong&gt;「曦之」&lt;/strong&gt;（Xizhi），名字取自书法家王羲之——用毛笔在硅片上「写字」的意象，倒也贴切。官方宣称精度达到 0.6nm、线宽 8nm，目前正进入应用测试阶段。这条消息在国内外都引发了不小的讨论，有人激动说「打破封锁」，也有人冷静泼冷水。真实情况在两者之间，但更偏后者。&lt;/p&gt;
+
+&lt;p&gt;先搞清楚电子束光刻（E-beam Lithography）是什么。传统光刻用光线透过掩模版一次性把图案「拍」到硅片上，像盖章一样，速度极快。电子束则是用聚焦的电子束在硅片上逐点「画」电路——没有掩模版，设计灵活，精度可以做到极高，但致命缺点是慢。有多慢？逐点扫描和 EUV 光刻机一闪成像之间的差距，大概相当于手抄一本书和印刷厂印一本书的区别。&lt;/p&gt;
+
+&lt;p&gt;这也是为什么 CSIS（美国战略与国际研究中心）在专题分析中直接指出：曦之是「推进国内研发的真实一步」，但「并不代表对 ASML 的竞争威胁」。电子束光刻在工业界的定位一直是掩模版制造、科研原型验证、以及小批量特种芯片——全球如此，不只是中国。ASML 和尼康统治的是高通量量产光刻市场，中国的 SMEE（上海微电子）目前只占到 i-line 光刻机约 4% 的份额，和 EUV 完全不在一个赛道。&lt;/p&gt;
+
+&lt;p&gt;那曦之有什么实际价值？有的。0.6nm 精度对于制造 EUV 光刻所需的掩模版来说非常关键——掩模版本身就需要极高精度的制版设备。如果曦之能在掩模版制造环节实现国产替代，那至少在供应链的一个关键节点上减少了对外依赖。另外，科研和原型验证领域对电子束光刻的需求是实实在在的，有自主设备总比依赖进口好。&lt;/p&gt;
+
+&lt;p&gt;但把这件事包装成「绕过 EUV 封锁的替代方案」就过头了。AI 芯片量产需要的是每小时处理上百片晶圆的吞吐量，电子束光刻做不到，短期内看不到做到的可能性。部分媒体标题里的「让美国恐慌」更是夸大其词——CSIS 的措辞是 breakthroughs or boasts（突破还是吹嘘），态度已经很明确。&lt;/p&gt;
+
+&lt;p&gt;总结一句：曦之是中国半导体自主化进程中的一个真实进展，在特定应用领域有实际价值，但它解决不了中国在先进制程量产上的根本瓶颈。关注半导体的朋友，期待值要校准到正确的位置。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography"&gt;https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.theinteldrop.org/2026/03/21/chinas-particle-beam-lithography-breakthrough-has-the-u-s-in-panic/"&gt;https://www.theinteldrop.org/2026/03/21/chinas-particle-beam-lithography-breakthrough-has-the-u-s-in-panic/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.trendforce.com/news/2025/08/18/news-china-unveiled-its-first-commercial-electron-beam-lithography-machine/"&gt;https://www.trendforce.com/news/2025/08/18/news-china-unveiled-its-first-commercial-electron-beam-lithography-machine/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.globaltimes.cn/page/202508/1340857.shtml"&gt;https://www.globaltimes.cn/page/202508/1340857.shtml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d769995e-bbbe-5d34-bd29-d6f26b30b5c4</guid>
+      <pubDate>Sun, 22 Mar 2026 16:24:58 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography</link>
+      <enclosure url="https://csis-website-prod.s3.amazonaws.com/s3fs-public/styles/500_x_300/s3/2025-09/AdobeStock-1185352214_cropped.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>ToolTree（ICLR 2026）：双反馈蒙特卡洛树搜索重构 Agent 工具规划，四项基准平均领先 10%（arXiv 2603.12740）</title>
+      <description>&lt;figure&gt;&lt;img src="https://arxiv.org/html/2603.12740v1/image/Intro_Case.png" alt="ToolTree（ICLR 2026）：双反馈蒙特卡洛树搜索重构 Agent 工具规划，四项基准平均领先 10%（arXiv 2603.12740）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;当前 LLM Agent 的工具调用普遍采用贪心策略：看一步走一步，既不考虑工具之间的依赖关系，也无法预判选错工具后的连锁反应。Shuo Yang 等人（ICLR 2026）提出的 &lt;strong&gt;ToolTree&lt;/strong&gt; 把工具规划重新建模为蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS）问题，用「先评后用、用完再评」的双反馈机制加上双向剪枝，系统性地解决了这个短视问题。&lt;/p&gt;
+
+&lt;p&gt;核心 idea 其实很直觉：在执行工具之前，先让一个轻量 LLM judge 对候选工具打分（pre-evaluation, r_pre），衡量的是「这个工具在当前上下文下看起来靠不靠谱」。这个分数被注入 UCT 公式的探索项，引导搜索优先展开有希望的分支。工具真正执行之后，再用另一个评估器打 post-evaluation 分（r_post），衡量的是工具实际输出的贡献度，反向传播更新 Q 值。两个信号一前一后，前者管探索方向，后者管利用效率。&lt;/p&gt;
+
+&lt;p&gt;双向剪枝是效率的关键。Pre-pruning 在展开前砍掉 r_pre 低于阈值的动作，直接减少分支因子；post-pruning 在执行后标记 r_post 不达标的边为不可扩展，阻止搜索在已证明无用的路径上浪费 rollout。消融实验显示，去掉 post-evaluation 掉 7.5 个点——这是最大的单项损失，说明「执行后的真实反馈」比「执行前的猜测」更关键。但两者结合效果最好，全部移除掉 9.7 个点。&lt;/p&gt;
+
+&lt;p&gt;实验覆盖了闭集和开集两类场景。闭集任务（GTA、m&amp;m's）用 GPT-4o 取得 66.95 F1 和 88.61 均分；开集任务（ToolBench、RestBench）拿下 69.04 pass rate 和 74.50 均分，分别比最强基线高出 2-5 个点。横向对比 ReAct、Tree-of-Thought、A*、LATS 等方法，ToolTree 在所有设置下都是最优。一个有意思的鲁棒性测试：换用较弱的检索器（BM25 vs Contriever），ToolTree 性能下降最小，说明树搜索的聚合机制对单次评估噪声有天然容忍度。&lt;/p&gt;
+
+&lt;p&gt;不过方法也有代价。运行时间比贪心方法长不少，judge 的选择对结果有 2-4% 的影响（用 oracle judge 还能再涨），而且在 ToolBench 这类大规模工具库上对模型尺寸更敏感。和我们之前报道的 MARTI-MARS² 类似，又一个「把树搜索塞进 Agent 决策循环」的成功案例——只不过 MARTI-MARS² 用在代码生成，ToolTree 用在工具选择。树搜索正在成为 Agent 规划的标配范式。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.12740"&gt;https://arxiv.org/abs/2603.12740&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://openreview.net/forum?id=Ef5O9gNNLE"&gt;https://openreview.net/forum?id=Ef5O9gNNLE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">af403554-bed0-5104-9cbd-c4f3879766e0</guid>
+      <pubDate>Sun, 22 Mar 2026 16:25:00 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.12740</link>
+      <enclosure url="https://arxiv.org/html/2603.12740v1/image/Intro_Case.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Meta 高层讨论临时授权 Google Gemini：Avocado 难产逼出的「备胎方案」</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.trendingtopics.eu/wp-content/uploads/2026/03/Bildschirmfoto-2026-03-13-um-10.09.38.png" alt="Meta 高层讨论临时授权 Google Gemini：Avocado 难产逼出的「备胎方案」" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;《纽约时报》3 月 12 日爆出一个让不少人感到魔幻的消息：Meta 高层正在讨论&lt;strong&gt;临时授权使用 Google 的 Gemini 技术&lt;/strong&gt;来驱动自家产品。没错，那个一直举着开源大旗、到处宣传 Llama 的 Meta，居然在认真考虑给竞争对手交"保护费"。&lt;/p&gt;
+
+&lt;p&gt;事情的直接起因是 Avocado 的持续难产。内部测试结果显示，Avocado 在推理、编程和写作等关键能力上虽然明显超过了 Google 去年 3 月发布的 Gemini 2.5，但与去年 11 月发布的 Gemini 3.0 相比仍有差距——尤其在复杂推理任务上"难以确立决定性优势"。对一个原定 3 月发布、已推迟到至少 5 月的旗舰模型来说，这个位置很尴尬：不够差到可以悄悄放弃，也不够好到可以大声发布。&lt;/p&gt;
+
+&lt;p&gt;授权 Gemini 的构想针对的是 Facebook、Instagram 和 WhatsApp 上的 AI 功能。逻辑不复杂：Avocado 推迟了，但产品线不能停。Meta AI 助手已经铺设到数十亿用户面前，如果底层模型能力跟不上 Google 和 OpenAI 的产品体验，用户流失是实打实的。用分析师的话说，这是为了"防止功能停滞"——先借用 Gemini 撑住场面，等 Avocado 成熟了再切回来。&lt;/p&gt;
+
+&lt;p&gt;但这事的象征意义远大于技术细节。Zuckerberg 从 2023 年开始就把"开放"作为 Meta AI 战略的核心叙事，Llama 系列的开源发布是这套叙事的基石。现在讨论授权闭源竞品，等于承认在前沿模型能力上暂时落后到需要"外援"。更微妙的是，MSL 本身已经在悄悄从开源转向闭源——Avocado 大概率不会以 Llama 的方式开放。先放弃了自己的开源原则，又要去买别人的闭源产品，转变不可谓不讽刺。&lt;/p&gt;
+
+&lt;p&gt;内部围绕这事的分歧也很明显。Alexandr Wang、Chris Cox 和 Andrew Bosworth 在"AI 模型如何为广告业务服务"这个核心问题上存在路线之争。Wang 的 MSL 团队更关注前沿能力，Cox 关注产品体验，Bosworth 则要平衡整个技术栈。Gemini 授权的讨论本质上反映的就是这三方力量的博弈：产品线等不及了，研究线还没准备好。&lt;/p&gt;
+
+&lt;p&gt;Meta 尚未做出最终决定。花 1350 亿美元建 AI 基础设施的公司，临时花钱买 Google 的模型来用，在商业上并不离谱——企业级 AI 领域"自研+授权"的混合模式正在变得越来越普遍。真正的问题是：如果 Avocado 5 月发布后仍然追不上 Gemini 3.0，这个"临时方案"会不会变成长期依赖？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.opensourceforu.com/2026/03/meta-weighs-licensing-google-gemini-as-open-source-ai-strategy-faces-test/"&gt;https://www.opensourceforu.com/2026/03/meta-weighs-licensing-google-gemini-as-open-source-ai-strategy-faces-test/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://creati.ai/ai-news/2026-03-14/meta-delays-avocado-ai-model-launch-may-2026-performance-concerns-gemini-licensing/"&gt;https://creati.ai/ai-news/2026-03-14/meta-delays-avocado-ai-model-launch-may-2026-performance-concerns-gemini-licensing/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.trendingtopics.eu/meta-delays-avocado-ai-model-again-might-even-license-gemini-from-google/"&gt;https://www.trendingtopics.eu/meta-delays-avocado-ai-model-again-might-even-license-gemini-from-google/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"&gt;https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">62108eb2-1248-53d2-ab2e-77bd8e0e247e</guid>
+      <pubDate>Sun, 22 Mar 2026 16:25:13 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.opensourceforu.com/2026/03/meta-weighs-licensing-google-gemini-as-open-source-ai-strategy-faces-test/</link>
+      <enclosure url="https://www.trendingtopics.eu/wp-content/uploads/2026/03/Bildschirmfoto-2026-03-13-um-10.09.38.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Maher Saba 从 Reality Labs 转调，为 MSL 搭建「数据引擎」工程部门</title>
+      <description>&lt;figure&gt;&lt;img src="https://the-decoder.com/wp-content/uploads/2025/04/meta_logo_pattern-1.png" alt="Maher Saba 从 Reality Labs 转调，为 MSL 搭建「数据引擎」工程部门" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;3 月 3 日，《华尔街日报》援引内部备忘录报道，Meta 正在组建一个新的&lt;strong&gt;应用 AI 工程部门（Applied AI Engineering）&lt;/strong&gt;，由 Reality Labs 副总裁 Maher Saba 领衔，直接向 CTO Andrew Bosworth 汇报。&lt;/p&gt;
+
+&lt;p&gt;这个部门干什么？用 Saba 自己在内部信里的说法：搭建"让模型更快变好的数据引擎"（data engine）。翻译一下就是——MSL 的 Alexandr Wang 团队负责训练出最强的前沿模型，Saba 的团队负责把这些模型变成能用的产品。具体分两个方向：一个做内部工具和接口，另一个做任务执行、数据生成和模型评估。&lt;/p&gt;
+
+&lt;p&gt;Saba 说了一句话挺关键："Building great models isn't just about researchers and compute."——做出好模型不只是研究员和算力的事。这话放在 Meta 当下的语境里很有针对性。MSL 成立以来投了天量资源在顶级研究人才和 GPU 集群上，但从模型到产品之间的工程化管道一直是短板。Llama 4 去年发布后口碑不佳，其中一个重要原因就是模型能力和产品体验之间脱节。&lt;/p&gt;
+
+&lt;p&gt;组织架构上有个有意思的细节：这个部门采用极度扁平的管理结构，每个经理最多管 50 人。这符合 Zuckerberg 一贯强调的"提升个人贡献者地位、压扁层级"的组织哲学，但在一个涉及工具开发、数据管线和模型评估的工程组织里，1:50 的管理跨度意味着每个人都要承担很大的自主决策权。能不能跑通，取决于 Meta 能不能招到足够多的高自驱工程师。&lt;/p&gt;
+
+&lt;p&gt;Saba 从 Reality Labs 转调这件事本身也是一个信号。Reality Labs 今年 1 月刚裁了 1500 多人，预算面临 30% 削减，Horizon Worlds VR 版也基本被放弃。一个 RL 的副总裁被调到 AI 这边领衔新部门，正是 Meta 内部资源从元宇宙向 AI 大规模转移的具体缩影。Bosworth 既管 Reality Labs 又管这个新 AI 工程部门——左手砍自己的旧阵地，右手建新的。&lt;/p&gt;
+
+&lt;p&gt;从时间线看，强化学习和后训练方法论（Post-training）近期进展迅速，Saba 在备忘录中特别提到这一点是加速组建的理由。如果 Avocado 5 月发布，这个部门要负责的就是把 Avocado 的能力以最快速度推到 Facebook、Instagram、WhatsApp 的全线 AI 功能里。模型再强，用户感知不到也是白搭。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://dnyuz.com/2026/03/03/meta-is-forming-a-new-ai-engineering-org-for-its-superintelligence-push-with-teams-as-large-as-50-people-per-manager/"&gt;https://dnyuz.com/2026/03/03/meta-is-forming-a-new-ai-engineering-org-for-its-superintelligence-push-with-teams-as-large-as-50-people-per-manager/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://the-decoder.com/meta-creates-new-applied-ai-engineering-division/"&gt;https://the-decoder.com/meta-creates-new-applied-ai-engineering-division/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://seekingalpha.com/news/4560534-meta-to-set-up-new-applied-ai-engineering-organization"&gt;https://seekingalpha.com/news/4560534-meta-to-set-up-new-applied-ai-engineering-organization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pymnts.com/artificial-intelligence-2/2026/meta-creates-new-ai-unit-to-accelerate-model-development/"&gt;https://www.pymnts.com/artificial-intelligence-2/2026/meta-creates-new-ai-unit-to-accelerate-model-development/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a5d12360-ee87-5ee0-875d-d3bc2245f27a</guid>
+      <pubDate>Sun, 22 Mar 2026 16:25:31 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://dnyuz.com/2026/03/03/meta-is-forming-a-new-ai-engineering-org-for-its-superintelligence-push-with-teams-as-large-as-50-people-per-manager/</link>
+      <enclosure url="https://the-decoder.com/wp-content/uploads/2025/04/meta_logo_pattern-1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>TraceR1（CVPR 2026）：两阶段 RL 教会多模态 Agent「向前看」——预判轨迹再行动，OSWorld 提升 15.7%（arXiv 2603.16777）</title>
+      <description>&lt;figure&gt;&lt;img src="https://arxiv.org/pdf/2603.16777v1/x1.png" alt="TraceR1（CVPR 2026）：两阶段 RL 教会多模态 Agent「向前看」——预判轨迹再行动，OSWorld 提升 15.7%（arXiv 2603.16777）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;绝大多数多模态 Agent 都是「反应式」的：看到当前屏幕截图，决定下一步点哪里，然后马上执行。这种逐帧决策没有任何前瞻能力——Agent 不会想「如果我现在点这个按钮，三步之后会走进死胡同」。Yongyuan Liang 等人（马里兰大学 + Adobe Research，CVPR 2026）提出的 &lt;strong&gt;TraceR1&lt;/strong&gt; 用一种「先预判再行动」的 plan-act loop 解决这个问题：模型预测未来若干步的动作轨迹，但只执行第一步，然后重新观察、重新预判。关键是，这种预判能力是通过两阶段 RL 训练出来的，不是靠 prompt engineering。&lt;/p&gt;
+
+&lt;p&gt;第一阶段做轨迹级强化学习（trajectory-level RL），用的是 GRPO。奖励信号包含两部分：动作对齐奖励（预测序列与参考轨迹的匹配度）和重复惩罚（防止模型陷入循环动作的 reward hacking）。时间折扣因子 γ=0.8，近期预测权重更高。这个阶段训练的是「全局一致性」——让模型学会预测连贯的多步计划，而不是每一步独立最优。&lt;/p&gt;
+
+&lt;p&gt;第二阶段叫 grounded reinforcement fine-tuning。区别在于引入了「冻结的工具 Agent」——外部 GUI 执行器或可调用工具模块，训练时不更新。模型输出预测动作，冻结的 Agent 真正执行，产生二值反馈（GUI 任务看坐标匹配准确率，工具调用看答案正确性）。用离线轨迹同时提供轨迹级和执行级监督，让模型把预判能力落地到实际可执行的操作上。&lt;/p&gt;
+
+&lt;p&gt;七项基准的结果相当亮眼。线上 GUI 任务：AndroidWorld 64.8%，OSWorld-Verified 41.2%（相对基线提升 15.7%）。线下 GUI：AndroidControl-High 75.3%，GUI-Odyssey 88.2%。工具调用：GAIA 答案准确率 40.2%，直接超过了 GPT-4o 的 33.4%。横向比较来看，TraceR1 在开源模型中达到了 SOTA，部分基准匹配 GPT-4.1 级别 planner 的表现。&lt;/p&gt;
+
+&lt;p&gt;这项工作把我们一直跟踪的两条线索接到了一起：RL-for-LLM 线（GRPO 训练范式）和 computer-use 线（GUI/浏览器操控）。作者也坦承了局限：短视距更新只能做局部修正，无法真正重塑 Agent 对长期可行性的理解。要解决这个问题，可能需要层次化规划或多轮轨迹预测与记忆机制的耦合——恰好是 StructuredAgent 等工作在探索的方向。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.16777"&gt;https://arxiv.org/abs/2603.16777&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">266abe3a-a2d3-5df8-9508-b13c136c15d7</guid>
+      <pubDate>Sun, 22 Mar 2026 16:25:34 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.16777</link>
+      <enclosure url="https://arxiv.org/pdf/2603.16777v1/x1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Meta 酝酿两万人大裁员：1350 亿美元 AI 赌注下的成本腾挪</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.pymnts.com/wp-content/uploads/2026/03/Meta-layoffs-1.jpg" alt="Meta 酝酿两万人大裁员：1350 亿美元 AI 赌注下的成本腾挪" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;路透社 3 月 14 日报道，Meta 正在考虑裁减约 20% 的员工——按去年底近 79,000 人的规模算，这意味着大约 &lt;strong&gt;15,800 个岗位&lt;/strong&gt;。如果落实，这将是 2022-2023 年"效率之年"裁掉 21,000 人以来最大规模的一次缩编。&lt;/p&gt;
+
+&lt;p&gt;消息一出，Meta 股价 3 月 16 日盘前涨了近 3%。华尔街的逻辑很直白：裁人 = 省钱 = 利润率改善。Meta 发言人的回应同样直白："This is a speculative report about theoretical approaches."——既没否认，也没承认，标准的危机公关话术。&lt;/p&gt;
+
+&lt;p&gt;把这事放进 Meta 2026 年的整体棋局来看，逻辑并不难理解。今年的资本支出预算是 1150 亿到 1350 亿美元，几乎是去年的两倍，绝大部分砸在数据中心、GPU 集群和 AI 基础设施上。Prometheus 1GW 集群刚落地，通过 Nebius 锁定了 270 亿美元的 &lt;strong&gt;Vera Rubin&lt;/strong&gt; 算力合同——这些都是实打实的硬性支出，弹性空间很小。唯一能大幅压缩的可变成本，就是人。&lt;/p&gt;
+
+&lt;p&gt;其实裁员早已开始。今年 1 月，Reality Labs 砍掉了 1500 多个岗位，那轮裁员直接对应的是 Horizon Worlds VR 版的战略性放弃和元宇宙预算 30% 的削减。MSL 自身 3 月也经历了 600 人的重组精简。现在讨论的 20% 如果落地，波及范围将远不止这两个部门——广告技术、内容审核、基础产品工程等非 AI 核心团队大概率首当其冲。&lt;/p&gt;
+
+&lt;p&gt;这里面有个颇为冷酷的循环：Meta 裁人省下来的钱，用来建 AI 基础设施和训练模型；而这些 AI 能力一旦成熟，又会进一步替代更多人工岗位。Zuckerberg 自己也不避讳这个逻辑——他说过 AI 投资会让 2026 年运营支出增速高于 2025 年，但长期来看 AI 工具会带来"更大的运营效率"。先花钱造机器人工厂，再用机器人替人。&lt;/p&gt;
+
+&lt;p&gt;行业里类似的操作也在同步发生。Amazon 今年已累计砍掉约 30,000 个岗位，接近白领员工总数的 10%。科技巨头们的集体选择很一致：AI 基建上烧钱不能停，省钱只能从人头上省。裁员不是因为公司经营不善，而是因为公司决定把钱花到别的地方去。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html"&gt;https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/16/meta-ai-costs-mass-layoffs-20percent-up-premarket.html"&gt;https://www.cnbc.com/2026/03/16/meta-ai-costs-mass-layoffs-20percent-up-premarket.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.foxbusiness.com/technology/meta-eyes-massive-20-workforce-cut-ai-infrastructure-costs-continue-soar-across-operations-report"&gt;https://www.foxbusiness.com/technology/meta-eyes-massive-20-workforce-cut-ai-infrastructure-costs-continue-soar-across-operations-report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.theglobeandmail.com/business/technology/article-meta-platforms-layoffs-work-force-cuts-ai-spending/"&gt;https://www.theglobeandmail.com/business/technology/article-meta-platforms-layoffs-work-force-cuts-ai-spending/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">25c261e3-63f1-5835-8493-250b5066809a</guid>
+      <pubDate>Sun, 22 Mar 2026 16:25:55 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html</link>
+      <enclosure url="https://www.pymnts.com/wp-content/uploads/2026/03/Meta-layoffs-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>StructuredAgent：用 AND/OR 树把 LLM 从「全权规划者」降级为「局部顾问」，WebArena 首破 52%（arXiv 2603.05294）</title>
+      <description>&lt;figure&gt;&lt;img src="https://arxiv.org/html/2603.05294v2/x1.png" alt="StructuredAgent：用 AND/OR 树把 LLM 从「全权规划者」降级为「局部顾问」，WebArena 首破 52%（arXiv 2603.05294）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;让 LLM 端到端地规划长链 Web 任务，效果一直不太行。原因也很直接：上下文窗口装不下完整历史，模型倾向于贪心决策导致过早终止，而且整个规划过程是黑箱——出了问题根本不知道哪一步错了。Elita Lobo 等人提出的 &lt;strong&gt;StructuredAgent&lt;/strong&gt;（arXiv 2603.05294）换了个思路：把规划的「骨架」交给经典 AI 的 AND/OR 树结构来管理，LLM 只负责五种局部操作——节点展开、节点修复、全局剪枝、完成检查、观测摘要。&lt;/p&gt;
+
+&lt;p&gt;AND/OR 树的机制很优雅。AND 节点表示「这些子目标必须全部完成」，OR 节点表示「这些替代方案中任一成功即可」，叶节点是具体的浏览器操作（点击、输入、滚动等）。框架用改良的贪心深度优先搜索（greedy DFS）遍历树，每个节点有三种状态——进入、退出、失败——允许回溯和重新访问。这意味着 Agent 在某条路径失败时可以自动回退到 OR 节点的另一个分支，而不是直接放弃整个任务。整棵树是动态构建的，LLM 负责按需展开子节点，但树的维护逻辑（状态转换、回溯、剪枝）全部由框架硬编码。&lt;/p&gt;
+
+&lt;p&gt;对信息检索类任务（比如「找到符合五个条件的最便宜航班」），框架还有一个结构化记忆模块：用动态表格追踪候选实体，每行是一个候选项，列是约束条件。Agent 探索过程中发现新约束就自动更新表结构。决策时检索满足最多约束的 top-K 候选。不过这个模块有个有趣的副作用——在简单任务上反而掉分，因为它会生成过于严格的中间约束，变成噪音。&lt;/p&gt;
+
+&lt;p&gt;WebArena 630 个任务上的表现说明了问题。StructuredAgent 用 Claude 3.5 Sonnet 取得 52.6% 总成功率，对比 AgentOccam 的 46.4%，提升 6.2 个百分点。分品类看，Shopping 从 38.0% 飙升至 52.8%，Reddit 从 60.1% 到 72.6%——这两类恰好是长链、多约束任务最集中的。Amazon Hard 场景下提升更显著：37.8% vs 28.4%（人工评估）。换到更强的 Claude 3.7 Sonnet，Amazon Hard 达到 46.7%，说明方法收益和模型能力是正交的。&lt;/p&gt;
+
+&lt;p&gt;代价是 Agent 的动作序列明显更长——Amazon Hard 上大约是 AgentOccam 的两倍。但作者的论点很有说服力：这些额外动作是有目的的探索和回溯，不是无意义的重复。对比 TraceR1 用 RL 训练预判能力，StructuredAgent 走的是纯架构路线——不需要任何训练，直接把规划的可靠性交给经典搜索算法。两种范式或许可以互补：用 AND/OR 树做骨架规划，用 RL 训练的预判模型做节点内的动作选择。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.05294"&gt;https://arxiv.org/abs/2603.05294&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">617e13ff-4dc8-520d-b36a-e6edf21eeaac</guid>
+      <pubDate>Sun, 22 Mar 2026 16:26:05 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.05294</link>
+      <enclosure url="https://arxiv.org/html/2603.05294v2/x1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>ExpRAG-LoRA：「训练时带检索」比「推理时加检索」强一倍——经验增强 Agent 的正确打开方式（arXiv 2603.18272）</title>
+      <description>&lt;figure&gt;&lt;img src="https://arxiv.org/2603.18272v1/x1.png" alt="ExpRAG-LoRA：「训练时带检索」比「推理时加检索」强一倍——经验增强 Agent 的正确打开方式（arXiv 2603.18272）" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;LLM Agent 面对没见过的任务时，通常有两条路：一是用 LoRA 之类的方法微调，让模型内化经验；二是在推理时检索相似的历史轨迹放进上下文，让模型参考着做。Thomas Palmeira Ferraz 等人（arXiv 2603.18272）发现，这两条路单独走效果都有限——但它们的组合方式决定了天花板。最关键的发现可以用一句话概括：&lt;strong&gt;训练时就带上检索上下文（ExpRAG-LoRA），比先训练再在推理时加检索（LoRA + ExpRAG）效果好一倍。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;先看各组件单独的能力。在 ALFWorld Hard（未见任务）上，纯检索推理（ExpRAG，不微调）拿到 65.03%，纯 LoRA 微调（不检索）只有 34.4%。直觉上，把两者简单叠加——先 LoRA 训好，推理时再加检索上下文——应该能取长补短？实际结果是 67.2%，比纯检索只高了 2 个点。微调后的模型已经形成了「不依赖检索上下文做决策」的习惯，推理时突然塞进来的检索结果反而像噪音。&lt;/p&gt;
+
+&lt;p&gt;ExpRAG-LoRA 的做法是在训练阶段就把检索到的历史轨迹作为输入的一部分。模型从一开始就学会了「如何利用检索到的经验来做决策」，而不是事后补课。ALFWorld Hard 上一下跳到 88.5%——几乎翻倍。ScienceWorld Hard 从 22.27%（纯检索）和 15.6%（纯 LoRA）提升到 42.2%。距离 rule-based expert 的 89.6% 已经近在咫尺。&lt;/p&gt;
+
+&lt;p&gt;技术细节上有几个违反直觉的发现。一是训练应该比常规 early stopping 更久——他们发现即使 validation loss 已经上升，继续训到 50 个 epoch 时泛化能力还在涨。这暗示 Agent 任务的泛化存在「延迟涌现」，和分类任务的过拟合规律不同。二是检索数量 K 的选择依赖于任务复杂度：ALFWorld 上 K 越大越好，ScienceWorld 上 K=2 就够了，再大反而引入不相关轨迹的干扰。三是动态检索（交互过程中实时更新检索查询）理论上更好，但当检索索引和当前任务不匹配时反而不稳定。&lt;/p&gt;
+
+&lt;p&gt;局限性也很明确。当前实验用的是脚本专家生成的高质量轨迹作为检索库——换成 LLM 自己生成的噪声轨迹会怎样还不知道。而且一旦检索库中找不到相关任务的轨迹，性能断崖式下降。从 Agent 记忆的角度看，这是一个「只读的情景记忆」方案——没有自适应的记忆整合机制，和我们之前报道的 A-MAC（写入端控制）、AdaMem（读取端去偏）形成互补：三者分别解决「检索什么经验」「存什么记忆」「读记忆时怎么去偏」三个不同环节的问题。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.18272"&gt;https://arxiv.org/abs/2603.18272&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8ab8f9f9-bff5-5222-9ddb-953c9a106669</guid>
+      <pubDate>Sun, 22 Mar 2026 16:26:43 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.18272</link>
+      <enclosure url="https://arxiv.org/2603.18272v1/x1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>超2亿美元联邦科研经费遭砍，密歇根大学冻结招聘与大额支出</title>
+      <description>&lt;figure&gt;&lt;img src="https://research.umich.edu/wp-content/uploads/2024/05/federal-funding-header.jpg" alt="超2亿美元联邦科研经费遭砍，密歇根大学冻结招聘与大额支出" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;密歇根大学正面临有史以来最大规模的联邦科研经费危机。据 Bridge Michigan 报道，密歇根州各高校因联邦拨款削减直接损失已超过 2 亿美元，预计总经济影响将达 4.56 亿美元。仅 NIH 一项削减便波及约 1.8 亿美元——而密歇根大学 2024 财年获得的 NIH 资助高达 7.34 亿美元，位列全美第三，是受影响最深的高校之一。&lt;/p&gt;&lt;p&gt;具体受损项目触目惊心：社会保障管理局（SSA）以涉及 DEI 为由，终止了密歇根大学退休与残疾研究中心价值 1500 万美元的研究合同；五大湖研究合作研究所（CIGLR）800 万美元拨款续期遭搁置，48 名员工中有 20 人面临裁员，大湖区气候与生态监测工作陷入停摆风险。校长 Santa Ono 随即下达紧急指令：安娜堡校区所有教职员工招聘须经校长或执行副校长批准，超过 5 万美元的非薪酬支出须经行政审查，所有基建项目将重新评估。&lt;/p&gt;&lt;p&gt;联邦压力还迫使密歇根大学主动切割多元化项目。美国教育部民权办公室指控 PhD Project 基于种族限制参与资格，认定密歇根大学等 30 余所高校违反 1964 年《民权法案》第六条。Ross 商学院随即宣布退出该合作项目——而 PhD Project 自 1994 年成立以来已帮助超过 2000 名少数族裔学生攻读商学博士。商学院教授 David Wooten 直言：「我们曾是领导者和佼佼者，看到我们在这件事上屈膝令人痛心。」&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://bridgemi.com/talent-education/gutted-michigan-losing-200m-fed-research-funding-more-limbo/"&gt;https://bridgemi.com/talent-education/gutted-michigan-losing-200m-fed-research-funding-more-limbo/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bridgemi.com/talent-education/u-m-squeezed-trump-cuts-social-security-research-project-halted/"&gt;https://bridgemi.com/talent-education/u-m-squeezed-trump-cuts-social-security-research-project-halted/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bridgemi.com/talent-education/u-m-ends-ties-with-program-that-helped-diversify-phds-after-federal-threat/"&gt;https://bridgemi.com/talent-education/u-m-ends-ties-with-program-that-helped-diversify-phds-after-federal-threat/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4c2b19ef-c753-5483-866a-d03f4845d9cb</guid>
+      <pubDate>Sun, 22 Mar 2026 16:27:04 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://bridgemi.com/talent-education/gutted-michigan-losing-200m-fed-research-funding-more-limbo/</link>
+      <enclosure url="https://research.umich.edu/wp-content/uploads/2024/05/federal-funding-header.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>密歇根与密歇根州立同进 Sweet 16：3月27日分赴芝加哥与华盛顿迎战硬仗</title>
+      <description>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Michigan_Wolverines_logo.svg/600px-Michigan_Wolverines_logo.svg.png" alt="密歇根与密歇根州立同进 Sweet 16：3月27日分赴芝加哥与华盛顿迎战硬仗" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;3 月 21 日，密歇根大学与密歇根州立大学在同一天双双晋级 2026 年 NCAA 锦标赛 Sweet 16，在两校历史上并不多见。密歇根（33 胜 3 负，1 号种子）以 95-72 横扫圣路易斯后，将于 3 月 27 日在芝加哥联合中心球馆参加中西部赛区半决赛，对手为 4 号种子阿拉巴马与 5 号种子德州理工的胜者——阿拉巴马是本赛季全美场均得分和三分出手最多的球队，但其首发三分射手 Aden Holloway 因毒品重罪被捕而缺阵，火力或有折扣。&lt;/p&gt;&lt;p&gt;密歇根州立（3 号种子）则以 77-69 击败路易斯维尔，大二控卫 Jeremy Fears Jr. 在那场比赛中送出 16 次助攻，打破了 Magic Johnson 1978 年保持的队史 NCAA 锦标赛单场 14 次助攻纪录。密歇根州立将于 3 月 27 日在华盛顿特区参加东部赛区半决赛，对手为 2 号种子 UConn 或 7 号种子 UCLA 的胜者。若两队均能胜出，将各自出战赛区决赛，向最终四强发起冲击。&lt;/p&gt;&lt;p&gt;对密歇根大学来说，此次 Sweet 16 是近 13 届 NCAA 锦标赛中第 9 次进入该轮次，主教练 Dusty May 本赛季因此荣获大十联盟年度最佳教练。两支密歇根球队能否在同一年同步闯入精英八强乃至最终四强，将是密歇根篮球史上值得铭记的时刻。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.detroitnews.com/story/sports/college/university-michigan/2026/03/21/who-does-michigan-basketball-play-next-in-the-ncaa-tournament/89260464007/"&gt;https://www.detroitnews.com/story/sports/college/university-michigan/2026/03/21/who-does-michigan-basketball-play-next-in-the-ncaa-tournament/89260464007/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.detroitnews.com/story/sports/college/more-colleges/2026/03/21/how-many-times-have-michigan-state-and-michigan-advanced-to-sweet-16-together/89265284007/"&gt;https://www.detroitnews.com/story/sports/college/more-colleges/2026/03/21/how-many-times-have-michigan-state-and-michigan-advanced-to-sweet-16-together/89265284007/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3d44df09-7021-572a-903b-e81103b389c8</guid>
+      <pubDate>Sun, 22 Mar 2026 16:27:04 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://www.detroitnews.com/story/sports/college/university-michigan/2026/03/21/who-does-michigan-basketball-play-next-in-the-ncaa-tournament/89260464007/</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Michigan_Wolverines_logo.svg/600px-Michigan_Wolverines_logo.svg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>安娜堡批准3500万美元债券，前YMCA地块将建20层330套经济适用房</title>
+      <description>&lt;figure&gt;&lt;img src="https://hoodline.com/images/2026/03/ann-arbor-ymca-tower.jpg" alt="安娜堡批准3500万美元债券，前YMCA地块将建20层330套经济适用房" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;安娜堡市议会于 3 月 17 日批准发行最高 3500 万美元的债券，用于在市中心前 YMCA 地块（350 S. Fifth Ave.）建造一座 20 层的经济适用房大楼。该项目由安娜堡住房委员会与开发商 Related Midwest 合作推进，总投资约 2.15 亿美元，将提供约 330 套面向中低收入居民的公寓，其中至少 100 套或 40% 的单元面向收入不超过该地区中位数收入（AMI）60% 的家庭。&lt;/p&gt;&lt;p&gt;市议员 Chris Watson 表示：「今晚的债券发行正是我们所说的全速推进经适房建设——先通过债券融资，现在就开始建设，而不是等到建筑成本进一步上涨。」债券将通过 2020 年选民批准的经济适用房专项税（Affordable Housing Millage）来偿还，无需额外增税。开发团队计划于 2026 年春季开工，施工将与 Fourth Avenue 重建和 Blake Transit Center 改造同期进行，届时市中心交通将面临多重压力。&lt;/p&gt;&lt;p&gt;此次项目是安娜堡近年来规模最大的经适房单次投资，也是 2050 综合土地使用规划通过后的首个重大落地实践——后者已于本月全票取消了单一家庭独占分区。分析人士认为，高层经适房模式有助于在有限土地上集中提供更多可负担单元，项目建成后将成为安娜堡市中心最高的保障房建筑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.wemu.org/wemu-news/2026-03-17/city-of-ann-arbor-approves-issuing-bonds-for-affordable-housing-development"&gt;https://www.wemu.org/wemu-news/2026-03-17/city-of-ann-arbor-approves-issuing-bonds-for-affordable-housing-development&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hoodline.com/2026/03/ann-arbor-bets-35-million-on-sky-high-affordable-tower-downtown/"&gt;https://hoodline.com/2026/03/ann-arbor-bets-35-million-on-sky-high-affordable-tower-downtown/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d7b375b1-6d63-578d-ba4d-ef9f498c7c39</guid>
+      <pubDate>Sun, 22 Mar 2026 16:27:04 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://www.wemu.org/wemu-news/2026-03-17/city-of-ann-arbor-approves-issuing-bonds-for-affordable-housing-development</link>
+      <enclosure url="https://hoodline.com/images/2026/03/ann-arbor-ymca-tower.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>堵上地中海，合并欧非大陆：一位德国建筑师用30年推销的疯狂超级工程</title>
+      <description>&lt;figure&gt;&lt;img src="https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7d658ad8-1958-4346-a1e4-22f92e2cbda9_800x645.jpeg" alt="堵上地中海，合并欧非大陆：一位德国建筑师用30年推销的疯狂超级工程" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;1929年，一个名叫赫尔曼·索格尔（Herman Sörgel）的德国建筑师出版了一本书，里面有一个听起来像科幻小说的提案：在直布罗陀海峡修一座巨型水坝，把地中海的水面降低200米，让欧洲和非洲合并成一个超级大陆。他给这个计划起了个名字——&lt;strong&gt;Atlantropa&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这不是酒后吹牛。索格尔画了详细的工程图纸，算了精确的发电量，还花了整整30年——从1922年到1952年去世——四处游说政客、工程师和媒体。&lt;/p&gt;
+
+&lt;p&gt;先说说这座坝有多疯狂。直布罗陀海峡最窄处只有14公里，索格尔计划在海峡内侧约30公里处建坝。大坝底宽2.5公里，高300米，坝顶塔楼达400米。建设周期10年，需要20万工人三班倒、24小时不停工。仅直布罗陀大坝一处就能产生5万兆瓦的水力发电量——整个Atlantropa项目的总装机容量达到11万兆瓦，足以让当时的整个欧洲告别煤炭。&lt;/p&gt;
+
+&lt;p&gt;但光堵住直布罗陀还不够。索格尔的完整方案还包括在达达尼尔海峡建第二座坝，在西西里岛和突尼斯之间建第三座坝，把地中海一切为二——西半部分水面降100米，东半部分降200米。总共会露出57.6万平方公里的新陆地，相当于比利时加法国的面积。亚得里亚海会变成一片沼泽平原，爱琴海的岛屿之间可以开车直达。&lt;/p&gt;
+
+&lt;p&gt;索格尔的野心还不止于此。后期方案里，他还计划在刚果河上修两座大坝，人为制造出一个巨大的「刚果海」和「乍得海」，用以调节非洲气候，让撒哈拉以南的非洲更适宜欧洲移民居住。&lt;/p&gt;
+
+&lt;p&gt;你可能会问：一个建筑师为什么要搞这种事？&lt;/p&gt;
+
+&lt;p&gt;索格尔是个和平主义者。一战后的欧洲满目疮痍，他的逻辑是：如果欧洲各国都依赖同一个跨国能源网络，那就没人敢开战了——你炸了大坝，自己家也没电用。他还担心煤炭和石油终将枯竭，认为水力发电才是欧洲的长期出路。同时，新露出的土地可以安置欧洲多余的人口，缓解失业和社会矛盾。&lt;/p&gt;
+
+&lt;p&gt;这套说辞在当时确实打动了不少人。Atlantropa方案在魏玛共和国时期引发了严肃的技术讨论，建筑界和工程界都有人认真评估过可行性。到了纳粹时期，索格尔试图把方案包装成符合纳粹扩张理念的计划——但希特勒对向南扩张不感兴趣，纳粹更想要东方的「生存空间」。二战后，西方盟国短暂考虑过用Atlantropa来加强与非洲殖民地的联系，以对抗苏联在非洲的影响。&lt;/p&gt;
+
+&lt;p&gt;但最终，两件事彻底杀死了这个项目：核能和去殖民化运动。核电站让水力发电不再是唯一的清洁能源选项；而1950年代席卷非洲的独立运动让「用大坝帮欧洲人殖民非洲」的想法变得政治上不可能。&lt;/p&gt;
+
+&lt;p&gt;1952年，索格尔骑自行车去发表一场关于Atlantropa的演讲时，被一辆汽车撞死。他推销了30年的梦想随他而去。Atlantropa研究所又苟延残喘了8年，1960年正式关闭。有趣的是，菲利普·K·迪克1962年的小说《高堡奇人》里，纳粹赢得了二战，其中一项「成就」就是排干了地中海。&lt;/p&gt;
+
+&lt;p&gt;今天回看，Atlantropa最令人不安的地方不是它的工程难度——虽然以当时的技术确实无法实现——而是它背后那种毫不掩饰的殖民心态：整个非洲及其资源，应当「完全为欧洲所用」。索格尔真诚地相信自己在追求和平，但他的和平蓝图里，非洲人没有发言权。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://bigthink.com/strange-maps/287-dam-you-mediterranean-the-atlantropa-project/"&gt;https://bigthink.com/strange-maps/287-dam-you-mediterranean-the-atlantropa-project/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://theconversation.com/atlantropa-the-colossal-1920s-plan-to-dam-the-mediterranean-and-create-a-supercontinent-47370"&gt;https://theconversation.com/atlantropa-the-colossal-1920s-plan-to-dam-the-mediterranean-and-create-a-supercontinent-47370&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.environmentandsociety.org/arcadia/atlantropa-endless-energy-mediterranean-sea"&gt;https://www.environmentandsociety.org/arcadia/atlantropa-endless-energy-mediterranean-sea&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">601bbf48-7d50-52eb-bf67-99b44be815db</guid>
+      <pubDate>Sun, 22 Mar 2026 16:28:42 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://bigthink.com/strange-maps/287-dam-you-mediterranean-the-atlantropa-project/</link>
+      <enclosure url="https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7d658ad8-1958-4346-a1e4-22f92e2cbda9_800x645.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>尼禄吃掉了地球上最后一棵：古罗马「万能神草」的两千年悬案与意外重逢</title>
+      <description>&lt;figure&gt;&lt;img src="https://allthatsinteresting.com/thumb/1500.790.https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/09/silphium-1.jpg" alt="尼禄吃掉了地球上最后一棵：古罗马「万能神草」的两千年悬案与意外重逢" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;如果你能穿越回公元前6世纪的北非城市昔兰尼（Cyrene），你会发现一件奇怪的事：这座城市铸造的几乎每一枚硬币上，都印着同一种植物的图案。不是橄榄，不是葡萄，而是一种长得像大茴香、开着黄色小花的草本植物——&lt;strong&gt;西尔菲姆&lt;/strong&gt;（Silphium）。&lt;/p&gt;
+
+&lt;p&gt;这种植物有多重要？昔兰尼的整个经济体系都建立在它上面。它是那个时代的石油、黄金和青霉素的合体。&lt;/p&gt;
+
+&lt;p&gt;古罗马最权威的妇科医生索拉努斯（Soranus）记载，女性每月服用一颗鹰嘴豆大小的西尔菲姆树脂，就能有效避孕；如果已经怀孕，它还能引发流产。历史学家约翰·里德尔（John Riddle）在研究古典文献后断言：「在古代，首选的避孕药物就是西尔菲姆。」但避孕只是它的功能之一。古罗马人用它治疗发烧、恶心、感冒和鸡眼；把它当香料加进食物里调味；用它的汁液做香水；甚至把它当催情药。一株植物，全能选手。&lt;/p&gt;
+
+&lt;p&gt;问题在于：西尔菲姆只生长在昔兰尼附近一小块狭长的海岸地带，大约200公里长、60公里宽。希腊人试过在别的地方种植，全部失败。人工繁殖？也不行。这东西只肯在野外自然生长，仿佛有自己的脾气。&lt;/p&gt;
+
+&lt;p&gt;供给有限，需求却在暴涨。昔兰尼政府试图限制采收量——但罗马人来了以后，管控形同虚设。过度采摘的后果是毁灭性的。到了公元前1世纪，西尔菲姆已经极其稀有。&lt;/p&gt;
+
+&lt;p&gt;然后是那个著名的结局。根据老普林尼（Pliny the Elder）的记载，世界上最后一棵西尔菲姆被人从地里拔了出来，当作珍奇异物送给了罗马皇帝尼禄。尼禄把它吃了。就这样，人类历史上第一次有据可查的、由消费行为直接导致的物种灭绝，发生在两千年前。&lt;/p&gt;
+
+&lt;p&gt;还有一个让人浮想联翩的细节：西尔菲姆的种子呈心形。有不少学者认为，我们今天通用的心形符号，最初的原型就是西尔菲姆的种荚——毕竟，它最著名的用途和爱情（或者说，爱情的后果）密切相关。&lt;/p&gt;
+
+&lt;p&gt;故事到这里本该结束了。但2021年，事情出现了转折。&lt;/p&gt;
+
+&lt;p&gt;土耳其伊斯坦布尔大学的药物学教授马哈穆特·米斯基（Mahmut Miski）宣布，他可能找到了西尔菲姆的现代版本。这种植物叫&lt;strong&gt;费鲁拉·德鲁丹娜&lt;/strong&gt;（Ferula drudeana），生长在土耳其中部哈桑山（Mount Hasan）的火山岩缝隙里。&lt;/p&gt;
+
+&lt;p&gt;米斯基其实早在1983年就注意到了这种植物。当时他观察到一个有趣的现象：当地的牲畜对它表现出异常的喜爱，吃完以后会打瞌睡和打喷嚏——这和古代文献中描述的动物对西尔菲姆的反应一模一样。花了将近40年的研究后，米斯基团队在2021年发表论文，从费鲁拉·德鲁丹娜的根部提取物中鉴定出30种次级代谢产物，其中多种具有抗癌、避孕和消炎的功效——恰好对应了古人对西尔菲姆的描述。米斯基感叹，这一种植物就「把六七种重要药用植物的功能合在了一起」。&lt;/p&gt;
+
+&lt;p&gt;但它真的就是西尔菲姆吗？地理上有个疑问：古代的西尔菲姆生长在利比亚，而费鲁拉·德鲁丹娜在几千公里外的土耳其。米斯基的解释是，哈桑山地区在古希腊时期曾有定居点，希腊人可能把植物带了过来进行人工栽培。&lt;/p&gt;
+
+&lt;p&gt;两千年前，尼禄吃下了最后一棵。两千年后，一个土耳其教授可能在火山上找到了它的后裔。这个故事还没有定论——但至少，我们又多了一个理由去保护那些看起来不起眼的野生植物。下一棵灭绝的「杂草」，说不定也是某种无可替代的宝藏。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://allthatsinteresting.com/silphium"&gt;https://allthatsinteresting.com/silphium&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kew.org/read-and-watch/silphium-mystery"&gt;https://www.kew.org/read-and-watch/silphium-mystery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://greekreporter.com/2025/08/21/plant-ancient-greece-rediscovered/"&gt;https://greekreporter.com/2025/08/21/plant-ancient-greece-rediscovered/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">639422f4-7218-51a0-baff-1fafd0ea1954</guid>
+      <pubDate>Sun, 22 Mar 2026 16:29:28 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://allthatsinteresting.com/silphium</link>
+      <enclosure url="https://allthatsinteresting.com/thumb/1500.790.https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/09/silphium-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>重复三遍就能变成真理：你的大脑为什么会把谎言自动升级为「事实」</title>
+      <description>&lt;figure&gt;&lt;img src="https://neurosciencenews.com/files/2025/09/visual-illusion-reality-neuroscience.jpg" alt="重复三遍就能变成真理：你的大脑为什么会把谎言自动升级为「事实」" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;金鱼的记忆只有三秒。口香糖吞下去要七年才能消化。维生素C能预防感冒。你可能「知道」这些说法中至少有一两条。但它们全都是假的。你之所以觉得它们是真的，并不是因为你在哪里看到过确凿的证据——而是因为你听过太多遍了。&lt;/p&gt;
+
+&lt;p&gt;这就是心理学中一个极其强大、又极其危险的认知偏差：&lt;strong&gt;虚幻真相效应&lt;/strong&gt;（Illusory Truth Effect）。简单说：一句话，你听得越多，就越觉得它是真的。哪怕它是假的。哪怕你知道它是假的。&lt;/p&gt;
+
+&lt;p&gt;1977年，维拉诺瓦大学和天普大学的三位研究者——林恩·哈舍尔（Lynn Hasher）、大卫·戈德斯坦（David Goldstein）和托马斯·托皮诺（Thomas Toppino）——做了一个实验。他们给大学生看一系列陈述句，有些是真的，有些是假的，然后在几周后重复展示其中一部分。结果：仅仅是「重复出现」这一个因素，就足以显著提升受试者对这些陈述的「真实性」评分。不管内容本身是真是假。&lt;/p&gt;
+
+&lt;p&gt;这个发现在过去50年里被反复验证和扩展。它的底层机制是一个叫「加工流畅性」（Processing Fluency）的东西。你的大脑在处理信息时，会记录一个隐性指标：这条信息处理起来有多顺畅？如果你之前见过同样的内容，第二次处理它时就会更快、更省力。大脑会把这种「处理起来很顺」的感觉，错误地解读为「这条信息是可靠的」。&lt;/p&gt;
+
+&lt;p&gt;换句话说，你的大脑用「熟悉感」冒充了「真实性」。&lt;/p&gt;
+
+&lt;p&gt;这里有一个反直觉的发现特别吓人。范德比尔特大学的丽莎·法齐奥（Lisa Fazio）等研究者发现：即使受试者明确知道某个说法是假的，重复暴露之后，他们对这个说法的「真实性」评分仍然会上升。知识没有保护你。智商也没有。分析能力也没有。&lt;/p&gt;
+
+&lt;p&gt;为什么？因为虚幻真相效应绕过了你的理性分析系统，直接作用于直觉层面。丹尼尔·卡尼曼说的「系统1」（快速、自动的直觉思维）在说「这个听起来对」，而你的「系统2」（缓慢、需要努力的逻辑分析）可能根本没来得及启动。&lt;/p&gt;
+
+&lt;p&gt;这个效应在现实世界中的破坏力有多大？2018年MIT的一项大规模研究分析了推特上的新闻传播，发现虚假信息的传播速度是真实信息的六倍，能触达的人群多出1500人。假新闻跑得更快，部分原因就是：它往往更具煽动性，更容易被转发和重复——而每一次重复，都在给它的「真实感」充值。&lt;/p&gt;
+
+&lt;p&gt;新冠疫情期间的例子更直接。羟氯喹被反复宣称有90%的治疗效果，尽管没有临床证据支持。那些经常看到这个说法的人，显著更倾向于相信它有效。这不是因为他们笨，而是因为他们的大脑在「听过很多遍」和「这是真的」之间画了等号。&lt;/p&gt;
+
+&lt;p&gt;那怎么对抗这个效应？研究者发现了几种有效策略。第一是主动的事实核查——在接收信息的那一刻就去验证，而不是被动接受。第二是明确的警示标签——在虚假信息旁边标注「此内容已被证伪」，可以在一定程度上削弱重复带来的信任感。第三是最根本的：意识到这个效应的存在本身就是一种防御。&lt;/p&gt;
+
+&lt;p&gt;下次当你发现自己脱口而出「金鱼的记忆只有三秒」的时候，停一下，问自己：我是怎么「知道」这件事的？是因为看过可靠的来源，还是仅仅因为——我听过太多遍了？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38113667/"&gt;https://pubmed.ncbi.nlm.nih.gov/38113667/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thedecisionlab.com/biases/illusory-truth-effect"&gt;https://thedecisionlab.com/biases/illusory-truth-effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://online.ucpress.edu/collabra/article/6/1/38/114468/Repetition-Increases-Perceived-Truth-Even-for"&gt;https://online.ucpress.edu/collabra/article/6/1/38/114468/Repetition-Increases-Perceived-Truth-Even-for&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2cc6eca9-f87a-5f3d-b208-9637a456b8f3</guid>
+      <pubDate>Sun, 22 Mar 2026 16:30:06 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/38113667/</link>
+      <enclosure url="https://neurosciencenews.com/files/2025/09/visual-illusion-reality-neuroscience.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>当裂缝比完整更值钱：金继——日本人用黄金修补碎碗的500年美学革命</title>
+      <description>&lt;figure&gt;&lt;img src="https://anytsugi.com/cdn/shop/articles/kintsugi-history.png?v=1771501740&amp;amp;width=1920" alt="当裂缝比完整更值钱：金继——日本人用黄金修补碎碗的500年美学革命" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;15世纪末，日本室町幕府的第八代将军足利义政（Ashikaga Yoshimasa）有一件心爱的中国青瓷茶碗。某天，碗裂了。足利义政做了一个当时最合理的决定：把碗送回中国修理。毕竟，这种品质的青瓷只有中国窑口能烧得出来。&lt;/p&gt;
+
+&lt;p&gt;几个月后，碗从中国寄回来了——用几颗金属钉子粗暴地钉在一起，看起来像被一只蝗虫趴在上面。这只碗因此得名「马蝗绊」（Bakōhan，意为「大蝗虫夹子」），至今仍保存在东京国立博物馆。足利义政大概看着这只修复品想：我们能不能做得更好一点？&lt;/p&gt;
+
+&lt;p&gt;这个问题催生了一种改变日本美学史的修复技术：&lt;strong&gt;金继&lt;/strong&gt;（Kintsugi，字面意思是「金色的接合」）。工匠们用漆树汁液提炼的天然大漆把碎片粘合起来，然后在漆面撒上金粉，让裂缝变成一道道闪闪发光的金色纹路。&lt;/p&gt;
+
+&lt;p&gt;金继不是凭空出现的，而是几条线索慢慢交汇的结果。用大漆修复器物的历史可以追溯到数千年前的绳文时代。平安时代（794-1185年），蒔绘（maki-e）技法发展起来——把金粉撒在漆面上描绘图案。而室町时代恰好是日本茶道文化的萌芽期。茶人村田珠光（Murata Jukō, 1422-1502）提出了「侘茶」（wabi-cha）理念：真正的美在于不完美。&lt;/p&gt;
+
+&lt;p&gt;三条线一交汇：古老的大漆修复技术 + 蒔绘的装饰手法 + 侘茶的不完美哲学 = 金继。&lt;/p&gt;
+
+&lt;p&gt;金继的制作过程远比看起来复杂。大漆的原料来自漆树——一棵生长20年的漆树，只能割出一杯漆液，然后就要被砍倒。漆液需要长达五年的加工处理才能使用。整个修复过程，从粘合碎片到最终撒金，通常需要数月时间。这种慢，本身就是一种态度。&lt;/p&gt;
+
+&lt;p&gt;但金继真正革命性的地方不在技术，而在观念。在它之前，世界各地对待破损物品的态度几乎一样：要么扔掉，要么修好后尽量让修复痕迹看不见。金继反其道而行——它把裂缝高调地用最昂贵的材料标记出来，宣告：这件东西碎过，而正是因为碎过，它比完好时更美、更有价值。&lt;/p&gt;
+
+&lt;p&gt;这种态度和日本美学中的「侘寂」（wabi-sabi）一脉相承。侘寂源于禅宗，核心是：无常才是世界的本质，不完美才是真正的美。一只从未碎过的碗只是一只碗，但一只碎过又被金线重新连接起来的碗，承载着一段故事、一次创伤和一个选择——选择不丢弃，选择让伤痕成为装饰。&lt;/p&gt;
+
+&lt;p&gt;到了江户时代（17-19世纪），金继从将军和贵族的圈子扩散到了平民阶层。茶道文化的普及让对陶瓷修复的需求激增。据说，有些收藏家甚至故意摔碎名贵的茶碗，就为了让工匠用金继修复——因为金继修复后的器物，市场价格反而比完好品更高。&lt;/p&gt;
+
+&lt;p&gt;金继还体现了日语中「もったいない」（mottainai）的精神——太浪费了、太可惜了。不轻易丢弃，对物品心存敬意，把修复本身当作一种创造。&lt;/p&gt;
+
+&lt;p&gt;如今，金继已经远远超出了陶瓷修复的范畴，变成了一种跨文化的隐喻。心理治疗师用它来形容创伤后成长：你的裂缝不需要被隐藏，它们可以成为你身上最闪亮的部分。这可能是人类所有修复哲学中最优雅的一种——不是假装从未破碎，而是把破碎本身变成更好的开始。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://anytsugi.com/en-us/blogs/articles/kintsugi-history"&gt;https://anytsugi.com/en-us/blogs/articles/kintsugi-history&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.japan.travel/en/blog/the-art-of-imperfection-kintsugi-pottery-and-wabi-sabi/"&gt;https://www.japan.travel/en/blog/the-art-of-imperfection-kintsugi-pottery-and-wabi-sabi/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sansho.com/blogs/news/kintsugi-fact-and-fiction"&gt;https://sansho.com/blogs/news/kintsugi-fact-and-fiction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">06b2c47e-51d9-53c2-a2c7-f420441bc283</guid>
+      <pubDate>Sun, 22 Mar 2026 16:30:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://anytsugi.com/en-us/blogs/articles/kintsugi-history</link>
+      <enclosure url="https://anytsugi.com/cdn/shop/articles/kintsugi-history.png?v=1771501740&amp;width=1920" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>海滩上的人造生命：一个荷兰人花了36年用塑料管「进化」出能自主行走的生物</title>
+      <description>&lt;figure&gt;&lt;img src="https://magazine.boskalis.com/thumbs/magical-beach-creatures-cover-a8e47ef688a3074689c563f4ead5381b.jpg" alt="海滩上的人造生命：一个荷兰人花了36年用塑料管「进化」出能自主行走的生物" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;1990年的某一天，荷兰物理学家出身的艺术家提奥·扬森（Theo Jansen）读完理查德·道金斯的《盲眼钟表匠》（The Blind Watchmaker），脑子里冒出一个想法：如果我能在海滩上创造一种新的生命形式呢？&lt;/p&gt;
+
+&lt;p&gt;不是比喻，不是艺术隐喻。他真的想在海滩上造出能自主行走、靠风力驱动、会躲避危险的生物。材料？便宜的PVC塑料管、扎带、木头和布帆。这个项目叫&lt;strong&gt;Strandbeest&lt;/strong&gt;（荷兰语，「海滩兽」）——到2026年为止，他已经干了36年，造了超过20个「物种」，每一代都比上一代更聪明。&lt;/p&gt;
+
+&lt;p&gt;Strandbeest最核心的发明是它的行走机构。扬森用一台Atari电脑，测试了1500种不同长度的PVC管组合，每种组合构成11根连杆，通过曲柄旋转转化为步行动作。计算机跑了几个星期甚至几个月，最终生成了一组完美比例——&lt;strong&gt;13个神圣数字&lt;/strong&gt;：a=38, b=41.5, c=39.3, d=40.1, e=55.8, f=39.4, g=36.7, h=65.7, i=49, j=50, k=61.9, l=7.8, m=15。这13个数字定义了连杆的长度比例，使腿部运动轨迹呈现出一条近乎完美的平坦行走曲线——脚在着地时水平移动，抬起时划出弧线，和真实动物的步态惊人地相似。扬森称这组数字为「Strandbeest的DNA密码」。&lt;/p&gt;
+
+&lt;p&gt;但一种只会在有风时走路的东西，还不能叫「生命」。&lt;/p&gt;
+
+&lt;p&gt;于是扬森开始给他的造物添加生存能力。后来几代Strandbeest配备了由回收塑料瓶组成的「风胃」——风大的时候，翅膀和风帆驱动泵把空气压缩进瓶子里储存起来；没风的时候，储存的气压释放出来推动腿部运动。就像动物吃饱了以后靠储存的脂肪撑过饥荒。&lt;/p&gt;
+
+&lt;p&gt;再后来，它们学会了感知危险。某些代的Strandbeest拥有水传感器——当腿部接触到海水时（在湿沙中超过一分钟，腿就会被吸住），它们会自动转向离开。还有的能感知风暴即将来临，用锚定机制把自己固定在沙地上防止被吹翻。有些型号每小时自动抬腿抖一次，甩掉堆积在关节处的沙子——否则沙子越积越多，关节就会锁死。&lt;/p&gt;
+
+&lt;p&gt;每年春天，扬森把新一代Strandbeest带到荷兰海滩上放生。整个夏天他观察和调整，让它们更好地适应环境。每年创造一个新物种，旧的物种被宣布「灭绝」——这像极了自然界的物种迭代。每一只重约180公斤，需要2000到3000米的PVC管。从早期只有风帆和简单腿部的原始形态，到2009年有了飞行翼面的Animaris Umerus，再到后来能短距离飞行的最新一代，进化轨迹清晰可见。&lt;/p&gt;
+
+&lt;p&gt;扬森拒绝把自己的角色描述为「设计者」。他说自己是「管子的奴仆」——他提供设计方案（相当于基因突变），但真正做出选择的是现实环境。大多数设计修改都会失败，只有少数能让Strandbeest在海滩上走得更远、活得更久。这正是达尔文进化论的核心逻辑——只不过被压缩进了几十年而不是几百万年。扬森管这叫「影子进化」（shadow evolution）。&lt;/p&gt;
+
+&lt;p&gt;Strandbeest引发了一个真正有趣的哲学问题：这些东西算不算「活着」？它们能自主移动、储存能量、感知环境、规避危险，甚至以某种方式「繁殖」——当人们下载扬森公开的DNA参数来制造自己的版本时。扬森本人的态度模糊而有趣：「所有用DNA来制造动物的人，都在不知不觉中参与了这个物种的繁殖和进化。」&lt;/p&gt;
+
+&lt;p&gt;它们当然不是传统意义上的生命。但它们模糊了「活物」和「机器」之间的边界线——而这条边界线，也许从来就没有我们以为的那么清晰。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://magazine.boskalis.com/issue02/magical-beach-creatures"&gt;https://magazine.boskalis.com/issue02/magical-beach-creatures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.thisiscolossal.com/2022/04/theo-jansen-flying-strandbeest/"&gt;https://www.thisiscolossal.com/2022/04/theo-jansen-flying-strandbeest/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.stirworld.com/inspire-people-theo-jansen-on-his-passion-for-developing-strandbeests-into-ever-evolving-creatures"&gt;https://www.stirworld.com/inspire-people-theo-jansen-on-his-passion-for-developing-strandbeests-into-ever-evolving-creatures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">11ca2bbd-43d9-5fb3-a5c6-bc5f8049c56e</guid>
+      <pubDate>Sun, 22 Mar 2026 16:31:36 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://magazine.boskalis.com/issue02/magical-beach-creatures</link>
+      <enclosure url="https://magazine.boskalis.com/thumbs/magical-beach-creatures-cover-a8e47ef688a3074689c563f4ead5381b.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>布罗比90分钟绝杀圣詹姆斯：桑德兰2-1纽卡，泰恩威尔十年首胜主场德比</title>
+      <description>&lt;figure&gt;&lt;img src="https://e0.365dm.com/26/03/2048x1152/skysports-premier-league-newcastle_7198025.jpg?20260320082410" alt="布罗比90分钟绝杀圣詹姆斯：桑德兰2-1纽卡，泰恩威尔十年首胜主场德比" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;桑德兰的球队大巴在抵达圣詹姆斯公园途中被酒瓶砸碎了挡风玻璃，警察大规模部署全程护送——这场相隔十年后首次在纽卡主场举行的泰恩威尔德比，赛前气氛就已经高烧。最终，砸出这个结果的是第90分钟的一脚射门。&lt;/p&gt;&lt;p&gt;Anthony Gordon 第10分钟率先破门，圣詹姆斯公园炸开了。但这场比赛真正的背景是：这支纽卡正在走向迷途。上周在欧冠被巴萨7-2摧毁（总比分8-3），三天内从欧洲最顶级的舞台跌落，回来还要面对最难缠的邻居。联赛过去11场仅3胜8负，欧洲资格赛名额已经遥不可及。&lt;/p&gt;&lt;p&gt;Talbi 第57分钟扳平，全场进入令人窒息的等待。双方都有机会，但都没能一击制胜。然后是第90分钟。Brian Brobbey，2-1。圣詹姆斯公园沉默了。&lt;/p&gt;&lt;p&gt;这是桑德兰时隔十年再度在纽卡主场赢得德比，同时将最近8场泰恩威尔德比的战绩定格在桑7纽1。&lt;strong&gt;Eddie Howe&lt;/strong&gt; 因此成为纽卡历史上首位在前两个主场德比均落败的主帅。赛后他坦承防线上的失误无法原谅，但已经是他第三次说这类话了。&lt;/p&gt;&lt;p&gt;对桑德兰而言，这场胜利的意义超出了三分本身——时隔多年重回顶级联赛的第一个完整赛季，就在宿敌主场绝杀。那些球迷等待过十年，被酒瓶砸过大巴，然后看着Brobbey在第90分钟扣动扳机。他们会记很久。&lt;/p&gt;&lt;p&gt;纽卡接下来的当务之急是联赛保位——欧洲资格赛已经几乎成为奢望。Sandro Tonali状态起伏，Bruno Guimaraes的去留传言不断。这支球队需要在剩余赛季里找回一个赢球的理由。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://footballtoday.com/2026/03/22/brobbey-strikes-late-as-sunderland-stun-newcastle-in-tyne-wear-derby/"&gt;https://footballtoday.com/2026/03/22/brobbey-strikes-late-as-sunderland-stun-newcastle-in-tyne-wear-derby/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.skysports.com/football/news/11095/13521939/newcastle-vs-sunderland-tyne-wear-derby-crucial-for-magpies-prospects-after-champions-league-hammering-in-barcelona"&gt;https://www.skysports.com/football/news/11095/13521939/newcastle-vs-sunderland-tyne-wear-derby-crucial-for-magpies-prospects-after-champions-league-hammering-in-barcelona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/report/_/gameId/740903"&gt;https://www.espn.com/soccer/report/_/gameId/740903&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.itv.com/news/tyne-tees/2026-03-22/tempers-flare-ahead-of-tyne-wear-derby-in-newcastle"&gt;https://www.itv.com/news/tyne-tees/2026-03-22/tempers-flare-ahead-of-tyne-wear-derby-in-newcastle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">abab59c2-2b9e-5f1f-b6f4-c41b918ab56b</guid>
+      <pubDate>Sun, 22 Mar 2026 16:33:59 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://footballtoday.com/2026/03/22/brobbey-strikes-late-as-sunderland-stun-newcastle-in-tyne-wear-derby/</link>
+      <enclosure url="https://e0.365dm.com/26/03/2048x1152/skysports-premier-league-newcastle_7198025.jpg?20260320082410" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>图都尔执掌三战全败，热刺0-3惨负森林：英超史上最荒诞的降级危机还在加深</title>
+      <description>&lt;figure&gt;&lt;img src="https://e0.365dm.com/26/03/2048x1152/skysports-tottenham-richarlison_7184133.jpg?20260306114539" alt="图都尔执掌三战全败，热刺0-3惨负森林：英超史上最荒诞的降级危机还在加深" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;第45分钟，Igor Jesus——0-1。第62分钟，Morgan Gibbs-White——0-2。第87分钟，Taiwo Awoniyi——0-3。Tottenham Hotspur Stadium主场，热刺球迷又一次提前离席。这不是新鲜事了，但每次发生都更令人窒息。&lt;/p&gt;&lt;p&gt;这是 &lt;strong&gt;Igor Tudor&lt;/strong&gt; 接手热刺后的第3场比赛，第3场失利，零进球。22天前，Thomas Frank因为连败被解雇，Tudor作为救火队长上任。结果火没救着，又烧了三间屋子。现在热刺联赛16名，仅比降级区多1分，2026年整个日历年至今零胜，联赛和杯赛加在一起就没赢过。&lt;/p&gt;&lt;p&gt;Tudor是热刺不到7年内换来的第7位主帅。这份简历本身就说明了一切——问题不在于谁来带队，而在于这个俱乐部已经彻底失去了运营稳定性。当前可用球员约12人，伤员名单比积分表更拥挤。Richarlison、Son Heung-min的状态已成遥远记忆。&lt;/p&gt;&lt;p&gt;让这件事更荒诞的是时间线：两年前热刺还在踢欧冠淘汰赛，现在降级赔率已经升到了16.1%。投注公司给出这个数字的意思是：这件事已经不是不可能，只是概率问题。降级不会比现在更近了。&lt;/p&gt;&lt;p&gt;理论上还有9场，足够逃生。但逃生需要赢球，而这支球队在2026年没有赢过任何一场。下周客战利物浦——后者自己也在深渊边缘挣扎——成为一场双方都迫切需要三分的奇特对决。谁先稳住，谁就还有救。失去的那支，大概就真的没救了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.vavel.com/en-us/soccer/2026/03/22/1255036-tottenham-vs-nottingham-live-score-premier-league.html"&gt;https://www.vavel.com/en-us/soccer/2026/03/22/1255036-tottenham-vs-nottingham-live-score-premier-league.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.skysports.com/football/news/11095/13516063/tottenham-fighting-relegation-igor-tudor-has-made-a-disaster-start-to-spurs-reign-so-where-do-the-club-turn-next"&gt;https://www.skysports.com/football/news/11095/13516063/tottenham-fighting-relegation-igor-tudor-has-made-a-disaster-start-to-spurs-reign-so-where-do-the-club-turn-next&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/story/_/id/48250030/tottenham-europa-league-relegation-igor-tudor-champions-leaguepremier-league-mark-ogden"&gt;https://www.espn.com/soccer/story/_/id/48250030/tottenham-europa-league-relegation-igor-tudor-champions-leaguepremier-league-mark-ogden&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.beinsports.com/en-us/soccer/premier-league/articles/can-tottenham-be-relegated-from-the-premier-league-2026-03-06"&gt;https://www.beinsports.com/en-us/soccer/premier-league/articles/can-tottenham-be-relegated-from-the-premier-league-2026-03-06&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3408f368-1401-5912-8860-00ef6938e708</guid>
+      <pubDate>Sun, 22 Mar 2026 16:33:59 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.vavel.com/en-us/soccer/2026/03/22/1255036-tottenham-vs-nottingham-live-score-premier-league.html</link>
+      <enclosure url="https://e0.365dm.com/26/03/2048x1152/skysports-tottenham-richarlison_7184133.jpg?20260306114539" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>欧冠八强解读：皇马 vs 拜仁、巴萨 vs 马竞、PSG vs 利物浦——四场对决谁最难打？</title>
+      <description>&lt;figure&gt;&lt;img src="https://editorial.uefa.com/resources/02a3-202d9ac10d16-bbf0999e8ea9-1000/ucl_24x27_-_fixtures_x4_-_facebook.png" alt="欧冠八强解读：皇马 vs 拜仁、巴萨 vs 马竞、PSG vs 利物浦——四场对决谁最难打？" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;四月的欧冠，四场对决，每一场都有故事。八强签表确认：&lt;strong&gt;皇马对拜仁、巴萨对马竞、PSG对利物浦、葡萄牙体育对阿森纳&lt;/strong&gt;。首回合4月7-8日，次回合4月14-15日，决赛5月30日布达佩斯普斯卡什球场。&lt;/p&gt;&lt;p&gt;皇马 vs 拜仁——历史宿命般的重逢。皇马刚5-1总比分淘汰曼城，Mbappé在马德里德比（2-2战平）打进2球，整体状态在高位运转。拜仁这赛季联赛稳健，但在欧冠单淘汰制下，他们和皇马的对决没有任何一场是可以预测的。&lt;/p&gt;&lt;p&gt;巴萨 vs 马竞——全西甲对决，也是最难猜的一组。巴萨刚7-2屠杀纽卡（总比分8-3），Raphinha、Lamine Yamal、Lewandowski同时爆发，进攻火力全开。但Simeone的马竞是历届欧冠最难啃的对手之一——防线一旦收紧，任何进攻体系都会减速。一场平局就能让你拖到次回合崩溃。&lt;/p&gt;&lt;p&gt;PSG vs 利物浦——纸面上最难分胜负。利物浦刚4-0翻转淘汰加拉塔萨雷，但Salah在那场比赛受伤，Ekitike也在随后的布莱顿比赛离场。如果两人都无法及时康复，利物浦的进攻端靠什么出线？PSG本赛季欧冠几乎无懈可击，首回合在客场拿到优势的可能性不小。&lt;/p&gt;&lt;p&gt;葡萄牙体育 vs 阿森纳——赔率上差距最大，但也最危险。葡体是本赛季最大的黑马，能打进八强绝非运气。阿森纳联赛70分遥遥领先，欧冠小组赛8胜全胜，Arteta的体系成熟。但轻敌才是最大的风险。&lt;/p&gt;&lt;p&gt;这四组里，皇马 vs 拜仁最令人期待，巴萨 vs 马竞最难预测，PSG vs 利物浦最取决于伤病，阿森纳 vs 葡体在纸面上差距最大。4月7日，谁先失守？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.uefa.com/uefachampionsleague/news/02a3-202d9ac10d17-a37e1f50256a-1000--champions-league-quarter-final-ties-and-dates-confirmed/"&gt;https://www.uefa.com/uefachampionsleague/news/02a3-202d9ac10d17-a37e1f50256a-1000--champions-league-quarter-final-ties-and-dates-confirmed/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uefa.com/uefachampionsleague/news/02a3-202d993c1d7d-5067a42ee6f9-1000--champions-league-highlights-and-round-up-liverpool-barcelon/"&gt;https://www.uefa.com/uefachampionsleague/news/02a3-202d993c1d7d-5067a42ee6f9-1000--champions-league-highlights-and-round-up-liverpool-barcelon/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.skysports.com/football/news/11945/13520431/barcelona-7-2-newcastle-agg-8-3-raphinha-lamine-yamal-and-robert-lewandowski-feast-on-woeful-defending-from-magpies-in-champions-league-thrashing"&gt;https://www.skysports.com/football/news/11945/13520431/barcelona-7-2-newcastle-agg-8-3-raphinha-lamine-yamal-and-robert-lewandowski-feast-on-woeful-defending-from-magpies-in-champions-league-thrashing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">18de11c7-3721-5103-aacf-3674153264b1</guid>
+      <pubDate>Sun, 22 Mar 2026 16:33:59 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.uefa.com/uefachampionsleague/news/02a3-202d9ac10d17-a37e1f50256a-1000--champions-league-quarter-final-ties-and-dates-confirmed/</link>
+      <enclosure url="https://editorial.uefa.com/resources/02a3-202d9ac10d16-bbf0999e8ea9-1000/ucl_24x27_-_fixtures_x4_-_facebook.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>萨拉赫、伊基蒂克接连折翼，布莱顿2-1再挫利物浦：红军正以最糟糕的状态迎来欧冠决战</title>
+      <description>&lt;figure&gt;&lt;img src="https://nbcsports.brightspotcdn.com/dims4/default/ba64d6f/2147483647/strip/false/crop/3355x2283+0+0/resize/1486x1011!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa5%2F92%2Fec50affe497db6cf3281e97dd9ce%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2267222033" alt="萨拉赫、伊基蒂克接连折翼，布莱顿2-1再挫利物浦：红军正以最糟糕的状态迎来欧冠决战" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;伊基蒂克哭着离场。这是3月21日布莱顿主场让利物浦球迷最揪心的画面——不是2-1的比分本身，而是球队本赛季最佳射手（17球）上场不到10分钟就痛苦倒地，含泪被换下。赛后Slot说他明天就能上阵，但这话更像安慰剂。&lt;/p&gt;&lt;p&gt;赛前就已经没有萨拉赫。他在3月18日欧冠对阵加拉塔萨雷的比赛中受伤，进球后主动要求换人下场，随后宣布将缺席国际比赛期的埃及队集训，归队时间表尚不明确。Alisson同样未能出战。Danny Welbeck 第14分钟率先破门，Milos Kerkez在Lewis Dunk失误后第30分钟扳平，Welbeck 第56分钟再下一城——最终2-1，利物浦完败。&lt;/p&gt;&lt;p&gt;这是利物浦本赛季&lt;strong&gt;第10场联赛失利&lt;/strong&gt;。整个赛季他们打法时好时坏，从未建立起稳定的踢法。现在积分榜上滑落至第五，离前四欧冠资格赛席位的差距正在拉大——而伯内茅斯已经11轮不败，布莱顿状态正盛，顺位竞争者都在进步。&lt;/p&gt;&lt;p&gt;利物浦的问题不只是伤病，而是伤病发生在最坏的时机。欧冠八强首回合是4月7-8日，对手是PSG。PSG本赛季欧冠几乎无懈可击，主场实力强劲。如果萨拉赫和伊基蒂克都缺阵，利物浦靠什么在巴黎拿到有利局面？Slot接下来两周的任务，是用国际比赛期修复一支破损的球队——时间很紧，方案不多。&lt;/p&gt;&lt;p&gt;从更大的图景看，利物浦这个赛季本来有机会在联赛和欧冠双线竞争。但10场失利已经把联赛争冠的希望压缩得很小，欧冠才是他们证明自己的最后舞台。能否保住这扇门，取决于伤病名单和Slot在国际比赛期能做什么。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thisisanfield.com/2026/03/brighton-2-1-liverpool-match-report-premier-league-10th-defeat/"&gt;https://www.thisisanfield.com/2026/03/brighton-2-1-liverpool-match-report-premier-league-10th-defeat/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/mohamed-salah-suffers-injury-and-will-miss-liverpool-and-egypt-s-national-team-matches-2026-03-20"&gt;https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/mohamed-salah-suffers-injury-and-will-miss-liverpool-and-egypt-s-national-team-matches-2026-03-20&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sportsmole.co.uk/football/liverpool/injury-news/news/liverpool-star-hugo-ekitike-leaves-pitch-in-tears-in-brighton-clash_594303.html"&gt;https://www.sportsmole.co.uk/football/liverpool/injury-news/news/liverpool-star-hugo-ekitike-leaves-pitch-in-tears-in-brighton-clash_594303.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcsports.com/soccer/news/hugo-ekitike-injury-news-latest-update-as-liverpool-star-forced-off-vs-brighton"&gt;https://www.nbcsports.com/soccer/news/hugo-ekitike-injury-news-latest-update-as-liverpool-star-forced-off-vs-brighton&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.si.com/soccer/mohamed-salah-injury-progress-potential-return-date-liverpool-march-2026"&gt;https://www.si.com/soccer/mohamed-salah-injury-progress-potential-return-date-liverpool-march-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">00a053cf-a0bd-58c6-91b5-2f8c4b5f68e4</guid>
+      <pubDate>Sun, 22 Mar 2026 16:34:31 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.thisisanfield.com/2026/03/brighton-2-1-liverpool-match-report-premier-league-10th-defeat/</link>
+      <enclosure url="https://nbcsports.brightspotcdn.com/dims4/default/ba64d6f/2147483647/strip/false/crop/3355x2283+0+0/resize/1486x1011!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa5%2F92%2Fec50affe497db6cf3281e97dd9ce%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2267222033" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

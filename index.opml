@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>Jimmy's Personalized Feed</title>
-    <dateCreated>Sun, 22 Mar 2026 14:19:58 +0000</dateCreated>
+    <title>RSS Research Feeds</title>
+    <dateCreated>Sun, 22 Mar 2026 16:35:12 +0000</dateCreated>
   </head>
   <body>
     <outline type="rss" text="Jimmy's Personalized Feed" title="Jimmy's Personalized Feed" xmlUrl="https://xingjianz.com/rss-research/daily-briefings.xml" htmlUrl="https://xingjianz.com/rss-research" />
+    <outline type="rss" text="Rachel's Personalized Feed" title="Rachel's Personalized Feed" xmlUrl="https://xingjianz.com/rss-research/rachel-briefings.xml" htmlUrl="https://xingjianz.com/rss-research" />
   </body>
 </opml>
