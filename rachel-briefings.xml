@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Rachel's Personalized Feed</title>
@@ -9,7 +9,7 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Mon, 23 Mar 2026 13:19:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 18:15:06 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>带状疱疹疫苗意外的「心脏护盾」：打一针，主要心脏事件风险降低 46%，相当于戒烟的心血管获益</title>
@@ -1459,6 +1459,151 @@
       <category>random-knowledge</category>
       <link>https://bigthink.com/strange-maps/derinkuyu-underground-city/</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg/800px-Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Machine-Readable Design Systems: The Missing Infrastructure for AI-Native Design / 机器可读的设计系统：AI 原生设计的缺失基础设施</title>
+      <description>&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/689eeab877a57e90992371d1/6960ffa676419957f4c68b24_The%20future%20of%20enterprise%20design%20systems%20trends%20and%20tools%20for%20success.png" alt="Machine-Readable Design Systems: The Missing Infrastructure for AI-Native Design / 机器可读的设计系统：AI 原生设计的缺失基础设施" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;A quiet but consequential shift is underway in design systems: the push to make them &lt;strong&gt;machine-readable&lt;/strong&gt;, not just human-readable. The catalyst is the rapid adoption of Model Context Protocol (MCP) servers and LLM-powered coding agents. If your design system can only be understood by a human reading a Storybook page, it is invisible to the AI agents that are increasingly writing production code.&lt;/p&gt;
+
+&lt;p&gt;The "Into Design Systems" conference (March 19–20, 2026) dedicated multiple sessions to this exact problem. Diana Wolosin, Senior Design System Designer at Indeed, presented findings from benchmarking eight different MCP configurations to determine what constitutes "quality input for LLM reasoning." Her core argument: design systems currently encode knowledge in formats optimized for human scanning — color swatches, usage guidelines written in prose, component previews. None of this helps an AI agent decide which variant of a button to use in a given context. The fix is metadata architecture — structured, semantic descriptions attached to every token, component, and pattern, so that an MCP server can feed them to an LLM as actionable constraints rather than ambient context.&lt;/p&gt;
+
+&lt;p&gt;Wolosin is not alone. Jan Six from GitHub presented on "Building Real Design Systems with Agents," and Cristian Morales Achiardi from Enara Health spoke about "Encoding Governance on Agentic Design Systems" — the idea that brand rules, accessibility requirements, and usage constraints should be machine-enforceable, not just documented. Brad Frost (the creator of Atomic Design) co-presented a session titled "AI Without the Chaos: Context-Based Design Systems to the Rescue," arguing that &lt;strong&gt;structured context&lt;/strong&gt; is the antidote to the inconsistency that plagues AI-generated UIs.&lt;/p&gt;
+
+&lt;p&gt;The enterprise world is already moving. A recent Supernova analysis of enterprise design system trends argues that documentation "cannot be a static side-project" anymore — it must function as a "machine-readable intelligence hub." The practical implication: high-performing teams now deploy AI agents that scan code repositories to detect design drift before it reaches production, automatically flagging when a new component variant violates brand principles or accessibility standards. This only works if the design system itself is encoded in a format the agent can parse.&lt;/p&gt;
+
+&lt;p&gt;The convergence with MCP is particularly significant. Figma expanded its MCP server support in March 2026 to include Cursor, Warp, Factory, Firebender, and Augment. Google Stitch launched its own MCP server for Claude Code, Cursor, and Gemini CLI. But the MCP server is only as useful as the data it exposes. A design system that describes a button as "Primary — use for main actions" gives an agent almost nothing. A system that provides structured metadata — allowed contexts, required contrast ratios, sibling component constraints, responsive breakpoints — gives the agent everything it needs to generate on-brand, accessible UI without human review.&lt;/p&gt;
+
+&lt;p&gt;This is the real infrastructure gap in the "vibe coding" revolution. Tools like Stitch and Cursor can generate UI fast, but without machine-readable design system context, they generate &lt;em&gt;generic&lt;/em&gt; UI fast. The teams investing in structured metadata today are the ones whose AI-generated outputs will actually look like they belong in the product.&lt;/p&gt;
+
+&lt;p&gt;The conference also surfaced a practical tension: who owns this work? Making a design system machine-readable requires deep understanding of both design intent and technical implementation — a rare combination. Wolosin occupies this intersection at Indeed, but most organizations lack dedicated "design system for AI" roles. Expect this to become one of the most sought-after specializations in design engineering over the next year.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;设计系统领域正在发生一场安静但意义深远的转变：从「人类可读」走向&lt;strong&gt;「机器可读」&lt;/strong&gt;。推动力来自 MCP（Model Context Protocol）服务器和 LLM 编码代理的快速普及。如果你的设计系统只能被人类通过 Storybook 页面理解，那它对越来越多撰写生产代码的 AI 代理来说就是隐形的。&lt;/p&gt;
+
+&lt;p&gt;「Into Design Systems」大会（2026年3月19–20日）专门安排了多场关于这一问题的演讲。Indeed 高级设计系统设计师 Diana Wolosin 展示了她对8种 MCP 配置的基准测试结果，核心发现是：当前设计系统将知识编码为针对人类浏览优化的格式——色板、散文体的使用指南、组件预览——这些对 AI 代理在特定上下文中选择正确的按钮变体毫无帮助。解决方案是构建元数据架构（metadata architecture），为每个 token、组件和模式附加结构化的语义描述，使 MCP 服务器能将它们作为可执行约束（而非背景噪音）提供给 LLM。&lt;/p&gt;
+
+&lt;p&gt;GitHub 的 Jan Six 演讲了「用代理构建真正的设计系统」，Enara Health 的 Cristian Morales Achiardi 则谈论「在代理式设计系统中编码治理规则」——品牌规范、无障碍要求和使用约束应该是机器可执行的，不仅仅是文档化的。Brad Frost（Atomic Design 的创造者）的演讲则主张&lt;strong&gt;结构化上下文&lt;/strong&gt;是解决 AI 生成 UI 不一致性的关键。&lt;/p&gt;
+
+&lt;p&gt;企业端已经开始行动。Supernova 的分析指出，文档不能再是「静态的副项目」，必须成为「机器可读的智能中枢」。领先团队已经部署 AI 代理扫描代码仓库，在设计漂移到达生产环境之前自动捕获——但前提是设计系统本身以代理可解析的格式编码。&lt;/p&gt;
+
+&lt;p&gt;这才是「vibe coding」革命中真正的基础设施缺口。Stitch 和 Cursor 能快速生成 UI，但没有机器可读的设计系统上下文，它们只是快速生成&lt;em&gt;通用&lt;/em&gt; UI。今天投资结构化元数据的团队，才是未来 AI 生成产出真正「像自家产品」的团队。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.intodesignsystems.com/agenda/design-systems-for-mcp-and-llms"&gt;https://www.intodesignsystems.com/agenda/design-systems-for-mcp-and-llms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.intodesignsystems.com/agenda"&gt;https://www.intodesignsystems.com/agenda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success"&gt;https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.intodesignsystems.com/vibe-coding"&gt;https://www.intodesignsystems.com/vibe-coding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e173ebd4-d6f1-57ce-8f10-2cc65345b93f</guid>
+      <pubDate>Mon, 23 Mar 2026 18:13:20 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.intodesignsystems.com/agenda/design-systems-for-mcp-and-llms</link>
+      <enclosure url="https://cdn.prod.website-files.com/689eeab877a57e90992371d1/6960ffa676419957f4c68b24_The%20future%20of%20enterprise%20design%20systems%20trends%20and%20tools%20for%20success.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The W3C Design Tokens Spec Goes Stable — and It Might Be 2026's Most Important Boring Standard / W3C 设计令牌规范正式稳定——2026 年最重要的「无聊」标准</title>
+      <description>&lt;figure&gt;&lt;img src="https://images.unsplash.com/photo-1642346889463-a6224f8d3b1c?crop=entropy&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;fm=jpg&amp;amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHN3YXRjaHxlbnwwfHx8fDE3NjE5NTA5MzF8MA&amp;amp;ixlib=rb-4.1.0&amp;amp;q=80&amp;amp;w=2000" alt="The W3C Design Tokens Spec Goes Stable — and It Might Be 2026&amp;#x27;s Most Important Boring Standard / W3C 设计令牌规范正式稳定——2026 年最重要的「无聊」标准" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;In October 2025, the W3C Design Tokens Community Group (DTCG) quietly published version 2025.10 — the first production-ready, vendor-neutral specification for encoding design decisions as structured data. Five months later, the ripple effects are reshaping how design systems are built, shared, and consumed across platforms.&lt;/p&gt;
+
+&lt;p&gt;The problem the spec solves is deceptively simple: design systems generate thousands of decisions — colors, spacing, typography scales, border radii, shadows — and every team encodes them differently. Figma plugins export one format. Style Dictionary expects another. iOS and Android each need platform-specific transformations. The result is a fragile chain of custom scripts, one-off converters, and tribal knowledge about "how we do tokens here." One case study cited teams managing 24+ separate token files for what was, conceptually, a single design system.&lt;/p&gt;
+
+&lt;p&gt;The DTCG spec replaces this mess with a single &lt;strong&gt;JSON interchange format&lt;/strong&gt; (using the &lt;code&gt;.tokens.json&lt;/code&gt; extension and &lt;code&gt;application/design-tokens+json&lt;/code&gt; media type) that any tool can read and write. Three features make the stable release genuinely consequential:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Modern color spaces.&lt;/strong&gt; Designers have been working in Display P3 and OKLCh in tools like Figma and Penpot for years, but token files were stuck in sRGB hex codes. The spec now natively supports CSS Color Module 4 spaces, meaning wide-gamut colors survive the journey from design tool to token file to production code without lossy conversion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Groups, aliases, and inheritance.&lt;/strong&gt; The spec introduces &lt;code&gt;$root&lt;/code&gt; tokens (letting groups and tokens share names), &lt;code&gt;$extends&lt;/code&gt; for property inheritance, and JSON Pointer references for precise value targeting. In practice, this means a component like a "danger button" can inherit from a base button token and override only the color, with the relationship explicitly encoded — not buried in a naming convention that only the original author understands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Token resolvers.&lt;/strong&gt; Perhaps the most impactful addition: a contextual resolution system that lets teams define a single resolution order for tokens across brands, themes, and platforms. Instead of maintaining separate files for "Brand A / Dark Mode / iOS" and "Brand B / Light Mode / Web," teams define one source of truth and let the resolver apply the correct contextual overrides. This is the feature that makes multi-brand enterprises — banks, retail conglomerates, media groups — take notice.&lt;/p&gt;
+
+&lt;p&gt;Adoption is already broad. More than 10 major tools support or are implementing the spec: Figma, Penpot, Sketch, Framer, Knapsack, Supernova, zeroheight, Style Dictionary (v4 has native DTCG support), and Tokens Studio. The contributor list reads like a who's-who of design infrastructure: Adobe, Amazon, Google, Microsoft, Meta, Salesforce, Shopify, Disney, the New York Times, and Pinterest all had editors or contributors involved in the specification process.&lt;/p&gt;
+
+&lt;p&gt;The timing matters because of AI. As design systems become machine-readable infrastructure for MCP servers and LLM agents, having a standardized token format is table stakes. An AI agent that understands the DTCG spec can consume any compliant design system without custom integration work. Without it, every tool-to-agent connection requires bespoke parsing — the same fragility the spec was designed to eliminate for human workflows, now repeated at the machine layer.&lt;/p&gt;
+
+&lt;p&gt;The spec is not without limitations. It deliberately does not prescribe how tools should &lt;em&gt;render&lt;/em&gt; tokens — only how they should be &lt;em&gt;exchanged&lt;/em&gt;. There is no opinion on naming conventions, folder structure, or governance workflows. These are left to teams and tooling vendors, which means the "last mile" of token adoption still requires organizational decisions the spec cannot make for you.&lt;/p&gt;
+
+&lt;p&gt;Still, for an industry that has spent a decade arguing about whether tokens should be YAML or JSON, whether "semantic" and "primitive" are the right tier names, and whether color should be stored as hex or HSL, having a stable, backed-by-everyone answer to the interchange question is a genuine milestone. The boring infrastructure usually matters most.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;2025年10月，W3C 设计令牌社区组（DTCG）发布了 2025.10 版本——首个生产就绪的、厂商中立的设计决策编码规范。五个月后，这个规范正在重塑设计系统的构建、共享和跨平台消费方式。&lt;/p&gt;
+
+&lt;p&gt;它解决的问题看似简单：设计系统产生数千个决策——颜色、间距、字体比例、圆角、阴影——而每个团队的编码方式都不一样。Figma 插件导出一种格式，Style Dictionary 期望另一种，iOS 和 Android 各需平台专属转换。结果就是一条脆弱的链条：自定义脚本、一次性转换器、以及「我们这儿 token 怎么搞」的部落知识。有案例显示团队要为一个概念上的单一设计系统维护超过24个独立 token 文件。&lt;/p&gt;
+
+&lt;p&gt;DTCG 规范用一个统一的 &lt;strong&gt;JSON 交换格式&lt;/strong&gt;替代了这些混乱。三个特性让稳定版真正有分量：&lt;/p&gt;
+
+&lt;p&gt;一是&lt;strong&gt;现代色彩空间&lt;/strong&gt;。设计师在 Figma 和 Penpot 中早已使用 Display P3 和 OKLCh，但 token 文件一直卡在 sRGB 十六进制。规范现在原生支持 CSS Color Module 4 色彩空间，广色域颜色从设计工具到生产代码全程无损。&lt;/p&gt;
+
+&lt;p&gt;二是&lt;strong&gt;分组、别名和继承&lt;/strong&gt;。&lt;code&gt;$root&lt;/code&gt; token、&lt;code&gt;$extends&lt;/code&gt; 属性继承、JSON Pointer 精准引用——一个「危险按钮」可以继承基础按钮 token 并只覆盖颜色，关系显式编码而非藏在只有原作者能看懂的命名约定里。&lt;/p&gt;
+
+&lt;p&gt;三是 &lt;strong&gt;Token 解析器&lt;/strong&gt;（Token Resolvers）。团队可以定义一套统一的解析顺序，跨品牌、主题和平台应用正确的上下文覆盖，而非为「品牌A / 暗色模式 / iOS」和「品牌B / 亮色模式 / Web」各维护一套文件。这让多品牌企业——银行、零售集团、媒体公司——真正开始关注。&lt;/p&gt;
+
+&lt;p&gt;超过10个主流工具已支持或正在实施该规范：Figma、Penpot、Sketch、Framer、Supernova、zeroheight、Style Dictionary v4 等。贡献者名单涵盖 Adobe、Amazon、Google、Microsoft、Meta、Salesforce、Disney、纽约时报等。&lt;/p&gt;
+
+&lt;p&gt;时机上也恰到好处——AI 代理要消费设计系统，标准化的 token 格式是最基本的前提。一个理解 DTCG 规范的 AI 代理可以无需定制集成就消费任何合规的设计系统。无聊的基础设施，往往才是最重要的。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/"&gt;https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://zeroheight.com/blog/whats-new-in-the-design-tokens-spec/"&gt;https://zeroheight.com/blog/whats-new-in-the-design-tokens-spec/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://designzig.com/design-tokens-specification-reaches-first-stable-version-with-w3c-community-group/"&gt;https://designzig.com/design-tokens-specification-reaches-first-stable-version-with-w3c-community-group/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.designtokens.org/"&gt;https://www.designtokens.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d41640f3-502d-5d8d-8a38-26cb35525421</guid>
+      <pubDate>Mon, 23 Mar 2026 18:14:12 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/</link>
+      <enclosure url="https://images.unsplash.com/photo-1642346889463-a6224f8d3b1c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHN3YXRjaHxlbnwwfHx8fDE3NjE5NTA5MzF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Figma's March Counterplay: Slots, MCP Expansion, and the Bet on Being the Refinement Layer / Figma 三月反击战：Slots、MCP 扩展，以及「精细化层」的战略赌注</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.nxcode.io/images/news/google-stitch-vs-figma-2026.svg" alt="Figma&amp;#x27;s March Counterplay: Slots, MCP Expansion, and the Bet on Being the Refinement Layer / Figma 三月反击战：Slots、MCP 扩展，以及「精细化层」的战略赌注" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;Google Stitch's March 19 overhaul knocked 12% off Figma's stock in two days. But while the headlines focused on the threat, Figma was shipping its own updates — and they tell a different strategic story. Rather than chasing Stitch into the "AI generates everything from a prompt" arena, Figma doubled down on the parts of the design workflow that AI-generated exploration &lt;em&gt;cannot&lt;/em&gt; replace: collaboration, component governance, and the developer handoff.&lt;/p&gt;
+
+&lt;p&gt;The most consequential release is &lt;strong&gt;Slots&lt;/strong&gt;, now in open beta. Slots allow dynamic component instances — think of a task list component where you can add or remove items without detaching the instance from its parent. Before Slots, any customization beyond what the component author anticipated required detaching, which severed the instance from future updates. Detached instances are the silent killer of design systems: they look fine today and drift catastrophically over six months. Slots eliminate the most common reason teams detach, keeping instances connected to the source of truth while allowing the flexibility that real product work demands.&lt;/p&gt;
+
+&lt;p&gt;For developer workflows, Figma shipped &lt;strong&gt;Code Connect UI updates&lt;/strong&gt; in Dev Mode. The headline feature: multi-file component mapping. A single Figma component can now have multiple code files attached — one for React, one for Swift, one for Compose — with cross-framework code previews visible directly in Dev Mode. This is Figma's answer to a persistent complaint from engineering teams: "the Figma component and the code component have drifted apart, and nobody noticed until production." By making the code attachment a first-class, multi-framework feature, Figma is positioning itself as the system of record for the design-code relationship, not just the design artifact.&lt;/p&gt;
+
+&lt;p&gt;On the platform side, &lt;strong&gt;Community Extensibility&lt;/strong&gt; moved out of beta. Apps that connect Figma to external tools and AI systems are now discoverable in the Extensions section alongside plugins and widgets. This is a distribution play: by giving third-party integrations the same visibility as native plugins, Figma becomes the hub through which AI tools, project management systems, and code generators connect to design work — regardless of which specific AI tool a team prefers.&lt;/p&gt;
+
+&lt;p&gt;The most forward-looking update is the &lt;strong&gt;expanded MCP server support&lt;/strong&gt;. Figma's MCP integration now works with Cursor, Warp, Factory, Firebender, and Augment — covering the major AI-assisted coding environments. The MCP server enables bidirectional workflows: an AI coding agent can pull component specs, design tokens, and layout constraints directly from Figma, and changes in the design can propagate to the coding environment without manual export. This is the same MCP protocol that Google Stitch adopted for its own integrations, which means design teams can use Stitch for early exploration &lt;em&gt;and&lt;/em&gt; Figma for refinement, with the same AI coding tools connected to both.&lt;/p&gt;
+
+&lt;p&gt;There is also a notable administrative change: &lt;strong&gt;AI credit enforcement&lt;/strong&gt; began March 18. Pay-as-you-go credits are available for Organization and Enterprise plans now, with Professional plans following in May. This signals that Figma's AI features (generative fills, auto-layout suggestions, design-to-code) are seeing enough usage to warrant metered billing — and that Figma views its AI capabilities as a revenue line, not just a defensive feature.&lt;/p&gt;
+
+&lt;p&gt;The strategic pattern across these updates is clear: Figma is not trying to out-generate Google Stitch at the "zero to one" ideation phase. Instead, it is fortifying the "one to one hundred" refinement phase — the part of the workflow where collaboration, component integrity, developer handoff, and governance matter most. Stitch can generate a plausible UI from a voice prompt in seconds. But turning that prototype into a production-ready design system with consistent components, multi-platform code mappings, and team-wide constraints requires exactly the kind of infrastructure Figma shipped this month.&lt;/p&gt;
+
+&lt;p&gt;The industry consensus seems to be converging on a layered toolchain: Stitch (or similar) for exploration, Figma for refinement and collaboration, and AI coding tools (Cursor, Claude Code) for implementation — with MCP as the protocol connecting all three layers. Whether that layering holds, or whether one tool manages to dominate multiple phases, is the question that will define the design tool market for the rest of 2026.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Stitch 3月19日大改版让 Figma 股价两天内跌了12%。但当媒体聚焦威胁论的时候，Figma 也在发布自己的更新——而这些更新讲述了一个不同的战略故事。Figma 没有追着 Stitch 进入「AI 从提示词生成一切」的赛道，而是加固了 AI 探索性生成&lt;em&gt;无法替代&lt;/em&gt;的部分：协作、组件治理和开发者交接。&lt;/p&gt;
+
+&lt;p&gt;最关键的发布是 &lt;strong&gt;Slots&lt;/strong&gt;（开放测试）。Slots 允许动态组件实例——比如一个任务列表组件，你可以增减项目而无需「脱离」（detach）父组件。脱离是设计系统的隐形杀手：今天看着没事，六个月后就面目全非。Slots 消除了团队脱离组件的最常见原因，让实例保持与源头的连接，同时允许实际产品工作所需的灵活性。&lt;/p&gt;
+
+&lt;p&gt;开发者方面，Figma 发布了 &lt;strong&gt;Code Connect UI 更新&lt;/strong&gt;：单个 Figma 组件现在可以附加多个代码文件——React、Swift、Compose——在 Dev Mode 中直接跨框架预览。这是 Figma 将自己定位为设计-代码关系权威记录系统的关键一步。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;社区可扩展性&lt;/strong&gt;（Community Extensibility）正式发布。连接 Figma 到外部工具和 AI 系统的 Apps 现在与插件和小组件享有同等的可发现性。这是一个分发策略：让 Figma 成为 AI 工具、项目管理系统和代码生成器连接设计工作的中枢。&lt;/p&gt;
+
+&lt;p&gt;最前瞻性的更新是&lt;strong&gt;扩展的 MCP 服务器支持&lt;/strong&gt;。Figma 的 MCP 集成现在覆盖 Cursor、Warp、Factory、Firebender 和 Augment，实现双向工作流：AI 编码代理可以直接从 Figma 拉取组件规范和设计令牌，设计变更可以不经手动导出就传播到编码环境。由于 Stitch 也采用了同一 MCP 协议，设计团队可以用 Stitch 做早期探索、用 Figma 做精细化，同一批 AI 编码工具两头连接。&lt;/p&gt;
+
+&lt;p&gt;战略模式很清晰：Figma 没有试图在「从零到一」的构想阶段胜过 Stitch，而是在加固「从一到一百」的精细化阶段——协作、组件完整性、开发交接和治理至关重要的部分。行业共识正在收敛为分层工具链：Stitch 做探索，Figma 做精细化和协作，AI 编码工具做实现，MCP 作为连接三层的协议。这种分层能否持续，还是某个工具最终通吃多个阶段，将定义2026年剩余时间的设计工具市场格局。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://releasebot.io/updates/figma"&gt;https://releasebot.io/updates/figma&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/19/figma-stock-drops-11percent-after-google-releases-vibe-design-product-stitch.html"&gt;https://www.cnbc.com/2026/03/19/figma-stock-drops-11percent-after-google-releases-vibe-design-product-stitch.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nxcode.io/resources/news/google-stitch-vs-figma-ai-design-comparison-2026"&gt;https://www.nxcode.io/resources/news/google-stitch-vs-figma-ai-design-comparison-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fastcompany.com/91512139/google-doubles-down-on-vibe-design"&gt;https://www.fastcompany.com/91512139/google-doubles-down-on-vibe-design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">53d570e7-3ef2-50b4-8b10-8e76036e6751</guid>
+      <pubDate>Mon, 23 Mar 2026 18:15:06 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://releasebot.io/updates/figma</link>
+      <enclosure url="https://www.nxcode.io/images/news/google-stitch-vs-figma-2026.svg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
