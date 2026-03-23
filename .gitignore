@@ -1,4 +1,5 @@
 config.yaml
+ROADMAP.md
 .state/*.json
 .claude/agents/topics/*.md
 !.claude/agents/topics/_template.md
