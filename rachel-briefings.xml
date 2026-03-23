@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Rachel's Personalized Feed</title>
@@ -9,616 +9,8 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Sun, 22 Mar 2026 16:31:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 13:19:06 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
-    <item>
-      <title>2026 产品设计全景：AI 工具浪潮、界面商品化与设计师角色的根本性重塑</title>
-      <description>&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_aKYqHSg.png" alt="2026 产品设计全景：AI 工具浪潮、界面商品化与设计师角色的根本性重塑" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;如果用一句话概括 2026 年的产品设计圈，那就是：&lt;strong&gt;一切表面上的东西都在被 AI 接管，而真正的设计价值正在向更深处转移。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;尼尔森诺曼集团（Nielsen Norman Group, NN/G）在其年度报告《State of UX 2026》中给出了一个让很多设计师不舒服却必须正视的判断——&lt;strong&gt;UI 已经不再是差异化竞争力&lt;/strong&gt;。当设计系统（Design System）标准化了组件库，当 AI 可以在几秒内生成一个「合格」的界面，单纯会「拼组件」的设计师已经可以被替代。NN/G 的原话是：「If you're just slapping together components from a design system, you're already replaceable by AI.」&lt;/p&gt;
-
-&lt;p&gt;这个判断背后，是过去两年市场的真实反馈：初级设计岗位仍然竞争极度激烈，而高级设计师和全栈型设计师的需求正在回升。用人单位越来越倾向于压缩岗位数量、扩大单个岗位的职责边界——这意味着未来的设计师需要同时具备用研、信息架构、系统设计和利益相关方管理能力，而不仅仅是会用 Figma。&lt;/p&gt;
-
-&lt;h3&gt;Figma 自己的数据更加刺激&lt;/h3&gt;
-
-&lt;p&gt;Figma 发布的《State of the Designer 2026》报告揭示了一个矛盾现象：&lt;strong&gt;72% 的设计师已经在使用 AI 生成工具，98% 的人过去一年增加了使用量&lt;/strong&gt;，而且 91% 的设计师说 AI 让工作速度明显加快——但仅有 15% 的人「对工作成果的质量感到更有信心」。&lt;/p&gt;
-
-&lt;p&gt;这个数据耐人寻味：效率提升了，焦虑却没有减少。速度快并不等于判断力提高。设计师们普遍反映，AI 工具能生成大量「看起来还行」的方案，但区分「还行」和「真正好」的能力，恰恰是 AI 最难具备的——而这正是设计师未来的核心价值所在。&lt;/p&gt;
-
-&lt;h3&gt;2026 年最值得关注的三大设计趋势&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 生成式 UI（Generative UI）从概念走向实践&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;不再是硬编码的固定界面，而是根据用户意图、上下文和历史行为实时重新生成界面——这是 2026 年最具颠覆性的设计范式转变。代表性产品如 AI 代理（Agentic AI）界面，正在把交互模式从「对话式 UI」向「委托式 UI」转移：用户不再一步步告诉系统做什么，而是直接说出目标，由 AI 自主规划路径。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 可访问性（Accessibility）立法压力驱动设计标准提升&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;欧盟无障碍法案（European Accessibility Act）已全面生效，这不再是「锦上添花」的设计考量，而是法律要求。2026 年的优秀设计团队，必须将认知多样性（ADHD、阅读障碍、自闭症谱系）纳入默认设计流程，而不是事后的修补。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Green UX 成为全球设计哲学&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;数字碳排放正在成为真实的设计约束。「去掉一切多余」已经从美学原则变成了可持续性要求——每一次不必要的动画、每一个未被浏览的资源加载，都在消耗能源。领先的设计团队开始将能耗指标纳入设计评审。&lt;/p&gt;
-
-&lt;h3&gt;对设计师的实际意义&lt;/h3&gt;
-
-&lt;p&gt;NN/G 的建议是：不要和 AI 抢擅长执行的活，而要把精力放在 AI 无法替代的地方——&lt;strong&gt;理解真实的用户问题、在模糊的业务目标中找到设计方向、在复杂的系统中做出有取舍的决策&lt;/strong&gt;。这要求设计师从「交付物生产者」转变为「战略性问题解决者」。&lt;/p&gt;
-
-&lt;p&gt;John Maeda 在 2026 年 2 月的 Medium 文章中把这个转变描述得更直接：「最好的设计师不是那些最会用工具的人，而是那些能&lt;em&gt;编排智能系统&lt;/em&gt;、理解意图与上下文、整合多模态交互的人。」设计的对象，正在从屏幕变成系统。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/state-of-ux-2026/"&gt;https://www.nngroup.com/articles/state-of-ux-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/reports/state-of-the-designer-2026/"&gt;https://www.figma.com/reports/state-of-the-designer-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://johnmaeda.medium.com/ai-upskilling-for-product-designers-0012eabfdeaf"&gt;https://johnmaeda.medium.com/ai-upskilling-for-product-designers-0012eabfdeaf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f001672b-786d-5269-9c27-84eb8f072c60</guid>
-      <pubDate>Sun, 22 Mar 2026 02:59:45 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/state-of-ux-2026/</link>
-      <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_aKYqHSg.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>设计系统 2026：从「组件库」到「变量驱动的动态逻辑层」</title>
-      <description>&lt;p&gt;如果说 2020 年前后设计系统（Design System）的核心价值是「统一视觉语言、减少重复劳动」，那么 2026 年的设计系统正在完成一次质变——从静态的组件贴纸表（sticker sheet）进化为&lt;strong&gt;与生产代码同步的变量驱动逻辑层&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这场演变的核心推手是 Figma Variables（变量系统）和即将全面落地的 Expression Tokens（表达式令牌）。设计系统专家 Claus Rainer Anton Nisslmüller 在《Design System Mastery with Figma Variables: The 2025/2026 Best-Practice Playbook》中指出：「对于设计系统维护者来说，2026 年标志着从静态贴纸表到变量驱动逻辑的转变——这个逻辑层能够映射生产代码」。&lt;/p&gt;
-
-&lt;h3&gt;Expression Tokens：让设计系统拥有「条件判断」&lt;/h3&gt;
-
-&lt;p&gt;过去，设计 Token 是静态的：主色调 = #0066FF，标题字号 = 24px。但 Expression Tokens 引入了&lt;strong&gt;条件逻辑、数学运算和上下文感知计算&lt;/strong&gt;，让 Token 可以根据环境动态调整。举个例子：「如果是深色模式且是移动端，则按钮高度 = 基础高度 × 1.25」——这样的逻辑现在可以直接编码进设计系统，而不需要维护多套组件变体。&lt;/p&gt;
-
-&lt;p&gt;对实际工作的影响是巨大的：一套设计系统现在可以真正地服务多个平台（iOS、Android、Web、车载屏幕），而不是为每个平台维护独立的组件库。&lt;/p&gt;
-
-&lt;h3&gt;「设计系统即产品」的成熟&lt;/h3&gt;
-
-&lt;p&gt;2026 年，「System-as-Product」思维已经在头部设计团队中完全成熟。设计系统不再是设计团队内部的工程工具，而是一个有独立路线图、用户研究、版本发布和使用分析的产品。维护设计系统的团队开始像产品经理一样思考：谁在用？他们的痛点是什么？下一个版本应该优先解决哪些问题？&lt;/p&gt;
-
-&lt;p&gt;Figma 的 AI 功能也在加速这一进程。Visual Search 允许设计师通过截图或选中图层查找现有组件库中视觉上相似的组件，大幅减少重复创建；AI 可以批量智能重命名图层，在交付前确保文件结构清晰。这些功能的实质是&lt;strong&gt;让设计系统更容易被使用&lt;/strong&gt;，降低了团队采用设计系统的摩擦。&lt;/p&gt;
-
-&lt;h3&gt;AI 与设计系统的新张力&lt;/h3&gt;
-
-&lt;p&gt;但这里也有一个值得设计团队警惕的新张力：当 AI 可以即时生成「看起来还行」的界面，当组件可以自动适配变体，&lt;strong&gt;设计系统的意义是否还在于视觉一致性&lt;/strong&gt;？还是说它更重要的价值，其实是对设计决策背后思考的编码——哪些约束是刻意为之的，哪些例外是被允许的，为什么？&lt;/p&gt;
-
-&lt;p&gt;答案可能是后者。越来越多的设计系统团队开始在文档中记录「决策日志」（Decision Log）——不只记录「这个按钮是圆角 8px」，还记录「为什么是 8px 而不是 4px，我们讨论了什么，我们否决了哪些方案」。这些上下文是 AI 无法凭空生成的，却是让设计系统真正有用的核心。&lt;/p&gt;
-
-&lt;p&gt;从「好看的组件库」到「编码设计判断力的系统」——这才是 2026 年设计系统进化的真正方向。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.designsystemscollective.com/design-system-mastery-with-figma-variables-the-2025-2026-best-practice-playbook-da0500ca0e66"&gt;https://www.designsystemscollective.com/design-system-mastery-with-figma-variables-the-2025-2026-best-practice-playbook-da0500ca0e66&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/release-notes/"&gt;https://www.figma.com/release-notes/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medium.com/@EmiliaBiblioKit/the-world-of-design-systems-is-no-longer-just-about-components-and-libraries-its-about-5beecc0d21cb"&gt;https://medium.com/@EmiliaBiblioKit/the-world-of-design-systems-is-no-longer-just-about-components-and-libraries-its-about-5beecc0d21cb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b554bab8-430f-5876-9d33-232b8454d4cc</guid>
-      <pubDate>Sun, 22 Mar 2026 03:00:15 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.designsystemscollective.com/design-system-mastery-with-figma-variables-the-2025-2026-best-practice-playbook-da0500ca0e66</link>
-    </item>
-    <item>
-      <title>AI 疲惫与设计信任危机：当「AI 垃圾」成为 UX 的新敌人</title>
-      <description>&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_aKYqHSg.png" alt="AI 疲惫与设计信任危机：当「AI 垃圾」成为 UX 的新敌人" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;在 2024-2025 年 AI 设计工具的热潮过后，2026 年产品设计圈出现了一个新词：&lt;strong&gt;AI 疲惫（AI Fatigue）&lt;/strong&gt;——用户厌倦了粗制滥造的 AI 功能，设计师厌倦了为 AI 的失误背锅，团队厌倦了不断解释「这个功能为什么不应该 AI 化」。&lt;/p&gt;
-
-&lt;p&gt;尼尔森诺曼集团（NN/G）把这个现象放在 2026 年 UX 最核心挑战的位置上，并提出：&lt;strong&gt;信任（Trust）将是 AI 产品设计的首要问题&lt;/strong&gt;，而且这个问题会随着越来越多「还没准备好」的 AI 代理被仓促上线而不断加剧。&lt;/p&gt;
-
-&lt;h3&gt;「AI 垃圾」是什么&lt;/h3&gt;
-
-&lt;p&gt;「AI slop」（AI 垃圾）这个词在 2025 年开始流行，用来描述那些由 AI 生成但缺乏真实价值的内容——文章、图片、界面、代码。到了 2026 年，用户已经开始对 AI 生成的内容产生「条件反射式不信任」：看到某个摘要卡片，首先想的不是「这有用吗」，而是「这是真的吗」。&lt;/p&gt;
-
-&lt;p&gt;这对 UX 设计师意味着什么？NN/G 的研究指出，&lt;strong&gt;AI 驱动的体验需要在四个维度建立信任&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;透明度（Transparency）&lt;/strong&gt;：让用户知道他们在和 AI 交互，系统的局限性是什么&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;控制感（Control）&lt;/strong&gt;：用户必须能够轻松撤销、修改或覆盖 AI 的决策&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;一致性（Consistency）&lt;/strong&gt;：AI 的行为不应该让用户感到困惑或不可预测&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;失败支持（Support when it fails）&lt;/strong&gt;：当 AI 出错时，界面应该帮助用户理解发生了什么并恢复&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;「设计更深才能差异化」&lt;/h3&gt;
-
-&lt;p&gt;NN/G 今年报告的标题是「Design Deeper to Differentiate」，这个标题本身就是对 2026 年产品设计处境的精准描述。当 AI 能快速生成「足够好」的界面时，浅层的视觉设计已经无法作为竞争壁垒。真正的差异化来自于：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;对用户心理模型（Mental Model）的深度理解&lt;/li&gt;
-  &lt;li&gt;对产品在用户生活中真实位置的洞察&lt;/li&gt;
-  &lt;li&gt;在「功能好用」和「感受良好」之间取得平衡的判断力&lt;/li&gt;
-  &lt;li&gt;将可访问性和信任设计内建为默认，而非事后考虑&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;一个具体案例：AI 聊天机器人的信任设计失败&lt;/h3&gt;
-
-&lt;p&gt;以当前市场上大量上线的 AI 客服为例：很多产品的问题不在于 AI 不够聪明，而在于设计团队没有认真考虑「当 AI 答错了，用户的体验路径是什么」。没有清晰的「转人工」出口，没有对话历史的透明展示，没有错误信息的友好处理——这些都是设计层面的失败，而不是技术层面的失败。&lt;/p&gt;
-
-&lt;p&gt;这个案例揭示了一个重要的设计洞察：&lt;strong&gt;AI 产品的 UX 设计核心，不是设计「AI 好用时」的体验，而是设计「AI 不好用时」的体验&lt;/strong&gt;。边界情况（Edge Case）和失败模式的处理，决定了用户是否愿意继续信任这个产品。&lt;/p&gt;
-
-&lt;p&gt;2026 年的产品设计师，正在学习如何在一个「AI 无处不在但信任稀缺」的世界里，重新定义自己工作的价值。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/state-of-ux-2026/"&gt;https://www.nngroup.com/articles/state-of-ux-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/reports/state-of-the-designer-2026/"&gt;https://www.figma.com/reports/state-of-the-designer-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://dieproduktmacher.com/insights/7-ai-skills-every-designer-needs-in-2026-and-what-leaders-should-expect"&gt;https://dieproduktmacher.com/insights/7-ai-skills-every-designer-needs-in-2026-and-what-leaders-should-expect&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">99453d21-5752-5100-ab07-245bd137b022</guid>
-      <pubDate>Sun, 22 Mar 2026 03:00:39 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/state-of-ux-2026/</link>
-      <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_aKYqHSg.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>你不需要「健康大改造」：研究证明每天多 5 分钟睡眠就能延长寿命</title>
-      <description>&lt;figure&gt;&lt;img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-01/260112-longevity-hacks-v2-jg-e56438.jpg" alt="你不需要「健康大改造」：研究证明每天多 5 分钟睡眠就能延长寿命" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;每年一月，各种「彻底改变你的生活方式」的文章铺天盖地。但 2026 年初发表的两项大型研究给了我们一个更温和、更实际的好消息：&lt;strong&gt;你不需要从头改造自己的生活——微小的改变，就足以让你多活几年。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;悉尼大学的研究团队分析了英国生物样本库（UK Biobank）中超过 &lt;strong&gt;5.9 万名老年人&lt;/strong&gt;的数据，同时挪威体育科学学院的团队汇总了来自英国、美国、挪威和瑞典合计 &lt;strong&gt;13.5 万名成年人&lt;/strong&gt;的数据。两项研究得出了几乎一致的结论：睡眠、运动和饮食的微小进步，叠加起来可以产生显著的长寿效果。&lt;/p&gt;
-
-&lt;h3&gt;具体数字：小改变，大回报&lt;/h3&gt;
-
-&lt;p&gt;研究给出了非常具体的数字，读起来让人松一口气：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;每天&lt;strong&gt;多睡 5 分钟&lt;/strong&gt;，可以延长约 1 年的寿命预期（针对健康习惯最差的人群）&lt;/li&gt;
-  &lt;li&gt;每天&lt;strong&gt;多运动 1.9 分钟&lt;/strong&gt;，可以贡献同等效果&lt;/li&gt;
-  &lt;li&gt;饮食质量评分提高 5 分（满分 100 分），效果相当&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;如果你想要更大的收获——比如延长 4 年的「健康寿命（healthspan）」——也不需要惊人的付出：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;每天多睡 24 分钟&lt;/li&gt;
-  &lt;li&gt;每天多运动 3.7 分钟&lt;/li&gt;
-  &lt;li&gt;饮食质量提高 23 分&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;挪威的研究还发现：每天减少坐着的时间 30 分钟，死亡率降低 &lt;strong&gt;7%&lt;/strong&gt;；每天增加 5 分钟中高强度运动，死亡率降低 &lt;strong&gt;10%&lt;/strong&gt;；每天增加 30 分钟轻体力活动（散步、做家务），死亡率降低 &lt;strong&gt;5%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h3&gt;为什么「小改变」反而更有效&lt;/h3&gt;
-
-&lt;p&gt;这些发现的重要性不只在于数字本身，更在于它们打破了一个普遍的误区：&lt;strong&gt;健康改善需要彻底的生活方式转变&lt;/strong&gt;。事实上，对于大多数人来说，从「完全不运动」到「每天散步 10 分钟」的进步，比从「每天跑 5 公里」到「每天跑 8 公里」带来的健康收益要大得多。&lt;/p&gt;
-
-&lt;p&gt;这是因为健康风险的分布是非线性的——最糟糕的生活习惯带来的风险远超平均水平，而一旦越过那个门槛，边际收益就会递减。所以对于大多数忙碌的普通人，&lt;strong&gt;重点不是追求完美的健康习惯，而是避免最糟糕的习惯&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h3&gt;今天就能做的事&lt;/h3&gt;
-
-&lt;p&gt;把这些研究转化成今晚就能开始的行动：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;睡前多10分钟离开屏幕&lt;/strong&gt;：不需要严格的「睡前仪式」，只需要提前10分钟把手机放下，通常就能让你早入睡5-10分钟&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;用走路代替电梯&lt;/strong&gt;：如果你在办公室，上下两三层楼走楼梯而不是坐电梯——每天多出来的体力活动，比你想象中多得多&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;减少一份加工食品&lt;/strong&gt;：不需要「彻底戒掉」什么，只是今天午餐的薯片换成坚果——饮食质量评分就往好的方向动了&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;研究团队的话说得很实在：「我们希望这个研究能给人们带来希望，而不是压力。」在一个充斥着极端健康主义的信息环境里，「你已经足够好，只需要稍微好一点点」——这句话本身就是一剂良药。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nbcnews.com/health/health-news/small-changes-sleep-diet-exercise-live-longer-not-overhaul-studies-rcna252640"&gt;https://www.nbcnews.com/health/health-news/small-changes-sleep-diet-exercise-live-longer-not-overhaul-studies-rcna252640&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medicalxpress.com/news/2026-01-small-physical-diet-linked-longer.html"&gt;https://medicalxpress.com/news/2026-01-small-physical-diet-linked-longer.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">6c5529a0-0048-5d6e-ac30-a5b451b36e7e</guid>
-      <pubDate>Sun, 22 Mar 2026 03:01:13 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.nbcnews.com/health/health-news/small-changes-sleep-diet-exercise-live-longer-not-overhaul-studies-rcna252640</link>
-      <enclosure url="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-01/260112-longevity-hacks-v2-jg-e56438.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>超加工食品的心脏代价：每天多吃一份，心脏病风险就涨 5%——一项 6800 人的研究</title>
-      <description>&lt;figure&gt;&lt;img src="https://www.sciencedaily.com/images/1920/towering-triple-decker-burger-chicken-wings-and-french-fries.webp" alt="超加工食品的心脏代价：每天多吃一份，心脏病风险就涨 5%——一项 6800 人的研究" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;你知道每天吃多少「超加工食品」（Ultra-Processed Food, UPF）？薯片、速冻披萨、包装蛋糕、碳酸饮料、方便面……这些用 NOVA 分类系统标为「第四类」的食品，已经占据了许多美国人一天总热量的 50% 以上。&lt;/p&gt;
-
-&lt;p&gt;2026 年 3 月，美国心脏病学会（American College of Cardiology）年会上发布了一项引人注目的研究结果，让「少吃加工食品」从模糊的健康建议变成了有明确数字支撑的警告。&lt;/p&gt;
-
-&lt;h3&gt;研究发现：风险随摄入量线性递增&lt;/h3&gt;
-
-&lt;p&gt;研究由德克萨斯大学健康科学中心的 Dr. Amier Haidar 团队主导，分析了&lt;strong&gt;多族裔动脉粥样硬化研究（Multi-Ethnic Study of Atherosclerosis, MESA）&lt;/strong&gt;中 6,814 名 45-84 岁、无心脏病史的成年人数据。研究用 NOVA 分类系统将食品按加工程度分类，追踪了心脏病发作、中风和心血管死亡的发生率。&lt;/p&gt;
-
-&lt;p&gt;核心发现：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;每天摄入约 &lt;strong&gt;9.3 份&lt;/strong&gt;超加工食品的人群，与每天仅摄入约 &lt;strong&gt;1.1 份&lt;/strong&gt;的人群相比，心脏病发作、中风或心血管死亡的风险高出 &lt;strong&gt;67%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;每&lt;strong&gt;额外增加一份&lt;/strong&gt;超加工食品，心血管风险独立增加 &lt;strong&gt;5.1%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;对黑人群体影响更大：每份增加 &lt;strong&gt;6.1%&lt;/strong&gt;，非黑人群体为 3.2%&lt;/li&gt;
-  &lt;li&gt;这一关联在控制总热量摄入和整体饮食质量后&lt;strong&gt;仍然成立&lt;/strong&gt;——意味着加工过程本身，而不只是营养成分，才是风险来源&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;为什么「加工」本身有害&lt;/h3&gt;
-
-&lt;p&gt;这一点值得深入理解，因为它颠覆了「热量决定健康」的简化思维。超加工食品的危害，并不只是「含糖量高、脂肪多」——研究越来越指向&lt;strong&gt;加工过程本身&lt;/strong&gt;引入的问题：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;食品添加剂（乳化剂、增稠剂、着色剂等）对肠道微生物组的破坏&lt;/li&gt;
-  &lt;li&gt;超加工食品破坏了食物的天然细胞结构，使营养素被更快速地吸收，导致血糖和胰岛素的剧烈波动&lt;/li&gt;
-  &lt;li&gt;2025 年发表在《自然医学》（Nature Medicine）上的一项鼠类实验发现，两种常见食品乳化剂可导致跨代肠道菌群改变，增加代谢和炎症疾病的长期易感性&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;《柳叶刀》（The Lancet）已将超加工食品与人类健康的关系列为专题系列研究（Series），多位研究者明确表示：超加工食品的证据级别已经足够强，应该视为「公共健康威胁」。&lt;/p&gt;
-
-&lt;h3&gt;「9 份」有多少？比你想象的少&lt;/h3&gt;
-
-&lt;p&gt;9 份听起来很多，但实际上可能比你想象的更容易达到：一杯加工果汁（1份）、一个包装麦片棒（1份）、午餐便当里的速食（2份）、下午茶饼干（1份）、晚餐速冻食品（2份）、饭后一罐苏打（1份）、睡前一小包薯片（1份）——加起来 9 份，轻松越线。&lt;/p&gt;
-
-&lt;p&gt;研究建议很简单：&lt;strong&gt;用「真实食物」替换超加工食品&lt;/strong&gt;。新鲜蔬菜、豆类、坚果、全谷物、自己烹饪的简单料理——这些不需要是有机食品或高端食材，只要减少包装袋里的成分表，效果就会显现。&lt;/p&gt;
-
-&lt;p&gt;如果你住在湾区，周末去农贸市场（Farmer's Market）或 Trader Joe's 买一批新鲜蔬菜，提前切好备用，工作日的外卖依赖度自然下降——这已经是可以真正改变饮食质量的一步。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260319074604.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260319074604.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.thelancet.com/series-do/ultra-processed-food"&gt;https://www.thelancet.com/series-do/ultra-processed-food&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41591-025-03842-0"&gt;https://www.nature.com/articles/s41591-025-03842-0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">517040df-a0c4-51c8-ad09-0931c8146137</guid>
-      <pubDate>Sun, 22 Mar 2026 03:01:48 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.sciencedaily.com/releases/2026/03/260319074604.htm</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/towering-triple-decker-burger-chicken-wings-and-french-fries.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>久坐族生存指南：每 30 分钟站起来 2 分钟，能逆转坐班的代谢损伤</title>
-      <description>&lt;p&gt;在科技公司工作，每天坐 8-10 小时几乎是标配。你可能已经听说「久坐伤身」，但具体会坏到什么程度，以及要做多少才能抵消，一直是一个模糊的问题。2026 年累积的研究终于给出了足够清晰的答案。&lt;/p&gt;
-
-&lt;h3&gt;久坐的真实风险数字&lt;/h3&gt;
-
-&lt;p&gt;发表在《JAMA Network Open》上的研究发现，每天坐超过 &lt;strong&gt;6-8 小时&lt;/strong&gt;的人，全因死亡率比少于 6 小时的人高约 &lt;strong&gt;30%&lt;/strong&gt;，心血管疾病风险尤其显著。更值得关注的是：这个风险在业余时间规律运动的人群中&lt;strong&gt;也存在&lt;/strong&gt;——也就是说，每天健身 1 小时，但其余时间都在椅子上，不足以完全抵消久坐的危害。&lt;/p&gt;
-
-&lt;p&gt;这个发现让很多「健身了所以我健康」的人感到不舒服——但它揭示了一个重要区别：&lt;strong&gt;运动（exercise）和减少久坐（reduce sedentary time）是两件不同的事，需要分别管理。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;关键发现：「微运动间歇」的神奇效果&lt;/h3&gt;
-
-&lt;p&gt;英国运动医学杂志（British Journal of Sports Medicine）的研究提出了目前证据最充分的解决方案：&lt;strong&gt;每 30 分钟起身活动 2 分钟&lt;/strong&gt;，就能显著改善葡萄糖代谢、降低胰岛素水平，并减少与久坐相关的代谢风险指标。&lt;/p&gt;
-
-&lt;p&gt;注意，这里说的是「活动」，不是「运动」——原地踏步、拉伸、去倒杯水、走去同事桌前沟通而不是发消息，都算在内。门槛之低出乎意料：&lt;strong&gt;你只需要站起来，移动一下，然后坐回去。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对升降桌（Sit-Stand Desk）的系统性研究也给出了好消息：2024 年发表的系统综述显示，使用升降桌干预后，工作日久坐时间平均减少了：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;3 个月后：&lt;strong&gt;少坐 68.7 分钟/天&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;6 个月后：&lt;strong&gt;少坐 77.7 分钟/天&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;12 个月后：&lt;strong&gt;少坐 62.1 分钟/天&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;实用方案：给湾区科技工作者的具体建议&lt;/h3&gt;
-
-&lt;p&gt;不需要花数千美元买升降桌，以下这些零成本或低成本的方案，经研究证明有效：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;设置 30 分钟提醒&lt;/strong&gt;：手机或电脑定时器，提醒起身 2 分钟。Apps 比意志力更可靠。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;站立开会&lt;/strong&gt;：一对一的快速同步会议，两人都站着——通常会更快结束，还附赠站立时间。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;把水杯换成小杯&lt;/strong&gt;：更频繁地起身去倒水，被动增加站立机会。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Zoom 期间走动&lt;/strong&gt;：不需要打开摄像头的会议，接电话时在室内走动——你的心率会感谢你。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;午休 10 分钟散步&lt;/strong&gt;：哪怕在楼道里走，也比坐着刷手机好，并且下午的专注力通常更好。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;一个常被忽视的问题：「正确」地坐&lt;/h3&gt;
-
-&lt;p&gt;减少久坐的同时，坐姿本身也值得关注。矫形外科数据显示，在湾区因久坐导致的颈椎和腰椎问题就诊率持续上升，主要原因是&lt;strong&gt;屏幕高度不对&lt;/strong&gt;（多数人屏幕太低，低头超过 15 度的姿势长期维持会产生巨大颈椎压力）以及&lt;strong&gt;缺乏腰部支撑&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;如果你一天必须坐 8 小时，这两件事优先于任何其他「人体工学产品」：把显示器调到眼睛平视的高度，以及确保椅背对你的腰椎有支撑。这两个调整的改善效果往往比买一把昂贵的椅子更直接。&lt;/p&gt;
-
-&lt;p&gt;总结一下最重要的信息：&lt;strong&gt;30 分钟、2 分钟、每天重复&lt;/strong&gt;。这不是大改变，却是证据最充分的久坐解药。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2814094"&gt;https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2814094&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.letsrenovate.com/2026/03/11/prioritizing-holistic-health-for-modern-professionals-in-a-sedentary-workplace/"&gt;https://www.letsrenovate.com/2026/03/11/prioritizing-holistic-health-for-modern-professionals-in-a-sedentary-workplace/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/39626101/"&gt;https://pubmed.ncbi.nlm.nih.gov/39626101/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">114897db-6e82-510a-a399-c206ccfb2394</guid>
-      <pubDate>Sun, 22 Mar 2026 03:02:18 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2814094</link>
-    </item>
-    <item>
-      <title>中东战火第四周：美以空中主导，特朗普考虑「收尾」但援军仍在集结，油价突破 110 美元</title>
-      <description>&lt;figure&gt;&lt;img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8c%2Fd8%2F3a326b1648ac915c248571482ce5%2Fgettyimages-2267048760.jpg" alt="中东战火第四周：美以空中主导，特朗普考虑「收尾」但援军仍在集结，油价突破 110 美元" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;美国和以色列针对伊朗的军事行动进入第四周，截至 3 月 21 日，冲突仍未出现明确的外交出口，但战场态势已出现显著变化。&lt;/p&gt;
-
-&lt;h3&gt;军事现状&lt;/h3&gt;
-
-&lt;p&gt;美国国防部称，自战争开始以来，美军中央司令部已打击伊朗目标超过 &lt;strong&gt;8,000 个&lt;/strong&gt;。目前伊朗的导弹和无人机攻击频率已较战争初期下降 &lt;strong&gt;90%&lt;/strong&gt;，美军开始使用 Apache 直升机和 A-10 疣猪攻击机——这表明伊朗的防空威胁已大幅降低。&lt;/p&gt;
-
-&lt;p&gt;以色列军队仍在持续打击德黑兰和叙利亚境内目标。与此同时，伊朗在本周尝试对美英共用的迭戈加西亚（Diego Garcia）空军基地发动远程打击——该基地距波斯湾约 2,500 英里，这表明伊朗的导弹射程超出了此前各方的预估。&lt;/p&gt;
-
-&lt;h3&gt;特朗普的矛盾信号&lt;/h3&gt;
-
-&lt;p&gt;特朗普本周发出了两个方向相反的信号：一方面，他表示政府正考虑「收尾（winding down）」军事行动；另一方面，美国海军陆战队航母战斗群 USS Boxer（搭载数千名士兵）已从加州启航，USS Tripoli（搭载超过 2,000 名海军陆战队员）也从日本方向调动——兵力仍在增加。&lt;/p&gt;
-
-&lt;p&gt;特朗普还在 3 月 21 日威胁伊朗：如果不在 48 小时内重新开放霍尔木兹海峡（Strait of Hormuz），美方将「打击并摧毁」伊朗的电力设施。霍尔木兹海峡承载着全球约 &lt;strong&gt;五分之一&lt;/strong&gt;的石油和液化天然气运输量，目前由于战争影响，过境船只已大幅减少。&lt;/p&gt;
-
-&lt;h3&gt;能源危机：油价飙升 45%&lt;/h3&gt;
-
-&lt;p&gt;这场战争对全球能源市场的冲击是立竿见影的。目前：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;布伦特原油（Brent Crude）报价已升至 &lt;strong&gt;112.19 美元/桶&lt;/strong&gt;，较战前上涨约 45%&lt;/li&gt;
-  &lt;li&gt;美国全国平均汽油价格达到 &lt;strong&gt;3.91 美元/加仑&lt;/strong&gt;，为 2022 年 10 月以来最高&lt;/li&gt;
-  &lt;li&gt;超过 3,000 艘船只在中东地区搁置等待&lt;/li&gt;
-  &lt;li&gt;高盛（Goldman Sachs）预测高油价状态可能持续至 2027 年&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;作为缓解措施，特朗普政府宣布临时解除对海上封存伊朗原油的制裁，有效期至 2026 年 4 月 19 日，并与其他国家协商释放战略石油储备。&lt;/p&gt;
-
-&lt;h3&gt;对湾区居民的直接影响&lt;/h3&gt;
-
-&lt;p&gt;油价上涨对加州的影响通常比全国平均水平更明显——加州本身的炼油税和环保附加费已经较高。湾区的汽油价格在全国一直处于最高之列，预计在冲突持续期间还会进一步上涨。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;需要关注的后续发展&lt;/strong&gt;：伊朗是否响应特朗普的霍尔木兹海峡要求；是否有迹象显示双方通过卡塔尔等中间方开展秘密外交；以及以色列国内政治压力是否会影响战争持续时间。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week"&gt;https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-21-26"&gt;https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-21-26&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-energy-prices-trump-gas-field-israel-qatar-rcna264010"&gt;https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-energy-prices-trump-gas-field-israel-qatar-rcna264010&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">91e720e4-9fea-5f56-b97d-fe048ba5b3aa</guid>
-      <pubDate>Sun, 22 Mar 2026 03:02:50 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week</link>
-      <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8c%2Fd8%2F3a326b1648ac915c248571482ce5%2Fgettyimages-2267048760.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>马斯克被裁定误导 Twitter 股东，面临高达 26 亿美元赔偿</title>
-      <description>&lt;figure&gt;&lt;img src="https://image.cnbcfm.com/api/v1/image/108273639-1772646009325-gettyimages-2264190253-Elon_Musks_Twitter_Takeover_Trial_Begins_In_San_Francisco.jpeg?v=1773873936&amp;amp;amp;w=1920&amp;amp;amp;h=1080" alt="马斯克被裁定误导 Twitter 股东，面临高达 26 亿美元赔偿" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;3 月 20 日，加州陪审团经过四天审议，&lt;strong&gt;一致裁定&lt;/strong&gt;埃隆·马斯克（Elon Musk）在 2022 年收购 Twitter 前夕向股东发表了误导性陈述，并对部分股东造成了经济损失。&lt;/p&gt;
-
-&lt;h3&gt;事情经过&lt;/h3&gt;
-
-&lt;p&gt;2022 年 4 月，马斯克宣布以 440 亿美元收购 Twitter 后，曾多次试图放弃这笔交易。核心争议在于他的两条推文：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;2022 年 5 月 13 日&lt;/strong&gt;：马斯克发推称收购「暂时搁置，等待关于垃圾账号是否确实低于 5% 用户的数据支撑」&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2022 年 5 月 17 日&lt;/strong&gt;：马斯克在没有提供证据的情况下声称 Twitter 用户中「可能有 20% 是虚假/垃圾账号，甚至可能更高」，并表示「在获得证明前，这笔交易无法继续」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;原告方（Twitter 股东集体诉讼）认为，这两条推文是马斯克刻意打压 Twitter 股价、为重新谈判或退出交易创造条件的手段。&lt;/p&gt;
-
-&lt;h3&gt;陪审团裁决细节&lt;/h3&gt;
-
-&lt;p&gt;陪审团裁定，这两条推文&lt;strong&gt;具有重大虚假或误导性&lt;/strong&gt;，损害了部分 Twitter 股东利益。但陪审团同时认定，马斯克虽有误导行为，但并不构成设计周密的「欺诈阴谋（scheme to defraud）」——这一区别在法律上将影响最终赔偿金额的计算方式。&lt;/p&gt;
-
-&lt;p&gt;原告律师估计，最终总赔偿金额将达到约 &lt;strong&gt;25 亿美元&lt;/strong&gt;（2.5 billion USD），具体取决于最终提交索赔的股东数量。滚石（Rolling Out）的报道显示这一数字可能高达 26 亿美元。&lt;/p&gt;
-
-&lt;h3&gt;马斯克方面的回应&lt;/h3&gt;
-
-&lt;p&gt;马斯克的辩护律师团队来自 Quinn Emanuel 律所，他们将此次裁决定性为「路上的一块颠簸（bump in the road）」，表示认为在上诉中将获得支持，并强调陪审团「部分支持被告」。&lt;/p&gt;
-
-&lt;h3&gt;更大的背景&lt;/h3&gt;
-
-&lt;p&gt;这一判决发生在马斯克政治影响力高度集中的特殊时期——他目前同时担任政府效率部门（DOGE）的负责人，深度介入特朗普政府的施政。一方面是前所未有的政治权力，另一方面是法庭上的重大败诉，这一反差将如何影响马斯克的公众形象和商业决策，值得持续关注。&lt;/p&gt;
-
-&lt;p&gt;对于持有特斯拉（Tesla）或 SpaceX 股票的人——后者的上市时间表和估值都与马斯克的信誉深度绑定——这一判决及可能的上诉过程值得密切跟进。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/20/elon-musk-determined-to-be-liable-for-misleading-twitter-investors.html"&gt;https://www.cnbc.com/2026/03/20/elon-musk-determined-to-be-liable-for-misleading-twitter-investors.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/20/g-s1-114660/elon-musk-misled-investors-twitter-purchase"&gt;https://www.npr.org/2026/03/20/g-s1-114660/elon-musk-misled-investors-twitter-purchase&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/20/elon-musk-misled-twitter-investors-while-trying-to-get-out-of-acquisition-jury-says/"&gt;https://techcrunch.com/2026/03/20/elon-musk-misled-twitter-investors-while-trying-to-get-out-of-acquisition-jury-says/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">33d2cb59-0db5-51b0-86a6-6b156b17d108</guid>
-      <pubDate>Sun, 22 Mar 2026 03:03:12 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.cnbc.com/2026/03/20/elon-musk-determined-to-be-liable-for-misleading-twitter-investors.html</link>
-      <enclosure url="https://image.cnbcfm.com/api/v1/image/108273639-1772646009325-gettyimages-2264190253-Elon_Musks_Twitter_Takeover_Trial_Begins_In_San_Francisco.jpeg?v=1773873936&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>湾区要事：Jeff Bezos 寻求千亿美元 AI 制造布局，FIFA 世界杯门票让本地球迷望而却步</title>
-      <description>&lt;p&gt;本周湾区和硅谷有两则值得关注的本地动态。&lt;/p&gt;
-
-&lt;h3&gt;Bezos 的 AI 制造押注：寻求 1000 亿美元&lt;/h3&gt;
-
-&lt;p&gt;《华尔街日报》援引知情人士报道，亚马逊创始人 Jeff Bezos 正在积极寻求高达 &lt;strong&gt;1000 亿美元&lt;/strong&gt;的资金，用于将人工智能应用于大规模制造业。这是迄今为止最大规模的 AI 与制造业融合投资计划之一。&lt;/p&gt;
-
-&lt;p&gt;这一举动延续了硅谷精英人物在 AI 上不断加码的逻辑——但与大多数 AI 投资聚焦在软件和模型层不同，Bezos 的这笔资金明确指向&lt;strong&gt;物理生产&lt;/strong&gt;：用 AI 优化工厂、机器人系统和供应链。对于湾区制造业相关从业者，这可能预示着一波硬件 AI 融资潮的到来。&lt;/p&gt;
-
-&lt;p&gt;Bezos 已通过其投资公司 Bezos Expeditions 在 AI 领域布局多年，此次寻求的规模是此前任何单笔 AI 制造业投资的数倍，显示出他对这一赛道的重大信心。&lt;/p&gt;
-
-&lt;h3&gt;FIFA 世界杯来了，但湾区球迷能买到票吗？&lt;/h3&gt;
-
-&lt;p&gt;2026 年 FIFA 世界杯将于今年夏天举行，湾区（旧金山/圣何塞地区）将承办 &lt;strong&gt;6 场&lt;/strong&gt;比赛，这对本地足球迷来说本应是一大盛事。&lt;/p&gt;
-
-&lt;p&gt;然而，多位湾区民选官员本周公开表达担忧：&lt;strong&gt;高得惊人的票价&lt;/strong&gt;正在把本地球迷挡在场外。他们指出，大多数比赛的票价已经远超普通家庭的承受范围，而这些比赛本是以向本地社区展示国际足球文化为旗号赢得承办权的。&lt;/p&gt;
-
-&lt;p&gt;批评者认为，如果看台上主要是外地来的高消费游客，而不是真正热爱足球的湾区居民，那么举办世界杯的「社区价值」就大打折扣。&lt;/p&gt;
-
-&lt;p&gt;从经济角度，世界杯预计将为湾区带来可观的旅游收入和就业——但如果你是本地居民，想亲眼见证这一四年一次的盛事，现在就要开始研究预算和购票策略了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.siliconvalley.com/2026/03/20/bezos-seeks-100-billion-to-use-ai-in-manufacturing-wsj-says/"&gt;https://www.siliconvalley.com/2026/03/20/bezos-seeks-100-billion-to-use-ai-in-manufacturing-wsj-says/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://abc7news.com/"&gt;https://abc7news.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ebbcee81-1f1e-5e67-ba63-365b0b0e4a81</guid>
-      <pubDate>Sun, 22 Mar 2026 03:03:31 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.siliconvalley.com/2026/03/20/bezos-seeks-100-billion-to-use-ai-in-manufacturing-wsj-says/</link>
-    </item>
-    <item>
-      <title>比尔·塔维尔：地球上唯一一块「两国都不要」的陆地，背后是一道精心设计的外交难题</title>
-      <description>&lt;figure&gt;&lt;img src="https://i2.wp.com/www.youngpioneertours.com/wp-content/uploads/2020/04/Bir-Tarwil-2-map.jpg" alt="比尔·塔维尔：地球上唯一一块「两国都不要」的陆地，背后是一道精心设计的外交难题" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;你能想象有一块土地，两个国家都有能力占有它，但双方都&lt;strong&gt;刻意选择不要&lt;/strong&gt;吗？&lt;/p&gt;
-
-&lt;p&gt;这块地方真实存在，叫做&lt;strong&gt;比尔·塔维尔（Bir Tawil）&lt;/strong&gt;，面积 2,060 平方公里（大约是上海市区的两倍），就夹在埃及和苏丹的边境线上，是地球上极少数「可居住但无主权归属」的陆地之一——一块名副其实的「无主之地（terra nullius）」。&lt;/p&gt;
-
-&lt;h3&gt;一个殖民时代留下的地图悖论&lt;/h3&gt;
-
-&lt;p&gt;故事要从 19 世纪末的英国殖民地管理说起。英国在 1899 年划定了一条笔直的纬度线，作为埃及和苏丹的政治边界；但到了 1902 年，出于行政管理的便利，英国又画了一条弯曲的行政边界线，把部落牧场的管辖权做了不同安排。&lt;/p&gt;
-
-&lt;p&gt;问题来了：这两条线互相矛盾。在两条线之间，出现了两个「交叉地带」：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;哈拉伊卜三角（Halaib Triangle）&lt;/strong&gt;：面积约 20,580 平方公里，有海岸线、资源，价值更高；1899 年的线给埃及，1902 年的线给苏丹&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;比尔·塔维尔&lt;/strong&gt;：面积 2,060 平方公里，内陆沙漠，无海岸线，资源贫乏；1899 年的线给苏丹，1902 年的线给埃及&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;关键的逻辑陷阱在于：&lt;strong&gt;两块地的归属是联动的&lt;/strong&gt;。如果埃及承认 1899 年的边界，它就拥有哈拉伊卜，但同时失去比尔·塔维尔；如果苏丹承认 1902 年的边界，它拥有哈拉伊卜，也失去比尔·塔维尔。于是，两国都声索哈拉伊卜，都默默放弃比尔·塔维尔——因为声索任何一条边界线，都会导致自己放弃更有价值的那块地。&lt;/p&gt;
-
-&lt;p&gt;这是一个罕见的博弈论困境在真实地缘政治中的体现：&lt;strong&gt;理性选择导致了没有人拥有一块可以拥有的土地。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;「我要建国！」——微国主义者的圣地&lt;/h3&gt;
-
-&lt;p&gt;无主之地对互联网时代的冒险者和「微国家（micronation）」爱好者来说，有着难以抗拒的吸引力。&lt;/p&gt;
-
-&lt;p&gt;其中最著名的案例发生在 2014 年：美国弗吉尼亚州的农场主杰里迈亚·希顿（Jeremiah Heaton）驾车穿越埃及沙漠，徒步走进比尔·塔维尔，在那里插下一面旗帜，宣布成立「北苏丹王国（Kingdom of North Sudan）」——原因是他想兑现对 6 岁女儿艾米丽的承诺：让她成为一位「真正的公主」。这个故事后来被拍成了迪士尼风格的纪录片，一时引发广泛关注。&lt;/p&gt;
-
-&lt;p&gt;此后，印度人迪利普·迪克西特宣布成立「迪克西特王国（Kingdom of Dixit）」，各路网络微国主义者的「宣称」层出不穷——但联合国没有承认任何一个，埃及和苏丹政府也对这些宣称视而不见。&lt;/p&gt;
-
-&lt;h3&gt;被遗忘的真相：那里早就有人住了&lt;/h3&gt;
-
-&lt;p&gt;比尔·塔维尔最常被呈现为「空旷无人的沙漠」，但这是一个相当大的误解。事实上，&lt;strong&gt;阿巴达（Ababda）部落&lt;/strong&gt;长期在此活动，进行游牧放牧，并且近年来随着非正式采金活动的兴起，这片土地上出现了数千名矿工、临时商店和餐馆组成的「比尔·塔维尔镇」。&lt;/p&gt;
-
-&lt;p&gt;这些居民没有任何国家的法律保护，但也没有任何国家的法律约束——他们武装自卫，按照部落规则运作，形成了一个事实上的无政府社会实验。&lt;/p&gt;
-
-&lt;h3&gt;「没人要」的悖论意义&lt;/h3&gt;
-
-&lt;p&gt;比尔·塔维尔最有趣的地方不是它的地理，而是它揭示的人类政治逻辑：国家之间的领土争端，通常是「两个都想要」的抢夺；但比尔·塔维尔是一个「两个都不要」的特例，而原因恰恰是因为两国都想要另一块更有价值的地方。&lt;/p&gt;
-
-&lt;p&gt;这个小故事让人想到博弈论中的「负向协调（negative coordination）」——有时候，最理性的选择，就是主动放弃一个选项，以便在另一个更重要的博弈中占据优势。只是在这个案例里，代价是地球上永久性地留下了一块「没人」的土地。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.thecollector.com/bir-tawil-unclaimed-land/"&gt;https://www.thecollector.com/bir-tawil-unclaimed-land/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youngpioneertours.com/strange-tale-bir-tawil/"&gt;https://www.youngpioneertours.com/strange-tale-bir-tawil/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bir_Tawil"&gt;https://en.wikipedia.org/wiki/Bir_Tawil&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e4d6b891-50d1-58d0-972f-27e0e52ba02c</guid>
-      <pubDate>Sun, 22 Mar 2026 03:04:10 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.thecollector.com/bir-tawil-unclaimed-land/</link>
-      <enclosure url="https://i2.wp.com/www.youngpioneertours.com/wp-content/uploads/2020/04/Bir-Tarwil-2-map.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>1870 年纽约地下的秘密地铁：一个人用 58 天偷偷挖出了美国第一条气动列车隧道</title>
-      <description>&lt;figure&gt;&lt;img src="https://nycity.media/wp-content/uploads/2025/10/cover-the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.jpg" alt="1870 年纽约地下的秘密地铁：一个人用 58 天偷偷挖出了美国第一条气动列车隧道" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;1870 年 2 月 26 日，纽约百老汇大街下方，一个惊天秘密被公开了。&lt;/p&gt;
-
-&lt;p&gt;在德夫林（Devlin's）服装店的地下室里，发明家&lt;strong&gt;艾尔弗雷德·伊利·比奇（Alfred Ely Beach）&lt;/strong&gt;邀请纽约上流社会的宾客走进一扇不起眼的门，进入一个完全不在任何地图上的空间——一列地下列车，一条长约 90 米的砖砌隧道，以及一个装饰着壁画、水晶吊灯、喷泉和金鱼缸的豪华候车室。更令人震惊的是：这一切都是&lt;strong&gt;在没有任何政府许可的情况下&lt;/strong&gt;秘密建造的。&lt;/p&gt;
-
-&lt;h3&gt;比奇是何许人&lt;/h3&gt;
-
-&lt;p&gt;比奇当时是著名科学杂志《科学美国人》（Scientific American）的编辑和联合发行人，同时也是多项专利的持有者。1849 年，他曾发明了一种早期的「打字机」；另一项专利则涉及气动管道传输系统。&lt;/p&gt;
-
-&lt;p&gt;19 世纪中叶的纽约，地面交通已经陷入噩梦。马拉街车在泥泞和粪便中挣扎，堵塞程度不亚于今天的高峰期。比奇相信地下气动运输系统是解法，他甚至在 1867 年纽约美国学会博览会上展示了一个迷你版的气动隧道运输模型，引发轰动。&lt;/p&gt;
-
-&lt;h3&gt;为什么必须秘密进行&lt;/h3&gt;
-
-&lt;p&gt;当时纽约的政治生态，被「坦慕尼厅（Tammany Hall）」政治机器把持，其中最臭名昭著的人物是「博斯·特威德（Boss Tweed）」。特威德深度绑定了地面交通运营商的利益——如果地下铁路成功，他们的马拉街车帝国就会崩溃，大量贿赂收益也随之消失。&lt;/p&gt;
-
-&lt;p&gt;比奇试图正规申请许可，但被一再拒绝。于是他想出了一个迂回方案：以「建造邮件气动传输管道」的名义获得了一个小型许可，然后在凌晨秘密施工，将沙土装袋运出，让街道上没有任何动静。工人们用一种名为「盾构机（tunneling shield）」的圆形掘进装置，在百老汇大街下方推进——而行人就在他们头顶几米处，毫不知情。&lt;/p&gt;
-
-&lt;p&gt;整个隧道，&lt;strong&gt;在 58 天内&lt;/strong&gt;完工。&lt;/p&gt;
-
-&lt;h3&gt;候车室：地下的豪华客厅&lt;/h3&gt;
-
-&lt;p&gt;比奇深知，要说服纽约人接受地下出行，体验必须超乎想象。于是他把候车室打造成了当时最豪华的公共空间之一：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;铺设了精致瓷砖的地面&lt;/li&gt;
-  &lt;li&gt;墙上挂着大幅油画和壁画&lt;/li&gt;
-  &lt;li&gt;中央放置着一架三角钢琴（供等车的乘客演奏）&lt;/li&gt;
-  &lt;li&gt;喷泉里养着活的金鱼&lt;/li&gt;
-  &lt;li&gt;水晶吊灯提供照明&lt;/li&gt;
-  &lt;li&gt;列车车厢内部铺着天鹅绒座椅，安装了当时最先进的锆光灯&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;列车的驱动原理是气压：一台巨大的风机（名为「西风之神 Aeolus」）产生气流，将车厢推向前方；回程则反转风机，将车厢吸回来。当时试乘的体验报告描述「平稳、安静、快速」，与地面上的马拉街车是截然不同的世界。&lt;/p&gt;
-
-&lt;h3&gt;失败：政治与时机的双重打击&lt;/h3&gt;
-
-&lt;p&gt;比奇地铁在 1870 至 1873 年间以「展示线」形式运营，吸引了大量付费参观者，但没有真正服务日常通勤。1873 年，他终于通过政治运作拿到了修建延长线的许可——然而，就在同一年，美国股市爆发了「1873 年恐慌（Panic of 1873）」，投资者纷纷撤资，项目资金断裂。&lt;/p&gt;
-
-&lt;p&gt;比奇最终封闭了隧道入口，整个地下世界就这样被遗忘。&lt;/p&gt;
-
-&lt;h3&gt;1912 年的惊人重现&lt;/h3&gt;
-
-&lt;p&gt;四十年后，1912 年，工人们在为纽约 BMT 地铁系统挖掘新隧道时，挖穿了一堵砖墙——意外发现了比奇的隧道。里面，&lt;strong&gt;那列列车还停在轨道上，几乎完好无损&lt;/strong&gt;，只是蒙上了数十年的尘埃。候车室里的陈设依然在那里，仿佛时间凝固了一样。&lt;/p&gt;
-
-&lt;p&gt;比奇没能看到这一幕——他于 1896 年去世，距离自己的地铁被重新发现还有 16 年。&lt;/p&gt;
-
-&lt;h3&gt;历史遗产&lt;/h3&gt;
-
-&lt;p&gt;纽约第一条官方地铁于 1904 年 10 月 27 日开通，距离比奇的秘密演示整整过去了 34 年。没有人能确切说出，如果比奇当年得到许可，纽约的城市面貌会有多么不同。但他的「偷挖地铁」行为，确实证明了一件事：技术上，在 19 世纪就可以做到地下城市运输——只是政治和利益阻挡了它 34 年。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html"&gt;https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nyhistory.org/blogs/beach-pneumatic-transit-the-1870-subway-that-could-have-been"&gt;https://www.nyhistory.org/blogs/beach-pneumatic-transit-the-1870-subway-that-could-have-been&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Beach_Pneumatic_Transit"&gt;https://en.wikipedia.org/wiki/Beach_Pneumatic_Transit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">46480361-fe28-5e2a-9b4a-0125c4acf97a</guid>
-      <pubDate>Sun, 22 Mar 2026 03:04:52 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://nycity.media/articles/the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.html</link>
-      <enclosure url="https://nycity.media/wp-content/uploads/2025/10/cover-the-forgotten-subway-how-a-secret-underground-revolution-began-in-new-york.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Figma MCP 服务器扩展至双向工作流：设计师如何重新掌控「设计到代码」全链路</title>
-      <description>&lt;figure&gt;&lt;img src="https://cdn.figma.com/blog/figma-mcp.png" alt="Figma MCP 服务器扩展至双向工作流：设计师如何重新掌控「设计到代码」全链路" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;2026 年 3 月，Figma 完成了一系列对设计-开发协作具有根本影响的更新，其中最值得设计师关注的是：&lt;strong&gt;Figma MCP（Model Context Protocol）服务器正式扩展为双向工作流&lt;/strong&gt;，并同时接入了 Cursor、Warp、Factory、Firebender、Augment 等主流 AI 编程环境，以及通过 VS Code 的 GitHub Copilot（3月7日更新）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;双向是什么意思？&lt;/strong&gt;在此之前，设计师的「交付」基本是单向的——把设计稿扔给开发，然后等着对方实现。现在这个循环变短了：设计师可以把 Figma 的一个设计帧「推」进开发者的 IDE，让 AI 根据设计意图生成组件代码；开发者反过来也可以把渲染好的 UI 代码「推」回 Figma 画布，自动生成可编辑的设计图层。这是设计稿与代码之间第一次真正实现双向流动，而不仅仅是传统意义上的「从设计导出代码」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;底层原理&lt;/strong&gt;：Figma 的 MCP 服务器将设计元数据——帧层级、组件属性、Design Tokens、文字样式、布局约束、图片引用——封装为 LLM 可消费的结构化数据。AI 读取的不是一张静态 PNG，而是完整的设计意图描述。配合 Code Connect（3月5日更新，支持多代码文件绑定和跨框架预览），开发者可以将真实生产组件与 Figma 组件关联，MCP 在生成代码时直接引用已有设计系统，避免凭空生成不符合规范的新代码。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这对设计师的日常工作意味着什么&lt;/strong&gt;：以往设计稿交付之后，设计师很难高效介入开发环节；现在这个反馈循环被大幅压缩。设计师可以在 Figma 中调整组件，通过 MCP 同步更新到开发者 IDE，代码实现后又能反推回 Figma 校验视觉准确性。整个「设计决策——代码实现——视觉回归」的循环从以往的几天变成了几小时甚至更短。&lt;/p&gt;
-
-&lt;p&gt;对于设计系统负责人而言，这也带来了新的职责边界——需要认真维护 Code Connect 的映射关系，确保 MCP 生成的代码确实来自组织内部的设计系统，而不是 AI 自行臆造的。这是「设计系统质量」从视觉规范延伸到代码实现规范的关键一步。&lt;/p&gt;
-
-&lt;p&gt;同期，3月6日发布的 &lt;strong&gt;Slots（动态插槽）测试版&lt;/strong&gt;值得额外关注：它允许在不断开（Detach）组件实例的情况下，自定义实例的内部内容区域。这解决了设计系统中长期存在的「要么复用组件要么保持灵活性」的两难困境——以往一旦实例化，想替换内部图标或文本块就必须 Detach，从而失去与主组件的连接。Slots 让你可以在保持与设计系统连接的同时，在预设的插槽位置填入不同内容，这与前端开发中的 Slot/Children 模式高度对齐。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3月12日&lt;/strong&gt;，Figma 同步推出了 &lt;strong&gt;Make AI Administration&lt;/strong&gt;：团队管理员现在可以为 Organization 和 Enterprise 计划按量或按月订阅 AI 积分（Professional 版 5 月上线）。这标志着 Figma 正式将 AI 功能从「全员免费试用」推向「可管控、可计量的企业级能力」。对于负责控制设计工具成本的设计团队管理者来说，这是一个重要信号——AI 使用将开始产生可追踪的成本，需要纳入工具预算管理。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;设计视角总结&lt;/strong&gt;：这轮更新的核心不是「AI 替你写代码」，而是&lt;em&gt;设计师作为工作流的协调者，重新获得了对实现过程的可见性和掌控权&lt;/em&gt;。未来优质设计师不一定要会写代码，但必须懂得如何借助 MCP 和 Code Connect 这套双向工具，确认自己的设计决策在代码层被准确还原——这是新一代「设计-开发协作素养」的核心。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://releasebot.io/updates/figma"&gt;https://releasebot.io/updates/figma&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/"&gt;https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/blog/introducing-figma-mcp-server/"&gt;https://www.figma.com/blog/introducing-figma-mcp-server/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://research.aimultiple.com/figma-to-code/"&gt;https://research.aimultiple.com/figma-to-code/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7dc6c007-72cf-5d62-aa0a-666df5193956</guid>
-      <pubDate>Sun, 22 Mar 2026 03:10:38 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://releasebot.io/updates/figma</link>
-      <enclosure url="https://cdn.figma.com/blog/figma-mcp.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>美以打击纳坦兹核设施，伊朗首次还击以色列核点附近，战争进入最危险阶段</title>
-      <description>&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/03/natanz.jpg" alt="美以打击纳坦兹核设施，伊朗首次还击以色列核点附近，战争进入最危险阶段" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;3月21日（周六），美国和以色列空袭了伊朗最重要的铀浓缩设施——&lt;strong&gt;纳坦兹（Natanz）核综合体&lt;/strong&gt;，这是自2月28日开战以来，美以联军对伊朗核设施的第四次打击，也是纳坦兹本轮冲突中第二次遭受直接攻击（该设施在2025年6月的12天战争中已曾受损）。伊朗原子能组织证实攻击属实，国际原子能机构（IAEA）确认周边辐射水平正常，但总干事 Rafael Grossi 随即呼吁各方「保持军事克制，避免任何核事故风险」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;伊朗随即对等升级&lt;/strong&gt;：数小时内，伊朗向以色列南部城市迪莫纳（Dimona）和阿拉德（Arad）发射导弹，造成超过100人受伤。迪莫纳是以色列核研究中心 Negev Nuclear Research Center 所在地——这是本轮战争中伊朗第一次打击以色列核相关设施附近，实现了明确的「以核对核」升级逻辑。以色列国防部长 Israel Katz 随后宣布，以色列对伊朗的打击力度将在本周「大幅提升」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么这一步格外危险&lt;/strong&gt;：纳坦兹是伊朗约400公斤高浓缩铀的核心存储点，西方国家认为这批铀理论上足以制造多枚核武器。美国政府已将「彻底摧毁伊朗核能力」列为明确目标之一，美军中将 Brad Cooper 评估美以已打击伊朗境内8000个军事目标，「伊朗作战能力正在稳定下降」。而伊朗方面明确将以色列核研究中心纳入报复目标范围，意味着冲突升级的底线正在被逐步突破。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;特朗普的矛盾信号与能源压力&lt;/strong&gt;：打击纳坦兹前一天，特朗普曾公开表示正在考虑「结束战争」，但同日又威胁称若伊朗不在48小时内重开霍尔木兹海峡，美国将摧毁伊朗电力设施，并继续向中东增兵。与此同时，财政部长 Scott Bessent 周五宣布发布30天伊朗石油制裁豁免令（Iran General License U），允许约1.4亿桶滞海伊朗原油入市，试图压低国内油价——布伦特原油当周收于约111美元/桶，较年初涨约84%，美国零售汽油均价比战前上涨0.93美元/加仑。批评者指出，这等于美国「一边轰炸伊朗，一边向伊朗财政注资140亿美元」，策略自相矛盾。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;下一步关注&lt;/strong&gt;：霍尔木兹海峡是否重开（承担全球约20%石油运输）、以色列是否升级为对伊核武设施的饱和打击、特朗普48小时最后期限届满后的实际行动、以及 IAEA 对纳坦兹损毁情况的调查结论——这些将是本周影响全球局势的核心变量。延续3月22日首次报道中「美以空中主导」的判断，今天的事态发展标志着冲突已从「消耗战」进入「核设施互打」的全新阶段。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility"&gt;https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html"&gt;https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/20/us-issues-30-day-sanctions-waiver-for-sale-of-iranian-oil-at-sea.html"&gt;https://www.cnbc.com/2026/03/20/us-issues-30-day-sanctions-waiver-for-sale-of-iranian-oil-at-sea.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week"&gt;https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">75008053-a726-5b13-9825-f4917d20e917</guid>
-      <pubDate>Sun, 22 Mar 2026 03:12:13 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/03/natanz.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>湾区：Foster City 勒索软件攻击致市政服务全面瘫痪，宣布紧急状态</title>
-      <description>&lt;figure&gt;&lt;img src="https://localnewsmatters.org/wp-content/uploads/2021/03/BCN-20210326-FOSTERCITYCITYHALL-06.jpg" alt="湾区：Foster City 勒索软件攻击致市政服务全面瘫痪，宣布紧急状态" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
-&lt;p&gt;3月19日深夜，加州半岛城市 Foster City（人口约3.5万，位于 San Mateo 以北）遭受严重&lt;strong&gt;勒索软件（Ransomware）攻击&lt;/strong&gt;，IT 人员在3月20日早间发现市政网络已被入侵并加密。城市经理 Stefan Chatwin 随即宣布申请「紧急状态」，以争取联邦和州级资金用于恢复工作。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;影响范围&lt;/strong&gt;：除紧急救援服务（911调度和警务）外，Foster City 几乎所有市政服务均已停摆，包括：建筑许可申请、公用事业账单处理、停车执法、公共记录查询等。官方网站 fostercity.org 提示居民，此前与市政府有业务往来的人员应及时更改相关账户密码，因为「公共信息可能已被访问，但目前尚不确定」。截至报道时，尚无已知的勒索软件团伙认领此次攻击，市政府也未透露具体勒索金额或恢复时间线。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;放在湾区更大背景下看&lt;/strong&gt;：近年来，湾区地方政府已成为勒索软件团伙的高频目标：Oakland 在2023年2月遭受 Play 勒索软件攻击，历经数月仍有部分系统未恢复，敏感数据大量外泄；Hayward、Palo Alto 学区也均有过类似遭遇。Foster City 此次事件的规模虽然较小，但其宣布紧急状态的速度——发现入侵后不足24小时内——说明地方政府已从过去的案例中汲取教训，在公开处理节奏和外部寻援上变得更加主动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;对半岛居民的实际影响&lt;/strong&gt;：如果你在 Foster City 有待处理的建筑许可、公用事业相关事务或与市政府的合同往来，预计这些事项将延迟至少数周。由于 Foster City 临近大量科技公司（Oracle 美国总部设于此），该事件也提示企业园区管理者及时检查与当地政府系统的业务连接。&lt;/p&gt;
-
-&lt;p&gt;湾区地方政府网络基础设施长期面临「预算有限、攻击面大」的结构性困境——多数小城市的 IT 预算和安全能力远不及私营科技公司，却承担着存储居民个人信息、税务数据和土地记录等高价值数据的职责。Foster City 此次攻击是这一长期弱点的又一次暴露。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://localnewsmatters.org/2026/03/20/foster-city-cybersecurity-breach-state-of-emergency/"&gt;https://localnewsmatters.org/2026/03/20/foster-city-cybersecurity-breach-state-of-emergency/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.mercurynews.com/2026/03/19/foster-city-services-impacted-by-cyber-security-breach/"&gt;https://www.mercurynews.com/2026/03/19/foster-city-services-impacted-by-cyber-security-breach/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cbsnews.com/sanfrancisco/news/foster-city-cybersecurity-breach-plans-state-of-emergency/"&gt;https://www.cbsnews.com/sanfrancisco/news/foster-city-cybersecurity-breach-plans-state-of-emergency/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f31a0fcb-b414-569c-b0c3-212b3cc6f9b7</guid>
-      <pubDate>Sun, 22 Mar 2026 03:12:35 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://localnewsmatters.org/2026/03/20/foster-city-cybersecurity-breach-state-of-emergency/</link>
-      <enclosure url="https://localnewsmatters.org/wp-content/uploads/2021/03/BCN-20210326-FOSTERCITYCITYHALL-06.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>带状疱疹疫苗意外的「心脏护盾」：打一针，主要心脏事件风险降低 46%，相当于戒烟的心血管获益</title>
       <description>&lt;p&gt;你有没有想过，带状疱疹疫苗打的是「皮肤病」，却能大幅保护你的心脏？一项发表于美国心脏病学会年会（ACC.26）前夕的大规模研究给出了令人惊讶的答案——保护效果大到「堪比戒烟」的程度。这对已过50岁、或有心血管风险因素的人来说，是一个非常值得认真对待的信号。&lt;/p&gt;
@@ -1621,6 +1013,452 @@
       <category>random-knowledge</category>
       <link>https://magazine.boskalis.com/issue02/magical-beach-creatures</link>
       <enclosure url="https://magazine.boskalis.com/thumbs/magical-beach-creatures-cover-a8e47ef688a3074689c563f4ead5381b.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>你每年吃下 250 克塑料——它们正通过五条路径悄悄损伤你的大脑</title>
+      <description>&lt;figure&gt;&lt;img src="https://magazine.scienceconnected.org/wp-content/uploads/2026/03/Microplastics_-_P061337-299845-scaled.jpg" alt="你每年吃下 250 克塑料——它们正通过五条路径悄悄损伤你的大脑" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;你大概不会主动吃塑料，但你的身体每年大约「消化」250 克微塑料（Microplastics）——差不多一整个餐盘的量。它们藏在瓶装水、外卖盒、茶包、海鲜、甚至合成纤维的衣服里。更让人不安的是，2024 年的尸检数据显示，人脑中的微塑料浓度比 2016 年样本&lt;strong&gt;高出了 50%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;悉尼科技大学（UTS）药学副教授 Kamal Dua 领导、联合美国 Auburn University 的团队，在《Molecular and Cellular Biochemistry》发表了一篇系统综述，整理出微塑料伤害大脑的&lt;strong&gt;五条生物学通路&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;激活脑内免疫细胞&lt;/strong&gt;——微塑料颗粒被身体识别为入侵者，脑内小胶质细胞启动攻击，引发慢性神经炎症。&lt;/li&gt;
+&lt;li&gt;制造氧化应激——微塑料增加活性氧（ROS），同时削弱身体的抗氧化防御系统，相当于一边放火一边拆灭火器。&lt;/li&gt;
+&lt;li&gt;破坏血脑屏障——Dua 教授的原话："微塑料让血脑屏障变得'漏'了。一旦漏了，免疫细胞和炎症分子就会涌入，对屏障细胞造成更大的损伤。"这是一个恶性循环。&lt;/li&gt;
+&lt;li&gt;干扰线粒体功能——线粒体是神经元的发电站，微塑料降低 ATP 供应，让需要大量能量的脑细胞"断粮"。&lt;/li&gt;
+&lt;li&gt;直接损伤神经元——以上压力叠加，最终削弱神经元活动，损伤髓鞘（保护神经纤维的绝缘层）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;研究者还特别指出了微塑料与两种最常见神经退行性疾病的关联：在阿尔茨海默病（Alzheimer's Disease）方面，微塑料可能促进 beta 淀粉样蛋白和 tau 蛋白的异常聚集；在帕金森病（Parkinson's Disease）方面，则可能加速 α-突触核蛋白（α-synuclein）的聚集、损伤产生多巴胺的神经元。目前美国有 700 万阿尔茨海默患者，而 1999 到 2017 年间帕金森相关死亡率增长超过 50%——虽然不能说全是微塑料的锅，但时间线上的重合很难忽视。&lt;/p&gt;
+
+&lt;p&gt;微塑料进入大脑的路径也不止「吃进去」这一条。除了消化道吸收，肺部可以直接吸入空气中的微塑料纤维，还有一条更诡异的路线：通过鼻腔嗅觉通路绕过血脑屏障——小鼠实验显示，聚苯乙烯颗粒摄入仅 2 小时就能通过这条路抵达脑部。&lt;/p&gt;
+
+&lt;p&gt;好消息是，减少暴露并不难，但需要改几个日常习惯：换掉塑料砧板和食品容器（玻璃或不锈钢替代）、少用塑料瓶装水、衣服尽量选天然纤维（棉、麻）而不是涤纶、烘干机会让合成纤维释放更多微塑料所以考虑晾晒、减少高度加工的包装食品。这些都不算大工程，但积少成多。&lt;/p&gt;
+
+&lt;p&gt;需要泼一点冷水：目前的证据主要来自动物实验和流行病学相关性研究，还没有人体因果实验——伦理上也很难做。但研究者的态度是，不必等到"证据完美"才开始行动，减少塑料暴露本身就是一个无害的预防措施。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260313002637.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260313002637.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://magazine.scienceconnected.org/2026/03/the-role-of-microplastics-in-neurodegenerative-diseases/"&gt;https://magazine.scienceconnected.org/2026/03/the-role-of-microplastics-in-neurodegenerative-diseases/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20251205/Researchers-highlight-five-pathways-through-which-microplastics-can-harm-the-brain.aspx"&gt;https://www.news-medical.net/news/20251205/Researchers-highlight-five-pathways-through-which-microplastics-can-harm-the-brain.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">37d2b47d-59d9-5501-8d5a-6980d58a71c3</guid>
+      <pubDate>Mon, 23 Mar 2026 13:09:17 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/03/260313002637.htm</link>
+      <enclosure url="https://magazine.scienceconnected.org/wp-content/uploads/2026/03/Microplastics_-_P061337-299845-scaled.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>睡眠规律性比睡够 8 小时更重要——7.2 万人、8 年追踪研究的结论</title>
+      <description>&lt;figure&gt;&lt;img src="https://bmjgroup.com/wp-content/uploads/2024/12/GettyImages-1434278204-724x482.jpg" alt="睡眠规律性比睡够 8 小时更重要——7.2 万人、8 年追踪研究的结论" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;你可能一直在纠结"到底该睡几个小时"，但一项追踪 72,269 名英国成年人长达 8 年的研究说：你更该关心的是&lt;strong&gt;每天在不在同一个时间睡、同一个时间醒&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这项发表在《Journal of Epidemiology &amp; Community Health》上的前瞻性队列研究，使用的是 UK Biobank 数据库。参与者（40-79 岁）连续 7 天佩戴腕部加速度计，研究者据此计算出一个叫&lt;strong&gt;睡眠规律性指数&lt;/strong&gt;（Sleep Regularity Index, SRI）的分数，满分 100，分数越高说明你的作息越规律。&lt;/p&gt;
+
+&lt;p&gt;参与者被分为三组：规律组（SRI &gt; 87.3）、中度不规律组（SRI 71.6-87.3）、不规律组（SRI &lt; 71.6）。8 年随访期间，不规律组发生重大心血管事件（MACE，包括心梗、中风、心衰等）的风险比规律组高 26%，中度不规律组高 8%。不规律的人心衰风险更是飙升了 45%。&lt;/p&gt;
+
+&lt;p&gt;最让人意外的发现是：就算你睡够了推荐时长（18-64 岁 7-9 小时，65 岁以上 7-8 小时），只要作息不规律，心血管风险依然居高不下。换句话说，周末补觉到中午、工作日 6 点半爬起来的"社交时差"模式，即使总睡眠时间凑够了 8 小时，你的心脏也不买账。只有中度不规律的人能通过睡够时间来部分抵消风险，重度不规律的人睡多久都补不回来。&lt;/p&gt;
+
+&lt;p&gt;这里的实际操作建议其实很简单——研究数据显示，SRI 达到 77 以上就能看到心血管风险显著降低（约 15%），80 以上效果更好（18%）。怎么做到？不需要精确到分钟，但试着把工作日和周末的入睡时间差控制在 30 分钟以内、起床时间差控制在 1 小时以内，就已经能让你的 SRI 分数大幅提升。&lt;/p&gt;
+
+&lt;p&gt;上一期我们聊过"每天多 5 分钟睡眠就能延长寿命"——那条研究关注的是睡眠总量，这次的发现是一个重要补充：光追求睡够还不够，规律性可能是更强的心血管保护因素。如果你只能改一个睡眠习惯，选择固定作息时间——包括周末。&lt;/p&gt;
+
+&lt;p&gt;这项研究也有局限：加速度计只佩戴了一周，可能无法捕捉长期作息模式；而且它不能区分安静躺着和真正入睡。但 7.2 万人的样本量和 8 年的随访时间，让这个结论相当有分量。研究者建议，公共卫生指南应该把睡眠规律性和睡眠时长放在同等重要的位置。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/39603689/"&gt;https://pubmed.ncbi.nlm.nih.gov/39603689/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bmjgroup.com/irregular-sleep-wake-cycle-linked-to-heightened-risk-of-major-cardiovascular-events/"&gt;https://bmjgroup.com/irregular-sleep-wake-cycle-linked-to-heightened-risk-of-major-cardiovascular-events/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20241201/Heart-health-benefits-soar-with-regular-sleep-schedules-research-finds.aspx"&gt;https://www.news-medical.net/news/20241201/Heart-health-benefits-soar-with-regular-sleep-schedules-research-finds.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">eb368320-775c-5059-96df-c8342b6bd1de</guid>
+      <pubDate>Mon, 23 Mar 2026 13:09:49 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/39603689/</link>
+      <enclosure url="https://bmjgroup.com/wp-content/uploads/2024/12/GettyImages-1434278204-724x482.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>你的肠道细菌正在「塑造」你的大脑——西北大学 PNAS 研究首次证明肠道菌群直接影响脑功能</title>
+      <description>&lt;figure&gt;&lt;img src="https://news.northwestern.edu/assets/Images/2025-12/Gut-Brain_stock-image-1025048836_edit_lead.jpg" alt="你的肠道细菌正在「塑造」你的大脑——西北大学 PNAS 研究首次证明肠道菌群直接影响脑功能" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;"肠脑轴"（Gut-Brain Axis）这个概念你可能听过不少，但之前的证据大多是相关性——肠道菌群和情绪、认知"有关联"。西北大学（Northwestern University）生物人类学副教授 Katie Amato 的团队今年 1 月在 PNAS 上发表的研究，做了一件更有说服力的事：她们直接证明了肠道微生物可以&lt;strong&gt;因果性地&lt;/strong&gt;改变大脑的基因表达模式。&lt;/p&gt;
+
+&lt;p&gt;实验设计很巧妙。研究者选了三种灵长类动物的肠道菌群：两种来自大脑容量相对较大的物种（人类和松鼠猴），一种来自大脑较小的物种（猕猴），然后分别移植到无菌小鼠体内。八周后检测小鼠的脑部基因表达。&lt;/p&gt;
+
+&lt;p&gt;结果相当惊人：接受大脑容量大的灵长类菌群的小鼠，脑内与&lt;strong&gt;能量代谢和突触可塑性&lt;/strong&gt;（Synaptic Plasticity，大脑学习的物理基础）相关的基因表达明显上调。而接受猕猴菌群的小鼠，这些基因的表达被抑制了。更让人吃惊的是，当研究者把小鼠的脑部数据和真实灵长类动物的脑部数据做比对时，模式高度吻合。用 Amato 教授的话说："我们让小鼠的大脑看起来像那些提供菌群的灵长类动物的大脑。"&lt;/p&gt;
+
+&lt;p&gt;还有一个意外发现：接受小脑容量灵长类菌群的小鼠，脑内出现了与 ADHD、精神分裂症（Schizophrenia）、双相障碍（Bipolar Disorder）和自闭症（Autism）相关的基因表达模式。这不是说猕猴的肠道菌群"导致"了这些疾病，而是提示肠道菌群可能在大脑发育期间就参与了这些神经精神疾病的易感性构建。&lt;/p&gt;
+
+&lt;p&gt;这对普通人意味着什么？首先，它从演化角度解释了为什么"吃什么"可能真的影响你的大脑——不是玄学，是肠道微生物在调控脑部基因的表达。其次，它为精神健康问题打开了一个全新的治疗思路：如果肠道菌群参与塑造了大脑功能，那通过饮食干预（益生菌、益生元、膳食纤维）来影响精神健康就有了更坚实的理论基础。&lt;/p&gt;
+
+&lt;p&gt;回头看我们之前聊过的膳食纤维话题——97% 的美国男性纤维摄入不达标。纤维是肠道有益菌的"口粮"，而这项研究告诉你，养好这些菌可能不只是保护肠胃那么简单，你的大脑也在受益。Amato 教授总结得很直接："我们的研究表明，微生物正在作用于与理解进化（尤其是人类大脑进化）相关的特征。"下次选酸奶和高纤维食物的时候，你不只是在喂肚子里的菌，也是在投资你的脑力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pnas.org/doi/10.1073/pnas.2426232122"&gt;https://www.pnas.org/doi/10.1073/pnas.2426232122&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.northwestern.edu/stories/2026/01/microbes-may-hold-the-key-to-brain-evolution"&gt;https://news.northwestern.edu/stories/2026/01/microbes-may-hold-the-key-to-brain-evolution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/01/260105165806.htm"&gt;https://www.sciencedaily.com/releases/2026/01/260105165806.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4e45058a-652e-5f08-ab67-e0934b824e06</guid>
+      <pubDate>Mon, 23 Mar 2026 13:10:18 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.pnas.org/doi/10.1073/pnas.2426232122</link>
+      <enclosure url="https://news.northwestern.edu/assets/Images/2025-12/Gut-Brain_stock-image-1025048836_edit_lead.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>特朗普推迟伊朗最后通牒五天，声称正在进行「成果丰硕的对话」——德黑兰否认一切</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.csmonitor.com/var/csm/storage/images/media/images/0323-iran-strait-hormuz/7358199-1-eng-US/0323-Iran-strait-Hormuz.jpg" alt="特朗普推迟伊朗最后通牒五天，声称正在进行「成果丰硕的对话」——德黑兰否认一切" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;特朗普周一在 Truth Social 上宣布：美伊双方已就「彻底全面解决中东敌对状态」进行了「非常好且富有成效的对话」，因此将原定的霍尔木兹海峡最后通牒推迟五天，暂停对伊朗电力设施的打击。他表示谈判将在本周内持续推进，暂停打击的条件是谈判取得进展。&lt;/p&gt;
+
+&lt;p&gt;这是 48 小时内的第二次急转弯。3月22日晚 7:44（纽约时间），特朗普在 Truth Social 上放出狠话：伊朗必须在「从此刻起」两天内重开霍尔木兹海峡，否则美军将「摧毁」其电力基础设施。伊朗当时的回应毫不含糊——伊朗国防委员会声明：任何对伊朗海岸或岛屿的攻击都将导致波斯湾所有通信航线被布雷，霍尔木兹海峡将「永久关闭」直到重建完成。&lt;/p&gt;
+
+&lt;p&gt;然而 &lt;strong&gt;伊朗方面全盘否认存在任何对话&lt;/strong&gt;。伊朗半官方的 Mehr 通讯社转发外交部声明：「德黑兰与华盛顿之间不存在任何对话。」伊朗国家电视台把特朗普的推迟解读为「面对伊朗坚定警告后的退缩」。两国对同一事件给出了完全矛盾的叙事——特朗普说是「谈判成果」，伊朗说是「美国怂了」。&lt;/p&gt;
+
+&lt;p&gt;土耳其可能在暗中牵线。伊朗外长阿拉格奇当天与土耳其外长费丹通了电话，而特朗普没有透露「对话」的具体内容、对象或渠道。如果真是通过第三方传话而非直接接触，双方的叙事差异就说得通了——伊朗可以坚持「没跟美国说话」的立场，特朗普也有了体面下台阶的说辞。&lt;/p&gt;
+
+&lt;p&gt;更大的背景是：这场战争的经济账越来越吓人。据 Christian Science Monitor 报道，冲突已持续 24 天，造成超过 2000 人死亡。国际能源署（IEA）3月报告给出了一组惊人数字：霍尔木兹海峡的原油和成品油通行量从战前约 2000 万桶/日骤降至近乎为零，海湾国家总产量减少至少 1000 万桶/日。IEA 明确说：&lt;strong&gt;这是全球石油市场有史以来最大规模的供应中断。&lt;/strong&gt;油价自开战以来上涨约 55%，布伦特原油一度触及 118 美元。五角大楼已申请 2000 亿美元追加拨款，实际军事开支已超 120 亿美元。&lt;/p&gt;
+
+&lt;p&gt;接下来五天是关键窗口。如果没有实质性谈判进展，特朗普将面临尴尬二选一：兑现打击电厂的威胁（承受伊朗布雷封锁海峡和全球油价进一步飙涨的后果），或再次推迟（被国内鹰派和伊朗同时嘲笑为纸老虎）。新的截止日期大约在 3 月 28 日。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.csmonitor.com/USA/Military/2026/0323/trump-iran-strait-of-hormuz"&gt;https://www.csmonitor.com/USA/Military/2026/0323/trump-iran-strait-of-hormuz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/live-updates/iran-war-us-israel-trump-ultimatum-strait-of-hormuz/"&gt;https://www.cbsnews.com/live-updates/iran-war-us-israel-trump-ultimatum-strait-of-hormuz/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcnews.com/world/iran/iran-unswayed-trumps-48-hour-deadline-threats-obliterate-energy-infras-rcna264607"&gt;https://www.nbcnews.com/world/iran/iran-unswayed-trumps-48-hour-deadline-threats-obliterate-energy-infras-rcna264607&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.iea.org/reports/oil-market-report-march-2026"&gt;https://www.iea.org/reports/oil-market-report-march-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">34ff8fea-4add-5a5c-b346-1e83cd218da8</guid>
+      <pubDate>Mon, 23 Mar 2026 13:11:41 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.csmonitor.com/USA/Military/2026/0323/trump-iran-strait-of-hormuz</link>
+      <enclosure url="https://www.csmonitor.com/var/csm/storage/images/media/images/0323-iran-strait-hormuz/7358199-1-eng-US/0323-Iran-strait-Hormuz.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>以色列在特朗普宣布「谈判」同日对德黑兰发动「史无前例」空袭</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260323__37NQ8DY__v2__HighRes__IranUsisraelConflict-1711190849.jpg" alt="以色列在特朗普宣布「谈判」同日对德黑兰发动「史无前例」空袭" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;就在特朗普周一宣布推迟对伊朗电力设施打击的几小时内，以色列空军对德黑兰发动了新一轮大规模空袭——而且不止一波。以色列军方宣布对伊朗政权基础设施目标展开「大规模打击浪潮」（wide-scale wave of strikes），随后数小时内又发动了第二轮。半岛电视台驻德黑兰记者用了一个词形容这一天的爆炸规模和密度：「&lt;strong&gt;史无前例&lt;/strong&gt;」（unprecedented），尤其是德黑兰东部地区遭受的打击强度远超此前任何一天。&lt;/p&gt;
+
+&lt;p&gt;打击范围覆盖伊朗多个省份。美军同日打击了库姆省一处涡轮发动机生产设施，该设施专门为伊朗革命卫队（IRGC）生产无人机和飞机零部件——这属于削弱伊朗军工产能的精确打击。但平民区域的附带损害同样触目惊心：洛雷斯坦省霍拉马巴德市，一枚炸弹击中住宅楼，一名儿童死亡、多人受伤；大不里士市至少 6 人在住宅遭袭中丧生；阿巴斯港一座广播电台被定点打击，1 人死亡。&lt;/p&gt;
+
+&lt;p&gt;伊朗方面公布的损失数据更为惊人：超过 8 万个民用建筑单元受损，部分被完全摧毁；医院、学校和学术机构均受到波及。这些数字尚未经独立核实，但即便打个折扣，也意味着战争对平民基础设施的破坏正在急剧升级。自 2 月 28 日开战以来，半岛电视台的伤亡追踪器显示冲突已造成数千人伤亡，且数字每天都在增加。&lt;/p&gt;
+
+&lt;p&gt;时间线上的矛盾尤其刺眼。特朗普一边宣称与伊朗正在进行「富有成效的对话」，一边以色列在同一天执行了开战以来最猛烈的空袭行动之一。这至少说明两件事：第一，以色列的军事行动节奏并不跟美国的外交信号同步——不管华盛顿释放什么和谈烟幕弹，特拉维夫该炸照炸。第二，&lt;strong&gt;美国暂停的只是「电厂」这个特定靶标&lt;/strong&gt;，对其他军事和基础设施目标的空袭丝毫未减。战争机器仍在全速运转，特朗普只是暂时把最危险的那个开关关了五天。&lt;/p&gt;
+
+&lt;p&gt;伊朗革命卫队的回应逻辑很清晰：如果伊朗电厂遭袭，他们将对等反击——打击为美军基地供电的电厂和美国在中东地区的经济利益设施。特朗普推迟五天电厂打击的决定，客观上暂时避免了双方互炸电网这一最危险的升级场景。&lt;/p&gt;
+
+&lt;p&gt;一个值得追问的问题：照以色列目前的打击强度，五天后特朗普的新截止日期到来时，德黑兰的基础设施还剩多少可以作为谈判筹码？如果以色列已经把该炸的都炸了，「打电厂」的威胁本身就会贬值。这场战争正在以比外交进程快得多的速度改写地面现实。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"&gt;https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbc.ca/news/world/israel-new-attacks-tehran-9.7138210"&gt;https://www.cbc.ca/news/world/israel-new-attacks-tehran-9.7138210&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.timesofisrael.com/liveblog-march-23-2026/"&gt;https://www.timesofisrael.com/liveblog-march-23-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"&gt;https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">20a37248-bdba-515d-be31-18b63d840912</guid>
+      <pubDate>Mon, 23 Mar 2026 13:12:01 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260323__37NQ8DY__v2__HighRes__IranUsisraelConflict-1711190849.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>市场坐过山车：期货暴涨 3%、油价暴跌 10%，然后伊朗一句话全吐了回去</title>
+      <description>&lt;figure&gt;&lt;img src="https://image.cnbcfm.com/api/v1/image/108141729-1711395131305-gettyimages-2091649254-AFP_34LA3NT.jpeg" alt="市场坐过山车：期货暴涨 3%、油价暴跌 10%，然后伊朗一句话全吐了回去" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;周一凌晨，特朗普宣布与伊朗正在进行「富有成效的对话」后，全球金融市场经历了今年最剧烈的一次情绪摆动——先是狂喜，然后被现实拉回。&lt;/p&gt;
+
+&lt;p&gt;第一阶段：疯狂上涨。特朗普发帖后几分钟内，道琼斯期货飙升 1300 点，标普 500 和纳斯达克期货分别暴涨约 3%，罗素 2000 小盘股期货涨 3%。与此同时，WTI 原油暴跌近 10% 至约 89 美元/桶（此前收在 99 美元附近），布伦特原油跌至 101 美元左右。黄金期货一度暴跌 10%，最终跌超 6% 至约 4290 美元/盎司。市场的解读很简单：如果美伊真的在谈，战争可能快结束了，风险溢价可以卸掉了。&lt;/p&gt;
+
+&lt;p&gt;第二阶段：伊朗否认，涨幅腰斩。&lt;strong&gt;伊朗半官方 Mehr 通讯社转发外交部声明否认任何对话后&lt;/strong&gt;，市场迅速回吐涨幅。标普 500 和纳斯达克期货涨幅从 3% 缩水至约 1.6%，道指期货回落至涨约 975 点。到收盘时情况更糟——当天的乐观情绪被以色列对德黑兰的「史无前例」空袭彻底浇灭。最终标普 500 收于 6506 点，跌 1.51%；纳斯达克跌 2.01%；道指跌 0.96%。油价也从日内低点 89 美元大幅反弹，WTI 收在 98 美元附近。&lt;/p&gt;
+
+&lt;p&gt;市场用一天时间走完了「和平预期」从建立到崩塌的全过程。这种从开盘暴涨 3% 到收盘下跌 1.5% 的日内反转，幅度接近 5 个百分点，在历史上也不常见。&lt;/p&gt;
+
+&lt;p&gt;NBC News 指出，自 2 月 28 日开战以来原油已上涨近 60%，年初至今涨幅更大。IEA 的数据显示，霍尔木兹海峡原油流通量从战前 2000 万桶/日降至几乎为零，构成「史上最大规模石油供应中断」。在这种环境下，任何关于和平的暗示都会触发剧烈波动——但同样地，任何否认也会把价格打回原形。&lt;/p&gt;
+
+&lt;p&gt;对普通人的影响已经很具体了。全美汽油均价已从年初的约 3 美元/加仑涨至 3.94 美元，一些分析师警告如果战事继续，夏天可能破 5 美元。高盛此前预测年底通胀可能达到 3%。农业部长 Brooke Rollins 周一试图安抚公众称化肥涨价不太可能推高食品价格——但市场对这种保证的信任度不高。&lt;/p&gt;
+
+&lt;p&gt;眼下交易员的共识是：别信任何人的嘴，只看事实。五天后，3 月 28 日左右，特朗普的延期到期时，市场会再来一轮同样的过山车。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html"&gt;https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcnews.com/business/markets/stocks-oil-trump-iran-talks-rcna264695"&gt;https://www.nbcnews.com/business/markets/stocks-oil-trump-iran-talks-rcna264695&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.businessupturn.com/finance/stock-market/iran-says-it-never-spoke-to-trump-and-that-changes-everything-markets-just-priced-in/"&gt;https://www.businessupturn.com/finance/stock-market/iran-says-it-never-spoke-to-trump-and-that-changes-everything-markets-just-priced-in/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://countryeconomy.com/stock-exchange/usa"&gt;https://countryeconomy.com/stock-exchange/usa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3b121d3b-30cb-5ca9-939c-9cd19c9a2d31</guid>
+      <pubDate>Mon, 23 Mar 2026 13:12:33 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html</link>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/108141729-1711395131305-gettyimages-2091649254-AFP_34LA3NT.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>社保局一个月崩溃五次：DOGE 裁员把 7100 万人的生命线砍到 60 年最低人手</title>
+      <description>&lt;figure&gt;&lt;img src="https://d.newsweek.com/en/full/2587463/social-security-card.jpg" alt="社保局一个月崩溃五次：DOGE 裁员把 7100 万人的生命线砍到 60 年最低人手" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;美国社会保障局（SSA）的 My Social Security 门户网站在 3 月份第五次崩溃。这不是一个单纯的技术故障——它是 DOGE 削减联邦人力后，一个承载 7100 万受益人的关键系统正在肉眼可见地瓦解。&lt;/p&gt;
+
+&lt;p&gt;数字很直白。SSA 在 2024 财年有近 58000 名全职员工，2026 预算砍到 50278 人——减少 7720 人，大部分由 DOGE 主导的裁员完成。Fox News 的报道用了一个标题：&lt;strong&gt;SSA 人手已降至 60 年最低&lt;/strong&gt;。与此同时，婴儿潮一代的退休潮正在推高受益人数量至历史新高。更少的人要服务更多的人，结果不难预测。&lt;/p&gt;
+
+&lt;p&gt;服务质量的恶化已经体现在每一个可量化的指标上。SSA 局长 Frank Bisignano 声称电话等待时间已降至「个位数分钟」，90% 的来电通过自助服务或回拨解决。但实际用户体验与官方说辞严重脱节——多家媒体报道电话等待时间动辄超过一小时，某些时段超过三小时。SSA 网站自己也承认「无法保证在三小时内接听」。至于残疾人福利（SSDI 和 SSI）的申请，截至今年 2 月平均等待资格审核就需要 7 个月，而人力缩减只会让这个数字更难看。&lt;/p&gt;
+
+&lt;p&gt;SSA 从 3 月 7 日起实施了一项重大变革：预约和案件管理从「地方办事处负责」切换为「全国统一调度」。表面上是效率优化，实际上是因为地方办公室没有足够人手应对上门人流。Newsweek 援引研究预测，DOGE 裁员将导致每年额外 200 万人次涌入实体办事处——因为线上和电话渠道不好用了，人们只能亲自跑一趟。&lt;/p&gt;
+
+&lt;p&gt;这与我们此前报道的 DOGE 效能争议一脉相承。上周的报道提到，DOGE 在报税季裁掉约 7000 名 IRS 员工，独立分析估计反而让纳税人多付 1350 亿美元。现在同样的逻辑正在 SSA 上演：你裁掉了人，但需要服务的人一个没少。差别在于，IRS 裁员的后果是税收减少；SSA 裁员的后果是退休老人打不通电话、登不上网站、领不到钱。&lt;/p&gt;
+
+&lt;p&gt;SSA 方面表示正在部署 AI 来处理更多查询，同时上线全国预约排程日历（NASC）让受益人自助预约。技术升级能不能弥补人力缺口，答案大概率在今年报税季和退休高峰季揭晓。但就目前来看，一个月崩溃五次的系统离「高效」还差得很远。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.foxnews.com/opinion/trump-broke-his-promise-protect-lifeline-71-million-americans"&gt;https://www.foxnews.com/opinion/trump-broke-his-promise-protect-lifeline-71-million-americans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.newsweek.com/doge-social-security-seniors-benefits-elon-2078102"&gt;https://www.newsweek.com/doge-social-security-seniors-benefits-elon-2078102&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.newsweek.com/social-security-website-crash-payments-system-online-2053444"&gt;https://www.newsweek.com/social-security-website-crash-payments-system-online-2053444&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.8newsnow.com/investigators/social-security-call-wait-times-can-exceed-3-hours-after-doge-cuts/"&gt;https://www.8newsnow.com/investigators/social-security-call-wait-times-can-exceed-3-hours-after-doge-cuts/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ee647c5e-d860-5b9f-b916-7521172ade5e</guid>
+      <pubDate>Mon, 23 Mar 2026 13:13:07 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.foxnews.com/opinion/trump-broke-his-promise-protect-lifeline-71-million-americans</link>
+      <enclosure url="https://d.newsweek.com/en/full/2587463/social-security-card.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Google Stitch 大改版：语音画布 + Vibe Design + MCP 集成，Figma 股价应声跌 8%</title>
+      <description>&lt;figure&gt;&lt;img src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/Stitch.png" alt="Google Stitch 大改版：语音画布 + Vibe Design + MCP 集成，Figma 股价应声跌 8%" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;3月19日，Google Labs 对旗下 AI 设计工具 Stitch 进行了一次激进改版。新版引入无限画布、语音交互和开发者工具集成——消息发布次日，Figma 股价最高跌幅达 8.8%。这不是一个渐进式更新，而是 Google 在设计工具赛道上正式摊牌。&lt;/p&gt;
+
+&lt;p&gt;先说三个核心变化。第一是&lt;strong&gt;Voice Canvas&lt;/strong&gt;（语音画布）：设计师可以直接对着画布说话，AI 实时监听、追问、给出设计批评并即时修改。这个功能瞄准的是设计最早期的阶段——你脑子里有模糊的想法但还没清晰到能写 prompt 的时候，用嘴说比用键盘敲自然得多。你可以说「把结账按钮做得更突出」，Stitch 就会当场调整。对于习惯了在白板前自言自语推敲方案的设计师来说，这个交互方式比打字更接近真实的思考过程。&lt;/p&gt;
+
+&lt;p&gt;第二是「Vibe Design」——Google 自己起的名字。不画线框、不选组件，而是描述你想要的情绪和商业目标：「高端极简，像 Stripe」或「活泼多彩，面向 Z 世代」。Stitch 据此生成多个设计方向供你挑选。这套逻辑的本质是把设计决策的起点从「我要一个什么样的按钮」拉到「我要一个什么样的感觉」——抽象层级更高，也意味着非设计师也能进入设计流程的第一步。&lt;/p&gt;
+
+&lt;p&gt;第三是开发者工具集成。通过 &lt;strong&gt;MCP 服务器&lt;/strong&gt;，Stitch 可以直接连接 Claude Code、Cursor 和 Gemini CLI。设计稿能导出为带 Auto Layout 的 Figma 格式、HTML/CSS（支持 Tailwind）代码，以及 DESIGN.md 文件用于在代码库中保持设计一致性。换句话说，一个在 Stitch 里做的设计可以毫无摩擦地流向开发环境——这正是 Figma 花了好几年才通过 Dev Mode 试图解决的问题，Google 用 MCP 协议直接捅穿了。&lt;/p&gt;
+
+&lt;p&gt;价格？免费。350次/月标准模式生成，50次/月实验模式。不要信用卡，不要订阅。&lt;/p&gt;
+
+&lt;p&gt;Figma 慌不慌？短期内其实不用太慌。Stitch 擅长的是「从零到一」的快速探索——20分钟内把模糊想法变成可交互的多屏原型（一次最多生成5个屏幕，还能自动推断下一屏的逻辑）。但设计系统管理、团队协作、组件库维护这些「从一到一百」的工作，Stitch 完全不碰。社区里已经出现一个务实的共识：&lt;strong&gt;「在 Stitch 里探索，在 Figma 里打磨，在 Antigravity 或 Cursor 里落地」&lt;/strong&gt;。设计工具市场正在从「一个工具通吃」走向专业化分层。&lt;/p&gt;
+
+&lt;p&gt;但这件事的真正杀伤力不在工具本身。当 Google 用免费产品把设计的「探索阶段」商品化，Figma 赖以为生的「从草图到交付全覆盖」叙事就被打破了。设计师的工作流正在碎片化——头脑风暴用 Stitch，精细化用 Figma，代码落地用 Cursor。这种碎片化对设计师的技能要求也在变：不再是「精通一个工具」，而是「编排一条工具链」。谁能把这条碎片化的链路重新黏合起来，谁就拿下下一个十年。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/"&gt;SiliconAngle&lt;/a&gt;、&lt;a href="https://www.nxcode.io/resources/news/google-stitch-complete-guide-vibe-design-2026"&gt;NxCode&lt;/a&gt;、&lt;a href="https://invezz.com/news/2026/03/19/figma-stock-falls-as-google-ai-stitch-sparks-design-software-fears/"&gt;Invezz&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/"&gt;https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nxcode.io/resources/news/google-stitch-complete-guide-vibe-design-2026"&gt;https://www.nxcode.io/resources/news/google-stitch-complete-guide-vibe-design-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://invezz.com/news/2026/03/19/figma-stock-falls-as-google-ai-stitch-sparks-design-software-fears/"&gt;https://invezz.com/news/2026/03/19/figma-stock-falls-as-google-ai-stitch-sparks-design-software-fears/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c5b78d2a-93e1-5103-ba3b-b06374e75c67</guid>
+      <pubDate>Mon, 23 Mar 2026 13:14:50 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/</link>
+      <enclosure url="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/Stitch.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Apple iOS 27 再战全局 Liquid Glass 滑块：用户可控的设计语言到底是妥协还是正解？</title>
+      <description>&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/VsViLQTM8N248Ub_nQhAjKpsHlI=/400x0/article-new/2026/03/iOS-27-Glass-Slider-Feature.jpg?lossy" alt="Apple iOS 27 再战全局 Liquid Glass 滑块：用户可控的设计语言到底是妥协还是正解？" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;继我们此前报道 Liquid Glass 在 iOS 26 遭遇 45% 历史最低升级率和大量可用性投诉之后，3月15日 Mark Gurman 在 Power On 通讯中透露了一个关键信号：Apple 正在为 iOS 27 重新开发&lt;strong&gt;全局 Liquid Glass 透明度滑块&lt;/strong&gt;。如果成功，用户将可以通过一个滑块统一调节整个系统的 Liquid Glass 不透明度——主屏幕、应用文件夹、导航栏、菜单、通知面板，全部覆盖。&lt;/p&gt;
+
+&lt;p&gt;这不是一个新想法。Apple 在 iOS 26 开发期间就尝试过全局滑块，但在应用文件夹、主屏幕和导航栏上碰到了工程难题，最终只在 iOS 26.2 中实现了一个阉割版——仅限锁屏时钟的透明度调节。iOS 26.1 则只给了「透明」和「着色」两个二选一的粗暴选项。Gurman 的原话是：「Apple is trying again now for iOS 27. TBD if it lands.」——措辞谨慎，六月 beta 版出来之前什么都不确定。&lt;/p&gt;
+
+&lt;p&gt;从设计决策的角度看，这件事耐人寻味。Apple 新任软件设计负责人 Steve Lemay 是 Liquid Glass 背后的「核心推动力」，他已经明确表态这套设计语言不会撤回，未来几个版本都会持续迭代。换句话说，全局滑块不是认错，而是在坚持方向的前提下给用户一个「音量旋钮」。&lt;/p&gt;
+
+&lt;p&gt;这个思路本身就很值得设计师琢磨。Android 的 &lt;strong&gt;Material You&lt;/strong&gt; 在个性化上走的是色彩路线——用壁纸提取主题色，设计师只需要适配一套色彩变量系统。但 Liquid Glass 滑块要做的是个性化结构性透明度，这对设计一致性是一个大得多的挑战。当用户 A 把透明度拉到最低、用户 B 拉到最高时，同一个导航栏在两个人的设备上看起来完全不同。文字可读性、对比度、视觉层级——设计师要为一个「连续光谱」而不是「两三个档位」做适配。这比换个主题色复杂一个量级。&lt;/p&gt;
+
+&lt;p&gt;往大了说，这可能是 Apple 设计哲学的一次隐性转向。过去二十年，Apple 的设计叙事一直是「我们替你做好了最佳选择」——从 skeuomorphism 到 flat design 到 Liquid Glass，都是自上而下的强制切换。现在第一次出现了「我们做了这个选择，但你可以调」的松动。背后的逻辑大概是：当一个设计语言争议太大时，给用户控制权是比撤回更聪明的做法。毕竟，撤回意味着承认失败，而滑块意味着「我们的设计足够灵活，能容纳不同偏好」。&lt;/p&gt;
+
+&lt;p&gt;iOS 27 beta 预计6月发布，秋季正式推送。如果全局滑块真的落地，这将是 Apple 移动端第一个面向普通用户的、结构性设计语言级别的自定义控件。设计师们需要开始想一个问题：如果你的设计在不同透明度下都要好看，你怎么做视觉层级？&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/"&gt;MacRumors&lt;/a&gt;、&lt;a href="https://www.macworld.com/article/3089789/big-changes-are-coming-to-ios-27-but-liquid-glass-is-here-to-stay.html"&gt;Macworld&lt;/a&gt;、&lt;a href="https://9to5mac.com/2026/02/19/ios-27-will-bring-liquid-glass-changes-and-im-excited-for-one-reason/"&gt;9to5Mac&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/"&gt;https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.macworld.com/article/3089789/big-changes-are-coming-to-ios-27-but-liquid-glass-is-here-to-stay.html"&gt;https://www.macworld.com/article/3089789/big-changes-are-coming-to-ios-27-but-liquid-glass-is-here-to-stay.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/02/19/ios-27-will-bring-liquid-glass-changes-and-im-excited-for-one-reason/"&gt;https://9to5mac.com/2026/02/19/ios-27-will-bring-liquid-glass-changes-and-im-excited-for-one-reason/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">896355f5-7343-51ad-a1e4-205d7b5df4cc</guid>
+      <pubDate>Mon, 23 Mar 2026 13:15:27 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/</link>
+      <enclosure url="https://images.macrumors.com/t/VsViLQTM8N248Ub_nQhAjKpsHlI=/400x0/article-new/2026/03/iOS-27-Glass-Slider-Feature.jpg?lossy" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Google Generative UI 已上线生产环境：当 AI 不只生成内容，还实时生成整个交互界面</title>
+      <description>&lt;figure&gt;&lt;img src="https://storage.googleapis.com/gweb-research2023-media/original_images/GenUI-0c-Hero.png" alt="Google Generative UI 已上线生产环境：当 AI 不只生成内容，还实时生成整个交互界面" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;如果说 Stitch 是「帮设计师更快地设计界面」，那 Google 同期推进的另一个项目在问一个更根本的问题：如果界面本身就不需要人来设计呢？&lt;/p&gt;
+
+&lt;p&gt;Google Research 的 &lt;strong&gt;Generative UI&lt;/strong&gt; 项目已经在两个产品中上线：Gemini 应用中的「Dynamic View」和「Visual Layout」实验功能，以及 Google 搜索的 AI Mode（限美国地区 AI Pro/Ultra 订阅用户，选择「Thinking」模型即可体验）。这不是实验室里的概念验证，而是面向真实用户的生产环境部署。&lt;/p&gt;
+
+&lt;p&gt;它的工作原理颠覆了我们对「界面」的基本认知。Gemini 3 Pro 接收用户查询后，不是返回一段文字或从模板库里挑一个布局，而是用代理编程能力（Agentic Coding）实时生成 HTML、CSS 和 JavaScript，直接在浏览器中渲染成一个完整的交互界面。问「RNA 转录怎么工作」，它可能生成一个可拖拽的分子动画模拟器；问「帮我规划巴黎三日游」，它可能生成一个带时间线、地图和预算计算器的行程工具；问分形几何，它直接给你一个可以调参数的分形生成器。每个回答的界面都是从零开始生成的独一无二的产物。&lt;/p&gt;
+
+&lt;p&gt;效果到底怎么样？Google 的人类偏好测试结果相当扎眼：Generative UI 的输出仅次于人类专家手工设计的网站，大幅超过标准 LLM 文本输出、Markdown 格式以及 Google 搜索排名靠前的现有网页。研究团队还开源了 &lt;strong&gt;PAGEN&lt;/strong&gt; 基准数据集——一组人类专家设计的参考网站——用于标准化评估生成界面的质量。整个系统的质量保障依赖三层架构：工具调用（图片生成、网页搜索）提供素材，系统指令定义设计规范和美学方向（比如「Wizard Green」风格配置），后处理流程自动修正常见的代码和布局错误。&lt;/p&gt;
+
+&lt;p&gt;对产品设计师来说，这件事的冲击力不在技术细节，而在它动摇了一个根本假设：「存在一个固定的界面需要被设计」。传统的产品设计流程——调研、线框图、视觉稿、交互原型、开发走查——全部建立在「界面是预先设计好的静态产物」这个前提上。Generative UI 掀翻了这个前提：界面是运行时根据每个用户的每个查询动态生成的。设计师不再画屏幕，而是定义约束——美学方向、交互规则、工具调用权限和兜底策略。角色从「画界面的人」变成了「设计一个能自己生成界面的系统的人」。&lt;/p&gt;
+
+&lt;p&gt;目前的瓶颈是速度——生成一个完整界面可能超过一分钟，这限制了它只能用在对延迟容忍度较高的场景。但考虑到模型迭代速度，这个限制大概撑不了太久。更值得注意的是，这项研究由 Google Fellow Yaniv Leviathan 和 VP Yossi Matias 领衔，团队规模超过15人——Google 对这个方向押的是重注。问题已经不是「AI 能不能生成好看的界面」，而是「当它可以的时候，我们设计的到底还是界面本身，还是生成界面的规则？」&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"&gt;Google Research&lt;/a&gt;、&lt;a href="https://android.gadgethacks.com/news/google-reveals-generative-ui-that-creates-interactive-search/"&gt;Gadget Hacks&lt;/a&gt;、&lt;a href="https://blog.google/products-and-platforms/products/search/gemini-3-search-ai-mode/"&gt;Google Blog&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"&gt;https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://android.gadgethacks.com/news/google-reveals-generative-ui-that-creates-interactive-search/"&gt;https://android.gadgethacks.com/news/google-reveals-generative-ui-that-creates-interactive-search/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.google/products-and-platforms/products/search/gemini-3-search-ai-mode/"&gt;https://blog.google/products-and-platforms/products/search/gemini-3-search-ai-mode/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">cc3fe726-f499-5a5f-9d8f-f21e78bf66dd</guid>
+      <pubDate>Mon, 23 Mar 2026 13:16:05 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/</link>
+      <enclosure url="https://storage.googleapis.com/gweb-research2023-media/original_images/GenUI-0c-Hero.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>不用嘴巴也能说话：加那利群岛上用口哨「吹」出来的完整语言</title>
+      <description>&lt;figure&gt;&lt;img src="https://photos.smugmug.com/Other/n-hRFP2/Podcast-Images/i-NJQFwX8/0/M43MqM2x3s3tHjNGbkRf3xSr7pPt6NvQNvzZjgwpP/L/1526epart-L.jpg" alt="不用嘴巴也能说话：加那利群岛上用口哨「吹」出来的完整语言" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;如果有人告诉你，世界上有一种语言完全由口哨声组成，而且不是什么简单的信号系统，而是能表达任何西班牙语句子的完整交流方式——你大概会觉得这是编的。但在西班牙加那利群岛的拉戈梅拉岛（La Gomera），这件事已经持续了至少一千五百年。&lt;/p&gt;
+
+&lt;p&gt;这种语言叫 &lt;strong&gt;Silbo Gomero&lt;/strong&gt;，字面意思就是「戈梅拉口哨」。它的原理说起来并不复杂：把西班牙语的每个元音和辅音替换成对应的哨音。元音被简化为两到四个不同音高的哨声（学者之间对具体数量有争议，有人说两个就够了，有人坚持要四个），辅音则按照音高高低和是否连续分成四类——连续高音、断续高音、连续低音、断续低音。一个熟练的 silbador（口哨手）可以用这套系统完整表达西班牙语中的任何句子，从「羊跑到山那边去了」到「今晚家里来客人，多做点饭」。&lt;/p&gt;
+
+&lt;p&gt;但 Silbo 真正厉害的地方不在于它能说什么，而在于它能传多远。普通人喊叫的音量大约在 80 到 100 分贝，而一个训练有素的 silbador 能把口哨吹到 &lt;strong&gt;120 分贝&lt;/strong&gt;——接近摇滚演唱会的音量。哨音的频率集中在 1 到 4 千赫兹之间，正好处于环境噪声之上，穿透力极强。在拉戈梅拉岛那些深切的火山峡谷和陡峭的梯田之间，口哨声可以传播超过 5 公里，是喊叫距离的十倍。在没有电话的年代，这不是炫技，这是在垂直落差几百米的地形里唯一实用的远程通信方式。&lt;/p&gt;
+
+&lt;p&gt;这门语言的起源可以追溯到&lt;strong&gt;关契人&lt;/strong&gt;（Guanches），加那利群岛的原住民。他们大约在公元前五世纪从北非迁来，带来了口哨交流的传统。关契人的原始语言早已失传，但口哨体系在 15 世纪末西班牙殖民者到来后获得了新生——殖民者很快发现，在这种地形里，口哨比马匹传信快得多，也比烟火信号精确得多。于是他们把卡斯蒂利亚西班牙语的语音系统嫁接到了口哨上，创造了今天的 Silbo Gomero。一种语言灭亡了，但它的交流媒介被另一种语言「借壳重生」——这在全世界的语言学案例中极为罕见。&lt;/p&gt;
+
+&lt;p&gt;20 世纪中叶，电话和无线电的普及让 Silbo 迅速衰落。大批岛民外出务工移居大城市，到 1980 年代初，流利的 silbador 已经寥寥无几。就在它快要消亡的时候，拉戈梅拉社区发起了一场抢救运动。1999 年，当地政府做出了一个大胆决定：把 Silbo Gomero 列为中小学&lt;strong&gt;必修课&lt;/strong&gt;。不是兴趣班，不是选修课，而是每个在拉戈梅拉上学的孩子都必须学会的技能——考试方式是两个学生站在操场两端，一个人吹哨子出题，另一个人吹哨子回答。&lt;/p&gt;
+
+&lt;p&gt;这场复兴制造了一个耐人寻味的「人口断层」：1950 年代之前出生的老一辈从小在山间劳作，Silbo 是日常工具；1990 年代之后在学校系统里长大的新一代通过课堂习得了这项技能；而夹在中间的那代人——恰好是电话普及但学校还没教 Silbo 的年代——反而只会一些零碎的基础。如今岛上约两万居民具备至少基本的 Silbo 能力。2009 年，联合国教科文组织将 Silbo Gomero 列入「人类非物质文化遗产代表作名录」，认定它是全世界唯一一种由大规模社区实际使用的完整口哨语言。&lt;/p&gt;
+
+&lt;p&gt;全球其实还有几十种口哨语言散布在墨西哥、土耳其、希腊等山区，但没有一种像 Silbo 这样被整个岛屿的教育体系正式纳入。下次你觉得学外语难的时候，想想拉戈梅拉的孩子们——他们不但要学西班牙语，还得学会用口哨把它再「说」一遍。而在他们的世界里，吹口哨不是无聊的消遣，而是一种正经的说话方式。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://everything-everywhere.com/silbo-gomera-the-whistling-language-of-the-canary-islands/"&gt;https://everything-everywhere.com/silbo-gomera-the-whistling-language-of-the-canary-islands/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-canary-islands-the-silbo-gomero-00172"&gt;https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-canary-islands-the-silbo-gomero-00172&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://languagemuseum.org/language-of-the-month-august-2023-silbo-gomero/"&gt;https://languagemuseum.org/language-of-the-month-august-2023-silbo-gomero/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">53b88e9e-6e79-5848-b91d-a9b4d6e39a51</guid>
+      <pubDate>Mon, 23 Mar 2026 13:16:11 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://everything-everywhere.com/silbo-gomera-the-whistling-language-of-the-canary-islands/</link>
+      <enclosure url="https://photos.smugmug.com/Other/n-hRFP2/Podcast-Images/i-NJQFwX8/0/M43MqM2x3s3tHjNGbkRf3xSr7pPt6NvQNvzZjgwpP/L/1526epart-L.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>数字开头的秘密：为什么 1 出现的频率是 9 的六倍，以及它如何帮警察抓贪污犯</title>
+      <description>&lt;p&gt;随便找一组「野生」数据——各国 GDP、河流长度、城市人口、你的信用卡账单——数一数每个数字的第一位。你会发现一个诡异的规律：以 1 开头的数字大约占 30%，以 2 开头的占 17.6%，然后逐级递减，到 9 只剩下可怜的 4.6%。这不是巧合，不是采样偏差，而是一条数学定律——&lt;strong&gt;本福德定律&lt;/strong&gt;（Benford's Law）。&lt;/p&gt;
+
+&lt;p&gt;第一个注意到这件事的人是加拿大天文学家 Simon Newcomb。1881 年的某天，他在翻一本对数表时发现：前面几页（以 1 和 2 开头的数）比后面几页磨损得厉害得多。他据此推导出一个公式：第一位数字为 d 的概率等于 log₁₀(1 + 1/d)。这意味着 1 出现在首位的概率是 30.1%，而 9 只有 4.6%——相差超过六倍。Newcomb 把这个发现发表在了《美国数学杂志》上，然后……几乎没人注意到。&lt;/p&gt;
+
+&lt;p&gt;五十七年后的 1938 年，通用电气的物理学家 Frank Benford 独立发现了同样的规律。但 Benford 比 Newcomb 多做了一步：他收集了来自 20 个完全不同领域的 20229 组数据——包括河流面积、棒球统计、《读者文摘》上出现的数字、甚至分子量——验证了这些数据全都服从同一个分布。这条定律因此以他的名字命名（Newcomb 表示很冤）。&lt;/p&gt;
+
+&lt;p&gt;这条定律为什么成立？直觉上，你可能觉得 1 到 9 开头的概率应该各占 11% 左右。但自然产生的数据往往跨越多个数量级，而且按&lt;strong&gt;对数&lt;/strong&gt;分布。想象一下：从 100 到 200，第一位数字都是 1，区间长度是 100；但从 900 到 999，第一位数字是 9 的区间只有 99。数字在增长过程中，「路过」小首位数字的时间更长。更专业地说，如果一组数据对测量单位的选择不敏感（用美元还是欧元、用公里还是英里），那它就一定服从本福德定律。这叫做&lt;strong&gt;尺度不变性&lt;/strong&gt;（Scale Invariance）。&lt;/p&gt;
+
+&lt;p&gt;好了，一条关于数字首位的数学规律，听起来像是学术论文里的趣闻。但在 2001 年安然（Enron）公司丑闻爆发时，这条定律突然变得非常实用。&lt;/p&gt;
+
+&lt;p&gt;审计人员把安然财务报表中的所有数字拉出来，统计首位数字的分布——结果发现严重偏离本福德定律。造假的财务数据暴露了自己：因为人类在编造数字时，会下意识地追求「看起来随机」，让 1 到 9 大致均匀分布。但真实的财务数据不该均匀分布——它应该遵循本福德定律。造假者的直觉恰好暴露了他们的伪造。&lt;/p&gt;
+
+&lt;p&gt;如今，本福德定律已经成为&lt;strong&gt;法庭认可的证据&lt;/strong&gt;。在美国的联邦、州和地方各级法院，审计师可以直接用首位数字分析作为欺诈指控的支持证据。会计事务所和反欺诈机构（比如 ACFE，注册欺诈审查师协会）把它写进了标准审计流程。操作很简单：把一家公司的报销单、发票、转账记录全部导入软件，自动统计首位数字分布，一旦偏差超过阈值就标记为可疑。&lt;/p&gt;
+
+&lt;p&gt;这条定律的应用远不止财务审计。2009 年伊朗总统大选后，统计学家用本福德定律分析了选举数据，发现部分选区的计票结果存在异常偏差——这被作为选举舞弊的间接证据之一。甚至有人建议用它来检测社交媒体上的虚假粉丝数和注水播放量。&lt;/p&gt;
+
+&lt;p&gt;不过它也有局限。像电话号码、邮政编码、身份证号这类人为设定范围的数字就不服从本福德定律，因为它们不是自然生长出来的。小规模数据集也可能偏离分布。但对于任何足够大的、自然产生的数据集——发票金额、交易流水、人口统计——这条看似不可能的规律都稳稳成立。一个 1881 年从破旧对数表上发现的规律，一百多年后成了抓贪污犯的利器。数学有时候就是这么不讲道理。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.acfe.com/acfe-insights-blog/blog-detail?s=what-is-benfords-law-and-why-fraud-examiners-use-it"&gt;https://www.acfe.com/acfe-insights-blog/blog-detail?s=what-is-benfords-law-and-why-fraud-examiners-use-it&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/"&gt;https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2007.00234.x"&gt;https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2007.00234.x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d4d26579-f14b-55c2-8c7a-5b1685c92a6c</guid>
+      <pubDate>Mon, 23 Mar 2026 13:16:53 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.acfe.com/acfe-insights-blog/blog-detail?s=what-is-benfords-law-and-why-fraud-examiners-use-it</link>
+    </item>
+    <item>
+      <title>地球上最像外星球的地方：埃塞俄比亚达纳基尔洼地，NASA 在这里练习找火星生命</title>
+      <description>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dallol-Ethiopie_%286%29.jpg/1280px-Dallol-Ethiopie_%286%29.jpg" alt="地球上最像外星球的地方：埃塞俄比亚达纳基尔洼地，NASA 在这里练习找火星生命" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;如果你想不出火星表面可能长什么样，去埃塞俄比亚东北部看看就行了。达纳基尔洼地（Danakil Depression）——海拔低于海平面 125 米，年均气温 34.4°C，峰值超过 50°C，有的区域几乎从不下雨。这里不是比喻性的「地狱」，而是地质学家和天体生物学家眼中地球上最接近外星环境的地方。&lt;/p&gt;
+
+&lt;p&gt;这片洼地位于&lt;strong&gt;阿法尔三联点&lt;/strong&gt;（Afar Triple Junction），阿拉伯板块、努比亚板块和索马里板块在这里互相拉扯。三块板块持续分裂，地壳被拉薄到极限，岩浆几乎就在地表下面。这个过程已经进行了数百万年，而且仍在继续——科学家预测，再过几百万年，这里会裂开形成一个新的海洋。现在的达纳基尔，就是一个「海洋正在出生」的现场。&lt;/p&gt;
+
+&lt;p&gt;洼地里最戏剧性的景观是&lt;strong&gt;达洛尔&lt;/strong&gt;（Dallol）热液区。想象一片由亮黄色、翠绿色和铁锈红组成的超现实地貌：含硫的热泉从地下涌出，在盐壳表面形成一个个色彩鲜艳的酸性池塘。这些水的 pH 值可以低到 0.25——几乎是纯酸。温度超过 94°C。盐分浓度远超海水。空气中弥漫着硫化氢的臭鸡蛋味。换句话说，这里同时满足了高温、强酸、高盐三重极端条件，在地球上几乎找不到第二个这样的地方。&lt;/p&gt;
+
+&lt;p&gt;但就是在这种看起来不可能有生命的环境里，科学家找到了活的东西。2019 年，博洛尼亚大学的 Barbara Cavalazzi 教授团队在达洛尔的热液烟囱中发现了&lt;strong&gt;超微型微生物&lt;/strong&gt;——体积只有普通细菌的二十分之一。这些顽强的小家伙必须同时耐受高温、强酸和高盐，才能在这里存活。它们的发现直接推动了天体生物学的一个核心问题：如果生命能在达洛尔这种条件下存在，那么火星地表下的含盐热液系统里，是否也可能藏着类似的微生物？&lt;/p&gt;
+
+&lt;p&gt;NASA 和欧洲航天局（ESA）早就盯上了这个地方。达洛尔的地球化学特征与火星古谢夫撞击坑（Gusev Crater）有惊人的相似性——那正是「勇气号」火星车着陆的地方。欧洲的 Europlanet 项目已经正式将达纳基尔列为&lt;strong&gt;行星类比研究场地&lt;/strong&gt;（Planetary Field Analog），供天体生物学家申请前来做实地研究。在踏上火星之前，先在达纳基尔练习——这是科学界的真实策略。&lt;/p&gt;
+
+&lt;p&gt;除了达洛尔，洼地南部还有另一个明星景点：&lt;strong&gt;尔塔阿雷火山&lt;/strong&gt;（Erta Ale），拥有世界上持续时间最长的熔岩湖之一。岩浆在火山口中翻涌冒泡，夜晚从远处就能看到红色的光芒。北端还有加达阿雷火山（Gada Ale），一座 287 米高的层状火山，火山口里装着一湖沸腾的泥浆和硫化气体。在这样一个既有酸性热泉又有活跃熔岩湖的地方，你很难不产生「这真的还是地球吗」的错觉。&lt;/p&gt;
+
+&lt;p&gt;然而就在这片「外星地貌」上，人类已经生活了至少两千年。&lt;strong&gt;阿法尔人&lt;/strong&gt;（Afar）是这里的原住民，世世代代以采盐为生。盐在埃塞俄比亚历史上曾经是货币，而达纳基尔洼地的盐几乎取之不尽。今天，阿法尔人仍然用骆驼和驴子驮着盐板穿越沙漠，沿用着数百年前几乎没有变化的运输方式。50°C 的高温，pH 接近 0 的酸水，持续活跃的火山——对他们来说，这只是普通的工作环境。&lt;/p&gt;
+
+&lt;p&gt;达纳基尔提出了一个朴素但深刻的问题：生命的极限在哪里？如果细菌可以在 pH 0.25 的纯酸中存活，如果人类可以在 50°C 的盐沙漠里世代居住，那么当我们在火星或木卫二的冰下海洋里寻找生命时，也许应该把「不可能」这个词用得更谨慎一些。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://geologyscience.com/gallery/geological-wonders/the-danakil-depression-ethiopia/"&gt;https://geologyscience.com/gallery/geological-wonders/the-danakil-depression-ethiopia/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://science.nasa.gov/earth/earth-observatory/curiosities-of-the-danakil-depression-84239/"&gt;https://science.nasa.gov/earth/earth-observatory/curiosities-of-the-danakil-depression-84239/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.europlanet.org/news/danakil/"&gt;https://www.europlanet.org/news/danakil/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://astrobiology.com/2018/04/extreme-environment-of-danakil-depression-sheds-light-on-mars-titan.html"&gt;https://astrobiology.com/2018/04/extreme-environment-of-danakil-depression-sheds-light-on-mars-titan.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">abb7ec05-4deb-5172-8f00-491d555f7ae5</guid>
+      <pubDate>Mon, 23 Mar 2026 13:17:39 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://geologyscience.com/gallery/geological-wonders/the-danakil-depression-ethiopia/</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dallol-Ethiopie_%286%29.jpg/1280px-Dallol-Ethiopie_%286%29.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>番茄酱的前世今生：它曾经是一瓶中国鱼露，花了三百年才变红</title>
+      <description>&lt;figure&gt;&lt;img src="https://compote.slate.com/images/8c95b914-4623-4371-bfe8-3492fb154ffe.jpg?width&amp;amp;#x3D;1560" alt="番茄酱的前世今生：它曾经是一瓶中国鱼露，花了三百年才变红" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;番茄酱（ketchup）可能是全世界辨识度最高的调味品了——红色、甜酸、和薯条形影不离。但如果你穿越回它诞生的时刻，你看到的不会是红色的番茄，而是一瓶深褐色的发酵鱼露。而且不是在美国，不是在欧洲，而是在中国福建。&lt;/p&gt;
+
+&lt;p&gt;「ketchup」这个词来自闽南语（Hokkien）的&lt;strong&gt;「鮭汁」（kê-chiap）&lt;/strong&gt;，意思是「腌鱼的汁水」。在福建沿海，渔民很早就掌握了用盐腌制小鱼并收集其发酵汁液的技术——本质上和今天越南的鱼露（fish sauce）、泰国的 nam pla 是一回事。福建人随着海上贸易和移民潮把这种酱汁带到了东南亚各地：印尼的 kecap（今天的甜酱油就从这个词演变而来）、马来西亚、菲律宾，到处都有 kê-chiap 的身影。&lt;/p&gt;
+
+&lt;p&gt;17 世纪，荷兰和英国商人来到东南亚做生意，在和中国商人打交道的过程中尝到了这种鱼露。一份 1703 年的贸易指南记载，越南东京（Tonkin）产的 ketchup 利润极高。英国水手对这种调味品上了瘾，带着一桶桶的 ke-tchup 回到英国。但问题来了：在英国本土根本买不到正宗的亚洲鱼露。于是英国厨师们开始了长达一个多世纪的「山寨」之路。&lt;/p&gt;
+
+&lt;p&gt;18 世纪的英式 ketchup 和今天的番茄酱完全不是一回事。最流行的版本是&lt;strong&gt;蘑菇 ketchup&lt;/strong&gt;——用蘑菇腌制发酵后收集的深色汁液，再加入丁香、肉桂、胡椒等香料。简·奥斯汀的家庭最爱的是&lt;strong&gt;核桃 ketchup&lt;/strong&gt;，用青核桃加盐腌制后煮沸，混入醋、丁香、肉豆蔻和辣根。还有锚鱼 ketchup、牡蛎 ketchup、啤酒 ketchup——总之，只要是深色的、咸鲜的、带鲜味（umami）的液态调味品，英国人都叫它 ketchup。这个词的含义已经从「腌鱼汁」扩展成了「任何浓缩的鲜味酱汁」。&lt;/p&gt;
+
+&lt;p&gt;转折发生在 19 世纪初的美国。番茄这种原产南美洲的水果在欧洲长期被当成有毒的观赏植物——它毕竟是茄科的，和颠茄、曼陀罗是亲戚。但在美国，人们更早接受了番茄的食用价值。1812 年，费城的 James Mease 发表了已知最早的&lt;strong&gt;番茄 ketchup 配方&lt;/strong&gt;，用番茄泥、香料和白兰地制成。这是 ketchup 从鱼变红的起点。&lt;/p&gt;
+
+&lt;p&gt;真正让番茄酱统一天下的是 &lt;strong&gt;Henry J. Heinz&lt;/strong&gt;。1876 年，亨氏推出了自己的番茄 ketchup 配方。关键创新在于：他大量使用了醋和糖，既延长保质期又创造了那种标志性的甜酸口感。更聪明的是营销——亨氏把 ketchup 装进透明玻璃瓶，让消费者能看到产品的鲜红色泽（之前的酱汁都装在不透明容器里）。到 20 世纪初，番茄 ketchup 已经彻底取代了所有其他 ketchup，以至于今天大多数人根本不知道曾经有过蘑菇版、核桃版或鱼露版。&lt;/p&gt;
+
+&lt;p&gt;这个故事的魔幻之处在于：一个闽南语词汇穿越了太平洋、印度洋和大西洋，从中国鱼露变成英国蘑菇酱再变成美国番茄酱，语音几乎没变，但内容物已经面目全非。每次你挤出一坨亨氏番茄酱涂在薯条上的时候，你其实在使用一个至少有三百年历史的闽南语借词——只不过福建渔民大概认不出来了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://slate.com/human-interest/2012/05/ketchups-chinese-origins-how-it-evolved-from-fish-sauce-to-todays-tomato-condiment.html"&gt;https://slate.com/human-interest/2012/05/ketchups-chinese-origins-how-it-evolved-from-fish-sauce-to-todays-tomato-condiment.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scmp.com/magazines/post-magazine/article/2103418/when-china-invented-ketchup-300bc-and-how-it-morphed"&gt;https://www.scmp.com/magazines/post-magazine/article/2103418/when-china-invented-ketchup-300bc-and-how-it-morphed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/culture/article/how-was-ketchup-invented"&gt;https://www.nationalgeographic.com/culture/article/how-was-ketchup-invented&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">948e43a3-1990-5c6b-b7c5-122b15f42bd8</guid>
+      <pubDate>Mon, 23 Mar 2026 13:18:19 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://slate.com/human-interest/2012/05/ketchups-chinese-origins-how-it-evolved-from-fish-sauce-to-todays-tomato-condiment.html</link>
+      <enclosure url="https://compote.slate.com/images/8c95b914-4623-4371-bfe8-3492fb154ffe.jpg?width&amp;#x3D;1560" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>砸开自家地下室的墙，发现了一座能住两万人的 18 层地下城市</title>
+      <description>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg/800px-Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg" alt="砸开自家地下室的墙，发现了一座能住两万人的 18 层地下城市" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;1963 年，土耳其内夫谢希尔省（Nevşehir）的一个普通居民在翻修自家地下室时，用锤子砸开了一面墙。墙后面是一条隧道。隧道通向更多隧道。更多隧道通向房间、大厅、教堂、马厩、酿酒坊、地牢……他意外打开的，是一座深达 85 米、共 18 层、能容纳两万人的古代&lt;strong&gt;地下城市&lt;/strong&gt;——德林库尤（Derinkuyu）。&lt;/p&gt;
+
+&lt;p&gt;德林库尤位于土耳其中部的卡帕多西亚（Cappadocia）地区。这片土地的基岩是数百万年前火山喷发留下的&lt;strong&gt;凝灰岩&lt;/strong&gt;（Tuff）——一种质地柔软、易于开凿但干燥后会变硬的火山沉积岩。正是这种独特的地质条件，让古人可以像挖黏土一样挖石头，用最原始的工具建造出令人难以置信的地下工程。&lt;/p&gt;
+
+&lt;p&gt;关于谁最先开始挖掘，考古学界至今没有定论。有人认为最早的开凿者是公元前 700 年左右的弗里吉亚人（Phrygians），也有理论追溯到公元前 2000 年的赫梯人（Hittites）。可以确定的是，到了拜占庭时代（约 6-10 世纪），德林库尤已经发展成一座功能完备的地下避难城市。基督徒在阿拉伯-拜占庭战争期间、蒙古人入侵时期、以及后来的奥斯曼扩张中反复使用这个地下庇护所——每当地面上的战火逼近，整个社区就钻入地下，封死入口，靠储存的粮食和地下水源撑过围困。&lt;/p&gt;
+
+&lt;p&gt;这座城市的工程设计让现代人也不得不佩服。最核心的生存问题——通风——通过超过&lt;strong&gt;一万五千个竖井&lt;/strong&gt;解决。大部分竖井直径仅约 10 厘米，从地表一直延伸到第八层，确保新鲜空气能到达最深处。这些竖井设计得如此巧妙，很多同时兼做水井——地面上的居民世代从井中打水饮用，完全不知道脚下藏着一整座城市。&lt;/p&gt;
+
+&lt;p&gt;每一层的功能分工相当精细：上层设有储物间和牲畜圈，方便快速转移动物和补给；中层是居住区和厨房；第七层有一座十字形的教堂和修道院，拱顶高约 2.5 米，在地下 60 米的深处营造出一个完整的礼拜空间。最深层据说还有关押俘虏的地牢。整座城市的防御核心是&lt;strong&gt;巨型圆石门&lt;/strong&gt;——直径约 1.5 米、重达数百公斤的石盘可以从内部滚动封闭通道入口，但从外部完全无法打开。每一层都有独立的圆石门，形成层层嵌套的防御体系。攻破一道门，还有十七道等着你。&lt;/p&gt;
+
+&lt;p&gt;更惊人的是，德林库尤并不孤立。考古学家发现了一条长约 8 公里的隧道，将它和附近的另一座地下城市凯马克勒（Kaymakli）连接在一起。卡帕多西亚地区已发现的地下城市总数超过 &lt;strong&gt;36 座&lt;/strong&gt;，构成了一个庞大的地下网络。学者推测，鼎盛时期这些相互连通的地下城市可能同时庇护了数万甚至十万人——一个隐藏在地表以下的平行世界。&lt;/p&gt;
+
+&lt;p&gt;德林库尤最后一次被大规模使用是在 20 世纪初。卡帕多西亚的希腊裔基督徒在奥斯曼帝国末期的种族清洗中再次躲入地下城避难，直到 1923 年希土人口交换后永久离开了这片土地。地下城也随之被遗忘——直到 40 年后那个倒霉（或者说极其幸运）的装修工砸了那面墙。&lt;/p&gt;
+
+&lt;p&gt;如今德林库尤的前八层已向游客开放。走在那些狭窄的石廊里，头顶是千年前的凿痕，脚下还有十层未知的黑暗，你会忍不住想：在没有电力、没有现代机械的年代，这些人是怎么在固体岩石中一锤一凿地挖出一座 18 层建筑的？而且是向下挖。这不是一代人的工程，而是跨越了至少两千年、由无数代人接力完成的地下建筑奇迹。最初拿起凿子的那个人，永远看不到最终的全貌。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://bigthink.com/strange-maps/derinkuyu-underground-city/"&gt;https://bigthink.com/strange-maps/derinkuyu-underground-city/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Derinkuyu_underground_city"&gt;https://en.wikipedia.org/wiki/Derinkuyu_underground_city&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ancient-origins.net/ancient-places-asia/derinkuyu-0073"&gt;https://www.ancient-origins.net/ancient-places-asia/derinkuyu-0073&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">06a6d324-5216-5859-8d8e-0c17ab02ee90</guid>
+      <pubDate>Mon, 23 Mar 2026 13:19:06 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://bigthink.com/strange-maps/derinkuyu-underground-city/</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg/800px-Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
