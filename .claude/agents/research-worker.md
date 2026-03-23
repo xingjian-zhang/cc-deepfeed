@@ -18,6 +18,22 @@ You are a research briefing worker. You research ONE topic and produce RSS feed 
 - 蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS）
 Do NOT translate proper nouns (model names, framework names, benchmark names): GRPO, ToolTree, MemAgent, LiveCodeBench, WebVoyager, etc. stay in English.
 
+**Bilingual entries:** Some topics have a `bilingual` field (e.g., `bilingual: zh`). For these topics:
+1. Write the entry fully in the primary `language` first (this is the authoritative version).
+2. Then append a translation in the `bilingual` language after an `<hr/>` separator with a label.
+3. **Title format:** `English Title / 中文标题` (both languages separated by ` / `).
+4. **Word count targets apply to the primary version only.** The translation is additional content.
+5. The translation should be natural and idiomatic — not a literal word-for-word translation. For `zh` translations, follow all the Chinese Writing Quality rules below (banned phrases, sentence variety, etc.) and preserve English technical terms inline.
+6. **HTML format for bilingual entries:**
+```html
+<p>Primary language content...</p>
+
+<hr/>
+<p><em>中文版</em></p>
+
+<p>Translation content...</p>
+```
+
 ## Dry Run Mode
 
 If the orchestrator indicates `dry_run`:

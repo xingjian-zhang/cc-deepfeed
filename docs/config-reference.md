@@ -33,6 +33,13 @@ topics:
     language: en
     target: 3
     model: sonnet
+
+  - id: product-design
+    name: "Product Design Trends / 产品设计趋势"
+    depth: deep
+    language: en
+    bilingual: zh           # English first, Chinese translation appended
+    target: 3
 ```
 
 | Field | Required | Default | Description |
@@ -41,6 +48,7 @@ topics:
 | `name` | yes | — | Display name used in feed entries |
 | `depth` | yes | — | Entry length: `quick` (~200 words), `standard` (~400 words), `deep` (~600-800 words) |
 | `language` | no | `en` | Output language. `en` for English, `zh` for Chinese |
+| `bilingual` | no | — | Secondary language for bilingual entries (e.g., `zh`). When set, entries are written in the primary `language` first, then a translation in this language is appended after an `<hr/>` separator. Word count targets apply to the primary version only |
 | `target` | yes | — | Mandatory number of entries to produce per research cycle. Workers are retried if targets aren't met |
 | `model` | no | `opus` | Claude model for research. Use `sonnet` for cheaper factual topics, `opus` for deep analysis |
 

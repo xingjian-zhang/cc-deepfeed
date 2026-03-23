@@ -34,6 +34,13 @@ topics:
     target: 4
     model: sonnet           # optional: sonnet for cheaper factual work (default: opus)
 
+  - id: product-design
+    name: "Product Design Trends / 产品设计趋势"
+    depth: deep
+    language: en
+    bilingual: zh           # optional: append translation in secondary language
+    target: 3
+
 feeds:
   - id: my-feed
     combined_feed: daily-briefings       # becomes feeds/daily-briefings.xml

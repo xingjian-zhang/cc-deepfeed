@@ -18,6 +18,7 @@ Deep research briefings delivered as RSS feeds, powered by Claude Code.
 - **File locking:** `feed.py` uses `fcntl.flock` to safely handle concurrent XML writes from parallel workers.
 - **Per-topic targets:** Each topic has a `target` field specifying how many entries to aim for per run.
 - **Model selection:** Each topic can set `model: sonnet` for cheaper factual work; defaults to Opus.
+- **Bilingual entries:** Topics can set `bilingual: <lang>` to produce entries in the primary language first, with a translation appended. Useful when the reader's expertise domain is in a different language than their preferred reading language.
 - **WebSub:** Optional. Set `websub_hub` in config settings. `publish.sh` pings the hub for all XMLs after each push.
 - **Scheduling:** See `docs/scheduling.md` for launchd, cron, and systemd templates.
 - **Remote:** Uses SSH (`git@github.com:...`) for auth in headless/cron contexts.
