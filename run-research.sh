@@ -6,7 +6,40 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+# --- Config ---
 CLAUDE_BIN="${CLAUDE_BIN:-claude}"
+WORKER_TIMEOUT="${WORKER_TIMEOUT:-900}"   # 15 min per worker
+TIMEOUT_BIN="${TIMEOUT_BIN:-/opt/homebrew/bin/timeout}"
+
+# --- Log rotation ---
+mkdir -p .logs
+LOG_FILE=".logs/research-$(date +%Y-%m-%d).log"
+exec >> "$LOG_FILE" 2>&1
+
+# Clean up logs older than 7 days
+find .logs -name "research-*.log" -mtime +7 -delete 2>/dev/null || true
+find .logs -name "*_round*.log" -mtime +7 -delete 2>/dev/null || true
+find .logs -name "*_retry*.log" -mtime +7 -delete 2>/dev/null || true
+
+# --- Guaranteed publish on exit ---
+PUBLISHED=0
+cleanup_publish() {
+    if [ "$PUBLISHED" -eq 0 ]; then
+        echo ""
+        echo "--- Emergency publish (orchestration did not complete normally) ---"
+        python3 feed.py prune --keep 50 || true
+        local base_url
+        base_url=$(python3 -c "
+import yaml
+with open('config.yaml') as f:
+    print(yaml.safe_load(f).get('settings',{}).get('base_url',''))
+" 2>/dev/null || true)
+        if [ -n "$base_url" ]; then
+            bash publish.sh "$base_url" || true
+        fi
+    fi
+}
+trap cleanup_publish EXIT
 
 # Parse topics from config.yaml: topic_id|target|model
 TOPICS=$(python3 -c "
@@ -26,15 +59,13 @@ RUN_ID=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "=== Research cycle: $RUN_ID ==="
 echo ""
 
-# Ensure log dirs exist
-mkdir -p .logs
-
 spawn_workers() {
     local round_name="$1"
     shift
     local topics_to_run=("$@")
 
     local pids=()
+    local topic_ids=()
     for line in "${topics_to_run[@]}"; do
         IFS='|' read -r topic_id target_or_gap model extra_prompt <<< "$line"
         echo "  [$round_name] $topic_id (target: $target_or_gap, model: $model)"
@@ -44,17 +75,36 @@ spawn_workers() {
             prompt="$prompt $extra_prompt"
         fi
 
-        "$CLAUDE_BIN" --model "$model" -p "$prompt" \
+        "$TIMEOUT_BIN" --kill-after=30 "$WORKER_TIMEOUT" \
+            "$CLAUDE_BIN" --model "$model" -p "$prompt" \
             --allowedTools "WebSearch,WebFetch,Bash,Read,Grep,Glob" \
             > ".logs/${topic_id}_${round_name}.log" 2>&1 &
         pids+=($!)
+        topic_ids+=("$topic_id")
     done
 
-    echo "  Waiting for ${#pids[@]} workers..."
+    echo "  Waiting for ${#pids[@]} workers (timeout: ${WORKER_TIMEOUT}s)..."
+    local failed=()
+    local i=0
     for pid in "${pids[@]}"; do
-        wait "$pid" || true
+        local exit_code=0
+        wait "$pid" || exit_code=$?
+        local tid="${topic_ids[$i]}"
+        if [ "$exit_code" -eq 124 ] || [ "$exit_code" -eq 137 ]; then
+            echo "  TIMEOUT: $tid (killed after ${WORKER_TIMEOUT}s)"
+            failed+=("$tid:timeout")
+        elif [ "$exit_code" -ne 0 ]; then
+            echo "  FAILED: $tid (exit code $exit_code)"
+            failed+=("$tid:exit-$exit_code")
+        else
+            echo "  OK: $tid"
+        fi
+        i=$((i + 1))
     done
-    echo "  [$round_name] All workers complete."
+    if [ ${#failed[@]} -gt 0 ]; then
+        echo "  [$round_name] Failures: ${failed[*]}"
+    fi
+    echo "  [$round_name] Done."
     echo ""
 }
 
@@ -116,5 +166,6 @@ with open('config.yaml') as f:
     print(yaml.safe_load(f).get('settings',{}).get('base_url',''))
 ")
 bash publish.sh "$BASE_URL"
+PUBLISHED=1
 echo ""
 echo "=== Done ==="

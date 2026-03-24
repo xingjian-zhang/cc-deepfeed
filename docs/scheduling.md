@@ -36,10 +36,13 @@ Create a plist file at `~/Library/LaunchAgents/com.cc-deepfeed.plist`:
         <integer>7</integer>
     </dict>
 
+    <key>ExitTimeOut</key>
+    <integer>1800</integer>
+
     <key>StandardOutPath</key>
-    <string>/PATH/TO/cc-deepfeed/.logs/research.log</string>
+    <string>/PATH/TO/cc-deepfeed/.logs/launchd-latest.log</string>
     <key>StandardErrorPath</key>
-    <string>/PATH/TO/cc-deepfeed/.logs/research.err</string>
+    <string>/PATH/TO/cc-deepfeed/.logs/launchd-latest.err</string>
 
     <key>EnvironmentVariables</key>
     <dict>
@@ -51,6 +54,8 @@ Create a plist file at `~/Library/LaunchAgents/com.cc-deepfeed.plist`:
 ```
 
 Replace `/PATH/TO/cc-deepfeed` with your actual project path. Make sure the `PATH` includes wherever `claude` is installed (check with `which claude`).
+
+**Important:** The `ExitTimeOut` (30 min) kills the job if it runs too long — this prevents hung workers from blocking indefinitely. The script manages its own dated log files (`.logs/research-YYYY-MM-DD.log`) with 7-day rotation; the `launchd-latest.*` files are only a fallback. On macOS with Homebrew, add `/opt/homebrew/bin` to the PATH for GNU `timeout`.
 
 Load and start:
 
@@ -73,10 +78,10 @@ crontab -e
 Add:
 
 ```
-7 9 * * * cd /path/to/cc-deepfeed && bash run-research.sh >> .logs/research.log 2>> .logs/research.err
+7 9 * * * cd /path/to/cc-deepfeed && bash run-research.sh
 ```
 
-This runs daily at 9:07 AM.
+This runs daily at 9:07 AM. The script manages its own log rotation — no need for shell redirects.
 
 ## Linux: systemd
 
@@ -92,8 +97,7 @@ Description=cc-deepfeed research cycle
 Type=oneshot
 WorkingDirectory=/path/to/cc-deepfeed
 ExecStart=/bin/bash run-research.sh
-StandardOutput=append:/path/to/cc-deepfeed/.logs/research.log
-StandardError=append:/path/to/cc-deepfeed/.logs/research.err
+TimeoutStartSec=1800
 ```
 
 **`~/.config/systemd/user/cc-deepfeed.timer`**
