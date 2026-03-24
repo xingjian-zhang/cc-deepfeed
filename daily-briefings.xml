@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed</title>
@@ -9,7 +9,7 @@
     </image>
     <description>Deep research briefings on AI, tech, sports, and local news</description>
     <link>https://xingjianz.com/rss-research/daily-briefings.xml</link>
-    <lastBuildDate>Mon, 23 Mar 2026 13:19:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 03:40:52 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/rss-research/daily-briefings.xml" type="application/rss+xml" />
@@ -1888,6 +1888,260 @@
       <category>random-knowledge</category>
       <link>https://bigthink.com/strange-maps/derinkuyu-underground-city/</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg/800px-Derinkuyu_Underground_City_9843_Nevit_Dilmen.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>JEPA 入门：为什么 LeCun 认为 next-token prediction 走不到 AGI</title>
+      <description>&lt;figure&gt;&lt;img src="https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2261869274.jpg" alt="JEPA 入门：为什么 LeCun 认为 next-token prediction 走不到 AGI" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;如果你一直在 LLM 圈子里，可能偶尔听到 Yann LeCun 说"自回归生成是死路一条"，然后提到一个叫 &lt;strong&gt;JEPA（Joint Embedding Predictive Architecture，联合嵌入预测架构）&lt;/strong&gt;的东西。这篇文章帮你快速理清 JEPA 到底在说什么，以及它和我们熟悉的 next-token prediction 有什么本质区别。&lt;/p&gt;
+
+&lt;h3&gt;问题：像素级预测太浪费了&lt;/h3&gt;
+
+&lt;p&gt;先从一个直觉出发。你看一段视频，有人把杯子推到桌子边缘——你能预测杯子会掉下去。但你预测的不是杯子表面每个像素的精确颜色和光影变化，而是一个抽象概念："杯子会掉落。"&lt;/p&gt;
+
+&lt;p&gt;这恰好是 LeCun 对当前两大自监督学习范式的核心批评：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;生成式方法&lt;/strong&gt;（如 MAE, Masked Autoencoder）：把图像遮住一部分，让模型重建原始像素。问题是模型不得不花大量容量去预测草地的纹理、水面的反光这些本质上随机的细节。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对比学习&lt;/strong&gt;（Contrastive Learning，如 CLIP、SimCLR）：让同一张图的不同增强版本的表征靠近，不同图的表征远离。效果不错，但严重依赖数据增强策略（裁剪、翻转、颜色抖动），模型学到的不变性被这些手工选择的增强方式所限定。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;JEPA 的思路不同：&lt;strong&gt;在抽象表征空间里做预测，而非在像素空间&lt;/strong&gt;。具体来说，两个编码器分别把输入的不同部分映射到嵌入空间，然后一个 predictor 模块从一个视角的嵌入预测另一个视角的嵌入。因为目标是嵌入而非像素，模型可以自由丢弃不可预测的细节，只保留语义上有意义的信息。&lt;/p&gt;
+
+&lt;h3&gt;避免表征坍缩&lt;/h3&gt;
+
+&lt;p&gt;在嵌入空间做预测有个经典陷阱：模型可能学会把所有输入映射到同一个点（collapse）——这样"预测"永远正确，但什么也没学到。JEPA 用指数移动平均（EMA）更新 target encoder 的权重（类似 BYOL 和 data2vec 的做法），同时限制潜空间维度，来避免这个问题。不需要负样本，也不需要大 batch 对比。&lt;/p&gt;
+
+&lt;h3&gt;JEPA 家族：从图像到视频到语言&lt;/h3&gt;
+
+&lt;p&gt;JEPA 不是一个具体模型，而是一个架构范式。过去三年里已经衍生出一整个家族：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I-JEPA&lt;/strong&gt;（2023）是第一个落地实现。在图像上随机遮住多个大块区域，用剩余上下文的嵌入预测被遮区域的嵌入。结果很能说明问题：ViT-Huge/14 在 ImageNet 上仅用 16 张 A100 训练不到 72 小时就达到了 SOTA 级的低样本分类性能，而同级别的 MAE 方法需要 2 到 10 倍的 GPU 时间且错误率更高。在物体计数和深度估计这类需要语义理解的任务上，I-JEPA 同样超越了以往方法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;V-JEPA&lt;/strong&gt;（2024）把同样的思路推广到视频，遮住大块时空区域，在嵌入空间预测缺失内容。关键优势是"冻结评估"——预训练好的编码器和 predictor 完全不动，只在上面接一个轻量头做下游任务。训练和样本效率比生成式方法提升 1.5x 到 6x。到了 &lt;strong&gt;V-JEPA 2&lt;/strong&gt;（2025 年中），Something-Something v2 上达到 77.3 top-1 准确率，Epic-Kitchens-100 动作预测 recall@5 达到 39.7，超过之前的专用模型。最新的 &lt;strong&gt;V-JEPA 2.1&lt;/strong&gt;（2026 年 3 月）进一步解锁了稠密特征能力，在真实机器人抓取任务中成功率比 V-JEPA 2 提升了 20 个百分点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MC-JEPA&lt;/strong&gt; 用共享编码器同时学习光流（Motion）和内容（Content）特征，面向自动驾驶和视频监控。&lt;strong&gt;VL-JEPA&lt;/strong&gt; 则把 JEPA 扩展到视觉-语言领域，不自回归生成 token，而是预测目标文本的连续嵌入。还有 &lt;strong&gt;A-JEPA&lt;/strong&gt;（音频）、&lt;strong&gt;Text-JEPA&lt;/strong&gt;、&lt;strong&gt;M3-JEPA&lt;/strong&gt;（用 MoE 做多模态对齐，已被 ICML 2025 接收）等等——到 2026 年初，JEPA 家族已有十余个变体。&lt;/p&gt;
+
+&lt;h3&gt;LLM 从业者为什么该关注&lt;/h3&gt;
+
+&lt;p&gt;你可能觉得这是 CV 的事。但有几个点值得想清楚：&lt;/p&gt;
+
+&lt;p&gt;第一，&lt;strong&gt;与 next-token prediction 的本质对照&lt;/strong&gt;。LLM 在离散 token 空间自回归生成，每一步都必须产出一个输出。JEPA 的 predictor 在连续嵌入空间工作，可以做任意长度的内部推理再做决策——这正是 Daniel Kahneman 所说的 System 2 慢思考。已经有人在做桥接：&lt;a href="https://arxiv.org/abs/2509.14252"&gt;LLM-JEPA&lt;/a&gt; 把标准交叉熵损失和 JEPA 嵌入预测损失加权混合，在微调和预训练中都显著提升了性能，而且对过拟合的抵抗力明显更强——baseline 在训练后期性能开始退化时，LLM-JEPA 还在持续提升。&lt;/p&gt;
+
+&lt;p&gt;第二，&lt;strong&gt;世界模型与规划&lt;/strong&gt;。LeCun 2022 年的 blueprint 里，JEPA 是 autonomous agent 的世界模型模块：agent 提出一系列动作，世界模型在嵌入空间推演后果，生成代价信号来指导行动选择。这和当前 LLM agent 用 chain-of-thought 加 tool use 的方式走的是完全不同的路线，但目标一致——让 AI 能做 planning。&lt;/p&gt;
+
+&lt;p&gt;第三，&lt;strong&gt;钱在往这个方向流&lt;/strong&gt;。2026 年 3 月，LeCun 创办的 &lt;a href="https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"&gt;AMI Labs 完成了 10.3 亿美元种子轮融资&lt;/a&gt;，估值 35 亿美元——欧洲史上最大种子轮。团队包括 Saining Xie（首席科学家）和 Michael Rabbat（世界模型 VP），专注把 JEPA 落地到工业、机器人和医疗场景。这不再是论文里的概念验证。&lt;/p&gt;
+
+&lt;p&gt;JEPA 和 LLM 的自回归范式不是非此即彼的关系——LLM-JEPA 的混合训练已经证明两者可以互补。但 JEPA 提出的核心问题值得每个做 LLM 的人认真想一下：我们让模型预测的，到底应该是下一个 token，还是下一个状态的抽象表征？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/"&gt;https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/"&gt;https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2509.14252"&gt;https://arxiv.org/abs/2509.14252&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"&gt;https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.14482"&gt;https://arxiv.org/abs/2603.14482&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://rohitbandaru.github.io/blog/JEPA-Deep-Dive/"&gt;https://rohitbandaru.github.io/blog/JEPA-Deep-Dive/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a33358c1-6c69-5afb-8541-d362fd15457c</guid>
+      <pubDate>Tue, 24 Mar 2026 03:38:54 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2261869274.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Claude Code 2026 春季全景：从语音模式到 Agent Teams，终端编程智能体的野心</title>
+      <description>&lt;figure&gt;&lt;img src="https://code.claude.com/images/og-image.png" alt="Claude Code 2026 春季全景：从语音模式到 Agent Teams，终端编程智能体的野心" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;Claude Code 在 2026 年 3 月迎来了一波密集更新，几个月前 Opus 4.6 发布时引入的 Agent Teams 也在持续迭代。如果你一段时间没关注，现在的 Claude Code 和半年前已经判若两物。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三月新功能速览。&lt;/strong&gt;语音模式（Voice Mode）终于上线——用 &lt;code&gt;/voice&lt;/code&gt; 激活，按住空格说话、松开发送，不是那种 always-on 的被动监听，而是 push-to-talk 的精确控制。对写代码来说，语音输入最大的价值不在"说代码"，而在用自然语言描述意图时省去打字的摩擦。另一个实用功能是 &lt;code&gt;/loop&lt;/code&gt;，类似轻量级 cron：&lt;code&gt;/loop 5m check the deploy&lt;/code&gt; 就能每五分钟自动检查一次部署状态，适合需要持续监控的场景。&lt;/p&gt;
+
+&lt;p&gt;上下文窗口扩展到了 100 万 token（1M context），这意味着整个中型代码库可以塞进一个会话。配合 Opus 4.6 默认的 "medium" effort 级别，日常任务更快了；需要深度分析时，在 prompt 里加一句 "ultrathink" 或者用 &lt;code&gt;/effort&lt;/code&gt; 命令手动调高——这个分级策略比过去一刀切的 "always max" 实用得多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hooks 系统是 Claude Code 最被低估的能力。&lt;/strong&gt;现在有 26+ 个生命周期事件可以挂载钩子，涵盖会话管理（SessionStart、SessionEnd）、工具执行（PreToolUse、PostToolUse）、Agent 控制（SubagentStart、TeammateIdle、TaskCompleted）等。四种 hook 类型——command（shell 脚本）、http（POST 请求）、prompt（让 Claude 做 yes/no 判断）、agent（派生子 agent 验证）——覆盖了从自动 lint 到安全审计的各种场景。&lt;/p&gt;
+
+&lt;p&gt;一个具体例子：在 &lt;code&gt;PostToolUse&lt;/code&gt; 上挂一个 matcher 为 &lt;code&gt;Write|Edit&lt;/code&gt; 的 command hook，每次 Claude 修改文件后自动跑 lint 和类型检查。再比如在 &lt;code&gt;PreToolUse&lt;/code&gt; 上拦截 Bash 命令，用正则过滤掉 &lt;code&gt;rm -rf&lt;/code&gt; 之类的危险操作。和 CLAUDE.md 的"建议性"指令不同（遵守率约 80%），hooks 是确定性的——100% 触发，零例外。这个设计哲学很清晰：CLAUDE.md 负责风格偏好，hooks 负责硬性约束。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agent Teams 是更大的赌注。&lt;/strong&gt;2 月 5 日随 Opus 4.6 一起发布的这个实验性功能，让多个 Claude Code 会话协同工作——一个 lead 分配任务，多个 teammate 并行执行，彼此可以直接通信而非只向 lead 汇报。适用场景包括：多模块并行开发、竞争性假设调试（不同 teammate 测试不同理论）、跨前后端协调。但它不是万能的——对顺序依赖强、需要编辑同一文件的任务，单会话加子 agent 仍然更高效。token 消耗也是个问题，Agent Teams 会显著增加用量。&lt;/p&gt;
+
+&lt;p&gt;Claude Code 的定位越来越明确：它不想做另一个 IDE 插件，而是要做操作系统级的编程智能体。终端原生、hooks 系统、Agent Teams、1M 上下文——每一个都在强化这个方向。代价是学习曲线比 Cursor 那样的 IDE 方案更陡，团队版月费也到了 $150/seat。但对那些愿意投入配置时间的重度用户来说，回报是一个真正可编程的 AI 开发环境。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/hooks"&gt;https://code.claude.com/docs/en/hooks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/agent-teams"&gt;https://code.claude.com/docs/en/agent-teams&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://releasebot.io/updates/anthropic/claude-code"&gt;https://releasebot.io/updates/anthropic/claude-code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://claudefa.st/blog/guide/changelog"&gt;https://claudefa.st/blog/guide/changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f6b671ac-5297-5f12-933a-bf2f429963b6</guid>
+      <pubDate>Tue, 24 Mar 2026 03:39:21 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://code.claude.com/docs/en/hooks</link>
+      <enclosure url="https://code.claude.com/images/og-image.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>2026 编程智能体七雄争霸：Claude Code、Cursor、Copilot 和它们的对手</title>
+      <description>&lt;figure&gt;&lt;img src="https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/cover.png" alt="2026 编程智能体七雄争霸：Claude Code、Cursor、Copilot 和它们的对手" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;2026 年初的编程智能体市场，格局比一年前复杂得多。七个主要玩家各自占据不同的生态位，设计哲学的分歧比功能差异更有意思。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三条路线之争。&lt;/strong&gt;当前的竞争围绕三种截然不同的设计理念展开：IDE 原生派（以 Cursor 为代表，把 AI 深度嵌入编辑器）、插件扩展派（GitHub Copilot，在现有编辑器上叠加 AI 层）、终端原生/Agentic 派（Claude Code，让 AI 在系统层面操作）。2026 年的新变量是：所有人都在往 "agent" 方向跑。GitHub Copilot 加了 Agent Mode，Cursor 推出 Background Agents，Google Antigravity 从第一天起就是多 agent 架构。"Agent" 从差异化卖点变成了入场门票。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;逐个过一遍。&lt;/strong&gt;Cursor（$20/月）仍然是日常编码的最佳手感。多模型支持（GPT-5、Claude、Gemini 都能用）、Composer 多文件编辑、以及最大的社区生态是它的护城河。新推出的 Background Agents 支持并行任务执行，虽然自主性不如 Claude Code，但对大多数 "人在方向盘上" 的工作流足够了。&lt;/p&gt;
+
+&lt;p&gt;GitHub Copilot（$10/月起）价格最亲民，Agent Mode 能从 issue 到 PR 全自动跑完，和 GitHub 生态的深度整合无人能敌。Business 版 $39/月还带 IP 赔偿——对企业来说这个保险很值。&lt;/p&gt;
+
+&lt;p&gt;Windsurf（$15/月）被 Cognition AI（Devin 的母公司）收购后在 2026 年 2 月的 LogRocket 排名里冲到第一。Cascade 引擎做全 agentic 的多步编辑，Memories 功能跨会话记住代码库模式——这个持久化记忆层是其他工具还没跟上的。&lt;/p&gt;
+
+&lt;p&gt;Google Antigravity（免费预览中，Pro $20/月）是去年 11 月才上线的新面孔，但野心不小：内置 Chromium 浏览器可以实时测试、Mission Control 协调多个 agent、commentable artifacts 让你直接在计划文档上批注反馈。最大短板？不支持 MCP，在生态整合上落后一截。&lt;/p&gt;
+
+&lt;p&gt;Amazon Kiro（$20/月）走了一条独特的路——Spec-Driven Development。你描述需求，Kiro 先生成完整的规格文档（需求 → 设计 → 任务分解），每一层都可以人工编辑和审核，然后才开始写代码。Hooks 做事件驱动自动化，Steering Files 强制团队编码规范。三月新增了 AWS SageMaker 集成。对追求可审计性的团队来说，这种 "先规划后执行" 的路线很有吸引力。&lt;/p&gt;
+
+&lt;p&gt;OpenAI Codex（随 ChatGPT Plus $20/月）和 OpenHands（开源，MIT 协议，GitHub 65K+ stars）代表两个极端：一个是云端沙箱执行、O3 推理模型加持的商业方案，一个是社区驱动、无 vendor lock-in 的开源平台。OpenHands 拿到了 $18.8M 融资，号称能同日解决 87% 的 bug ticket。&lt;/p&gt;
+
+&lt;p&gt;团队版价格差距惊人：10 人团队年费从 GitHub Copilot Business 的 $2,280 到 Claude Code Teams 的 $18,000，差了近 8 倍。Claude Code 赌的是单 agent 能力的绝对优势能覆盖价格劣势，但在预算有限的团队面前，这个赌注不小。&lt;/p&gt;
+
+&lt;p&gt;怎么选？一个被验证过的模式：用 Claude Code 做架构设计和复杂重构（它在理解整体代码库上确实最强），用 Cursor 做日常编码的快速迭代。两者不互斥——真正的问题不是"选哪个"，而是"怎么组合"。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/"&gt;https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/alexcloudstar/claude-code-vs-cursor-vs-github-copilot-the-2026-ai-coding-tool-showdown-53n4"&gt;https://dev.to/alexcloudstar/claude-code-vs-cursor-vs-github-copilot-the-2026-ai-coding-tool-showdown-53n4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://antigravity.codes/blog/best-antigravity-alternatives-2026"&gt;https://antigravity.codes/blog/best-antigravity-alternatives-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://forum.cursor.com/t/comparison-claude-vs-cursor-vs-copilot-review-from-a-regular-coder/130701"&gt;https://forum.cursor.com/t/comparison-claude-vs-cursor-vs-copilot-review-from-a-regular-coder/130701&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b1e462e9-2788-5dd5-8182-57c9ef9129d9</guid>
+      <pubDate>Tue, 24 Mar 2026 03:40:16 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/</link>
+      <enclosure url="https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/cover.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>RLVR 踩坑生存指南：从浮点精度到 Reward Hacking 的七个深坑</title>
+      <description>&lt;figure&gt;&lt;img src="https://substack-post-media.s3.amazonaws.com/public/images/168ff804-da03-4ce5-84be-4f3f7322ff70_2500x1404.png" alt="RLVR 踩坑生存指南：从浮点精度到 Reward Hacking 的七个深坑" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;用 verl 跑 GRPO 的第一周，你大概率会遇到 loss 突然 NaN、reward 卡在零不动、或者模型疯狂输出重复 token 这些经典症状。这篇指南整理了 RLVR（Reinforcement Learning with Verifiable Rewards）训练中最常见的七类问题，每个都附上现象、根因和修法。&lt;/p&gt;
+
+&lt;h3&gt;一、浮点精度：BF16 是最大的隐形杀手&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：训练前期一切正常，accuracy 爬到 70-80% 后突然崩溃，reward 归零，gradient norm 飙升。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;根因&lt;/strong&gt;：BF16 只有 7 位尾数（mantissa），而 FP16 有 10 位。RL 训练依赖 log-probability 的精确计算来构建 importance sampling ratio，BF16 的精度损失在 sequence 级别会被自回归地放大——一篇最新研究（&lt;a href="https://arxiv.org/html/2510.26788v1"&gt;Defeating the Training-Inference Mismatch via FP16&lt;/a&gt;）测量发现 BF16 的 sequence-level mismatch 是 FP16 的约 24 倍。这直接导致 PPO clipping 被错误触发，on-policy 变成了 off-policy。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：把 training 和 inference 统一切到 FP16，启用 dynamic loss scaling。在 verl 中这只需要改几行配置。实测 FP16 在 AIME 2024 上比 BF16 高出 5 个百分点（39% vs 34%），而且收敛过程不再出现 collapse。需要注意的是，variance 计算和 normalization layer 仍然建议保持 FP32。&lt;/p&gt;
+
+&lt;h3&gt;二、Reward Hacking：你以为答对了，其实模型在作弊&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：training reward 持续上涨，但 held-out validation accuracy 停滞甚至下降。或者模型输出越来越短，直接给答案不写推理过程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;根因&lt;/strong&gt;：binary reward（答对 1.0，答错 0.0）配合 KL penalty 会让模型学到一个"捷径"——尽量缩短回答以降低出错概率。更隐蔽的情况是 format exploitation：模型把答案泄漏到 reasoning 段中绕过格式校验，或者在 &lt;code&gt;&amp;lt;think&amp;gt;&lt;/code&gt; 标签前偷塞答案。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用 process-based reward 替代纯 outcome reward，对中间推理步骤给分&lt;/li&gt;
+&lt;li&gt;对 truncated response 做 soft overlong punishment 而非直接给 0 分——DAPO 推荐在 &lt;code&gt;[L_max - L_cache, L_max]&lt;/code&gt; 区间内线性递减（例如 L_max=16K，L_cache=4K）&lt;/li&gt;
+&lt;li&gt;dynamic sampling：过滤掉所有 rollout 都答对的 prompt（此时 advantage 全为零，梯度为零，纯粹浪费算力）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;三、KL Divergence：加了不稳定，不加又跑飞&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：加了 KL penalty 后 reward 始终上不去，模型过于保守；去掉 KL 后模型 entropy 急剧下降，输出多样性消失。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;根因&lt;/strong&gt;：标准 reverse-KL 是 mode-seeking 的，会让模型压缩到少数几条推理路径上（&lt;a href="https://arxiv.org/html/2509.07430v1"&gt;The Choice of Divergence&lt;/a&gt; 这篇论文专门分析了这个问题）。结果就是 Pass@1 提升的同时 Pass@k 反而下降——模型变"窄"了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：对 reasoning 任务，DAPO 的建议是直接去掉 KL term（设 &lt;code&gt;beta=0&lt;/code&gt;），TRL 现在也默认如此。如果你的场景确实需要 KL 约束（比如 RLHF），考虑换用 forward-KL 或 JS-divergence 来保持输出多样性。verl 中的配置项是 &lt;code&gt;actor_rollout_ref.actor.kl_loss_coef&lt;/code&gt;，先试 0，确认跑飞了再逐步加回（0.001 是一个合理起点）。&lt;/p&gt;
+
+&lt;h3&gt;四、Batch Size：小了必崩，大了烧钱&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：batch size 从 256 降到 64，训练曲线开始剧烈震荡，reward 不收敛。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;根因&lt;/strong&gt;：GRPO 的 advantage 是在同一 prompt 的一组 rollout 中相对计算的。batch 太小意味着 baseline 估计方差大，梯度噪声淹没信号。这是 value-free 方法（相比 PPO 省掉了 critic 网络）必须付出的代价。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：OLMo 3 的推荐配置是 512 global batch size（64 prompts × 8 rollouts per prompt）。如果 GPU 内存不够一次跑这么大，用 gradient accumulation 攒到目标 batch size。verl 里控制这个的是 &lt;code&gt;data.train_batch_size&lt;/code&gt;（全局）和 &lt;code&gt;actor_rollout_ref.rollout.n&lt;/code&gt;（每 prompt 的 rollout 数，默认 5，建议至少 8）。另外 Dr. GRPO 的改进——去掉 advantage 计算中的标准差除法 &lt;code&gt;A = r_i - mean&lt;/code&gt; 而非 &lt;code&gt;A = (r_i - mean) / std&lt;/code&gt;——也能有效降低对 batch size 的敏感度。&lt;/p&gt;
+
+&lt;h3&gt;五、verl 框架的配置陷阱&lt;/h3&gt;
+
+&lt;p&gt;几个高频踩坑点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tensor Parallelism 设高了反而慢&lt;/strong&gt;：3B 以下的模型用 TP=1（纯 Data Parallelism）比 TP=4 快 33%。TP 引入的通信开销在小模型上得不偿失，而且 GPU 利用率曲线会出现明显抖动&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FSDP 分片失效&lt;/strong&gt;：有用户报告 PPO 训练时 FSDP 配置被忽略，每张卡加载了完整模型而非分片参数。解决方案是改用 &lt;code&gt;dtensor_weight_loader&lt;/code&gt;（逐层同步参数，峰值显存更低）替代默认的 &lt;code&gt;hf_weight_loader&lt;/code&gt;（一次性 gather 完整 state_dict）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gpu_memory_utilization&lt;/strong&gt;：A100 80GB 上设 0.8 是甜区，0.9+ 容易 OOM，0.7 以下浪费显存。长序列（&gt;32K）场景需要同时降低 &lt;code&gt;micro_batch_size_per_gpu&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vLLM 版本兼容&lt;/strong&gt;：推荐 v0.8.3+。低版本和某些模型（如 Llama-3.2）存在 tokenizer 兼容问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reward 一直是零&lt;/strong&gt;：这是一个已知 bug，早期版本 actor reward metric 不更新。换到较新的 commit 或确认安装了最新稳定版&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;六、PPO/GRPO 超参数：一个都不能乱动&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：换了个 learning rate，整个训练直接崩。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关键参数和建议值&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Learning rate&lt;/strong&gt;：3e-6 到 1e-5 之间是安全区。偏大会导致 policy update 过猛，搭配大 batch 或多 epoch PPO 时尤其危险&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PPO clip epsilon&lt;/strong&gt;：标准 ε=0.2 的对称 clipping 会造成 entropy collapse。DAPO 的修法是解耦上下界——&lt;code&gt;ε_low=0.2, ε_high=0.28&lt;/code&gt;，让低概率 token 有更大空间增长&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Loss aggregation&lt;/strong&gt;：务必用 token-level aggregation（总 loss 除以 &lt;code&gt;MAX_TOKENS&lt;/code&gt; 常数），而非 sample-level（除以实际 sequence 长度）。后者会引入 length bias，让长回答的 per-token gradient 被人为压小&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Group size&lt;/strong&gt;：GRPO 中 G=8 比 G=2 明显更稳定，accuracy 也更高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;改参数的铁律：一次只动一个，观察够久再动下一个。&lt;/p&gt;
+
+&lt;h3&gt;七、分布式训练：显存炸了都算轻的&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;现象&lt;/strong&gt;：单卡跑得好好的，多卡一起跑就 OOM 或者 reward 不涨。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;几个典型问题&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Training-Inference Mismatch&lt;/strong&gt;：vLLM/SGLang 的推理路径使用 Triton 优化 kernel，和 FSDP 训练路径的数值行为不一致。LinkedIn 团队在 GPT-OSS 上发现这个 mismatch 的根源是 attention sink 在 FlashAttention v2 中不被支持——推理用 vLLM（支持 sink），训练用 FA2（不支持），导致 token-level probability 对不上。修法是升级到 FA3 并实现 sink 的 backward pass&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MoE 的 expert materialization 爆显存&lt;/strong&gt;：HuggingFace Transformers 的 MoE forward 有两条路径，推理路径会 &lt;code&gt;hidden_states.repeat(num_experts, 1)&lt;/code&gt; 一次性分配所有 expert 的内存——20B 模型直接要 180GB。需要 patch 成逐 expert 循环的训练路径&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;长序列 OOM&lt;/strong&gt;：agentic RL 场景下 context 随交互轮次增长，解决方案是开启 Ulysses Sequence Parallel（&lt;code&gt;ulysses_sequence_parallel_size&gt;1&lt;/code&gt;），按 sequence 维度切分到多卡上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最后一条通用建议：&lt;code&gt;nvitop&lt;/code&gt; 是你的好朋友，训练全程盯着 VRAM 使用率、GPU 利用率的锯齿波形、和 gradient norm 曲线。VRAM 应该稳定在 95% 以上（A100 80GB），GPU 利用率在 generation 阶段下降、training 阶段拉满是正常现象。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2510.26788v1"&gt;https://arxiv.org/html/2510.26788v1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://huggingface.co/blog/Weyaxi/engineering-handbook-grpo-lora-with-verl"&gt;https://huggingface.co/blog/Weyaxi/engineering-handbook-grpo-lora-with-verl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cameronrwolfe.substack.com/p/grpo-tricks"&gt;https://cameronrwolfe.substack.com/p/grpo-tricks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl"&gt;https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2509.07430v1"&gt;https://arxiv.org/html/2509.07430v1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://verl.readthedocs.io/en/latest/perf/perf_tuning.html"&gt;https://verl.readthedocs.io/en/latest/perf/perf_tuning.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">688cc5cc-e089-5265-851d-251e993c1053</guid>
+      <pubDate>Tue, 24 Mar 2026 03:40:19 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/html/2510.26788v1</link>
+      <enclosure url="https://substack-post-media.s3.amazonaws.com/public/images/168ff804-da03-4ce5-84be-4f3f7322ff70_2500x1404.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>MCP 协议一年记：从 Anthropic 内部实验到每月 9700 万次 SDK 下载</title>
+      <description>&lt;figure&gt;&lt;img src="https://blog.modelcontextprotocol.io/images/og-image.png" alt="MCP 协议一年记：从 Anthropic 内部实验到每月 9700 万次 SDK 下载" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;Model Context Protocol（MCP）在 2024 年底还是 Anthropic 的一个内部实验，到 2026 年 3 月已经拿下了 Python 和 TypeScript SDK 合计每月 9700 万次下载。OpenAI、Microsoft、Google、Amazon 全部接入。一个编程工具的上下文协议，一年之内变成了事实上的行业标准——这个速度在开发者工具领域不常见。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MCP 到底解决了什么问题？&lt;/strong&gt;简单说：让 AI 智能体以标准化方式调用外部工具和数据源。之前每个 AI 工具都要自己写集成——Cursor 一套、Copilot 一套、Claude Code 一套。MCP 定义了一个通用协议：AI 客户端通过 MCP 连接到 MCP server，server 提供 tools（可调用的功能）、resources（可读取的数据）和 prompts（预定义的交互模板）。类比 Web 世界的 HTTP——不管你用 Chrome 还是 Firefox，网站只需要实现一次。&lt;/p&gt;
+
+&lt;p&gt;实际效果是：一个 MCP server（比如 GitHub MCP server、Postgres MCP server、Sentry MCP server）写一次，所有支持 MCP 的工具都能用。Claude Code、Cursor、Windsurf、VS Code 里的 Copilot 都已经内置 MCP 客户端支持。这极大地降低了工具生态的碎片化。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2026 路线图的四个重点。&lt;/strong&gt;3 月发布的官方路线图聚焦在四件事上：&lt;/p&gt;
+
+&lt;p&gt;第一，传输层可扩展性。当前的有状态会话（stateful sessions）和负载均衡器冲突——server 需要记住每个连接的状态，这在水平扩展时是噩梦。路线图明确要让 server 能无状态地水平扩展，但这一轮不会新增传输协议，只会增强现有的 Streamable HTTP。&lt;/p&gt;
+
+&lt;p&gt;第二，Agent 间通信。Tasks 原语（SEP-1686）需要完善重试语义和过期策略。这是 MCP 从 "工具调用协议" 走向 "agent 通信协议" 的关键一步——不只是 AI 调工具，而是 agent 调 agent。&lt;/p&gt;
+
+&lt;p&gt;第三，认证与企业安全。两个正在审议的提案：SEP-1932（DPoP，Demonstration of Proof-of-Possession）和 SEP-1933（Workload Identity Federation）。审计追踪、SSO 集成、网关行为、配置可移植性——这些是企业采购清单上的硬性要求。没有这些，MCP 在大公司里只能待在开发者的个人笔记本上。&lt;/p&gt;
+
+&lt;p&gt;第四，治理成熟化。随着贡献者增多，项目需要更清晰的决策结构。计划引入 contributor ladder 和委托模型，让受信任的 Working Groups 能在自己的领域内独立审批 SEP，不用事事等核心团队 review。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;另一个有意思的方向是发现机制。&lt;/strong&gt;路线图提到了 &lt;code&gt;.well-known&lt;/code&gt; 元数据格式——注册表和爬虫可以通过标准端点发现 MCP server 的能力，不需要建立实际连接。这意味着未来可能出现 MCP server 的搜索引擎或应用商店。&lt;/p&gt;
+
+&lt;p&gt;MCP 面前的挑战也很具体：自 2025 年 11 月的规范发布后，还没有正式的新版本。对一个快速演进的生态来说，半年不发版是个潜在问题——社区贡献和商业需求可能跑在规范前面。Google Antigravity 还不支持 MCP 也说明，"行业标准" 这个标签还为时尚早。但从采用曲线和生态体量来看，MCP 已经过了临界点——问题不再是 "会不会成功"，而是 "多快能补齐企业级功能"。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/"&gt;https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thenewstack.io/model-context-protocol-roadmap-2026/"&gt;https://thenewstack.io/model-context-protocol-roadmap-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Model_Context_Protocol"&gt;https://en.wikipedia.org/wiki/Model_Context_Protocol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cdata.com/blog/2026-year-enterprise-ready-mcp-adoption"&gt;https://www.cdata.com/blog/2026-year-enterprise-ready-mcp-adoption&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">63c9e71d-ad5a-5fa8-91bf-0e78b79df62a</guid>
+      <pubDate>Tue, 24 Mar 2026 03:40:52 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/</link>
+      <enclosure url="https://blog.modelcontextprotocol.io/images/og-image.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
