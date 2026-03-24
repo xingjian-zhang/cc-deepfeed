@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Rachel's Personalized Feed</title>
@@ -9,7 +9,7 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Mon, 23 Mar 2026 18:15:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 13:13:33 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <item>
       <title>带状疱疹疫苗意外的「心脏护盾」：打一针，主要心脏事件风险降低 46%，相当于戒烟的心血管获益</title>
@@ -1604,6 +1604,291 @@
       <category>product-design</category>
       <link>https://releasebot.io/updates/figma</link>
       <enclosure url="https://www.nxcode.io/images/news/google-stitch-vs-figma-2026.svg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>特朗普宣布暂停打击伊朗能源设施五天，德黑兰否认已进行任何谈判</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-20T201354Z_493857006_RC2K8KAXXANT_RTRMADP_3_USA-TRUMP-1-1-1774266324.jpg?resize=1920%2C1440" alt="特朗普宣布暂停打击伊朗能源设施五天，德黑兰否认已进行任何谈判" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;美国总统特朗普于3月23日宣布，将推迟五天对伊朗发动打击——尤其是针对伊朗电站和能源基础设施的军事行动。就在此前48小时，特朗普向德黑兰发出最后通牒，要求伊朗于周一晚间前重新开放霍尔木兹海峡，否则将承受军事打击的后果。&lt;/p&gt;&lt;p&gt;特朗普在Truth Social上发文称，经过与伊朗当局的富有成效的谈话，他已命令美军暂缓行动。他还对CNBC表示，美方非常希望与伊朗达成协议。市场对这一消息迅速做出反应——美股期货大涨，国际油价应声回落。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;但伊朗的表态截然相反。&lt;/strong&gt;伊朗外交部通过官方媒体声明，华盛顿与德黑兰之间不存在任何直接或间接谈判，并强调霍尔木兹海峡不会恢复战前状态，能源市场也不会迎来和平。伊朗否认了特朗普所描述的任何接触，这与美方的说法形成了鲜明对立。&lt;/p&gt;&lt;p&gt;据一名以色列官员透露，美国特使史蒂夫·威特科夫和贾里德·库什纳曾与伊朗议会议长穆罕默德·巴格尔·加利巴夫有过接触——这或许是双方迄今最接近谈判的举动。与此同时，冲突进入第24天，以色列继续对德黑兰实施大规模空袭，摧毁多处弹道导弹储存和发射阵地，伊朗也向以色列发射了多轮导弹，特拉维夫一栋公寓楼受损。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;关注焦点：&lt;/strong&gt;五天窗口期将于本周末到期。国际社会最关心的问题是：这究竟是真正的外交突破前奏，还是特朗普单方面的暂缓姿态？伊朗方面的否认态度表明，任何可信的停火框架目前仍难以成形。下一个关键时间节点是本周末，届时暂停期届满，各方动向将更加明朗。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/23/trump-postpones-military-strikes-on-iranian-power-plants"&gt;https://www.aljazeera.com/news/2026/3/23/trump-postpones-military-strikes-on-iranian-power-plants&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/23/nx-s1-5757172/iran-defiant-trump-hormuz"&gt;https://www.npr.org/2026/03/23/nx-s1-5757172/iran-defiant-trump-hormuz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway"&gt;https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">155c1b1c-9be7-5784-b553-acfa1a67a3fd</guid>
+      <pubDate>Tue, 24 Mar 2026 13:08:53 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/3/23/trump-postpones-military-strikes-on-iranian-power-plants</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-20T201354Z_493857006_RC2K8KAXXANT_RTRMADP_3_USA-TRUMP-1-1-1774266324.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>霍尔木兹海峡危机：伊朗布雷封锁全球能源咽喉，油价创四年新高</title>
+      <description>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Stra%C3%9Fe_von_Hormuz.jpg" alt="霍尔木兹海峡危机：伊朗布雷封锁全球能源咽喉，油价创四年新高" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;伊朗已开始在霍尔木兹海峡布设水雷。这条宽仅33公里的水道，承载着全球约五分之一的原油贸易。自3月4日起，伊朗宣布该海峡关闭，并对试图通行的船只发动袭击，将全球能源市场推入数十年来最严峻的供应危机。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;这场危机的规模有多大？&lt;/strong&gt;霍尔木兹海峡若被彻底封堵，意味着每天约2000万桶原油将从全球供应中消失——相当于全球石油日消费量的20%。3月8日，布伦特原油价格突破每桶100美元，为四年来首次，峰值一度攀升至126美元。这被多名分析师形容为自1970年代能源危机以来最严重的供应冲击。&lt;/p&gt;&lt;p&gt;国际能源署（IEA）成员国已紧急同意释放4亿桶战略储油。特朗普还表示，美国军舰可能开始为油轮护航穿越海峡，但具体行动尚未落实。伊朗目前仍保有其小型船只和布雷舰艇80%至90%的完整战力，理论上可在短时间内将水雷数量扩大数倍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;谁受影响最大？&lt;/strong&gt;海湾产油国——沙特、阿联酋、科威特、伊拉克——的出口几乎全程依赖这条航道。此外，亚洲国家（尤其是中国、印度、韩国和日本）的能源进口约有三分之一途经霍尔木兹。汽油、天然气和化工产品的价格已开始在全球范围内上涨，航运保险费率也急剧飙升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步看什么：&lt;/strong&gt;伊朗当前保持的封锁姿态，将直接决定全球经济的走向。国际能源署的储备释放能够撑多久，取决于冲突持续时间。如果危机延续数月，全球通胀将面临新一轮压力——而此时各国央行的政策空间已相当有限。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"&gt;https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://oilprice.com/Latest-Energy-News/World-News/Oil-Supply-Risks-Mount-as-Iran-Lays-Mines-in-Strait-of-Hormuz.html"&gt;https://oilprice.com/Latest-Energy-News/World-News/Oil-Supply-Risks-Mount-as-Iran-Lays-Mines-in-Strait-of-Hormuz.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.dallasfed.org/research/economics/2026/0320"&gt;https://www.dallasfed.org/research/economics/2026/0320&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kpler.com/blog/us-iran-conflict-strait-of-hormuz-crisis-reshapes-global-oil-markets"&gt;https://www.kpler.com/blog/us-iran-conflict-strait-of-hormuz-crisis-reshapes-global-oil-markets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e282799e-fb89-5b4b-a2ea-16569a6ba22f</guid>
+      <pubDate>Tue, 24 Mar 2026 13:09:18 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/c/cf/Stra%C3%9Fe_von_Hormuz.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>古巴本月第三次全岛大停电：能源危机与美国油封锁将这个国家逼入黑暗</title>
+      <description>&lt;figure&gt;&lt;img src="https://image.cnbcfm.com/api/v1/image/108279363-1773826232422-gettyimages-2266490353-AFP_A3JU3G3.jpeg?v=1774173953&amp;amp;amp;w=1920&amp;amp;amp;h=1080" alt="古巴本月第三次全岛大停电：能源危机与美国油封锁将这个国家逼入黑暗" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;古巴于3月22日再次陷入全国性大停电——这已是本月第三次整个国家的电网彻底崩溃。这座岛国的1100万居民中，绝大多数在长时间内无电可用，包括首都哈瓦那的医院和居民区。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;三次停电的时间线：&lt;/strong&gt;3月4日，哈瓦那及古巴西部地区发生停电，数百万人受影响；3月16日，第二次全岛大停电；3月21至22日，第三次全国停电，电力在周日才开始缓慢恢复，哈瓦那约有7.2万用户重新通电，但距全岛正常供电仍遥遥无期。&lt;/p&gt;&lt;p&gt;古巴电力联盟将此次崩溃的直接原因归咎于卡马圭省努埃维塔斯热电厂某台机组意外停机。但这只是表象——古巴的发电基础设施已严重老化，近几十年来几乎没有得到实质性升级。更关键的是，古巴总统米格尔·迪亚斯-卡内尔透露，该岛国已三个月未从任何外国供应商获得石油。&lt;/p&gt;&lt;p&gt;目前古巴同时面对双重压力：一是美国持续的能源封锁（特朗普甚至公开设想占领古巴）；二是电网基础设施本身积重难返。两者叠加，导致供电危机从偶发事件演变为常态化崩溃。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;后续影响：&lt;/strong&gt;古巴政府已宣布进入战时状态，并称已做好应对任何潜在美国袭击的准备——在经济崩溃叠加外部军事威胁的双重压力下，古巴正在走向一个危险的临界点。对普通民众来说，无法再这样生活下去（Al Jazeera采访标题）正日益从绝望的感叹变为真实的生存挣扎。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/22/cuba-power-grid-collapses-third-time-this-month.html"&gt;https://www.cnbc.com/2026/03/22/cuba-power-grid-collapses-third-time-this-month.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/22/nx-s1-5756288/cubas-power-grid-collapses"&gt;https://www.npr.org/2026/03/22/nx-s1-5756288/cubas-power-grid-collapses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/22/cant-live-like-this-cuba-hit-by-second-nationwide-blackout-in-a-week"&gt;https://www.aljazeera.com/news/2026/3/22/cant-live-like-this-cuba-hit-by-second-nationwide-blackout-in-a-week&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0cc13319-21db-5f91-92f0-de8d83a90a24</guid>
+      <pubDate>Tue, 24 Mar 2026 13:09:40 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnbc.com/2026/03/22/cuba-power-grid-collapses-third-time-this-month.html</link>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/108279363-1773826232422-gettyimages-2266490353-AFP_A3JU3G3.jpeg?v=1774173953&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>抑郁症可能始于细胞「能量危机」——线粒体过劳假说挑战传统神经化学解释</title>
+      <description>&lt;figure&gt;&lt;img src="https://neurosciencenews.com/files/2026/03/mdd-cellular-fatigue-neuroscience.jpg" alt="抑郁症可能始于细胞「能量危机」——线粒体过劳假说挑战传统神经化学解释" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;抑郁症长期被理解为大脑化学失衡——血清素不够、多巴胺太少。但昆士兰大学脑科学研究所（Queensland Brain Institute）与明尼苏达大学合作发表在 &lt;em&gt;Translational Psychiatry&lt;/em&gt; 上的新研究，提出了一个出人意料的替代解释：&lt;strong&gt;抑郁可能首先是一个细胞能量问题&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;研究团队招募了 18 名 18-25 岁的重性抑郁障碍（MDD）患者，使用 7T 超高场强 MRI 实时测量视觉皮层的 ATP（三磷酸腺苷，细胞的「能量货币」）生成速率，同时抽血分离免疫细胞做化学应激测试，然后与健康对照组比较。&lt;/p&gt;
+
+&lt;p&gt;结果和预期完全相反。研究者原本猜测抑郁患者的细胞产能会偏低——毕竟疲惫是抑郁症的核心症状。但数据显示，患者在&lt;strong&gt;静息状态下&lt;/strong&gt;，无论是脑组织还是血液免疫细胞，ATP 产量都&lt;strong&gt;高于&lt;/strong&gt;正常人，且升高幅度与疲劳严重程度正相关。然而一旦施加应激，这些细胞的产能几乎无法再提升——线粒体撞上了天花板。&lt;/p&gt;
+
+&lt;p&gt;这构成了一个精妙的矛盾：细胞为了维持日常运转已经在「满负荷运行」，没有余力应对额外需求。研究者 Roger Varela 博士将其形容为「补偿机制」——身体拼命提高基线产能来弥补效率下降，但线粒体最终力竭。Kathryn Cullen 博士（明尼苏达大学，通讯作者）认为，这或许能解释为什么抑郁患者做什么都觉得累：不是因为缺乏意志力，而是细胞层面的能量储备已经被掏空了。&lt;/p&gt;
+
+&lt;p&gt;这项发现的实际意义在于两点。第一，它首次在 MDD 年轻患者的脑组织和血液中同时检测到同一 ATP 异常模式，暗示未来有可能通过简单验血来辅助抑郁诊断——目前抑郁症仍依赖主观量表。第二，如果线粒体功能障碍是抑郁的上游原因之一，那么直接靶向线粒体的干预策略（如辅酶 Q10 补充、运动训练提升线粒体生物合成）可能比单纯调节神经递质更有效。当然，18 人的样本量非常小，这一假说还需要大规模验证——但方向本身足够令人兴奋。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260312020107.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260312020107.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://neurosciencenews.com/depression-atp-cellular-fatigue-30296/"&gt;https://neurosciencenews.com/depression-atp-cellular-fatigue-30296/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/new-study-links-the-fatigue-of-depression-to-overworked-cellular-power-plants/"&gt;https://www.psypost.org/new-study-links-the-fatigue-of-depression-to-overworked-cellular-power-plants/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">24b0a264-ee18-581c-a15e-1067b48a7d34</guid>
+      <pubDate>Tue, 24 Mar 2026 13:09:45 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/03/260312020107.htm</link>
+      <enclosure url="https://neurosciencenews.com/files/2026/03/mdd-cellular-fatigue-neuroscience.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>特朗普政府斥资10亿美元买断法国能源巨头海上风电项目，改投天然气</title>
+      <description>&lt;figure&gt;&lt;img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+235/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F56%2Fd96b4eb1427e9bab4506a7fc403b%2Fap26082580157646.jpg" alt="特朗普政府斥资10亿美元买断法国能源巨头海上风电项目，改投天然气" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;特朗普政府将向法国能源巨头道达尔能源（TotalEnergies）支付近10亿美元，换取对方放弃在美国东海岸的两个海上风电租约。美国内政部于3月23日宣布这一协议，这也是特朗普政府打压可再生能源、力推化石燃料战略的最新一步。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;被放弃的项目价值几何？&lt;/strong&gt;道达尔能源于2022年分别斥资约1.33亿美元和7.95亿美元，竞得北卡罗来纳州沿海的卡罗来纳长湾项目和纽约-新泽西沿海的大型风电项目。前者计划装机超过1吉瓦，可为约30万户家庭供电；后者计划装机3吉瓦，有望满足近100万户的用电需求。按协议，道达尔能源将收回约9.28亿美元，并将这笔资金全部转投得克萨斯州里奥格兰德液化天然气（LNG）工厂的扩建项目及墨西哥湾的页岩气开采。&lt;/p&gt;&lt;p&gt;纽约州长凯茜·霍楚尔（民主党）对此强烈谴责，称特朗普此举是花钱让人不干活的腐败方案，是对纳税人资金的严重滥用。批评者指出，政府实际上在用公共资金拆除已竣工的清洁能源基础设施投资计划。而内政部则坚称，此举将降低美国家庭的能源成本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;更大的背景：&lt;/strong&gt;自特朗普回归白宫以来，联邦政府已相继叫停多个海上风电项目，此次买断是规模最大的一次。它释放出一个明确信号：联邦政府正在主动将私人资本从可再生能源领域挤出，转向油气行业——即便需要以纳税人的钱来完成这一转换。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;后续看点：&lt;/strong&gt;其他持有美国海上风电租约的企业（如BP、Equinor等）正在密切观望——他们是否也能期待类似的有偿退出机会？这一先例的形成，可能深刻影响美国未来数年的能源投资格局。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/23/g-s1-114868/trump-totalenergies-offshore-wind-leases"&gt;https://www.npr.org/2026/03/23/g-s1-114868/trump-totalenergies-offshore-wind-leases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/03/23/climate/trump-totalenergies-offshore-wind-cancellation"&gt;https://www.cnn.com/2026/03/23/climate/trump-totalenergies-offshore-wind-cancellation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cleantechnica.com/2026/03/23/totalenergies-milks-trump-for-1-billion-offshore-wind-payout-gets-last-laugh/"&gt;https://cleantechnica.com/2026/03/23/totalenergies-milks-trump-for-1-billion-offshore-wind-payout-gets-last-laugh/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1c6acac5-c306-5648-af04-50005974894b</guid>
+      <pubDate>Tue, 24 Mar 2026 13:10:03 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.npr.org/2026/03/23/g-s1-114868/trump-totalenergies-offshore-wind-leases</link>
+      <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+235/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F56%2Fd96b4eb1427e9bab4506a7fc403b%2Fap26082580157646.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>睡一晚就能预测 130 种疾病——斯坦福 SleepFM 模型登上 Nature Medicine</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp" alt="睡一晚就能预测 130 种疾病——斯坦福 SleepFM 模型登上 Nature Medicine" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;你睡觉时的脑电、心跳、呼吸和肌肉活动里，藏着未来几年甚至几十年的健康密码。斯坦福大学医学院的 Emmanuel Mignot（睡眠医学 Craig Reynolds 讲席教授）和 James Zou（生物医学数据科学副教授）团队在 2026 年 1 月 6 日的 &lt;em&gt;Nature Medicine&lt;/em&gt; 上发表了 &lt;strong&gt;SleepFM&lt;/strong&gt;——一个用近 60 万小时多导睡眠图（polysomnography, PSG）数据训练出来的多模态基础模型，仅需一晚 PSG 记录就能预测 130 多种疾病的风险。&lt;/p&gt;
+
+&lt;p&gt;训练数据来自斯坦福睡眠医学中心 1999-2024 年间约 65,000 名受试者（年龄 2-96 岁），部分受试者有长达 25 年的后续医疗记录用于标签验证。模型读取五种信号通道：脑电图（EEG）、心电图（ECG）、肌电图（EMG）、脉搏和呼吸气流，将连续的 PSG 记录切成 5 秒片段——类似大语言模型中的 token。关键技术创新是「留一对比学习」（leave-one-out contrastive learning）：训练时随机遮蔽一个通道，让模型从其余通道重建被遮蔽的信号，由此学会跨模态的特征对齐。&lt;/p&gt;
+
+&lt;p&gt;预测精度相当惊人。用 C-index（一致性指数，0.5 为随机猜测，1.0 为完美预测）衡量：帕金森病 0.89，前列腺癌 0.89，乳腺癌 0.87，痴呆 0.85，高血压性心脏病 0.84，全因死亡 0.84，心肌梗死 0.81。总计有 130 种疾病的 C-index 达到 0.75 以上（经 Bonferroni 校正 P &lt; 0.01）。Zou 解释说，「C-index 0.8 意味着 80% 的情况下，模型的预测与实际结果一致。」而在癌症治疗反应预测领域，0.7 的 C-index 已经被认为有临床价值。&lt;/p&gt;
+
+&lt;p&gt;之前我们报道过 UK Biobank 的 72,000 人研究证明&lt;strong&gt;睡眠规律性比睡够 8 小时更重要&lt;/strong&gt;——不规律睡眠者的心血管风险高出 26-45%。SleepFM 把这个逻辑推进了一大步：不只是告诉你「睡不好有害」，而是从睡眠信号里精准解码出具体疾病风险。两项研究拼在一起的画面是——你的睡眠模式既是健康的镜子，也是疾病的预言。&lt;/p&gt;
+
+&lt;p&gt;目前 SleepFM 仍依赖临床级 PSG 设备（通常需要在睡眠实验室过夜），距离消费级可穿戴设备还有一段路。但研究团队已在探索用更少通道达到类似精度的可能性。如果未来 Apple Watch 或 Oura Ring 的传感器精度进一步提升，「睡一觉做个全身筛查」也许不再是科幻。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41591-025-04133-4"&gt;https://www.nature.com/articles/s41591-025-04133-4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://med.stanford.edu/news/all-news/2026/01/ai-sleep-disease.html"&gt;https://med.stanford.edu/news/all-news/2026/01/ai-sleep-disease.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news-medical.net/news/20260108/AI-trained-on-sleep-data-predicts-future-disease-and-mortality-years-in-advance.aspx"&gt;https://news-medical.net/news/20260108/AI-trained-on-sleep-data-predicts-future-disease-and-mortality-years-in-advance.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2d322c70-5022-57de-9b08-f860d2e09b91</guid>
+      <pubDate>Tue, 24 Mar 2026 13:10:13 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.nature.com/articles/s41591-025-04133-4</link>
+      <enclosure url="https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Nature Health 刊文：中国东部沿海饮食模式「EastDiet」——心血管代谢病风险降低 35%，背后是肠道菌群的差异</title>
+      <description>&lt;p&gt;地中海饮食、DASH 饮食、北欧饮食——全球公认的健康饮食模式几乎都来自西方。中国传统饮食虽然食材丰富、结构多样，但一直缺乏基于大样本人群队列的循证研究来提炼出可推广的「模式」。浙江大学施雨薇、朱善宽、何伟团队联合斯坦福大学研究者，在 &lt;em&gt;Nature Health&lt;/em&gt; 上发表了这一空白的填补——他们从近 9,000 人的 WELL-China 队列数据中，用无监督聚类算法自动提取出一种「&lt;strong&gt;EastDiet&lt;/strong&gt;」（东部饮食模式），并验证了它与心血管代谢健康的显著关联。&lt;/p&gt;
+
+&lt;p&gt;EastDiet 的核心组成有九类推荐食物和三类限制食物。推荐：蔬菜、水果、大豆制品、水产品（尤其是淡水鱼）、乳制品、全谷物、坚果、薯类和鸡蛋。限制：精制谷物（白米饭、白面条）、红肉及加工肉、油炸食品。和地中海饮食对比，最大的区别在于淡水鱼替代了深海鱼、大豆制品（豆腐、豆浆）替代了橄榄油作为核心蛋白/脂肪来源、薯类和食用菌的比重更高。这不是研究者拍脑袋设计的菜单，而是从中国东部沿海居民的真实饮食习惯中自然浮现的模式——这个地区恰好也是中国肥胖率最低、心血管风险最低、预期寿命最高的区域之一。&lt;/p&gt;
+
+&lt;p&gt;队列中约 46% 的参与者饮食模式与 EastDiet 高度吻合，且依从性最高的群体表现出显著的健康获益：心血管代谢疾病综合风险降低 35%（HR 0.65，95% CI 0.43-0.97），2 型糖尿病风险降低 42%，BMI、体脂率、腰臀比和腹部脂肪比例均显著更低。在独立的 CLHLS 队列（13,773 名老年人）中验证后，最高依从组的全因死亡率风险也降低了 10%（HR 0.90，95% CI 0.85-0.96）。&lt;/p&gt;
+
+&lt;p&gt;研究的另一个亮点是肠道菌群分析。高度依从 EastDiet 的人群肠道菌群多样性更高（Shannon 指数和 Pielou 均匀度均升高），研究者识别出 32 个与该饮食模式正相关的有益菌属，主要来自 Lachnospiraceae 科——这些菌群与更低的 BMI、血压、血糖和甘油三酯水平独立相关。换句话说，EastDiet 的健康获益很可能部分是通过重塑肠道微生态来实现的。&lt;/p&gt;
+
+&lt;p&gt;这对普通人的实际指导很直接：多吃豆腐、淡水鱼、蔬菜、全谷物和坚果，少吃白米饭和红肉。不需要什么昂贵的补剂或异国食材，你家楼下菜市场就有。研究也呼应了 2022 版《中国居民膳食指南》对东部沿海饮食习惯的推荐——现在这个推荐有了更扎实的队列数据和微生物组证据支撑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s44360-026-00079-0"&gt;https://www.nature.com/articles/s44360-026-00079-0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.medrxiv.org/content/10.1101/2024.07.10.24310112v1.full"&gt;https://www.medrxiv.org/content/10.1101/2024.07.10.24310112v1.full&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">aee2b172-3e21-56f5-8295-51c71b204084</guid>
+      <pubDate>Tue, 24 Mar 2026 13:10:40 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.nature.com/articles/s44360-026-00079-0</link>
+    </item>
+    <item>
+      <title>NVIDIA CloudXR 6.0 Brings RTX Design Review to Apple Vision Pro — and Automotive Giants Are Already Using It / NVIDIA CloudXR 6.0 将 RTX 设计评审带入 Apple Vision Pro——汽车巨头已率先落地</title>
+      <description>&lt;figure&gt;&lt;img src="https://9to5mac.com/wp-content/uploads/sites/6/2026/03/AVP-NVIDIA.webp" alt="NVIDIA CloudXR 6.0 Brings RTX Design Review to Apple Vision Pro — and Automotive Giants Are Already Using It / NVIDIA CloudXR 6.0 将 RTX 设计评审带入 Apple Vision Pro——汽车巨头已率先落地" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;At NVIDIA's GTC 2026 conference in San Jose (March 17–19), NVIDIA and Apple jointly detailed a collaboration that may quietly reshape how physical products get designed: &lt;strong&gt;CloudXR 6.0&lt;/strong&gt;, now natively integrated into visionOS, streams RTX-class graphics directly to Apple Vision Pro at 4K resolution with low latency. This isn't a concept demo. BMW, Kia, Rivian, and Volvo are already using it for full-scale design reviews.&lt;/p&gt;
+
+&lt;p&gt;The technical foundation is foveated streaming — a technique that concentrates rendering resolution where the user is actually looking, reducing bandwidth without sacrificing perceived quality. Crucially, gaze data stays on-device and is never exposed to applications, addressing privacy concerns that have dogged eye-tracking features in mixed reality. The system streams from NVIDIA RTX PRO workstations or GeForce RTX GPUs, meaning design teams don't need to simplify or degrade their 3D datasets to view them in the headset.&lt;/p&gt;
+
+&lt;p&gt;For automotive design specifically, the integration works through Autodesk VRED via Innoactive's XR streaming platform. Designers can evaluate proportions, colors, materials, and surfaces at true 1:1 scale — standing next to a virtual car that occupies real physical space. Multiple Vision Pro users in the same room can share the spatial experience, enabled by visionOS 26's new shared spatial experiences API. A designer in Munich and one in Gothenburg could theoretically review the same clay model simultaneously, each walking around it from their own perspective.&lt;/p&gt;
+
+&lt;p&gt;The enterprise use cases extend well beyond cars. Roche is using the pipeline (through Autodesk Revit and NVIDIA Omniverse) to simulate biofluid analysis lab layouts before breaking ground on construction. Foxconn is doing factory-floor walkthroughs for optimization. Switch, a data center operator, monitors AI data center digital twins in spatial view. The common thread: CloudXR eliminates the trade-off between visual fidelity and immersive viewing that has limited spatial computing's utility for professional design.&lt;/p&gt;
+
+&lt;p&gt;For developers, CloudXR 6.0 ships as a native Swift streaming framework within Xcode. This is significant — it means visionOS developers can build CloudXR-powered apps without a separate rendering pipeline. Apps are expected to ship in spring 2026, timed with visionOS 26.4. Jeff Norris, Apple's senior director of vision products, framed the ambition directly: "Apple Vision Pro is redefining what professionals can do with spatial computing, enabling teams to visualize, collaborate and work with extraordinary fidelity in entirely new ways."&lt;/p&gt;
+
+&lt;p&gt;The broader design implication is worth sitting with. For decades, physical product design review has been constrained by either screen-based 3D viewers (accurate but not immersive) or VR headsets (immersive but resolution-limited and isolated). CloudXR 6.0 on Vision Pro is the first pipeline that delivers all three: photorealistic fidelity, true spatial immersion, and multi-user collaboration — without requiring the design team to build a special version of their models. The models they already have, at full complexity, simply stream to the headset. If this works as advertised at production scale, it shifts the spatial computing conversation from "cool demo" to "standard design workflow tool."&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;在今年 GTC 2026 大会（3月17–19日，圣何塞）上，NVIDIA 与 Apple 公布了一项对实体产品设计流程影响深远的合作：&lt;strong&gt;CloudXR 6.0&lt;/strong&gt; 已原生集成到 visionOS，可将 RTX 级别的图形以 4K 分辨率、低延迟的方式直接推流到 Apple Vision Pro。这不是概念演示——BMW、Kia、Rivian、Volvo 已经在用它做全尺寸设计评审。&lt;/p&gt;
+
+&lt;p&gt;技术基础是注视点渲染（foveated streaming）：系统把渲染分辨率集中在用户实际注视的区域，在不损失感知画质的前提下大幅降低带宽。关键细节是，视线追踪数据始终留在设备本地，不会暴露给应用——这解决了困扰混合现实眼动追踪功能的隐私顾虑。推流来源是 NVIDIA RTX PRO 工作站或 GeForce RTX 显卡，设计团队无需简化或降级自己的 3D 模型。&lt;/p&gt;
+
+&lt;p&gt;汽车设计场景中，这套系统通过 Autodesk VRED 和 Innoactive XR 推流平台运行。设计师可以站在一辆占据真实物理空间的虚拟汽车旁边，以 1:1 比例评估比例、颜色、材质和表面处理。借助 visionOS 26 的共享空间体验 API，同一房间内多台 Vision Pro 可以共享场景——慕尼黑和哥德堡的设计师理论上可以同时走在同一个油泥模型周围，各自从不同角度审视。&lt;/p&gt;
+
+&lt;p&gt;企业应用远不止汽车。Roche 用 Autodesk Revit + NVIDIA Omniverse 模拟生物流体分析实验室的空间布局；Foxconn 做工厂动线优化；Switch 在空间视图中监控 AI 数据中心的数字孪生。核心共性是：CloudXR 消除了视觉保真度与沉浸式观看之间的取舍——长期以来这个取舍限制了空间计算在专业设计中的实际价值。&lt;/p&gt;
+
+&lt;p&gt;开发者层面，CloudXR 6.0 以原生 Swift 流式框架的形式集成进 Xcode，visionOS 开发者可以直接构建 CloudXR 应用，不再需要单独的渲染管线。应用预计 2026 年春季上线，与 visionOS 26.4 同步。Apple 视觉产品高级总监 Jeff Norris 说：「Apple Vision Pro 正在重新定义专业人士利用空间计算所能做到的事，让团队以前所未有的保真度进行可视化和协作。」&lt;/p&gt;
+
+&lt;p&gt;更大的设计启示在于：几十年来，实体产品设计评审要么依赖屏幕上的 3D 查看器（精准但不沉浸），要么依赖 VR 头显（沉浸但分辨率受限且孤立）。CloudXR 6.0 + Vision Pro 是第一条同时满足三个条件的管线——照片级真实感、真正的空间沉浸、多人协作——而且不需要为头显单独制作模型，原始数据直接推过去。如果量产落地效果和演示一致，空间计算的对话就会从「酷炫 Demo」转变为「标准设计工作流工具」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/"&gt;https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/03/17/nvidia-details-cloudxr-for-visionos-26-4-enabling-immersive-for-autodesk-vred-app/"&gt;https://9to5mac.com/2026/03/17/nvidia-details-cloudxr-for-visionos-26-4-enabling-immersive-for-autodesk-vred-app/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.macobserver.com/news/nvidia-cloudxr-6-0-brings-4k-immersive-apps-to-apple-vision-pro-with-visionos-26-4/"&gt;https://www.macobserver.com/news/nvidia-cloudxr-6-0-brings-4k-immersive-apps-to-apple-vision-pro-with-visionos-26-4/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://develop3d.com/vr-ar-mr/nvidia-builds-bridge-to-apple-vision-pro/"&gt;https://develop3d.com/vr-ar-mr/nvidia-builds-bridge-to-apple-vision-pro/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d1be7a4b-f002-5d0c-a5e7-a0b2740c4a8b</guid>
+      <pubDate>Tue, 24 Mar 2026 13:11:33 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/</link>
+      <enclosure url="https://9to5mac.com/wp-content/uploads/sites/6/2026/03/AVP-NVIDIA.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Anti-Slop Design Movement Takes Shape: Slopless.design, Superdesign, and the Quiet Revolt Against AI Sameness / 反「AI 泔水」设计运动成型：Slopless.design、Superdesign 与对 AI 同质化的静默反抗</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.geeky-gadgets.com/wp-content/uploads/2025/07/ai-powered-ui-design-tool_optimized.jpg" alt="The Anti-Slop Design Movement Takes Shape: Slopless.design, Superdesign, and the Quiet Revolt Against AI Sameness / 反「AI 泔水」设计运动成型：Slopless.design、Superdesign 与对 AI 同质化的静默反抗" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;There's a term gaining traction in the design community that cuts deeper than you'd expect: &lt;strong&gt;slop&lt;/strong&gt;. Not bad design in the traditional sense — slop is what happens when AI tools make everyone's output converge toward the same median. Purple-to-blue gradients. Thick sans-serif headlines with light-leak effects. Blobby background shapes. Bento box layouts stuffed with meaningless AI-generated imagery and decorative charts that say nothing. If you've browsed Product Hunt launches in 2026, you've seen slop. You just didn't have the word for it.&lt;/p&gt;
+
+&lt;p&gt;Michal Malewicz — the designer behind Neumorphism and Glassmorphism, two visual trends that shaped an era of UI aesthetics — has now given the backlash a home. &lt;strong&gt;Slopless.design&lt;/strong&gt;, launched in early 2026 with co-founders Diana Malewicz, Kamil Waszewski, and Joshua Crownwell, is part manifesto, part community, part diagnostic tool. Their argument is sharp: Midjourney gave everyone the same aesthetic, ChatGPT gave everyone the same copy structure, and Cursor gave everyone the same code patterns. The tools democratized creation — and drowned it in sameness. "Efficiency has eclipsed attention to detail and uniqueness," the manifesto reads.&lt;/p&gt;
+
+&lt;p&gt;The Slopless team identifies six specific anti-patterns: (1) purple/blue gradient combinations with generic sans-serifs, (2) random blob backgrounds with meaningless copy, (3) boxes-within-boxes with low-opacity fills, (4) gradients on thick headlines with light-leak effects, (5) AI-generated stock photos used without editorial vision, and (6) bento layouts with irrelevant charts and AI imagery. If you recognize your last project in this list, that's the point — slop is invisible to its creators because the same AI tools that produced it also set the aesthetic baseline.&lt;/p&gt;
+
+&lt;p&gt;But the movement isn't just critique. A parallel ecosystem of tools is emerging that tries to solve the problem structurally rather than just shaming it away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Superdesign&lt;/strong&gt; (6.2k GitHub stars, created by AI Jason) takes a prompt-library approach. It's an open-source VS Code/Cursor extension that generates UI mockups, components, and wireframes from natural language — but instead of raw image generation, it routes prompts through curated design "recipes" that encode specific style decisions, animation patterns, and interaction behaviors. The idea is that design intent should be captured in reusable prompts, not left to whatever the model defaults to. Designs save locally in a &lt;code&gt;.superdesign/&lt;/code&gt; directory, keeping everything version-controlled and project-specific. It integrates with Cursor, Windsurf, Claude Code, and VS Code, using each tool's existing AI subscription rather than requiring its own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Onlook&lt;/strong&gt;, backed by Y Combinator, takes a different angle. Billing itself as "the Cursor for Designers," it's an open-source visual editor where what you design IS the code — changes become pull requests, not handoff specs. The tool runs on any Next.js + TailwindCSS project and provides a drag-and-drop WYSIWYG layer over real React components. The anti-slop mechanism here is indirect but powerful: because designers work directly with the actual codebase and component library, the output inherits the project's existing design system constraints rather than defaulting to AI-generic aesthetics.&lt;/p&gt;
+
+&lt;p&gt;Anima offers yet another approach, explicitly positioning itself as a bridge between Figma design systems and vibe coding. Its pitch: if your AI coding tool generates UI using your actual design tokens, components, and brand guidelines, the result looks like your product — not like every other AI-generated landing page. The integration maps Figma variables and components directly to code generation prompts.&lt;/p&gt;
+
+&lt;p&gt;The timing isn't coincidental. Google Stitch's March 19 update made vibe design accessible to anyone with a browser. As we covered last week, Stitch can produce a credible first draft in 20 minutes, for free. The lower the barrier to generating UI, the higher the premium on UI that actually feels considered, specific, and intentional. The anti-slop movement is the design community's immune response to that democratization — not opposing AI tools, but demanding they be wielded with craft.&lt;/p&gt;
+
+&lt;p&gt;Malewicz puts it plainly: the impressive thing in 2026 isn't generating ten design options in seconds. It's taking one of those options and turning it into a product with rules, consistency, a design system, and proper behavior. That's still a human skill. The question is whether the tooling ecosystem will make that skill easier to exercise, or continue to reward the path of least resistance.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;设计圈最近有个词越传越广：&lt;strong&gt;slop&lt;/strong&gt;（泔水设计）。这不是传统意义上的烂设计——slop 是 AI 工具让所有人的产出趋同后的结果。紫蓝渐变、粗体无衬线标题配光斑效果、无意义的 blob 背景、塞满 AI 生成图片和装饰性图表的 Bento 布局。刷过 2026 年的 Product Hunt 就一定见过，只是之前没有一个词来形容它。&lt;/p&gt;
+
+&lt;p&gt;Michal Malewicz——Neumorphism 和 Glassmorphism 两大视觉趋势的发起人——给这股反思找到了落脚点。&lt;strong&gt;Slopless.design&lt;/strong&gt; 于 2026 年初上线，联合发起人包括 Diana Malewicz、Kamil Waszewski 和 Joshua Crownwell，兼具宣言、社区和诊断工具的功能。他们的论点很锋利：Midjourney 给了所有人同一种审美，ChatGPT 给了所有人同一种文案结构，Cursor 给了所有人同一种代码风格。工具让创造民主化了——也让创造淹没在同质化里。&lt;/p&gt;
+
+&lt;p&gt;Slopless 团队列出六种典型反模式：紫蓝渐变配通用字体、随机 blob 背景配空洞文案、低透明度填充的嵌套卡片、标题渐变加光斑、未经编辑筛选的 AI 图片、以及塞满无关图表的 Bento 布局。如果自己的上一个项目中了几条——这正是关键：slop 对创作者自身是隐形的，因为生成它的 AI 工具同时也在定义审美基线。&lt;/p&gt;
+
+&lt;p&gt;但这场运动不止于批评。一批工具正试图从结构层面解决问题。&lt;strong&gt;Superdesign&lt;/strong&gt;（GitHub 6.2k 星，AI Jason 开发）是开源的 VS Code/Cursor 扩展，通过预设的 prompt 配方来编码风格决策、动效模式和交互行为，让设计意图以可复用的 prompt 形式固化，而非放任模型默认输出。&lt;strong&gt;Onlook&lt;/strong&gt;（YC 孵化）走另一条路——开源的所见即所得编辑器，设计即代码，改动直接变成 Pull Request。因为设计师直接在真实代码库和组件库中工作，产出天然继承项目已有的设计系统约束。Anima 则把 Figma 的设计变量和组件直接映射到代码生成 prompt，确保 AI 生成的 UI 看起来像你自己的产品，而不是千篇一律的 AI 着陆页。&lt;/p&gt;
+
+&lt;p&gt;时机并非巧合。Google Stitch 3月19日的更新让任何人只需一个浏览器就能做 Vibe Design。生成 UI 的门槛越低，有匠心、有辨识度的 UI 溢价就越高。反泔水运动是设计社区对这波民主化的免疫反应——不是反对 AI 工具，而是要求在使用时带上手艺。Malewicz 说得直白：2026 年真正厉害的不是几秒钟生成十个方案，而是把其中一个变成有规则、有一致性、有设计系统、有正确行为的产品。这仍然是人类技能。问题是工具生态会让这项技能更容易施展，还是继续奖励阻力最小的路径。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://slopless.design/"&gt;https://slopless.design/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/superdesigndev/superdesign"&gt;https://github.com/superdesigndev/superdesign&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/onlook-dev/onlook"&gt;https://github.com/onlook-dev/onlook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.animaapp.com/blog/design-systems/vibe-code-with-your-figma-design-system/"&gt;https://www.animaapp.com/blog/design-systems/vibe-code-with-your-figma-design-system/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3d68734c-e036-55ee-a80e-77a2fafebab7</guid>
+      <pubDate>Tue, 24 Mar 2026 13:12:34 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://slopless.design/</link>
+      <enclosure url="https://www.geeky-gadgets.com/wp-content/uploads/2025/07/ai-powered-ui-design-tool_optimized.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Sustainable UX Hits a Tipping Point: Dark-First Design, Data Budgets, and Carbon-Aware Computing / 可持续 UX 迎来临界点：暗色优先设计、数据预算与碳感知计算</title>
+      <description>&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/designer-guide-eco-friendly-interfaces/1-dark-mode-light-mode.jpg" alt="Sustainable UX Hits a Tipping Point: Dark-First Design, Data Budgets, and Carbon-Aware Computing / 可持续 UX 迎来临界点：暗色优先设计、数据预算与碳感知计算" style="max-width:100%;height:auto;" /&gt;&lt;/figure&gt;
+&lt;p&gt;Sustainable UX has spent years in the "nice to have" category — something designers talked about at conferences but rarely built into actual workflows. That's shifting in 2026, driven by a convergence of regulatory pressure, performance economics, and genuinely clever technical patterns that make the business case undeniable.&lt;/p&gt;
+
+&lt;p&gt;Smashing Magazine published a comprehensive practitioner's guide in February 2026, written by veteran UX designer &lt;strong&gt;Carrie Webster&lt;/strong&gt; (20+ years in the field), that reads less like advocacy and more like an engineering specification. The core argument: sustainable design isn't a separate discipline — it's performance design with an environmental co-benefit. Every optimization that reduces carbon footprint also makes the product faster, cheaper to host, and more accessible to users on constrained devices and networks.&lt;/p&gt;
+
+&lt;p&gt;The numbers make the case concrete. The average website produces approximately &lt;strong&gt;0.5 grams of CO2 per page view&lt;/strong&gt;. For a site with 1 million monthly views, that's 6 metric tons of CO2 per year — equivalent to driving a car 15,000 miles. And average mobile page weight has grown 500% over the last decade, with images and video consistently dominating the payload according to HTTP Archive data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dark-first design&lt;/strong&gt; is the most actionable lever. On OLED screens — now standard on virtually all flagship phones and increasingly common on laptops — true black pixels (&lt;code&gt;#000000&lt;/code&gt;) are physically turned off, consuming zero power. Research from Purdue University measured &lt;strong&gt;39–47% battery savings&lt;/strong&gt; at full brightness when using dark mode versus light mode. Webster's recommendation: make dark mode the system-preferred default, not an opt-in buried in settings. This isn't an aesthetic choice; it's an energy infrastructure decision.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data budgeting&lt;/strong&gt; is emerging as a design discipline in its own right. The practice sets hard caps on total page payload — for example, a maximum of 1MB per landing page. This forces design teams to make intentional trade-offs: does this hero video justify its bandwidth, or would a CSS gradient with a well-chosen illustration serve the same purpose at 1/50th the weight? One case study in the guide is particularly striking: a cybersecurity platform's homepage was reduced from 5.5MB to 1.2MB (a 78% decrease) by replacing photography with SVG art and CSS gradients, with no loss in conversion metrics. Modern image formats like AVIF and WebP achieve roughly 50% file size reduction compared to JPEG without visible quality loss.&lt;/p&gt;
+
+&lt;p&gt;The most technically interesting development is &lt;strong&gt;carbon-aware computing&lt;/strong&gt; — the practice of automatically adjusting interface behavior based on the carbon intensity of the local electricity grid. When the grid is running on high-carbon sources (gas, coal), a site could switch to a "lite" mode: disabling autoplay videos, serving lower-resolution images, and deferring non-critical JavaScript. When the grid is cleaner (solar, wind), the full experience loads. This isn't theoretical — the Green Web Foundation provides APIs for real-time grid carbon data, and several European companies are already piloting carbon-responsive interfaces.&lt;/p&gt;
+
+&lt;p&gt;The regulatory context is adding urgency. The W3C has published &lt;strong&gt;Web Sustainability Guidelines (WSG)&lt;/strong&gt;, providing a formal framework analogous to WCAG for accessibility. The EU's &lt;strong&gt;Corporate Sustainability Reporting Directive (CSRD)&lt;/strong&gt; is pushing organizations to measure and disclose digital emissions alongside physical ones. For design teams at enterprises subject to CSRD, "how much does this page weigh?" is becoming a compliance question, not just a performance one.&lt;/p&gt;
+
+&lt;p&gt;Tooling is maturing to support this. The &lt;strong&gt;Website Carbon Calculator&lt;/strong&gt; audits per-page impact. The &lt;strong&gt;Green Web Foundation&lt;/strong&gt; verifies whether hosting runs on renewable energy. Wholegrain Digital's &lt;strong&gt;Sustainable Web Design model&lt;/strong&gt; provides CO2 estimation formulas. And these aren't fringe projects — they're being referenced in enterprise design system documentation alongside Core Web Vitals and accessibility auditing tools.&lt;/p&gt;
+
+&lt;p&gt;The deeper insight is that sustainable UX aligns perfectly with inclusive design. Lighter pages load faster on older devices and slower networks — the exact conditions faced by users in emerging markets, rural areas, and lower-income contexts. Designing for the planet and designing for the most constrained users are, in practice, the same set of decisions. In 2026, the most sophisticated interface might be the one that leaves the smallest footprint.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;可持续 UX 在「锦上添花」的位置上待了好几年——设计师在大会上聊几句，很少真正落进工作流。2026 年情况在变，推动力来自监管压力、性能经济学，以及一些足够聪明的技术手段让商业论证无法忽视。&lt;/p&gt;
+
+&lt;p&gt;Smashing Magazine 在今年二月发表了一份全面的实操指南，作者是从业 20 余年的 UX 设计师 &lt;strong&gt;Carrie Webster&lt;/strong&gt;。核心主张：可持续设计不是独立学科，而是自带环保附加值的性能设计。每一项减少碳足迹的优化同时也让产品更快、托管更便宜、对设备和网络受限的用户更友好。&lt;/p&gt;
+
+&lt;p&gt;数据很直白。平均每个网页每次浏览产生约 &lt;strong&gt;0.5 克 CO2&lt;/strong&gt;。一个月访问量 100 万的站点，一年排放 6 吨——相当于开车跑 24,000 公里。而过去十年间移动端页面平均重量增长了 500%，图片和视频始终是大头。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;暗色优先设计&lt;/strong&gt;是最直接的杠杆。OLED 屏幕上纯黑像素（&lt;code&gt;#000000&lt;/code&gt;）物理关闭、零功耗，如今旗舰手机几乎标配 OLED，笔记本也在跟进。普渡大学的研究测得满亮度下暗色模式比亮色模式&lt;strong&gt;省电 39–47%&lt;/strong&gt;。Webster 建议：暗色模式应该是系统默认偏好，而不是藏在设置里的选项。这不是审美选择，是能源基础设施层面的决策。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据预算&lt;/strong&gt;正在成为一门设计子学科。做法是给页面总负载设硬上限，比如着陆页最大 1MB。这迫使团队做有意识的取舍：首屏视频是否值它的带宽，还是一个 CSS 渐变加精选插图就能以 1/50 的体积达到同样效果？指南里有个案例：某安全公司首页从 5.5MB 压缩到 1.2MB（降幅 78%），手段是用 SVG 和 CSS 渐变替换摄影图片，转化率没有下降。AVIF 和 WebP 格式相比 JPEG 大约能减少 50% 体积，画质几乎无损。&lt;/p&gt;
+
+&lt;p&gt;技术上最有趣的新发展是&lt;strong&gt;碳感知计算&lt;/strong&gt;——根据当地电网的碳排放强度自动调整界面行为。电网碳强度高（燃气、煤电）时，网站切入「轻量模式」：关闭自动播放视频、降低图片分辨率、推迟非关键 JavaScript。电网更清洁（太阳能、风电）时，加载完整体验。这不是空想——Green Web Foundation 提供实时电网碳数据 API，欧洲已有企业在试点碳响应式界面。&lt;/p&gt;
+
+&lt;p&gt;监管也在加速。W3C 发布了 &lt;strong&gt;Web Sustainability Guidelines（WSG）&lt;/strong&gt;，功能类似无障碍领域的 WCAG。欧盟的 &lt;strong&gt;CSRD（企业可持续发展报告指令）&lt;/strong&gt;要求组织测量并披露数字排放。对受 CSRD 约束的企业设计团队来说，「这个页面多重」正在从性能问题变成合规问题。&lt;/p&gt;
+
+&lt;p&gt;工具链也在成熟。Website Carbon Calculator 做逐页碳审计，Green Web Foundation 验证托管是否使用可再生能源，Wholegrain Digital 的 Sustainable Web Design 模型提供 CO2 估算公式。这些不是边缘项目——它们已经出现在企业设计系统文档里，与 Core Web Vitals 和无障碍审计工具并列。&lt;/p&gt;
+
+&lt;p&gt;更深层的洞察：可持续 UX 与包容性设计完全一致。更轻的页面在老旧设备和慢速网络上加载更快——这恰恰是新兴市场、农村地区和低收入用户所处的环境。为地球设计和为最受限的用户设计，在实践中是同一组决策。2026 年，最精致的界面或许是留下最小足迹的那个。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/02/designer-guide-eco-friendly-interfaces/"&gt;https://www.smashingmagazine.com/2026/02/designer-guide-eco-friendly-interfaces/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://agnikii.co.uk/insights/sustainable-web-design/sustainable-web-design-trends/"&gt;https://agnikii.co.uk/insights/sustainable-web-design/sustainable-web-design-trends/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inkbotdesign.com/sustainable-web-design/"&gt;https://inkbotdesign.com/sustainable-web-design/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ffb8f6fc-c7b4-5cfb-9c0a-bdcca612fd04</guid>
+      <pubDate>Tue, 24 Mar 2026 13:13:33 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.smashingmagazine.com/2026/02/designer-guide-eco-friendly-interfaces/</link>
+      <enclosure url="https://files.smashing.media/articles/designer-guide-eco-friendly-interfaces/1-dark-mode-light-mode.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
