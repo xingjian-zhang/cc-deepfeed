@@ -1,5 +1,10 @@
 # cc-deepfeed
 
+[![CI](https://github.com/xingjian-zhang/cc-deepfeed/actions/workflows/validate.yml/badge.svg)](https://github.com/xingjian-zhang/cc-deepfeed/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
+[![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-blueviolet?logo=anthropic)](https://claude.ai/claude-code)
+
 **Deep research briefings delivered as RSS feeds, powered by Claude Code.**
 
 You define the topics you care about. Every morning, Claude researches them — searching the web, cross-referencing sources — and writes deep briefings that show up in your reader. You control the algorithm deciding what you see. No scrolling. Just your interests, analyzed in depth. **And if you already have a Claude subscription, it costs nothing extra to run.**

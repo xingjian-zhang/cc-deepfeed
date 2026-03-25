@@ -3,7 +3,9 @@ ROADMAP.md
 .state/*.json
 .claude/agents/topics/*.md
 !.claude/agents/topics/_template.md
+!.claude/agents/topics/ai-research.md
 !.claude/agents/topics/world-news.md
+!.claude/agents/topics/product-design.md
 feeds/*.xml
 feeds/*.png
 feeds/*.lock
