@@ -15,4 +15,5 @@ __pycache__/
 *.pyc
 .DS_Store
 *.lock
+.publish.lock/
 .logs/

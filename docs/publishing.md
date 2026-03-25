@@ -8,37 +8,32 @@ The included `publish.sh` script handles this automatically.
 
 ### Setup
 
-1. Create the gh-pages branch:
-   ```bash
-   git checkout --orphan gh-pages
-   git rm -rf .
-   git commit --allow-empty -m "init gh-pages"
-   git push origin gh-pages
-   git checkout main
-   ```
-
-2. Enable GitHub Pages in your repo settings:
+1. Enable GitHub Pages in your repo settings:
    - Go to Settings > Pages
    - Source: Deploy from a branch
    - Branch: `gh-pages`, root `/`
    - Save
 
-3. Set your `base_url` in `config.yaml`:
+2. Set your `base_url` in `config.yaml`:
    ```yaml
    settings:
      base_url: "https://yourusername.github.io/cc-deepfeed"
    ```
    If using a custom domain, set that instead.
 
-4. Run `make publish` or `bash publish.sh` after each research cycle. The orchestrator (`run-research.sh`) does this automatically.
+3. Run `make publish` or `bash publish.sh` after each research cycle. The orchestrator (`run-research.sh`) does this automatically.
+
+The `gh-pages` branch is created automatically on first publish — no manual setup needed.
 
 ### What publish.sh does
 
-1. Generates `index.html` and OPML from your config
-2. Copies XML + assets to a temp directory
-3. Commits to `gh-pages` branch and pushes
-4. Pings WebSub hub (if configured) for instant reader updates
-5. Returns to your working branch
+1. Generates `index.html` and OPML from your config (if base URL provided)
+2. Creates a throwaway clone of the `gh-pages` branch in a temp directory
+3. Replaces all content with the current `feeds/` files (stale feeds are removed automatically)
+4. Commits and pushes, then deletes the clone
+5. Pings WebSub hub (if configured) for instant reader updates
+
+The main working tree is never modified. If the script fails at any point, only the temp directory is affected. A lock prevents concurrent publishes from interfering with each other.
 
 ## Alternative: Any Static Host
 
