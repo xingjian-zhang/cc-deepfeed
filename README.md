@@ -34,18 +34,24 @@ You define the topics you care about. Every morning, Claude researches them — 
 
 ## Get Started
 
-**Requires:** Python 3.9+, [PyYAML](https://pypi.org/project/PyYAML/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+**Requires:** Python 3.9+, [PyYAML](https://pypi.org/project/PyYAML/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), an RSS reader ([Reeder](https://reederapp.com), [NetNewsWire](https://netnewswire.com), [Feedly](https://feedly.com), etc.)
 
 ```bash
 git clone https://github.com/xingjian-zhang/cc-deepfeed.git
 cd cc-deepfeed && pip install pyyaml
-make setup          # creates config.yaml — edit with your topics
+```
+
+Then open Claude Code in the project directory and run `/setup` — it checks your environment, creates your config, helps you write topic briefs, and initializes your feeds interactively.
+
+Or set up manually:
+
+```bash
+make setup          # creates config.yaml from example
+# Edit config.yaml with your topics and base_url, then:
 make init && make run
 ```
 
-Define your topics in `config.yaml` and write a [topic brief](.claude/agents/topics/_template.md) for each. See the included [examples](.claude/agents/topics/ai-research.md) or the [full config reference](docs/config-reference.md).
-
-> **Tip:** Open Claude Code in the project directory and ask it to help you brainstorm topics, write briefs, and configure your feeds interactively.
+See the **[Getting Started Guide](docs/getting-started.md)** for a full walkthrough from clone to first published feed.
 
 ## How It Works
 
@@ -60,6 +66,7 @@ Define your topics in `config.yaml` and write a [topic brief](.claude/agents/top
 
 | Command | |
 |---|---|
+| `/setup` | Interactive setup wizard (in Claude Code) |
 | `make run` | Run full research cycle |
 | `make run-topic TOPIC=id` | Run a single topic |
 | `make status` | Dashboard of all topics and feeds |
@@ -67,6 +74,7 @@ Define your topics in `config.yaml` and write a [topic brief](.claude/agents/top
 
 ## Docs
 
+- [Getting Started Guide](docs/getting-started.md) — full walkthrough from clone to published feed
 - [Configuration Reference](docs/config-reference.md) — topics, feeds, settings
 - [Publishing Guide](docs/publishing.md) — GitHub Pages, S3, WebSub
 - [Scheduling Guide](docs/scheduling.md) — cron, launchd, systemd

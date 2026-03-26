@@ -23,6 +23,10 @@ Deep research briefings delivered as RSS feeds, powered by Claude Code.
 - **Scheduling:** See `docs/scheduling.md` for launchd, cron, and systemd templates.
 - **Remote:** Uses SSH (`git@github.com:...`) for auth in headless/cron contexts.
 
+## Interactive Commands
+
+- `/setup` — guided environment check + config creation + feed initialization. Run this first if you're new to the project.
+
 ## Usage
 
 Run the research cycle by invoking the agent:
