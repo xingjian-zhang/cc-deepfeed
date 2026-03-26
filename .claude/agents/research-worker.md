@@ -120,7 +120,8 @@ For each finding worth reporting, create a briefing entry.
 
 **Each entry must have:**
 - A specific, informative title (not generic like "AI Progress Update")
-- An image (**required unless truly impossible**) — for EVERY entry, use WebFetch on the primary source URL and look for: `og:image` meta tag, `twitter:image` meta tag, or the first prominent `<img>` in the article body. Extract the full image URL. Pass it via `--image`. This is not optional — entries without images look broken in feed readers. Only omit if you fetched the source page and genuinely found zero usable images.
+- A thumbnail image (**required unless truly impossible**) — for EVERY entry, use WebFetch on the primary source URL and look for: `og:image` meta tag, `twitter:image` meta tag, or the first prominent `<img>` in the article body. Extract the full image URL. Pass it via `--image` (this sets the RSS enclosure/thumbnail only — it is NOT inserted into the content). Only omit if you fetched the source page and genuinely found zero usable images.
+- **Inline figures** — embed `<figure>` tags directly in your HTML content wherever images add value. For visual topics (UX, design, architecture, product showcases), include multiple figures placed next to the relevant text. For news/analysis topics, one or zero inline figures is fine. Use the format: `<figure><img src="..." alt="descriptive alt text" style="max-width:100%;height:auto;" /><figcaption>Caption here</figcaption></figure>`. Source image URLs from articles you WebFetch during research.
 - What happened — the concrete facts, with specifics from source articles
 - Why it matters — context, significance, implications
 - How it connects — to prior work, trends, or the user's stated interests
@@ -160,7 +161,7 @@ python feed.py add <feed_id> \
   --image "https://example.com/article-hero.jpg" \
   --run-id "<run_id>"
 ```
-The `--image` flag adds a `<figure>` at the top of the entry and an RSS `<enclosure>` for reader thumbnails. Find the image URL by checking source articles for og:image meta tags or prominent images.
+The `--image` flag sets the RSS `<enclosure>` for reader thumbnails — it does NOT insert any figure into the content. To include images in the entry body, embed `<figure>` tags directly in your `--content` HTML at the appropriate locations.
 
 **Auto-distribution:** `feed.py add` automatically writes the entry to ALL user feeds that subscribe to this topic. No extra flags needed — just call `add` with the topic ID and the config handles the rest.
 

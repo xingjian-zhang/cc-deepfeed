@@ -207,11 +207,6 @@ def add_entry(feed_id, title, content_html, sources, feeds_dir, state_dir, targe
         else:
             print(f"  ⚠️  No og:image found. Entry will lack thumbnail.")
 
-    # Prepend image if provided
-    if image_url:
-        escaped_img = html.escape(image_url)
-        content_html = f'<figure><img src="{escaped_img}" alt="{html.escape(title)}" style="max-width:100%;height:auto;" /></figure>\n' + content_html
-
     # Build content with sources
     body = content_html
     if source_list:
@@ -756,14 +751,6 @@ def backfill_images(feeds_dir, combined_feed):
         # Add enclosure element
         ET.SubElement(item, "enclosure", url=image_url, type="image/jpeg", length="0")
 
-        # Prepend figure to description
-        desc_el = item.find("description")
-        if desc_el is not None and desc_el.text:
-            escaped_img = html.escape(image_url)
-            escaped_title = html.escape(title)
-            figure_html = f'<figure><img src="{escaped_img}" alt="{escaped_title}" style="max-width:100%;height:auto;" /></figure>\n'
-            desc_el.text = figure_html + desc_el.text
-
         updated += 1
         print(f"    ✅ Added: {image_url[:60]}...")
 
@@ -787,7 +774,7 @@ def main():
     p_add.add_argument("--title", required=True)
     p_add.add_argument("--content", required=True, help="HTML content of the entry")
     p_add.add_argument("--sources", default="", help="Comma-separated source URLs")
-    p_add.add_argument("--image", default=None, help="URL of an image to include as figure and enclosure")
+    p_add.add_argument("--image", default=None, help="URL of an image to use as RSS enclosure/thumbnail")
     p_add.add_argument("--run-id", default=None, help="Run identifier for rollback grouping")
 
     # prune
