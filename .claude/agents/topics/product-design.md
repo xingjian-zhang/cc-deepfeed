@@ -33,4 +33,5 @@ Write with the perspective of a practitioner sharing findings with peers.
 - **Lead with the insight**: what changed and why it matters
 - **Show evidence**: link to real examples, metrics, or user research
 - **Be practical**: what can the reader do with this information?
+- **Use inline figures liberally**: this is a visual topic — embed `<figure>` tags for UI screenshots, design system comparisons, before/after examples, and interaction patterns. Aim for 2-4 figures per entry placed next to the relevant discussion.
 - **End with a concrete takeaway** or open question worth exploring
