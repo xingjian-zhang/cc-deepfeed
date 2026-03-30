@@ -186,7 +186,7 @@ def init_feed(name, description, feeds_dir, combined_feed, base_url=None, websub
     print(f"Initialized feed: {path}")
 
 
-def add_entry(feed_id, title, content_html, sources, feeds_dir, state_dir, target_feeds, run_id=None, image_url=None):
+def add_entry(feed_id, title, content_html, sources, feeds_dir, state_dir, target_feeds, run_id=None, image_url=None, emoji=None):
     """Add an entry to subscriber feed XMLs and update per-topic state.
 
     target_feeds: list of combined_feed name strings (e.g., ["daily-briefings", "rachel-briefings"])
@@ -194,6 +194,10 @@ def add_entry(feed_id, title, content_html, sources, feeds_dir, state_dir, targe
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%Y-%m-%d")
     guid = make_guid(feed_id, title, date_str)
+
+    # Prepend topic emoji to title if available
+    if emoji:
+        title = f"{emoji} {title}"
 
     # Normalize sources to list once
     source_list = sources if isinstance(sources, list) else split_csv(sources or "")
@@ -853,8 +857,10 @@ def main():
         target_feeds = [f["combined_feed"] for f in subscriber_feeds]
         if not target_feeds:
             print(f"Warning: no feeds subscribe to {args.feed_id}", file=sys.stderr)
+        topic = get_topic(config, args.feed_id)
+        emoji = topic.get("emoji") if topic else None
         add_entry(args.feed_id, args.title, args.content, sources, feeds_dir, state_dir,
-                  target_feeds, run_id=args.run_id, image_url=args.image)
+                  target_feeds, run_id=args.run_id, image_url=args.image, emoji=emoji)
     elif args.command == "prune":
         # Prune all feed XMLs
         for combined_feed in get_all_feed_names(config):

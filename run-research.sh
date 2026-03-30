@@ -8,6 +8,7 @@ cd "$(dirname "$0")"
 
 # --- Config ---
 CLAUDE_BIN="${CLAUDE_BIN:-claude}"
+PYTHON="${PYTHON:-/opt/homebrew/Caskroom/miniforge/base/bin/python3}"
 WORKER_TIMEOUT="${WORKER_TIMEOUT:-900}"   # 15 min per worker
 TIMEOUT_BIN="${TIMEOUT_BIN:-/opt/homebrew/bin/timeout}"
 
@@ -27,9 +28,9 @@ cleanup_publish() {
     if [ "$PUBLISHED" -eq 0 ]; then
         echo ""
         echo "--- Emergency publish (orchestration did not complete normally) ---"
-        python3 feed.py prune --keep 50 || true
+        $PYTHON feed.py prune --keep 50 || true
         local base_url
-        base_url=$(python3 -c "
+        base_url=$($PYTHON -c "
 import yaml
 with open('config.yaml') as f:
     print(yaml.safe_load(f).get('settings',{}).get('base_url',''))
@@ -42,7 +43,7 @@ with open('config.yaml') as f:
 trap cleanup_publish EXIT
 
 # Parse topics from config.yaml: topic_id|target|model
-TOPICS=$(python3 -c "
+TOPICS=$($PYTHON -c "
 import yaml
 with open('config.yaml') as f:
     config = yaml.safe_load(f)
@@ -52,7 +53,7 @@ for t in config.get('topics', []):
 ")
 
 # Init all feed XMLs
-python3 feed.py init
+$PYTHON feed.py init
 
 # Generate run ID
 RUN_ID=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -78,6 +79,7 @@ spawn_workers() {
         "$TIMEOUT_BIN" --kill-after=30 "$WORKER_TIMEOUT" \
             "$CLAUDE_BIN" --model "$model" -p "$prompt" \
             --allowedTools "WebSearch,WebFetch,Bash,Read,Grep,Glob" \
+            --permission-mode dontAsk \
             > ".logs/${topic_id}_${round_name}.log" 2>&1 &
         pids+=($!)
         topic_ids+=("$topic_id")
@@ -119,7 +121,7 @@ spawn_workers "round1" "${round1_topics[@]}"
 
 # === Check targets ===
 echo "--- Checking targets ---"
-CHECK_OUTPUT=$(python3 feed.py check-targets --run-id "$RUN_ID" 2>&1) || true
+CHECK_OUTPUT=$($PYTHON feed.py check-targets --run-id "$RUN_ID" 2>&1) || true
 echo "$CHECK_OUTPUT"
 echo ""
 
@@ -127,7 +129,7 @@ if echo "$CHECK_OUTPUT" | grep -q "__SHORTFALLS_JSON__"; then
     # Parse shortfalls
     SHORTFALLS_JSON=$(echo "$CHECK_OUTPUT" | grep "__SHORTFALLS_JSON__" | sed 's/.*__SHORTFALLS_JSON__://')
 
-    RETRY_LINES=$(python3 -c "
+    RETRY_LINES=$($PYTHON -c "
 import json, yaml, sys
 shortfalls = json.loads(sys.argv[1])
 with open('config.yaml') as f:
@@ -151,7 +153,7 @@ for s in shortfalls:
 
     # Final check (informational)
     echo "--- Final target check ---"
-    python3 feed.py check-targets --run-id "$RUN_ID" 2>&1 || true
+    $PYTHON feed.py check-targets --run-id "$RUN_ID" 2>&1 || true
     echo ""
 else
     echo "All targets met on first round!"
@@ -159,8 +161,8 @@ fi
 
 # === Prune and publish ===
 echo "--- Pruning and publishing ---"
-python3 feed.py prune --keep 50
-BASE_URL=$(python3 -c "
+$PYTHON feed.py prune --keep 50
+BASE_URL=$($PYTHON -c "
 import yaml
 with open('config.yaml') as f:
     print(yaml.safe_load(f).get('settings',{}).get('base_url',''))
