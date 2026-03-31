@@ -2,10 +2,10 @@
 <opml version="2.0">
   <head>
     <title>RSS Research Feeds</title>
-    <dateCreated>Tue, 31 Mar 2026 03:54:02 +0000</dateCreated>
+    <dateCreated>Tue, 31 Mar 2026 03:54:47 +0000</dateCreated>
   </head>
   <body>
-    <outline type="rss" text="Jimmy's Personalized Feed" title="Jimmy's Personalized Feed" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-    <outline type="rss" text="Rachel's Personalized Feed" title="Rachel's Personalized Feed" xmlUrl="https://xingjianz.com/cc-deepfeed/rachel-briefings.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
+    <outline type="rss" text="Jimmy's Personalized Feed" title="Jimmy's Personalized Feed" xmlUrl="https://xingjian-zhang.github.io/rss-research/daily-briefings.xml" htmlUrl="https://xingjian-zhang.github.io/rss-research" />
+    <outline type="rss" text="Rachel's Personalized Feed" title="Rachel's Personalized Feed" xmlUrl="https://xingjian-zhang.github.io/rss-research/rachel-briefings.xml" htmlUrl="https://xingjian-zhang.github.io/rss-research" />
   </body>
 </opml>
