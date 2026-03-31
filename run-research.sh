@@ -8,9 +8,9 @@ cd "$(dirname "$0")"
 
 # --- Config ---
 CLAUDE_BIN="${CLAUDE_BIN:-claude}"
-PYTHON="${PYTHON:-/opt/homebrew/Caskroom/miniforge/base/bin/python3}"
+PYTHON="${PYTHON:-python3}"
 WORKER_TIMEOUT="${WORKER_TIMEOUT:-900}"   # 15 min per worker
-TIMEOUT_BIN="${TIMEOUT_BIN:-/opt/homebrew/bin/timeout}"
+TIMEOUT_BIN="${TIMEOUT_BIN:-timeout}"
 
 # --- Log rotation ---
 mkdir -p .logs
