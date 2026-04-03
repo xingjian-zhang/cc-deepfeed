@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 03:10:24 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -87,6 +87,77 @@
       <category>ai-industry</category>
       <link>https://winbuzzer.com/2026/03/30/anthropic-ipo-q4-2026-60-billion-target-xcxwbn/</link>
       <enclosure url="https://winbuzzer.com/wp-content/uploads/2024/12/Anthropic-AI-Safety.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Gemma 4 全面评测：开源最大单代飞跃，但工具调用翻车</title>
+      <description>&lt;h2&gt;核心规格&lt;/h2&gt;
+&lt;p&gt;Google 于 4 月 2 日发布 Gemma 4 全系列四款模型，基于 Gemini 3 技术构建，首次采用 &lt;strong&gt;Apache 2.0&lt;/strong&gt; 许可证（此前均为 Google 自定义协议）。&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;型号&lt;/th&gt;&lt;th&gt;总参数&lt;/th&gt;&lt;th&gt;活跃参数&lt;/th&gt;&lt;th&gt;上下文&lt;/th&gt;&lt;th&gt;目标硬件&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;E2B&lt;/td&gt;&lt;td&gt;5.1B&lt;/td&gt;&lt;td&gt;2.3B&lt;/td&gt;&lt;td&gt;128K&lt;/td&gt;&lt;td&gt;手机、树莓派&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;E4B&lt;/td&gt;&lt;td&gt;8B&lt;/td&gt;&lt;td&gt;4.5B&lt;/td&gt;&lt;td&gt;128K&lt;/td&gt;&lt;td&gt;8GB 笔记本&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;26B-A4B (MoE)&lt;/td&gt;&lt;td&gt;~26B&lt;/td&gt;&lt;td&gt;3.8B&lt;/td&gt;&lt;td&gt;256K&lt;/td&gt;&lt;td&gt;24GB 消费级显卡&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;31B (Dense)&lt;/td&gt;&lt;td&gt;30.7B&lt;/td&gt;&lt;td&gt;30.7B&lt;/td&gt;&lt;td&gt;256K&lt;/td&gt;&lt;td&gt;80GB GPU&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;架构亮点：混合滑动窗口+全局注意力、双重 RoPE 支撑 256K 上下文、共享 KV Cache 降低显存、原生多模态（图像/视频/音频）。&lt;/p&gt;
+
+&lt;h2&gt;基准对比：代际飞跃&lt;/h2&gt;
+&lt;p&gt;Gemma 3 27B → Gemma 4 31B 的提升幅度是开源模型史上最大：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AIME 2026&lt;/strong&gt;: 20.8% → 89.2% (+68.4)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LiveCodeBench v6&lt;/strong&gt;: 29.1% → 80.0% (+50.9)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Codeforces ELO&lt;/strong&gt;: 110 → 2,150 (~20倍)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPQA Diamond&lt;/strong&gt;: 42.4% → 84.3% (+41.9)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MMLU Pro&lt;/strong&gt;: 67.6% → 85.2% (+17.6)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;26B-A4B MoE 仅用 3.8B 活跃参数达到 31B Dense 的 97% 质量，LMArena 排名开源第 6——&lt;strong&gt;性价比最佳&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2&gt;vs 竞品&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数学推理&lt;/strong&gt;：Gemma 4 胜（AIME 89.2% vs Qwen 3.5 ~49%）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;编码&lt;/strong&gt;：持平（Qwen 3.5 赢 SWE-bench，Gemma 4 赢 LiveCodeBench）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多语言&lt;/strong&gt;：Qwen 3.5 胜（250K 词表、201 种语言，CJK 优势明显）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;上下文&lt;/strong&gt;：Llama 4 Scout 10M tokens 无人能敌&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arena 综合&lt;/strong&gt;：略逊于 Qwen 3.5、GLM-5、Kimi K2.5，但差距不大&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;一线用户体验&lt;/h2&gt;
+&lt;h3&gt;好评&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;速度惊艳&lt;/strong&gt;：26B MoE 在 RTX 4090 跑 ~150 tok/s，E2B 在树莓派 5 跑 7.6 tok/s（仅需 1.5GB）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小模型超预期&lt;/strong&gt;：HuggingFace 团队表示"很难找到好的微调示例，因为开箱即用已经太好了"&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simon Willison 评价&lt;/strong&gt;：26B-A4B 是"笔记本上能跑的模型里最好的"&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Day 0 全生态支持&lt;/strong&gt;：Ollama、llama.cpp、MLX、Unsloth、LM Studio 全部就绪&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;翻车&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;工具调用严重损坏&lt;/strong&gt;：模型不执行工具，反而&lt;strong&gt;捏造工具执行结果&lt;/strong&gt;——生成伪造的函数调用和返回值，与 Google 宣传的"agentic 能力"形成讽刺对比&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指令遵循不可靠&lt;/strong&gt;：26B 变体"完全不遵守提示词规则"，agent 场景问题严重&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;31B 存在 bug&lt;/strong&gt;：LM Studio 中无论什么提示词都只输出 &lt;code&gt;---\n&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微调 Day 0 不可用&lt;/strong&gt;：Transformers 不识别模型类型、PEFT 无法处理新层类型等多个 bug&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单任务过度推理&lt;/strong&gt;：默认链式推理过于"啰嗦"&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;关键判断&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Apache 2.0 许可证可能比模型本身更重要。&lt;/strong&gt; VentureBeat 直言"许可证变更比基准测试更重要"。这让 Google 在许可证方面终于与 Qwen、Mistral 站到同一起跑线。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;26B-A4B MoE 是隐藏赢家。&lt;/strong&gt; 计算量仅为旗舰 1/8，质量达 97%，本地部署场景当前最佳性价比之选。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总体评价&lt;/strong&gt;：强大但粗糙的 beta——性能飞跃真实，但工具调用损坏、指令遵循不稳定、微调生态未就绪，生产环境需谨慎。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"&gt;https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/"&gt;https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.ycombinator.com/item?id=47616361"&gt;https://news.ycombinator.com/item?id=47616361&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://venturebeat.com/technology/google-releases-gemma-4-under-apache-2-0-and-that-license-change-may-matter"&gt;https://venturebeat.com/technology/google-releases-gemma-4-under-apache-2-0-and-that-license-change-may-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ai.rs/ai-developer/gemma-4-vs-qwen-3-5-vs-llama-4-compared"&gt;https://ai.rs/ai-developer/gemma-4-vs-qwen-3-5-vs-llama-4-compared&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://huggingface.co/blog/gemma4"&gt;https://huggingface.co/blog/gemma4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">af1a665f-c9d9-5976-9893-df8c84616e7f</guid>
+      <pubDate>Fri, 03 Apr 2026 03:10:24 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/</link>
+      <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_meta-dark.width-1300.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
