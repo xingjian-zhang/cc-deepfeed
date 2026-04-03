@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Jimmy's Personalized Feed — 密歇根大学与安娜堡动态</title>
+    <description>Per-topic feed: 密歇根大学与安娜堡动态</description>
+    <link>https://xingjianz.com/cc-deepfeed/daily-briefings-umich-a2.xml</link>
+    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <generator>cc-deepfeed</generator>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-umich-a2.xml" type="application/rss+xml" />
+  </channel>
+</rss>
