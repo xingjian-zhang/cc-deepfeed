@@ -1,12 +1,120 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
+    <item>
+      <title>🤖 SFR-RL：Salesforce 发布 Agentic RL 专用训练栈——比 VERL 省 250 倍内存，16 张 H200 训练百亿参数百万上下文</title>
+      <description>&lt;p&gt;Salesforce AI Research 于 4 月 2 日发布了 &lt;strong&gt;SFR-RL&lt;/strong&gt;，一个专为 Agentic RL 场景设计的生产级训练基础设施。这套系统直指当下 Agent RL 训练的核心痛点：多轮对话轨迹长度不一、MoE 大模型参数规模庞大、数千并发工具调用、以及长时间分布式训练中不可避免的故障恢复。&lt;/p&gt;
+
+&lt;p&gt;核心数字相当震撼：SFR-RL 的内存效率比 Megatron（配合复杂并行策略）高 10 倍，比 VERL（配合 FSDP + 上下文并行）高 250 倍。具体来说，SFR-RL 可以用仅 16 张 H200 GPU 完成 gpt-oss-120b 模型在百万 token 上下文长度下的全参数训练——在吞吐量和内存占用两个维度均刷新了已知最优。&lt;/p&gt;
+
+&lt;p&gt;架构上，SFR-RL 采用了四个关键设计：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流水线同步训练&lt;/strong&gt;（Pipelined Synchronous Training）：整个集群同时用于 rollout 和训练，避免资源闲置&lt;/li&gt;
+&lt;li&gt;弹性推理层（Resilient Inference Layer）：自动故障恢复，不中断训练&lt;/li&gt;
+&lt;li&gt;可扩展的本地优先工具执行（Local-first Tool Execution）：解决数千并发工具调用的瓶颈&lt;/li&gt;
+&lt;li&gt;原生 Expert Parallelism 支持：为 MoE 架构量身定制&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;放到我们一直跟踪的 Agentic RL 基础设施格局里看，SFR-RL 的加入让竞争进一步升级。此前已有 NVIDIA ProRL Agent（Rollout-as-a-Service 解耦轨迹生成）、字节跳动 AReaL v1.0（全异步训练 2.77x 加速）、以及 MIT TLT（投机解码加速推理）三大方案。SFR-RL 的差异化在于极致的内存效率和对 MoE 架构的原生支持——这两点恰好是其他方案的短板。Salesforce 在 Agent RL 训练中 250 倍于 VERL 的内存效率，意味着原本需要大规模集群才能跑通的实验，现在中等规模团队也可以尝试。&lt;/p&gt;
+
+&lt;p&gt;一个值得注意的时间点：就在 Salesforce 发布 SFR-RL 的同一天，LinkedIn 也在 Hugging Face 博客上发布了 gpt-oss 的 Agentic RL 训练实践回顾，两者显然存在合作关系。这暗示 SFR-RL 已经在真实的大模型训练中经过验证。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.salesforce.com/blog/efficient-rl-training-agentic-era/"&gt;https://www.salesforce.com/blog/efficient-rl-training-agentic-era/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl"&gt;https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e2dad501-573e-5170-9cae-e8410cff91e8</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:47 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://www.salesforce.com/blog/efficient-rl-training-agentic-era/</link>
+      <enclosure url="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2026/04/Image-Mar-31-1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 TIC-GRPO：首个 GRPO 收敛性理论分析——轨迹级重要性修正让 AIME24 提升 2.6 分</title>
+      <description>&lt;p&gt;GRPO（Group Relative Policy Optimization）自 DeepSeek 提出以来已成为 LLM RL 训练的主力算法，但一个根本问题始终悬而未决：它的梯度估计到底在优化什么？Lei Pang 等人在 arXiv 2508.02833（v5 更新于 3 月 23 日）中给出了答案——标准 GRPO 的更新规则实际上在估计&lt;strong&gt;旧策略&lt;/strong&gt;而非当前策略的梯度。&lt;/p&gt;
+
+&lt;p&gt;这个发现催生了 TIC-GRPO（Trajectory-level Importance-Corrected GRPO）。核心改动有两处：第一，用单一的轨迹级概率比替代 token 级重要性采样权重；第二，增加一个叫 up-only clipping 的轻量稳定化补丁。论文提供了 GRPO 类方法的首个收敛性分析，证明 TIC-GRPO 消除了对 MN 和 σ_sT,N 的依赖，收敛界更紧。&lt;/p&gt;
+
+&lt;p&gt;实验在 Qwen3-1.7B 和 Qwen3-8B 两个尺度上验证：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qwen3-8B 上，TIC-GRPO 在 AIME24 达到 33.34（GRPO 31.35，+2.0），AIME25 达到 24.12（GRPO 22.9，+1.2），MATH500 达到 90.0（GRPO 88.6），LiveCodeBench 达到 21.00（GRPO 19.88）&lt;/li&gt;
+&lt;li&gt;Qwen3-1.7B 上涨幅更明显：AIME24 从 9.17 涨到 11.77（+2.6），AIME25 从 5.31 涨到 6.98（+1.7）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一个有趣的消融实验佐证了理论分析：完全去掉重要性采样的简化版本，性能与标准 GRPO 几乎相当。换句话说，GRPO 原来的 token 级重要性权重基本没起到修正作用，形同虚设。TIC-GRPO 用轨迹级修正替代后，才真正让重要性采样发挥了应有效果。&lt;/p&gt;
+
+&lt;p&gt;这项工作的 44 页论文长度本身就说明了理论分析的深度。对于已经在用 GRPO 做 Agent RL 训练的团队来说，TIC-GRPO 的改动成本极低（只需替换重要性权重计算方式并加入 clipping），但在小模型上可以带来 AIME24 +28% 的相对提升。我们此前跟踪的 Tree-GRPO、RAPO、HCAPO 等工作都在 GRPO 基础上做上层改进，TIC-GRPO 则从底层数学保证入手——两个方向互补，可以叠加使用。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2508.02833"&gt;https://arxiv.org/abs/2508.02833&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2508.02833"&gt;https://arxiv.org/html/2508.02833&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">80008ada-aa89-536d-ab9a-b91545075c47</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:15 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2508.02833</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 MCP Dev Summit 纽约开幕首日：SDK V2 路线图公布、OAuth 2.1 作者到场、六场认证专题说明什么</title>
+      <description>&lt;p&gt;MCP Dev Summit 北美站今天（4 月 2 日）在纽约正式开幕，为期两天。我们此前报道过议程发布时的三大信号：SDK V2 路线图、认证难题、OpenAI 跨生态互操作。首日进展验证并深化了这些预判。&lt;/p&gt;
+
+&lt;p&gt;SDK V2 方面，Anthropic 的 Max Isbey 在「Path to V2 for MCP SDKs」演讲中首次公开了 Python SDK 升级路线。背景是自 1 月 24 日以来，Python SDK 一直停留在 v1.26.0，而 TypeScript SDK 在同期发布了多个版本。V2 可能涉及 &lt;code&gt;mcp.server.auth&lt;/code&gt; 模块的重构——这直接影响所有基于 MCP 构建 Agent 的团队。&lt;/p&gt;
+
+&lt;p&gt;认证（Authentication）成为首日最密集的议题，六个专门 session 围绕这一主题。其中最值得关注的是 &lt;strong&gt;Aaron Parecki&lt;/strong&gt;——OAuth 2.1 草案规范的作者——亲自到场。他的出席意味着 MCP 认证不是在造新轮子，而是在对接正式的 OAuth 标准。Anthropic 的 Paul Carleton 则介绍了 Cross-App Access（XAA/ID-JAG），目标是让单一身份在多个 AI Agent 之间实现 SSO。当前 MCP 认证的碎片化现状很明显：STDIO server 完全无认证、HTTP server 实现不统一、文档覆盖不足。六个 session 的密度说明社区已经把认证视为阻碍 MCP 进入生产环境的头号障碍。&lt;/p&gt;
+
+&lt;p&gt;跨生态互操作方面，OpenAI 的 Nick Cooper 将在明天（4 月 3 日）发表「MCP x MCP」主题演讲。已知的进展是 OpenAI Agents SDK 近期添加了 &lt;code&gt;list_resources()&lt;/code&gt; 和 &lt;code&gt;read_resource()&lt;/code&gt; 对 MCP Resources 的支持，Anthropic Python SDK 也有对应的 PR 待合并。这意味着用不同框架构建的 Agent 将能查询共享资源——这是真正意义上的互操作，不只是协议层面的兼容。&lt;/p&gt;
+
+&lt;p&gt;所有 session 同步在 YouTube 直播。明天的重头戏除了 OpenAI 主题演讲，还有 6 月新版规范的具体时间表是否会确认。我们会持续跟踪。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald"&gt;https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://events.linuxfoundation.org/mcp-dev-summit-north-america/"&gt;https://events.linuxfoundation.org/mcp-dev-summit-north-america/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://events.linuxfoundation.org/mcp-dev-summit-north-america/program/schedule/"&gt;https://events.linuxfoundation.org/mcp-dev-summit-north-america/program/schedule/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5f46fb44-5461-5b24-ac4c-2b3c519822ed</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:41 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald</link>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1n2ea3m9gozjs3vqzg3v.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 多层记忆框架实验评估：工作-情景-语义三层分解 + 自适应检索门控，六周期保留率 56.9%、虚假记忆率 5.1%</title>
+      <description>&lt;p&gt;Agent 记忆系统到底该怎么分层？Sunil Tiwari 与 Payal Fofadiya 在 arXiv 2603.29194（3 月 31 日提交）中给出了一套完整的实验评估。他们构建了一个&lt;strong&gt;多层记忆框架&lt;/strong&gt;（Multi-Layer Memory Framework），将对话历史分解为三个层次：工作记忆（Working Memory，处理即时上下文）、情景记忆（Episodic Memory，存储对话片段）、语义记忆（Semantic Memory，保留抽象知识）。在层间引入自适应检索门控（Adaptive Retrieval Gating）和保留正则化（Retention Regularization），控制跨会话语义漂移。&lt;/p&gt;
+
+&lt;p&gt;在 LOCOMO、LOCCO 等基准上的实验结果：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;成功率 46.85%，整体 F1 0.618，多跳推理 F1 0.594&lt;/li&gt;
+&lt;li&gt;六周期保留率 56.90%——即经过六轮对话后仍保留超过一半的关键信息&lt;/li&gt;
+&lt;li&gt;虚假记忆率仅 5.1%，上下文使用量 58.40%（意味着将近一半的上下文空间被有效节省）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些数字需要放在我们已有的认知框架里理解。上一期我们报道了 MemoryArena 的评估结论：在真正的跨会话多任务场景下，长上下文 Agent 成功率仅 6%，外部记忆系统和 RAG 均为 0%。本文的 46.85% 成功率和 MemoryArena 的 6% 之间的巨大差距，很可能源于评估基准的差异——LOCOMO 侧重对话连贯性，MemoryArena 侧重跨任务迁移。两个数字都是真实的，但它们测量的是不同的能力维度。&lt;/p&gt;
+
+&lt;p&gt;架构层面，这篇工作与 UCSD Jishen Zhao 组提出的三层存储层次（I/O、缓存、内存）形成互补。Zhao 组从计算机体系结构视角出发，关注多 Agent 间的缓存一致性问题；本文从认知科学的工作-情景-语义分类出发，关注单 Agent 的长期保留与抗漂移。两条路线终将需要合流：一个多 Agent 系统中的每个 Agent 都需要内部的三层认知记忆，同时 Agent 之间需要体系结构层面的一致性协议。&lt;/p&gt;
+
+&lt;p&gt;5.1% 的虚假记忆率是个实用指标。对于需要事实准确性的 Agent（如医疗助手、法律分析），这个数字是否够低？大概率不够。但相比完全无记忆管理的 baseline，这已经是一个有意义的进步方向。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.29194"&gt;https://arxiv.org/abs/2603.29194&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2603.29194"&gt;https://arxiv.org/html/2603.29194&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a12e7f93-6c46-5f57-b5f8-b72d5ce0143b</guid>
+      <pubDate>Thu, 02 Apr 2026 08:04:08 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.29194</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

@@ -1,12 +1,102 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 湾区生活指南</title>
     <description>Per-topic feed: 湾区生活指南</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-bay-area-life.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-bay-area-life.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-bay-area-life.xml" type="application/rss+xml" />
+    <item>
+      <title>🌉 Berkeley Restaurant Week 今天开幕：65+ 家餐厅十天美食节，附新玩法「Sips of Spring」</title>
+      <description>&lt;p&gt;第 14 届 Berkeley Restaurant Week 今天（4 月 2 日）正式开跑，持续到 4 月 12 日。今年主题叫「Seeds of Spring」，超过 65 家餐厅参与，从精酿啤酒馆到寿司吧到高级西餐，价格分四档：Seedling（$10-20）、Sprout（$20-30）、Bloom（$30-40）、Harvest（$40+），每档对应特别菜品或 prix-fixe 套餐。&lt;/p&gt;
+
+&lt;p&gt;今年最值得关注的新玩法是 &lt;strong&gt;「Sips of Spring」&lt;/strong&gt;——带上 Berkeley 本地酿造的葡萄酒或清酒去参与活动的餐厅，免收开瓶费（corkage）。合作酒庄包括 Donkey &amp; Goat、Broc Cellars、Hammerling Wines、Tessier、Covenant Wines、NORIA 和 Takara Sake，超过 25 家餐厅参与这项优惠。Berkeley 一直是东湾的自然酒重镇，这个活动等于把本地酒庄和本地餐厅做了一次联动——平时一瓶开瓶费 $20-30，十天内免费，相当实惠。&lt;/p&gt;
+
+&lt;p&gt;官方推荐的几家餐厅包括 Casa Barotti（意大利）、Praaw Thai、Vanessa's Bistro（越南）、Donato &amp; Co.（意式小酒馆）、Julia's 和 Oceanview Diner。4 月 3 日周五下午 5 点，Donkey &amp; Goat 酒庄（1340 Fifth Street）有免费的开幕派对（Kick-off Party），可以先去试酒再决定带哪瓶去晚餐。&lt;/p&gt;
+
+&lt;p&gt;另一个彩蛋：凭餐厅周的消费凭证，去 &lt;strong&gt;BAMPFA&lt;/strong&gt;（Berkeley Art Museum and Pacific Film Archive）可以享受 33% 的门票折扣。吃完饭顺便看个展览或独立电影，一个周末就能把 Berkeley 的吃喝玩乐串起来。&lt;/p&gt;
+
+&lt;p&gt;此前我们介绍过 SF Restaurant Week（4/10-19），加上 Berkeley 这一波，四月上半月整个湾区都在打「美食牌」。两者可以穿插安排：Berkeley 吃到 4/12，SF 从 4/10 接力，无缝衔接。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.visitberkeley.com/food-drinks/restaurant-week/'&gt;Visit Berkeley&lt;/a&gt;、&lt;a href='https://www.berkeley-eats.com/plan-ahead-berkeley-restaurant-week-april-2-12/'&gt;Berkeley Eats&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.visitberkeley.com/food-drinks/restaurant-week/"&gt;https://www.visitberkeley.com/food-drinks/restaurant-week/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.berkeley-eats.com/plan-ahead-berkeley-restaurant-week-april-2-12/"&gt;https://www.berkeley-eats.com/plan-ahead-berkeley-restaurant-week-april-2-12/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8f3ca988-21d4-5e17-9c42-88b6416d3183</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:59 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.visitberkeley.com/food-drinks/restaurant-week/</link>
+      <enclosure url="https://www.visitberkeley.com/imager/s3-us-west-1_amazonaws_com/visit-berkeley/CMS/BRW-2026-Typeform-Photo-5_694f32bf0e9ef81016789076834d1a45.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 四月超级花海进入爆发期：湾区五条最佳赏花徒步路线</title>
+      <description>&lt;p&gt;之前我们预告过 2026 年的加州超级花海（Superbloom），当时说四月中到五月中是湾区最佳观赏期。现在四月刚到，花已经开始爆了。Mount Diablo 南侧的 Tassajara Valley 和 Morgan Territory 已经被金色野花铺满，远看像被荧光笔涂过一样。Mt. Tamalpais 的罂粟和鲁冰花（lupine）也刚开始冒头——再暖和一两周，Marin 可能迎来真正意义上的 superbloom。&lt;/p&gt;
+
+&lt;p&gt;趁着花期刚开始，这里整理五条适合周末出发的赏花徒步路线：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Tomales Point Trail, Point Reyes&lt;/strong&gt;（9.7 英里往返）&lt;br/&gt;从 19 世纪的 Pierce Point Ranch 出发，沿海岸悬崖走，能看到 Tule 麋鹿群和远处的 Farallon 群岛。四月正值灰鲸迁徙季，运气好岸边就能看到。回程路过 Inverness Park Market 的 Tap Room，汉堡三明治是当地人心头好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Chimney Rock Trail, Point Reyes&lt;/strong&gt;（1.8 英里往返）&lt;br/&gt;短小精悍的经典路线，沿窄半岛走到尽头。四月主力花种是 goldfields、蓝眼草（blue-eyed grass）和骡耳向日葵。热门路线，早到是王道。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Morgan Territory / Condor Loop, 东湾&lt;/strong&gt;（7.8 英里）&lt;br/&gt;从 Clyma 出发走 Condor Loop，穿过树林山谷，三月底已经有野花了，四月进入全盛。运气好能看到加州秃鹫。这条路线人少，适合想避开 Point Reyes 人流的人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Cataract Falls Trail, Marin&lt;/strong&gt;&lt;br/&gt;冬雨之后溪水充沛，瀑布哗哗流，两岸野花和蕨类铺满。春天去体验感最好，夏天水就干了。从 Alpine Lake 出发上行比下行累但风景更有层次。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Lisa Killough Trail, Rancho San Vicente&lt;/strong&gt;&lt;br/&gt;俯瞰 Calero Reservoir 的全景路线，春天的亮点是 Bay checkerspot 蝴蝶——这是联邦濒危物种，只有少数几个栖息地能看到，这里是其中之一。&lt;/p&gt;
+
+&lt;p&gt;几个实用提醒：近期有零星降雨，出发前查 trail status，部分步道可能临时关闭。Mt. Tamalpais 停车费 $8，North Table Mountain 需要 $6 的 CDFW Lands Day Pass。周末热门步道（Point Reyes）建议 9 点前到。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.7x7.com/bay-area-bucket-list-hikes-2026-2674850367.html'&gt;7x7 Bay Area&lt;/a&gt;、&lt;a href='https://www.hipcamp.com/en-US/stories/superbloom'&gt;Hipcamp Superbloom Guide&lt;/a&gt;、&lt;a href='https://guides.openspacetrust.org/wildflowers/'&gt;Peninsula Open Space Trust&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.7x7.com/bay-area-bucket-list-hikes-2026-2674850367.html"&gt;https://www.7x7.com/bay-area-bucket-list-hikes-2026-2674850367.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.hipcamp.com/en-US/stories/superbloom"&gt;https://www.hipcamp.com/en-US/stories/superbloom&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://guides.openspacetrust.org/wildflowers/"&gt;https://guides.openspacetrust.org/wildflowers/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">988644cb-dd49-51d0-9a7e-6265242b25d7</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:31 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.7x7.com/bay-area-bucket-list-hikes-2026-2674850367.html</link>
+      <enclosure url="https://www.7x7.com/media-library/image.jpg?id=62667916&amp;width=1200&amp;height=600&amp;coordinates=0%2C166%2C0%2C167" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 4 月 25 日：旧金山一天三场免费节日，荷兰风车派对、万狗大游行、十小时街头音乐节</title>
+      <description>&lt;p&gt;如果四月只能挑一天出门浪，选 4 月 25 日。这一天旧金山同时有三场免费节日，覆盖三种完全不同的氛围，可以串着玩一整天。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;荷兰国王日风车节（Dutch King's Day Windmill Festival）&lt;/strong&gt;&lt;br/&gt;地点：Golden Gate Park, Murphy Windmill&lt;br/&gt;时间：白天&lt;br/&gt;门票：免费&lt;/p&gt;
+
+&lt;p&gt;每年四月，Golden Gate Park 最西端的荷兰风车下会变成一个迷你阿姆斯特丹。穿上橙色衣服（荷兰王室色），逛跳蚤市场，吃荷兰小吃，喝啤酒，玩传统荷兰游戏。Murphy Windmill 建于 1908 年，是公园两座百年风车之一。这个节日小众但氛围极好，很多人不知道旧金山有这么一个「荷兰角」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SF DogFest&lt;/strong&gt;&lt;br/&gt;地点：Duboce Park&lt;br/&gt;时间：白天&lt;br/&gt;门票：免费&lt;/p&gt;
+
+&lt;p&gt;号称「旧金山最大的狗狗活动」。有宠物游行（Pet Parade）、嘉年华摊位、狗狗才艺表演。如果你有狗，这是它的社交大日子；如果你没有狗，这是你被几百只狗包围然后考虑养一只的日子。Duboce Park 就在 N-Judah 线旁边，交通很方便。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pickin' on the Polk&lt;/strong&gt;&lt;br/&gt;地点：Polk Gulch, Polk Street&lt;br/&gt;时间：10 小时连演&lt;br/&gt;门票：免费&lt;/p&gt;
+
+&lt;p&gt;Polk Street 封街变舞台，从中午到深夜十小时不间断现场音乐——蓝草、爵士、摇滚、电子轮番上阵。这是 Polk Gulch 社区自己办的邻里街区派对，酒吧和餐厅全开，街上随便走随便听。比正式音乐节松弛得多，是那种「走到哪儿哪儿有音乐」的体验。&lt;/p&gt;
+
+&lt;p&gt;一条可行的串联路线：上午去 Golden Gate Park 过荷兰节 → 中午坐 N-Judah 去 Duboce Park 看 DogFest → 下午转战 Polk Street 听现场到晚上。三个活动分布在城市西、中、北三个区域，公交串联完全可行。&lt;/p&gt;
+
+&lt;p&gt;同一天还有：Cupertino Cherry Blossom Festival（4/25-26，南湾的樱花节也在这个周末）。四月的湾区，真的不缺出门的理由。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://sf.funcheap.com/city-guide/san-francisco-april-festivals-street-fairs/'&gt;Funcheap SF&lt;/a&gt;、&lt;a href='https://dothebay.com/events/2026/04/25'&gt;Do The Bay&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/city-guide/san-francisco-april-festivals-street-fairs/"&gt;https://sf.funcheap.com/city-guide/san-francisco-april-festivals-street-fairs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dothebay.com/events/2026/04/25"&gt;https://dothebay.com/events/2026/04/25&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4cc54050-bd40-5277-b6b6-4df871e3f06c</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:58 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sf.funcheap.com/city-guide/san-francisco-april-festivals-street-fairs/</link>
+      <enclosure url="https://cdn.funcheap.com/wp-content/uploads/2025/03/April-2025.png" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

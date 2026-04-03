@@ -1,12 +1,59 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 职业成长与实习攻略</title>
     <description>Per-topic feed: 职业成长与实习攻略</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" type="application/rss+xml" />
+    <item>
+      <title>📈 AI-Washing：当「AI 替代」成了裁员的万能借口</title>
+      <description>&lt;p&gt;2026 年 Q1 还没过完，科技行业裁员人数已突破 85,000。Block、Atlassian、Snowflake、Epic Games——名单越来越长，理由却越来越统一：AI。但这真的是 AI 驱动的结构性变革，还是一场精心包装的成本削减？&lt;/p&gt;&lt;p&gt;&lt;strong&gt;数字背后的故事&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;2 月底，Block CEO Jack Dorsey 宣布裁员 4,000 人，占全球员工的 40%，直接把公司打回 2020 年的规模。他在致股东信中写道：「一个更小的团队，用我们正在打造的工具，能做得更多、更好。」3 月，Atlassian 跟进裁员 1,600 人（10%），其中超过 900 个岗位在研发部门，CEO 称之为「自筹资金投资 AI」。Snowflake 更激进——直接用 AI 系统 Project SnowWork 替换了整个约 70 人的技术文档团队。&lt;/p&gt;&lt;p&gt;但 Marc Andreessen 在 3 月 31 日给出了截然不同的解读：「大公司至少超编 25%，多数超编 50% 到 75%。现在他们都有了银弹借口——哦，是 AI。」他直言：「AI 在 12 月之前根本不足以胜任他们正在裁掉的那些岗位。」&lt;/p&gt;&lt;p&gt;&lt;strong&gt;数据怎么说？&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;HBR 对 1,006 名全球高管的调查揭示了一组耐人寻味的数字：60% 的高管已经因为 AI 的&lt;em&gt;预期能力&lt;/em&gt;裁员，其中 21% 进行了大规模裁减。但基于 AI &lt;em&gt;实际产出效果&lt;/em&gt;而大幅裁员的？仅 2%。换句话说，绝大多数裁员是在赌 AI 的未来，而非基于 AI 今天能做到什么。连 Sam Altman 都公开承认：「几乎每家裁员的公司都在怪 AI，不管实际原因是不是 AI。」&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Klarna 的前车之鉴&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Klarna 在 2022-2024 年间通过冻结招聘将员工缩减 40%，CEO 高调宣称 AI 能替代人工客服。结果服务质量下降，2025 年又重新招聘了约 20 名客服人员。HBR 还提到：2016 年 Geoffrey Hinton 预言 AI 五年内超越放射科医生——十年过去，没有一位放射科医生因此丢工作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对中高级工程师的实际影响&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;这轮裁员潮有几个值得关注的信号：第一，研发岗不再是安全区——Atlassian 900+ 个被裁岗位在 R&amp;amp;D；第二，AI-washing 正在稀释「AI 人才需求」的信号，真正的需求和噪音很难分辨；第三，科技行业失业率已升至 5.8%，重新就业中位时间从 3.2 个月延长到 4.7 个月。判断一家公司 AI 战略是否真实有个简单标准：它有没有可衡量的 AI 产品上线，还是只有 PPT 和裁员公告。前者是转型，后者大概率是 AI-washing。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/03/31/marc-andreessen-ai-layoffs-silver-bullet-excuse-overhiring/"&gt;https://fortune.com/2026/03/31/marc-andreessen-ai-layoffs-silver-bullet-excuse-overhiring/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance"&gt;https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-01/jack-dorsey-s-4-000-job-cuts-at-block-arouse-suspicions-of-ai-washing"&gt;https://www.bloomberg.com/news/articles/2026-03-01/jack-dorsey-s-4-000-job-cuts-at-block-arouse-suspicions-of-ai-washing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">334b0d5b-2b00-5fa9-b462-f343594aad71</guid>
+      <pubDate>Thu, 02 Apr 2026 08:05:09 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://fortune.com/2026/03/31/marc-andreessen-ai-layoffs-silver-bullet-excuse-overhiring/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-1408769890-e1774972018537.jpg?resize=1200,600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 AI 编程工具的生产力悖论：开发者自觉快了 24%，实测慢了 19%</title>
+      <description>&lt;p&gt;AI 编程助手的采用率已接近饱和——95% 的开发者每周至少使用一次，56% 的人超过 70% 的工程工作依赖 AI。但两项独立研究在 2026 年初指向同一个尴尬结论：个体开发者确实写了更多代码，但组织层面的生产力提升几乎为零。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;METR 的「反直觉」发现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;AI 安全研究机构 METR 对 16 名经验丰富的开源开发者做了一项严格的随机对照实验。这些开发者维护着平均 22,000+ star、100 万+ 行代码的大型项目。结果：使用 AI 工具（主要是 Cursor Pro + Claude 3.5/3.7 Sonnet）完成任务的时间反而多了 19%。更有意思的是，开发者自己觉得快了 24%——即便实际变慢了，他们依然认为 AI 帮了忙。&lt;/p&gt;&lt;p&gt;为什么会慢？METR 分析了 20 个可能因素，确认核心问题是&lt;strong&gt;AI 可靠性不足&lt;/strong&gt;：开发者只接受了不到 44% 的 AI 生成代码。大量时间花在审查、测试、修改、最后又拒绝 AI 输出上。对于熟悉自己代码库的资深开发者，AI 经常提供不合适的方案——它不理解项目的历史设计决策和特殊约定。&lt;/p&gt;&lt;p&gt;2026 年 2 月，METR 发布更新，坦承存在严重的选择偏差：30%-50% 的开发者主动回避提交「用 AI 做会更快」的任务。新一轮研究（47 名新开发者加入）将估计值修正为 -4%，置信区间（-15% 到 +9%）跨过了零点。METR 承认：他们可能系统性地遗漏了从 AI 中获益最多的那批人。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Faros AI 的万人调查：个人快了，团队没快&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Faros AI 分析了 1,255 个团队、超过 10,000 名开发者的工程效能数据，AI 高采用团队呈现鲜明矛盾：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;个人层面：任务完成量 +21%，PR 合并量 +98%&lt;/li&gt;&lt;li&gt;代价：PR 审查时间 +91%，平均 PR 体积 +154%，Bug 数量 +9%&lt;/li&gt;&lt;li&gt;组织层面：DORA 四项关键指标与 AI 采用率之间&lt;em&gt;无显著相关性&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;这正是&lt;strong&gt;阿姆达尔定律&lt;/strong&gt;的经典体现：AI 帮开发者加速了编码环节，但代码审查、测试、发布管线并没有同步加速。上游涌入更多代码，下游审查者被淹没——PR 审查时间翻了将近一倍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;少数成功的公司做对了什么？&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Faros 报告指出，确实有少数公司实现了可衡量的效能提升，但它们无一例外把 AI 当作系统工程来做：工作流重新设计、治理机制、基础设施升级、培训体系、跨职能协同——而非简单地「给每个人装个 Copilot」。对个人开发者的实际建议：专注于 AI 确定能加速的环节（陌生代码库探索、样板代码、测试用例编写），而在你最熟悉的核心业务逻辑上保持警惕——METR 的数据说明，在你最擅长的领域，AI 反而最可能拖慢你。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://metr.org/blog/2026-02-24-uplift-update/"&gt;https://metr.org/blog/2026-02-24-uplift-update/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"&gt;https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.faros.ai/ai-productivity-paradox"&gt;https://www.faros.ai/ai-productivity-paradox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">299d5d1e-cc47-58cf-88fe-4a63872fa1a7</guid>
+      <pubDate>Thu, 02 Apr 2026 08:05:41 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://metr.org/blog/2026-02-24-uplift-update/</link>
+      <enclosure url="https://metr.org/assets/images/logo/og-image-logo.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 Snowflake 用 AI 裁掉整个技术文档团队：白领岗位「整建制替代」的开端？</title>
+      <description>&lt;p&gt;3 月，Snowflake 做了一件在 2026 年科技圈引起广泛讨论的事：直接裁掉整个技术写作与文档团队——约 70 人，全部由名为 Project SnowWork 的 AI 系统接管。这不是缩编，不是「AI 辅助人类」，而是&lt;strong&gt;整建制替代&lt;/strong&gt;。一个上市公司，用一个有名有姓的 AI 系统，替换掉一个完整的职能部门。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Project SnowWork 能做什么？&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;SnowWork 建立在 Snowflake 2 月与 OpenAI 签署的 2 亿美元合作基础上，将 GPT-5.2 原生集成到 Snowflake AI Data Cloud。该系统能直接从源代码生成复杂的 API 文档和用户指南——过去需要人类团队数周的跨部门调研和写作，现在缩短到分钟级别。&lt;/p&gt;&lt;p&gt;从商业逻辑看链条很清晰：技术文档是高度结构化的写作，输入（源代码、API 定义、变更日志）和输出（文档）之间的映射关系相对明确——这恰好是大语言模型擅长的领域。而技术文档团队通常不直接创造收入，在降本增效压力下，是优先被开刀的部门。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么这次不同&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;过去两年，AI 对白领工作的冲击多以「效率提升」面貌出现——辅助写代码、加速文案撰写。真正做到「一个都不留」的案例少之又少。Snowflake 是第一个被广泛报道的「有命名 AI 系统整建制替换完整团队」案例，这是一个标志性事件。&lt;/p&gt;&lt;p&gt;它释放的信号比裁员人数本身更重要：如果你的岗位产出可以被清晰定义为「输入 X → 输出 Y」，且 X 是数字化的（代码、数据、结构化文本），那么 AI 替代的技术可行性已经到位，剩下的只是管理层的决策意愿和时机选择。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;但怀疑声也不小&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;业内批评集中在「文档债务」（documentation debt）这个概念上。AI 生成文档的已知问题包括：遗漏边界案例（特别是安全相关场景）；无法理解用户实际使用痛点；缺乏技术写作者在跨团队沟通中获取的隐性知识。一篇好的 API 文档不仅告诉你「怎么调这个接口」，还要告诉你「什么时候不该调」、「历史上踩过什么坑」——这些信息往往不在源代码里。&lt;/p&gt;&lt;p&gt;Klarna 的经验（裁员后又回聘客服）说明，AI 替代后的质量下降可能需要数月才能显现。Snowflake 的文档质量是否会经历类似滑坡，值得持续关注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对软件工程师意味着什么&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;短期看，写代码的人暂时安全——代码生成的复杂度远高于文档生成。但 Snowflake 划出了一条清晰的分界线：&lt;strong&gt;产出越结构化、输入越数字化的岗位，替代风险越高&lt;/strong&gt;。技术写作是第一个倒下的，下一个可能是 QA 中的测试用例编写，或初级数据分析中的报表生成。如果你的日常工作中有大量「从 A 转换到 B」的结构化任务，现在是时候让工作重心向「需要判断力、跨领域协调、模糊问题定义」的方向迁移了。这不是鸡汤——这是 Snowflake 70 个人刚刚用职业经历验证的现实。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.benzinga.com/markets/tech/26/03/51408543/snowflake-cuts-entire-team-joins-amazon-canva-in-ai-push"&gt;https://www.benzinga.com/markets/tech/26/03/51408543/snowflake-cuts-entire-team-joins-amazon-canva-in-ai-push&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/"&gt;https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e1dc4239-0474-5a24-bbdc-776dd34a1a34</guid>
+      <pubDate>Thu, 02 Apr 2026 08:06:17 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://www.benzinga.com/markets/tech/26/03/51408543/snowflake-cuts-entire-team-joins-amazon-canva-in-ai-push</link>
+      <enclosure url="https://cdn.benzinga.com/files/images/story/2026/03/23/Woman-And-Ai-Robot-Working-Together-In-T.jpeg?width=1200&amp;amp;height=800&amp;amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

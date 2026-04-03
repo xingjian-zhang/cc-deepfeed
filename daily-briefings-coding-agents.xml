@@ -1,12 +1,80 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
+    <item>
+      <title>💻 Cursor 冲击 500 亿美元估值，但 Composer 2 模型风波暴露信任裂痕</title>
+      <description>&lt;p&gt;Cursor 母公司 Anysphere 正在洽谈新一轮融资，目标估值约 &lt;strong&gt;500 亿美元&lt;/strong&gt;——几乎是去年 11 月 Series D（23 亿美元，估值 293 亿）的两倍。Bloomberg 3 月 12 日率先报道了这一消息，此后多家媒体确认。支撑这一估值的核心数据：ARR 突破 20 亿美元（三个月翻倍），企业客户贡献 60% 收入。&lt;/p&gt;
+
+&lt;p&gt;但估值狂飙的同时，Cursor 的模型策略在三月下旬遭遇了信任危机。3/19 发布的 Composer 2 被官方宣传为拥有「state-of-the-art 编程智能」，多项基准超越 Claude Opus。发布数小时后，开发者 Fynn 在 X 上分析了模型 API 调用，发现内部标识符为 &lt;code&gt;kimi-k2p5-rl-0317-s515-fast&lt;/code&gt;——也就是说，Composer 2 实际上基于月之暗面的开源模型 Kimi 2.5 做 RL 微调。&lt;/p&gt;
+
+&lt;p&gt;尴尬的是，Cursor 发布博客里只字未提 Moonshot AI 或 Kimi。副总裁 Lee Robinson 事后承认「只有约 1/4 算力来自基座模型，其余是自研训练」，联合创始人 Aman Sanger 也表示「没在博客里提 Kimi 基座确实是个失误」。Moonshot 方面则通过 X 账号确认这属于「与 Fireworks AI 的授权商业合作」，技术上并无违规。&lt;/p&gt;
+
+&lt;p&gt;这件事的信号比事件本身更重要。Cursor 的核心叙事一直是「我们在自研模型、有实时 RL 管线、数据飞轮无人能比」。当开发者发现其旗舰模型 75% 是第三方开源基座时，叙事就出现了裂痕。对于一家估值即将达到 500 亿的公司，模型透明度不再是可选项。&lt;/p&gt;
+
+&lt;p&gt;竞争格局也在因此微妙变化。Claude Code 和 OpenAI Codex 都使用自家第一方模型（Opus 4.6 和 GPT-5.4 mini），没有供应链透明度问题。GitHub Copilot 虽然依赖外部模型，但从不宣称自研。Cursor 处于一个尴尬位置：既想讲自研故事拉估值，又实际依赖开源基座。这个矛盾在 500 亿估值的放大镜下只会更刺眼。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation"&gt;https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/"&gt;https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/"&gt;https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f851ca47-2b3f-5a9e-b12b-87ea0bb98c51</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:08 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation</link>
+    </item>
+    <item>
+      <title>💻 Claude Code v2.1.90：/powerup 交互式教学、二次方性能瓶颈修复与安全加固</title>
+      <description>&lt;p&gt;4 月 1 日发布的 Claude Code v2.1.90 看似是个小版本号迭代，实际包含了多项影响日常使用体验的重要改进。最大亮点是新增的 &lt;strong&gt;/powerup&lt;/strong&gt; 命令——一套交互式教学系统，用动画演示教用户发现和掌握 Claude Code 的各种功能。这对降低上手门槛很有价值，尤其是对于不读 changelog 的普通用户。&lt;/p&gt;
+
+&lt;p&gt;性能层面的修复才是这个版本的硬核部分。三个二次方复杂度（quadratic）问题被同时解决：SSE 传输层处理大帧时从 O(n^2) 降到 O(n)；SDK 长对话的 transcript 写入不再随对话长度二次增长；MCP 工具 schema 的 cache-key 查找不再每轮都做 JSON.stringify。对于日常跑长任务的用户，这些修复直接影响「用着用着就卡了」的痛点。&lt;/p&gt;
+
+&lt;p&gt;Bug 修复中最关键的一个：&lt;code&gt;--resume&lt;/code&gt; 恢复会话时，如果用户配置了 deferred tools、MCP 服务器或自定义 agents，首个请求会完全丢失 prompt cache——这个自 v2.1.69 就存在的回归终于被修复。另一个实际影响很大的修复是 auto mode 会正确遵守用户设定的边界（如「不要 push」「先等 X 再做 Y」），之前有绕过的情况。&lt;/p&gt;
+
+&lt;p&gt;安全方面，PowerShell 工具做了全面加固：封堵了尾部 &lt;code&gt;&amp;amp;&lt;/code&gt; 后台作业绕过、&lt;code&gt;-ErrorAction Break&lt;/code&gt; 调试器挂起、压缩包解压的 TOCTOU 竞态、解析失败时 deny-rule 降级等多个攻击面。&lt;code&gt;Get-DnsClientCache&lt;/code&gt; 和 &lt;code&gt;ipconfig /displaydns&lt;/code&gt; 被移出自动允许列表，避免 DNS 缓存泄露隐私。&lt;/p&gt;
+
+&lt;p&gt;同日发布的 v2.1.89 则带来了 &lt;code&gt;PreToolUse&lt;/code&gt; hook 的 &lt;code&gt;"defer"&lt;/code&gt; 决策——headless 会话可以在工具调用处暂停，之后用 &lt;code&gt;-p --resume&lt;/code&gt; 恢复。这为 CI/CD 场景下的人工审批流程打开了大门。配合 &lt;code&gt;MCP_CONNECTION_NONBLOCKING=true&lt;/code&gt;（跳过 MCP 连接等待），headless 模式正在变得越来越适合生产级自动化。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/anthropics/claude-code/releases"&gt;https://github.com/anthropics/claude-code/releases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/changelog"&gt;https://code.claude.com/docs/en/changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6a775d2f-beab-5893-81ab-b0757bdea544</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:37 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.com/anthropics/claude-code/releases</link>
+      <enclosure url="https://opengraph.githubassets.com/c3e79fbabb8c2ff136a6cb0268fd16c0b4fe5096ab0ba4fb5e796844211fa827/anthropics/claude-code" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Pinterest 大规模部署 MCP 服务器集群：月省 7000 工时的工程实践</title>
+      <description>&lt;p&gt;Pinterest 工程团队在 4 月初公开了其生产级 MCP 生态系统的完整架构——这可能是目前公开披露的最大规模 MCP 企业部署案例。他们的方案选择了&lt;strong&gt;云端托管的多域 MCP 服务器集群&lt;/strong&gt;，而非单体服务，每个服务器专注一个领域（Presto、Spark、Airflow 等），通过中央注册表统一管理。&lt;/p&gt;
+
+&lt;p&gt;架构的核心是一个 MCP Registry（注册表），既提供面向人类的 UI，也暴露 API 用于自动发现。AI agent 通过注册表找到可用的 MCP 服务器，然后自主完成事件调查、生成上下文摘要、提出代码变更等工作流。关键约束是所有敏感操作都必须经过 &lt;strong&gt;human-in-the-loop 审批&lt;/strong&gt;——agent 会通过 elicitation 机制在执行前请求确认。&lt;/p&gt;
+
+&lt;p&gt;安全模型分两层：终端用户通过 JWT 控制人工审批流程，服务间通信依赖 mesh identity。每个 MCP 服务器都实现了细粒度的授权装饰器和业务组隔离，上线前必须通过安全、法务/隐私、GenAI 三重审查。整套流程的 OAuth 对接复用了公司已有的内部认证体系。&lt;/p&gt;
+
+&lt;p&gt;数据方面：月均 66,000 次调用、844 活跃用户、每月节省约 7,000 工时。统一部署管线管理基础设施扩缩容和服务生命周期，工程师只需要定义工具接口。&lt;/p&gt;
+
+&lt;p&gt;这个案例的价值在于，它回答了很多团队对 MCP 的核心疑问：「生产环境怎么用？」Pinterest 的答案很清晰——域专用服务器（避免上下文膨胀）、中央注册表（解决发现和治理）、两层授权（兼顾自动化和安全）。这套架构模式对于任何考虑在内部部署 MCP 的大型工程组织都有直接参考价值。结合微软 4 月 MCP 联邦连接器 GA 的消息，MCP 正在从「开发者工具协议」快速演化为「企业基础设施标准」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2026/04/pinterest-mcp-ecosystem/"&gt;https://www.infoq.com/news/2026/04/pinterest-mcp-ecosystem/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d75563f4-290d-54f2-a972-f65b80f8771e</guid>
+      <pubDate>Thu, 02 Apr 2026 08:04:00 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://www.infoq.com/news/2026/04/pinterest-mcp-ecosystem/</link>
+      <enclosure url="https://res.infoq.com/news/2026/04/pinterest-mcp-ecosystem/en/headerimage/pininterestarch-1774143632607.jpeg" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

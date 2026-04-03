@@ -1,12 +1,126 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 足球赛事动态</title>
     <description>Per-topic feed: 足球赛事动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-soccer.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-soccer.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-soccer.xml" type="application/rss+xml" />
+    <item>
+      <title>⚽ 意大利足球陷入系统性危机：体育部长逼宫足协主席，Gattuso去留成谜</title>
+      <description>&lt;p&gt;波黑点球淘汰意大利、四冠王连续第三届无缘世界杯——这个结果在3月31日落定后，意大利足球的震荡才真正开始。&lt;/p&gt;
+
+&lt;p&gt;体育部长Andrea Abodi率先发难，公开要求意大利足协（FIGC）主席Gabriele Gravina辞职："意大利足球需要彻底整改，而这个过程必须从足协换血开始。"这是意大利政界罕见地对足球事务进行如此直接的干预。Gravina本人则表态暧昧，只说"下周会做更深层次的反思"，既没有明确辞职也没有拒绝。前总理Matteo Renzi更是将此事上升到国家层面："足球在意大利不只是娱乐，它是文化和国家认同的一部分。"&lt;/p&gt;
+
+&lt;p&gt;主教练Gattuso的处境同样尴尬。赛后他情绪崩溃，说"今天我根本不想谈自己的未来，真的很痛"。他的合同原本写明：若意大利进入世界杯则自动续约至2028年，现在这个条款形同废纸。足协方面表态希望他留任，但舆论风向已经转了——球迷翻出了Gattuso此前"如果无法带队进世界杯就辞职"的承诺，要求他兑现。&lt;/p&gt;
+
+&lt;p&gt;更深层的问题是：这不仅仅是国家队的失败。自2010年国际米兰夺冠以来，没有任何意甲俱乐部赢得过欧冠。本赛季四支意甲球队全部在八强前出局。青训体系产出不足、联赛竞争力下滑、战术理念落后——这些积弊在三连缺席世界杯的耻辱中被彻底暴露。&lt;/p&gt;
+
+&lt;p&gt;下周足协理事会会议将是关键节点。Gravina是否下台、Gattuso是否续任、意大利足球能否启动真正的结构性改革，答案很快就会揭晓。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.espn.com/soccer/story/_/id/48372636/italy-world-cup-qualifying-gabriele-gravina"&gt;ESPN&lt;/a&gt;、&lt;a href="https://tribuna.com/en/blogs/fans-furious-over-italys-world-cup-playoff-exit-remember-gat/"&gt;Tribuna&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/story/_/id/48372636/italy-world-cup-qualifying-gabriele-gravina"&gt;https://www.espn.com/soccer/story/_/id/48372636/italy-world-cup-qualifying-gabriele-gravina&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tribuna.com/en/blogs/fans-furious-over-italys-world-cup-playoff-exit-remember-gat/"&gt;https://tribuna.com/en/blogs/fans-furious-over-italys-world-cup-playoff-exit-remember-gat/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">30591125-a9da-5bc9-8836-caf58566b502</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:45 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.espn.com/soccer/story/_/id/48372636/italy-world-cup-qualifying-gabriele-gravina</link>
+      <enclosure url="https://a.espncdn.com/combiner/i?img=/photo/2026/0331/r1327234_1296x729_16-9.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ 欧冠八强首回合本周开战：四组对阵最新伤情与看点全梳理</title>
+      <description>&lt;p&gt;欧冠八强首回合将于4月7-8日打响。经过国际比赛日的间歇，各队伤病形势有了不少变化。以下是四组对阵的最新情况。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;皇马 vs 拜仁（4月7日，伯纳乌）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是欧冠历史上交锋次数最多的对决——28场，双方各赢12场。皇马近9次欧战对阵拜仁保持不败（7胜2平），心理优势明显。皇马主帅Arbeloa直言："想当欧冠冠军，就得击败最强的对手。"拜仁上轮10-2横扫亚特兰大，状态火热，但Musiala、Neuer、Davies的伤情仍需观察。皇马方面，Vinicius已确认可以出战，但Courtois赛季报销，瓦尔韦德停赛缺席了上周末西甲，欧冠不受影响。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;巴萨 vs 马竞（4月8日，诺坎普）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本赛季第六次"西班牙德比"。巴萨的坏消息是Raphinha因腿筋伤势确定缺席两回合，不过好消息是Frenkie de Jong预计可以首回合复出，Balde和Kounde也有望归队。马竞方面相对健康，Simeone将全力出击。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;里斯本竞技 vs 阿森纳（4月7日，里斯本）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;阿森纳的伤病名单一度令人担忧：Saka、Rice、Madueke三人从英格兰队退出了国际比赛日。最新消息显示Saka和Rice的退出更像是预防性措施，两人目标4月4日足总杯对阵南安普顿时复出，最迟4月7日欧冠可以上场。Saliba同样有望归队。但Madueke的膝伤更为严重，对阵乌拉圭时受伤，回归时间不确定。阿森纳作为英超领头羊（70分），双线作战的体能管理是关键。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PSG vs 利物浦（4月8日，王子公园）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;利物浦迎来利好：Salah恢复进度超预期，主帅Slot透露他将重新跟队训练，预计4月4日对曼城即可复出，4月8日战PSG几乎铁定出场。Slot称赞Salah"对自己身体的照顾无人能比，恢复速度极快"。但右后卫位置成了隐患——Frimpong在荷兰队比赛中受伤需要检查，Bradley因膝伤长期缺阵，Alisson也将继续缺席，Mamardashvili继续镇守球门。Alexander Isak预计周四回归训练，Chiesa已归队可用。&lt;/p&gt;
+
+&lt;p&gt;四组对决中，皇马vs拜仁无疑是最具历史分量的碰撞，而利物浦伤兵满营客战巴黎则悬念最大。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://ca.sports.yahoo.com/news/arne-slot-provides-mohamed-salah-181758892.html"&gt;Yahoo Sports&lt;/a&gt;、&lt;a href="https://sports.yahoo.com/articles/arsenal-injury-declan-rice-bukayo-103001700.html"&gt;Yahoo Sports&lt;/a&gt;、&lt;a href="https://www.uefa.com/uefachampionsleague/news/02a3-203f83e53671-4725604737e9-1000--real-madrid-vs-bayern-munchen-champions-league-preview-where/"&gt;UEFA&lt;/a&gt;、&lt;a href="https://www.flashscore.com/news/soccer-champions-league-raphinha-set-to-miss-barcelona-s-champions-league-quarter-final-after-injury-with-brazil/dCZu8rU8/"&gt;Flashscore&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ca.sports.yahoo.com/news/arne-slot-provides-mohamed-salah-181758892.html"&gt;https://ca.sports.yahoo.com/news/arne-slot-provides-mohamed-salah-181758892.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sports.yahoo.com/articles/arsenal-injury-declan-rice-bukayo-103001700.html"&gt;https://sports.yahoo.com/articles/arsenal-injury-declan-rice-bukayo-103001700.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uefa.com/uefachampionsleague/news/02a3-203f83e53671-4725604737e9-1000--real-madrid-vs-bayern-munchen-champions-league-preview-where/"&gt;https://www.uefa.com/uefachampionsleague/news/02a3-203f83e53671-4725604737e9-1000--real-madrid-vs-bayern-munchen-champions-league-preview-where/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.flashscore.com/news/soccer-champions-league-raphinha-set-to-miss-barcelona-s-champions-league-quarter-final-after-injury-with-brazil/dCZu8rU8/"&gt;https://www.flashscore.com/news/soccer-champions-league-raphinha-set-to-miss-barcelona-s-champions-league-quarter-final-after-injury-with-brazil/dCZu8rU8/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">09e72064-67d7-55d8-99ea-f7572dc9d5bb</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:28 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://ca.sports.yahoo.com/news/arne-slot-provides-mohamed-salah-181758892.html</link>
+      <enclosure url="https://editorial.uefa.com/resources/02a3-203f83e53671-4725604737e9-1000/real_madrid_vs_bayern_munchen.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ De Zerbi的七场保级战：精密足球遇上救火现实，热刺能学得够快吗？</title>
+      <description>&lt;p&gt;Roberto De Zerbi 3月31日正式成为热刺本赛季第三任主教练。五年长约、英超第三高薪、降级也不走——合同条款展现了俱乐部的决心和教练的信心。但摆在他面前的现实是：30分，第17位，领先降级区仅1分，只剩7场比赛。&lt;/p&gt;
+
+&lt;p&gt;De Zerbi的战术体系以精密著称。在布莱顿，他用两年半时间打造出一支踢位置足球的中下游球队，靠严格的站位纪律、协调的压迫触发和控球防守让对手窒息。在马赛，他延续了同样的理念。问题是：这套需要球员深度内化跑位原则和传球线路的体系，在热刺目前的处境下根本没有时间慢慢磨合。&lt;/p&gt;
+
+&lt;p&gt;Opta的战术分析指出了核心矛盾——De Zerbi的风格适合有稳定基础的球队，而热刺过去13场联赛一胜未得（5平8负），追平队史第二长不胜纪录。球员需要在比赛压力下同时"忘掉旧体系、学会新体系"，这在保级生死战中几乎是不可能完成的任务。&lt;/p&gt;
+
+&lt;p&gt;据Fabrizio Romano报道，De Zerbi对降级的可能性已有心理准备。"如果热刺降入英冠，他愿意留下来重建。"五年合同中没有降级解约条款，这既是对俱乐部的承诺，也暗示双方都接受了最坏结果的可能性。&lt;/p&gt;
+
+&lt;p&gt;首战4月12日客场桑德兰。此后的赛程包括主场对阵狼队、客场曼城、主场利物浦——难度不小。球迷方面，THST等组织因Mason Greenwood相关争议发起了抗议活动，De Zerbi上任第一天就要面对场内场外的双重压力。&lt;/p&gt;
+
+&lt;p&gt;一个有趣的对比：2016-17赛季，Leicester City在夺冠次年濒临降级，Ranieri被解雇后Craig Shakespeare接手，7场拿到5胜保级成功。热刺需要的也许不是长期蓝图，而是短期内最务实的生存方案。De Zerbi能不能在理想主义和现实主义之间找到平衡，7场之后自有答案。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/04/roberto-de-zerbi-prepared-for-tottenham-relegation-fabrizio-romano-reveals"&gt;Football Transfers&lt;/a&gt;、&lt;a href="https://theanalyst.com/articles/roberto-de-zerbi-tottenham-style-of-play-tactics-stats"&gt;Opta Analyst&lt;/a&gt;、&lt;a href="https://www.france24.com/en/live-news/20260331-tottenham-appoint-de-zerbi-in-battle-for-premier-league-survival-1"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/04/roberto-de-zerbi-prepared-for-tottenham-relegation-fabrizio-romano-reveals"&gt;https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/04/roberto-de-zerbi-prepared-for-tottenham-relegation-fabrizio-romano-reveals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://theanalyst.com/articles/roberto-de-zerbi-tottenham-style-of-play-tactics-stats"&gt;https://theanalyst.com/articles/roberto-de-zerbi-tottenham-style-of-play-tactics-stats&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.france24.com/en/live-news/20260331-tottenham-appoint-de-zerbi-in-battle-for-premier-league-survival-1"&gt;https://www.france24.com/en/live-news/20260331-tottenham-appoint-de-zerbi-in-battle-for-premier-league-survival-1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">47f46fa8-79cd-5c64-af16-35890eccb258</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:58 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/04/roberto-de-zerbi-prepared-for-tottenham-relegation-fabrizio-romano-reveals</link>
+      <enclosure url="https://theanalyst.com/wp-content/uploads/2026/04/what-is-roberto-de-zerbis-style-of-play-and-can-tottenham-learn-it-quickly-blue.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ Cole Palmer转会风波升级：曼联绿灯、皇马拜仁观望，Chelsea标价两亿英镑</title>
+      <description>&lt;p&gt;Cole Palmer想走的消息在国际比赛日期间持续发酵。据The Sun和ESPN报道，这位23岁的英格兰中场已经"准备好考虑曼联的报价"，而Chelsea方面的态度是——可以谈，但价格是两亿英镑。&lt;/p&gt;
+
+&lt;p&gt;Palmer不满的原因越来越清晰。战术层面，Chelsea本赛季调整了打法，Palmer不再是无条件的核心组织者；人员层面，他最默契的搭档Nicolas Jackson被租借到拜仁，前场化学反应大打折扣。再加上Chelsea很可能无缘下赛季欧冠，对一个正值巅峰期的球员来说，留下来的理由正在迅速减少。&lt;/p&gt;
+
+&lt;p&gt;曼联这边的态度耐人寻味。TeamTalk报道Palmer已经对曼联的邀约"开了绿灯"，但The Sun同时指出，曼联夏窗的头号目标其实是纽卡的Elliot Anderson，整个招募计划是围绕Anderson展开的。换句话说，Palmer对曼联来说更像是"如果价格合适就接"的机会型操作，而非核心引援目标。&lt;/p&gt;
+
+&lt;p&gt;Palmer的合同到2033年，Chelsea在谈判中占据绝对主动。Sky Sports确认Chelsea内部将Palmer视为"不可触碰"的球员。但足球圈的"不可触碰"从来都有一个价格门槛——两亿英镑就是那个数字。考虑到Palmer本赛季受到腹股沟和脚趾伤势困扰，状态有所起伏，这个标价既是保护性的也是劝退性的。&lt;/p&gt;
+
+&lt;p&gt;除了曼联，皇马和拜仁也在观望。皇马中场位置的更新换代已提上日程，拜仁则可能将Jackson的租借选项与Palmer捆绑考虑。不过目前没有任何俱乐部提出正式报价，一切还停留在试探阶段。&lt;/p&gt;
+
+&lt;p&gt;这场转会博弈的真正变量是Chelsea的欧冠资格。如果赛季结束时Chelsea连欧联杯都进不了，Palmer出走的压力会成倍增加，两亿英镑的标价也可能松动。反之，如果Chelsea搭上欧冠末班车，整个叙事就会反转。接下来两个月的联赛战绩，决定的不只是积分榜排名。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.espn.com/soccer/story/_/id/48337524/transfer-rumors-news-cole-palmer-ready-leave-chelsea-manchester-united"&gt;ESPN&lt;/a&gt;、&lt;a href="https://www.teamtalk.com/news/cole-palmer-greenlights-man-utd-move-massive-chelsea-blow"&gt;TeamTalk&lt;/a&gt;、&lt;a href="https://www.skysports.com/football/news/11095/13499644/cole-palmer-transfer-news-chelsea-view-england-international-as-untouchable-amid-reported-links-to-man-utd"&gt;Sky Sports&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/story/_/id/48337524/transfer-rumors-news-cole-palmer-ready-leave-chelsea-manchester-united"&gt;https://www.espn.com/soccer/story/_/id/48337524/transfer-rumors-news-cole-palmer-ready-leave-chelsea-manchester-united&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.teamtalk.com/news/cole-palmer-greenlights-man-utd-move-massive-chelsea-blow"&gt;https://www.teamtalk.com/news/cole-palmer-greenlights-man-utd-move-massive-chelsea-blow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.skysports.com/football/news/11095/13499644/cole-palmer-transfer-news-chelsea-view-england-international-as-untouchable-amid-reported-links-to-man-utd"&gt;https://www.skysports.com/football/news/11095/13499644/cole-palmer-transfer-news-chelsea-view-england-international-as-untouchable-amid-reported-links-to-man-utd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f38e76b7-0589-5f9c-bc79-5036999152bf</guid>
+      <pubDate>Thu, 02 Apr 2026 08:04:25 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.espn.com/soccer/story/_/id/48337524/transfer-rumors-news-cole-palmer-ready-leave-chelsea-manchester-united</link>
+      <enclosure url="https://images.teamtalk.com/content/uploads/2026/01/22150149/Chelseas-Cole-Palmer-has-once-again-been-linked-with-a-move-to-Manchester-United.jpg" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

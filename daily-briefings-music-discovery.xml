@@ -1,12 +1,88 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 氛围电子与音乐发现</title>
     <description>Per-topic feed: 氛围电子与音乐发现</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-music-discovery.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-music-discovery.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-music-discovery.xml" type="application/rss+xml" />
+    <item>
+      <title>🎵 DARKSIDE 宣布四城驻场计划：从巴黎到洛杉矶，用二十场即兴重新定义巡演</title>
+      <description>&lt;p&gt;还记得上轮报道的 Psychic Spiral Nothing Tour 吗？那只是 DARKSIDE 2026 年现场计划的序章。4月1日，三人组正式公布了一份野心更大的年度现场路线图——不是常规巡演，而是四座城市的驻场演出（residency），每晚分早场和晚场两轮，总计接近二十场。&lt;/p&gt;
+
+&lt;p&gt;日程如下：7月8-9日巴黎 La Gaîté Lyrique，7月12-13日伦敦 EartH Theatre，9月16-18日纽约 Music Hall of Williamsburg，9月30日至10月3日洛杉矶 Lodge Room。巴黎和伦敦的门票已于4月2日开售，纽约和洛杉矶的早已上架。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么是驻场？&lt;/strong&gt;这个选择有来头。2025年秋天，Dave Harrington、Nicolas Jaar 和鼓手 Tlacael Esparza 在洛杉矶 Lodge Room 连演六晚，结果发现这种格式彻底释放了即兴空间。同一个场地、同一套设备，每晚的演出却完全不同——他们可以在第一晚试探一个旋律动机，第二晚把它拆解重组，第三晚邀请客座乐手加入。据 Relix 报道，纽约和洛杉矶场次已确认的客座名单包括竖琴手 Mary Lattimore 和萨克斯手 Patrick Shiroishi，两位都是即兴和氛围领域的重要人物。&lt;/p&gt;
+
+&lt;p&gt;驻场模式在爵士乐界是传统（想想 Blue Note 时代的连续数周驻演），但在电子/实验摇滚圈仍然罕见。DARKSIDE 的选择暗示了一种趋势：对于依赖即兴和现场化学反应的乐队来说，一城多晚远比走马灯式的巡演更有意义。每场250-500人的亲密空间，观众几乎能看到 Jaar 手指在调音台上的每一个微小移动。&lt;/p&gt;
+
+&lt;p&gt;对正在追踪 DARKSIDE 动态的读者：北美巡演4月16日丹佛收官后，乐队将有近三个月的空窗期。这段时间很可能用于准备驻场的曲目编排和客座合作——关注夏初是否会有新的单曲或混音释出。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://relix.com/news/detail/darkside-announce-residencies-in-new-york-los-angeles-london-and-paris/"&gt;https://relix.com/news/detail/darkside-announce-residencies-in-new-york-los-angeles-london-and-paris/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.brooklynvegan.com/darkside-announce-nyc-la-london-paris-residencies/"&gt;https://www.brooklynvegan.com/darkside-announce-nyc-la-london-paris-residencies/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://matadorrecords.com/blogs/news/darkside-2026-residencies"&gt;https://matadorrecords.com/blogs/news/darkside-2026-residencies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">76b0b986-fa62-5a27-82e1-0f5418a22ae4</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:28 +0000</pubDate>
+      <category>music-discovery</category>
+      <link>https://relix.com/news/detail/darkside-announce-residencies-in-new-york-los-angeles-london-and-paris/</link>
+      <enclosure url="https://matadorrecords.com/cdn/shop/articles/anonyig.io_Instagram_darksidetheband_3864363487393347320_380227610_372d198b-a701-419b-9551-6899a9fc6dd2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎵 Laurel Halo 用 TransAcoustic 钢琴潜入深海：Midnight Zone 原声与四城现场</title>
+      <description>&lt;p&gt;如果你在 Bandcamp 的三月氛围月榜上只听一张，选这张。Laurel Halo 的 &lt;em&gt;Midnight Zone&lt;/em&gt; 是为视觉艺术家 Julian Charrière 同名影片创作的原声带，3月13日通过她自主厂牌 Awe 发行。影片跟踪一枚菲涅尔灯塔透镜从海面坠入太平洋 Clarion-Clipperton 断裂带——一片位于墨西哥和夏威夷之间的深海平原，那里的多金属结核以每百万年1-10毫米的速度生长在骨骼碎片和鲨鱼牙齿上，支撑着包括巨型深海变形虫（xenophyophore）在内的整个底栖生态系统，而深海采矿正在威胁这一切。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://f4.bcbits.com/img/a3109620332_10.jpg" alt="Midnight Zone 专辑封面" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Midnight Zone 封面，呈现深海的蓝黑色调&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Halo 的配乐手法很独特：核心音色来自 Yamaha TransAcoustic 钢琴——这种乐器能将合成器信号通过琴弦共振放大，让数字声音获得木质的物理振动。她在纽约 Yamaha 录音室用一台 Montage 8 合成器驱动 TransAcoustic 钢琴的共鸣板，再叠加经过处理的小提琴和古大提琴（viol da gamba），以及海洋拟音素材。九首曲目、49分钟，从「Sunlight Zone」的明亮逐渐下沉到深渊带的黑暗，结构完全对应海洋的垂直分层。&lt;/p&gt;
+
+&lt;p&gt;Halo 在 Substack 上写道：「我相信这音乐包含了我一直在消化的世间沉重。我希望它至少部分地得到了升华。」这句话暗示了作品超越配乐功能的个人维度——不仅仅是为影像服务，更是一次对环境焦虑的声学处理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;现场机会来了&lt;/strong&gt;：4月2日至11日，Halo 将在柏林、伦敦、伊斯坦布尔和海牙进行 Midnight Zone 的现场配乐演出。如果你恰好在欧洲，伦敦 ICA 场次值得关注——Coby Sey 作为开场嘉宾也相当有分量。这张专辑是 Halo 继 &lt;em&gt;Atlas&lt;/em&gt;（2023, Awe）之后在自主发行路径上的第三步，彻底告别了早期 Hyperdub 时期的舞曲框架。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://laurelhalo.bandcamp.com/album/midnight-zone-original-soundtrack-to-the-film-by-julian-charri-re"&gt;https://laurelhalo.bandcamp.com/album/midnight-zone-original-soundtrack-to-the-film-by-julian-charri-re&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://laurelhalo.substack.com/p/awe003-midnight-zone-original-soundtrack"&gt;https://laurelhalo.substack.com/p/awe003-midnight-zone-original-soundtrack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-march-2026"&gt;https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-march-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ica.art/live/midnight-zone"&gt;https://www.ica.art/live/midnight-zone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">128a4c80-30db-5e57-9f76-82373bcb7f87</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:56 +0000</pubDate>
+      <category>music-discovery</category>
+      <link>https://laurelhalo.bandcamp.com/album/midnight-zone-original-soundtrack-to-the-film-by-julian-charri-re</link>
+      <enclosure url="https://f4.bcbits.com/img/a3109620332_10.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎵 Green-House 签约 Ghostly International 首作 Hinterlands：松鼠捡橡果也可以是一首安魂曲</title>
+      <description>&lt;p&gt;Olive Ardizoni 和 Michael Flanagan 组成的二人组 Green-House 一直是「生态氛围」（Eco-Ambient）这个微型流派最被认可的名字。3月20日，他们通过 Ghostly International 发行了厂牌首作 &lt;em&gt;Hinterlands&lt;/em&gt;，这也是此前一直栖身于小厂的两人第一次获得中型独立厂牌的制作和发行资源。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://f4.bcbits.com/img/a3420749548_10.jpg" alt="Hinterlands 专辑封面" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Hinterlands 封面&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这张专辑的曲目名全部指向自然意象——雾、山谷、岛屿、橡树——但 Green-House 的厉害之处在于，这些名字既是风景也是情绪状态。Flanagan 在 In Sheep's Clothing 的采访中说：「随着我们作为艺术家的成长，我们只是想用不同的方式来玩弄空间。」具体到音乐里，这意味着更多的打击乐元素、更主动的节奏感，以及从纯粹的环境填充走向真正的歌曲结构。吉他线条、合成器铺底和长笛乐句以耐心的环形模式展开，Bandcamp Daily 的三月榜单称其「将慵懒的指弹与跳动的音序融合了爵士元素」。&lt;/p&gt;
+
+&lt;p&gt;有趣的是他们的创作食谱。制作 Hinterlands 期间，两人反复听的不是同类氛围音乐，而是牙买加器乐 ska（Tommy McCook &amp; the Supersonics）、Nala Sinephro 的 &lt;em&gt;Endlessness&lt;/em&gt;（模块合成器与爵士的交汇）、Jessica Pratt 的 &lt;em&gt;Here in the Pitch&lt;/em&gt;（混响技术启发）和 Alabaster DePlume 的 &lt;em&gt;Gold&lt;/em&gt;（精神爵士）。这份参考清单解释了为什么 Hinterlands 听起来比前作更有骨架——氛围音乐的皮肤下多了 ska 的韧劲和爵士的呼吸感。&lt;/p&gt;
+
+&lt;p&gt;Ardizoni 有一句话特别好：「关于看到一只松鼠捡起坚果跑上树的音乐，可以和愤怒或黑暗一样有意义。」在一个氛围电子越来越强调沉重感和末世美学的时代，Green-House 的温柔坚持本身就是一种立场。Ghostly 的厂牌总监显然也这么认为——据报道，签约过程中厂牌明确表示「对你们有信心」，没有施加风格转型的压力。&lt;/p&gt;
+
+&lt;p&gt;实体版提供蓝色生态混合黑胶、CD 和卡带三种格式，Bandcamp 页面甚至有一个树懒毛绒玩具套装——非常 Green-House。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://green-house.bandcamp.com/album/hinterlands"&gt;https://green-house.bandcamp.com/album/hinterlands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://insheepsclothinghifi.com/green-house-interview/"&gt;https://insheepsclothinghifi.com/green-house-interview/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-march-2026"&gt;https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-march-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://banbantonton.com/2026/03/25/green-house-hinterlands-ghostly-international/"&gt;https://banbantonton.com/2026/03/25/green-house-hinterlands-ghostly-international/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b71e9ac3-0206-5e0e-8d0d-5d8705c7b9d4</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:25 +0000</pubDate>
+      <category>music-discovery</category>
+      <link>https://green-house.bandcamp.com/album/hinterlands</link>
+      <enclosure url="https://f4.bcbits.com/img/a3420749548_10.jpg" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

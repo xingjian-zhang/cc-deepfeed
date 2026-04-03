@@ -1,12 +1,88 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 新游戏速报</title>
     <description>Per-topic feed: 新游戏速报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-games-new.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-games-new.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-games-new.xml" type="application/rss+xml" />
+    <item>
+      <title>🎮 Hades II 4 月 14 日登陆 PS5/Xbox：Supergiant 的「完全体」终于全平台到齐</title>
+      <description>&lt;p&gt;在 PC 和 Switch 2 上征服了无数玩家之后，&lt;strong&gt;Hades II&lt;/strong&gt; 终于将在 4 月 14 日正式登陆 PS5 和 Xbox Series X|S。Xbox 版首日加入 Game Pass，支持 Play Anywhere 跨平台存档；PS5 版由 Supergiant 直接移植，未走第三方外包。&lt;/p&gt;
+
+&lt;p&gt;这不是一个简单的「迟到移植」。Xbox/PS5 版直接包含了自 2025 年 9 月首发以来的所有更新补丁，等于玩家入手即是最完整的版本。对比去年 Steam 抢先体验期间的 bug 和平衡问题，现在的 Hades II 已经是一个打磨相当成熟的作品。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://news.xbox.com/en-us/wp-content/uploads/sites/2/2026/03/Hades-II-HERO.jpg" alt="Hades II promotional artwork featuring Melinoe" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Hades II 主角 Melinoe，Zagreus 的妹妹&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;玩法层面，Hades II 相比初代有大幅调整。主角 Melinoe 的移动体系从 Zagreus 的短冲刺换成了长距离闪避加冲刺，战斗节奏从「抽搐式反应」转向「优雅的策略」。全新的 Magick 能量条机制让每把武器都有 Omega 强化招式，但资源有限，逼着你在爆发输出和持续战斗之间做取舍。武器方面是全新的「夜行武装」（Nocturnal Arms）体系，快速双刃、重型战斧、以及一些意想不到的形态，每种武器还有多个 Aspect 从根本上改变打法。&lt;/p&gt;
+
+&lt;p&gt;结构上也翻新了。Melinoe 的目标不只是向下打 —— 她既要下行击败时间之神 Cronos，又要上行征服奥林匹斯山，两条路线有各自独立的区域、敌人、Boss 和 NPC。新据点「十字路口」（The Crossroads）替代了原作的冥府大厅，提供升级、社交和养宠（动物伙伴系统替代了初代的召唤伙伴）。&lt;/p&gt;
+
+&lt;p&gt;对于已经在 PC 或 Switch 2 上通关的玩家，Xbox Play Anywhere 的跨平台存档是个加分项——至少微软生态内可以无缝衔接。PS5 方面暂未公布类似功能。考虑到 Hades 初代在 Switch 上卖出超过百万份并拿下多个年度游戏提名，Hades II 的全平台登场大概率会再次引爆讨论。这也是 Xbox Game Pass 四月阵容的核心之一——继 Clair Obscur: Expedition 33（4/2）之后，又一款高口碑大作首日入库。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://news.xbox.com/en-us/2026/03/26/hades-2-xbox-partner-preview/"&gt;https://news.xbox.com/en-us/2026/03/26/hades-2-xbox-partner-preview/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.engadget.com/gaming/xbox/hades-2-is-coming-to-xbox-series-xs-and-ps5-on-april-14-175819696.html"&gt;https://www.engadget.com/gaming/xbox/hades-2-is-coming-to-xbox-series-xs-and-ps5-on-april-14-175819696.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.shacknews.com/article/148488/hades-2-xbox-release-date"&gt;https://www.shacknews.com/article/148488/hades-2-xbox-release-date&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8c11ac91-80be-5f05-ad18-2b13c8348eb5</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:06 +0000</pubDate>
+      <category>games-new</category>
+      <link>https://news.xbox.com/en-us/2026/03/26/hades-2-xbox-partner-preview/</link>
+      <enclosure url="https://news.xbox.com/en-us/wp-content/uploads/sites/2/2026/03/Hades-II-HERO.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎮 Mouse: P.I. For Hire 4 月 16 日上线——橡皮管动画遇上硬核 FPS，今年最有个性的射击游戏</title>
+      <description>&lt;p&gt;如果你看腻了写实风 FPS，&lt;strong&gt;Mouse: P.I. For Hire&lt;/strong&gt; 可能是今年最让人眼前一亮的射击游戏。这款由波兰独立工作室 Fumi Games 开发的第一人称射击游戏将于 4 月 16 日登陆 PC、PS5、Xbox Series X|S 和 Switch 2，标准版 29.99 美元。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt11227b5098b3e462/69a9ac52192a5a85f34cf46a/MousePI.jpg" alt="Mouse: P.I. For Hire game art showing noir-style cartoon mouse detective" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Mouse: P.I. For Hire 的橡皮管动画风格让整个射击体验截然不同&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;视觉风格是最先抓住人的部分。整个游戏采用手绘橡皮管动画（Rubber Hose Animation）风格——就是《汽船威利号》和早期迪士尼那种夸张的肢体变形、圆滚滚的手套手。但这不只是皮肤套在普通 FPS 上：武器开火时敌人会像卡通角色一样融化、爆炸、变形，视觉反馈和动画风格深度融合。游戏还提供多种黑白/彩色滤镜设置，让你调整想要的黑色电影（Film Noir）氛围浓度。&lt;/p&gt;
+
+&lt;p&gt;玩家扮演私家侦探 Jack Pepper（由 Troy Baker 配音），在虚构城市 Mouseberg 调查犯罪活动。游戏采用章节制 + 据点结构：任务间可以回到办公室、去酒吧收集情报、在武器店升级装备。目前已知有 20 多个章节，单章流程约 45 分钟，整体时长 12-20 小时。&lt;/p&gt;
+
+&lt;p&gt;从 3 月多家媒体的试玩反馈来看，关卡设计是真正的亮点。地图有大量垂直空间，支持二段跳和墙壁奔跑，战斗要求你不断移动——躲在掩体后面超过几秒，敌人就会绕到你身后。武器库包括 Micer（基础手枪）、Devarnisher（松节油溶解枪，打中敌人会融化）、James Gin 和 Boomstick，外加炸药。Boss 战设计也有巧思，预览关的 Robo-Betty 在不同场景下会改变攻击模式，包括旋转光束和召唤增援。&lt;/p&gt;
+
+&lt;p&gt;GamingBible 的试玩评价相当直接：「我可能终于找到了一款真正合我胃口的 FPS。」PlayStation Blog 的上手报告也赞赏了动画风格与射击手感的融合度。对于一款独立游戏来说，这样的试玩口碑是个好兆头。30 美元的价位加上 12-20 小时的流程，性价比也足够合理。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.gamingbible.com/news/mouse-pi-for-hire-hands-on-preview-fps-097180-20260305"&gt;https://www.gamingbible.com/news/mouse-pi-for-hire-hands-on-preview-fps-097180-20260305&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.playstation.com/2026/03/05/mouse-pi-for-hire-hands-on-report-classic-fps-action-meets-rubberhose-animation/"&gt;https://blog.playstation.com/2026/03/05/mouse-pi-for-hire-hands-on-report-classic-fps-action-meets-rubberhose-animation/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.resetera.com/threads/mouse-p-i-for-hire-will-now-launch-on-april-16-at-29-99-usd-with-12%E2%80%9320-hours-of-gameplay-depending-how-you-play-pc-ps5-xbox-s-x-switch-2.1455556/"&gt;https://www.resetera.com/threads/mouse-p-i-for-hire-will-now-launch-on-april-16-at-29-99-usd-with-12%E2%80%9320-hours-of-gameplay-depending-how-you-play-pc-ps5-xbox-s-x-switch-2.1455556/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">75626554-cf12-57df-aede-8903ec2edfeb</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:35 +0000</pubDate>
+      <category>games-new</category>
+      <link>https://www.gamingbible.com/news/mouse-pi-for-hire-hands-on-preview-fps-097180-20260305</link>
+      <enclosure url="https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt11227b5098b3e462/69a9ac52192a5a85f34cf46a/MousePI.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎮 Pokemon Champions 4 月 8 日上线：免费游玩 + 取消个体值，宝可梦竞技迎来史上最大变革</title>
+      <description>&lt;p&gt;4 月 8 日，&lt;strong&gt;Pokemon Champions&lt;/strong&gt; 将在 Nintendo Switch 和 Switch 2 上免费上线，手机版随后跟进并支持跨平台对战。这不只是又一款宝可梦对战游戏——它直接取代了 Scarlet/Violet 成为官方 VGC（Video Game Championships）赛事的指定平台，标志着宝可梦竞技生态十余年来最大的一次迁移。&lt;/p&gt;
+
+&lt;p&gt;最激进的改动是&lt;strong&gt;取消个体值（IV）&lt;/strong&gt;。从初代红绿版至今近 30 年，IV 一直是宝可梦培育体系的核心——也是劝退新手的最大门槛之一。想练出一只六项完美的竞技宝可梦，往往需要数小时的孵蛋和计算。Champions 直接砍掉了这一层，让所有玩家在同一起跑线上竞争。这个决定势必会引发老玩家的争议，但从降低门槛、扩大竞技人口的角度看，逻辑是清晰的。&lt;/p&gt;
+
+&lt;p&gt;竞技赛事的迁移时间表已经公布。4 月 1 日起 Scarlet/Violet 回归 Regulation I 作为过渡；5 月 1-4 日 Champions 首个全球挑战赛（Global Challenge I）上线，但不计入锦标赛积分，算是试运行；5 月 29-31 日印第安纳波利斯地区赛成为首个正式 Champions 赛事，启用全新规则集 &lt;strong&gt;Regulation M-A&lt;/strong&gt;（具体细节将在游戏上线后公布）；8 月世界锦标赛将全面使用 Champions。到 2027 年，所有锦标赛积分赛事将强制使用 Champions 平台。&lt;/p&gt;
+
+&lt;p&gt;免费游玩模式意味着入门零成本，但首发 Starter Pack 套装提供额外的宝可梦存储空间、战斗音乐等付费内容。首发期内下载的玩家还能领取一只快龙（Dragonite）。Switch 2 版有画质增强更新，手机版上线后将支持 Switch-手机跨平台对战和 Pokemon HOME 联动。&lt;/p&gt;
+
+&lt;p&gt;这步棋的战略意图很明显——把竞技宝可梦从「主系列游戏的附属功能」变成一个独立的、持续运营的免费竞技平台。类似 Riot 把英雄联盟的格斗衍生作品独立运营的思路。问题在于：没有了完整的冒险模式和收集动力，纯粹的对战能留住多少非硬核玩家？印第安纳波利斯地区赛将是第一个真正的压力测试。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pokemon.com/us/pokemon-news/pokemon-champions-releases-on-nintendo-switch-and-nintendo-switch-2-on-april-8-2026"&gt;https://www.pokemon.com/us/pokemon-news/pokemon-champions-releases-on-nintendo-switch-and-nintendo-switch-2-on-april-8-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thegamehaus.com/pokemon/pokemon-champions-competitive-transition-guide-april-may-2026/2026/03/31/"&gt;https://thegamehaus.com/pokemon/pokemon-champions-competitive-transition-guide-april-may-2026/2026/03/31/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nintendolife.com/news/2026/03/pokemon-vgc-competitions-officially-transition-to-pokemon-champions"&gt;https://www.nintendolife.com/news/2026/03/pokemon-vgc-competitions-officially-transition-to-pokemon-champions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a50f53d4-7bf7-5fdd-8ade-85d41d0b45e2</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:03 +0000</pubDate>
+      <category>games-new</category>
+      <link>https://www.pokemon.com/us/pokemon-news/pokemon-champions-releases-on-nintendo-switch-and-nintendo-switch-2-on-april-8-2026</link>
+      <enclosure url="https://thegamehaus.com/wp-content/uploads/2026/03/pokemon-vgc.png.webp" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

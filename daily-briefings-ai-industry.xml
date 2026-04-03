@@ -1,12 +1,92 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
+    <item>
+      <title>🏭 Anthropic 禁令大限到期：联邦禁令今日生效，但五角大楼 CTO 公开叫板法院</title>
+      <description>&lt;p&gt;今天是 Anthropic 诉五角大楼案的关键节点。Rita Lin 法官3月26日签发的初步禁令（preliminary injunction）附带七天缓冲期，今天（4月2日）正式生效——这意味着联邦政府在理论上不能继续将 Anthropic 列为供应链风险、不能执行特朗普的全政府禁用令。&lt;/p&gt;
+
+&lt;p&gt;但事情远没有这么简单。&lt;/p&gt;
+
+&lt;p&gt;五角大楼 CTO Emil Michael 在 X 上公开表态：供应链风险认定依据的是联邦法律 Title 41 Section 4713，「完全有效且可执行」，不在加州联邦法院的管辖范围内。他还指控 Lin 法官的裁定包含「几十处事实错误」。这构成了一个法律双轨冲突——Lin 的禁令封住了国防部依据 Title 10 Section 3252 的认定，但 Michael 主张另一套法律依据独立运作。法律界对此看法不一，有人认为禁令已经覆盖了全部认定，也有人认为 Michael 的论点有法律基础。&lt;/p&gt;
+
+&lt;p&gt;与此同时，司法部预计今天向第九巡回上诉法院提交紧急中止申请（emergency stay）。如果第九巡回同意中止禁令，Anthropic 就将重新回到被全面封杀的状态；如果驳回，那么禁令正式落地，联邦机构和承包商理论上可以恢复使用 Claude。&lt;/p&gt;
+
+&lt;p&gt;供应商端的混乱已经相当严重。&lt;a href="https://www.nextgov.com/acquisition/2026/04/vendors-struggle-navigate-anthropic-bans-fallout/412563/"&gt;Nextgov 4月1日的报道&lt;/a&gt;揭示了一个具体案例：AI 平台公司 Labrynth 被迫将政府客户的 Claude 服务切换到 Google Gemini，但在内部仍然依赖 Claude 做编码和产品设计。其负责人 Harold Schultz Neto 称失去 Claude 的编程能力是「首要担忧」。更大的问题是没有人知道禁令的边界在哪里——内部使用算不算违规？用 Claude 做安全测试和代码审查呢？GSA 的新草案指引用语模糊，可能误伤更多供应商。&lt;/p&gt;
+
+&lt;p&gt;接下来48小时是关键。第九巡回的裁定将决定这场持续六周的法律战走向何方。如果政府的紧急中止申请被驳回，Anthropic 的10月 IPO 计划将获得一剂强心针；反之，估值3800亿美元、年化营收190亿的上市进程将面临重大不确定性。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://breakingdefense.com/2026/03/judge-grants-anthropic-preliminary-injunction-but-pentagon-cto-says-ban-still-stands/"&gt;https://breakingdefense.com/2026/03/judge-grants-anthropic-preliminary-injunction-but-pentagon-cto-says-ban-still-stands/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nextgov.com/acquisition/2026/04/vendors-struggle-navigate-anthropic-bans-fallout/412563/"&gt;https://www.nextgov.com/acquisition/2026/04/vendors-struggle-navigate-anthropic-bans-fallout/412563/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html"&gt;https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b8616b98-d2b6-5418-825b-6885ee64ea41</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:57 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://breakingdefense.com/2026/03/judge-grants-anthropic-preliminary-injunction-but-pentagon-cto-says-ban-still-stands/</link>
+      <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/GettyImages-2265263254-e1774637515595.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 华为昇腾950PR 正式亮相：自研 HBM 加持，推理性能 2.8 倍于 Nvidia H20</title>
+      <description>&lt;p&gt;3月20日华为中国伙伴大会上，&lt;strong&gt;昇腾950PR&lt;/strong&gt;（Ascend 950PR）正式发布，这是中国第一款搭载自研高带宽内存（HBM）的 AI 推理芯片。对于一直被 Nvidia 出口管制卡脖子的中国 AI 产业来说，这颗芯片的意义不在于单项指标的突破，而在于它代表了一条完整的自主供应链。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.digitimes.com/newsshow/20260324PD210_files/2_b.jpg" alt="华为 Atlas 350 加速卡搭载昇腾950PR" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;华为 Atlas 350 加速卡，搭载昇腾950PR 芯片（图源：华为）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;核心参数：基于950PR 的 Atlas 350 加速卡提供 FP4 精度下 1.56 PFLOPS 算力、FP8 精度下 1 PFLOPS，内存 112GB（比 H20 大 1.16 倍），带宽 1.4 TB/s。功耗 600W，约为 H20 的 1.5 倍。华为特别强调了 FP4 低精度推理——一个 700 亿参数模型原本需要 140GB 显存，在 FP4 下只需 35GB，这意味着同样的硬件可以部署更大模型或处理更多并发请求。&lt;/p&gt;
+
+&lt;p&gt;自研 HBM（HiBL 1.0）是最值得关注的突破。此前中国 AI 芯片普遍依赖 SK 海力士或三星的 HBM 供应，而美国的出口管制从2024年开始逐步收紧 HBM 对华出口。华为用自研方案绕过了这一瓶颈，互连带宽较上一代提升 2.5 倍。&lt;/p&gt;
+
+&lt;p&gt;客户端已经启动。&lt;a href="https://www.technetbooks.com/2026/03/huawei-ascend-950pr-ai-chip-secures.html"&gt;据报道&lt;/a&gt;，字节跳动和阿里巴巴已完成首批测试并准备采购。这两家是中国最大的 AI 算力消费者，它们的选择将直接影响昇腾生态的规模效应。&lt;/p&gt;
+
+&lt;p&gt;华为同时公布了三年路线图：训练芯片 &lt;strong&gt;Ascend 950DT&lt;/strong&gt; 将在 Q4 2026 推出，之后是2027年的 Ascend 960 和2028年的 Ascend 970。换句话说，推理先行、训练跟上——这是一个务实的策略，因为推理需求增长更快，且对制程的要求相对宽松。&lt;/p&gt;
+
+&lt;p&gt;放到更大格局里看：DeepSeek V4 此前因昇腾910B 的硬件故障反复跳票。950PR 如果产能跟上，将直接解决中国顶级 AI 实验室的硬件瓶颈问题。这不只是一颗芯片的故事，而是中国 AI 基础设施「去美化」进程中一个实质性里程碑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.trendforce.com/news/2026/03/23/news-huawei-debuts-atlas-350-on-ascend-950pr-with-in-house-hbm-touting-2-8x-h20-performance/"&gt;https://www.trendforce.com/news/2026/03/23/news-huawei-debuts-atlas-350-on-ascend-950pr-with-in-house-hbm-touting-2-8x-h20-performance/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.digitimes.com/news/a20260324PD210/huawei-ascend-performance-2026.html"&gt;https://www.digitimes.com/news/a20260324PD210/huawei-ascend-performance-2026.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.technetbooks.com/2026/03/huawei-ascend-950pr-ai-chip-secures.html"&gt;https://www.technetbooks.com/2026/03/huawei-ascend-950pr-ai-chip-secures.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">15b5cf60-a3aa-5b14-8cea-22069265d2b0</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:26 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.trendforce.com/news/2026/03/23/news-huawei-debuts-atlas-350-on-ascend-950pr-with-in-house-hbm-touting-2-8x-h20-performance/</link>
+      <enclosure url="https://www.digitimes.com/newsshow/20260324PD210_files/2_b.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 OpenAI 与 Anthropic 的 IPO 竞速：万亿估值赛道上的两种路径</title>
+      <description>&lt;p&gt;2026年可能见证 AI 行业史上最大的两场 IPO 同年上演。OpenAI 和 Anthropic 都在冲刺公开市场，但策略和节奏截然不同。&lt;/p&gt;
+
+&lt;p&gt;OpenAI 的牌面更大。3月完成1200亿美元融资，估值8500亿，软银通过400亿美元贷款锁定了基石投资者地位。Sora 已关停，全部算力转向旗舰模型 Spud——完成预训练后预计4月中下旬发布。Sam Altman 告诉员工这个模型可以「真正加速经济」。年化营收已达 250 亿美元（月收入 20 亿+），IPO 目标是 Q4 2026，估值区间 8300 亿到 1 万亿。&lt;/p&gt;
+
+&lt;p&gt;Anthropic 的节奏稍慢但同样激进。2月以3800亿估值关闭了300亿美元融资轮，年化营收从年初的90亿翻倍至190亿。目标窗口是10月，预期融资超过600亿——如果成行，将是仅次于 SpaceX 的史上第二大风投支持的 IPO。&lt;a href="https://winbuzzer.com/2026/03/30/anthropic-ipo-q4-2026-60-billion-target-xcxwbn/"&gt;据报道&lt;/a&gt;，Goldman Sachs、JPMorgan 和 Morgan Stanley 已进入早期承销角色讨论，Wilson Sonsini 担任 IPO 首席法律顾问。&lt;/p&gt;
+
+&lt;p&gt;两家公司面临的风险完全不同。OpenAI 的核心挑战是估值合理性——1 万亿美元的定价要求市场相信 AI 将快速创造可持续的企业收入，而不仅是消费者订阅。Anthropic 的风险更集中：今天到期的五角大楼禁令诉讼直接影响其政府业务线和 IPO 叙事。一个不利的第九巡回裁定可能迫使时间表推迟。&lt;/p&gt;
+
+&lt;p&gt;投行圈的共识是两家都会在2026年上市，问题是谁先敲钟。OpenAI 想抢在前面，因为先发者在投资者注意力和定价权上都有优势。Anthropic 则需要先解决法律风险，但如果禁令被成功阻止，反而会成为一个「经受住政府打压考验」的正面叙事。&lt;/p&gt;
+
+&lt;p&gt;这场竞速的结果不仅关乎两家公司，更将定义 AI 行业在公开市场的价值锚点。第一家 AI 原生公司的 IPO 定价，将成为整个行业后续融资和估值的参照系。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://winbuzzer.com/2026/03/30/anthropic-ipo-q4-2026-60-billion-target-xcxwbn/"&gt;https://winbuzzer.com/2026/03/30/anthropic-ipo-q4-2026-60-billion-target-xcxwbn/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://forgeglobal.com/insights/anthropic-upcoming-ipo-news/"&gt;https://forgeglobal.com/insights/anthropic-upcoming-ipo-news/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomsguide.com/ai/openai-just-killed-sora-as-company-readies-ipo-and-new-spud-model"&gt;https://www.tomsguide.com/ai/openai-just-killed-sora-as-company-readies-ipo-and-new-spud-model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e49fd021-15f1-58bb-be60-088e3c05e106</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:51 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://winbuzzer.com/2026/03/30/anthropic-ipo-q4-2026-60-billion-target-xcxwbn/</link>
+      <enclosure url="https://winbuzzer.com/wp-content/uploads/2024/12/Anthropic-AI-Safety.jpg" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

@@ -1,12 +1,89 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
+    <item>
+      <title>💪 不举铁也能增肌？2026年RCT证实纯拉伸让股四头肌「长厚」了</title>
+      <description>&lt;p&gt;一项发表在&lt;strong&gt;Scientific Reports&lt;/strong&gt;（2026）的随机对照实验给出了一个令人意外的结论：单靠拉伸，不做任何力量训练，也能让肌肉变厚。&lt;/p&gt;
+
+&lt;p&gt;Siegel等人招募了49名有一定运动基础的受试者，干预组每条腿做12次共4-5周的单侧髋屈肌拉伸，每次15分钟——注意，这不是训前随意拉两下，而是有监督的、持续性的被动拉伸。对照组什么都不做。&lt;/p&gt;
+
+&lt;p&gt;结果相当有意思：股直肌（Rectus Femoris）的肌肉厚度在近端和远端都出现了显著增加，效应量（ηp²）达到0.24-0.41，这在运动科学里算是中到大的效应。但股外侧肌（Vastus Lateralis）的变化则不太一致。力量方面，70°膝角（肌肉缩短位）的等长力量有显著提升，但110°（拉长位）没有变化。此外，动态平衡能力在部分方向上也有改善。&lt;/p&gt;
+
+&lt;p&gt;为什么纯拉伸能让肌肉增厚？目前的解释主要围绕&lt;strong&gt;机械张力转导&lt;/strong&gt;（Mechanotransduction）：被动拉伸对肌纤维施加的张力足以激活mTOR信号通路，触发蛋白质合成。此前动物研究早已反复证实这一点——持续拉伸可以导致肌纤维肥大甚至增生。但人体研究一直不多，这项RCT是对股四头肌进行拉伸介导肥大研究的首批之一。&lt;/p&gt;
+
+&lt;p&gt;这跟我们之前讨论的串联肌节增生（Sarcomerogenesis）有一个交汇点：离心训练通过在拉长位施加负荷来增加肌节数量，而纯拉伸则是用被动张力做同样的事，只是刺激强度低很多。Siegel这项研究的效应主要体现在股直肌——一块跨越两个关节的双关节肌，天然对拉伸更敏感。&lt;/p&gt;
+
+&lt;p&gt;实际应用呢？这并不是说可以用拉伸替代力量训练。效应量远小于传统抗阻训练，而且只有特定条件下才生效——每次15分钟、持续数周、有监督。但对于受伤无法负重、关节受限、或高龄无法做传统训练的人群，拉伸介导的肌肥大可能是一条替代路径。至少，它提醒我们：肌肉增长的本质驱动力是机械张力，无论这种张力来自杠铃还是来自被动拉伸。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-026-43038-1"&gt;https://www.nature.com/articles/s41598-026-43038-1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1186/s40798-024-00706-8"&gt;https://link.springer.com/article/10.1186/s40798-024-00706-8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a5c84fd1-c06e-56c4-a882-309b59e1640e</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:36 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.nature.com/articles/s41598-026-43038-1</link>
+    </item>
+    <item>
+      <title>💪 练得越狠，肠道菌群变化越大：23名赛艇运动员的微生物组追踪</title>
+      <description>&lt;p&gt;你的训练强度不只影响肌肉和心肺，还在悄悄重塑肠道生态。Edith Cowan University的Charlesson团队在&lt;strong&gt;JISSN&lt;/strong&gt;（2025）上发表了一项针对23名高水平赛艇运动员的研究，追踪他们在高训练负荷（High Training, HT）和低训练负荷（Low Training, LT）两个阶段的粪便微生物组、短链脂肪酸（SCFA）浓度和排便习惯。&lt;/p&gt;
+
+&lt;p&gt;几个核心发现：&lt;/p&gt;
+
+&lt;p&gt;菌群层面，高负荷阶段&lt;strong&gt;拟杆菌门（Bacteroidota）丰度显著上升&lt;/strong&gt;（p=0.039），厚壁菌门/拟杆菌门比值从低负荷期的4.29骤降至1.31（p=0.04）。这个比值被广泛认为是肠道生态平衡的指标之一，虽然学界对其意义仍有争论。&lt;/p&gt;
+
+&lt;p&gt;短链脂肪酸方面，出乎意料的是，高负荷阶段的SCFA浓度反而更低：丙酸从120.64 mM降到91.35 mM（p=0.007），丁酸从104.76 mM降到64.23 mM（p=0.003），总SCFA也显著下降（p=0.021）。可能的解释是：高负荷期肠道转运加快（排便频率1.11次/天 vs 0.67次/天，p=0.007），细菌发酵底物在肠道停留时间更短，来不及充分产生SCFA。低负荷期有47%的运动员甚至无法提供粪便样本——肠道几乎「停摆」了。&lt;/p&gt;
+
+&lt;p&gt;一个有趣的发现关于饮食质量：高负荷期的ADIcore饮食质量评分显著更高（55 vs 49，p=0.014），但宏量营养素摄入并无差异。换句话说，训练量大的时候运动员自发吃得更「干净」——更多水果蔬菜、更少加工食品。这可能是菌群变化的混杂因素，也可能是训练本身对饮食行为的正向驱动。&lt;/p&gt;
+
+&lt;p&gt;机制上，研究者提出了一条「乳酸-肠道轴」假说：高强度运动产生的血乳酸流向消化系统，可能选择性促进某些菌株生长，从而重塑微生物平衡。这与此前发现精英运动员肠道中&lt;em&gt;Veillonella&lt;/em&gt;属（能代谢乳酸为丙酸）丰度偏高的观察相呼应。&lt;/p&gt;
+
+&lt;p&gt;实际意义很直接：如果你有规律的力量训练习惯，减量周（Deload）期间不只是肌肉和神经系统在调整，肠道生态也在经历转变。排便频率下降、SCFA水平变化、饮食质量滑坡——这些都可能影响恢复质量。一个简单的应对策略：减量周时刻意维持蔬果和纤维摄入，别让饮食质量跟着训练量一起「减量」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/40400144/"&gt;https://pubmed.ncbi.nlm.nih.gov/40400144/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/02/260222092317.htm"&gt;https://www.sciencedaily.com/releases/2026/02/260222092317.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/15502783.2025.2507952"&gt;https://www.tandfonline.com/doi/full/10.1080/15502783.2025.2507952&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">39b59026-0dfc-5b23-9d7c-74412ab8fa30</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:03 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/40400144/</link>
+      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 亮氨酸「扳机假说」正在瓦解：整食蛋白质的合成信号远比单一氨基酸复杂</title>
+      <description>&lt;p&gt;健身圈有一条根深蒂固的信条：要触发肌肉蛋白质合成（MPS），每餐至少需要2.5-3克亮氨酸（Leucine）。这就是所谓的&lt;strong&gt;亮氨酸扳机假说（Leucine Trigger Hypothesis）&lt;/strong&gt;——亮氨酸浓度突破某个阈值，mTORC1通路被激活，蛋白质合成启动。多年来，这个假说一直是评估蛋白质来源「优劣」的快捷法则：亮氨酸含量高=合成代谢效果好。&lt;/p&gt;
+
+&lt;p&gt;但Exeter大学的Monteyne、West、Stephens和Wall在&lt;strong&gt;American Journal of Clinical Nutrition&lt;/strong&gt;（2024）发表的综述正式对这一范式提出挑战。他们的核心论点：当研究从分离蛋白转向真实食物时，亮氨酸与MPS之间的关联几乎消失了。&lt;/p&gt;
+
+&lt;p&gt;证据链相当有说服力。他们团队此前的真菌蛋白（Mycoprotein）系列研究发现，真菌蛋白与牛奶蛋白浓缩物在匹配亮氨酸含量（2.5g）的条件下，真菌蛋白引发了更高的餐后MPS——尽管它产生的血浆亮氨酸峰值更低。整蛋 vs 蛋清的比较同样如此：两者血浆亮氨酸动力学不同，但MPS响应无差异。混合餐的数据更惊人——Gwin等人发现含碳水和脂肪的混合餐让血浆亮氨酸浓度比分离蛋白低20倍，MPS却相当。&lt;/p&gt;
+
+&lt;p&gt;定量来看，一项系统综述显示，在运动后场景中，摄入亮氨酸量只能解释MPS变异的&lt;strong&gt;5%&lt;/strong&gt;（r²=0.05）。在年轻人中这个数字更低，r²=0.01——几乎等于零关联。只有在老年人中（r²=0.18）才有些许预测力，这可能与老年人合成代谢抵抗（Anabolic Resistance）的特殊生理机制有关。&lt;/p&gt;
+
+&lt;p&gt;那到底是什么在驱动整食的合成代谢效应？作者提出了几种可能：食物基质效应（Food Matrix Effect）改变了氨基酸释放动力学；整蛋中观察到的mTORC1-Rheb溶酶体共定位增强；生物活性肽对信号通路的调控；以及碳水/脂肪共摄入带来的胰岛素和代谢信号的辅助作用。简而言之，真实食物不是分离氨基酸的简单加总。&lt;/p&gt;
+
+&lt;p&gt;这对实践的启示很重要：别再用「亮氨酸含量」作为评估蛋白质来源的唯一标尺。一块三文鱼的合成代谢效果可能远好于亮氨酸含量更高的分离乳清——因为三文鱼带着脂肪酸、微量元素和完整的食物基质。植物蛋白来源如真菌蛋白（Quorn）在直接测试中表现不输乳制品蛋白，尽管它的亮氨酸和DIAAS评分不占优势。我们此前讨论的蛋白质摄入研究（Trommelen的100g单餐利用数据）已经动摇了「每餐上限」的概念，而Monteyne的工作则进一步侵蚀了另一个支柱——「亮氨酸至上」。蛋白质营养学正在从简化指标向食物整体论转变。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11251220/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11251220/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S0002916524004581"&gt;https://www.sciencedirect.com/science/article/pii/S0002916524004581&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/34307436/"&gt;https://pubmed.ncbi.nlm.nih.gov/34307436/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">03387e7f-6d2a-5e99-a5ab-b075b606dec3</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:32 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11251220/</link>
+    </item>
   </channel>
 </rss>

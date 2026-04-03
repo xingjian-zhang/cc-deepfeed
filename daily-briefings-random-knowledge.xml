@@ -1,12 +1,153 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 每日冷知识深潜</title>
     <description>Per-topic feed: 每日冷知识深潜</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" type="application/rss+xml" />
+    <item>
+      <title>🎲 1977年，六个人花1500美元做了一张唱片，寄给了整个宇宙</title>
+      <description>&lt;p&gt;1977年8月和9月，旅行者1号和2号先后升空。每艘探测器侧面都螺栓固定着一张镀金铜唱片——12英寸、可播放的那种。唱片里装着人类花六周时间、用1500美元预算（外加Carl Sagan自掏腰包的补贴）为整个宇宙准备的「自我介绍」。&lt;/p&gt;
+
+&lt;p&gt;负责人是Sagan，团队只有五个人：技术总监Frank Drake，创意总监Ann Druyan，制作人Timothy Ferris（前《滚石》杂志编辑），艺术家Jon Lomberg，以及Sagan的前妻Linda Salzman。录音工程师是Jimmy Iovine——John Lennon推荐的，后来成了Interscope唱片和Beats耳机的创始人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;唱片装了什么？&lt;/strong&gt;116张图像（科学图表、DNA结构、太阳系、人体解剖、各国建筑与日常生活照片），55种语言的问候（从苏美尔语到粤语），大自然的声音（海浪、雷电、鲸鱼歌声），以及90分钟的音乐。&lt;/p&gt;
+
+&lt;p&gt;音乐的选择过程充满戏剧性。最初片单全是西方古典乐，Sagan于是请来了民族音乐学家Alan Lomax。Lomax刚编完一部世界歌曲选集，最终贡献了27首入选曲目中的15首——从印度拉格到秘鲁排箫，从格鲁吉亚复调合唱到澳洲原住民的歌。Chuck Berry的"Johnny B. Goode"引发争论，Lomax说摇滚乐是"青春期音乐"，Sagan回了一句："这个星球上有很多青春期的人。"至于Beatles的"Here Comes the Sun"，团队很想放，但EMI拒绝授权。Druyan后来说："给他们一个把音乐送向永恒的机会，他们担心的是版税。"&lt;/p&gt;
+
+&lt;p&gt;整件事最浪漫的细节藏在唱片最深处。Druyan录下了自己一小时的脑电波（压缩成一分钟收入唱片），录制时她在脑中回放了地球的历史、文明的演进——以及刚刚坠入爱河的感觉。那个让她心跳加速的人就是Sagan。两人在筹备唱片期间相爱，后来结了婚。&lt;/p&gt;
+
+&lt;p&gt;唱片外壳本身就是一份解码说明书：用氢原子基本跃迁频率作为通用时间标准，标注了唱针位置、图像由512条竖线构成（类似模拟电视信号），甚至镀了一层&lt;strong&gt;铀-238&lt;/strong&gt;——半衰期44.68亿年，未来文明可以通过同位素比值推算唱片的年龄。制造商是法国的Pyral S.A.提供空白盘，JVC的科罗拉多工厂刻母盘，加州Gardena的James G. Lee工厂完成镀金。&lt;/p&gt;
+
+&lt;p&gt;现在，旅行者1号是距地球最远的人造物体，已飞出太阳系。大约四万年后，它将飞到距鹿豹座恒星Gliese 445约1.6光年的地方。截至2023年，它11台仪器中仍有4台在工作。那张唱片可以在星际空间中保存数十亿年——远比人类文明到目前为止的寿命长得多。六个人、1500美元、六周时间做出的东西，成了人类存在过的最持久证据。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Voyager_Golden_Record"&gt;https://en.wikipedia.org/wiki/Voyager_Golden_Record&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://science.nasa.gov/mission/voyager/golden-record-contents/"&gt;https://science.nasa.gov/mission/voyager/golden-record-contents/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.wfmt.com/2019/03/22/earths-greatest-hits-producer-timothy-ferris-recalls-assembling-humanitys-definitive-playlist-for-the-voyager-golden-record/"&gt;https://www.wfmt.com/2019/03/22/earths-greatest-hits-producer-timothy-ferris-recalls-assembling-humanitys-definitive-playlist-for-the-voyager-golden-record/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1aced795-2dad-5375-9756-45e9adfac7af</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Voyager_Golden_Record</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 深海76%的生物都在发光，而且这个技能被「独立发明」了至少94次</title>
+      <description>&lt;p&gt;2017年发表在&lt;em&gt;Scientific Reports&lt;/em&gt;上的一项研究做了一件前所未有的事：系统量化深海到底有多少生物会发光。加州蒙特雷湾水族馆研究所（MBARI）用遥控潜水器（ROV）在加利福尼亚海岸外从海面到3900米深处拍了17年，积累了35万次观测、553个分类单元——结论是&lt;strong&gt;76%的海洋动物具有生物发光能力&lt;/strong&gt;，而且这个比例从浅层到深海几乎不变。&lt;/p&gt;
+
+&lt;p&gt;不同类群差异巨大。水母纲（Hydromedusae）100%发光，管水母目（Siphonophora）99.7%，钵水母纲（Scyphozoa）97.6%，栉水母动物门（Ctenophora）91.8%。但被囊动物纲（Thaliacea）只有2.4%，翼足目（Pteropoda）6.1%。鱼类大约一半会发光，头足类（章鱼、鱿鱼）中比例更高。&lt;/p&gt;
+
+&lt;p&gt;为什么海洋生物如此痴迷于发光？用途多到令人咋舌。琵琶鱼用头顶发光的"钓竿"引诱猎物；夏威夷短尾乌贼（Hawaiian bobtail squid）在出生几小时内就让费氏弧菌（&lt;em&gt;Vibrio fischeri&lt;/em&gt;）定植到专门的发光器官里，用腹部的光消除自己的影子，让下方的捕食者看不到它的轮廓——这叫&lt;strong&gt;反照明伪装&lt;/strong&gt;（counter-illumination）。还有深海虾在被攻击时喷出发光液体，像烟幕弹一样迷惑捕食者。&lt;/p&gt;
+
+&lt;p&gt;最让进化生物学家着迷的是：生物发光在生命树上被「独立发明」了至少94次。光不是从一个共同祖先传下来的。不同生物各自演化出了自己的荧光素（luciferin）和荧光素酶（luciferase）——迄今已发现至少11种不同的荧光素和多种非同源的荧光素酶。仅海洋鱼类中，发光能力就独立演化了至少27次：其中8次是鱼自己合成发光物质，17次是通过与发光细菌共生实现的。2024年发表在&lt;em&gt;Proceedings B&lt;/em&gt;上的最新研究将这个数字推高到94次，其中最古老的起源可追溯到5.4亿年前的八放珊瑚。&lt;/p&gt;
+
+&lt;p&gt;这是地球上最极端的趋同进化（convergent evolution）案例之一。94个物种各自走了完全不同的生化路径，却都"发明"了同一种技能。换个角度想：在一个阳光永远照不到的世界里，自造光源的进化优势大到了一切生物都在朝它收敛的程度。海洋最深处不是一片黑暗——它是一场持续了五亿年的灯光秀。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5379559/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC5379559/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4898709/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC4898709/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2023.2626"&gt;https://royalsocietypublishing.org/doi/10.1098/rspb.2023.2626&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ocean.si.edu/ocean-life/fish/bioluminescence"&gt;https://ocean.si.edu/ocean-life/fish/bioluminescence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7e95ca81-b249-53c0-8f4a-601cea2320f7</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:04 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC5379559/</link>
+      <enclosure url="https://ocean.si.edu/sites/default/files/styles/article_hero_banner/public/2023-05/Atolla-wyvillei-bioluminescence-hero.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 你最多只能维持150个朋友？邓巴数背后的灵长类大脑赌注</title>
+      <description>&lt;p&gt;1992年，英国人类学家Robin Dunbar做了一件看起来很简单的事：收集了38个灵长类属的新皮层体积和群体规模数据，画了一条回归线，然后把人类的脑容量代进去。结果：148，四舍五入到150。他说这是人类能维持「稳定社交关系」的认知上限——你知道这个人是谁、他和其他人什么关系的那种。非正式的定义是：在酒吧偶遇时你不用被邀请就能直接坐下聊天的人。&lt;/p&gt;
+
+&lt;p&gt;Dunbar后来发现这个数字还有精细结构，像俄罗斯套娃。最内层约5人（亲密支持圈，占社交时间的40%），往外是15人（好朋友圈），再往外50人，最外层150人。每层大约是前一层的3倍。超过150？你开始记不清谁是谁了。&lt;/p&gt;
+
+&lt;p&gt;让这个数字出圈的不是学术论文，而是大量现实世界的巧合。罗马军团的基本战术单位centuriae约120-150人；胡特派（Hutterite）社区在人口接近150时会分裂成两个；Gore-Tex的母公司W.L. Gore &amp; Associates刻意将每座工厂员工控制在150以内——创始人Bill Gore发现超过这个数字，人们就开始需要正式的层级管理而非面对面的信任网络。新石器时代的农耕村落？考古估算也在150人左右。&lt;/p&gt;
+
+&lt;p&gt;但2021年，斯德哥尔摩大学的Patrik Lindenfors团队在&lt;em&gt;Biology Letters&lt;/em&gt;上投了一颗炸弹。他们用更新的灵长类数据和贝叶斯/广义最小二乘系统发育方法重做了Dunbar的计算——得到的平均群体规模在69到109之间（一种方法甚至给出16-42）。更致命的是&lt;strong&gt;95%置信区间：2到520人&lt;/strong&gt;。Lindenfors的原话："用现有方法和数据，根本无法对人类社交群体规模做出任何精确估计。"&lt;/p&gt;
+
+&lt;p&gt;Dunbar没有沉默。他在&lt;em&gt;The Conversation&lt;/em&gt;上发文反击，指出Stockholm团队使用的最小二乘回归（LSR）方法对同一数据集预测出71人，而他最初用的简化主轴回归（RMA）预测出158人——方法选择本身就决定了结果。他还认为对手的错误在于把所有灵长类混在一起算，而应该聚焦于与人类认知结构最接近的类人猿。&lt;/p&gt;
+
+&lt;p&gt;社交媒体时代给这场辩论添了新维度。Facebook的内部数据分析显示，虽然用户平均有数百个"好友"，但经常互动的人数中位数远低于150。你的通讯录可能有上千人，但你真正会在凌晨三点打电话求助的人——Dunbar说，五个左右。这个数字30年来没怎么变过。至于150是不是一条硬边界，科学界还在吵，但Dunbar提出的核心洞察——大脑处理社交信息的能力有物理上限——几乎没人反对。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Dunbar%27s_number"&gt;https://en.wikipedia.org/wiki/Dunbar%27s_number&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://royalsocietypublishing.org/doi/10.1098/rsbl.2021.0158"&gt;https://royalsocietypublishing.org/doi/10.1098/rsbl.2021.0158&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://theconversation.com/dunbars-number-why-my-theory-that-humans-can-only-maintain-150-friendships-has-withstood-30-years-of-scrutiny-160676"&gt;https://theconversation.com/dunbars-number-why-my-theory-that-humans-can-only-maintain-150-friendships-has-withstood-30-years-of-scrutiny-160676&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/03014460.2024.2359920"&gt;https://www.tandfonline.com/doi/full/10.1080/03014460.2024.2359920&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e1be2727-44e8-5bfa-b986-bd4173be59a2</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:37 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Dunbar%27s_number</link>
+      <enclosure url="https://images.theconversation.com/files/384662/original/file-20210216-23-1v3cqfk.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 博尔赫斯的「巴别图书馆」：一个包含所有可能书籍的宇宙，以及为什么它毫无用处</title>
+      <description>&lt;p&gt;1941年，阿根廷作家Jorge Luis Borges发表了短篇小说《巴别图书馆》（La biblioteca de Babel）。故事描述了一个由无数六角形房间组成的宇宙，每个房间四面墙各有一排书架，每排书架放32本书，每本书410页，每页40行，每行80个字符。可用字符只有25个：22个字母、逗号、句号、空格。&lt;/p&gt;
+
+&lt;p&gt;这个图书馆包含&lt;strong&gt;所有可能的字符排列组合&lt;/strong&gt;构成的书——每一本。你的传记在里面。你被谋杀的详细经过在里面（即使你从未被谋杀）。莎士比亚全集在里面。治愈所有癌症的方法在里面。明天的报纸在里面。一切真理、一切谎言、一切胡言乱语，统统在里面。总书数是25的1,312,000次方——一个大到没有物理比喻能承载的数字，远远超过可观测宇宙中基本粒子的数量（约10的80次方）。&lt;/p&gt;
+
+&lt;p&gt;数学家William Goldbloom Bloch在2008年的专著《The Unimaginable Mathematics of Borges' Library of Babel》中用信息论证明了一件事：为这个图书馆编一本目录，目录本身必然和图书馆一样大。因为目录需要包含每本书的内容摘要才能有用，而任何摘要系统面对「所有可能文本」时都会退化为文本本身。这不是工程问题，是数学必然。&lt;/p&gt;
+
+&lt;p&gt;哲学家W.V.O. Quine进一步将这个思想实验推到极端：一个「通用图书馆」其实只需要两本书——一本只印一个点，一本只印一个横杠。所有信息都可以用二进制重新编码。图书馆的壮观与信息量无关。&lt;/p&gt;
+
+&lt;p&gt;Borges并非第一个想到这件事的人。德国作家Kurd Lasswitz在1901年就发表了《万能图书馆》（Die Universalbibliothek），用数学推导了有限字符集的全排列。Borges读过这篇文章并在脚注中致谢。但Borges的天才在于把一个数学玩具变成了存在主义寓言：图书馆的居民（"图书馆员"）终其一生在无意义的书海中寻找那极少数有意义的书页，有人为此疯狂，有人组成教派，有人主张烧毁一切无意义的书——但由于每本书都是唯一的，烧掉一本就永远失去了一种可能性。&lt;/p&gt;
+
+&lt;p&gt;2015年，程序员Jonathan Basile真的把巴别图书馆搬上了互联网（libraryofbabel.info）。他的版本用29个字符（26个英文字母加空格、逗号、句号）生成所有可能的3200字符页面。你可以在里面搜索任何文本——它一定存在，因为所有可能的页面都在那里。只是找到它之前，你要翻过的页面数量可能比宇宙年龄中的普朗克时间还多。&lt;/p&gt;
+
+&lt;p&gt;Borges的故事写于互联网诞生前半个世纪，却精确预言了信息过载的核心悖论：&lt;strong&gt;拥有一切信息，等于不拥有任何信息。&lt;/strong&gt;Google存在的意义不是存储，而是筛选。当AI可以生成无限文本时，「巴别图书馆」不再是隐喻，而是现实——真正稀缺的从来不是文字，是区分信号与噪声的能力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Library_of_Babel"&gt;https://en.wikipedia.org/wiki/The_Library_of_Babel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Unimaginable_Mathematics_of_Borges%27_Library_of_Babel"&gt;https://en.wikipedia.org/wiki/The_Unimaginable_Mathematics_of_Borges%27_Library_of_Babel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.irishtimes.com/news/science/the-library-of-babel-and-the-information-explosion-1.2931731"&gt;https://www.irishtimes.com/news/science/the-library-of-babel-and-the-information-explosion-1.2931731&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7e9098d6-8ce4-5e4b-b88d-a21460124dcc</guid>
+      <pubDate>Thu, 02 Apr 2026 08:04:11 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/The_Library_of_Babel</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Burning_of_the_Library_of_Alexandria.jpg/1280px-Burning_of_the_Library_of_Alexandria.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 费米午餐时随口一问「大家都在哪？」，人类花了75年还没答上来</title>
+      <description>&lt;p&gt;1950年夏天，Los Alamos国家实验室。物理学家Enrico Fermi和同事Emil Konopinski、Edward Teller、Herbert York走向食堂吃午饭，路上聊到最近《纽约客》杂志上一幅关于外星人偷垃圾桶的漫画。话题从飞碟聊到了光速旅行的可能性，然后Fermi突然问了一句——后来的人对措辞有分歧，Teller记得是"Where is everybody?"，York记得是"Don't you ever wonder where everybody is?"——但桌上所有人都立刻明白他在问什么。据Teller回忆，"所有人都笑了，因为大家马上理解了他说的是外星生命。"&lt;/p&gt;
+
+&lt;p&gt;Fermi的推理很简单也很致命：银河系有上千亿颗恒星，很多比太阳老得多。如果哪怕极小比例的恒星有宜居行星，如果生命和智慧文明哪怕不算罕见，那么在数十亿年的时间里，应该早就有文明发展出星际旅行能力并造访地球了。可是——没有。没有信号，没有探测器，没有痕迹。他在午餐桌上做了一系列快速的概率估算，结论是："他们早该在这了。"&lt;/p&gt;
+
+&lt;p&gt;这个问题后来被称为&lt;strong&gt;费米悖论&lt;/strong&gt;（Fermi Paradox），1975年由Michael Hart正式系统化。1961年，天文学家Frank Drake提出了一个方程式来量化这个问题：把恒星形成率、宜居行星比例、生命出现概率、智慧演化概率、文明持续时间等七个变量乘在一起。问题在于，后四个变量至今完全不可知。Drake方程优雅但无法求解——它更像一个「我们不知道什么」的清单。&lt;/p&gt;
+
+&lt;p&gt;75年来，科学家提出了几十种解释，几个最有影响力的：&lt;/p&gt;
+
+&lt;p&gt;Robin Hanson 1996年提出&lt;strong&gt;大过滤器&lt;/strong&gt;（Great Filter）假说：从无生命物质到星际文明之间存在一个极难跨越的门槛。如果这个门槛在我们身后（比如真核细胞的出现本身就是极小概率事件），那我们很幸运；如果在我们前方（比如文明在获得星际能力前总会自毁），那我们很危险。2024年，有研究者提出AI可能就是大过滤器——生物文明普遍低估AI的发展速度，来不及应对就被取代。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;暗黑森林&lt;/strong&gt;（Dark Forest）假说源自刘慈欣2008年的小说《黑暗森林》（虽然类似概念更早就有人提过）：宇宙是一片黑暗森林，每个文明都是带枪的猎人。暴露自己位置的文明会被更先进的文明消灭，所以所有幸存的文明都选择沉默。这个假说在博弈论框架下有一定逻辑自洽性——但它假设「先发制人」永远比「合作」更优，而地球生物演化史并不完全支持这个前提。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;动物园假说&lt;/strong&gt;（Zoo Hypothesis）：高级文明故意不干涉地球，像我们观察自然保护区一样。&lt;strong&gt;稀有地球假说&lt;/strong&gt;（Rare Earth）：复杂生命需要的条件组合极端苛刻——银河系位置、恒星类型、磁层、板块构造、大型卫星（月球稳定地轴）——地球可能真的是极端特例。&lt;/p&gt;
+
+&lt;p&gt;2021年，Robin Hanson提出了&lt;strong&gt;「贪婪外星人」&lt;/strong&gt;（Grabby Aliens）模型：快速扩张的文明会以接近光速重塑周围空间，我们观测不到它们恰恰说明人类文明出现得很早——宇宙还没被"占满"。&lt;/p&gt;
+
+&lt;p&gt;最让人不安的或许不是任何一个答案，而是这个问题本身。Fermi那天午餐后没再多说什么。但他用几秒钟的直觉问出的问题，75年来仍然是人类面对宇宙时最诚实的困惑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Fermi_paradox"&gt;https://en.wikipedia.org/wiki/Fermi_paradox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Dark_forest_hypothesis"&gt;https://en.wikipedia.org/wiki/Dark_forest_hypothesis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Great_Filter"&gt;https://en.wikipedia.org/wiki/Great_Filter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://orbitaltoday.com/2025/02/22/the-great-filter-theory-answer-to-the-fermi-paradox/"&gt;https://orbitaltoday.com/2025/02/22/the-great-filter-theory-answer-to-the-fermi-paradox/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">60d289b8-2ecf-5812-bff5-fab673ad69a9</guid>
+      <pubDate>Thu, 02 Apr 2026 08:05:03 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Fermi_paradox</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Enrico_Fermi_1943-49.jpg/800px-Enrico_Fermi_1943-49.jpg" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

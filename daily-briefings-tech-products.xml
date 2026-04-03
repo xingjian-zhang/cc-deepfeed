@@ -1,12 +1,118 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
+    <item>
+      <title>📱 Nintendo Switch 2 定价策略大转弯：实体游戏贵10美元、配件涨价5-10%、前高管暗示主机涨价在即</title>
+      <description>&lt;p&gt;Nintendo Switch 2 的定价故事正在变得越来越复杂。继此前因关税问题陷入产量削减和诉讼困境之后，任天堂在3月25日宣布了一个史无前例的定价策略：&lt;strong&gt;从5月21日起，第一方Switch 2独占游戏的数字版将比实体版便宜10美元&lt;/strong&gt;。首款受影响的游戏是《耀西与神秘之书》（Yoshi and the Mysterious Book），数字版59.99美元，实体版69.99美元。&lt;/p&gt;
+
+&lt;p&gt;后续发售的《火焰纹章：命运之轮》（Fire Emblem: Fortune's Wheel）、《喷射战士：突袭者》（Splatoon Raiders）和《宝可梦：风与浪》（Pokémon Winds &amp; Waves）都将延续这一定价结构。任天堂官方表示，价格差异反映了"制作和运输实体游戏的额外成本"，并强调这不是实体版涨价，而是数字版降价。&lt;/p&gt;
+
+&lt;p&gt;但前任天堂高管 Sean 在 Kit &amp; Krysta 播客中给出了截然不同的解读。他直言："坦白说，我认为主机本身的价格最终会上涨。降低数字游戏价格可能是让主机涨价对用户来说不那么痛苦的一种手段。"这番话让449美元的Switch 2定价看起来更像是一个临时窗口。&lt;/p&gt;
+
+&lt;p&gt;关税压力进一步印证了这种判断。目前Switch 2配件已经开始涨价：Pro手柄从79.99涨至84.99美元，Joy-Con对装从89.99涨至94.99美元，Dock从109.99涨至119.99美元（涨幅9%），摄像头从49.99涨至54.99美元（涨幅10%）。主机本身虽暂时维持449美元不变，但任天堂明确警告"未来可能根据市场情况对任何Nintendo产品进行价格调整"。&lt;/p&gt;
+
+&lt;p&gt;背后的供应链逻辑很清楚：Trump政府对中国商品征收145%关税，大部分关税虽有90天暂缓期，但游戏主机被排除在4月11日电子产品豁免之外。任天堂正在越南和中国工厂加紧向美国转运库存，赶在关税窗口关闭前尽可能多地铺货。任天堂社长古川俊太郎坚持1500万台Switch 2年度销售目标不变，称关税并非影响预期的因素——但定价才是。&lt;/p&gt;
+
+&lt;p&gt;这是一场精心设计的多步定价策略：先用数字版降价安抚核心玩家，再用配件涨价试探市场反应，最后可能是主机本身的调价。2026年底449美元的Switch 2还在不在，分析师们并不乐观。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cbr.com/nintendo-switch-2-price-change-may-2026/"&gt;https://www.cbr.com/nintendo-switch-2-price-change-may-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gamedeveloper.com/business/nintendo-switch-2-dodges-tariff-price-increase-but-accessories-will-experience-price-adjustments-"&gt;https://www.gamedeveloper.com/business/nintendo-switch-2-dodges-tariff-price-increase-but-accessories-will-experience-price-adjustments-&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ixbt.games/en/news/2026/04/02/408213-nintendo-povysit-stoimost-switch-2-zaveriaet-byvsii-top-menedzer-kompanii.html"&gt;https://ixbt.games/en/news/2026/04/02/408213-nintendo-povysit-stoimost-switch-2-zaveriaet-byvsii-top-menedzer-kompanii.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gamesradar.com/hardware/a-nintendo-switch-2-price-hike-could-be-likely-after-ps5s-increase-game-analysts-suggest-i-would-be-very-surprised-if-the-switch-was-still-usd450-in-the-us-at-the-end-of-2026/"&gt;https://www.gamesradar.com/hardware/a-nintendo-switch-2-price-hike-could-be-likely-after-ps5s-increase-game-analysts-suggest-i-would-be-very-surprised-if-the-switch-was-still-usd450-in-the-us-at-the-end-of-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9fe8524b-e45c-5552-959b-4b2df29efc62</guid>
+      <pubDate>Thu, 02 Apr 2026 08:05:34 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.cbr.com/nintendo-switch-2-price-change-may-2026/</link>
+      <enclosure url="https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/11/nintendo-switch-2-and-link-from-legend-of-zelda.jpg?w=1600&amp;amp;h=900&amp;amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Galaxy S26 Ultra 四月固件来了：PWM调光重校准修复闪烁，但硬件导致的眼疲劳问题无解</title>
+      <description>&lt;p&gt;三星Galaxy S26 Ultra的Privacy Display争议进入了一个关键节点。四月安全更新已从韩国开始推送，同时携带了针对显示闪烁问题的专项修复——这是三星在三月底承认问题后给出的第一个正式软件回应。&lt;/p&gt;
+
+&lt;p&gt;问题回顾：S26 Ultra搭载了业界首个Active Privacy Nano-Layer，通过将可视角度收窄至30度来防止旁人偷窥。这层纳米膜集成在Corning Gorilla Armor 2玻璃中，与Flex Magic Panel配合工作。但代价不小——峰值亮度比S25 Ultra降低约300尼特，低亮度环境下（尤其是20%亮度以下的白色背景）出现明显的高频闪烁和模糊感，部分用户甚至报告了头痛和恶心。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;四月固件的核心修复思路是重新校准PWM（脉冲宽度调制）调光周期。&lt;/strong&gt;通过改变Snapdragon 8 Elite Gen 5与显示驱动IC之间的通信方式，三星试图平滑像素间的光散射过渡，掩盖低亮度下的闪烁。简单来说，就是让调光频率更高、过渡更柔和，从而减少人眼可感知的闪烁。&lt;/p&gt;
+
+&lt;p&gt;与此同时，三星开始用数据为Privacy Display辩护。4月1日，三星官方发布了一组用户行为统计：声称大多数S26 Ultra用户实际上在积极使用Privacy Display功能，暗示争议并未影响真实用户体验。不过三星并未公布具体的使用率数字，这让这份"辩护"的说服力打了折扣。&lt;/p&gt;
+
+&lt;p&gt;真正的问题在于：软件能修的和不能修的是两回事。闪烁和畸变属于PWM调光层面的问题，固件确实有优化空间。但用户报告的眼疲劳和头痛，很大程度上源于Flex Magic Panel本身的硬件特性——纳米膜对光线的衍射和散射是物理层面的，软件更新改不了面板结构。三星此前也变相承认了这一点，只承诺修复"闪烁和畸变"，从未提及眼疲劳。&lt;/p&gt;
+
+&lt;p&gt;对于已经购入S26 Ultra的用户，四月更新值得第一时间安装。韩国版已经开始推送，全球版本预计数日内跟进。但如果你属于对PWM敏感、使用Privacy Display后出现身体不适的那群人，管理期望很重要——这次更新大概率能改善闪烁，但不太可能根治硬件层面的不适感。三星接下来是否会提供退换或调整Privacy Display的硬件参数方案，是这个故事的下一个关注点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/04/01/april-2026-update-arrives-for-galaxy-s26-series/"&gt;https://www.sammyfans.com/2026/04/01/april-2026-update-arrives-for-galaxy-s26-series/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/04/01/samsung-backs-galaxy-s26-ultra-privacy-display-with-real-user-behavior/"&gt;https://www.sammyfans.com/2026/04/01/samsung-backs-galaxy-s26-ultra-privacy-display-with-real-user-behavior/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/03/28/galaxy-s26-display-issues-fix-rolling-out-soon/"&gt;https://www.sammyfans.com/2026/03/28/galaxy-s26-display-issues-fix-rolling-out-soon/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammobile.com/news/april-2026-security-patch-debuts-with-new-galaxy-s26-update/"&gt;https://www.sammobile.com/news/april-2026-security-patch-debuts-with-new-galaxy-s26-update/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">43eef54f-b06b-5aa7-bd56-99950c5cd384</guid>
+      <pubDate>Thu, 02 Apr 2026 08:05:57 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.sammyfans.com/2026/04/01/april-2026-update-arrives-for-galaxy-s26-series/</link>
+      <enclosure url="https://www.sammyfans.com/wp-content/uploads/2026/03/galaxy-s26-ultra-2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 TSMC 向 Nvidia、AMD、Broadcom、Qualcomm 兜售 Intel 代工合资方案，交易结构浮出水面</title>
+      <description>&lt;p&gt;TSMC与Intel代工部门的合资谈判有了更清晰的轮廓。据南华早报和多家媒体报道，TSMC已经向美国四大芯片设计巨头——&lt;strong&gt;Nvidia、AMD、Broadcom和Qualcomm&lt;/strong&gt;——逐一推介了入股Intel Foundry合资公司的方案。这是目前为止关于这笔潜在交易最详细的参与方信息。&lt;/p&gt;
+
+&lt;p&gt;交易结构的核心逻辑是这样的：TSMC将负责运营Intel的代工业务，持股不超过50%（此前报道的20%是TSMC的初始股份，以技术和培训入股而非注资）。剩余股份由Intel本身和上述fabless芯片公司分摊。这意味着Intel Foundry将变成一个由TSMC运营、美国公司控股的实体——既满足了Trump政府"不能让Intel完全落入外资之手"的政治红线，又为TSMC提供了在美国扩大产能的新路径。&lt;/p&gt;
+
+&lt;p&gt;时间线上，TSMC向这些公司推介方案的时间早于3月3日与Trump一同宣布的1000亿美元美国投资计划。这说明合资方案是TSMC更大布局的一部分，而非临时起意。据悉，Nvidia和Broadcom此前已在使用Intel 18A工艺进行制造测试，AMD也在评估18A是否适合自身需求——Intel高管还声称18A优于TSMC的2纳米工艺。&lt;/p&gt;
+
+&lt;p&gt;但截至目前，所有涉及方——Intel、TSMC、Nvidia、AMD、Qualcomm——都拒绝置评，交易尚未签署。核心难题有几个：首先是Intel员工的就业问题，TSMC接管运营几乎必然意味着进一步裁员，这在政治上极为敏感；其次是技术转让的深度，TSMC需要分享多少制造know-how才能让Intel的晶圆厂达到可用水平；最后是台湾政府的态度——此前TSMC和台湾官方都曾公开否认过相关谈判的存在，这种"否认"本身就增添了不确定性。&lt;/p&gt;
+
+&lt;p&gt;从美国半导体政策的角度看，这笔交易如果达成，将是CHIPS法案推动美国芯片制造回流以来最大的结构性变化。一个由TSMC运营、Nvidia/AMD/Broadcom参股的Intel代工厂，听起来像是美国政府梦寐以求的方案——但能否跨越商业、技术和政治的三重门槛，目前看还没有定论。关注点已经转向：哪些fabless公司会真正掏钱入股，以及TSMC在运营层面的具体参与深度。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.scmp.com/tech/big-tech/article/3302044/tsmc-has-pitched-nvidia-amd-broadcom-about-joint-venture-run-intel-foundry-sources"&gt;https://www.scmp.com/tech/big-tech/article/3302044/tsmc-has-pitched-nvidia-amd-broadcom-about-joint-venture-run-intel-foundry-sources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/tsmc-and-intel-foundry-joint-venture-reportedly-still-in-the-works-amd-broadcom-and-nvidia-approached"&gt;https://www.tomshardware.com/tech-industry/tsmc-and-intel-foundry-joint-venture-reportedly-still-in-the-works-amd-broadcom-and-nvidia-approached&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/intel-and-tsmc-agree-to-form-chipmaking-joint-venture-report"&gt;https://www.tomshardware.com/tech-industry/intel-and-tsmc-agree-to-form-chipmaking-joint-venture-report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tweaktown.com/news/103886/tsmc-pitches-an-intel-foundry-joint-venture-idea-to-nvidia-amd-broadcom-qualcomm/index.html"&gt;https://www.tweaktown.com/news/103886/tsmc-pitches-an-intel-foundry-joint-venture-idea-to-nvidia-amd-broadcom-qualcomm/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8cec659c-c32a-5a1b-9175-2fef7e0c4466</guid>
+      <pubDate>Thu, 02 Apr 2026 08:06:11 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.scmp.com/tech/big-tech/article/3302044/tsmc-has-pitched-nvidia-amd-broadcom-about-joint-venture-run-intel-foundry-sources</link>
+      <enclosure url="https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2025/03/12/ec52cf16-5836-4ceb-b82d-12d34d605bb4_a89bf62c.jpg?itok=HsLeY4NZ&amp;amp;v=1741756377" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 iOS 27 走「Snow Leopard」路线：稳定性优先，但 Siri Extensions 将打破 OpenAI 独占</title>
+      <description>&lt;p&gt;距离WWDC 2026（6月8-12日）还有两个月，iOS 27的轮廓已经相当清晰。多方信源指向一个出人意料的基调：这将是一个&lt;strong&gt;"Snow Leopard"式的版本&lt;/strong&gt;——功能增量克制，重心放在稳定性、性能优化和bug修复上。对于经历了iOS 25引入Apple Intelligence和iOS 26大幅改版的用户来说，这未必是坏消息。&lt;/p&gt;
+
+&lt;p&gt;但"克制"不等于"无聊"。iOS 27最重要的变化藏在AI层面：&lt;strong&gt;Siri Extensions系统&lt;/strong&gt;。苹果计划在设置中开放一个新的"Extensions"入口，允许用户将Siri的对话请求路由到第三方AI聊天机器人——Claude、Gemini、Grok都在候选名单中。这意味着OpenAI与Siri的独家合作将正式终结，用户可以自由选择默认AI后端。&lt;/p&gt;
+
+&lt;p&gt;从技术架构看，Siri Extensions的设计思路是把Siri作为统一的自然语言入口层（处理唤醒词、屏幕上下文感知、系统权限调用），而把"思考"的工作分发给用户选定的LLM。这和此前单纯调用OpenAI的模式有本质区别——苹果不再试图让一个模型覆盖所有场景，而是让用户根据自身需求选择最合适的模型。对于开发者来说，这可能意味着一套新的API框架，允许第三方AI服务声明自己的能力范围，从而参与Siri的查询分发。&lt;/p&gt;
+
+&lt;p&gt;配合Siri Extensions，苹果还计划在WWDC上发布&lt;strong&gt;Core AI框架&lt;/strong&gt;，接替现有的Core ML。这将为设备端AI推理提供更统一的底层支持，降低开发者集成本地模型的门槛。考虑到MacBook Neo搭载的A18 Pro和MacBook Air M5的Neural Accelerator都在强化端侧AI能力，Core AI的时机相当契合。&lt;/p&gt;
+
+&lt;p&gt;其他已知变化包括：为今秋发布的iPhone Fold优化折叠屏交互、新的卫星连接功能扩展（可能涉及NR-NTN标准的基础数据服务），以及常规的系统级性能优化。但整体上，iOS 27不会像iOS 26那样大刀阔斧地重新设计界面。&lt;/p&gt;
+
+&lt;p&gt;苹果三月底从Google挖来Lilian Rincon担任AI产品营销VP的动作，现在看时机感更强了——Siri Extensions本质上是一个需要精心营销的产品故事：既要让用户理解"你的Siri变聪明了"，又不能让人觉得"苹果放弃自研AI了"。Rincon在Google Shopping和Google Assistant的经验，正好对口这种需要平衡技术叙事和消费者认知的工作。六月八日，看苹果怎么讲这个故事。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone"&gt;https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://appleinsider.com/articles/26/03/23/what-to-expect-at-wwdc-2026-ios-27-siri-as-a-chatbot-and-more"&gt;https://appleinsider.com/articles/26/03/23/what-to-expect-at-wwdc-2026-ios-27-siri-as-a-chatbot-and-more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geeky-gadgets.com/wwdc-2026-guide/"&gt;https://www.geeky-gadgets.com/wwdc-2026-guide/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techlusive.in/news/wwdc-2026-apples-new-approach-to-ai-leaks-before-june-8-event-could-change-iphone-experience-forever-1654300/"&gt;https://www.techlusive.in/news/wwdc-2026-apples-new-approach-to-ai-leaks-before-june-8-event-could-change-iphone-experience-forever-1654300/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">53916b19-5f16-5001-baf0-6cf5170c3147</guid>
+      <pubDate>Thu, 02 Apr 2026 08:06:27 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone</link>
+      <enclosure url="https://www.geeky-gadgets.com/wp-content/uploads/2026/04/WWDC.webp" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

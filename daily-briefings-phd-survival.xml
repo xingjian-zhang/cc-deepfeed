@@ -1,12 +1,120 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 博士生存指南</title>
     <description>Per-topic feed: 博士生存指南</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" type="application/rss+xml" />
+    <item>
+      <title>📚 H-1B 工资权重抽签正式启用：博士和博后的中签率腰斩了吗？</title>
+      <description>&lt;p&gt;2026 年 3 月，美国移民局（USCIS）在 FY2027 H-1B 抽签季中正式启用了&lt;strong&gt;工资权重抽签系统&lt;/strong&gt;（Wage-Weighted Selection），取代沿用多年的随机抽签。新规则的核心逻辑很简单：你的薪水越高，中签概率越大。Level IV（最高工资等级）的申请者获得 4 倍权重，Level III 获 3 倍，Level II 获 2 倍，而 Level I（入门级）只有 1 倍——相当于在抽签池里只放了一张票，别人放了四张。&lt;/p&gt;
+
+&lt;p&gt;Wharton 商学院 Penn Wharton Budget Model 团队用 FOIA 获得的 2021-2024 年 H-1B 注册数据做了 1000 次蒙特卡洛模拟。结果显示：&lt;strong&gt;Level I 的中签份额从 27% 暴跌至 14%&lt;/strong&gt;，几乎腰斩；Level IV 则从 15.5% 跃升至 26%。整体中签者的平均薪资上涨了 $9,554（涨幅 8.5%），从 $112,309 升至 $121,863。&lt;/p&gt;
+
+&lt;p&gt;这对博士生意味着什么？分两种情况看：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;去工业界（cap-subject）：&lt;/strong&gt;如果你毕业后去科技公司或金融机构，起薪通常在 Level II-III 之间，影响相对可控——中签率下降但不至于灾难性。真正受冲击的是那些去小公司、startup 拿 entry-level 工资的 PhD，他们大概率落在 Level I，中签概率直接减半。策略上，有律师建议雇主尽量把 offer 薪资拉到 Level II 门槛线以上，以获得双倍权重。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;走学术路线（cap-exempt）：这里有好消息。&lt;/strong&gt;高等教育机构、非营利研究机构和政府研究组织的 H-1B 申请本来就不受年度配额限制（cap-exempt），不需要参与抽签。所以博后去大学或国家实验室，这个规则变化对你没有直接影响。但如果你之后想跳槽到工业界的 cap-subject 雇主，就需要重新抽签——届时你的学术薪资很可能只够 Level I。&lt;/p&gt;
+
+&lt;p&gt;结合此前已经生效的 &lt;strong&gt;$100,000 H-1B 附加费&lt;/strong&gt;（针对特定 change-of-status 申请），国际博士生的 OPT 转 H-1B 路径正在变得越来越昂贵和不确定。几个替代方案值得现在就开始准备：O-1 杰出人才签证（发表记录好的 PhD 有机会）、EB-1A/EB-2 NIW 绿卡直接申请、以及选择 cap-exempt 雇主作为过渡。&lt;/p&gt;
+
+&lt;p&gt;DHS 同时还在推进将 F-1 签证从 "duration of status" 改为固定 4 年期限的提案，加上 grace period 可能缩短至 30 天，国际博士生的时间压力比以往任何时候都大。如果你是国际学生，现在——不是毕业那年——就该开始和移民律师谈路径规划了。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;来源：&lt;a href="https://budgetmodel.wharton.upenn.edu/issues/2026/2/2/projected-effects-of-the-new-march-2026-h-1b-visa-lottery"&gt;Penn Wharton Budget Model&lt;/a&gt;、&lt;a href="https://www.fisherphillips.com/en/news-insights/dhs-releases-final-h-1b-weighted-selection-rule.html"&gt;Fisher Phillips&lt;/a&gt;、&lt;a href="https://www.envoyglobal.com/insight/h-1b-strategy-how-to-select-the-right-wage-level/"&gt;Envoy Global&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://budgetmodel.wharton.upenn.edu/issues/2026/2/2/projected-effects-of-the-new-march-2026-h-1b-visa-lottery"&gt;https://budgetmodel.wharton.upenn.edu/issues/2026/2/2/projected-effects-of-the-new-march-2026-h-1b-visa-lottery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fisherphillips.com/en/news-insights/dhs-releases-final-h-1b-weighted-selection-rule.html"&gt;https://www.fisherphillips.com/en/news-insights/dhs-releases-final-h-1b-weighted-selection-rule.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.envoyglobal.com/insight/h-1b-strategy-how-to-select-the-right-wage-level/"&gt;https://www.envoyglobal.com/insight/h-1b-strategy-how-to-select-the-right-wage-level/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3937ab71-327d-5560-9f0b-aeb3526222b9</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:33 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://budgetmodel.wharton.upenn.edu/issues/2026/2/2/projected-effects-of-the-new-march-2026-h-1b-visa-lottery</link>
+      <enclosure url="https://budgetmodel.wharton.upenn.edu/_astro/hero.CPpn19AU.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 The New School 裁员 15%、Akron 撤销物理系：2026 春季高校缩编潮再添两例</title>
+      <description>&lt;p&gt;上期报道了 Duke University 削减 3.5 亿预算和 Portland State University 进入 retrenchment 的消息。两周后，高校缩编潮不仅没有减速，反而在加速。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The New School 一刀砍掉 15% 教职工&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3 月下旬，纽约 The New School 宣布裁撤约 15% 的全职教职员工。背景是一个 4800 万美元的预算缺口。美国大学教授协会（AAUP）透露，&lt;strong&gt;40% 的全职教授——169 人——已经收到了自愿离职或提前退休的 offer&lt;/strong&gt;。被裁员工将在 6 月 1 日前收到通知，6 月 12 日正式离职，中间只有 11 天。&lt;/p&gt;
+
+&lt;p&gt;这不仅仅是钱的问题。The New School 社区有超过 1650 人签署请愿书抗议，认为管理层借预算危机之名瓦解这所格林威治村老校的左翼学术传统。学生和教授游行到校长办公室，递交了一封巨幅信件。30 个专业将被关闭或暂停，预计到 2030 财年节省 2200 万美元。对于已经入学的学生，这些项目会以 "teach-out" 方式结束；对于打算申请的人，这些项目从 2026 秋季起将不复存在。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Akron 大学撤销物理系&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;University of Akron 在 2025-2026 年的预算重组中做出了一个标志性决定：撤销独立的物理系。物理课程被拆分并入高分子科学、工程、生物和化学等院系。原有 6 名物理教授将减至 3 名——3 人可在 2027 年前退休，另一人同意放弃终身教职、转为实践教授。整套操作节省约 50 万美元，是学校 2200 万美元削减计划的一部分。此外，人类学系也被撤销，约 20 名教职工接受了买断协议。&lt;/p&gt;
+
+&lt;p&gt;一个物理系的消失看起来是小事，但它传递的信号很清晰：在经费紧缩的环境下，「基础学科」正在成为被优化掉的对象。对博士生来说，这意味着两件事：第一，选校时要关注目标院系的财务健康状况，而不仅仅是排名；第二，如果你所在的系规模小、外部经费依赖度低，要有 Plan B——无论是转方向还是转学校。&lt;/p&gt;
+
+&lt;p&gt;当前的裁员潮有三股力量在叠加：联邦层面 NIH 削减 180 亿、NSF 减少 51 亿带来的拨款断崖；各州层面生源下降导致学费收入缩水；以及通胀推高运营成本。这三者短期内没有一个会逆转。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;来源：&lt;a href="https://www.newschoolfreepress.com/2026/03/24/the-new-school-to-lay-off-15-of-faculty-and-staff-this-spring/"&gt;New School Free Press&lt;/a&gt;、&lt;a href="https://www.highereddive.com/news/the-new-school-layoffs-15-percent-workforce-reduction/814974/"&gt;Higher Ed Dive&lt;/a&gt;、&lt;a href="https://signalakron.org/university-of-akrons-polymer-faculty-avoid-cuts-but-professors-say-damage-already-done/"&gt;Signal Akron&lt;/a&gt;、&lt;a href="https://www.crainscleveland.com/education/university-akron-cuts-anthropology-20-faculty-buyouts"&gt;Crain's Cleveland&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.newschoolfreepress.com/2026/03/24/the-new-school-to-lay-off-15-of-faculty-and-staff-this-spring/"&gt;https://www.newschoolfreepress.com/2026/03/24/the-new-school-to-lay-off-15-of-faculty-and-staff-this-spring/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.highereddive.com/news/the-new-school-layoffs-15-percent-workforce-reduction/814974/"&gt;https://www.highereddive.com/news/the-new-school-layoffs-15-percent-workforce-reduction/814974/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://signalakron.org/university-of-akrons-polymer-faculty-avoid-cuts-but-professors-say-damage-already-done/"&gt;https://signalakron.org/university-of-akrons-polymer-faculty-avoid-cuts-but-professors-say-damage-already-done/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.crainscleveland.com/education/university-akron-cuts-anthropology-20-faculty-buyouts"&gt;https://www.crainscleveland.com/education/university-akron-cuts-anthropology-20-faculty-buyouts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7d0f198b-7e07-571c-ac0a-42e5e1250e22</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:04 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://www.newschoolfreepress.com/2026/03/24/the-new-school-to-lay-off-15-of-faculty-and-staff-this-spring/</link>
+      <enclosure url="https://www.newschoolfreepress.com/wp-content/uploads/2026/03/16-9-2025-10-09-uc-photos-brigette-weisz-16-scaled.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 博士论文写作实战：从「不知道写哪章」到每天稳定产出的操作手册</title>
+      <description>&lt;p&gt;此前覆盖了 Deep Work 框架和 qualifying exam 备考。这次聊一个更具体的问题：博士论文（dissertation/thesis）到底怎么写？不是「你要有毅力」这种鸡汤，而是可以明天就执行的操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;先写哪一章？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;UNC Writing Center 和多位导师的共识是：&lt;strong&gt;先写方法论章（Methodology），再写结果章（Results）&lt;/strong&gt;。原因很实际——这两章最依赖「记忆新鲜度」，实验做完趁热写，细节不会丢。文献综述（Literature Review）和讨论章（Discussion）可以后写，因为它们更依赖思考而非回忆。导论（Introduction）和结论（Conclusion）放最后，因为你需要知道自己到底写了什么才能写好开头和结尾。摘要（Abstract）永远是最后一件事。&lt;/p&gt;
+
+&lt;p&gt;这个顺序违反直觉——多数人想从头到尾线性写。但线性写作几乎必然导致导论改了又改，因为你后面的章节会不断改变论文的重心。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;每天怎么启动？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pomodoro 大家都听过，但有一个更好的技巧叫 &lt;strong&gt;"mid-sentence quit"&lt;/strong&gt;——每天写作结束时故意停在一句话的中间，甚至停在一个段落的论证刚展开的地方。第二天坐下来，你不需要从零开始构思，只需要把那句话写完，大脑就自然进入了状态。海明威用这个方法写了一辈子小说，学术写作同样适用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;保护写作时间&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;把每天效率最高的 2-3 小时锁定为论文写作时间。这段时间不回邮件、不开会、不改代码。很多 PhD 的陷阱是把白天最清醒的时间花在 TA、meeting 和跑实验上，把写作留到晚上——然后发现自己根本写不动。&lt;/p&gt;
+
+&lt;p&gt;换个环境也有用。如果你通常在实验室写作，试试去图书馆或咖啡店。环境切换本身就是一种认知信号，告诉大脑「现在是写作模式」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;加入写作共同体&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;"Shut Up and Write" 是学术圈流行多年的写作小组格式：一群人聚在一起（线上或线下），设定时间，各写各的，中间不聊天。UCLA Graduate Writing Center 每个季度都组织为期四周的 writing-together group；University of Bremen 提供两周一次的虚拟写作空间。国内不少高校也有类似的「论文互助营」。这类小组的核心价值不是反馈，而是&lt;strong&gt;社会问责&lt;/strong&gt;——别人在写，你不好意思刷手机。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对付拖延症的认知策略&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;UNC 的建议很实在：当你拖延时，问自己到底在回避什么。是害怕写得不好？还是觉得某一章节太大不知从何下手？如果是前者，提醒自己初稿的唯一目的是存在——"the best dissertation is a done dissertation"。如果是后者，把那章拆成 10 个子任务，每个子任务不超过 30 分钟，然后只做第一个。&lt;/p&gt;
+
+&lt;p&gt;最后一点：定期给非学术朋友讲你在写什么。如果你能用大白话解释清楚一个章节的论点，说明你真的理解了。如果讲不清楚，那可能不是表达问题，而是思考还没到位。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;来源：&lt;a href="https://writingcenter.unc.edu/tips-and-tools/dissertation-strategies/"&gt;UNC Writing Center&lt;/a&gt;、&lt;a href="https://gradcoach.com/dissertation-structure/"&gt;Grad Coach&lt;/a&gt;、&lt;a href="https://www.insidehighered.com/blogs/gradhacker/5-productivity-practices-helped-me-finish-my-dissertation"&gt;Inside Higher Ed GradHacker&lt;/a&gt;、&lt;a href="https://gwc.gsrc.ucla.edu/writing-groups"&gt;UCLA Graduate Writing Center&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://writingcenter.unc.edu/tips-and-tools/dissertation-strategies/"&gt;https://writingcenter.unc.edu/tips-and-tools/dissertation-strategies/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gradcoach.com/dissertation-structure/"&gt;https://gradcoach.com/dissertation-structure/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.insidehighered.com/blogs/gradhacker/5-productivity-practices-helped-me-finish-my-dissertation"&gt;https://www.insidehighered.com/blogs/gradhacker/5-productivity-practices-helped-me-finish-my-dissertation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gwc.gsrc.ucla.edu/writing-groups"&gt;https://gwc.gsrc.ucla.edu/writing-groups&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">25b518bc-0b85-5563-b5e8-b11d4788f2b6</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:39 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://writingcenter.unc.edu/tips-and-tools/dissertation-strategies/</link>
+      <enclosure url="https://writingcenter.unc.edu/wp-content/uploads/sites/346/2020/10/CanvaWCLCRam1.png" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

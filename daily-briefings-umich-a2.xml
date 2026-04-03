@@ -1,12 +1,82 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — 密歇根大学与安娜堡动态</title>
     <description>Per-topic feed: 密歇根大学与安娜堡动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-umich-a2.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-umich-a2.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-umich-a2.xml" type="application/rss+xml" />
+    <item>
+      <title>🎓 密歇根男篮 Final Four 前夕惊魂：首发控卫 Cadeau 过敏反应紧急送医，周六对阵亚利桑那前景添变数</title>
+      <description>&lt;p&gt;距离密歇根男篮队史第9次 Final Four 半决赛仅剩三天，首发控卫 Elliot Cadeau 在4月1日出发前往印第安纳波利斯的大巴上突发过敏反应，被紧急抬上担架送往救护车。校方声明称「医生评估后确认 Elliot 状况良好，出于谨慎正在接受医学监护，将晚于球队抵达印第安纳波利斯」。&lt;/p&gt;
+
+&lt;p&gt;Cadeau 本赛季38场全部首发，场均10.2分5.8助攻，是密歇根进攻组织的核心枢纽。过敏源初步判断为食物，但具体细节未公开。好消息是球队随后确认他当天晚些时候已飞抵印城，预计不会缺席周六比赛。&lt;/p&gt;
+
+&lt;p&gt;这一插曲让原本信心满满的密歇根阵营多了一丝不确定性。&lt;strong&gt;周六晚8:49 ET&lt;/strong&gt;，35-3的1号种子密歇根将在 Lucas Oil Stadium 迎战36-2的1号种子亚利桑那。博彩公司开出密歇根让1.5分、总分线157.5的盘口，两队实力极为接近。亚利桑那近四场场均89分，进攻火力同样凶猛；密歇根则依靠 &lt;strong&gt;Yaxel Lendeborg&lt;/strong&gt;（场均14.6分7.0篮板）的内线统治力和 Aday Mara 的防守威慑。&lt;/p&gt;
+
+&lt;p&gt;另一组半决赛 UConn 对阵伊利诺伊，冠军赛定于4月7日。如果密歇根能走到最后一步，这将是 Dusty May 执教首季就带队夺冠的童话剧本——上一次密歇根在 Final Four 赢球还要追溯到2018年输给 Villanova 的决赛。队史7次从半决赛晋级的纪录是个好兆头，但 Cadeau 的身体状态和亚利桑那的得分能力都是现实的考验。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://heavy.com/sports/mens-college-basketball/michigan-wolverines-mens-college-basketball/elliot-cadeau-hospitalized-allergic-reaction/"&gt;https://heavy.com/sports/mens-college-basketball/michigan-wolverines-mens-college-basketball/elliot-cadeau-hospitalized-allergic-reaction/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbssports.com/college-basketball/news/michigan-elliot-cadeau-travel-final-four-delayed-allergic-reaction/"&gt;https://www.cbssports.com/college-basketball/news/michigan-elliot-cadeau-travel-final-four-delayed-allergic-reaction/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.foxsports.com/college-basketball/ncaa-tournament-final-four-michigan-wolverines-vs-arizona-wildcats-apr-04-2026-game-boxscore-264122"&gt;https://www.foxsports.com/college-basketball/ncaa-tournament-final-four-michigan-wolverines-vs-arizona-wildcats-apr-04-2026-game-boxscore-264122&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">68297d4a-4b5f-523a-8023-5e47b307c0bb</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:42 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://heavy.com/sports/mens-college-basketball/michigan-wolverines-mens-college-basketball/elliot-cadeau-hospitalized-allergic-reaction/</link>
+      <enclosure url="https://mgoblue.com/images/2026/3/29/Cadeau_Michigan_Celebration.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎓 12亿美元核武超算落户争议：Ypsilanti Township 全票反对密歇根大学与洛斯阿拉莫斯数据中心选址</title>
+      <description>&lt;p&gt;密歇根大学与洛斯阿拉莫斯国家实验室（Los Alamos National Laboratory）合作的12亿美元高性能计算中心项目正面临选址地的强烈抵制。Ypsilanti Township 镇委会近日全票通过决议，「声明强烈且毫不含糊地反对」这一设施落户当地。这是密歇根大学近年来最大的校外基建项目，也可能是最具争议的一个。&lt;/p&gt;
+
+&lt;p&gt;项目计划建造两栋建筑：一栋24万平方英尺用于机密研究，一栋5万平方英尺用于非机密研究，预计2030年前完工。洛斯阿拉莫斯副实验室主任 Patrick Fitch 已确认，其中一台计算机将处理核武器项目的「秘密限制数据」（secret restricted data），包括钚弹芯（plutonium pit）相关模拟。密歇根州2024年12月批准了1亿美元拨款支持该项目。&lt;/p&gt;
+
+&lt;p&gt;反对声浪集中在几个层面。安全方面，镇委会决议指出该设施可能成为「外国敌对势力、恐怖组织及其他敌对行为者」的高价值目标——近期美以对伊朗军事行动进一步加剧了这一担忧。环境正义方面，批评者指出密歇根大学选择在低收入的东 Washtenaw County 而非富裕的安娜堡建设争议设施，暴露了选址逻辑中的阶层偏见。镇律师 Doug Winters 措辞激烈，称大学的整个过程「建立在谎言之上」。&lt;/p&gt;
+
+&lt;p&gt;资源消耗同样惊人：该中心日用水量可达&lt;strong&gt;360万加仑&lt;/strong&gt;，对当地供水系统构成巨大压力。密歇根大学今年3月以短信通知镇长的方式购入了 Huron River 旁124英亩土地作为备选址，这种沟通方式被批评为「傲慢」。&lt;/p&gt;
+
+&lt;p&gt;大学方面强调该设施「不涉及核材料的存储或处理」，并承诺带来约200个平均年薪20万美元的岗位和科研产业集聚效应。但作为公立机构，密歇根大学不受地方分区规划（zoning）约束——这意味着即使镇委会全票反对，大学仍可能推进建设。这场博弈的实质是：一所公立大学的研究使命与所在社区的安全感和知情权之间，边界究竟在哪里？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.insidehighered.com/news/government/colleges-localities/2026/04/02/michigan-research-center-faces-local-opposition"&gt;https://www.insidehighered.com/news/government/colleges-localities/2026/04/02/michigan-research-center-faces-local-opposition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bridgemi.com/business-watch/locals-to-u-m-your-1-2b-supercomputer-not-welcome-here/"&gt;https://bridgemi.com/business-watch/locals-to-u-m-your-1-2b-supercomputer-not-welcome-here/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://planetdetroit.org/2026/02/los-alamos-nuclear-research-ypsilanti/"&gt;https://planetdetroit.org/2026/02/los-alamos-nuclear-research-ypsilanti/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9257e0d5-62a8-553e-82e3-aae89fb102aa</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:08 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://www.insidehighered.com/news/government/colleges-localities/2026/04/02/michigan-research-center-faces-local-opposition</link>
+      <enclosure url="https://bridgemi.com/wp-content/uploads/2026/03/um-data-center-site.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎓 第55届 Hash Bash 本周五登场：Monroe Street Fair 取消、校警加强执法，安娜堡大麻集会迎「最冷」一年</title>
+      <description>&lt;p&gt;安娜堡最具反文化色彩的年度集会——第55届 Hash Bash 定于4月4日（本周五）中午在密歇根大学 Diag 广场举行。但今年的气氛和往年大不一样：往年吸引大量人流的 Monroe Street Fair（手工艺品集市）宣布取消，Diag 也没有批出额外商贩许可，整个活动将回归「裸奔」状态。&lt;/p&gt;
+
+&lt;p&gt;变化背后是大学与组织者之间一场微妙的角力。校方公共安全部门（DPSS）明确宣布将加强执法力度，警告「非法销售或分发、未经许可的活动、公共区域消费、扰乱秩序、阻碍交通或其他刑事犯罪行为可能导致传票或逮捕」。组织者 Josey Scoggin 透露，大学最初要求活动购买300万美元责任险和500万美元总额保险，且只给一周时间办理；经过谈判降至100万/200万美元，但保费仍超过200万美元——对一个免费的草根集会来说是沉重负担。&lt;/p&gt;
+
+&lt;p&gt;更深层的紧张关系与2024年的加沙抗议处理方式有关。Scoggin 担心参加者若在集会中自发进行反战示威，可能遭到类似2024年亲巴勒斯坦示威时的强力回应。这种担忧并非多余——大学对校园集会的管控立场在过去两年明显收紧。&lt;/p&gt;
+
+&lt;p&gt;Hash Bash 诞生于1972年，最初是抗议大麻禁令的政治集会。密歇根2018年全面合法化后，活动逐渐转型为文化庆典。但今年的氛围更像是一次回归原点：没有嘉年华式的喧闹，有的只是一群人站在 Diag 上，测试言论自由和公共空间使用权的边界。同一天，&lt;strong&gt;Hash Bash Cup&lt;/strong&gt; 颁奖活动在 Wyndham Garden 酒店举行（4月3-5日），展示顶级大麻产品——商业化的那一面倒是照常运转。&lt;/p&gt;
+
+&lt;p&gt;巧合的是，Hash Bash 和密歇根男篮 Final Four 半决赛撞在了同一天。安娜堡周五白天嗅着大麻味在 Diag 狂欢，晚上守着电视看球——这大概是只有这座大学城才能提供的周五体验。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.dailypress.net/news/regional-news/2026/04/university-of-michigans-handling-of-gaza-related-protests-looms-over-hash-bash-planning/"&gt;https://www.dailypress.net/news/regional-news/2026/04/university-of-michigans-handling-of-gaza-related-protests-looms-over-hash-bash-planning/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.annarbor.org/cannabis/hash-bash/"&gt;https://www.annarbor.org/cannabis/hash-bash/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.hash-bash.com/"&gt;https://www.hash-bash.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">caa66ff1-b418-56fc-be01-ffc09b91d6ae</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:48 +0000</pubDate>
+      <category>umich-a2</category>
+      <link>https://www.dailypress.net/news/regional-news/2026/04/university-of-michigans-handling-of-gaza-related-protests-looms-over-hash-bash-planning/</link>
+      <enclosure url="https://www.annarbor.org/wp-content/uploads/2024/03/hash-bash-2024-hero.jpg" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>

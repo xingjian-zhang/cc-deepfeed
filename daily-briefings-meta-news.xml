@@ -1,12 +1,79 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Jimmy's Personalized Feed — Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
     <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
-    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com" />
-    <atom:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
+    <item>
+      <title>🔬 Hyperion 数据中心扩至十座天然气电厂：Meta 用 7.5 GW 算力换来年碳排 1240 万吨</title>
+      <description>&lt;p&gt;3 月 27 日，Meta 与路易斯安那州公用事业公司 Entergy Louisiana 宣布了迄今为止最大规模的 AI 算力能源协议——在此前已批准的三座天然气电厂基础上，&lt;strong&gt;再新建七座&lt;/strong&gt;，合计十座电厂为 Richland Parish 的 Hyperion 数据中心提供超过 7.5 GW 的电力。这个数字什么概念？TechCrunch 估算，它足以覆盖整个南达科他州的用电需求。&lt;/p&gt;
+
+&lt;p&gt;具体来看，七座新电厂将贡献约 5.2 GW 增量。Meta 还将出资修建 240 英里新输电线路，把路易斯安那南部电网与北部及阿肯色州连通，同时配套电池储能系统。Entergy 透露，Meta 承诺协助开发 2.5 GW 新可再生能源装机，并签署了探索核能合作的谅解备忘录——不过这些承诺均无硬性时间表。&lt;/p&gt;
+
+&lt;p&gt;环保账是绕不过去的。TechCrunch 测算，十座天然气电厂投入运行后，每年将释放约 &lt;strong&gt;1240 万吨 CO2&lt;/strong&gt;，可能使 Meta 公司整体碳足迹增加约 50%。这与 Zuckerberg 此前多次强调的"2030 碳中和"目标形成鲜明矛盾。Sierra Club 和多个环保组织已公开批评该计划，指其"把清洁能源承诺当装饰，把化石燃料当地基。"&lt;/p&gt;
+
+&lt;p&gt;延续此前对 Meta 算力基础设施扩张的跟踪：El Paso 100 亿美元数据中心、路易斯安那 Richland Parish 原始投资 100 亿美元（现已升级为 270 亿美元综合项目），加上年度 AI 资本支出 1150-1350 亿美元——Meta 正在用真金白银堆砌一个全球最大的 AI 算力帝国。但当十座天然气电厂的烟囱竖起时，"负责任 AI"的叙事还能撑多久？4 月 29 日的 Q1 财报会上，Susan Li 预计将面临分析师关于能源成本与碳排放的尖锐追问。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/"&gt;https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-will-fund-seven-new-gas-plants-to-power-its-7gw-louisiana-data-center"&gt;https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-will-fund-seven-new-gas-plants-to-power-its-7gw-louisiana-data-center&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eenews.net/articles/meta-plans-7-new-gas-plants-to-power-massive-louisiana-data-center/"&gt;https://www.eenews.net/articles/meta-plans-7-new-gas-plants-to-power-massive-louisiana-data-center/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-27/meta-funds-seven-entergy-gas-plants-to-power-biggest-data-center"&gt;https://www.bloomberg.com/news/articles/2026-03-27/meta-funds-seven-entergy-gas-plants-to-power-biggest-data-center&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7b0cf7ff-5d26-54f8-b274-9d63c98a9bd4</guid>
+      <pubDate>Thu, 02 Apr 2026 08:02:56 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/meta-gas-plant.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Perplexity 被集体诉讼：用户对话经隐藏追踪器实时流向 Meta 和 Google</title>
+      <description>&lt;p&gt;4 月 1 日，犹他州用户 John Doe 在旧金山联邦法院提起集体诉讼（案号 3:26-cv-02803），指控 AI 搜索引擎 Perplexity 在用户登录后悄悄植入"不可检测"的追踪脚本，将搜索查询、后续对话乃至个人财务信息实时传送至 &lt;strong&gt;Meta&lt;/strong&gt; 和 Google 的广告基础设施。更令人不安的是，即便开启 Incognito 模式，数据流也未被切断。&lt;/p&gt;
+
+&lt;p&gt;原告在诉状中详述，自己曾通过 Perplexity 咨询税务建议、法律意见和投资策略，对话中包含家庭财务状况、纳税义务和投资组合等敏感内容。这些信息经追踪器转发后，被 Meta 和 Google 用于广告定向投放，甚至被转售给其他第三方。诉讼援引加州隐私法（CCPA），如果胜诉，可能迫使所有 AI 公司公开披露第三方追踪器并接受独立审计。&lt;/p&gt;
+
+&lt;p&gt;各方回应颇值得玩味。Perplexity 发言人表示"尚未收到与此描述匹配的诉状，无法核实其存在或主张"——但没有否认追踪行为本身。Meta 发言人则指向 Facebook 帮助页面，称公司政策禁止广告商向其发送敏感信息。Google 暂未回应。&lt;/p&gt;
+
+&lt;p&gt;对 Meta 来说，这起诉讼的时机尤其微妙。公司正深陷 LA 成瘾性设计诉讼和新墨西哥儿童安全案的余波中，3 月市值蒸发 3100 亿美元。如今又以"数据接收方"的角色卷入新的隐私争议，即使 Meta 本身不是主要被告，其广告数据生态的运作方式也将再次被放到聚光灯下。集体诉讼通常需要 12-36 个月才能解决，但舆论效应会来得快得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.roborhythms.com/perplexity-ai-lawsuit-user-data-2026/"&gt;https://www.roborhythms.com/perplexity-ai-lawsuit-user-data-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-01/perplexity-ai-machine-accused-of-sharing-data-with-meta-google"&gt;https://www.bloomberg.com/news/articles/2026-04-01/perplexity-ai-machine-accused-of-sharing-data-with-meta-google&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mediapost.com/publications/article/414017/perplexity-meta-and-google-hit-with-privacy-suit.html"&gt;https://www.mediapost.com/publications/article/414017/perplexity-meta-and-google-hit-with-privacy-suit.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7e7db5cf-8151-5f32-8a6c-53c82d1c9b06</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:21 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.roborhythms.com/perplexity-ai-lawsuit-user-data-2026/</link>
+      <enclosure url="https://www.roborhythms.com/wp-content/uploads/2026/04/perplexity-ai-lawsuit-user-data-2026.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 四月倒计时：LlamaCon 与 Q1 财报双重大考，Avocado 和 Behemoth 进展成悬念</title>
+      <description>&lt;p&gt;4 月 29 日，Meta 将同时迎来两场关键事件：首届 &lt;strong&gt;LlamaCon&lt;/strong&gt; 开发者大会和 Q1 财报电话会。这两场活动的叠加让四月末成为 Meta AI 叙事的一个关键拐点。&lt;/p&gt;
+
+&lt;p&gt;先看 LlamaCon。这是 Meta 首次专为生成式 AI 举办的开发者大会，Chris Cox（首席产品官）、Manohar Paluri（AI VP）和研究员 Angela Fan 将发表主题演讲。Llama 4 Scout（17B 参数/16 专家）和 Maverick（17B/128 专家）已于早前发布，社区反馈尚可——Scout 拿下 10M token 上下文长度的行业纪录，Maverick 在多模态基准上击败 GPT-4o。但真正的悬念在于 &lt;strong&gt;Llama 4 Behemoth&lt;/strong&gt;：这个 2T 总参数、288B 活跃参数的巨型模型目前仍在训练中，公开发布时间从"今年夏初"推迟到秋季甚至更晚。Meta 强调 Behemoth 主要作为 teacher model 蒸馏 Scout 和 Maverick，但开发者社区更关心它何时能直接使用。&lt;/p&gt;
+
+&lt;p&gt;再看财报。Q1 收入指引 535-565 亿美元，分析师共识偏乐观——54 位给出买入评级，0 位卖出。但隐忧不少：3 月股价跌 19%、距历史高点回撤 33%，LA 成瘾性设计诉讼悬而未决，年度 capex 1150-1350 亿美元的"烧钱"节奏让自由现金流预期从 460 亿骤降至不足 80 亿。Susan Li 大概率将被追问三个问题：Avocado 何时发布、Manus 收购的监管风险如何消化、以及天然气电厂扩张带来的碳排放如何与 ESG 承诺自洽。&lt;/p&gt;
+
+&lt;p&gt;几条线索汇聚到了同一个时间点。Avocado 延期到五月以后已成定局，但闭源策略能否说服企业客户付费仍是未知数。Manus 创始人肖鸿和季一超仍被中国限制出境，商务部审查尚无结论。Behemoth 训练未完成。四月底这 48 小时内 Meta 释放的信号量，可能决定市场对其 AI 战略的信心走向。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/"&gt;https://ai.meta.com/blog/llama-4-multimodal-intelligence/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2025/02/18/meta-announces-llamacon-its-first-generative-ai-dev-conference/"&gt;https://techcrunch.com/2025/02/18/meta-announces-llamacon-its-first-generative-ai-dev-conference/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pymnts.com/news/artificial-intelligence/2026/meta-avocado-delay-puts-135-billion-dollar-ai-bet-under-scrutiny/"&gt;https://www.pymnts.com/news/artificial-intelligence/2026/meta-avocado-delay-puts-135-billion-dollar-ai-bet-under-scrutiny/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">11610258-f838-5fd5-8e11-500dbd0ce074</guid>
+      <pubDate>Thu, 02 Apr 2026 08:03:46 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://ai.meta.com/blog/llama-4-multimodal-intelligence/</link>
+      <enclosure url="https://scontent-det1-1.xx.fbcdn.net/v/t39.2365-6/488639590_2182781778834283_7341615399691839509_n.png?_nc_cat=107&amp;amp;ccb=1-7&amp;amp;_nc_sid=e280be&amp;amp;_nc_ohc=vdECrjapi5YQ7kNvwHKZqrW&amp;amp;_nc_oc=Adoz-h_xiNj3gg3_sJF8Fa_3OAmtRLnIlBlId2rl-wuzZUJvYWLiQVbgLK2xSvyzQdo&amp;amp;_nc_zt=14&amp;amp;_nc_ht=scontent-det1-1.xx&amp;amp;_nc_gid=7cTn2zkQ1BlUvmPMo9gkdA&amp;amp;_nc_ss=7a389&amp;amp;oh=00_Af0N8c8lwspv5XsbqAMdDE3aIFJXBnRtIvhRjpS3_6QLJA&amp;amp;oe=69E871A0" type="image/jpeg" length="0" />
+    </item>
   </channel>
 </rss>
