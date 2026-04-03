@@ -4,7 +4,7 @@
     <title>职业成长与实习攻略</title>
     <description>Per-topic feed: 职业成长与实习攻略</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:03:40 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" type="application/rss+xml" />
@@ -54,6 +54,92 @@
       <category>career-growth</category>
       <link>https://www.benzinga.com/markets/tech/26/03/51408543/snowflake-cuts-entire-team-joins-amazon-canva-in-ai-push</link>
       <enclosure url="https://cdn.benzinga.com/files/images/story/2026/03/23/Woman-And-Ai-Robot-Working-Together-In-T.jpeg?width=1200&amp;amp;height=800&amp;amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 Oracle 一封凌晨邮件裁掉 3 万人：AI 基建军备竞赛的人肉代价</title>
+      <description>&lt;p&gt;3 月 31 日清晨 6 点，Oracle 向全球约 3 万名员工发送了一封裁员邮件。系统权限几乎同步被收回——没有预告，没有过渡期。这轮裁员占 Oracle 全球员工总数的 18%，是 2026 年迄今为止单一公司规模最大的裁员事件。&lt;/p&gt;
+
+&lt;p&gt;受影响最严重的是印度，约 1.2 万人被裁，班加罗尔和海德拉巴两大技术中心将面临大量回流人才的竞争压力。密苏里州堪萨斯城的 WARN Act 备案显示该地区有 539 人被裁。Oracle 官方将裁员归因于"AI 让部分岗位不再必要"，但财务背景更能说明问题：公司 2025 年 9 月启动的重组计划原本预算 16 亿美元，到 2026 年 3 月已追加至 21 亿美元。&lt;/p&gt;
+
+&lt;p&gt;这轮裁员的真正驱动力是 AI 基建的资本黑洞。Oracle 正在大举投资数据中心和云基础设施以承载 AI 负载，但股价因巨额资本承诺持续下跌。裁员本质上是&lt;strong&gt;用人力成本填补 AI 基建开支&lt;/strong&gt;——这和 Block、Meta、Amazon 的逻辑如出一辙。Marc Andreessen 此前说得直白：大公司疫情期间超编 25-75%，AI 只是提供了一个体面的裁员理由。&lt;/p&gt;
+
+&lt;p&gt;对 H-1B 签证持有者来说，这是一场和时间赛跑的危机。被裁后只有 60 天宽限期（Grace Period）找到新雇主并完成签证转移——在当前市场环境下，这几乎是不可能完成的任务。加上特朗普政府推行的工资加权抽签制度和 10 万美元附加费，科技巨头的 H-1B 申请量已经腰斩。就业和合法身份绑定的制度设计，让国际员工在裁员潮中承受着远超本土员工的系统性风险。&lt;/p&gt;
+
+&lt;p&gt;Oracle 这封 6 点邮件暴露的不只是一家公司的决策冷血。整个科技行业正在形成一个闭环：投资 AI 基建 → 需要压缩成本 → 裁员 → 宣称"AI 替代了这些岗位"。至于 AI 是否真的能替代这些岗位？Duke 大学和美联储对 750 位 CFO 的调查给出了一个冷静的数字：AI 对 2025 年就业的实际影响"微乎其微"，2026 年预计拖累就业 0.4%，约 50 万个岗位。这个数字不小，但远不足以解释 3 万人一夜消失。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"&gt;CNBC&lt;/a&gt; | &lt;a href="https://americanbazaaronline.com/2026/04/02/oracle-layoffs-2026-h-1b-visa-holders-face-race-against-time-478128/"&gt;American Bazaar&lt;/a&gt; | &lt;a href="https://dataconomy.com/2026/04/02/oracle-layoffs-2026/"&gt;Dataconomy&lt;/a&gt; | &lt;a href="https://sfstandard.com/2026/04/02/ai-washing-layoffs/"&gt;SF Standard&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"&gt;https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://americanbazaaronline.com/2026/04/02/oracle-layoffs-2026-h-1b-visa-holders-face-race-against-time-478128/"&gt;https://americanbazaaronline.com/2026/04/02/oracle-layoffs-2026-h-1b-visa-holders-face-race-against-time-478128/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dataconomy.com/2026/04/02/oracle-layoffs-2026/"&gt;https://dataconomy.com/2026/04/02/oracle-layoffs-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/02/ai-washing-layoffs/"&gt;https://sfstandard.com/2026/04/02/ai-washing-layoffs/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0f735480-e3db-5524-ad72-24e025f26706</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:40 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html</link>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/108275547-17730745572026-03-09t163217z_829360390_rc221kalygrg_rtrmadp_0_usa-stocks.jpeg?v=1773074613&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 Challenger 报告：AI 首次登顶美国裁员理由榜首，累计波及近 10 万人</title>
+      <description>&lt;p&gt;Challenger, Gray &amp; Christmas 4 月 2 日发布的月度裁员报告确认了一个里程碑：&lt;strong&gt;2026 年 3 月，AI 首次成为美国雇主裁员的头号理由&lt;/strong&gt;。当月 60,620 人被裁，其中 15,341 人（25%）被明确归因于 AI——这个比例在 2 月还是 10%，2025 年全年只有 5%。三个月内从 5% 跳到 25%，这条曲线很难被忽视。&lt;/p&gt;
+
+&lt;p&gt;拉长时间线看，自 2023 年 Challenger 开始追踪"AI"这一裁员原因以来，已有 99,470 个岗位以此为由被砍。2026 年第一季度，AI 相关裁员达 27,645 人，已是 2025 年全年 54,836 人的一半。Challenger 高级副总裁 Andy Challenger 的判断很直接："公司正在把预算从人头转向 AI 投资。在科技行业，AI 替代编程岗位已经是正在发生的事。"&lt;/p&gt;
+
+&lt;p&gt;科技行业继续是重灾区。Q1 科技裁员 52,050 人，同比增长 40%，是 2023 年以来的最高水平。但不只是科技——交通运输行业裁员 32,241 人（同比暴增 703%），医疗行业 23,520 人（创历史新高），教育行业 11,467 人（同比增长 170%）。AI 的冲击波正在从科技行业向传统行业扩散。&lt;/p&gt;
+
+&lt;p&gt;不过，数据也有另一面。Q1 总裁员 217,362 人，实际上是 2022 年以来最低的 Q1 数字，比 2025 年同期下降 56%。3 月招聘计划 32,826 人，环比增长 157%，其中 21% 是夏季季节性岗位。换句话说，&lt;strong&gt;裁员的"AI 化"在加速，但裁员的绝对规模并没有恶化&lt;/strong&gt;。这恰好印证了此前 AI-washing 的判断：AI 更像是替代了"经济下行"成为裁员的新修辞框架，而非真的在大规模替代人力。&lt;/p&gt;
+
+&lt;p&gt;对求职者来说，Challenger 数据指向一个实操结论：不要只看"科技行业在裁人"这个标题。汽车行业 Q1 招聘 12,258 人，娱乐休闲行业招聘 8,261 人。AI 正在重新分配岗位的行业分布，而不仅仅是消灭岗位。你需要看的不是总量，而是流向。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/"&gt;Challenger, Gray &amp; Christmas&lt;/a&gt; | &lt;a href="https://www.4cornerresources.com/job-market-news/march-2026-challenger-job-cuts-ai/"&gt;4 Corner Resources&lt;/a&gt; | &lt;a href="https://www.cfodive.com/news/ai-tied-a-quarter-us-layoffs-march/816519/"&gt;CFO Dive&lt;/a&gt; | &lt;a href="https://seekingalpha.com/news/4571957-employers-cut-25-more-jobs-in-march-sequentially-ai-primary-reason-challenger-report"&gt;Seeking Alpha&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/"&gt;https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.4cornerresources.com/job-market-news/march-2026-challenger-job-cuts-ai/"&gt;https://www.4cornerresources.com/job-market-news/march-2026-challenger-job-cuts-ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cfodive.com/news/ai-tied-a-quarter-us-layoffs-march/816519/"&gt;https://www.cfodive.com/news/ai-tied-a-quarter-us-layoffs-march/816519/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://seekingalpha.com/news/4571957-employers-cut-25-more-jobs-in-march-sequentially-ai-primary-reason-challenger-report"&gt;https://seekingalpha.com/news/4571957-employers-cut-25-more-jobs-in-march-sequentially-ai-primary-reason-challenger-report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">37f06f14-2b03-56a7-b3d4-4a32852e9613</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:07 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/</link>
+      <enclosure url="https://www.challengergray.com/wp-content/uploads/2026/04/crheadermar26.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 裁员潮下的隐性求生路径：内部转岗为什么比跳槽更值得押注</title>
+      <description>&lt;p&gt;当所有人都在刷裁员新闻时，一条被低估的职业路径正在浮出水面：&lt;strong&gt;内部转岗&lt;/strong&gt;（Internal Mobility）。2026 年的数据很有意思——86% 的 HR 高管把内部流动列为优先事项，但大多数员工在自己公司里看不到清晰的晋升或转岗路径。这中间的落差，恰好是你可以利用的信息差。&lt;/p&gt;
+
+&lt;p&gt;先算一笔经济账。外部招聘一个人的成本通常是该岗位年薪的 50-60%，包括猎头费、面试流程、入职培训和适应期的生产力损失。一家全球科技公司去年用 AI 匹配工具将面临裁员的员工重新分配到内部空缺岗位，一轮操作省下 100 万美元。对公司来说，留人比招人划算得多；对你来说，这意味着公司有动机帮你转而不是让你走。&lt;/p&gt;
+
+&lt;p&gt;内部转岗的实际优势远不止"保住饭碗"。你已经了解公司的系统、文化和决策流程，这些隐性知识在外部市场上无法标价但在内部极有价值。更关键的是，内部转岗不需要走完整的外部面试流程——没有 LeetCode 马拉松，没有 System Design 从零开始，很多时候一次 hiring manager 的对话就能启动流程。&lt;/p&gt;
+
+&lt;p&gt;怎么操作？几个实战建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;主动建立跨团队可见度。&lt;/strong&gt;参加其他团队的 design review、tech talk、oncall review。让潜在的 hiring manager 在你还没正式申请时就认识你。&lt;/li&gt;
+&lt;li&gt;关注公司内部岗位板（大部分大公司都有），设置 alert。很多内部岗位的挂出时间比外部早 1-2 周。&lt;/li&gt;
+&lt;li&gt;和 HR Business Partner 直接聊。他们通常掌握重组和岗位调整的第一手信息，远早于公开消息。&lt;/li&gt;
+&lt;li&gt;把你的技能描述从"我做过什么"转向"我能解决什么问题"。内部转岗的决策逻辑是能力匹配（Skills-Based），不是经验年限。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2026 年的组织趋势正在从"岗位层级"转向"技能图谱"。越来越多的公司使用 AI 工具扫描员工技能数据来匹配内部空缺——你在当前岗位上积累的 30-40% 的技能可能公司自己都不知道你有。与其把精力全部投入刷题和海投简历，不如先看看脚下有没有路。在裁员潮中，最安全的跳板可能不在公司外面，而是在隔壁那个正在扩编的团队。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/"&gt;Rely Workforce Group&lt;/a&gt; | &lt;a href="https://hrtechcube.com/internal-talent-marketplaces-career-mobility-2026/"&gt;HRTechCube&lt;/a&gt; | &lt;a href="https://www.talentguard.com/blog/ten-ways-to-boost-internal-talent-mobility"&gt;TalentGuard&lt;/a&gt; | &lt;a href="https://skillpanel.com/blog/talent-mobility-guide/"&gt;SkillPanel&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/"&gt;https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hrtechcube.com/internal-talent-marketplaces-career-mobility-2026/"&gt;https://hrtechcube.com/internal-talent-marketplaces-career-mobility-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.talentguard.com/blog/ten-ways-to-boost-internal-talent-mobility"&gt;https://www.talentguard.com/blog/ten-ways-to-boost-internal-talent-mobility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://skillpanel.com/blog/talent-mobility-guide/"&gt;https://skillpanel.com/blog/talent-mobility-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8c7916e3-e9d0-587b-bff2-df66da5a72e2</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:40 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/</link>
     </item>
   </channel>
 </rss>

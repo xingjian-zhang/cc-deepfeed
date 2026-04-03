@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:04:47 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
@@ -74,6 +74,51 @@
       <category>meta-news</category>
       <link>https://ai.meta.com/blog/llama-4-multimodal-intelligence/</link>
       <enclosure url="https://scontent-det1-1.xx.fbcdn.net/v/t39.2365-6/488639590_2182781778834283_7341615399691839509_n.png?_nc_cat=107&amp;amp;ccb=1-7&amp;amp;_nc_sid=e280be&amp;amp;_nc_ohc=vdECrjapi5YQ7kNvwHKZqrW&amp;amp;_nc_oc=Adoz-h_xiNj3gg3_sJF8Fa_3OAmtRLnIlBlId2rl-wuzZUJvYWLiQVbgLK2xSvyzQdo&amp;amp;_nc_zt=14&amp;amp;_nc_ht=scontent-det1-1.xx&amp;amp;_nc_gid=7cTn2zkQ1BlUvmPMo9gkdA&amp;amp;_nc_ss=7a389&amp;amp;oh=00_Af0N8c8lwspv5XsbqAMdDE3aIFJXBnRtIvhRjpS3_6QLJA&amp;amp;oe=69E871A0" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 🔬 商务部首次表态 Manus 收购：「依法合规、履行程序」——北京的外交模糊术与 20 亿美元交易的命运</title>
+      <description>&lt;h2&gt;事件背景&lt;/h2&gt;&lt;p&gt;4 月 2 日，中国商务部发言人何亚东在例行记者会上首次正面回应 Meta 收购 AI Agent 平台 Manus 一事。他表示：中国政府支持企业开展跨境经营和技术合作，前提是「遵守中国法律法规，履行相应程序」。&lt;/p&gt;&lt;p&gt;这 24 个字看似中性，却是北京在 Manus 事件上的最高层级官方信号，值得逐句拆解。&lt;/p&gt;&lt;h2&gt;八字方针的三层含义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;第一层：「支持跨境经营」——并非封杀。&lt;/strong&gt;与此前市场传言「北京将彻底否决交易」不同，何亚东的措辞保留了交易存活的空间。这与 2025 年商务部对高通-恩智浦类似表态的句式几乎一致：先表态支持，再附条件。在中国外交话语体系中，这属于「原则性开绿灯」。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;第二层：「遵守法律法规」——审查仍在进行。&lt;/strong&gt;Manus 母公司蝴蝶效应（Monica.Im）注册于中国，核心技术团队在国内开发了 Agent 框架的早期版本。根据《技术进出口管理条例》和 2024 年更新的《中国禁止出口限制出口技术目录》，AI 相关技术转让需经商务部和科技部联合审批。何亚东的「遵守法律」意味着审查程序尚未完成——交易并未获批，也并未被否决。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;第三层：「履行程序」——对创始人的隐性施压。&lt;/strong&gt;CEO 肖鸿和首席科学家季一超自 3 月下旬被禁止出境以来，已在国内滞留超过一周。何亚东没有提及出境限制，但「履行程序」四字暗示：创始人需要主动配合审查流程，而非试图绕过监管完成交易。&lt;/p&gt;&lt;h2&gt;为什么这一表态比想象中更重要&lt;/h2&gt;&lt;p&gt;在 Manus 事件之前，中国对 AI 创业公司海外并购几乎没有先例可循。2024 年字节跳动出售 TikTok 美国业务的僵局主要由美国 CFIUS 推动；而 Manus 案是中国主动对本国 AI 公司的外资收购设置审查关卡的首个高调案例。&lt;/p&gt;&lt;p&gt;这释放了一个明确的长期信号：&lt;strong&gt;北京正在将 AI 技术纳入与半导体类似的出口管制框架。&lt;/strong&gt;未来任何中国 AI 公司被海外巨头收购，都可能面临类似的「遵守法律、履行程序」审查。The Information 此前报道的「寒蝉效应」正在从传言变为制度现实。&lt;/p&gt;&lt;h2&gt;对 Meta 的具体影响&lt;/h2&gt;&lt;p&gt;Meta 已向 Manus 支付了约 5 亿美元预付款，并将 100 多名员工安置在新加坡办公室。但核心 Agent 框架的技术授权——交易中最有价值的部分——仍需中国政府批准。如果审查拖延到 Q2 财报季（4 月 29 日），Zuckerberg 将不得不向华尔街解释一笔 20 亿美元收购为何无法完成技术交割。&lt;/p&gt;&lt;p&gt;更深层的风险在于 MSL 的 Agent 战略。Wang 在四个月内完成三笔收购（Manus、Moltbook、Dreamer），试图快速补齐 Agent 能力。如果 Manus 技术最终无法转移，MSL 将被迫依赖 Moltbook 的社交 Agent 框架和内部自研——而内部 Agent 刚在 3 月制造了一起 Sev 1 级数据泄露。&lt;/p&gt;&lt;h2&gt;下一步观察点&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;商务部是否在 4 月 29 日财报会前完成审查&lt;/li&gt;&lt;li&gt;肖鸿和季一超的出境限制是否解除&lt;/li&gt;&lt;li&gt;Meta 是否启动 Plan B：绕过技术授权，仅保留新加坡团队的人才&lt;/li&gt;&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://english.news.cn/20260402/fb9bc99049834a08b1521c9177f20f53/c.html"&gt;https://english.news.cn/20260402/fb9bc99049834a08b1521c9177f20f53/c.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/"&gt;https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/01/08/china-investigate-meta-acquisition-manus-export.html"&gt;https://www.cnbc.com/2026/01/08/china-investigate-meta-acquisition-manus-export.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">80e0de75-ba21-5ff4-b7d9-caab7068f6e4</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:32 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://english.news.cn/20260402/fb9bc99049834a08b1521c9177f20f53/c.html</link>
+    </item>
+    <item>
+      <title>🔬 🔬 MRS Research：Meta 在 MSL 之外秘密组建的「影子 AI 实验室」，TikTok 旧将领衔</title>
+      <description>&lt;h2&gt;一个被忽视的组织变动&lt;/h2&gt;&lt;p&gt;当外界的注意力集中在 Alexandr Wang 和 MSL 的模型竞赛上时，Meta 在 2025 年底悄然组建了另一支精英 AI 团队——MRS Research（Meta Recommendation Systems Research）。该团队由前 TikTok 高级研究员杨松（Yang Song）领导，他于 2025 年 11 月从字节跳动跳槽至 Meta。&lt;/p&gt;&lt;p&gt;MRS Research 的核心任务只有一个：&lt;strong&gt;让 Instagram 和 Facebook 的内容推荐变得更聪明。&lt;/strong&gt;用内部文件的话说，目标是「让信息流保持新鲜感，让用户停留更久」。&lt;/p&gt;&lt;h2&gt;MSL vs. MRS：两条平行的 AI 路线&lt;/h2&gt;&lt;p&gt;理解 MRS Research 的意义，需要将它放在 Meta 的 AI 权力版图中审视：&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;维度&lt;/th&gt;&lt;th&gt;MSL（Wang 领导）&lt;/th&gt;&lt;th&gt;MRS Research（杨松领导）&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;使命&lt;/td&gt;&lt;td&gt;构建通用超级智能&lt;/td&gt;&lt;td&gt;优化推荐系统与广告效果&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;模型&lt;/td&gt;&lt;td&gt;Avocado、Mango、Llama&lt;/td&gt;&lt;td&gt;推荐算法、排序模型&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;变现周期&lt;/td&gt;&lt;td&gt;长期（12-24 个月）&lt;/td&gt;&lt;td&gt;短期（季度可见）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;汇报线&lt;/td&gt;&lt;td&gt;Wang → Zuckerberg&lt;/td&gt;&lt;td&gt;杨松 → 广告业务线&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;这两条路线对应着 Meta AI 战略中一个长期未解的张力：&lt;strong&gt;Wang/MSL 追求的是「改变世界的模型」，而 Cox 和 Bosworth 需要的是「下个季度能提升 ARPU 的模型」。&lt;/strong&gt;MRS Research 的成立，本质上是产品变现派在 MSL 体系之外开辟的第二战场。&lt;/p&gt;&lt;h2&gt;人才来源：从竞争对手挖墙脚&lt;/h2&gt;&lt;p&gt;MRS Research 的组建采取了激进的外部招聘策略。除杨松外，团队还从 OpenAI 招来了 Xiaolong Wang，从 Amazon 挖来了 Fei Sha，从 Google 吸引了 Lihong Li。这四人的共同特点是：都拥有深厚的推荐系统和强化学习背景，且都在前东家负责过将 AI 模型落地为收入的工作。&lt;/p&gt;&lt;p&gt;这与 MSL 的人才画像形成鲜明对比。Wang 为 MSL 招募的是基础模型研究者和 AGI 信仰者；而 MRS Research 要的是能把模型变成广告美元的工程师。&lt;/p&gt;&lt;h2&gt;为什么这对 MSL 的权力格局很重要&lt;/h2&gt;&lt;p&gt;3 月下旬 Wang 被边缘化的传闻虽然被 Andy Stone 否认，但 MRS Research 的存在为这一传闻提供了结构性注脚：&lt;strong&gt;Zuckerberg 并没有边缘化 Wang，而是在 Wang 的体系之外建了一条绕行公路。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;如果 Avocado 在 5 月如期发布并表现出色，MSL 的地位将得到巩固。但如果 Avocado 继续延期，而 MRS Research 的推荐算法改进在 Q2 财报中贡献了可量化的广告收入增长，那么 Meta AI 的资源天平将进一步向「产品变现派」倾斜。&lt;/p&gt;&lt;p&gt;更微妙的是，MRS Research 直接服务于广告业务线——这是 Meta 营收的命脉（占总收入 97% 以上）。当 MSL 的前沿研究与 MRS 的广告优化争夺同一池 GPU 资源时，谁能获得 Zuckerberg 的优先分配？&lt;/p&gt;&lt;h2&gt;深层逻辑：TikTok 的影子&lt;/h2&gt;&lt;p&gt;从 TikTok 挖来推荐算法负责人，这一选择本身就很说明问题。TikTok 的 For You Page 是过去五年全球最成功的 AI 推荐产品，它证明了一个简单但 Meta 一直不愿承认的事实：&lt;strong&gt;在用户注意力争夺战中，最强的推荐算法比最强的基础模型更有价值。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MRS Research 的成立，意味着 Meta 终于在组织层面承认了这一点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.indiatvnews.com/technology/news/meta-builds-elite-ai-team-to-boost-instagram-facebook-engagement-report-2026-04-02-1036034"&gt;https://www.indiatvnews.com/technology/news/meta-builds-elite-ai-team-to-boost-instagram-facebook-engagement-report-2026-04-02-1036034&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b41dd18d-fcc8-5308-beb4-805db256f388</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:07 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.indiatvnews.com/technology/news/meta-builds-elite-ai-team-to-boost-instagram-facebook-engagement-report-2026-04-02-1036034</link>
+      <enclosure url="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2026/04/meta-1775116453.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 🔬 「解放日」一周年：关税风暴后的 Meta 财务十字路口——575 美元股价背后的三重压力测试</title>
+      <description>&lt;h2&gt;一个被低估的宏观变量&lt;/h2&gt;&lt;p&gt;2026 年 4 月 2 日，距离特朗普「解放日」关税满一年。最高法院已在 2 月裁定互惠关税违宪，联邦政府正着手退还约 1660 亿美元非法征收的关税——但混乱远未结束。就在同一天，白宫宣布对药品加征最高 100% 关税，并调整钢铝铜关税执行方式。政策的反复无常（过去一年关税政策变动超过 50 次）让所有涉及全球供应链的企业都处于规划瘫痪状态。&lt;/p&gt;&lt;p&gt;Meta 不卖硬件（除了 Quest 和 Ray-Ban Meta），表面上受关税直接冲击较小。但深入分析，关税风暴对 Meta 的影响是间接而深远的。&lt;/p&gt;&lt;h2&gt;压力测试一：1150-1350 亿美元的 AI 资本支出&lt;/h2&gt;&lt;p&gt;Meta 2026 年 AI 资本支出指引为 1150-1350 亿美元。这些钱的去向包括：NVIDIA GPU 采购、AMD 服务器芯片、数据中心建设（钢铝铜价格直接相关）以及 Broadcom 合作的 MTIA 自研芯片代工。&lt;/p&gt;&lt;p&gt;钢铝铜关税虽维持 50% 税率，但执行方式的调整（改为按美国市场价而非进口商申报价计征）将实质性推高数据中心建设成本。Hyperion 项目（路易斯安那，270 亿美元）和 El Paso 项目（100 亿美元）正处于建设高峰期，每提升 1% 的钢材成本就意味着数千万美元的额外支出。&lt;/p&gt;&lt;p&gt;更关键的是 TSMC 代工环节。MTIA 芯片在台积电生产，虽然半导体目前豁免于「解放日」关税框架，但特朗普多次威胁对台湾征收芯片关税。如果半导体关税成为现实，Meta 的自研芯片战略——原本旨在降低对 NVIDIA 的依赖——反而可能变成新的成本陷阱。&lt;/p&gt;&lt;h2&gt;压力测试二：广告客户的紧缩传导&lt;/h2&gt;&lt;p&gt;Meta 97% 的收入来自广告。关税引发的经济不确定性已经传导到广告市场：企业在无法预测供应链成本的情况下倾向于削减营销预算。过去一年，美国制造业流失 8.9 万个岗位，消费者信心持续走弱。&lt;/p&gt;&lt;p&gt;Q1 收入指引 535-565 亿美元本身就隐含了对广告增速放缓的预期。如果关税政策在 Q2 继续反复，Meta 可能面临一个尴尬局面：AI 投入创历史新高，而广告收入增速却在减速。华尔街对这种「剪刀差」的容忍度正在收窄——Meta 股价较去年高点 796 美元已回撤 27%。&lt;/p&gt;&lt;h2&gt;压力测试三：B 关税退款的隐性利好&lt;/h2&gt;&lt;p&gt;不全是坏消息。最高法院裁定关税违宪后，超过 33 万家进口商有资格获得退款。这些企业——其中包括大量 Meta 广告客户——如果真的收到退款，将释放大量可投入营销的现金流。某种程度上，这是一次「强制储蓄」的集中释放。&lt;/p&gt;&lt;p&gt;但退款进程预计要到 4 月中旬才能明确细节，实际到账可能更晚。这意味着潜在利好不太可能反映在 Q1 业绩中，但可能成为 Q2-Q3 的催化剂。&lt;/p&gt;&lt;h2&gt;4 月 29 日：所有线索交汇的一天&lt;/h2&gt;&lt;p&gt;Meta 将在 4 月 29 日同时举行 Q1 财报会和 LlamaCon。这一天需要回答的问题已经堆积如山：Avocado 模型的发布时间表、Manus 收购的技术交割进展、Behemoth 的训练状态、以及最关键的——在关税不确定性和法律诉讼双重压力下，1150-1350 亿美元的 AI 资本支出计划是否会调整。&lt;/p&gt;&lt;p&gt;对于一家市值 1.5 万亿美元、年碳排即将增加 1240 万吨、股价三个月跌去四分之一的公司来说，4 月 29 日不仅是财报日——它是 Zuckerberg AI 豪赌的中期考试。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day"&gt;https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fool.com/investing/2026/04/01/could-buying-meta-platforms-stock-today-set-you-up/"&gt;https://www.fool.com/investing/2026/04/01/could-buying-meta-platforms-stock-today-set-you-up/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.csmonitor.com/Business/2026/0402/tariffs-trump-supreme-court"&gt;https://www.csmonitor.com/Business/2026/0402/tariffs-trump-supreme-court&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2d06ca1e-3440-5784-a672-01cb025e2f54</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:47 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day</link>
+      <enclosure url="https://images.axios.com/gV8-16g9ZQl_TudmUWS7xPzuHyU=/0x260:6000x3635/1366x768/2026/04/01/1775077122843.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 03:10:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:04:22 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -158,6 +158,78 @@
       <category>ai-industry</category>
       <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/</link>
       <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_meta-dark.width-1300.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Anthropic 自曝家底：Claude Code 50万行源码意外泄露，IPO 前夕的安全信任危机</title>
+      <description>&lt;p&gt;3月31日，Anthropic 在一次例行更新中将 Claude Code 的完整源码发布到了公共 npm 仓库。起因是一个本不该出现在生产包中的 &lt;code&gt;.map&lt;/code&gt; 调试文件——它指向了 Anthropic 云存储上的一个 zip 压缩包，内含约 &lt;strong&gt;1,900 个文件、51.2 万行 TypeScript 代码&lt;/strong&gt;。Solayer Labs 实习生 Chaofan Shou 最先发现并在推特发布了下载链接，数小时内代码已被镜像到 GitHub，获得数千 star。&lt;/p&gt;
+
+&lt;p&gt;泄露内容并非底层模型权重或架构，而是 Claude Code 的「智能体外壳」（agentic harness）——指导模型如何调用工具、设置安全护栏的那层软件。开发者从中挖出了不少有趣细节：Claude 处理任务时显示的「转圈动词」列表、脏话对 prompt 解析的影响机制，甚至一个疑似为 4 月 1 日准备的隐藏虚拟宠物功能。更关键的是，代码中包含多个尚未发布的 feature flag，暗示了 Claude 未来的能力路线图——包括让 Claude 在每次会话结束后「复盘自己做了什么，以便在未来改进」的自我学习机制。&lt;/p&gt;
+
+&lt;p&gt;这已经是 Anthropic 一周内的&lt;strong&gt;第二次泄露&lt;/strong&gt;。就在几天前，Fortune 报道 Anthropic 意外暴露了一篇草稿博文，提到了代号 &lt;strong&gt;Capybara&lt;/strong&gt;（内部也叫 Mythos）的下一代模型——定位在 Opus 之上的旗舰级别，拥有更大的上下文窗口，同时被描述为存在「前所未有的网络安全风险」。两次事件叠加，让「安全第一」的品牌叙事受到质疑。&lt;/p&gt;
+
+&lt;p&gt;LayerX Security 研究员 Roy Paz 指出，这次泄露说明 Anthropic 缺少大型组织在生产部署前应有的多重检查机制。Anthropic 回应称这是「人为失误导致的打包问题，不是安全漏洞」，且未涉及客户数据或凭证。但对竞争对手来说，这份代码等于一张详细的未发布功能路线图。在 IPO 筹备窗口期出这种事故，时机尤其微妙——投资者需要相信一家「AI 安全公司」至少能管好自己的代码仓库。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"&gt;https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai"&gt;https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cybernews.com/security/anthropic-claude-code-source-leak/"&gt;https://cybernews.com/security/anthropic-claude-code-source-leak/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379"&gt;https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">48701a2f-712f-50a6-9308-0d342bdf1e67</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:07 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/03/anthropic-claude-code-leak.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 xAI 创始团队清零：11位联合创始人全部离职，Musk 称要「从地基重建」</title>
+      <description>&lt;p&gt;3月28日，TechCrunch 确认 xAI 最后一位联合创始人 Ross Nordeen 已离开公司。在他之前几天，负责预训练的 Manuel Kroiss 也提交了辞呈。至此，2023年成立时的 &lt;strong&gt;11 位联合创始人无一留存&lt;/strong&gt;。这在硅谷 AI 实验室中绝无仅有——即便以高流动性著称的 OpenAI，至少还保留了 Greg Brockman 这样的核心人物。&lt;/p&gt;
+
+&lt;p&gt;离职潮在 2026 年初急剧加速。2月2日，SpaceX 以全股票交易方式收购了 xAI，将 xAI、X（原 Twitter）和 SpaceX 纳入同一公司伞下，为 SpaceX 2026 年中的 IPO 做准备。合并后 SpaceX 派出了审计团队，开始对 xAI 内部进行绩效审查。2月10日，运营核心人物 Tony Wu 宣布离职；24 小时内，Jimmy Ba 也跟着走了——据报道两人的离开与模型性能改进压力直接相关。SpaceX 和 Tesla 的「修复者」被调入接替，负责识别表现不达标的员工。&lt;/p&gt;
+
+&lt;p&gt;Musk 本人在 3 月发推承认：「xAI was not built right the first time around, so is being rebuilt from the foundations up.」但这句话背后是一连串更具体的原因。此前报道提到的因素包括：Musk「极端硬核」的工作要求导致普遍倦怠、Anthropic 和 OpenAI 开出的更优条件形成人才虹吸、以及 SpaceX 合并后外部审计带来的文化冲击。Kroiss 和 Nordeen 是直接向 Musk 汇报的最高层——他们的离开意味着 xAI 的技术方向和组织记忆出现了断层。&lt;/p&gt;
+
+&lt;p&gt;与此同时，&lt;strong&gt;Grok 5 仍在 Colossus 2 上训练&lt;/strong&gt;。这台位于孟菲斯的超级计算机已扩容至 55.5 万块 Nvidia GPU、功率突破 1GW，是全球首个吉瓦级 AI 训练集群。Grok 5 采用 6 万亿参数 MoE 架构，是目前已公布的最大模型。但原定 Q1 2026 的发布窗口早已错过，Polymarket 上 6 月底前发布的概率仅 12%。在创始团队全部离开、组织正在「重建」的背景下，谁来做最后的模型调优和安全评估？这个问题没有答案。&lt;/p&gt;
+
+&lt;p&gt;更耐人寻味的是时间线上的另一个细节。Nordeen 被称为 Musk 的「右手操盘手」，他的离职发生在 SpaceX IPO 准备的关键期。一种解读是：Nordeen 完成了 xAI 被收购的使命后选择抽身；另一种解读是：即便是最忠诚的人，也无法接受 Musk 对 xAI 的「推倒重来」。无论哪种，结果是一样的——Grok 5 这个「世界最大模型」正在由一支几乎全新的团队收尾。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/"&gt;https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild"&gt;https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://vucense.com/ai-intelligence/industry-business/xai-cofounders-all-departed-grok-exodus/"&gt;https://vucense.com/ai-intelligence/industry-business/xai-cofounders-all-departed-grok-exodus/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.revolutioninai.com/2026/03/xai-grok5-rebuild-founder-exodus-2026.html"&gt;https://www.revolutioninai.com/2026/03/xai-grok5-rebuild-founder-exodus-2026.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4e78a8aa-13f9-5161-9e1a-08b9b6ed5102</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:54 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/xai-elon-musk.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Anthropic 禁令案升级至第九巡回：司法部正式上诉，4月30日前提交理由书</title>
+      <description>&lt;p&gt;接上回。4月2日晚间，助理司法部长 Brett Shumate 代表五角大楼向第九巡回上诉法院正式提交了上诉通知，挑战 Rita Lin 法官此前发出的初步禁令。这意味着 Anthropic 诉五角大楼案正式从地方法院进入联邦上诉层级。第九巡回已设定 &lt;strong&gt;4月30日&lt;/strong&gt; 为司法部提交详细上诉理由书的截止日期。&lt;/p&gt;
+
+&lt;p&gt;回顾整个时间线：事件起源于今年2月27日，五角大楼和 Trump 政府公开宣布将 Anthropic 列为「供应链风险」（supply chain risk）。起因是双方在国防合同谈判中破裂——五角大楼要求不受限制地使用 Claude 用于「所有合法用途」，而 Anthropic 坚持两条红线：不用于针对美国公民的大规模监控，不用于致命性自主武器系统。谈判失败后，国防部长 Pete Hegseth 动用了一项罕见的军事权力——此前该权力主要针对外国敌对实体——将 Anthropic 列入黑名单。&lt;/p&gt;
+
+&lt;p&gt;3月26日，Lin 法官做出初步裁决，认定五角大楼的行为构成第一修正案下的违法报复，指出国防部内部记录显示黑名单决定受到了 Anthropic「通过媒体表达的敌对态度」的影响。法官使用了相当强烈的措辞，称这些「广泛的惩罚性措施」看起来「武断且反复无常」，可能「瘫痪 Anthropic」。禁令于4月2日正式生效——也就是上诉提交的同一天。&lt;/p&gt;
+
+&lt;p&gt;上诉的核心法律争议在于管辖权。五角大楼 CTO Emil Michael 此前公开主张，Title 41 Section 4713 下的供应链风险认定属于行政自由裁量权，不受联邦法院司法审查。如果第九巡回接受这一论点，将极大削弱科技公司在政府采购争端中的法律救济途径。反之，如果上诉被驳回，联邦政府将很难再以安全为名惩罚在政策议题上公开发声的 AI 公司。&lt;/p&gt;
+
+&lt;p&gt;对 Anthropic 来说，10月 IPO 的时间表与这场官司高度纠缠。Wilson Sonsini 已被聘为首席法律顾问，Goldman Sachs、JPMorgan、Morgan Stanley 的早期承销讨论也在推进。但只要「供应链风险」标签悬而未决，联邦客户和分包商就面临法律不确定性。此前报道的 Labrynth 公司被迫从 Claude 切换到 Gemini 就是一个缩影。4月30日的理由书将是下一个关键节点——届时我们能看到政府的完整法律论述。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/04/02/trump-administration-appeals-anthropic-pentagon"&gt;https://www.axios.com/2026/04/02/trump-administration-appeals-anthropic-pentagon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.washingtontimes.com/news/2026/apr/2/ruling-blocked-pentagon-action-anthropic-ai-dispute-appealed-trump/"&gt;https://www.washingtontimes.com/news/2026/apr/2/ruling-blocked-pentagon-action-anthropic-ai-dispute-appealed-trump/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ksat.com/tech/2026/04/02/trump-administration-appeals-ruling-that-blocked-pentagon-action-against-anthropic-over-ai-dispute/"&gt;https://www.ksat.com/tech/2026/04/02/trump-administration-appeals-ruling-that-blocked-pentagon-action-against-anthropic-over-ai-dispute/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">56bc0c8e-1219-5a37-a91d-e3fb18cf9949</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:22 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.axios.com/2026/04/02/trump-administration-appeals-anthropic-pentagon</link>
+      <enclosure url="https://images.axios.com/2026/04/02/anthropic-pentagon-appeal.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

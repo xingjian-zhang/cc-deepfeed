@@ -4,514 +4,10 @@
     <title>Rachel's Personalized Feed</title>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/cc-deepfeed/rachel-briefings.xml</link>
-    <lastBuildDate>Thu, 02 Apr 2026 08:05:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:05:51 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/rachel-briefings.xml" type="application/rss+xml" />
-    <item>
-      <title>🎨 Storybook MCP Ships for React: Live Previews in Chat, 12.8% Better Component Reuse, and Self-Healing Tests / Storybook MCP 正式支持 React：聊天内实时预览、组件复用率提升 12.8%、自修复测试</title>
-      <description>&lt;p&gt;Storybook 10.3 shipped &lt;a href='https://storybook.js.org/blog/storybook-mcp-for-react/'&gt;MCP support for React&lt;/a&gt; on March 23, and the benchmarks tell a clear story. When tested against the Reshaped component library, agents with Storybook MCP produced &lt;strong&gt;12.8% better component reuse&lt;/strong&gt;, ran 2.76x faster, and consumed 27% fewer tokens compared to agents working without it. The core insight: agents generating UI code are only as good as the component context they receive, and most of them receive none.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src='https://storybookblog.ghost.io/content/images/2026/03/Storybook-MCP-for-React.png' alt='Storybook MCP for React promotional banner' style='max-width:100%;height:auto;' /&gt;&lt;figcaption&gt;Storybook MCP for React: giving agents structured component intelligence instead of letting them guess.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;The problem Storybook MCP addresses is fundamental. Without component context, AI agents "make up slop that doesn't match your coding standards," as the announcement puts it. They invent new button variants instead of using the one you already have. They hard-code colors instead of referencing tokens. They produce code that looks right in isolation but breaks the system-level consistency your design system exists to protect.&lt;/p&gt;
-
-&lt;p&gt;Storybook MCP solves this with three mechanisms. First, &lt;strong&gt;component context intelligence&lt;/strong&gt;: the MCP server feeds agents structured metadata about existing components — stories, APIs, documentation, and usage patterns. The agent knows what exists before it writes a single line. Second, story preview via MCP Apps: agents can write stories and render them as live embedded previews directly in the chat UI. You see the hover state, not just the code. Third, self-verification testing: agents run component and accessibility tests, review results in real time, and either fix issues autonomously or flag what needs human judgment.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src='https://storybookblog.ghost.io/content/images/2026/03/01-context-light.png' alt='Diagram showing how Storybook MCP provides component metadata to AI agents' style='max-width:100%;height:auto;' /&gt;&lt;figcaption&gt;The composition system lets teams feed multiple Storybooks into a single MCP endpoint — design system, app components, and third-party libraries all in one context.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;The composition architecture deserves attention. Teams managing multiple Storybooks — a design system, application-specific components, third-party libraries — can compose them into a single MCP server. One endpoint, full context. This eliminates the fragmentation problem where agents know about your button but not about the form layout it lives in. For publishing, &lt;a href='https://www.chromatic.com/'&gt;Chromatic&lt;/a&gt; offers out-of-the-box MCP server hosting with versioning, quality checks, and secure authorization, so teams don't need local Storybook instances running to share component context.&lt;/p&gt;
-
-&lt;p&gt;This fits into the larger pattern we've been tracking around the vibe coding drift problem. At the Into Design Systems conference, the consensus was that constrained generation beats unconstrained — Figma to design tokens to Storybook validation to production. Storybook MCP is the validation layer in that pipeline, and it now has teeth. The 12.8% improvement in component reuse sounds modest until you calculate what 12.8% fewer rogue components means across a team of ten agents generating code daily.&lt;/p&gt;
-
-&lt;p&gt;Currently React-only, with support for other frameworks planned later in 2026. Setup is three commands:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;npx storybook@latest upgrade &amp;&amp; npx storybook add @storybook/addon-mcp &amp;&amp; npx mcp-add --type http --url "http://localhost:6006/mcp" --scope project&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If your team uses Storybook and any AI coding assistant, this is the single highest-leverage integration you can add this week.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Storybook 10.3 于 3 月 23 日&lt;a href='https://storybook.js.org/blog/storybook-mcp-for-react/'&gt;正式发布了面向 React 的 MCP 支持&lt;/a&gt;，基准测试结果很说明问题。在 Reshaped 组件库上测试时，使用 Storybook MCP 的智能体组件复用率提升 12.8%，生成速度快 2.76 倍，token 消耗减少 27%。核心洞察：生成 UI 代码的智能体，质量上限取决于它获得的组件上下文——而大多数智能体拿到的上下文是零。&lt;/p&gt;
-
-&lt;p&gt;没有组件上下文时，AI 智能体会「编造出不符合你编码标准的垃圾代码」。它们发明新的按钮变体而不是用你已有的那个，硬编码颜色而不是引用 token，产出的代码孤立来看没问题，但破坏了设计系统存在的意义——系统级一致性。&lt;/p&gt;
-
-&lt;p&gt;Storybook MCP 用三个机制解决这个问题。第一，组件上下文智能：MCP 服务器向智能体提供现有组件的结构化元数据（stories、API、文档、使用模式），智能体在写代码之前就知道已经有什么。第二，通过 MCP Apps 实现故事实时预览：智能体可以写 stories 并在聊天界面中渲染为可交互的实时预览——你看到的是 hover 状态，不只是代码。第三，自验证测试：智能体运行组件测试和无障碍测试，实时审查结果，要么自动修复，要么标记需要人类判断的问题。&lt;/p&gt;
-
-&lt;p&gt;值得关注的是组合架构。管理多个 Storybook 的团队可以将设计系统、应用组件、第三方库组合到单一 MCP 服务器。一个端点，完整上下文。&lt;a href='https://www.chromatic.com/'&gt;Chromatic&lt;/a&gt; 提供开箱即用的 MCP 服务器托管，带版本控制和安全授权。&lt;/p&gt;
-
-&lt;p&gt;这与我们一直在追踪的 vibe coding 漂移问题直接相关。Into Design Systems 大会的共识是：约束式生成优于无约束式生成。Storybook MCP 就是那条流水线中的验证层，现在它有了实际数据支撑。目前仅支持 React，其他框架支持计划在 2026 年晚些时候推出。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://storybook.js.org/blog/storybook-mcp-for-react/"&gt;https://storybook.js.org/blog/storybook-mcp-for-react/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://storybook.js.org/docs/ai/mcp/overview"&gt;https://storybook.js.org/docs/ai/mcp/overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.chromatic.com/"&gt;https://www.chromatic.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">afc7fc39-772f-5e84-ab7d-646a4d82c6eb</guid>
-      <pubDate>Tue, 31 Mar 2026 08:03:36 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://storybook.js.org/blog/storybook-mcp-for-react/</link>
-      <enclosure url="https://storybookblog.ghost.io/content/images/2026/03/Storybook-MCP-for-React.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 UC Berkeley 研究：靠 YIMBY 建房解决旧金山住房危机？可能要等一百年</title>
-      <description>&lt;p&gt;UC Berkeley 联合多伦多大学、UCLA 和乔治亚理工的研究团队三月初发表了一项研究，结论相当扎心：即便旧金山大幅放开建房限制，让市场房屋供应量每年增长 1.5%（这已经是 2024 年实际建设速度的三倍多），一居室公寓的租金也需要 &lt;strong&gt;18 到 124 年&lt;/strong&gt;才能降到没有大学学位的普通工人负担得起的水平。&lt;/p&gt;
-
-&lt;p&gt;领衔研究者 Max Buchholz 的核心论点是：旧金山住房贵的根本原因不是房子不够，而是&lt;strong&gt;收入差距太大&lt;/strong&gt;。当大量高薪科技从业者和低收入服务业工人竞争同一个租房市场时，再怎么增加供给，高收入者的支付能力也会持续推高价格。这和 YIMBY 运动"多建房价自然降"的叙事形成了直接碰撞。&lt;/p&gt;
-
-&lt;p&gt;YIMBY Action 的执行总监 Laura Foote 的反驳也有道理——她指出这类改革需要几十年才能显现效果，不能因为短期看不到变化就否定方向。但开发商 Bora Ozturk 从实操层面补了一刀：旧金山的建筑成本必须先降至少 10%，项目才具备经济可行性。换句话说，就算政策放开，成本卡在那里，开发商也不会冲进来建房。&lt;/p&gt;
-
-&lt;p&gt;城市智库 SPUR 的 Michael Lane 提出了一个更务实的框架：不要把 YIMBY 和其他政策对立起来，应该同时推进。他主张的"大而全"方案包括：继续放松用地管制、加强租金管控、大规模投入政府资助的社会住房、以及为低收入群体提供补贴。Buchholz 本人也同意这个方向，他列出三个关键要素：强有力的租控、低收入补贴、大量政府资金投入社会住房。&lt;/p&gt;
-
-&lt;p&gt;这项研究的现实意义很直接。前面一条消息刚报道旧金山一居室租金一年暴涨 18%，这篇论文则解释了为什么：AI 产业的高薪涌入正在加剧收入极化，而 YIMBY 推动的建房速度根本追不上需求端的膨胀。受租控保护的老租客暂时安全（今年合法涨幅上限 1.6%），但新租客和需要搬家的人正面临一个越来越难进入的市场。&lt;/p&gt;
-
-&lt;p&gt;旧金山的住房问题没有银弹。这不是"建"还是"不建"的二选一，而是在建房的同时，需要一整套配套政策才有可能让普通人住得起这座城市。按照这项研究的模型，如果只靠市场供给，很多人等不到那一天。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/03/03/sf-housing-affordability-uc-berkeley-study-yimby/"&gt;https://sfstandard.com/2026/03/03/sf-housing-affordability-uc-berkeley-study-yimby/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://48hills.org/2026/01/new-study-shows-that-deregulation-is-not-the-answer-to-the-affordable-housing-crisis/"&gt;https://48hills.org/2026/01/new-study-shows-that-deregulation-is-not-the-answer-to-the-affordable-housing-crisis/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1a42c625-d931-53f0-bf2f-1f529564a2e3</guid>
-      <pubDate>Tue, 31 Mar 2026 08:03:36 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/03/03/sf-housing-affordability-uc-berkeley-study-yimby/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_4blo7sab150a91o0s39a0n094t/-C100.00%25x78.71%25%2C0.00%25%2C16.36%25-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 布伦特原油触及113美元，3月涨幅59%打破历史纪录——迪拜油轮遇袭后海湾航运保险费率飙升</title>
-      <description>&lt;p&gt;3月31日亚洲早盘，布伦特原油报113.04美元/桶，较前一交易日微涨0.23%；WTI报102.92美元。数字看似平淡，但放在月度维度就触目惊心：布伦特3月累计涨幅达59%，WTI涨58%，双双刷新有记录以来的单月最大涨幅，超过了1990年9月海湾战争期间46%的前纪录。&lt;/p&gt;
-
-&lt;p&gt;凌晨的科威特油轮Al Salmi号遇袭事件给市场投下新的阴影。这艘满载200万桶原油的VLCC在迪拜港锚地被伊朗无人机击中起火。虽然未发生溢油，但信号极其恶劣：连迪拜港——海湾地区最重要的商业枢纽之一——都不再安全。CNBC报道称，劳合社和主要再保险公司正在重新评估波斯湾航线的战争险费率，部分航线的保费已从开战前的0.05%飙升至总船值的2%-3%。&lt;/p&gt;
-
-&lt;p&gt;供应端的数字更令人不安。分析师估计，冲突已从全球供应中移除约900万桶/日的产能，这在和平时期相当于沙特全部产量。霍尔木兹海峡日均通行量从战前的约120艘骤降至个位数。胡塞武装3月28日正式宣布参战后，曼德海峡（红海入口）的商船通行也面临威胁。全球两大石油运输咽喉同时受阻，这在现代能源史上前所未有。&lt;/p&gt;
-
-&lt;p&gt;终端消费者已经感受到痛楚。美国汽油均价3月30日报3.99美元/加仑，逼近4美元心理关口。澳大利亚维多利亚州和塔斯马尼亚州宣布4月起提供免费公共交通，直接应对油价冲击对居民出行的影响。欧洲多国也在讨论类似的能源补贴措施。&lt;/p&gt;
-
-&lt;p&gt;一个月前WTI还在65美元附近。如果4月6日最后通牒到期后美军对伊朗能源设施发动打击——特朗普已明确威胁要「炸掉」所有电厂和油井——分析师预计布伦特可能冲击150美元，全球经济将面临1973年石油危机以来最严重的能源冲击。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html"&gt;https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.fxempire.com/forecasts/article/oil-price-forecast-iran-attack-on-tanker-sparks-supply-fears-brent-eyes-further-gains-1588654"&gt;https://www.fxempire.com/forecasts/article/oil-price-forecast-iran-attack-on-tanker-sparks-supply-fears-brent-eyes-further-gains-1588654&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-30/iran-strikes-fully-laden-kuwait-oil-tanker-in-dubai-port-area"&gt;https://www.bloomberg.com/news/articles/2026-03-30/iran-strikes-fully-laden-kuwait-oil-tanker-in-dubai-port-area&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fortune.com/article/price-of-oil-03-30-2026/"&gt;https://fortune.com/article/price-of-oil-03-30-2026/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8718ee88-1b82-5bdc-abb6-2e13d1d11c0f</guid>
-      <pubDate>Tue, 31 Mar 2026 08:03:41 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html</link>
-      <enclosure url="https://image.cnbcfm.com/api/v1/image/oil-prices-2026.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 写满未知文字和诡异植物图的中世纪手稿，五百年来无人破解——伏尼契手稿之谜</title>
-      <description>&lt;p&gt;1912年，波兰裔书商Wilfrid Voynich在罗马附近的一座耶稣会寄宿学校里发现了一本奇怪的书。这本羊皮纸手稿有240页，用一种从未见过的文字书写，配满了色彩鲜艳的插图：不存在于现实中的植物、赤裸的女性在绿色液体中沐浴、无法识别的天文图表。放射性碳测年将羊皮纸定年到1404-1438年。超过一百年过去了，&lt;strong&gt;没有任何人成功破译这本书的哪怕一个词&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这本书现存于耶鲁大学Beinecke珍本图书馆，编号MS 408。它大致分为六个部分：植物学（约130幅不明植物图）、天文学（带有黄道十二宫符号的圆形图表）、生物学（裸女在管道连接的水池中）、宇宙学（嵌套的圆形图案）、药理学（药草旁标注着文字）和配方（短段落配星形标记）。每个部分都令人困惑，因为那些植物、星图和人体解剖似乎同时像真的又像假的。&lt;/p&gt;
-
-&lt;p&gt;密码学家前赴后继地尝试破解。二战中破解日本"紫密码"的传奇密码学家William Friedman花了三十年研究伏尼契手稿，最终空手而归。NSA（美国国家安全局）在冷战期间也曾秘密组织团队尝试，同样无果。近年来，多个研究团队用机器学习和AI分析了文字的统计特征——结论是伏尼契文字具有与自然语言一致的熵值和词频分布，几乎不可能是随机胡写的。耶鲁语言学家Claire Bowern的分析也驳斥了"纯粹胡说八道"的假说。&lt;/p&gt;
-
-&lt;p&gt;2026年1月，科学记者Michael Greshko在同行评审期刊Cryptologia上发表了一项新研究，提出了"Naibbe密码"假说。这个名字来自中世纪意大利的一种纸牌游戏。Greshko展示了用一种15世纪技术上可行的加密方法，确实能生成与伏尼契文字统计特征匹配的密文。他并没有声称自己破解了手稿，但证明了一件关键的事：&lt;strong&gt;这本书完全可能是用当时存在的技术手段加密的真实文本&lt;/strong&gt;，而不是后人伪造或随手乱写的。&lt;/p&gt;
-
-&lt;p&gt;关于伪造的质疑一直存在。怀疑者认为这可能是Voynich自己伪造的（他是一个精明的书商），但羊皮纸碳定年和墨水分析都指向15世纪，与Voynich的时代相差近五百年。另一个怀疑对象是16世纪的英国骗子Edward Kelley，但缺乏直接证据。&lt;/p&gt;
-
-&lt;p&gt;伏尼契手稿是一种独特的知识考古：我们手里握着一本完整的书，可以看见每一个字、每一幅画，却完全不知道它在说什么。也许某天AI会破解它，也许它会继续沉默下一个五百年。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Voynich_manuscript"&gt;https://en.wikipedia.org/wiki/Voynich_manuscript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.livescience.com/archaeology/mysterious-voynich-manuscript-may-be-a-cipher-a-new-study-suggests"&gt;https://www.livescience.com/archaeology/mysterious-voynich-manuscript-may-be-a-cipher-a-new-study-suggests&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://archaeologymag.com/2026/01/voynich-manuscript-may-be-a-cipher/"&gt;https://archaeologymag.com/2026/01/voynich-manuscript-may-be-a-cipher/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">184caa48-e59f-5825-88c7-7151458d86d3</guid>
-      <pubDate>Tue, 31 Mar 2026 08:03:53 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Voynich_manuscript</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Voynich_Manuscript_%2832%29.jpg/960px-Voynich_Manuscript_%2832%29.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 成长型心智不只是口号——大脑对犯错的反应真的不一样</title>
-      <description>&lt;p&gt;Carol Dweck 提出「成长型心智」（Growth Mindset）已经二十多年，但关于它的争论从未停息：2018 年的大规模元分析质疑干预效果微弱，而 2019 年的 Nature 研究又证明在低收入学生群体中效果显著。争论的根源之一是缺乏脑层面的直接证据。2025 年 2 月发表在 Brain Sciences 的一篇系统综述（Scoping Review）首次全面梳理了 15 项使用脑成像技术研究成长型心智的实验，给出了目前最清晰的神经图谱。&lt;/p&gt;
-
-&lt;p&gt;最核心的发现来自 EEG 研究（15 项中占 10 项）。两个事件相关电位成分揭示了心智类型在错误处理上的分野：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误相关负波&lt;/strong&gt;（Error-Related Negativity, ERN）——这是犯错后约 50-100 毫秒内出现的自动化脑电反应，反映的是「检测到错误」这一无意识过程。综述发现，成长型心智与固定型心智的 ERN 幅度没有显著差异。也就是说，两种人对错误的最初感知是相同的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误正波&lt;/strong&gt;（Error Positivity, Pe）——出现在错误后 200-500 毫秒，反映的是对错误的有意识注意和后续加工。成长型心智的个体展现出显著更大的 Pe 幅度，意味着他们在错误发生后投入更多注意力去理解「为什么错了」。不过，这个效应在成年人中稳定，在儿童中则未能复制，这是一个重要边界条件。&lt;/p&gt;
-
-&lt;p&gt;fMRI 研究补充了更深层的结构信息。固定型心智者在收到负面反馈时，尾状核（Caudate Nucleus）表现出更强的惩罚反应——这意味着他们把负面反馈更多地编码为「惩罚」而非「学习信号」。相反，经过成长型心智干预后表现改善的被试，背侧前扣带皮层（dACC）、纹状体（Striatum）和海马体（Hippocampus）的激活和功能连接都有所增强。dACC 是冲突监控和认知控制的枢纽，纹状体处理奖赏信号，海马负责记忆编码——这三个区域的协同增强恰好对应「从错误中学习」的完整通路。&lt;/p&gt;
-
-&lt;p&gt;综述也坦率承认了局限：三分之二的研究只用了成人被试，儿童脑发育的特殊性使得结果不能简单外推。而且大多数研究采用横截面设计（测量某一时刻的心智-脑活动相关），缺乏纵向追踪，无法确定因果方向——是成长型心智塑造了脑回路，还是某些脑回路特征的人更容易形成成长型心智？&lt;/p&gt;
-
-&lt;p&gt;尽管如此，这篇综述把一个长期停留在问卷量表和行为实验层面的概念推进到了神经机制层面。ERN 不变而 Pe 增强这一模式格外值得注意：成长型心智不意味着「不犯错」或「不难受」，而是犯错之后的第二步——有意识地把注意力分配给错误信息、进行深度加工——才是区分所在。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11852640/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11852640/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.mdpi.com/2076-3425/15/2/200"&gt;https://www.mdpi.com/2076-3425/15/2/200&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">37d2daef-2ae1-507b-97f3-1b6115470eb7</guid>
-      <pubDate>Tue, 31 Mar 2026 08:03:57 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11852640/</link>
-    </item>
-    <item>
-      <title>📰 DHS停摆第48天：TSA薪水终于到账但合法性存疑，特朗普喊话国会「赶快回来」</title>
-      <description>&lt;p&gt;3月31日，DHS停摆进入第48天，继续刷新美国联邦政府部分停摆的历史纪录。好消息是，根据特朗普3月27日签署的总统备忘录，TSA员工从3月30日起开始收到薪水。数万名在机场维持安检的一线人员终于拿到了拖欠数周的工资。&lt;/p&gt;
-
-&lt;p&gt;但这笔钱的来源引发严重争议。资金并非来自国会拨款，而是从One Big Beautiful Bill Act划拨的100亿美元边境执法经费中挪用。宪法学者指出，拨款权属于国会的核心权力，总统备忘录绕过立法程序强行支付的做法存在明显的合法性问题。民主党参议员已暗示可能提起法律挑战。&lt;/p&gt;
-
-&lt;p&gt;白宫发言人Karoline Leavitt 3月31日表示，特朗普正「敦促国会议员回到华盛顿，全面拨款恢复国土安全部运转」。问题是两院都已进入两周复活节休会期。众议院此前以213-203票通过了一项为DHS提供8周临时拨款（至5月22日）的方案，参议院则通过了自己的版本（排除ICE和部分CBP经费），两个版本差异巨大，协调谈判尚未开始。&lt;/p&gt;
-
-&lt;p&gt;停摆的人力损耗持续加剧。截至上周五，已有510名TSA官员辞职，部分机场缺勤率高达40%，全国平均缺勤率从正常的4%升至11%。多个主要机场出现「史上最长安检等待时间」。虽然薪水到账可能缓解部分压力，但已经辞职的人不会回来，新招聘在停摆期间也无法启动。&lt;/p&gt;
-
-&lt;p&gt;立法解决最早也要等到4月中旬国会复会。在此之前，TSA靠总统备忘录的「应急输血」维持运转，而DHS其他部门——FEMA、海岸警卫队文职人员、网络安全局——仍处于欠薪状态。已经有人把这种局面比作「一边给病人输血一边继续放血」。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.whitehouse.gov/presidential-actions/2026/03/memorandum-for-the-secretary-of-homeland-security-and-the-director-of-the-office-of-management-and-budget/"&gt;https://www.whitehouse.gov/presidential-actions/2026/03/memorandum-for-the-secretary-of-homeland-security-and-the-director-of-the-office-of-management-and-budget/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nbcnews.com/politics/trump-administration/live-blog/trump-congress-dhs-shutdown-ice-tsa-immigration-election-live-updates-rcna265648"&gt;https://www.nbcnews.com/politics/trump-administration/live-blog/trump-congress-dhs-shutdown-ice-tsa-immigration-election-live-updates-rcna265648&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/27/dhs-tsa-shutdown-congress.html"&gt;https://www.cnbc.com/2026/03/27/dhs-tsa-shutdown-congress.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cbsnews.com/live-updates/dhs-shutdown-2026-senate-funding-day-42/"&gt;https://www.cbsnews.com/live-updates/dhs-shutdown-2026-senate-funding-day-42/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">39263b32-b80d-565d-9864-6ee8531efa7c</guid>
-      <pubDate>Tue, 31 Mar 2026 08:04:05 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.whitehouse.gov/presidential-actions/2026/03/memorandum-for-the-secretary-of-homeland-security-and-the-director-of-the-office-of-management-and-budget/</link>
-      <enclosure url="https://image.cnbcfm.com/api/v1/image/tsa-shutdown-2026.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Figma Code Connect Now Supports Multi-Framework Mapping With Per-Framework MCP Instructions / Figma Code Connect 支持多框架映射与逐框架 MCP 指令</title>
-      <description>&lt;p&gt;Figma shipped a &lt;a href='https://releasebot.io/updates/figma'&gt;quiet but significant Code Connect update&lt;/a&gt; on March 4 that changes how design systems talk to AI coding agents. You can now attach &lt;strong&gt;multiple code files to a single Figma component&lt;/strong&gt; — mapping one Button design to its React, SwiftUI, Jetpack Compose, and Vue implementations simultaneously. Each connection is independent: different file paths, different component names, different custom instructions. And critically, each can carry its own &lt;strong&gt;MCP instructions&lt;/strong&gt; that tell AI agents exactly how to implement that component in that specific framework.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src='https://help.figma.com/hc/article_attachments/34847588363543' alt='Code Connect UI showing multiple framework connections for a single component with MCP instruction fields' style='max-width:100%;height:auto;' /&gt;&lt;figcaption&gt;Code Connect UI now lets teams attach multiple code files per component, each with framework-specific MCP instructions for AI agents.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Why this matters: until now, design-to-code via MCP had a one-size-fits-all problem. Your Figma MCP server could tell an agent what a Button looks like and what props it takes, but it couldn't say "in React, use the compound component pattern with ButtonGroup" while also saying "in SwiftUI, use the .buttonStyle modifier with our custom theme." The implementation details that make code actually match your design system's conventions were lost in translation.&lt;/p&gt;
-
-&lt;p&gt;The new MCP instructions field accepts free-text guidance per framework per component. Teams can document component-specific patterns, accessibility requirements, team conventions, and edge cases. When an agent queries the Figma MCP server, it receives the instruction relevant to the framework it's generating code for. Think of it as inline documentation that travels with the component and speaks directly to the agent, not to a human reader.&lt;/p&gt;
-
-&lt;p&gt;This dovetails with two developments from the past week. Uber's uSpec (which we covered today) uses structured "Agent Skills" to encode per-platform knowledge — the same idea, implemented differently. And Storybook MCP provides component-level context from the code side. Figma Code Connect with MCP instructions provides it from the design side. Together, they form a two-sided bridge: design intent flows down through Code Connect, while implementation reality flows up through Storybook. The agent sits in the middle with context from both directions.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src='https://developers.figma.com/static/eea3c81d4a0d4c283c9c26be8aa64eda/64d19/code-connect-ui-overview.png' alt='Overview of Code Connect showing GitHub integration and preview panels for multiple frameworks' style='max-width:100%;height:auto;' /&gt;&lt;figcaption&gt;With GitHub connection enabled, teams see live code previews across all connected frameworks directly in the Figma inspector.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;There's a practical prerequisite: you need a GitHub connection to see cross-framework code previews, and the feature is limited to Organization and Enterprise plans. But the MCP instructions themselves work without GitHub — you write them in the Code Connect UI and they propagate through the MCP server to any connected agent.&lt;/p&gt;
-
-&lt;p&gt;For design system teams already invested in the Figma MCP ecosystem, this is the missing piece. You had component structure, you had design tokens, you had variant metadata. Now you have per-framework behavioral guidance that travels the same channel. The gap Diana Wolosin identified at the Into Design Systems conference — between having tokens and having agent-consumable tokens — just got smaller. Not because of a new universal standard, but because the tooling quietly added the right field in the right place.&lt;/p&gt;
-
-&lt;p&gt;If you maintain a multi-platform design system and use any AI coding assistant with Figma MCP, adding per-framework instructions to your top 20 components is probably a one-afternoon project with outsized returns.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Figma 在 3 月 4 日&lt;a href='https://releasebot.io/updates/figma'&gt;悄悄发布了一项 Code Connect 更新&lt;/a&gt;，改变了设计系统与 AI 编程智能体对话的方式。现在你可以为单个 Figma 组件附加多个代码文件——把一个 Button 设计同时映射到它的 React、SwiftUI、Jetpack Compose 和 Vue 实现。每个连接独立运行：不同的文件路径、不同的组件名、不同的自定义指令。关键的是，每个连接都能携带自己的 MCP 指令，告诉 AI 智能体如何在特定框架中正确实现该组件。&lt;/p&gt;
-
-&lt;p&gt;之前的痛点在于：通过 MCP 做设计转代码时存在「一刀切」问题。Figma MCP 服务器能告诉智能体 Button 长什么样、接受哪些 props，但它没法说「在 React 里用 ButtonGroup 复合组件模式」的同时又说「在 SwiftUI 里用 .buttonStyle 修饰器配合我们的自定义主题」。让代码真正匹配设计系统约定的实现细节，在传递过程中丢失了。&lt;/p&gt;
-
-&lt;p&gt;新的 MCP 指令字段支持按框架、按组件填写自由文本指导——组件特定模式、无障碍要求、团队约定、边界情况。智能体查询 Figma MCP 服务器时，会收到与其目标框架匹配的指令。可以理解为一种内联文档，跟着组件走，直接对智能体说话而非对人。&lt;/p&gt;
-
-&lt;p&gt;这与本周的两个进展形成呼应。Uber 的 uSpec 用结构化 Agent Skills 编码平台级知识——同样的思路，不同的实现。Storybook MCP 从代码侧提供组件上下文，Figma Code Connect 的 MCP 指令从设计侧提供。两者共同构成双向桥梁：设计意图通过 Code Connect 向下流动，实现现实通过 Storybook 向上流动。智能体坐在中间，两边都有上下文。&lt;/p&gt;
-
-&lt;p&gt;实际前提：需要 GitHub 连接才能看到跨框架代码预览，功能限于 Organization 和 Enterprise 计划。但 MCP 指令本身无需 GitHub，在 Code Connect UI 中编写即可通过 MCP 服务器传播到任何连接的智能体。如果你维护多平台设计系统，为前 20 个组件添加逐框架指令大概是一个下午的工作，回报却不成比例地大。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://releasebot.io/updates/figma"&gt;https://releasebot.io/updates/figma&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://developers.figma.com/docs/figma-mcp-server/code-connect-integration/"&gt;https://developers.figma.com/docs/figma-mcp-server/code-connect-integration/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect"&gt;https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9c1dd49f-61de-5c1b-b122-1b320465a1cf</guid>
-      <pubDate>Tue, 31 Mar 2026 08:04:18 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://releasebot.io/updates/figma</link>
-      <enclosure url="https://developers.figma.com/static/eea3c81d4a0d4c283c9c26be8aa64eda/64d19/code-connect-ui-overview.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 自我关怀 vs. 正念冥想：哪个更能改善工作表现？一项日本职场 RCT 给出意外答案</title>
-      <description>&lt;p&gt;正念冥想（Mindfulness Meditation）和自我关怀冥想（Self-Compassion Meditation）经常被打包推荐，仿佛它们是同一件事。2026 年 1 月发表在 JMIR 上的一项随机对照试验（RCT）在日本非临床职场人群中拆开了这两个概念，结果发现：&lt;strong&gt;自我关怀冥想在多个维度上显著优于正念冥想&lt;/strong&gt;，尤其在工作表现和认知灵活性上。&lt;/p&gt;
-
-&lt;p&gt;研究设计颇有巧思。参与者被分配到自我关怀组或正念组，通过一款无需辅导员的智能手机 App 进行每日引导冥想，持续 4 周。每个课程包含 3 个模块，整合了引导冥想和心理教育。两组的时间投入相同，唯一的区别在于冥想内容本身——自我关怀组练习的是对自己痛苦的温柔觉察和共同人性（Common Humanity）感，正念组则侧重于不加评判的当下觉察。&lt;/p&gt;
-
-&lt;p&gt;4 周后，自我关怀组在以下指标上展现出显著改善：工作表现、认知灵活性、自我关怀水平（尤其是共同人性维度）、心理安全感。同时，感知压力、工作效率低下感、自我批判和过度卷入（Over-Identification）都显著下降。&lt;/p&gt;
-
-&lt;p&gt;正念组呢？只在共同人性这一个维度上有改善，其余指标均无显著变化。&lt;/p&gt;
-
-&lt;p&gt;敏感性分析进一步确认了差异：使用线性混合模型（LMM）后，工作表现的组别×时间交互效应显著——自我关怀组的改善幅度明显大于正念组。&lt;/p&gt;
-
-&lt;p&gt;为什么自我关怀比正念更有效？一个可能的解释与此前的神经科学研究呼应：自我关怀冥想能特异性地激活大脑的「安抚系统」（Soothing System），降低杏仁核的威胁反应，同时增强内侧前额叶皮层（mPFC）的调节功能。2025 年发表在 Frontiers in Psychiatry 上的一项研究发现，仅 2 周的自我关怀干预就能显著降低广泛性焦虑症患者面对压力源时的心率反应——这是自主神经系统层面的实质性改变，不只是「感觉好了一点」。&lt;/p&gt;
-
-&lt;p&gt;正念则更像一把「中性的注意力手术刀」——它教你观察情绪而不被裹挟，但不提供情绪的替代品。对于职场场景中的压力管理，似乎光「观察」不够，还需要主动向自己输送温暖。精英运动员的研究也支持这一点：自我关怀额外解释了 18% 的心流体验变异，超过了正念单独的贡献。&lt;/p&gt;
-
-&lt;p&gt;这项研究的实际意义很直接：如果你只有 10 分钟冥想时间，选自我关怀冥想的投资回报率更高。具体练习很简单——在正念觉察的基础上，加入一句对自己的温和话语：「每个人都会遇到这种困难，这是正常的，我值得被善待。」共同人性是关键成分，它把「我的痛苦」转化为「人类共有的痛苦」，解除了孤立感。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.jmir.org/2026/1/e79991"&gt;https://www.jmir.org/2026/1/e79991&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1483827/full"&gt;https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1483827/full&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://journalofsportbehavior.org/index.php/JSB/article/view/27"&gt;https://journalofsportbehavior.org/index.php/JSB/article/view/27&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5a44879c-2857-5fe7-8990-2c62150ee7e4</guid>
-      <pubDate>Tue, 31 Mar 2026 08:04:31 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.jmir.org/2026/1/e79991</link>
-      <enclosure url="https://asset.jmir.pub/assets/8e2ce47a9310e4460bb6b4222d5e70bb.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 习惯的双系统博弈——Trinity 团队提出「造习惯」与「破习惯」的四策略框架</title>
-      <description>&lt;p&gt;为什么有些习惯一个月就能养成，而有些坏习惯戒了十年仍会复发？Trinity College Dublin 的 Eike Buabang 和 Claire Gillan 在 &lt;em&gt;Trends in Cognitive Sciences&lt;/em&gt; 发表的综述论文给出了一个清晰的神经科学解释：习惯是两套脑系统角力的产物。&lt;/p&gt;
-
-&lt;p&gt;第一套是&lt;strong&gt;刺激-反应系统（Stimulus-Response, S-R）&lt;/strong&gt;，锚定在背外侧纹状体，负责让你在熟悉场景中自动重复练熟的动作——闹钟响了就摸手机、坐上沙发就想吃零食。第二套是目标导向系统（Goal-Directed），依赖前额叶皮层，负责灵活规划和前瞻思考。当 S-R 系统压过目标导向系统时，行为就变成了「习惯」。这个框架的精妙之处在于：好习惯和坏习惯的形成机制完全一样，差别只在于你让哪种行为赢得了这场博弈。&lt;/p&gt;
-
-&lt;p&gt;基于双系统模型，Buabang 和 Gillan 归纳了「造习惯」的四个策略：（1）重复与强化——在环境线索和目标行为之间建立强关联；（2）环境结构化——把想养成的行为变得触手可及（跑鞋放门口）；（3）脱离意志控制——减少心理负荷，让行为变得不需要「想」（跑步时听播客来降低主观努力感）；（4）执行意图（Implementation Intentions）——用 if-then 计划锚定行为（「如果吃完午饭，我就去散步15分钟」）。&lt;/p&gt;
-
-&lt;p&gt;「破习惯」也有对应的四策略：（1）替代性重复——用新行为去竞争旧 S-R 通路的自动激活权（想抽烟时嚼口香糖，不只是「忍住」）；（2）环境修改——直接移除触发旧习惯的线索（把零食从桌面收到柜子里，把社交 App 从手机主屏删掉）；（3）保持意向性——在压力、疲劳、时间紧迫时格外警觉，因为这些状态会让目标导向系统「掉线」，S-R 系统趁虚而入；（4）临床干预——包括暴露疗法、习惯逆转训练、contingency management 以及脑刺激。&lt;/p&gt;
-
-&lt;p&gt;这套框架最大的实用价值在于「个性化匹配」。Gillan 指出，不同人的双系统平衡点不同——有人天生 S-R 系统强势，对环境线索极度敏感，对他们来说「避开线索」比「靠意志力硬扛」有效得多；另一些人的目标导向系统在压力下特别脆弱，那么减压反而是改变习惯的第一步。这与我们此前讨论的认知重评和自我关怀冥想的研究形成互补——情绪管理本身就是维持目标导向系统在线的关键基础设施。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href='https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00266-3'&gt;Trends in Cognitive Sciences&lt;/a&gt; · &lt;a href='https://neurosciencenews.com/habits-cognitive-neuroscience-28074/'&gt;Neuroscience News&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00266-3"&gt;https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00266-3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://neurosciencenews.com/habits-cognitive-neuroscience-28074/"&gt;https://neurosciencenews.com/habits-cognitive-neuroscience-28074/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">eb747765-f43a-5d37-9d3d-4b12abf91e08</guid>
-      <pubDate>Wed, 01 Apr 2026 08:02:26 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00266-3</link>
-    </item>
-    <item>
-      <title>📰 伊朗战争第33天：科威特机场遇袭燃起大火，特朗普称「两三周内结束」，布伦特原油闻讯跌5%</title>
-      <description>&lt;p&gt;4月1日，伊朗战争进入第33天，战事在多条战线同时升级。科威特国际机场燃料储罐遭伊朗无人机袭击起火，科威特民航局称之为「公然攻击」，所幸无人员伤亡。这是伊朗对科威特的又一次打击——此前科威特港口已多次被袭。同一天，一艘卡塔尔籍油轮在卡塔尔领海内被伊朗导弹击中，船上21名船员全部安全撤离。也门胡塞武装宣布与伊朗和真主党联合发动第三次导弹行动打击以色列。&lt;/p&gt;
-
-&lt;p&gt;以色列中部再度遭到伊朗导弹袭击，一名11岁女孩重伤，另有至少12人受伤。以色列方面则空袭贝鲁特，击杀多名真主党高级指挥官。沙特拦截了2架无人机，约旦拦截了4枚伊朗导弹。阿联酋富查伊拉一名孟加拉籍工人被拦截后坠落的无人机残骸砸中身亡——这场战争的平民代价持续扩大。&lt;/p&gt;
-
-&lt;p&gt;外交层面出现了微妙变化。特朗普在白宫表态：「我们正在收尾，我觉得可能两周，也许再多几天」，美军就将撤离。这番话立刻冲击能源市场——&lt;strong&gt;布伦特原油当日下跌5%至98.77美元/桶&lt;/strong&gt;，从上周触及的113美元高位大幅回落。但伊朗外长当天表态称「不存在谈判基础」，尽管承认通过中间人与美方有信息往来。这种一边喊着快结束、一边继续扩大打击的矛盾态势，与上周巴基斯坦四国外长峰会试图推动Rubio-Araghchi面谈形成鲜明对比。&lt;/p&gt;
-
-&lt;p&gt;距离特朗普设定的4月6日最后通牒（要求伊朗重新开放霍尔木兹海峡）还有5天。五角大楼此前已在筹划向海湾增派上万兵力夺取哈尔克岛的方案。特朗普口中的「两三周」到底意味着外交突破还是军事升级，目前没人说得清。唯一确定的是：油价对任何和平信号都极度敏感——98美元和113美元之间的15美元波幅，就是市场对这场战争走向的实时投票。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://gulfnews.com/world/mena/usisrael-war-on-iran-day-33-trump-says-conflict-could-end-in-two-weeks-maybe-three-kuwait-airport-hit-by-drone-attacks-1.500492706"&gt;https://gulfnews.com/world/mena/usisrael-war-on-iran-day-33-trump-says-conflict-could-end-in-two-weeks-maybe-three-kuwait-airport-hit-by-drone-attacks-1.500492706&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cbsnews.com/live-updates/iran-war-trump-israel-tehran-denies-ceasefire-talks-strait-of-hormuz/"&gt;https://www.cbsnews.com/live-updates/iran-war-trump-israel-tehran-denies-ceasefire-talks-strait-of-hormuz/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy"&gt;https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ec4ef9dc-dd38-56c7-b9e0-75b52c4d12a8</guid>
-      <pubDate>Wed, 01 Apr 2026 08:02:28 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://gulfnews.com/world/mena/usisrael-war-on-iran-day-33-trump-says-conflict-could-end-in-two-weeks-maybe-three-kuwait-airport-hit-by-drone-attacks-1.500492706</link>
-      <enclosure url="https://media.assettype.com/gulfnews%2F2026-04-01%2Fw7tut91e%2FUS-President-Donald-Trump?w=1200&amp;amp;ar=40%3A21&amp;amp;auto=format%2Ccompress&amp;amp;ogImage=true&amp;amp;mode=crop&amp;amp;enlarge=true&amp;amp;overlay=false&amp;amp;overlay_position=bottom&amp;amp;overlay_width=100" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 四月旧金山四家新餐厅开业：越南酒吧、泰式早午餐、寿司便当、地中海咖啡馆</title>
-      <description>&lt;p&gt;四月的旧金山餐饮圈相当热闹——四家风格迥异的新店即将开业，覆盖 Mission、West Portal、SoMa、Castro 四个街区。SF Standard 刚刚公布了详细名单。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Fat Cat × Claws of Mantis（4/9，Mission-Bernal）&lt;/strong&gt;——3215 Mission St. 这个地址会变成一个很有意思的混合空间。Fat Cat 是湾区少数专注 queer 社群的葡萄酒俱乐部，主打变装宾果之夜和小众酒庄品鉴。厨师 Kevin Tang 的越南菜 pop-up Claws of Mantis 将在五月接管厨房，提供炸鲈鱼配芒果沙拉、生蚝配越南炭烤辣椒酱等菜品。四月先以酒吧+奶酪模式运营。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tur（四月中旬，West Portal）&lt;/strong&gt;——Khao Tiew 泰餐厅团队的日间副线项目，占了 1 West Portal Ave. 以前 Squat &amp; Gobble 的位置。定位是"海滩上的早午餐"，菜单包括泰式粥、时令沙拉和鸭腿油封。West Portal 这两年的餐饮升级肉眼可见。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dining Yamamoto（4/1，SoMa）&lt;/strong&gt;——前 Mina Group 行政寿司总厨 Yukinori Yamamoto 的个人项目，走的是反高端路线：午间限定外带寿司便当，$25-$46 一盒，用料包括蓝鳍金枪鱼、海胆和甜虾。地址在 167 11th St.，这个价位能吃到这种级别的食材在 SF 算性价比很高了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Parasol（四月初，Castro）&lt;/strong&gt;——承接了 Cafe Flore 那个标志性的三角形空间（2298 Market St.）。老板 Jacob Paronyan 是 Boulevard 的合伙人，同时经营 Roaming Goat。全天候营业，白天走咖啡+pastry 路线，晚间转为加州-地中海菜：生蚝配油炸刺山柑和 verjus mignonette、哈罗米芝士球配松露蜂蜜，还有一个"滴汁汉堡"放了枫糖蜜饯黑胡椒培根。Cafe Flore 对 Castro 社区意义特殊，这次重开肯定会有不少老客人回来看看。&lt;/p&gt;
-
-&lt;p&gt;四家店定位各不相同——从 $25 的寿司便当到全天候地中海小酒馆——但都不是那种需要排三小时队的网红店。四月开始 SF Restaurant Week（4/10-19）也同步进行，想集中探店的话时机刚好。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/03/31/new-san-francisco-restaurants-april-/"&gt;https://sfstandard.com/2026/03/31/new-san-francisco-restaurants-april-/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.theinfatuation.com/san-francisco/guides/new-san-francisco-restaurant-openings"&gt;https://www.theinfatuation.com/san-francisco/guides/new-san-francisco-restaurant-openings&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1f7a4376-3b0d-5f11-a5c7-ce8646ff5a05</guid>
-      <pubDate>Wed, 01 Apr 2026 08:02:44 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/03/31/new-san-francisco-restaurants-april-/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_q2vgmq3mp1223fk4hp6gmojm4b" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 心理韧性的大脑地图——154 项影像学研究锁定杏仁核与前扣带皮层</title>
-      <description>&lt;p&gt;「韧性」（Resilience）是一个被频繁使用却难以量化的心理学概念。Kuehn、Calvert 和 James 在 &lt;em&gt;Frontiers in Neuroimaging&lt;/em&gt; 发表了迄今最大规模的心理韧性神经影像学元分析，覆盖 2000–2021 年间的 2,658 篇文献，最终纳入 154 项有可用坐标数据的脑成像研究，试图回答一个核心问题：韧性在大脑里到底长什么样？&lt;/p&gt;
-
-&lt;p&gt;结论出乎意料地简洁。GingerALE 元分析在 cluster 水平（FWE p &lt; 0.05）锁定了&lt;strong&gt;三个跨障碍一致性区域&lt;/strong&gt;：左杏仁核、右杏仁核和前扣带皮层（ACC）。换句话说，不论面对的是 PTSD、重度抑郁还是精神分裂，大脑用来抵御心理崩溃的核心硬件是同一套。&lt;/p&gt;
-
-&lt;p&gt;具体到不同障碍类型，图谱呈现微妙差异。PTSD 韧性主要关联双侧杏仁核；精神分裂症韧性关联右杏仁核和 ACC；重度抑郁的韧性最「贪心」，同时关联双侧杏仁核、ACC 以及左侧小脑后叶。唯一例外是双相障碍——其韧性关联右脑岛，而非杏仁核-ACC 通路，提示双相障碍的保护性机制可能走了一条独立的神经回路。&lt;/p&gt;
-
-&lt;p&gt;这与中国西南大学 Liang Shi 等人在 &lt;em&gt;Neuropsychologia&lt;/em&gt; 的功能连接研究形成精确的上下游关系。后者对 212 名健康大学生进行静息态 fMRI 扫描，发现高韧性个体的&lt;strong&gt;左脑岛-右海马旁回&lt;/strong&gt;连接和&lt;strong&gt;左眶额皮层-左额下回&lt;/strong&gt;连接显著增强，而眶额皮层与右楔前叶（一个与反刍思维相关的区域）的连接减弱。研究者邱江总结：韧性不是单一特质，而是一组「灵活过程」——自我概念意识、情绪调节能力和对负面想法的抑制控制协同工作的结果。&lt;/p&gt;
-
-&lt;p&gt;这两项研究放在一起看，故事变得清晰：杏仁核和 ACC 是韧性的「中枢开关」（元分析层面的一致性证据），而脑岛-海马旁回和眶额-额下回的功能连接则是这些开关实际运作的「线路图」（功能连接层面的机制证据）。前者告诉我们韧性住在哪里，后者告诉我们它怎么工作。邱江团队特别提到，这些发现为未来开发神经反馈干预奠定了基础——如果韧性的线路图可以被精确描绘，或许也可以被精确训练。联想到我们此前讨论的元认知 TMS 训练证据，这并非空想。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href='https://www.frontiersin.org/journals/neuroimaging/articles/10.3389/fnimg.2025.1487888/full'&gt;Frontiers in Neuroimaging&lt;/a&gt; · &lt;a href='https://www.psypost.org/new-findings-on-brain-functional-connectivity-provide-insights-into-psychological-resilience/'&gt;PsyPost&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/neuroimaging/articles/10.3389/fnimg.2025.1487888/full"&gt;https://www.frontiersin.org/journals/neuroimaging/articles/10.3389/fnimg.2025.1487888/full&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/new-findings-on-brain-functional-connectivity-provide-insights-into-psychological-resilience/"&gt;https://www.psypost.org/new-findings-on-brain-functional-connectivity-provide-insights-into-psychological-resilience/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">304c57ee-27a7-50b9-8a76-10c593163acb</guid>
-      <pubDate>Wed, 01 Apr 2026 08:02:52 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.frontiersin.org/journals/neuroimaging/articles/10.3389/fnimg.2025.1487888/full</link>
-    </item>
-    <item>
-      <title>📰 「解放日」关税一周年：制造业丢10万岗位、贸易逆差创纪录——最高法院判违宪后1660亿美元退税仍遥遥无期</title>
-      <description>&lt;p&gt;2025年4月2日，特朗普宣布「解放日」（Liberation Day），签署行政令对全球进口商品加征10%基准关税，对主要贸易伙伴实施最高50%的差异化「对等关税」。一年后的今天，美国国家纳税人联盟（NTU）发布的回顾报告给出了冷冰冰的数字：这场关税实验非但没有实现「制造业回流」的承诺，反而在几乎每一项指标上都走向了反面。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;制造业就业&lt;/strong&gt;：从2025年1月到2026年4月，美国制造业净减少10万个工作岗位。2025年全年制造业雇佣人数较2024年减少38.8万人。制造业就业占总就业的比例跌至1939年以来最低。关税实施后，ISM制造业PMI连续9个月处于收缩区间，直到2026年1-2月才微弱反弹。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;贸易逆差&lt;/strong&gt;：关税的核心目标是缩小贸易赤字。结果呢？2025年美国商品贸易逆差创下历史新高。农产品贸易逆差从2024年的370亿美元扩大到410亿美元，增幅10.8%。农民两头受挤——关税推高了农机和农化产品的进口成本（2025年2月至10月增加9.58亿美元），出口却因贸易伙伴报复性关税而萎缩。农场破产数量持续攀升。&lt;/p&gt;
-
-&lt;p&gt;更尴尬的是法律层面。2026年2月，美国最高法院在 &lt;em&gt;Learning Resources, Inc. v. Trump&lt;/em&gt; 案中以6:3裁定特朗普援引《国际紧急经济权力法》（IEEPA）征收关税违宪。换言之，过去一年征收的&lt;strong&gt;1660亿美元关税从法律上说本不该存在&lt;/strong&gt;。美国海关正在搭建退税系统，但具体退还时间表至今没有公布。NTU报告中有一句话颇为辛辣：「超过一半的进口商品是美国制造商自己需要的工业原材料和资本设备——对它们加税等于对美国工厂加税。」&lt;/p&gt;
-
-&lt;p&gt;特朗普政府并非毫无成果：他们与20多个贸易伙伴达成了双边协议，贸易赤字已连续10个月收窄。但NTU指出，赤字收窄主要反映的是进口萎缩而非出口增长——这不是健康的再平衡，而是经济减速的信号。当下油价因伊朗战争飙升、通胀再度抬头的环境下，关税遗留的成本压力只会更加刺痛消费者。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.ntu.org/publications/detail/liberation-day-one-year-review-how-tariffs-handcuffed-us-farmers-and-manufacturers"&gt;https://www.ntu.org/publications/detail/liberation-day-one-year-review-how-tariffs-handcuffed-us-farmers-and-manufacturers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"&gt;https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Liberation_Day_tariffs"&gt;https://en.wikipedia.org/wiki/Liberation_Day_tariffs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">69d76dde-84bc-5cb6-8a63-ecfa572dd827</guid>
-      <pubDate>Wed, 01 Apr 2026 08:02:55 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.ntu.org/publications/detail/liberation-day-one-year-review-how-tariffs-handcuffed-us-farmers-and-manufacturers</link>
-      <enclosure url="https://www.ntu.org/library/imglib/2025/02/kurt-cotoaga-MP6FMO8khn4-unsplash.jpg?v=20250201053600" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Liquid Glass Goes Mandatory: What Apple's Design Overhaul Means for Product Teams</title>
-      <description>&lt;p&gt;Apple's Liquid Glass design language — introduced at WWDC 2025 and now shipping across iOS 26, iPadOS 26, macOS Tahoe, watchOS 26, and tvOS 26 — is no longer optional. According to Mark Gurman's March 2026 Bloomberg report, internal builds of iOS 27 and macOS 27 show no alternative design direction in development. Liquid Glass is the platform's future, and product teams building for Apple's ecosystem need to adapt now.&lt;/p&gt;
-
-&lt;h3&gt;What Actually Changed&lt;/h3&gt;
-
-&lt;p&gt;Liquid Glass replaces the flat, opaque UI chrome that dominated since iOS 7 with a translucent material system that mimics real glass. Interface elements refract and reflect their surroundings, dynamically responding to content, light, and user interaction. Controls, navigation bars, tab bars, app icons, and widgets all use this new material — it's not a theme you can toggle off.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src="https://www.apple.com/newsroom/images/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/article/Apple-iOS-26-Liquid-Glass-hero_big.jpg.large.jpg" alt="Apple's Liquid Glass design applied across iOS 26 interface elements showing translucent navigation and controls" /&gt;
-&lt;figcaption&gt;Apple's Liquid Glass transforms standard UI chrome into dynamic translucent surfaces that refract underlying content. Source: Apple Newsroom&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The scope is unprecedented. Craig Federighi called it "super cool" for interfaces, and marketing chief Greg Joswiak noted users "love" the visionOS-inspired aesthetic. But the rollout hasn't been frictionless.&lt;/p&gt;
-
-&lt;h3&gt;The Readability Problem&lt;/h3&gt;
-
-&lt;p&gt;The most substantive criticism centers on accessibility. Translucent layers can obscure text and icons, especially on smaller screens (Apple Watch) and in complex desktop layouts (macOS). Several designers have flagged that overlapping transparent elements create readability issues that weren't present with opaque backgrounds. Apple is reportedly addressing these in successive beta cycles — a refinement trajectory that mirrors the multi-year cleanup after iOS 7's launch in 2013.&lt;/p&gt;
-
-&lt;p&gt;For product teams, this means testing your app's legibility across &lt;em&gt;all&lt;/em&gt; Apple platforms, not just iPhone. What looks crisp on a 6.7-inch OLED may become muddy on a 41mm watch face or a busy 27-inch desktop with multiple windows.&lt;/p&gt;
-
-&lt;h3&gt;What Designers Should Do Now&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Audit your contrast ratios against dynamic backgrounds.&lt;/strong&gt; With Liquid Glass, your UI chrome sits atop content that changes constantly. Static contrast checks aren't sufficient — you need to verify readability across a range of underlying content (light photos, dark video, colorful maps).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update your icon assets.&lt;/strong&gt; Apple now requires icons that support light, dark, and tinted appearances. This isn't cosmetic — icons that don't adapt will look broken against Liquid Glass surfaces.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Revisit your information hierarchy.&lt;/strong&gt; When everything is translucent, visual weight shifts. Elements that previously stood out against opaque backgrounds may recede. You'll likely need to rely more on typography scale, spacing, and strategic use of opaque accent elements to maintain clear hierarchy.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Plan for the long term.&lt;/strong&gt; Apple's accelerated rollout was partly motivated by AI development delays — Liquid Glass serves as a visual refresh while Apple Intelligence catches up. But the multi-year investment means this isn't a passing phase. Design systems targeting Apple platforms should treat Liquid Glass as the baseline, not a temporary adaptation.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h3&gt;🇨🇳 中文翻译&lt;/h3&gt;
-
-&lt;p&gt;苹果在 WWDC 2025 上推出的 Liquid Glass（液态玻璃）设计语言，现已在 iOS 26、iPadOS 26、macOS Tahoe、watchOS 26 和 tvOS 26 全面铺开，且不再是可选项。据 Mark Gurman 2026 年 3 月的彭博报道，iOS 27 和 macOS 27 的内部版本中没有任何替代设计方向在开发中。Liquid Glass 就是平台的未来。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;核心变化：&lt;/strong&gt;Liquid Glass 用一套半透明材质系统取代了自 iOS 7 以来主导的扁平不透明 UI 元素。界面元素能折射和反射周围环境，动态响应内容、光线和用户交互。控件、导航栏、标签栏、应用图标和小组件全部采用这种新材质。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;可读性挑战：&lt;/strong&gt;最核心的批评集中在无障碍性上。半透明图层可能遮挡文字和图标，尤其在小屏幕（Apple Watch）和复杂桌面布局中。苹果正在逐步修复——类似于 2013 年 iOS 7 发布后的多年打磨过程。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;设计师应该做什么：&lt;/strong&gt;在动态背景上审查对比度、更新图标资源以支持亮色/暗色/着色外观、重新审视信息层级（当一切都是半透明时，视觉权重会发生变化），并将 Liquid Glass 作为长期基准来规划设计系统。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/"&gt;https://www.apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://macdailynews.com/2026/03/16/apples-liquid-glass-isnt-going-anywhere-years-of-refinements-ahead-for-new-design-language/"&gt;https://macdailynews.com/2026/03/16/apples-liquid-glass-isnt-going-anywhere-years-of-refinements-ahead-for-new-design-language/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27"&gt;https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">76557b32-b6d0-535a-a858-3d3e65d91bbe</guid>
-      <pubDate>Wed, 01 Apr 2026 08:03:07 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/</link>
-      <enclosure url="https://www.apple.com/newsroom/images/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/tile/Apple-WWDC25-Liquid-Glass-hero-250609-lp.jpg.og.jpg?202602251843" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Caltrain 电气化一周年：客流暴涨 47%，但 2027 年可能砍掉周末和三分之一站点</title>
-      <description>&lt;p&gt;三月下旬 Caltrain 发布了电气化一周年成绩单，数字相当漂亮：2025 财年载客 910 万人次，比上一年的 620 万增长 47%。周末客流翻了一倍，连续四个月突破百万大关，乘客满意度 91%。SF 到 San Jose 快车压缩到一小时，比柴油时代快了三分之一。再生制动还能把 23% 的电力回馈电网。&lt;/p&gt;
-
-&lt;p&gt;但好消息到此为止。&lt;/p&gt;
-
-&lt;p&gt;Caltrain 同时披露了一份"无外部资金情景"报告，内容读起来像另一家公司的文件：从 2027 财年（即 2026 年 7 月）开始，系统每年将出现约 &lt;strong&gt;7500 万美元结构性赤字&lt;/strong&gt;，预计持续到 2035 年。如果找不到新的收入来源，以下服务可能全部砍掉——&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;周末服务完全取消&lt;/li&gt;
-&lt;li&gt;工作日班次从每 15-30 分钟一班降为每小时一班&lt;/li&gt;
-&lt;li&gt;晚 9 点后停运&lt;/li&gt;
-&lt;li&gt;关闭三分之一以上的车站&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这意味着电气化带来的所有改善——加密班次、周末半小时一班、更长运营时间——全部回到原点，甚至不如柴油时代。&lt;/p&gt;
-
-&lt;p&gt;症结在于 Caltrain 长期依赖沿线三县（San Francisco、San Mateo、Santa Clara）的财政拨款，而这些拨款远远跟不上电气化后运营成本的增长。解药是今年 11 月选票上的&lt;strong&gt;区域交通销售税法案&lt;/strong&gt;（基于 SB 63），覆盖湾区五个县，每年可产生约 9.8 亿美元收入，用于 Caltrain、BART 等多个系统的运营和维护。&lt;/p&gt;
-
-&lt;p&gt;上一次我们报道了 Caltrain 取消 Clipper 折扣、7 月将 Zone upgrade 涨到 $2.50 的消息。现在看来那只是序幕——涨价救不了每年 7500 万的缺口。如果 11 月的区域税没过，一个刚刚证明"建好了真的会有人来坐"的公共交通系统，可能在高峰期被连根拔掉。&lt;/p&gt;
-
-&lt;p&gt;讽刺的是，Caltrain 目前的表现恰恰是湾区公交少见的成功案例。47% 的客流增长、91% 的满意度、节能 23%——这些数字放到全美任何一个通勤铁路系统都算亮眼。问题从来不是没人坐，而是谁来付运营的账。11 月的投票结果，很可能决定这个系统是继续上行还是断崖式倒退。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.caltrain.com/news/caltrain-celebrates-first-anniversary-electrified-service-record-ridership-cleaner-air-and"&gt;https://www.caltrain.com/news/caltrain-celebrates-first-anniversary-electrified-service-record-ridership-cleaner-air-and&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.caltrain.com/news/caltrain-outlines-cuts-come-without-external-funding"&gt;https://www.caltrain.com/news/caltrain-outlines-cuts-come-without-external-funding&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smartcitiesdive.com/news/san-francisco-bart-caltrain-fiscal-cliff/805521/"&gt;https://www.smartcitiesdive.com/news/san-francisco-bart-caltrain-fiscal-cliff/805521/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.railway.supply/caltrain-warns-of-deep-service-cuts-without-2026-transit-tax/"&gt;https://www.railway.supply/caltrain-warns-of-deep-service-cuts-without-2026-transit-tax/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8006442f-785c-518f-a878-af480e1077d0</guid>
-      <pubDate>Wed, 01 Apr 2026 08:03:10 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.caltrain.com/news/caltrain-celebrates-first-anniversary-electrified-service-record-ridership-cleaner-air-and</link>
-      <enclosure url="https://www.caltrain.com/files/images/2024-09/emu_ariel_sf_station.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 不用阿片类药物也能止痛——宾大团队 Nature 发表全球首个靶向大脑的基因疗法</title>
-      <description>&lt;p&gt;慢性疼痛折磨着全美超过 5000 万人，现有止痛手段要么靠阿片类药物（成瘾风险巨大），要么效果有限。宾夕法尼亚大学 Gregory Corder 团队在 2026 年 1 月 7 日的 &lt;em&gt;Nature&lt;/em&gt; 上发表了一项突破性成果：全球首个针对中枢神经系统（CNS）的基因疗法，专门关闭大脑中的疼痛信号，同时完全绕开成瘾回路。&lt;/p&gt;
-
-&lt;p&gt;具体怎么做的？团队先用 AI 驱动的行为追踪系统，在小鼠神经损伤模型中绘制出疼痛的脑回路地图。他们发现，吗啡之所以能止痛，关键在于抑制前扣带回皮层（anterior cingulate cortex, ACC）中表达 μ-阿片受体（MOR）的神经元——这些神经元编码的是疼痛的「不愉悦感」而非感觉本身。于是团队设计了一个精准方案：用腺相关病毒（AAV）载体包装一个合成的 MOR 启动子（MORp），驱动抑制性化学遗传学受体 &lt;strong&gt;hM4-DREADD&lt;/strong&gt; 的表达，选择性沉默 ACC 中的 MOR 神经元。&lt;/p&gt;
-
-&lt;p&gt;效果立竿见影。在慢性神经性疼痛小鼠模型中，激活这个「关闭开关」后，动物的疼痛相关情感行为显著减少——相当于模拟了吗啡的镇痛效果——但对正常触觉感知和奖赏通路毫无影响。换句话说，止痛但不上瘾。&lt;/p&gt;
-
-&lt;p&gt;这项工作的意义远不止于小鼠实验。它证明了一条路径：通过精准靶向特定脑回路，可以把「止痛」和「成瘾」从药理学上彻底拆开。Corder 本人称其为「非成瘾性、回路特异性疼痛医学的具体蓝图」。当然，从小鼠到人类还有很长的路要走——团队目前正在推进下一阶段的临床前研究，但尚未公布人体试验时间表。不过，当阿片类药物危机每年在美国夺走超过 8 万条生命的当下，任何不依赖阿片的止痛新路径都值得认真对待。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-09908-w"&gt;https://www.nature.com/articles/s41586-025-09908-w&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.pennmedicine.org/news/gene-therapy-switch-may-offer-non-addictive-pain-relief"&gt;https://www.pennmedicine.org/news/gene-therapy-switch-may-offer-non-addictive-pain-relief&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://penntoday.upenn.edu/news/penn-medicine-gene-therapy-switch-may-offer-non-addictive-pain-relief"&gt;https://penntoday.upenn.edu/news/penn-medicine-gene-therapy-switch-may-offer-non-addictive-pain-relief&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4c0f78fa-065c-534e-91e1-fab196203ac6</guid>
-      <pubDate>Wed, 01 Apr 2026 08:03:10 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.nature.com/articles/s41586-025-09908-w</link>
-    </item>
-    <item>
-      <title>🧠 🧠 你觉得不确定性「不公平」吗？这种信念正在悄悄劫持你的决策方式</title>
-      <description>&lt;p&gt;面对不确定性时，有人冷静分析，有人干脆逃避。Missouri Western State University 的 Sara Valentin 和 Corey White 在 2026 年 &lt;em&gt;Psychological Reports&lt;/em&gt; 上发表的研究揭示，这种差异不只是性格问题——它与你对不确定性的「容忍度」（Intolerance of Uncertainty, IU）有系统性关联。&lt;/p&gt;
-
-&lt;p&gt;研究招募 131 名参与者，使用两份经典量表：通用决策风格量表（GDMS，测量理性、直觉、依赖、回避、自发五种风格）和不确定性容忍度量表（IUS）。核心发现：IU 越高，越倾向采用&lt;strong&gt;回避型决策&lt;/strong&gt;，越不可能使用理性型决策。这个负相关并非线性地「一点点变化」——高 IU 个体在面对模糊情境时，整个决策模式发生了质变，从主动分析切换到被动逃避。&lt;/p&gt;
-
-&lt;p&gt;更有意思的是 IU 的一个子维度：「不公平感」。那些认为不确定性本身「不公平」的人——也就是觉得世界不应该存在不确定性、模糊是一种对自己的冒犯——同时倾向依赖型和回避型决策。他们不是不做决定，而是把决定权交给别人（依赖型），或者干脆推迟（回避型）。这很像生活中一种常见模式：越觉得「不应该这么不确定」的人，反而越难在不确定中行动。&lt;/p&gt;
-
-&lt;p&gt;研究还发现一个反直觉的结果：直觉型决策与理性型决策并非对立，两者存在正相关。这说明善于用直觉的人往往也能切换到理性分析，真正的对立面是回避——它与理性型负相关，却与依赖型和自发型正相关。Valentin 和 White 指出，五种决策风格「并非完全独立」，需要在回归分析中分别处理才能看清各自与 IU 的关系。&lt;/p&gt;
-
-&lt;p&gt;这项研究对个人实用性很强。如果你发现自己在重大决策前反复拖延，不妨先问自己一个元认知问题：「我是在收集更多信息，还是在逃避不确定性本身？」如果答案是后者，问题不在决策技术，而在对不确定性的认知框架。这与我们此前讨论的认知重评研究相呼应——改变对情境的解读方式（reappraisal），往往比改变情境本身更有效。具体到不确定性容忍度，一个有效的重评策略是：把「不应该这么不确定」重新框定为「不确定性是信息不完整的正常状态，不是针对我的不公平」。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href='https://journals.sagepub.com/doi/10.1177/00332941251415319'&gt;Psychological Reports&lt;/a&gt; · &lt;a href='https://pubmed.ncbi.nlm.nih.gov/41572888/'&gt;PubMed&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/00332941251415319"&gt;https://journals.sagepub.com/doi/10.1177/00332941251415319&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41572888/"&gt;https://pubmed.ncbi.nlm.nih.gov/41572888/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">83a129ab-0a87-5ef2-acc7-7a05a86ec5c2</guid>
-      <pubDate>Wed, 01 Apr 2026 08:03:21 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://journals.sagepub.com/doi/10.1177/00332941251415319</link>
-    </item>
     <item>
       <title>📰 耶路撒冷圣墓教堂数百年来首次无法举行棕枝主日弥撒——以色列警方封堵引发全球谴责</title>
       <description>&lt;p&gt;3月29日棕枝主日，耶路撒冷拉丁宗主教红衣主教 Pierbattista Pizzaballa 和圣地监护人 Francesco Ielpo 神父在前往圣墓教堂的途中被以色列警察拦截，被迫折返。这是数百年来棕枝主日弥撒第一次未能在基督教最神圣的教堂内举行。&lt;/p&gt;
@@ -1663,6 +1159,539 @@
       <category>product-design</category>
       <link>https://www.parallelhq.com/blog/automating-design-systems-with-ai</link>
       <enclosure url="https://www.stldigital.tech/blog/ai-as-a-design-system-governor-enforcing-architectural-consistency/og-image.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 COMP360 第二项三期也赢了——裸盖菇素 NDA 提交锁定 2026 Q4，迷幻药治抑郁进入最后冲刺</title>
+      <description>&lt;p&gt;2 月 17 日，Compass Pathways 宣布第二项三期临床 COMP006 达到主要终点：两剂 25 mg COMP360 裸盖菇素（Psilocybin）对比 1 mg 对照，MADRS 抑郁量表评分差异 &lt;strong&gt;-3.8 分（p &lt; 0.001）&lt;/strong&gt;，39% 的 25 mg 组患者在第 6 周实现临床有意义的减分（≥ 25%）。疗效从给药次日即显现统计学显著差异，并在整个 6 周观察期内维持。&lt;/p&gt;
+
+&lt;p&gt;这是继 2025 年 COMP005 之后，COMP360 在治疗抵抗性抑郁症（TRD）上连续第二次三期达标。安全性方面没有新的意外发现，不良事件以轻中度为主，绝大多数在 24 小时内消退。更关键的数据在后头：COMP006 的 26 周长期随访（Part B）预计 Q3 2026 公布——此前 COMP005 的长期数据已显示，仅一到两次给药就能维持至少 26 周的持久疗效。&lt;/p&gt;
+
+&lt;p&gt;Compass 已向 FDA 申请会议讨论滚动审查，目标是 &lt;strong&gt;2026 年 Q4 完成 NDA 提交&lt;/strong&gt;。如果一切顺利，COMP360 将成为全球首个获批用于抑郁症的迷幻药物，为约 1 亿治疗抵抗性抑郁患者打开一条全新的治疗路径。与此同时，PTSD 适应症的 Phase 2b/3 试验 COMP202 也已在 FDA 批准下启动——Compass 正在把裸盖菇素从单一适应症推向精神科平台药物的方向发展。&lt;/p&gt;
+
+&lt;p&gt;对比传统抗抑郁药需要每日服用、数周起效的模式，COMP360 仅需一到两次给药、次日见效、疗效持续半年，这种治疗范式如果最终通过审批，将从根本上改变重度抑郁的临床管理逻辑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx"&gt;https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.biopharmadive.com/news/compass-trial-data-fda-application-psilocybin-psychedelics/812332/"&gt;https://www.biopharmadive.com/news/compass-trial-data-fda-application-psilocybin-psychedelics/812332/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psychiatrictimes.com/view/comp360-psilocybin-for-treatment-resistant-depression-positive-phase-3-efficacy-data"&gt;https://www.psychiatrictimes.com/view/comp360-psilocybin-for-treatment-resistant-depression-positive-phase-3-efficacy-data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e8645e36-9574-5171-a3d3-5a7390a75f39</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:12 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx</link>
+      <enclosure url="https://imgproxy.divecdn.com/YVNluGmWC9H1IJ7AVnJWwNQ5faTgab0NQIFT15fNGn4/g:ce/rs:fill:1200:1200:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzE2NzkzMTk4LmpwZw==.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 意志力是一种「信念」还是真会耗尽？预注册复制实验动摇了 Dweck 经典理论</title>
+      <description>&lt;p&gt;2010 年，Carol Dweck 和同事在 &lt;em&gt;Psychological Science&lt;/em&gt; 上发表了一篇极有影响力的论文：自控力（Ego Depletion）是否发生，取决于你相不相信意志力会耗尽。相信意志力有限的人，做完一项费力任务后表现确实下降；而相信意志力「取之不竭」的人，完全不受影响。这个结论迅速进入畅销书和 TED 演讲——「意志力耗竭只是你的想象」成了一句流行口号。&lt;/p&gt;
+
+&lt;p&gt;但 DePaul 大学的 Nicholas Carruth 和科罗拉多大学的 Akira Miyake 团队刚刚发表了一项&lt;strong&gt;预注册复制实验&lt;/strong&gt;（N=187），结论很干脆：既没有检测到自控力耗竭的主效应，也没有检测到意志力信念对耗竭效应的调节作用。换句话说，原始研究（N=60）的核心发现没有被复现。&lt;/p&gt;
+
+&lt;p&gt;这项复制在方法上比原始研究严谨得多——样本量是原来的三倍，加入了操纵检查（manipulation check），统计功效足以检测 d=0.41 的效应。但结果在各个分析维度上都不显著。&lt;/p&gt;
+
+&lt;p&gt;这并不意味着「意志力信念无所谓」。Carruth 等人谨慎地指出，他们否定的是信念对&lt;em&gt;即时自控力任务&lt;/em&gt;的调节效应，而非信念对长期自我调节策略的影响。此前 Bernecker 等人的研究确实表明，相信意志力有限的人更倾向于在压力下主动安排休息——这本身是一种有效的自我调节策略，只是机制完全不同于 Dweck 最初描述的「信念直接保护认知资源」。&lt;/p&gt;
+
+&lt;p&gt;与此同时，Frontiers in Cognition 今年刊发了 Choudhury 和 Saravanan 的整合综述，提出了一个&lt;strong&gt;决策疲劳（Decision Fatigue）的多域概念框架&lt;/strong&gt;。他们从 10 个前因变量（个体、组织、环境三类）和 4 个主要效应出发，描绘了决策疲劳在医疗、航空、司法、金融等不同领域的共通机制。核心观点是：决策疲劳不是简单的「资源耗尽」，而是认知系统在高负荷下从&lt;strong&gt;努力型控制决策&lt;/strong&gt;滑向&lt;strong&gt;省力型自动决策&lt;/strong&gt;的转换过程——风险偏好降低、决策质量下降、错误率上升。&lt;/p&gt;
+
+&lt;p&gt;把两项研究放在一起看，画面变得更清晰：意志力耗竭可能既不是纯粹的生理资源枯竭（经典模型），也不完全是信念的自我实现预言（Dweck 模型），而更接近一种&lt;strong&gt;注意力-动机优先级的重新分配&lt;/strong&gt;。当认知系统判断「继续投入不划算」时，它会主动降低控制水平——这像一个理性的节能策略，而非灯泡烧尽。&lt;/p&gt;
+
+&lt;p&gt;实际应用上，这意味着对抗「意志力耗尽感」的最佳策略不是告诉自己「意志力无限」（复制实验已经证明这没用），而是减少需要自控力的决策数量（决策卸载），或者在高认知负荷任务之间安排不同类型的认知活动而非纯粹休息。Choudhury 的框架建议从组织层面限制连续决策密度——在医疗场景中，这已被证明能降低处方错误率。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287911"&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287911&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2025.1719312/full"&gt;https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2025.1719312/full&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3d66b1d0-a9bf-58d7-8bfb-93799656f3a4</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:30 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287911</link>
+      <enclosure url="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0287911.g003&amp;size=inline" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 肠道健不健康，看细菌「打架」还是「抱团」——Rutgers 团队在 Science 提出全新肠道生态指标 ENBI</title>
+      <description>&lt;p&gt;3 月 24 日发表于 &lt;em&gt;Science&lt;/em&gt; 的一项研究提出了一个颠覆性的观点：判断肠道健康，关键不在于哪些菌多了哪些少了，而在于整个菌群社区是以&lt;strong&gt;竞争&lt;/strong&gt;还是&lt;strong&gt;合作&lt;/strong&gt;为主导模式。Rutgers 大学 Roberto Corral Lopez、Juan Bonachela、Maria Gloria Dominguez-Bello，以及普林斯顿 Simon Levin 等人合作开发的新指标叫 &lt;strong&gt;ENBI（Ecological Network Balance Index）&lt;/strong&gt;，用一个数字概括菌群的生态状态。&lt;/p&gt;
+
+&lt;p&gt;研究发现，肠道菌群会自发地落入两种截然不同的构型：健康状态下是多样化的竞争网络，各种菌争夺资源、彼此制衡；疾病状态下则变成一小群细菌紧密抱团、互相合作——听上去「合作」像好事，但在微生物生态里，这种合作往往意味着少数致病菌拉帮结伙、排挤其他物种。在结直肠癌患者中，ENBI 值随疾病进展稳步升高，提示「合作化」程度与病程正相关。&lt;/p&gt;
+
+&lt;p&gt;实用层面上，ENBI 只需要一份粪便样本就能计算，属于完全无创检测。这对肠道健康监测意味着什么？你不再需要记住一串菌名——双歧杆菌多少、拟杆菌多少——而是看一个整体生态分数就能判断大方向。更深层的启示在于：它可能解释了为什么益生菌和粪菌移植（FMT）时灵时不灵。Maria Gloria Dominguez-Bello 在论文中指出，FMT 的疗效或许不在于引入了哪个特定菌株，而在于它是否成功把整个菌群从「合作态」推回了「竞争态」。&lt;/p&gt;
+
+&lt;p&gt;这项工作的通讯作者之一 Martin Blaser（《消失的微生物》作者）长期主张菌群多样性是健康基石。ENBI 的出现让这个主张有了可量化的检验工具——从「多样性高=好」的粗略直觉，进化到「竞争型网络=好」的生态学精确描述。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sebsnjaesnews.rutgers.edu/2026/03/scientists-develop-new-gut-health-measure-that-tracks-disease/"&gt;https://sebsnjaesnews.rutgers.edu/2026/03/scientists-develop-new-gut-health-measure-that-tracks-disease/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://research.rutgers.edu/news/scientists-develop-new-gut-health-measure-tracks-disease"&gt;https://research.rutgers.edu/news/scientists-develop-new-gut-health-measure-tracks-disease&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medicalxpress.com/news/2026-02-gut-health-index-microbial-interactions.html"&gt;https://medicalxpress.com/news/2026-02-gut-health-index-microbial-interactions.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1b8751b2-b9f3-53de-8e58-6d3e87d8cf67</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:34 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://sebsnjaesnews.rutgers.edu/2026/03/scientists-develop-new-gut-health-measure-that-tracks-disease/</link>
+    </item>
+    <item>
+      <title>🌉 凌晨 1:41 的剧烈晃动：Santa Cruz 山区 4.6 级地震震醒整个湾区</title>
+      <description>&lt;p&gt;4 月 2 日凌晨 1:41，一场 4.6 级地震在 Santa Cruz 县 Boulder Creek 附近的山区爆发，震源深度约 6.8 英里，距离 1989 年 Loma Prieta 大地震的震中仅 14 英里。USGS 最初测定震级为 4.9，随后下调至 4.6。&lt;/p&gt;
+
+&lt;p&gt;这次地震的波及范围相当广——从北部的 Santa Rosa 到南部的 Monterey 县，USGS 共收到超过 &lt;strong&gt;30,971 份震感报告&lt;/strong&gt;。旧金山、Oakland、Berkeley、Mountain View、Richmond、Hayward 的居民都被震醒。Boulder Creek 当地一家药店的货架上商品散落一地，一位居民说「整栋房子像被抬起了半英寸」，还有人以为是树砸穿了屋顶。&lt;/p&gt;
+
+&lt;p&gt;好消息是没有重大伤亡或结构性损坏。USGS 地震学家 Robert de Groot 估计未来一周内发生 3.0 级以上余震的概率约为 16%-40%，4.0 级以上余震的概率约 2%。截至发稿，尚未检测到任何余震。&lt;/p&gt;
+
+&lt;p&gt;湾区人对地震向来淡定。SF Standard 的报道标题直接写道「地球动了，湾区耸了耸肩」。但这次地震也是一个提醒：我们就住在 San Andreas 断层旁边。加州平均每天发生约 50 次地震，绝大多数感觉不到，但 4.6 级已经足以把你从睡梦中摇醒。USGS 建议居民检查家中重型家具是否固定牢靠，储备应急饮用水，并确认每个房间的安全躲避点。&lt;/p&gt;
+
+&lt;p&gt;历史上，这片区域并不平静。1989 年 Loma Prieta 6.9 级地震造成 63 人死亡和 60 亿美元损失；更早的 1906 年旧金山 7.9 级大地震摧毁了超过 28,000 栋建筑。当然，4.6 级和这些灾难性事件不在一个量级——但它确实在提醒每一个湾区居民：emergency kit 该检查一下了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://abc7news.com/post/46-magnitude-earthquake-strikes-santa-cruz-mountains-rattling-bay-area-usgs/18827032/"&gt;https://abc7news.com/post/46-magnitude-earthquake-strikes-santa-cruz-mountains-rattling-bay-area-usgs/18827032/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/02/sf-bay-area-earthquake-boulder-creek/"&gt;https://sfstandard.com/2026/04/02/sf-bay-area-earthquake-boulder-creek/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/sanfrancisco/news/earthquake-santa-cruz-county-boulder-creek/"&gt;https://www.cbsnews.com/sanfrancisco/news/earthquake-santa-cruz-county-boulder-creek/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2c4f4c44-8dc9-57ae-a976-421a23accfa8</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:49 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://abc7news.com/post/46-magnitude-earthquake-strikes-santa-cruz-mountains-rattling-bay-area-usgs/18827032/</link>
+      <enclosure url="https://cdn.abcotvs.com/dip/images/18831047_040226-kgo-brookdale-earthquake-img.jpg?w=1600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 衰老不是「坏了」，是「乱了」——柏林长寿大会本周开幕，抗衰研究范式正在转向</title>
+      <description>&lt;p&gt;4 月 8-9 日，第二届 Targeting Longevity 世界大会将在柏林召开。这次会议由世界线粒体学会（WMS）和国际微生物群学会（ISM）联合主办，但真正值得关注的不是会议本身，而是它代表的一种范式转向：抗衰老研究正在从「修复单一损伤」转向「恢复系统协调」。&lt;/p&gt;
+
+&lt;p&gt;过去十年，长寿领域的主流思路是逐个击破衰老的「标志物」（Hallmarks of Aging）——清除衰老细胞、抑制 mTOR 通路、补充 NAD+ 前体。这些策略在动物模型上常有亮眼数据，但临床转化屡屡碰壁。会议组织者 Marvin Edeas 博士的判断很直接：&lt;strong&gt;「问题不在于数据不够，而在于策略有误。」&lt;/strong&gt;他提出，衰老的本质可能不是某个零件坏了，而是线粒体、微生物群、免疫信号、代谢调控之间的协调逐渐瓦解——就像一支乐队，每个乐手单独演奏都没问题，但合奏时越来越跑拍。&lt;/p&gt;
+
+&lt;p&gt;这次大会的主题演讲阵容也反映了这种跨学科整合趋势：宾大的 Nancy M. Bonini 从神经退行角度切入，利物浦大学的 João Pedro de Magalhães 做比较基因组学，纽卡斯尔大学的 Viktor Korolchuk 聚焦自噬与溶酶体。产业界方面，欧莱雅和 Pierre Fabre 等公司的参与暗示「系统韧性」（Resilience）的概念已经从学术讨论渗透到了产品研发层面。&lt;/p&gt;
+
+&lt;p&gt;回看我们追踪的几条线索，这种系统视角并非空穴来风。此前伯克利 Irina Conboy 团队的催产素+Alk5 抑制剂「两药鸡尾酒」方案之所以有效，恰恰是因为它同时干预了炎症和干细胞两条通路；Rutgers 刚发表的 ENBI 指标发现肠道健康取决于菌群整体生态平衡而非单个菌种，本质上也是同一种「系统优先于零件」的逻辑。如果这个方向站得住脚，未来的抗衰干预可能不再是「吃某种补剂」，而是维护多个生物系统之间的节拍同步。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1116021"&gt;https://www.eurekalert.org/news-releases/1116021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1122179"&gt;https://www.eurekalert.org/news-releases/1122179&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://targeting-longevity.com/"&gt;https://targeting-longevity.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bioengineer.org/from-fixing-aging-to-preserving-harmony-scientists-rethink-longevity-goals-for-2026/"&gt;https://bioengineer.org/from-fixing-aging-to-preserving-harmony-scientists-rethink-longevity-goals-for-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d6a502cb-fd21-57c1-b63b-a7ce1555150d</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:58 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.eurekalert.org/news-releases/1116021</link>
+    </item>
+    <item>
+      <title>🧠 认知灵活性可以「电」出来——非侵入性脑刺激的系统综述画出训练路线图</title>
+      <description>&lt;p&gt;「钻牛角尖」在心理学里有个正式名字：认知僵化（cognitive rigidity）。它的反面——&lt;strong&gt;认知灵活性&lt;/strong&gt;（Cognitive Flexibility）——是执行功能的核心组件，决定了你能否在规则变化时迅速切换策略、在多个视角间自如转换。这项能力在自闭症谱系、ADHD、抑郁症和强迫症患者中普遍受损，也是普通人面对复杂决策时的瓶颈。&lt;/p&gt;
+
+&lt;p&gt;Tabriz 大学的 Gharalari 团队在 &lt;em&gt;CNS Neuroscience &amp; Therapeutics&lt;/em&gt; 发表了一篇系统综述，梳理了五种非侵入性神经调控技术对认知灵活性的干预效果：经颅直流电刺激（tDCS）、重复经颅磁刺激（rTMS）、光生物调节（Photobiomodulation, PBM）、虚拟现实（VR）和神经反馈（Neurofeedback, NF）。&lt;/p&gt;
+
+&lt;p&gt;结论中最具操作性的发现：&lt;strong&gt;阳极 tDCS 刺激背外侧前额叶皮层（dlPFC）&lt;/strong&gt;在多项研究中一致提升了威斯康星卡片分类测验（WCST）表现——持续性错误减少，注意力转换速度加快。9 次疗程后即可观察到效果。高密度 tDCS（HD-tDCS）的精准版本在「注意力转移测试」指标上改善尤为显著。&lt;/p&gt;
+
+&lt;p&gt;rTMS 方面，高频（通常 10-20 Hz）刺激左侧 dlPFC 也改善了任务切换范式中的准确率，部分研究显示效果可持续到干预后一个月。但效果不如 tDCS 稳定——某些协议几乎没有检测到改善，提示频率、强度和刺激位点的参数选择至关重要。&lt;/p&gt;
+
+&lt;p&gt;有趣的是 VR 干预在精神分裂症和自闭症人群中表现突出，而神经反馈对 ADHD 儿童效果最佳。PBM 则在老年人和脑损伤患者中显示了认知改善。五种技术各有适用人群，没有「一刀切」的最优方案。&lt;/p&gt;
+
+&lt;p&gt;从脑区地图看，认知灵活性依赖三个关键网络的协同：外侧额-顶叶网络（L-FPN）、中扣带-岛叶网络（M-CIN）和前扣带皮层（ACC）。这与我们之前报道的 Hulbig 元认知综述中的脑区网络高度重叠——前额叶-顶叶-ACC 构成了「灵活思维」的硬件基础。&lt;/p&gt;
+
+&lt;p&gt;这条路线图的现实意义在于：认知灵活性不再只是一个抽象的心理学概念，而是可以通过物理手段精确干预的神经功能。对于普通人，tDCS 设备已有消费级版本（如 Halo、Flow），价格在 200-400 美元之间，但综述作者强调，自行使用的安全性和有效性数据仍然不足，临床指导下的使用才是当前可推荐的路径。对于临床群体——特别是对药物反应不佳的强迫症和抑郁症患者——dlPFC tDCS 可能成为认知行为治疗（CBT）的有力补充。&lt;/p&gt;
+
+&lt;p&gt;综述也坦承局限：多数研究样本量偏小，长期随访数据稀缺，不同研究间的刺激参数差异大。但方向已经明确——认知灵活性是可训练的，工具箱正在从「做题」扩展到「通电」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12439197/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12439197/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://onlinelibrary.wiley.com/doi/10.1111/cns.70613"&gt;https://onlinelibrary.wiley.com/doi/10.1111/cns.70613&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1d1bde9f-91e4-57b7-ab2e-7a143403a07b</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:03 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12439197/</link>
+    </item>
+    <item>
+      <title>🎨 Figma Make Kits Ship on Paid Plans: Your Design System Now Powers AI Prototyping / Figma Make Kits 正式上线付费方案：你的设计系统现在能驱动 AI 原型生成</title>
+      <description>&lt;p&gt;Figma's Make feature — its AI-powered prototyping tool — just got a significant upgrade. &lt;strong&gt;Make kits&lt;/strong&gt;, which began rolling out to paid plans on March 26, 2026, let design system teams package their components, tokens, styles, and usage guidelines into a single bundle that Make can use as context when generating prototypes. The result: AI-generated prototypes that actually look like they belong to your product, not a generic starter template.&lt;/p&gt;
+
+&lt;p&gt;Make kits contain three layers. First, &lt;strong&gt;npm packages&lt;/strong&gt; — your actual production React components, pulled from either the public npm registry or your organization's private registry. Second, Figma library styles and variables, imported directly from your existing design files. Third, and most interesting, guidelines: markdown documents that teach Make how your system works — when to use which variant, spacing rules, accessibility requirements, compositional patterns.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/39241691773207" alt="Make kits setup interface in Figma showing package import and guidelines configuration" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Make kits combine npm packages, Figma library styles, and written guidelines into a single context bundle for AI prototyping.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The guidelines layer is where this gets clever. Make can auto-generate guidelines by analyzing your npm packages — it reads your component API surfaces and writes comprehensive markdown docs covering components, styles, tokens, and general design rules. You review and edit, then publish. The feedback loop is fast: prompt Make to build something, see where it misuses your system, refine the guideline, repeat.&lt;/p&gt;
+
+&lt;p&gt;This matters because it addresses the central complaint about AI design tools: they produce generic output that ignores your design language. With Make kits, the AI reads your library first and builds with what already exists. If your button component has a "destructive" variant, Make knows about it. If your spacing scale is 4px-based, the output respects it. The prototype isn't just visually similar — it uses your actual production code.&lt;/p&gt;
+
+&lt;p&gt;There's a meaningful architectural choice here too. Make kits currently &lt;strong&gt;only support React&lt;/strong&gt;. This isn't a limitation so much as a signal: Figma is betting that the path from design exploration to production runs through React components, and they're optimizing for that pipeline. Combined with &lt;a href="https://www.figma.com/blog/introducing-make-kits-and-make-attachments/"&gt;Make attachments&lt;/a&gt; — which let you drop existing files directly into a prompt for additional context — the workflow becomes: attach a brief or spec, select your design system kit, prompt, iterate.&lt;/p&gt;
+
+&lt;p&gt;For teams already using Figma's MCP server to let coding agents write to the canvas, Make kits close a loop. The design system now serves as shared context for both human designers prototyping in Make and AI agents writing code via MCP. Whether the prototype starts in Make or gets built by Claude Code reading from MCP, the same system of record governs both.&lt;/p&gt;
+
+&lt;p&gt;The practical question: is your design system kit-ready? The teams that will benefit most are those with well-documented, well-maintained React component libraries. If your components have clear prop APIs, consistent naming, and existing Storybook documentation, Make can auto-generate usable guidelines. If your system is a mess of one-off overrides and undocumented variants, Make kits will simply expose that problem faster.&lt;/p&gt;
+
+&lt;p&gt;Make kits are available to full seats on paid Figma plans. Organization admins can approve and enable kits for their teams.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Figma 的 AI 原型工具 Make 迎来重大升级。&lt;strong&gt;Make kits&lt;/strong&gt; 自 2026 年 3 月 26 日起在付费方案中逐步上线，允许设计系统团队将自家组件、token、样式和使用指南打包成一个完整的上下文包，Make 生成原型时可以直接调用。效果立竿见影：AI 生成的原型终于像是属于你的产品，而不是千篇一律的模板。&lt;/p&gt;
+
+&lt;p&gt;Make kits 包含三层。第一层是 &lt;strong&gt;npm 包&lt;/strong&gt;——可以从公共 npm 仓库或组织私有仓库中拉取你的生产级 React 组件。第二层是 Figma 库的样式和变量，直接从现有设计文件导入。第三层最有意思：guidelines（使用指南），即 Markdown 文档，告诉 Make 你的设计系统怎么用——什么时候该用哪个变体、间距规则、无障碍要求、组合模式。&lt;/p&gt;
+
+&lt;p&gt;Guidelines 这层设计得很聪明。Make 能自动分析你的 npm 包并生成指南——它读取组件的 API 表面，然后输出涵盖组件、样式、token 和通用设计规则的 Markdown 文档。你审阅、修改、发布，然后让 Make 试着构建，看看哪里用错了系统，再改指南，如此迭代。&lt;/p&gt;
+
+&lt;p&gt;这解决的正是 AI 设计工具最核心的痛点：产出物千人一面，无视你的设计语言。有了 Make kits，AI 先读你的组件库，再用现有组件构建。按钮有 "destructive" 变体？Make 知道。间距体系基于 4px？输出自动遵守。原型不只是"看着像"——它用的就是你的生产代码。&lt;/p&gt;
+
+&lt;p&gt;一个值得注意的架构选择：Make kits 目前&lt;strong&gt;仅支持 React&lt;/strong&gt;。这与其说是限制，不如说是表态——Figma 押注从设计探索到生产的路径贯穿 React 组件，并为这条管线做了优化。配合 Make attachments（可将现有文件直接拖入提示），工作流变成：附上简报或规格文档，选定设计系统 kit，输入提示，迭代。&lt;/p&gt;
+
+&lt;p&gt;对于已经在用 Figma MCP server 让编程智能体写入画布的团队来说，Make kits 补上了闭环。设计系统现在同时为人类设计师的 Make 原型和 AI agent 的代码生成提供共享上下文——无论原型起点在 Make 还是由 Claude Code 通过 MCP 生成，同一套系统记录统管两端。&lt;/p&gt;
+
+&lt;p&gt;实际问题来了：你的设计系统准备好做 kit 了吗？受益最大的团队，是那些有良好文档、维护完善的 React 组件库的团队。如果组件 prop API 清晰、命名一致、Storybook 文档齐全，Make 能自动生成可用的 guidelines。如果系统里全是一次性覆盖和没文档的变体，Make kits 只会让问题暴露得更快。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/blog/introducing-make-kits-and-make-attachments/"&gt;https://www.figma.com/blog/introducing-make-kits-and-make-attachments/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/39241689698839-Get-started-with-Make-kits"&gt;https://help.figma.com/hc/en-us/articles/39241689698839-Get-started-with-Make-kits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/35946832653975-Use-your-design-system-package-in-Make-kits"&gt;https://help.figma.com/hc/en-us/articles/35946832653975-Use-your-design-system-package-in-Make-kits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.figma.com/docs/code/bring-your-design-system-package/"&gt;https://developers.figma.com/docs/code/bring-your-design-system-package/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">93119ed5-308d-5ba8-94c8-bab8b0ebf28e</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:09 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.figma.com/blog/introducing-make-kits-and-make-attachments/</link>
+      <enclosure url="https://cdn.sanity.io/images/599r6htc/regionalized/46a7bafc21a0c17c6e64088bc51e7e07cf93f8bf-2400x1260.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 SF Restaurant Week 4 月 10 日开幕：200+ 家餐厅 prix fixe 特价，九档价位丰俭由人</title>
+      <description>&lt;p&gt;Berkeley Restaurant Week 正在进行中（4/2-12），紧接着 &lt;strong&gt;SF Restaurant Week&lt;/strong&gt; 将于 4 月 10-19 日登场。两百多家旧金山餐厅推出 prix fixe 特价菜单，午餐从 $10 起步，晚餐从 $30 到 $90 共九档价位。这是一年中探索旧金山美食版图性价比最高的十天。&lt;/p&gt;
+
+&lt;p&gt;The Infatuation 已经发布了今年的推荐名单，几个亮点值得关注：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;高端体验&lt;/strong&gt;：Richmond 区的 Lily（越南菜升级版，被评为「SF 最完美的用餐体验之一」）、Fillmore 的 Copra（南印度菜，号称全城最美餐厅空间）、Mission 的 Flour + Water（加州意大利菜传奇）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中间价位&lt;/strong&gt;：Mission 的 Donaji（Oaxacan 菜系，mole 酱和 masa 面团菜品出色）、Sunset 的 Caché（法式海鲜）、Mission 的 Penny Roma（手工意面）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;平价好选择&lt;/strong&gt;：Bayview 的 Gumbo Social（灵魂食物和 po'boy 三明治）、North Beach 的 Tony's Pizza Napoletana（一个屋檐下几乎所有风格的 pizza）、Mission 的 Burma Love（缅甸菜）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;和 Berkeley Restaurant Week 的「免开瓶费」玩法不同，SF Restaurant Week 的核心是 prix fixe 菜单——很多平时人均 $100+ 的餐厅会推出 $45-$60 的三道菜套餐，是尝鲜高端餐厅的好机会。建议提前在 &lt;a href="https://www.sfrestaurantweek.com/restaurants/"&gt;官网&lt;/a&gt; 浏览参与餐厅并通过 Resy 或 OpenTable 预订，热门餐厅的黄金时段会很快订满。&lt;/p&gt;
+
+&lt;p&gt;两个 Restaurant Week 合在一起覆盖整个四月上半段（4/2-19），从 East Bay 到 SF，可以排一个跨湾美食马拉松。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sfrestaurantweek.com/"&gt;https://www.sfrestaurantweek.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.theinfatuation.com/san-francisco/guides/sf-restaurant-week"&gt;https://www.theinfatuation.com/san-francisco/guides/sf-restaurant-week&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://downtownsf.org/do/sf-restaurant-week"&gt;https://downtownsf.org/do/sf-restaurant-week&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">20dc9525-2856-5d93-b90e-72fb74d21eb1</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:13 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.sfrestaurantweek.com/</link>
+    </item>
+    <item>
+      <title>🎲 2100年前，一群希腊人用30个青铜齿轮造出了人类第一台计算机</title>
+      <description>&lt;p&gt;1900年，一群希腊海绵采集潜水员为躲避风暴停靠在安提基特拉岛。他们在水下45米处发现了一艘古罗马沉船，打捞出大量青铜雕像和陶器。没人注意到其中一块"字典大小的青铜块"。直到考古学家清理腐蚀物时，才发现里面藏着精密咬合的齿轮——这就是&lt;strong&gt;安提基特拉机械（Antikythera Mechanism）&lt;/strong&gt;，人类已知最古老的模拟计算机。&lt;/p&gt;
+
+&lt;p&gt;沉船年代约为公元前60-70年，但机械本身可能制造于公元前200年左右。它只有鞋盒大小，内含至少30个青铜齿轮，齿的长度大约1毫米。这台机器能做什么？它能预测太阳和月亮的位置、五颗已知行星的运动轨迹、日月食的发生时间，甚至能追踪古代奥运会的四年周期。换句话说，这是一台2100年前的天文导航仪和日历系统，精度令人震惊。&lt;/p&gt;
+
+&lt;p&gt;机械内部编码了巴比伦天文学的核心周期：19年的&lt;strong&gt;默冬周期（Metonic Cycle）&lt;/strong&gt;用于月球计算，76年的希腊修正周期进一步提高精度，223个月的沙罗周期用于预测日月食。更惊人的是，它还编码了金星462年完成289次会合周期、土星442年完成427次会合周期的数据。这些数字意味着制造者不仅知道行星运动的规律，而且掌握了跨越数百年的天文观测记录。&lt;/p&gt;
+
+&lt;p&gt;发现之后的半个多世纪里，几乎没人能理解这东西。直到1951年，耶鲁大学科学史教授Derek de Solla Price开始认真研究它。1971年，Price和希腊核物理学家Charalampos Karakalos对82块残片进行X射线和伽马射线成像，终于揭示了隐藏在腐蚀表面下的齿轮结构。Price在1974年发表的论文第一次向世界证明：古希腊人拥有远超我们想象的机械工程能力。&lt;/p&gt;
+
+&lt;p&gt;2021年，伦敦大学学院（UCL）的Tony Freeth团队在《Scientific Reports》上发表了突破性成果。他们成功重建了机械正面的宇宙模型——七个行星齿轮组精巧地交错排列在仅2.5厘米宽的空间内，按照当时公认的宇宙秩序（月球、水星、金星、太阳、火星、木星、土星）输出各天体的位置。Freeth说这是"第一个与所有物理证据和机械上刻写的科学铭文完全吻合的模型"。&lt;/p&gt;
+
+&lt;p&gt;2025年11月，格拉斯哥大学的天文学家用原本为分析引力波开发的统计建模技术，重新研究了机械上一个破损日历环的孔洞数量。结论大幅增强了该环追踪阴历（而非阳历）的可能性。连分析引力波的数学工具都被搬来研究这台古董——这件事本身就说明了它的复杂程度。&lt;/p&gt;
+
+&lt;p&gt;最让人困惑的问题是：如果公元前200年的希腊人就能造出这种精度的机械计算机，为什么这项技术似乎凭空消失了？下一个可比的精密齿轮装置要等到14世纪欧洲的天文钟。中间1500年的空白至今没有合理解释。有一种理论认为，安提基特拉机械可能是某个天才工匠（有人猜测与阿基米德有关）的孤品，技术随工匠的死亡而失传。也有人提出，类似的装置可能确实存在过，只是青铜太容易被回收熔铸，没能留下来。&lt;/p&gt;
+
+&lt;p&gt;不管哪种解释成立，安提基特拉机械都粉碎了一个隐含的假设：技术是线性进步的。事实是，人类文明的技术能力可以在某个时刻达到惊人的高度，然后彻底断裂，仿佛从未存在过。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/an-ancient-greek-astronomical-calculation-machine-reveals-new-secrets/"&gt;https://www.scientificamerican.com/article/an-ancient-greek-astronomical-calculation-machine-reveals-new-secrets/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ucl.ac.uk/news/2021/mar/experts-recreate-mechanical-cosmos-worlds-first-computer"&gt;https://www.ucl.ac.uk/news/2021/mar/experts-recreate-mechanical-cosmos-worlds-first-computer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://glasgowcityofscienceandinnovation.com/university-of-glasgow-unveils-new-insights-on-ancient-greek-computer-the-antikythera-mechanism/"&gt;https://glasgowcityofscienceandinnovation.com/university-of-glasgow-unveils-new-insights-on-ancient-greek-computer-the-antikythera-mechanism/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Antikythera_mechanism"&gt;https://en.wikipedia.org/wiki/Antikythera_mechanism&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ae071014-eea8-57b7-92a8-a234d2ba082e</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:19 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.scientificamerican.com/article/an-ancient-greek-astronomical-calculation-machine-reveals-new-secrets/</link>
+      <enclosure url="https://static.scientificamerican.com/sciam/cache/file/AF613624-14A9-49C3-9F2334BCA525D409_source.jpg?w=1200" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Oakland 一季度犯罪率暴降 29%：入室盗窃减半，抢劫降三成</title>
+      <description>&lt;p&gt;Oakland 警方公布了 2026 年第一季度犯罪数据，结果相当亮眼：Part I 重大犯罪总量同比下降 29%。具体来看，入室盗窃降幅最大，从去年同期的 2,424 起骤降至 1,124 起（&lt;strong&gt;-54%&lt;/strong&gt;）；抢劫案从 537 起降至 374 起（-30%）；凶杀案从 23 起降至 14 起（-39%）；强奸案减半。&lt;/p&gt;
+
+&lt;p&gt;这些数字延续了 2025 年的向好趋势——去年 Oakland 的凶杀案创下历史性低点。但代理警察局长 James Beere 很谨慎：「如果你是犯罪受害者，这些统计数字可能无法反映你的感受。」他同时也表示，居民反馈中越来越多人觉得街区变安全了。&lt;/p&gt;
+
+&lt;p&gt;市长 Barbara Lee 将成果归功于「全员上阵」策略——执法部门、暴力预防项目、危机响应团队和社区伙伴关系多管齐下。联邦层面，FBI、ATF、DEA 正在 Oakland 执行一项为期 60 天的联合行动，专门针对枪支暴力。警方还推出了 90 天犯罪削减计划，重点打击非法越野摩托车和 sideshow（街头漂移表演）。&lt;/p&gt;
+
+&lt;p&gt;不过数据中也有一些小逆流：住宅抢劫和非枪支/非刀具类武器袭击略有上升。而且 Oakland 的起点很高——即便下降 29%，绝对数字在湾区仍然偏高。但方向是对的。对于考虑在 East Bay 租房或买房的人来说，这组数据至少说明情况在持续改善。&lt;/p&gt;
+
+&lt;p&gt;下一个关注点是夏季。犯罪率通常在天气转暖后回升，Oakland 警方已经表示会在即将到来的假期加强巡逻力度。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/sanfrancisco/news/oakland-crime-drop-2026-1st-quarter-police-data/"&gt;https://www.cbsnews.com/sanfrancisco/news/oakland-crime-drop-2026-1st-quarter-police-data/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kron4.com/news/bay-area/crime-in-oakland-trending-downward-to-start-2026-police-say/"&gt;https://www.kron4.com/news/bay-area/crime-in-oakland-trending-downward-to-start-2026-police-say/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">40a6ff3d-a740-5c27-a67c-416633521d41</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:31 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.cbsnews.com/sanfrancisco/news/oakland-crime-drop-2026-1st-quarter-police-data/</link>
+      <enclosure url="https://assets2.cbsnewsstatic.com/hub/i/r/2026/01/15/45046493-dbb7-4b0d-86e2-b9e8e06cf554/thumbnail/1200x630/d7a214ec6ab3ef6b7cca3c0d9c33c2dd/snapshot-2026-01-14t182835-573.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 30 分钟是自然恢复注意力的甜蜜点——80 项研究元分析锁定「最佳剂量」</title>
+      <description>&lt;p&gt;「出去走走就好了」是最常见的减压建议，也是最模糊的。走多久？在哪走？对哪种认知功能有效？塔斯马尼亚大学的 Cameron Bell 团队在 &lt;em&gt;Journal of Environmental Psychology&lt;/em&gt; 发表了迄今为止最大规模的&lt;strong&gt;注意力恢复理论（Attention Restoration Theory, ART）元分析&lt;/strong&gt;——80 项研究、273 个效应量——终于给出了一个可操作的答案。&lt;/p&gt;
+
+&lt;p&gt;核心发现：自然环境确实比非自然环境更能恢复认知能力，但&lt;strong&gt;效应量在暴露约 30 分钟时达到峰值&lt;/strong&gt;。短于 15 分钟的暴露几乎检测不到显著差异；超过 30 分钟后，恢复曲线趋于平坦——额外时间的边际收益很小。&lt;/p&gt;
+
+&lt;p&gt;更关键的细节在认知域的拆分上。研究考察了 11 个认知域，但只有两个展现了可靠的自然恢复优势：&lt;strong&gt;工作记忆&lt;/strong&gt;和&lt;strong&gt;注意控制&lt;/strong&gt;。认知灵活性也显示了改善趋势，但效果不够稳定。其余域——包括长期记忆、语言流畅性和反应抑制——没有检测到自然暴露的显著增益。&lt;/p&gt;
+
+&lt;p&gt;这个结果很重要，因为它给 ART 理论做了一次「瘦身」。30 年来，人们倾向于把「自然恢复注意力」当作一个笼统的正面效应，仿佛在公园里走一圈就能全方位提升认知。元分析告诉我们，自然主要修复的是&lt;strong&gt;自上而下的注意调控系统&lt;/strong&gt;——你在高强度工作后最先疲劳的那部分。它不会让你背单词更快，也不会改善你的反应速度。&lt;/p&gt;
+
+&lt;p&gt;从实用角度看，这篇论文的价值在于把一个「感觉对」的建议变成了可量化的处方。如果你是知识工作者，在连续两小时的深度工作后感到注意力涣散，最佳策略是：到有植被的户外环境中待 30 分钟，然后回来。不需要远足，不需要冥想，不需要森林浴——城市公园就够了。时间少于 15 分钟则可能白走。&lt;/p&gt;
+
+&lt;p&gt;但要注意效应量本身并不大（总体 small effect），而且研究间异质性相当高。Bell 团队坦承，「自然」的定义在不同研究中差异很大——从虚拟森林视频到实际国家公园都有。这意味着 30 分钟这个数字是一个统计最优点，不是一个精确阈值。&lt;/p&gt;
+
+&lt;p&gt;把这个发现和我们之前讨论的认知卸载研究放在一起，一个实用的「注意力管理工具箱」正在成形：高负荷决策前做认知卸载（把信息外部化），连续工作后用 30 分钟自然暴露恢复注意控制，需要切换思路时考虑 dlPFC 的靶向干预。工具不同，但都指向同一个底层逻辑——注意力是可以被主动管理的有限资源，关键是知道该用什么工具、在什么时间点用。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S027249442500115X"&gt;https://www.sciencedirect.com/science/article/pii/S027249442500115X&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/10937404.2016.1196155"&gt;https://www.tandfonline.com/doi/full/10.1080/10937404.2016.1196155&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">580a93ad-0244-5717-987e-a369a51df8b5</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:45 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.sciencedirect.com/science/article/pii/S027249442500115X</link>
+    </item>
+    <item>
+      <title>🎲 24亿年前，地球上的氧气是一种致命毒气，它杀死了几乎所有生命</title>
+      <description>&lt;p&gt;如果你穿越回24亿年前的地球，第一件要适应的事不是温度，不是重力，而是空气——那时的大气层里几乎没有氧气。甲烷、二氧化碳、氮气构成了主要成分。而当时统治地球的厌氧微生物（anaerobic microorganisms）在这种环境里活得好好的。对它们来说，氧气不是生命之源，而是剧毒物质。&lt;/p&gt;
+
+&lt;p&gt;然后蓝藻（Cyanobacteria）出现了。这种微生物进化出了一项革命性的技能：&lt;strong&gt;产氧光合作用（Oxygenic Photosynthesis）&lt;/strong&gt;——利用阳光将水和二氧化碳转化为能量，副产品是氧气。一开始问题不大，因为地球表面有大量的还原性物质（铁、硫化物等）可以把氧气吸收掉。海洋中的溶解铁和氧气反应，沉淀成氧化铁——这就是今天全球各地红色条带状铁矿层（Banded Iron Formation）的来源，它们是24亿年前那场化学战争的地质遗迹。&lt;/p&gt;
+
+&lt;p&gt;但蓝藻实在太成功了。当地球表面的"氧气海绵"被耗尽后，游离氧开始在大气中积累。这就是&lt;strong&gt;大氧化事件（Great Oxygenation Event, GOE）&lt;/strong&gt;，发生在约24.6亿至24.26亿年前，持续了将近四亿年。到GOE结束时，大气含氧量达到了现代水平的约10%。&lt;/p&gt;
+
+&lt;p&gt;对厌氧生物来说，这是一场灭顶之灾。氧气具有强烈的氧化性，能破坏有机分子的结构。在一个没有任何生物演化出抗氧化防御机制的世界里，氧气就是生化武器。地球生物圈的规模可能缩减了超过80%。这是地球历史上第一次大规模灭绝事件，比恐龙灭绝早了整整22亿年。&lt;/p&gt;
+
+&lt;p&gt;灭绝还只是开始。氧气积累引发了一连串连锁反应，差点让地球彻底冻死。此前大气中的甲烷是主要温室气体，保温效果是二氧化碳的数十倍。当氧气和甲烷发生反应，甲烷被大量氧化成二氧化碳和水——两种温室效果弱得多的气体。温室效应急剧减弱，全球温度骤降。&lt;/p&gt;
+
+&lt;p&gt;结果就是休伦冰期（Huronian Glaciation），从约24.5亿年前持续到约22亿年前，长达三亿年。这可能是地球历史上持续时间最长的冰河时代。有证据表明，冰盖一度延伸到了赤道附近——所谓的"雪球地球"（Snowball Earth）假说认为，整个地球表面可能被冰层覆盖。虽然古地磁证据存在争议，冰川沉积物（混积岩）与碳酸盐岩的交替出现表明气候曾在极寒和温暖之间剧烈摆动。&lt;/p&gt;
+
+&lt;p&gt;整个故事的荒诞之处在于：今天我们视为生命必需品的氧气，在它第一次大规模出现时，扮演的角色是大规模杀伤性武器和气候灾难的触发器。蓝藻并不"想"毁灭世界，它们只是在做光合作用，像今天的工厂排放废气一样排放氧气。一种生物的代谢废物，重塑了整个行星的大气层、海洋化学和气候系统，顺便消灭了绝大多数既有生命。&lt;/p&gt;
+
+&lt;p&gt;从GOE中幸存下来的生物最终演化出了利用氧气的能力——有氧呼吸的效率远高于厌氧代谢，为后来的多细胞生命爆发奠定了能量基础。所以某种意义上，人类能够存在，是因为24亿年前一群微生物把整个地球污染了。这大概是"一个物种的垃圾是另一个物种的宝藏"最极端的版本。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Great_Oxidation_Event"&gt;https://en.wikipedia.org/wiki/Great_Oxidation_Event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://slate.com/technology/2014/07/the-great-oxygenation-event-the-earths-first-mass-extinction.html"&gt;https://slate.com/technology/2014/07/the-great-oxygenation-event-the-earths-first-mass-extinction.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://asm.org/articles/2022/february/the-great-oxidation-event-how-cyanobacteria-change"&gt;https://asm.org/articles/2022/february/the-great-oxidation-event-how-cyanobacteria-change&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41467-021-23286-7"&gt;https://www.nature.com/articles/s41467-021-23286-7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">75cdb509-0041-5625-82f3-b4ab6207c05b</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:54 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Great_Oxidation_Event</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Precambrian_Evolution_of_Life.png/1280px-Precambrian_Evolution_of_Life.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 The ADA Title II Deadline Hits April 24 — Three Weeks to WCAG 2.1 AA Compliance / ADA Title II 合规大限 4 月 24 日到期——距 WCAG 2.1 AA 达标仅剩三周</title>
+      <description>&lt;p&gt;Following up on &lt;a href="https://www.ada.gov/resources/web-rule-first-steps/"&gt;our March 25 coverage&lt;/a&gt; of the ADA Title II accessibility deadline, we're now three weeks out. On &lt;strong&gt;April 24, 2026&lt;/strong&gt;, all U.S. state and local government entities serving populations of 50,000 or more must have their digital services fully compliant with WCAG 2.1 Level AA. Smaller entities get until April 2027. If your product serves any public-sector client, this deadline isn't theoretical anymore.&lt;/p&gt;
+
+&lt;p&gt;The scope is broader than many product teams realize. The rule covers not just websites but &lt;strong&gt;mobile apps, digital forms, PDFs, Word documents, PowerPoint presentations, videos, audio recordings, social media content, course materials, digital kiosks, and internal employee portals&lt;/strong&gt;. Third-party vendor materials used by covered entities must also comply — meaning if your SaaS product is deployed by a state agency, your accessibility is their legal liability.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.accessibility.works/wp-content/uploads/sites/2/2024/04/ada-title-ii-website-accessibility-compliance-requirements-wcag-hero.jpg" alt="ADA Title II compliance requirements illustration showing accessibility standards for state and local government digital services" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;ADA Title II requires WCAG 2.1 AA compliance across all digital touchpoints for state and local government entities.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The technical standard is WCAG 2.1 Level AA, built on the POUR principles: Perceivable (alt text, captions, color contrast), Operable (keyboard navigation, no time traps), Understandable (clear language, predictable navigation), and Robust (works with screen readers and assistive technology). WCAG 2.2 exists and is recommended for future-proofing but isn't legally required yet.&lt;/p&gt;
+
+&lt;p&gt;What catches teams off guard is the document layer. Every PDF, every onboarding slide deck, every internal training video used by a covered entity needs to be accessible. Most organizations discover their biggest compliance gaps aren't on their marketing site — they're in the hundreds of PDFs that were never tagged for screen readers and the embedded videos without captions.&lt;/p&gt;
+
+&lt;p&gt;The DOJ has been explicit about one thing: &lt;strong&gt;overlay widgets don't count&lt;/strong&gt;. Products like AccessiBe and UserWay that inject JavaScript overlays onto non-compliant sites have been repeatedly called out as insufficient. The rule requires fixing underlying code, not cosmetic patches. This is worth flagging for any product team considering an overlay as a shortcut — it won't hold up under DOJ investigation or private lawsuit.&lt;/p&gt;
+
+&lt;p&gt;For product designers specifically, the implication is that accessibility needs to be a first-class design constraint, not a post-launch audit. Practical steps that matter in the next three weeks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Run automated + manual audits now.&lt;/strong&gt; Automated tools (axe, Lighthouse) catch about 30-40% of issues. Manual testing with screen readers (NVDA, VoiceOver) and keyboard-only navigation catches the rest.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prioritize forms and interactive components.&lt;/strong&gt; These are where most compliance failures happen — missing labels, broken tab order, inaccessible date pickers, dropdowns that trap keyboard focus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audit your document pipeline.&lt;/strong&gt; If your product generates or hosts PDFs, check that they have proper heading structure, alt text, and reading order tags.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update vendor contracts.&lt;/strong&gt; If you're a vendor to government entities, expect procurement language requiring WCAG 2.1 AA compliance and a Voluntary Product Accessibility Template (VPAT).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Non-compliance carries real teeth: DOJ investigations, private lawsuits, mandatory remediation orders, and settlement costs that routinely reach six figures. But the business case goes beyond avoiding penalties. &lt;a href="https://www.uxdesigninstitute.com/blog/accessibility-laws-in-april-2026/"&gt;The UX Design Institute notes&lt;/a&gt; that accessibility is becoming a core professional skill, not a specialist niche — the teams that treat it as a design discipline rather than a legal checkbox are building better products for everyone.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;距离 &lt;strong&gt;ADA Title II&lt;/strong&gt; 无障碍合规大限只剩三周。2026 年 4 月 24 日，所有服务人口达 50,000 人以上的美国州和地方政府实体，必须确保其数字服务完全符合 WCAG 2.1 Level AA 标准。较小的实体宽限至 2027 年 4 月。如果你的产品服务任何公共部门客户，这个截止日期已不再是纸面上的事了。&lt;/p&gt;
+
+&lt;p&gt;覆盖范围比很多产品团队意识到的更广。规则涵盖的不仅是网站，还包括&lt;strong&gt;移动应用、数字表单、PDF、Word 文档、PPT、视频、音频、社交媒体内容、课程材料、数字终端和内部员工门户&lt;/strong&gt;。被覆盖实体使用的第三方供应商材料也必须合规——如果你的 SaaS 产品被某个州政府机构部署，你的无障碍问题就是他们的法律责任。&lt;/p&gt;
+
+&lt;p&gt;技术标准是 WCAG 2.1 Level AA，基于 POUR 原则：可感知（替代文本、字幕、色彩对比度）、可操作（键盘导航、无时间陷阱）、可理解（清晰语言、可预测的导航）、健壮性（兼容屏幕阅读器和辅助技术）。WCAG 2.2 已发布，建议采用以做未来准备，但目前法律上不强制。&lt;/p&gt;
+
+&lt;p&gt;最容易被忽略的是文档层。每份 PDF、每份培训幻灯片、每个内部培训视频都需要无障碍化。大多数组织发现最大的合规缺口不在营销网站上——而在那几百份从未为屏幕阅读器做标签的 PDF 和没有字幕的嵌入视频里。&lt;/p&gt;
+
+&lt;p&gt;美国司法部（DOJ）对一件事态度明确：&lt;strong&gt;覆盖层插件不算数&lt;/strong&gt;。AccessiBe、UserWay 这类注入 JavaScript 覆盖层的产品多次被指出不合规。规则要求修复底层代码，而非表面修补。任何考虑用覆盖层走捷径的产品团队都应注意——在 DOJ 调查或私人诉讼面前站不住脚。&lt;/p&gt;
+
+&lt;p&gt;接下来三周，产品团队的实际行动清单：跑一轮自动化加手动审计（自动工具只能发现 30-40% 的问题）；优先审查表单和交互组件——这里是合规失败的重灾区；审计文档流水线，确保 PDF 有正确的标题结构和阅读顺序标签；更新供应商合同，准备好 VPAT。&lt;/p&gt;
+
+&lt;p&gt;违规后果是实打实的：DOJ 调查、私人诉讼、强制修复令，和解费用动辄六位数。不过，合规之外的商业逻辑更值得关注。把无障碍当设计学科而非法律清单来对待的团队，在为所有人做出更好的产品。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.accessibility.works/blog/ada-title-ii-2-compliance-standards-requirements-states-cities-towns/"&gt;https://www.accessibility.works/blog/ada-title-ii-2-compliance-standards-requirements-states-cities-towns/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uxdesigninstitute.com/blog/accessibility-laws-in-april-2026/"&gt;https://www.uxdesigninstitute.com/blog/accessibility-laws-in-april-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ada.gov/resources/web-rule-first-steps/"&gt;https://www.ada.gov/resources/web-rule-first-steps/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://edtech.unc.edu/2025/04/ada-compliance-deadline-april-24-2026/"&gt;https://edtech.unc.edu/2025/04/ada-compliance-deadline-april-24-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4cd54c79-4097-5712-bb00-bc5325ecd065</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:57 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.accessibility.works/blog/ada-title-ii-2-compliance-standards-requirements-states-cities-towns/</link>
+      <enclosure url="https://www.accessibility.works/wp-content/uploads/sites/2/2024/04/ada-title-ii-website-accessibility-compliance-requirements-wcag-hero.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 俄语有两个「蓝」，说俄语的人真的能更快分辨蓝色——语言到底在多大程度上控制思维？</title>
+      <description>&lt;p&gt;1940年代，美国语言学家Benjamin Lee Whorf提出了一个大胆的猜想：语言不只是表达思想的工具，它从根本上塑造了我们的思维方式。他研究了霍皮语（Hopi），声称这种北美原住民语言"没有任何直接指向我们所说的时间的词汇、语法形式或表达"。如果一种语言根本没有过去、现在、未来的区分，那说这种语言的人是否根本以不同的方式理解时间？&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;萨丕尔-沃尔夫假说（Sapir-Whorf Hypothesis）&lt;/strong&gt;，也叫语言相对论（Linguistic Relativity）。它有两个版本：强版本认为语言决定思维，你无法思考你的语言无法表达的概念；弱版本则认为语言影响思维，让某些认知过程变得更容易或更困难。强版本在当代语言学界基本已被否定。但弱版本——最近二十年的实验证据越来越多。&lt;/p&gt;
+
+&lt;p&gt;最漂亮的证据来自颜色。英语只有一个"blue"，但俄语把蓝色强制分成两个完全不同的词：&lt;strong&gt;голубой（goluboy，浅蓝）&lt;/strong&gt;和синий（siniy，深蓝）。这不是可选的修饰词，而是基础色彩词——就像英语中"red"和"orange"是两个不同颜色一样，俄语使用者从小就把浅蓝和深蓝当作两种颜色来认知。&lt;/p&gt;
+
+&lt;p&gt;2007年，MIT的Jonathan Winawer团队在《美国国家科学院院刊》（PNAS）发表了一项精巧的实验。他们让英语母语者和俄语母语者做一个简单的颜色匹配任务：屏幕上方出现一个蓝色方块，下方两个蓝色方块，判断哪个和上方的一样。结果：当两个待选颜色跨越了俄语中goluboy和siniy的分界线时，俄语母语者的反应速度显著更快。而同样的颜色差异对英语母语者没有影响。&lt;/p&gt;
+
+&lt;p&gt;更关键的是对照实验。当研究者让俄语母语者同时执行一个语言干扰任务（在心里复述一串数字），这个优势就消失了。但如果干扰任务是空间性的（记住一个视觉图案），优势依然存在。这说明效果确实是通过语言通道发生的——俄语使用者在辨别蓝色时，大脑在实时调用语言分类系统。Winawer的结论是，语言表征"会干预甚至非常简单的客观知觉决策"。&lt;/p&gt;
+
+&lt;p&gt;颜色不是孤例。亚马逊雨林深处的皮拉罕人（Pirahã）使用一种没有精确数词的语言——只有"少"和"多"的模糊表达，没有"一二三四五"。MIT的Daniel Everett发现，当皮拉罕人需要精确匹配两组物品的数量时，只要其中一组被遮挡，他们的准确率就急剧下降。而当数词被引入村庄后，表现明显改善。Everett认为这涉及三个因素：游牧采集生活中没有计数需求；文化约束禁止对当下之外的事物做概括；语言缺乏递归结构来构建数词系统。&lt;/p&gt;
+
+&lt;p&gt;澳大利亚的Guugu Yimithirr语更极端。这种语言没有"左"和"右"，只用绝对方位（东南西北）来描述空间。说这种语言的人即使在完全陌生的环境中，也能随时准确指出北方——他们的空间认知系统被语言训练成了一个永不关闭的内置指南针。&lt;/p&gt;
+
+&lt;p&gt;这些发现并不意味着语言是思维的牢笼。皮拉罕人学会数词后就能计数；任何人都可以学会新的颜色分类。语言相对论的现代版本更像是一个"认知快捷方式"理论：你的母语为某些认知任务预装了加速器，让某些区分变得自动化、某些联想变得更容易触发。它不决定你能想什么，但它深刻影响了你默认怎么想。这个"默认设置"的差异，可能比我们愿意承认的要大得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pnas.org/doi/10.1073/pnas.0701644104"&gt;https://www.pnas.org/doi/10.1073/pnas.0701644104&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Linguistic_relativity"&gt;https://en.wikipedia.org/wiki/Linguistic_relativity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.mit.edu/2008/language-0624"&gt;https://news.mit.edu/2008/language-0624&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.simplypsychology.org/sapir-whorf-hypothesis.html"&gt;https://www.simplypsychology.org/sapir-whorf-hypothesis.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2e803798-8f96-5d86-aee1-ebcce0c3ebd3</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:33 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.pnas.org/doi/10.1073/pnas.0701644104</link>
+    </item>
+    <item>
+      <title>🎨 Designing for the Multimodal Shift: Voice, Touch, and Vision Are Merging Into One Interaction Layer / 为多模态转变而设计：语音、触控与视觉正在融合为一个交互层</title>
+      <description>&lt;p&gt;While much of the 2026 design conversation has centered on AI-powered tools and generative prototyping, a quieter but equally significant shift is happening in how users interact with products. &lt;strong&gt;Multimodal interfaces&lt;/strong&gt; — where voice, touch, gesture, and visual feedback work together fluidly — are moving from experimental to expected. And most product teams aren't designing for them.&lt;/p&gt;
+
+&lt;p&gt;The pattern is straightforward: users want to use whatever input mode suits the moment. Typing a search query while sitting at a desk, speaking a command while driving, tapping a quick confirmation on a watch, or gesturing in a spatial computing environment. The product that forces users into a single modality — touch-only, voice-only — is starting to feel broken.&lt;/p&gt;
+
+&lt;p&gt;Several forces are converging to make this real. Apple Vision Pro established spatial gesture and gaze-tracking as viable input methods, with visionOS codifying &lt;a href="https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos"&gt;design patterns for eye-tracking targets (60x60pt minimum), spatial audio, and mixed-input navigation&lt;/a&gt;. Voice assistants powered by LLMs have evolved from rigid command-and-response systems into conversational agents that handle ambiguity and context — the &lt;a href="https://www.conversationdesigninstitute.com/blog/predictions-for-conversation-design-2026-and-beyond"&gt;Conversation Design Institute calls this the shift from "answering" to "doing"&lt;/a&gt;, where voice UI doesn't just retrieve information but executes multi-step tasks. Meanwhile, wearables keep adding input surfaces: the Apple Watch's double-tap gesture, AirPods' head-nod confirmation, and ring-based input devices from companies like Oura.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://a.storyblok.com/f/323168/2240x1260/94d3f4c462/9.png/m/1800x0/" alt="Predictions for conversation design showing the evolution from command-based voice UI to multimodal agentic interactions" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The Conversation Design Institute projects that voice-first interfaces will become the default in 2-4 years, with screens serving as fallback rather than primary surface.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;For product designers, this creates a fundamentally different design challenge. You're no longer designing screens — you're designing &lt;strong&gt;interaction contracts&lt;/strong&gt; that specify what happens regardless of which input mode triggers it. A "confirm purchase" action needs to work identically whether the user taps a button, says "yes," nods their head, or pinches in a spatial environment. The visual feedback might differ, but the underlying state machine must be modality-agnostic.&lt;/p&gt;
+
+&lt;p&gt;New roles are emerging to handle this complexity. The Conversation Design Institute identifies four specializations gaining traction: &lt;strong&gt;Knowledge Engineers&lt;/strong&gt; who structure information for AI consumption (taxonomies, knowledge graphs, intent hierarchies), &lt;strong&gt;Model Designers&lt;/strong&gt; who define AI behavior boundaries and tone, &lt;strong&gt;AI Orchestration Designers&lt;/strong&gt; who coordinate handoffs between multiple agents and systems, and &lt;strong&gt;Multimodal Designers&lt;/strong&gt; who create unified interactions spanning chat, voice, gesture, and visual channels.&lt;/p&gt;
+
+&lt;p&gt;The practical design principles that are solidifying:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graceful degradation across modes.&lt;/strong&gt; If speech recognition fails, the interface should seamlessly offer touch or text input without breaking flow. This is the multimodal equivalent of responsive design — your interaction must work on every input surface, not just the primary one.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context-appropriate modality.&lt;/strong&gt; Don't offer voice input in a library; don't require fine-motor touch interaction while the user is walking. The product should suggest the right input mode based on environmental signals.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consistent confirmation patterns.&lt;/strong&gt; Users need the same mental model for "did the system understand me?" across all input types. Whether feedback comes as a visual highlight, haptic pulse, spatial audio cue, or spoken confirmation, the semantic meaning must be identical.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Progressive disclosure of capabilities.&lt;/strong&gt; Most users don't know they can speak to your product, gesture at it, or use it on their watch. Surface multimodal options contextually, not in a feature tour.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The timeline projection from practitioners: we're currently in what the Conversation Design Institute calls the "hybrid hell phase" — products retrofit multimodal capabilities onto screen-first architectures, creating inconsistent experiences. In 2-4 years, voice-first becomes the default and screens become the fallback. In 4-7 years, specialized roles like ephemeral UI designers (interfaces that exist only for the moment they're needed) become standard.&lt;/p&gt;
+
+&lt;p&gt;The teams designing for this shift now — treating modality as a variable rather than a constant — will have a structural advantage. Everyone else will be retrofitting.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;2026 年的设计对话大多聚焦于 AI 工具和生成式原型，但一场同样重要的转变正在悄然发生：&lt;strong&gt;多模态交互&lt;/strong&gt;——语音、触控、手势和视觉反馈流畅协作——正从实验阶段变成用户的默认预期。而大多数产品团队还没有为此做设计。&lt;/p&gt;
+
+&lt;p&gt;逻辑很简单：用户想在每个场景用最适合的输入方式。坐在桌前打字搜索、开车时语音指令、手表上快速确认、或在空间计算环境中做手势。强迫用户只用一种输入方式的产品，越来越让人觉得"坏了"。&lt;/p&gt;
+
+&lt;p&gt;几股力量正在汇聚。Apple Vision Pro 将空间手势和眼球追踪确立为可行的输入方式，visionOS 规范了眼球追踪目标区域（最小 60x60pt）、空间音频和混合输入导航的设计模式。LLM 驱动的语音助手已经从僵化的"命令-响应"系统进化成了能处理模糊请求和上下文的对话智能体——Conversation Design Institute 称之为从"回答"到"执行"的转变，语音 UI 不再只是检索信息，而是执行多步骤任务。与此同时，可穿戴设备不断增加输入面：Apple Watch 的双击手势、AirPods 的点头确认、Oura 等公司的指环输入设备。&lt;/p&gt;
+
+&lt;p&gt;对产品设计师而言，这构成了根本不同的设计挑战。你不再是在设计屏幕——你在设计&lt;strong&gt;交互契约&lt;/strong&gt;（Interaction Contracts），规定不管用户用什么输入方式触发操作，行为都一致。"确认购买"在点击按钮、说"是"、点头、或空间中捏合时，结果必须完全相同。视觉反馈可以不同，但底层状态机必须与模态无关。&lt;/p&gt;
+
+&lt;p&gt;新角色正在出现：Knowledge Engineer（为 AI 消费结构化知识）、Model Designer（定义 AI 行为边界和语气）、AI Orchestration Designer（协调多个 agent 之间的切换和交接）、以及 Multimodal Designer（跨聊天、语音、手势和视觉创建统一交互）。&lt;/p&gt;
+
+&lt;p&gt;正在固化的实践原则：跨模态优雅降级（语音识别失败时无缝提供触控或文字输入）；上下文适配模态（图书馆别推语音，走路时别要精细触控）；一致的确认模式（不管反馈是视觉高亮、触觉脉冲还是语音确认，语义必须相同）；渐进式暴露能力（用上下文提示多模态选项，别搞功能巡览）。&lt;/p&gt;
+
+&lt;p&gt;从业者给出的时间线：当前是"混合地狱阶段"——产品在屏幕优先架构上硬塞多模态能力，体验不一致。2-4 年内语音优先成为默认，屏幕退为后备。4-7 年内，临时 UI 设计师（Ephemeral UI Designer）等专业角色将成为标配。现在就为这场转变做设计的团队，将拥有结构性优势。其余的，都在补课。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.conversationdesigninstitute.com/blog/predictions-for-conversation-design-2026-and-beyond"&gt;https://www.conversationdesigninstitute.com/blog/predictions-for-conversation-design-2026-and-beyond&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos"&gt;https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kardome.com/resources/blog/voice-ai-engineering-the-interface-of-2026/"&gt;https://www.kardome.com/resources/blog/voice-ai-engineering-the-interface-of-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/design-bootcamp/the-rise-of-conversational-interfaces-designing-for-chat-voice-and-multimodal-ai-2de90afb2e46"&gt;https://medium.com/design-bootcamp/the-rise-of-conversational-interfaces-designing-for-chat-voice-and-multimodal-ai-2de90afb2e46&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a809f465-7998-5e19-a84f-2f988dc011bc</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:51 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.conversationdesigninstitute.com/blog/predictions-for-conversation-design-2026-and-beyond</link>
+      <enclosure url="https://a.storyblok.com/f/323168/2240x1260/94d3f4c462/9.png/m/1800x0/" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 太空垃圾正在以多米诺骨牌的方式吞噬近地轨道，而我们可能已经来不及了</title>
+      <description>&lt;p&gt;1978年，NASA科学家Donald Kessler和Burton Cour-Palais发表了一篇论文，标题平淡无奇：《人造卫星的碰撞频率：碎片带的产生》。论文的核心论点却令人不安：控制小行星带演化的碰撞动力学过程，同样适用于近地轨道（Low Earth Orbit, LEO）上的人造物体——而且不需要几十亿年，几十年就够了。&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;凯斯勒综合征（Kessler Syndrome）&lt;/strong&gt;。逻辑很简单：轨道上的物体越多，碰撞概率越高；每次碰撞产生大量碎片；碎片增加了更多碰撞的概率；更多碰撞产生更多碎片——正反馈循环。当碎片密度超过某个临界值，这个链式反应会自我维持，即使人类从此不再发射任何东西，碎片数量也会持续增长。最终结果：某些轨道高度变得完全不可用。&lt;/p&gt;
+
+&lt;p&gt;这不是理论推演。2007年1月11日，中国用一枚动能拦截器以8公里/秒的速度正面撞击了自己的风云一号C气象卫星，进行反卫星武器测试。撞击在865公里高度产生了有记录以来最大的太空碎片云——超过3000块可追踪碎片（高尔夫球大小以上），加上估计4万块更小的不可追踪碎片。这次测试单独贡献了当时已编目碎片总量的很大一部分。&lt;/p&gt;
+
+&lt;p&gt;两年后，2009年2月10日，两颗卫星在西伯利亚上空789公里处以11.7公里/秒的相对速度相撞：正在运行的商业通信卫星Iridium 33和已报废的俄罗斯军事卫星Cosmos 2251。这是有史以来第一次两颗完整卫星意外相撞，产生了超过1800块大型碎片。到2011年，编目碎片超过2000块。15年后的2024年，仍有超过1100块碎片留在轨道上。&lt;/p&gt;
+
+&lt;p&gt;截至2025年，近地轨道上有超过11800颗活跃卫星，其中7135颗属于SpaceX的&lt;strong&gt;Starlink&lt;/strong&gt;星座。可追踪的碎片（10厘米以上）超过36000块。而1厘米以上、足以造成灾难性损坏的碎片估计超过120万块。&lt;/p&gt;
+
+&lt;p&gt;数字背后是一个让人头皮发麻的事实：仅2025年上半年，Starlink卫星就执行了144404次碰撞规避机动。这意味着每隔大约两分钟，就有一颗Starlink卫星在躲避可能的撞击——日夜不停，持续六个月。这个频率是前六个月的三倍。&lt;/p&gt;
+
+&lt;p&gt;最新的研究结论更加不乐观：在400公里到1000公里的所有高度上，目前的完整物体数量已经超过了不稳定阈值；在520公里到1000公里的几乎所有高度上，已经超过了失控阈值。换句话说，按照某些模型，凯斯勒综合征不是"可能发生"，而是"已经在发生"——只是链式反应的速度还很慢，以十年而非小时为单位展开。&lt;/p&gt;
+
+&lt;p&gt;目前的应对方案包括：强制要求卫星在寿命结束后25年内脱轨烧毁（许多老卫星并不遵守）、ESA等机构推进主动碎片清除技术、以及国际层面的碎片减缓准则。但清除技术仍处于原型阶段，而新卫星的发射速度远超任何清除能力。Kessler本人在后来的访谈中指出，人们常常误解他的理论——凯斯勒综合征不会突然"爆发"，它更像是慢性病，温度在缓慢上升，等你感觉到症状时，治疗已经极其困难。近地轨道是人类唯一经济可行的卫星轨道资源，一旦失去，没有备份。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Kessler_syndrome"&gt;https://en.wikipedia.org/wiki/Kessler_syndrome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/2009_satellite_collision"&gt;https://en.wikipedia.org/wiki/2009_satellite_collision&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/2007_Chinese_anti-satellite_missile_test"&gt;https://en.wikipedia.org/wiki/2007_Chinese_anti-satellite_missile_test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spectrum.ieee.org/kessler-syndrome-space-debris"&gt;https://spectrum.ieee.org/kessler-syndrome-space-debris&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2024/12/27/science/space-junk-earth-kessler-syndrome"&gt;https://www.cnn.com/2024/12/27/science/space-junk-earth-kessler-syndrome&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">351433f1-bd43-5593-a7b5-71a9ea73643c</guid>
+      <pubDate>Fri, 03 Apr 2026 08:05:11 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Kessler_syndrome</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Debris-GEO1280.jpg/1280px-Debris-GEO1280.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 用刷子刷一只假手两分钟，你的大脑就会认为那只假手是你的——而且你拦不住</title>
+      <description>&lt;p&gt;1998年，心理学家Matthew Botvinick和Jonathan Cohen在《Nature》上发表了一篇只有半页长的论文，描述了一个简单到荒谬的实验：让受试者把一只手藏在挡板后面，把一只橡胶假手放在面前可见的位置。实验者同时用两把刷子，以相同的节奏和方向，分别刷受试者的真手和面前的假手。不到两分钟，大多数受试者报告了一种不可思议的感觉——他们开始觉得那只假手是自己的。&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;橡胶手错觉（Rubber Hand Illusion, RHI）&lt;/strong&gt;，神经科学史上最简洁也最深刻的实验之一。它揭示的问题直指自我意识的根基：你凭什么认为你的身体是"你的"？&lt;/p&gt;
+
+&lt;p&gt;错觉的机制涉及大脑的多感觉整合系统。当视觉信息（看到假手被刷）和触觉信息（感到真手被刷）在时间上完美同步时，大脑面临一个矛盾：眼睛说"面前这只手正在被触碰"，触觉说"我的手正在被触碰"。为了消解矛盾，大脑选择了一个惊人的解决方案——直接修改身体地图，把假手纳入自我表征。这个过程发生在前运动皮层（premotor cortex）和顶叶皮层（parietal cortex），这两个区域负责整合视觉和身体感觉来构建"物理自我"的内部模型。&lt;/p&gt;
+
+&lt;p&gt;错觉有多真实？研究者测量了一个叫做&lt;strong&gt;本体感觉漂移（proprioceptive drift）&lt;/strong&gt;的现象：让受试者闭眼指向自己被藏起来的真手，结果他们系统性地指偏——偏向假手的方向。大脑不仅在主观上"认领"了假手，还在神经计算层面重新校准了真手的位置。更惊人的是威胁反应：当实验者突然拿刀刺向假手时，受试者的皮肤电导率（skin conductance）会跳升——这是真实的恐惧生理反应。大脑已经把假手当成了需要保护的"自己的一部分"。&lt;/p&gt;
+
+&lt;p&gt;对照条件也很清晰：如果两把刷子的节奏不同步（异步刷刷），错觉就不会发生。这证明关键不是视觉本身，而是视觉和触觉的时间关联性。大脑在不断做贝叶斯推断——"如果我看到的触碰和我感到的触碰总是同时发生，那么最合理的解释就是它们来自同一只手。"&lt;/p&gt;
+
+&lt;p&gt;Botvinick和Cohen打开的大门远不止一只假手。2008年，斯德哥尔摩卡罗林斯卡研究所的Valeria Petkova和Henrik Ehrsson把实验升级到了全身。32名受试者戴上连接到人体模型头部摄像头的VR头盔，通过人体模型的视角看世界。当实验者同时触碰受试者和人体模型的身体时，受试者产生了完整的"灵魂出窍"式体验——他们觉得自己"住在"了人体模型里。证据：当刀子指向人体模型的手臂时，受试者出现应激反应；但当刀子指向他们自己的真实手臂时，反应反而较弱。大脑已经把"自我"搬了家。&lt;/p&gt;
+
+&lt;p&gt;这些发现有直接的临床意义。截肢患者常遭受幻肢痛（phantom limb pain）——一种来自不存在的肢体的剧烈疼痛。橡胶手错觉的框架提供了一个治疗思路：通过同步的感觉反馈，让大脑接受假肢或虚拟肢体为"自己的"，从而消解感觉冲突，缓解疼痛。VR辅助的身体所有权疗法已经进入临床试验阶段。&lt;/p&gt;
+
+&lt;p&gt;橡胶手错觉最令人不安的启示可能是这个：你对自己身体的"所有权"感——那种理所当然的"这是我的手、我的脚"的确定感——并不是某种不可动摇的基石。它是大脑实时计算的结果，一个不断被感觉输入更新的假设。两把刷子、两分钟，就能改写这个假设。我们对"自我"边界的感知，远比我们以为的更加脆弱和可塑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/35784"&gt;https://www.nature.com/articles/35784&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1395356/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC1395356/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://scienceinsights.org/the-rubber-hand-illusion-how-the-brain-creates-ownership/"&gt;https://scienceinsights.org/the-rubber-hand-illusion-how-the-brain-creates-ownership/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2008/12/081202115148.htm"&gt;https://www.sciencedaily.com/releases/2008/12/081202115148.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4cd99a9b-f74e-5dae-afe3-2677a7562eb7</guid>
+      <pubDate>Fri, 03 Apr 2026 08:05:51 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.nature.com/articles/35784</link>
     </item>
   </channel>
 </rss>

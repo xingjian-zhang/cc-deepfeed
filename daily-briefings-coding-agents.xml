@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:03:33 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -75,6 +75,111 @@
       <category>coding-agents</category>
       <link>https://www.infoq.com/news/2026/04/pinterest-mcp-ecosystem/</link>
       <enclosure url="https://res.infoq.com/news/2026/04/pinterest-mcp-ecosystem/en/headerimage/pininterestarch-1774143632607.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 Cursor 3 正式发布：多智能体并行执行、Design Mode 与 /best-of-n 重新定义编程 IDE</title>
+      <description>&lt;h2&gt;从代码编辑器到智能体调度中心&lt;/h2&gt;
+&lt;p&gt;4 月 2 日，Anysphere 正式发布 Cursor 3.0，这不是一次常规版本更新，而是对"编程 IDE 应该长什么样"的根本重新定义。新版本将界面核心从传统的编辑器布局转向了&lt;strong&gt;智能体调度中心&lt;/strong&gt;——开发者现在可以同时运行多个 AI 智能体，跨仓库、跨环境（本地、worktree、云端、远程 SSH）并行执行任务。&lt;/p&gt;
+
+&lt;h2&gt;Agents Window：多智能体并行的操作台&lt;/h2&gt;
+&lt;p&gt;新增的 Agents Window（⌘+Shift+P 激活）是 Cursor 3 的核心交互面。开发者输入自然语言描述需求，指定使用的 LLM 模型，系统自动调度智能体完成任务。云端智能体可以利用更强的硬件资源并行运行，本地智能体则负责代码编辑和测试。两者通过统一侧边栏集中管理。&lt;/p&gt;
+&lt;p&gt;值得注意的是，Cursor 3 同时&lt;strong&gt;从 Editor 中移除了云端智能体&lt;/strong&gt;——云端执行被完全收拢到 Agents Window，而传统编辑器保留为纯本地开发环境。这一设计选择清晰地划分了"深度编码"和"智能体调度"两种工作模式。&lt;/p&gt;
+
+&lt;h2&gt;Agent Tabs 与 /best-of-n：竞争式开发&lt;/h2&gt;
+&lt;p&gt;Agent Tabs 允许多个对话窗口并排或网格排列显示，开发者可以同时观察多个智能体的工作进度。更有趣的是全新的 &lt;code&gt;/best-of-n&lt;/code&gt; 命令——它将同一任务在多个模型上并行执行，每个模型在独立的 git worktree 中工作，最后对比结果让开发者选择最优方案。&lt;/p&gt;
+&lt;p&gt;这是编程智能体领域首次将"竞争式执行"作为一等公民功能推出。此前开发者需要手动在不同工具间切换对比，现在 Cursor 将这个流程自动化并内置到 IDE 中。配合 &lt;code&gt;/worktree&lt;/code&gt; 命令（在隔离的 git worktree 中执行变更），每次实验都不会污染主分支。&lt;/p&gt;
+
+&lt;h2&gt;Design Mode：前端开发的交互革命&lt;/h2&gt;
+&lt;p&gt;Design Mode（⌘+Shift+D）允许开发者直接在浏览器中标注和选择 UI 元素，然后将其发送到智能体对话中。支持 Shift+拖拽选区、⌘+L 将元素添加到对话、⌥+点击将元素添加到输入框。这种"所见即所改"的交互模式大幅缩短了前端迭代周期——开发者不再需要用文字描述"页面左上角那个按钮"，直接点击即可。&lt;/p&gt;
+
+&lt;h2&gt;竞争格局影响&lt;/h2&gt;
+&lt;p&gt;Cursor 3 的发布时间耐人寻味——距离 Composer 2 模型风波（被发现基于月之暗面 Kimi 2.5 微调而未声明）仅过去一周。Anysphere 显然选择用产品力回应信任危机。&lt;/p&gt;
+&lt;p&gt;从产品定位看，Cursor 3 正在与 Claude Code 形成差异化：Claude Code 走"终端原生+深度自主"路线，Cursor 则走"IDE 可视化+多智能体调度"路线。两者的共同趋势是都在向 git worktree 隔离执行靠拢——Claude Code 的 Agent SDK 和 Cursor 的 /worktree 命令殊途同归。&lt;/p&gt;
+&lt;p&gt;对于 Cursor 的 500 亿美元估值融资而言，Cursor 3 是一剂强心针。ARR 突破 20 亿美元的基础上，多智能体并行执行和 Design Mode 为其"不只是 IDE，而是开发平台"的叙事提供了更有说服力的产品证据。但 Composer 2 依赖第三方模型微调的事实也提醒市场——Cursor 的护城河在产品整合而非模型自研。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://cursor.com/changelog"&gt;https://cursor.com/changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/"&gt;https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0f2c32f2-b41f-5bdb-8ea7-605876f47e27</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:31 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://cursor.com/changelog</link>
+      <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 GitHub Copilot SDK 公开预览：从代码补全到智能体运行时平台</title>
+      <description>&lt;h2&gt;从工具到平台的关键一步&lt;/h2&gt;
+&lt;p&gt;4 月 2 日，GitHub 宣布 Copilot SDK 进入公开预览。这不是一个简单的 API 封装——它将驱动 Copilot 云端智能体和 Copilot CLI 的&lt;strong&gt;同一套生产级智能体运行时&lt;/strong&gt;开放给第三方开发者。工具调用、流式输出、文件操作、多轮会话，全部开箱即用。&lt;/p&gt;
+&lt;p&gt;SDK 覆盖五种语言：Node.js/TypeScript、Python、Go、.NET，以及新增的 Java（通过 Maven 分发）。更激进的是定价策略——&lt;strong&gt;所有用户均可使用&lt;/strong&gt;，包括 Copilot Free 个人用户和企业 BYOK（自带密钥）用户。GitHub 显然在用开放策略换取平台锁定。&lt;/p&gt;
+
+&lt;h2&gt;云端智能体不再局限于 PR 工作流&lt;/h2&gt;
+&lt;p&gt;同日发布的另一个重要更新：Copilot 云端智能体（原 Copilot coding agent）&lt;strong&gt;不再限于 Pull Request 工作流&lt;/strong&gt;。此前，云端智能体的使用场景被锁定在"收到 Issue → 创建分支 → 提交 PR"的固定流程中。现在，Copilot 可以在不创建分支的情况下直接在现有分支上工作，开发者也可以先让 Copilot 生成实现计划、审核方案后再动手写代码。&lt;/p&gt;
+&lt;p&gt;这一变化的意义在于：Copilot 云端智能体从"自动化 PR 机器人"升级为"通用开发助手"。开发者可以将其用于探索性编码、架构设计、代码审查等更广泛的场景，而不仅仅是修 bug 和实现 feature。&lt;/p&gt;
+
+&lt;h2&gt;平台化竞争的新维度&lt;/h2&gt;
+&lt;p&gt;Copilot SDK 的推出让编程智能体的竞争从"谁的智能体更强"扩展到"谁的智能体生态更丰富"。对比竞品：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI Codex&lt;/strong&gt;：走插件目录路线，4 月更新后 plugins 成为一等公民，但插件生态仍在早期&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cursor&lt;/strong&gt;：走 IDE 内置路线，智能体能力被封装在 Cursor 产品内部&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code&lt;/strong&gt;：走 Agent SDK + MCP 协议路线，通过开放协议而非 SDK 连接第三方工具&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Copilot&lt;/strong&gt;：现在走 SDK 运行时路线，让第三方直接嵌入 Copilot 的智能体内核&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;四种路线各有取舍。GitHub 的优势在于其天然的开发者分发渠道——1.5 亿开发者账户和遍布企业的 GitHub Enterprise 部署。如果第三方开发者工具开始内嵌 Copilot SDK，GitHub 就能在不需要用户切换工具的情况下渗透到整个开发工具链。&lt;/p&gt;
+
+&lt;h2&gt;对开发者的实际影响&lt;/h2&gt;
+&lt;p&gt;SDK 公开预览意味着开发者可以开始构建基于 Copilot 运行时的自定义智能体。典型场景包括：将 Copilot 智能体嵌入内部 DevOps 平台、构建特定领域的代码生成工具、在 CI/CD 流水线中集成智能体决策能力。&lt;/p&gt;
+&lt;p&gt;但需要注意的是，SDK 目前仍处于预览阶段，API 可能发生变化。对于生产环境部署，建议等待正式 GA。此外，SDK 的智能体能力依赖于 GitHub 的云端基础设施，对于有数据主权要求的企业需要评估合规风险。&lt;/p&gt;
+&lt;p&gt;从更宏观的角度看，Copilot SDK 的推出标志着编程智能体正在从"单体应用"向"可组合平台"演进。正如容器运行时（Docker/containerd）催生了云原生生态，智能体运行时的标准化和开放化可能催生一个全新的"智能体原生"开发工具生态。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/"&gt;https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/"&gt;https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4a2f4963-695a-5d37-8d44-f24f1d18f4b6</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:01 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/</link>
+      <enclosure url="https://github.blog/wp-content/uploads/2026/04/SDK_Header_02.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 Devin 4 月大更新：跨会话 PR 续写、实时终端流与 Preview Agent 流式思考</title>
+      <description>&lt;h2&gt;从"一次性会话"到"持续工程协作"&lt;/h2&gt;
+&lt;p&gt;Cognition 在 4 月 1 日为 Devin 推送了一次密集更新，其中最值得关注的变化是&lt;strong&gt;跨会话 PR 续写&lt;/strong&gt;（PR resuming across sessions）。此前，Devin 的每次会话都是独立的——如果一个 PR 没有在单次会话中完成，开发者需要重新描述上下文。现在，Devin 可以在新会话中接续之前的 PR 工作，保留完整的修改历史和决策上下文。&lt;/p&gt;
+&lt;p&gt;这一功能的推出意味着 Devin 正在从"一次性任务执行器"向"持续工程协作者"转变。对于复杂的重构任务或需要多轮代码评审的 PR，开发者可以跨越多个工作日与 Devin 协作，而不必每次都从零开始。&lt;/p&gt;
+
+&lt;h2&gt;Preview Agent：流式思考与速度优先&lt;/h2&gt;
+&lt;p&gt;3 月 27 日引入的 Preview Agent Toggle 在 4 月继续迭代。这个新的智能体模式启用了&lt;strong&gt;流式思考&lt;/strong&gt;（streaming thoughts）——开发者可以实时观察 Devin 的推理过程，而不是等待最终结果。配合实时终端输出流（real-time terminal output streaming），整个开发过程变得更加透明。&lt;/p&gt;
+&lt;p&gt;Cognition 坦诚地标注 Preview Agent 仍有稳定性问题，但选择提前开放给用户。这种"先发布再迭代"的策略与 Cursor 的做法类似——在编程智能体的军备竞赛中，速度往往比完美更重要。&lt;/p&gt;
+
+&lt;h2&gt;代码评审体验升级&lt;/h2&gt;
+&lt;p&gt;4 月更新在代码评审方面做了多项改进：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;"剩余待审行数"计数器&lt;/strong&gt;：让开发者清楚知道评审进度&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;并行查询优化&lt;/strong&gt;：加速评审过程中的代码分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PR 评论增强&lt;/strong&gt;：现在包含行号信息和 diff 之外的上下文，让评论更加精确&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些改进针对的是 Devin 目前最成功的使用场景——作为团队的"虚拟初级工程师"处理 PR。Goldman Sachs 等企业已经将 Devin 作为"混合团队"的一员，这些评审体验的细节打磨直接影响企业客户的日常使用。&lt;/p&gt;
+
+&lt;h2&gt;内联文件预览与 Focus Mode&lt;/h2&gt;
+&lt;p&gt;HTML、PDF 和 SVG 附件现在可以在会话侧边栏中安全地内联渲染，支持代码/渲染视图切换和下载按钮。新增的 Focus Mode（⌘+Shift+F）隐藏侧边栏、头部和右面板，提供无干扰的对话环境。&lt;/p&gt;
+&lt;p&gt;此外，Jira 集成也得到深化——支持直接从 Jira 创建 Devin 会话、服务账户和项目级触发器。加上此前已有的 Linear 和 Slack 集成，Devin 正在将自己嵌入企业开发工作流的每一个环节。&lt;/p&gt;
+
+&lt;h2&gt;与竞品的差异化定位&lt;/h2&gt;
+&lt;p&gt;对比 Cursor 3 的"多智能体并行调度"和 Claude Code 的"终端深度自主"，Devin 的差异化越来越清晰：它是唯一一个以&lt;strong&gt;"异步团队成员"&lt;/strong&gt;定位的编程智能体。其他工具要求开发者在场交互，Devin 则可以独立接收任务、提交 PR、回应评审意见。&lt;/p&gt;
+&lt;p&gt;跨会话 PR 续写进一步强化了这一定位。当 Devin 能够像人类工程师一样跨越多天持续跟进一个 PR 时，"AI 团队成员"就不再只是营销话术，而是实际的工作流模式。定价上，Core 计划（按量付费，$2.25/ACU）降低了入门门槛，但 Team 计划（$500/月含 250 ACU）才是 Cognition 的营收重心。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://docs.devin.ai/release-notes/overview"&gt;https://docs.devin.ai/release-notes/overview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d1f9b6e5-1a52-55c8-bfd3-c3d6b5cc9e71</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:33 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://docs.devin.ai/release-notes/overview</link>
+      <enclosure url="https://cognitionai.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAll%2BRelease%2BNotes%26title%3DRecent%2BUpdates%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26primaryColor%3D%25233CA4F2%26lightColor%3D%25233CA4F2%26darkColor%3D%25233CA4F2%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230a0c10&amp;amp;w=1200&amp;amp;q=100" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

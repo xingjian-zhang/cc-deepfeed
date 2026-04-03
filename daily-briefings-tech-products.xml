@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:04:03 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -113,6 +113,105 @@
       <category>tech-products</category>
       <link>https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone</link>
       <enclosure url="https://www.geeky-gadgets.com/wp-content/uploads/2026/04/WWDC.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Google 无屏 Fitbit 手环曝光：Gemini 健康教练加持，Steph Curry 率先上手</title>
+      <description>&lt;p&gt;Bloomberg 4月1日报道，Google 正在开发一款&lt;strong&gt;无屏幕 Fitbit 手环&lt;/strong&gt;，直接对标 Whoop 和 Oura 在健康追踪领域的地位。NBA 球星 Stephen Curry 已在 Instagram 上率先佩戴展示，配文暗示「重新定义你和健康的关系」，几乎坐实了产品即将发布。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.androidauthority.com/wp-content/uploads/2026/03/Google-screen-free-fitbit-stephen-curry.jpg" alt="Stephen Curry 佩戴 Google 无屏 Fitbit 手环" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Stephen Curry 在 Instagram 上展示的无屏 Fitbit 原型（图源：Android Authority）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;从曝光图来看，手环采用灰色织物表带搭配橙色内衬，外观与 Whoop 4.0 相似度极高。没有屏幕意味着所有数据交互都在手机 App 端完成——而这里正是 Google 的杀手锏：新版 Fitbit App 内置 &lt;strong&gt;Gemini 驱动的 AI 健康教练&lt;/strong&gt;，能针对心理健康、恢复状态、营养摄入、水分补充和经期追踪提供个性化分析建议。&lt;/p&gt;
+
+&lt;p&gt;商业模式上，Google 选择了「硬件付费 + 订阅解锁」的混合路线：用户先购买手环硬件，高级功能（推测包括 Gemini 教练的深度分析）需额外订阅。这和 Whoop 的纯订阅模式（硬件免费、月费 30 美元起）形成直接对比——对不喜欢「租设备」感觉的用户来说，Google 的方案可能更有吸引力。&lt;/p&gt;
+
+&lt;p&gt;无屏手环赛道正在快速升温。Garmin CIRQA 已经跳票数月（从2月传到3月再到现在的 Q2），Polar Loop 和 Amazfit Helio Strap 也在布局。但 Google 手握两张独特的牌：一是 Gemini 大模型在健康数据分析上的潜力远超传统算法，二是 Fitbit 品牌在大众消费者中的认知度仍然高于 Whoop 这类偏运动员的品牌。关键问题是定价——如果硬件 + 年订阅总成本能控制在 Whoop 之下，这个品类可能迎来第一个真正的大众化产品。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze"&gt;https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidauthority.com/google-screenless-fitbit-whoop-rival-3653884/"&gt;https://www.androidauthority.com/google-screenless-fitbit-whoop-rival-3653884/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomsguide.com/wellness/fitness-trackers/google-just-gave-us-a-sneak-peek-of-its-screenless-fitbit-band-and-whoop-should-be-worried"&gt;https://www.tomsguide.com/wellness/fitness-trackers/google-just-gave-us-a-sneak-peek-of-its-screenless-fitbit-band-and-whoop-should-be-worried&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b133d432-fe75-5934-92a4-b2cae4ede1c7</guid>
+      <pubDate>Fri, 03 Apr 2026 08:02:49 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze</link>
+      <enclosure url="https://www.androidauthority.com/wp-content/uploads/2026/03/Google-screen-free-fitbit-stephen-curry.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 RTX 5060 评测解禁：性能约等于 RTX 3070，但 8GB 显存让评测人集体翻脸</title>
+      <description>&lt;p&gt;GamersNexus 发布了 RTX 5060 的「禁令评测」（Forbidden Review），结论一句话概括：&lt;strong&gt;别买&lt;/strong&gt;。这张定价 299 美元的显卡性能大致与 2020 年发布的 RTX 3070 持平，比 RTX 4060 快 6%-27%（多数场景约 20%），比 RTX 3060 快 34%-49%。账面数字看起来还行，但问题出在显存上。&lt;/p&gt;
+
+&lt;p&gt;8GB GDDR7——这是 RTX 5060 最致命的硬伤。GamersNexus 在《龙之信条 2》1440p 测试中录得 57 FPS，勉强追平 RTX 4060 Ti 16GB。但在更多需要大纹理的游戏中，8GB 显存已经开始成为瓶颈，而且这个问题只会随时间恶化。Steve Burke 直言：「从 2016 年的 GTX 1060 6GB 到 2026 年的 RTX 5060 8GB，十年时间显存只多了 33%。」&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.mos.cms.futurecdn.net/mhCxvbV9KM4P9KqNcjtWaR-2243-80.jpg" alt="RTX 5060 显卡" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;RTX 5060 实物（图源：Tom's Guide）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;实际售价也偏离了 MSRP。GamersNexus 在 Newegg 上以 330 美元购入，台湾市场报价约 360 美元。而 eBay 上二手 RTX 3070 只要 270-320 美元，性能几乎一样；RTX 3060 Ti 二手价 150-260 美元，能达到 RTX 5060 约 93% 的性能。花更多钱买一张新卡，性能跟五年前的旧卡差不多——这笔账怎么算都不划算。&lt;/p&gt;
+
+&lt;p&gt;评测人的替代推荐指向 &lt;strong&gt;AMD RX 9060 XT&lt;/strong&gt;，它提供 16GB 和 8GB 两种版本。同价位段能拿到双倍显存，这让 Nvidia 在入门级市场的处境相当尴尬。之前我们跟踪的 RTX 5060 线程预期 5 月 19 日发售，但现在评测已经解禁、各渠道开始铺货，实际上市节奏明显提前。Nvidia 在高端 RTX 5090/5080 上风光无限，但在这个最走量的价位段，8GB 的决策正在被市场惩罚。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks"&gt;https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.club386.com/nvidia-geforce-rtx-5060-review/"&gt;https://www.club386.com/nvidia-geforce-rtx-5060-review/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.thefpsreview.com/2026/03/23/nvidia-geforce-rtx-5060-ti-16gb-vs-8gb-performance-review/"&gt;https://www.thefpsreview.com/2026/03/23/nvidia-geforce-rtx-5060-ti-16gb-vs-8gb-performance-review/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ea3451db-6b32-5664-8e3f-372c7864041d</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:12 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/mhCxvbV9KM4P9KqNcjtWaR-2243-80.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 iPhone 18 Pro 泄露汇总：深红配色取代黑色、分阶段发售、标准款或推迟到2027</title>
+      <description>&lt;p&gt;过去48小时，iPhone 18 系列的泄露密度明显上升。综合微博爆料人 WhyLab 和 Android Headlines 的信息，几个关键变化正在浮现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;配色大变动：黑色再次缺席。&lt;/strong&gt;iPhone 18 Pro 和 Pro Max 很可能不会提供黑色选项，取而代之的是一种深红色（接近勃艮第酒红或紫调红）和一种咖啡色。苹果从 iPhone 15 Pro 开始就在逐步淡化纯黑选项，这次算是彻底告别。对于大量使用深色手机壳的用户来说影响有限，但裸机党恐怕要失望了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;硬件升级清单逐渐清晰。&lt;/strong&gt;Dynamic Island 缩小约 35%——苹果开始把部分 Face ID 组件（红外泛光照明器）移到屏幕底部，这是我们此前跟踪的 iPhone 18 Pro 线程中最确定的变化之一。主摄引入可变光圈镜头，用户可以手动调节进光量，这在手机摄影中算是少见的物理层面升级。电池方面，eSIM 版 Pro Max 容量跳到 5100-5200mAh，搭配 TSMC 2nm 制程的 A20 Pro 芯片，续航应该会有明显提升。前摄也从 12MP 升级到 24MP。&lt;/p&gt;
+
+&lt;p&gt;最值得关注的是发售策略变化。Sunday Guardian 引述供应链消息称，苹果可能首次&lt;strong&gt;分阶段发布&lt;/strong&gt;：iPhone 18 Pro / Pro Max 按惯例 9 月上市，而标准版 iPhone 18 和 iPhone 18e 推迟到 2027 年春季。这不是苹果第一次考虑错峰发布（iPhone 14 Plus 就曾延后），但把标准款推迟半年是前所未有的。官方理由可能是「产能管理」和「分散市场注意力」，但更现实的猜测是苹果 C2 自研基带的量产进度——Pro 款优先搭载成熟的 C2 基带，标准款等产能爬坡。&lt;/p&gt;
+
+&lt;p&gt;如果这个分阶段策略属实，它对苹果的营收节奏影响不小：原本 Q4 集中爆发的 iPhone 销量会被摊到两个季度，华尔街的财报预期模型需要重写。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.androidheadlines.com/2026/04/fresh-iphone-18-pro-leak-killed-the-black-color-dream-yet-again.html"&gt;https://www.androidheadlines.com/2026/04/fresh-iphone-18-pro-leak-killed-the-black-color-dream-yet-again.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sundayguardianlive.com/tech-news/iphone-18-release-date-leak-apple-may-split-launch-into-phases-with-pro-models-first-standard-models-delayed-to-2027-check-expected-date-price-features-specifications-more-180716/"&gt;https://sundayguardianlive.com/tech-news/iphone-18-release-date-leak-apple-may-split-launch-into-phases-with-pro-models-first-standard-models-delayed-to-2027-check-expected-date-price-features-specifications-more-180716/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.macworld.com/article/2953687/iphone-18-pro-2026-release-date-design-specs-rumors.html"&gt;https://www.macworld.com/article/2953687/iphone-18-pro-2026-release-date-design-specs-rumors.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geeky-gadgets.com/iphone-18-details-leaked/"&gt;https://www.geeky-gadgets.com/iphone-18-details-leaked/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0412897e-44ed-5dcc-abbf-172c1181f76f</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:39 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.androidheadlines.com/2026/04/fresh-iphone-18-pro-leak-killed-the-black-color-dream-yet-again.html</link>
+      <enclosure url="https://www.androidheadlines.com/wp-content/uploads/2025/11/Apple-iPhone-17-Pro-Max-AH-4.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Pixel 11 Pro XL CAD 渲染图泄露：全玻璃相机模组回归 Pixel 6 风格，体温传感器消失</title>
+      <description>&lt;p&gt;继3月底 OnLeaks 放出 Pixel 11 基础款渲染图之后，9to5Google 4月2日又曝光了 &lt;strong&gt;Pixel 11 Pro XL&lt;/strong&gt; 的完整 CAD 渲染。结论有些无聊：这是一次极其保守的迭代。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5google.com/wp-content/uploads/sites/4/2026/04/Pixel-11-Pro-XL-leak-1.jpg?quality=82&amp;strip=all" alt="Pixel 11 Pro XL CAD 渲染图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Pixel 11 Pro XL CAD 渲染（图源：9to5Google / OnLeaks）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;机身尺寸 162.7 x 76.5 x 8.5mm，与 Pixel 10 Pro XL 相比长度和宽度各缩了约 0.1mm，厚度不变——肉眼完全看不出区别。6.8 英寸 LTPO AMOLED 屏幕规格也基本维持原样。9to5Google 直接把标题写成了「最无聊的泄露」。&lt;/p&gt;
+
+&lt;p&gt;唯一值得说的设计变化在背面：相机模组从 Pixel 10 系列的铝合金遮罩换回了&lt;strong&gt;全玻璃材质&lt;/strong&gt;，风格更接近当年 Pixel 6 的标志性「相机条」设计。这可能不只是审美取向——玻璃材质对无线充电信号的干扰更小，如果 Google 计划强化反向无线充电功能，换材质就说得通。&lt;/p&gt;
+
+&lt;p&gt;一个有趣的细节：Pixel 10 Pro XL 上放在 LED 闪光灯旁边的皮肤温度传感器，在 Pixel 11 Pro XL 的渲染图中&lt;strong&gt;找不到了&lt;/strong&gt;。可能是移到了内部（类似 Apple Watch 的底部传感器方案），也可能被砍掉了。考虑到 Google 当初为这个功能投入了 FDA 认证的精力，完全取消的可能性不大。&lt;/p&gt;
+
+&lt;p&gt;芯片方面，整个 Pixel 11 系列将搭载 &lt;strong&gt;Tensor G6&lt;/strong&gt;，此前传闻采用 TSMC 2nm 制程。更关键的变化在基带：Google 放弃了三星基带，转投 MediaTek M90。这意味着 Pixel 系列长期被诟病的信号质量问题终于有望改善——三星基带一直是 Pixel 用户投诉的重灾区。预计 8 月的 Made by Google 活动上正式发布。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/"&gt;https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/03/30/google-pixel-11-first-render-lea/"&gt;https://9to5google.com/2026/03/30/google-pixel-11-first-render-lea/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.notebookcheck.net/Google-Pixel-11-Pro-XL-leaks-with-modernized-design-but-loses-sensor.1265060.0.html"&gt;https://www.notebookcheck.net/Google-Pixel-11-Pro-XL-leaks-with-modernized-design-but-loses-sensor.1265060.0.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">421345fe-20c8-5565-ab5f-a7b19c2fac2c</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:03 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/</link>
+      <enclosure url="https://9to5google.com/wp-content/uploads/sites/4/2026/04/Pixel-11-Pro-XL-leak-1.jpg?quality=82&amp;strip=all" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

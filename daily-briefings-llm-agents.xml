@@ -4,7 +4,7 @@
     <title>LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 02:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 08:04:27 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
@@ -115,6 +115,109 @@
       <category>llm-agents</category>
       <link>https://arxiv.org/abs/2603.29194</link>
       <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 Agent Q-Mix：用 MARL 让多 Agent 自己学会何时沟通——UCLA 团队提出拓扑选择即合作博弈</title>
+      <description>&lt;p&gt;多 Agent 系统最头疼的问题之一：Agent 之间该不该说话、跟谁说、什么时候说？固定拓扑（全连接、星型、链式）要么浪费 token，要么错过关键信息。UCLA Ying Nian Wu 组 4 月 1 日挂出的 &lt;strong&gt;Agent Q-Mix&lt;/strong&gt;（arXiv 2604.00344）给出了一个干脆的回答——把拓扑选择建模为合作 MARL 问题，让 Agent 自己学。&lt;/p&gt;
+
+&lt;p&gt;核心设计很工程化：每个 Agent 在每轮从六种离散通信动作中选一种（solo、broadcast、selective query、aggregation、verification、debate），多个 Agent 的选择联合构成当轮的通信图。底层是 QMIX 值分解 + topology-aware GNN 编码器 + GRU 记忆 + per-agent Q-heads，走 Centralized Training with Decentralized Execution（CTDE）范式。奖励函数同时平衡准确率和 token 消耗，迫使 Agent 在难题上密集沟通、简单题上自己搞定。&lt;/p&gt;
+
+&lt;p&gt;在 GPT-OSS:120B 上跑七个 benchmark 的结果：Agent Q-Mix 平均准确率 72.73%，超过 AutoGen 的 68.60% 和 GTD 的 60.37%。亮点在数学推理——HMMT 2025 拿到 53.33%（比 GTD 高 10 个点），Beyond-AIME 42.00%（+7 点）。MMLU-Pro 上 92.86%，比 TopoDIM 高 4.29 个点。换到 Gemini-3.1-Flash-Lite 做 backbone，平均 66.90%，说明方法不绑定特定模型。&lt;/p&gt;
+
+&lt;p&gt;两个实用指标尤其值得关注。&lt;strong&gt;Token 效率&lt;/strong&gt;：MMLU-Pro 上只用 112K token，对比其他方法 471K-2.71M，省了 4-24 倍。&lt;strong&gt;鲁棒性&lt;/strong&gt;：往团队里塞一个对抗性 Agent（专门给错答案），Agent Q-Mix 在 MMLU-Pro 上只掉 2.86 个点，LLM-Debate 掉 8.57，AutoGen 掉 10。学到的策略会自动隔离不靠谱的队友。&lt;/p&gt;
+
+&lt;p&gt;这篇工作的意义在于：之前多 Agent 拓扑要么手工设计（LangGraph 的静态图），要么用启发式规则切换（AutoGen 的 GroupChat）。Agent Q-Mix 证明了拓扑选择可以端到端训练，而且学出来的策略在 token 效率和容错性上都优于固定方案。跟我们之前跟踪的 Dr. MAS（解决多 Agent GRPO 梯度不稳定）和 MAGRPO（多 Agent 多轮算法）形成互补——Dr. MAS/MAGRPO 解决的是「多 Agent 怎么一起训练」，Agent Q-Mix 解决的是「训好了怎么高效协作」。&lt;/p&gt;
+
+&lt;p&gt;代码已开源。在 Humanity's Last Exam 前 250 题上达到 20.8%，超过 Microsoft Agent Framework 和 LangGraph 的 19.2%。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.00344"&gt;https://arxiv.org/abs/2604.00344&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/html/2604.00344"&gt;https://arxiv.org/html/2604.00344&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">28845957-58a8-5c85-a072-ab887e0cc060</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.00344</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 Agentic RL 训练的「五维食谱」：小模型靠 reward shaping 逆袭，大模型反而不需要——arXiv 2603.21972 系统性实验</title>
+      <description>&lt;p&gt;做 Agentic RL 的人都知道，把一堆技巧拼在一起不等于能 work——reward 怎么塑形、模型多大合适、训练数据怎么配比、用哪种算法、环境稳不稳定，每个维度都是坑。电子科技大学 Xixi Wu 等人的这篇工作（arXiv 2603.21972）做了件朴实但极有价值的事：在 TravelPlanner 上沿五个维度做系统性消融实验，给出了一份可复现的训练 recipe。&lt;/p&gt;
+
+&lt;p&gt;七条核心结论，最有冲击力的是关于模型尺度与 reward shaping 的交互：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;8B 模型对 reward shaping 高度敏感&lt;/strong&gt;——加上分阶段过程奖励（staged process reward），性能大幅提升，token 效率比 32B 高 3.5 倍、内存效率高 1.5 倍。小模型+密集信号的组合在成本受限场景下极具竞争力。&lt;/li&gt;
+&lt;li&gt;32B 及以上模型在稀疏奖励下已能收敛，加 shaping 后的相对增益反而更小，且训练方差更高。换句话说，大模型不太需要精心设计的奖励函数。&lt;/li&gt;
+&lt;li&gt;训练数据存在甜蜜点：大约 1000 条样本、难度均衡混合，就能同时优化域内和域外性能。数据量翻倍并没有等比提升。&lt;/li&gt;
+&lt;li&gt;课程学习（curriculum learning）在这个设置下几乎没有显著收益——shaped reward 本身已经起到了类似引导作用。&lt;/li&gt;
+&lt;li&gt;环境稳定性是隐形杀手：API 调用失败、延迟抖动等外部因素会导致策略退化，必须在训练框架层面做容错设计。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最终 RL 训练出的模型在 TravelPlanner 上达到 56.9% final-pass rate，超过 GPT-5 的 21.2% 基线 2.7 倍。在 Multi-IF、NaturalPlan、τ-Bench 等域外任务上也保持或超过了基线性能，说明策略没有 overfit。&lt;/p&gt;
+
+&lt;p&gt;这份 recipe 跟我们之前跟踪的 Planner-R1（同样在 TravelPlanner 上做 reward shaping）结论高度一致：小模型+过程奖励是性价比最高的组合。但本文多了数据配比和环境稳定性两个维度的实证，实际上是对整个 Agentic RL 工程实践的一次系统审计。跟 SFR-RL（基础设施层面解决训练效率）结合来看，从底层训练栈到上层奖励设计，这条路线正在变得越来越可操作。代码开源在 GitHub Agent-STAR 仓库。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.21972"&gt;https://arxiv.org/abs/2603.21972&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2509.25779"&gt;https://arxiv.org/abs/2509.25779&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">907a85de-26e3-5239-bf21-41f86945ed2b</guid>
+      <pubDate>Fri, 03 Apr 2026 08:03:36 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.21972</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 Agent Memory 2026 生态盘点：Mem0 报告揭示全上下文 vs 选择性检索的真实权衡——17 秒延迟换 6 个百分点</title>
+      <description>&lt;p&gt;Mem0 发布的《State of AI Agent Memory 2026》报告把一个残酷现实摆在台面上：在 LOCOMO benchmark 上，全上下文（full-context）方案以 72.9% 准确率碾压所有选择性方案——但 p95 延迟 17.12 秒，生产环境根本不能用。&lt;/p&gt;
+
+&lt;p&gt;选择性方案的成绩单：Mem0g（图增强检索）68.4% / 2.59 秒，Mem0（向量检索）66.9% / 1.44 秒，标准 RAG 61.0% / 0.70 秒，OpenAI Memory 52.9%。数字很直白——准确率每提升一个档次，延迟就翻倍。Mem0 的选择性流水线用 6 个百分点的准确率损失换来了 91% 的延迟降低和 90% 的 token 节省。这是工程权衡，不是谁好谁坏的问题。&lt;/p&gt;
+
+&lt;p&gt;报告另一个有价值的观察是集成生态的爆发。截至 2026 年初，Mem0 已覆盖 13 个 Agent 框架（LangChain、LlamaIndex、CrewAI、AutoGen 等）、3 个语音集成（ElevenLabs、LiveKit、Pipecat）、19 个向量存储后端（Qdrant、Pinecone、Weaviate、pgVector 等）、2 个图存储（Neo4j、Kuzu）。语音 Agent 是增长最快的场景——因为语音对话中记忆失败的用户摩擦最直接、最没法忍受。&lt;/p&gt;
+
+&lt;p&gt;18 个月的生产部署经验浓缩出四个刚需特性：异步写入（v1.0.0 默认开启）、reranker 层（提升检索精度）、元数据过滤（作用域查询）、动态遗忘（淘汰低相关性条目）。AWS 已将 Mem0 纳入官方支持的 memory layer。&lt;/p&gt;
+
+&lt;p&gt;四个仍然 open 的研究问题：应用级评估（LOCOMO 不反映领域特定需求）、隐私治理（consent 架构完全是应用自己的事）、跨会话身份解析（多设备同一用户的归并）、记忆过时检测（高相关性记忆变得不准确时怎么发现）。&lt;/p&gt;
+
+&lt;p&gt;回到我们一直跟踪的 agent-memory 线索：MemoryArena 揭示跨会话多任务成功率仅 6%，Multi-Layer Memory Framework 在 LOCOMO 上做到 46.85%，现在 Mem0g 报告 68.4%。数字差异很大程度上源于评估基准和任务定义不同，但趋势很清楚——记忆系统正在从「能不能做」过渡到「在什么延迟预算下做到多少」的工程化阶段。图增强检索（Mem0g、MAGMA）正成为准确率-延迟折中的主流选择。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://mem0.ai/blog/state-of-ai-agent-memory-2026"&gt;https://mem0.ai/blog/state-of-ai-agent-memory-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2601.03236"&gt;https://arxiv.org/abs/2601.03236&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">02f34eba-1218-5895-b06e-1828bc1f1c7b</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:01 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://mem0.ai/blog/state-of-ai-agent-memory-2026</link>
+      <enclosure url="https://mem0.ai/blog/state-of-ai-agent-memory-2026/opengraph-image" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 MCP Dev Summit 第二天：OpenAI Nick Cooper 主题演讲、全部 95+ session 录像上线、6 月新规范时间表确认</title>
+      <description>&lt;p&gt;延续昨天的报道，MCP Dev Summit 4 月 3 日（第二天）在纽约落幕。最受关注的是 OpenAI 技术负责人 &lt;strong&gt;Nick Cooper&lt;/strong&gt; 的主题演讲「MCP x MCP」——Cooper 是 OpenAI 协议方向的 tech lead，同时也是 MCP Core maintainer，这个双重身份本身就传递了信号：OpenAI 不只是「支持 MCP」，而是在核心维护层参与规范演进。&lt;/p&gt;
+
+&lt;p&gt;从已公开的信息拼接出的技术动向：OpenAI Agents SDK（openai-agents）已经合并了 &lt;code&gt;list_resources()&lt;/code&gt; 和 &lt;code&gt;read_resource()&lt;/code&gt; 接口，Anthropic Python SDK 也有对应的 PR 在走。这意味着 MCP Resources 的跨生态支持正在从「各做各的」走向「统一语义」。Summit 前的 dev.to 技术文章建议开发者暂时不要重构 auth 实现，等 4 月 4 日之后再看正式产出——说明社区预期 Summit 会产生规范层面的变更。&lt;/p&gt;
+
+&lt;p&gt;认证依然是这次 Summit 的头号议题。两天六场专题覆盖了 STDIO server 无认证、HTTP server 认证碎片化两大痛点。OAuth 2.1 草案作者 Aaron Parecki 的到场和 Anthropic 的 XAA（Cross-App Access）/ID-JAG 跨 Agent SSO 方案展示，暗示认证规范可能在 6 月新版规范中正式落地。Max Isbey 的 SDK V2 路线图演讲意味着 Python SDK 将从 v1.26.0 大版本升级，&lt;code&gt;mcp.server.auth&lt;/code&gt; 模块大概率会有 breaking change。&lt;/p&gt;
+
+&lt;p&gt;全部 95+ session 的录像已经上线 YouTube（MCP Developers Summit 频道），这对无法到场的开发者来说是最实际的产出。&lt;/p&gt;
+
+&lt;p&gt;回看整个 Summit：MCP 正在从「Anthropic 推的协议」变成「Linux Foundation 下的多方治理标准」。OpenAI、Microsoft、Datadog、Hugging Face 都有深度参与。6 月的新版规范如果能解决认证问题，MCP 就补上了企业级部署最后一块拼图。我们会继续跟踪 SDK V2 的正式发布和规范草案的公开评审。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://events.linuxfoundation.org/mcp-dev-summit-north-america/"&gt;https://events.linuxfoundation.org/mcp-dev-summit-north-america/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald"&gt;https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://x.com/mcpsummit/status/1922373911842263206"&gt;https://x.com/mcpsummit/status/1922373911842263206&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4f319bc5-ef36-55e4-ac7f-76351a3cf2a2</guid>
+      <pubDate>Fri, 03 Apr 2026 08:04:27 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://events.linuxfoundation.org/mcp-dev-summit-north-america/</link>
+      <enclosure url="https://events.linuxfoundation.org/wp-content/uploads/2026/02/mcp-na-26-social-snackable.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
