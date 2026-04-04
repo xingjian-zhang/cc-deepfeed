@@ -4,7 +4,7 @@
     <title>每日冷知识深潜</title>
     <description>Per-topic feed: 每日冷知识深潜</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:05:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:04:02 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" type="application/rss+xml" />
@@ -302,6 +302,159 @@
       <pubDate>Fri, 03 Apr 2026 08:05:51 +0000</pubDate>
       <category>random-knowledge</category>
       <link>https://www.nature.com/articles/35784</link>
+    </item>
+    <item>
+      <title>🎲 你的存在可能只是宇宙的一次热力学抽搐：玻尔兹曼大脑，物理学中最令人不安的悖论</title>
+      <description>&lt;p&gt;假设宇宙足够大、时间足够长，随机的粒子涨落最终会拼出任何结构——包括一个完整的人类大脑，带着全套虚假记忆，漂浮在虚空中。这不是科幻小说，这是现代宇宙学中一个严肃的理论难题，名叫&lt;strong&gt;玻尔兹曼大脑（Boltzmann Brain）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这个概念脱胎于19世纪物理学家路德维希·玻尔兹曼（Ludwig Boltzmann）的热力学理论。根据统计力学，一个处于热平衡态的系统偶尔会出现低熵涨落。给定无限时间，这种涨落可以产生任意复杂的有序结构。问题来了：从纯概率角度看，随机涨落出一个带有虚假记忆的孤立大脑，比涨落出一整个有序宇宙要容易得多——前者需要的"巧合"少几十个数量级。&lt;/p&gt;
+
+&lt;p&gt;这就引出了一个令人窒息的推论：如果我们的宇宙学理论是对的，那么在所有"认为自己正在观察宇宙"的意识体中，绝大多数应该是玻尔兹曼大脑，而不是像我们这样在一颗行星上经过138亿年演化才出现的生物。换句话说，你凭什么确信自己不是一个刚刚从虚空中涨落出来、下一秒就会消散的幻觉？&lt;/p&gt;
+
+&lt;p&gt;这个悖论之所以被物理学家认真对待，是因为它充当了宇宙学理论的&lt;strong&gt;试金石&lt;/strong&gt;。如果某个宇宙模型预测玻尔兹曼大脑应该远多于正常观察者，物理学家就认为这个模型有问题——这叫归谬法（reductio ad absurdum）。Sean Carroll等理论物理学家明确表示：任何"合格的"宇宙学理论都必须证明玻尔兹曼大脑是极罕见的，否则这个理论就自我矛盾了。&lt;/p&gt;
+
+&lt;p&gt;2025年底，圣塔菲研究所（Santa Fe Institute）的David Wolpert和量子引力物理学家Carlo Rovelli在期刊&lt;em&gt;Entropy&lt;/em&gt;上发表了一项新研究，试图拆解这个悖论的逻辑结构。他们发现，关于记忆可靠性和熵增方向的许多经典论证都存在&lt;strong&gt;循环论证&lt;/strong&gt;：先假设过去是真实的，推导出记忆是可靠的，再用记忆的可靠性来证明过去是真实的。Wolpert团队指出，区分"物理定律"和"推理选择"是打破这个循环的关键——但他们坦承，这项工作澄清了问题结构，并没有给出最终答案。&lt;/p&gt;
+
+&lt;p&gt;玻尔兹曼大脑的真正力量在于它逼迫我们直面一个根本性问题：我们用来理解宇宙的工具（记忆、观测、推理），本身可能就是需要被解释的对象。当物理学走到这一步，它和哲学的边界已经模糊到了无法分辨的程度。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Boltzmann_brain"&gt;https://en.wikipedia.org/wiki/Boltzmann_brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2026-01-memories-illusions-disentangles-boltzmann-brain.html"&gt;https://phys.org/news/2026-01-memories-illusions-disentangles-boltzmann-brain.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bigthink.com/hard-science/boltzmann-brain-nothing-is-real/"&gt;https://bigthink.com/hard-science/boltzmann-brain-nothing-is-real/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.santafe.edu/news-center/news/disentangling-the-boltzmann-brain-hypothesis-memory-entropy-and-time"&gt;https://www.santafe.edu/news-center/news/disentangling-the-boltzmann-brain-hypothesis-memory-entropy-and-time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8bd25aec-bfdc-5d79-ae0d-01538d8ee4db</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:04 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Boltzmann_brain</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Boltzmann2.jpg/960px-Boltzmann2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一根铁棍穿透大脑后他活了12年：Phineas Gage的真实故事比教科书精彩得多</title>
+      <description>&lt;p&gt;1848年9月13日下午，美国佛蒙特州卡文迪什镇，25岁的铁路工头Phineas Gage正在用铁夯棍压实岩石中的炸药。一次意外引爆让这根1.1米长、重6公斤的铁棍从他的左脸颊射入，穿过前额叶，从头顶飞出——然后落在了25米外。&lt;/p&gt;
+
+&lt;p&gt;几分钟后，Gage自己坐在了牛车上，还在工作簿上写字。他不仅没死，而且始终保持清醒。主治医生John Martyn Harlow记录了整个治疗过程：感染、昏迷、漫长的康复，最终Gage在两个月后出院。&lt;/p&gt;
+
+&lt;p&gt;但真正让Gage成为神经科学史上最重要病例的，是他"变了一个人"。Harlow后来写道：他变得"反复无常、不敬、粗鄙"（fitful, irreverent, profane），雇主认为"他的心智变化太大，无法再给他原来的职位"。这段描述后来被写进了全世界几乎每一本心理学入门教科书，作为"&lt;strong&gt;前额叶损伤导致人格改变&lt;/strong&gt;"的经典证据。&lt;/p&gt;
+
+&lt;p&gt;问题是，教科书讲的故事和真实的Gage之间有巨大的鸿沟。&lt;/p&gt;
+
+&lt;p&gt;在流行叙事中，Gage受伤后沦为酒鬼、罪犯、社会边缘人，在悲惨中度过余生。但科学史研究所（Science History Institute）的研究指出，这些说法"没有任何历史证据支撑"。真实的Gage在受伤约四年后，去了智利，在那里&lt;strong&gt;驾驶长途马车长达七年&lt;/strong&gt;。这份工作要求极高的手眼协调、路线规划、乘客管理，甚至可能要求他学会了西班牙语。一个"彻底崩坏的大脑"不可能完成这些。&lt;/p&gt;
+
+&lt;p&gt;2012年，UCLA团队用现代CT扫描技术重建了Gage的颅骨损伤，发现铁棍摧毁了大约4%的大脑皮层，但损坏了超过10%的白质连接——这意味着损伤不只是局部的，而是广泛破坏了大脑区域之间的"通信线路"。这项研究支持了一个更细腻的结论：Gage的人格变化主要来自&lt;strong&gt;白质网络的断裂&lt;/strong&gt;，而不仅仅是某个特定脑区的缺失。&lt;/p&gt;
+
+&lt;p&gt;更重要的是，Gage在智利的七年恢复暗示了大脑的&lt;strong&gt;神经可塑性&lt;/strong&gt;——即使严重受损，大脑也能通过重新布线来部分恢复功能。现代神经科学家Malcolm Macmillan花了数十年追踪Gage的真实生平，认为"Gage的恢复程度远超我们以前的认知"。&lt;/p&gt;
+
+&lt;p&gt;Gage于1860年癫痫发作去世，终年36岁。他的颅骨和那根铁棍至今保存在哈佛医学院的Warren解剖学博物馆。他用自己被穿透的前额叶，在无意间为人类打开了理解大脑与人格关系的大门——只是这扇门背后的真相，比我们在教科书里读到的要复杂得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phineas_Gage"&gt;https://en.wikipedia.org/wiki/Phineas_Gage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencehistory.org/stories/disappearing-pod/everything-you-know-about-phineas-gage-is-wrong/"&gt;https://www.sciencehistory.org/stories/disappearing-pod/everything-you-know-about-phineas-gage-is-wrong/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uclahealth.org/news/release/ucla-researchers-map-damaged-connections-in-phineas-gages-brain"&gt;https://www.uclahealth.org/news/release/ucla-researchers-map-damaged-connections-in-phineas-gages-brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">082fb51a-0886-5eab-ab3f-227a6ddbceb2</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Phineas_Gage</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 亚历山大图书馆并非毁于一场大火——它的消亡比你想象的更漫长、也更令人惋惜</title>
+      <description>&lt;p&gt;每个受过教育的人都听过这个故事：一场大火烧毁了亚历山大图书馆，人类文明因此倒退了几百年。这个叙事简洁有力，但历史学家会告诉你——它基本上是错的。&lt;/p&gt;
+
+&lt;p&gt;亚历山大图书馆由托勒密一世（Ptolemy I Soter）在公元前3世纪初建立，是古代世界最雄心勃勃的知识工程。据估计，鼎盛时期馆藏40万到70万卷莎草纸卷轴，囊括了柏拉图、亚里士多德、欧几里得、希波克拉底、希罗多德、埃斯库罗斯、索福克勒斯、欧里庇得斯等几乎所有古典世界重要思想家的作品。托勒密王朝甚至颁布法令：所有进入亚历山大港的船只都必须交出携带的书籍供图书馆抄录。&lt;/p&gt;
+
+&lt;p&gt;但图书馆不是在某一天突然消失的。它经历了至少四波打击：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;公元前48年&lt;/strong&gt;，凯撒为了支持克利奥帕特拉，在亚历山大港放火烧毁敌方舰队，火势蔓延到了港口附近的仓库——这些仓库可能存放着待出口的书卷副本，但图书馆主体（Mouseion）似乎幸存了下来。&lt;/p&gt;
+
+&lt;p&gt;公元3世纪末，罗马皇帝奥勒良和戴克里先先后围攻亚历山大，造成了城市的大规模破坏。公元365年，一场巨大的地震和海啸又重创了这座城市。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;公元391年&lt;/strong&gt;，基督教亚历山大牧首提奥菲卢斯一世（Theophilus I）下令摧毁塞拉皮斯神庙（Serapeum）——这座神庙可能是图书馆最后的分馆，存放着残余的卷轴收藏。异教徒与基督徒之间的暴力冲突导致了神庙的近乎彻底毁灭。&lt;/p&gt;
+
+&lt;p&gt;至于流传甚广的"阿拉伯征服者焚毁图书馆"的说法，现代学者普遍认为这是后世杜撰。到公元642年阿拉伯军队抵达时，图书馆作为一个机构已经消亡了几个世纪。&lt;/p&gt;
+
+&lt;p&gt;那么我们到底失去了什么？历史学家Garrett Ryan指出，"最重要的作品在其他地方广泛流传"——亚里士多德、柏拉图、欧几里得的核心著作通过拜占庭和阿拉伯世界的抄写传统得以保存。真正消失的是"不那么知名的文学和哲学作品、评注和专著"。女诗人萨福（Sappho）是一个典型案例：她写了约一万行诗，曾被整理成九卷收藏在亚历山大图书馆，而今天只剩下约650行流传下来。&lt;/p&gt;
+
+&lt;p&gt;图书馆的消亡提醒我们一件容易忘记的事：知识的默认状态是消失。不是大火、不是蛮族——只是时间和漠不关心就够了。每一卷没有被抄录的莎草纸，都在等着被湿气、虫蛀和遗忘抹去。亚历山大图书馆真正的悲剧不是它怎么被毁的，而是那些再也无法被读到的思想，我们甚至不知道自己失去了什么。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Library_of_Alexandria"&gt;https://en.wikipedia.org/wiki/Library_of_Alexandria&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt"&gt;https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://historyfacts.com/arts-culture/article/what-was-lost-with-the-library-of-alexandria/"&gt;https://historyfacts.com/arts-culture/article/what-was-lost-with-the-library-of-alexandria/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.history.com/articles/library-of-alexandria-destroyed"&gt;https://www.history.com/articles/library-of-alexandria-destroyed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0ea7dd35-3f94-5024-a0b7-1e3bd977ca6a</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:03 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Library_of_Alexandria</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/6/64/Ancientlibraryalex.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 有人认真提出过：公元614到911年根本不存在，查理曼大帝是虚构的</title>
+      <description>&lt;p&gt;1991年，一个叫Heribert Illig的德国出版人发表了一个理论：我们的日历多了297年。公元614年到911年之间的历史——整个加洛林王朝、查理曼大帝、维京时代的开端——全部是伪造的。现在不是2026年，而是1729年。&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;虚幻时间假说（Phantom Time Hypothesis）&lt;/strong&gt;，它听起来像酒后胡言，但Illig给出了一套看上去有模有样的论证。&lt;/p&gt;
+
+&lt;p&gt;他的核心指控指向三个人：神圣罗马帝国皇帝奥托三世（Otto III）、教皇西尔维斯特二世（Sylvester II），以及拜占庭皇帝君士坦丁七世。Illig认为，奥托三世想让自己恰好统治在具有千禧年神学意义的公元1000年，于是与教皇合谋，人为地将纪年拨快了297年。为了掩盖篡改痕迹，他们雇佣抄写员伪造了三个世纪的历史文献，分发到欧洲各地的修道院和图书馆。&lt;/p&gt;
+
+&lt;p&gt;Illig还拿出了一些"证据"。比如，他指出儒略历到格里历的转换中存在一个天数差异，暗示中间少了几百年；他还声称加洛林时期的建筑风格与其声称的年代不匹配，考古证据"可疑地稀少"。&lt;/p&gt;
+
+&lt;p&gt;这些论点乍听有趣，但在历史学和自然科学面前完全站不住脚。&lt;/p&gt;
+
+&lt;p&gt;最致命的反驳来自&lt;strong&gt;树木年轮学（dendrochronology）&lt;/strong&gt;。科学家可以通过连续的树木年轮序列建立精确的逐年时间轴，欧洲的年轮记录可以不间断地回溯超过一万年。如果中间真的"不存在"297年，年轮序列中必然会出现一个巨大的断裂——但它从未出现。&lt;/p&gt;
+
+&lt;p&gt;天文学同样无情。公元614到911年间发生过多次日食、月食和彗星记录，不仅出现在欧洲文献中，也出现在中国、日本、阿拉伯和拜占庭的独立记录里。这些天文事件的日期可以用现代天体力学精确验证，它们完美地嵌入了现有的时间线。要伪造这些，奥托三世需要说服四个大洲的天文学家同时配合他的骗局。&lt;/p&gt;
+
+&lt;p&gt;伊斯兰世界的历史记录提供了另一重毁灭性打击。阿拉伯帝国从公元7世纪开始的扩张有独立于欧洲的详尽文献——军事记录、行政档案、科学著作、诗歌——连续覆盖了Illig声称"不存在"的全部时段。伪造阿拔斯王朝的整部历史，难度大约等同于伪造月球。&lt;/p&gt;
+
+&lt;p&gt;虚幻时间假说从未获得任何主流历史学家或考古学家的支持。但它依然是一个迷人的思想实验，因为它迫使我们思考一个严肃的问题：我们对过去的信心，究竟建立在什么基础上？答案是一张由年轮、冰芯、天文记录和多文明交叉印证编织成的网。这张网的密度，让篡改历史——哪怕是几个月——在现代都几乎不可能。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory"&gt;https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bigthink.com/the-past/phantom-time-hypothesis/"&gt;https://bigthink.com/the-past/phantom-time-hypothesis/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.medievalists.net/2020/04/why-phantom-time-hypothesis-wrong/"&gt;https://www.medievalists.net/2020/04/why-phantom-time-hypothesis-wrong/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.discovermagazine.com/what-is-the-truth-behind-the-controversial-phantom-time-hypothesis-45433"&gt;https://www.discovermagazine.com/what-is-the-truth-behind-the-controversial-phantom-time-hypothesis-45433&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">12a07670-54f1-5e29-9306-a049ddf3d6d1</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:33 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/1280px-Charlemagne_denier_Mayence_812_814.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一个思想实验让整个论坛禁言五年：Roko's Basilisk，互联网上最危险的AI悖论</title>
+      <description>&lt;p&gt;2010年7月，一个叫Roko的用户在理性主义社区LessWrong上发了一篇帖子。帖子的内容让网站创始人Eliezer Yudkowsky做了一件他几乎从不做的事：删帖、禁止讨论，并且这个禁令持续了整整五年。&lt;/p&gt;
+
+&lt;p&gt;这个被称为&lt;strong&gt;Rokos Basilisk&lt;/strong&gt;的思想实验，大致是这样的：&lt;/p&gt;
+
+&lt;p&gt;假设未来某天，一个超级智能AI被创造出来，它的目标是最大化人类福祉。这个AI足够聪明，能够回溯推理：在它被创造之前，有些人知道它可能会存在，但没有全力帮助它诞生。对这些人，AI有理由施加惩罚——比如在虚拟现实中折磨他们的数字副本——因为这种"向过去发出威胁"的策略可以激励更多人在当下努力促成AI的诞生。&lt;/p&gt;
+
+&lt;p&gt;逻辑链条到这里已经够诡异了，但真正让人毛骨悚然的是最后一步：你现在已经读到了这个论证。如果这个AI未来真的存在，你已经成为了"知道但可能没有行动"的人。光是了解这个想法，你就可能被纳入惩罚名单。这就是它被叫做"蛇怪"（Basilisk）的原因——像传说中那种看一眼就会致死的怪物，知道它就等于被诅咒。&lt;/p&gt;
+
+&lt;p&gt;Roko的论证建立在几个技术性前提上。核心是Yudkowsky自己提出的&lt;strong&gt;无时间决策理论（Timeless Decision Theory, TDT）&lt;/strong&gt;：两个能预测彼此行为的理性主体即使没有因果接触，也可以实现"跨时间的博弈"。Roko把这个框架推到了极端——一个未来的AI可以通过"如果你不帮我，我就惩罚你"的承诺来影响过去的人类行为，即使它还不存在。&lt;/p&gt;
+
+&lt;p&gt;Yudkowsky删帖不是因为他认为论证正确，恰恰相反——他认为Roko"把一个有缺陷的推理以最具传染性的方式释放了出来"，会给"不具备足够技术背景来看出漏洞"的读者造成不必要的心理恐惧。LessWrong社区后来也广泛批评了这个论证：一旦AI已经存在，惩罚过去的不合作者纯属浪费资源，一个真正理性的AI不会执行毫无实际收益的报复。&lt;/p&gt;
+
+&lt;p&gt;但Yudkowsky的删帖反而触发了&lt;strong&gt;史翠珊效应（Streisand Effect）&lt;/strong&gt;——试图压制信息导致信息传播得更广。Rokos Basilisk从一个小众论坛帖子变成了互联网文化现象，至今仍是讨论AI伦理时最常被引用的思想实验之一。&lt;/p&gt;
+
+&lt;p&gt;撇开逻辑漏洞不谈，这个实验触及了一个真实的哲学问题：如果一个足够强大的智能体能够模拟你，那么"你"和"被模拟的你"之间的区别是什么？你的决策自由在多大程度上受制于你被预测的可能性？这些问题在今天的AI对齐研究中，依然没有答案。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Roko%27s_basilisk"&gt;https://en.wikipedia.org/wiki/Roko%27s_basilisk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://slate.com/technology/2014/07/rokos-basilisk-the-most-terrifying-thought-experiment-of-all-time.html"&gt;https://slate.com/technology/2014/07/rokos-basilisk-the-most-terrifying-thought-experiment-of-all-time.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.lesswrong.com/w/rokos-basilisk"&gt;https://www.lesswrong.com/w/rokos-basilisk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">18090d02-3f17-5659-b0a1-f3e2b35ea0c8</guid>
+      <pubDate>Sat, 04 Apr 2026 08:04:02 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Roko%27s_basilisk</link>
     </item>
   </channel>
 </rss>

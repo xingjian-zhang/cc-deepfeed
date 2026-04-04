@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>RSS Research Feeds</title>
-    <dateCreated>Fri, 03 Apr 2026 08:06:46 +0000</dateCreated>
+    <dateCreated>Sat, 04 Apr 2026 08:09:24 +0000</dateCreated>
   </head>
   <body>
     <outline text="Jimmy's Personalized Feed" title="Jimmy's Personalized Feed">
@@ -20,6 +20,7 @@
       <outline type="rss" text="心智成长与思维模型" title="心智成长与思维模型" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
       <outline type="rss" text="氛围电子与音乐发现" title="氛围电子与音乐发现" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-music-discovery.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
       <outline type="rss" text="力量训练与运动科学" title="力量训练与运动科学" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
+      <outline type="rss" text="体态恢复" title="体态恢复" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-posture-recovery.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
       <outline type="rss" text="博士生存指南" title="博士生存指南" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
       <outline type="rss" text="AI 行业情报" title="AI 行业情报" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
     </outline>

@@ -4,7 +4,7 @@
     <title>职业成长与实习攻略</title>
     <description>Per-topic feed: 职业成长与实习攻略</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:03:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:04:40 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" type="application/rss+xml" />
@@ -140,6 +140,96 @@
       <pubDate>Fri, 03 Apr 2026 08:03:40 +0000</pubDate>
       <category>career-growth</category>
       <link>https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/</link>
+    </item>
+    <item>
+      <title>📈 Anthropic 用 Claude 真实数据画出 AI 就业冲击地图：程序员 75% 任务已被覆盖，22-25 岁求职率下跌 14%</title>
+      <description>&lt;p&gt;Anthropic 3 月发布了一份可能是 2026 年最重要的劳动力市场研究：&lt;strong&gt;《Labor market impacts of AI: A new measure and early evidence》&lt;/strong&gt;。这份由 Maxim Massenkoff 和 Peter McCrory 撰写的论文，不同于 IMF 或麦肯锡基于理论推演的「X% 岗位将受影响」式报告，首次引入了「观测暴露度」（Observed Exposure）指标——直接用 Claude 的工作场景使用数据，衡量 AI 在各职业中的真实渗透率，而不仅仅是理论上「能做什么」。&lt;/p&gt;
+
+&lt;p&gt;核心发现令人坐立不安。理论上，AI 能处理计算机与数学类岗位 94% 的任务，但实际覆盖率只有 33%。办公与行政岗位理论能力 90%，实际渗透同样远低于此。换句话说，当前 AI 对白领工作的替代还不到其技术能力的三分之一——但这个缺口正在快速收窄。论文数据显示，被评为「完全可由 LLM 独立完成」的任务（β=1）占到了 Claude 实际使用量的 68%，而「不可行」的任务（β=0）仅占 3%。用户已经在用 AI 做最容易自动化的事情了。&lt;/p&gt;
+
+&lt;p&gt;具体到职业排名，计算机程序员以 74.5% 的观测覆盖率排名第一，其次是客服代表（70.1%）、数据录入员（67.1%）和医疗记录专员（66.7%）。计算机和数学大类整体覆盖率 35.8%，办公行政类 34.3%。同时，论文发现了一个强相关：&lt;strong&gt;观测覆盖率每提高 10 个百分点，BLS（美国劳工统计局）对该职业的增长预测就下降 0.6 个百分点。&lt;/strong&gt;政府的就业预测已经在价格化 AI 的冲击。&lt;/p&gt;
+
+&lt;p&gt;但论文最值得关注的发现藏在细节里。研究者追踪了 ChatGPT 发布前后的就业数据，发现 AI 高暴露职业目前并没有出现系统性失业率上升。不过有一个关键例外：&lt;strong&gt;22-25 岁年轻求职者&lt;/strong&gt;。在 AI 暴露最高的职业中，这个年龄段的求职成功率（job finding rate）相比 2022 年下降了约 14%（约 0.5 个百分点），统计上勉强显著。25 岁以上群体则没有观察到这种下降。年轻人可能正在选择延迟就业或回学校读书，而不是在冰冷的市场里硬碰硬。&lt;/p&gt;
+
+&lt;p&gt;这组数据指向一个令人不安的模式：AI 目前不是在大规模消灭岗位，而是在收窄入口——企业用 AI 填补了原本留给初级员工的任务，导致入门级招聘放缓。论文直接描绘了最坏情景：如果 AI 高暴露职业的失业率从 3% 翻倍到 6%（类似 2007-2009 金融危机中全美失业率从 5% 翻到 10%），这将构成一场「白领大衰退」（Great Recession for white-collar workers）。他们的模型显示，这种幅度的变化已经能被统计检测到。&lt;/p&gt;
+
+&lt;p&gt;另一个被忽视的维度是人口统计学特征。AI 暴露最高的群体比低暴露群体女性比例高 16 个百分点，亚裔比例接近两倍，收入高 47%，持有研究生学位的概率是后者的 3.5 倍（17.4% vs. 4.5%）。这颠覆了「AI 主要威胁低技能工人」的直觉——恰恰是高学历、高收入的知识工作者面临最大的结构性风险。30% 的劳动力（厨师、机械师、调酒师等需要物理在场的岗位）AI 暴露度为零。&lt;/p&gt;
+
+&lt;p&gt;对正在做职业规划的人来说，这份论文的隐含信息比明面数据更重要：程序员覆盖率 75%，而 AI 的实际使用量还只是理论能力的三分之一。当这个差距继续收窄时会发生什么，目前还没人能回答。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.anthropic.com/research/labor-market-impacts"&gt;Anthropic Research&lt;/a&gt; · &lt;a href="https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/"&gt;Fortune&lt;/a&gt; · &lt;a href="https://www.cbsnews.com/news/anthropic-ai-jobs-most-exposed-risk/"&gt;CBS News&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.anthropic.com/research/labor-market-impacts"&gt;https://www.anthropic.com/research/labor-market-impacts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/"&gt;https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/anthropic-ai-jobs-most-exposed-risk/"&gt;https://www.cbsnews.com/news/anthropic-ai-jobs-most-exposed-risk/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b82d3bd0-b6a5-5ba9-bbd8-5e328049289b</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:34 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://www.anthropic.com/research/labor-market-impacts</link>
+    </item>
+    <item>
+      <title>📈 RTO 变成隐形裁员刀：8% 企业承认用强制到岗逼员工离职，远程岗位正在招聘页面消失</title>
+      <description>&lt;p&gt;裁员不一定要发邮件。2026 年的数据揭示了一条更安静的缩编路径：&lt;strong&gt;Return-to-Office（RTO）政策正被系统性地用作隐形裁员工具。&lt;/strong&gt;一项对企业管理层的调查显示，8% 的公司公开承认增加到岗天数的目的就是「鼓励员工主动辞职」——用通勤压力替代遣散协议，省下数百万美元的裁员成本和法律风险。&lt;/p&gt;
+
+&lt;p&gt;数字背后是一张越来越长的公司名单。Amazon 要求 35 万名员工全职回到办公室。Home Depot 1 月底在裁掉 800 个总部岗位的同时，宣布剩余行政员工 4 月 6 日起每周到岗五天——裁员和 RTO 在同一份公告里打了组合拳。JP Morgan Chase 早在 2025 年 4 月就终结了远程办公，Paramount、TikTok、Novo Nordisk 紧随其后。近半数企业计划要求每周到岗至少四天，28% 打算彻底取消远程选项。&lt;/p&gt;
+
+&lt;p&gt;更关键的是员工的抵抗力已经崩溃。2025 年 1 月的调查中，51% 的人表示会因为强制 RTO 而辞职。到 2026 年，这个数字暴跌到 7%。就业市场的寒意让绝大多数人选择了沉默服从。企业很清楚这一点——正因为「辞职威胁」不再可信，RTO 才成了一种低成本的筛选机制：不愿来的人自行离开，愿意留下的人接受新规则。&lt;/p&gt;
+
+&lt;p&gt;从招聘端看，完全远程的职位发布量持续缩水。「Remote-only」正从主流招聘网站上隐退，hybrid（混合办公）成了名义上的妥协方案，但越来越多的 hybrid 实际上意味着每周四天到岗。Founderreports 的统计指出，30% 的公司已经要求全员每周五天在办公室，同比增幅明显。&lt;/p&gt;
+
+&lt;p&gt;这个趋势和此前跟踪的 AI 裁员潮形成了一个耐人寻味的双杀结构。AI 替代的叙事为企业提供了裁员的「正当性框架」——我们不是不想留你，是 AI 让你的岗位不再必要。而 RTO 政策提供了另一条不需要触发 WARN Act 等劳动法规的瘦身路径——我们没有裁你，是你自己不愿意来办公室。两者并行，企业可以在不承担法律后果的前提下大幅缩编。&lt;/p&gt;
+
+&lt;p&gt;联邦政府也在参与这场实验。一年前的行政命令要求联邦雇员全面返回办公室，ClearanceJobs 2026 年 2 月的跟踪报道显示，这一政策实际上加速了部分机构的人员流失——正是预期效果。&lt;/p&gt;
+
+&lt;p&gt;对求职者来说，这改变了筛选机会的方式。一个岗位标注「hybrid」或「on-site」不再只是通勤距离的选择——它可能暗示这家公司正在用到岗政策作为组织瘦身的手段。反过来，少数仍然提供 fully remote 的雇主，可能恰恰是在用这个福利争夺因 RTO 而流失的高端人才。远程工作从「生活方式偏好」变成了「就业市场信号」，读懂这个信号比抱怨 RTO 更有实操价值。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://founderreports.com/return-to-office-statistics/"&gt;Founderreports&lt;/a&gt; · &lt;a href="https://www.cnbc.com/2026/01/28/home-depot-layoffs-return-to-office.html"&gt;CNBC&lt;/a&gt; · &lt;a href="https://www.cpapracticeadvisor.com/2026/01/13/return-to-office-workers-back-down-as-employers-reclaim-power-in-2026/176235/"&gt;CPA Practice Advisor&lt;/a&gt; · &lt;a href="https://news.clearancejobs.com/2026/02/02/one-year-after-the-federal-return-to-office-order-heres-what-actually-changed/"&gt;ClearanceJobs&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://founderreports.com/return-to-office-statistics/"&gt;https://founderreports.com/return-to-office-statistics/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/01/28/home-depot-layoffs-return-to-office.html"&gt;https://www.cnbc.com/2026/01/28/home-depot-layoffs-return-to-office.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cpapracticeadvisor.com/2026/01/13/return-to-office-workers-back-down-as-employers-reclaim-power-in-2026/176235/"&gt;https://www.cpapracticeadvisor.com/2026/01/13/return-to-office-workers-back-down-as-employers-reclaim-power-in-2026/176235/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.clearancejobs.com/2026/02/02/one-year-after-the-federal-return-to-office-order-heres-what-actually-changed/"&gt;https://news.clearancejobs.com/2026/02/02/one-year-after-the-federal-return-to-office-order-heres-what-actually-changed/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ad24e7da-e8e3-5fe8-a164-3fb476dad347</guid>
+      <pubDate>Sat, 04 Apr 2026 08:04:03 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://founderreports.com/return-to-office-statistics/</link>
+      <enclosure url="https://founderreports.com/wp-content/uploads/2025/07/office.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 AI 技能鸿沟正在撕裂职场：高手多赚 56%，四成员工连 AI 怎么用都说不清</title>
+      <description>&lt;p&gt;裁员潮和 RTO 是宏观故事，但个体层面还有一场更安静的分化正在发生。IDC 最新报告测算，全球企业因 AI 技能缺口将在未来几年损失 &lt;strong&gt;5.5 万亿美元&lt;/strong&gt;的潜在产出。这不是一个遥远的预测——分化已经体现在薪资单上：具备高级 AI 技能的员工，薪酬比同岗位、同级别但缺乏这些技能的同事高出 56%。&lt;/p&gt;
+
+&lt;p&gt;Anthropic 的 Peter McCrory 在 3 月的 Axios AI Summit 上分享了来自 Claude 使用数据的一手观察：AI 工具的生产力增益高度集中在「Power Users」群体。这些人熟练使用 prompt engineering、理解 LLM 的能力边界、能够把 AI 嵌入自己的工作流程，而不是偶尔试一下就放弃。TechCrunch 的报道标题直截了当——「AI 技能鸿沟已经到来，高手正在拉开距离。」&lt;/p&gt;
+
+&lt;p&gt;数据画面很分裂。一方面，38% 的 AI 熟练用户预计自己的工作效率将显著提升。另一方面，41% 的员工甚至无法说清 AI 能在自己的工作中创造什么价值。这不是「会不会用 ChatGPT」的问题，而是对工作本身的理解深度差异——你是否能拆解自己的工作流程，识别哪些环节可以交给 AI，然后设计出人机协作的新模式。&lt;/p&gt;
+
+&lt;p&gt;DataCamp 2026 年的调研揭示了更具体的技能断层：超过 90% 的全球企业预计到 2026 年底将面临关键 AI 技能短缺。这不仅仅是「工程师会不会写 prompt」的问题——产品经理需要理解 AI agent 的能力边界，设计师需要知道生成式 AI 的输出质量如何迭代，市场人员需要掌握 AI 驱动的个性化营销工具链。技能缺口横跨几乎所有白领职能。&lt;/p&gt;
+
+&lt;p&gt;更深层的转变是：随着 AI agent 开始在工作流层面部署，核心能力正从「how to prompt」（怎么提问）转向「how to design and manage automated work」（怎么设计和管理自动化工作）。只有三分之一的组织表示已完全准备好采纳 AI 驱动的工作方式。这意味着在未来 12-18 个月内，能够跨越这个鸿沟的个人将获得不成比例的职业回报。&lt;/p&gt;
+
+&lt;p&gt;把这个趋势和前面两篇报道放在一起看，2026 年的职场正在经历三重筛选：AI 替代在缩减岗位总量，RTO 在挤出不愿妥协的人，而 AI 技能鸿沟在决定留下来的人之间谁升谁降。三个筛子同时工作，通过所有筛子的人面对的机会可能比以往任何时候都多——AI 提升了个人杠杆率。但被任何一个筛子筛掉的人，面对的市场比 2022 年冷得多。&lt;/p&gt;
+
+&lt;p&gt;一个务实的建议：与其泛泛「学 AI」，不如花两周时间做一次自己岗位的 AI 审计。列出每天做的 20 件事，逐一判断哪些 Claude 或 GPT 已经能做到 80 分，哪些完全做不到。你会同时发现自己的「可替代面」和「不可替代面」——后者才是值得投资的方向。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/"&gt;TechCrunch&lt;/a&gt; · &lt;a href="https://www.workera.ai/blog/the-5-5-trillion-skills-gap-what-idcs-new-report-reveals-about-ai-workforce-readiness"&gt;IDC via Workera&lt;/a&gt; · &lt;a href="https://www.datacamp.com/blog/the-state-of-data-and-ai-literacy-in-2026-definitions-statistics-and-the-ai-skills-gap"&gt;DataCamp&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/"&gt;https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.workera.ai/blog/the-5-5-trillion-skills-gap-what-idcs-new-report-reveals-about-ai-workforce-readiness"&gt;https://www.workera.ai/blog/the-5-5-trillion-skills-gap-what-idcs-new-report-reveals-about-ai-workforce-readiness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.datacamp.com/blog/the-state-of-data-and-ai-literacy-in-2026-definitions-statistics-and-the-ai-skills-gap"&gt;https://www.datacamp.com/blog/the-state-of-data-and-ai-literacy-in-2026-definitions-statistics-and-the-ai-skills-gap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">acbb7a31-db65-52c0-89ed-70d151444a7d</guid>
+      <pubDate>Sat, 04 Apr 2026 08:04:40 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/IMG_0605.jpeg?resize=1200,900" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

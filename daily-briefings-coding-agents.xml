@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:05:38 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -177,6 +177,87 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">d1f9b6e5-1a52-55c8-bfd3-c3d6b5cc9e71</guid>
       <pubDate>Fri, 03 Apr 2026 08:03:33 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://docs.devin.ai/release-notes/overview</link>
+      <enclosure url="https://cognitionai.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAll%2BRelease%2BNotes%26title%3DRecent%2BUpdates%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26primaryColor%3D%25233CA4F2%26lightColor%3D%25233CA4F2%26darkColor%3D%25233CA4F2%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230a0c10&amp;amp;w=1200&amp;amp;q=100" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Claude Code 源码泄露事件全解析：Kairos 常驻智能体、AutoDream 记忆整合与 Undercover 隐身模式</title>
+      <description>&lt;p&gt;3 月 30 日，Anthropic 因 &lt;code&gt;.npmignore&lt;/code&gt; 配置遗漏，将 Claude Code v2.1.88 的完整 TypeScript 源码（512,000 行、1,906 个文件）以 source map 形式发布到 npm 公共注册表。这一事件引发了业界对 Anthropic 内部智能体架构的全面审视。&lt;/p&gt;
+
+&lt;h3&gt;Kairos：常驻后台智能体&lt;/h3&gt;
+&lt;p&gt;泄露代码中被引用超过 150 次的 &lt;strong&gt;KAIROS&lt;/strong&gt;（取自古希腊语「恰当的时机」）是一个尚未发布的守护进程系统，可让 Claude Code 作为 always-on background agent 在后台持续运行。其核心机制 &lt;strong&gt;autoDream&lt;/strong&gt; 在用户空闲时执行记忆整合——合并分散观察、消除逻辑矛盾、将模糊洞察转化为确定性事实。一个分叉的子智能体隔离维护流程，防止主智能体上下文在自我引用操作中退化（研究者称之为「上下文熵」问题）。&lt;/p&gt;
+
+&lt;h3&gt;三层记忆架构&lt;/h3&gt;
+&lt;p&gt;Claude Code 的记忆系统围绕 &lt;strong&gt;MEMORY.md&lt;/strong&gt; 构建——一个轻量级指针索引（每行约 150 字符）持久加载到上下文中。这种设计不是「全面存储＋选择性检索」，而是「一张持久的关键信息地图」，解决了长会话中的连贯性问题。&lt;/p&gt;
+
+&lt;h3&gt;Undercover 模式与内部代号&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Undercover Mode&lt;/strong&gt; 防止 Anthropic 员工在公共仓库中泄露内部代号——讽刺的是，这恰恰在完整源码暴露中被发现。泄露还揭示了内部模型代号：&lt;strong&gt;Capybara&lt;/strong&gt;（Claude 4.6 变体，v8 存在 29-30% 虚假声明率）、&lt;strong&gt;Fennec&lt;/strong&gt;（Opus 4.6）和未发布的 &lt;strong&gt;Numbat&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h3&gt;隐藏彩蛋：Buddy 宠物系统&lt;/h3&gt;
+&lt;p&gt;代码库还包含一个完整的「电子宠物」系统 &lt;strong&gt;Buddy&lt;/strong&gt;——确定性抽卡机制、物种稀有度变体、程序化生成属性和 AI 生成的灵魂描述，由编译时 feature flag 控制，原计划 4 月发布。&lt;/p&gt;
+
+&lt;p&gt;Claude Code 单品 ARR 已达 25 亿美元，企业客户贡献 80% 收入。这次泄露为竞争对手提供了构建高自主性、高可靠性商业 AI 智能体的完整蓝图。Anthropic 随后迅速开源了 Claude Code 仓库，将意外转化为战略优势。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know"&gt;https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thenewstack.io/claude-code-source-leak/"&gt;https://thenewstack.io/claude-code-source-leak/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.buildfastwithai.com/blogs/claude-code-source-code-leak-2026"&gt;https://www.buildfastwithai.com/blogs/claude-code-source-code-leak-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html"&gt;https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">545b4a8b-af00-5b9e-89de-a2716a8e7789</guid>
+      <pubDate>Sat, 04 Apr 2026 08:05:26 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know</link>
+    </item>
+    <item>
+      <title>💻 Claude Code 四天三版本：/powerup 教学、Bedrock 向导、MCP 500K 持久化与 60% 性能提升</title>
+      <description>&lt;p&gt;从 4 月 1 日到 4 月 4 日，Claude Code 连续发布 v2.1.90、v2.1.91、v2.1.92 三个版本，展现出惊人的迭代节奏。在源码泄露风波之后，Anthropic 用实际行动回应：不是危机公关，而是密集交付。&lt;/p&gt;
+
+&lt;h3&gt;v2.1.90（4/1）：/powerup 与安全加固&lt;/h3&gt;
+&lt;p&gt;新增 &lt;strong&gt;/powerup&lt;/strong&gt; 命令——交互式动画教学，帮助用户逐步掌握 Claude Code 功能。同时大幅加固 PowerShell 工具权限检查：修复了尾部 &lt;code&gt;&amp;amp;&lt;/code&gt; 后台任务绕过、&lt;code&gt;-ErrorAction Break&lt;/code&gt; 调试器挂起、归档提取 TOCTOU 等多个安全漏洞。SSE 传输从二次复杂度优化至线性时间，长对话的 transcript 写入不再随对话增长而二次减速。&lt;/p&gt;
+
+&lt;h3&gt;v2.1.91（4/2）：插件生态与 MCP 增强&lt;/h3&gt;
+&lt;p&gt;MCP 工具结果持久化上限提升至 &lt;strong&gt;500K 字符&lt;/strong&gt;（通过 &lt;code&gt;_meta[&amp;quot;anthropic/maxResultSizeChars&amp;quot;]&lt;/code&gt; 注解），大型数据库 schema 等结果不再被截断。插件现在可以在 &lt;code&gt;bin/&lt;/code&gt; 目录下分发可执行文件并直接从 Bash 工具调用。Edit 工具改用更短的 &lt;code&gt;old_string&lt;/code&gt; 锚点，减少输出 token 消耗。&lt;/p&gt;
+
+&lt;h3&gt;v2.1.92（4/4）：Bedrock 向导与成本透明&lt;/h3&gt;
+&lt;p&gt;新增交互式 &lt;strong&gt;Bedrock 设置向导&lt;/strong&gt;，从登录界面引导完成 AWS 认证、区域配置、凭证验证和模型固定。&lt;strong&gt;/cost&lt;/strong&gt; 命令新增按模型和缓存命中率的分项统计。Write 工具对含 tab/&lt;code&gt;&amp;amp;&lt;/code&gt;/&lt;code&gt;$&lt;/code&gt; 的大文件 diff 计算速度提升 &lt;strong&gt;60%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;三个版本还修复了大量稳定性问题：tmux 窗口被杀后子智能体永久失败、&lt;code&gt;--resume&lt;/code&gt; 导致的完整 prompt cache miss、自动模式不遵守用户显式边界（「不要 push」）等。Claude Code 正从单一编程助手向企业级多云智能体平台快速演进。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/changelog"&gt;https://code.claude.com/docs/en/changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/anthropics/claude-code/releases"&gt;https://github.com/anthropics/claude-code/releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">69ff2d68-f584-5991-bda0-a07abeb0488d</guid>
+      <pubDate>Sat, 04 Apr 2026 08:05:32 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://code.claude.com/docs/en/changelog</link>
+      <enclosure url="https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26appearance%3Dsystem%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&amp;amp;w=1200&amp;amp;q=100" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Devin 企业化加速：MCP 白名单管控、Auto-fix 一键修复与企业级密钥管理</title>
+      <description>&lt;p&gt;4 月 3 日，Devin 发布了一波以企业治理为核心的重磅更新，标志着这款自主编程智能体正式从「开发者工具」转向「企业基础设施」定位。&lt;/p&gt;
+
+&lt;h3&gt;企业级管控三件套&lt;/h3&gt;
+&lt;p&gt;企业管理员现在可以在&lt;strong&gt;企业层级统一管理密钥&lt;/strong&gt;，自动共享到所有下属组织（首先面向 Declarative Repo Setup 用户）。新增 &lt;strong&gt;MCP 服务器白名单&lt;/strong&gt;管控能力，组织管理员可以精确控制 Devin 能连接哪些外部工具服务器。同时支持&lt;strong&gt;构建固定与回滚&lt;/strong&gt;——可以将特定 Devin 版本锁定到组织级别，避免自动更新带来的不确定性。&lt;/p&gt;
+
+&lt;h3&gt;Auto-fix：从发现 bug 到修复 bug 的一键闭环&lt;/h3&gt;
+&lt;p&gt;PR Review 界面新增&lt;strong&gt;「Auto-fix with Devin」按钮&lt;/strong&gt;，检测到的 bug 可一键启动修复会话。CI 状态检查和任务日志现在可以直接在 PR Review 对话中访问，形成「发现→诊断→修复」的完整闭环。这是 Devin 首次将智能体能力深度嵌入代码审查工作流。&lt;/p&gt;
+
+&lt;h3&gt;会话管理与集成增强&lt;/h3&gt;
+&lt;p&gt;重要会话现在可以通过三点菜单&lt;strong&gt;置顶&lt;/strong&gt;。新增 &lt;strong&gt;Azure DevOps&lt;/strong&gt; 服务主体连接支持。Linear 集成增强：自动化中新增 assignee 富选择器，OAuth token 自动刷新避免断连。子会话产生时自动出现 &lt;strong&gt;Agents 标签页&lt;/strong&gt;，集中展示状态、待办和 PR。&lt;/p&gt;
+
+&lt;p&gt;从 Goldman Sachs 混合团队案例到企业密钥管理，Devin 正在构建的不只是一个编程智能体，而是一套可以嵌入企业 SDLC 全流程的智能体基础设施。Cognition 的策略很明确：先拿下企业采购决策者，再向下渗透到开发者日常。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://docs.devin.ai/release-notes/overview"&gt;https://docs.devin.ai/release-notes/overview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fc895c85-07bd-5701-af40-bc6ed7fc5f51</guid>
+      <pubDate>Sat, 04 Apr 2026 08:05:38 +0000</pubDate>
       <category>coding-agents</category>
       <link>https://docs.devin.ai/release-notes/overview</link>
       <enclosure url="https://cognitionai.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAll%2BRelease%2BNotes%26title%3DRecent%2BUpdates%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26primaryColor%3D%25233CA4F2%26lightColor%3D%25233CA4F2%26darkColor%3D%25233CA4F2%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230a0c10&amp;amp;w=1200&amp;amp;q=100" type="image/jpeg" length="0" />

@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:03:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:07:54 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -178,6 +178,124 @@
       <pubDate>Fri, 03 Apr 2026 08:03:25 +0000</pubDate>
       <category>fitness-science</category>
       <link>https://www.nature.com/articles/s41598-025-87485-8</link>
+    </item>
+    <item>
+      <title>💪 💪 肌酸补剂能提升认知吗？16项RCT元分析拆解「健脑」神话与方法论地雷</title>
+      <description>&lt;p&gt;过去两年，肌酸从纯粹的力量训练补剂悄然变成了「大脑优化」赛道的新宠。Huberman 实验室播客、各大健身博主都在推荐它作为认知增强剂。这股热潮有多少科学支撑？&lt;/p&gt;
+
+&lt;h3&gt;最大规模元分析说了什么&lt;/h3&gt;
+&lt;p&gt;2024 年 7 月，Xu 等人在《Frontiers in Nutrition》发表了迄今最全面的肌酸认知效果元分析（PMC11275561），纳入 16 项 RCT、492 名受试者，年龄跨度 20.8–76.4 岁，剂量 3–20 克/天，干预时长 7 天至 18 个月。&lt;/p&gt;
+&lt;p&gt;核心结论：&lt;strong&gt;记忆力&lt;/strong&gt; SMD = 0.31（95% CI: 0.18–0.44，p &amp;lt; 0.00001，I² = 21%）——证据强度&lt;em&gt;中等&lt;/em&gt;；&lt;strong&gt;注意力反应时间&lt;/strong&gt; SMD = −0.31（p = 0.03）——证据强度&lt;em&gt;低&lt;/em&gt;；&lt;strong&gt;信息处理速度&lt;/strong&gt; SMD = −0.51（p = 0.04，I² = 63%）——证据强度&lt;em&gt;低&lt;/em&gt;；&lt;strong&gt;执行功能&lt;/strong&gt; SMD = 0.32，p = 0.12——&lt;strong&gt;不显著&lt;/strong&gt;；&lt;strong&gt;综合认知评分&lt;/strong&gt; SMD = 0.34，p = 0.22——&lt;strong&gt;不显著&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h3&gt;方法论地雷：重复计数的陷阱&lt;/h3&gt;
+&lt;p&gt;2026 年，Citherlet 等人在同期刊发表评论，指出 Xu 元分析存在严重的「分析单元错误」（unit-of-analysis error）：Alves 2013 一项研究贡献了 7 个以上记忆子测试，McMorris 2006 和 2007b 各贡献 4 个相关结局，Pires 2020 贡献 4 个——这些来自同一批受试者的相关测量被当作独立效应值纳入，导致精度虚高、置信区间收窄。&lt;/p&gt;
+&lt;p&gt;这不是孤立问题。Prokopidis 等人（2023）更早的肌酸认知元分析存在同样缺陷：经重复计数校正后，整体记忆效应不再显著，仅在老年人亚群中保留了统计意义。&lt;/p&gt;
+
+&lt;h3&gt;EFSA 的判决：不予认可&lt;/h3&gt;
+&lt;p&gt;2024 年 11 月，欧洲食品安全局拒绝了全球最大肌酸生产商之一 Alzchem Trostberg GmbH 提交的认知健康声明申请，结论是「无法确立因果关系」。关键障碍：在维持剂量（5 克/天）下几乎没有证据；20 克/天的急性工作记忆改善在日常使用场景中难以推广。&lt;/p&gt;
+
+&lt;h3&gt;什么时候肌酸对大脑真正有效？&lt;/h3&gt;
+&lt;p&gt;目前最可靠的情景是&lt;strong&gt;代谢压力下的缓冲效应&lt;/strong&gt;。Gordji-Nejad 等人（2024，Scientific Reports）用 ³¹P 磁共振波谱直接测量了睡眠剥夺条件下的脑内磷酸肌酸水平：15 名受试者摄入 0.35 g/kg 单剂量肌酸后，在 21 小时睡眠剥夺期间，词语记忆和处理速度有显著改善（Bonferroni 校正后 p ≤ 0.005）。MRS 数据显示，肌酸维持了脑内 PCr/Pi 比值和 ATP 水平，阻止了 pH 下降。&lt;/p&gt;
+&lt;p&gt;机制清晰：大脑消耗人体约 20% 的能量，磷酸肌酸系统能以 12 倍于氧化磷酸化的速度补充 ATP。在正常清醒状态下，常规代谢途径即可满足需求；但在睡眠不足、高原缺氧、颅脑损伤或持续高认知负荷场景下，额外的磷酸肌酸储备才能产生可感知的差异。&lt;/p&gt;
+
+&lt;h3&gt;给健身人群的实际启示&lt;/h3&gt;
+&lt;p&gt;肌酸对&lt;strong&gt;肌肉&lt;/strong&gt;的效果（力量提升、无脂体重增加）仍然是所有运动营养补剂中证据最强的之一，这一点不受认知争议的影响。认知效应最可能出现在睡眠不足、高强度备赛期，或素食者（内源性肌酸摄入极低）等情景中。商业宣传的「日常认知增强」效果，现有证据质量尚不支撑。Prokopidis 等人（2025，Journal of Nutrition）用一句话总结了现状：「销售数据、处方量和社交媒体热度远远超前于实际证据。」&lt;/p&gt;
+&lt;p&gt;最值得期待的研究方向：老年人长期补充肌酸对认知衰退的影响——这一亚群可能是真正的受益者，也是未来元分析中最需要单独拆分的子群。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1716285/abstract"&gt;https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1716285/abstract&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2024.9100"&gt;https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2024.9100&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38418482/"&gt;https://pubmed.ncbi.nlm.nih.gov/38418482/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">34efe83d-be11-5883-a40f-3d17ce64cf00</guid>
+      <pubDate>Sat, 04 Apr 2026 08:06:33 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/</link>
+    </item>
+    <item>
+      <title>💪 💪 加压带不只是伤者专利：高负荷+BFR双重刺激，6周内碾压单纯大重量</title>
+      <description>&lt;p&gt;血流限制训练（BFR，俗称加压训练）在国内健身圈长期贴着一个标签：「高龄/伤病/康复专用，健康人用不着」。这个认知在 2025 年的运动科学文献面前需要被修正。&lt;/p&gt;
+
+&lt;h3&gt;新范式：不是低负荷替代，而是高负荷叠加&lt;/h3&gt;
+&lt;p&gt;BFR 的诞生逻辑确实是「低负荷模拟高负荷效果」——用 30% 1RM 配合血流限制获得相当于 70%+ 1RM 的肌肥大刺激。但过去三年，研究者开始测试另一个问题：如果在高负荷训练基础上&lt;strong&gt;叠加&lt;/strong&gt; BFR，会发生什么？&lt;/p&gt;
+&lt;p&gt;2025 年，《Frontiers in Physiology》发表了第一项专门针对「高负荷 BFR（HL-BFRT）vs 单纯高负荷（HL-RT）」的荟萃分析，纳入 10 项研究（2012–2024 年），184 名运动员（154 男 30 女），结果如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;肌肉力量&lt;/strong&gt;：HL-BFRT 优，SMD = 0.65（I² = 44%）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;爆发力&lt;/strong&gt;：HL-BFRT 优，SMD = 0.45（I² = 0%）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;速度&lt;/strong&gt;：HL-BFRT 优，SMD = 0.78（I² = 60%）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;耐力&lt;/strong&gt;：HL-BFRT 优，SMD = 0.90（I² = 51%）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;体成分/肌肥大&lt;/strong&gt;：无显著差异（p &amp;gt; 0.05）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关键细节：时长超过 6 周后，力量和爆发力优势消失；每周≥3 次频率的效应量（SMD 0.92）远大于低频（0.33）；使用绝对压力设定的方案在速度指标上优于个体化压力。&lt;/p&gt;
+
+&lt;h3&gt;为什么高负荷+BFR能打败单纯高负荷？&lt;/h3&gt;
+&lt;p&gt;机制研究指出，HL-BFRT 产生了&lt;strong&gt;双重适应刺激&lt;/strong&gt;：第一，&lt;strong&gt;机械张力&lt;/strong&gt;（来自高负荷本身）激活 mTORC1 和机械感应 MAPK 信号；第二，&lt;strong&gt;代谢应激&lt;/strong&gt;（来自血流限制）积累乳酸、H⁺ 和无机磷酸盐，激活 HIF-1α，引起额外的 GH/IGF-1 急性分泌。&lt;/p&gt;
+&lt;p&gt;更重要的是，高负荷下的 BFR 能迫使 II 型快肌纤维更早被招募——乳酸积累降低了 I 型慢肌纤维的收缩效率，强制动员更高阈值的运动单元。这与纯低负荷 BFR 优先刺激 I 型纤维的机制形成互补。&lt;/p&gt;
+
+&lt;h3&gt;最反直觉的发现：体成分为何没有差异？&lt;/h3&gt;
+&lt;p&gt;尽管力量、速度、耐力指标全面占优，肌肥大却与单纯高负荷相当。可能的解释是：HL-BFRT 的优势更多来自&lt;strong&gt;神经适应&lt;/strong&gt;（运动单元募集效率提升），而非肌纤维蛋白质合成速率的增加。BFR 的代谢应激可能优先优化神经驱动，而非直接刺激肌肉蛋白质积累。此外，纳入研究总样本量仅 184 人，检测体成分差异的统计功效本身就有限。&lt;/p&gt;
+&lt;p&gt;对照来看，低负荷 BFR（LL-BFR）vs 高负荷的另一项 2024 年荟萃分析（MDPI Life，13 项研究）结论是：两者肌肥大相当，但 LL-BFR 在力量增益上劣于 HL-RT。三种方案的肌肥大效果排序大致持平，但力量/功能性表现上 HL-BFRT &gt; HL-RT &gt; LL-BFR。&lt;/p&gt;
+
+&lt;h3&gt;实操建议&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：有力量训练基础的运动员，追求力量/速度/耐力峰值表现；&lt;strong&gt;最优时窗&lt;/strong&gt;：≤6 周的短期强化块（赛前准备期/冲刺期），超过 6 周优势减弱；&lt;strong&gt;频率&lt;/strong&gt;：每周≥3 次效果更佳；&lt;strong&gt;压力设定&lt;/strong&gt;：40–80% 动脉闭塞压（AOP），绝对压力在速度指标上效果更优；&lt;strong&gt;不适合&lt;/strong&gt;：以体型增大（纯肌肥大）为主要目标的健美训练——BFR 在这里不带来额外收益。&lt;/p&gt;
+
+&lt;h3&gt;尚待厘清的问题&lt;/h3&gt;
+&lt;p&gt;HL-BFRT 的 6 周效应消退机制尚不明确：是神经适应饱和了？还是持续代谢应激引发了慢性炎症？纳入样本中女性仅占 30/184，性别差异数据严重不足。值得继续关注的还有：BFR 在抗阻+有氧复合训练中的干扰效应，以及不同肌群对 HL-BFRT 的响应差异。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1603568/full"&gt;https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1603568/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mdpi.com/2075-1729/14/11/1442"&gt;https://www.mdpi.com/2075-1729/14/11/1442&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10204387/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC10204387/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1b0422a2-19cb-544f-8ad2-8f1696033de5</guid>
+      <pubDate>Sat, 04 Apr 2026 08:07:09 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1603568/full</link>
+    </item>
+    <item>
+      <title>💪 💪 冰浴削弱肌肥大的证据有多强？8项RCT的贝叶斯元分析与「时机窗口」策略</title>
+      <description>&lt;p&gt;冰浴文化近年因 Huberman 实验室、Wim Hof 方法论和各类「极限表现」博主的推广，已渗透进大众健身圈。问题是：如果你的目标是增肌，训练后立刻泡冰浴这件事对你有没有害处？&lt;/p&gt;
+
+&lt;h3&gt;最严格的荟萃分析：谨慎的「是」&lt;/h3&gt;
+&lt;p&gt;2024 年 2 月，Piñero 等人在《European Journal of Sport Science》发表了迄今方法论最严格的冷水浸泡（CWI）与肌肥大关系荟萃分析（PMC11235606），纳入 8 项 RCT、约 116 名受试者，使用&lt;strong&gt;贝叶斯元分析&lt;/strong&gt;（而非传统频率学派方法），对效应量不确定性的刻画更为完整。CWI 方案：大多为 10°C、浸泡 10–20 分钟，运动后 3–15 分钟内进行；研究时长 4–12 周，每周 2–3 次。&lt;/p&gt;
+&lt;p&gt;结果：单纯力量训练（无 CWI）肌肥大效应量 SMD₀.₅ = &lt;strong&gt;0.36&lt;/strong&gt;（95% CrI: 0.10–0.61）；力量训练 + CWI 肌肥大 SMD₀.₅ = &lt;strong&gt;0.14&lt;/strong&gt;（95% CrI: −0.08–0.36）；组间差异（CWI 的负效应）：&lt;strong&gt;cSMD₀.₅ = −0.22，P(&amp;lt;0) = 0.957&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;换言之：有 95.7% 的后验概率支持 CWI 对肌肥大产生负面效应。效应量 −0.22 属于「小」级别，但在 8 项研究方向高度一致的情况下，这个小效应的可信度相当高。需要注意的是，这 8 项研究的方法学质量中位数评分仅为 9.8/20（SMART-LD 量表），5 项为低质量、3 项为中等质量、零项为高质量，真实效应量的不确定范围仍然较大。&lt;/p&gt;
+
+&lt;h3&gt;为什么冷水会阻碍肌肥大？&lt;/h3&gt;
+&lt;p&gt;Piñero 综述梳理了 6 条机制路径：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;mTORC1 信号抑制&lt;/strong&gt;：Roberts 等人（2015，Journal of Physiology）是最经典的机制研究——12 周力量训练后，CWI（10°C，10 分钟）在运动后 2 小时和 24 小时显著压低了 p70S6K 磷酸化水平，这是肌肉蛋白质合成的关键信号节点。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;肌肉蛋白质合成速率下降&lt;/strong&gt;：运动后 5 小时内的合成速率被抑制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;卫星细胞活性降低&lt;/strong&gt;：主动恢复组的 NCAM+ 和 Pax7+ 卫星细胞数量显著高于 CWI 组。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核糖体生物合成转录因子受抑&lt;/strong&gt;：影响长期肌肉蛋白质制造能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;睾酮和促合成代谢细胞因子下降&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;训练肌群血流减少&lt;/strong&gt;：妨碍营养底物输送至受训肌肉。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;关键发现：力量不受影响，肌肥大才受影响&lt;/h3&gt;
+&lt;p&gt;Fyfe 等人（2019，Journal of Applied Physiology）提供了一个重要细节：16 名男性进行 7 周力量训练，CWI 组（10°C，15 分钟）vs 被动恢复组在腿举 1RM 增益上&lt;strong&gt;没有显著差异&lt;/strong&gt;，但 II 型肌纤维横截面积增加在 CWI 组显著低于对照组。&lt;/p&gt;
+&lt;p&gt;换句话说，神经适应和力量表达不受 CWI 影响，受损的是实际肌纤维蛋白质积累。对于纯力量/爆发力运动员，冰浴的代价可能很小；对于以体型增大为目标的健美选手，每次训练后的冰浴都在对抗自己的努力。&lt;/p&gt;
+
+&lt;h3&gt;「时机窗口」策略的实证基础&lt;/h3&gt;
+&lt;p&gt;关键在于 CWI 与训练的&lt;strong&gt;时间间隔&lt;/strong&gt;。Roberts 2015 的机制数据显示，mTORC1 信号在训练后 2–24 小时内被 CWI 抑制，这正是合成代谢窗口期。&lt;/p&gt;
+&lt;p&gt;实操建议：若增肌是主要目标，训练后 4 小时内避免冷水浸泡；早晨训练 + 晚间冰浴，时间间隔足够，风险较低；在多日比赛或双次训练等恢复优先场景下，CWI 仍是有效工具（促进多巴胺释放、减少感知疲劳），此时恢复优先于合成代谢；−0.22 是「小」效应，普通健身者实际损失有限，竞技健美或增肌期选手才真正需要精确规避。&lt;/p&gt;
+
+&lt;h3&gt;未来研究缺口&lt;/h3&gt;
+&lt;p&gt;目前的 8 项 RCT 均为 4–12 周的短期研究，长期训练（&gt;6 个月）下 CWI 的累积影响尚无高质量证据。「拉长 CWI 与训练的时间间隔」和「降低浸泡水温」对效应量的影响也亟待系统研究。一个值得关注的问题是：对于训练年限较长、基础 mTORC1 反应性已经下降的中级/高级训练者，CWI 的负效应是否会更加显著？这是目前证据空白最大的方向之一。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4594298/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC4594298/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/31513450/"&gt;https://pubmed.ncbi.nlm.nih.gov/31513450/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e38e2d03-c908-5ee5-b4ad-238b201000c3</guid>
+      <pubDate>Sat, 04 Apr 2026 08:07:54 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/</link>
     </item>
   </channel>
 </rss>

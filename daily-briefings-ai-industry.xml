@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:03:30 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -230,6 +230,89 @@
       <category>ai-industry</category>
       <link>https://www.axios.com/2026/04/02/trump-administration-appeals-anthropic-pentagon</link>
       <enclosure url="https://images.axios.com/2026/04/02/anthropic-pentagon-appeal.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 二级市场大逆转：6亿美元 OpenAI 股份找不到买家，20亿资金排队抢 Anthropic</title>
+      <description>&lt;p&gt;Bloomberg 4月1日发了一篇重磅报道，揭示了 AI 双雄在私募二级市场上的冰火两重天。简单说：&lt;strong&gt;OpenAI 的股份正在变成烫手山芋，而 Anthropic 成了一票难求的硬通货。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;数据很刺眼。二级市场平台 Next Round Capital 的创始人 Ken Smythe 透露，近几周有约六家机构投资者——包括对冲基金和风投——找上门来，想出手总计约6亿美元的 OpenAI 股份。结果？「我们在数百家机构投资者的池子里找了一圈，字面意义上找不到接盘的人。」与此同时，另一家平台 Hiive 的联合创始人 Prab Rattan 说，买家已经准备好了20亿美元现金要投 Anthropic，其中仅 Hiive 一家就记录了16亿需求。Augment 联合创始人 Adam Crawley 的评价更直接：「需求基本上是无限的。」&lt;/p&gt;
+
+&lt;p&gt;定价上的分化同样惊人。OpenAI 二级市场成交价对应估值约7650亿美元，比最新一轮融资的8520亿估值&lt;strong&gt;折价约10%&lt;/strong&gt;。Anthropic 则反过来——二级市场隐含估值约6000亿，比上轮融资的3800亿&lt;strong&gt;溢价近60%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;华尔街的行为比任何报告都诚实。高盛和摩根士丹利开始向财富管理客户推售 OpenAI 股份时，免除了通常15%-20%的 carry fee（绩效提成）——这是投行在库存出不动时才会做的事。同样是高盛，推 Anthropic 股份时照收 carry 不误。&lt;/p&gt;
+
+&lt;p&gt;逆转的根源在基本面。过去一年，OpenAI 的企业 API 市场份额从50%腰斩至25%；Anthropic 则从12%飙升至32%。在首次采购 AI 的企业客户中，Anthropic 的中标率是 OpenAI 的三倍。与此同时，OpenAI 2026年预计亏损140亿美元，日烧约1.5亿；而 Anthropic 已有分析师预测2029年盈利180亿。&lt;/p&gt;
+
+&lt;p&gt;两家公司都在冲刺 IPO——OpenAI 瞄准 Q4，Anthropic 目标10月。但二级市场的信号很清晰：机构投资者正在用真金白银投票，而票投给了 Anthropic。当然，Anthropic 也不是没有隐患——五角大楼黑名单案正在第九巡回上诉中，Claude Code 源码泄露的余波还在，IPO 前夕的风险清单并不短。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot"&gt;Bloomberg&lt;/a&gt;、&lt;a href="https://www.implicator.ai/openai-shares-cant-find-buyers-as-2-billion-floods-into-anthropic-instead/"&gt;Implicator&lt;/a&gt;、&lt;a href="https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/"&gt;TechCrunch&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot"&gt;https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.implicator.ai/openai-shares-cant-find-buyers-as-2-billion-floods-into-anthropic-instead/"&gt;https://www.implicator.ai/openai-shares-cant-find-buyers-as-2-billion-floods-into-anthropic-instead/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/"&gt;https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ec62ecd5-37cc-5242-9cab-d498493c1d36</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:34 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot</link>
+    </item>
+    <item>
+      <title>🏭 DeepSeek V4「数周内」发布：梁文锋团队完成华为芯片适配，中国 AI 芯片生态加速成形</title>
+      <description>&lt;p&gt;The Information 4月3日报道，DeepSeek V4 的发布已进入最后冲刺——距离上线只剩「数周」。这是自2月以来的第三次窗口预告，但这次有一个关键区别：&lt;strong&gt;延迟的原因不再是模型本身，而是芯片适配。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;梁文锋团队花了大量时间重写代码，让 V4 能在华为昇腾（Ascend）和寒武纪芯片上跑通，而非依赖 Nvidia GPU。这不只是技术选择，更是战略信号——DeepSeek 正在主动切断对 Nvidia 的依赖，即便这意味着推迟发布。36氪透露，梁文锋本人将在4月提交至少两篇论文，一篇关于 mHC（流形约束超连接），另一篇关于条件记忆的可扩展检索（Engram），这些很可能就是 V4 的核心技术创新。&lt;/p&gt;
+
+&lt;p&gt;更值得关注的是供应侧的连锁反应。阿里巴巴、字节跳动、腾讯三家已向华为预订了数十万颗新一代芯片，订单量之大直接推高了芯片价格约20%。这意味着 DeepSeek V4 不只是一个模型发布事件——它正在催生一个以华为芯片为中心的中国 AI 算力生态。&lt;/p&gt;
+
+&lt;p&gt;V4 的技术参数在此前的报道中已基本明确：1万亿参数 MoE 架构，370亿活跃参数，100万 token 上下文窗口，Engram 条件记忆系统，原生多模态（文本、图像、视频），Apache 2.0 开源。如果 SWE-bench 81% 的泄露数据属实，它将直接威胁 OpenAI Spud 和 Anthropic Claude 在代码任务上的领先地位。&lt;/p&gt;
+
+&lt;p&gt;与 DeepSeek 几乎同步，腾讯的混元（Hunyuan）也在冲刺4月。36氪报道，前海外学者姚顺雨已回国出任腾讯执委会首席 AI 科学家，主导混元的重新设计，并推出 CL-bench 评估框架。腾讯的策略是将模型深度整合进微信、QQ、腾讯视频、游戏和企业微信。两家公司的技术路线正在趋同——都押注长上下文、长期记忆和 Agent 能力。&lt;/p&gt;
+
+&lt;p&gt;V4 已经跳票两次了。但这次不同的是，延迟不是因为训练出了问题，而是因为他们选择了一条更难但更自主的路。如果4月中旬真的上线，它将是第一个完全不依赖 Nvidia 的万亿参数级前沿模型。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://finance.yahoo.com/sectors/technology/articles/deepseek-v4-model-run-huawei-134341751.html"&gt;The Information / Reuters&lt;/a&gt;、&lt;a href="https://eu.36kr.com/en/p/3723883117376256"&gt;36氪&lt;/a&gt;、&lt;a href="https://dataconomy.com/2026/03/16/deepseek-v4-and-tencents-new-hunyuan-model-to-launch-in-april/"&gt;Dataconomy&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/sectors/technology/articles/deepseek-v4-model-run-huawei-134341751.html"&gt;https://finance.yahoo.com/sectors/technology/articles/deepseek-v4-model-run-huawei-134341751.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://eu.36kr.com/en/p/3723883117376256"&gt;https://eu.36kr.com/en/p/3723883117376256&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dataconomy.com/2026/03/16/deepseek-v4-and-tencents-new-hunyuan-model-to-launch-in-april/"&gt;https://dataconomy.com/2026/03/16/deepseek-v4-and-tencents-new-hunyuan-model-to-launch-in-april/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d74f2dda-245c-5d90-8bb0-ce9185963908</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:02 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://finance.yahoo.com/sectors/technology/articles/deepseek-v4-model-run-huawei-134341751.html</link>
+    </item>
+    <item>
+      <title>🏭 「解放日」关税一周年：美国 AI 基建多花了750亿，1000家小型实验室可能出局</title>
+      <description>&lt;p&gt;4月2日是特朗普「解放日」关税的一周年。NPR、Axios、CSIS 等机构集中发布了回顾分析，而对 AI 行业来说，账单比预期更沉重。&lt;/p&gt;
+
+&lt;p&gt;CSIS（战略与国际研究中心）的一份详细报告给出了最令人警醒的数字：&lt;strong&gt;当前和拟议中的关税政策，在五年内将为美国 AI 基础设施增加750-1000亿美元的额外成本&lt;/strong&gt;，相当于少建15-20座超大规模数据中心。半导体占 AI 服务器总成本的一半以上，而 GPU——目前全部在美国境外制造——正是关税打击的核心。如果拟议中100%的半导体关税落地，AI 服务器成本将暴涨50%-75%。&lt;/p&gt;
+
+&lt;p&gt;对大厂来说，这是可以消化的痛。Google、Amazon、Meta、Microsoft 2025年计划投入3500亿美元建设 AI 数据中心，摩根士丹利预计三年总投入可达3万亿。长期供应协议和规模优势让它们能缓冲短期冲击，云 GPU 价格上涨通常滞后6-18个月才传导到客户。&lt;/p&gt;
+
+&lt;p&gt;真正被挤出去的是小玩家。CSIS 估计约1000家年预算低于1000万美元的 AI 实验室和初创公司，可能因硬件采购成本上升10%-25%而被迫退出前沿模型开发。这里有一个反直觉的效果：关税本意是保护美国产业，但在 AI 领域，它可能加速市场集中度，让已经占据垄断地位的几家大厂更难被挑战。&lt;/p&gt;
+
+&lt;p&gt;供应链层面也在发生结构性变化。台湾芯片厂商通过承诺2500亿美元的美国本土制造投资，换取了降低关税的协议。美国国内变压器制造商只能满足20%的国内需求，55%的配电变压器已服役超过33年——这意味着 AI 数据中心的电力基础设施本身就是瓶颈，而钢铁关税还在推高变压器成本。&lt;/p&gt;
+
+&lt;p&gt;一年前 Liberation Day 的逻辑是「让制造业回流」。一年后的现实是：美国工厂比关税前少了8.9万个工作岗位，贸易逆差反而扩大了，食品价格上涨2.8%。AI 行业虽然因为需求爆炸而暂时扛住了冲击，但账单正在悄悄堆积——最终要么传导给云计算客户，要么从基建规模上做减法。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.csis.org/analysis/how-tariffs-could-derail-united-states-3-trillion-ai-buildout"&gt;CSIS&lt;/a&gt;、&lt;a href="https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day"&gt;Axios&lt;/a&gt;、&lt;a href="https://www.npr.org/2026/04/02/nx-s1-5766424/trump-tariffs-inflation-economy"&gt;NPR&lt;/a&gt;、&lt;a href="https://www.abhs.in/blog/trump-tariffs-tech-hardware-gpu-cloud-costs-2026"&gt;Abhishek Gautam&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.csis.org/analysis/how-tariffs-could-derail-united-states-3-trillion-ai-buildout"&gt;https://www.csis.org/analysis/how-tariffs-could-derail-united-states-3-trillion-ai-buildout&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day"&gt;https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/04/02/nx-s1-5766424/trump-tariffs-inflation-economy"&gt;https://www.npr.org/2026/04/02/nx-s1-5766424/trump-tariffs-inflation-economy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.abhs.in/blog/trump-tariffs-tech-hardware-gpu-cloud-costs-2026"&gt;https://www.abhs.in/blog/trump-tariffs-tech-hardware-gpu-cloud-costs-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ac9152a6-0f9c-554c-ad96-9148f064595b</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:30 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.csis.org/analysis/how-tariffs-could-derail-united-states-3-trillion-ai-buildout</link>
+      <enclosure url="https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-08/GettyImages-2223681588_Crop1.jpg?VersionId=.yArzW9rC5sl3P9vJgUhdXs4k3Phf5P." type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

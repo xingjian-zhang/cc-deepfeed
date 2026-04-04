@@ -4,7 +4,7 @@
     <title>博士生存指南</title>
     <description>Per-topic feed: 博士生存指南</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:03:44 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" type="application/rss+xml" />
@@ -215,6 +215,104 @@
       <pubDate>Fri, 03 Apr 2026 08:03:44 +0000</pubDate>
       <category>phd-survival</category>
       <link>https://bgindependentmedia.org/university-of-toledo-suspending-nine-undergrad-programs-in-compliance-with-ohio-higher-ed-law/</link>
+    </item>
+    <item>
+      <title>📚 NIH 经费风暴：405 个 F31 被砍，博士生成了最大牺牲品</title>
+      <description>&lt;p&gt;NIH 经费危机不再只是 PI 们的事——博士生正首当其冲。PNAS 今年 3 月发表的一项分析显示，NIH 在 2025 年终止的 2,291 笔 grants 中，&lt;strong&gt;630 笔直接影响博士生、博后和尚未拿到 tenure 的助理教授&lt;/strong&gt;，占总数的 27.5%。更扎眼的是，被砍的 F31 awards（专门资助博士生的联邦奖学金）多达 405 个，其中大部分属于 diversity 类别。&lt;/p&gt;
+
+&lt;p&gt;STAT 的全国调查更令人不安：近 1,000 名 NIH 资助的研究者中，&lt;strong&gt;70% 报告所在院校已缩减招生或撤回 offer&lt;/strong&gt;。三分之二的受访者表示，自己已建议学生考虑学术界以外的职业。换句话说，原本该指导学生做科研的导师们，正集体劝退。&lt;/p&gt;
+
+&lt;p&gt;性别差异同样触目。STAT 的后续报道引用数据指出，在被终止的博士生和助理教授 grants 中，&lt;strong&gt;女性占 60%&lt;/strong&gt;。女性研究者平均被砍掉 57.9% 的经费，男性则是 48.2%——差距接近 10 个百分点。堪萨斯大学经济学家 Donna Ginther 直言：training grants 被大面积砍掉，等于在科研职业的起步阶段就把人绊倒。&lt;/p&gt;
+
+&lt;p&gt;具体个案更有说服力。西北大学的 Minoli Perera 丢掉了一笔约 50 万美元的 grant，原本用于研究非裔血统对药物反应的影响——NIH 认定这属于"推进多样性"，但 Perera 的研究对象是基因组，不是社会议题。还有俄亥俄州一位研究子宫内膜异位症的学者，在合同到期前几天被通知经费取消，实验室还没来得及启动。&lt;/p&gt;
+
+&lt;p&gt;这一切与此前我们追踪的高校缩编趋势形成共振：Toledo 砍专业、Concordia 裁员、Duke 削预算——现在连联邦层面的博士生直接资助也在收缩。对还在读的博士生来说，实际影响分几个层面：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;资金链断裂的连锁反应&lt;/strong&gt;：导师的 R01 被砍，RA 位置消失；F31 被终止，学生需要临时找 TA 或其他 fellowship 顶上，论文进度几乎必然受影响。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;招生缩水&lt;/strong&gt;：70% 的院校已经在减少录取。2026-2027 申请季的竞争会更激烈。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;心理冲击&lt;/strong&gt;：当你的导师开始说"也许你该考虑其他路"，这不只是职业建议，更是对整个学术承诺的动摇。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果你的 funding 还在，现在就该制定 Plan B——了解院系内部的 bridge funding 政策，评估自己能否在 funding gap 期间靠 TA 维持，同时关注 NSF GRFP 等不受 NIH 风波直接影响的联邦资助渠道。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.statnews.com/2026/03/19/nih-funding-national-researcher-survey-finds-cutbacks-disruptions/"&gt;https://www.statnews.com/2026/03/19/nih-funding-national-researcher-survey-finds-cutbacks-disruptions/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.statnews.com/2026/03/23/nih-cuts-who-lost-funding-women-blacks-young-researchers/"&gt;https://www.statnews.com/2026/03/23/nih-cuts-who-lost-funding-women-blacks-young-researchers/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.statnews.com/2026/03/19/nih-funding-turmoil-young-researchers-detail-impact/"&gt;https://www.statnews.com/2026/03/19/nih-funding-turmoil-young-researchers-detail-impact/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pnas.org/doi/10.1073/pnas.2527755123"&gt;https://www.pnas.org/doi/10.1073/pnas.2527755123&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">dcc5965a-5883-55bd-b025-f9ac9e96ce96</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:42 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://www.statnews.com/2026/03/19/nih-funding-national-researcher-survey-finds-cutbacks-disruptions/</link>
+      <enclosure url="https://www.statnews.com/wp-content/uploads/2026/03/bermanphotos_03042026_STAT_DrMariyaSweetwyne_14-1024x576.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 STEM OPT 可能被改写：DHS 启动审查，博士生的 36 个月工作窗口还保得住吗？</title>
+      <description>&lt;p&gt;对国际博士生来说，STEM OPT 的 36 个月工作期是从毕业到拿 H-1B 之间最关键的缓冲。但 DHS 在 2026 年 1 月 9 日发出的一封内部信函（2 月 26 日公开）明确表示：&lt;strong&gt;正在重新评估 OPT 和 STEM OPT 的范围与时长&lt;/strong&gt;。对应的 rulemaking 条目（RIN 1653-AA97）已列入 Spring Unified Agenda，意味着一份正式的拟议规则（NPRM）可能在未来数月内发布。&lt;/p&gt;
+
+&lt;p&gt;DHS 给出的审查理由有三个：保护美国工人免受岗位替代、打击欺诈和国家安全风险、加强 SEVP 监管。信函中特别强调了一个法律事实——OPT 的依据是行政法规（8 C.F.R. 214.2(f)(10)），而非国会立法。这意味着行政部门有很大的单方面修改空间，不需要经过国会。&lt;/p&gt;
+
+&lt;p&gt;同时推进的还有另一项重大变更：F-1 学生的"身份有效期"（Duration of Status, D/S）制度可能被取消，改为&lt;strong&gt;固定期限入境许可&lt;/strong&gt;，最长不超过 4 年加 30 天。任何超出授权时间的活动——包括 OPT 和 STEM OPT——都需要向 USCIS 提交延期申请。这对读博时间经常超过 5 年的博士生而言，是一个直接的身份维护负担。&lt;/p&gt;
+
+&lt;p&gt;再叠加上已经生效的 H-1B 工资权重抽签（FY2027 起适用），整个签证路径正在收紧。工资权重机制按 4 个等级给予不同的抽签权重——Level 1 只有 1 张票，Level 4 有 4 张。刚毕业的博士虽然学历高，但入职薪资通常在 Level 1-2 区间，抽签优势并不明显。倒是 Master's Cap 的额外 20,000 名额对硕士及以上学位持有者有帮助，PhD 也能受益。&lt;/p&gt;
+
+&lt;p&gt;综合来看，国际博士生面对的是一个三重挤压：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OPT/STEM OPT 本身可能缩短或附加更严格条件&lt;/strong&gt;——具体方案尚未出台，但风向已经很明确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;D/S 取消意味着签证维护成本上升&lt;/strong&gt;——读博超过 4 年就需要额外申请延期。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;H-1B 抽签不再对高学历者天然友好&lt;/strong&gt;——工资权重下，刚毕业的博士和有 5 年经验的硕士在抽签赔率上差不多。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前 NPRM 还没发布，一切尚有变数。但几件事现在就可以做：关注 Federal Register 上 RIN 1653-AA97 的动态；确保 I-20 信息准确（尤其是 program end date）；如果条件允许，认真评估 &lt;strong&gt;O-1 和 EB-1A/EB-2 NIW&lt;/strong&gt; 等不依赖雇主的绿卡路径——这些选项对有高引论文、国际会议邀请或审稿记录的博士生来说，可能比 H-1B 更靠谱。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://eiglaw.com/dhs-confirms-review-of-opt-and-stem-opt/"&gt;https://eiglaw.com/dhs-confirms-review-of-opt-and-stem-opt/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://berardiimmigrationlaw.com/major-opt-reform-on-the-horizon-what-students-graduates-and-employers-should-know/"&gt;https://berardiimmigrationlaw.com/major-opt-reform-on-the-horizon-what-students-graduates-and-employers-should-know/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.internationalstudent.com/immigration/opt-stem-opt-h1b-2026/"&gt;https://www.internationalstudent.com/immigration/opt-stem-opt-h1b-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.rnlawgroup.com/new-dhs-rule-what-f-1-students-must-know-about-the-transition-from-d-s/"&gt;https://www.rnlawgroup.com/new-dhs-rule-what-f-1-students-must-know-about-the-transition-from-d-s/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">98ff2a1b-5a2e-527e-bfc5-9ee7eca9466d</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:11 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://eiglaw.com/dhs-confirms-review-of-opt-and-stem-opt/</link>
+      <enclosure url="https://eiglaw.com/wp-content/uploads/2025/09/USCIS.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 博士生 Burnout 新研究：不是你不够努力，是系统在透支你</title>
+      <description>&lt;p&gt;PLOS ONE 最近发表的一项研究（Assessing factors that influence graduate student burnout in health professions education）用定性方法拆解了博士生 burnout 的深层结构，结论虽然来自药学博士项目，但对所有 PhD 学生都有参考价值——因为它指出的问题几乎是跨学科共通的。&lt;/p&gt;
+
+&lt;p&gt;研究将受访者分为两组：还没通过资格考试的 Pre-ABD 学生和已经进入论文阶段的 ABD（All But Dissertation）候选人。两组的压力来源有明显差异。Pre-ABD 阶段的核心焦虑是&lt;strong&gt;课业与科研的双线作战&lt;/strong&gt;：累积考试、课程作业和实验室任务同时推进，加上入学后才发现的"隐性加班文化"——名义上没人要求你周末到场，但如果不来，进度就会落后。一位受访者说：研究的压力"让我夜里都睡不着，即使不在实验室也停不下来。"&lt;/p&gt;
+
+&lt;p&gt;ABD 阶段的压力则更多来自&lt;strong&gt;信息不透明和导师沟通&lt;/strong&gt;。毕业要求不够清晰、时间线模糊、导师的期望标准在第一年之后突然升级——这些问题让学生陷入"不知道自己到底离终点有多远"的持续焦虑。部分受访者还反映，当他们向导师表达困难时，得到的回应是被"不当回事"。&lt;/p&gt;
+
+&lt;p&gt;贯穿两组的共同因素是&lt;strong&gt;钱&lt;/strong&gt;。受访者直言现有的 stipend "远远不够基本生活开销"，经济压力直接提升了退学意愿。这与去年 Nature 的调查一致——超过 75% 的博士生报告中度至重度压力，近半数出现符合 burnout 诊断标准的症状。&lt;/p&gt;
+
+&lt;p&gt;不过研究也识别了几个有效的保护因素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;同伴关系&lt;/strong&gt;是最被低估的缓冲器。和同批入学的同学保持定期交流——哪怕只是一起吃午饭抱怨——能显著降低孤立感。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阶段性里程碑&lt;/strong&gt;的完成会带来短暂但真实的信心恢复。通过 qualifying exam、提交第一篇论文、完成 proposal defense——这些"小胜利"是支撑长期动力的关键节点。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;导师委员会的支持性互动&lt;/strong&gt;（而非只在年度审查时出现）能极大缓解 ABD 阶段的方向迷失感。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;学生们给出的建议也很实际：把 stipend 跟通胀挂钩；设立有制度保障的 well-being days（不是那种"鼓励你休息但没人真的敢休"的邮件通知）；在院系层面创建跨方向的社交机会，而不是让博士生各自孤立在自己的 lab 里。&lt;/p&gt;
+
+&lt;p&gt;如果你正处于 burnout 边缘，这项研究至少确认了一件事：问题不在你的意志力，而在一个系统性地低估恢复需求的体制。能做的事情从小处开始——固定一个每周不碰实验室的半天，找一两个信任的同伴建立定期 check-in，主动跟导师约一次非正式的"进度对齐"而不是等到年度审查。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319857"&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319857&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/d41586-019-03489-1"&gt;https://www.nature.com/articles/d41586-019-03489-1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8715816/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC8715816/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">295619d5-8314-5401-b87e-5a6a48e08e14</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:44 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319857</link>
+      <enclosure url="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0319857.t003&amp;size=inline" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

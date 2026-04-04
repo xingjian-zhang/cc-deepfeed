@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:04:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:03:47 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
@@ -119,6 +119,85 @@
       <category>meta-news</category>
       <link>https://www.axios.com/2026/04/02/trump-trade-tariffs-liberation-day</link>
       <enclosure url="https://images.axios.com/gV8-16g9ZQl_TudmUWS7xPzuHyU=/0x260:6000x3635/1366x768/2026/04/01/1775077122843.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 史上最大裁员风暴逼近：Meta 拟砍 20% 员工，AI 替代逻辑浮出水面</title>
+      <description>&lt;p&gt;据 Reuters 和 TechCrunch 等多家媒体报道，Meta 正在酝酿公司史上规模最大的裁员——约 15,000 人，占其全球 79,000 名员工的 20%。如果成行，这将超过 2022 年 11 月（11,000 人）和 2023 年初（10,000 人）两轮裁员的规模。&lt;/p&gt;
+
+&lt;p&gt;Meta 发言人 Andy Stone 将报道定性为「对理论性方案的投机性报道」，未确认任何具体计划。但多位知情人士向 Reuters 透露，裁员方案已进入高管讨论阶段，波及范围包括&lt;strong&gt;软件工程、招聘和中层管理&lt;/strong&gt;三大板块。此前在 2026 年 3 月底，Meta 已率先裁减了约 700 名 Reality Labs 员工——这更像是大规模重组的前奏，而非终点。&lt;/p&gt;
+
+&lt;p&gt;裁员逻辑的核心在于 Zuckerberg 的一个判断：AI 工具能让一名优秀工程师完成过去需要整个团队才能做的项目。这不是泛泛的修辞。Meta 内部正在部署一系列 AI 编程辅助工具，目标是用「小团队 + AI」的模式取代传统的大规模工程团队。同一时期，Meta 将 2026 年 AI 资本支出预算定在 1,150 亿至 1,350 亿美元——几乎是 2025 年的两倍，并计划到 2028 年累计投入 6,000 亿美元基础设施。&lt;/p&gt;
+
+&lt;p&gt;换句话说，Meta 在一手裁人、一手砸钱。公司 2025 年营收达到 2,000 亿美元、Q4 单季近 600 亿美元，财务健康度不是问题。问题是战略选择：Zuckerberg 在赌 AI 能够结构性地降低人力密度，而不仅仅是提升效率。&lt;/p&gt;
+
+&lt;p&gt;这对整个科技行业都是信号。如果 Meta 的 20% 裁员真的执行且被证明「有效」（即产品速度和质量不下降），其他大型科技公司将很难不效仿。24/7 Wall St. 的分析已经在列举下一批可能跟进的公司名单。&lt;/p&gt;
+
+&lt;p&gt;时间线上，4 月 29 日的 Q1 财报会将是关键节点——如果裁员在此之前官宣，管理层需要向投资者解释这一决定的短期成本和长期回报模型。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/"&gt;https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.engadget.com/big-tech/meta-is-reportedly-planning-to-cut-up-to-20-percent-of-its-staff-in-upcoming-layoffs-160812304.html"&gt;https://www.engadget.com/big-tech/meta-is-reportedly-planning-to-cut-up-to-20-percent-of-its-staff-in-upcoming-layoffs-160812304.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.dqindia.com/news/meta-layoffs-2026-15000-job-cuts-amid-massive-ai-investments-11220355"&gt;https://www.dqindia.com/news/meta-layoffs-2026-15000-job-cuts-amid-massive-ai-investments-11220355&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://247wallst.com/investing/2026/03/17/metas-20-layoff-rumor-is-coming-for-these-companies-next/"&gt;https://247wallst.com/investing/2026/03/17/metas-20-layoff-rumor-is-coming-for-these-companies-next/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a4cb927d-d972-505e-8aae-a4168ce02562</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:54 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/</link>
+      <enclosure url="https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/dq/media/media_files/2026/03/17/meta-platforms-may-layoff-15000-employees-2026-03-17-13-42-35.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Mercor 遭供应链攻击泄露 4TB 数据：Meta 紧急暂停合作，AI 训练「皇冠宝石」面临曝光</title>
+      <description>&lt;p&gt;4 月初，Meta 紧急暂停了与 AI 数据供应商 Mercor 的合作关系。起因是一起波及整个 AI 行业的供应链攻击：黑客组织 TeamPCP 在开源库 &lt;strong&gt;LiteLLM&lt;/strong&gt;——一个被数千家公司用来连接 AI 服务的中间件——中植入恶意代码，窃取凭证信息。Mercor 是受害者之一。&lt;/p&gt;
+
+&lt;p&gt;事态随后迅速升级。臭名昭著的勒索组织 Lapsus$ 声称从 Mercor 系统中获取了约 &lt;strong&gt;4TB 数据&lt;/strong&gt;，并在泄露站点上发布了样本。据 Fortune 报道，泄露内容包括：Slack 通讯记录、内部工单系统数据、源代码、数据库记录，以及 Mercor AI 系统与外包标注员之间的对话视频。&lt;/p&gt;
+
+&lt;p&gt;这不是普通的数据泄露。Mercor 的客户名单包括 Meta、OpenAI、Anthropic 等头部 AI 实验室。作为训练数据供应商，Mercor 掌握的不只是原始数据，还有各家公司的&lt;strong&gt;数据筛选标准、标注协议和训练策略&lt;/strong&gt;——业内人士将这些称为「皇冠宝石」。一位安全研究员对 TechBuzz 表示，竞争对手获取这些方法论后，可能「跳过数月甚至数年的实验」。&lt;/p&gt;
+
+&lt;p&gt;对 Meta 来说，影响尤为严重。MSL 正处于 Avocado 模型训练冲刺期，Mercor 提供的数据准备和标注服务是训练流水线中的关键瓶颈环节。暂停合作意味着这条流水线中断，可能进一步推迟本已延期的 Avocado 发布时间表。&lt;/p&gt;
+
+&lt;p&gt;更深层的问题是 AI 行业的供应链安全盲区。主流 AI 实验室将大量数据标注和准备工作外包给 Mercor 这样的供应商，但对供应商的安全基础设施缺乏足够审计。LiteLLM 作为一个开源依赖项，其被植入恶意代码的事件暴露了一个结构性风险：AI 训练的核心机密可能通过一个第三方库的漏洞被一锅端。&lt;/p&gt;
+
+&lt;p&gt;Mercor 方面表示已「迅速采取措施」遏制事件，并启动了第三方取证调查。但 Wired 的追踪报道显示，多家 AI 实验室正在同步进行内部审查。这起事件很可能推动行业重新审视数据供应商的安全管理方式——从「成本中心」升级为「关键安全基础设施」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/02/mercor-ai-startup-security-incident-10-billion/"&gt;https://fortune.com/2026/04/02/mercor-ai-startup-security-incident-10-billion/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/"&gt;https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techbuzz.ai/articles/meta-halts-mercor-partnership-after-ai-training-data-breach"&gt;https://www.techbuzz.ai/articles/meta-halts-mercor-partnership-after-ai-training-data-breach&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/sectors/technology/article/twin-cybersecurity-incidents-leave-ai-industry-shaken-141850823.html"&gt;https://finance.yahoo.com/sectors/technology/article/twin-cybersecurity-incidents-leave-ai-industry-shaken-141850823.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">848958a2-cf99-5497-839f-5fee2777283e</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:21 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://fortune.com/2026/04/02/mercor-ai-startup-security-incident-10-billion/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/mercor-website.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Ray-Ban Meta 处方智能眼镜 4 月 14 日开售：499 美元起步价背后，Meta 在押注一个 1340 万台的市场</title>
+      <description>&lt;p&gt;4 月 14 日，Ray-Ban Meta Blayzer 和 Scriber 两款处方智能眼镜将正式在美国零售渠道开售。3 月 31 日开放的预购价格为 499 美元起。这是 Meta 首次推出原生支持处方镜片的智能眼镜——之前的 Ray-Ban Meta 系列只有太阳镜和平光款，近视用户被排除在外。&lt;/p&gt;
+
+&lt;p&gt;产品规格方面：Blayzer 是方形框设计（Standard 和 Large 两种尺寸），Scriber 是圆形框。两款均配备 12MP 摄像头、开放式扬声器、8 小时续航，以及 Meta AI 语音助手。处方支持范围为 -6.00 到 +4.00 屈光度，覆盖绝大多数近视和远视用户。铰链可过度延展、鼻托可更换、镜腿末端可调——都是为了让验光师能做个性化适配。&lt;/p&gt;
+
+&lt;p&gt;跳出产品本身来看，这步棋的战略意义更值得关注。全球智能眼镜 2025 年出货量达到 960 万台，预计 2026 年将增长到 &lt;strong&gt;1,340 万台&lt;/strong&gt;。Meta 在这个市场占据约 76% 的份额——几乎是垄断地位。推出处方款意味着打开一个过去完全无法触达的用户群：全球约 25 亿近视人口中，有很大一部分是日常眼镜依赖者。对这些人来说，太阳镜款智能眼镜是玩具，处方款才是真正可能取代日常眼镜的产品。&lt;/p&gt;
+
+&lt;p&gt;这也与 Meta 更宏观的 AI 设备战略相关。此前 3 月底，Reality Labs 刚经历了约 700-1000 人的裁员。Zuckerberg 本人在多个场合表示，智能眼镜是 Meta 在 AI 硬件赛道上最有信心的品类，VR 头显则在战略上被降级。处方眼镜的推出是这一判断的直接体现：放弃「人人都需要 VR」的叙事，转向「让已有眼镜需求的用户顺便获得 AI 功能」。&lt;/p&gt;
+
+&lt;p&gt;499 美元的定价也有讲究。对比普通品牌眼镜的 200-400 美元价位，溢价不算离谱，尤其考虑到 Ray-Ban 本身的品牌溢价。关键看零售渠道铺开后的配镜体验是否顺畅——消费者需要先买眼镜、再去验光师那里配镜片，这个两步流程可能成为转化漏斗中的摩擦点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://about.fb.com/news/2026/03/meta-ai-glasses-built-for-prescriptions/"&gt;https://about.fb.com/news/2026/03/meta-ai-glasses-built-for-prescriptions/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/03/31/meta-launches-two-new-ray-ban-glasses-designed-for-prescription-wearers/"&gt;https://techcrunch.com/2026/03/31/meta-launches-two-new-ray-ban-glasses-designed-for-prescription-wearers/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://glassalmanac.com/ray-ban-meta-blayzer-and-scriber-optics-debut-april-14-2026-why-buyers-should-care/"&gt;https://glassalmanac.com/ray-ban-meta-blayzer-and-scriber-optics-debut-april-14-2026-why-buyers-should-care/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://petapixel.com/2026/04/01/metas-two-new-smart-glasses-are-made-for-prescription-users/"&gt;https://petapixel.com/2026/04/01/metas-two-new-smart-glasses-are-made-for-prescription-users/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">19b3fd54-a0fb-5f37-9507-eb10347548e1</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:47 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://about.fb.com/news/2026/03/meta-ai-glasses-built-for-prescriptions/</link>
+      <enclosure url="https://about.fb.com/wp-content/uploads/2026/03/Meta-AI-Glasses-Hero.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

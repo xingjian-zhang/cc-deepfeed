@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Fri, 03 Apr 2026 08:04:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:03:32 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -212,6 +212,102 @@
       <category>tech-products</category>
       <link>https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/</link>
       <enclosure url="https://9to5google.com/wp-content/uploads/sites/4/2026/04/Pixel-11-Pro-XL-leak-1.jpg?quality=82&amp;strip=all" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 iOS 26.5 公测版上线：RCS 端对端加密默认开启、Apple Maps 将加入广告、EU 合规开放第三方配件</title>
+      <description>&lt;p&gt;苹果4月3日同时向开发者和公众推送了 iOS 26.5 首个公测版。这是 WWDC 前最后一个大版本，核心变化集中在三个方向。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RCS 消息终于加密了。&lt;/strong&gt;iPhone 与 Android 之间的 RCS 消息将默认启用端对端加密（E2EE），设置中新增独立开关。此前该功能已在多个测试版中出现但从未正式上线——这意味着跨平台短信终于在安全性上追平 iMessage。对 Google Messages 用户来说，这也是一个期待已久的里程碑。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Apple Maps 准备卖广告了。&lt;/strong&gt;iOS 26.5 的代码中出现了 Maps 搜索广告基础设施，广告将在用户搜索地点时出现，并出现在新增的「Suggested Places」推荐板块中。苹果承诺广告会标注「Ad」标签，且不会将位置数据与用户账户关联。这是苹果服务营收（Services Revenue）扩张的又一步棋——继 App Store、News+ 和 Apple TV+ 之后，Maps 成为下一个广告载体。考虑到 Maps 在 iPhone 上的装机量，潜在广告库存相当可观。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;欧盟 DMA 合规让第三方配件「平权」。&lt;/strong&gt;为满足《数字市场法》要求，iOS 26.5 允许第三方智能手表和耳机接入 iPhone 通知、Live Activities 以及类似 AirPods 的近距离一键配对功能。这对 Garmin、三星、索尼等配件厂商是重大利好——以往这些深度系统集成能力是 Apple Watch 和 AirPods 的专属护城河。&lt;/p&gt;
+
+&lt;p&gt;从产品策略看，iOS 26.5 延续了苹果「被动合规、主动变现」的节奏：欧盟逼着开放的能力就开放，能插广告的地方就插广告。正式版预计5月中旬推送，届时距 WWDC 仅剩三周。接下来值得关注的是 iOS 27 的 Siri Extensions——第三方 AI 正式接入 Siri 对话界面，这将是比 Maps 广告更深远的平台变局。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/04/03/ios-26-5-and-ios-27-features/"&gt;https://www.macrumors.com/2026/04/03/ios-26-5-and-ios-27-features/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/04/03/apple-releases-new-ios-26-5-beta-1-build-for-iphone/"&gt;https://9to5mac.com/2026/04/03/apple-releases-new-ios-26-5-beta-1-build-for-iphone/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/04/02/ios-26-5-release-date-heres-when-to-expect-new-iphone-features/"&gt;https://9to5mac.com/2026/04/02/ios-26-5-release-date-heres-when-to-expect-new-iphone-features/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">81e6ad2c-ea00-50a6-ab67-c544456d279b</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:04 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.macrumors.com/2026/04/03/ios-26-5-and-ios-27-features/</link>
+      <enclosure url="https://images.macrumors.com/t/-B-TrzrKcld6MXDPT91JgZvoWBY=/2500x/article-new/2026/04/iOS-26.5-and-iOS-27-Feature-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Switch 2 涨价已成「时间问题」：关税、内存荒、油价三重挤压，前任天堂高管公开预警</title>
+      <description>&lt;p&gt;Switch 2 自去年6月以449美元上市以来价格未动，但围绕它的涨价压力正在同时从多个方向收紧。本周，前任天堂美国销售主管 Sean 在 Kit &amp;amp; Krysta 播客中直言：「硬件价格最终一定会上涨。」&lt;/p&gt;
+
+&lt;p&gt;三股力量正在同时推高成本。第一是&lt;strong&gt;关税&lt;/strong&gt;。任天堂今年3月已正式起诉美国政府，称当前对日本游戏硬件的进口关税违法，并要求退款加利息。这场官司的结果尚不明朗，但短期内关税不会消失。第二是&lt;strong&gt;内存价格飙升&lt;/strong&gt;——AI 数据中心疯狂吞噬 DRAM 和 NAND Flash 产能，任天堂为 Switch 2 的 RAM 多付了41%的采购成本。第三是&lt;strong&gt;油价上涨&lt;/strong&gt;带来的连锁反应：运输成本上升，氦气供应收紧（氦是石油副产品，也是芯片制造不可替代的原材料），游戏卡带用的硅晶圆也因此涨价。&lt;/p&gt;
+
+&lt;p&gt;Niko Partners 分析师 Daniel Ahmad 预测涨幅在50到100美元之间，即 Switch 2 可能升至499或549美元。任天堂社长古川俊太郎的回应很微妙：没有否认涨价可能，只说会「综合考虑销售趋势、成本和市场环境」。Bloomberg 也报道任天堂内部正在「考虑」提价。&lt;/p&gt;
+
+&lt;p&gt;有意思的是任天堂的对冲策略。配件已经悄悄涨了5%，但同时北美数字版独占游戏降价——用软件让利来缓冲硬件涨价的冲击。这和索尼 PS5 Pro 直接硬涨到699美元的做法形成鲜明对比。&lt;/p&gt;
+
+&lt;p&gt;真正的问题不是「会不会涨」，而是「涨多少、什么时候」。如果任天堂败诉且内存价格继续走高，今年下半年涨价几乎板上钉钉。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable"&gt;https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tweaktown.com/news/109798/switch-2-price-increase-to-dollars499-coming-in-2026-analyst-predicts/index.html"&gt;https://www.tweaktown.com/news/109798/switch-2-price-increase-to-dollars499-coming-in-2026-analyst-predicts/index.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kotaku.com/switch-2-price-ram-iran-oil-trump-tariffs-2000684755"&gt;https://kotaku.com/switch-2-price-ram-iran-oil-trump-tariffs-2000684755&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ea8e8443-8e2a-5fd0-9fdb-7ed7bcae4705</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:27 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable</link>
+      <enclosure url="https://images.nintendolife.com/6b12382fae46b/large.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Mindfactory 销量数据实锤：8GB 显卡已被消费者抛弃，16GB 版本销量碾压30倍</title>
+      <description>&lt;p&gt;德国零售商 Mindfactory 的最新销售数据为中端显卡市场的 VRAM 之争画下了句号。结论简单粗暴：消费者用钱包投票，8GB 显存已死。&lt;/p&gt;
+
+&lt;p&gt;数据显示，&lt;strong&gt;AMD RX 9060 XT 的16GB版本售出885块，8GB版本仅30块&lt;/strong&gt;——差距接近30倍。NVIDIA 这边稍好但趋势一致：RTX 5060 Ti 16GB卖出1675块，8GB版本只有105块，16倍的差距。两家的8GB型号库存充足，不存在「买不到」的问题，纯粹是消费者不想要。&lt;/p&gt;
+
+&lt;p&gt;这组数据让 RTX 5060 的处境更加尴尬。此前我们报道过 RTX 5060 评测解禁后遭集体差评，核心槽点正是8GB GDDR7显存。GamersNexus 直接用「不推荐」定性。现在 Mindfactory 数据从消费端证实了评测人的判断——在2026年花300多美元买一张8GB显卡，玩家不接受。&lt;/p&gt;
+
+&lt;p&gt;对比之下，AMD 的定位更聪明。RX 9060 XT 16GB 定价349美元，原生光栅化性能在1440p下比 RTX 5060 高10-15%。NVIDIA 的优势在 DLSS 4 多帧生成和 AI 推理（120个 Tensor Core），但这些功能对纯粹玩游戏的用户感知不强。&lt;/p&gt;
+
+&lt;p&gt;需要注意的是 Mindfactory 是欧洲发烧友渠道，不能直接代表全球市场——美国 Best Buy 和亚马逊的大众消费者可能没这么敏感。但趋势信号很明确：NVIDIA 和 AMD 都必须停止在中端产品线上搭配8GB显存。NVIDIA 下一步的关键棋是看 RTX 5060 会不会推出16GB版本来止血。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tweaktown.com/news/106167/new-sales-data-for-rtx-5060-ti-and-rx-9060-xt-strongly-suggests-8gb-gpus-are-destined-to-fail/index.html"&gt;https://www.tweaktown.com/news/106167/new-sales-data-for-rtx-5060-ti-and-rx-9060-xt-strongly-suggests-8gb-gpus-are-destined-to-fail/index.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gamersnexus.net/gpus/amd-needs-just-shut-amd-radeon-rx-9060-xt-16gb-gpu-review"&gt;https://gamersnexus.net/gpus/amd-needs-just-shut-amd-radeon-rx-9060-xt-16gb-gpu-review&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">489ad5b7-7699-536f-aa7b-1df120cca380</guid>
+      <pubDate>Sat, 04 Apr 2026 08:02:47 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.tweaktown.com/news/106167/new-sales-data-for-rtx-5060-ti-and-rx-9060-xt-strongly-suggests-8gb-gpus-are-destined-to-fail/index.html</link>
+      <enclosure url="https://static.tweaktown.com/news/1/0/106167_01_early-sales-data-for-rtx-5060-ti-and-rx-9060-xt-strongly-suggests-8gb-gpus-are-destined-to-fail_full.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 TSMC-Intel 合资框架浮出水面：台积电出技术不出钱，拿20%股权换美国代工话语权</title>
+      <description>&lt;p&gt;围绕 Intel Foundry 命运的谈判有了新进展。据 The Information 报道，台积电与英特尔已就合资公司达成初步框架：&lt;strong&gt;台积电将持有20%股权，但不投入现金&lt;/strong&gt;，而是以芯片制造技术和员工培训作为出资。剩余80%的股权归属尚未明确，此前有报道称台积电已向 Nvidia、AMD、Broadcom、Qualcomm 兜售投资份额。&lt;/p&gt;
+
+&lt;p&gt;这是一笔非常「台积电」的交易结构。不掏真金白银，用核心 know-how 换股权——风险极低，但一旦合资公司运转起来，台积电实质上获得了美国本土产能的话语权。对英特尔来说，这既是救命稻草也是苦药：代工业务2024年净亏188亿美元（1986年以来首次全年亏损），独立扭亏已不现实。&lt;/p&gt;
+
+&lt;p&gt;合资涉及英特尔在美现有晶圆厂的「至少一部分」。问题在于，英特尔多数美国工厂使用 Intel 3 / Intel 4 工艺，专为自家处理器优化，只有少数具备 Intel 18A 先进制程能力。台积电如果要把自己的客户（比如 Nvidia）引到这些工厂，工艺兼容性是个大障碍。&lt;/p&gt;
+
+&lt;p&gt;白宫的角色值得玩味。据报道谈判本身由特朗普政府牵线，背景是担心英特尔大规模裁员冲击美国半导体就业。这让整件事带上了产业政策色彩——政府既当红娘又当压力源。&lt;/p&gt;
+
+&lt;p&gt;市场反应很诚实：消息传出后英特尔股价涨近7%，台积电跌约6%。投资者的解读很清楚——这笔交易对英特尔是利好（有人兜底），对台积电是负担（可能稀释管理精力）。&lt;/p&gt;
+
+&lt;p&gt;交易尚未签署，双方也未公开表态。但如果最终落地，这将重塑美国半导体代工格局：台积电从纯粹的海外供应商变成美国本土制造的股东和技术输出方，英特尔则从 IDM 巨头彻底转型为「由台积电赋能的代工厂」。身份转换之大，堪称行业级别的认知重构。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.theinformation.com/articles/intel-tsmc-tentatively-agree-form-chipmaking-joint-venture"&gt;https://www.theinformation.com/articles/intel-tsmc-tentatively-agree-form-chipmaking-joint-venture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://interestingengineering.com/innovation/intel-tsmc-strike-tentative-jv-deal"&gt;https://interestingengineering.com/innovation/intel-tsmc-strike-tentative-jv-deal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/intel-and-tsmc-agree-to-form-chipmaking-joint-venture-report"&gt;https://www.tomshardware.com/tech-industry/intel-and-tsmc-agree-to-form-chipmaking-joint-venture-report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a2bccbef-16cd-503c-a23e-199955522f0c</guid>
+      <pubDate>Sat, 04 Apr 2026 08:03:32 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.theinformation.com/articles/intel-tsmc-tentatively-agree-form-chipmaking-joint-venture</link>
     </item>
   </channel>
 </rss>
