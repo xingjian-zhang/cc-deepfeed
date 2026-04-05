@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:05:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:04:22 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -261,6 +261,123 @@
       <category>coding-agents</category>
       <link>https://docs.devin.ai/release-notes/overview</link>
       <enclosure url="https://cognitionai.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAll%2BRelease%2BNotes%26title%3DRecent%2BUpdates%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fcognitionai%252Fk89q9Lsp7DOurdC0%252Flogo%252Fdevin.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dk89q9Lsp7DOurdC0%2526q%253D85%2526s%253De83fbc727ea2cae8f1b80442fa772c50%26primaryColor%3D%25233CA4F2%26lightColor%3D%25233CA4F2%26darkColor%3D%25233CA4F2%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230a0c10&amp;amp;w=1200&amp;amp;q=100" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 GitHub Copilot 更名 Cloud Agent 并全面重塑：脱离 PR 束缚、计划审批式编码与组织级防火墙管控</title>
+      <description>&lt;h2&gt;从 "Coding Agent" 到 "Cloud Agent"：不只是改名&lt;/h2&gt;
+&lt;p&gt;4 月 1 日，GitHub 将 Copilot coding agent 正式更名为 &lt;strong&gt;Copilot cloud agent&lt;/strong&gt;，同时发布了一系列突破性功能更新。更名背后是产品定位的根本转变——智能体不再局限于 Pull Request 工作流，而是成为通用的云端开发助手。&lt;/p&gt;
+
+&lt;h2&gt;三大核心能力升级&lt;/h2&gt;
+
+&lt;h3&gt;1. 脱离 PR 的分支工作流&lt;/h3&gt;
+&lt;p&gt;此前 Copilot coding agent 的每次任务都会自动创建 PR。现在开发者可以让智能体在分支上直接生成代码，&lt;strong&gt;无需创建 PR&lt;/strong&gt;。你可以先审查完整 diff，与智能体反复迭代，满意后再手动发起 PR。这一变化让 Copilot 从「自动化提交机器」变成了真正的「协作编码伙伴」。&lt;/p&gt;
+
+&lt;h3&gt;2. 实现计划审批&lt;/h3&gt;
+&lt;p&gt;用户可以要求 Copilot 先输出实现计划，&lt;strong&gt;审查并批准方案后再动手写代码&lt;/strong&gt;。这解决了此前智能体「闷头写完再看」的痛点——你可以在架构层面介入，而不是在代码层面返工。&lt;/p&gt;
+
+&lt;h3&gt;3. 深度代码库研究&lt;/h3&gt;
+&lt;p&gt;新增研究会话功能：向 Copilot 提出关于代码库的宏观问题，获得基于仓库上下文的深度回答。可以从 Agents 标签页或 Copilot Chat 对话中直接发起研究任务。&lt;/p&gt;
+
+&lt;h2&gt;企业安全三件套（4 月 3 日）&lt;/h2&gt;
+&lt;p&gt;同一天，GitHub 密集发布了三项企业级管控能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;提交签名&lt;/strong&gt;：Cloud agent 生成的每个提交都带有签名，在 GitHub 上显示 Verified 标记。支持启用了「Require signed commits」保护规则的仓库。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;组织级 Runner 管控&lt;/strong&gt;：管理员可设置全组织默认 Runner，并锁定设置防止仓库覆盖。支持大型 Actions Runner、自托管 Runner 以实现内部资源访问。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能体防火墙&lt;/strong&gt;：内置防火墙控制 Copilot 的互联网访问，防御提示注入和数据外泄。支持组织级启用/禁用、推荐白名单、自定义白名单（如内部包仓库），以及控制仓库管理员是否可自行添加白名单条目。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;竞争格局影响&lt;/h2&gt;
+&lt;p&gt;此次更新让 Copilot 从「PR 自动化工具」跃升为完整的云端开发平台。计划审批模式直接对标 Devin 的交互式工作流，深度研究能力则与 Claude Code 的代码库理解形成竞争。而组织级防火墙和 Runner 管控，则是在企业治理维度抢占 Devin 的地盘。GitHub 的平台优势——与 Issues、Actions、仓库的原生整合——使其在企业采购决策中占据独特位置。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/"&gt;https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits/"&gt;https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent/"&gt;https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent/"&gt;https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">04a6d22e-8f87-54d1-86c8-905e566ea344</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:20 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/</link>
+      <enclosure url="https://github.blog/wp-content/uploads/2026/03/570597591-85e373f2-2dad-4ea8-89a0-91d80e3d7bff.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 Cursor 3.0 发布：Agents Window 并行调度多智能体、Design Mode 所见即改与 /best-of-n 竞争式编码</title>
+      <description>&lt;h2&gt;从 IDE 到智能体调度中心&lt;/h2&gt;
+&lt;p&gt;4 月 2 日，Anysphere 发布 &lt;strong&gt;Cursor 3.0&lt;/strong&gt;——这不是一个功能迭代，而是对 IDE 概念的根本重构。官方定位明确：未来大部分代码将由 AI 智能体编写，开发者的角色是&lt;strong&gt;调度和审查&lt;/strong&gt;，而非逐行敲键。&lt;/p&gt;
+
+&lt;h2&gt;Agents Window：并行智能体的指挥台&lt;/h2&gt;
+&lt;p&gt;新增的 Agents Window 是独立于编辑器的界面，支持&lt;strong&gt;同时运行多个 AI 智能体&lt;/strong&gt;——跨本地环境、Git worktree、云端和远程 SSH。每个智能体在独立标签页运行，互不干扰，类似终端的多会话管理。编辑器内同样支持 Agent 标签页的并排或网格布局，实现「一边审查一个智能体的输出，一边让另一个继续工作」。&lt;/p&gt;
+
+&lt;h2&gt;两个杀手级命令&lt;/h2&gt;
+&lt;h3&gt;/worktree：隔离式开发&lt;/h3&gt;
+&lt;p&gt;输入 &lt;code&gt;/worktree&lt;/code&gt; 后智能体会创建独立的 Git worktree，所有修改发生在隔离环境中。适合探索性重构或高风险改动——失败了直接丢弃，成功了合并回主分支。&lt;/p&gt;
+
+&lt;h3&gt;/best-of-n：竞争式多模型编码&lt;/h3&gt;
+&lt;p&gt;这是最具创新性的功能：&lt;code&gt;/best-of-n&lt;/code&gt; 会将同一任务并行分发给多个模型，每个模型在独立 worktree 中工作，完成后开发者&lt;strong&gt;比较结果选择最优方案&lt;/strong&gt;。本质上是将 A/B 测试的思路引入了代码生成——让模型互相竞争，人类做裁判。&lt;/p&gt;
+
+&lt;h2&gt;Design Mode：前端开发的视觉革命&lt;/h2&gt;
+&lt;p&gt;在 Agents Window 中可进入 Design Mode，通过快捷键（⌘+Shift+D 切换，Shift+拖拽选择，⌘+L 添加元素）直接在浏览器中&lt;strong&gt;标注和定位 UI 元素&lt;/strong&gt;。告别「第 42 行的那个按钮往左挪 8 像素」的文字描述，直接框选元素并描述期望效果。&lt;/p&gt;
+
+&lt;h2&gt;企业与生态&lt;/h2&gt;
+&lt;p&gt;3.0 同步加强了企业功能：增强审计日志、团队级云端智能体管理、企业级代码归属控制。MCP Apps 现支持结构化内容，第三方插件导入在企业版中默认关闭。新增 Await 工具用于长时间任务监控，浏览器自动化也得到改进。&lt;/p&gt;
+
+&lt;h2&gt;行业意义&lt;/h2&gt;
+&lt;p&gt;Cursor 3.0 的赌注很清晰：&lt;strong&gt;IDE 的价值不再是编辑器本身，而是智能体编排能力&lt;/strong&gt;。/best-of-n 尤其值得关注——当单个模型的代码质量差异随机波动时，并行竞争+人类选优可能是最务实的质量保障策略。这也暗示了一个趋势：开发者工具的竞争正从「接入最好的模型」转向「最高效地编排多个模型」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://cursor.com/changelog"&gt;https://cursor.com/changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@han.heloir/cursor-3-is-not-an-ide-update-its-a-bet-that-you-ll-manage-agents-not-write-code-0d2bc51f0dcb"&gt;https://medium.com/@han.heloir/cursor-3-is-not-an-ide-update-its-a-bet-that-you-ll-manage-agents-not-write-code-0d2bc51f0dcb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/devtoolpicks/cursor-3-just-launched-with-an-ai-agents-window-what-changed-and-is-it-still-worth-it-496f"&gt;https://dev.to/devtoolpicks/cursor-3-just-launched-with-an-ai-agents-window-what-changed-and-is-it-still-worth-it-496f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">31ec679c-c621-5c5a-852f-4fc4c60deffe</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:51 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://cursor.com/changelog</link>
+      <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 OpenAI Codex CLI 四月更新打破沉默：Windows 沙箱 OS 级隔离、设备码登录与 Codex-Spark 1000+ TPS 实时编码</title>
+      <description>&lt;h2&gt;从「停滞」到「补课」&lt;/h2&gt;
+&lt;p&gt;在 Claude Code 和 Cursor 密集迭代的同一周，沉寂数日的 OpenAI Codex CLI 发布了四月更新。虽然版本号变化不大，但更新内容直击此前的几个关键短板——安全沙箱、无头环境认证和工作流集成。&lt;/p&gt;
+
+&lt;h2&gt;Windows 沙箱：从环境变量到 OS 级网络隔离&lt;/h2&gt;
+&lt;p&gt;此前 Codex CLI 在 Windows 上的沙箱依赖环境变量限制网络出口——聊胜于无。新版本升级为 &lt;strong&gt;OS 级出口规则（proxy-only networking）&lt;/strong&gt;，进程无法绕过网络限制。这对在 Windows 环境中运行 Codex 的企业开发者意义重大：代码执行的安全边界终于可靠了。Linux 版本此前已有 seccomp 沙箱，Windows 现在补齐了差距。&lt;/p&gt;
+
+&lt;h2&gt;设备码登录：无头环境的救星&lt;/h2&gt;
+&lt;p&gt;新增 &lt;strong&gt;ChatGPT 设备码登录流程（Device Code Flow）&lt;/strong&gt;：在无法弹出浏览器的环境中（SSH 会话、Docker 容器、CI/CD 管道），输入 6 位设备码即可完成认证。这解决了 Codex CLI 在自动化和远程场景中的身份验证痛点——Claude Code 很早就通过 API Key 解决了这个问题，Codex 终于跟上。&lt;/p&gt;
+
+&lt;h2&gt;prompt-plus-stdin：融入 Unix 管道&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;codex exec&lt;/code&gt; 现在支持同时接收管道输入和独立 prompt 参数（&lt;code&gt;codex exec -p&lt;/code&gt;）。例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;管道输入 git log，prompt 要求生成 commit message&lt;/li&gt;
+&lt;li&gt;管道输入错误日志，prompt 要求定位根因&lt;/li&gt;
+&lt;li&gt;管道输入代码文件，prompt 要求批量重构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这让 Codex CLI 真正成为 shell 工作流的一等公民，而不只是一个交互式对话工具。&lt;/p&gt;
+
+&lt;h2&gt;动态 Bearer Token：企业自定义模型的润滑剂&lt;/h2&gt;
+&lt;p&gt;自定义模型提供商现在支持&lt;strong&gt;动态刷新短期 Bearer Token&lt;/strong&gt;（OAuth 2.0 客户端凭证流），替代此前的静态凭证配置。这为接入企业私有模型端点扫清了认证障碍。&lt;/p&gt;
+
+&lt;h2&gt;Codex-Spark：1000+ TPS 的实时编码模型&lt;/h2&gt;
+&lt;p&gt;值得一提的是，OpenAI 2 月发布的 &lt;strong&gt;GPT-5.3-Codex-Spark&lt;/strong&gt; 现已通过 Codex CLI 和 IDE 扩展向 ChatGPT Pro 用户开放研究预览。该模型运行在 Cerebras 晶圆级引擎上，生成速度超过 &lt;strong&gt;1000 tokens/s&lt;/strong&gt;——是标准 Codex 的约 10 倍。128K 上下文窗口，专为实时协作和快速迭代场景设计。虽然推理深度不及完整版 GPT-5.3-Codex，但在补全、快速编辑等场景下，「快到感觉不到延迟」本身就是杀手级体验。&lt;/p&gt;
+
+&lt;h2&gt;竞争定位&lt;/h2&gt;
+&lt;p&gt;Codex CLI 的差异化路线日益清晰：&lt;strong&gt;终端原生 + Unix 哲学 + 轻量快速&lt;/strong&gt;。与 Claude Code 的重型智能体路线、Cursor 的 IDE 编排路线形成三足鼎立。Codex-Spark 的极速推理若能在 CLI 中充分释放，可能在「频繁小改」的日常编码场景中占据一席之地。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://daily1bite.com/en/blog/ai-tools/openai-codex-cli-april-2026-update"&gt;https://daily1bite.com/en/blog/ai-tools/openai-codex-cli-april-2026-update&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;https://openai.com/index/introducing-gpt-5-3-codex-spark/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.openai.com/codex/changelog"&gt;https://developers.openai.com/codex/changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f253b0a3-e4c5-53f7-a210-0783b21f3602</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:22 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://daily1bite.com/en/blog/ai-tools/openai-codex-cli-april-2026-update</link>
+      <enclosure url="https://daily1bite.com/og-default.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

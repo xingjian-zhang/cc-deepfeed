@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:03:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:05:00 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
@@ -198,6 +198,120 @@
       <category>meta-news</category>
       <link>https://about.fb.com/news/2026/03/meta-ai-glasses-built-for-prescriptions/</link>
       <enclosure url="https://about.fb.com/wp-content/uploads/2026/03/Meta-AI-Glasses-Hero.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 🔬 FAIR 空心化与 LeCun 出走：MSL 独大格局下，Meta 正在失去什么</title>
+      <description>&lt;h2&gt;从 FAIR 教父到 AMI Labs 创始人&lt;/h2&gt;
+&lt;p&gt;2025 年 11 月 18 日，图灵奖得主 Yann LeCun 正式宣布离开效力 12 年的 Meta。四个月后的 2026 年 3 月 10 日，他在巴黎发布了 AMI Labs（Advanced Machine Intelligence），以 35 亿美元投前估值完成 10.3 亿美元种子轮——欧洲史上最大的种子融资，投资方包括 Cathay Innovation、Bezos Expeditions 和 Hiro Capital。&lt;/p&gt;
+&lt;p&gt;这不只是一位明星科学家的离职创业故事。这是 Meta 研究基因断裂的标志性事件。&lt;/p&gt;
+
+&lt;h2&gt;FAIR 的解体时间线&lt;/h2&gt;
+&lt;p&gt;回溯 FAIR（Facebook AI Research）的衰落，节点异常清晰：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2025 年 4 月&lt;/strong&gt;：Fortune 报道 FAIR 正在「缓慢死亡」，核心研究员持续流失。LeCun 当时仍坚持称这是「新的开始」。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025 年 10 月&lt;/strong&gt;：Meta 以组建 Superintelligence Labs 为名，裁撤约 600 名 AI 研究人员，FAIR 机器人团队首当其冲。前研究员对《南华早报》表示，裁员的本质是「资源争夺战」——MSL 拿走了预算、算力和人头。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025 年 11 月&lt;/strong&gt;：LeCun 正式离职。据 TechCrunch 报道，他在内部越来越感到被边缘化：公司将数百亿美元押注在 LLM 和 Llama 系列上，而他始终认为自回归范式存在「根本性局限」。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026 年 3 月&lt;/strong&gt;：MSL 在 Alexandr Wang 领导下已成为 Meta AI 的唯一核心，同时组建由 Rui Xu 领导的硬件团队，延伸至设备端。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;路线之争：LLM 全押 vs. 世界模型&lt;/h2&gt;
+&lt;p&gt;LeCun 与 MSL 的分歧不是个人恩怨，而是 AI 路线的根本分歧。MSL 的核心赌注是：用闭源的 Avocado/Mango 模型、Llama 开源系列和海量算力（2026 年 CapEx 1150-1350 亿美元），在 LLM 范式内追赶 OpenAI 和 Google。LeCun 的 AMI Labs 则押注 JEPA（Joint Embedding Predictive Architecture）——在潜在空间中学习世界的抽象表征，而非逐 token 预测。&lt;/p&gt;
+&lt;p&gt;谁对谁错暂无定论，但 Meta 的选择已经清楚：它不再为两条路线同时下注。FAIR 曾是全球最开放的企业研究实验室之一，发表过 PyTorch、DETR、Segment Anything 等影响深远的工作。如今，这个品牌实质上已被 MSL 吸收。&lt;/p&gt;
+
+&lt;h2&gt;人才流失的连锁反应&lt;/h2&gt;
+&lt;p&gt;LeCun 带走的不只是他自己。AMI Labs 的创始团队大量来自 FAIR 旧部。更重要的是，FAIR 曾是 Meta 在学术界的核心招牌——顶会论文、开源贡献、学术自由度，这些是吸引顶级研究人才的关键因素。当 MSL 以闭源模式运作、将研究团队重组为产品导向时，这些吸引力正在消失。&lt;/p&gt;
+&lt;p&gt;IDC 研究副总裁 Arnal Dayaratna 对 NPR 的评价颇为直白：Meta 在 AI 领域「落后太远」，可能难以与 OpenAI、Anthropic 和 Google 正面竞争。他建议 Meta 聚焦视频/图像生成等垂直领域，而非追逐通用模型。&lt;/p&gt;
+
+&lt;h2&gt;MSL 独大的风险&lt;/h2&gt;
+&lt;p&gt;将所有 AI 研究集中到一个由外部收购者（Wang 通过 Scale AI 交易入主）领导的单一实验室，Meta 实质上做了一个高风险决策：如果 LLM 范式在 3-5 年内遇到瓶颈，它将没有 Plan B。对比之下，Google 保留了 DeepMind 和 Google Research 的双轨架构，Anthropic 在探索 Constitutional AI 的同时也在投入 interpretability 研究。&lt;/p&gt;
+&lt;p&gt;LeCun 在离职声明中写道：「我在 Meta 的工作已经完成。」但对 Meta 来说，失去 FAIR 和它代表的基础研究能力，可能是一个在短期内看不到代价、但长期无法挽回的损失。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2025/04/10/meta-ai-research-lab-fair-questions-departures-future-yann-lecun-new-beginning/"&gt;https://fortune.com/2025/04/10/meta-ai-research-lab-fair-questions-departures-future-yann-lecun-new-beginning/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scmp.com/tech/big-tech/article/3332532/meta-platforms-ai-lay-offs-triggered-battle-resources-ex-research-scientist-says"&gt;https://www.scmp.com/tech/big-tech/article/3332532/meta-platforms-ai-lay-offs-triggered-battle-resources-ex-research-scientist-says&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tech-insider.org/yann-lecun-ami-labs-1-billion-world-models-2026/"&gt;https://tech-insider.org/yann-lecun-ami-labs-1-billion-world-models-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gpb.org/news/2026/04/03/whats-next-for-meta-in-the-wake-of-trial-losses-and-layoffs"&gt;https://www.gpb.org/news/2026/04/03/whats-next-for-meta-in-the-wake-of-trial-losses-and-layoffs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e705797f-b4b8-5870-8a01-1ee2af47fa9d</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:28 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://fortune.com/2025/04/10/meta-ai-research-lab-fair-questions-departures-future-yann-lecun-new-beginning/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2025/04/GettyImages-2198379447-e1744291194229.jpg?resize=1200,600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 🔬 「AI 原生」裁员解码：Metamate 替代 70% 常规工作，Meta 正在用 AI 裁掉自己人</title>
+      <description>&lt;h2&gt;从「降本增效」到「AI 替代」的叙事跃迁&lt;/h2&gt;
+&lt;p&gt;4 月 2 日，在道指因油价暴跌下挫超 500 点的交易日里，Meta 股价逆势持平甚至微涨。华尔街给出的解读令人侧目：这不是一家陷入困境的公司在裁员求生，而是一场「战略性杰作」——用裁员产生的成本节约来对冲天文数字般的 AI 资本支出。&lt;/p&gt;
+&lt;p&gt;但如果你把目光从 K 线图上移开，看看裁员的具体机制，故事远没有这么漂亮。&lt;/p&gt;
+
+&lt;h2&gt;Metamate 和 DevMate：裁员的「技术依据」&lt;/h2&gt;
+&lt;p&gt;据多家媒体报道，Meta 内部开发了两款代理式 AI 工具——Metamate 和 DevMate。前者处理行政和运营任务，后者专注编码和开发流程。Meta 的内部评估声称，这两款工具已能处理约 70% 的「常规编码和行政任务」。&lt;/p&gt;
+&lt;p&gt;这个 70% 的数字，正是 Meta 管理层为 15,000 人大裁员（约占 79,000 人总员工数的 20%）构建合法性的核心论据。逻辑很简单：如果 AI 能做 70% 的常规工作，那么负责这些常规工作的人就是冗余的。波及范围涵盖软件工程师、招聘团队和中层管理者——恰好是最容易被结构化 AI 工具替代的岗位。&lt;/p&gt;
+
+&lt;h2&gt;WARN Act 文件：抽象叙事的具体落点&lt;/h2&gt;
+&lt;p&gt;加州 WARN Act（Worker Adjustment and Retraining Notification Act）要求雇主在大规模裁员前 60 天通知。Meta 近期提交的文件显示：Burlingame 办公室将裁减 124 人，Sunnyvale 办公室裁减 74 人，分别于 5 月 22 日和 5 月 29 日生效。华盛顿州另有 168 人被裁。&lt;/p&gt;
+&lt;p&gt;这些数字看起来不大，但它们是正在进行中的渐进式裁员的冰山一角。如果 15,000 人的传闻属实，后续几周将有更多 WARN 文件浮出水面。Andy Stone 称媒体报道是「投机性的」，但多家媒体独立确认裁员方案已进入高管讨论层面。&lt;/p&gt;
+
+&lt;h2&gt;悖论：用 AI 裁人，再用人训练 AI&lt;/h2&gt;
+&lt;p&gt;这里存在一个被忽视的悖论。Meta 一边声称 AI 可以替代大量人工，一边却在 AI 训练上依赖大规模人力。Mercor 事件就是最好的注脚：这家为 Meta 提供训练数据的公司雇佣了庞大的人类标注网络，涵盖医学、法律、文学等领域的专家。当 Mercor 遭遇供应链攻击、4TB 数据外泄时，暴露的正是 AI 训练对人力基础设施的深度依赖。&lt;/p&gt;
+&lt;p&gt;换言之，Meta 的「AI 原生」叙事存在一个时间差：用来裁人的 AI 工具，本身需要被裁掉的那类人来训练和维护。当 Metamate 出现幻觉或 DevMate 生成的代码引入安全漏洞时，谁来做质量把关？裁掉的 15,000 人中有多少正是这些「护栏」的提供者？&lt;/p&gt;
+
+&lt;h2&gt;Zuckerberg 的信念与市场的共谋&lt;/h2&gt;
+&lt;p&gt;Zuckerberg 在内部反复强调一个信念：AI 工具将让小团队实现过去需要大团队才能完成的产出。这与他 2023 年「效率之年」的口号一脉相承，但激进程度远超当时。&lt;/p&gt;
+&lt;p&gt;市场暂时买账了。分析师将裁员重新框架为「通向 AI 原生未来的战略投资」，而非经营恶化的信号。但这种解读建立在一个假设上：Metamate 和 DevMate 确实能稳定地替代人类工作，且不会引发质量崩溃。如果这个假设在未来 6-12 个月被证伪——比如出现重大产品事故或工程质量下降——那么今天的「战略杰作」叙事将迅速翻转。&lt;/p&gt;
+&lt;p&gt;4 月 29 日的 Q1 财报和 LlamaCon 将是第一个检验点：Zuckerberg 需要用数据证明，裁掉 20% 的人之后，Meta 的产品产出和工程速度不但没有下降，反而因为 AI 工具而提升了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://markets.financialcontent.com/stocks/article/marketminute-2026-4-2-meta-platforms-defies-market-gloom-ai-layoffs-signal-a-leaner-ai-native-future"&gt;https://markets.financialcontent.com/stocks/article/marketminute-2026-4-2-meta-platforms-defies-market-gloom-ai-layoffs-signal-a-leaner-ai-native-future&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kron4.com/news/technology-ai/meta-to-lay-off-nearly-200-bay-area-employees/"&gt;https://www.kron4.com/news/technology-ai/meta-to-lay-off-nearly-200-bay-area-employees/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geekwire.com/2026/latest-meta-layoffs-target-168-employees-in-washington-state/"&gt;https://www.geekwire.com/2026/latest-meta-layoffs-target-168-employees-in-washington-state/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/news/meta-20-layoff-rumor-coming-142935490.html"&gt;https://finance.yahoo.com/news/meta-20-layoff-rumor-coming-142935490.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4bda8286-ce99-5276-aec8-1c22d0f38130</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:08 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://markets.financialcontent.com/stocks/article/marketminute-2026-4-2-meta-platforms-defies-market-gloom-ai-layoffs-signal-a-leaner-ai-native-future</link>
+      <enclosure url="https://marketminute.ghost.io/content/images/size/w1200/2026/04/e23ee49d-cada-49b5-9181-030ff4771575.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 🔬 关税、诉讼、Mercor 泄露三线并发：Meta 1.5 万亿市值背后的系统性风险图谱</title>
+      <description>&lt;h2&gt;一张被低估的风险地图&lt;/h2&gt;
+&lt;p&gt;如果你只看 Meta 4 月 2 日的股价（逆势持平），你会以为这家公司正在最好的时代。但如果把时间尺度拉长到一个月，画面完全不同：自 3 月初以来，META 股价从高点下跌约 31%，跑输标普 500 的 19% 跌幅。市值约 1.5 万亿美元，较历史高点蒸发了近 6000 亿。&lt;/p&gt;
+&lt;p&gt;单一原因无法解释这个跌幅。真正的风险在于三条危机线的同时激活——而它们之间还在相互放大。&lt;/p&gt;
+
+&lt;h2&gt;第一条线：关税对广告收入的精确打击&lt;/h2&gt;
+&lt;p&gt;解放日关税一周年之际，其对 Meta 的影响路径已经清晰。Oppenheimer 分析师估算，受关税及其引发的经济疲软影响的收入比例可能高达 16%。这不是直接关税——Meta 卖的是广告，不是实体商品——而是两个间接传导机制：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;中国广告客户收缩&lt;/strong&gt;：Meta 2024 年从中国获得 183.5 亿美元广告收入，占总收入 11%。中国企业通过 Meta 平台向欧美消费者投放广告，是近两年增长的核心引擎。贸易战升级直接削弱了这些客户的投放意愿。Piper Sandler 已将 Meta 2026 年收入预期下调 4%。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全球广告主紧缩&lt;/strong&gt;：关税推高企业成本，广告预算往往是最先被砍的支出项。钢铝铜关税还在推高数据中心建设成本，直接侵蚀 Meta 1150-1350 亿美元 CapEx 计划的成本效率。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;第二条线：诉讼的「烟草时刻」持续发酵&lt;/h2&gt;
+&lt;p&gt;3 月底的两场判决——洛杉矶陪审团认定 Meta 的成瘾性设计导致用户抑郁和焦虑，新墨西哥州判罚 3.75 亿美元——不是终点，而是起点。目前有超过 10,000 起类似诉讼等待审理。Meta 和 Google（YouTube 在 LA 案中同样被判有责）均已表示将上诉，但法律分析人士认为，陪审团裁决的先例效应正在改变后续案件的博弈格局。&lt;/p&gt;
+&lt;p&gt;弗吉尼亚理工的专家将 Meta 当前的处境与烟草行业 1990 年代的转折点相比——当第一批判决出来时，没有人预料到最终会是数千亿美元的和解金。Meta 的法律敞口可能需要数年才能完全显现，但资本市场已经开始定价这个尾部风险。&lt;/p&gt;
+
+&lt;h2&gt;第三条线：Mercor 泄露暴露 AI 训练基础设施的脆弱性&lt;/h2&gt;
+&lt;p&gt;TeamPCP 通过 LiteLLM 开源库发起的供应链攻击、Lapsus$ 随后声称获取的 4TB 数据——这个事件的影响正在从「安全事故」升级为「行业结构性问题」。Mercor 不只是 Meta 的供应商，也服务于 OpenAI 和 Anthropic。泄露的数据可能包含各家实验室的数据筛选标准、标注协议和训练策略——这些是 AI 竞赛中最核心的商业机密。&lt;/p&gt;
+&lt;p&gt;Meta 已无限期暂停与 Mercor 的合作。但问题是：替代方案在哪里？高质量 AI 训练数据的生产高度集中于少数供应商，Mercor 事件暴露的是整个 AI 训练数据供应链的单点故障风险。对于正在全力追赶 OpenAI 和 Google 的 MSL 来说，训练数据流水线的中断可能比模型架构的落后更加致命。&lt;/p&gt;
+
+&lt;h2&gt;三线交叉点：4 月 29 日&lt;/h2&gt;
+&lt;p&gt;LlamaCon 和 Q1 财报同日举行。收入指引 535-565 亿美元。Zuckerberg 需要同时回应三个问题：关税如何影响广告收入前景？裁员 15,000 人后如何维持产品质量？Mercor 暂停后训练数据从哪里来？&lt;/p&gt;
+&lt;p&gt;任何一个问题单独出现都可以消化。但三条危机线同时激活且相互放大——裁员削弱应对能力，关税压缩收入来源，Mercor 中断削弱核心竞争力——这才是 Meta 当前风险格局的真正挑战。市值从 2 万亿跌到 1.5 万亿不是终点，而是市场开始重新评估这家公司系统性风险的起点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587"&gt;https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gpb.org/news/2026/04/03/whats-next-for-meta-in-the-wake-of-trial-losses-and-layoffs"&gt;https://www.gpb.org/news/2026/04/03/whats-next-for-meta-in-the-wake-of-trial-losses-and-layoffs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://databreaches.net/2026/04/04/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/"&gt;https://databreaches.net/2026/04/04/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.trefis.com/stock/meta/articles2/595270/how-low-can-meta-really-go-in-a-market-crash-2/2026-03-31"&gt;https://www.trefis.com/stock/meta/articles2/595270/how-low-can-meta-really-go-in-a-market-crash-2/2026-03-31&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8dcd3817-e102-5bb8-b4e1-8cb851c6b458</guid>
+      <pubDate>Sun, 05 Apr 2026 08:05:00 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587</link>
+      <enclosure url="https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

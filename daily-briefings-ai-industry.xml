@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:03:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:06:33 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -313,6 +313,128 @@
       <category>ai-industry</category>
       <link>https://www.csis.org/analysis/how-tariffs-could-derail-united-states-3-trillion-ai-buildout</link>
       <enclosure url="https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-08/GettyImages-2223681588_Crop1.jpg?VersionId=.yArzW9rC5sl3P9vJgUhdXs4k3Phf5P." type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 🏭 SpaceX 秘密递交 S-1 冲刺1.75万亿 IPO：xAI 从废墟重建，Terafab 250亿芯片厂是最大赌注</title>
+      <description>&lt;h2&gt;Musk 用一场史上最大 IPO 重新定义「AI + 太空」&lt;/h2&gt;
+&lt;p&gt;4月1日，SpaceX 向 SEC 递交了保密 S-1 注册文件，目标估值 &lt;strong&gt;1.75 万亿美元&lt;/strong&gt;，融资规模高达 &lt;strong&gt;750 亿美元&lt;/strong&gt;——如果完成，将成为人类历史上最大的 IPO，远超沙特阿美 2019 年的 290 亿美元记录。上市时间窗口锁定今年6月，公开版招股书预计4月底或5月公布。&lt;/p&gt;
+
+&lt;h3&gt;xAI 被吞并：估值2500亿，但团队已经清零&lt;/h3&gt;
+&lt;p&gt;这场 IPO 的关键背景是2月完成的 SpaceX-xAI 合并——全股票交易，SpaceX 估值1万亿、xAI 估值2500亿，合并体1.25万亿。但 Musk 3月12日在 X 上坦承：「xAI 第一次没建好，正在从地基重建。」到3月27日，xAI 全部11位联合创始人已经离职，包括预训练负责人 Manuel Kroiss 和高级运营负责人 Ross Nordeen。&lt;/p&gt;
+&lt;p&gt;Musk 正在紧急招人重组：最近入职的包括来自 Cursor 的 Andrew Milich 和 Jason Ginsberg，以及 Mistral AI 联合创始人 Devendra Chaplot。但投资者面临一个核心问题：&lt;strong&gt;你花1.75万亿买的「AI 层」，正在从零开始搭建。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Terafab：250亿美元的芯片独立宣言&lt;/h3&gt;
+&lt;p&gt;3月21日，Musk 宣布了 Terafab——由 Tesla、SpaceX 和 xAI 三方联合投资 &lt;strong&gt;200-250 亿美元&lt;/strong&gt; 的芯片制造厂。技术目标极其激进：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2 纳米制程&lt;/strong&gt;（目前全球最先进）&lt;/li&gt;
+&lt;li&gt;初始产能 &lt;strong&gt;10 万片晶圆/月&lt;/strong&gt;，远期目标 &lt;strong&gt;100 万片/月&lt;/strong&gt;（约等于台积电全球产能的 70%）&lt;/li&gt;
+&lt;li&gt;年产 &lt;strong&gt;1000-2000 亿颗&lt;/strong&gt;定制 AI 和存储芯片&lt;/li&gt;
+&lt;li&gt;首批产品：Tesla AI5 推理芯片 + D3 太空 AI 芯片&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Musk 声称 80% 产能将用于太空轨道 AI 卫星，仅 20% 用于地面——他的逻辑是太空太阳辐射强度是地面5倍，真空环境散热更优，「2-3年内轨道 AI 计算成本将低于地面」。&lt;/p&gt;
+
+&lt;h3&gt;现实检验：250亿够吗？&lt;/h3&gt;
+&lt;p&gt;但半导体行业人士普遍持怀疑态度。台积电在亚利桑那建6座晶圆厂花了 &lt;strong&gt;1650 亿美元&lt;/strong&gt;，单座 2nm 厂+5万片晶圆产能的造价约 &lt;strong&gt;280 亿美元&lt;/strong&gt;，建设周期 38 个月。Tesla 没有任何半导体制造经验。Electrek 指出了一个不太吉利的先例：2020 年 Battery Day 上 Musk 承诺一年内达到 10 GWh 电池产能、2030 年达到 3 TWh，但至今 Tesla 自产电池仅完成目标的约 &lt;strong&gt;2%&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Tesla CFO 也承认，200-250 亿的 Terafab 成本尚未纳入 2026 年资本开支计划——而这个计划本身已超过 200 亿。Musk 对现有供应商表达了「非常感激」，但坚称台积电、三星和美光的扩产速度跟不上 Tesla 的需求。&lt;/p&gt;
+
+&lt;h3&gt;战略判断&lt;/h3&gt;
+&lt;p&gt;SpaceX IPO 的本质问题不是火箭估多少钱，而是「AI 层」值多少钱。Musk 用一个全员离职的 AI 团队、一个尚未动工的芯片厂、和一个「太空数据中心」的愿景，要从投资者口袋里拿走 750 亿。这是 Tesla 早期模式的复刻——先卖愿景，用时间证明——还是一场超越物理极限的过度承诺？答案将在 S-1 公开版中初现端倪。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/"&gt;https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fintechweekly.com/news/spacex-ipo-xai-valuation-ai-layer-rebuild-2026"&gt;https://www.fintechweekly.com/news/spacex-ipo-xai-valuation-ai-layer-rebuild-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/"&gt;https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html"&gt;https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">deea0e33-8121-55d1-b154-14d5c5341d01</guid>
+      <pubDate>Sun, 05 Apr 2026 08:05:15 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2025/08/starship-tenth-flight-1.jpeg?resize=1200,835" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 🏭 AI 首次登顶美国裁员头号原因：3月15,341人因 AI 失业，占比从全年5%飙至单月25%</title>
+      <description>&lt;h2&gt;Challenger 报告揭示结构性转折点&lt;/h2&gt;
+&lt;p&gt;4月2日，美国猎头咨询公司 Challenger, Gray &amp;amp; Christmas 发布的3月裁员报告揭示了一个里程碑式的转变：&lt;strong&gt;AI 首次成为美国企业裁员的头号原因&lt;/strong&gt;。3月共有 &lt;strong&gt;15,341 人&lt;/strong&gt;被明确因 AI 相关原因裁撤，占当月全部裁员的 &lt;strong&gt;25%&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这个数字的冲击力在于对比：2025 年全年，AI 作为裁员原因的占比仅为 &lt;strong&gt;5%&lt;/strong&gt;；2026年2月还只有 &lt;strong&gt;10%&lt;/strong&gt;。三个月内从5%到25%——这不是渐进式增长，而是跳跃式拐点。&lt;/p&gt;
+
+&lt;h3&gt;科技行业首当其冲&lt;/h3&gt;
+&lt;p&gt;3月科技行业宣布裁员 &lt;strong&gt;18,720 人&lt;/strong&gt;，超过所有其他行业，2026 年 Q1 累计达到 &lt;strong&gt;52,050 人&lt;/strong&gt;，同比增长 &lt;strong&gt;40%&lt;/strong&gt;。Dell 是最大的单一贡献者——根据其最新年报，AI 驱动的业务重组导致了大规模人员调整。Oracle 和 Meta 也在3月宣布了显著裁员。&lt;/p&gt;
+&lt;p&gt;Challenger 首席营收官 Andy Challenger 直言：「&lt;strong&gt;企业正在把预算从人头转向 AI 投资。&lt;/strong&gt;」&lt;/p&gt;
+
+&lt;h3&gt;这次不一样：从「AI 辅助」到「AI 替代」&lt;/h3&gt;
+&lt;p&gt;过去两年的主流叙事是「AI 增强人类能力，不会取代工作」。但3月的数据讲述了一个不同的故事。当 OpenAI 的 GPT-5.4 在桌面生产力基准测试 OSWorld-V 上拿到 &lt;strong&gt;75%&lt;/strong&gt;（略高于人类基准线 72.4%）时，「增强」和「替代」之间的界限开始模糊。&lt;/p&gt;
+&lt;p&gt;更深层的变化在于企业决策逻辑的转换。2025 年，多数企业还在「试水」AI——44% 的公司在评估或部署 AI Agent。到2026年 Q1，试水期结束了，企业开始执行「AI 优先」的人力结构调整：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;代码开发&lt;/strong&gt;：Agent 工具（Claude Code、Cursor、GitHub Copilot Workspace）使单个工程师的产出翻倍，团队规模相应缩减&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;法律和财务&lt;/strong&gt;：合同审查、合规报告等标准化任务被 AI 系统接管&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行政支持&lt;/strong&gt;：日程管理、差旅预订、费用报销等职能大幅自动化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;6万人的背后：裁员总量也在攀升&lt;/h3&gt;
+&lt;p&gt;3月全美企业宣布裁员总量超过 &lt;strong&gt;6 万人&lt;/strong&gt;，环比上升 &lt;strong&gt;25%&lt;/strong&gt;。AI 并非唯一因素——关税不确定性、联邦政府支出削减（DOGE 主导的裁员波及政府承包商）也在推高数字。但 AI 从众多原因中脱颖而出，成为排名第一的单一裁员原因，这本身就是信号。&lt;/p&gt;
+
+&lt;h3&gt;接下来看什么&lt;/h3&gt;
+&lt;p&gt;4月2日发布的这份报告恰好赶上非农就业数据前夕，市场正在消化一个不舒服的可能性：&lt;strong&gt;AI 带来的生产力提升，可能正在快于新岗位创造的速度。&lt;/strong&gt;2026 年 Q2 的 Challenger 报告将揭示这个趋势是单月异常还是结构性转向——考虑到 Agent 类工具的采用曲线仍在陡峭爬升中，后者的概率不小。&lt;/p&gt;
+&lt;p&gt;对 AI 行业而言，这是一个悖论时刻：裁员数据证明 AI 正在深刻改变企业运营，但这也意味着「AI 不会取代你的工作」这个行业公关叙事，正在被自己的成功所击碎。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/"&gt;https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cfodive.com/news/ai-tied-a-quarter-us-layoffs-march/816519/"&gt;https://www.cfodive.com/news/ai-tied-a-quarter-us-layoffs-march/816519/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-02/us-job-cut-announcements-in-tech-keep-rising-with-ai-adoption"&gt;https://www.bloomberg.com/news/articles/2026-04-02/us-job-cut-announcements-in-tech-keep-rising-with-ai-adoption&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eweek.com/news/more-tech-layoffs-ai-job-impact-2026/"&gt;https://www.eweek.com/news/more-tech-layoffs-ai-job-impact-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6671cefa-e02c-58b9-af43-192208fe13a1</guid>
+      <pubDate>Sun, 05 Apr 2026 08:05:50 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/</link>
+      <enclosure url="https://www.challengergray.com/wp-content/uploads/2026/04/crheadermar26.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 🏭 美国 AI 监管内战：司法部组建诉讼特种部队挑战各州立法，30+ 州数百项法案同时推进</title>
+      <description>&lt;h2&gt;联邦放松管制 vs 州级强化监管，两条路线正面碰撞&lt;/h2&gt;
+&lt;p&gt;美国 AI 监管正在上演一场教科书式的联邦-州权力博弈。一边是白宫和司法部试图建立统一的联邦框架并压制州级立法；另一边是 &lt;strong&gt;30 多个州&lt;/strong&gt;数百项 AI 法案同时推进。2026 年 Q1 的立法季刚过六周，仅聊天机器人安全类法案就有 &lt;strong&gt;78 项活跃在 27 个州&lt;/strong&gt;。这不是零星试探，而是全线推进。&lt;/p&gt;
+
+&lt;h3&gt;司法部的「AI 诉讼特种部队」&lt;/h3&gt;
+&lt;p&gt;2025年12月11日，特朗普签署行政命令《确保人工智能国家政策框架》，核心主张是：联邦对 AI 政策有优先权，州级法律若与联邦政策不一致，应被推翻。&lt;/p&gt;
+&lt;p&gt;2026年1月9日，司法部据此成立了 &lt;strong&gt;AI 诉讼特别工作组&lt;/strong&gt;（AI Litigation Task Force），由总检察长 Pam Bondi 或其指定人领导，成员来自副总检察长办公室、民事司和联邦总律师办公室。任务明确：以「违宪干涉州际商务」「被联邦法规优先占据」等理由，在联邦法院起诉州级 AI 法律。&lt;/p&gt;
+&lt;p&gt;行政命令还设定了关键时间节点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3月11日&lt;/strong&gt;：商务部长须发布评估报告，识别与联邦政策冲突的「负担性」州级 AI 法律，并将目标转介给诉讼工作组&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同日&lt;/strong&gt;：行政命令指示 FTC 发布政策声明，将州级强制要求的偏见缓解措施归类为「本身即具有欺骗性的贸易行为」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;科罗拉多 AI 法案（Colorado AI Act）和纽约 RAISE 法案被普遍认为是首批诉讼目标。截至4月初，分析人士预计诉讼工作组将在「数周内」提出首个正式起诉。&lt;/p&gt;
+
+&lt;h3&gt;各州的回应：不等联邦，自己干&lt;/h3&gt;
+&lt;p&gt;但各州并未因联邦施压而收手。相反，2026 年立法季呈现加速态势：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;田纳西&lt;/strong&gt;：州长 Bill Lee 签署 SB 1580，&lt;strong&gt;全票通过&lt;/strong&gt;，禁止任何 AI 系统自称为「持证心理健康专业人员」——全美首个此类禁令&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;爱达荷&lt;/strong&gt;：4项 AI 法案送交州长签署，覆盖教育中的生成式 AI、社交媒体成瘾预防、聊天机器人安全、合成媒体犯罪&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;佐治亚&lt;/strong&gt;：3项法案送交州长，包括聊天机器人披露与儿童安全、AI 保险决策限制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;堪萨斯&lt;/strong&gt;：HB 2183 已于2月签署成法，修订儿童剥削法规以覆盖 AI 生成影像&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;俄勒冈、华盛顿&lt;/strong&gt;模式被内布拉斯加、科罗拉多、亚利桑那、夏威夷等州复制&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;行政命令的「保护区」&lt;/h3&gt;
+&lt;p&gt;值得注意的是，行政命令本身也划定了联邦不可触碰的领域：&lt;strong&gt;儿童安全、AI 算力和数据中心基础设施、州政府自身的 AI 采购和使用&lt;/strong&gt;——这些领域的州法明确不被联邦优先权推翻。这意味着各州在儿童保护和公共部门 AI 治理方面拥有受保护的立法空间。&lt;/p&gt;
+
+&lt;h3&gt;战略判断&lt;/h3&gt;
+&lt;p&gt;联邦与州之间的 AI 监管碰撞在2026年已经从政策讨论变成了法律行动。对 AI 公司而言，这制造了一个巨大的合规不确定性：你是按联邦标准（目前倾向放松管制）还是按州标准（多数倾向严格监管）来设计产品？如果司法部真的起诉科罗拉多并获胜，其判例效应将重塑整个 AI 合规版图。如果败诉，各州将获得事实上的「自由放手」信号，AI 监管将进入真正的碎片化时代。这场博弈的第一个判决可能在年内到来。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in"&gt;https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026"&gt;https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/doj-creates-task-force-to-challenge-state-ai-regulations/"&gt;https://www.cbsnews.com/news/doj-creates-task-force-to-challenge-state-ai-regulations/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.paulhastings.com/insights/client-alerts/president-trump-signs-executive-order-challenging-state-ai-laws"&gt;https://www.paulhastings.com/insights/client-alerts/president-trump-signs-executive-order-challenging-state-ai-laws&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6628cc3e-822c-5e8e-9fd7-336d32f4b559</guid>
+      <pubDate>Sun, 05 Apr 2026 08:06:33 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in</link>
+      <enclosure url="https://www.morganlewis.com/-/media/images/tiles/technology/ai_sector_1274421614_tile_largetile.jpg?rev=b9664f1d3f734539ba71e3a210c0d4e3&amp;amp;hash=C63EC4B2A8856D7B681835FAB25A1576" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

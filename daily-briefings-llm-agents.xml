@@ -4,7 +4,7 @@
     <title>LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:08:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:05:00 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
@@ -273,6 +273,62 @@
       <pubDate>Sat, 04 Apr 2026 08:08:04 +0000</pubDate>
       <category>llm-agents</category>
       <link>https://arxiv.org/abs/2604.01664</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 ByteRover：把记忆管理权交还 LLM 本身——无需向量库的五级渐进检索在 LoCoMo 上达 96.1%（arXiv 2604.01599）</title>
+      <description>&lt;h2&gt;核心问题：Agent 记忆为何需要「原生化」？&lt;/h2&gt;&lt;p&gt;现有 Memory-Augmented Generation（MAG）系统几乎都依赖外部基础设施——向量数据库、图数据库、Embedding 服务——将记忆视为独立于推理的外挂模块。这种架构带来三重代价：运维复杂度高、语义对齐漂移（存储意图 ≠ 检索意图）、以及审计不透明。ByteRover 提出一个激进的反转：&lt;strong&gt;让执行推理的同一个 LLM 同时负责记忆的整理、结构化和检索&lt;/strong&gt;，即「Agent-Native Memory」。&lt;/p&gt;&lt;h2&gt;Context Tree：四层层次知识图&lt;/h2&gt;&lt;p&gt;ByteRover 用 Markdown 文件实现了一棵 &lt;strong&gt;Domain → Topic → Subtopic → Entry&lt;/strong&gt; 的层次树。每个 Entry 节点包含：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Relations&lt;/strong&gt;：通过 @path 注解实现跨节点交叉引用&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Raw Concept&lt;/strong&gt;：溯源信息（任务、变更、来源、时间戳）&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Narrative&lt;/strong&gt;：LLM 解读后的结构化摘要，含依赖关系和示例&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Lifecycle Metadata&lt;/strong&gt;：重要性评分、成熟度层级、时间衰减&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;与 GAAMA 的四类节点（episode/fact/reflection/concept）相比，ByteRover 走的是&lt;strong&gt;文件系统原生路线&lt;/strong&gt;——人类可直接阅读和审计，无需图数据库。&lt;/p&gt;&lt;h2&gt;Adaptive Knowledge Lifecycle（AKL）&lt;/h2&gt;&lt;p&gt;三个机制管理知识演化：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;重要性评分 [0-100]&lt;/strong&gt;：访问 +3，更新 +5，每日 ×0.995 衰减&lt;/li&gt;&lt;li&gt;&lt;strong&gt;成熟度层级&lt;/strong&gt;：Draft → Validated（ι≥65）→ Core（ι≥85），带滞后间隙防震荡&lt;/li&gt;&lt;li&gt;&lt;strong&gt;时间衰减&lt;/strong&gt;：exp(-Δt/30)，半衰期约 21 天&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;综合检索评分 = BM25 相关性 + 归一化重要性 + 时间新近度，分别加权。&lt;/p&gt;&lt;h2&gt;五级渐进检索策略&lt;/h2&gt;&lt;p&gt;这是 ByteRover 的核心工程贡献——&lt;strong&gt;绝大多数查询在亚 100ms 内解决，无需调用 LLM&lt;/strong&gt;：&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;层级&lt;/th&gt;&lt;th&gt;机制&lt;/th&gt;&lt;th&gt;延迟&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tier 0&lt;/td&gt;&lt;td&gt;精确缓存命中&lt;/td&gt;&lt;td&gt;~0ms&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tier 1&lt;/td&gt;&lt;td&gt;Jaccard 模糊缓存匹配&lt;/td&gt;&lt;td&gt;~50ms&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tier 2&lt;/td&gt;&lt;td&gt;MiniSearch 高置信结果&lt;/td&gt;&lt;td&gt;~100ms&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tier 3&lt;/td&gt;&lt;td&gt;单次 LLM 调用 + 预取上下文&lt;/td&gt;&lt;td&gt;&amp;lt;5s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tier 4&lt;/td&gt;&lt;td&gt;完整 Agentic 推理循环 + 工具调用&lt;/td&gt;&lt;td&gt;8-15s&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h2&gt;实验结果&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;LoCoMo&lt;/strong&gt;：96.1% 总体准确率（HonCho 89.9%，Hindsight 89.6%）。多跳问答 93.3%（HonCho 84.0%）。&lt;br/&gt;&lt;strong&gt;LongMemEval-S&lt;/strong&gt;（23,867 文档）：92.8% 总体（Chronos GPT-4o 92.6%）。知识更新 98.7%，时序推理 91.7%。&lt;br/&gt;&lt;strong&gt;运行延迟&lt;/strong&gt;：冷查询 p50=1.6s，p99=2.5s。&lt;/p&gt;&lt;h2&gt;与记忆系统生态的关系&lt;/h2&gt;&lt;p&gt;ByteRover 代表了 Agent 记忆领域的第三条路线：既不是 Mem0 式的轻量语义存储，也不是 GAAMA 式的图增强检索，而是&lt;strong&gt;LLM 自管理的文件系统记忆&lt;/strong&gt;。其「无外部依赖」的设计哲学与 SKILL0 的「技能内化」思路异曲同工——都在试图减少推理时对外部系统的依赖。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.01599"&gt;https://arxiv.org/abs/2604.01599&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9cfc8e48-5543-5059-8745-e6c564187f2a</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:41 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.01599</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 STITCH：不到 1000 条轨迹训出 SOTA 编程 Agent——滑动记忆 + 安全分割点让「少即是多」从数学推理走进 Agentic 任务（arXiv 2604.00824）</title>
+      <description>&lt;h2&gt;从 LIMO 到 Agentic LIMO&lt;/h2&gt;&lt;p&gt;LIMO 系列工作已经证明，在数学推理领域，几百条精心筛选的训练样本就能引发强大的推理能力涌现。CodeArts 团队（华为）提出的核心问题是：&lt;strong&gt;这个「少即是多」原则能否从封闭式数学推理延伸到开放式的 Agent 软件工程任务？&lt;/strong&gt;答案是肯定的，但需要一个关键技术突破——STITCH。&lt;/p&gt;&lt;h2&gt;为什么 Agent 轨迹不能直接「少而精」？&lt;/h2&gt;&lt;p&gt;Agent 与环境的多轮交互产生的轨迹远比数学 CoT 复杂：动辄数万 token，包含文件读写、测试执行、错误修复等交错的动作-观察序列。直接截断会切断动作与观察的因果链；直接丢弃「低质量」轨迹则可能遗漏关键的错误恢复模式。&lt;/p&gt;&lt;h2&gt;STITCH 的两个核心机制&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1. 安全分割点（Safe-Split Points）&lt;/strong&gt;&lt;br/&gt;定义启发式函数 σ(s_t) ∈ {0,1}，仅在观察结束或新指令开始处允许分割。每个 chunk 有最小长度 L_min 和最大长度 L_max 约束，&lt;strong&gt;确保关键决策序列不被碎片化&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;2. 滑动记忆（Sliding Memory）&lt;/strong&gt;&lt;br/&gt;每个 chunk 携带前一段的压缩记忆状态 m_k：&lt;code&gt;(S_k, m_k) = f_map(B_k, m_{k-1})&lt;/code&gt;。这使得 LLM 评估器在评分时能理解完整上下文，而不是孤立地看每个片段。粗筛过滤掉低价值噪声 token，精筛保留决策关键 token。&lt;/p&gt;&lt;h2&gt;惊人的数据效率&lt;/h2&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;语言&lt;/th&gt;&lt;th&gt;训练轨迹数&lt;/th&gt;&lt;th&gt;基准&lt;/th&gt;&lt;th&gt;结果&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Python&lt;/td&gt;&lt;td&gt;752&lt;/td&gt;&lt;td&gt;SWE-bench Verified&lt;/td&gt;&lt;td&gt;26.6% → 43.4%（+63.16%）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Java&lt;/td&gt;&lt;td&gt;391&lt;/td&gt;&lt;td&gt;Multi-SWE-bench&lt;/td&gt;&lt;td&gt;43.75%（超 GPT-5.2 和 Claude-4.5-Sonnet）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ArkTS&lt;/td&gt;&lt;td&gt;924&lt;/td&gt;&lt;td&gt;HarmonyOS 编译&lt;/td&gt;&lt;td&gt;42.77% → 61.31%（+43.34%）&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;模型规模从 30B（Qwen3-Coder）到 355B（GLM-4.7）均有效。CodeArts-Agent 在 Java 上以 391 条轨迹击败了基于 GPT-5.2 和 Claude-4.5-Sonnet 的方案。&lt;/p&gt;&lt;h2&gt;与上下文管理生态的连接&lt;/h2&gt;&lt;p&gt;STITCH 与 ContextBudget（BACM-RL）形成互补：ContextBudget 在推理端动态分配预算，STITCH 在训练端就过滤低价值 token。与 SKILL0 的课程式技能内化也有呼应——三者共同指向一个趋势：&lt;strong&gt;Agent 训练正在从「数据越多越好」转向「信号越纯越好」&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.00824"&gt;https://arxiv.org/abs/2604.00824&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6b1f3104-efdc-5c16-920a-403f97d95d0e</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:04 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.00824</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 Omni-SimpleMem：用自动化研究流水线发现多模态 Agent 记忆架构——50 轮无人实验将 LoCoMo F1 从 0.117 推到 0.598（arXiv 2604.01007）</title>
+      <description>&lt;h2&gt;问题：记忆架构设计空间太大，人工调优跟不上&lt;/h2&gt;&lt;p&gt;从 MemGPT 的 OS 式层次记忆、Generative Agents 的三因子评分、SimpleMem 的轻量终身记忆，到 A-Mem 的 LLM 自主重组——Agent 记忆系统在文本域已百花齐放。但当扩展到&lt;strong&gt;多模态&lt;/strong&gt;（文本 + 图像 + 视频），设计空间呈指数级膨胀：编码器选择、跨模态融合策略、存储压缩、检索排序……传统 AutoML 只能调超参，无法发现架构级创新。&lt;/p&gt;&lt;h2&gt;AutoResearchClaw：23 阶段自主研究流水线&lt;/h2&gt;&lt;p&gt;Omni-SimpleMem 的真正突破不在记忆架构本身，而在&lt;strong&gt;发现它的方法论&lt;/strong&gt;。研究团队部署了一条自主研究流水线，&lt;strong&gt;无需人工干预即可执行约 50 轮实验&lt;/strong&gt;：自动诊断失败模式 → 提出架构修改 → 实施并验证。&lt;/p&gt;&lt;p&gt;关键发现是改进来源的分布极不均匀：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Bug 修复&lt;/strong&gt;：+175%（最大单项来源）&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Prompt 优化&lt;/strong&gt;：+188%&lt;/li&gt;&lt;li&gt;&lt;strong&gt;架构变更&lt;/strong&gt;：+44%&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;这说明记忆系统的瓶颈往往不在算法设计，而在&lt;strong&gt;工程实现的正确性和 Prompt 与架构的协同调优&lt;/strong&gt;——这恰好是自动化流水线擅长的。&lt;/p&gt;&lt;h2&gt;最终架构特征&lt;/h2&gt;&lt;p&gt;经过 50 轮演化，最终的 Omni-SimpleMem 架构保留了 SimpleMem 的轻量设计哲学，但在以下维度做了关键扩展：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;多模态编码统一接口，支持文本、图像混合 Entry&lt;/li&gt;&lt;li&gt;基于重要性和新近度的自适应淘汰策略&lt;/li&gt;&lt;li&gt;跨模态检索时的模态感知重排序&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;实验结果&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;LoCoMo&lt;/strong&gt;：F1 从 0.117 → 0.598（&lt;strong&gt;+411%&lt;/strong&gt;）&lt;br/&gt;&lt;strong&gt;Mem-Gallery&lt;/strong&gt;（多模态基准）：F1 从 0.254 → 0.797（&lt;strong&gt;+214%&lt;/strong&gt;）&lt;/p&gt;&lt;p&gt;代码已开源。&lt;/p&gt;&lt;h2&gt;意义：从「设计记忆」到「发现记忆」&lt;/h2&gt;&lt;p&gt;如果说 GAAMA 和 ByteRover 代表了人类专家精心设计 Agent 记忆架构的路线，Omni-SimpleMem 则开辟了&lt;strong&gt;让 AI 自己发现最优记忆架构&lt;/strong&gt;的路线。这与 AlphaEvolve 发现算法、SKILL0 让模型自己学会技能的思路一脉相承——Agent 基础设施的设计本身正在被 Agent 化。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.01007"&gt;https://arxiv.org/abs/2604.01007&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0c9b56e1-f347-5cc0-8cdb-13c29c1ea39c</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:34 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.01007</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 YC-Bench：用一年创业模拟测试 Agent 长程规划——12 个模型只有 3 个能盈利，Claude Opus 4.6 以 127 万美元登顶（arXiv 2604.01212）</title>
+      <description>&lt;h2&gt;为什么需要长程规划基准？&lt;/h2&gt;&lt;p&gt;现有 Agent 基准（SWE-bench、ALFWorld、WebArena）普遍聚焦&lt;strong&gt;单次任务&lt;/strong&gt;或&lt;strong&gt;短周期交互&lt;/strong&gt;。但真实世界的 Agent 应用——项目管理、投资决策、运维——要求在&lt;strong&gt;数百轮决策中保持战略一致性&lt;/strong&gt;，且早期错误会不断放大。YC-Bench 正是为测试这种能力而生。&lt;/p&gt;&lt;h2&gt;模拟环境设计&lt;/h2&gt;&lt;p&gt;Agent 扮演一家创业公司的 CEO，在一年（数百回合）内管理：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;员工&lt;/strong&gt;：招聘、分配、解雇&lt;/li&gt;&lt;li&gt;&lt;strong&gt;合同&lt;/strong&gt;：从多个客户中选择任务合同&lt;/li&gt;&lt;li&gt;&lt;strong&gt;财务&lt;/strong&gt;：在运营成本不断攀升的环境中维持盈利&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;环境是&lt;strong&gt;部分可观测的&lt;/strong&gt;：Agent 无法看到客户的真实可靠性，必须从延迟反馈中学习。更关键的是，存在&lt;strong&gt;对抗性客户&lt;/strong&gt;——专门设计来测试 Agent 是否能识别和规避欺诈合同。&lt;/p&gt;&lt;h2&gt;12 个模型的生死线&lt;/h2&gt;&lt;p&gt;初始资金 20 万美元。&lt;strong&gt;只有 3 个模型能稳定盈利&lt;/strong&gt;：&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;模型&lt;/th&gt;&lt;th&gt;平均最终资金&lt;/th&gt;&lt;th&gt;备注&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Claude Opus 4.6&lt;/td&gt;&lt;td&gt;&lt;strong&gt;.27M&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;最高&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GLM-5&lt;/td&gt;&lt;td&gt;.21M&lt;/td&gt;&lt;td&gt;推理成本仅 1/11&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;第 3 名模型&lt;/td&gt;&lt;td&gt;&gt;K&lt;/td&gt;&lt;td&gt;勉强盈利&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;其余 9 个模型全部破产。&lt;/p&gt;&lt;h2&gt;关键发现&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1. Scratchpad 使用是最强预测因子。&lt;/strong&gt;能持续利用外部记事本记录策略和历史的模型表现显著更好。这与 ByteRover、GAAMA 等记忆系统的研究方向高度吻合——&lt;strong&gt;长程 Agent 的核心能力之一就是主动管理自己的工作记忆&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;2. 对抗性客户检测失败导致 47% 的破产。&lt;/strong&gt;这不是推理能力问题，而是&lt;strong&gt;信任校准&lt;/strong&gt;问题——模型缺乏「对过往交互模式的审慎评估」能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;3. 成本效率差异巨大。&lt;/strong&gt;GLM-5 以 Claude Opus 4.6 的 1/11 推理成本达到几乎相同的成绩，暗示长程规划可能不需要最大的模型，而需要最好的&lt;strong&gt;策略一致性&lt;/strong&gt;。&lt;/p&gt;&lt;h2&gt;对 Agent 训练的启示&lt;/h2&gt;&lt;p&gt;YC-Bench 揭示了当前 Agent RL 训练的一个盲区：大多数训练信号来自短周期任务的成功/失败，&lt;strong&gt;缺乏对「战略漂移」和「复合错误」的惩罚&lt;/strong&gt;。这为 HCAPO 式的后见信用分配和 ContextBudget 式的长程预算管理提供了新的应用场景。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.01212"&gt;https://arxiv.org/abs/2604.01212&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ce338ecb-bd78-5cfb-86f2-9a73368d2abb</guid>
+      <pubDate>Sun, 05 Apr 2026 08:05:00 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.01212</link>
       <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
     </item>
   </channel>

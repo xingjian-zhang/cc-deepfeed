@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:07:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:04:56 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -296,6 +296,92 @@
       <pubDate>Sat, 04 Apr 2026 08:07:54 +0000</pubDate>
       <category>fitness-science</category>
       <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/</link>
+    </item>
+    <item>
+      <title>💪 氮泵补剂正在偷走你的睡眠：912人调查显示短睡眠风险翻倍</title>
+      <description>&lt;p&gt;你在健身房里猛灌一勺氮泵（pre-workout），感觉精力充沛、训练暴力。但多伦多大学 Kyle T. Ganson 团队发表在 &lt;em&gt;Sleep Epidemiology&lt;/em&gt; 上的研究（N=912，16-30岁）揭示了一个被忽视的代价：&lt;strong&gt;使用氮泵补剂的年轻人报告每晚睡眠≤5小时的风险是不使用者的2.53倍&lt;/strong&gt;（RRR 2.53, 95% CI 1.27–5.05）。&lt;/p&gt;
+
+&lt;p&gt;问题出在剂量。市面上的热门产品——Bang!、Jack3D、C4——单份咖啡因含量在90到350mg之间。一杯美式咖啡大约100mg，一罐可乐才35mg。而氮泵里的咖啡因往往不是唯一的兴奋剂：β-丙氨酸、辛弗林、育亨宾等成分的叠加效应让半衰期变得难以预测。&lt;/p&gt;
+
+&lt;p&gt;这项研究是加拿大青少年行为研究（Canadian Study of Adolescent Behaviors）第二波数据的横截面分析，使用多元逻辑回归控制了性别、年龄和锻炼频率等混杂变量。值得一提的是，该年龄段的推荐睡眠时长是8-10小时（青少年）和7-9小时（年轻成人），而≤5小时属于极端短睡眠。&lt;/p&gt;
+
+&lt;p&gt;此前 &lt;em&gt;SLEEP&lt;/em&gt; 期刊2025年的临床交叉试验已经给出了定量参考：一杯咖啡（~107mg咖啡因）至少需要在睡前8.8小时饮用，一份标准氮泵（~217.5mg）则需要&lt;strong&gt;提前13.2小时&lt;/strong&gt;。换句话说，如果你晚上11点睡觉，下午6点以后喝氮泵就已经太晚了——而绝大多数人的训练时间恰恰集中在傍晚。&lt;/p&gt;
+
+&lt;p&gt;矛盾在于，睡眠本身是肌肥大和力量恢复最重要的因素之一。UC Berkeley 2025年在 &lt;em&gt;Cell&lt;/em&gt; 上发表的研究确认了生长激素释放依赖的脑回路集中在深度睡眠阶段。你用氮泵换来的多做两组卧推，可能在睡眠端亏掉了更多。&lt;/p&gt;
+
+&lt;p&gt;研究团队的建议很直接：如果一定要用，确保距睡觉至少12-14小时。更激进的替代方案是不含咖啡因的氮泵配方（只保留瓜氨酸、甜菜根等血管扩张成分），或者干脆接受一个事实——大多数人并不需要氮泵也能完成有效训练。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S2667343625000198"&gt;https://www.sciencedirect.com/science/article/pii/S2667343625000198&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260308201618.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260308201618.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://academic.oup.com/sleep/article/48/4/zsae230/7815486"&gt;https://academic.oup.com/sleep/article/48/4/zsae230/7815486&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ac3dbc8b-29a3-5280-8d2b-919b7b95a2a3</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:59 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.sciencedirect.com/science/article/pii/S2667343625000198</link>
+      <enclosure url="https://cff2.earth.com/uploads/2026/03/20201204/pre-workout-supplements-sleep-deprivation-young-people-1400x850.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 拉长位训练真的能让肌肉「长长」吗？8项研究系统综述的冷静答案</title>
+      <description>&lt;p&gt;过去两年，「拉长位训练」（lengthened partial）几乎成了力量训练社区的信仰。逻辑听起来很诱人：在肌肉被拉长的位置施加负荷，可以刺激纵向肌肥大——即肌束长度增加，串联肌节（serial sarcomere）数量增多。这不仅意味着更大的肌肉，还意味着更快的收缩速度和更好的运动表现。&lt;/p&gt;
+
+&lt;p&gt;Milo Wolf 团队今年发表的系统综述（8项研究，120名受试者）对这一热潮进行了审慎评估。结论并不像社交媒体上那样令人兴奋。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;肌肉体积：拉长位确实更优，但幅度有限。&lt;/strong&gt;多数纳入研究显示，较长肌肉长度的抗阻训练（LML-RT）比短肌肉长度训练（SML-RT）产生更大的横截面积增长。McMahon 等人的研究中，股外侧肌近端、中部和远端截面积均呈LML优势；Noorkõiv 等人发现SML组几乎没有增长，而LML组有明显进步。不过 Werkhausen 和 Valamatos 的研究中两组差异很小。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;肌束长度：统计学上有趋势，但测量方法存疑。&lt;/strong&gt;7/8项研究使用线性外推法估算肌束长度——Wolf团队直言这种方法"效度存疑"（questionable validity）。唯一使用扩展视野超声（extended field-of-view ultrasonography）的 Stasinaki 研究结果确实显示LML组肌束更长，但仅此一项无法定论。&lt;/p&gt;
+
+&lt;p&gt;最关键的问题是：&lt;strong&gt;没有任何一项研究直接测量过串联肌节数量的变化。&lt;/strong&gt;肌束变长可能是因为肌节数量增加，也可能只是单个肌节被拉长了——这两种机制的功能意义完全不同。要区分二者，需要超声成像结合微内窥镜（micro-endoscopy），而目前没有研究做到这一点。&lt;/p&gt;
+
+&lt;p&gt;研究质量评估（SMART-LD量表，满分20）同样不乐观：均值11.4分，4项"差"、4项"一般"，零项达到"良好"。受试者几乎全是未经训练的新手，样本量也偏小。&lt;/p&gt;
+
+&lt;p&gt;这并不意味着拉长位训练没用。从肌肥大角度看，它可能确实略优于短位训练，这与此前我们报道过的 Siegel RCT（纯被动拉伸也能引起股直肌增厚）的结论方向一致。但"纵向增长"和"串联肌节增生"这些更宏大的叙事，目前还缺乏直接证据支撑。在有人用微内窥镜+超声的双重验证方案做出决定性实验之前，把拉长位训练当作增肌的「额外保险」比当作「必须」更合理。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12869050/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12869050/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S2666337625000332"&gt;https://www.sciencedirect.com/science/article/pii/S2666337625000332&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sportrxiv.org/index.php/server/preprint/view/423"&gt;https://sportrxiv.org/index.php/server/preprint/view/423&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">80f48aa3-c0af-5eab-a9de-a55123be5d98</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:26 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12869050/</link>
+      <enclosure url="https://www.sciencedirect.com/science/article/pii/S2666337625000332" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 蛋白质焦虑的解药：斯坦福营养学家拆解「多吃蛋白」的六个误区</title>
+      <description>&lt;p&gt;2025年底发布的美国新版膳食指南将蛋白质推荐量从0.8g/kg提高到1.2-1.6g/kg，几乎翻了一倍。社交媒体上的「protein-maxxing」趋势随之升温：蛋白质冰淇淋、蛋白质薯片、蛋白质水——任何食物只要贴上高蛋白标签就能溢价出售。&lt;/p&gt;
+
+&lt;p&gt;斯坦福预防研究中心营养研究主任 Christopher Gardner 在3月的专题文章中直接开火：新指南建议蛋白质摄入提高50-100%，但支撑这一跳跃的新证据"really isn't any"——&lt;strong&gt;并没有什么新的科学发现&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这篇由斯坦福三位专家（Gardner、营养师 Marily Oppezzo、病理学副教授 Jonathan Long）联合撰写的科普总结了五个要点，其中几条直接挑战健身圈的常识：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 大多数美国人的蛋白质摄入已经足够。&lt;/strong&gt;男性日均90-100g，女性65-75g。按旧标准0.8g/kg计算，一个68kg的人只需55g。即便按新标准1.2-1.6g/kg（82-109g），多数人也已经达标或接近达标，根本不需要额外补充。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.「不完全蛋白质」是个持久的谣言。&lt;/strong&gt;Gardner 说他希望这个说法能彻底消失。植物蛋白并不缺少20种氨基酸中的任何一种——只是某些氨基酸含量相对较低。正常饮食中的混合搭配完全能满足需求。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 蛋白质焦虑正在挤占纤维摄入。&lt;/strong&gt;这可能是最实际的问题。全美只有5%的人达到了膳食纤维的推荐量，而高蛋白加工食品往往不含纤维。Oppezzo 用了一个精准比喻：蛋白质正在经历90年代低脂食品的"SnackWell's现象"——当年低脂饼干被当成健康食品疯抢，结果肥胖率照样飙升。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 真正需要关注蛋白质的人群是特定的。&lt;/strong&gt;40岁以上的肌肉流失人群、使用GLP-1类减肥药（如司美格鲁肽）导致瘦体重下降的患者——对这些群体，提高到1.2-1.6g/kg确实有证据支持。但把这个建议泛化给所有人，就像给全民开处方药。&lt;/p&gt;
+
+&lt;p&gt;回到力量训练语境：运动科学的共识仍然是1.6g/kg是增肌的充分门槛，超过2.2g/kg后收益几乎为零——这一点并没有因为新指南而改变。Trommelen 2023年的研究已经证明单餐100g蛋白也能被有效利用，"每餐30g上限"早该退休了。我们此前的条目也讨论过，&lt;strong&gt;总摄入量远比摄入时机重要&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;Gardner 的建议很简单：与其焦虑蛋白质够不够，不如数数你今天吃了多少克纤维、多少份豆类。答案大概率更让人不安。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://med.stanford.edu/news/insights/2026/03/how-much-protein.html"&gt;https://med.stanford.edu/news/insights/2026/03/how-much-protein.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/30/nx-s1-5750384/protein-intake-grams-food-how-much"&gt;https://www.npr.org/2026/03/30/nx-s1-5750384/protein-intake-grams-food-how-much&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://abcnews.go.com/Lifestyle/wireStory/new-diet-guidelines-double-protein-nutrition-experts-wary-129347491"&gt;https://abcnews.go.com/Lifestyle/wireStory/new-diet-guidelines-double-protein-nutrition-experts-wary-129347491&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">da2b6f50-99a2-5e07-b1c8-5e582975eb5b</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:56 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://med.stanford.edu/news/insights/2026/03/how-much-protein.html</link>
+      <enclosure url="https://med.stanford.edu/news/insights/2026/03/how-much-protein/_jcr_content/cq:featuredimage.coreimg.jpeg/1774469553447/protein-hero.jpeg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

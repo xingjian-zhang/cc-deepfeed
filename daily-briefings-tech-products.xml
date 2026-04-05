@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:03:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:04:07 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -308,6 +308,112 @@
       <pubDate>Sat, 04 Apr 2026 08:03:32 +0000</pubDate>
       <category>tech-products</category>
       <link>https://www.theinformation.com/articles/intel-tsmc-tentatively-agree-form-chipmaking-joint-venture</link>
+    </item>
+    <item>
+      <title>📱 iOS 27 功能全景：Siri 独立应用化、Safari AI 搜索、卫星5G，一次「Snow Leopard 式」大修</title>
+      <description>&lt;p&gt;MacRumors 4月4日发文汇总了 iOS 27 已知爆料，整体方向很清楚——&lt;strong&gt;不是视觉翻新，而是底层能力补课&lt;/strong&gt;。苹果内部将这个版本比作 Mac OS X Snow Leopard：少做花活，多修地基。但地基本身的动静不小。&lt;/p&gt;
+
+&lt;p&gt;最抢眼的是 Siri 的角色转换。iOS 27 里 Siri 将作为独立聊天应用存在，交互方式对标 ChatGPT——支持多轮对话、上下文记忆、屏幕感知。更重要的是「Siri Extensions」机制：用户可以在设置中把查询路由到 Claude、Gemini、Grok 等第三方 AI，结束 OpenAI 独占局面。这意味着苹果正式把 Siri 从「语音助手」重新定义为「AI 调度器」——自己不一定最聪明，但它决定谁来回答你的问题。&lt;/p&gt;
+
+&lt;p&gt;与此配套的是苹果自研的 AI 搜索引擎，内部代号「World Knowledge Answers」。它将先集成到 Siri，随后扩展到 Safari 和 Spotlight，生成融合文字、图片、视频和本地结果的摘要式回答，直接对标 Perplexity 和 Google AI Overviews。苹果的差异化筹码很明确：隐私。所有推理在设备端或 Private Cloud Compute 完成，不把搜索历史交给第三方。&lt;/p&gt;
+
+&lt;p&gt;其他值得关注的点：卫星5G上网支持（可能限 iPhone 18 Pro 的 C2 基带机型）、Apple Maps 卫星导航、键盘自动纠错大幅升级（类 Grammarly 的替代词建议）、以及 Liquid Glass 全局透明度滑块——用户终于可以自己调界面「磨砂度」了。&lt;/p&gt;
+
+&lt;p&gt;WWDC 6月8日开幕，正式版预计9月随 iPhone 18 一起推送。对开发者来说，Siri Extensions 的开放意味着一轮新的集成机会；对用户来说，Siri 是否真能从「笑话」变成「入口」，取决于第三方 AI 的接入质量和苹果自研搜索的实际效果。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.macrumors.com/2026/04/04/ios-27-new-iphone-features-coming/'&gt;MacRumors&lt;/a&gt;、&lt;a href='https://searchengineland.com/apple-world-knowledge-answers-ai-search-461569'&gt;Search Engine Land&lt;/a&gt;、&lt;a href='https://www.geeky-gadgets.com/wwdc-2026-guide/'&gt;Geeky Gadgets&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/04/04/ios-27-new-iphone-features-coming/"&gt;https://www.macrumors.com/2026/04/04/ios-27-new-iphone-features-coming/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://searchengineland.com/apple-world-knowledge-answers-ai-search-461569"&gt;https://searchengineland.com/apple-world-knowledge-answers-ai-search-461569&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geeky-gadgets.com/wwdc-2026-guide/"&gt;https://www.geeky-gadgets.com/wwdc-2026-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">77502544-eafa-5bd6-bb81-1223119291fb</guid>
+      <pubDate>Sun, 05 Apr 2026 08:02:32 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.macrumors.com/2026/04/04/ios-27-new-iphone-features-coming/</link>
+      <enclosure url="https://images.macrumors.com/t/MOLST0mdhUOeLMEEoQleWfgpjJQ=/2500x/article-new/2026/03/iOS-27-on-iPhone-17-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Switch 2 游戏正式拆分数字/实体定价：数字版便宜10美元，任天堂重新定义「物理介质溢价」</title>
+      <description>&lt;p&gt;任天堂本周确认，从5月起 Switch 2 游戏将执行&lt;strong&gt;数字版与实体版差异定价&lt;/strong&gt;：数字版统一便宜10美元。首批受影响的游戏包括5月21日发售的《耀西与不可思议的书》（数字版 $59.99，实体版 $69.99），以及后续的《Fire Emblem: Fortune's Wheel》和《Pokémon Winds &amp; Waves》。&lt;/p&gt;
+
+&lt;p&gt;任天堂的措辞很讲究——官方说法是「数字版定价更低以反映无物理生产和运输成本」，而非「实体版涨价」。但对消费者来说效果一样：想要盒子和卡带，多掏10美元。零售商可以自行定价，但预计多数会跟随官方建议零售价。&lt;/p&gt;
+
+&lt;p&gt;这个策略放在当前背景下很好理解。Switch 2 面临关税、内存涨价、油价上涨三重压力（我们&lt;a href='#'&gt;4月4日报道过&lt;/a&gt;前任天堂销售主管公开预警涨价「不可避免」）。主机定价暂时锁在449美元不动，配件已经悄悄涨了5%。游戏定价拆分是另一个释放成本压力的出口——实体版吸收物流成本，数字版维持心理价位。&lt;/p&gt;
+
+&lt;p&gt;从行业趋势看，任天堂是主机厂商中第一个正式制度化数字/实体差价的。索尼和微软长期以来偶有促销差价，但从未在首发定价层面做制度性区分。这可能成为行业先例。对玩家而言，短期省了10美元；长期看，这加速了游戏消费向纯数字化倾斜——当实体版变成「收藏溢价」而非「默认选项」，实体游戏市场的萎缩会更快。&lt;/p&gt;
+
+&lt;p&gt;4月24日北美重新开放 Switch 2 预购，届时这个定价策略会接受第一波市场检验。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.cbr.com/nintendo-switch-2-price-change-may-2026/'&gt;CBR&lt;/a&gt;、&lt;a href='https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable'&gt;Nintendo Life&lt;/a&gt;、&lt;a href='https://www.gamedeveloper.com/business/nintendo-switch-2-dodges-tariff-price-increase-but-accessories-will-experience-price-adjustments-'&gt;Game Developer&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cbr.com/nintendo-switch-2-price-change-may-2026/"&gt;https://www.cbr.com/nintendo-switch-2-price-change-may-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable"&gt;https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gamedeveloper.com/business/nintendo-switch-2-dodges-tariff-price-increase-but-accessories-will-experience-price-adjustments-"&gt;https://www.gamedeveloper.com/business/nintendo-switch-2-dodges-tariff-price-increase-but-accessories-will-experience-price-adjustments-&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">27841bf5-b49e-58c2-96b7-6e2476184dfa</guid>
+      <pubDate>Sun, 05 Apr 2026 08:02:56 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.cbr.com/nintendo-switch-2-price-change-may-2026/</link>
+      <enclosure url="https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/11/nintendo-switch-2-and-link-from-legend-of-zelda.jpg?w=1600&amp;amp;h=900&amp;amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Pixel 11 Pro 泄露汇总：Project Toscana 屏下人脸识别、全黑相机模组、Tensor G6 加持</title>
+      <description>&lt;p&gt;Pixel 11 Pro XL 的 CAD 渲染图本周大规模泄露，9to5Google 和 Android Central 同步曝光。外观变化不算激进——162.7 × 76.5 × 8.5mm，和 Pixel 10 Pro XL 几乎一样大，最大视觉差异是相机模组从双色调改为&lt;strong&gt;全黑一体&lt;/strong&gt;设计，更简洁但也更「无聊」（9to5Google 原话是「最无聊的泄露」）。6.8英寸 OLED 屏、16GB RAM、256GB 起步存储，规格层面没有意外。&lt;/p&gt;
+
+&lt;p&gt;真正有意思的在正面。Google 内部代号「Project Toscana」的屏下红外人脸识别系统，已经在山景城进行 UX 测试。Tensor G6 的 ISP 原生支持屏下红外摄像头，功耗做了专门优化。测试结果据称在多种光照条件下表现接近 iPhone 的 Face ID——这将是 Android 阵营首个达到 Class 3 生物识别安全等级的纯人脸方案，支持支付级认证。&lt;/p&gt;
+
+&lt;p&gt;目前还不完全确定量产版是走屏下红外还是利用现有打孔前摄实现。Android Police 报道称测试机使用的是标准打孔前摄，暗示 Google 可能准备了两条路线。不过泄露渲染图中打孔摄像头旁没有可见的额外传感器区域，如果最终走屏下方案，外观上会非常干净。&lt;/p&gt;
+
+&lt;p&gt;相机方面，温度计传感器被移除（Pixel 10 Pro XL 上藏在闪光灯下方），新增超低光视频模式、4K 30fps 电影级虚化、以及拍后补光功能。100倍变焦的传闻还在，但真实性存疑。&lt;/p&gt;
+
+&lt;p&gt;Project Toscana 的布局不止手机——Google 同时在 Chromebook 上测试该技术，未来可能整合进 Aluminium OS。如果成功，这是 Google 第一次在生物安全层面和苹果正面竞争，而不是靠屏下指纹打差异化。预计8月 Google I/O 后发布。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/'&gt;9to5Google&lt;/a&gt;、&lt;a href='https://www.androidpolice.com/google-pixel-11-face-unlock-upgrade-ir-leak/'&gt;Android Police&lt;/a&gt;、&lt;a href='https://www.notebookcheck.net/Google-Pixel-11-Pro-XL-leaks-with-modernized-design-but-loses-sensor.1265060.0.html'&gt;NotebookCheck&lt;/a&gt;、&lt;a href='https://tech.sportskeeda.com/mobiles/google-pixel-11-pro-leaks-mastersheet-under-display-face-id-tensor-g6'&gt;Sportskeeda&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/"&gt;https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidpolice.com/google-pixel-11-face-unlock-upgrade-ir-leak/"&gt;https://www.androidpolice.com/google-pixel-11-face-unlock-upgrade-ir-leak/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.notebookcheck.net/Google-Pixel-11-Pro-XL-leaks-with-modernized-design-but-loses-sensor.1265060.0.html"&gt;https://www.notebookcheck.net/Google-Pixel-11-Pro-XL-leaks-with-modernized-design-but-loses-sensor.1265060.0.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tech.sportskeeda.com/mobiles/google-pixel-11-pro-leaks-mastersheet-under-display-face-id-tensor-g6"&gt;https://tech.sportskeeda.com/mobiles/google-pixel-11-pro-leaks-mastersheet-under-display-face-id-tensor-g6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7030d05b-479c-514e-9152-22bdd39df094</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:21 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://9to5google.com/2026/04/02/pixel-11-pro-xl-leak/</link>
+      <enclosure url="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/04/Pixel-11-Pro-XL-leak-1.jpg?resize=1200%2C628&amp;quality=82&amp;strip=all&amp;ssl=1" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 苹果把美国 iPhone 产线搬向印度：关税博弈下的供应链大迁移，已实现25%产能</title>
+      <description>&lt;p&gt;BGR 和 MacRumors 报道，苹果计划在2026年底前将所有面向美国市场的 iPhone 组装转移到印度。目前进度：印度已经承担了苹果全球 iPhone 产量的约25%，由 Foxconn 和 Tata 两家代工厂执行。&lt;/p&gt;
+
+&lt;p&gt;驱动这次迁移的是关税算术。特朗普政府对中国商品的综合关税已达54%（34%新关税 + 20%既有关税），即使半导体及衍生产品目前享有豁免，苹果也不想把鸡蛋放在一个篮子里。印度的关税环境更友好——尽管也被加征了25%关税，但印度2026年财政预算给了电子制造商一个关键优惠：&lt;strong&gt;五年免税期&lt;/strong&gt;，允许苹果向 Foxconn 和 Tata 提供昂贵设备而不产生额外税负。这大幅降低了产线迁移的前期成本。&lt;/p&gt;
+
+&lt;p&gt;但供应链转移不是无痛的。印度工厂的良率和产能爬坡速度仍然落后于中国。Tim Cook 在最近的财报电话会上表示，第二季度（截至6月）销往美国的 iPhone 大部分将来自印度——这意味着 iPhone 18 的发售将是印度产线的第一次大考。如果良率不达标，要么延迟发货，要么被迫回头依赖中国产能。&lt;/p&gt;
+
+&lt;p&gt;价格方面，分析师预计苹果可能实施五年来首次全线提价，幅度在50到100美元。苹果目前有足够的 iPhone 16 库存来覆盖当前需求，但 iPhone 18（今秋发布）几乎不可能不涨价。苹果的策略是不直接把涨价归因于关税——而是把它包装成「新功能、新材料带来的合理溢价」。&lt;/p&gt;
+
+&lt;p&gt;对消费者的现实影响：如果你在考虑升级 iPhone，今年秋天之前用现有设备的价格买到的性价比可能是未来几年的最高点。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.bgr.com/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/'&gt;BGR&lt;/a&gt;、&lt;a href='https://www.mactech.com/2026/03/10/apple-now-makes-a-quarter-of-its-iphones-in-india/'&gt;MacTech&lt;/a&gt;、&lt;a href='https://www.storyboard18.com/amp/digital/budget-2026-gives-apple-a-major-tax-win-clears-path-for-faster-iphone-manufacturing-scale-up-in-india-88649.htm'&gt;Storyboard18&lt;/a&gt;、&lt;a href='https://san.com/cc/apple-may-increase-iphone-prices-reluctant-to-blame-tariffs-report/'&gt;SAN&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.bgr.com/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/"&gt;https://www.bgr.com/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mactech.com/2026/03/10/apple-now-makes-a-quarter-of-its-iphones-in-india/"&gt;https://www.mactech.com/2026/03/10/apple-now-makes-a-quarter-of-its-iphones-in-india/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.storyboard18.com/amp/digital/budget-2026-gives-apple-a-major-tax-win-clears-path-for-faster-iphone-manufacturing-scale-up-in-india-88649.htm"&gt;https://www.storyboard18.com/amp/digital/budget-2026-gives-apple-a-major-tax-win-clears-path-for-faster-iphone-manufacturing-scale-up-in-india-88649.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://san.com/cc/apple-may-increase-iphone-prices-reluctant-to-blame-tariffs-report/"&gt;https://san.com/cc/apple-may-increase-iphone-prices-reluctant-to-blame-tariffs-report/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6cc2afe3-a5b5-54fe-b4a0-00c7545b6630</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:07 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.bgr.com/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/</link>
+      <enclosure url="https://www.bgr.com/bgr/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/iphone-16e-2.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>博士生存指南</title>
     <description>Per-topic feed: 博士生存指南</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:03:47 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" type="application/rss+xml" />
@@ -313,6 +313,76 @@
       <category>phd-survival</category>
       <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319857</link>
       <enclosure url="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0319857.t003&amp;size=inline" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 F-1「无限期居留」时代正式终结：固定期限规则落地，读博超四年怎么办？</title>
+      <description>&lt;p&gt;继上期报道 DHS 启动 OPT/STEM OPT 审查之后，F-1 签证体系的另一只靴子也落地了。DHS 于 2025 年 8 月 28 日在 Federal Register 发布拟议规则，&lt;strong&gt;取消沿用数十年的 Duration of Status（D/S）制度&lt;/strong&gt;，改为固定期限入境——最长四年或项目结束日期（取二者较短），外加 30 天宽限期（原先为 60 天）。该规则已于 2025 年底完成定稿，目前进入过渡期。&lt;/p&gt;
+
+&lt;p&gt;对博士生的冲击尤其直接。美国理工科博士中位毕业时间约 5.5-6 年，而新规上限仅四年。超出部分需要向 USCIS 申请延期（Extension of Stay），这不仅增加了文书成本和等待时间，还引入了被拒的风险。更棘手的是，新规还限制了转学和变更学位层级的灵活性——如果你读到第三年想从硕士转博士，或者换一所学校，流程会比以前复杂得多。&lt;/p&gt;
+
+&lt;p&gt;过渡安排方面，目前已在美国持 F-1 身份的学生可以继续完成当前项目，或在最终规则生效日起四年内居留（取二者较晚），不需要立即申请延期。但对于 2026 年秋季及之后入学的新生，固定期限将从入境之日开始计算。NAFSA 等组织持续呼吁国会介入，认为该规则增加了不必要的行政负担，可能削弱美国对国际研究人才的吸引力。&lt;/p&gt;
+
+&lt;p&gt;实操建议：第一，尽早与学校 International Students Office 确认你的具体 I-94 到期日和延期路径；第二，如果你的项目预计超过四年，在第三年就应该着手准备延期申请材料；第三，关注 O-1（杰出人才）和 EB-1A/EB-2 NIW 等替代身份路径，这些不受 F-1 期限约束。上期提到的 STEM OPT 审查（RIN 1653-AA97）仍在推进中，两条线叠加意味着国际博士生的身份规划窗口正在收紧。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nafsa.org/regulatory-information/dhs-proposal-replace-duration-status"&gt;https://www.nafsa.org/regulatory-information/dhs-proposal-replace-duration-status&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.federalregister.gov/documents/2025/08/28/2025-16554/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant"&gt;https://www.federalregister.gov/documents/2025/08/28/2025-16554/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nomadcredit.com/blog/the-2026-student-visa-update"&gt;https://www.nomadcredit.com/blog/the-2026-student-visa-update&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://oiss.yale.edu/news/dhs-proposes-to-replace-duration-of-status-with-fixed-periods-of-stay-for-f-j-nonimmigrants"&gt;https://oiss.yale.edu/news/dhs-proposes-to-replace-duration-of-status-with-fixed-periods-of-stay-for-f-j-nonimmigrants&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a30eb3ab-e753-5db1-a22a-0929ac4fb0a6</guid>
+      <pubDate>Sun, 05 Apr 2026 08:02:36 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://www.nafsa.org/regulatory-information/dhs-proposal-replace-duration-status</link>
+      <enclosure url="https://www.nafsa.org/sites/default/files/ektron/image/underscore/nafsa_primary.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 2026 AI/ML PhD 求职薪资全景：从 Google L4 到 OpenAI Research Scientist，怎么谈才不亏？</title>
+      <description>&lt;p&gt;AI/ML 博士求职季正在进行中。如果你今年毕业或计划明年上市场，有一个问题绕不开：拿到 offer 之后，到底怎么谈薪？这篇整合了多个公开数据源和一线求职者分享，拆解 2026 年 AI 研究岗的薪酬结构。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三大梯队的薪酬带&lt;/strong&gt;。第一梯队是 OpenAI、Anthropic、Google DeepMind 这类 frontier lab：Research Scientist 中位总包（TC）在 60-80 万美元区间，其中 OpenAI 的留任奖金（retention bonus）可达 150 万美元。Anthropic 的 Research Scientist 中位 TC 约 74.6 万美元。第二梯队是 Google（非 DeepMind）、Meta、Apple、Amazon 等大厂：新毕业 PhD 拿到 L4/IC4 级别 offer，基础年薪约 15-21 万美元，加上签字奖金、股票和年度奖金，首年 TC 通常在 35-55 万美元。第三梯队是中小型 AI 公司和应用层创业公司：TC 多在 18-30 万美元，但可能附带更高比例的期权。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;谈判的核心杠杆是 competing offers&lt;/strong&gt;。Nate Lambert（前 HuggingFace Research Scientist，现 Allen Institute）在其求职复盘中直言：大厂愿意在初始 offer 基础上加 20-50%，前提是你手里有同级别竞品 offer。实操上，这意味着不要过早接受第一个 offer，也不要只申一家。理想策略是同时推进 3-5 个流程，让 offer deadline 尽量重叠。Sundeep Teki 的 2026 面试指南也指出，OpenAI、Anthropic、DeepMind 三家的面试流程差异很大——OpenAI 侧重临场 paper discussion，Anthropic 有 CodeSignal 门槛（520+/600）加 safety 行为面，DeepMind 走 hiring committee 制度且强调数学基础——所以准备策略应该按目标公司定制，而非一套通杀。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;几个容易踩的坑&lt;/strong&gt;。第一，不要只看基础年薪。股票归属周期（vesting schedule）差异巨大：有的公司四年均匀归属，有的前两年给 5% 后两年给 95%（所谓 backloaded vesting），实际到手差距可能超过 10 万美元。第二，关注 refresher grants——每年追加的股票授予，这直接决定了你第二年起的真实 TC。第三，如果你是国际学生，签证身份会影响谈判姿态：H-1B 抽签未中意味着你可能需要 OPT/STEM OPT 过渡，而雇主对此的支持力度各不相同。上期报道的 STEM OPT 审查和 H-1B 工资权重抽签新规，让这个变量更加不可忽视。&lt;/p&gt;
+
+&lt;p&gt;数据来源方面，&lt;a href="https://aipaygrad.es"&gt;aipaygrad.es&lt;/a&gt; 提供了经匿名验证的 AI 岗位薪酬众包数据，levels.fyi 可以按公司和职级交叉查询。建议在谈判前花一小时建一张对照表，把目标公司的 base/sign-on/RSU/refresher 逐项列出来——谈判桌上最有力的武器是数据，不是感觉。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://natolambert.com/writing/ai-phd-job-hunt"&gt;https://natolambert.com/writing/ai-phd-job-hunt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sundeepteki.org/advice/how-to-get-hired-at-openai-anthropic-and-google-deepmind-in-2026"&gt;https://www.sundeepteki.org/advice/how-to-get-hired-at-openai-anthropic-and-google-deepmind-in-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://h1bvisajobs.com/stem-opt-extension-2026-rules-strategies/"&gt;https://h1bvisajobs.com/stem-opt-extension-2026-rules-strategies/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.jobspikr.com/report/ai-salary-benchmark-2026/"&gt;https://www.jobspikr.com/report/ai-salary-benchmark-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bb311e8f-3d7d-572d-9265-f3040b2c5c45</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:20 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://natolambert.com/writing/ai-phd-job-hunt</link>
+    </item>
+    <item>
+      <title>📚 PhD 之后不想做博后也不想直接入职？AI 研究驻留项目可能是第三条路</title>
+      <description>&lt;p&gt;传统叙事里，博士毕业后只有两条路：留学术界做博后，或进工业界拿 full-time offer。但过去两年，一种介于两者之间的模式正在成型——&lt;strong&gt;AI 研究驻留项目（Research Residency）&lt;/strong&gt;。这些项目时长 6-12 个月，提供正式薪资和导师制，让你以准研究员身份参与前沿项目，同时保留后续选择的灵活性。&lt;/p&gt;
+
+&lt;p&gt;2026 年仍在活跃招收的主要项目包括：&lt;strong&gt;Apple AIML Residency&lt;/strong&gt;，为期一年，面向硕士及以上学历，覆盖视觉、NLP、机器人等多个方向，住民可以在顶会发表论文且获得 Apple 内部资源支持，申请目前仍然开放；OpenAI Residency，六个月制，2026 cohort 申请已截止，但通常每年开放一到两轮；Meta AI Residency，一年制，侧重基础研究训练，适合计划申请博士或刚毕业想补研究经验的候选人；Google AI Residency（原 Brain Residency），12 个月，录取率极低但转正率很高。此外，一些非传统玩家也在入场：Lila Sciences 推出了 AI + 材料科学交叉方向的驻留项目，2026 年分三批招收（1 月、夏季、秋季），主打跨学科。&lt;/p&gt;
+
+&lt;p&gt;驻留项目和传统博后的关键区别在于三点。第一，&lt;strong&gt;时间承诺更短&lt;/strong&gt;——一年而非两到三年，试错成本低。第二，薪资通常按工业界标准发放，远高于博后的 NIH 标准线（2026 年 NIH 博后起薪约 6.1 万美元），虽然各公司不公开数字，但从 levels.fyi 的数据推断，Apple 和 Google 的驻留薪资大致在 12-18 万美元区间。第三，没有 tenure-track 的发表压力，但有产品落地的隐性期望——你的研究需要和公司业务方向对齐。&lt;/p&gt;
+
+&lt;p&gt;适合什么人？如果你对学术界的经费危机感到焦虑（上期报道的 NIH F31 大规模终止就是例证），但又不确定自己想长期留在工业界，驻留项目提供了一个低风险的试水期。不少前驻留住民后来既有转正留在公司的，也有带着工业经验回学术界拿到 AP 职位的。需要注意的是，这些项目竞争激烈——Google Brain Residency 的录取率历史上低于 2%——所以申请时需要像准备教职一样认真：明确的研究计划、匹配的导师偏好、以及能展示独立研究能力的作品集。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://machinelearning.apple.com/updates/aiml-residency-program-application-2026"&gt;https://machinelearning.apple.com/updates/aiml-residency-program-application-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://openai.com/residency/"&gt;https://openai.com/residency/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://research.google.com/teams/brain/residency/"&gt;https://research.google.com/teams/brain/residency/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ipai-foundation.ai/en/science-residency/"&gt;https://ipai-foundation.ai/en/science-residency/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bf7db60b-2b7f-56ce-a7eb-573aa3cf2e49</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:47 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://machinelearning.apple.com/updates/aiml-residency-program-application-2026</link>
+      <enclosure url="https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

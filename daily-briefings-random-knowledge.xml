@@ -4,7 +4,7 @@
     <title>每日冷知识深潜</title>
     <description>Per-topic feed: 每日冷知识深潜</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:04:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:05:14 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" type="application/rss+xml" />
@@ -455,6 +455,180 @@
       <pubDate>Sat, 04 Apr 2026 08:04:02 +0000</pubDate>
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Roko%27s_basilisk</link>
+    </item>
+    <item>
+      <title>🎲 🎲 一本600年无人能读的书：伏尼契手稿，人类密码学史上最顽固的谜团</title>
+      <description>&lt;h2&gt;一个波兰书商打开了潘多拉之盒&lt;/h2&gt;
+&lt;p&gt;1912年，波兰裔书商Wilfrid Voynich在意大利一座耶稣会别墅的故纸堆中发现了一本古怪的手抄本。书页上布满了一种从未在其他任何地方出现过的文字，配以色彩斑斓的植物、裸女、天体和管道图示。他不知道自己手中捧着的，是此后一个多世纪里令密码学家、语言学家和计算机科学家集体抓狂的存在——伏尼契手稿（Voynich Manuscript），现藏耶鲁大学，编号MS 408。&lt;/p&gt;
+
+&lt;h2&gt;它到底是什么？&lt;/h2&gt;
+&lt;p&gt;2009年亚利桑那大学的碳14测年将羊皮纸锁定在1404-1438年之间——这是一本正经八百的中世纪手稿，而非后人伪造。全书约240页（原始约272页，部分散佚），包含约38000个单词，使用20-25个字符组成的未知书写系统，从左到右书写。内容分为六大部分：草药学（126页，画满了无法辨认的植物）、天文学（带黄道十二宫图）、浴场学（裸女浸泡在复杂管道系统中）、宇宙学（著名的「花环」折页）、药学（罐子与植物部件）和食谱（大量纯文字段落）。&lt;/p&gt;
+
+&lt;p&gt;最诡异的是：统计分析显示这些文字具有真实语言的特征——词频分布符合齐普夫定律，词汇结构有规律可循，2014年巴西学者Amancio的研究认为其「与自然语言高度兼容，与随机文本不兼容」。换句话说，这不是胡乱涂鸦，有人确实在用一种系统性的方式记录信息。&lt;/p&gt;
+
+&lt;h2&gt;谁试过破解它？全都失败了&lt;/h2&gt;
+&lt;p&gt;破解名单读起来像一部密码学名人堂：William Friedman，二战中破解日本紫密码的美国国家安全局传奇密码学家，从1950年代开始组织团队攻关，直到放弃。他的妻子Elizebeth Friedman——另一位传奇破译者——在1962年写道，统计学方法「注定彻底受挫」。英国密码学家John Tiltman和美国学者Prescott Currier同样无功而返。进入AI时代后，各种深度学习方法也被投入战场：2023年一项研究认为手稿文字与古印度Khojki文字统计特征最接近，但远未达到「破解」门槛。&lt;/p&gt;
+
+&lt;p&gt;2025年底发表在《Cryptologia》杂志上的最新研究提出了「Naibbe密码」——一种历史上可行的冗余替换密码，能将拉丁语和意大利语编码为类似伏尼契文字的密文，且能同时复现手稿的多种统计特性。但作者Michael Greshko再三声明：这只是概念验证，并非声称破解了手稿。&lt;/p&gt;
+
+&lt;h2&gt;为什么它如此重要？&lt;/h2&gt;
+&lt;p&gt;伏尼契手稿的真正魅力不在于它可能藏着什么秘密（可能只是一本中世纪草药/炼金指南），而在于它对「可理解性」本身的挑战。我们生活在一个深信信息终将被解码的时代——基因组被测序，古埃及象形文字被商博良破译，二战密码被图灵攻克。但这本书提醒我们：存在一种可能性——某些人类创造的知识体系，会因为创造者的消逝而永远成谜。手稿的羊皮纸被「反复翻阅」的磨损痕迹表明，它曾被实际使用，有人曾经读得懂它。那些读者早已化为尘土，带走了钥匙。&lt;/p&gt;
+
+&lt;p&gt;2026年将举办首届国际伏尼契手稿学术会议。也许钥匙还在某个尚未被翻动的故纸堆里。也许它已经永远丢失了。无论如何，这本书将继续以沉默对抗我们对确定性的执念。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Voynich_manuscript"&gt;https://en.wikipedia.org/wiki/Voynich_manuscript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sci.news/othersciences/linguistics/voynich-manuscript-cipher-14466.html"&gt;https://www.sci.news/othersciences/linguistics/voynich-manuscript-cipher-14466.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://archaeologymag.com/2026/01/voynich-manuscript-may-be-a-cipher/"&gt;https://archaeologymag.com/2026/01/voynich-manuscript-may-be-a-cipher/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b222a20d-8a0d-58af-a135-f2e032e3cd35</guid>
+      <pubDate>Sun, 05 Apr 2026 08:02:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Voynich_manuscript</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Voynich_Manuscript_%2832%29.jpg/960px-Voynich_Manuscript_%2832%29.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 一个哲学家用「中文房间」论证了AI不可能真正理解任何东西——然后ChatGPT出现了</title>
+      <description>&lt;h2&gt;1980年：一个房间、一堆纸片、一场哲学地震&lt;/h2&gt;
+&lt;p&gt;1980年，加州大学伯克利分校哲学家John Searle在《行为与脑科学》杂志上发表了一篇仅十几页的论文《心智、大脑与程序》，提出了一个极其简洁的思想实验：假设你被关在一个密闭房间里，门缝里不断递进来写着中文的纸条。你完全不懂中文，但房间里有一本巨大的规则手册，详细说明「看到这个符号组合，就写出那个符号组合」。你照做了。门外的中文母语者看到你的回答，认为房间里一定有人精通中文。但你——房间里唯一的「处理器」——对中文的含义一无所知。&lt;/p&gt;
+
+&lt;p&gt;Searle由此宣称：计算机程序无论多精妙，都只是在做和你一样的事——按照句法（syntax）规则操纵符号，却永远无法获得语义（semantics），即真正的理解。这就是著名的「中文房间论证」（Chinese Room Argument）。&lt;/p&gt;
+
+&lt;h2&gt;四十年来最激烈的哲学辩论之一&lt;/h2&gt;
+&lt;p&gt;这篇论文引发的回应之猛烈在哲学史上罕见。最有力的反驳被称为「系统回应」（Systems Reply）：你个人不懂中文，但整个系统——你加上规则手册加上房间——作为一个整体是「懂」的。Searle的回击很巧妙：好，那我把整本规则手册背下来，在脑子里执行所有操作，不需要房间和纸片。现在系统就是我。我仍然不懂中文。&lt;/p&gt;
+
+&lt;p&gt;「机器人回应」（Robot Reply）建议给计算机装上感官和身体。Searle说：感官输入只是更多的符号——摄像头传来的数据和纸条上的中文字符本质上没区别。「大脑模拟回应」（Brain Simulator Reply）提出：如果计算机精确模拟了一个中文母语者大脑中每个神经元的活动呢？Searle坚持认为：模拟消化不能消化食物，模拟光合作用不能产生氧气，模拟理解同样不等于真正的理解。&lt;/p&gt;
+
+&lt;p&gt;Searle自己的哲学立场叫「生物自然主义」（Biological Naturalism）——意识和理解源于大脑特定的生物化学过程，就像乳酸是肌肉特定化学反应的产物，不是任何材料只要结构对了就能「产生」的。&lt;/p&gt;
+
+&lt;h2&gt;然后大语言模型来了&lt;/h2&gt;
+&lt;p&gt;2022年ChatGPT的出现让中文房间论证从哲学课堂走进了日常争论。大语言模型（LLM）能写诗、能辩论、能通过律师资格考试——如果Searle是对的，这一切都只是极其精妙的符号操纵，没有任何「理解」在发生。有趣的是，ChatGPT本身被问及此问题时承认：它「缺乏对内容或上下文的真正理解，仅在训练预测范围内运作」。&lt;/p&gt;
+
+&lt;p&gt;但反对者的武器也升级了。现代LLM并非按照固定规则手册操作——它们通过数十亿参数的权重学习到了语言的统计结构，涌现出了Searle当年无法预见的能力。有人开始质疑：如果一个系统在行为上与理解者无法区分，而且连设计者自己都无法完全解释它内部发生了什么，「不理解」这个断言的证据基础还够不够坚实？&lt;/p&gt;
+
+&lt;h2&gt;真正的问题&lt;/h2&gt;
+&lt;p&gt;中文房间论证的持久魅力在于它触及了一个我们可能永远无法用科学方法回答的问题：意识和理解的本质到底是什么？Searle可能是对的——纯粹的计算永远不等于理解。但他也可能低估了：当计算足够复杂，「模拟」和「真实」之间的界限，或许比他想象的模糊得多。而在2026年的今天，这个四十六年前的思想实验，比它诞生时更加紧迫。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://plato.stanford.edu/entries/chinese-room/"&gt;https://plato.stanford.edu/entries/chinese-room/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Chinese_room"&gt;https://en.wikipedia.org/wiki/Chinese_room&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://iep.utm.edu/chinese-room-argument/"&gt;https://iep.utm.edu/chinese-room-argument/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b380b165-a54e-597c-b085-e0fc5d1d03cd</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:10 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://plato.stanford.edu/entries/chinese-room/</link>
+    </item>
+    <item>
+      <title>🎲 🎲 1518年，斯特拉斯堡数百人突然开始跳舞，跳了两个月，有人跳到死</title>
+      <description>&lt;h2&gt;一个女人开始跳舞&lt;/h2&gt;
+&lt;p&gt;1518年7月14日，神圣罗马帝国斯特拉斯堡城（今法国境内）的一条狭窄鹅卵石街道上，一位名叫Frau Troffea的女性突然开始跳舞。没有音乐，没有伴侣，没有任何可见的理由。她从白天跳到黑夜，从黑夜跳到第二天白天，几乎不停歇。一周之后，她仍在跳。更诡异的是——超过30个人加入了她。到八月份，跳舞的人数膨胀到了约400人。&lt;/p&gt;
+
+&lt;p&gt;这不是比喻，不是文学修辞，不是民间传说的夸张。斯特拉斯堡市议会记录、医师笔记和教区档案都白纸黑字地记载了这场事件。历史上称之为「1518年跳舞瘟疫」（Dancing Plague of 1518），它是有完整文献记录的最离奇的集体行为事件之一。&lt;/p&gt;
+
+&lt;h2&gt;当局的反应让事情更糟了&lt;/h2&gt;
+&lt;p&gt;面对这场前所未有的局面，斯特拉斯堡当局做出了一个在今天看来匪夷所思的决定：他们认为患者需要「跳够了才能痊愈」。市政府征用了行会大厅作为舞场，雇佣了乐师为跳舞者伴奏，甚至请来身强力壮的帮手扶住快要倒下的人，让他们继续跳。&lt;/p&gt;
+
+&lt;p&gt;这个策略适得其反。当局后来不得不紧急叫停音乐，禁止城内一切公开舞蹈和音乐活动。据部分记载（虽然当代学者对死亡数字存在争议），在疫情高峰期，每天可能有多达15人因心力衰竭、中风或力竭而死亡。&lt;/p&gt;
+
+&lt;p&gt;最终的「治疗」方案是宗教性的：患者被要求穿上洒过圣水、画有十字架的红鞋，被引领到山顶的圣维特（Saint Vitus）神殿祈祷赎罪。到九月初，跳舞瘟疫逐渐消退。&lt;/p&gt;
+
+&lt;h2&gt;到底发生了什么？&lt;/h2&gt;
+&lt;p&gt;20世纪的研究者最初怀疑麦角中毒——黑麦被麦角菌污染后会产生类似LSD的致幻物质。但这个假说经不起推敲：麦角中毒会导致肢体痉挛和血管收缩，患者根本无法维持长时间的协调性舞蹈动作。&lt;/p&gt;
+
+&lt;p&gt;目前最被学界接受的解释来自美国医学历史学家John Waller。他通过大量档案研究提出：这是一场「压力诱发的集体心因性疾病」（stress-induced mass psychogenic illness）。当时的斯特拉斯堡正经历着极端苦难——连年饥荒、天花和梅毒肆虐、贫困加剧——居民的心理承受力已达到临界点。&lt;/p&gt;
+
+&lt;p&gt;关键要素是文化信念。当地人深信圣维特拥有以不可控制的舞蹈来惩罚罪人的神力。在极端压力下，这种信念成为了集体癔症的「模板」：当Frau Troffea开始不可控地跳舞时，周围的人将其解读为圣维特的诅咒，恐惧本身触发了模仿——这与现代心理学中研究的集体心因性疾病机制完全吻合。Waller还指出，中世纪莱茵河和摩泽尔河沿岸地区记录了至少七起类似的跳舞瘟疫，进一步支持了文化-心理因素的解释。&lt;/p&gt;
+
+&lt;h2&gt;一面诡异的镜子&lt;/h2&gt;
+&lt;p&gt;跳舞瘟疫让我们不安的原因，不仅仅是它的离奇。它揭示了一个令人不适的事实：人类的身体可以被集体信念「劫持」。当一个社群共享足够强烈的恐惧或期待时，个体的身体会做出当事人自己都无法控制的反应。这不是意志力薄弱，不是装出来的——这是大脑在极端压力下将文化叙事转化为生理现实的能力。五百年后的今天，集体心因性事件仍在世界各地间歇性爆发，提醒我们：理性并不是人类的默认状态，而是一种需要持续维护的脆弱成就。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Dancing_plague_of_1518"&gt;https://en.wikipedia.org/wiki/Dancing_plague_of_1518&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania"&gt;https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bps.org.uk/psychologist/dancing-plagues-and-mass-hysteria"&gt;https://www.bps.org.uk/psychologist/dancing-plagues-and-mass-hysteria&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">651fe3bd-bc2e-5e8c-841c-64dcd80c72bc</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:51 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Dancing_plague_of_1518</link>
+    </item>
+    <item>
+      <title>🎲 🎲 数字1出现在首位的概率是30%而不是11%：本福特定律，一个能抓住骗子的数学规律</title>
+      <description>&lt;h2&gt;一本翻旧了的对数表&lt;/h2&gt;
+&lt;p&gt;1881年，加拿大裔美国天文学家Simon Newcomb注意到一件奇怪的小事：他常用的对数表，前几页（以1开头的数字）比后几页（以8、9开头的数字）磨损得严重得多。这意味着在实际计算中，人们查找以1开头的数字的频率远高于以9开头的数字。Newcomb在《美国数学杂志》上发表了这个观察，给出了一个公式，然后……几乎没有人注意到。&lt;/p&gt;
+
+&lt;p&gt;57年后的1938年，通用电气的物理学家Frank Benford独立重新发现了同一现象，但他做了Newcomb没做的事：他收集了超过20000个来自20个不同领域的数据集——河流面积、棒球统计、《读者文摘》上出现的数字、物理常数、死亡率数据——逐一验证。结果惊人地一致：数字1作为首位数字出现的概率约为30.1%，2约为17.6%，3约为12.5%……一路递减到9的4.6%。这条规律后来以他的名字命名——尽管Newcomb才是真正的第一发现者。&lt;/p&gt;
+
+&lt;h2&gt;为什么不是各占11.1%？&lt;/h2&gt;
+&lt;p&gt;直觉告诉我们，1到9每个数字当首位数的概率应该差不多，各约11.1%。但本福特定律说不是。它的数学表达极其简洁：P(d) = log₁₀(1 + 1/d)，其中d是首位数字（1-9）。&lt;/p&gt;
+
+&lt;p&gt;为什么？核心原因是「尺度不变性」（scale invariance）。想象一组跨越多个数量级的数据——从几十到几百万。从1增长到2需要翻倍（增长100%），但从5增长到6只需增长20%。这意味着数字在「1字头」区间停留的时间天然更长。任何跨越足够多数量级的自然数据集——人口、股价、河流长度、发票金额——都会服从这条规律。它不是巧合，而是对数尺度上均匀分布的数学必然。&lt;/p&gt;
+
+&lt;h2&gt;抓骗子的数学&lt;/h2&gt;
+&lt;p&gt;本福特定律最令人拍案叫绝的应用是欺诈检测。逻辑很简单：真实的财务数据会自然服从本福特分布，而伪造数据的人——不知道这条规律的人——倾向于让数字的首位「均匀分布」，或者刻意避开某些数字。只要将一组数据的首位数分布与本福特预测值做对比，偏差过大就是红旗信号。&lt;/p&gt;
+
+&lt;p&gt;这不是理论上的可能性，而是在真实法庭上已被使用的工具。在美国，基于本福特定律的证据已在联邦、州和地方各级刑事案件中被法院采纳。会计审计师用它筛查财务报表异常，税务机关用它标记可疑的纳税申报。2009年伊朗总统大选后，研究者用本福特定律分析各省投票数据，发现了统计异常，为选举舞弊指控提供了定量依据。&lt;/p&gt;
+
+&lt;h2&gt;但它也有边界&lt;/h2&gt;
+&lt;p&gt;本福特定律不是万能的。它对范围狭窄、不跨越多个数量级的数据失效——比如人类身高（大部分在150-190cm之间）、IQ分数、或者投票站级别的选票数（通常在几百到几千之间，量级跨度不够）。精明的造假者如果知道这条规律，也可以有意让伪造数据符合本福特分布来逃避检测。&lt;/p&gt;
+
+&lt;p&gt;但它的真正意义超越了反欺诈应用。本福特定律揭示了一个深刻的事实：自然界和人类社会中产生的数字并非「平等」的——数量级的对数结构是现实世界的底层语法之一。一本翻旧的对数表里，藏着宇宙运行的几何学。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Benford%27s_law"&gt;https://en.wikipedia.org/wiki/Benford%27s_law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.acfe.com/acfe-insights-blog/blog-detail?s=what-is-benfords-law-and-why-fraud-examiners-use-it"&gt;https://www.acfe.com/acfe-insights-blog/blog-detail?s=what-is-benfords-law-and-why-fraud-examiners-use-it&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/"&gt;https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">041b7b6c-a519-5022-8b65-7a53cf0032f2</guid>
+      <pubDate>Sun, 05 Apr 2026 08:04:32 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Benford%27s_law</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/1280px-Rozklad_benforda.svg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 你身上的每个原子都被替换过了，那「你」还是「你」吗？忒修斯之船，两千年未解的身份悖论</title>
+      <description>&lt;h2&gt;普鲁塔克的那条船&lt;/h2&gt;
+&lt;p&gt;公元一世纪，希腊传记作家普鲁塔克（Plutarch）记下了一个雅典人争论了很久的问题：忒修斯杀死牛头怪后乘坐返回的那条船，被雅典人当作圣物保存。随着岁月流逝，船板逐渐腐朽，雅典人一块一块地换上新木材。当最后一块原始木板也被替换后，这条船还是忒修斯的那条船吗？&lt;/p&gt;
+
+&lt;p&gt;一千六百年后，英国哲学家Thomas Hobbes加了一个致命的追问：如果有人把所有被换下来的旧木板收集起来，按原样重新拼成一条船——现在有两条船了。哪一条是「真正的」忒修斯之船？是一直在港口、被持续维护的那条？还是由全部原始材料组成、刚刚重建的那条？&lt;/p&gt;
+
+&lt;p&gt;这就是「忒修斯之船」悖论（Ship of Theseus），西方哲学中关于「同一性」（identity）最古老也最持久的思想实验之一。&lt;/p&gt;
+
+&lt;h2&gt;你的身体就是一条忒修斯之船&lt;/h2&gt;
+&lt;p&gt;这个古老悖论之所以在今天比任何时候都更有切身感，是因为现代生物学告诉我们：你的身体每时每刻都在进行着「木板替换」。皮肤细胞大约每两到三周完全更新一次。红细胞的寿命约为120天。肠道上皮细胞只能活三到五天。肝脏细胞的更替周期约为一年。骨骼大约每十年完全重塑一次。&lt;/p&gt;
+
+&lt;p&gt;一个经常被引用（虽然过于简化）的说法是：你身体里的大部分原子在七到十年内会被完全替换。如果严格按照物质标准定义「你」，那么2026年的你和2016年的你在物质层面上几乎没有任何重叠。&lt;/p&gt;
+
+&lt;p&gt;但有一个关键的例外——大脑。大多数神经元在出生后不再分裂，理论上可以伴随你终身。然而，神经元的分子组成（蛋白质、脂质、离子通道）仍在不断更新替换。你的记忆和思维所依赖的突触连接也在持续重塑。所以即便是大脑，也并非一成不变的原始「木板」，只是更换得比其他部分慢一些。&lt;/p&gt;
+
+&lt;h2&gt;哲学家们怎么说？&lt;/h2&gt;
+&lt;p&gt;「连续性理论」（Continued Identity Theory）认为：只要变化是渐进的、经验是连续的，同一性就得以保持。你不是因为「由相同的原子组成」而是你，而是因为「从昨天的你连续演变而来」而是你。这有点像河流——赫拉克利特说你不能踏入同一条河流两次，但我们仍然把它叫做同一条河。&lt;/p&gt;
+
+&lt;p&gt;心理学路径（与John Locke关系最密切）则主张：个人同一性在于心理连续性——记忆、性格、意识的连贯流。如果你能记住过去的自己，你就仍然是那个人。但这引出了新的麻烦：失忆症患者还是同一个人吗？如果一台机器完美复制了你的所有记忆和性格，那个副本是「你」吗？&lt;/p&gt;
+
+&lt;p&gt;亚里士多德的「质形论」（Hylomorphism）提供了另一种思路：事物的同一性不在于物质（质料），而在于组织方式（形式）。一把斧子换了斧头又换了斧柄，只要它仍然以斧子的方式被组织和使用，它就仍然是那把斧子。应用到人身上：让你成为「你」的，不是组成你的碳原子，而是这些原子被组织成「你」的那种特定方式。&lt;/p&gt;
+
+&lt;h2&gt;为什么这个问题越来越紧迫&lt;/h2&gt;
+&lt;p&gt;在AI和数字化时代，忒修斯之船悖论正在从纯粹的哲学趣味变成实际问题。如果有一天你可以将意识上传到数字载体，那个数字版本是「你」吗？如果科幻小说中的传送装置工作原理是在目的地用新原子重建你、同时销毁原件——你会走进去吗？达芬奇的《蒙娜丽莎》原作价值连城而完美复制品近乎一文不值，这种价值差异的本质是什么？&lt;/p&gt;
+
+&lt;p&gt;两千年前的雅典人对着一条腐朽的木船争论不休。他们不知道，他们争论的其实是关于存在最根本的问题之一——而我们至今仍然没有答案。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Ship_of_Theseus"&gt;https://en.wikipedia.org/wiki/Ship_of_Theseus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://mindmatters.ai/2025/04/the-ship-of-theseus-the-mystery-of-personal-identity/"&gt;https://mindmatters.ai/2025/04/the-ship-of-theseus-the-mystery-of-personal-identity/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://philosopedia.org/the-ship-of-theseus-paradox-exploring-identity-and-change/"&gt;https://philosopedia.org/the-ship-of-theseus-paradox-exploring-identity-and-change/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">028330b8-d3e8-5849-bd4e-2ad0770b5faf</guid>
+      <pubDate>Sun, 05 Apr 2026 08:05:14 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Ship_of_Theseus</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ship_of_Theseus.svg/1280px-Ship_of_Theseus.svg.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

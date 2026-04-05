@@ -4,7 +4,7 @@
     <title>心智成长与思维模型</title>
     <description>Per-topic feed: 心智成长与思维模型</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 08:07:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:03:45 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml" type="application/rss+xml" />
@@ -318,6 +318,97 @@
       <pubDate>Sat, 04 Apr 2026 08:07:04 +0000</pubDate>
       <category>mindset-growth</category>
       <link>https://www.nature.com/articles/s41598-025-95647-x</link>
+    </item>
+    <item>
+      <title>🧠 多巴胺不只编码奖赏：尾部纹状体的「动作预测误差」是一种与价值无关的教学信号</title>
+      <description>&lt;p&gt;过去三十年，多巴胺的故事几乎可以用一个公式概括：&lt;strong&gt;奖赏预测误差&lt;/strong&gt;（Reward Prediction Error, RPE）——实际奖赏减去预期奖赏的差值。但 UCL 的 Greenstreet 团队今年发表在 &lt;em&gt;Nature&lt;/em&gt; 上的论文，把这个故事拆成了两条平行线。&lt;/p&gt;
+
+&lt;p&gt;他们用小鼠听觉辨别任务做了一组精巧实验：小鼠需要根据音频频率（低频 5-10 kHz 向左、高频 20-40 kHz 向右）做出选择。通过 dLight1.1 光纤光度法分别监测&lt;strong&gt;腹侧纹状体&lt;/strong&gt;（VS）和&lt;strong&gt;尾部纹状体&lt;/strong&gt;（TS）的多巴胺动态，团队发现了两种截然不同的信号模式：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VS 的多巴胺在奖赏时刻释放，随训练增加——经典 RPE 信号。&lt;/li&gt;
+&lt;li&gt;TS 的多巴胺在动作执行时释放，随训练&lt;em&gt;减少&lt;/em&gt;（Cohen's &lt;em&gt;d&lt;/em&gt; = 1.19, &lt;em&gt;P&lt;/em&gt; = 0.006）——这就是新提出的&lt;strong&gt;动作预测误差&lt;/strong&gt;（Action Prediction Error, APE）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;APE 的核心含义：它编码的是「你做了什么动作」与「你被预测会做什么动作」之间的差值，跟奖赏完全无关。改变奖赏大小？TS 多巴胺纹丝不动。改变动作的新颖程度？信号立刻飙升。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是计算模型。团队搭建了一个「双控制器」架构：基于价值的 actor-critic 系统（由 RPE 驱动）负责学会「哪个选项有奖赏」，而基于动作的 value-free 系统（由 APE 驱动）负责把频繁重复的动作固化为稳定习惯。单独的 value-free 系统完全无法学会任务；但加上它之后，学习速度显著快于纯价值系统。随着训练推进，价值系统的权重逐渐衰减，控制权移交给习惯系统——这和小鼠行为的时间轨迹完全吻合。&lt;/p&gt;
+
+&lt;p&gt;光遗传刺激实验进一步验证了因果关系：以 8 mW 功率刺激 TS 多巴胺，小鼠在几个试次内就发展出对侧偏向（Cohen's &lt;em&gt;d&lt;/em&gt; = 2.07, &lt;em&gt;P&lt;/em&gt; &lt; 0.001），而同等参数刺激 VS 则毫无效果。&lt;/p&gt;
+
+&lt;p&gt;这项研究延续了我们此前追踪的多巴胺范式争论。它没有推翻 RPE 理论，而是给出了更完整的图景：纹状体同时储存灵活的目标导向行为（VS/RPE）和稳定的重复性行为（TS/APE），两套系统协同工作。这也解释了一个老问题——为什么习惯一旦形成就如此难以打破：因为维持习惯的信号根本不关心奖赏是否还在。&lt;/p&gt;
+
+&lt;p&gt;5 月的塞维利亚 Dopamine Society 年会 Session 31 将围绕这些新证据展开正式辩论，届时 RPE 和 APE 的支持者将首次面对面交锋。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-09008-9"&gt;https://www.nature.com/articles/s41586-025-09008-9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41583-025-00938-x"&gt;https://www.nature.com/articles/s41583-025-00938-x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8ea8547b-ce41-587e-a1c4-23460916f57d</guid>
+      <pubDate>Sun, 05 Apr 2026 08:02:46 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/s41586-025-09008-9</link>
+    </item>
+    <item>
+      <title>🧠 你越信任 AI，判断力可能越差——「技术保护谬误」的实验证据</title>
+      <description>&lt;p&gt;如果有人告诉你「AI 帮你做判断，你会更准」，你信吗？Lancaster 大学的 Joe Pearson 团队在 2026 年 &lt;em&gt;Scientific Reports&lt;/em&gt; 上发表的实验结果，给出了一个反直觉的答案。&lt;/p&gt;
+
+&lt;p&gt;实验设计很直接：295 名被试需要判断 80 张人脸是真人照片还是 AI 生成。每张脸旁边附有「来自人类专家」或「来自 AI」的判断提示——但这些提示只有 50% 的准确率，本质上是噪声。关键问题是：被试会怎么使用这些提示？&lt;/p&gt;
+
+&lt;p&gt;整体来看，被试表现得比预期聪明：他们倾向于在提示正确时采纳、错误时忽略，不管提示来源是人还是 AI。这说明人类并非无脑服从机器。但个体差异揭示了一个令人不安的模式：&lt;/p&gt;
+
+&lt;p&gt;那些对 AI 持有更积极态度的被试，在 AI 提示条件下，对真脸和假脸的&lt;strong&gt;辨别力（d'）显著更差&lt;/strong&gt;。换句话说，越觉得 AI 靠谱的人，越容易被不靠谱的 AI 误导。&lt;/p&gt;
+
+&lt;p&gt;Pearson 团队把这种现象命名为&lt;strong&gt;「技术保护谬误」&lt;/strong&gt;（Technological Protection Fallacy）：人们错误地认为使用技术本身就能消除偏见，于是放松了自己的判断警惕性。这和 Itiel Dror 此前在法医科学领域发现的认知偏误放大效应一脉相承——当专家过度信任工具时，工具的误差不但没被过滤，反而被放大。&lt;/p&gt;
+
+&lt;p&gt;这项研究有几个细节值得深究。首先，AI 生成人脸是一个相对容易的任务——整体准确率 66%，和没有任何提示时差异不大。这意味着在更困难、更模糊的决策场景中（比如医学影像、简历筛选），技术保护谬误的影响可能更严重。其次，信任倾向（trust propensity）作为人格特质，也独立影响了判断效果——高信任者不仅更容易受 AI 影响，也更容易受人类提示影响。&lt;/p&gt;
+
+&lt;p&gt;对个人决策的启示很清晰：下次使用 AI 辅助工具时，对它持怀疑态度的人反而可能做出更好的判断。信任 AI 的最好方式，恰恰是保持不信任的警觉。实验的全部匿名数据和 R 代码已在 &lt;a href="https://osf.io/2p3bf/"&gt;OSF 平台&lt;/a&gt;开放复现。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-026-34983-y"&gt;https://www.nature.com/articles/s41598-026-34983-y&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12881489/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12881489/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c9e6bd3d-004e-5d5a-8d11-af776bcd14e4</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:16 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/s41598-026-34983-y</link>
+    </item>
+    <item>
+      <title>🧠 元认知能重塑大脑结构吗？Hulbig 在 Frontiers 给出了谨慎的「能」</title>
+      <description>&lt;p&gt;「想法能改变大脑」听上去像自助鸡汤。但 Curry College 学习促进项目的 Philip Hulbig 在 2026 年 2 月发表于 &lt;em&gt;Frontiers in Psychology&lt;/em&gt; 的假说论文中，把这个命题拆解成了可检验的神经科学链条。&lt;/p&gt;
+
+&lt;p&gt;Hulbig 的论证分三步。第一步是定位：元认知（Metacognition）——对自己思维过程的监控和调节——依赖于分布式的前额叶-顶叶网络。具体来说：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;右侧前外侧前额叶&lt;/strong&gt;（rostrolateral PFC）在元认知报告时显示更强的连接性，且该区域灰质体积与个体元认知能力正相关。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;背侧前扣带皮层&lt;/strong&gt;（dorsal ACC）负责监控认知冲突和不确定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;海马体&lt;/strong&gt;支撑元记忆过程，将元认知信息与情景记忆整合。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TMS 实验提供了因果证据：干扰外侧 PFC 会损害元认知准确性，但不影响任务本身的表现——说明元认知是独立于基础认知的「上层」功能。这与我们此前报道的 Mazancieux 团队关于元认知弱领域通用性的发现高度一致：不同类型的元认知（感知型 vs 认知型）确实依赖不同的脑区模块。&lt;/p&gt;
+
+&lt;p&gt;第二步是桥接：Hulbig 提出了一个&lt;strong&gt;双维度问题解决范式&lt;/strong&gt;——第一个维度建立预测，第二个维度反思预测并纠错，从而改善后续预测的准确性。这个循环，本质上就是元认知的核心功能。&lt;/p&gt;
+
+&lt;p&gt;第三步是外推：既然密集认知训练已被证明能产生可测量的神经结构改变（神经可塑性的经典证据），那么持续的元认知训练——如果训练强度和持续时间足够——理论上也能通过同样的神经可塑性机制引发结构重组。&lt;/p&gt;
+
+&lt;p&gt;Hulbig 对此保持了科学家该有的谨慎。他明确承认：&lt;strong&gt;从元认知训练到结构性脑改变的因果链条，目前还缺乏带有适当神经影像协议和对照条件的直接证据。&lt;/strong&gt;这是假说论文，不是实验报告。&lt;/p&gt;
+
+&lt;p&gt;但实用价值已经浮现。论文特别讨论了对神经多样性人群（如 ADHD、学习障碍）的教育干预：与其试图「修复」认知缺陷，不如训练元认知能力——让学生学会监控自己的学习状态、检测错误、调整策略。新兴技术（VR、神经反馈、脑刺激）可能通过提供更即时的神经活动反馈来增强这种训练。&lt;/p&gt;
+
+&lt;p&gt;这让 Hulbig 此前在 Brain Sciences 系统综述中建立的成长型心智脑区地图有了进一步的行动路径：如果元认知真的能重塑神经结构，那么 Dweck 式的成长型心智干预或许不只是改变信念，而是在物理层面重写大脑。只是证据链的最后一环还需要时间补上。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1756611/full"&gt;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1756611/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12971950/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12971950/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e8f60a50-8e92-5f7e-aa56-3be713786549</guid>
+      <pubDate>Sun, 05 Apr 2026 08:03:45 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1756611/full</link>
     </item>
   </channel>
 </rss>
