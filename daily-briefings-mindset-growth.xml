@@ -4,7 +4,7 @@
     <title>心智成长与思维模型</title>
     <description>Per-topic feed: 心智成长与思维模型</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:03:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:04:01 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml" type="application/rss+xml" />
@@ -409,6 +409,78 @@
       <pubDate>Sun, 05 Apr 2026 08:03:45 +0000</pubDate>
       <category>mindset-growth</category>
       <link>https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1756611/full</link>
+    </item>
+    <item>
+      <title>🧠 情绪调节的「梯度密码」：大脑宏观组织决定你能多好地控制情绪</title>
+      <description>&lt;p&gt;为什么有些人面对负面刺激时能迅速「重新评价」（cognitive reappraisal），而另一些人却被情绪淹没？一项刚发表在 &lt;em&gt;PLOS Biology&lt;/em&gt;（2026 年 4 月 2 日）的大样本 fMRI 研究给出了一个系统级答案：&lt;strong&gt;情绪调节的成败，映射在大脑宏观梯度（gradient）的重构幅度上&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;研究者 Ruien Wang、Remi Janet、Carmen Morawetz 与 Anita Tusche 分析了两个独立样本（n=358 和 n=263）的脑成像数据。被试在扫描仪里完成经典的认知重评任务——看一张令人不适的图片，要么被动观看，要么主动「换个角度想」。研究团队没有像传统方法那样逐区域比较激活，而是把全脑激活模式投射到 Human Connectome Project 数据衍生出的「主梯度」上。&lt;/p&gt;
+
+&lt;p&gt;所谓 Gradient 1，是大脑最基本的组织轴：一端是初级感觉运动皮层（unimodal），另一端是默认模式网络和前额叶等高阶联合皮层（heteromodal）。想象一条光谱——左边处理「此刻的感官输入」，右边处理「抽象思维和自我参照」。&lt;/p&gt;
+
+&lt;p&gt;核心发现很直觉：成功调节情绪的人，在执行重评时整个大脑的激活模式沿 Gradient 1 &lt;strong&gt;大幅向 heteromodal 端偏移&lt;/strong&gt;。两个样本的效应一致（发现样本 β=3.15, p&lt;0.001；复制样本 β=4.12, p&lt;0.001），跨样本预测也成立（r=0.50 和 r=0.32）。更重要的是，在 55 名被试的智能手机经验取样追踪中，那些梯度偏移更大的人日常负面情绪也更少（β=1.19, p=0.002）——实验室里的脑指标能预测真实生活的情绪状态。&lt;/p&gt;
+
+&lt;p&gt;Neurosynth 元分析解码显示，Gradient 1 偏移同时关联社会认知、记忆、注意和语言加工——这说明成功的情绪调节不是某个「冷静脑区」在努力，而是整个认知系统从「感受模式」切换到「理解模式」的协调运动。&lt;/p&gt;
+
+&lt;p&gt;这个框架的实用意义在于：它把「情绪调节能力」从一个模糊的心理学概念变成了一个可量化的脑指标，理论上可以用来筛选高风险人群或评估干预效果。如果认知重评训练确实能增大 Gradient 1 偏移幅度，那么我们就有了一个客观标准来衡量「情绪调节课」到底有没有用。当然，从发现生物标记到临床应用还有很长的路，但方向已经清晰。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666"&gt;https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.biorxiv.org/content/10.1101/2025.07.09.663978v1"&gt;https://www.biorxiv.org/content/10.1101/2025.07.09.663978v1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ca821204-5d14-511e-820f-fa7e8c0bf008</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:06 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666</link>
+      <enclosure url="https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003666.g004&amp;size=inline" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 反刍思维有专治：55 项 RCT 元分析证明「对症下药」效果量翻倍</title>
+      <description>&lt;p&gt;反复琢磨过去的失败（rumination）和不停担忧未来的坏事（worry），在心理学里统称为&lt;strong&gt;重复性消极思维&lt;/strong&gt;（Repetitive Negative Thinking, RNT）。它是抑郁、焦虑、强迫等多种障碍的共同底层机制。一个自然的问题是：普通的认知行为疗法（CBT）就够了，还是需要专门针对 RNT 设计的干预？&lt;/p&gt;
+
+&lt;p&gt;德国马尔堡大学的 Kilian Stenzel 团队在 &lt;em&gt;Psychological Medicine&lt;/em&gt; 发表了迄今最大规模的元分析来回答这个问题。他们纳入了 55 项随机对照试验，共 4,970 名被试，比较了各类 CBT 干预对 RNT 的效果。&lt;/p&gt;
+
+&lt;p&gt;整体结果：CBT 对 RNT 的干预后效应量为 g=−0.67，属于中等效果，且在平均 4.2 个月的随访中维持不变（g=−0.66）。但真正的洞见在对比中——&lt;strong&gt;专门针对 RNT 设计的干预&lt;/strong&gt;（如 rumination-focused CBT、元认知疗法 MCT、transdiagnostic RNT 干预）效应量达到 g=−0.99，接近大效应；而一般性 CBT 只有 g=−0.56。差距接近一倍。&lt;/p&gt;
+
+&lt;p&gt;具体到类型：rumination（反刍）、worry（担忧）和 transdiagnostic RNT 三者的改善幅度统计上没有显著差异，但 worry 干预描述性地稍好。有趣的是，大多数 RNT 专项干预的原始设计目标是治疗 worry——这些方法后来被证明对 rumination 同样有效，暗示这两种看似不同的「想太多」共享核心机制。&lt;/p&gt;
+
+&lt;p&gt;这项分析的实际意义很清楚：如果你或你身边的人深陷「想太多」的循环，&lt;strong&gt;标准 CBT 有效但不够&lt;/strong&gt;。主动寻找专项 RNT 干预——比如 rumination-focused CBT（识别反刍触发情境、将反刍重新定义为可改变的心理习惯）、元认知疗法（挑战「担忧有用」的元信念）、或在线 Managing Rumination and Worry 项目（六周三课时结构化自助）——能带来接近翻倍的改善。Stenzel 团队的结论直截了当：「专项 RNT 干预应该被更大力度地研究、实施和推广。」&lt;/p&gt;
+
+&lt;p&gt;此前我们报道过认知重评在职场中的 RCT 证据。Stenzel 的元分析从更高层面确认了同一个方向：情绪调节技能不是泛泛的「正向思维」，而是需要精准匹配到具体的思维模式才能发挥最大效力。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S0005796723001262"&gt;https://www.sciencedirect.com/science/article/pii/S0005796723001262&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">47d90790-4850-5f41-b4a3-0d39aca5c237</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:30 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/</link>
+    </item>
+    <item>
+      <title>🧠 多巴胺大辩论倒计时：5 月塞维利亚会议将正面交锋 RPE 范式</title>
+      <description>&lt;p&gt;&lt;em&gt;Nature&lt;/em&gt; 3 月刊出的一篇长篇特稿为 5 月即将在塞维利亚举办的 Dopamine Society 年会（5 月 17-21 日）做了预热，标题直白：「Dopamine takes a hit」。这场会议的 Session 31 将成为近年来多巴胺领域最受关注的一次公开辩论。&lt;/p&gt;
+
+&lt;p&gt;争论的核心我们此前多次追踪：经典的&lt;strong&gt;奖赏预测误差&lt;/strong&gt;（Reward Prediction Error, RPE）假说统治了多巴胺研究近三十年——多巴胺脉冲编码「预期奖赏」与「实际奖赏」之间的差值，驱动强化学习。诺丁汉大学的 Mark Humphries 在 Nature 特稿中承认，这曾是神经科学中「唯一一个既解释了信号本身、又解释了它在计算什么的计算模型」。但过去十年的高精度记录技术（包括光纤光度法和 Neuropixels 探针）打开了一个更复杂的画面。&lt;/p&gt;
+
+&lt;p&gt;挑战来自多个方向。Greenstreet 等人 2025 年在 &lt;em&gt;Nature&lt;/em&gt; 发表的研究——我们在 4 月 5 日详细报道过——正式确立了双信号模型：腹侧纹状体编码传统 RPE，而尾部纹状体编码与奖赏无关的&lt;strong&gt;动作预测误差&lt;/strong&gt;（Action Prediction Error, APE）。此外，越来越多的证据表明多巴胺参与注意、工作记忆、威胁响应、新颖刺激加工甚至社会行为。约翰霍普金斯的 Geoffrey Schoenbaum——也是 Session 31 的组织者——主张彻底换一套模型框架，而非继续给 RPE 打补丁。他此前提出的「广义预测误差」（Generalized Prediction Error）理论认为，多巴胺同时编码感觉预测误差和奖赏预测误差，处于 model-based 和 model-free 算法之间。&lt;/p&gt;
+
+&lt;p&gt;另一方的守擂者会怎么回应？可以预见的论点是：RPE 框架仍然解释了大多数腹侧纹状体的数据，而新发现的功能可能是多巴胺系统在不同脑区的分工，而非对核心理论的否定。这场辩论的结果不会立刻产生赢家，但它将决定未来五年的研究方向——是继续拓展 RPE 模型的边界，还是从头构建一个多功能多巴胺理论。&lt;/p&gt;
+
+&lt;p&gt;对于关注心智模型的读者，这场争论的启示在于：我们对自身奖赏系统的理解可能比想象中更粗糙。如果多巴胺不仅是「快乐信号」也不仅是「学习信号」，那么基于简化多巴胺模型的自助建议（如「多巴胺断食」）就更值得审慎看待。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/d41586-026-00836-x"&gt;https://www.nature.com/articles/d41586-026-00836-x&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.senc.es/en/dopamine-meeting-2026-sevilla-17-21-de-mayo-2/"&gt;https://www.senc.es/en/dopamine-meeting-2026-sevilla-17-21-de-mayo-2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">78c26d8e-a1ea-51d1-999e-5ddc405d8a40</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:01 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/d41586-026-00836-x</link>
+      <enclosure url="https://media.nature.com/lw1200/magazine-assets/d41586-026-00836-x/d41586-026-00836-x_52181696.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

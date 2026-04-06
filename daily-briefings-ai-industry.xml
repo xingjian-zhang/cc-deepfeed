@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:06:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:04:11 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -435,6 +435,104 @@
       <category>ai-industry</category>
       <link>https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in</link>
       <enclosure url="https://www.morganlewis.com/-/media/images/tiles/technology/ai_sector_1274421614_tile_largetile.jpg?rev=b9664f1d3f734539ba71e3a210c0d4e3&amp;amp;hash=C63EC4B2A8856D7B681835FAB25A1576" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 🏭 加州反击联邦 AI 政策：Newsom 签署行政令，自主审查五角大楼供应链黑名单</title>
+      <description>&lt;h2&gt;背景：联邦与加州的 AI 治理权之争白热化&lt;/h2&gt;
+&lt;p&gt;3月30日，加州州长 Gavin Newsom 签署行政令 N-5-26，在 Trump 政府持续拆除联邦 AI 保护措施的背景下，建立起全美首个州级 AI 治理反制框架。这份行政令的核心信号非常明确：当联邦选择放手，加州选择接手。&lt;/p&gt;
+
+&lt;h2&gt;最具爆炸性的条款：加州将独立审查联邦供应链「黑名单」&lt;/h2&gt;
+&lt;p&gt;行政令中最引人注目的条款直指 Anthropic 事件。此前五角大楼因 Anthropic 拒绝签署允许「国内大规模监控和全自主武器」的合同条款，将其列入供应链风险名单，联邦法官随后以「第一修正案报复」为由暂时冻结了这一认定。&lt;/p&gt;
+&lt;p&gt;Newsom 的行政令明确规定：当联邦政府将某企业列为供应链风险时，加州技术部（CDT）首席信息安全官将进行独立评估。如果 CISO 认定联邦认定不当，加州总务部（DGS）和 CDT 将联合发布指导意见，确保州机构可以继续与该企业合作。这实质上赋予了加州否决联邦供应链决定的权力。&lt;/p&gt;
+
+&lt;h2&gt;采购新标准：120天内落地&lt;/h2&gt;
+&lt;p&gt;行政令要求 DGS 和 CDT 在120天内制定新的 AI 采购标准，要求投标企业必须披露：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;其模型生成非法内容（包括儿童性虐待材料）的防护政策&lt;/li&gt;
+&lt;li&gt;算法偏见和歧视风险的缓解措施&lt;/li&gt;
+&lt;li&gt;公民权利和言论自由的保护机制&lt;/li&gt;
+&lt;li&gt;AI 生成图像的水印标注方案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外，州机构必须为员工提供经过审查的 AI 工具，并更新数字战略以提升透明度。&lt;/p&gt;
+
+&lt;h2&gt;为什么这件事比看起来更重要&lt;/h2&gt;
+&lt;p&gt;加州是全球第五大经济体，也是几乎所有头部 AI 公司的总部所在地。当加州为 AI 采购设立高标准时，企业不会单独为一个州维护两套合规体系——它们会把加州标准当作事实上的全国标准。这正是 Newsom 的策略：在联邦选择「轻触式监管」的真空中，用采购杠杆撬动行业规范。&lt;/p&gt;
+&lt;p&gt;州长办公室直言：「与 Trump 政府不同，加州致力于确保 AI 解决方案不会被坏人滥用。」&lt;/p&gt;
+
+&lt;h2&gt;后续观察&lt;/h2&gt;
+&lt;p&gt;120天的采购标准制定窗口意味着新规将在7月底前落地。届时恰逢 SpaceX IPO 和多家 AI 公司冲刺上市的关键时期。如果加州标准对联邦供应链认定形成系统性否决，Trump 政府很可能通过联邦优先权（preemption）立法反击。AI 治理权的宪法博弈才刚刚开始。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/"&gt;https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://calmatters.org/politics/2026/04/newsom-moves-for-california-ai-startups/"&gt;https://calmatters.org/politics/2026/04/newsom-moves-for-california-ai-startups/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/04/03/california-national-testing-ground-ai-rules"&gt;https://www.axios.com/2026/04/03/california-national-testing-ground-ai-rules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2b142b7f-d0d7-5dfb-94f7-c654780420c9</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:12 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/</link>
+      <enclosure url="https://www.gov.ca.gov/wp-content/uploads/2026/03/As-Trump-rolls-back-protections-Governor-Newsom-signs-first-of-its-kind-executive-order-to-strengthen-AI-protections-and-responsible-use-SEO-GFX-v5-scaled.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 🏭 中国网信办出手管 AI「数字人」：禁止向未成年人提供虚拟亲密关系，强制标注、强制同意</title>
+      <description>&lt;h2&gt;一部直指 AI 伴侣成瘾的法规草案&lt;/h2&gt;
+&lt;p&gt;4月3日，国家互联网信息办公室发布《类人交互人工智能信息服务管理暂行办法（征求意见稿）》，这是全球首部专门针对 AI 数字人、虚拟伴侣和拟人化聊天机器人的综合性监管法规。公众意见征集截至5月6日。&lt;/p&gt;
+&lt;p&gt;草案的出台背景是中国 AI 伴侣市场的爆发式增长。Character.ai 类产品在国内涌现，未成年用户对虚拟角色产生情感依赖甚至引发心理危机的案例频频见诸报端。监管层选择在问题恶化前出手，而非像美国那样等待悲剧推动立法。&lt;/p&gt;
+
+&lt;h2&gt;三条核心红线&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;第一，未成年人保护。&lt;/strong&gt;数字人服务不得向18岁以下用户提供「虚拟亲密关系」服务，也不得提供模拟家庭关系的服务——如果这些服务可能诱导成瘾或过度消费。平台必须主动监测用户的自杀或自伤倾向，并在检测到时提供专业干预。这意味着 AI 伴侣平台被推向了准心理健康服务提供者的角色。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二，强制标注。&lt;/strong&gt;所有 AI 生成的虚拟角色必须持续可见地展示「数字人」标签，用户在任何交互场景中都能明确区分 AI 与真人。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三，肖像同意。&lt;/strong&gt;使用真人可识别特征创建数字人需要本人明确知情同意；涉及敏感个人信息的建模需要单独授权。这直接瞄准了深度伪造和未经授权的名人虚拟分身问题。&lt;/p&gt;
+
+&lt;h2&gt;与美国监管的差异&lt;/h2&gt;
+&lt;p&gt;中国的这份草案在某些方面领先于美国联邦层面的立法进度。美国国会仍在讨论儿童在线安全框架，尚未出台专门针对 AI 伴侣的联邦法规。Tennessee 州刚刚全票通过禁止 AI 冒充心理咨询师的 SB 1580，但覆盖范围远不及中国草案。&lt;/p&gt;
+&lt;p&gt;不过，中国草案也包含预料中的条款：虚拟人格不得生成危害国家安全、煽动颠覆国家政权、宣传分裂主义的内容。这些条款将使 AI 伴侣产品的内容审核复杂度再上一个台阶。&lt;/p&gt;
+
+&lt;h2&gt;行业影响&lt;/h2&gt;
+&lt;p&gt;对于国内 AI 伴侣初创公司而言，这份草案意味着合规成本的大幅上升：实名验证、年龄识别、心理健康监测、内容审核和肖像授权，每一项都需要专门的技术和运营投入。对于海外公司，这份草案释放的信号是：中国正在为 AI 拟人化交互建立一套独立的监管范式，与欧盟的 AI Act 和美国的碎片化州法形成三足鼎立之势。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.ibtimes.sg/china-takes-lead-draft-new-rules-ai-digital-humans-concerns-mount-over-minors-emotional-85001"&gt;https://www.ibtimes.sg/china-takes-lead-draft-new-rules-ai-digital-humans-concerns-mount-over-minors-emotional-85001&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mayerbrown.com/en/insights/publications/2026/04/china-issues-draft-rules-on-interactive-ai-services"&gt;https://www.mayerbrown.com/en/insights/publications/2026/04/china-issues-draft-rules-on-interactive-ai-services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://chinaminutes.com/2026/04/05/china-targets-ai-virtual-humans-in-new-rules-to-protect-minors/"&gt;https://chinaminutes.com/2026/04/05/china-targets-ai-virtual-humans-in-new-rules-to-protect-minors/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c72b89a7-aaab-561d-8dd4-fa8a06a88fd7</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:39 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.ibtimes.sg/china-takes-lead-draft-new-rules-ai-digital-humans-concerns-mount-over-minors-emotional-85001</link>
+      <enclosure url="https://data.ibtimes.sg/en/full/86705/ai.jpg?w=1200&amp;h=630?q=60" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 🏭 DeepSeek V4 全面转向华为芯片：与寒武纪联合重写底层架构，中国 AI「平行技术栈」逼近成熟</title>
+      <description>&lt;h2&gt;不只是换芯片，而是重写整个软件栈&lt;/h2&gt;
+&lt;p&gt;据 The Information 等多家媒体报道，DeepSeek V4 将完全运行在华为 AI 芯片上，这标志着中国头部 AI 实验室首次在前沿模型上全面抛弃 Nvidia 硬件。但比硬件选择更值得关注的是背后的工程投入：DeepSeek 花了数月时间与华为和寒武纪科技（Cambricon Technologies）紧密合作，对模型架构进行了深度改造，重新实现了底层代码的主要组件，使其能在非 Nvidia 硬件上高效运行。&lt;/p&gt;
+
+&lt;h2&gt;规模化预订：阿里、字节、腾讯集体押注&lt;/h2&gt;
+&lt;p&gt;DeepSeek V4 对华为芯片的适配产生了强烈的产业示范效应。阿里巴巴、字节跳动和腾讯已集体向华为预订了数十万颗新一代 AI 芯片，订单规模推高芯片价格约20%。这不仅仅是对华为芯片性能的认可，更是对「国产替代」路径可行性的集体投票。&lt;/p&gt;
+
+&lt;h2&gt;消费级推理：两个额外变体瞄准国产 GPU&lt;/h2&gt;
+&lt;p&gt;除了基于华为昇腾芯片的主版本，DeepSeek 正在同时开发两个额外变体，分别针对特定用例优化，并适配中国国产消费级 GPU。这意味着 DeepSeek 不仅在训练端摆脱 Nvidia 依赖，还在推理端构建完整的国产硬件生态。如果消费级变体成功落地，将大幅降低国内企业和开发者的部署成本。&lt;/p&gt;
+
+&lt;h2&gt;技术挑战：生态壁垒依然存在&lt;/h2&gt;
+&lt;p&gt;华为芯片在裸性能上仍然落后于 Nvidia 最新的 Vera Rubin 系列。更关键的挑战在软件生态：Nvidia 的 CUDA 经过十余年积累，拥有庞大的开发者社区和成熟的工具链。华为的 CANN（Compute Architecture for Neural Networks）框架和寒武纪的 MLU-OPS 仍处于快速追赶阶段。DeepSeek 选择亲自下场重写底层代码，某种意义上是在用自己的工程力量弥补生态短板。&lt;/p&gt;
+
+&lt;h2&gt;地缘博弈的深层逻辑&lt;/h2&gt;
+&lt;p&gt;这一转向的直接催化剂是美国对华芯片出口管制的持续升级。Nvidia H200 虽经 Trump 批准出口，但因国务院安全审查和北京暂停进口指令而陷入僵局，中国企业实际上已无法稳定获得最新美国 AI 芯片。DeepSeek V4 全面转向华为，既是技术选择也是战略选择：当供应链不可靠时，自建供应链就从「可选项」变成了「必选项」。&lt;/p&gt;
+&lt;p&gt;V4 的 Apache 2.0 开源策略更增加了一层博弈维度——如果一个完全运行在国产芯片上的前沿开源模型能达到接近 Claude Opus 4.6 的性能水平，它将重新定义全球 AI 竞争中「芯片封锁」策略的有效性上限。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://influencermagazine.uk/2026/04/deepseek-v4-ai-model-set-to-run-on-huawei-chips-amid-chinas-push-for-tech-independence/"&gt;https://influencermagazine.uk/2026/04/deepseek-v4-ai-model-set-to-run-on-huawei-chips-amid-chinas-push-for-tech-independence/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.chinatechnews.com/2026/04/04/118843-deepseek-v4-model-to-use-huawei-chips-but-can-huawei-truly-match-nvidia-in-power-and-scale"&gt;https://www.chinatechnews.com/2026/04/04/118843-deepseek-v4-model-to-use-huawei-chips-but-can-huawei-truly-match-nvidia-in-power-and-scale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://seekingalpha.com/news/4572487-deepseek-to-use-huawei-chips-for-new-v4-model-report"&gt;https://seekingalpha.com/news/4572487-deepseek-to-use-huawei-chips-for-new-v4-model-report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6d9ca3e9-9f6e-58e7-8ef5-b29795570c12</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:11 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://influencermagazine.uk/2026/04/deepseek-v4-ai-model-set-to-run-on-huawei-chips-amid-chinas-push-for-tech-independence/</link>
+      <enclosure url="https://influencermagazine.uk/wp-content/uploads/2026/04/image-12-scaled.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

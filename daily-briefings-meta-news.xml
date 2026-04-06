@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:05:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:03:38 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
@@ -312,6 +312,94 @@
       <category>meta-news</category>
       <link>https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587</link>
       <enclosure url="https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 MSL 自建硬件团队：徐睿从字节跳动到 Dreamer 再到 Meta，一条绕开 Reality Labs 的路线</title>
+      <description>&lt;p&gt;4 月 4 日，Business Insider 率先报道：Meta Superintelligence Labs（MSL）正在组建自己的硬件团队，由前 Dreamer 硬件负责人&lt;strong&gt;徐睿（Rui Xu）&lt;/strong&gt;领导。这个决定的微妙之处在于——Reality Labs 明明已经有一整套硬件研发体系，MSL 为什么要另起炉灶？&lt;/p&gt;
+
+&lt;p&gt;先看徐睿这个人。哈工大和首尔国立大学毕业，2015-2017 年在小米负责全球扩张，帮助拿下与 Google 的美国市场 Android 设备合作。2020-2022 年在字节跳动新石实验室当总经理，做过「大力」智能台灯这种消费级硬件，出货量据称达百万级。之后辗转腾讯做 XR 设备（2022-2024）、K-Scale 做人形机器人（2024 年底倒闭）、Dreamer 做 AI agent 硬件——直到 Meta 在 3 月 acqui-hire 了 Dreamer 团队，徐睿跟着进了 MSL。&lt;/p&gt;
+
+&lt;p&gt;履历里有两个关键词：&lt;strong&gt;消费级硬件量产&lt;/strong&gt;和&lt;strong&gt;AI agent 设备&lt;/strong&gt;。这恰好是 Alexandr Wang 反复强调的方向。Wang 在播客中说，Meta 要打造一个「设备星座」（constellation of devices），每台设备都能托管一个永远在线、能看能听的个人 AI agent。智能眼镜只是其中一个形态。&lt;/p&gt;
+
+&lt;p&gt;问题在于 Reality Labs 已经在做这件事了。Ray-Ban Meta 眼镜卖了超过 700 万台，Blayzer 和 Scriber 处方款 4 月 14 日就要零售开售，市场份额 76%。但 MSL 选择独立建队而非依附 Reality Labs，透露出几层信息：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wang 认为 Reality Labs 的硬件思路太「VR/AR 优先」，跟他的 AI-first 设备理念对不上——他要的不是头显或 MR 设备，而是轻量级、全天佩戴、AI 原生的计算终端&lt;/li&gt;
+&lt;li&gt;MSL 已有约 3,000 人编制，独立硬件能力意味着这个部门正在变成一个自给自足的「公司中的公司」&lt;/li&gt;
+&lt;li&gt;已有 Reality Labs 工程师转岗到 MSL，为 MSL 的软件在 Reality Labs 硬件上做原型——两个部门名义上合作，实际上可能在争夺同一块未来&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;再联系近期的权力格局变化：FAIR 被吸收、LeCun 出走、Bosworth 的 Reality Labs 被裁员 700 人——MSL 正在系统性地扩张势力范围。硬件团队的建立不只是一个招聘新闻，它标志着 Wang 的野心已经从软件/模型延伸到了从芯片到设备的全栈控制。&lt;/p&gt;
+
+&lt;p&gt;4 月 29 日财报会和 LlamaCon 是下一个窗口期，届时 Zuckerberg 可能需要向投资者解释：MSL 和 Reality Labs 的硬件路线到底怎么协调。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://newsquawk.com/headlines/meta-meta-superintelligence-labs-is-quietly-building-a-hardware-team-business-insider-reports-citing-a-source-03-04-2026"&gt;https://newsquawk.com/headlines/meta-meta-superintelligence-labs-is-quietly-building-a-hardware-team-business-insider-reports-citing-a-source-03-04-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scmp.com/tech/tech-trends/article/3349081/who-xu-rui-ex-bytedance-executive-tapped-meta-lead-ai-hardware"&gt;https://www.scmp.com/tech/tech-trends/article/3349081/who-xu-rui-ex-bytedance-executive-tapped-meta-lead-ai-hardware&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://winbuzzer.com/2026/04/04/meta-superintelligence-labs-builds-hardware-team-ai-push-xcxwbn/"&gt;https://winbuzzer.com/2026/04/04/meta-superintelligence-labs-builds-hardware-team-ai-push-xcxwbn/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6cf8d51a-ad37-5160-9153-028fdddea03e</guid>
+      <pubDate>Mon, 06 Apr 2026 08:02:42 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://newsquawk.com/headlines/meta-meta-superintelligence-labs-is-quietly-building-a-hardware-team-business-insider-reports-citing-a-source-03-04-2026</link>
+    </item>
+    <item>
+      <title>🔬 关税「第二波」冲击：META 跌至 574 美元，华尔街在牛熊之间撕裂</title>
+      <description>&lt;p&gt;4 月 2 日，特朗普宣布「对等关税」（reciprocal tariffs），对中国商品加征 145% 关税并关闭 de minimis 免税通道。META 随即加速下跌，截至 4 月 4 日收盘报 574.46 美元，较 52 周高点 796.25 美元跌去 28%，年初至今跌幅 12%。50 日均线 640、200 日均线 685——两条技术线全部失守。&lt;/p&gt;
+
+&lt;p&gt;真正让市场恐慌的不是关税本身，而是 Meta 对中国广告收入的依赖程度。2024 年，Meta 来自中国的广告收入 183.5 亿美元，占总营收 11%。这些钱主要来自 Temu、Shein 等跨境电商在 Facebook 和 Instagram 上投放的获客广告。de minimis 免税通道关闭后，这些商家的商业模式受到根本冲击——如果卖不动货，广告预算自然砍掉。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MoffettNathanson&lt;/strong&gt; 给出了最悲观的测算：2026 年 Meta 广告收入可能损失 70 亿美元；如果中美贸易摩擦长期化叠加经济衰退，最坏情况下广告收入蒸发 230 亿美元，利润被砍 25%。尽管如此，MoffettNathanson 仍维持买入评级，但把目标价砍了 185 美元至 525 美元。&lt;/p&gt;
+
+&lt;p&gt;另一边，&lt;strong&gt;Morgan Stanley&lt;/strong&gt; 的 Brian Nowak 反而认为最坏的已经被市场消化了。他的逻辑是：META 目前 15 倍 2027 年 EPS（36 美元）的估值，是过去十年只出现过四次的一个标准差以下水平。他只把 2026-2027 年广告收入预期下调了 1%，维持 775 美元目标价——意味着 50% 的上涨空间。Nowak 的核心赌注是「预期差套利」：市场情绪已经极度悲观，但 Meta 一贯保守的业绩指引（Q1 收入指引 535-565 亿）会制造超预期的空间。&lt;/p&gt;
+
+&lt;p&gt;其他投行的调整幅度介于两者之间：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cantor Fitzgerald：790 → 624 美元，维持增持&lt;/li&gt;
+&lt;li&gt;Truist Securities：770 → 700 美元，维持买入&lt;/li&gt;
+&lt;li&gt;Scotiabank：627 → 525 美元，维持中性&lt;/li&gt;
+&lt;li&gt;Wells Fargo：也在 4 月 2 日下调了目标价&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;61 位分析师的平均目标价仍高达 860 美元——这个数字和 574 的现价之间有 50% 的差距，说明华尔街整体还是倾向于「跌过头了」。但问题在于：如果 4 月 29 日的 Q1 财报显示中国广告收入已经开始萎缩，那些乐观目标价就要面临又一轮集体下调。关税的一阶效应是广告收入，二阶效应是 1150-1350 亿美元 CapEx 计划中钢铝铜等原材料成本的上涨——数据中心建设不可能不受影响。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.ainvest.com/news/morgan-stanley-thinks-meta-selloff-priced-worst-path-50-rate-clear-2604/"&gt;https://www.ainvest.com/news/morgan-stanley-thinks-meta-selloff-priced-worst-path-50-rate-clear-2604/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://coincentral.com/meta-platforms-meta-stock-price-targets-cut-as-china-tariffs-threaten-ad-revenue/"&gt;https://coincentral.com/meta-platforms-meta-stock-price-targets-cut-as-china-tariffs-threaten-ad-revenue/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/quote/META/"&gt;https://finance.yahoo.com/quote/META/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587"&gt;https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9f98ff09-c8f9-538a-98d0-a71f7e3e3243</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:12 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.ainvest.com/news/morgan-stanley-thinks-meta-selloff-priced-worst-path-50-rate-clear-2604/</link>
+      <enclosure url="https://cdn.ainvest.com/aigc/hxcmp/images/compress-qwen_generated_1775022271360.jpg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Mercor 数据泄露后续：40,000 人集体诉讼，Meta AI 训练流水线的单点故障暴露无遗</title>
+      <description>&lt;p&gt;3 月 27 日发生的 Mercor 供应链攻击正在产生连锁反应。4 月 1 日，一份集体诉讼（class action）在美国法院提交，指控 Mercor 未能维护基本的网络安全保护措施，导致超过 40,000 名 AI 训练标注员的个人信息——包括身份证件、银行账户、社保号——暴露给攻击者。&lt;/p&gt;
+
+&lt;p&gt;回顾整个事件链：威胁组织 TeamPCP 在 PyPI（Python 包管理仓库）上传了两个被篡改的 &lt;strong&gt;LiteLLM&lt;/strong&gt; 包，在被发现和下架之前存活了大约 40 分钟。但这 40 分钟就够了。Mercor 的系统被渗透后，黑客组织 Lapsus$ 声称获取了 4TB 数据，并开始在暗网论坛拍卖。&lt;/p&gt;
+
+&lt;p&gt;对 Meta 来说，数据泄露本身只是表面问题。更深层的危机在于：泄露的数据可能包含 Meta 的&lt;strong&gt;AI 训练方法论&lt;/strong&gt;——模型训练的数据筛选标准、标注规范、甚至特定能力的微调策略。如果这些信息落入竞争对手手中，Meta 在 AI 领域的方法论护城河就不存在了。&lt;/p&gt;
+
+&lt;p&gt;Meta 的应对是无限期暂停与 Mercor 的合作。但这本身就制造了另一个问题：Mercor 估值 100 亿美元，是 Meta（以及 OpenAI、Anthropic）最大的数据标注供应商之一。暂停合作意味着 Avocado 等模型的训练数据流水线可能出现中断。在 Avocado 已经延期到 5 月以后的背景下，这无疑是雪上加霜。&lt;/p&gt;
+
+&lt;p&gt;Meta 3 月与 Nebius Group 签署了 270 亿美元的 AI 基础设施协议，显示公司在算力层面有备选方案。但数据层面的替代远没有算力那么容易——高质量的人工标注团队需要数月才能建立、校准和磨合。&lt;/p&gt;
+
+&lt;p&gt;这起事件揭示了一个行业级的结构性风险：全球最顶尖的 AI 实验室，训练数据的供应链竟然存在如此明显的单点故障。一个 Python 包被污染 40 分钟，就能威胁到多家价值数千亿美元公司的核心资产。集体诉讼的推进速度也值得关注——如果 Mercor 在诉讼压力下收缩业务，整个 AI 训练数据市场的供给格局都可能被重塑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blog.rankiteo.com/mer1775255558-mercor-breach-april-2026/"&gt;https://blog.rankiteo.com/mer1775255558-mercor-breach-april-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7d390a44-4711-5c8b-be5f-0cc9652af3c7</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:38 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://blog.rankiteo.com/mer1775255558-mercor-breach-april-2026/</link>
+      <enclosure url="https://imagesblog.blob.core.windows.net/blog/breach10.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

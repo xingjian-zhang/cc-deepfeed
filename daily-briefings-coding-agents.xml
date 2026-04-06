@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:04:17 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -378,6 +378,89 @@
       <category>coding-agents</category>
       <link>https://daily1bite.com/en/blog/ai-tools/openai-codex-cli-april-2026-update</link>
       <enclosure url="https://daily1bite.com/og-default.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Claude Code v2.1.92：Opus 4.6 全线默认、Bedrock 向导与第三方接入封锁令</title>
+      <description>&lt;p&gt;Claude Code 在 4 月 4 日推送 v2.1.92，功能面的更新不算激进，但有几个值得关注的改动。最实用的是新增了&lt;strong&gt;交互式 Bedrock 设置向导&lt;/strong&gt;——直接在登录界面选「3rd-party platform」就能走完 AWS 认证、区域配置、模型绑定的全流程，不用再翻文档拼 JSON。另一个信号更强：Bedrock、Vertex 和 Microsoft Foundry 上的默认 Opus 模型已从 4.1 切到 &lt;strong&gt;Opus 4.6&lt;/strong&gt;，意味着企业多云用户在不改配置的情况下就能拿到最新模型。&lt;/p&gt;
+
+&lt;p&gt;其他改动偏修补类：Write 工具对大文件的 diff 计算提速 60%（含 tab、&lt;code&gt;&amp;amp;&lt;/code&gt;、&lt;code&gt;$&lt;/code&gt; 的文件受益最大）；&lt;code&gt;/cost&lt;/code&gt; 命令新增按模型和缓存命中拆分的费用明细；tmux 窗口被杀后子代理永久失败的 bug 修掉了；&lt;code&gt;/tag&lt;/code&gt; 和 &lt;code&gt;/vim&lt;/code&gt; 命令被移除，功能统一收归 &lt;code&gt;/config&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;真正引爆社区讨论的是同一天宣布的&lt;strong&gt;第三方工具接入封锁&lt;/strong&gt;。4 月 4 日中午（太平洋时间）起，Claude Pro/Max 订阅额度不再适用于 OpenClaw 等第三方 harness。Anthropic 的说法是，自家的 Claude Code 针对 prompt cache 命中率做了深度优化，第三方工具绕过了这些效率设计，导致资源消耗远高于预期。用户如果还想在 OpenClaw 里跑 Claude，需要走&lt;strong&gt;按量付费（pay-as-you-go）&lt;/strong&gt;的独立账单。作为补偿，Anthropic 提供了一次性等值一个月订阅的 credit，以及预购额度包最高七折优惠，4 月 17 日前有效。&lt;/p&gt;
+
+&lt;p&gt;Hacker News 上的反应很两极。支持方认为这是合理的成本管控——Max 订阅 200 美元/月本身就是低于成本定价，放任第三方无限调用确实不可持续。反对方则指出，Anthropic 此举实际上在筑墙：先用低价订阅建立用户依赖，再通过政策手段把流量锁在自家客户端里。更深层的问题是，当编程智能体的「操作系统」和「应用」都由同一家公司控制时，开发者的选择空间会被压缩到什么程度？&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://code.claude.com/docs/en/changelog"&gt;Claude Code Changelog&lt;/a&gt; · &lt;a href="https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"&gt;TechCrunch&lt;/a&gt; · &lt;a href="https://news.ycombinator.com/item?id=47633396"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/changelog"&gt;https://code.claude.com/docs/en/changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"&gt;https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.ycombinator.com/item?id=47633396"&gt;https://news.ycombinator.com/item?id=47633396&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8a8c09e6-6a0c-56a4-8f9d-c53394bdc96d</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:15 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://code.claude.com/docs/en/changelog</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-1396827010.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Copilot SDK 公开预览：GitHub 把编程智能体能力拆成可嵌入组件</title>
+      <description>&lt;p&gt;GitHub 4 月 2 日放出 &lt;strong&gt;Copilot SDK&lt;/strong&gt; 公开预览，覆盖 Node.js/TypeScript、Python、Go、.NET、Java 五种语言。核心卖点一句话：把 Copilot 的 agentic 能力——工具调用、流式响应、权限框架、分布式追踪——封装成 SDK，让开发者嵌进自己的应用和工作流里。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://github.blog/wp-content/uploads/2026/04/SDK_Header_02.jpg" alt="Copilot SDK 官方 header 图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Copilot SDK 公开预览官方宣传图（来源：GitHub Blog）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;几个值得注意的设计决策。第一，系统提示支持四种定制模式：replace、append、prepend 和 transform callback，粒度比大多数 API 封装细得多。第二，内置 &lt;strong&gt;OpenTelemetry&lt;/strong&gt; 支持做分布式追踪，说明 GitHub 预期使用场景是企业级多服务编排，不只是单点嵌入。第三，支持 Bring Your Own Key（BYOK），可以接 OpenAI、Azure AI Foundry 或 Anthropic 的密钥——换言之，GitHub 在 SDK 层面就承认了多模型现实，不强绑自家模型。&lt;/p&gt;
+
+&lt;p&gt;定价方面，SDK 对 Copilot Free 个人用户开放，每次 prompt 计入 premium request 配额。企业用 BYOK 可以绕过配额限制。&lt;/p&gt;
+
+&lt;p&gt;这步棋和上周 Copilot 更名 Cloud Agent 形成完整叙事。Cloud Agent 是 GitHub 自己的全托管智能体；SDK 则是把同一套能力开放给第三方。战略意图很清楚：GitHub 不满足于做一个编程助手产品，而是要成为&lt;strong&gt;编程智能体基础设施&lt;/strong&gt;的提供商。类比的话，Cloud Agent 是 Gmail，SDK 是 Gmail API。&lt;/p&gt;
+
+&lt;p&gt;对竞争格局的影响：Claude Code 走的是开源 CLI + MCP 插件生态路线，Cursor 在 IDE 内构建多智能体编排，而 GitHub 现在两条腿走路——既做端到端产品，又开放底层能力让别人建。同期 GPT-5.1 Codex 系列被宣布弃用、全面切换到 GPT-5.3 Codex，也说明 GitHub 在模型层面已经完成换代，SDK 是在新模型基础上开放的。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/"&gt;GitHub Changelog&lt;/a&gt; · &lt;a href="https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/"&gt;GPT-5.1 Codex 弃用公告&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/"&gt;https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/"&gt;https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4f0ac63d-7c54-5982-9a92-5061be41021e</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:40 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/</link>
+      <enclosure url="https://github.blog/wp-content/uploads/2026/04/SDK_Header_02.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Anthropic《2026 编程智能体趋势报告》：78% 会话涉及多文件编辑，开发者接受率 89%</title>
+      <description>&lt;p&gt;Anthropic 在今年 2 月发布了一份 40 页的《2026 Agentic Coding Trends Report》，基于 Claude Code 的实际使用数据和多家企业案例（Rakuten、CRED、TELUS、Zapier），梳理了编程智能体正在改变软件开发的八个趋势。这份报告此前没有深入展开过，但其中的数据对于理解当前编程智能体的实际落地状态相当有价值。&lt;/p&gt;
+
+&lt;p&gt;几组核心数据。&lt;strong&gt;多文件编辑占比从 34% 飙升到 78%&lt;/strong&gt;——2025 年 Q1 Claude Code 会话中只有三分之一涉及跨文件操作，到 2026 年 Q1 已接近五分之四，说明用户已经从「让 AI 补一行代码」过渡到「让 AI 完成一个完整任务」。平均会话时长从 4 分钟增长到 23 分钟，每次会话平均执行 47 次工具调用（文件读写、命令执行等）。当智能体提供 diff 摘要时，开发者对生成代码的接受率达到 89%，不提供时只有 62%——差距足以说明「可审查性」不是锦上添花，而是决定能否落地的关键因素。&lt;/p&gt;
+
+&lt;p&gt;报告总结的八个趋势涵盖面较广，其中几个和当前竞争格局直接相关：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多智能体协同&lt;/strong&gt;：组织开始部署多个专用智能体在编排器调度下并行工作，而非依赖单个全能智能体——这正是 Cursor 3.0 的 Agents Window 和 /best-of-n 在产品层面的体现。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能体学会求助&lt;/strong&gt;：系统能在不确定时主动请求人类输入，而不是硬着头皮做完——Claude Code 的 plan-then-execute 模式和 Copilot Cloud Agent 的计划审批流都属于这个方向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非工程师拥抱编程&lt;/strong&gt;：销售、法务、运营等部门直接用智能体解决本地问题，不再排队等工程团队——这意味着编程智能体的用户基数可能比开发者群体大一个数量级。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全双刃剑&lt;/strong&gt;：智能体让代码审查和安全加固更深入，同时也降低了恶意侦察和漏洞利用的门槛。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;另一个被忽视的数据：维护良好的上下文文件（context files，比如 Claude Code 的 CLAUDE.md）能让智能体错误率降低 40%、任务完成速度提高 55%。这解释了为什么各家工具都在强调项目级配置——Cursor 的 .cursorrules、Claude Code 的 CLAUDE.md、Codex 的 codex.md——这些文件本质上是「智能体的入职培训手册」。&lt;/p&gt;
+
+&lt;p&gt;报告的核心判断：软件开发正在从「以写代码为中心」转向「以编排写代码的智能体为中心」。工程师的核心能力不再是打字速度，而是架构判断、需求分解和审查能力。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://resources.anthropic.com/2026-agentic-coding-trends-report"&gt;Anthropic 报告原文&lt;/a&gt; · &lt;a href="https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/"&gt;Tessl 解读&lt;/a&gt; · &lt;a href="https://news.bitcoin.com/anthropics-2026-agentic-coding-report-maps-the-rise-of-multi-agent-dev-teams/"&gt;Bitcoin.com News&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://resources.anthropic.com/2026-agentic-coding-trends-report"&gt;https://resources.anthropic.com/2026-agentic-coding-trends-report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/"&gt;https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.bitcoin.com/anthropics-2026-agentic-coding-report-maps-the-rise-of-multi-agent-dev-teams/"&gt;https://news.bitcoin.com/anthropics-2026-agentic-coding-report-maps-the-rise-of-multi-agent-dev-teams/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8936186a-e4ce-5a55-9cea-70b21f55aa2b</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:17 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://resources.anthropic.com/2026-agentic-coding-trends-report</link>
+      <enclosure url="https://cdn.sanity.io/images/ojuglg5y/production/cf5646e15f91dd2d3b598b8e81706d149f8892a2-1456x816.png?w=1200&amp;fit=max&amp;auto=format" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

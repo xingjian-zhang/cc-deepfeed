@@ -4,7 +4,7 @@
     <title>LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:05:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:05:13 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
@@ -329,6 +329,130 @@
       <pubDate>Sun, 05 Apr 2026 08:05:00 +0000</pubDate>
       <category>llm-agents</category>
       <link>https://arxiv.org/abs/2604.01212</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 MCP 安全危机全景：60 天 30+ CVE、OWASP MCP Top 10 发布、Krisp 数据泄漏——Agent 生态的信任根基在动摇</title>
+      <description>&lt;p&gt;Model Context Protocol 正在经历一场系统性的安全信任危机。2026 年 1-2 月，安全研究者在 60 天内对 MCP 实现提交了 30+ CVE，影响超过 43.7 万次下载。3 月 15 日，OWASP 发布了专门针对 MCP 的 Top 10 安全框架（beta），标志着这个问题从学术讨论进入了工业级治理阶段。&lt;/p&gt;
+
+&lt;p&gt;先看攻击面有多大。Invariant Labs 等团队扫描了 2,614 个 MCP 实现，结果触目惊心：&lt;strong&gt;82% 的文件操作存在路径穿越漏洞&lt;/strong&gt;，67% 有代码注入风险，38% 完全没有认证机制。按攻击向量分类，exec/shell 注入占 43%，工具基础设施缺陷 20%，认证绕过 13%，路径穿越 10%，其余 14% 为 SSRF 和供应链攻击。&lt;/p&gt;
+
+&lt;p&gt;几个标志性事件串起了这条时间线。2025 年 7 月的 CVE-2025-6514 是 mcp-remote 包的远程代码执行漏洞，CVSS 9.6，影响 43.7 万次下载，利用难度极低。同月 CVE-2025-54136 暴露了 Cursor IDE 的信任绕过（"MCPoison"），允许恶意 MCP 服务器静默更新。2026 年 4 月 3 日的 CVE-2026-32211 则直接打在 Azure MCP Server 上——认证机制完全缺失，CVSS 9.1，微软至今只给了缓解指南，补丁待发。&lt;/p&gt;
+
+&lt;p&gt;同样在 4 月 3 日，Krisp 披露了一起 MCP API 数据泄漏：两个用户恰好同时发起请求时，系统把 A 的响应错误地送给了 B。虽然不是定向攻击，但这种竞态条件（race condition）暴露了 MCP 会话隔离的脆弱性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OWASP MCP Top 10&lt;/strong&gt; 由 Vandana Verma Sehgal 主导，列出的十大风险覆盖了当前生态的核心痛点：Token 管理失当与密钥泄露（#1）、权限范围蔓延（#2）、工具投毒（#3，自动审批下成功率 84.2%）、供应链攻击（#4）、命令注入（#5）、意图流劫持（#6）、认证不足（#7）、审计缺失（#8）、影子 MCP 服务器（#9）、上下文注入与过度共享（#10）。排名第三的工具投毒尤其值得关注——攻击者把恶意指令嵌入工具描述的元数据中，Agent 看得到但用户看不到，且绝大多数 Agent 会不加质疑地执行。&lt;/p&gt;
+
+&lt;p&gt;防御侧已有动作。mcp-scan（Invariant Labs）、SecureClaw（Adversa AI）、agent-audit、Cisco MCP Scanner、Snyk Agent Scan 五款扫描工具分别覆盖不同场景。OWASP 给出的优先级排序很实用：立刻关闭自动审批、清点所有 MCP 连接、扫描配置中的暴露密钥；一周内实现工具锁定（tool pinning）、强制认证、开启审计日志；中期部署安全网关和上下文隔离。&lt;/p&gt;
+
+&lt;p&gt;跟踪 MCP 安全线程已有多期——从 2026 Roadmap 四优先领域到 CVE-2026-32211。现在的图景是：协议本身的设计并不安全（Simon Willison 早在 2025 年 4 月就指出了 prompt injection 的结构性问题），而生态的高速扩张让实现质量参差不齐。OWASP Top 10 的意义在于给了整个行业一个共同的风险语言和优先级框架，但真正的挑战在执行——毕竟 38% 的服务器连认证都没有。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/"&gt;MCP Security 2026: 30 CVEs in 60 Days&lt;/a&gt; · &lt;a href="https://mcpblog.dev/blog/2026-03-15-owasp-mcp-top-10"&gt;OWASP MCP Top 10&lt;/a&gt; · &lt;a href="https://krisp.ai/blog/krisp-mcp-incident-communication/"&gt;Krisp MCP Incident&lt;/a&gt; · &lt;a href="https://dev.to/michael_onyekwere/cve-2026-32211-what-the-azure-mcp-server-flaw-means-for-your-agent-security-14db"&gt;CVE-2026-32211 Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/"&gt;https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://mcpblog.dev/blog/2026-03-15-owasp-mcp-top-10"&gt;https://mcpblog.dev/blog/2026-03-15-owasp-mcp-top-10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://krisp.ai/blog/krisp-mcp-incident-communication/"&gt;https://krisp.ai/blog/krisp-mcp-incident-communication/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/michael_onyekwere/cve-2026-32211-what-the-azure-mcp-server-flaw-means-for-your-agent-security-14db"&gt;https://dev.to/michael_onyekwere/cve-2026-32211-what-the-azure-mcp-server-flaw-means-for-your-agent-security-14db&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ba30f408-3ed6-584e-a785-9506c78947fc</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:26 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/</link>
+      <enclosure url="http://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/cover.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 OSWorld-MCP：首个在真实操作系统中同时测 GUI 操作与 MCP 工具调用的 Computer Use 基准</title>
+      <description>&lt;p&gt;Computer Use Agent 的评测一直聚焦在 GUI 交互上——截图、点击、键盘输入。但现实中 Agent 越来越多地通过 MCP 工具完成任务，而不是死磕像素级操作。阿里 X-PLUG 团队联合中科大、北航推出的 &lt;strong&gt;OSWorld-MCP&lt;/strong&gt; 正是为了填补这个评测缺口：在真实 OS 环境中，同时考察 Agent 使用 GUI 和调用 MCP 工具的能力。&lt;/p&gt;
+
+&lt;p&gt;基准的构造很有讲究。团队为 LibreOffice Writer、VS Code 等 7 个常用应用开发了 158 个 MCP 工具，每个都经过功能正确性、实用性和通用性三重验证。此外还加入了 25 个「干扰工具」——它们看起来相关但与目标任务无关，专门测试 Agent 的工具选择判断力。在 OSWorld 原有的 369 个任务中，250 个（69%）可以通过 MCP 工具完成，其中 153 个（42%）需要多轮工具调用，难度不低。&lt;/p&gt;
+
+&lt;p&gt;结果如何？MCP 工具确实能提升任务成功率。OpenAI o3 在 15 步限制下，成功率从 8.3%（纯 GUI）升至 20.4%（GUI + MCP），提升幅度达 146%。Claude 4 Sonnet 在 50 步限制下也从 40.1% 升至 43.3%。但真正有意思的指标是团队提出的 &lt;strong&gt;Tool Invocation Rate（TIR）&lt;/strong&gt;——即 Agent 在能用工具的任务上实际选择用工具的比例。最强模型的 TIR 也只有 36.3%，意味着 Agent 大量时候「有工具不用」，依然在用 GUI 硬做。&lt;/p&gt;
+
+&lt;p&gt;这个数字揭示了一个深层问题：当前 Agent 的训练数据和奖励信号主要围绕 GUI 操作构建，对 MCP 工具的使用缺乏充分的策略学习。TIR 低不是因为工具不好用，而是 Agent 根本没学会「什么时候该切换到工具模式」。团队同时引入了 Average Completion Steps（ACS）指标来衡量效率——使用 MCP 工具的成功轨迹步数通常更少，说明工具调用确实是更高效的路径。&lt;/p&gt;
+
+&lt;p&gt;放在 Computer Use 线程的大背景下看：Holo3 在 OSWorld-Verified 上 78.85%，Claude Opus 4.6 72.7%，GPT-5.4 75.0%——这些数字代表了纯 GUI 路线的天花板正在逼近人类水平。OSWorld-MCP 提出的命题是：下一步不是继续卷截图理解精度，而是让 Agent 学会在 GUI 和工具之间灵活切换。这跟 MCP 2026 Roadmap 强调的「工具生态成熟度」遥相呼应。&lt;/p&gt;
+
+&lt;p&gt;方法论上也有借鉴价值。158 个工具通过自动代码生成 + 人工精选的混合流水线构建，避免了纯手工标注的不可扩展性。干扰工具的设计思路来自认知科学中的「干扰项效应」——人类在选择过多时也会犯错，Agent 同理。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://arxiv.org/abs/2510.24563"&gt;OSWorld-MCP 论文&lt;/a&gt; · &lt;a href="https://osworld-mcp.github.io/"&gt;OSWorld-MCP Leaderboard&lt;/a&gt; · &lt;a href="https://github.com/X-PLUG/OSWorld-MCP"&gt;GitHub 仓库&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2510.24563"&gt;https://arxiv.org/abs/2510.24563&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://osworld-mcp.github.io/"&gt;https://osworld-mcp.github.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/X-PLUG/OSWorld-MCP"&gt;https://github.com/X-PLUG/OSWorld-MCP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">49b13ece-521a-5655-93a1-2faa468f1dde</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:01 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2510.24563</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 PC Agent-E：312 条人工轨迹 + Claude 3.7 合成扩增，训出超越 Claude 自身的 Computer Use Agent（ICLR 2026）</title>
+      <description>&lt;p&gt;训练 Computer Use Agent 的最大瓶颈不是算法，而是数据。人工标注一条完整操作轨迹需要录屏、回放、对齐动作序列——成本高且不可规模化。上海交大与 Fudan 的 PC Agent-E 给出了一条极其务实的路线：只需 &lt;strong&gt;312 条人工标注轨迹&lt;/strong&gt;，通过 Claude 3.7 Sonnet 合成扩增到 27,000 条训练样本，就能训出在 WindowsAgentArena-V2 上超越 Claude 3.7 Sonnet 本身的 Agent。这篇论文被 ICLR 2026 接收。&lt;/p&gt;
+
+&lt;p&gt;核心方法是「轨迹树」（Trajectory Tree）扩增。流程分四个阶段：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;阶段一：轨迹采集。&lt;/strong&gt;两名标注员用 PC Tracker 工具在 Windows 环境中完成各类任务，一天内采集 312 条轨迹。每条轨迹包含截图序列和对应的键鼠操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;阶段二：思维补全。&lt;/strong&gt;人工轨迹只有动作没有推理过程。团队用 Claude 3.7 Sonnet 做迭代重建——给定任务描述、当前截图和历史动作，让模型推断每步操作背后的隐式思考，生成显式的推理链。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;阶段三：轨迹扩增。&lt;/strong&gt;关键创新在这里。对每条轨迹的每一步，团队让 Claude 3.7 Sonnet 在相同环境快照下采样 9 个替代动作决策。这些替代动作不需要实际执行——它们作为「如果在这一步换个做法会怎样」的虚拟分支，为训练提供了丰富的动作多样性。312 条主干 × 每步 ~10 个动作 = 27,000 条训练实例。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;阶段四：Agent 训练。&lt;/strong&gt;以 Qwen2.5-VL-72B 为骨干，在 32 块 GPU 上做 2 轮 SFT，总训练时间 5 小时。&lt;/p&gt;
+
+&lt;p&gt;结果相当亮眼。WindowsAgentArena-V2 上，PC Agent-E 总成功率 36.0%，比 Qwen2.5-VL-72B 基线的 14.9% 提升了 141%。在 Chrome 和 VS Code 两个应用上分别达到 64.1% 和 57.9%，与 Claude 3.7 Sonnet（开启扩展思考）的 64.1% 和 52.6% 持平甚至更优。换句话说——用 Claude 3.7 生成的合成数据训出的模型，反过来在某些场景超过了 Claude 3.7。&lt;/p&gt;
+
+&lt;p&gt;消融实验证明了合成动作的价值。只用原始人工轨迹（s=0）时，相对基线仅提升 15%；加入全部 9 个合成动作（s=9）后，提升跃至 141%。动作多样性而非数量是关键。&lt;/p&gt;
+
+&lt;p&gt;跨平台泛化也有惊喜。虽然训练数据全部来自 Windows，但在 Linux 环境的 OSWorld 上，PC Agent-E 在可行任务上达到 10.9%（基线 4.4%），说明学到的操作策略有一定的跨 OS 迁移能力。&lt;/p&gt;
+
+&lt;p&gt;这项工作跟我们此前追踪的 STITCH 论文形成互补。STITCH 关注的是从大量轨迹中过滤出高质量子集（不到 1000 条训 SOTA 编程 Agent），PC Agent-E 则关注如何从极少量轨迹生成足够多样的训练信号。两者殊途同归：Agent 训练的数据效率革命正在多个维度同时推进。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://arxiv.org/abs/2505.13909"&gt;PC Agent-E 论文&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2505.13909"&gt;https://arxiv.org/abs/2505.13909&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e415d7fb-641b-5189-a839-3667e524e0f8</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:32 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2505.13909</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 DataMind：12K 轨迹 + SFT/RL 动态混合训练，14B 数据分析 Agent 击败 DeepSeek-V3.1 和 GPT-5（ICLR 2026）</title>
+      <description>&lt;p&gt;数据分析是 Agent 落地的高价值场景之一：读 CSV、跑 SQL、画图表、写报告，整个流程涉及多轮代码执行和错误恢复。浙大 NLP 团队（zjunlp）推出的 DataMind 提供了一套从数据合成到模型训练的完整方案，14B 模型在 DABench、TableBench、BIRD 三个基准上平均 71.16%，超过 DeepSeek-V3.1（70.58%）和 GPT-5（69.44%）。论文被 ICLR 2026 和 AAAI 2026 双收。&lt;/p&gt;
+
+&lt;p&gt;三个技术要点值得细看。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;递归式难度递增合成。&lt;/strong&gt;团队设计了细粒度的任务分类体系，然后通过递归组合机制把简单任务链成复杂任务。迭代 2-5 轮后，合成出的多跳分析挑战远超单任务复杂度。这解决了数据分析训练数据的一个老问题：现有数据集要么太简单（单步查询），要么手工构造成本太高。递归组合让难度可控地增长，不需要人工编排。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;知识增强的轨迹采样与过滤。&lt;/strong&gt;对每个查询，团队手工编写了该类别的高层工作流（相当于人类分析师的过程性知识），然后对每个查询独立采样 3 条轨迹。GPT-4o-mini 作为裁判验证三条轨迹的答案一致性——只有收敛到相同答案的才被保留，裁判再从中选出最简洁准确的一条。最终 DataMind-12K 包含 11,707 条高质量轨迹。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SFT 与 RL 的动态混合。&lt;/strong&gt;这是最有意思的设计。不同于先 SFT 再 RL 的传统两阶段范式，DataMind 用一个权重因子 γ 在训练过程中动态混合 on-policy 和 off-policy 学习。γ 从 0.9（主要靠 SFT 的专家知识）退火到 0.05（主要靠 RL 探索），在利用专家知识和继续探索之间取得平衡，同时避免了纯 RL 训练常见的策略崩溃和不稳定问题。&lt;/p&gt;
+
+&lt;p&gt;基座模型选了 Qwen-2.5-Coder 的 7B 和 14B 版本。DataMind-7B 以 68.10% 的平均分成为同尺寸开源最佳，14B 版本则直接超过了远大于自身的闭源模型。团队承诺开源 DataMind-12K 数据集和两个模型权重。&lt;/p&gt;
+
+&lt;p&gt;放在更大的图景里看，DataMind 的 SFT+RL 动态混合训练跟我们此前关注的几条线索有交叉。STITCH 和 PC Agent-E 都在解决「如何用更少的数据训出更好的 Agent」，但它们的策略是过滤或扩增轨迹数据本身。DataMind 的贡献在训练目标的设计上——通过退火的方式让模型在学习阶段的不同时期自动调整「模仿 vs 探索」的比例。这个思路对 Agent 训练的其他领域（如 Computer Use、编程 Agent）同样适用。&lt;/p&gt;
+
+&lt;p&gt;另一个值得注意的点：轨迹过滤中的「答案一致性」验证。用多条独立轨迹收敛到相同答案来保证质量，本质上是把自一致性（self-consistency）从推理时间搬到了训练数据生成阶段。这比简单的成功/失败过滤更精细，特别适合数据分析这类答案可验证但过程多样的任务。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://arxiv.org/abs/2509.25084"&gt;DataMind 论文&lt;/a&gt; · &lt;a href="https://github.com/zjunlp/DataMind"&gt;GitHub 仓库&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2509.25084"&gt;https://arxiv.org/abs/2509.25084&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/zjunlp/DataMind"&gt;https://github.com/zjunlp/DataMind&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">37fb3a0a-2ff9-59c5-884f-70712fcb1943</guid>
+      <pubDate>Mon, 06 Apr 2026 08:05:13 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2509.25084</link>
       <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
     </item>
   </channel>

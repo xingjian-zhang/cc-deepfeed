@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:04:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:03:59 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -382,6 +382,75 @@
       <category>fitness-science</category>
       <link>https://med.stanford.edu/news/insights/2026/03/how-much-protein.html</link>
       <enclosure url="https://med.stanford.edu/news/insights/2026/03/how-much-protein/_jcr_content/cq:featuredimage.coreimg.jpeg/1774469553447/protein-hero.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 慢速离心没有增肌优势：9项研究元分析终结「数4秒放下来」的执念</title>
+      <description>&lt;p&gt;健身房里流传最广的训练建议之一：放下重量时数4秒，慢慢控制离心阶段，肌肉才会长得更多。Amdi与King在&lt;em&gt;Journal of Sports Sciences&lt;/em&gt;（2025）发表的元分析用9项研究、166名受试者的数据，给了这条建议一个干脆的回答——&lt;strong&gt;对肌肥大没有显著差异&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;研究将受试者分为短离心组（SEG，通常1-2秒下放）和长离心组（LEG，3-6秒下放），汇总后发现肌肥大效应量仅为0.05，几乎等于零。换句话说，无论你花1秒还是4秒放下杠铃，肌肉生长的结果是一样的——前提是总训练量（组数 x 次数 x 负重）保持一致。&lt;/p&gt;
+
+&lt;p&gt;这里藏着一个关键机制：刻意放慢离心速度，往往迫使你降低负重或减少次数，结果总训练量反而下降。而我们已经从多项元回归中知道，&lt;strong&gt;训练量才是驱动肌肥大的核心变量&lt;/strong&gt;——上期介绍的67项研究元回归、以及ACSM 2026新指南都指向同一个结论。&lt;/p&gt;
+
+&lt;p&gt;不过元分析也揭示了一个有趣的分支：在已训练人群中、且控制了总训练量的亚组分析里，慢速离心对最大力量（而非肌肥大）可能有微弱优势。另外，短离心组在反向跳（countermovement jump）高度上表现更好，提示追求爆发力的运动员应该练快而非练慢。&lt;/p&gt;
+
+&lt;p&gt;实用结论很简单：别再执着于数秒数了。下放阶段保持控制、别让重量自由落体就好，省下来的注意力放在渐进超负荷和训练量管理上，回报更高。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2535198"&gt;https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2535198&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://evidencebasedmuscle.com/slow-eccentrics-for-muscle-growth/"&gt;https://evidencebasedmuscle.com/slow-eccentrics-for-muscle-growth/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.potentiaworkout.com/en/blog/slow-vs-fast-eccentrics-which-is-better-for-strength-size-power"&gt;https://www.potentiaworkout.com/en/blog/slow-vs-fast-eccentrics-which-is-better-for-strength-size-power&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">28f2b0e1-5814-583a-bcb5-76046b983d22</guid>
+      <pubDate>Mon, 06 Apr 2026 08:02:58 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2535198</link>
+    </item>
+    <item>
+      <title>💪 肌酸补脑是不是想太多？Candow团队2026综述说：先把测量搞清楚</title>
+      <description>&lt;p&gt;肌酸（Creatine）在力量训练圈早已是共识级补剂，但「肌酸还能补脑」的说法最近几年越来越热。Darren Candow团队今年1月在&lt;em&gt;Journal of Dietary Supplements&lt;/em&gt;发表了一篇标题直白的叙事综述——「我们是不是把马车放在了马前面？」——给这股热潮泼了一盆冷水。&lt;/p&gt;
+
+&lt;p&gt;核心论点是&lt;strong&gt;测量问题&lt;/strong&gt;。目前检测脑内肌酸浓度依赖质子（¹H）和磷（³¹P）磁共振波谱（MRS），但这项技术对体素定位、信号质量、分析流程都极度敏感。不同实验室用不同参数扫同一个人，数字可以差出一大截。在这种精度下宣称「补了肌酸后脑内浓度上升X%」，可信度要打折扣。&lt;/p&gt;
+
+&lt;p&gt;话虽如此，综述也承认几个方向确实有初步信号。急性代谢压力状态——睡眠剥夺、缺氧、高强度脑力消耗——下，肌酸补充对认知表现有一定改善。堪萨斯大学Matthew Taylor的CABA试验更进了一步：19名阿尔茨海默病患者每天服用20g肌酸，8周后脑内肌酸水平提升11%，工作记忆和执行功能出现中等幅度改善。这是目前唯一一项直接在AD人群中测试肌酸的干预试验。&lt;/p&gt;
+
+&lt;p&gt;问题在于CABA试验没有对照组，样本量只有19人。综述作者列举的其他认知研究也大多如此：样本小、设计粗糙、结局指标不一致。一项2024年的元分析汇总后发现，肌酸对记忆和注意力反应时间有统计学显著效应，但对总体认知功能和执行功能没有。这种「东一块西一块」的证据图谱，恰恰就是Candow所说的「马车在马前面」——大家急着讨论肌酸能不能治老年痴呆，却连最基础的「口服肌酸到底能不能可靠地提升脑内浓度」都没搞定。&lt;/p&gt;
+
+&lt;p&gt;对于本来就在吃肌酸的力量训练者，这篇综述的信息是：肌酸对肌肉的证据依然扎实，对大脑的故事还在「很有意思但远未确定」的阶段。如果你睡眠不足或处于高认知负荷期（比如期末考试周），5g/天的肌酸可能有边际帮助，但别指望它是什么认知灵药。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/19390211.2026.2616440"&gt;https://www.tandfonline.com/doi/full/10.1080/19390211.2026.2616440&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kumc.edu/about/news/news-archive/creatine-alzheimers-research.html"&gt;https://www.kumc.edu/about/news/news-archive/creatine-alzheimers-research.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d52f9f9f-510a-513d-a679-14470a359f8c</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:32 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.tandfonline.com/doi/full/10.1080/19390211.2026.2616440</link>
+    </item>
+    <item>
+      <title>💪 训练后立刻吃蛋白的黄金窗口存在吗？184人元分析说：有，但没你想的那么窄</title>
+      <description>&lt;p&gt;「练完30分钟内必须补蛋白」是健身圈最经典的教条之一，也是被反复讨论的话题。我们此前追踪的蛋白质时机线索一直指向「总量远比时机重要」。但Cheng等人2025年发表在&lt;em&gt;Frontiers in Nutrition&lt;/em&gt;的系统综述和元分析（8项研究，184名受试者）给出了更细致的回答：&lt;strong&gt;即时补充确实优于延迟补充，但效应量只有0.269&lt;/strong&gt;（95% CI 0.039-0.498，p=0.022）——统计学显著，实际效果很小。&lt;/p&gt;
+
+&lt;p&gt;研究涵盖了乳清蛋白、碳水-电解质混合物、必需氨基酸-碳水组合等多种补剂，受试者从事的运动包括急性力量训练、有氧训练和耐力运动。「即时」定义为训练后30分钟内，「延迟」为1-2小时后。评估的恢复指标包括血清肌酸激酶（CK，肌肉损伤标志物）、延迟性肌肉酸痛（DOMS）、糖原恢复速率和炎症标志物。&lt;/p&gt;
+
+&lt;p&gt;拆开看更有意思。Nabuco等人的研究显示乳清蛋白即时补充的代谢效益效应量高达0.70，是所有纳入研究中最强的。Saunders等人发现马拉松赛中/赛后即时蛋白补充能改善72小时内的疲劳评分。但White等人的研究则发现，对于离心运动造成的肌肉损伤恢复，时机「没有任何影响」。&lt;/p&gt;
+
+&lt;p&gt;这种研究间的矛盾恰恰说明了一个关键点：时机的重要性取决于你的训练状态。空腹训练后，合成代谢窗口确实更紧迫——因为你的肌肉蛋白质分解速率已经升高，急需氨基酸来逆转。但如果你训练前1-2小时吃过一顿正餐，那顿饭提供的氨基酸还在血液里循环，30分钟窗口的意义就大打折扣。Tipton等人的数据甚至显示，训练前补充氨基酸产生的肌肉蛋白合成反应比训练后补充更强。&lt;/p&gt;
+
+&lt;p&gt;综合来看，这项元分析没有完全推翻「黄金窗口」，而是把它从一条刚性规则降级为一个条件性建议：如果你空腹练、练得很猛、或者目标是最大化恢复速度，训练后尽快吃东西有边际好处。其他情况下，一天的蛋白总量和整体饮食质量才是决定因素。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1567438/full"&gt;https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1567438/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12061868/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12061868/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/40352254/"&gt;https://pubmed.ncbi.nlm.nih.gov/40352254/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">33de349f-90e4-51b0-b133-18ec7b8022bf</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:59 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1567438/full</link>
     </item>
   </channel>
 </rss>

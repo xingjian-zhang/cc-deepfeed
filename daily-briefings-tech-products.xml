@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:04:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:04:14 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -414,6 +414,106 @@
       <category>tech-products</category>
       <link>https://www.bgr.com/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/</link>
       <enclosure url="https://www.bgr.com/bgr/tech/apple-to-shift-all-us-iphone-production-to-india-by-2026-as-tariff-fight-heats-up/iphone-16e-2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 四款苹果智能家居产品「坐牢」仓库：全怪 Siri 不争气</title>
+      <description>&lt;p&gt;据 Mark Gurman 四月初披露，苹果至少有四款硬件——新款 Apple TV 4K、HomePod 3（全尺寸）、HomePod mini 2，以及带屏幕的智能中控「HomePad」——已经完成量产，正堆在仓库里等一件事：&lt;strong&gt;Siri 的 AI 大改版&lt;/strong&gt;。Gurman 原话是「这些东西就放在仓库里……就等软件准备好」。&lt;/p&gt;
+
+&lt;p&gt;时间线已经一推再推。苹果在 WWDC 2024 上预告过更聪明、更个性化的 Siri，原定 2025 年 3 月上线。跳票到 2026 年 3 月，随 iOS 26.4 一起推——结果 26.4 已经发了，Siri 的核心升级仍然没落地。目前最新口径是可能要等到 iOS 26.5 甚至 iOS 27（即今年九月的大版本）。对于一款最初计划 2025 年底发售的 HomePad 来说，这意味着至少晚了一整年。&lt;/p&gt;
+
+&lt;p&gt;苹果的执念其实不难理解。HomePad 是苹果正式进军智能家居中控屏的第一步，对标 Amazon Echo Show 和 Google Nest Hub，但苹果显然不想在 Siri 还是「蠢 Siri」的状态下让它亮相。报道指出苹果已与 Google 达成协议，将在新版 Siri 中接入 Gemini 模型来增强对话和上下文理解能力。这和我们之前追踪的 &lt;strong&gt;iOS 27 Siri Extensions 开放第三方 AI&lt;/strong&gt;（Claude/Gemini/Grok）的方向一致——苹果要的不是微调，而是重做。&lt;/p&gt;
+
+&lt;p&gt;问题在于，硬件库存占用资金、产品老化风险增加，而竞品并没有在等。Amazon 的 Echo Show 15 已经整合了 Alexa+LLM 升级，Google 的 Nest Hub 3 也在准备中。苹果选择「宁可延期也不凑合」，这种策略在 Apple Watch 初代和 Vision Pro 上都用过——但区别是，那两次消费者不知道产品存在。这一轮，泄露已经把四款产品的存在完全暴露。&lt;/p&gt;
+
+&lt;p&gt;接下来关注六月 WWDC。如果 iOS 27 确认了全新 Siri 架构，这些仓库存货有望在今年秋季集中发售，形成苹果历史上最密集的智能家居产品发布。如果 Siri 再延期，苹果可能不得不考虑先用旧版 Siri 出货再后续 OTA 升级——那将是一次策略上的妥协。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/04/02/apple-reportedly-has-four-new-products-ready-to-launch-pending-one-thing/"&gt;https://9to5mac.com/2026/04/02/apple-reportedly-has-four-new-products-ready-to-launch-pending-one-thing/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.idropnews.com/rumors/apple-2026-products-siri-stupid-delay/261987"&gt;https://www.idropnews.com/rumors/apple-2026-products-siri-stupid-delay/261987&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.stuff.tv/news/apple-homepad-smart-display-delay-siri-gemini/"&gt;https://www.stuff.tv/news/apple-homepad-smart-display-delay-siri-gemini/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-03-09/apple-postpones-smart-home-display-launch-as-it-waits-for-new-ai-and-siri"&gt;https://www.bloomberg.com/news/articles/2026-03-09/apple-postpones-smart-home-display-launch-as-it-waits-for-new-ai-and-siri&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a568bbc7-78e9-5899-adbf-d635b01f2871</guid>
+      <pubDate>Mon, 06 Apr 2026 08:02:49 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://9to5mac.com/2026/04/02/apple-reportedly-has-four-new-products-ready-to-launch-pending-one-thing/</link>
+      <enclosure url="https://cdn.idropnews.com/wp-content/uploads/2021/07/30163850/Siri-Tricks-on-iPhone.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Google 无屏 Fitbit 手环亮相：Gemini 健康教练 + 订阅制，正面硬刚 Whoop</title>
+      <description>&lt;p&gt;Google 终于掀开了无屏 Fitbit 手环的面纱。四月初，NBA 球星 Stephen Curry 以 Google「Performance Advisor」身份在 Instagram 上晒出了这款织物材质手环——灰色主体、橙色侧边、无按钮无屏幕，视觉上像一条运动腕带。Bloomberg 此前报道过这个项目，现在看来离正式发布已经很近了。&lt;/p&gt;
+
+&lt;p&gt;从已知信息拼出的画像是：手环内置心率和皮肤温度传感器，追踪恢复、心理健康信号、水分摄入和月经周期。所有数据汇入重新设计的 Fitbit app，由 &lt;strong&gt;Gemini 驱动的 AI 健康教练&lt;/strong&gt;提供个性化建议。商业模式借鉴 Whoop：硬件单独购买、基础功能免费、高级分析需要付费订阅（大概率是 Fitbit Premium）。目前最便宜的 Fitbit（Inspire 3）售价 99.95 美元，这款无屏手环大概率在同一区间或更低。&lt;/p&gt;
+
+&lt;p&gt;这是 Google 对可穿戴市场的一次重新定位。过去几年 Fitbit 在 Pixel Watch 的阴影下越来越边缘化，产品线混乱，用户流失。无屏手环的出现说明 Google 意识到了一个趋势：健康追踪正在分化为两个市场——「看手表」的人买 Pixel Watch/Apple Watch，「不看屏幕」的人买 Whoop/Oura。后者增长极快，Whoop 估值已超过 50 亿美元。Google 选择用 Fitbit 品牌切入后者，而非让 Pixel Watch 降级来覆盖这个场景，策略上是对的。&lt;/p&gt;
+
+&lt;p&gt;Gemini 的加入是差异化关键。Whoop 的教练功能靠规则引擎和固定模板，Oura 的建议也偏模板化。如果 Gemini 能做到真正的个性化对话——比如根据你最近三天的恢复分数和日程安排建议训练强度——这会是当前健康手环都做不到的体验。但前提是 Google 能把 Gemini 的延迟控制在可接受范围内，而且不在隐私问题上翻车。&lt;/p&gt;
+
+&lt;p&gt;发布日期未定，但 Curry 的高调预热通常意味着数周而非数月。考虑到 Google I/O 在五月中旬，这很可能是 I/O 的发布内容之一。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/03/31/fitbit-screen-less-band/"&gt;https://9to5google.com/2026/03/31/fitbit-screen-less-band/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidcentral.com/wearables/fitbit/google-preparing-a-screenless-fitness-band-like-whoop"&gt;https://www.androidcentral.com/wearables/fitbit/google-preparing-a-screenless-fitness-band-like-whoop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomsguide.com/wellness/fitness-trackers/google-just-gave-us-a-sneak-peek-of-its-screenless-fitbit-band-and-whoop-should-be-worried"&gt;https://www.tomsguide.com/wellness/fitness-trackers/google-just-gave-us-a-sneak-peek-of-its-screenless-fitbit-band-and-whoop-should-be-worried&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hypebeast.com/2026/4/steph-curry-teases-googles-screenless-fitbit-fitness-band"&gt;https://hypebeast.com/2026/4/steph-curry-teases-googles-screenless-fitbit-fitness-band&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fcb30c1e-2f13-598d-93c6-b0d61f40292a</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:18 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://9to5google.com/2026/03/31/fitbit-screen-less-band/</link>
+      <enclosure url="https://9to5google.com/wp-content/uploads/sites/4/2026/03/Fitbit-band-Steph-Curry-1.jpg?quality=82&amp;strip=all&amp;w=621" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 苹果确认用 Intel 18A 代工入门级 M 芯片：十年来首次不完全依赖台积电</title>
+      <description>&lt;p&gt;苹果与 Intel Foundry 的合作从传闻变成了实锤。据 Tom's Hardware 和供应链分析师郭明錤综合报道，苹果已拿到 Intel &lt;strong&gt;18A-P 工艺&lt;/strong&gt;的 PDK 0.9.1GA 版本，测试结果「符合预期」，正在等待 1.0 正式版。如果一切顺利，Intel 将从 2027 年 Q2-Q3 开始为苹果代工入门级 M 系列处理器，首批用于 MacBook Air 和 iPad Pro，年出货量预计 1500-2000 万颗。&lt;/p&gt;
+
+&lt;p&gt;这是自 2016 年苹果离开三星代工后，首次出现一个真正可行的台积电替代方案。Intel 18A 采用 &lt;strong&gt;RibbonFET&lt;/strong&gt;（环绕栅极晶体管）和 &lt;strong&gt;PowerVia&lt;/strong&gt;（业界首个背面供电方案），理论上在同等工艺节点下有功耗优势。Intel 亚利桑那 Fab 52 已于今年一月量产，月产能约 4 万片晶圆。Panther Lake（Core Ultra Series 3）就是这条线出来的，评测多核性能比 M5 高 33%，证明了 18A 工艺的成熟度。&lt;/p&gt;
+
+&lt;p&gt;苹果的动机不止是备份。台积电近两年把越来越多产能分给了 NVIDIA 和 AI 芯片客户，苹果的议价能力和优先级都在下降。同时，美国关税政策持续给亚洲供应链加压——苹果已经在把 iPhone 组装从中国转向印度，芯片制造向美国本土倾斜是同一逻辑的延伸。用 Intel 美国工厂生产的芯片放进 Mac，在政治叙事上也有价值。&lt;/p&gt;
+
+&lt;p&gt;不过，别指望苹果把旗舰芯片也交给 Intel。A20 Pro、M5 Pro/Max 这类高性能芯片仍然会用台积电最先进的 2nm（N2）工艺。Intel 拿到的只是低端产品线，而且是 18A-P（性能优化版）而非基础版 18A。郭明錤也指出，NVIDIA 和 AMD 正在与 Intel Foundry 洽谈 2028 年开始的合作，这意味着 Intel 代工的产能分配在未来也会变得紧张。&lt;/p&gt;
+
+&lt;p&gt;对消费者的直接影响暂时有限——2027 年下半年你买到的某款 MacBook Air 里的芯片可能印着「Made in Arizona」而非「Made in Taiwan」，性能差异大概率可以忽略。但从产业格局看，这打破了台积电在先进制程代工领域十年来的独占地位，Intel Foundry 终于拿到了一张证明自己能服务顶级客户的入场券。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/semiconductors/intel-moves-closer-to-building-apples-entry-level-m-series-chips-on-18a"&gt;https://www.tomshardware.com/tech-industry/semiconductors/intel-moves-closer-to-building-apples-entry-level-m-series-chips-on-18a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/news/intel-poised-major-comeback-apple-112000204.html"&gt;https://finance.yahoo.com/news/intel-poised-major-comeback-apple-112000204.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://apple.gadgethacks.com/news/intel-to-make-apple-m-series-chips-by-2027-in-shocking-deal/"&gt;https://apple.gadgethacks.com/news/intel-to-make-apple-m-series-chips-by-2027-in-shocking-deal/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/01/06/intel-18a-core-ultra-series-3/"&gt;https://www.macrumors.com/2026/01/06/intel-18a-core-ultra-series-3/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6e047684-6888-54c5-a76d-3687ffcfec3a</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:47 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.tomshardware.com/tech-industry/semiconductors/intel-moves-closer-to-building-apples-entry-level-m-series-chips-on-18a</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/ADBoEQA3CwEZ7y6EuN4hKX-2560-80.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Galaxy S26 Ultra 四月固件实推 PWM 修复：软件能治硬件的病吗？</title>
+      <description>&lt;p&gt;三星在四月一日准时向韩国用户推送了 Galaxy S26 Ultra 的四月安全更新，固件版本 AZCO/AZCL。这不是一次普通的月度补丁——它包含了针对 &lt;strong&gt;Privacy Display 屏闪和眩晕问题&lt;/strong&gt;的 PWM 调光修复，这个问题从三月底开始被大量用户反馈，我们在 3 月 30 日的报道中详细追踪过。&lt;/p&gt;
+
+&lt;p&gt;回顾一下争议的核心：S26 Ultra 搭载了全球首款 Active Privacy Nano-Layer，把可视角度收窄到 30 度来防偷窥。代价是峰值亮度比 S25 Ultra 低 300 nit，更要命的是引发了屏幕闪烁和文字模糊，部分用户报告了头痛和恶心症状。这些投诉从韩国和欧洲首发市场迅速蔓延，社交媒体上的负面评价给三星造成了不小的公关压力。&lt;/p&gt;
+
+&lt;p&gt;四月更新的技术方案是重新校准 Snapdragon 8 Elite Gen 5 与显示驱动 IC 之间的 PWM 调光通信协议。简单说，就是让像素亮灭的过渡更平滑，减少人眼能感知到的闪烁。三星在韩国首发推送，预计其他市场将在本周陆续跟进。&lt;/p&gt;
+
+&lt;p&gt;但这里有一个根本性矛盾：Privacy Nano-Layer 带来的光学限制是物理层面的，软件只能优化调光算法，不能改变面板本身的光学特性。300 nit 的亮度差距不会因为固件更新而消失，户外可读性仍然会是短板。三星官方的临时建议——关闭自适应亮度、手动把滑块拉到 40% 以上——本身就说明问题不完全是软件层面的。&lt;/p&gt;
+
+&lt;p&gt;这个案例对整个手机行业都有警示意义。隐私屏幕是一个真实的用户需求，但三星选择在旗舰机上做全局默认而非可选模式，赌注下得太大了。如果四月补丁确实能显著改善体验，三星可以宣布「问题已解决」继续前进；如果用户反馈依然不佳，Galaxy S26 Ultra 的口碑会成为 2026 年手机市场最大的「创新翻车」案例之一。后续值得关注欧美市场用户在收到更新后的真实反馈。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/03/28/galaxy-s26-display-issues-fix-rolling-out-soon/"&gt;https://www.sammyfans.com/2026/03/28/galaxy-s26-display-issues-fix-rolling-out-soon/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammobile.com/news/april-2026-security-patch-debuts-with-new-galaxy-s26-update/"&gt;https://www.sammobile.com/news/april-2026-security-patch-debuts-with-new-galaxy-s26-update/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/04/01/april-2026-update-arrives-for-galaxy-s26-series/"&gt;https://www.sammyfans.com/2026/04/01/april-2026-update-arrives-for-galaxy-s26-series/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://adamlobo.tv/samsung-galaxy-s26-ultra-display-flicker-fix"&gt;https://adamlobo.tv/samsung-galaxy-s26-ultra-display-flicker-fix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0a561928-81c7-57bb-998b-4af587aa8eae</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:14 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.sammyfans.com/2026/03/28/galaxy-s26-display-issues-fix-rolling-out-soon/</link>
+      <enclosure url="https://www.sammyfans.com/wp-content/uploads/2026/03/Galaxy-S26-Ultra-Display-Fix.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

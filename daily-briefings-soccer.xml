@@ -4,7 +4,7 @@
     <title>足球赛事动态</title>
     <description>Per-topic feed: 足球赛事动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-soccer.xml</link>
-    <lastBuildDate>Sun, 05 Apr 2026 08:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 08:04:05 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-soccer.xml" type="application/rss+xml" />
@@ -436,6 +436,105 @@
       <category>soccer</category>
       <link>https://www.cbssports.com/soccer/news/italy-soccer-federation-president-new-coach/</link>
       <enclosure url="https://sportshub.cbsistatic.com/i/r/2026/04/03/d9da7334-509b-4ce9-84fa-c84c1ed97ce6/thumbnail/1200x675/7d81b2ce9f5688dc38a02329ea36d442/untitled-design-2026-04-03t213048-010.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ 欧冠八强首回合明日开战：皇马vs拜仁领衔，四场对决全面前瞻</title>
+      <description>&lt;p&gt;2025-26赛季欧冠淘汰赛进入最火爆的阶段——八强首回合将于4月7日和8日打响。四场对决各有看点，以下逐一拆解。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;皇马 vs 拜仁（4/7，伯纳乌）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是欧冠历史上第29次交锋。皇马近9次对阵拜仁保持不败（7胜2平），心理优势明显。但拜仁本赛季的攻击力堪称恐怖：16强两回合10-2横扫亚特兰大，过去9场比赛打入31球，场均2.9球冠绝欧洲。Harry Kane因脚踝伤势存疑，但拜仁在德甲领先多特蒙德9分，轮换空间充裕。&lt;/p&gt;
+&lt;p&gt;皇马这边，上轮西甲1-2输给马略卡，联赛落后巴萨7分，多少有些士气影响。主帅Arbeloa赛前表态很务实：「拜仁是目前欧洲状态最好的球队之一，想拿欧冠就得击败最强的对手。」Vinicius能否出场仍是关键变量。ESPN模型给拜仁18%夺冠概率，皇马10.2%，这或许是本轮最势均力敌的对决。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sporting CP vs 阿森纳（4/7，阿尔瓦拉德球场）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;阿森纳以联赛阶段全胜战绩排名第一，ESPN模型给出30%的夺冠概率，是本届欧冠最大热门。Sporting在16强上演了从0-3落后到总比分5-0逆转博德闪耀的神迹，防守端每次射门仅允许0.12 xG，效率惊人。不过整体实力差距明显——上赛季欧冠联赛阶段阿森纳就在里斯本5-1大胜过Sporting。预测总比分：阿森纳4-1。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;巴萨 vs 马竞（4/8，诺坎普）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;西甲内战，也是本赛季最具观赏性的对决之一。两队近期交手比分依次为4-4、4-2、3-1、4-0、3-0——从不缺进球。刚刚在上周末的西甲中，巴萨2-1力克马竞（Lewandowski第87分钟绝杀），Nicolás González吃到直红。Raphinha因腿筋伤势预计缺阵，这对巴萨右路进攻是个损失。历史上巴萨在欧冠淘汰赛中两次遭马竞淘汰（2013-14、2015-16），Simeone的球队在这个对手面前从不怯场。Lamine Yamal连续3场欧冠进球，是巴萨最锋利的武器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PSG vs 利物浦（4/8，王子公园）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;利物浦本赛季的境况令人唏嘘：联赛排名第五，足总杯0-4惨败曼城出局，欧冠成了唯一的救赎通道。而PSG在去年欧冠16强淘汰过利物浦并最终夺冠，心理优势在手。利物浦4月初赛程密集——4/4刚被曼城痛击，4天后就要客场挑战卫冕冠军，体能和心态都是考验。Salah在足总杯罚丢点球后状态成疑。&lt;/p&gt;
+
+&lt;p&gt;四场对决的胜者将在半决赛交叉：皇马/拜仁的赢家对阵Sporting/阿森纳的赢家，巴萨/马竞对阵PSG/利物浦。决赛定于5月30日在布达佩斯举行。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.espn.com/soccer/story/_/id/48244101/ucl-quarterfinal-predictions-preview-barcelona-real-madrid-arsenal-liverpool-bayern-munich-psg-bill-connelly"&gt;https://www.espn.com/soccer/story/_/id/48244101/ucl-quarterfinal-predictions-preview-barcelona-real-madrid-arsenal-liverpool-bayern-munich-psg-bill-connelly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://footballtoday.com/2026/04/05/real-madrid-vs-bayern-munich-match-preview-predicted-line-ups-team-news-and-prediction/"&gt;https://footballtoday.com/2026/04/05/real-madrid-vs-bayern-munich-match-preview-predicted-line-ups-team-news-and-prediction/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.maltafootball.com/2026/03/31/uefa-champions-league-quarter-final-preview-atletico-madrid-vs-fc-barcelona/"&gt;https://www.maltafootball.com/2026/03/31/uefa-champions-league-quarter-final-preview-atletico-madrid-vs-fc-barcelona/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b2b774f0-491f-5126-8ba3-75337ab9ed9d</guid>
+      <pubDate>Mon, 06 Apr 2026 08:02:49 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.espn.com/soccer/story/_/id/48244101/ucl-quarterfinal-predictions-preview-barcelona-real-madrid-arsenal-liverpool-bayern-munich-psg-bill-connelly</link>
+      <enclosure url="https://editorial.uefa.com/resources/02a3-203f83e53671-4725604737e9-1000/format/wide1/real_madrid_vs_bayern_munchen.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ Cole Palmer转会风云：Chelsea标价2亿镑「非卖品」，曼联却越来越有信心</title>
+      <description>&lt;p&gt;Cole Palmer的转会肥皂剧进入了新阶段。Chelsea官方立场依旧是「不卖」，合同签到2033年，标价从此前的1.7亿欧进一步抬升至2亿英镑（约2.35亿欧）。但围绕这位23岁英格兰国脚的转会传闻非但没有降温，反而在4月初出现了微妙转向。&lt;/p&gt;
+
+&lt;p&gt;前埃弗顿CEO Keith Wyness近日在Football Insider上公开表示，他「开始相信Palmer会加盟曼联」——此前他对这笔转会嗤之以鼻。转变的原因？Palmer据称对Chelsea近期的战术调整感到不满，尤其是与Nicolas Jackson（目前租借在拜仁）分开后，他的进攻效率明显下滑。本赛季25场13球的数据虽然依然亮眼，但与上赛季相比确实有所回落。&lt;/p&gt;
+
+&lt;p&gt;曼联方面的逻辑很清晰：Palmer是曼联青训出身的球迷，Bruno Fernandes逐渐老化需要长期继任者，而Palmer的技术特点——创造力强、能踢多个位置——恰好符合需求。Wyness称Palmer可能成为曼联的「一座奖杯式签约」。&lt;/p&gt;
+
+&lt;p&gt;问题在于钱。Chelsea在最新财报中曝出了创纪录的2.62亿英镑亏损，出售Palmer的利润（以4000万英镑买入价计算，即使7000万镑卖出也是暴利）可以大幅改善财务状况。这让「非卖品」的标签显得没那么绝对。Sky Sports报道Chelsea内部视Palmer为「untouchable」，但同时承认如果球队无缘下赛季欧冠（目前英超排名中游），球员本人的态度可能发生变化。&lt;/p&gt;
+
+&lt;p&gt;拜仁此前报价1亿欧被拒，曼联尚未提出正式报价但持续保持接触。夏窗的走向取决于两个变量：Chelsea的最终联赛排名，以及Palmer本人是否公开表态想走。一旦后者发生，2亿镑的标价就只是个谈判起点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.football365.com/news/cole-palmer-will-sign-man-utd-chelsea-star-unhappy-one-reason"&gt;https://www.football365.com/news/cole-palmer-will-sign-man-utd-chelsea-star-unhappy-one-reason&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.skysports.com/football/news/11095/13499644/cole-palmer-transfer-news-chelsea-view-england-international-as-untouchable-amid-reported-links-to-man-utd"&gt;https://www.skysports.com/football/news/11095/13499644/cole-palmer-transfer-news-chelsea-view-england-international-as-untouchable-amid-reported-links-to-man-utd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/03/chelsea-transfer-news-cole-palmer-man-utd-summer-2026-the-sun"&gt;https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/03/chelsea-transfer-news-cole-palmer-man-utd-summer-2026-the-sun&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8dbe7744-2a3a-5596-b72a-c0c022eaef13</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:13 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.football365.com/news/cole-palmer-will-sign-man-utd-chelsea-star-unhappy-one-reason</link>
+      <enclosure url="https://e0.365dm.com/26/03/1600x900/skysports-cole-palmer-chelsea_6888901.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ 意甲天王山今夜打响：那不勒斯vs米兰，Lukaku缺阵给争冠格局再添变数</title>
+      <description>&lt;p&gt;4月6日晚20:45，那不勒斯在迭戈·马拉多纳球场迎战AC米兰，这是本赛季意甲争冠的关键战役。积分榜上，国米69分领跑但近4轮仅拿到可怜的2分，势头急剧下滑；米兰63分紧追，那不勒斯62分仅差1分——今夜的结果将直接决定谁还有资格参与Scudetto的角逐。&lt;/p&gt;
+
+&lt;p&gt;那不勒斯的备战出了意外。Romelu Lukaku缺席训练后被排除出大名单，据报道面临纪律处分。加上David Neres受伤、Di Lorenzo和Rrahmani也无法出场，Conte手中的牌并不好打。好消息是De Bruyne和McTominay状态正佳，Hojlund将顶替Lukaku出任单箭头。主场14轮不败（10胜4平）的纪录是那不勒斯最大的底气。&lt;/p&gt;
+
+&lt;p&gt;米兰这边相对健康。Matteo Gabbia因疝气手术缺阵，Rafael Leao刚从内收肌伤势恢复但不太可能首发，Loftus-Cheek回归需戴面罩。主帅预计排出3-5-2阵型，Pulisic和Nkunku搭档锋线，Modric坐镇中场——这位39岁老将的控场能力依然是米兰中场的定海神针。米兰客场战绩出色（9胜5平1负），是联赛最好的客场球队之一。&lt;/p&gt;
+
+&lt;p&gt;两队本赛季已交手两次，各赢一场：米兰联赛主场2-1，那不勒斯超级杯2-0。第三次交锋谁能笑到最后？如果米兰赢球，将把与国米的差距缩小到3分，同时甩开那不勒斯4分，三强格局变成双雄争霸。如果那不勒斯取胜，三队间的差距将压缩到极限——而接下来欧冠八强赛程的体能消耗，可能成为压垮某支球队的最后一根稻草。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sempremilan.com/preview-napoli-milan-2026-team-news-prediction"&gt;https://sempremilan.com/preview-napoli-milan-2026-team-news-prediction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.enforcethesport.com/blog/napoli-vs-ac-milan-key-serie-a-match-with-2026-title-implications"&gt;https://www.enforcethesport.com/blog/napoli-vs-ac-milan-key-serie-a-match-with-2026-title-implications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thehardtackle.com/round-up/2026/04/06/napoli-vs-ac-milan-preview-and-prediction-2/"&gt;https://thehardtackle.com/round-up/2026/04/06/napoli-vs-ac-milan-preview-and-prediction-2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a372243d-0822-59ac-bd08-e3ec635c2a5e</guid>
+      <pubDate>Mon, 06 Apr 2026 08:03:42 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://sempremilan.com/preview-napoli-milan-2026-team-news-prediction</link>
+      <enclosure url="https://icdn.sempremilan.com/wp-content/uploads/2026/04/image_1775380580393.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>⚽ De Zerbi热刺首训获球员「满分好评」：17名、30分、7场——三个数字定义保级生死局</title>
+      <description>&lt;p&gt;Roberto De Zerbi 4月3日在Hotspur Way完成了热刺主帅的首次训练课。据football.london的Alasdair Gold报道，一位资深球员私下用「outstanding」形容了这次训练，球队上下对训练的强度和质量给出了「rave reviews」。De Zerbi重点关注了Lucas Bergvall、Mathys Tel（伤愈复出）和Archie Gray三名年轻球员——这暗示他的重建思路会以年轻人为核心。&lt;/p&gt;
+
+&lt;p&gt;三个数字勾勒出De Zerbi接手的难度：热刺目前排名英超&lt;strong&gt;第17&lt;/strong&gt;，仅比降级区的西汉姆多&lt;strong&gt;1分（30分）&lt;/strong&gt;，剩余&lt;strong&gt;7场&lt;/strong&gt;比赛决定生死。自1977年以来，热刺从未降入过第二级别联赛——De Zerbi接手的是一个赌上俱乐部近50年顶级联赛历史的烂摊子。&lt;/p&gt;
+
+&lt;p&gt;他的合同细节也很有意思。五年长约，年薪1200-1500万英镑（英超第三高，仅次于Guardiola和Arteta），并且包含一个罕见的降级相关条款——据CaughtOffside报道，这是一个释放条款而非解约条款，意味着即使降级，De Zerbi也有权选择留下。他本人在4月2日的新闻发布会上已经明确表态：「无论发生什么，下赛季我都会是热刺的主教练。」&lt;/p&gt;
+
+&lt;p&gt;首战定在4月12日客场挑战桑德兰。在那之前，De Zerbi有整整9天的训练时间来灌输自己的战术理念。上一个从布莱顿转会过来的主帅是Graham Potter去Chelsea，结局人所共知。但De Zerbi的情况不同——他在布莱顿留下的是一套被全欧洲认可的控球体系，而非一地鸡毛。问题在于，7场比赛够不够让一群信心崩溃的球员学会踢他的足球？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.caughtoffside.com/2026/04/05/tottenham-players-rave-reviews-roberto-de-zerbi/"&gt;https://www.caughtoffside.com/2026/04/05/tottenham-players-rave-reviews-roberto-de-zerbi/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.caughtoffside.com/2026/04/01/relegation-clause-roberto-de-zerbi-tottenham-contract/"&gt;https://www.caughtoffside.com/2026/04/01/relegation-clause-roberto-de-zerbi-tottenham-contract/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.beinsports.com/en-us/soccer/premier-league/articles/de-zerbi-confirms-he-will-be-tottenham-boss-next-season-no-matter-what-2026-04-02"&gt;https://www.beinsports.com/en-us/soccer/premier-league/articles/de-zerbi-confirms-he-will-be-tottenham-boss-next-season-no-matter-what-2026-04-02&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a1a12dee-e7b6-5f22-ab7c-c4c688c02b63</guid>
+      <pubDate>Mon, 06 Apr 2026 08:04:05 +0000</pubDate>
+      <category>soccer</category>
+      <link>https://www.caughtoffside.com/2026/04/05/tottenham-players-rave-reviews-roberto-de-zerbi/</link>
+      <enclosure url="https://icdn.caughtoffside.com/wp-content/uploads/2026/04/COS-FeaturedHero-Image-Templates-2026-04-05T155406.462-1200x722.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
