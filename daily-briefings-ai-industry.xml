@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:04:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:03:13 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -533,6 +533,80 @@
       <category>ai-industry</category>
       <link>https://influencermagazine.uk/2026/04/deepseek-v4-ai-model-set-to-run-on-huawei-chips-amid-chinas-push-for-tech-independence/</link>
       <enclosure url="https://influencermagazine.uk/wp-content/uploads/2026/04/image-12-scaled.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Q2 2026 前所未有的前沿模型混战：DeepSeek V4、GPT-5.5、Grok 5 同期发布</title>
+      <description>&lt;p&gt;AI 行业正在迎来有史以来竞争最密集的一个季度。三个前沿模型——DeepSeek V4、OpenAI GPT-5.5（代号 Spud）、xAI Grok 5——全部瞄准 2026 年 Q2 的发布窗口，再加上 Anthropic Claude Mythos 和 Google Gemini 3.2 也可能在同期亮相，Q2 有可能出现五款前沿模型同时接受社区检验的空前局面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DeepSeek V4&lt;/strong&gt; 是三者中最先明确时间线的。这款1万亿参数 MoE 模型（37B 活跃参数）预计4月下半月发布，定价约 $0.30/百万 token，Apache 2.0 开源。它的战略意义不在于参数规模本身，而在于这是第一个完全为华为 Ascend 和寒武纪芯片优化的前沿模型——中国 AI 「平行技术栈」从概念走向了实战验证。SWE-bench Verified 预期 80%+，上下文窗口100万 token，内置 Engram 条件记忆系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GPT-5.5 Spud&lt;/strong&gt; 于3月24日完成预训练，Sam Altman 称「几周内」发布，4-5月是最可能的窗口。Greg Brockman 透露「这个模型里装了两年的研究成果，不是增量迭代，而是思考模型开发方式的根本改变」。数学家 Terence Tao 已参与数学推理测试。OpenAI 尚未确认最终是叫 GPT-5.5 还是 GPT-6——命名取决于内部对跨代幅度的评估。SWE-bench 预期 85%+，但定价估计在 $15-25/百万 token，是 DeepSeek V4 的50-80倍。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grok 5&lt;/strong&gt; 是参数量最大的选手：6万亿参数 MoE，在 Memphis 的 Colossus 2（1 GW，4月扩至 1.5 GW）上训练，纯 Nvidia GPU 架构。功能亮点包括动态 agent 派生、跨会话持久记忆、MoE 路由实现跨领域专业化。但 xAI 已被 SpaceX 吞并后团队流失严重，11位联合创始人全部离开，从 Cursor 和 Mistral 重新招人。Q1 截止日期已跳票，5-6月发布更现实。SWE-bench 预期 83%+。&lt;/p&gt;
+
+&lt;p&gt;三款模型的发布窗口重叠意味着社区将第一次在同一周甚至同一天内对比多个前沿模型。定价差距尤其值得关注：DeepSeek V4 的 $0.30/M token 对比 Spud 的 $15-25/M token，差了两个数量级。如果 V4 的性能真能接近 Spud（SWE-bench 差距仅5个百分点），那 OpenAI 的企业定价能力将面临前所未有的压力——而 OpenAI Q4 IPO 的估值叙事恰恰建立在 API 收入增长上。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.digitalapplied.com/blog/deepseek-v4-gpt-5-5-grok-5-ai-models-q2-2026"&gt;https://www.digitalapplied.com/blog/deepseek-v4-gpt-5-5-grok-5-ai-models-q2-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://primeaicenter.com/gpt-5-5-review/"&gt;https://primeaicenter.com/gpt-5-5-review/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://findskill.ai/blog/deepseek-v4-release-date-specs/"&gt;https://findskill.ai/blog/deepseek-v4-release-date-specs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fintechweekly.com/news/spacex-ipo-xai-valuation-ai-layer-rebuild-2026"&gt;https://www.fintechweekly.com/news/spacex-ipo-xai-valuation-ai-layer-rebuild-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">473333d6-23d8-5d4f-a71a-d3a42361f45f</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:24 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.digitalapplied.com/blog/deepseek-v4-gpt-5-5-grok-5-ai-models-q2-2026</link>
+      <enclosure url="https://www.digitalapplied.com/blog/deepseek-v4-gpt-5-5-grok-5-ai-models-q2-2026/opengraph-image" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 微软发布三款自研 MAI 模型：语音、转写、图像全线出击，OpenAI 依赖开始松绑</title>
+      <description>&lt;p&gt;4月2日，微软 AI 部门（由 Mustafa Suleyman 领导）发布了三款自研基础模型：&lt;strong&gt;MAI-Transcribe-1&lt;/strong&gt;（语音转文字）、&lt;strong&gt;MAI-Voice-1&lt;/strong&gt;（语音生成）和 &lt;strong&gt;MAI-Image-2&lt;/strong&gt;（图像生成），全部上线 Microsoft Foundry 和 MAI Playground。这是微软 AI 部门成立仅六个月后的首批重大成果，释放的信号很明确：微软正在系统性地构建自己的模型能力，不再把所有鸡蛋放在 OpenAI 的篮子里。&lt;/p&gt;
+
+&lt;p&gt;三款模型各有一个核心卖点。MAI-Transcribe-1 支持25种主流语言的语音转写，批处理速度是 Azure 现有 Fast 方案的 2.5 倍，起价 $0.36/小时。MAI-Voice-1 主打情感保真和说话人身份保持，1秒生成60秒音频，起价 $22/百万字符。MAI-Image-2 图像生成速度翻倍，文本输入 $5/百万 token，图像输出 $33/百万 token。&lt;/p&gt;
+
+&lt;p&gt;这些模型并非直接对标 GPT-5 级别的通用大模型——它们瞄准的是多模态能力中的垂直环节。但战略含义比技术参数更重要。过去三年，微软在 AI 模型层几乎完全依赖 OpenAI，自身角色局限于基础设施和分发。Suleyman 2024年加入后组建的 MAI 团队，目标就是改变这个局面。TechCrunch 的报道直接用了「直接挑战 OpenAI 和 Google」的标题。&lt;/p&gt;
+
+&lt;p&gt;时机也耐人寻味。OpenAI 的企业 API 市场份额已从50%腰斩至25%，而 OpenAI 正准备 Q4 IPO。微软在这个节点推自研模型，至少说明两件事：一、微软对 OpenAI 的独家依赖正在解耦；二、企业 AI 市场正在从「一家通吃」走向多供应商格局。微软 Azure 同时提供 OpenAI 模型和自研 MAI 模型，让企业客户有了选择权——这对 OpenAI 的定价权是个潜在威胁。&lt;/p&gt;
+
+&lt;p&gt;接下来值得追踪的是 MAI 团队是否会进入通用语言模型领域。如果微软在 2026 下半年推出自己的文本大模型，那与 OpenAI 的关系将从「独家合作」彻底转为「竞合」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/"&gt;https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/"&gt;https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google"&gt;https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8b8a2fd8-e1ae-5c4e-82fa-71f4474df636</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:48 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2207890426.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Nvidia H200 对华出口重启：Jensen GTC 宣布已收到中国客户订单，制造线重新开动</title>
+      <description>&lt;p&gt;Nvidia CEO 黄仁勋在 GTC 2026 上确认：公司已收到中国客户的 H200 采购订单，并且面向中国市场的制造线正在重启。这标志着持续大半年的 H200 对华出口僵局出现实质性突破。&lt;/p&gt;
+
+&lt;p&gt;回顾这条线的来龙去脉。2025年4月，美国出口管制规则要求 Nvidia 暂停对华 AI 芯片销售。2025年12月，Trump 批准 Nvidia 向中国出售 H200（非最高端的 Blackwell），条件是美国政府抽取25%的销售分成。2026年1月底，北京批准了第一批进口许可——字节跳动、阿里巴巴、腾讯三家合计40万颗 H200 的采购资格。但此后数月，实际交付一直卡在两端：美国这边的第三方实验室逐批验证流程缓慢，中国这边因为许可条件过于苛刻，客户迟迟没有把批准转化为正式采购单。&lt;/p&gt;
+
+&lt;p&gt;黄仁勋的 GTC 表态打破了这个僵局。「H200 将在数周内进入中国市场，」他在接受 Punchbowl News 采访时说。他同时透露，明年初将争取 Blackwell 芯片的对华出口许可——这意味着 Nvidia 的中国策略是分梯队推进：先用 H200 重建供应关系，再用 Blackwell 扩大份额。&lt;/p&gt;
+
+&lt;p&gt;但有几个约束条件限制了这笔交易的战略意义。H200 的出口有50%的量限（相对美国国内销售量），每批货物需第三方实验室验证后才能放行。而且中国三大云厂商并没有在等 Nvidia——阿里、字节、腾讯同时在大量预订华为 Ascend 芯片（把价格推高了20%），DeepSeek V4 更是直接为华为芯片从底层优化。一个「平行技术栈」已经在成型。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;H200 的回归对 Nvidia 的财报有短期利好&lt;/strong&gt;（中国市场占 Nvidia 数据中心收入的20%+），但对中国 AI 生态的长期架构影响有限。真正的分水岭不在于 H200 能不能卖进去，而在于当 DeepSeek V4 在华为芯片上跑出接近前沿的性能后，中国大厂是否还有动力为 Nvidia 芯片支付溢价并接受苛刻的出口条件。黄仁勋争取 Blackwell 出口许可的时间窗口，可能比他预期的更短。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/nvidia-has-received-pos-from-chinese-customers"&gt;https://www.tomshardware.com/tech-industry/nvidia-has-received-pos-from-chinese-customers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.datacenterdynamics.com/en/news/china-approves-nvidia-h200-purchases-for-bytedance-alibaba-and-tencent-report/"&gt;https://www.datacenterdynamics.com/en/news/china-approves-nvidia-h200-purchases-for-bytedance-alibaba-and-tencent-report/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html"&gt;https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sherwood.news/markets/nvidia-rises-reports-china-approved-sale-400000-h200-chips-bytedance-alibaba-tencent-chinese-tech-firms/"&gt;https://sherwood.news/markets/nvidia-rises-reports-china-approved-sale-400000-h200-chips-bytedance-alibaba-tencent-chinese-tech-firms/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fa46f0b7-0893-55c4-b09d-da923705964d</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:13 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.tomshardware.com/tech-industry/nvidia-has-received-pos-from-chinese-customers</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/DimDToQWWU7bkBdu9vFGoQ-1600-80.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:04:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:04:12 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -514,6 +514,102 @@
       <category>tech-products</category>
       <link>https://www.sammyfans.com/2026/03/28/galaxy-s26-display-issues-fix-rolling-out-soon/</link>
       <enclosure url="https://www.sammyfans.com/wp-content/uploads/2026/03/Galaxy-S26-Ultra-Display-Fix.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 苹果空运 600 吨 iPhone 从印度入美：一场价值 20 亿美元的关税闪避战</title>
+      <description>&lt;p&gt;三月底到四月初，苹果包下六架货运飞机，从印度向美国空运了约 &lt;strong&gt;150 万部 iPhone&lt;/strong&gt;，总重约 600 吨，货值近 20 亿美元——创下苹果从印度单次发货的历史纪录。整个行动的目的只有一个：赶在关税窗口关闭前，把尽可能多的印度产 iPhone 送进美国海关。&lt;/p&gt;
+
+&lt;p&gt;时间线很紧。4 月 2 日特朗普宣布对印度加征 27% 关税，4 月 9 日又宣布暂缓 90 天——但在此之前没人知道会不会暂缓。苹果花了八个月游说印度机场管理部门，把 iPhone 的海关通关时间从 30 小时压缩到 6 小时，这项基础设施投入在此刻兑现了回报。&lt;/p&gt;
+
+&lt;p&gt;背景是中国产品面临的关税已高达 125%。UBS 测算过，如果这些关税完全转嫁给消费者，一部 iPhone 16 Pro Max 256GB 的零售价将从 1199 美元飙升到 1999 美元。苹果当然不可能这么做，所以供应链转移成了核心策略。目前印度已承担全球 iPhone 产量的约 20-25%，苹果的目标是 2026 年 Q3 前将美国市场 iPhone 的印度产比例提升到 30-40%，从而在秋季 iPhone 18 发布时把关税敞口控制在可接受范围内。&lt;/p&gt;
+
+&lt;p&gt;这套逻辑也解释了苹果为什么同时在加码美国本土投资——此前宣布的四年 5000 亿美元投资计划中，包括得克萨斯州的服务器工厂和翻倍至 100 亿美元的先进制造基金。两线并行：印度做组装出口，美国做 AI 基础设施和研发，中国逐步降权但不会彻底脱钩。&lt;/p&gt;
+
+&lt;p&gt;短期内，iPhone 18 的美国定价仍是最大悬念。多数分析师预测涨幅在 50-100 美元之间，但如果 90 天暂缓期结束后印度关税真的落地 27%，涨幅可能更大。苹果在 Q2 财报中已预警下季度将面临 11 亿美元的关税成本。Tim Cook 的供应链魔术还能不能顶住，九月见分晓。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/apple-airlifts-iphones-india-tariffs/"&gt;https://www.cbsnews.com/news/apple-airlifts-iphones-india-tariffs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://indian.community/news/apple-airlifts-1-5-million-iphones-from-india-to-dodge-trumps-tariff-surge/"&gt;https://indian.community/news/apple-airlifts-1-5-million-iphones-from-india-to-dodge-trumps-tariff-surge/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kiplinger.com/personal-finance/shopping/apple-manufacturing-tariffs-iphone-upgrade"&gt;https://www.kiplinger.com/personal-finance/shopping/apple-manufacturing-tariffs-iphone-upgrade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">96faa2ea-7d2a-5b7c-ace1-d74d3babb76b</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:51 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.cbsnews.com/news/apple-airlifts-iphones-india-tariffs/</link>
+      <enclosure url="https://www.cbsnews.com/assets/show/60Minutes/images/2022/1024/60_apple_iphone_factory_india.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Galaxy S26 Ultra 四月更新全球推送：3x 相机模糊修了，但三星不肯承认</title>
+      <description>&lt;p&gt;跟踪 Galaxy S26 Ultra 显示争议线程的后续更新——四月固件（版本号 S948BXXS2AZCL，约 560MB）上周在韩国首发后，本周已推送至美国、欧洲、印度等主要市场。&lt;/p&gt;
+
+&lt;p&gt;这次更新有个微妙的矛盾。三星的官方 changelog 只写了一行"安全性改进"，但三星社区版主在回复用户投诉时明确表示"最新版本已修复 3x 相机模糊问题"。也就是说，三星事实上承认了 3x 长焦出片发糊的 bug，也确实做了修复，但拒绝在正式更新日志中提及。Android Authority 用"there's a catch"做标题——catch 就是这个：你永远不知道三星到底修了什么。&lt;/p&gt;
+
+&lt;p&gt;回顾整个 S26 Ultra 发售以来的显示问题时间线：Privacy Nano-Layer 导致的 PWM 闪烁和亮度差距是硬件层面的物理限制，三星在三月底已经通过重新校准 Snapdragon 8 Elite Gen 5 与显示驱动的通信协议做了软件层面的缓解。四月更新是否进一步优化了 PWM 部分，changelog 没说，用户社区的反馈也尚不充分。目前韩国用户的早期报告倾向正面——有人称屏幕低亮度下的闪烁感有所缓解，但也有人表示"和之前没区别"。&lt;/p&gt;
+
+&lt;p&gt;3x 相机问题是另一回事。这不是 Privacy Layer 造成的，而是 3 倍变焦镜头在特定场景下的处理算法有 bug。Samsung Members 论坛上的投诉从三月中旬开始集中爆发，用户贴出对比照片显示 3x 出片明显比 1x 裁切更糊。三星在大约两周内给出了修复，速度不算慢。&lt;/p&gt;
+
+&lt;p&gt;对于一部售价 1299 美元的旗舰来说，S26 Ultra 的发售体验称不上顺利。硬件层面的 Privacy Display 妥协已经回不去（除非换屏），但软件层面的打补丁至少在持续推进。下一个关注点是欧美用户在新固件上跑一到两周后的反馈——如果 PWM 敏感人群的头痛和眼疲劳症状确实减轻，这个争议就可以从"产品缺陷"降级为"取舍争论"。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.androidauthority.com/samsung-galaxy-s26-april-2026-update-3655017/"&gt;https://www.androidauthority.com/samsung-galaxy-s26-april-2026-update-3655017/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/04/06/samsung-galaxy-s26-april-2026-update/"&gt;https://www.sammyfans.com/2026/04/06/samsung-galaxy-s26-april-2026-update/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://r1.community.samsung.com/t5/galaxy-s/s26-ultra-update/m-p/37548712"&gt;https://r1.community.samsung.com/t5/galaxy-s/s26-ultra-update/m-p/37548712&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">504797c1-394a-5419-a8d8-8fcf08a7b19f</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:23 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.androidauthority.com/samsung-galaxy-s26-april-2026-update-3655017/</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/galaxy-s26-ultra.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Snapdragon X2 Elite 笔记本正式开卖：HP OmniBook Ultra 14 比 Intel 版便宜 300 美元</title>
+      <description>&lt;p&gt;Arm 架构 Windows 笔记本进入第二代芯片周期。HP OmniBook Ultra 14（G2）的 Snapdragon X2 Elite 版本已在 Best Buy 上架，起售价 2049 美元——同配置的 Intel Core Ultra 9 386H 版本要 2339 美元，差价接近 300 美元。这是 &lt;strong&gt;Snapdragon X2 Elite&lt;/strong&gt; 芯片首次在量产笔记本中与 Intel Panther Lake 正面对标。&lt;/p&gt;
+
+&lt;p&gt;硬件规格相当扎实。X2 Elite（X2E-90）是一颗 18 核心 SoC，最高加速到 5GHz，集成 GPU 频率 1.7GHz，NPU 算力 80 TOPS——超过了 Intel 和 AMD 当前任何移动端 NPU。屏幕是 14 英寸 3K OLED 触控屏，峰值亮度 1100 nit。32GB LPDDR5x-9523 内存搭配 1TB PCIe 5.0 SSD，最高可选 64GB/2TB。整机重量 1.28kg，厚度 1.06cm，通过 11 项 MIL-STD-810 军规测试。&lt;/p&gt;
+
+&lt;p&gt;续航是 Arm 架构的传统优势。实测混合使用场景下超过 10 小时，轻度使用可以推到 15 小时。这个数字与上一代 Snapdragon X Elite 相比没有质的飞跃，但考虑到性能提升幅度（单核 +35%，GPU +39%），能耗比的进步是实实在在的。&lt;/p&gt;
+
+&lt;p&gt;Qualcomm 在 CES 2026 上同步发布了面向主流市场的 X2 Plus（10 核/6 核，同样 TSMC 3nm），预计 Q2 会有一批 700 美元价位段的笔记本上市。加上三星可能在下一代 Galaxy Book 中采用 X2 系列芯片，Arm Windows 生态的覆盖面正在从高端向中端扩展。&lt;/p&gt;
+
+&lt;p&gt;值得关注的兼容性问题：Windows on Arm 的应用兼容层（Prism）在第一代产品上仍有不少软件跑不起来或性能打折的情况。Qualcomm 和微软都没有公布 X2 系列上 Prism 的具体改进细节，实际体验还要等更多评测出炉。对于开发者和需要跑特定 x86 软件的用户，这仍然是购买前的核心考量。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.windowscentral.com/hardware/hp/hp-omnibook-ultra-14-g2-x2-elite-available-intel"&gt;https://www.windowscentral.com/hardware/hp/hp-omnibook-ultra-14-g2-x2-elite-available-intel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/laptops/hps-new-omnibook-ultra-14-gets-panther-lake-and-snapdragon-x2-options-inside-exclusive-variant-of-qualcomm-chip-has-85-tops"&gt;https://www.tomshardware.com/laptops/hps-new-omnibook-ultra-14-gets-panther-lake-and-snapdragon-x2-options-inside-exclusive-variant-of-qualcomm-chip-has-85-tops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.notebookcheck.net/HP-releases-new-14-inch-laptops-with-up-to-64-GB-RAM-and-1-100-nit-OLED-display.1265149.0.html"&gt;https://www.notebookcheck.net/HP-releases-new-14-inch-laptops-with-up-to-64-GB-RAM-and-1-100-nit-OLED-display.1265149.0.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bbe7d435-3f8c-5448-92d2-8557d012c19c</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:48 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.windowscentral.com/hardware/hp/hp-omnibook-ultra-14-g2-x2-elite-available-intel</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/hp-omnibook-ultra-14-2026.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 任天堂关税诉讼被自动冻结：等最高法院裁完，Switch 2 的价格悬念继续</title>
+      <description>&lt;p&gt;三月初任天堂美国向美国国际贸易法院（CIT）提起的关税诉讼有了新进展——但进展是"暂停"。法院根据程序规则自动冻结了诉讼，因为 CIT 已将一起更早的关税案件提交至最高法院审理，任天堂案必须等待该案判决结果。&lt;/p&gt;
+
+&lt;p&gt;回顾一下来龙去脉。2025 年 4 月 2 日特朗普以贸易赤字为由宣布国家紧急状态，对外国进口商品征收全面关税。任天堂在当时被迫推迟了 Switch 2 配件的预售（从 4 月 9 日推到 4 月 24 日），最终选择抬高配件价格而非主机价格。2026 年 3 月 6 日，任天堂正式起诉美国政府，要求退还 &lt;strong&gt;2000 亿日元&lt;/strong&gt;（约 13 亿美元）已缴关税及利息，理由是这些关税属于违法征收。&lt;/p&gt;
+
+&lt;p&gt;任天堂不是一个人在战斗。最高法院此前已经裁定特朗普的紧急关税违法，超过 1000 家公司在排队追讨税款。Nintendo Life 的分析认为任天堂胜诉概率不低，但即使赢了，也改变不了关税政策本身——行政部门完全可以换一个法律依据重新加征。&lt;/p&gt;
+
+&lt;p&gt;对消费者来说，实际影响集中在 Switch 2。主机本体 449 美元的定价目前没有变化，任天堂还是选择自己吃掉了关税成本。游戏方面已经确认数字版和实体版拆分定价——实体版因为包含物理卡带和运输成本，预计比数字版贵 10-20 美元。这种定价策略其实是关税压力下的产物：能省的环节都省了，不能省的就让消费者在数字和实体之间做选择。&lt;/p&gt;
+
+&lt;p&gt;诉讼冻结意味着短期内不会有退款结果。对任天堂的财务影响取决于最高法院对前案的裁决时间——如果拖到 2026 年底甚至 2027 年，这笔钱就要在资产负债表上挂很久。不过对玩家来说，6 月 5 日 Switch 2 发售的计划不受影响，该买还是可以买。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nintendolife.com/news/2026/03/nintendos-lawsuit-against-the-u-s-government-is-automatically-paused"&gt;https://www.nintendolife.com/news/2026/03/nintendos-lawsuit-against-the-u-s-government-is-automatically-paused&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay"&gt;https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gamesradar.com/platforms/nintendo/nintendo-sues-us-government-over-illegally-collected-tariffs-that-delayed-switch-2-pre-orders-demands-refund-with-interest/"&gt;https://www.gamesradar.com/platforms/nintendo/nintendo-sues-us-government-over-illegally-collected-tariffs-that-delayed-switch-2-pre-orders-demands-refund-with-interest/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a8ea5dba-d910-5b31-9f56-a6f3f9e63651</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:12 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.nintendolife.com/news/2026/03/nintendos-lawsuit-against-the-u-s-government-is-automatically-paused</link>
+      <enclosure url="https://images.nintendolife.com/eb7b9e0e73a84/switch-2.large.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:03:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:05:31 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -451,6 +451,81 @@
       <pubDate>Mon, 06 Apr 2026 08:03:59 +0000</pubDate>
       <category>fitness-science</category>
       <link>https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1567438/full</link>
+    </item>
+    <item>
+      <title>💪 运动多消耗的卡路里，身体到底会不会偷偷补回来？两派顶刊正面交锋</title>
+      <description>&lt;p&gt;你每天多跑5公里，身体是老老实实多烧了那些热量，还是会暗中调低基础代谢来"找补"？这个问题在运动科学界争了快十年，2025-2026年间两篇重量级论文终于把火药味拉满了。&lt;/p&gt;
+
+&lt;p&gt;先说挑战者。Virginia Tech的Kristen Howard团队2025年10月在&lt;strong&gt;PNAS&lt;/strong&gt;发表了一项75人研究（年龄19-63岁，从久坐族到超马跑者都有），用双标水法（doubly labeled water）追踪了两周的真实能量消耗。结论非常干脆：体力活动与总能量消耗呈正线性关系，零补偿迹象。免疫标志物、甲状腺功能、生殖激素——这些理论上可能被"压缩"的生理过程全没受影响。最活跃的受试者甚至久坐时间更少，跟补偿假说预测的方向完全相反。&lt;/p&gt;
+
+&lt;p&gt;然后是守擂方。Duke大学的Herman Pontzer——"受限能量消耗模型"（Constrained Energy Expenditure Model）的提出者——2026年2月在&lt;strong&gt;Current Biology&lt;/strong&gt;联合Trexler发表了全面回应。他们汇总了9项跨文化研究和多个运动干预试验，核心数据是：有氧运动干预后，实际测到的总能量消耗增幅只有加法模型预测值的约30%。换句话说，你跑步消耗了500大卡，身体真正多花的可能只有150大卡左右。更有意思的是，论文指出&lt;strong&gt;力量训练的补偿效应似乎小于有氧训练&lt;/strong&gt;，而有氧运动配合节食时补偿反而会放大。&lt;/p&gt;
+
+&lt;p&gt;Pontzer在社交媒体上对Howard的研究给出了一个值得深思的解释：他自己的数据很多来自Hadza猎人采集者等每天面对感染和寄生虫的人群——光免疫系统就要消耗300-500大卡。在这种"免疫税"高的环境下，身体确实可能压缩免疫开支来给运动腾空间。而Howard的受试者是低感染负担的现代美国人，免疫系统本来就没烧多少。&lt;/p&gt;
+
+&lt;p&gt;对健身者的实际意义：如果你的目标是靠运动制造热量缺口来减脂，这场争论其实在说——在健康的现代生活条件下，你额外运动消耗的热量大概率是"实打实"的，不必过度担心身体偷偷补回来。但如果你在严格节食的同时大量有氧，Pontzer的数据提示补偿效应可能更明显，这也解释了为什么减脂期加太多有氧往往事倍功半。力量训练在这方面可能是更聪明的选择。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pnas.org/doi/10.1073/pnas.2519626122"&gt;https://www.pnas.org/doi/10.1073/pnas.2519626122&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cell.com/current-biology/abstract/S0960-9822(26)00064-3"&gt;https://www.cell.com/current-biology/abstract/S0960-9822(26)00064-3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2025/12/251228020012.htm"&gt;https://www.sciencedaily.com/releases/2025/12/251228020012.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">014db37c-323b-5034-a1ac-0627cd2741e7</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:44 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.pnas.org/doi/10.1073/pnas.2519626122</link>
+    </item>
+    <item>
+      <title>💪 靠墙静蹲降血压效果是跑步的两倍：30项研究的元分析给出最佳处方</title>
+      <description>&lt;p&gt;降血压最好的运动是什么？大多数人的直觉回答是跑步或快走。但北京体育大学Zhou Chengyu团队2025年在BMC Sports Science, Medicine and Rehabilitation发表的一项&lt;strong&gt;30项研究元分析&lt;/strong&gt;给出了一个让人意外的答案：等长收缩训练（Isometric Resistance Training, IRT）——也就是靠墙静蹲（wall sit）、平板支撑（plank）这类不涉及关节运动的"静力"练习。&lt;/p&gt;
+
+&lt;p&gt;具体数字：IRT平均降低收缩压7.31 mmHg，舒张压3.90 mmHg，平均动脉压5.94 mmHg。而此前British Journal of Sports Medicine的网络元分析显示，有氧训练的对应数字大约是4.49/2.53 mmHg。差距接近一倍。&lt;/p&gt;
+
+&lt;p&gt;更实用的发现在于最佳方案的具体参数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;靠墙静蹲效果最好&lt;/strong&gt;——收缩压降幅达9.84 mmHg，而握力器训练只有5.72 mmHg&lt;/li&gt;
+&lt;li&gt;最优频率是每周3-5次，每次14分钟（4组 x 2分钟收缩，中间休息2分钟）&lt;/li&gt;
+&lt;li&gt;强度存在剂量-反应关系：最大自主收缩力（MVC）每增加10%，收缩压额外降低约2 mmHg&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;调节因素方面，年龄、性别、是否用药、以及高血压分期都会影响效果。已经在服用降压药的患者依然可以从IRT中获益，但效果量稍小。&lt;/p&gt;
+
+&lt;p&gt;为什么等长收缩这么有效？机制可能跟血管受压后再灌注有关。等长收缩时肌肉持续紧张导致局部血管受压、血流减少；松开后血流恢复（反应性充血），这种反复的"压-放"循环被认为能改善内皮功能、降低外周阻力。这跟有氧运动通过心输出量适应来降压是完全不同的路径。&lt;/p&gt;
+
+&lt;p&gt;需要注意的是，这不意味着可以用靠墙静蹲替代所有运动。研究者明确建议IRT应该作为有氧和传统力量训练的补充，而不是替代品——有氧运动对心肺适能的益处是等长训练无法提供的。但对于时间有限、不喜欢跑步、或者因关节问题无法做动态运动的人，每天14分钟的靠墙静蹲可能是投入产出比最高的血压干预手段。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12357484/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12357484/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bmjgroup.com/static-isometric-exercise-such-as-wall-sits-best-for-lowering-blood-pressure/"&gt;https://bmjgroup.com/static-isometric-exercise-such-as-wall-sits-best-for-lowering-blood-pressure/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">359a98ec-f846-5a41-849a-2432d278148c</guid>
+      <pubDate>Tue, 07 Apr 2026 08:05:08 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12357484/</link>
+    </item>
+    <item>
+      <title>💪 老年人力量训练的悖论：力气涨了肌肉却没长——神经适应才是主角</title>
+      <description>&lt;p&gt;力量训练让你变强，肯定是因为肌肉长大了？对年轻人来说大致成立，但2025-2026年密集发表的几项元分析揭示了一个在老年人群中被严重低估的现象：肌少症（Sarcopenia）患者通过力量训练能显著提升力量和功能表现，但肌肉量几乎不变。&lt;/p&gt;
+
+&lt;p&gt;Frontiers in Public Health 2026年1月发表的一项元分析纳入了12项随机对照试验、518名患有肌少症的老年女性。结果显示力量训练显著改善了握力和下肢功能，但&lt;strong&gt;肌肉质量没有出现统计学显著的提升&lt;/strong&gt;。研究者的解释是：老年人早期的力量增长主要来自神经适应——运动单元募集效率提高、肌肉间协调改善、拮抗肌共激活减少——而不是肌纤维横截面积的增加。&lt;/p&gt;
+
+&lt;p&gt;BMC Geriatrics 2025年的另一篇剂量-反应元分析进一步细化了处方参数。对肌少症老年人来说，最优方案是：每周2-3次，中等强度（约50% 1RM），训练周期至少12周。但有趣的是，传统上被认为"必须高强度才能有效"的观点在这个人群中并不成立。Bayesian网络元分析显示，中等强度每周两次就足以显著改善握力，最低有效剂量约600 MET-min/周。&lt;/p&gt;
+
+&lt;p&gt;这几项研究还揭示了一个实操困境：现有的肌少症诊断标准（EWGSOP2、AWGS）都把肌肉量下降作为核心指标，但如果训练能改善功能却不改善肌肉量，那我们是不是在用错误的指标衡量干预效果？Nature旗下Scientific Reports 2024年的一项研究已经开始呼吁将功能性指标（步速、起坐测试）提升到与肌肉量同等重要的评估地位。&lt;/p&gt;
+
+&lt;p&gt;对于正在帮家里长辈设计训练计划的读者：不要因为"肌肉没长大"就认为训练没用。对60岁以上的人来说，神经系统适应本身就是巨大的收益——它意味着更好的平衡、更快的反应、更低的跌倒风险。力量训练12周后握力改善、从椅子上站起来更快，这些才是真正影响生活质量的指标，比臂围增加1厘米重要得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"&gt;https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1186/s12877-025-06559-4"&gt;https://link.springer.com/article/10.1186/s12877-025-06559-4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1007/s40520-025-03235-w"&gt;https://link.springer.com/article/10.1007/s40520-025-03235-w&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b9615bbe-580f-556f-9986-17155f227477</guid>
+      <pubDate>Tue, 07 Apr 2026 08:05:31 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full</link>
     </item>
   </channel>
 </rss>

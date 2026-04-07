@@ -4,7 +4,7 @@
     <title>LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:05:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:04:02 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
@@ -454,6 +454,132 @@
       <category>llm-agents</category>
       <link>https://arxiv.org/abs/2509.25084</link>
       <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 CoAct-1：GUI 操作 + 代码执行双 Agent 联手，OSWorld 首破 60% 大关</title>
+      <description>&lt;p&gt;Salesforce Research 的 CoAct-1 在 OSWorld 基准上拿到 &lt;strong&gt;60.76%&lt;/strong&gt; 的成功率，是第一个突破 60% 门槛的 Computer Use Agent（CUA）。相比之下，上次报道的 UiPath Screen Agent 搭配 Claude Opus 4.5 跑到 67.1%（OSWorld-Verified），但 CoAct-1 的意义不在绝对分数——而在架构思路的转变。&lt;/p&gt;
+
+&lt;p&gt;传统 Computer Use Agent 做法是让模型「看屏幕、点鼠标」，一步一截图地完成任务。CoAct-1 不这么玩。它设计了一个三角色架构：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orchestrator&lt;/strong&gt;：接到任务后拆解成子步骤，动态决定每一步交给谁执行&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GUI Operator&lt;/strong&gt;：负责视觉界面交互，点击、输入、滚动&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programmer&lt;/strong&gt;：直接写 Python 或 Bash 脚本执行，跳过 GUI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;关键洞察：很多桌面操作——文件管理、数据处理、批量修改——用 GUI 一步步点是极其低效的，但写几行脚本就能搞定。CoAct-1 把「代码执行」提升为和「GUI 操作」平级的 action type，由 Orchestrator 根据任务性质灵活调度。&lt;/p&gt;
+
+&lt;p&gt;效果体现在效率上：CoAct-1 平均完成一个任务只需 &lt;strong&gt;10.15 步&lt;/strong&gt;，而纯 GUI Agent 通常要 15 步。在 VS Code 任务（78.26%）、电子表格（70.21%）和跨应用工作流（47.88%）这三个最适合代码介入的场景，Programmer 模块的增益尤其明显。WindowsAgentArena 上也跑到 52.5%。&lt;/p&gt;
+
+&lt;p&gt;这篇工作指向一个更大的趋势：未来 Computer Use 不会只是「模拟人类操作 GUI」，而是 GUI 交互与程序化执行的混合体。就像人类熟练用户遇到重复操作也会打开终端写脚本一样，Agent 也应该具备这种判断力。Holo3（78.85%）和 GPT-5.4（75.0%）目前分数更高，但它们走的是更大模型+更强视觉理解的路线；CoAct-1 的贡献在于证明架构创新同样能带来质的飞跃。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://arxiv.org/abs/2508.03923'&gt;arXiv 2508.03923&lt;/a&gt; | &lt;a href='https://venturebeat.com/ai/salesforces-new-coact-1-agents-dont-just-point-and-click-they-write-code-to-accomplish-tasks-faster-and-with-greater-success-rates'&gt;VentureBeat 报道&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2508.03923"&gt;https://arxiv.org/abs/2508.03923&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://venturebeat.com/ai/salesforces-new-coact-1-agents-dont-just-point-and-click-they-write-code-to-accomplish-tasks-faster-and-with-greater-success-rates"&gt;https://venturebeat.com/ai/salesforces-new-coact-1-agents-dont-just-point-and-click-they-write-code-to-accomplish-tasks-faster-and-with-greater-success-rates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a3f6573d-27ae-54d2-b060-2d617d4381f0</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:40 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2508.03923</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 EverMemOS：从「记忆操作系统」论文到云端产品，Agent 长期记忆赛道加速商业化</title>
+      <description>&lt;p&gt;Agent 记忆一直是这个 feed 的核心线索之一。之前覆盖过 ByteRover 的五级渐进检索（LoCoMo 96.1%）、GAAMA 的图增强架构、Omni-SimpleMem 的自动化策略发现。现在这个赛道出现了一个从研究到产品化的完整闭环案例：&lt;strong&gt;EverMemOS&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;EverMemOS 由 EverMind 团队开发（arXiv 2601.02163），核心思路借鉴了神经科学中的 engram（记忆印迹）概念，把 Agent 的对话历史转化为结构化、可演化的知识体系。系统分三层运作：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Episodic Trace Formation&lt;/strong&gt;：把对话流切分成 MemCell，每个 MemCell 包含情景轨迹（episodic trace）、原子事实（atomic facts）、以及带时间边界的前瞻信号（foresight signals）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantic Consolidation&lt;/strong&gt;：将 MemCell 聚类成主题场景（MemScene），提炼出稳定的语义结构并动态更新用户画像&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reconstructive Recollection&lt;/strong&gt;：检索时以 MemScene 为导引，做 agentic retrieval——不是简单的向量相似度匹配，而是组合出「刚好够用」的上下文&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;基准成绩相当扎实：LoCoMo 93.05%（多跳推理 +19.7%，时序任务 +16.1%），LongMemEval 83.00%（知识更新 +20.6%），HaluMem 90.04% 召回率，PersonaMem v2 九个复杂个性化场景全面领先。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是商业化路径。2026 年 2 月 EverMind 同时推出了 EverMemOS Cloud Service（console.evermind.ai）和「Memory Genesis Competition 2026」全球开发者竞赛，奖金池 8 万美元，OpenAI 作为合作方参与。竞赛分三个赛道：Agent + Memory（长程研究助手、个人数字分身等）、平台插件（VSCode/Chrome/LangChain 集成）、底层基础设施优化。4 月 4 日已在硅谷计算机历史博物馆举行了总决赛。&lt;/p&gt;
+
+&lt;p&gt;这标志着 Agent 记忆从「论文里的模块」正式进入「可调用的云服务」阶段。对比我们之前追踪的各种记忆方案——ByteRover 侧重分层检索效率，GAAMA 侧重图结构表达，Omni-SimpleMem 侧重策略自动发现——EverMemOS 的独特之处在于它同时押注了技术深度和生态构建。8 万美元奖金不算多，但通过竞赛引导开发者围绕自己的 API 构建应用，这是一个经典的平台化策略。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://arxiv.org/abs/2601.02163'&gt;arXiv 2601.02163&lt;/a&gt; | &lt;a href='https://www.prnewswire.com/news-releases/end-agentic-amnesia-evermind-launches-a-memory-platform-and-an-80-000-global-competition-as-evermemos-sets-new-sota-results-across-multiple-benchmarks-302678025.html'&gt;PR Newswire&lt;/a&gt; | &lt;a href='https://evermind.ai/activities'&gt;Memory Genesis Competition&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2601.02163"&gt;https://arxiv.org/abs/2601.02163&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.prnewswire.com/news-releases/end-agentic-amnesia-evermind-launches-a-memory-platform-and-an-80-000-global-competition-as-evermemos-sets-new-sota-results-across-multiple-benchmarks-302678025.html"&gt;https://www.prnewswire.com/news-releases/end-agentic-amnesia-evermind-launches-a-memory-platform-and-an-80-000-global-competition-as-evermemos-sets-new-sota-results-across-multiple-benchmarks-302678025.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://evermind.ai/activities"&gt;https://evermind.ai/activities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3914f9de-5413-5bed-aa53-6884a4e11835</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:13 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2601.02163</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 MAGMA：用四张图把记忆拆开——语义、时间、因果、实体各管各的检索</title>
+      <description>&lt;p&gt;Agent 记忆检索最常见的做法是在一个统一的向量库里做 embedding 相似度搜索。问题在于，这把时间关系、因果链条、实体关联全混在了语义相似度这一个维度里。用户问「上周你帮我做的那个分析结果怎么样了」，需要的是时序 + 实体检索；问「为什么我们放弃了方案 A」，需要的是因果链推理。单一向量库很难兼顾。&lt;/p&gt;
+
+&lt;p&gt;UT Dallas 和 University of Florida 的研究者提出 &lt;strong&gt;MAGMA&lt;/strong&gt;（Multi-Graph based Agentic Memory Architecture），核心想法很直接：把每条记忆同时投影到四张正交的图上——语义图（Semantic Graph）、时间图（Temporal Graph）、因果图（Causal Graph）、实体图（Entity Graph）。检索时不是无脑做向量匹配，而是根据查询意图选择合适的图进行策略引导的遍历（policy-guided traversal）。&lt;/p&gt;
+
+&lt;p&gt;这个设计带来两个好处。第一是检索精度：在 LoCoMo 和 LongMemEval 两个长上下文基准上，MAGMA 比此前最优的 agentic memory 系统推理准确率高出最多 &lt;strong&gt;45.5%&lt;/strong&gt;。第二是效率：token 消耗降低超过 95%，查询延迟减少 40%。原因在于，四张图的分离让系统能精准定位需要的记忆碎片，而不是把大段上下文一股脑塞进 prompt。&lt;/p&gt;
+
+&lt;p&gt;与我们之前追踪的几个记忆方案做个对比：ByteRover 侧重五级渐进检索减少 LLM 调用次数；EverMemOS 侧重 engram 启发的三阶段记忆生命周期管理；MAGMA 的差异化在于&lt;strong&gt;记忆表示层的解耦&lt;/strong&gt;——同一段记忆在不同关系维度上有不同的连接拓扑，检索逻辑可以根据查询需求灵活切换图。&lt;/p&gt;
+
+&lt;p&gt;一个有趣的细节：MAGMA 把检索过程建模为图上的策略遍历，这意味着检索路径本身是可解释的。你可以看到系统为什么选择了某条记忆——它是通过因果链找到的，还是通过时间邻近性，还是实体共现。这在需要审计 Agent 决策过程的场景下（比如医疗或法律助手）可能很有价值。&lt;/p&gt;
+
+&lt;p&gt;代码已开源（GitHub），论文 arXiv 2601.03236。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://arxiv.org/abs/2601.03236'&gt;arXiv 2601.03236&lt;/a&gt; | &lt;a href='https://huggingface.co/papers/2601.03236'&gt;HuggingFace Papers&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2601.03236"&gt;https://arxiv.org/abs/2601.03236&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://huggingface.co/papers/2601.03236"&gt;https://huggingface.co/papers/2601.03236&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b9370b1d-313a-523a-92a9-c65aa0a0b5ca</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:34 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2601.03236</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 微软发布 MCP 网关治理指南：每个远程 MCP 服务器都该藏在 API Gateway 后面</title>
+      <description>&lt;p&gt;接着 MCP 安全危机的线索。上期我们梳理了 60 天 30+ CVE、OWASP MCP Top 10、Krisp 数据泄漏等一系列事件，结论是 Agent 生态的信任基础在动摇。这次微软给出了它的回应方案。&lt;/p&gt;
+
+&lt;p&gt;4 月 2 日，微软 Inside Track 博客发布了一份 MCP 安全治理实践文档（作者 Jason Kellington），核心主张很明确：&lt;strong&gt;每个远程 MCP 服务器都应该放在 AI Gateway 后面&lt;/strong&gt;，由网关统一处理认证、授权、限流和审计，MCP 服务器本身不直接暴露。同时，Azure Foundry 文档也更新了具体的操作指南。&lt;/p&gt;
+
+&lt;p&gt;架构上分三层：MCP Client → Azure API Management Gateway → MCP Server。认证走 Microsoft Entra（原 Azure AD）的 OAuth 流程。网关层可以叠加多种策略：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rate Limiting&lt;/strong&gt;：按 IP 或用户维度限制每分钟调用次数，防止资源放大攻击&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IP Filtering&lt;/strong&gt;：白名单机制，只放行可信网络&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Header 清洗&lt;/strong&gt;：移除 Cookie、Referer 等敏感信息，防止上下文泄漏&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Correlation ID 注入&lt;/strong&gt;：每个请求打上唯一追踪 ID，方便事后审计&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地域路由&lt;/strong&gt;：根据请求头将流量导向不同区域的后端&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这套方案的优点是不需要改动 MCP 服务器代码——所有治理逻辑都在网关层的 XML 策略里完成。缺点也很明显：目前只支持通过 Azure Portal 手动配置策略，不支持 Foundry Portal 内操作；已有的 MCP 工具不会自动切换到网关路由，需要重新创建；且仅限 MCP 工具，OpenAPI 工具不在覆盖范围内。&lt;/p&gt;
+
+&lt;p&gt;从更大视角看，微软的方案代表了企业级 MCP 治理的一种路线：不去修协议本身，而是在协议外面套一层传统的 API 管理基础设施。这和 OWASP MCP Top 10 建议的「每个工具都需要独立认证」思路一致，但实现方式更贴近企业已有的安全栈。对比之下，mcp-scan 和 SecureClaw 这类工具走的是协议层审计路线——发现问题而非阻断问题。两条路线互补，但微软这种「网关化」方案对大型组织更实用。&lt;/p&gt;
+
+&lt;p&gt;一个值得关注的信号：微软同时推出了 Agent 365 的 Work IQ MCP 集成（preview），为 Microsoft 365 服务提供默认的 MCP 服务器。这意味着 MCP 正在从开发者工具协议演变为企业办公基础设施的一部分。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.microsoft.com/insidetrack/blog/protecting-ai-conversations-at-microsoft-with-model-context-protocol-security-and-governance/'&gt;Microsoft Inside Track&lt;/a&gt; | &lt;a href='https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/governance'&gt;Azure Foundry 文档&lt;/a&gt; | &lt;a href='https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview'&gt;Agent 365 Work IQ MCP&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.microsoft.com/insidetrack/blog/protecting-ai-conversations-at-microsoft-with-model-context-protocol-security-and-governance/"&gt;https://www.microsoft.com/insidetrack/blog/protecting-ai-conversations-at-microsoft-with-model-context-protocol-security-and-governance/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/governance"&gt;https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/governance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview"&gt;https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6defbee5-0295-5c3f-9f17-b3aaa4fd9d56</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:02 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://www.microsoft.com/insidetrack/blog/protecting-ai-conversations-at-microsoft-with-model-context-protocol-security-and-governance/</link>
+      <enclosure url="https://www.microsoft.com/insidetrack/blog/uploads/prod/2026/02/10799_Hero-image.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

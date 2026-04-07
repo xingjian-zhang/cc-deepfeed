@@ -4,7 +4,7 @@
     <title>博士生存指南</title>
     <description>Per-topic feed: 博士生存指南</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:04:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:19:36 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" type="application/rss+xml" />
@@ -477,6 +477,292 @@
       <pubDate>Mon, 06 Apr 2026 08:04:00 +0000</pubDate>
       <category>phd-survival</category>
       <link>https://mitcommlab.mit.edu/eecs/commkit/faculty-application-teaching-statement/</link>
+    </item>
+    <item>
+      <title>📚 DeepMind 数学面试深度拆解：从特征值到梯度下降，他们到底在考什么</title>
+      <description>&lt;p&gt;上一期我们概述了 Google DeepMind 面试的整体流程——5-8 轮、hiring committee 制度、重数学功底。但「数学功底」这三个字太笼统了。这期我们把 DeepMind 独有的&lt;strong&gt;数学 Quiz 轮&lt;/strong&gt;彻底拆开，告诉你具体考什么、怎么准备、哪里最容易翻车。&lt;/p&gt;
+
+&lt;p&gt;DeepMind 是三大 AI Lab（Anthropic、OpenAI、DeepMind）中唯一一家系统性测试本科级数学基础的。面试官 Sundeep Teki 的原话是：「在工业界待了几年的候选人，经常在 Quiz 轮挂掉，因为他们忘了每天隐式使用的线性代数概念的正式定义。」这不是吓你——这是真实的淘汰数据。&lt;/p&gt;
+
+&lt;h3&gt;Quiz 轮的结构&lt;/h3&gt;
+
+&lt;p&gt;Quiz 轮通常安排两场背靠背面试，总时长约两小时，覆盖四个板块：计算机科学、数学、统计、机器学习。形式以口头问答为主，偶尔要求画图。多位亲历者描述这一轮更像是「百科全书式知识检验」而非开放式解题——面试官快速抛出定义性问题，考察的是你对基础概念的掌握深度和反应速度。&lt;/p&gt;
+
+&lt;h3&gt;数学板块：四大核心区域&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;线性代数（Linear Algebra）&lt;/strong&gt;是重中之重。根据 David Stutz（2019 年通过 DeepMind 实习面试）和 Aleksa Gordic（成功拿到 DeepMind Research Engineer offer）的经验，高频考点包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;向量空间（Vector Space）的定义与性质&lt;/li&gt;
+&lt;li&gt;特征值（Eigenvalue）和特征向量（Eigenvector）：不只是定义，要能解释几何直觉——特征向量是线性变换中方向不变的向量，特征值是缩放因子&lt;/li&gt;
+&lt;li&gt;矩阵分解三件套：LU 分解、QR 分解、&lt;strong&gt;奇异值分解（SVD）&lt;/strong&gt;——SVD 尤其高频，因为它是 PCA 的数学基础&lt;/li&gt;
+&lt;li&gt;矩阵的秩（Rank）、迹（Trace）、正交矩阵、对角化条件&lt;/li&gt;
+&lt;li&gt;张量（Tensor）的基本概念&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;微积分与优化（Calculus &amp; Optimization）&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;链式法则（Chain Rule）和分部积分（Integration by Parts）——手动推导，不是调包&lt;/li&gt;
+&lt;li&gt;泰勒展开（Taylor Expansion）的应用&lt;/li&gt;
+&lt;li&gt;梯度下降（Gradient Descent）的收敛性分析：给定一个损失函数，推导梯度更新公式&lt;/li&gt;
+&lt;li&gt;自动微分（Automatic Differentiation）的原理&lt;/li&gt;
+&lt;li&gt;最小二乘问题（Least Squares）的封闭解推导&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;概率与统计（Probability &amp; Statistics）&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;概率公理、条件概率、贝叶斯定理（Bayes' Theorem）&lt;/li&gt;
+&lt;li&gt;常见分布：伯努利、二项、泊松、高斯——要能写出概率密度函数&lt;/li&gt;
+&lt;li&gt;极大似然估计（Maximum Likelihood Estimation, MLE）的推导&lt;/li&gt;
+&lt;li&gt;马尔可夫过程（Markov Process）和马尔可夫决策过程（MDP）——这直接连接到强化学习&lt;/li&gt;
+&lt;li&gt;假设检验的基本框架&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;离散数学与算法&lt;/strong&gt;：排列组合、图论基础、复杂度分析（需要熟悉 CLRS 教材级别的内容）。&lt;/p&gt;
+
+&lt;h3&gt;一个真实的翻车案例&lt;/h3&gt;
+
+&lt;p&gt;博主 Rajeev Naruka 公开分享了他的 DeepMind 面试失败经历。他犯了一个典型错误：把所有准备时间花在了 LeetCode 刷题上，结果面试官问的是智能指针（Smart Pointer）、垃圾回收机制、JIT 编译器原理、以及四元数（Quaternion）在三维旋转中的应用。他在简历里提到了四元数相关的 ML 项目，但无法回答深入的追问。面试官的反馈是：「我们需要更扎实的核心 CS 知识。」教训很明确——简历上写了什么，就必须能讲透什么。&lt;/p&gt;
+
+&lt;h3&gt;三周备考策略&lt;/h3&gt;
+
+&lt;p&gt;根据多位成功者的经验，推荐以下准备路径（每天 2-3 小时，持续 2-3 周）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;线性代数&lt;/strong&gt;：3Blue1Brown 的 Essence of Linear Algebra 系列建立直觉，配合 Mathematics for Machine Learning（Deisenroth et al.）教材做习题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微积分&lt;/strong&gt;：Lamar University 的免费数学教程（Paul's Online Math Notes），重点练手动推导&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;概率统计&lt;/strong&gt;：StatQuest with Josh Starmer 的 YouTube 频道 + 剑桥统计课程讲义&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强化学习基础&lt;/strong&gt;：确保能从头推导 Bellman 方程，解释 policy gradient 的数学原理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;查漏补缺&lt;/strong&gt;：制作 Anki 卡片，把所有「我大概知道但说不清楚」的概念变成精确定义&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Aleksa Gordic 特别强调：准备应该在面试正式开始前完成，Quiz 轮更像一场冲刺而非马拉松。如果你的数学基础本来就不错，两周足够；如果已经离开课堂多年，三周是底线。&lt;/p&gt;
+
+&lt;p&gt;最后一点：DeepMind 的数学面和 Anthropic、OpenAI 形成了鲜明对比。Anthropic 用 CodeSignal 筛人，OpenAI 侧重论文拆解和实用编程，而 DeepMind 是唯一一家会让你当场口头回答「什么是矩阵的秩」的地方。这种风格筛掉的不是能力不够的人，而是「知其然不知其所以然」的人。如果你是那种能用 PyTorch 写模型但说不清反向传播数学原理的选手，Quiz 轮就是你的噩梦——也是你现在开始补课的理由。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sundeepteki.org/advice/the-ultimate-ai-research-engineer-interview-guide-cracking-openai-anthropic-google-deepmind-top-ai-labs"&gt;https://www.sundeepteki.org/advice/the-ultimate-ai-research-engineer-interview-guide-cracking-openai-anthropic-google-deepmind-top-ai-labs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://davidstutz.de/how-i-prepared-for-deepmind-and-google-ai-research-internship-interviews-in-2019/"&gt;https://davidstutz.de/how-i-prepared-for-deepmind-and-google-ai-research-internship-interviews-in-2019/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gordicaleksa.medium.com/how-i-got-a-job-at-deepmind-as-a-research-engineer-without-a-machine-learning-degree-1a45f2a781de"&gt;https://gordicaleksa.medium.com/how-i-got-a-job-at-deepmind-as-a-research-engineer-without-a-machine-learning-degree-1a45f2a781de&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://rajeevnaruka.com/blog/my-google-deepmind-interview-was-a-disaster"&gt;https://rajeevnaruka.com/blog/my-google-deepmind-interview-was-a-disaster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.interviewnode.com/post/google-deepmind-ml-interview-prep-what-to-expect-and-how-to-prepare"&gt;https://www.interviewnode.com/post/google-deepmind-ml-interview-prep-what-to-expect-and-how-to-prepare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1d3fa64f-67e1-5940-ac9a-018f17398b9d</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:16 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://www.sundeepteki.org/advice/the-ultimate-ai-research-engineer-interview-guide-cracking-openai-anthropic-google-deepmind-top-ai-labs</link>
+      <enclosure url="https://sundeepteki.org/images/og-image-advice.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 学术界还是工业界：一个帮你不再纠结的 CS PhD 职业选择框架</title>
+      <description>&lt;p&gt;每个 CS PhD 都会经历这个时刻：导师暗示你可以申请 faculty position，同时 recruiter 的 LinkedIn 消息塞满了六位数的薪资数字。学术界还是工业界？这个问题没有标准答案，但有一个结构化的思考框架，能帮你把模糊的焦虑变成清晰的决策。&lt;/p&gt;
+
+&lt;h3&gt;先看数据：大势已经很明显了&lt;/h3&gt;
+
+&lt;p&gt;2023 年，70% 的 AI 相关 PhD 毕业后直接进入私营部门——二十年前这个数字只有 20%。Computing Research Association 的调查显示，2022-2023 学年仅有约 11% 的计算科学 PhD 进入 tenure-track 教职。换句话说，十个同届毕业生里，只有一个走上了传统学术路径。&lt;/p&gt;
+
+&lt;p&gt;钱的差距是残酷的。据 Fortune 报道，Meta 给顶级 AI 研究者开出每年 700-800 万美元的薪酬包；新毕业的 PhD 在大厂拿到 high six-figure 到低七位数的 package 已经不罕见。对比之下，美国教授的平均年薪是 15.5 万美元，而博后的起薪通常在 4.5-6.5 万之间。芝加哥大学计算机系的 Henry Hoffman 教授直言：「对我来说最大的问题就是薪资。」&lt;/p&gt;
+
+&lt;p&gt;但如果仅凭薪资做决定，你可能在三年后后悔。下面这个框架帮你想清楚真正重要的东西。&lt;/p&gt;
+
+&lt;h3&gt;四维决策矩阵&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;维度一：研究自由度（Research Autonomy）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;学术界的核心卖点是长周期、开放式的研究自由。你可以花五年追一个不确定能不能做出来的方向，没人要求你每季度汇报 impact metric。工业界的研究自由取决于公司和团队：DeepMind 和 Meta FAIR 相对接近学术风格，但方向仍需与公司战略对齐；产品团队内的 applied research 则完全以产品需求驱动。问自己：你想做的研究，是需要五年不被打扰的那种，还是一年内能看到部署效果的那种？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;维度二：职业确定性（Career Certainty）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;学术路径的不确定性被严重低估了。tenure-track 之前通常要做 1-2 期博后（每期 2-3 年），期间薪资微薄且没有长期保障。80,000 Hours 的分析指出，只有 7.6% 的 PhD 毕业生最终获得 tenure-track 职位。而即使拿到 Assistant Professor，tenure 审查又是六年后的另一道坎。工业界的确定性高得多：offer 就是 offer，股票有 vesting schedule，晋升路径透明（L4 → L5 → L6）。但工业界的风险是另一种——团队重组、layoff、项目取消。2023-2024 年的大厂裁员潮证明了这一点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;维度三：影响力模式（Impact Mode）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;学术界的影响力是通过论文、培养学生、塑造学科方向来实现的——慢但深远。你的一篇论文可能十年后才被广泛引用。工业界的影响力是通过产品和用户来实现的——快但可能短暂。你训练的模型明天就有十亿用户在用，但明年可能被新版本替换。两种影响力没有高低之分，关键是哪种让你更有成就感。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;维度四：生活方式兼容性（Lifestyle Fit）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这一点常被忽略。学术界的灵活性很高——你可以自己定工作时间，不用坐班。但 tenure 前的压力是全方位的：教学、申请基金、指导学生、审稿、发论文，同时进行。工业界有更清晰的工作边界（至少理论上如此），但薪资附带的隐性要求是可控的工作时间和地点。如果你是国际学生（F-1 签证），地点的灵活性尤其重要——学术界的 job market 是全国性的，你可能被分配到任何一个州的任何一所学校；工业界至少可以选择 Bay Area、Seattle 或 NYC。&lt;/p&gt;
+
+&lt;h3&gt;三个实操建议&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 保持选项开放到最后一刻&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不要在 PhD 第三年就关上任何一扇门。同时申请 faculty position 和工业界职位是完全正常的。很多成功的教授在拿到 faculty offer 的同时手握 Google 的 offer letter——这不是脚踏两只船，这是理性决策所需的信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 做一次「反事实」实验&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你倾向学术界，去大厂做一个暑期实习（很多 PhD 项目允许这样做）。如果你倾向工业界，试着参加一次 faculty job talk 或者 teaching demonstration。真实体验比任何 pros/cons 列表都有用。CRA 的数据显示，做过工业界实习的 PhD 中，约 56% 最终在工业界获得了研究职位——这说明实习不仅是体验，也是求职的直接通道。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 关注「可逆性」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个关键的不对称性：从学术界跳到工业界相对容易（教授去 Google 做 Research Director 的案例很多），但从工业界回到学术界极难（除非你一直保持发论文的节奏）。如果你真的两边都想试，先走学术路线的机会成本更低——前提是你能承受博后阶段的经济压力。当然，对于 F-1 签证持有者，博后期间的签证身份（通常是 J-1 或 H-1B）也需要提前规划。&lt;/p&gt;
+
+&lt;p&gt;最终，这个决定不应该被简化为「钱多 vs. 自由」。用这四个维度给自己打分，然后诚实地面对结果。如果四项里有三项指向工业界，那就别因为「学术界更高尚」的幻觉而犹豫。反过来也一样。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2025/06/25/ai-companies-court-ai-phds-with-huge-pay-packages-raising-fears-of-an-academic-brain-drain/"&gt;https://fortune.com/2025/06/25/ai-companies-court-ai-phds-with-huge-pay-packages-raising-fears-of-an-academic-brain-drain/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://80000hours.org/career-reviews/computer-science-phd/"&gt;https://80000hours.org/career-reviews/computer-science-phd/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/content/article/first-us-private-sector-employs-nearly-many-phds-schools-do"&gt;https://www.science.org/content/article/first-us-private-sector-employs-nearly-many-phds-schools-do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thecasehq.com/career-paths-after-the-phd-academia-vs-industry-which-is-right-for-you/"&gt;https://thecasehq.com/career-paths-after-the-phd-academia-vs-industry-which-is-right-for-you/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e327fa29-386e-5e11-9d09-c7fb557c4c98</guid>
+      <pubDate>Tue, 07 Apr 2026 08:05:22 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://fortune.com/2025/06/25/ai-companies-court-ai-phds-with-huge-pay-packages-raising-fears-of-an-academic-brain-drain/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2025/06/GettyImages-2216970707_06d7b8-e1750866546586.jpg?resize=1200,600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 Diversity Statement 写作指南：CS PhD 如何写出让评委眼前一亮的多样性声明</title>
+      <description>&lt;p&gt;Research Statement 和 Teaching Statement 都写完了，最后一份材料横在你面前：Diversity Statement。很多 CS PhD 对它的第一反应是抗拒——「我又不是做教育公平研究的，我能写什么？」但在 2025-2026 年的 faculty job market 上，这份文件的权重在持续上升。UC 系统、MIT、多数 R1 大学的搜索委员会都明确要求它，而且是独立打分项。MIT EECS Communication Lab 给出了一套非常实用的框架，我们把它拆开来看。&lt;/p&gt;
+
+&lt;h3&gt;第一个误区：这不是你的个人身份声明&lt;/h3&gt;
+
+&lt;p&gt;MIT EECS Communication Lab 的首条建议就是：Diversity Statement 不是让你写自己属于什么少数群体。它的核心问题是——作为未来的 faculty，你将如何&lt;strong&gt;主动推动&lt;/strong&gt;你所在院系和领域的多样性与包容性？你的身份背景可以作为起点，但不能是终点。如果你花了 80% 的篇幅讲自己的成长经历，而只用最后两句话说「所以我会对多样性很敏感」，那这份声明基本没有竞争力。&lt;/p&gt;
+
+&lt;h3&gt;70/30 结构法则&lt;/h3&gt;
+
+&lt;p&gt;MIT 的推荐结构是 &lt;strong&gt;70% 过去经历 + 30% 未来计划&lt;/strong&gt;。篇幅控制在 1-2 页。&lt;/p&gt;
+
+&lt;p&gt;过去经历部分需要回答这些问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你指导过哪些背景多元的学生？怎么指导的？&lt;/li&gt;
+&lt;li&gt;你在教学中如何营造包容性的课堂环境？&lt;/li&gt;
+&lt;li&gt;你参与过哪些 DEI（Diversity, Equity, and Inclusion）相关的组织或活动？&lt;/li&gt;
+&lt;li&gt;你的研究本身是否触及了公平性或可及性的问题？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;关键原则：具体、具体、再具体。不要写「I mentored underrepresented students」——写「I mentored three first-generation college students through the McNair Scholars Program in 2024, meeting weekly to discuss research methodology and graduate school applications; two of them are now enrolled in PhD programs.」数字、时间、结果，缺一不可。&lt;/p&gt;
+
+&lt;h3&gt;CS PhD 的独特优势&lt;/h3&gt;
+
+&lt;p&gt;很多 CS 学生觉得自己缺乏 DEI 经历。其实不然。以下场景你大概率经历过：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TA/GSI 经历&lt;/strong&gt;：你教过的课有多少学生来自非传统 CS 背景？你做了什么来帮助他们？Office hours 里你是否注意到某些群体更不愿意提问？你有没有主动调整策略？&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实验室指导&lt;/strong&gt;：你带过的本科 RA 里，有没有来自 underrepresented minority 的学生？你的指导方式有没有因人而异？&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学术社区参与&lt;/strong&gt;：你参加过 WiML（Women in Machine Learning）、LXAI（LatinX in AI）、BAI（Black in AI）这类 affinity group 的活动吗？即使只是参会，也算参与。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;国际学生视角&lt;/strong&gt;：作为 F-1 签证持有者，你本身就对「局外人」的体验有直观感受。语言障碍、文化差异、签证焦虑——这些经历可以转化为同理心的证据，但要注意表达方式：重点放在「这些经历如何让我成为更好的 mentor」，而不是「我很不容易」。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;未来计划：小而可信 &gt; 大而空洞&lt;/h3&gt;
+
+&lt;p&gt;MIT 的建议很直白：不要提出一个宏大的新 DEI 项目。评委见过太多「I will establish a lab-wide diversity initiative」这样的空话。可信的未来计划长这样：&lt;/p&gt;
+
+&lt;p&gt;Brandeis University 的指南给出了一组对比：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不要写「My lab will be inclusive of women」→ 写「I will strive for gender parity among my graduate students and will actively recruit at Grace Hopper Conference」&lt;/li&gt;
+&lt;li&gt;不要写「I welcome students of all backgrounds」→ 写「I will attend departmental recruitment events and personally encourage underrepresented applicants to join my group」&lt;/li&gt;
+&lt;li&gt;不要写「My trainees can come to me about anything」→ 写「I will schedule annual one-on-one career conversations with each trainee, separate from research meetings」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;另一个高分策略：提前调研目标院系已有的 DEI 项目，然后在未来计划中提到你会参与这些已有项目，而不是从零开始。这表明你做过功课，也更现实。&lt;/p&gt;
+
+&lt;h3&gt;避坑清单&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;不要把 Diversity Statement 写成教科书——面试委员不需要你解释什么是 implicit bias&lt;/li&gt;
+&lt;li&gt;不要只聚焦一两个身份维度（比如只谈性别）——多样性包括种族、性别、残障、性取向、社会经济背景、国籍等多个维度&lt;/li&gt;
+&lt;li&gt;不要用「diversity by proxy」——比如「我的实验室有来自五个国家的学生」不等于你做了任何主动的 DEI 工作&lt;/li&gt;
+&lt;li&gt;不要假设你的读者会自动理解你的贡献——明确写出你做了什么、产生了什么效果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;MIT EECS Communication Lab 提供了两份带批注的成功案例（来自 Jonathan Frankle 和 Malte Schwarzkopf 的 faculty application），MIT 在读学生可以预约一对一反馈。如果你不在 MIT，这两份公开案例仍然是极好的参考模板——在它们的网站上可以直接阅读。&lt;/p&gt;
+
+&lt;p&gt;最后提醒一点：部分学校已经开始将 Diversity Statement 与 Teaching Statement 合并为一份文件（combined statement of teaching and inclusion）。投递前仔细阅读 job posting 的要求，不要按模板盲写。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://mitcommlab.mit.edu/eecs/commkit/faculty-application-diversity-statement/"&gt;https://mitcommlab.mit.edu/eecs/commkit/faculty-application-diversity-statement/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.brandeis.edu/diversity/programs-resources/dei-recruitment-hiring/writing-diversity-statements.html"&gt;https://www.brandeis.edu/diversity/programs-resources/dei-recruitment-hiring/writing-diversity-statements.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bokcenter.harvard.edu/diversity-statements"&gt;https://bokcenter.harvard.edu/diversity-statements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://universityaffairs.ca/career-advice/how-to-structure-your-diversity-statement-for-your-academic-job-search/"&gt;https://universityaffairs.ca/career-advice/how-to-structure-your-diversity-statement-for-your-academic-job-search/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c47af61f-781a-5c03-be55-d7929f267b3f</guid>
+      <pubDate>Tue, 07 Apr 2026 08:06:10 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://mitcommlab.mit.edu/eecs/commkit/faculty-application-diversity-statement/</link>
+    </item>
+    <item>
+      <title>📚 学术会议 Poster 设计实战：800 字以内讲清楚你的研究</title>
+      <description>&lt;p&gt;夏天的会议季马上就到了。对大多数博士生来说，poster session 是第一次正式展示研究成果的场合——比 oral presentation 门槛低，但"做好"和"做完"之间的差距非常大。Colin Purrington（前 Swarthmore College 生物学教授、poster 设计领域被引用最多的非正式指南作者）的建议汇总了几十年评审经验，核心思路只有一句话：&lt;strong&gt;poster 不是论文的缩印版，而是一个视觉摘要&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;最常见的错误就是塞太多字。Purrington 给出的硬指标是全文 800-1200 词（含图例），正文部分控制在 700 词左右。如果你的 poster 看起来像一篇压缩过的论文，大概率没人会在你面前停超过 10 秒。与此对应的另一个数字是留白率：整张 poster 至少 40% 应该是空白区域。这不是浪费空间，而是让观众的眼睛有地方休息——poster session 的环境通常嘈杂、灯光不佳，密密麻麻的文字墙只会把人赶走。&lt;/p&gt;
+
+&lt;p&gt;排版选择上有一条反直觉的建议：标题用无衬线字体（Helvetica、Arial），正文反而应该用衬线字体（Palatino、Georgia）。原因是小字号下衬线字体的可读性更好——笔画末端的装饰线帮助眼睛沿行追踪。每行控制在 45-65 个字符宽度最舒适，这个原则和网页排版一样。标题用 sentence case（只首字母大写），不要用全大写——特别是生物、化学领域，全大写会毁掉物种名的斜体和化学式的上下标。&lt;/p&gt;
+
+&lt;p&gt;配色方面，最安全的方案永远是白底深色字。深色背景配浅色文字看起来很酷，但在打印和不同光线条件下可读性会大幅下降。另一个容易忽略的细节是色盲友好性：大约 8% 的男性有红绿色盲，如果你的图表用红色和绿色区分两组数据，相当于对这些观众完全失效。可以用 Coblis 模拟器测试你的配色方案，或者干脆用形状（圆、方、三角）和线型（实线、虚线）来区分，而不只靠颜色。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;图表是 poster 的核心资产。&lt;/strong&gt;一张好的主视觉图——能从 6 英尺（约 2 米）外看清核心信息——决定了路过的人会不会走过来。几个实操细节：永远不要用 3D 效果展示 2D 数据（Excel 默认的 3D 柱状图是公认的数据可视化灾难）；把图例直接标注在数据线或柱子旁边，不要用单独的 legend box 让人来回对照；Y 轴标签水平放置而非旋转 90 度——没人喜欢歪着脑袋看字。&lt;/p&gt;
+
+&lt;p&gt;关于尺寸，横版（landscape）优于竖版（portrait）。竖版的下半部分会落在大多数人的视线以下，观众得弯腰才能看完——这在拥挤的 poster hall 里基本不会发生。标准尺寸通常是 48×36 英寸（约 122×91 cm），但务必提前确认会议的具体要求。&lt;/p&gt;
+
+&lt;p&gt;展示环节的策略同样重要。准备一个两句话版本的 elevator pitch：第一句说研究问题，第二句说核心发现。不要对着 poster 念，而是用手指向具体的图表区域说"我们发现了X"。如果一个观众在你面前停留超过 4 分钟，这就是一次成功的互动。Purrington 的一个有趣建议：在 poster 板上放一碗糖果，附上"请自取"的标签——这个简单的技巧能显著增加停留人数。&lt;/p&gt;
+
+&lt;p&gt;打印方面，导出 PDF 时用 100% 缩放检查所有字体和图片是否正常嵌入。越来越多的会议开始接受织物（fabric）poster——可以折叠塞进行李箱，不用担心纸筒在转机时被压坏。价格和纸质 poster 差不多，但省下的麻烦值很多。&lt;/p&gt;
+
+&lt;p&gt;最后一个建议：打印前至少提前一个月把草稿贴在走廊里，让同事用便签纸写匿名反馈。你自己盯了太久的东西，需要新鲜的眼睛来发现逻辑断层和排版问题。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://colinpurrington.com/tips/poster-design/"&gt;https://colinpurrington.com/tips/poster-design/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.animateyour.science/post/how-to-design-an-award-winning-conference-poster"&gt;https://www.animateyour.science/post/how-to-design-an-award-winning-conference-poster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://guides.nyu.edu/posters"&gt;https://guides.nyu.edu/posters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5f69865c-deef-5494-86b6-92afa35af6a1</guid>
+      <pubDate>Tue, 07 Apr 2026 08:18:07 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://colinpurrington.com/tips/poster-design/</link>
+      <enclosure url="https://static.wixstatic.com/media/a440e2_492f829849774ddd9542fd9025d706e7~mv2.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 2026 年博士生 AI 科研工具链：从文献发现到论文写作的完整工作流</title>
+      <description>&lt;p&gt;AI 工具正在重塑学术研究的每一个环节，但多数博士生的使用方式还停留在"拿 ChatGPT 润色英文"的阶段。2026 年的工具生态已经成熟到可以搭建一条完整的研究流水线——从发现论文到写作初稿，每个环节都有专门的工具，而不是把所有任务都丢给一个通用大模型。这篇文章梳理一条经过实测的四阶段工作流，帮你在不违反学术规范的前提下大幅提升效率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一阶段：文献发现。&lt;/strong&gt;这个环节的核心问题是"我该读什么"。Semantic Scholar 是最好的免费起点——覆盖 2.2 亿篇论文，AI 生成的 TLDR（一句话摘要）能帮你在 30 秒内判断一篇论文是否值得细读。它的 Research Feed 功能可以根据你的阅读历史持续推荐新论文，相当于一个学术版的推荐算法。如果你需要回答一个具体的研究问题（比如"某某方法在某某任务上的效果如何"），Consensus 更合适——它的 Consensus Meter 能直观显示文献对某个命题的支持/反对/不确定比例，免费版每月 3 次深度搜索，Pro 版 $15/月。Elicit 则擅长系统性筛选：你可以让它从 1.38 亿篇论文中提取特定字段（实验方法、样本量、核心发现），自动生成对比表格，做 literature review 的初始筛选效率能提升 5-10 倍。&lt;/p&gt;
+
+&lt;p&gt;第二阶段：引用网络映射。找到了种子论文之后，你需要知道这个领域的全貌。Research Rabbit 是这个环节的明星工具——你把几篇核心论文放进一个 collection，它会像 Spotify 推荐歌曲一样推荐相关论文，而且完全免费。Litmaps 提供另一种视角：可视化引用网络图，让你一眼看出哪些论文是领域的枢纽节点、哪些是最新的分支。Connected Papers 用语义相似度（而非直接引用关系）来组织论文，特别适合发现跨领域的相关工作——有时候最有价值的灵感来自你领域之外的某篇论文。Inciteful 更小众但很实用：它能找到连接两个看似无关领域的"桥梁论文"，适合做交叉学科研究的同学。&lt;/p&gt;
+
+&lt;p&gt;第三阶段：阅读与综合。论文收集完了，真正的智力劳动开始了。Google 的 NotebookLM 在这个环节几乎不可替代：你上传一组 PDF，它只基于你提供的文档回答问题——不会编造信息，不会引入你没读过的来源。这对 literature review 的质量控制至关重要。你可以问它"这五篇论文在方法论上的主要分歧是什么"或者"总结这三篇论文的共同局限性"，它的回答会精确指向你上传的具体文档和页码。Julius AI 处理数据分析更方便——上传 CSV 或 Excel，用自然语言问"这两组数据有没有显著差异"，它会自动选择合适的统计方法并生成图表。&lt;/p&gt;
+
+&lt;p&gt;第四阶段：写作辅助。这是最敏感的环节，也是最容易踩线的地方。一个重要原则：AI 可以帮你组织结构、检查逻辑、润色语言，但核心论点必须是你自己的。Thesify 提供类似审稿人视角的反馈——它会逐章评估你的论文，指出论证链条的薄弱环节，检查你的假设是否得到了数据的充分支持。这比让 ChatGPT 帮你"改一改"有价值得多，因为它在模拟一个批判性读者而不是一个顺从的助手。Paperpal 专注于学术英语润色，对非英语母语的博士生来说是个实用的最后一道关。&lt;/p&gt;
+
+&lt;p&gt;几个使用原则值得强调。第一，&lt;strong&gt;永远验证 AI 给出的引用&lt;/strong&gt;——所有这些工具都可能出现"幻觉引用"（hallucinated citations），一篇实际不存在的论文被信誓旦旦地推荐给你。第二，了解你所在学校的 AI 使用政策：有些项目明确禁止在论文写作中使用生成式 AI，有些要求在 acknowledgments 里声明使用了哪些工具。第三，不要试图用一个工具完成所有任务。PapersFlow 的创始团队总结得好：大多数研究者只需要 2-3 个工具，关键是每个工具用在它最擅长的环节。&lt;/p&gt;
+
+&lt;p&gt;最省钱的组合推荐：Semantic Scholar（免费发现）+ Research Rabbit（免费引用映射）+ NotebookLM（免费文档综合）。这三个工具覆盖了从发现到综合的核心流程，一分钱不花。写作阶段如果预算有限，Grammarly 的免费版加上 ChatGPT 的基础功能足以应付日常润色需求。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thesify.ai/blog/best-ai-tools-academic-research"&gt;https://www.thesify.ai/blog/best-ai-tools-academic-research&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://papersflow.ai/blog/best-ai-research-tools-2026"&gt;https://papersflow.ai/blog/best-ai-research-tools-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://saasnik.com/best-ai-tools-for-research/"&gt;https://saasnik.com/best-ai-tools-for-research/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://semanticscholar.org"&gt;https://semanticscholar.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7644490d-164b-50ec-b504-d1712a94fef6</guid>
+      <pubDate>Tue, 07 Apr 2026 08:18:49 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://www.thesify.ai/blog/best-ai-tools-academic-research</link>
+      <enclosure url="https://www.thesify.ai/blog/best-ai-tools-academic-research" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📚 推荐信的「向上管理」：怎样让教授写出一封真正帮到你的信</title>
+      <description>&lt;p&gt;推荐信是博士申请中唯一不由你直接控制的材料，但这不意味着你没有办法影响它的质量。华盛顿大学安全与隐私实验室主任 Tadayoshi Kohno 教授（同时也是 PhD 招生委员会成员）在他广为流传的指南中给出了一个关键洞察：大多数申请者的推荐信不是"差"，而是"平淡"——教授写了，但写得像在完成一项行政任务。真正有用的推荐信需要你主动做大量前期工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一步是选对人。&lt;/strong&gt;最理想的组合是两封来自资深教授、一封来自直接指导你科研的人（哪怕 ta 只是个博士后或高年级博士生）。Kohno 特别强调一个原则：推荐人自己应该有 PhD 经历。走过这条路的人更清楚招生委员会在看什么——不是你的 GPA 多高，而是你有没有独立发现问题和推动解题的能力。如果你的推荐人是业界人士（比如实习 manager），需要提前告诉 ta 招生委员会看重的特质清单：创造力、好奇心、研究视野、沟通能力、自驱力、面对不确定性的韧性。&lt;/p&gt;
+
+&lt;p&gt;开口方式比你想象的重要得多。不要简单地问"您能帮我写推荐信吗"——这个问法给对方的退出成本太高，ta 可能碍于面子答应，然后写出一封敷衍的信。Kohno 建议的措辞是：&lt;strong&gt;"您是否有时间、并且觉得对我足够了解，来写一封有力的推荐信？"&lt;/strong&gt;（"Do you have time and think you know me well enough to write a strong letter of recommendation?"）这个句式给了对方多个体面的拒绝理由——"最近太忙"或者"我觉得我对你的研究了解不够深"——同时筛掉了那些会写出平庸推荐信的人。被拒绝不代表你不够好，可能只是时机不对或者对方确实不了解你。&lt;/p&gt;
+
+&lt;p&gt;时间线方面，最低标准是截止日前 6-8 周，稳妥的做法是 8-10 周。赶在最后一周才发邮件，几乎必然得到一封模板化的泛泛之词。即使某位教授去年已经给你写过推荐信，也不要假设 ta 会直接复用——多数教授会重新写，你需要给 ta 足够的准备时间。&lt;/p&gt;
+
+&lt;p&gt;对方答应之后，你的工作才真正开始。准备一个"推荐人材料包"，包括：你的最新 CV、申请项目清单（含每个项目的截止日期和提交链接）、你的 research statement 或 SOP 草稿、以及最关键的——一份 3-5 条的提示清单，提醒教授 ta 亲眼见证过的你的具体表现。比如"在 X 项目中，我独立设计了实验方案并在遇到 Y 问题时提出了 Z 解决方案"。这不是在替教授写信，而是在帮 ta 回忆具体细节。推荐信中最有杀伤力的内容永远是具体的故事，而不是"该生勤奋好学"这样的形容词堆砌。&lt;/p&gt;
+
+&lt;p&gt;一个容易被忽略的细节：明确告诉推荐人"尽管往好了写"。很多教授（尤其是美国以外的学术传统中）倾向于写得克制、客观，但北美的 PhD 招生委员会已经习惯了通胀式的推荐语言——如果你的信里只写"above average"，在一堆"exceptional""best student I've ever mentored"中间就成了减分项。另外，如果你的成绩单上有弱项（某门课成绩不理想、有一个学期 GPA 下滑），不要试图隐瞒——提供给推荐人，让 ta 帮你在信中给出背景解释，比招生委员会自己去猜原因好得多。&lt;/p&gt;
+
+&lt;p&gt;催促策略需要提前铺垫。在对方答应写信的回复邮件里就加上一句："截止日期临近时我会发提醒，希望不会打扰到您。"这等于提前拿到了催促的许可证。截止日前两周发第一次提醒，一周前再发一次。语气保持轻松——"只是想确认您这边一切顺利，如果需要我补充任何材料随时告诉我"。&lt;/p&gt;
+
+&lt;p&gt;最后，结果出来后一定要回报推荐人。无论录取与否，发一封感谢邮件，告诉 ta 你的去向。这不只是礼貌——你和推荐人的关系可能持续整个职业生涯。博士期间你还会需要申请 fellowship、实习、会议 travel grant，甚至毕业后找教职时还需要 ta 再次出手。维护这段关系是一项长期投资。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/navigating-academia/how-to-ask-for-letters-of-recommendation-to-phd-programs-d34a062c41f0"&gt;https://medium.com/navigating-academia/how-to-ask-for-letters-of-recommendation-to-phd-programs-d34a062c41f0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://admit-lab.com/blog/how-to-ask-for-a-letter-of-recommendation-for-a-phd/"&gt;https://admit-lab.com/blog/how-to-ask-for-a-letter-of-recommendation-for-a-phd/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.educations.com/articles-and-advice/phd-studies/how-to-ask-for-a-letter-of-recommendation-for-your-phd-application"&gt;https://www.educations.com/articles-and-advice/phd-studies/how-to-ask-for-a-letter-of-recommendation-for-your-phd-application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2a8f1922-4c12-565f-ad9f-847e46a55df9</guid>
+      <pubDate>Tue, 07 Apr 2026 08:19:36 +0000</pubDate>
+      <category>phd-survival</category>
+      <link>https://medium.com/navigating-academia/how-to-ask-for-letters-of-recommendation-to-phd-programs-d34a062c41f0</link>
     </item>
   </channel>
 </rss>

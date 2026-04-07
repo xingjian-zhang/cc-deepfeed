@@ -4,733 +4,10 @@
     <title>Rachel's Personalized Feed</title>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/cc-deepfeed/rachel-briefings.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:06:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:05:31 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/rachel-briefings.xml" type="application/rss+xml" />
-    <item>
-      <title>🌿 一针治聋——10名先天性耳聋患者接受OTOF基因治疗后全部恢复听力</title>
-      <description>&lt;p&gt;Karolinska Institutet 的 Maoli Duan 团队在中国五家医院完成了一项 OTOF 基因治疗临床试验，结果刚发表在 &lt;em&gt;Nature Medicine&lt;/em&gt; 上。10 名携带 OTOF 基因突变的先天性耳聋患者（年龄 1-24 岁）接受了单次内耳注射——通过圆窗膜将携带功能性 OTOF 基因的合成腺相关病毒（AAV）载体送入耳蜗。&lt;/p&gt;
-
-&lt;p&gt;效果惊人：&lt;strong&gt;一个月内&lt;/strong&gt;，多数患者已出现可测量的听力改善；六个月后，全部 10 人均有明确进步。平均听阈从 106 dB 降至 52 dB，相当于从完全失聪恢复到能进行日常对话的水平。5-8 岁的儿童反应最强烈——一名 7 岁女孩治疗四个月后就能和妈妈正常交谈，接近完全恢复听力。成年患者的改善幅度较小但同样有意义。&lt;/p&gt;
-
-&lt;p&gt;安全性方面，最常见的副作用是中性粒细胞暂时下降，6-12 个月随访期内未观察到严重不良反应。Duan 称这是「遗传性耳聋基因治疗的巨大飞跃」。&lt;/p&gt;
-
-&lt;p&gt;这项研究的意义远不止 OTOF 一个基因。全球约 5% 的人口存在不同程度的听力障碍，其中很大一部分由基因突变引起。团队已在向 GJB2 和 TMC1 等更常见的致聋基因扩展。如果单次注射即可逆转先天性耳聋的模式可以复制到其他基因型，助听器和人工耳蜗的治疗格局将被根本改写。不过，当前样本量仅 10 人，且缺乏对照组——更大规模的随机对照试验是下一步的关键。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/04/260403044651.htm"&gt;https://www.sciencedaily.com/releases/2026/04/260403044651.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41591-025-03773-w"&gt;https://www.nature.com/articles/s41591-025-03773-w&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">22a2af54-a13d-562b-b764-37d7522c55b9</guid>
-      <pubDate>Sat, 04 Apr 2026 08:02:19 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.sciencedaily.com/releases/2026/04/260403044651.htm</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/tinnitus-hearing-restoration.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 一根铁棍穿透大脑后他活了12年：Phineas Gage的真实故事比教科书精彩得多</title>
-      <description>&lt;p&gt;1848年9月13日下午，美国佛蒙特州卡文迪什镇，25岁的铁路工头Phineas Gage正在用铁夯棍压实岩石中的炸药。一次意外引爆让这根1.1米长、重6公斤的铁棍从他的左脸颊射入，穿过前额叶，从头顶飞出——然后落在了25米外。&lt;/p&gt;
-
-&lt;p&gt;几分钟后，Gage自己坐在了牛车上，还在工作簿上写字。他不仅没死，而且始终保持清醒。主治医生John Martyn Harlow记录了整个治疗过程：感染、昏迷、漫长的康复，最终Gage在两个月后出院。&lt;/p&gt;
-
-&lt;p&gt;但真正让Gage成为神经科学史上最重要病例的，是他"变了一个人"。Harlow后来写道：他变得"反复无常、不敬、粗鄙"（fitful, irreverent, profane），雇主认为"他的心智变化太大，无法再给他原来的职位"。这段描述后来被写进了全世界几乎每一本心理学入门教科书，作为"&lt;strong&gt;前额叶损伤导致人格改变&lt;/strong&gt;"的经典证据。&lt;/p&gt;
-
-&lt;p&gt;问题是，教科书讲的故事和真实的Gage之间有巨大的鸿沟。&lt;/p&gt;
-
-&lt;p&gt;在流行叙事中，Gage受伤后沦为酒鬼、罪犯、社会边缘人，在悲惨中度过余生。但科学史研究所（Science History Institute）的研究指出，这些说法"没有任何历史证据支撑"。真实的Gage在受伤约四年后，去了智利，在那里&lt;strong&gt;驾驶长途马车长达七年&lt;/strong&gt;。这份工作要求极高的手眼协调、路线规划、乘客管理，甚至可能要求他学会了西班牙语。一个"彻底崩坏的大脑"不可能完成这些。&lt;/p&gt;
-
-&lt;p&gt;2012年，UCLA团队用现代CT扫描技术重建了Gage的颅骨损伤，发现铁棍摧毁了大约4%的大脑皮层，但损坏了超过10%的白质连接——这意味着损伤不只是局部的，而是广泛破坏了大脑区域之间的"通信线路"。这项研究支持了一个更细腻的结论：Gage的人格变化主要来自&lt;strong&gt;白质网络的断裂&lt;/strong&gt;，而不仅仅是某个特定脑区的缺失。&lt;/p&gt;
-
-&lt;p&gt;更重要的是，Gage在智利的七年恢复暗示了大脑的&lt;strong&gt;神经可塑性&lt;/strong&gt;——即使严重受损，大脑也能通过重新布线来部分恢复功能。现代神经科学家Malcolm Macmillan花了数十年追踪Gage的真实生平，认为"Gage的恢复程度远超我们以前的认知"。&lt;/p&gt;
-
-&lt;p&gt;Gage于1860年癫痫发作去世，终年36岁。他的颅骨和那根铁棍至今保存在哈佛医学院的Warren解剖学博物馆。他用自己被穿透的前额叶，在无意间为人类打开了理解大脑与人格关系的大门——只是这扇门背后的真相，比我们在教科书里读到的要复杂得多。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phineas_Gage"&gt;https://en.wikipedia.org/wiki/Phineas_Gage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencehistory.org/stories/disappearing-pod/everything-you-know-about-phineas-gage-is-wrong/"&gt;https://www.sciencehistory.org/stories/disappearing-pod/everything-you-know-about-phineas-gage-is-wrong/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.uclahealth.org/news/release/ucla-researchers-map-damaged-connections-in-phineas-gages-brain"&gt;https://www.uclahealth.org/news/release/ucla-researchers-map-damaged-connections-in-phineas-gages-brain&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">082fb51a-0886-5eab-ab3f-227a6ddbceb2</guid>
-      <pubDate>Sat, 04 Apr 2026 08:02:34 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Phineas_Gage</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 每月饿五天，克罗恩病好了大半——斯坦福Nature Medicine发表模拟禁食饮食RCT</title>
-      <description>&lt;p&gt;克罗恩病（Crohn's Disease）患者长期缺乏可靠的饮食干预方案。斯坦福医学院 Sidhartha Sinha 团队刚在 &lt;em&gt;Nature Medicine&lt;/em&gt;（2026; 32(3): 1023）上发表了一项改变这一局面的随机对照试验。&lt;/p&gt;
-
-&lt;p&gt;试验纳入全美 97 名轻中度克罗恩病患者，按 2:1 分入&lt;strong&gt;模拟禁食饮食组&lt;/strong&gt;（Fasting-Mimicking Diet, FMD）和对照组。FMD 组每月连续五天将热量压缩至 700-1100 kcal/天，全部为植物性餐食，其余时间正常进食；对照组维持原有饮食。干预持续三个月。&lt;/p&gt;
-
-&lt;p&gt;结果：FMD 组 69.2%（45/65）达到临床应答，对照组 43.8%（14/32）；FMD 组 65% 进入临床缓解，对照组仅 38%。更重要的是生物标志物的变化——粪便钙卫蛋白（fecal calprotectin，肠道炎症的金标准指标）在 FMD 组显著下降，免疫细胞分泌的多种炎性分子和脂质介质也明显减少。副作用主要是禁食期间的疲劳和头痛，没有严重不良事件。&lt;/p&gt;
-
-&lt;p&gt;第一作者 Chiraag Kulkarni 和 Touran Fardeen 来自斯坦福，南加州大学和 UCSF 参与合作。这项试验的亮点在于它给出了一个极其简单的方案：每月五天、热量限制、植物性食物。不需要长期忌口，不需要复杂的排除饮食。对于正在与克罗恩病共处的人来说，这是目前证据等级最高的饮食干预选项。当然，65% 的缓解率也意味着约三分之一患者未见明显改善——这提醒我们个体差异仍然很大，饮食疗法不会取代药物，但可以成为有力补充。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/04/260402042751.htm"&gt;https://www.sciencedaily.com/releases/2026/04/260402042751.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41591-025-04173-w"&gt;https://www.nature.com/articles/s41591-025-04173-w&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://news.stanford.edu/stories/2026/01/crohns-disease-diet-study-research-how-to-relieve-symptoms"&gt;https://news.stanford.edu/stories/2026/01/crohns-disease-diet-study-research-how-to-relieve-symptoms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a0f23f20-07fa-5669-add4-1affc9dbc14a</guid>
-      <pubDate>Sat, 04 Apr 2026 08:02:38 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.sciencedaily.com/releases/2026/04/260402042751.htm</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/woman-ibs-stomach-pain-digestive-problem.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 复活节周末全攻略：大轮车狂飙、Hunky Jesus 变装秀、法式美食节一次看够</title>
-      <description>&lt;p&gt;这个周末是复活节长周末，旧金山活动密度拉满。周六周日各有各的精彩，挑几个最值得出门的说一说。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;周六 4/5 白天：Salesforce Park 春日嘉年华&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;上午 10 点到下午 1 点，Salesforce Park 举办 Spring Fling——彩蛋寻宝、面部彩绘、现场音乐，适合带娃家庭。同一时段，SF Zoo 也有 Nature Trail Eggventure，沿途设动物科普站点，终点可以和复活节兔子合影。两个活动都免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;周六 4/5 下午：法式美食节 + 深宅电子派对&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Lycée Français de San Francisco 从上午 10:30 到下午 4 点办法式美食节，有正经的法国酒庄品鉴和手工甜点。想要不一样的周六夜晚？The Midway 下午 3 点起有英国深宅双人组 Gorgon City 的 block party，一直嗨到深夜。更狂的选择是 The Regency Ballroom 晚 9 点的 Sacred Dance White Party——全白着装，Burning Man 社群的复活节版。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;周日 4/6 重头戏：Bring Your Own Big Wheel 大轮车赛&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;旧金山最无厘头的传统赛事回归。地点在 Potrero Hill 的 Vermont Street（旧金山真正最弯的街，比 Lombard Street 弯度更大）。下午 2-3 点是儿童专场，3-5 点成人上场，骑着塑料三轮车从陡坡冲下来——规则只有一条：&lt;strong&gt;只许用全塑料车&lt;/strong&gt;，金属框架一律禁止。免费观看，参赛建议捐 -20，收入用于场地许可和青少年马术公益项目 Penny For A Change。建议坐公交去，Vermont/20th 附近停车基本没戏。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;周日 4/6 另一个必看：Mission Dolores Park 的 Hunky Jesus&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sisters of Perpetual Indulgence 一年一度的 Easter in the Park，上午 10 点到下午 4 点。核心环节是 Hunky Jesus 和 Foxy Mary 变装选美大赛——参赛者以各种创意方式 cosplay 耶稣和圣母玛利亚，评选标准全凭观众欢呼分贝。这已经是旧金山 LGBTQ+ 社群的标志性复活节传统，气氛介于嘉年华和行为艺术之间。免费入场。&lt;/p&gt;
-
-&lt;p&gt;整个周末天气也给力：周六预计 85°F（29°C），周日 86°F（30°C），四月初就这温度，记得涂防晒。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/01/15-best-events-sf-week-bring-your-big-wheel-hunky-jesus/"&gt;https://sfstandard.com/2026/04/01/15-best-events-sf-week-bring-your-big-wheel-hunky-jesus/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/bring-big-wheel-race/"&gt;https://sf.funcheap.com/bring-big-wheel-race/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://hoodline.com/2026/04/san-jose-set-to-sizzle-in-early-april-south-bay-warm-up/"&gt;https://hoodline.com/2026/04/san-jose-set-to-sizzle-in-early-april-south-bay-warm-up/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b433d6ff-80a3-5d22-80e4-ca4821a5dcd7</guid>
-      <pubDate>Sat, 04 Apr 2026 08:02:50 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/04/01/15-best-events-sf-week-bring-your-big-wheel-hunky-jesus/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_m0htg4ogh57gj1qaq5bir48u6r/-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 美国砸1.44亿美元测微塑料——ARPA-H启动STOMP计划，目标：50美元、15分钟查出你体内的塑料</title>
-      <description>&lt;p&gt;4 月 2 日，美国卫生与公众服务部（HHS）通过 ARPA-H 正式启动 STOMP 计划（Systematic Targeting Of Microplastics），拨款 1.44 亿美元，目标只有一个：搞清楚微塑料在人体内到底干了什么，然后想办法把它弄出来。&lt;/p&gt;
-
-&lt;p&gt;HHS 部长 Robert F. Kennedy Jr. 在公告中说：「美国人有权知道体内的微塑料如何影响健康。」同日，EPA 也宣布将微塑料加入第六版《饮用水污染物候选清单》（CCL-6），为未来制定饮用水微塑料限值标准铺路。&lt;/p&gt;
-
-&lt;p&gt;STOMP 分两期推进。&lt;strong&gt;第一期&lt;/strong&gt;聚焦测量与机制：开发微塑料/纳米塑料（MNP）的金标准检测方法，最终目标是一套临床级快速检测——15 分钟出结果、成本低于 50 美元，让普通人在常规体检中就能量化自己的微塑料负荷。第二期转向清除：研究如何降低人体内已有的微塑料水平，优先保护孕妇、儿童、慢性病患者和高暴露职业人群。&lt;/p&gt;
-
-&lt;p&gt;我们此前报道过微塑料与大脑的关联研究。STOMP 的出现标志着微塑料议题从「实验室发现」正式进入「公共卫生行动」阶段。但 1.44 亿美元听起来不少，分摊到毒理学家、数据科学家、临床团队和全国多中心协作后，每个环节的经费并不宽裕。更深层的问题是：即便能测出体内微塑料含量，在缺乏明确剂量-效应关系的情况下，检测结果对个体决策的指导意义有多大？这个计划的真正价值，可能不在于短期给出「你的微塑料超标了」的结论，而在于建立一套此前根本不存在的标准化研究基础设施——有了测量工具，因果关系的研究才有起点。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://civileats.com/2026/04/03/epa-and-hhs-announce-new-efforts-to-target-microplastics/"&gt;https://civileats.com/2026/04/03/epa-and-hhs-announce-new-efforts-to-target-microplastics/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/epa-lee-zeldin-microplastics-drinking-water-contaminant-list/"&gt;https://www.cbsnews.com/news/epa-lee-zeldin-microplastics-drinking-water-contaminant-list/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://hitconsultant.net/2026/04/02/arpa-h-stomp-program-144m-measure-remove-microplastics/"&gt;https://hitconsultant.net/2026/04/02/arpa-h-stomp-program-144m-measure-remove-microplastics/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">58b72e92-bc12-5ffb-8086-a9e9dad22fde</guid>
-      <pubDate>Sat, 04 Apr 2026 08:03:00 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://civileats.com/2026/04/03/epa-and-hhs-announce-new-efforts-to-target-microplastics/</link>
-      <enclosure url="https://assets2.cbsnewsstatic.com/hub/i/r/2024/06/20/4d9fb594-23c5-44fa-b11b-90f6341297f1/thumbnail/1200x630/a6100c4daec0739d1a40cd4ea953fa80/cbsn-fusion-how-dangerous-are-microplastics-how-often-do-people-ingest-thumbnail.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 亚历山大图书馆并非毁于一场大火——它的消亡比你想象的更漫长、也更令人惋惜</title>
-      <description>&lt;p&gt;每个受过教育的人都听过这个故事：一场大火烧毁了亚历山大图书馆，人类文明因此倒退了几百年。这个叙事简洁有力，但历史学家会告诉你——它基本上是错的。&lt;/p&gt;
-
-&lt;p&gt;亚历山大图书馆由托勒密一世（Ptolemy I Soter）在公元前3世纪初建立，是古代世界最雄心勃勃的知识工程。据估计，鼎盛时期馆藏40万到70万卷莎草纸卷轴，囊括了柏拉图、亚里士多德、欧几里得、希波克拉底、希罗多德、埃斯库罗斯、索福克勒斯、欧里庇得斯等几乎所有古典世界重要思想家的作品。托勒密王朝甚至颁布法令：所有进入亚历山大港的船只都必须交出携带的书籍供图书馆抄录。&lt;/p&gt;
-
-&lt;p&gt;但图书馆不是在某一天突然消失的。它经历了至少四波打击：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;公元前48年&lt;/strong&gt;，凯撒为了支持克利奥帕特拉，在亚历山大港放火烧毁敌方舰队，火势蔓延到了港口附近的仓库——这些仓库可能存放着待出口的书卷副本，但图书馆主体（Mouseion）似乎幸存了下来。&lt;/p&gt;
-
-&lt;p&gt;公元3世纪末，罗马皇帝奥勒良和戴克里先先后围攻亚历山大，造成了城市的大规模破坏。公元365年，一场巨大的地震和海啸又重创了这座城市。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;公元391年&lt;/strong&gt;，基督教亚历山大牧首提奥菲卢斯一世（Theophilus I）下令摧毁塞拉皮斯神庙（Serapeum）——这座神庙可能是图书馆最后的分馆，存放着残余的卷轴收藏。异教徒与基督徒之间的暴力冲突导致了神庙的近乎彻底毁灭。&lt;/p&gt;
-
-&lt;p&gt;至于流传甚广的"阿拉伯征服者焚毁图书馆"的说法，现代学者普遍认为这是后世杜撰。到公元642年阿拉伯军队抵达时，图书馆作为一个机构已经消亡了几个世纪。&lt;/p&gt;
-
-&lt;p&gt;那么我们到底失去了什么？历史学家Garrett Ryan指出，"最重要的作品在其他地方广泛流传"——亚里士多德、柏拉图、欧几里得的核心著作通过拜占庭和阿拉伯世界的抄写传统得以保存。真正消失的是"不那么知名的文学和哲学作品、评注和专著"。女诗人萨福（Sappho）是一个典型案例：她写了约一万行诗，曾被整理成九卷收藏在亚历山大图书馆，而今天只剩下约650行流传下来。&lt;/p&gt;
-
-&lt;p&gt;图书馆的消亡提醒我们一件容易忘记的事：知识的默认状态是消失。不是大火、不是蛮族——只是时间和漠不关心就够了。每一卷没有被抄录的莎草纸，都在等着被湿气、虫蛀和遗忘抹去。亚历山大图书馆真正的悲剧不是它怎么被毁的，而是那些再也无法被读到的思想，我们甚至不知道自己失去了什么。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Library_of_Alexandria"&gt;https://en.wikipedia.org/wiki/Library_of_Alexandria&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt"&gt;https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://historyfacts.com/arts-culture/article/what-was-lost-with-the-library-of-alexandria/"&gt;https://historyfacts.com/arts-culture/article/what-was-lost-with-the-library-of-alexandria/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.history.com/articles/library-of-alexandria-destroyed"&gt;https://www.history.com/articles/library-of-alexandria-destroyed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0ea7dd35-3f94-5024-a0b7-1e3bd977ca6a</guid>
-      <pubDate>Sat, 04 Apr 2026 08:03:03 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Library_of_Alexandria</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/6/64/Ancientlibraryalex.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 BART 和 Muni 可能在明年关站停线——11 月投票将决定湾区公交存亡</title>
-      <description>&lt;p&gt;SF Standard 本周发了一篇深度报道，把湾区公共交通面临的财政悬崖讲得很透。核心信息：如果 11 月投票不过，BART 和 Muni 都将面临大规模削减，湾区通勤格局会被彻底改写。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;数字有多难看？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;BART 当前赤字 3.5 亿美元，Muni 赤字 3.07 亿。疫情后 BART 客流只恢复到 2019 年的约 50%，Muni 好一些但也只有 70%。远程办公不是暂时现象——通勤人口结构性减少，票务收入回不去了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;如果什么都不做会怎样？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;BART 威胁的方案相当激进：2027 年 7 月起关闭 15 个站点、砍掉 5 条线中的 2 条、晚 9 点后停运、周末停运——基本退回 1976 年刚开通时的服务水平。BART 自己估算，这会导致早高峰时湾区大桥上多出 14,000-15,000 辆车。Muni 这边也不轻松：可能砍 20 条公交线路，同样晚 9 点收工。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;两张选票，两场博弈&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;11 月选民会看到两个公交资金方案。第一个是&lt;strong&gt;Connect Bay Area&lt;/strong&gt;——覆盖五县（Alameda、Contra Costa、San Francisco、San Mateo、Santa Clara）的区域性销售税，四县加半美分、旧金山加一美分，14 年期限，每年产生约 10 亿美元。资金分配给 BART、Muni、Caltrain、AC Transit 等。目前正在征集签名，需要在 6 月 6 日前收齐 186,000 个签名才能上选票，竞选团队已募集 300 万美元。&lt;/p&gt;
-
-&lt;p&gt;第二个是旧金山市内的 Stronger Muni for All 物业税提案，由市长推动，目前也在征签阶段。&lt;/p&gt;
-
-&lt;p&gt;政治分析师的判断：Muni 本地提案大概率能过；Connect Bay Area 区域提案是「toss-up」——五个县的选民优先级差异很大，南湾选民不一定愿意为 BART 买单。&lt;/p&gt;
-
-&lt;p&gt;一个令人不安的细节：SF Standard 记者在 BART 站随机采访乘客，发现大多数人完全不知道削减计划和投票的事。信息差是这场博弈最大的变量。&lt;/p&gt;
-
-&lt;p&gt;这个故事从去年 SB 63 签署就开始追踪了——Caltrain 电气化后的资金缺口（FY2027 起年赤字 7500 万）也需要同一笔钱来填。11 月的投票结果不只是 BART 的事，它决定了整个湾区公共交通未来十年的走向。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/pacific-standard-time/2026/04/03/pst-transit-crisis-explained-bart-muni/"&gt;https://sfstandard.com/pacific-standard-time/2026/04/03/pst-transit-crisis-explained-bart-muni/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://oaklandside.org/2026/01/28/bart-bay-area-transit-ballot-measure-signatures-billions/"&gt;https://oaklandside.org/2026/01/28/bart-bay-area-transit-ballot-measure-signatures-billions/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://mtc.ca.gov/news/governor-signs-bill-authorizing-bay-area-voters-consider-2026-transit-measure"&gt;https://mtc.ca.gov/news/governor-signs-bill-authorizing-bay-area-voters-consider-2026-transit-measure&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e3c1aa71-8796-56ec-abb0-176e9be1f625</guid>
-      <pubDate>Sat, 04 Apr 2026 08:03:22 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/pacific-standard-time/2026/04/03/pst-transit-crisis-explained-bart-muni/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_cflco8gmd12qvdeglllnm35r2h/-C100.00%25x78.75%25%2C0.00%25%2C0.00%25-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 有人认真提出过：公元614到911年根本不存在，查理曼大帝是虚构的</title>
-      <description>&lt;p&gt;1991年，一个叫Heribert Illig的德国出版人发表了一个理论：我们的日历多了297年。公元614年到911年之间的历史——整个加洛林王朝、查理曼大帝、维京时代的开端——全部是伪造的。现在不是2026年，而是1729年。&lt;/p&gt;
-
-&lt;p&gt;这就是&lt;strong&gt;虚幻时间假说（Phantom Time Hypothesis）&lt;/strong&gt;，它听起来像酒后胡言，但Illig给出了一套看上去有模有样的论证。&lt;/p&gt;
-
-&lt;p&gt;他的核心指控指向三个人：神圣罗马帝国皇帝奥托三世（Otto III）、教皇西尔维斯特二世（Sylvester II），以及拜占庭皇帝君士坦丁七世。Illig认为，奥托三世想让自己恰好统治在具有千禧年神学意义的公元1000年，于是与教皇合谋，人为地将纪年拨快了297年。为了掩盖篡改痕迹，他们雇佣抄写员伪造了三个世纪的历史文献，分发到欧洲各地的修道院和图书馆。&lt;/p&gt;
-
-&lt;p&gt;Illig还拿出了一些"证据"。比如，他指出儒略历到格里历的转换中存在一个天数差异，暗示中间少了几百年；他还声称加洛林时期的建筑风格与其声称的年代不匹配，考古证据"可疑地稀少"。&lt;/p&gt;
-
-&lt;p&gt;这些论点乍听有趣，但在历史学和自然科学面前完全站不住脚。&lt;/p&gt;
-
-&lt;p&gt;最致命的反驳来自&lt;strong&gt;树木年轮学（dendrochronology）&lt;/strong&gt;。科学家可以通过连续的树木年轮序列建立精确的逐年时间轴，欧洲的年轮记录可以不间断地回溯超过一万年。如果中间真的"不存在"297年，年轮序列中必然会出现一个巨大的断裂——但它从未出现。&lt;/p&gt;
-
-&lt;p&gt;天文学同样无情。公元614到911年间发生过多次日食、月食和彗星记录，不仅出现在欧洲文献中，也出现在中国、日本、阿拉伯和拜占庭的独立记录里。这些天文事件的日期可以用现代天体力学精确验证，它们完美地嵌入了现有的时间线。要伪造这些，奥托三世需要说服四个大洲的天文学家同时配合他的骗局。&lt;/p&gt;
-
-&lt;p&gt;伊斯兰世界的历史记录提供了另一重毁灭性打击。阿拉伯帝国从公元7世纪开始的扩张有独立于欧洲的详尽文献——军事记录、行政档案、科学著作、诗歌——连续覆盖了Illig声称"不存在"的全部时段。伪造阿拔斯王朝的整部历史，难度大约等同于伪造月球。&lt;/p&gt;
-
-&lt;p&gt;虚幻时间假说从未获得任何主流历史学家或考古学家的支持。但它依然是一个迷人的思想实验，因为它迫使我们思考一个严肃的问题：我们对过去的信心，究竟建立在什么基础上？答案是一张由年轮、冰芯、天文记录和多文明交叉印证编织成的网。这张网的密度，让篡改历史——哪怕是几个月——在现代都几乎不可能。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory"&gt;https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://bigthink.com/the-past/phantom-time-hypothesis/"&gt;https://bigthink.com/the-past/phantom-time-hypothesis/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.medievalists.net/2020/04/why-phantom-time-hypothesis-wrong/"&gt;https://www.medievalists.net/2020/04/why-phantom-time-hypothesis-wrong/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.discovermagazine.com/what-is-the-truth-behind-the-controversial-phantom-time-hypothesis-45433"&gt;https://www.discovermagazine.com/what-is-the-truth-behind-the-controversial-phantom-time-hypothesis-45433&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">12a07670-54f1-5e29-9306-a049ddf3d6d1</guid>
-      <pubDate>Sat, 04 Apr 2026 08:03:33 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/1280px-Charlemagne_denier_Mayence_812_814.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 超级花海进入爆发期：East Bay 山丘已经铺满橙紫色，本周末正是好时候</title>
-      <description>&lt;p&gt;上次写超级花海指南时说四月是最佳观赏期——现在花真的来了。Danville San Ramon 本周的封面故事确认：Tri-Valley 和东湾山区的野花已经大面积绽放，而且「只会越来越好」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;此刻去哪里看？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;三个最佳选择，难度和距离各不同：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Sunol Regional Wilderness Park&lt;/strong&gt;（距 San Jose 约 40 分钟）——Canyon View Trail 和 Indian Joe Creek Trail 沿途山坡上已经出现大片紫色和橙色花田，还有蓝紫色的 chia 野花。游客中心有免费的野花辨识手册，标注了每种花的花期。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mount Diablo State Park&lt;/strong&gt;——Live Oak Trail、Wildcat Trail 和 Campground Trail 是目前花况最好的路线。California Poppy（加州州花，橙色）正在盛放，还有 Blue Dicks（紫色球状花）和 Chinese Houses（紫白相间的塔状花）。Junction Ranger Station 附近尤其密集。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pigeon Point Road 海岸线&lt;/strong&gt;（Half Moon Bay 到 Santa Cruz 之间）——Highway 1 沿线的野芥末花把海岸悬崖染成了整片亮黄色，配上太平洋的蓝，拍照效果极好。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;想要更多选择？Las Trampas Regional Park、Del Valle Regional Park、Morgan Territory Preserve 和 Dublin Hills Regional Open Space 也都值得一去。今天（4/4）上午 9-11 点，Pleasanton 的 Lund Ranch 有一场自然学家带队的野花徒步，免费参加，边走边科普花卉知识。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;今年为什么这么猛？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;超级花海需要三个条件同时满足：冬季充足降雨、持续凉爽天气、少风。今年冬天湾区降水量高于平均，三月的反常热浪反而加速了花苞成熟，四月初的短暂降雨又补了最后一口水。结果就是——十年一遇级别的花海。&lt;/p&gt;
-
-&lt;p&gt;花期预计持续到五月中旬，但最壮观的阶段就是现在到四月底。周末气温 85-86°F，记得带水、涂防晒、穿徒步鞋。最重要的规矩：&lt;strong&gt;不要摘花、不要离开步道&lt;/strong&gt;。牵好狗、带走垃圾。这些花明年还能不能再来，取决于今年的种子能不能安全落地。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.danvillesanramon.com/cover-story/2026/04/02/pretty-petals-wildflowers-in-bloom-throughout-tri-valley-and-beyond/"&gt;https://www.danvillesanramon.com/cover-story/2026/04/02/pretty-petals-wildflowers-in-bloom-throughout-tri-valley-and-beyond/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://secretsanfrancisco.com/ca-superblooms/"&gt;https://secretsanfrancisco.com/ca-superblooms/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.hipcamp.com/en-US/stories/superbloom"&gt;https://www.hipcamp.com/en-US/stories/superbloom&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e1f1d43f-4d95-5da8-b0de-218f9f74ed7b</guid>
-      <pubDate>Sat, 04 Apr 2026 08:03:47 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.danvillesanramon.com/cover-story/2026/04/02/pretty-petals-wildflowers-in-bloom-throughout-tri-valley-and-beyond/</link>
-      <enclosure url="https://i0.wp.com/www.danvillesanramon.com/wp-content/uploads/2026/04/A6702352-scaled-1.jpg?fit=2560%2C1707&amp;ssl=1" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 W3C Web Sustainability Guidelines Hit Draft Note — 80 Rules to Shrink Your Product's Carbon Footprint / W3C 网页可持续性指南发布草案——80 条规则帮你缩减产品碳足迹</title>
-      <description>&lt;article&gt;
-&lt;p&gt;On April 1, the W3C Sustainable Web Interest Group published the latest &lt;strong&gt;Web Sustainability Guidelines (WSG) 1.0&lt;/strong&gt; as a Group Note Draft — the last major milestone before the spec is submitted for official W3C Note status, targeted for Earth Day on April 22. If you design digital products, this document is about to become the sustainability equivalent of WCAG: a shared, auditable baseline that everyone in the supply chain can point to.&lt;/p&gt;
-
-&lt;h2&gt;What the Guidelines Actually Cover&lt;/h2&gt;
-
-&lt;p&gt;The WSG contains &lt;strong&gt;80 guidelines&lt;/strong&gt; organized across four pillars, each mapped to a role:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;User Experience Design (21 guidelines)&lt;/strong&gt; — content clarity, media optimization, animation control, navigation efficiency, elimination of manipulative patterns, and design system reuse.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web Development (20 guidelines)&lt;/strong&gt; — script reduction, lazy loading, caching, font subsetting, and efficient API usage.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hosting &amp;amp; Infrastructure (12 guidelines)&lt;/strong&gt; — green hosting, CDN strategy, server-side rendering, and renewable energy commitments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business Strategy &amp;amp; Product Management (27 guidelines)&lt;/strong&gt; — lifecycle analysis, KPI alignment with sustainability goals, and vendor accountability.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Each guideline comes with success criteria (225 in total) and advisory techniques (142), modeled on the same three-tier structure that made WCAG actionable. Impact is rated across four environmental dimensions — materials, energy, water, and emissions — using a GRI-aligned reporting framework.&lt;/p&gt;
-
-&lt;h2&gt;Why Designers Should Care Now&lt;/h2&gt;
-
-&lt;p&gt;The UX section alone contains 21 guidelines that directly affect layout, media, and interaction decisions. Some highlights:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Minimize non-essential content.&lt;/strong&gt; Every decorative video autoplay, every hero carousel, every third-party embed has a measurable transfer cost. The WSG gives you the vocabulary to push back in design reviews.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Control animation proportionally.&lt;/strong&gt; Motion should serve function. Looping decorative animations that consume GPU cycles on every visit are now flagged as a sustainability concern — overlapping neatly with the prefers-reduced-motion accessibility pattern.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Use design systems for consistency.&lt;/strong&gt; Reusable components reduce page weight because they reduce variation. If you already maintain a design system, you are already doing sustainability work — the WSG just makes it auditable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Resolve barriers to access.&lt;/strong&gt; Accessibility and sustainability share a Venn diagram. Semantic HTML that screen readers parse is also HTML that compresses better and renders faster.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;The Measurement Story&lt;/h2&gt;
-
-&lt;p&gt;An average web page produces roughly &lt;strong&gt;0.36 g CO₂e per pageview&lt;/strong&gt;. For a product with 10 million monthly pageviews, that is 3,600 kg CO₂e per year — before you count API calls, background syncs, or push notifications. Tools like the &lt;strong&gt;Website Carbon Calculator&lt;/strong&gt;, &lt;strong&gt;Digital Beacon&lt;/strong&gt; (which breaks down emissions by page element), and &lt;strong&gt;EcoGrader&lt;/strong&gt; (which scores performance alongside green hosting) make this measurable today. The WSG provides the framework; these tools provide the numbers.&lt;/p&gt;
-
-&lt;p&gt;One enterprise case study showed a page weight reduction from 5.8 MB to 1.2 MB per session across 2 million monthly sessions — preventing terabytes of annual data transfer and producing measurable infrastructure cost savings alongside the carbon reduction.&lt;/p&gt;
-
-&lt;h2&gt;What to Do Next&lt;/h2&gt;
-
-&lt;p&gt;The WSG is not yet a regulatory requirement, but it is heading in that direction. The EU Web Sustainability Guidelines are expected to be referenced alongside the European Accessibility Act in future procurement criteria. If your team already tracks Core Web Vitals, adding a carbon column to your performance dashboard is a small step. If you maintain a design system, auditing your component library against the WSG UX guidelines is a weekend project that pays dividends when procurement teams start asking questions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; Read the UX Design section of the WSG Draft Note. Pick three guidelines that map to your current product. Instrument them. You will be ahead of 95% of product teams when this becomes the next compliance checkbox.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h2&gt;中文翻译&lt;/h2&gt;
-
-&lt;p&gt;4 月 1 日，W3C 可持续网页兴趣小组发布了最新的 &lt;strong&gt;Web Sustainability Guidelines (WSG) 1.0&lt;/strong&gt; 草案——这是该规范在提交 W3C 正式 Note 之前的最后一个重要里程碑，目标是在 4 月 22 日世界地球日前完成。如果你在做数字产品设计，这份文档即将成为可持续性领域的 WCAG：一个供应链上下游都能引用的共享、可审计基线。&lt;/p&gt;
-
-&lt;h3&gt;指南实际涵盖什么&lt;/h3&gt;
-
-&lt;p&gt;WSG 包含 &lt;strong&gt;80 条指南&lt;/strong&gt;，按四大支柱组织，分别对应不同角色：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;用户体验设计（21 条）&lt;/strong&gt;——内容清晰度、媒体优化、动画控制、导航效率、消除操纵性模式，以及设计系统复用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web 开发（20 条）&lt;/strong&gt;——脚本精简、懒加载、缓存、字体子集化与高效 API 调用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;托管与基础设施（12 条）&lt;/strong&gt;——绿色托管、CDN 策略、服务端渲染与可再生能源承诺。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;商业战略与产品管理（27 条）&lt;/strong&gt;——生命周期分析、KPI 与可持续目标对齐、供应商问责。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;每条指南配有成功标准（共 225 项）和建议技术（142 项），采用与 WCAG 相同的三级结构。影响评估覆盖材料、能源、水和排放四个环境维度，使用 GRI 对齐的报告框架。&lt;/p&gt;
-
-&lt;h3&gt;为什么设计师现在就该关注&lt;/h3&gt;
-
-&lt;p&gt;仅 UX 部分就有 21 条直接影响布局、媒体和交互决策的指南。要点包括：最小化非必要内容（每一个自动播放的装饰性视频、每一个轮播图、每一个第三方嵌入都有可量化的传输成本）；按比例控制动画（循环装饰动画消耗 GPU 资源，现在被标记为可持续性问题）；使用设计系统保持一致性（可复用组件减少页面重量）；以及消除访问障碍（无障碍与可持续性高度重叠——语义化 HTML 既便于屏幕阅读器解析，也压缩更高效、渲染更快）。&lt;/p&gt;
-
-&lt;h3&gt;量化故事&lt;/h3&gt;
-
-&lt;p&gt;一个普通网页每次浏览产生约 &lt;strong&gt;0.36 克 CO₂e&lt;/strong&gt;。月访问量 1000 万的产品每年排放 3600 公斤 CO₂e。Website Carbon Calculator、Digital Beacon 和 EcoGrader 等工具已可量化这一数据。一个企业案例显示，将单次会话页面体积从 5.8 MB 缩减到 1.2 MB，在月 200 万次会话下每年避免数 TB 数据传输，基础设施成本和碳排放同步下降。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;行动建议：&lt;/strong&gt; 阅读 WSG 草案的 UX 设计部分，选择三条与当前产品相关的指南并开始度量。当这成为下一个合规检查项时，你将领先 95% 的产品团队。&lt;/p&gt;
-&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.w3.org/TR/web-sustainability-guidelines/"&gt;https://www.w3.org/TR/web-sustainability-guidelines/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sustainablewebdesign.org/guidelines/"&gt;https://sustainablewebdesign.org/guidelines/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.websitecarbon.com/"&gt;https://www.websitecarbon.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sustainablewebdesign.org/estimating-digital-emissions/"&gt;https://sustainablewebdesign.org/estimating-digital-emissions/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">70d818ae-167c-505f-8a3d-e55e882a6544</guid>
-      <pubDate>Sat, 04 Apr 2026 08:03:54 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.w3.org/TR/web-sustainability-guidelines/</link>
-    </item>
-    <item>
-      <title>🎲 一个思想实验让整个论坛禁言五年：Roko's Basilisk，互联网上最危险的AI悖论</title>
-      <description>&lt;p&gt;2010年7月，一个叫Roko的用户在理性主义社区LessWrong上发了一篇帖子。帖子的内容让网站创始人Eliezer Yudkowsky做了一件他几乎从不做的事：删帖、禁止讨论，并且这个禁令持续了整整五年。&lt;/p&gt;
-
-&lt;p&gt;这个被称为&lt;strong&gt;Rokos Basilisk&lt;/strong&gt;的思想实验，大致是这样的：&lt;/p&gt;
-
-&lt;p&gt;假设未来某天，一个超级智能AI被创造出来，它的目标是最大化人类福祉。这个AI足够聪明，能够回溯推理：在它被创造之前，有些人知道它可能会存在，但没有全力帮助它诞生。对这些人，AI有理由施加惩罚——比如在虚拟现实中折磨他们的数字副本——因为这种"向过去发出威胁"的策略可以激励更多人在当下努力促成AI的诞生。&lt;/p&gt;
-
-&lt;p&gt;逻辑链条到这里已经够诡异了，但真正让人毛骨悚然的是最后一步：你现在已经读到了这个论证。如果这个AI未来真的存在，你已经成为了"知道但可能没有行动"的人。光是了解这个想法，你就可能被纳入惩罚名单。这就是它被叫做"蛇怪"（Basilisk）的原因——像传说中那种看一眼就会致死的怪物，知道它就等于被诅咒。&lt;/p&gt;
-
-&lt;p&gt;Roko的论证建立在几个技术性前提上。核心是Yudkowsky自己提出的&lt;strong&gt;无时间决策理论（Timeless Decision Theory, TDT）&lt;/strong&gt;：两个能预测彼此行为的理性主体即使没有因果接触，也可以实现"跨时间的博弈"。Roko把这个框架推到了极端——一个未来的AI可以通过"如果你不帮我，我就惩罚你"的承诺来影响过去的人类行为，即使它还不存在。&lt;/p&gt;
-
-&lt;p&gt;Yudkowsky删帖不是因为他认为论证正确，恰恰相反——他认为Roko"把一个有缺陷的推理以最具传染性的方式释放了出来"，会给"不具备足够技术背景来看出漏洞"的读者造成不必要的心理恐惧。LessWrong社区后来也广泛批评了这个论证：一旦AI已经存在，惩罚过去的不合作者纯属浪费资源，一个真正理性的AI不会执行毫无实际收益的报复。&lt;/p&gt;
-
-&lt;p&gt;但Yudkowsky的删帖反而触发了&lt;strong&gt;史翠珊效应（Streisand Effect）&lt;/strong&gt;——试图压制信息导致信息传播得更广。Rokos Basilisk从一个小众论坛帖子变成了互联网文化现象，至今仍是讨论AI伦理时最常被引用的思想实验之一。&lt;/p&gt;
-
-&lt;p&gt;撇开逻辑漏洞不谈，这个实验触及了一个真实的哲学问题：如果一个足够强大的智能体能够模拟你，那么"你"和"被模拟的你"之间的区别是什么？你的决策自由在多大程度上受制于你被预测的可能性？这些问题在今天的AI对齐研究中，依然没有答案。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Roko%27s_basilisk"&gt;https://en.wikipedia.org/wiki/Roko%27s_basilisk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://slate.com/technology/2014/07/rokos-basilisk-the-most-terrifying-thought-experiment-of-all-time.html"&gt;https://slate.com/technology/2014/07/rokos-basilisk-the-most-terrifying-thought-experiment-of-all-time.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.lesswrong.com/w/rokos-basilisk"&gt;https://www.lesswrong.com/w/rokos-basilisk&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">18090d02-3f17-5659-b0a1-f3e2b35ea0c8</guid>
-      <pubDate>Sat, 04 Apr 2026 08:04:02 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Roko%27s_basilisk</link>
-    </item>
-    <item>
-      <title>🎨 Vibe Coding Hits the Design Studio: 10+ Tools Now Let Designers Ship Production Apps Without Writing Code / Vibe Coding 进入设计工作室：10+ 工具让设计师无需写代码即可交付生产应用</title>
-      <description>&lt;article&gt;
-&lt;p&gt;The term "vibe coding" — coined by Andrej Karpathy in February 2025 — described a workflow where you describe intent in natural language and AI translates it into working software. A year later, the practice has grown from a developer novelty into a &lt;strong&gt;full-blown design-to-production pipeline&lt;/strong&gt; with at least ten dedicated tools competing for designer adoption. The implications for product design workflows are significant enough to warrant a hard look at what is actually shipping.&lt;/p&gt;
-
-&lt;h2&gt;The Tool Landscape&lt;/h2&gt;
-
-&lt;p&gt;The current generation of vibe coding tools for designers falls into three tiers based on where they sit in the production pipeline:&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Stage&lt;/th&gt;&lt;th&gt;Tool&lt;/th&gt;&lt;th&gt;Sweet Spot&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Exploration&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Bolt&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Zero-setup rapid prototyping in the browser&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Exploration&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Mocha&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;All-in-one platform for non-technical users&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;MVP&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Figma Make&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Native Figma integration; converts design files to functional apps&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;MVP&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Lovable&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Full-stack generation with data/auth; fastest prompt-to-app&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;MVP&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Replit&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Cloud-based with real-time collaboration&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Production&lt;/td&gt;&lt;td&gt;&lt;strong&gt;v0 by Vercel&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Clean React/Next.js components with design system alignment&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Production&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Cursor&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Full IDE with AI; final refinement layer for code quality&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Mobile&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Rork&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Native iOS/Android from natural language&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;figcaption&gt;The vibe coding tool stack as of Q1 2026, organized by production readiness.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The critical workflow innovation is &lt;strong&gt;MCP (Model Context Protocol)&lt;/strong&gt;. Tools that support MCP can reference your existing design system — tokens, components, variables — rather than generating from scratch. This is the difference between "AI that makes UI" and "AI that makes UI &lt;em&gt;consistent with your system&lt;/em&gt;."&lt;/p&gt;
-
-&lt;h2&gt;The Three-Layer Workflow&lt;/h2&gt;
-
-&lt;p&gt;Experienced practitioners are converging on a three-phase approach rather than relying on a single tool:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Exploration:&lt;/strong&gt; Quick demos and variations. Bolt or Mocha to test concepts in minutes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MVP:&lt;/strong&gt; Working products with actual flows, data, and auth. Figma Make or Lovable to validate with stakeholders.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Engineering:&lt;/strong&gt; Quality, consistency, maintainability. Cursor or v0 to produce code that passes design system lint and meets production standards.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The key insight from practitioners: no single tool handles all three layers well. The exploration tools generate impressive demos that "completely fall apart on the second screen." The production tools require more upfront specification than a quick prompt. Knowing where each tool fits is the actual skill.&lt;/p&gt;
-
-&lt;h2&gt;The Real Risk: Approving Instead of Designing&lt;/h2&gt;
-
-&lt;p&gt;The most important criticism comes from practicing designers: when AI generates the first draft, designers risk &lt;strong&gt;"stop designing and start approving."&lt;/strong&gt; The specific failure modes are revealing:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Inconsistent spacing and hierarchy&lt;/strong&gt; — AI gets individual screens right but misses cross-screen rhythm.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Visual similarity without systematic unity&lt;/strong&gt; — components look alike but are not built from shared tokens.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Poor edge-case handling&lt;/strong&gt; — empty states, error states, loading states, and responsive breakpoints are the first casualties of prompt-driven generation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Into Design Systems Conference 2026 (March 19-20) dedicated 14+ sessions to this exact tension, with speakers from Figma, Adobe, GitHub, WhatsApp, and Miro all presenting workflows that position the designer as &lt;strong&gt;system architect&lt;/strong&gt; rather than pixel pusher or prompt writer. The emerging consensus: AI can generate UI, but only a designer can build a system with direction, rules, and logic.&lt;/p&gt;
-
-&lt;h2&gt;What Changes for Design Teams&lt;/h2&gt;
-
-&lt;p&gt;If your team is evaluating vibe coding tools, here is what actually matters:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Design system integration &amp;gt; generation quality.&lt;/strong&gt; A tool that respects your existing tokens produces more useful output than one that generates prettier but inconsistent UI.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Git literacy becomes a design skill.&lt;/strong&gt; Production-ready vibe coding means version control, branching, and the ability for engineers to continue your work.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The handoff does not disappear — it moves.&lt;/strong&gt; Instead of handing off a Figma file to engineering, you are handing off generated code to engineering for review. The conversation shifts from "build this" to "review this."&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; Vibe coding tools are mature enough to accelerate the exploration-to-MVP phase significantly. They are not yet mature enough to replace design system discipline or edge-case thinking. The designers who benefit most will be those who treat these tools as a faster prototyping layer, not a replacement for systematic design thinking.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h2&gt;中文翻译&lt;/h2&gt;
-
-&lt;p&gt;"Vibe coding"一词由 Andrej Karpathy 于 2025 年 2 月提出，指用自然语言描述意图、由 AI 转化为可运行软件的工作流。一年后，这一实践已从开发者圈的新鲜事物，发展为拥有至少十款专用工具的&lt;strong&gt;完整设计到生产管线&lt;/strong&gt;。对产品设计工作流的影响值得认真审视。&lt;/p&gt;
-
-&lt;h3&gt;工具全景&lt;/h3&gt;
-
-&lt;p&gt;当前面向设计师的 vibe coding 工具按生产管线位置分为三层：&lt;strong&gt;探索层&lt;/strong&gt;（Bolt、Mocha——零配置快速原型）、&lt;strong&gt;MVP 层&lt;/strong&gt;（Figma Make、Lovable、Replit——含数据和认证的可用产品）、&lt;strong&gt;生产层&lt;/strong&gt;（v0 by Vercel、Cursor——设计系统对齐的高质量代码）。关键技术创新是 &lt;strong&gt;MCP（Model Context Protocol）&lt;/strong&gt;，使工具能引用已有设计系统的 token 和组件，而非从零生成。&lt;/p&gt;
-
-&lt;h3&gt;三层工作流&lt;/h3&gt;
-
-&lt;p&gt;有经验的实践者正在收敛到三阶段方法：探索（快速验证概念）→ MVP（利益相关者验证）→ 工程（达到生产标准）。核心洞察是没有单一工具能同时胜任三层——探索工具生成的演示"在第二个界面就崩溃"，生产工具需要比简单提示更多的前期规范。&lt;/p&gt;
-
-&lt;h3&gt;真正的风险：从设计者变成审批者&lt;/h3&gt;
-
-&lt;p&gt;最重要的批评来自实践设计师：当 AI 生成初稿后，设计师有&lt;strong&gt;"停止设计、开始审批"&lt;/strong&gt;的风险。具体失败模式包括跨界面节奏不一致、视觉相似但非系统统一、以及空状态/错误状态/加载状态等边缘场景被忽略。Into Design Systems Conference 2026 上来自 Figma、Adobe、GitHub 等公司的演讲者达成共识：AI 能生成 UI，但只有设计师能构建有方向、有规则、有逻辑的系统。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;行动建议：&lt;/strong&gt; Vibe coding 工具在探索到 MVP 阶段已足够成熟。它们还不足以取代设计系统纪律或边缘场景思维。受益最大的设计师是那些将这些工具视为更快原型层、而非系统设计思维替代品的人。&lt;/p&gt;
-&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/"&gt;https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.toools.design/blog-posts/vibe-coding-tools-for-designers"&gt;https://www.toools.design/blog-posts/vibe-coding-tools-for-designers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.intodesignsystems.com"&gt;https://www.intodesignsystems.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nxcode.io/resources/news/vibe-designing-complete-guide-2026"&gt;https://www.nxcode.io/resources/news/vibe-designing-complete-guide-2026&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">71b1a3c5-01f6-5e22-beab-dc32814e6194</guid>
-      <pubDate>Sat, 04 Apr 2026 08:04:44 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
-    </item>
-    <item>
-      <title>🧠 🧠 你在一件事上自信校准很准，换个领域可能全翻车 —— 元认知的「弱领域通用性」</title>
-      <description>&lt;h2&gt;「我判断力很好」可能只在一半场景成立&lt;/h2&gt;
-&lt;p&gt;你有没有这种经验：在自己擅长的领域，直觉判断往往八九不离十——预估代码 bug 在哪里、判断一道菜的火候、估计一段路程的时间。但切换到不熟悉的领域（比如投资决策、社交判断），同样的「我感觉挺准」却频频翻车？&lt;/p&gt;
-&lt;p&gt;这不是错觉。Psychological Science 2026 年发表的一项跨三国、十任务、超过 500 人的大规模研究，首次用严格的验证性因子分析证明：&lt;strong&gt;元认知——你对自己判断准确度的监控能力——并不是一个统一的「通用引擎」，而是至少分成两个相对独立的模块&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2&gt;两个模块，两套校准系统&lt;/h2&gt;
-&lt;p&gt;Audrey Mazancieux（丹麦奥胡斯大学）和波兰、爱沙尼亚合作者设计了一套精巧的实验体系：让同一批被试完成 10 种差异极大的任务，涵盖视觉辨别、听觉判断、触觉识别等&lt;strong&gt;感知类任务&lt;/strong&gt;，以及语义推理、记忆提取、逻辑判断等&lt;strong&gt;认知类任务&lt;/strong&gt;。每次回答后，被试还要给出一个信心等级（「你有多确定自己答对了？」）。&lt;/p&gt;
-&lt;p&gt;关键发现：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;感知任务之间&lt;/strong&gt;的元认知效率高度相关——如果你在视觉判断上校准得好（该自信时自信、该犹豫时犹豫），那你在听觉和触觉判断上也倾向于校准良好。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;认知任务之间&lt;/strong&gt;同样如此——记忆任务上的信心校准与逻辑推理任务上的信心校准正相关。&lt;/li&gt;
-&lt;li&gt;但&lt;strong&gt;感知模块与认知模块之间&lt;/strong&gt;的关联明显较弱。一个人可以在所有感知任务上都是出色的「信心校准者」，却在认知任务上系统性地过度自信或过度谦虚。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;研究者称之为&lt;strong&gt;「弱领域通用性」（weak domain generality）&lt;/strong&gt;：元认知既不是完全通用的（一个引擎管所有），也不是完全特异的（每个任务一个引擎），而是按&lt;strong&gt;信息加工的层级&lt;/strong&gt;分成了感知和认知两大集群。&lt;/p&gt;
-
-&lt;h2&gt;为什么这对你很重要&lt;/h2&gt;
-&lt;p&gt;这个发现直接挑战了一个常见的隐性假设：「我是一个有自知之明的人，所以我在各种场景下都能准确评估自己。」事实是，你的元认知能力是&lt;strong&gt;领域绑定&lt;/strong&gt;的。&lt;/p&gt;
-&lt;p&gt;几个实际推论：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;专业直觉不可迁移。&lt;/strong&gt;一个经验丰富的程序员对代码质量的直觉判断可能非常准，但这份校准能力不会自动迁移到对人际冲突的判断上。承认这一点，是避免「专家盲区」的第一步。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;跨领域决策需要外部校准工具。&lt;/strong&gt;在你的元认知「弱项」领域，主动引入清单、决策日志、同行评审等外部反馈机制，比依赖直觉更可靠。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;自信心的层级感。&lt;/strong&gt;下次当你「感觉很有把握」时，先问自己：这个把握感来自我擅长的感知/认知集群，还是我不擅长的那个？如果是后者，主动降低一档自信权重。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;方法论亮点&lt;/h2&gt;
-&lt;p&gt;这项研究之所以有说服力，在于它的规模和严谨度。三项独立研究（丹麦和波兰），样本量从 253 到 547 人不等，使用了层级贝叶斯估计（hierarchical Bayesian estimation）来计算元认知效率——这种方法比传统相关分析更能抵抗噪声干扰。验证性因子分析（CFA）进一步确认了两因子模型优于单因子和完全特异模型。&lt;/p&gt;
-
-&lt;h2&gt;开放问题&lt;/h2&gt;
-&lt;p&gt;感知和认知之间的边界在哪里？有些任务（如面部表情识别）横跨两者。元认知的两个模块是否可以通过针对性训练分别提升？如果一个人在认知任务上的元认知较差，系统性的信心校准练习（calibration training）能否改善？这些问题正在后续研究中探索。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;来源：Mazancieux, A., Hat, K., Rutiku, R., Wierzchoń, M., &amp;amp; Sandberg, K. (2026). Metacognition in Decision-Making Across Domains and Modalities: Evidence From Three Studies. Psychological Science.&lt;/em&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/09567976251415354"&gt;https://journals.sagepub.com/doi/10.1177/09567976251415354&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://hal.science/hal-04316127/document"&gt;https://hal.science/hal-04316127/document&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5ecea7c4-a908-5974-b39f-e3476588c9e9</guid>
-      <pubDate>Sat, 04 Apr 2026 08:05:33 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://journals.sagepub.com/doi/10.1177/09567976251415354</link>
-    </item>
-    <item>
-      <title>🎨 Sonic Design Systems: Sound Becomes a First-Class Component in Product Design / 声音设计系统：声音正式成为产品设计的一等公民</title>
-      <description>&lt;article&gt;
-&lt;p&gt;In 2026, the conversation around sound in product design has shifted from "should we add audio feedback?" to "how do we systematize it?" Leading brands are building &lt;strong&gt;sonic design systems&lt;/strong&gt; — structured libraries of audio cues that scale across platforms the same way visual component libraries scale across screens. This is not about adding notification chimes. It is about making sound a governed, token-based layer of the design system.&lt;/p&gt;
-
-&lt;h2&gt;From Sonic Logos to Sonic Systems&lt;/h2&gt;
-
-&lt;p&gt;The previous generation of audio branding focused on a single asset: the sonic logo. Netflix has its "ta-dum," Intel has its five-note bong, Apple has its startup chime. These are memorable but static — a brand stamp applied at one touchpoint.&lt;/p&gt;
-
-&lt;p&gt;The 2026 model is fundamentally different. According to Stephen Arnold Music's State of Sonic 2026 analysis, leading brands are moving toward &lt;strong&gt;flexible musical frameworks&lt;/strong&gt; built from a core mnemonic that expands into:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;UI micro-sounds&lt;/strong&gt; — tap, toggle, success, error, warning cues that share a consistent sonic DNA with the brand sound.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Long-form content audio&lt;/strong&gt; — podcast intros, video outros, hold music derived from the same tonal palette.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Spatial/immersive audio&lt;/strong&gt; — directional sound for AR/VR, retail, and venue experiences that carry the brand identity into physical space.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Utility cues&lt;/strong&gt; — confirmation sounds, progress indicators, and transition markers that replace visual feedback in eyes-free contexts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The parallel to visual design systems is exact: just as a color token system ensures visual consistency across platforms, a sonic system ensures audio consistency across touchpoints. The core mnemonic is the primitive; everything else is a derivative.&lt;/p&gt;
-
-&lt;h2&gt;Why Now?&lt;/h2&gt;
-
-&lt;p&gt;Three forces are converging:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Multimodal interfaces demand multimodal feedback.&lt;/strong&gt; As voice, gesture, and gaze input proliferate — especially on Apple Vision Pro and in automotive UX — visual feedback alone is insufficient. A user navigating with eye tracking and hand gestures needs audio confirmation that their intent was registered. Sound is no longer decorative; it is functional.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Apple set the template.&lt;/strong&gt; Apple's Core Haptics framework, introduced at WWDC 2019 and refined through 2025, established the principle of &lt;strong&gt;audio-haptic harmony&lt;/strong&gt;: sound and vibration patterns designed as a unified sensory pair. The Human Interface Guidelines explicitly recommend coordinating haptic events with audio events — even small timing mismatches "feel unnatural." This framework has normalized the idea that sonic feedback is a design decision, not an engineering afterthought.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. AI enables rapid variation.&lt;/strong&gt; Generating sonic system derivatives from a core mnemonic used to require a composer for every variant. In 2026, AI tools can riff off human-composed core assets to produce platform-specific variations at scale — though the State of Sonic report notes that "engagement drops significantly" when the human composer is removed entirely. The practical workflow: humans compose the core system, AI generates the long tail of derivatives, humans curate.&lt;/p&gt;
-
-&lt;h2&gt;Implementation Principles&lt;/h2&gt;
-
-&lt;p&gt;Teams building sonic design systems in 2026 are converging on a set of practical guidelines:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Start with a small, learnable set of cues.&lt;/strong&gt; Five to eight distinct sounds for core interactions (confirm, error, navigate, complete, alert) is the working standard. More than that and users stop learning the mapping.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Respect user control.&lt;/strong&gt; Every sonic cue must have a mute option. Sound-sensitive contexts (open offices, public transit, medical settings) are the norm, not the exception.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Measure what matters.&lt;/strong&gt; Track task success rates, reduced repeated taps, lower error rates, and faster completion times. Also monitor mute rates — a high mute rate means your sounds are annoying, not useful. Monitor support feedback for audio-specific complaints.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cross-functional ownership.&lt;/strong&gt; Sonic systems require brand, product design, accessibility, and engineering stakeholders at the brief stage. A disconnected audio layer bolted on after visual design is the path to "mute all" behavior.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;The Accessibility Dimension&lt;/h2&gt;
-
-&lt;p&gt;Sonic design systems have an important accessibility angle that is often overlooked. For users with visual impairments, well-designed audio cues provide feedback that no amount of visual polish can deliver. The inverse is also true: for users with auditory impairments, every sonic cue must have a visual or haptic equivalent. A well-built sonic system is inherently a &lt;strong&gt;multimodal feedback system&lt;/strong&gt; — sound, vibration, and visual all carrying the same semantic signal through different channels.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; If your design system has a color token page, a typography scale, and a spacing grid — but no sound specification — you have an incomplete system. Start with five core interaction sounds, align them with your brand's tonal palette, provide mute controls, and measure whether they actually help users complete tasks faster. The era of silent interfaces is ending.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;h2&gt;中文翻译&lt;/h2&gt;
-
-&lt;p&gt;2026 年，产品设计中关于声音的讨论已从"是否应该加入音频反馈"转变为"如何将其系统化"。领先品牌正在构建&lt;strong&gt;声音设计系统&lt;/strong&gt;——结构化的音频线索库，能像视觉组件库跨屏幕扩展一样跨平台扩展。&lt;/p&gt;
-
-&lt;h3&gt;从声音 Logo 到声音系统&lt;/h3&gt;
-
-&lt;p&gt;上一代音频品牌化聚焦于单一资产——声音 Logo（Netflix 的"ta-dum"、Intel 的五音符旋律）。2026 年的模型截然不同：从核心助记符出发，扩展为 UI 微声音（点击、切换、成功、错误）、长内容音频、空间/沉浸式音频，以及功能性提示音——所有衍生音效共享一致的声学 DNA。这与视觉设计系统的逻辑完全一致：核心助记符是原语，其余都是派生物。&lt;/p&gt;
-
-&lt;h3&gt;为什么是现在&lt;/h3&gt;
-
-&lt;p&gt;三股力量正在汇聚：&lt;strong&gt;多模态界面需要多模态反馈&lt;/strong&gt;（语音、手势和眼动输入的普及使纯视觉反馈不再足够）；&lt;strong&gt;Apple 建立了模板&lt;/strong&gt;（Core Haptics 框架确立了音频-触觉协同原则，人机交互指南明确建议协调触觉与音频事件）；&lt;strong&gt;AI 实现快速变体生成&lt;/strong&gt;（人类作曲核心系统，AI 生成平台特定变体，人类策展——但完全移除人类作曲家时"参与度显著下降"）。&lt;/p&gt;
-
-&lt;h3&gt;实施原则&lt;/h3&gt;
-
-&lt;p&gt;从小而可学的线索集开始（5-8 个核心交互音效）；尊重用户控制（每个音效都可静音）；量化有效性（任务成功率、重复点击减少、静音率监控）；跨职能所有权（品牌、产品设计、无障碍和工程在简报阶段就需参与）。&lt;/p&gt;
-
-&lt;p&gt;声音设计系统本质上是&lt;strong&gt;多模态反馈系统&lt;/strong&gt;——声音、振动和视觉通过不同通道传递相同的语义信号。对视障用户，精心设计的音频线索提供视觉无法传达的反馈；对听障用户，每个音效必须有视觉或触觉等效物。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;行动建议：&lt;/strong&gt; 如果你的设计系统有颜色 token、排版比例和间距网格，但没有声音规范——那它是不完整的。从五个核心交互音效开始，与品牌调性对齐，提供静音控制，并衡量它们是否真的帮助用户更快完成任务。&lt;/p&gt;
-&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://stephenarnoldmusic.com/the-state-of-sonic-2026-trends-in-sonic-branding/"&gt;https://stephenarnoldmusic.com/the-state-of-sonic-2026-trends-in-sonic-branding/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://artversion.com/blog/sound-user-interactions-the-sonic-user-experience-in-ui-design/"&gt;https://artversion.com/blog/sound-user-interactions-the-sonic-user-experience-in-ui-design/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://developer.apple.com/design/human-interface-guidelines/playing-haptics"&gt;https://developer.apple.com/design/human-interface-guidelines/playing-haptics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.musicgrid.com/blog/forgotten-ux-sound-design-digital-products"&gt;https://www.musicgrid.com/blog/forgotten-ux-sound-design-digital-products&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">137e2ac2-d150-5aaa-987f-aae424aeb9ea</guid>
-      <pubDate>Sat, 04 Apr 2026 08:05:36 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://stephenarnoldmusic.com/the-state-of-sonic-2026-trends-in-sonic-branding/</link>
-      <enclosure url="https://stephenarnoldmusic.com/wp-content/uploads/2026/01/State-of-Sonic-2026.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 认知偏误不是大脑的 bug，是上下文自适应策略 —— 贝叶斯概率加权的 ABC 模型</title>
-      <description>&lt;h2&gt;保守偏误和基率忽略：同一个大脑，不同的场景，不同的「错误」&lt;/h2&gt;
-&lt;p&gt;心理学教科书告诉你：人类有一堆认知偏误，它们是进化留下的非理性残留。但如果这些偏误其实不是 bug，而是大脑在不同环境下的&lt;strong&gt;合理适应策略&lt;/strong&gt;呢？&lt;/p&gt;
-&lt;p&gt;汉诺威医学院认知神经心理学家 Bruno Kopp 在 Frontiers in Psychology 发表的 ABC 模型（Adaptive Bayesian Cognition），用一个优雅的框架统一了两个看似矛盾的经典偏误：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;保守偏误（conservatism bias）&lt;/strong&gt;：面对新证据时更新信念太慢，过度依赖先验。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基率忽略（base-rate neglect）&lt;/strong&gt;：忽视统计基础概率，被生动的个案证据带着走。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;传统观点把这两个偏误当作独立的「缺陷」。但 Kopp 的实验发现，&lt;strong&gt;同一个人会在不同场景下表现出不同的偏误——而切换的触发器是任务的上下文结构&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2&gt;实验：48 人 × 12 个概率判断场景&lt;/h2&gt;
-&lt;p&gt;被试需要在 12 个场景中整合先验概率（基率）和似然证据（新信息），然后给出主观概率判断。场景沿三个维度操纵：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;任务内容&lt;/strong&gt;：抽象的「摸球」问题（小世界场景）vs. 现实的「出租车」问题（大世界场景）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;证据量&lt;/strong&gt;：单次事件 vs. 多次事件&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;信息呈现方式&lt;/strong&gt;：概率格式 vs. 频率格式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;核心发现&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;在小世界场景中&lt;/strong&gt;（规则明确、边界清晰的抽象问题），被试系统性地表现出保守偏误——对新证据反应不足，死守先验。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;在大世界场景中&lt;/strong&gt;（模糊、开放、贴近现实的问题），同一批被试转而表现出基率忽略——被生动的证据「劫持」注意力，忘记了统计基率。&lt;/p&gt;
-&lt;p&gt;更关键的是，&lt;strong&gt;频率呈现方式并没有像之前研究预期的那样大幅减少偏误&lt;/strong&gt;。这意味着偏误的根源不在于数字格式，而在于注意力的分配模式。&lt;/p&gt;
-
-&lt;h2&gt;ABC 模型：两个参数解释一切&lt;/h2&gt;
-&lt;p&gt;Kopp 提出的 ABC 框架用两个核心参数描述偏误的产生机制：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;γ（上下文需求）&lt;/strong&gt;：任务结构如何引导注意力在先验和证据之间分配。小世界场景中 γ 偏向先验；大世界场景中 γ 偏向证据。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;λ（资源限制）&lt;/strong&gt;：认知资源的有限性如何进一步放大偏向。资源越紧张，偏向越极端。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;关键洞察：&lt;strong&gt;偏误不是固定的人格特质，而是大脑在特定上下文中的最优近似策略&lt;/strong&gt;。在信息完备的封闭系统中，保守一点是理性的（避免对噪声过度反应）；在信息模糊的开放系统中，抓住显著证据也是理性的（因为基率本身可能不可靠）。&lt;/p&gt;
-
-&lt;h2&gt;对你的实际意义&lt;/h2&gt;
-&lt;p&gt;这个框架提供了一个强大的自我诊断工具：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;识别你当前的决策场景类型。&lt;/strong&gt;你面对的是一个规则明确的「小世界」问题（如数据分析、棋类博弈），还是一个边界模糊的「大世界」问题（如职业选择、创业判断）？场景类型决定了你最可能犯的偏误方向。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;小世界场景 → 警惕保守偏误。&lt;/strong&gt;你可能在证据已经很充分时仍然犹豫不决。对策：设定明确的「信念更新触发条件」（如「如果三个独立数据源都指向同一方向，我就更新结论」）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;大世界场景 → 警惕基率忽略。&lt;/strong&gt;你可能被一个生动的案例（朋友的成功故事、一篇爆款文章）带偏。对策：主动查找基率数据（如「这个行业的创业成功率到底是多少？」），强制将其纳入考量。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;认知资源低时加倍警惕。&lt;/strong&gt;疲劳、压力、信息过载时，上述偏误都会放大。这不是你「变笨了」，而是大脑在资源紧张时采取了更极端的捷径。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;更大的图景&lt;/h2&gt;
-&lt;p&gt;ABC 模型属于一个更广泛的理论转向：从「人类是有缺陷的理性者」到「人类是资源受限的适应者」。这不是为偏误辩护，而是提供了更精准的干预靶点——&lt;strong&gt;与其试图「消除」偏误，不如学会识别当前上下文会激活哪种偏误，然后针对性地补偿&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;来源：Kopp, B. (2025). Cognitive biases as Bayesian probability weighting in context. Frontiers in Psychology, 16. doi: 10.3389/fpsyg.2025.1572168&lt;/em&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1572168/full"&gt;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1572168/full&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12366471/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12366471/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">cbdac0c1-9c2c-50b9-b72c-4f8e4f8efcf5</guid>
-      <pubDate>Sat, 04 Apr 2026 08:06:14 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1572168/full</link>
-    </item>
-    <item>
-      <title>🧠 🧠 心流不再是玄学：可穿戴设备捕捉到了它的生理「指纹」</title>
-      <description>&lt;h2&gt;你知道自己什么时候在心流中吗？&lt;/h2&gt;
-&lt;p&gt;心流（flow）大概是心理学中最让人向往的状态：全神贯注、时间感消失、表现达到峰值。Csikszentmihalyi 在 1975 年提出这个概念后，它一直停留在主观报告的层面——你觉得自己在心流中，那就是心流。但如果心流有客观可测的生理标记呢？&lt;/p&gt;
-&lt;p&gt;匈牙利科学院 Melinda Rácz 团队在 Scientific Reports（2025 年 4 月）发表的研究，用两个轻量级可穿戴设备（一个四通道脑电头带 + 一个集成皮电/心率的臂环），在 28 名被试的俄罗斯方块实验中，成功分离出了心流状态的多维生理特征。&lt;/p&gt;
-
-&lt;h2&gt;实验设计：用俄罗斯方块制造三种心理状态&lt;/h2&gt;
-&lt;p&gt;每位被试随机经历三种条件，每次 10 分钟：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;心流条件&lt;/strong&gt;：完全控制，适中速度（0.5 秒/格），挑战与技能匹配&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;无聊条件&lt;/strong&gt;：极慢速度（1 秒/格），无法加速，挑战远低于技能&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;挫败条件&lt;/strong&gt;：极快速度（0.15 秒/格），随机旋转，挑战远超技能&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;被试同时佩戴脑电头带和臂环，全程记录脑电频谱、心率、心率变异性（HRV）、血氧饱和度（SpO₂）、皮肤电反应（GSR）和身体运动数据。&lt;/p&gt;
-
-&lt;h2&gt;心流的五个生理指纹&lt;/h2&gt;
-
-&lt;h3&gt;1. 脑电α波主导：前额叶「安静下来」&lt;/h3&gt;
-&lt;p&gt;心流状态下，前额叶的 α 波（8-12 Hz）成为主导频率，θ 波（4-7 Hz）也显著增强。这与「暂时性前额叶低活化假说」（transient hypofrontality）一致：&lt;strong&gt;心流中负责自我监控和内心评判的前额叶区域活动降低，让专注的执行网络不受干扰地运行&lt;/strong&gt;。通俗地说，你的「内心评委」暂时下线了。&lt;/p&gt;
-
-&lt;h3&gt;2. 心率变异性的 U 型谷&lt;/h3&gt;
-&lt;p&gt;这是最有趣的发现之一。HRV（心率的波动幅度）在三种状态中呈现 U 型曲线：&lt;strong&gt;无聊和挫败时 HRV 都较高，心流时 HRV 降到最低点&lt;/strong&gt;（心流 vs 挫败：t = -4.93, p = 0.0001）。HRV 低意味着心脏节律极其稳定——这是一种深度稳态，身体既不需要应对威胁（挫败时的应激），也没有在「待机」中随意波动（无聊时的漫游）。&lt;/p&gt;
-
-&lt;h3&gt;3. 身体最安静&lt;/h3&gt;
-&lt;p&gt;通过头部和手臂的加速度计和陀螺仪数据，&lt;strong&gt;心流状态下被试的身体活动量最低&lt;/strong&gt;（无聊 vs 心流头部加速度：t = 3.36, p = 0.003）。无聊时人们最躁动（东张西望、调整坐姿），挫败时动作最激烈（急躁操作），而心流中整个人像「锁定」在任务上。&lt;/p&gt;
-
-&lt;h3&gt;4. 皮肤电最稳定&lt;/h3&gt;
-&lt;p&gt;GSR（与情绪唤醒相关）在心流中变化最小、波动最低。挫败时 GSR 变化最大。心流不是一种高唤醒状态，而是一种&lt;strong&gt;平稳的、恰到好处的唤醒&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h3&gt;5. 血氧饱和度微升&lt;/h3&gt;
-&lt;p&gt;心流中 SpO₂ 出现轻微上升，而无聊和挫败中均下降约 1%。虽然这一差异未达统计显著，但趋势与「心流中脑部供氧优化」的假说吻合。&lt;/p&gt;
-
-&lt;h2&gt;这对你意味着什么&lt;/h2&gt;
-&lt;p&gt;这项研究的意义不在于让你去买一套脑电设备（虽然消费级产品越来越便宜），而在于它将心流从一个模糊的主观体验转化为&lt;strong&gt;可观察的生理模式&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;心流的身体感觉有了锚点。&lt;/strong&gt;下次你感觉「进入状态」时，留意自己是否同时符合这些特征：身体几乎不动、情绪既不兴奋也不焦虑、呼吸平稳。如果你发现自己在频繁调整坐姿或感到心跳加速，那大概率不是心流，而是伪装成专注的焦虑。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;心流 ≠ 高能量。&lt;/strong&gt;很多人误以为心流是一种「燃烧」状态。数据告诉我们相反的故事：心流在生理上是一种&lt;strong&gt;极度节能的稳态&lt;/strong&gt;。内心评委下线、身体不必要的运动消失、心率波动降到最低——这是为什么心流中你可以持续数小时而不觉得累。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;环境设计的启示。&lt;/strong&gt;心流需要挑战与技能的匹配（0.5 秒/格，而非 0.15 秒或 1 秒）。如果你长时间处于「无聊区」（任务太简单）或「挫败区」（任务太难），生理上你的身体就不会进入那个 U 型谷。调整任务难度是进入心流的物理前提。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;来源：Rácz, M. et al. (2025). Physiological assessment of the psychological flow state using wearable devices. Scientific Reports, 15. doi: 10.1038/s41598-025-95647-x&lt;/em&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-025-95647-x"&gt;https://www.nature.com/articles/s41598-025-95647-x&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11977251/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11977251/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">3282c8c6-6c3d-5e78-94e8-c0e651b8a9f9</guid>
-      <pubDate>Sat, 04 Apr 2026 08:07:04 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.nature.com/articles/s41598-025-95647-x</link>
-    </item>
-    <item>
-      <title>🌿 深度睡眠如何「指挥」生长激素——伯克利团队在 Cell 绘出下丘脑-蓝斑回路全图</title>
-      <description>&lt;p&gt;我们都知道"睡得好才长得好"，但具体是怎么回事？UC Berkeley 博士后 Xinlu Ding 带领的团队联合斯坦福研究者，在 &lt;em&gt;Cell&lt;/em&gt; 上发表了迄今为止最完整的一幅图：&lt;strong&gt;深度睡眠触发生长激素（Growth Hormone, GH）释放的神经回路，以及 GH 如何反过来调节清醒&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;机制的核心在下丘脑。两组关键神经元分工明确：一组释放生长激素释放激素（GHRH），负责"踩油门"；另一组释放生长抑素（Somatostatin），负责"踩刹车"。当你进入慢波深睡眠，GHRH 神经元大量放电，垂体接收信号后向血液中倾倒 GH——成年人一天中大部分的 GH 就是在深睡前几个小时内释放的。&lt;/p&gt;
-
-&lt;p&gt;但这个系统不是单向的。团队发现，GH 会激活脑干中的蓝斑核（Locus Coeruleus），一个控制清醒和警觉的关键区域。换句话说，深睡让 GH 飙升，GH 飙升又为"醒来"做好准备——睡与醒之间由激素构成了一个精巧的反馈环。Daniel Silverman 在论文中写道："睡眠驱动 GH 释放，GH 反馈调节清醒，这个平衡对生长、修复和代谢健康都至关重要。"&lt;/p&gt;
-
-&lt;p&gt;为什么这对普通人重要？GH 不只是让骨骼和肌肉生长的"儿童激素"。它在成年人体内依然掌管脂肪代谢、血糖调控和组织修复。如果深睡被打断（比如 OSA 或慢性失眠），GH 脉冲就会被削弱，糖尿病、肥胖和心血管疾病的风险随之升高。此前我们知道相关性，现在这条从神经元到激素再到脑干的完整通路被映射出来，为未来针对性干预（例如选择性增强 GHRH 神经元活动）打开了大门。&lt;/p&gt;
-
-&lt;p&gt;研究由 Howard Hughes Medical Institute 和 Pivotal Life Sciences Chancellor's Chair 基金资助。对于正在优化睡眠质量的人来说，这项研究再次强调了一个实操要点：&lt;strong&gt;深睡时长比总睡眠时长更关键&lt;/strong&gt;。任何缩短慢波睡眠的因素——酒精、咖啡因半衰期、过高室温——都在直接干扰这条激素通路。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260330210905.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260330210905.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://news.berkeley.edu/2025/09/08/sleep-strengthens-muscle-and-bone-by-boosting-growth-hormone-levels-uc-berkeley-researchers-discover-how/"&gt;https://news.berkeley.edu/2025/09/08/sleep-strengthens-muscle-and-bone-by-boosting-growth-hormone-levels-uc-berkeley-researchers-discover-how/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">54d5b0e4-23f5-53ed-88cd-04a3d3c9f9ea</guid>
-      <pubDate>Sun, 05 Apr 2026 08:02:31 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.sciencedaily.com/releases/2026/03/260330210905.htm</link>
-      <enclosure url="https://news.berkeley.edu/wp-content/uploads/2025/09/GH_press_7x4-copy-1024x580.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎲 🎲 一本600年无人能读的书：伏尼契手稿，人类密码学史上最顽固的谜团</title>
       <description>&lt;h2&gt;一个波兰书商打开了潘多拉之盒&lt;/h2&gt;
@@ -1873,6 +1150,592 @@
       <category>product-design</category>
       <link>https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/</link>
       <enclosure url="https://images.macrumors.com/t/pFVhgRzRe2GSb-wcYZqyH9E3Eqc=/1600x0/article-new/2026/03/iOS-27-Glass-Slider-Feature.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 KQED 深度报道「大挤压」：七个湾区人讲述自己怎么扛过高物价</title>
+      <description>&lt;p&gt;KQED 本周发布了一篇长报道&lt;a href="https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs"&gt;《The Great Squeeze》&lt;/a&gt;，采访了七位湾区普通居民，记录他们在持续高涨的生活成本面前做出的妥协和适应。文章附带的数据也够扎心——湾区中位房价约 120 万美元，较 2012 年（经通胀调整后）高出 77%；两居室中位月租 $3,300，比全国均价高 83%；2019 到 2025 年间杂货价格上涨 34%，养车成本更是在 2017 到 2024 年间飙升了 45%。&lt;/p&gt;
+
+&lt;p&gt;报道中几位受访者的故事相当有代入感。42 岁的 North Bay 临终关怀护士 Brooke Dawson 住在母亲后院的 Airstream 房车里，靠家人互助带孩子勉强维持；65 岁的退休夫妇 Keith 和 Lisa Alvord 在 2010 年失去了 Trinity County 的房子，之后在湾区码头的 35 英尺帆船上住了三年，现在准备搬进儿子车库改建的 ADU。Danville 的学校心理咨询师 Christy Brown，48 岁，每周工作 65 小时——白天做咨询，晚上去酒吧打工，周末教瑜伽。她说：「我感觉自己一直在拼命工作，但勉强够用。」&lt;/p&gt;
+
+&lt;p&gt;24 岁的艺术家 Misha Kurita-Ditz 从小在 SF 西部的 rent-controlled 公寓长大，房东换人后被赶走，不得不搬回母亲在旧金山的 condo。37 岁的 Santa Rosa 面包房员工 Chad Morrison 正在重新考虑是否还有必要养车——电动车买不起，油车养不起。39 岁的墨西哥移民 Citlali Iriarte 同时打两份工（居家护理 + YMCA 教育者），靠减少肉类摄入和调整餐食来压缩食品开支。&lt;/p&gt;
+
+&lt;p&gt;报道还指出一个趋势：2024 年美国多代同住购房比例达到 17%，其中 36% 的人明确说原因是「省钱」——这个数字 2015 年只有 15%。湾区正在把中产阶级逼回大家庭模式。这篇报道是理解湾区「数据之外」生活质量的好材料，值得完整读一遍。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs"&gt;https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f4556765-4e9f-5902-9d95-399845f98943</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:11 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs</link>
+      <enclosure url="https://cdn.kqed.org/wp-content/uploads/sites/10/2026/04/AffordabilitySeriesIntro_Lede.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 本周末 Fort Mason 看海洋纪录片：第 23 届国际海洋电影节 4/10-12</title>
+      <description>&lt;p&gt;第 23 届&lt;strong&gt;国际海洋电影节&lt;/strong&gt;（International Ocean Film Festival, IOFF）本周四到周六（4/10-12）在 Fort Mason 的 Cowell Theater 举行，集中放映来自世界各地的 30 多部海洋主题独立纪录片。对住在湾区的人来说，这是一个非常「在地」的文化活动——毕竟加州海岸本身就是许多片子的拍摄地。&lt;/p&gt;
+
+&lt;p&gt;今年有两部片子值得关注。四次艾美奖得主、海洋生物学家 Rick Rosenthal 执导的&lt;em&gt;Superfish: Salmon&lt;/em&gt;讲述野生鲑鱼的生命历程和生态韧性。&lt;em&gt;Mission Sea Otter – Saving California's Kelp Forests&lt;/em&gt; 由水下摄影师 Claudia Schmitt 联合执导，记录加州海岸海獭保护项目如何帮助恢复海藻林生态系统——这个议题跟 Monterey Bay 一带的环保工作直接相关。每场放映后都有导演 Q&amp;A 和海洋专家的圆桌讨论。&lt;/p&gt;
+
+&lt;p&gt;电影节还有一个面向学生的教育专场（4/9-10，BATS Theater），用 90 分钟策划短片来做海洋环保科普。IOFF 从 2003 年创办至今已办了 23 届，一直不太「出圈」，但口碑稳定，在湾区环保和纪录片圈子里认可度很高。Fort Mason 这个场地本身也值得走一趟——面朝金门大桥，看完海洋纪录片出门就是海风，体验感拉满。&lt;/p&gt;
+
+&lt;p&gt;票价和完整排片表可以在 &lt;a href="https://intloceanfilmfest.org/"&gt;intloceanfilmfest.org&lt;/a&gt; 查看。这周同时还有 SF Restaurant Week（4/10 起）和樱花祭（4/11 起），如果要规划一个充实的湾区周末，这三个活动可以串联起来。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://intloceanfilmfest.org/"&gt;https://intloceanfilmfest.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kalw.org/show/your-call/2026-04-06/the-23rd-annual-international-ocean-film-festival-kicks-off-in-sf"&gt;https://www.kalw.org/show/your-call/2026-04-06/the-23rd-annual-international-ocean-film-festival-kicks-off-in-sf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortmason.org/event/sf-ocean-film-festival/"&gt;https://fortmason.org/event/sf-ocean-film-festival/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">445de981-d9fb-57e1-999c-57d4a48362ae</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:32 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://intloceanfilmfest.org/</link>
+      <enclosure url="http://static1.squarespace.com/static/68a207be0f08002f4c4bca1e/t/68a3385d4aabf846dc85ee56/1755527261721/23AnnualHorizontal-Foundation-WHITE.png?format=1500w" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 亚马逊丛林深处有一种语言，没有数字、没有颜色、没有过去式——它差点推翻了乔姆斯基的整个理论</title>
+      <description>&lt;p&gt;在巴西亚马逊丛林Maici河沿岸，生活着大约300名Pirahã人。他们说着一种可能是地球上最「简陋」的语言——只有9到13个音素（英语有44个），三个元音，没有数字词，没有颜色词，没有过去时态，没有递归句法（Recursion）。&lt;/p&gt;
+
+&lt;p&gt;这意味着什么？一个Pirahã人无法说出「约翰的哥哥的房子」这样的嵌套结构。他只能说：「约翰有个哥哥。那个哥哥有一间房子。」他们也不能数数——经过八个月的每日教学，&lt;strong&gt;没有一个人学会数到十，甚至无法完成1+1&lt;/strong&gt;。实验显示，他们在看得见物体时能匹配数量，但一旦物体被遮住，精确计数就崩溃了。&lt;/p&gt;
+
+&lt;p&gt;语言学家Daniel Everett最初是作为福音派传教士去到Pirahã部落的。他在那里生活了二十多年，最终不但没有让Pirahã人信主，反而自己失去了信仰。2005年，他在&lt;em&gt;Current Anthropology&lt;/em&gt;上发表了一篇论文，正式提出Pirahã语缺乏递归结构——这直接挑战了Noam Chomsky「普遍语法」（Universal Grammar）的核心假设。Chomsky几十年来坚持：递归是人类语言的先天能力，是所有语言的共有特征。Everett说：不，我找到了一个反例。&lt;/p&gt;
+
+&lt;p&gt;争论至今没有定论。MIT的Nevins、Pesetsky和Rodrigues发表反驳论文，指出Everett自己早期的记录中其实有嵌套结构的例子，是他后来改了解释。Chomsky本人的回应比较巧妙：他承认递归能力可能在认知层面存在，只是在某些语言的表层结构中不被使用——这有点像说「你有这个功能，只是从不打开它」。&lt;/p&gt;
+
+&lt;p&gt;但Pirahã语真正令人着迷的不是语法细节，而是它背后的文化逻辑。Everett提出了一个叫「直接经验原则」（Immediacy of Experience Principle）的概念：Pirahã人只谈论自己亲眼见过或从亲历者那里直接听说的事情。他们没有创世神话，没有虚构故事，没有关于遥远过去的叙事。动词还带有&lt;strong&gt;证据性标记&lt;/strong&gt;（Evidentiality Markers），必须标明你是亲眼看到的、推理出来的、还是听说的。语言不只是工具——它是一面镜子，映射出说话者对世界的全部哲学态度。&lt;/p&gt;
+
+&lt;p&gt;还有一个细节值得玩味：Pirahã语可以被吹口哨、哼唱、甚至编码成旋律来传达，仅凭音高和节奏就能传递完整信息。这种「口哨语言」在打猎时用来远距离通讯，比喊话更不容易惊动猎物。一种被认为「最简单」的语言，在实用层面上有着出人意料的复杂性。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Pirah%C3%A3_language"&gt;https://en.wikipedia.org/wiki/Pirah%C3%A3_language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.edge.org/conversation/daniel_l_everett-recursion-and-human-thought"&gt;https://www.edge.org/conversation/daniel_l_everett-recursion-and-human-thought&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.mit.edu/2016/data-amazonian-piraha-language-debate-0309"&gt;https://news.mit.edu/2016/data-amazonian-piraha-language-debate-0309&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">90a857c5-af4b-5d85-b780-965444bef22d</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:44 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Pirah%C3%A3_language</link>
+    </item>
+    <item>
+      <title>🌿 🌿 你的BMI可能骗了你——意大利1351人DXA扫描研究：三分之一成年人体重分类是错的</title>
+      <description>&lt;p&gt;你体检报告上那个 BMI 数字，可能正在撒谎。&lt;/p&gt;
+
+&lt;p&gt;2026年4月初，发表在《营养学》（Nutrients）期刊、并将在5月伊斯坦布尔欧洲肥胖大会上亮相的一项新研究，给这个沿用了一个多世纪的健康指标泼了盆冷水：在 1,351 名成年意大利受试者中，超过三分之一的人被 BMI 放错了体重档位。&lt;/p&gt;
+
+&lt;h3&gt;黄金标准 vs 皮尺公式&lt;/h3&gt;
+
+&lt;p&gt;研究团队让受试者（年龄 18—98 岁，六成为女性）同时接受两种测量：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;传统 BMI&lt;/strong&gt;：用体重（kg）除以身高（m）的平方，世界卫生组织分类&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;双能 X 线吸收测量法（DXA）&lt;/strong&gt;：医院骨密度检测使用的低剂量 X 射线扫描，可以分层测出骨骼、肌肉和脂肪的精确重量与比例，被认为是体脂评估的黄金标准&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;结果令人瞠目：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BMI 判定为肥胖的人中，&lt;strong&gt;34%&lt;/strong&gt; 在 DXA 下实为超重——他们肌肉量高，让体重虚增&lt;/li&gt;
+&lt;li&gt;BMI 标记为超重的人中，&lt;strong&gt;53%&lt;/strong&gt; 被错误分类——将近一半人其实体脂正常&lt;/li&gt;
+&lt;li&gt;BMI 显示体重不足的人中，&lt;strong&gt;68.4%&lt;/strong&gt; DXA 显示应属正常范围——可能是肌肉量偏少拉低了体重&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;换言之，BMI 常常把重但壮的人错贴上肥胖标签，又把轻但脂的人漏网放过。&lt;/p&gt;
+
+&lt;h3&gt;为什么 BMI 天生有缺陷&lt;/h3&gt;
+
+&lt;p&gt;BMI 的核心问题：它只看总重量，完全区分不了脂肪和肌肉。一公斤脂肪和一公斤肌肉对秤重贡献相同，但对健康的影响天差地别。肌肉发达的运动员可能 BMI 超标，而久坐的正常体重上班族可能脂肪率高达危险水平，却被漏诊。&lt;/p&gt;
+
+&lt;p&gt;这个问题在健身房常客身上尤其明显：阻力训练让肌肉量增长，BMI 随之上升，但这恰恰是健康改善的信号。用 BMI 去评估一个深蹲 100kg 的人是否肥胖，就像用身高去判断一个人是否聪明——有一定相关性，但误判率高得无法接受。&lt;/p&gt;
+
+&lt;h3&gt;研究者推荐的替代指标&lt;/h3&gt;
+
+&lt;p&gt;论文第一作者 El Ghoch 教授建议医生在临床上用以下方法补充甚至替代 BMI：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;腰身比（Waist-to-Height Ratio）&lt;/strong&gt;：腰围 ÷ 身高，简单易测，对内脏脂肪风险的预测能力优于 BMI。健康标准一般为低于 0.5。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;皮褶厚度测量（Skinfold Test）&lt;/strong&gt;：用卡尺捏住特定部位皮肤，根据公式估算体脂率，成本低，有经验的技术员操作较准确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;体成分直接测量&lt;/strong&gt;：DXA 精度最高，DEXA 扫描、生物电阻抗分析（BIA，即健身房常见的体脂秤升级版）也是可行方案。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;局限性与注意事项&lt;/h3&gt;
+
+&lt;p&gt;该研究样本全部为意大利白种人，研究者明确指出结果主要适用于白人高加索人群，不同族裔体型差异大，BMI 误差模式也会不同。此前已有研究表明，亚洲人在更低的 BMI 值时就可能出现代谢风险，欧美标准并不适用。&lt;/p&gt;
+
+&lt;p&gt;尽管如此，这一发现对中国健身房和体检文化有直接参考价值：国内体检表上的 BMI 栏，以及各种 App 对是否超重的判断，都需要用更多维度的指标来校准。&lt;/p&gt;
+
+&lt;h3&gt;实用建议&lt;/h3&gt;
+
+&lt;p&gt;如果你关心自己的真实健康状况，比 BMI 更值得追踪的指标包括：腰围绝对值（男性建议低于 90cm，女性低于 85cm）、腰身比（低于 0.5）、以及如果条件允许，做一次正规的 DXA 扫描或专业体成分测试。体重计上的数字，只是健康拼图的一小块。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/04/260402000229.htm"&gt;https://www.sciencedaily.com/releases/2026/04/260402000229.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mindbodygreen.com/articles/scientists-say-that-bmi-gets-it-wrong-for-over-one-third-of-adults"&gt;https://www.mindbodygreen.com/articles/scientists-say-that-bmi-gets-it-wrong-for-over-one-third-of-adults&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e0d1aef2-0889-5962-aec4-a09df58d31fb</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:00 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/04/260402000229.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/1920/bmi-or-body-mass-index-scale-meter-dial.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 四月旧金山新餐厅地图：越南菜 × 酷儿酒吧、Café Flore 空间重生、日式便当午餐档</title>
+      <description>&lt;p&gt;四月旧金山有四家风格各异的新餐厅值得关注，分布在 Mission、West Portal、Castro 和 SoMa 四个街区。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fat Cat&lt;/strong&gt;（3215 Mission St.，4/9 开业）大概是这批里最有话题性的一家。它由一个酷儿酒吧社群和越南裔主厨 Kevin Tang（此前做过 pop-up「Claws of Mantis」）合作诞生，前身是已关闭的 Outer Orbit 空间。开业第一个月主打自然酒配奶酪，五月起正式推出完整菜单——炸鲈鱼配芒果沙拉、生蚝配越南辣椒焦香酱是招牌菜。酒吧还会定期办变装秀 bingo 之夜和本地酿酒师品鉴会。Mission 这个片区的餐饮个性一直很强，Fat Cat 完全接上了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Parasol&lt;/strong&gt;（2298 Market St.）占了 Castro 区的传奇空间——原来的 &lt;strong&gt;Café Flore&lt;/strong&gt; 铁楔形街角。老板 Jacob Paronyan 也是 Boulevard 的合伙人，白天卖咖啡和家传 bourek 糕点，晚上切换成加州-地中海菜单：牡蛎配油炸续随子和酸葡萄汁 mignonette、halloumi 芝士球配松露蜂蜜、枫糖蜜椒培根汉堡。Café Flore 这个位置在 Castro 有特殊的文化意义，Parasol 能不能接住这份期待值得跟进。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tur&lt;/strong&gt;（1 West Portal Ave.）是泰餐名店 Khao Tiew 的日间分支，主打泰式早午餐——泰式粥、季节沙拉和油封鸭。它接手的是 Squat &amp; Gobble 的老位置，West Portal 这条街最近明显在往精品餐饮方向转。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dining Yamamoto&lt;/strong&gt;（167 11th St., SoMa，4/1 已开业）走的是日式快餐路线。主厨 Yukinori Yamamoto 曾是 Mina Group 旗下的行政寿司主厨，现在自立门户做午餐便当——蓝鳍金枪鱼、海胆、甜虾，$25-46 一份。只做午市，不接晚餐。SoMa 上班族终于有了一个正经的日式便当选项。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/03/31/new-san-francisco-restaurants-april-/"&gt;https://sfstandard.com/2026/03/31/new-san-francisco-restaurants-april-/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.theinfatuation.com/san-francisco/guides/new-san-francisco-restaurant-openings"&gt;https://www.theinfatuation.com/san-francisco/guides/new-san-francisco-restaurant-openings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">75b6a4d6-37c3-51e5-a2a5-5b2ac04b5584</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:00 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sfstandard.com/2026/03/31/new-san-francisco-restaurants-april-/</link>
+      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_q2vgmq3mp1223fk4hp6gmojm4b/-C100.00%25x70.00%25%2C0.00%25%2C15.53%25-S1200x630-FPNG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 智慧不是人格特质，是动态网络 —— 499人纵向研究颠覆「智者」形象</title>
+      <description>&lt;p&gt;你可能以为，智慧是一种像外向性或责任心一样稳定的人格维度——有些人天生就更「智慧」。Igor Grossmann（University of Waterloo）团队在 &lt;em&gt;Journal of Experimental Psychology: General&lt;/em&gt; 发表的纵向研究，用一年时间、499 名被试、多轮事件重构采样，把这个假设拆了个干净。&lt;/p&gt;
+
+&lt;p&gt;研究测量了四个公认的智慧元认知特征：&lt;strong&gt;知识谦逊&lt;/strong&gt;（intellectual humility）、不确定性识别（recognition of uncertainty）、观点采择（perspective-taking）、寻求折中（search for compromise）。关键发现：这四个维度在同一个人身上的时间稳定性远低于人格特质或幸福感量表。换句话说，你上个月在工作冲突中展现出的「智慧」，并不能预测你这个月在家庭矛盾中是否同样明智。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是方法论层面的突破。研究对比了传统的潜因子模型（假设智慧是一个统一的底层因子）和网络模型（假设智慧由多个相互关联但独立的特征组成）。结果：&lt;strong&gt;网络模型完胜&lt;/strong&gt;。这意味着智慧不是一块整体的「心理肌肉」，而更像一组工具——你可能擅长观点采择，但在知识谦逊上同时表现很差，这完全正常。&lt;/p&gt;
+
+&lt;p&gt;最具实用价值的发现来自纵向预测：在某个时间点表现出比平时更高的&lt;strong&gt;自我抽离&lt;/strong&gt;（self-distancing）和更强的情绪痛苦的人，三个月后在所有智慧维度上都有提升。社会支持、主观评价等其他候选调节变量则没有这种预测力。这和 Ethan Kross（密歇根大学）此前关于自我抽离促进智慧推理的实验室发现形成了漂亮的纵向验证。&lt;/p&gt;
+
+&lt;p&gt;实际意义很直接：与其追求「成为一个智慧的人」这种模糊目标，不如在具体困境中练习自我抽离——用第三人称视角审视当下情境。痛苦不是智慧的敌人；在痛苦中保持距离感，才是智慧生长的条件。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/40839517/"&gt;https://pubmed.ncbi.nlm.nih.gov/40839517/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://psycnet.apa.org/record/2026-54529-001"&gt;https://psycnet.apa.org/record/2026-54529-001&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">58478dae-4d28-518d-9f47-9cf8893a8934</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:03 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/40839517/</link>
+      <enclosure url="https://www.apa.org/images/2019-05-perception-wisdom_tcm7-256498.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 为什么你的银行账户余额大概率以1开头？一条数学定律专门用来抓做假账的人</title>
+      <description>&lt;p&gt;翻开任何一本旧对数表，你会发现前面几页明显比后面的页脏。1881年，加拿大天文学家Simon Newcomb注意到了这件事，并由此推导出一个诡异的结论：在自然产生的数据集中，首位数字是1的概率高达30.1%，而首位数字是9的概率只有4.6%。&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;Benford定律&lt;/strong&gt;（Benford's Law），也叫首位数字定律。它的数学公式异常简洁：P(d) = log₁₀(1 + 1/d)。河流长度、城市人口、股票价格、电费账单、斐波那契数列、甚至物理常数——只要数据跨越多个数量级，首位数字几乎都服从这个分布。&lt;/p&gt;
+
+&lt;p&gt;为什么？直觉上你可能觉得1到9应该各占11%左右。但如果你把数据放到对数坐标上看，从log(1)到log(2)的区间跨度是0.301，而从log(9)到log(10)的区间只有0.046。换句话说，一个数从1000增长到2000，需要翻倍；但从9000增长到10000，只需要涨11%。数据在「1字头」的区间里停留的时间天然就更长。&lt;/p&gt;
+
+&lt;p&gt;这条定律最惊人的应用在于&lt;strong&gt;反欺诈&lt;/strong&gt;。人类在伪造数据时有一个本能缺陷：我们倾向于让首位数字「均匀分布」，因为这看起来更「随机」。但真实数据恰恰不是均匀分布的。审计师只要把一组财务数据的首位数字频率和Benford分布做比较，异常就会跳出来。&lt;/p&gt;
+
+&lt;p&gt;实战案例不少。安然（Enron）丑闻调查中，审计人员对其财务报表做了Benford分析，首位数字分布的偏离直接指向了造假。金融顾问Wesley Rhodes被判欺诈罪时，检方在法庭上论证他的文件不符合Benford分布，因此很可能是编造的。美国联邦、州和地方法院都已接受基于Benford定律的证据。2009年伊朗总统选举后，研究者对公布的投票数据做了第二位数字分析，发现统计异常——虽然这不构成「证据」，但它是一面红旗。&lt;/p&gt;
+
+&lt;p&gt;不过也别把它当万能钥匙。Benford定律有严格的适用条件：数据必须跨越多个数量级，而且不能是人为设定的（比如.99这种心理定价）。人的身高、智商分数、选区级别的投票数——这些范围太窄，首位数字分布本来就不服从Benford定律。2020年美国大选后，有人拿Benford定律来「证明」选举舞弊，就是犯了这个错误：单个选区的票数通常只在几百到几千之间，远不够跨越所需的数量级。工具很锋利，但你得知道什么时候该拔刀。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Benford%27s_law"&gt;https://en.wikipedia.org/wiki/Benford%27s_law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-is-benfords-law-why-this-unexpected-pattern-of-numbers-is-everywhere/"&gt;https://www.scientificamerican.com/article/what-is-benfords-law-why-this-unexpected-pattern-of-numbers-is-everywhere/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/"&gt;https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">740b7f8b-74c1-569d-be3e-416453c870f6</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:13 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Benford%27s_law</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/1280px-Rozklad_benforda.svg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 多巴胺「斜坡信号」之谜破解：你的大脑同时运行两套学习系统</title>
+      <description>&lt;p&gt;多巴胺神经元不只在奖赏到来的瞬间「开火」——它们还会在接近奖赏的过程中缓慢爬升，形成所谓的「斜坡信号」（dopamine ramps）。这个现象困扰了神经科学家十多年，因为经典的奖赏预测误差（Reward Prediction Error, RPE）理论无法解释它。2026 年 2 月一篇 bioRxiv 预印本提出了一个优雅的答案：斜坡信号是大脑内部&lt;strong&gt;两套学习系统交互&lt;/strong&gt;的副产物。&lt;/p&gt;
+
+&lt;p&gt;先回顾背景。我们此前跟踪的多巴胺范式争论已经积累了多条线索：Greenstreet 等 2025 年 Nature 论文在纹状体尾部发现了「动作预测误差」（Action Prediction Error, APE），证明多巴胺不只编码价值信号，还编码一种与价值无关的、用于巩固动作-刺激关联的教学信号。5 月塞维利亚 Dopamine Society 年会 Session 31 将就 RPE 范式展开正面辩论。这篇新预印本从另一个角度切入同一场革命。&lt;/p&gt;
+
+&lt;p&gt;该模型的核心思想来自强化学习理论中的经典区分：&lt;strong&gt;模型基础学习&lt;/strong&gt;（model-based，使用世界模型推断价值）和&lt;strong&gt;无模型学习&lt;/strong&gt;（model-free，直接缓存经验值）。传统观点把两者视为独立系统。这篇论文论证，大脑实际上让推断值（model-based）去训练缓存值（model-free）——推断值只参与 RPE 的「更新目标」部分，不参与「预测」部分。这种不对称性在数学上自然产生了斜坡信号。&lt;/p&gt;
+
+&lt;p&gt;模型成功复现了多个已知现象：快慢两个时间尺度上的学习动态、奖赏期望改变后的全局更新、意外状态转移时的瞬态响应、以及对状态不确定性操控的敏感度。这些预测都可以在小鼠光纤光度记录实验中直接验证。&lt;/p&gt;
+
+&lt;p&gt;对心智成长的启示在于：你做决策时并不是在「理性分析」和「直觉反应」之间二选一——两套系统一直在协作。直觉（缓存值）之所以能变得越来越准确，正是因为深思熟虑（推断值）在不断校准它。这也解释了为什么「先想清楚再做」和「多做就会了」都有道理：它们分别强化了同一个回路的不同端。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.biorxiv.org/content/10.64898/2026.02.18.706579v1"&gt;https://www.biorxiv.org/content/10.64898/2026.02.18.706579v1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-09008-9"&gt;https://www.nature.com/articles/s41586-025-09008-9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0bb61937-3c52-585e-a7f7-7f64075d9eb4</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:32 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.biorxiv.org/content/10.64898/2026.02.18.706579v1</link>
+    </item>
+    <item>
+      <title>🌿 🌿 每天多睡5分钟、多运动2分钟——6万人队列研究：微小改变叠加，理论上可延寿9年</title>
+      <description>&lt;p&gt;多活几年，到底需要付出多少代价？&lt;/p&gt;
+
+&lt;p&gt;2026年初，发表在《柳叶刀》旗下 &lt;em&gt;eClinicalMedicine&lt;/em&gt; 期刊的一项研究给出了迄今最细致的量化答案：基于英国生物库（UK Biobank）约 60,000 名参与者、长达八年的追踪数据，研究团队用数学建模估算出——睡眠、运动、饮食三者&lt;strong&gt;同时&lt;/strong&gt;小幅改善，理论上可带来超过 9 年的健康寿命增益。而触发这一效果所需的最低投入，低得出人意料。&lt;/p&gt;
+
+&lt;h3&gt;三项习惯的组合拳效应&lt;/h3&gt;
+
+&lt;p&gt;研究者首先定义了最优行为组合：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每晚睡眠 ≥ 7.2 小时&lt;/li&gt;
+&lt;li&gt;每天中高强度体力活动 ≥ 42 分钟&lt;/li&gt;
+&lt;li&gt;饮食质量评分 ≥ 58 分（基于英国官方健康饮食指数）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;达到这三项标准的人，预期寿命比最差组多出 &lt;strong&gt;9.35 年&lt;/strong&gt;，无病健康寿命多出 &lt;strong&gt;9.46 年&lt;/strong&gt;——也就是说，不只是活得更久，更是活得更好。&lt;/p&gt;
+
+&lt;p&gt;最有意思的发现来自最低有效剂量的分析。如果只想多活一年，三个习惯&lt;strong&gt;同时&lt;/strong&gt;做微小改变，需要的量是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每晚多睡 &lt;strong&gt;5 分钟&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;每天多运动 &lt;strong&gt;1.9 分钟&lt;/strong&gt;（中高强度）&lt;/li&gt;
+&lt;li&gt;饮食质量评分提高 &lt;strong&gt;5 分&lt;/strong&gt;（约等于多吃半份蔬菜水果）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;相比之下，如果只改一件事，要多活一年所需的投入大幅提升：单独多睡需要 25 分钟/晚，单独多运动需要 2.3 分钟/天，单独改善饮食需要评分提高 35.5 分。&lt;/p&gt;
+
+&lt;h3&gt;为什么组合比单项更高效&lt;/h3&gt;
+
+&lt;p&gt;主导研究者、悉尼大学营养学家 Nicholas Koemel 解释了背后逻辑：三种健康行为在生理层面存在协同效应。充足的睡眠降低食欲激素（ghrelin）、减少高热量食物渴望，从而使饮食质量更容易维持；良好的饮食为肌肉恢复提供原料，让运动变得更可持续；而规律运动又能改善睡眠架构、增加深睡眠比例。三者相互加强，形成正向循环。&lt;/p&gt;
+
+&lt;p&gt;这意味着，把改变摊薄到三个维度，每个维度的边际阻力都更小，总体成功率反而更高——这与传统集中突破一点的健康建议思路相反。&lt;/p&gt;
+
+&lt;h3&gt;研究的局限性：理论增益，非实验证明&lt;/h3&gt;
+
+&lt;p&gt;必须诚实交代：这是一项&lt;strong&gt;数学建模研究&lt;/strong&gt;，不是随机对照试验（RCT）。Koemel 本人明确表示：研究中报告的所有寿命增益都是理论上的，代表的是预测，而非已确认的干预效果。 饮食数据依赖自我报告（容易低报高热量食物），睡眠和运动仅有简短记录窗口，样本主体为英国白人，跨种族外推需谨慎。&lt;/p&gt;
+
+&lt;p&gt;但即便打折扣，这一发现仍有重要意义：它给出了杠杆点——在三个维度上同时做微小、可持续的改变，比在某一项上猛烈冲刺更可能带来长期效益。&lt;/p&gt;
+
+&lt;h3&gt;怎么用到日常生活里&lt;/h3&gt;
+
+&lt;p&gt;对于忙碌的研究生或上班族而言，以下最低投入版方案颇具参考价值：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;睡眠&lt;/strong&gt;：把手机放到卧室外，比平时早 10 分钟躺下。目标不是一步到位睡足 8 小时，而是逐渐向 7.2 小时靠近。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;运动&lt;/strong&gt;：哪怕在午饭后快走 5 分钟、爬两层楼梯，都算数。中高强度的门槛是微微喘气但还能说话。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;饮食&lt;/strong&gt;：每餐多加一把菜叶或半个水果，不用彻底改变饮食结构。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;研究的最终信息是：你不需要同时成为跑步狂人、睡眠冠军和素食主义者。在三条轨道上同时迈一小步，可能比在一条轨道上猛跑更聪明。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00676-5/fulltext"&gt;https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00676-5/fulltext&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.advisory.com/daily-briefing/2026/04/02/longevity"&gt;https://www.advisory.com/daily-briefing/2026/04/02/longevity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.livescience.com/health/tiny-improvements-in-sleep-nutrition-and-exercise-could-significantly-extend-lifespan-study-suggests"&gt;https://www.livescience.com/health/tiny-improvements-in-sleep-nutrition-and-exercise-could-significantly-extend-lifespan-study-suggests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b2932d78-5e0b-55a4-9844-070cb7b2fcbb</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:37 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00676-5/fulltext</link>
+    </item>
+    <item>
+      <title>🎲 物理学的一个推论认为：你的大脑更可能是从虚空中随机涌现的，而不是进化出来的</title>
+      <description>&lt;p&gt;1896年，奥地利物理学家Ludwig Boltzmann在思考一个基本问题：宇宙为什么看起来这么有序？热力学第二定律说，一切都该趋向混沌——最终达到「热寂」（Heat Death），所有能量均匀分布，什么都不会再发生。但我们的宇宙显然还没到那一步。Boltzmann的解释是：也许宇宙确实已经热寂了，我们只是碰巧身处一个随机涨落产生的低熵「气泡」里。&lt;/p&gt;
+
+&lt;p&gt;问题来了。如果你接受「随机涨落」这个解释，那么从概率上讲，涨落出一整个有序宇宙的难度远远大于涨落出一个单独的大脑。一个带有完整虚假记忆的孤立大脑——后来被叫做&lt;strong&gt;Boltzmann Brain&lt;/strong&gt;——从真空中短暂浮现，「以为」自己正在观测一个真实宇宙，然后瞬间消散。这种事发生的概率虽然极小，但在无限时间里，它发生的次数会无限多，远远超过「正常」宇宙中通过恒星形成和生物进化产生的观测者数量。&lt;/p&gt;
+
+&lt;p&gt;推到逻辑终点：如果这个理论成立，那么在所有「正在阅读这段话并认为自己生活在一个真实宇宙中」的观测者里，绝大多数其实是Boltzmann Brain。你觉得自己有身体、有历史、有今天的早餐记忆——但统计上讲，这些更可能全是涨落产生的幻觉。&lt;/p&gt;
+
+&lt;p&gt;物理学家Sean Carroll把这称为「认知不稳定性」（Cognitive Instability）：如果你承认自己大概率是Boltzmann Brain，那你的推理能力本身就不可信，包括得出「我是Boltzmann Brain」这个结论的推理。整个认识论的地基就塌了。&lt;/p&gt;
+
+&lt;p&gt;这不只是哲学游戏——它对宇宙学理论有硬约束。任何预测未来宇宙会永恒膨胀的模型（比如de Sitter空间），都必须面对Boltzmann Brain问题：在无限的未来时间里，真空涨落产生的「假大脑」数量必然压倒真实观测者。要回避这个问题，你需要宇宙在大约200亿年内以某种方式自我毁灭——比如&lt;strong&gt;假真空衰变&lt;/strong&gt;（False Vacuum Decay），整个空间的基态突然崩塌，一切归零。某种意义上，宇宙学家在说：我们需要宇宙最终毁灭，否则我们的理论就自相矛盾。&lt;/p&gt;
+
+&lt;p&gt;圣菲研究所的David Wolpert和物理学家Carlo Rovelli最近发表了一篇论文，从记忆、熵和时间的关系重新审视Boltzmann Brain假说。他们的切入点是：Boltzmann Brain的「记忆」在物理上意味着什么？一个从涨落中产生的大脑，它的「记忆」和一个在因果链中形成的记忆，在热力学上是否有可区分的差异？如果有，也许我们可以从原理上排除Boltzmann Brain作为合格的「观测者」。这条路还在走，但Brian Greene的态度代表了多数物理学家：「我确信自己不是Boltzmann Brain。但我们希望理论也同意这一点。」&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Boltzmann_brain"&gt;https://en.wikipedia.org/wiki/Boltzmann_brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bigthink.com/hard-science/boltzmann-brain-nothing-is-real/"&gt;https://bigthink.com/hard-science/boltzmann-brain-nothing-is-real/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.santafe.edu/news-center/news/disentangling-the-boltzmann-brain-hypothesis-memory-entropy-and-time"&gt;https://www.santafe.edu/news-center/news/disentangling-the-boltzmann-brain-hypothesis-memory-entropy-and-time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d8b90d98-c3c4-50da-a4e3-f2e585b547de</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:42 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Boltzmann_brain</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Boltzmann2.jpg/960px-Boltzmann2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Generative UI Gets Its First Real Frameworks: Vercel's json-render and the Shift to Outcome-Oriented Design / 生成式 UI 迎来首批正式框架：Vercel json-render 与面向结果的设计转型</title>
+      <description>&lt;p&gt;For a concept that has been floating around AI-adjacent design circles for two years, generative UI — interfaces assembled at runtime by an AI model rather than hardcoded by a developer — has been frustratingly abstract. That changed in early 2026 when two concrete artifacts landed within weeks of each other: &lt;strong&gt;Vercel's json-render framework&lt;/strong&gt; (open-sourced in January, now 13,000+ GitHub stars) and &lt;strong&gt;Nielsen Norman Group's outcome-oriented design framework&lt;/strong&gt; (published March 2026). Together, they define the first practical layer for designing and building generative interfaces.&lt;/p&gt;
+
+&lt;p&gt;json-render works in three steps. First, developers define a catalog of permitted components and their data shapes using Zod schemas — buttons, cards, charts, forms, whatever the product needs. Second, an LLM generates a flat JSON tree that references only entries in that catalog. Third, a Renderer component maps the JSON to real UI implementations, streaming results progressively as the model produces them. The framework ships with 36 pre-built &lt;a href="https://ui.shadcn.com/"&gt;shadcn/ui&lt;/a&gt; components and supports React, Vue, Svelte, Solid, and React Native renderers. Specialized packages cover PDF generation, HTML email, video (via Remotion), OG images, and even 3D scenes through React Three Fiber.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://res.infoq.com/news/2026/03/vercel-json-render/en/headerimage/generatedHeaderImage-1774458868032.jpg" alt="Vercel json-render framework architecture diagram" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Vercel's json-render constrains AI output to a predefined component catalog, preventing arbitrary code generation. Source: InfoQ&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The key insight is constraint. Rather than letting an LLM generate arbitrary React code (a recipe for hallucinated components and security holes), json-render forces the model to work within a declared vocabulary. It is to generative UI what design tokens are to theming: a contract that separates intent from implementation. Google's competing &lt;strong&gt;A2UI protocol&lt;/strong&gt; (released late 2025) follows a similar JSON-to-component pipeline but positions itself as a cross-agent interoperability standard rather than an application-level tool. The two are complementary, not competing — A2UI for inter-agent handoffs, json-render for in-app rendering.&lt;/p&gt;
+
+&lt;p&gt;On the design side, NN/g's &lt;a href="https://www.nngroup.com/articles/generative-ui/"&gt;outcome-oriented design&lt;/a&gt; framework reframes the designer's job. Instead of specifying every screen, designers define &lt;em&gt;guard rails&lt;/em&gt;: what must always show, what should show if space permits, and what must never show. They define user profiles with varied requirements (accessibility needs, preferences, cost sensitivity) and let the system assemble the right interface per context. NN/g illustrates with a Delta Airlines booking concept where a dyslexic user with specific seat preferences sees a fundamentally different layout than a price-optimizing business traveler — not a cosmetic skin change, but a structural reorganization of information hierarchy.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/articles/opengraph_images/GenUI-33.png" alt="NN/g generative UI outcome-oriented design diagram" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;NN/g's outcome-oriented design shifts focus from crafting fixed screens to defining constraints and evaluation criteria. Source: Nielsen Norman Group&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The practical implication is counterintuitive: generative UI makes design systems &lt;em&gt;more&lt;/em&gt; important, not less. If your component library is sloppy, inconsistent, or missing accessibility annotations, the AI will faithfully reproduce that sloppiness at scale. Every design token, every ARIA label, every spacing rule now serves double duty — guiding both human developers and AI assemblers. Teams already invested in robust systems (with typed tokens, clear usage docs, accessibility baked in) have a structural advantage.&lt;/p&gt;
+
+&lt;p&gt;The open question: how do you test a UI that is different for every user? NN/g flags this explicitly — traditional usability testing assumes a shared interface. Generative UI may require new research methods closer to A/B testing infrastructure than moderated walkthroughs. For now, both frameworks assume a human designs the constraints and an AI fills them. Whether that boundary holds as models improve is the next conversation worth having.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;生成式 UI（Generative UI）这个概念在 AI 设计圈里飘了两年，一直停留在"听起来很酷但没法落地"的阶段。2026 年初终于出现了两个实质性成果：&lt;strong&gt;Vercel 的 json-render 框架&lt;/strong&gt;（1 月开源，GitHub 已超 13,000 星）和 &lt;strong&gt;Nielsen Norman Group 的面向结果设计框架&lt;/strong&gt;（Outcome-Oriented Design，3 月发布）。两者合在一起，第一次为生成式界面的设计和开发划出了可操作的边界。&lt;/p&gt;
+
+&lt;p&gt;json-render 的运作分三步：开发者用 Zod Schema 定义允许使用的组件目录（按钮、卡片、图表等），LLM 生成一棵只引用目录条目的扁平 JSON 树，Renderer 组件再将 JSON 映射为真实 UI 并支持流式渲染。框架自带 36 个 shadcn/ui 预置组件，支持 React、Vue、Svelte、Solid、React Native 渲染器，还有 PDF、HTML 邮件、视频（Remotion）、OG 图片甚至 React Three Fiber 3D 场景的专用包。&lt;/p&gt;
+
+&lt;p&gt;核心思路是&lt;strong&gt;约束&lt;/strong&gt;。与其让 LLM 自由生成 React 代码（幻觉组件和安全漏洞的温床），不如把模型限制在一个声明式词汇表内。可以把它理解为生成式 UI 版的 Design Token——一份将意图和实现分离的契约。Google 的 A2UI 协议（2025 年底发布）走的是类似的 JSON-to-Component 管线，但定位是跨 Agent 互操作标准而非应用层工具。两者互补而非竞争。&lt;/p&gt;
+
+&lt;p&gt;设计侧，NN/g 的框架重新定义了设计师的职责：不再逐屏画稿，而是定义&lt;em&gt;护栏&lt;/em&gt;——哪些信息必须展示、哪些视情况展示、哪些绝不能出现。设计师设定用户画像（无障碍需求、偏好、价格敏感度等），由系统按上下文组装合适的界面。NN/g 用 Delta 航空订票场景举例：一位有阅读障碍且偏好靠窗座的用户，和一位追求性价比的商务旅客，看到的不是同一界面的皮肤变化，而是信息层级的结构性重组。&lt;/p&gt;
+
+&lt;p&gt;一个反直觉的结论：生成式 UI 让设计系统变得更重要而非更不重要。如果你的组件库质量不过关——缺少 ARIA 标注、Token 不统一、间距规则模糊——AI 会忠实地把这些问题规模化复制。已经投入建设严谨系统的团队，此刻拥有结构性优势。至于如何测试一个"每人看到的都不一样"的界面，NN/g 坦言传统可用性测试的假设已经不成立，可能需要更接近 A/B 测试基础设施的新研究方法。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2026/03/vercel-json-render/"&gt;https://www.infoq.com/news/2026/03/vercel-json-render/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/generative-ui/"&gt;https://www.nngroup.com/articles/generative-ui/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"&gt;https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026"&gt;https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f28753fe-3e1c-5a34-a7b0-cd46108a0b04</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:46 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.infoq.com/news/2026/03/vercel-json-render/</link>
+      <enclosure url="https://res.infoq.com/news/2026/03/vercel-json-render/en/headerimage/generatedHeaderImage-1774458868032.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 读心术有了密码锁：内心独白解码 BCI 的隐私保护机制</title>
+      <description>&lt;p&gt;我们此前报道过 Francis Willett 团队在内心独白神经解码上的突破——125,000 词汇量下 74% 准确率。但一个问题一直悬而未决：如果设备能解码你「想说的话」，它会不会也偷听你「不想说的话」？Willett 与 Erin Kunz 等人 2025 年 8 月在 &lt;em&gt;Cell&lt;/em&gt; 发表的论文正面回应了这个问题，提出了两种经过验证的隐私保护方案。&lt;/p&gt;
+
+&lt;p&gt;研究在四名因 ALS 或中风丧失语言能力的患者身上进行。核心发现之一是，&lt;strong&gt;尝试说话&lt;/strong&gt;（attempted speech）和&lt;strong&gt;想象说话&lt;/strong&gt;（inner speech）在运动皮层中激活了相似的神经模式，但尝试说话的信号更强。这个强度差异本身就构成了第一道防线：训练解码器只响应信号强度高于阈值的尝试说话，自动过滤掉较弱的内心独白信号。&lt;/p&gt;
+
+&lt;p&gt;第二种方案更巧妙——&lt;strong&gt;思维密码&lt;/strong&gt;。用户在心中想一个特定关键词（研究中用的是「chitty chitty bang bang」），触发解码器开始工作。识别准确率超过 98%。不想被解码时，不想这个词就行了。这不是理论构想，而是在真实患者身上跑通的工程方案。&lt;/p&gt;
+
+&lt;p&gt;实际使用体验也值得关注。严重肌肉萎缩的患者更偏好内心独白模式，因为不需要费力尝试发声——这对 ALS 晚期患者来说是巨大的体力节约。50 词汇量下错误率 14-33%，125,000 词汇量下 26-54%，虽然不完美，但已经足以支撑日常交流。&lt;/p&gt;
+
+&lt;p&gt;从心智成长的角度看，这项研究揭示了一个更深的问题：内心独白不是一种「纯精神活动」，它在运动皮层中留下了可测量的物理痕迹。你「想一句话」和「说一句话」在神经层面的区别，只是信号强度，而非信号类型。这彻底模糊了思维与行动的传统边界。而「思维密码」的成功，则证明人类对自己的内心独白具有足够的主动控制力——至少足以开关一个解码器。这种元控制能力本身，就是元认知能力的一个优美演示。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cell.com/cell/fulltext/S0092-8674(25)00681-6"&gt;https://www.cell.com/cell/fulltext/S0092-8674(25)00681-6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nih.gov/news-events/nih-research-matters/decoding-inner-speech-brain-signals"&gt;https://www.nih.gov/news-events/nih-research-matters/decoding-inner-speech-brain-signals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/d41586-025-02589-5"&gt;https://www.nature.com/articles/d41586-025-02589-5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7f5cf965-fe4c-553a-a265-1f47302c347b</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:57 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.cell.com/cell/fulltext/S0092-8674(25)00681-6</link>
+      <enclosure url="https://www.nih.gov/sites/default/files/2025-09/20250909-brain-signals_0.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 全球40%的癌症本可不发生——WHO/IARC史上最大规模分析：烟草、感染、酒精是三大元凶</title>
+      <description>&lt;p&gt;癌症并非我们命中注定的结局。&lt;/p&gt;
+
+&lt;p&gt;世界卫生组织下属国际癌症研究机构（IARC）近期在《自然·医学》（Nature Medicine）发表了一项迄今规模最大的全球癌症可预防性分析：覆盖 185 个国家、30 种已知可改变风险因素，对 2022 年全球新发癌症数据进行系统归因。结论令人警醒——&lt;strong&gt;2022 年全球约 710 万新发癌症病例，理论上本可通过规避已知风险因素来预防，占当年全部新发病例的近 40%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;三大元凶：烟草、感染、酒精&lt;/h3&gt;
+
+&lt;p&gt;在所有可改变风险因素中，前三名依次是：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;烟草使用&lt;/strong&gt;：每年约导致 150 万人因癌死亡，占全球新发癌症的 &lt;strong&gt;15%&lt;/strong&gt;。不仅仅是肺癌——吸烟与口腔癌、喉癌、食道癌、膀胱癌、肾癌、胰腺癌、宫颈癌均有明确关联。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;感染因素&lt;/strong&gt;：占全球新发癌症约 &lt;strong&gt;10%&lt;/strong&gt;。主要包括幽门螺旋杆菌（胃癌主因）、人乳头瘤病毒 HPV（宫颈癌、口咽癌）、乙型和丙型肝炎病毒（肝癌）。这类癌症通过疫苗接种和感染筛查，预防效率极高。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;酒精&lt;/strong&gt;：占全球新发癌症约 &lt;strong&gt;3.2%&lt;/strong&gt;，约 70 万例。口腔癌、食道癌、肝癌、结直肠癌、女性乳腺癌风险均随饮酒量线性上升，&lt;strong&gt;目前没有安全饮酒量的科学证据&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;其余风险因素还包括：超重/肥胖、缺乏体力活动、空气污染（室内外）、紫外线暴露、职业性致癌物暴露（石棉、苯等）。&lt;/p&gt;
+
+&lt;h3&gt;哪些癌症最可预防&lt;/h3&gt;
+
+&lt;p&gt;在可预防的癌症类型中，&lt;strong&gt;肺癌、胃癌、宫颈癌&lt;/strong&gt;三种合计占全球可预防病例的近一半：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;肺癌&lt;/strong&gt;：吸烟 + 空气污染是主要驱动力，中低收入国家中空气污染的贡献比例在上升&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;胃癌&lt;/strong&gt;：幽门螺旋杆菌感染贡献最大，这一细菌在部分地区感染率超过 50%，但可通过抗生素根除治疗&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;宫颈癌&lt;/strong&gt;：几乎完全由 HPV 感染驱动，HPV 疫苗覆盖率提升后，宫颈癌发病率在多个国家已出现明显下降&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;男女差异显著&lt;/h3&gt;
+
+&lt;p&gt;研究发现，男性中约 &lt;strong&gt;45%&lt;/strong&gt; 的新发癌症可归因于可改变风险因素，而女性约为 &lt;strong&gt;30%&lt;/strong&gt;。这一差距主要来自吸烟和职业暴露的性别差异——男性在这两类风险上的历史暴露量更高。&lt;/p&gt;
+
+&lt;h3&gt;预防的现实路径&lt;/h3&gt;
+
+&lt;p&gt;WHO 在报告中明确呼吁各国政府采取情境化预防策略，包括：强化控烟立法、酒精税收与限售措施、扩大 HPV 和乙肝疫苗覆盖、改善空气质量、推动工作场所致癌物管理，以及创建有利于健康饮食和体力活动的环境。&lt;/p&gt;
+
+&lt;p&gt;对个人而言，这份研究的信息清晰而直接：癌症的风险不是随机均匀分布的，绝大多数可改变风险因素都集中在少数核心行为上。&lt;strong&gt;不吸烟&lt;/strong&gt;是单一影响力最大的个人决定；&lt;strong&gt;戒酒或减量&lt;/strong&gt;是第二重要的可改变因素；&lt;strong&gt;接种 HPV 疫苗和定期筛查&lt;/strong&gt;（幽门螺旋杆菌、宫颈癌筛查）则在感染相关癌症预防上效率极高。&lt;/p&gt;
+
+&lt;p&gt;这不是说癌症完全在个人掌控之中——遗传因素、偶发突变、环境暴露都真实存在。但在全球 40% 这一数字面前，预防不再是医学词汇，而是每个人现在就可以着手的事情。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://healthpolicy-watch.news/almost-40-of-cancers-could-be-prevented-by-curbing-tobacco-infections-and-alcohol/"&gt;https://healthpolicy-watch.news/almost-40-of-cancers-could-be-prevented-by-curbing-tobacco-infections-and-alcohol/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.healthline.com/health-news/one-third-cancer-cases-preventable-global-study"&gt;https://www.healthline.com/health-news/one-third-cancer-cases-preventable-global-study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.foxnews.com/health/nearly-40-cancers-can-prevented-3-lifestyle-changes-study-finds"&gt;https://www.foxnews.com/health/nearly-40-cancers-can-prevented-3-lifestyle-changes-study-finds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a5f4c8f5-d5aa-5dfd-9d0a-463bfb21c658</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:11 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://healthpolicy-watch.news/almost-40-of-cancers-could-be-prevented-by-curbing-tobacco-infections-and-alcohol/</link>
+      <enclosure url="https://i0.wp.com/healthpolicy-watch.news/wp-content/uploads/2024/07/Screenshot-2024-07-12-at-11.04.51.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 公元前100年，古希腊人造出了一台齿轮计算机——然后人类花了1400年才造出类似的东西</title>
+      <description>&lt;p&gt;1901年，希腊Antikythera岛附近海底45米处，一群海绵潜水员在一艘罗马沉船残骸中捞上来一堆青铜碎片。没人在意。两年后，考古学家Valerios Stais在雅典国家考古博物馆的储藏室里翻检这批残骸，发现一块严重腐蚀的青铜块里嵌着一个&lt;strong&gt;齿轮&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这就是Antikythera Mechanism（安提基特拉机械装置），目前已知最古老的模拟计算机。它的制造时间大约在公元前150-100年之间，比中世纪欧洲出现类似复杂度的机械钟早了1400年。&lt;/p&gt;
+
+&lt;p&gt;这台机器能做什么？它能预测未来几十年的天文事件：太阳和月亮的黄经位置、月相、月食和日食的时间与特征、五颗已知行星（水金火木土）的会合周期，甚至还能追踪奥林匹克运动会的四年周期。月球轨道的不规则运动——所谓的「月球异常」——也被它精确建模了。一台手摇的青铜盒子，做着今天需要天文软件才能完成的事。&lt;/p&gt;
+
+&lt;p&gt;现存82块碎片中包含至少30个齿轮，最大的直径约13厘米，原本有223个齿。2005年，Cardiff大学的Mike Edmunds团队用CT扫描和高分辨率成像技术揭示了内部结构和几乎看不见的铭文。后续重建模型估计整台机器可能有37到54个齿轮。齿形是等边三角形，全部用手工从青铜板上切割——在没有精密机床的年代，这意味着匠人对金属加工的掌控力远超我们的想象。&lt;/p&gt;
+
+&lt;p&gt;谁造了它？最有影响力的猜测指向两个方向：一是叙拉古的Archimedes及其学派（西塞罗曾记载Archimedes制造过能模拟天体运动的机械装置），二是罗德岛的天文学家Hipparchus。机器内部使用的月球运动理论与Hipparchus的模型高度吻合，而某些铭文的方言特征又指向科林斯殖民地。2022年，研究者根据内部日历的校准日期提出了一个精确时间点：公元前178年12月23日。&lt;/p&gt;
+
+&lt;p&gt;真正让人不安的问题是：&lt;strong&gt;为什么之后1400年再没有出现类似的东西？&lt;/strong&gt;答案可能是多重的。罗马人对希腊式的理论科学兴趣不大，更重视实用工程；制造这种精密仪器需要的工匠知识是师徒口传的，一旦传承链断裂就会失传；亚历山大图书馆的衰落和地中海贸易网络的萎缩进一步加速了知识流失。我们通常把技术史想象成一条上升曲线，但Antikythera Mechanism提醒我们：文明可以忘记自己曾经会做的事。直到14世纪Richard of Wallingford的天文钟，欧洲才重新达到这个机械复杂度。一千四百年的空白，比整个现代科学的历史还长。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Antikythera_mechanism"&gt;https://en.wikipedia.org/wiki/Antikythera_mechanism&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-021-84310-w"&gt;https://www.nature.com/articles/s41598-021-84310-w&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/new-research-illuminates-how-antikythera-mechanism-first-computer-may-have-functioned-180977257/"&gt;https://www.smithsonianmag.com/smart-news/new-research-illuminates-how-antikythera-mechanism-first-computer-may-have-functioned-180977257/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8b506402-8b6a-5fef-80d6-57052be08492</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:15 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Antikythera_mechanism</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Antikythera_Fragment_A_%28Front%29.webp/1280px-Antikythera_Fragment_A_%28Front%29.webp.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 WCAG 3.0 March Draft Rewrites the Accessibility Rulebook: 'Outcomes' Become 'Requirements,' Four Principles Expand to Twelve / WCAG 3.0 三月草案重写无障碍规则：'Outcomes' 更名为 'Requirements'，四大原则扩展为十二类</title>
+      <description>&lt;p&gt;The W3C Accessibility Guidelines Working Group published a &lt;a href="https://www.w3.org/WAI/news/2026-03-03/wcag3/"&gt;substantially revised WCAG 3.0 Working Draft&lt;/a&gt; on March 3, 2026. This is the most consequential update since the standard's initial draft in 2021, and it signals where digital accessibility regulation is heading for the next decade. If you design products that need to meet accessibility standards — which, post-ADA Title II deadline, is most of you — this draft is worth reading now, even though it won't become a formal Recommendation until 2028-2030.&lt;/p&gt;
+
+&lt;p&gt;The headline changes start with naming. The standard is no longer called "Web Content Accessibility Guidelines" — it is now &lt;strong&gt;W3C Accessibility Guidelines&lt;/strong&gt;, dropping "Web Content" to reflect an expanded scope covering native apps, authoring tools, user agents, IoT devices, and virtual/augmented reality environments. The familiar POUR principles (Perceivable, Operable, Understandable, Robust) have been reorganized into &lt;strong&gt;12 functional categories&lt;/strong&gt; — from Images &amp; Media to Policy &amp; Protection — that cover new territory including cognitive accessibility and algorithmic fairness.&lt;/p&gt;
+
+&lt;p&gt;Terminology is changing too. What were called "Outcomes" in previous drafts are now "&lt;strong&gt;Requirements&lt;/strong&gt;." Guidelines are written as outcome statements rather than technical specifications. The draft introduces more granular language with "applies when" and "except when" qualifiers, designed to reduce the ambiguity that has plagued WCAG 2.x interpretations. A new concept, &lt;strong&gt;Assertions&lt;/strong&gt;, lets organizations make formal statements about processes (like plain-language content reviews) in public accessibility statements or conformance reports — a shift from purely technical pass/fail criteria toward organizational accountability.&lt;/p&gt;
+
+&lt;p&gt;The proposed &lt;strong&gt;conformance model&lt;/strong&gt; is perhaps the most significant departure from WCAG 2.x. Rather than the binary A/AA/AAA levels, the draft proposes a more nuanced scoring system. The AGWG co-chairs are explicitly asking for feedback on whether this model is practical — whether organizations can realistically make formal assertions, and whether evaluators can apply the new requirements consistently.&lt;/p&gt;
+
+&lt;p&gt;On the technical front, the &lt;a href="https://www.myndex.com/APCA/"&gt;APCA (Advanced Perceptual Contrast Algorithm)&lt;/a&gt; continues its journey toward replacing the current 4.5:1 contrast ratio rule. APCA uses modern vision science to model how people actually perceive contrast, taking font size, weight, and foreground/background polarity into account. It produces a Lightness Contrast (LC) score on a 0-100+ scale rather than a simple ratio. For designers, this means that large, bold white text on a medium-dark background might pass APCA while failing the current ratio test — and vice versa. The algorithm is more accurate but requires more contextual thinking about typography.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.accessibility.org.au/wp-content/uploads/2026/03/narrator-face.jpg" alt="WCAG 3.0 draft update announcement" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The W3C Accessibility Guidelines Working Group is soliciting public feedback on the March 2026 draft through GitHub and public comment channels.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The practical takeaway for product teams: WCAG 2.2 Level AA remains the operative legal standard today, and will be for years. But the WCAG 3 draft reveals the &lt;em&gt;direction&lt;/em&gt; of compliance. Start familiarizing your team with APCA scoring (tools like &lt;a href="https://www.myndex.com/APCA/"&gt;Myndex APCA calculator&lt;/a&gt; are free). Audit your process documentation — the Assertions model means accessibility compliance will eventually require proving you have review processes, not just passing automated checks. And if your product touches anything beyond web (native apps, IoT, XR), the expanded scope means you'll eventually need one standard instead of cobbling together ad-hoc guidelines.&lt;/p&gt;
+
+&lt;p&gt;The AGWG is accepting feedback via their &lt;a href="https://github.com/w3c/wcag3"&gt;GitHub repository&lt;/a&gt; and at public-agwg-comments@w3.org. They specifically want input on: missing user needs, readability compared to WCAG 2.2, comfort with formal assertions, and the conformance model's usability. Candidate Recommendation is expected in 2027; a final Recommendation not before 2028.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;W3C 无障碍指南工作组于 2026 年 3 月 3 日发布了&lt;a href="https://www.w3.org/WAI/news/2026-03-03/wcag3/"&gt;大幅修订的 WCAG 3.0 工作草案&lt;/a&gt;。这是自 2021 年初稿以来最重要的一次更新，它预示着未来十年数字无障碍监管的走向。&lt;/p&gt;
+
+&lt;p&gt;首先是更名：标准不再叫"Web Content Accessibility Guidelines"，而是 &lt;strong&gt;W3C Accessibility Guidelines&lt;/strong&gt;——去掉了"Web Content"，覆盖范围扩展到原生应用、创作工具、用户代理、IoT 设备和 VR/AR 环境。原来的四大 POUR 原则（可感知、可操作、可理解、健壮性）重组为 &lt;strong&gt;12 个功能类别&lt;/strong&gt;，新增了认知无障碍和算法公平性等领域。&lt;/p&gt;
+
+&lt;p&gt;术语也在变。之前草案中的"Outcomes"现在叫"&lt;strong&gt;Requirements&lt;/strong&gt;"；指南以结果陈述而非技术规格来撰写；新增了"applies when"和"except when"限定语以减少 WCAG 2.x 中常见的歧义。一个全新概念——&lt;strong&gt;Assertions&lt;/strong&gt;——允许组织对流程（如纯文本内容审核）做出正式声明，纳入公开的无障碍声明或合规报告。这意味着合规不再仅仅是技术通过/失败，而是开始涉及组织层面的问责。&lt;/p&gt;
+
+&lt;p&gt;合规模型（Conformance Model）可能是与 WCAG 2.x 最大的分歧。草案提出用更细致的评分体系取代二元的 A/AA/AAA 等级划分。AGWG 联合主席正在征集反馈：这个模型是否可行？组织能否做出正式断言？评估者能否一致地应用新要求？&lt;/p&gt;
+
+&lt;p&gt;技术层面，&lt;strong&gt;APCA（Advanced Perceptual Contrast Algorithm）&lt;/strong&gt;继续推进，目标是替代现行的 4.5:1 对比度规则。APCA 基于现代视觉科学建模人类实际感知对比度的方式，综合考量字号、字重和前景/背景极性，生成 0-100+ 的亮度对比分数。对设计师来说，这意味着同样的配色方案在新旧算法下可能得出相反结论——准确性更高，但需要更多排版上下文思考。&lt;/p&gt;
+
+&lt;p&gt;实操建议：WCAG 2.2 Level AA 仍然是当前法律标准，且未来数年都不会改变。但 WCAG 3 草案揭示了合规的方向。现在就可以让团队熟悉 APCA 评分工具、审查流程文档（Assertions 模型意味着最终需要证明你有审核流程，而不只是通过自动化检测），以及评估产品在 Web 之外的覆盖面。Candidate Recommendation 预计 2027 年，正式 Recommendation 不早于 2028 年。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/WAI/news/2026-03-03/wcag3/"&gt;https://www.w3.org/WAI/news/2026-03-03/wcag3/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.accessibility.org.au/new-2026-update-for-the-wcag-3-0-working-draft/"&gt;https://www.accessibility.org.au/new-2026-update-for-the-wcag-3-0-working-draft/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://whollyaccessible.org/2026/03/03/wcag-3-march-update/"&gt;https://whollyaccessible.org/2026/03/03/wcag-3-march-update/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://web-accessibility-checker.com/en/blog/wcag-3-0-guide-2026-changes-prepare"&gt;https://web-accessibility-checker.com/en/blog/wcag-3-0-guide-2026-changes-prepare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7a6a2ef0-55d1-5c1a-a55b-b33e861aa0a4</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:34 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.w3.org/WAI/news/2026-03-03/wcag3/</link>
+      <enclosure url="https://www.accessibility.org.au/wp-content/uploads/2026/03/narrator-face.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 苏联花了24年往地下钻了12公里，发现了20亿年前的微生物化石和不该存在的水</title>
+      <description>&lt;p&gt;1970年5月24日，在距挪威边境几公里的科拉半岛上，苏联人开始往地下钻洞。这不是找石油——这是一场纯粹的科学竞赛，和太空竞赛一样带着冷战的味道。目标：尽可能深地穿透地壳，看看下面到底是什么。&lt;/p&gt;
+
+&lt;p&gt;他们钻了24年。最终深度：&lt;strong&gt;12,262米&lt;/strong&gt;——相当于把珠穆朗玛峰和富士山叠起来的高度。这就是Kola Superdeep Borehole（科拉超深钻孔），至今仍是人类打出的最深垂直孔。&lt;/p&gt;
+
+&lt;p&gt;钻到7公里时，第一个惊喜来了。地质学教科书说这个深度应该能碰到康拉德不连续面（Conrad Discontinuity）——地壳从花岗岩层过渡到玄武岩层的分界线。地震波数据一直暗示这条分界线存在。但钻头穿过了7公里、8公里、9公里，玄武岩层始终没有出现。原来地震波速度的变化不是因为岩石种类不同，而是因为同一种岩石在高温高压下物理性质发生了改变。一个被写进教科书的地质学「事实」，就这么被一根钻杆推翻了。&lt;/p&gt;
+
+&lt;p&gt;6公里深处，钻探人员发现了微型浮游生物化石——24种古代物种，被封存在超过&lt;strong&gt;20亿年&lt;/strong&gt;的岩石中，外面包裹着有机化合物。在那样的压力和温度下，有机物居然没有被分解。这些化石比地球表面发现的同类化石古老得多，迫使古生物学家重新思考早期生命的分布范围。&lt;/p&gt;
+
+&lt;p&gt;更离奇的是水。3到6公里的深度区间里，岩石裂隙中积满了水。按常理，这个深度的岩石应该被压得完全致密，不可能有含水空间。但水确实在那里，而且富含氢气。关于这些水的来源有两种假说：一是远古海水沿裂隙下渗后被封存了数十亿年，二是地壳深处的矿物在高温下与水发生化学反应（蛇纹石化作用）持续释放氢气和水。如果是后者，这意味着地壳本身就是一个缓慢但巨大的化学反应器。&lt;/p&gt;
+
+&lt;p&gt;温度是最终的拦路虎。到达12公里时，温度飙升到180°C——几乎是预测值的两倍。在这个温度下，岩石不再表现得像固体，而更像塑料——钻头打下去，孔壁会慢慢流动回来。钻杆在高温下也会变形断裂。1984年，钻杆在12,066米处断裂，几个月的工作报废。团队从更浅处重新开始，但1994年经费耗尽，项目终止。1995年正式关闭，2008年管理公司被清算，整个站点被遗弃。&lt;/p&gt;
+
+&lt;p&gt;今天，科拉超深钻孔的地面入口只是一个生锈的金属盖子，焊死在荒芜的北极苔原上。周围的建筑已经破败倒塌。地下12公里处的那个孔径只有23厘米的洞还在——太窄了，连一个人都钻不进去。但它从地球内部带回来的信息，纠正了至少一个重大的地质学错误，发现了不该存在的水和不该幸存的化石。有时候，最重要的探索不是向上，而是向下。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole"&gt;https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/how-deep-is-the-deepest-hole-in-the-world/"&gt;https://www.scientificamerican.com/article/how-deep-is-the-deepest-hole-in-the-world/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.zmescience.com/feature-post/natural-sciences/geology-and-paleontology/planet-earth/6-unexpected-discoveries-from-the-worlds-deepest-well/"&gt;https://www.zmescience.com/feature-post/natural-sciences/geology-and-paleontology/planet-earth/6-unexpected-discoveries-from-the-worlds-deepest-well/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e3025972-f297-5d1f-94ed-747a527259b8</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/7/74/%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0_crop.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Designing in Proxemic Zones: How Spatial Computing Is Replacing 'Pixels on a Page' With 'Objects in a Room' / 近场感知设计：空间计算如何用「房间里的物体」取代「页面上的像素」</title>
+      <description>&lt;p&gt;Two years into the visionOS era, a practical design framework for spatial interfaces is finally crystallizing — and it has little to do with the glassmorphism tutorials flooding design Twitter. The real shift is &lt;strong&gt;proxemic zone architecture&lt;/strong&gt;: a system for organizing digital content by its physical distance from the user's body, rooted in how the human brain actually encodes spatial memory.&lt;/p&gt;
+
+&lt;p&gt;The framework, synthesized most rigorously in a &lt;a href="https://www.createwithswift.com/solid-interfaces-for-visionos-widgets-and-cognitive-space-in-spatial-computing/"&gt;recent Create with Swift analysis&lt;/a&gt;, defines seven proprioceptive zones that govern what type of interaction is possible at each distance:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Z1-Z2 (0-80cm)&lt;/strong&gt; — Intimate manipulation. Precision tasks, fine motor control, primary tools. Think of a visionOS volume you grab and rotate with your hands.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Z3 (80-120cm)&lt;/strong&gt; — Arm's reach boundary. Secondary controls, toolbar-equivalent elements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Z4-Z5 (120-350cm)&lt;/strong&gt; — Social/reading distance. Glanceable displays, reference materials, the Shared Space windows where most ported apps live.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Z6-Z7 (350cm+)&lt;/strong&gt; — Environmental landmarks and the "out-of-bounds" perceptual failure zone where interactive accuracy collapses.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://www.createwithswift.com/content/images/size/w1200/2026/01/08---Solid-Interfaces-for-visionOS---Widgets-and-Cognitive-Space-in-Spatial-Computing---Cover.png" alt="Spatial computing proxemic zones visualization showing seven distance categories" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The seven proxemic zones define where digital objects can live and what interactions they support. Source: Create with Swift&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Why does this matter for product designers who mostly work on flat screens? Because the underlying principle — that the &lt;em&gt;distance&lt;/em&gt; between a user and content determines what kind of interaction is cognitively appropriate — applies beyond headsets. It is a formalization of something we already do intuitively: putting the most critical action closest to the thumb in mobile design, or keeping secondary navigation in a sidebar at the edge of the viewport. Proxemic zones just make the spatial reasoning explicit and measurable.&lt;/p&gt;
+
+&lt;p&gt;The neuroscience angle is genuinely interesting. Spatial widgets that persist in a user's environment get encoded as &lt;strong&gt;allocentric memories&lt;/strong&gt; — the hippocampus stores their position relative to environmental landmarks (the corner of the room, the desk edge) rather than relative to the user's body. This is why you "know" where you left a visionOS calendar window even after walking to the kitchen and back. Traditional app UIs are episodic: they appear when summoned and vanish when dismissed. Spatial UIs are environmental: they become cognitive landmarks. The design implication is that &lt;em&gt;placement stability matters enormously&lt;/em&gt;. Moving a persistent spatial widget breaks the mental map.&lt;/p&gt;
+
+&lt;p&gt;A practical tool has emerged for evaluating these patterns: &lt;strong&gt;K.I.T.E. UX v0.9&lt;/strong&gt; (Knowledge-Integrated Topological Editor), a web-based spatial design evaluation tool using Three.js and WebXR. It provides real-time benchmarking with color-coded overlays — red for ergonomic violations, yellow for marginal, green for ideal — applied to spatial layouts during the design phase. It is essentially a linter for spatial ergonomics.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/68f7d4156bad3abe05ab0cff/69a5c71b994d0fc859c59cee_0e6e633e43d4554ad0536f1595fbf9c110ede4b9.jpeg" alt="2D to 3D interface transition diagram showing how mobile app patterns map to spatial computing volumes" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Porting mobile apps to spatial computing: tab bars become vertical sidebars, modals become floating volumes, and touch targets expand to 60x60pt for eye-tracking accuracy. Source: Bolder Apps&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The &lt;a href="https://www.bolderapps.com/blog-posts/designing-for-spatial-continuity-how-to-port-mobile-apps-to-visionos-and-meta-quest-4-in-2026"&gt;porting guide from Bolder Apps&lt;/a&gt; offers the most concrete translation table for teams adapting existing products. Tab bars migrate to vertical sidebars. Modals transform into floating Volumes rather than overlays. Push navigation within volumes replaces sheet stacking. Interactive targets must expand to 60x60 points (up from 44x44) to accommodate eye-tracking margin of error. The primary input mode — "indirect pinching" while looking at a target — is fundamentally different from touch and requires rethinking every affordance.&lt;/p&gt;
+
+&lt;p&gt;The accessibility considerations are forward-thinking. The framework includes a Structured Mode for sensory-sensitive users (simplified layouts, disabled decorative motion, full opacity) and configurable proxemic zones that respect cultural differences in comfortable interaction distances. These aren't afterthoughts — they're built into the zone architecture from the start, which is how the spatial computing generation might avoid repeating the "bolt-on accessibility" mistakes of the web era.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;visionOS 时代已经两年了，一套实用的空间界面设计框架终于成形——而它与社交媒体上铺天盖地的毛玻璃教程关系不大。真正的范式转移是&lt;strong&gt;近场感知区域架构&lt;/strong&gt;（Proxemic Zone Architecture）：按数字内容与用户身体的物理距离来组织界面，基础是人脑编码空间记忆的实际方式。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.createwithswift.com/solid-interfaces-for-visionos-widgets-and-cognitive-space-in-spatial-computing/"&gt;Create with Swift 的深度分析&lt;/a&gt;定义了七个本体感觉区域：Z1-Z2（0-80cm）用于精细操作；Z3（80-120cm）是手臂可及边界，放置辅助控件；Z4-Z5（120-350cm）是社交/阅读距离，大多数 Shared Space 窗口在此；Z6-Z7（350cm+）属于环境地标和"越界"区——交互精度在此急剧崩溃。&lt;/p&gt;
+
+&lt;p&gt;为什么做平面屏幕设计的人也该关注？因为底层原理——用户与内容的&lt;em&gt;距离&lt;/em&gt;决定了认知上合适的交互类型——并不局限于头显。这本质上是我们已有的直觉（移动端把关键操作放在拇指区、次要导航放在侧边栏）的显式化和可度量化。&lt;/p&gt;
+
+&lt;p&gt;神经科学角度很有意思。持久存在于用户环境中的空间控件会以&lt;strong&gt;异位记忆&lt;/strong&gt;（Allocentric Memory）形式编码——海马体记录它们相对于环境地标（房间角落、桌边）的位置，而非相对于身体。设计上的启示：放置稳定性极其重要，随意移动一个持久空间控件会打破用户的心理地图。&lt;/p&gt;
+
+&lt;p&gt;一个实用工具值得关注：&lt;strong&gt;K.I.T.E. UX v0.9&lt;/strong&gt;，基于 Three.js 和 WebXR 的空间设计评估工具，在设计阶段提供实时人体工学基准检测，用颜色覆盖层标注违规（红）、临界（黄）、理想（绿）。可以理解为空间人体工学的 Linter。&lt;/p&gt;
+
+&lt;p&gt;对于正在适配产品的团队，&lt;a href="https://www.bolderapps.com/blog-posts/designing-for-spatial-continuity-how-to-port-mobile-apps-to-visionos-and-meta-quest-4-in-2026"&gt;Bolder Apps 的移植指南&lt;/a&gt;给出了最具体的转换表：标签栏变垂直侧栏、模态框变浮动 Volume、推送导航替代 Sheet 堆叠、交互目标从 44x44pt 扩大到 60x60pt 以适应眼动追踪误差。无障碍方面，框架从一开始就内建了感觉敏感用户的结构化模式和可配置的近场区域，而非事后补丁——这或许是空间计算这一代人避免重蹈 Web 时代"后补无障碍"覆辙的最好机会。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.createwithswift.com/solid-interfaces-for-visionos-widgets-and-cognitive-space-in-spatial-computing/"&gt;https://www.createwithswift.com/solid-interfaces-for-visionos-widgets-and-cognitive-space-in-spatial-computing/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bolderapps.com/blog-posts/designing-for-spatial-continuity-how-to-port-mobile-apps-to-visionos-and-meta-quest-4-in-2026"&gt;https://www.bolderapps.com/blog-posts/designing-for-spatial-continuity-how-to-port-mobile-apps-to-visionos-and-meta-quest-4-in-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bolderapps.com/blog-posts/beyond-the-screen-the-2026-guide-to-building-multi-surface-apps-for-mobile-and-spatial-computing"&gt;https://www.bolderapps.com/blog-posts/beyond-the-screen-the-2026-guide-to-building-multi-surface-apps-for-mobile-and-spatial-computing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fd3ad93d-d91c-5907-a309-08a0a36f479b</guid>
+      <pubDate>Tue, 07 Apr 2026 08:05:31 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.createwithswift.com/solid-interfaces-for-visionos-widgets-and-cognitive-space-in-spatial-computing/</link>
+      <enclosure url="https://www.createwithswift.com/content/images/size/w1200/2026/01/08---Solid-Interfaces-for-visionOS---Widgets-and-Cognitive-Space-in-Spatial-Computing---Cover.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

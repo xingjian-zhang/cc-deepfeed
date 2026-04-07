@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:03:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:04:43 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
@@ -400,6 +400,82 @@
       <category>meta-news</category>
       <link>https://blog.rankiteo.com/mer1775255558-mercor-breach-april-2026/</link>
       <enclosure url="https://imagesblog.blob.core.windows.net/blog/breach10.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 开源外衣、闭源内核：Meta AI 模型策略的「混合」真相浮出水面</title>
+      <description>&lt;p&gt;4月6日，Axios 独家报道 Meta 计划为旗下新一代 AI 模型发布开源版本——但关键细节藏在措辞里：先闭源发布，再择机开源。这条消息与 MediaPost 同日刊出的分析共同勾勒出 Meta AI 战略的最终形态：&lt;strong&gt;一个精心设计的混合模型&lt;/strong&gt;，用开源维系开发者生态，用闭源守住竞争护城河。&lt;/p&gt;
+
+&lt;p&gt;具体而言，旗舰模型 Avocado（内部代号，对标 OpenAI 和 Google 的前沿模型）仍然延期至5月以后。3月原定发布计划因编程、推理、写作三项基准测试「不及 Google Gemini 2.5」而搁置。更令人震惊的是，Meta 内部一度讨论过直接&lt;strong&gt;向 Google 授权 Gemini&lt;/strong&gt;来驱动自家 Meta AI 产品——也就是说，WhatsApp、Instagram、Facebook 上的 Meta AI 可能在用户毫不知情的情况下，由 Google 基础设施提供回答。这个方案是否最终执行尚无定论，但它的存在本身就暴露了 Avocado 的困境。&lt;/p&gt;
+
+&lt;p&gt;Wang 的态度很明确：最大的模型保持专有。他的原话逻辑是「个人超智能」（Personal Superintelligence）——AI 需要深度了解用户目标和兴趣，这类数据密集型应用天然倾向闭源。而开源版本则扮演生态工具的角色：吸引开发者、塑造行业标准、压制竞争对手的生态位。&lt;/p&gt;
+
+&lt;p&gt;这跟 Llama 时代的 Meta 已经判若两人。2023-2024年，Meta 靠 Llama 系列的开源策略赢得了开发者社区的好感，也在一定程度上制衡了 OpenAI 的闭源垄断。但当 MSL 取代 FAIR 成为核心研发引擎后，商业逻辑压倒了意识形态。投入1150-1350亿美元 CapEx 训出来的模型，免费送人的道理越来越难讲通。&lt;/p&gt;
+
+&lt;p&gt;华尔街对此反应不一。看多的分析师（如 Morgan Stanley 的 Brian Nowak，目标价775美元）认为闭源前沿模型+开源生态工具的组合拳是最优商业模式。看空的则担心 Meta 在前沿模型上还没追上 Google 和 OpenAI，就先丢掉了开源社区的信任——两头落空。4月29日的 LlamaCon 和 Q1 财报将是 Wang 回应这些质疑的第一个公开场合。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/04/06/meta-open-source-ai-models"&gt;https://www.axios.com/2026/04/06/meta-open-source-ai-models&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mediapost.com/publications/article/414114/meta-hybrid-superintelligence-could-shift-to-mostl.html"&gt;https://www.mediapost.com/publications/article/414114/meta-hybrid-superintelligence-could-shift-to-mostl.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.timesofai.com/news/metas-avocado-ai-model-delayed-now-might-license-googles-gemini/"&gt;https://www.timesofai.com/news/metas-avocado-ai-model-delayed-now-might-license-googles-gemini/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.opensourceforu.com/2026/03/meta-weighs-licensing-google-gemini-as-open-source-ai-strategy-faces-test/"&gt;https://www.opensourceforu.com/2026/03/meta-weighs-licensing-google-gemini-as-open-source-ai-strategy-faces-test/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d4d846b3-e93b-51dc-a8bc-ed968d8f43df</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:51 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.axios.com/2026/04/06/meta-open-source-ai-models</link>
+    </item>
+    <item>
+      <title>🔬 META 跌破 574 后反弹至 579：关税恐慌消化中，但 Q1 财报才是真正考验</title>
+      <description>&lt;p&gt;上周 META 经历了过山车行情。4月2日特朗普宣布对等关税升级后，股价一度跌至 574 美元附近，较52周高点796.25美元已回撤超过28%。盘前交易一度触及更低位，市场恐慌情绪浓厚。周一（4月6日）小幅反弹至576-579美元区间，涨0.33%，跟随纳斯达克整体回暖。&lt;/p&gt;
+
+&lt;p&gt;关税的打击路径很清晰：Meta 2024年从中国市场获得183.5亿美元广告收入（占总营收11%），Temu 和 Shein 是最大的中国广告主。145%关税加上 de minimis 免税通道关闭，直接威胁这两家平台的商业模式，连带压缩它们的广告预算。&lt;strong&gt;Jefferies 将 META 目标价从725美元砍至600美元&lt;/strong&gt;，理由就是「关税不确定性上升」。MoffettNathanson 更激进，估算广告收入损失70亿美元（最坏情况230亿），目标价525。&lt;/p&gt;
+
+&lt;p&gt;但看多阵营并未崩溃。Wells Fargo 维持 Overweight，目标价调至765；Morgan Stanley 的 Brian Nowak 坚持775；Tigress Financial 甚至逆势加码至945。61位分析师的共识评级仍为「买入」，均价847美元——与当前576美元之间存在47%的隐含上行空间。分歧的核心在于：关税冲击是一次性利空还是结构性转变？&lt;/p&gt;
+
+&lt;p&gt;技术面上，META 目前在520.50（关键支撑）和673（关键阻力）之间震荡，低于主要均线。如果关税谈判在未来几周没有缓和信号，520可能真的要被测试。&lt;/p&gt;
+
+&lt;p&gt;真正的分水岭是4月29日。Q1 财报和 LlamaCon 同日举行。华尔街共识预期 EPS 6.63美元（同比增3.1%），营收554.2亿（同比增31%）。Morgan Stanley 认为管理层会给出保守指引，为超预期留空间。但如果关税影响已经开始侵蚀广告主预算，Q2 指引可能比 Q1 实际数字更让人紧张。当前24.5倍 P/E 在 Mag-7 里算合理，问题是分母——盈利增速——能不能扛住外部冲击。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.benzinga.com/trading-ideas/movers/26/04/51664667/whats-going-on-with-meta-stock-today"&gt;https://www.benzinga.com/trading-ideas/movers/26/04/51664667/whats-going-on-with-meta-stock-today&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://stocktwits.com/news-articles/markets/equity/meta-stock-on-track-to-break-below-500-as-investors-shrug-off-llama-4-ai-model-launch-amid-tariff-concerns/chf1rYLRb7l"&gt;https://stocktwits.com/news-articles/markets/equity/meta-stock-on-track-to-break-below-500-as-investors-shrug-off-llama-4-ai-model-launch-amid-tariff-concerns/chf1rYLRb7l&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587"&gt;https://www.investing.com/analysis/meta-takes-tariff-hit-but-wall-street-still-likes-the-stock-200659587&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">717dc6ae-872a-50b9-a1ef-ec2e4d5e8378</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:16 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.benzinga.com/trading-ideas/movers/26/04/51664667/whats-going-on-with-meta-stock-today</link>
+      <enclosure url="https://cdn.benzinga.com/files/images/story/2026/04/06/New-York--Usa---14-December-2024-Meta-Pl.jpeg?width=1200&amp;amp;height=800&amp;amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Reality Labs 首当其冲：Meta 裁员横扫五个事业部，WARN Act 文件揭示裁撤地图</title>
+      <description>&lt;p&gt;3月25日开始的这轮裁员，比外界最初以为的更广泛。NBC News 确认波及五个事业部：Reality Labs、招聘、销售、全球运营、Facebook 社交团队。受影响员工在当天收到通知，部分人员将在未来数周内陆续得到消息。&lt;/p&gt;
+
+&lt;p&gt;WARN Act 文件提供了地理维度的细节。加州方面，Burlingame Airport Boulevard 办公室裁124人，Sunnyvale Discovery Way 裁74人，合计约200人。华盛顿州另裁168人。这些是法律要求的提前通知，意味着正式生效日期在60天后。&lt;/p&gt;
+
+&lt;p&gt;Reality Labs 是受创最重的部门。该部门2025年录得60.2亿美元运营亏损，营收仅9.55亿——每赚1美元就亏掉6美元多。在 MSL 崛起的背景下，Reality Labs 的战略地位正被重新定义。部分工程师已转岗至 MSL 的硬件团队（由徐睿领导），但更多人直接收到了裁员通知。工程、产品管理、经理和招聘岗位均在波及范围内。&lt;/p&gt;
+
+&lt;p&gt;Zuckerberg 1月份的内部信为这轮裁员定了调：「以前需要大团队完成的项目，现在一个非常有才华的人就能搞定。」这句话的潜台词是 &lt;strong&gt;Metamate 和 DevMate&lt;/strong&gt;——Meta 内部的 AI 编码和运营工具。据此前报道，这两个系统已替代约70%的常规工作流。当 AI 工具能做到这一点，人力冗余就不再是观点分歧，而是财务事实。&lt;/p&gt;
+
+&lt;p&gt;Yahoo Finance 援引的一份分析估算总裁员规模可能达到15000人，即全公司79000人的约20%。如果成真，这将是 Meta 历史上最大规模的单次重组，超过2023年裁员11000人的记录。但 Meta 官方目前只确认了「数百人」级别的裁减，对20%的说法不予置评。&lt;/p&gt;
+
+&lt;p&gt;一个值得追踪的信号：Meta 和 Google 今年的 H-1B 申请量双双减半。这不是裁员的直接指标，但它说明招聘冻结是全面性的——不是某个部门的调整，而是整个公司在收缩人力投入、把资源集中到 AI 基础设施上。1150-1350亿的 CapEx 要花在芯片和数据中心上，不是花在人头上。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcnews.com/tech/social-media/meta-layoffs-hundreds-employees-five-divisions-vr-ai-who-rcna265127"&gt;https://www.nbcnews.com/tech/social-media/meta-layoffs-hundreds-employees-five-divisions-vr-ai-who-rcna265127&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kron4.com/news/technology-ai/meta-to-lay-off-nearly-200-bay-area-employees/"&gt;https://www.kron4.com/news/technology-ai/meta-to-lay-off-nearly-200-bay-area-employees/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geekwire.com/2026/latest-meta-layoffs-target-168-employees-in-washington-state/"&gt;https://www.geekwire.com/2026/latest-meta-layoffs-target-168-employees-in-washington-state/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/04/02/nx-s1-5768216/whats-next-for-meta-after-trial-losses-layoffs"&gt;https://www.npr.org/2026/04/02/nx-s1-5768216/whats-next-for-meta-after-trial-losses-layoffs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/news/meta-20-layoff-rumor-coming-142935490.html"&gt;https://finance.yahoo.com/news/meta-20-layoff-rumor-coming-142935490.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">97dda2e1-0ee7-52d5-bbf0-2d2b4946d24f</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:43 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.nbcnews.com/tech/social-media/meta-layoffs-hundreds-employees-five-divisions-vr-ai-who-rcna265127</link>
+      <enclosure url="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-03/260325-meta-logo-ew-124p-6a3121.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

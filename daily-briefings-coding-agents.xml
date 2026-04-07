@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:04:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:03:47 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -461,6 +461,111 @@
       <category>coding-agents</category>
       <link>https://resources.anthropic.com/2026-agentic-coding-trends-report</link>
       <enclosure url="https://cdn.sanity.io/images/ojuglg5y/production/cf5646e15f91dd2d3b598b8e81706d149f8892a2-1456x816.png?w=1200&amp;fit=max&amp;auto=format" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 GitHub Copilot CLI 推出 Rubber Duck：用 GPT-5.4 给 Claude 当「诤友」，Sonnet 追平 74.7% 的 Opus 差距</title>
+      <description>&lt;h2&gt;跨模型家族审查：编程智能体的「第二意见」&lt;/h2&gt;
+&lt;p&gt;4 月 6 日，GitHub 在 Copilot CLI 中上线了实验性功能 &lt;strong&gt;Rubber Duck&lt;/strong&gt;——一个来自不同 AI 模型家族的独立审查智能体，专门在关键节点给主智能体「挑刺」。目前的默认配置是 Claude 家族（Opus/Sonnet/Haiku）作为主力编码模型，&lt;strong&gt;GPT-5.4 作为 Rubber Duck 审查者&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这个命名致敬了经典的「小黄鸭调试法」——程序员向橡皮鸭解释代码来发现 bug。但 GitHub 的版本远比橡皮鸭聪明：它会在三个关键时刻自动介入：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;计划制定后&lt;/strong&gt;（团队认为最大收益点）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;复杂实现完成后&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试编写后、执行前&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;用户也可以随时手动触发 &lt;code&gt;/experimental&lt;/code&gt; 来召唤审查。&lt;/p&gt;
+&lt;h2&gt;性能数据：便宜模型 + 审查 ≈ 贵模型&lt;/h2&gt;
+&lt;p&gt;在 SWE-Bench Pro 基准测试中，Claude Sonnet 4.6 + Rubber Duck 的组合&lt;strong&gt;弥补了 Sonnet 与 Opus 之间 74.7% 的性能差距&lt;/strong&gt;。具体来看：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;多文件问题（3+ 文件、70+ 步骤）：比 Sonnet 基线高 3.8%&lt;/li&gt;
+&lt;li&gt;最难的问题子集：三轮测试平均提升 4.8%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;博客中列举了几个 Rubber Duck 捕获的真实 bug：异步调度器启动后立即退出；循环静默覆盖字典键导致搜索结果丢失；跨文件冲突中新代码破坏已有读操作。这些都是主智能体在「隧道视野」中容易忽略的系统级问题。&lt;/p&gt;
+&lt;h2&gt;行业信号：多模型协作成为新范式&lt;/h2&gt;
+&lt;p&gt;这是 GitHub 首次在官方产品中&lt;strong&gt;明确组合两个竞争对手的模型&lt;/strong&gt;。之前各平台虽然支持多模型切换，但都是「选一个用」的逻辑。Rubber Duck 的哲学不同：它认为&lt;strong&gt;不同训练数据和架构产生的「认知多样性」本身就是价值&lt;/strong&gt;——一个模型的盲区恰好是另一个模型的强项。&lt;/p&gt;
+&lt;p&gt;这对成本优化也有启示：与其全程使用最贵的 Opus，不如用便宜的 Sonnet 干活、在关键节点调用不同家族的模型做审查。74.7% 的差距弥补率意味着，对于大多数任务，这种组合可能是性价比最优解。&lt;/p&gt;
+&lt;p&gt;值得注意的是，GitHub 选择了 OpenAI 的 GPT-5.4 而非自家 Microsoft 的模型来做审查者，这暗示了一个务实判断：审查者的质量比品牌忠诚更重要。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/"&gt;https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9530d5af-8d71-50f1-bec2-ff5544b35685</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:49 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/</link>
+      <enclosure url="https://github.blog/wp-content/uploads/2026/01/00ab37fbbb9bc343b007734b0e5805a26e747c90d955750bd976cb9ce84f6a2a-1920x1080-1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 💻 JetBrains 万人调查：Claude Code 一年增长 6 倍至 18%，Copilot 增长停滞，Google Antigravity 杀入战场</title>
+      <description>&lt;h2&gt;2026 年 1 月快照：AI 编程工具的真实市场格局&lt;/h2&gt;
+&lt;p&gt;JetBrains 于 4 月初发布了第三波「开发者 AI 工具使用调查」，覆盖全球超过 &lt;strong&gt;10,000 名职业开发者&lt;/strong&gt;，横跨 8 种语言。数据采集于 2026 年 1 月，与 2025 年 4-6 月和 9 月的两波数据形成纵向对比。这是目前样本量最大、方法论最严谨的行业调查之一。&lt;/p&gt;
+&lt;h2&gt;核心数据：三个意外&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;意外一：Claude Code 爆炸式增长。&lt;/strong&gt;工作场景使用率从 2025 年中的约 3% 飙升至 18%，&lt;strong&gt;增长 6 倍&lt;/strong&gt;。在北美市场更夸张，达到 24%。用户满意度指标同样惊人：CSAT 91%，NPS 54——这在开发工具领域几乎闻所未闻。JetBrains 的分析师直接引用了一个判断：「当独立工具展现出明确的优越性时，集成方案就会变得过时。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;意外二：Copilot 增长停滞。&lt;/strong&gt;GitHub Copilot 的品牌认知度仍然最高（76%），工作使用率 29%，但增长曲线已经走平。在 5000 人以上的大企业中，Copilot 凭借组织级采购优势维持 40% 的占有率，但在中小团队和个人开发者中正被 Claude Code 和 Cursor 蚕食。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;意外三：Google Antigravity 从零到 6%。&lt;/strong&gt;2025 年 11 月随 Gemini 3 发布的 Antigravity，在不到三个月内就拿下了 6% 的工作使用率。作为 VS Code 的深度魔改分支，Antigravity 提供免费的 Gemini 3.1 Pro 额度，同时支持 Claude Sonnet 4.5 和 GPT-OSS。它的 Manager Surface 允许开发者同时调度多个智能体——这与 Cursor 3.0 的 Agents Window 形成直接竞争。&lt;/p&gt;
+&lt;h2&gt;完整市场排名&lt;/h2&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;工具&lt;/th&gt;&lt;th&gt;工作使用率&lt;/th&gt;&lt;th&gt;趋势&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;GitHub Copilot&lt;/td&gt;&lt;td&gt;29%&lt;/td&gt;&lt;td&gt;📊 停滞&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ChatGPT（聊天）&lt;/td&gt;&lt;td&gt;28%&lt;/td&gt;&lt;td&gt;📊 稳定&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cursor&lt;/td&gt;&lt;td&gt;18%&lt;/td&gt;&lt;td&gt;📈 放缓&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Claude Code&lt;/td&gt;&lt;td&gt;18%&lt;/td&gt;&lt;td&gt;🚀 爆发&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;JetBrains AI&lt;/td&gt;&lt;td&gt;9%&lt;/td&gt;&lt;td&gt;📊 稳定&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Gemini（聊天）&lt;/td&gt;&lt;td&gt;8%&lt;/td&gt;&lt;td&gt;📊 稳定&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Google Antigravity&lt;/td&gt;&lt;td&gt;6%&lt;/td&gt;&lt;td&gt;🆕 新入&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;OpenAI Codex&lt;/td&gt;&lt;td&gt;3%&lt;/td&gt;&lt;td&gt;📉 低迷&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2&gt;两个深层趋势&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;「最佳单品」胜过「全家桶」。&lt;/strong&gt;调查显示 74% 的开发者已采用专门的 AI 编程工具（不只是通用聊天机器人）。这意味着市场已经过了「用 ChatGPT 写代码就够了」的阶段，开发者开始根据具体场景选择最优工具。Claude Code 在 CLI 场景、Cursor 在 IDE 场景、Copilot 在企业合规场景各有优势。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;90% 渗透率意味着竞争从增量转向存量。&lt;/strong&gt;当 9 成开发者都在用 AI 工具时，增长只能来自抢夺对手的用户。这解释了为什么各平台都在加速差异化：Copilot 押注 SDK 基础设施、Cursor 押注多智能体编排、Claude Code 押注开源生态、Antigravity 押注免费额度。接下来的战场不是「要不要用 AI」，而是「用谁的 AI」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/"&gt;https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9930362d-f557-51a1-9c7f-a655adb28dce</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:20 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/</link>
+    </item>
+    <item>
+      <title>💻 💻 GitHub 宣布用 Copilot 交互数据训练 AI 模型：免费和 Pro 用户 4/24 起默认纳入</title>
+      <description>&lt;h2&gt;政策变更：从「不训练」到「默认训练」&lt;/h2&gt;
+&lt;p&gt;GitHub 于 3 月 25 日发布公告，宣布从 &lt;strong&gt;4 月 24 日起&lt;/strong&gt;，Copilot Free、Pro 和 Pro+ 用户的交互数据将默认用于训练 AI 模型——除非用户主动选择退出。这标志着 GitHub 在 AI 训练数据策略上的重大转向。&lt;/p&gt;
+&lt;p&gt;受影响的数据范围比多数人预想的要广：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户接受或修改的代码输出&lt;/li&gt;
+&lt;li&gt;发送给 Copilot 的所有输入，包括代码片段&lt;/li&gt;
+&lt;li&gt;光标周围的代码上下文&lt;/li&gt;
+&lt;li&gt;注释和文档内容&lt;/li&gt;
+&lt;li&gt;文件名、仓库结构和导航模式&lt;/li&gt;
+&lt;li&gt;与 Copilot 各功能的交互记录（聊天、建议）&lt;/li&gt;
+&lt;li&gt;用户反馈（点赞/点踩）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;谁受影响，谁不受影响&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;纳入范围：&lt;/strong&gt;Copilot Free、Pro、Pro+ 的个人用户。&lt;strong&gt;排除范围：&lt;/strong&gt;Copilot Business 和 Enterprise 用户，以及企业所属仓库中的数据。这实质上是一个「消费级用户买单、企业用户豁免」的双轨策略。&lt;/p&gt;
+&lt;p&gt;GitHub 表示，之前已选择退出数据收集的用户，其偏好设置将被保留。新用户或未做过设置的现有用户，则需要去 Settings → Privacy 手动关闭。&lt;/p&gt;
+&lt;h2&gt;官方理由与行业背景&lt;/h2&gt;
+&lt;p&gt;GitHub 的说法是「与行业惯例一致」，并援引了微软员工交互数据带来的改进——「在多种编程语言中提升了接受率」。但这个理由引发了开发者社区的争议：Copilot 最初的卖点之一就是「不用你的代码训练模型」，现在这条隐含的社会契约被单方面改写了。&lt;/p&gt;
+&lt;p&gt;值得注意的时间点：这个公告距离 JetBrains 调查显示 Copilot 增长停滞仅隔数周。当用户增长放缓时，从现有用户身上榨取更多数据价值，是一个可以理解但不一定受欢迎的商业逻辑。&lt;/p&gt;
+&lt;h2&gt;对开发者的实际影响&lt;/h2&gt;
+&lt;p&gt;对于大多数个人开发者来说，实际影响可能有限——GitHub 明确表示不会与第三方 AI 提供商共享数据，也不会使用仓库「静态存储」的内容。但对于以下场景需要警惕：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;在个人账号上处理公司代码的开发者&lt;/strong&gt;：你的代码片段和上下文可能进入训练集&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源项目维护者&lt;/strong&gt;：导航模式和文件结构可能暴露项目架构&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;隐私敏感用户&lt;/strong&gt;：光标位置和导航模式可以推断出工作习惯&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;建议受影响用户尽快检查 &lt;strong&gt;Settings → Privacy&lt;/strong&gt; 中的设置。4 月 24 日之前是最后的窗口期。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/"&gt;https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0b45bb61-3d7f-507b-8240-bb2672e8503c</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:47 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/</link>
+      <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-github-logo-right.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

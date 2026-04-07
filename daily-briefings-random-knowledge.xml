@@ -4,7 +4,7 @@
     <title>每日冷知识深潜</title>
     <description>Per-topic feed: 每日冷知识深潜</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml</link>
-    <lastBuildDate>Mon, 06 Apr 2026 08:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:04:49 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" type="application/rss+xml" />
@@ -782,6 +782,137 @@
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Erfurt_latrine_disaster</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/44/Codex_Manesse_Heinrich_VI._%28HRR%29.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 亚马逊丛林深处有一种语言，没有数字、没有颜色、没有过去式——它差点推翻了乔姆斯基的整个理论</title>
+      <description>&lt;p&gt;在巴西亚马逊丛林Maici河沿岸，生活着大约300名Pirahã人。他们说着一种可能是地球上最「简陋」的语言——只有9到13个音素（英语有44个），三个元音，没有数字词，没有颜色词，没有过去时态，没有递归句法（Recursion）。&lt;/p&gt;
+
+&lt;p&gt;这意味着什么？一个Pirahã人无法说出「约翰的哥哥的房子」这样的嵌套结构。他只能说：「约翰有个哥哥。那个哥哥有一间房子。」他们也不能数数——经过八个月的每日教学，&lt;strong&gt;没有一个人学会数到十，甚至无法完成1+1&lt;/strong&gt;。实验显示，他们在看得见物体时能匹配数量，但一旦物体被遮住，精确计数就崩溃了。&lt;/p&gt;
+
+&lt;p&gt;语言学家Daniel Everett最初是作为福音派传教士去到Pirahã部落的。他在那里生活了二十多年，最终不但没有让Pirahã人信主，反而自己失去了信仰。2005年，他在&lt;em&gt;Current Anthropology&lt;/em&gt;上发表了一篇论文，正式提出Pirahã语缺乏递归结构——这直接挑战了Noam Chomsky「普遍语法」（Universal Grammar）的核心假设。Chomsky几十年来坚持：递归是人类语言的先天能力，是所有语言的共有特征。Everett说：不，我找到了一个反例。&lt;/p&gt;
+
+&lt;p&gt;争论至今没有定论。MIT的Nevins、Pesetsky和Rodrigues发表反驳论文，指出Everett自己早期的记录中其实有嵌套结构的例子，是他后来改了解释。Chomsky本人的回应比较巧妙：他承认递归能力可能在认知层面存在，只是在某些语言的表层结构中不被使用——这有点像说「你有这个功能，只是从不打开它」。&lt;/p&gt;
+
+&lt;p&gt;但Pirahã语真正令人着迷的不是语法细节，而是它背后的文化逻辑。Everett提出了一个叫「直接经验原则」（Immediacy of Experience Principle）的概念：Pirahã人只谈论自己亲眼见过或从亲历者那里直接听说的事情。他们没有创世神话，没有虚构故事，没有关于遥远过去的叙事。动词还带有&lt;strong&gt;证据性标记&lt;/strong&gt;（Evidentiality Markers），必须标明你是亲眼看到的、推理出来的、还是听说的。语言不只是工具——它是一面镜子，映射出说话者对世界的全部哲学态度。&lt;/p&gt;
+
+&lt;p&gt;还有一个细节值得玩味：Pirahã语可以被吹口哨、哼唱、甚至编码成旋律来传达，仅凭音高和节奏就能传递完整信息。这种「口哨语言」在打猎时用来远距离通讯，比喊话更不容易惊动猎物。一种被认为「最简单」的语言，在实用层面上有着出人意料的复杂性。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Pirah%C3%A3_language"&gt;https://en.wikipedia.org/wiki/Pirah%C3%A3_language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.edge.org/conversation/daniel_l_everett-recursion-and-human-thought"&gt;https://www.edge.org/conversation/daniel_l_everett-recursion-and-human-thought&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.mit.edu/2016/data-amazonian-piraha-language-debate-0309"&gt;https://news.mit.edu/2016/data-amazonian-piraha-language-debate-0309&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">90a857c5-af4b-5d85-b780-965444bef22d</guid>
+      <pubDate>Tue, 07 Apr 2026 08:02:44 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Pirah%C3%A3_language</link>
+    </item>
+    <item>
+      <title>🎲 为什么你的银行账户余额大概率以1开头？一条数学定律专门用来抓做假账的人</title>
+      <description>&lt;p&gt;翻开任何一本旧对数表，你会发现前面几页明显比后面的页脏。1881年，加拿大天文学家Simon Newcomb注意到了这件事，并由此推导出一个诡异的结论：在自然产生的数据集中，首位数字是1的概率高达30.1%，而首位数字是9的概率只有4.6%。&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;Benford定律&lt;/strong&gt;（Benford's Law），也叫首位数字定律。它的数学公式异常简洁：P(d) = log₁₀(1 + 1/d)。河流长度、城市人口、股票价格、电费账单、斐波那契数列、甚至物理常数——只要数据跨越多个数量级，首位数字几乎都服从这个分布。&lt;/p&gt;
+
+&lt;p&gt;为什么？直觉上你可能觉得1到9应该各占11%左右。但如果你把数据放到对数坐标上看，从log(1)到log(2)的区间跨度是0.301，而从log(9)到log(10)的区间只有0.046。换句话说，一个数从1000增长到2000，需要翻倍；但从9000增长到10000，只需要涨11%。数据在「1字头」的区间里停留的时间天然就更长。&lt;/p&gt;
+
+&lt;p&gt;这条定律最惊人的应用在于&lt;strong&gt;反欺诈&lt;/strong&gt;。人类在伪造数据时有一个本能缺陷：我们倾向于让首位数字「均匀分布」，因为这看起来更「随机」。但真实数据恰恰不是均匀分布的。审计师只要把一组财务数据的首位数字频率和Benford分布做比较，异常就会跳出来。&lt;/p&gt;
+
+&lt;p&gt;实战案例不少。安然（Enron）丑闻调查中，审计人员对其财务报表做了Benford分析，首位数字分布的偏离直接指向了造假。金融顾问Wesley Rhodes被判欺诈罪时，检方在法庭上论证他的文件不符合Benford分布，因此很可能是编造的。美国联邦、州和地方法院都已接受基于Benford定律的证据。2009年伊朗总统选举后，研究者对公布的投票数据做了第二位数字分析，发现统计异常——虽然这不构成「证据」，但它是一面红旗。&lt;/p&gt;
+
+&lt;p&gt;不过也别把它当万能钥匙。Benford定律有严格的适用条件：数据必须跨越多个数量级，而且不能是人为设定的（比如.99这种心理定价）。人的身高、智商分数、选区级别的投票数——这些范围太窄，首位数字分布本来就不服从Benford定律。2020年美国大选后，有人拿Benford定律来「证明」选举舞弊，就是犯了这个错误：单个选区的票数通常只在几百到几千之间，远不够跨越所需的数量级。工具很锋利，但你得知道什么时候该拔刀。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Benford%27s_law"&gt;https://en.wikipedia.org/wiki/Benford%27s_law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-is-benfords-law-why-this-unexpected-pattern-of-numbers-is-everywhere/"&gt;https://www.scientificamerican.com/article/what-is-benfords-law-why-this-unexpected-pattern-of-numbers-is-everywhere/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/"&gt;https://magnimindacademy.com/blog/benfords-law-the-math-trick-that-detects-fraud/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">740b7f8b-74c1-569d-be3e-416453c870f6</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:13 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Benford%27s_law</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/1280px-Rozklad_benforda.svg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 物理学的一个推论认为：你的大脑更可能是从虚空中随机涌现的，而不是进化出来的</title>
+      <description>&lt;p&gt;1896年，奥地利物理学家Ludwig Boltzmann在思考一个基本问题：宇宙为什么看起来这么有序？热力学第二定律说，一切都该趋向混沌——最终达到「热寂」（Heat Death），所有能量均匀分布，什么都不会再发生。但我们的宇宙显然还没到那一步。Boltzmann的解释是：也许宇宙确实已经热寂了，我们只是碰巧身处一个随机涨落产生的低熵「气泡」里。&lt;/p&gt;
+
+&lt;p&gt;问题来了。如果你接受「随机涨落」这个解释，那么从概率上讲，涨落出一整个有序宇宙的难度远远大于涨落出一个单独的大脑。一个带有完整虚假记忆的孤立大脑——后来被叫做&lt;strong&gt;Boltzmann Brain&lt;/strong&gt;——从真空中短暂浮现，「以为」自己正在观测一个真实宇宙，然后瞬间消散。这种事发生的概率虽然极小，但在无限时间里，它发生的次数会无限多，远远超过「正常」宇宙中通过恒星形成和生物进化产生的观测者数量。&lt;/p&gt;
+
+&lt;p&gt;推到逻辑终点：如果这个理论成立，那么在所有「正在阅读这段话并认为自己生活在一个真实宇宙中」的观测者里，绝大多数其实是Boltzmann Brain。你觉得自己有身体、有历史、有今天的早餐记忆——但统计上讲，这些更可能全是涨落产生的幻觉。&lt;/p&gt;
+
+&lt;p&gt;物理学家Sean Carroll把这称为「认知不稳定性」（Cognitive Instability）：如果你承认自己大概率是Boltzmann Brain，那你的推理能力本身就不可信，包括得出「我是Boltzmann Brain」这个结论的推理。整个认识论的地基就塌了。&lt;/p&gt;
+
+&lt;p&gt;这不只是哲学游戏——它对宇宙学理论有硬约束。任何预测未来宇宙会永恒膨胀的模型（比如de Sitter空间），都必须面对Boltzmann Brain问题：在无限的未来时间里，真空涨落产生的「假大脑」数量必然压倒真实观测者。要回避这个问题，你需要宇宙在大约200亿年内以某种方式自我毁灭——比如&lt;strong&gt;假真空衰变&lt;/strong&gt;（False Vacuum Decay），整个空间的基态突然崩塌，一切归零。某种意义上，宇宙学家在说：我们需要宇宙最终毁灭，否则我们的理论就自相矛盾。&lt;/p&gt;
+
+&lt;p&gt;圣菲研究所的David Wolpert和物理学家Carlo Rovelli最近发表了一篇论文，从记忆、熵和时间的关系重新审视Boltzmann Brain假说。他们的切入点是：Boltzmann Brain的「记忆」在物理上意味着什么？一个从涨落中产生的大脑，它的「记忆」和一个在因果链中形成的记忆，在热力学上是否有可区分的差异？如果有，也许我们可以从原理上排除Boltzmann Brain作为合格的「观测者」。这条路还在走，但Brian Greene的态度代表了多数物理学家：「我确信自己不是Boltzmann Brain。但我们希望理论也同意这一点。」&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Boltzmann_brain"&gt;https://en.wikipedia.org/wiki/Boltzmann_brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bigthink.com/hard-science/boltzmann-brain-nothing-is-real/"&gt;https://bigthink.com/hard-science/boltzmann-brain-nothing-is-real/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.santafe.edu/news-center/news/disentangling-the-boltzmann-brain-hypothesis-memory-entropy-and-time"&gt;https://www.santafe.edu/news-center/news/disentangling-the-boltzmann-brain-hypothesis-memory-entropy-and-time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d8b90d98-c3c4-50da-a4e3-f2e585b547de</guid>
+      <pubDate>Tue, 07 Apr 2026 08:03:42 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Boltzmann_brain</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Boltzmann2.jpg/960px-Boltzmann2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 公元前100年，古希腊人造出了一台齿轮计算机——然后人类花了1400年才造出类似的东西</title>
+      <description>&lt;p&gt;1901年，希腊Antikythera岛附近海底45米处，一群海绵潜水员在一艘罗马沉船残骸中捞上来一堆青铜碎片。没人在意。两年后，考古学家Valerios Stais在雅典国家考古博物馆的储藏室里翻检这批残骸，发现一块严重腐蚀的青铜块里嵌着一个&lt;strong&gt;齿轮&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这就是Antikythera Mechanism（安提基特拉机械装置），目前已知最古老的模拟计算机。它的制造时间大约在公元前150-100年之间，比中世纪欧洲出现类似复杂度的机械钟早了1400年。&lt;/p&gt;
+
+&lt;p&gt;这台机器能做什么？它能预测未来几十年的天文事件：太阳和月亮的黄经位置、月相、月食和日食的时间与特征、五颗已知行星（水金火木土）的会合周期，甚至还能追踪奥林匹克运动会的四年周期。月球轨道的不规则运动——所谓的「月球异常」——也被它精确建模了。一台手摇的青铜盒子，做着今天需要天文软件才能完成的事。&lt;/p&gt;
+
+&lt;p&gt;现存82块碎片中包含至少30个齿轮，最大的直径约13厘米，原本有223个齿。2005年，Cardiff大学的Mike Edmunds团队用CT扫描和高分辨率成像技术揭示了内部结构和几乎看不见的铭文。后续重建模型估计整台机器可能有37到54个齿轮。齿形是等边三角形，全部用手工从青铜板上切割——在没有精密机床的年代，这意味着匠人对金属加工的掌控力远超我们的想象。&lt;/p&gt;
+
+&lt;p&gt;谁造了它？最有影响力的猜测指向两个方向：一是叙拉古的Archimedes及其学派（西塞罗曾记载Archimedes制造过能模拟天体运动的机械装置），二是罗德岛的天文学家Hipparchus。机器内部使用的月球运动理论与Hipparchus的模型高度吻合，而某些铭文的方言特征又指向科林斯殖民地。2022年，研究者根据内部日历的校准日期提出了一个精确时间点：公元前178年12月23日。&lt;/p&gt;
+
+&lt;p&gt;真正让人不安的问题是：&lt;strong&gt;为什么之后1400年再没有出现类似的东西？&lt;/strong&gt;答案可能是多重的。罗马人对希腊式的理论科学兴趣不大，更重视实用工程；制造这种精密仪器需要的工匠知识是师徒口传的，一旦传承链断裂就会失传；亚历山大图书馆的衰落和地中海贸易网络的萎缩进一步加速了知识流失。我们通常把技术史想象成一条上升曲线，但Antikythera Mechanism提醒我们：文明可以忘记自己曾经会做的事。直到14世纪Richard of Wallingford的天文钟，欧洲才重新达到这个机械复杂度。一千四百年的空白，比整个现代科学的历史还长。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Antikythera_mechanism"&gt;https://en.wikipedia.org/wiki/Antikythera_mechanism&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-021-84310-w"&gt;https://www.nature.com/articles/s41598-021-84310-w&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/new-research-illuminates-how-antikythera-mechanism-first-computer-may-have-functioned-180977257/"&gt;https://www.smithsonianmag.com/smart-news/new-research-illuminates-how-antikythera-mechanism-first-computer-may-have-functioned-180977257/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8b506402-8b6a-5fef-80d6-57052be08492</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:15 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Antikythera_mechanism</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Antikythera_Fragment_A_%28Front%29.webp/1280px-Antikythera_Fragment_A_%28Front%29.webp.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 苏联花了24年往地下钻了12公里，发现了20亿年前的微生物化石和不该存在的水</title>
+      <description>&lt;p&gt;1970年5月24日，在距挪威边境几公里的科拉半岛上，苏联人开始往地下钻洞。这不是找石油——这是一场纯粹的科学竞赛，和太空竞赛一样带着冷战的味道。目标：尽可能深地穿透地壳，看看下面到底是什么。&lt;/p&gt;
+
+&lt;p&gt;他们钻了24年。最终深度：&lt;strong&gt;12,262米&lt;/strong&gt;——相当于把珠穆朗玛峰和富士山叠起来的高度。这就是Kola Superdeep Borehole（科拉超深钻孔），至今仍是人类打出的最深垂直孔。&lt;/p&gt;
+
+&lt;p&gt;钻到7公里时，第一个惊喜来了。地质学教科书说这个深度应该能碰到康拉德不连续面（Conrad Discontinuity）——地壳从花岗岩层过渡到玄武岩层的分界线。地震波数据一直暗示这条分界线存在。但钻头穿过了7公里、8公里、9公里，玄武岩层始终没有出现。原来地震波速度的变化不是因为岩石种类不同，而是因为同一种岩石在高温高压下物理性质发生了改变。一个被写进教科书的地质学「事实」，就这么被一根钻杆推翻了。&lt;/p&gt;
+
+&lt;p&gt;6公里深处，钻探人员发现了微型浮游生物化石——24种古代物种，被封存在超过&lt;strong&gt;20亿年&lt;/strong&gt;的岩石中，外面包裹着有机化合物。在那样的压力和温度下，有机物居然没有被分解。这些化石比地球表面发现的同类化石古老得多，迫使古生物学家重新思考早期生命的分布范围。&lt;/p&gt;
+
+&lt;p&gt;更离奇的是水。3到6公里的深度区间里，岩石裂隙中积满了水。按常理，这个深度的岩石应该被压得完全致密，不可能有含水空间。但水确实在那里，而且富含氢气。关于这些水的来源有两种假说：一是远古海水沿裂隙下渗后被封存了数十亿年，二是地壳深处的矿物在高温下与水发生化学反应（蛇纹石化作用）持续释放氢气和水。如果是后者，这意味着地壳本身就是一个缓慢但巨大的化学反应器。&lt;/p&gt;
+
+&lt;p&gt;温度是最终的拦路虎。到达12公里时，温度飙升到180°C——几乎是预测值的两倍。在这个温度下，岩石不再表现得像固体，而更像塑料——钻头打下去，孔壁会慢慢流动回来。钻杆在高温下也会变形断裂。1984年，钻杆在12,066米处断裂，几个月的工作报废。团队从更浅处重新开始，但1994年经费耗尽，项目终止。1995年正式关闭，2008年管理公司被清算，整个站点被遗弃。&lt;/p&gt;
+
+&lt;p&gt;今天，科拉超深钻孔的地面入口只是一个生锈的金属盖子，焊死在荒芜的北极苔原上。周围的建筑已经破败倒塌。地下12公里处的那个孔径只有23厘米的洞还在——太窄了，连一个人都钻不进去。但它从地球内部带回来的信息，纠正了至少一个重大的地质学错误，发现了不该存在的水和不该幸存的化石。有时候，最重要的探索不是向上，而是向下。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole"&gt;https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/how-deep-is-the-deepest-hole-in-the-world/"&gt;https://www.scientificamerican.com/article/how-deep-is-the-deepest-hole-in-the-world/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.zmescience.com/feature-post/natural-sciences/geology-and-paleontology/planet-earth/6-unexpected-discoveries-from-the-worlds-deepest-well/"&gt;https://www.zmescience.com/feature-post/natural-sciences/geology-and-paleontology/planet-earth/6-unexpected-discoveries-from-the-worlds-deepest-well/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e3025972-f297-5d1f-94ed-747a527259b8</guid>
+      <pubDate>Tue, 07 Apr 2026 08:04:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/7/74/%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0_crop.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
