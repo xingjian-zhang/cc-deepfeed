@@ -4,7 +4,7 @@
     <title>每日冷知识深潜</title>
     <description>Per-topic feed: 每日冷知识深潜</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml</link>
-    <lastBuildDate>Tue, 07 Apr 2026 08:04:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:08:11 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" type="application/rss+xml" />
@@ -913,6 +913,218 @@
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/7/74/%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0_crop.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 1977年，一台射电望远镜收到了一个72秒的外星级信号——47年后，人类仍然无法解释它</title>
+      <description>&lt;h2&gt;一声「Wow!」写在打印纸边上，变成了人类最漫长的悬案&lt;/h2&gt;
+&lt;p&gt;1977年8月15日晚上10点16分，俄亥俄州立大学的「大耳朵」射电望远镜正在扫描天空。几天后，志愿研究员&lt;strong&gt;杰瑞·埃曼（Jerry Ehman）&lt;/strong&gt;在审阅计算机打印数据时，看到了一串异常的字符：&lt;strong&gt;6EQUJ5&lt;/strong&gt;。他用红笔圈了出来，在旁边写下「Wow!」。这个随手涂鸦成了人类SETI历史上最著名的名字。&lt;/p&gt;
+
+&lt;p&gt;这些字符并不是某种外星语言。它们是信号强度的编码：数字1-9代表信噪比1到9.999，字母A-Z代表10到35.999。那个「U」意味着信噪比达到了&lt;strong&gt;约30&lt;/strong&gt;——信号比背景噪声强30倍。2025年波多黎各大学的Mendez团队重新分析后发现，峰值流量密度实际上超过&lt;strong&gt;250央斯基（Janskys）&lt;/strong&gt;，是此前估计的四倍。&lt;/p&gt;
+
+&lt;h2&gt;为什么这个频率如此特殊&lt;/h2&gt;
+&lt;p&gt;信号的频率为&lt;strong&gt;1420 MHz&lt;/strong&gt;附近——恰好是中性氢原子电子自旋翻转时发射的频率，即所谓&lt;strong&gt;「氢线」&lt;/strong&gt;。氢是宇宙中最丰富的元素，1959年康奈尔大学的Morrison和Cocconi在《Nature》发表论文指出，任何技术文明都会认识到这个频率，因此它是星际通讯的理想选择。1971年，惠普副总裁Bernard Oliver进一步提出了「水坑（Water Hole）」概念：1420 MHz（氢，H）到1662 MHz（羟基，OH）之间的频段宇宙背景噪声极低，而H + OH = H₂O——水是生命之源，这个波段被诗意地命名为宇宙文明的「聚水点」。&lt;/p&gt;
+
+&lt;p&gt;信号来自&lt;strong&gt;人马座方向&lt;/strong&gt;，持续了恰好&lt;strong&gt;72秒&lt;/strong&gt;——这是大耳朵望远镜固定波束扫过天空中任一点源所需的最大时间。信号的强度变化曲线与天体点源完美匹配。而且带宽极窄（低于10 kHz），是未经调制的连续波——这些特征都与自然源不太像，却与人工发射高度一致。&lt;/p&gt;
+
+&lt;h2&gt;47年的追寻，全部失败&lt;/h2&gt;
+&lt;p&gt;从1977年到2022年，科学家至少进行了七次正式回望搜索：埃曼本人用大耳朵搜了几个月；Robert Gray分别在1987年、1995年用不同望远镜尝试；1999年在塔斯马尼亚进行了六次长达14小时的观测；2022年「突破聆听」计划首次用绿岸望远镜和艾伦望远镜阵列协同搜索。&lt;strong&gt;信号从未再次出现。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年，天文学教授Antonio Paris提出信号可能来自两颗彗星（266P/Christensen或335P/Gibbs）的氢云层。但天文学界迅速否定了这个假说：这两颗彗星当时并不在望远镜波束中；彗星的氢云在1420 MHz上的辐射远不够强；而且作为弥散源，它应该出现在大耳朵的两个馈源喇叭中，而Wow信号只出现在一个——这与远距离点源一致。&lt;/p&gt;
+
+&lt;h2&gt;2024-2025：第一个真正有希望的自然解释&lt;/h2&gt;
+&lt;p&gt;突破来自阿雷西博天文台的存档数据。波多黎各大学的Abel Mendez团队在2020年的漂移扫描数据中发现了&lt;strong&gt;8个类似但弱得多的窄带氢线信号&lt;/strong&gt;，分布在不同天区。他们提出了一个假说：&lt;strong&gt;氢脉泽（hydrogen maser）&lt;/strong&gt;机制。当一个强瞬态辐射源（如磁星耀斑）照射到一片冰冷的星际氢云上，会激发受激发射，使氢云在1420 MHz上短暂「亮起来」。如果属实，Wow信号将是&lt;strong&gt;人类首次记录到的氢线天文脉泽事件&lt;/strong&gt;——一种此前未知的天体物理现象。&lt;/p&gt;
+
+&lt;p&gt;但即便是Mendez自己也说：「我们的结果没有解开Wow信号之谜，但给出了迄今最清晰的画面。」&lt;/p&gt;
+
+&lt;p&gt;47年过去了，大耳朵望远镜早已在1998年被拆除，为高尔夫球场让路。而那个72秒的信号仍然悬在那里：太强、太精准、太不像自然现象，却又太孤独、太不可重复。它占据着科学中一个独特的位置——我们既无法解释它，也无法忽略它。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Wow!_signal"&gt;https://en.wikipedia.org/wiki/Wow!_signal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2408.08513"&gt;https://arxiv.org/abs/2408.08513&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2508.10657"&gt;https://arxiv.org/abs/2508.10657&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/the-wow-signal-seti-mystery-might-at-last-be-solved/"&gt;https://www.scientificamerican.com/article/the-wow-signal-seti-mystery-might-at-last-be-solved/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8865e269-602f-501d-8e70-6db2c80a5105</guid>
+      <pubDate>Wed, 08 Apr 2026 08:05:05 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Wow!_signal</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/d/d3/Wow_signal.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 一个量子实验似乎证明了未来可以改变过去——然后物理学家花了25年解释为什么这是错觉</title>
+      <description>&lt;h2&gt;延迟选择量子擦除实验：看起来像时间旅行的量子把戏&lt;/h2&gt;
+&lt;p&gt;1801年，托马斯·杨用双缝实验证明了光是波：光子同时穿过两条缝，在屏幕上形成干涉条纹。但如果你在缝旁放一个探测器——试图看清光子到底走了哪条缝——干涉条纹就消失了，光子表现得像粒子。这就是量子力学的&lt;strong&gt;互补原理&lt;/strong&gt;：波和粒子，你只能看到一个。&lt;/p&gt;
+
+&lt;p&gt;1978年，约翰·惠勒（John Archibald Wheeler）提出了一个令人不安的思想实验：如果我们&lt;strong&gt;延迟&lt;/strong&gt;决定是否观测路径信息——等到光子已经「选择」了走哪条路之后再决定——会发生什么？更疯狂的是，惠勒设想利用引力透镜：一个数十亿光年外的类星体发出的光子，绕一个中间星系的两侧传播。地球上的实验者&lt;strong&gt;现在&lt;/strong&gt;才决定测量波还是粒子——但这个光子几十亿年前就已经「在路上」了。&lt;/p&gt;
+
+&lt;h2&gt;1999年：实验做出来了&lt;/h2&gt;
+&lt;p&gt;马里兰大学巴尔的摩分校的&lt;strong&gt;Kim、Shih&lt;/strong&gt;等人在1999年真正实现了这个实验（2000年发表于《物理评论快报》）。实验装置精巧而残酷：&lt;/p&gt;
+
+&lt;p&gt;一个氩激光器产生351.1纳米的光子，穿过双缝后打在&lt;strong&gt;BBO晶体（偏硼酸钡）&lt;/strong&gt;上。晶体通过&lt;strong&gt;自发参量下转换&lt;/strong&gt;将一个光子变成一对纠缠光子（各702.2纳米）：「信号光子」向上飞到探测器D0；「闲置光子」向下进入一套由分束器和反射镜构成的迷宫，最终随机到达四个探测器之一（D1、D2、D3、D4）。&lt;/p&gt;
+
+&lt;p&gt;关键设计：闲置光子的光路比信号光子&lt;strong&gt;长2.5米&lt;/strong&gt;，延迟约&lt;strong&gt;8纳秒&lt;/strong&gt;。也就是说，信号光子已经被D0记录之后，它的纠缠搭档才到达自己的探测器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D3和D4&lt;/strong&gt;的设计使它们只接收来自特定缝的闲置光子——保留了「哪条缝」的信息。&lt;strong&gt;D1和D2&lt;/strong&gt;前面有一个分束器把两条缝的路径混合在一起——「擦除」了路径信息。&lt;/p&gt;
+
+&lt;h2&gt;结果令人窒息&lt;/h2&gt;
+&lt;p&gt;把D0上的信号光子按其纠缠伙伴最终到达的探测器分组：与D1或D2配对的子集&lt;strong&gt;显示出干涉条纹&lt;/strong&gt;（D1和D2的条纹互补，相位差半个波长）；与D3或D4配对的子集&lt;strong&gt;没有干涉&lt;/strong&gt;，只有粒子般的团块。&lt;/p&gt;
+
+&lt;p&gt;看起来，信号光子在D0被探测时就「已经决定」了自己是波还是粒子——但这个「决定」却取决于8纳秒后闲置光子的命运。未来的测量似乎&lt;strong&gt;追溯性地&lt;/strong&gt;改变了过去的行为。时间被逆转了？&lt;/p&gt;
+
+&lt;h2&gt;为什么不是时间旅行&lt;/h2&gt;
+&lt;p&gt;关键事实：如果你不分组，只看D0上&lt;strong&gt;所有&lt;/strong&gt;信号光子的总图案——它永远是一个&lt;strong&gt;无特征的平滑曲线&lt;/strong&gt;。干涉条纹藏在子集里，D1子集的峰恰好对齐D2子集的谷，加上D3和D4的团块，一切完美抵消。&lt;/p&gt;
+
+&lt;p&gt;正如物理学家肖恩·卡罗尔（Sean Carroll）在2019年解释的：这是&lt;strong&gt;把关联误认为因果&lt;/strong&gt;。萨宾·霍森菲尔德（Sabine Hossenfelder）的比喻更直白：「我可以把硬币扔在地上，然后事后决定忽略其中一些，创造出任何我想要的图案。」你需要闲置光子的经典信息（以光速或更慢的速度传来）才能做分组。一个坐在D0前面的观察者，无论他等多久，看到的都是那个无聊的平滑曲线。&lt;strong&gt;没有信息被逆时间传递。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;那它还有什么意义？&lt;/h2&gt;
+&lt;p&gt;即便排除了时间旅行，这个实验仍然深刻得令人不适。纠缠光子之间的关联是真实的、非局域的——贝尔定理证明了没有任何局域隐变量理论能解释它们。宇宙似乎在「共谋」确保波粒互补性在任何尺度、任何时间延迟下都不可违反。那些D1和D2子集中的干涉条纹是真实的——那些信号光子&lt;strong&gt;确实&lt;/strong&gt;表现为波。只是你永远无法提前知道哪些是。&lt;/p&gt;
+
+&lt;p&gt;惠勒自己说得最好：「把实在性归于光子在从发射到最终飞行瞬间的全部旅程，是错误的。」过去不是不存在——它只是没有你以为的那么确定。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser"&gt;https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/quant-ph/9903047"&gt;https://arxiv.org/abs/quant-ph/9903047&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.preposterousuniverse.com/blog/2019/09/21/the-notorious-delayed-choice-quantum-eraser/"&gt;https://www.preposterousuniverse.com/blog/2019/09/21/the-notorious-delayed-choice-quantum-eraser/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0476074c-d700-5815-a9f2-3b0f05e77178</guid>
+      <pubDate>Wed, 08 Apr 2026 08:05:46 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser</link>
+    </item>
+    <item>
+      <title>🎲 🎲 12000年前，一群猎人用燧石刀造了一座巨型神庙——然后人类花了6000年才造出巨石阵</title>
+      <description>&lt;h2&gt;哥贝克力石阵：推翻文明起源叙事的土耳其山丘&lt;/h2&gt;
+&lt;p&gt;在土耳其东南部尚勒乌尔法（Şanlıurfa）附近的丘陵地带，有一座看起来平平无奇的土丘。1963年，伊斯坦布尔大学和芝加哥大学的联合考察队路过时，把它归类为中世纪墓地，然后继续赶路。他们错过了人类文明史上最重要的考古发现之一。&lt;/p&gt;
+
+&lt;p&gt;1994年，德国考古研究所的&lt;strong&gt;克劳斯·施密特（Klaus Schmidt）&lt;/strong&gt;重新审视了这个遗址，认出了它的真正面目。接下来的发掘揭示了一个令整个考古学界震动的事实：这座&lt;strong&gt;哥贝克力石阵（Göbekli Tepe）&lt;/strong&gt;建于约公元前9600年——距今约&lt;strong&gt;11600年&lt;/strong&gt;，比巨石阵早6000年，比埃及金字塔早7000年。2018年，它被列入联合国教科文组织世界遗产名录。&lt;/p&gt;
+
+&lt;h2&gt;没有金属工具的巨石工程&lt;/h2&gt;
+&lt;p&gt;遗址的标志性特征是巨大的&lt;strong&gt;T形石灰岩柱&lt;/strong&gt;，排列成多个环形围场（编号从A到H及更多）。最大的柱子超过&lt;strong&gt;5.5米高&lt;/strong&gt;，重达&lt;strong&gt;10吨&lt;/strong&gt;。通过地球物理勘探，已确认地下至少有&lt;strong&gt;200根柱子&lt;/strong&gt;。这些柱子从约100米外的石灰岩基岩中开采，完全使用&lt;strong&gt;燧石工具&lt;/strong&gt;雕刻——那时没有金属。&lt;/p&gt;
+
+&lt;p&gt;T形被广泛解读为&lt;strong&gt;风格化的人体形象&lt;/strong&gt;——一些柱子上刻有手臂、双手、腰带和缠腰布。柱面上还布满了精美的动物浮雕：狐狸、狮子、野猪、野牛、蛇、蝎子、秃鹫、鹤、鸭、蜘蛛和昆虫，展现出令人惊叹的艺术水准。&lt;/p&gt;
+
+&lt;h2&gt;猎人建造了神庙，不是农民&lt;/h2&gt;
+&lt;p&gt;哥贝克力石阵之前，考古学的正统叙事是：定居农业 → 粮食盈余 → 社会复杂化 → 宗教组织 → 纪念性建筑。哥贝克力石阵&lt;strong&gt;把这个链条彻底翻转了&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;建造者是&lt;strong&gt;尚未驯化任何动植物的狩猎采集者&lt;/strong&gt;。这意味着：(1) 复杂的组织劳动和巨石建筑&lt;strong&gt;先于农业&lt;/strong&gt;；(2) 宗教和仪式可能&lt;strong&gt;驱动了&lt;/strong&gt;向定居生活和农业的转型，而非相反；(3) 狩猎采集社会的组织能力远超此前想象。&lt;/p&gt;
+
+&lt;p&gt;新兴理论认为：为大量聚集进行仪式建造的劳动者提供食物的需求，可能&lt;strong&gt;促成了&lt;/strong&gt;野生谷物的驯化——特别是单粒小麦（einkorn wheat），其野生祖先恰好生长在这个地区。信仰催生了农业，而不是相反。&lt;/p&gt;
+
+&lt;h2&gt;只挖了不到10%&lt;/h2&gt;
+&lt;p&gt;迄今为止，遗址仅发掘了约&lt;strong&gt;5-10%&lt;/strong&gt;。完全发掘可能需要&lt;strong&gt;约150年&lt;/strong&gt;。已出土的&lt;strong&gt;7000多块研磨石&lt;/strong&gt;和植物微体化石证据表明，当时的人已在加工谷物。2025年的发掘季还出土了一尊&lt;strong&gt;真人大小的人像&lt;/strong&gt;，被水平嵌入围场B和D之间的墙基中——可能是某种供奉物。&lt;/p&gt;
+
+&lt;h2&gt;不是孤例：一个文明网络&lt;/h2&gt;
+&lt;p&gt;2019年启动的「石丘（Taş Tepeler）」项目揭示了一个更大的图景：哥贝克力石阵并非孤立现象，而是一个&lt;strong&gt;覆盖200公里&lt;/strong&gt;的新石器时代仪式遗址网络的一部分。35公里外的姐妹遗址&lt;strong&gt;卡拉罕石阵（Karahan Tepe）&lt;/strong&gt;同样壮观——考古学家发现了一个11000年前直接从基岩中凿出的&lt;strong&gt;圆形剧场状结构&lt;/strong&gt;，墙上雕刻着人头，地面上坐着人形石像。2025年还发现了T形柱上的&lt;strong&gt;第一张人脸&lt;/strong&gt;雕刻。&lt;/p&gt;
+
+&lt;p&gt;其他遗址如Sayburç发现了一块非凡的叙事浮雕：一个人形站在两只豹子之间。这些共享的象征系统表明，1万多年前的尚勒乌尔法平原上存在一个&lt;strong&gt;复杂的互动社区网络&lt;/strong&gt;，它们拥有共同的符号语言、举行集体仪式和盛宴，并在没有文字、没有金属、没有轮子的情况下，建造了人类最早的纪念性建筑。&lt;/p&gt;
+
+&lt;p&gt;我们曾以为文明始于农田。哥贝克力石阵告诉我们：它始于信仰。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://whc.unesco.org/en/list/1572/"&gt;https://whc.unesco.org/en/list/1572/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"&gt;https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.dailysabah.com/life/history/gobeklitepe-excavation-season-concludes-with-major-discoveries"&gt;https://www.dailysabah.com/life/history/gobeklitepe-excavation-season-concludes-with-major-discoveries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sci.news/archaeology/gobekli-tepes-carvings-solar-calendar-13156.html"&gt;https://www.sci.news/archaeology/gobekli-tepes-carvings-solar-calendar-13156.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1ca63845-b4d6-58dc-8108-029532565805</guid>
+      <pubDate>Wed, 08 Apr 2026 08:06:30 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://whc.unesco.org/en/list/1572/</link>
+      <enclosure url="https://whc.unesco.org/uploads/thumbs/site_1572_0001-1200-630-20230116120057.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 24亿年前，一群微生物制造了地球史上第一场大灭绝——凶器是氧气</title>
+      <description>&lt;h2&gt;大氧化事件：当生命的废气成为致命毒药&lt;/h2&gt;
+&lt;p&gt;今天你每呼吸一口空气，其中约21%是氧气。你的每一个细胞都依赖它燃烧葡萄糖来获取能量。但在地球最初20多亿年的历史中，大气层里&lt;strong&gt;几乎没有游离氧&lt;/strong&gt;。空气充满了甲烷、二氧化碳和氮气。生命是&lt;strong&gt;厌氧的&lt;/strong&gt;——氧气对当时的绝大多数生物来说，是毒药。&lt;/p&gt;
+
+&lt;p&gt;然后，大约&lt;strong&gt;24.6亿到20.6亿年前&lt;/strong&gt;的古元古代，一场持续了约四亿年的灾难缓缓展开。它的名字叫&lt;strong&gt;大氧化事件（Great Oxidation Event, GOE）&lt;/strong&gt;，也被称为「氧气大灾难」。它可能是地球历史上最具讽刺性的事件：&lt;strong&gt;第一场大规模灭绝，凶手是生命自己的代谢废物。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;凶手：蓝藻&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;蓝藻（Cyanobacteria）&lt;/strong&gt;是进化出&lt;strong&gt;含氧光合作用&lt;/strong&gt;的第一种生物——利用阳光劈开水分子，释放氧气作为副产物。它们可能早在35亿年前就已经出现，但有一个谜：为什么大气中的氧气要等到十多亿年后才开始积累？&lt;/p&gt;
+
+&lt;p&gt;答案在于&lt;strong&gt;氧气槽&lt;/strong&gt;。地球早期的海洋中溶解了大量二价铁（Fe²⁺），它们像海绵一样吸收蓝藻产生的氧气，形成不溶的铁氧化物沉入海底——这就是地质记录中那些壮观的&lt;strong&gt;条带状铁建造（BIF）&lt;/strong&gt;的来源。火山气体也在消耗氧气。直到所有这些「氧气海绵」被饱和之后，游离氧才终于开始在大气中积累。&lt;/p&gt;
+
+&lt;p&gt;2025年冈山大学Ratnayake团队的新研究揭示了另一个延迟因素：早期海洋中高浓度的&lt;strong&gt;镍和尿素&lt;/strong&gt;实际上抑制了蓝藻的繁殖。随着这些物质浓度自然下降，蓝藻终于可以大规模爆发。&lt;/p&gt;
+
+&lt;h2&gt;毒死了80%的生物圈&lt;/h2&gt;
+&lt;p&gt;对于当时统治地球的厌氧生物来说，氧气是一种强氧化剂，会摧毁有机分子甚至遗传物质。硫酸盐矿物的同位素数据表明，GOE导致&lt;strong&gt;生物圈规模缩减超过80%&lt;/strong&gt;。无数厌氧细菌和古菌物种灭绝，幸存者被驱赶到深海沉积物、热泉和其他缺氧角落——它们的后代至今仍生活在那里。&lt;/p&gt;
+
+&lt;p&gt;地质证据确凿：GOE之前的岩石中含有黄铁矿和沥青铀矿的碎屑颗粒——这些矿物只在缺氧条件下稳定，遇到氧气会迅速氧化。它们在约24亿年后的地质记录中消失。与此同时，红色砂岩（表面覆盖赤铁矿）开始首次出现。硫同位素的质量无关分馏（S-MIF）信号——只有在没有臭氧层时紫外线才能产生——也在这个时期消失，标志着臭氧层的形成。&lt;/p&gt;
+
+&lt;h2&gt;冻住整个星球&lt;/h2&gt;
+&lt;p&gt;GOE的后果不止于大灭绝。新产生的氧气将大气中的甲烷氧化为二氧化碳。问题是：甲烷的温室效应大约是二氧化碳的&lt;strong&gt;80倍&lt;/strong&gt;。早期地球的宜居气温&lt;strong&gt;依赖甲烷温室效应&lt;/strong&gt;，因为年轻的太阳比现在暗约20-25%（「暗弱年轻太阳」问题）。&lt;/p&gt;
+
+&lt;p&gt;摧毁了甲烷保温层后，地球温度急剧下降，引发了&lt;strong&gt;休伦冰期（Huronian glaciation，约24.5-22.2亿年前）&lt;/strong&gt;——可能是地球历史上最严重的冰川事件之一，冰盖可能覆盖到赤道附近。一群微生物制造的代谢废物，先是毒死了大部分生物圈，然后冻住了整个星球。&lt;/p&gt;
+
+&lt;h2&gt;「无聊的十亿年」——但并非真的无聊&lt;/h2&gt;
+&lt;p&gt;GOE之后，地球进入了&lt;strong&gt;「无聊的十亿年」（Boring Billion，18-8亿年前）&lt;/strong&gt;——氧气水平在GOE高峰后实际上回落了，构造稳定，气候平静，进化看似停滞。但在这漫长的沉寂中，关键的进化步骤悄然发生：&lt;strong&gt;真核细胞&lt;/strong&gt;出现（可能通过内共生），&lt;strong&gt;多细胞生命&lt;/strong&gt;和&lt;strong&gt;有性生殖&lt;/strong&gt;诞生。海洋处于硫化、低氧的「Canfield Ocean」状态，铁和钼的溶解度降低，限制了固氮作用，创造了有利于原核生物的营养匮乏环境。&lt;/p&gt;
+
+&lt;p&gt;直到约8-5亿年前的&lt;strong&gt;新元古代氧化事件&lt;/strong&gt;才将氧气提升到足以支撑复杂动物生命的水平——寒武纪生命大爆发的舞台就此搭好。&lt;/p&gt;
+
+&lt;h2&gt;地球史上最大的讽刺&lt;/h2&gt;
+&lt;p&gt;大氧化事件也许是行星历史上&lt;strong&gt;意外后果&lt;/strong&gt;的最深刻案例。简单的单细胞生物产生了一种代谢废物，这种废物：(1) 毒死了现有生物圈80%以上的生命；(2) 摧毁了大气温室层，引发了地球史上最严重的冰川事件之一；(3) 几乎将整个星球灭菌。然而，正是这场灾难使得此后所有呼吸氧气的生物成为可能——包括你。地球上第一场大污染事件是生物制造的，而它既是最惨烈的生态灾难，也是复杂生命最关键的前提条件。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Great_Oxidation_Event"&gt;https://en.wikipedia.org/wiki/Great_Oxidation_Event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s43247-025-02576-8"&gt;https://www.nature.com/articles/s43247-025-02576-8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pnas.org/doi/10.1073/pnas.2003090117"&gt;https://www.pnas.org/doi/10.1073/pnas.2003090117&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://asm.org/articles/2022/february/the-great-oxidation-event-how-cyanobacteria-change"&gt;https://asm.org/articles/2022/february/the-great-oxidation-event-how-cyanobacteria-change&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0147a745-1038-599d-bc79-e5f5e3604b30</guid>
+      <pubDate>Wed, 08 Apr 2026 08:07:21 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Great_Oxidation_Event</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Precambrian_Evolution_of_Life.png/1280px-Precambrian_Evolution_of_Life.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 一面普通的镜子治好了一条不存在的手臂的疼痛——这揭示了大脑最深的秘密</title>
+      <description>&lt;h2&gt;幻肢痛与镜像疗法：当大脑被自己的身体地图欺骗&lt;/h2&gt;
+&lt;p&gt;想象一下：你的左手被截肢了。手术很成功，伤口愈合了。但你仍然&lt;strong&gt;感觉到那只手&lt;/strong&gt;——它在那里，紧握成拳，指甲深深掐进掌心，疼痛剧烈而真实。你试图张开它，但它纹丝不动。一只不存在的手，以一种你无法控制的姿势，日日夜夜折磨着你。&lt;/p&gt;
+
+&lt;p&gt;这就是&lt;strong&gt;幻肢痛（Phantom Limb Pain, PLP）&lt;/strong&gt;。根据2020年PLOS ONE的系统综述和荟萃分析，约&lt;strong&gt;64%&lt;/strong&gt;的截肢者会经历幻肢痛，其他估计更高——截肢后一年内高达82%，终生患病率76-87%。它不是「心理作用」——它是大脑的一个深层故障。&lt;/p&gt;
+
+&lt;h2&gt;一个内战军医首先描述了它&lt;/h2&gt;
+&lt;p&gt;美国南北战争期间约有&lt;strong&gt;30000例截肢手术&lt;/strong&gt;。1863年，军方在费城建立了特纳巷医院（Turner's Lane Hospital），专门治疗神经系统疾病，由&lt;strong&gt;西拉斯·韦尔·米切尔（Silas Weir Mitchell）&lt;/strong&gt;主持。他的患者描述了不存在的肢体上的生动感觉——甚至疼痛。1866年，米切尔以匿名小说的形式在《大西洋月刊》发表了四肢截肢者George Dedlow的故事，许多读者以为是真事，纷纷向医院捐款。1871年，他正式创造了&lt;strong&gt;「幻肢（phantom limb）」&lt;/strong&gt;这个术语。&lt;/p&gt;
+
+&lt;h2&gt;拉马钱德兰的顿悟：大脑的身体地图会重组&lt;/h2&gt;
+&lt;p&gt;一个多世纪后，加州大学圣迭戈分校的神经科学家&lt;strong&gt;V.S.拉马钱德兰（V.S. Ramachandran）&lt;/strong&gt;揭开了幻肢痛的机制。关键线索来自&lt;strong&gt;彭菲尔德（Wilder Penfield）&lt;/strong&gt;在20世纪50年代绘制的大脑「体感小人（homunculus）」——通过在清醒的手术患者大脑上施加电刺激，他发现大脑表面有一张身体地图，每个身体部位对应一个特定的皮层区域。&lt;/p&gt;
+
+&lt;p&gt;拉马钱德兰发现，截肢后，失去输入的皮层区域不会闲置——&lt;strong&gt;相邻区域会入侵它&lt;/strong&gt;。在彭菲尔德的小人图中，手的区域与&lt;strong&gt;脸&lt;/strong&gt;的区域紧邻。因此，截去手的患者在被触碰脸部时，会感到幻手上的感觉。脑磁图证实了这种「皮层重映射」。这种信号错配被认为是幻肢痛的关键机制——大脑在寻找已不存在的手的信号，却接收到错乱的输入。&lt;/p&gt;
+
+&lt;h2&gt;一个25美元的镜子盒&lt;/h2&gt;
+&lt;p&gt;1996年，拉马钱德兰发明了&lt;strong&gt;镜子盒（mirror box）&lt;/strong&gt;。装置极其简单：一个盒子中间竖一面镜子，完好的手放一侧，残肢放另一侧。患者看向镜子，看到完好手臂的镜像出现在幻肢应在的位置——产生两条完好手臂的视觉错觉。&lt;/p&gt;
+
+&lt;p&gt;拉马钱德兰提出了&lt;strong&gt;「习得性瘫痪」&lt;/strong&gt;假说：许多患者在截肢前，受伤的肢体就已经瘫痪了（如神经损伤）。每次试图移动都得到「动不了」的视觉和本体感觉反馈。通过赫布学习（「一起激发的神经元连接在一起」），大脑「学会了」这条肢体永远瘫痪。截肢后，这种习得性瘫痪在幻肢中延续。&lt;/p&gt;
+
+&lt;p&gt;镜子盒恢复了运动指令对应的视觉反馈——大脑&lt;strong&gt;看到&lt;/strong&gt;手在动，打破了习得性瘫痪的循环。患者报告幻手「松开了」痉挛的姿势，一些人的幻肢痛完全消失。fMRI研究显示，疼痛减轻与&lt;strong&gt;初级体感皮层功能性皮层重组的逆转&lt;/strong&gt;相关，疼痛平均减少约&lt;strong&gt;27%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2&gt;从截肢到中风：镜子疗法的扩展&lt;/h2&gt;
+&lt;p&gt;1999年，拉马钱德兰和Eric Altschuler将镜像疗法扩展到&lt;strong&gt;中风后偏瘫&lt;/strong&gt;患者。Cochrane综述发现它能有效改善上肢运动功能、日常生活能力和疼痛。&lt;/p&gt;
+
+&lt;h2&gt;2025年：镜子进入虚拟现实&lt;/h2&gt;
+&lt;p&gt;镜子盒的原理已进入数字时代。2025年2月，一项使用&lt;strong&gt;微软HoloLens 2&lt;/strong&gt;和肌电传感器的「PhantomAR」系统在8名截肢者中实现了&lt;strong&gt;58%的疼痛减少&lt;/strong&gt;。同月，一项跨7个国家、81名参与者的双盲随机对照试验显示，扩展现实（XR）幻肢运动训练使疼痛降低了&lt;strong&gt;64-68%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2&gt;它真正揭示的东西&lt;/h2&gt;
+&lt;p&gt;幻肢痛的故事最终不只关于疼痛治疗。它揭示了一个深刻的事实：&lt;strong&gt;你感知到的身体不是你的物理身体，而是大脑主动构建的一个模型&lt;/strong&gt;。你的身体所有权感、你手指的位置感、甚至你对疼痛的体验——都是神经计算的产物。一面25美元的镜子就能欺骗这个系统，这件事本身就是对笛卡尔身心二元论最直观的反驳。&lt;/p&gt;
+
+&lt;p&gt;拉马钱德兰曾说，镜子盒创造了一种「虚拟现实」——一个非物质的身体副本，看起来、感觉起来都像幻肢。三十年后，真正的VR终于追上了他当年用一面镜子实现的东西。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Mirror_therapy"&gt;https://en.wikipedia.org/wiki/Mirror_therapy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4904333/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC4904333/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11796004/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11796004/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://journals.lww.com/pain/fulltext/2025/03000/extended_reality_used_in_the_treatment_of_phantom.13.aspx"&gt;https://journals.lww.com/pain/fulltext/2025/03000/extended_reality_used_in_the_treatment_of_phantom.13.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6b366979-6ea3-5c10-9de4-09e4c5994260</guid>
+      <pubDate>Wed, 08 Apr 2026 08:08:11 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Mirror_therapy</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg/1280px-US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

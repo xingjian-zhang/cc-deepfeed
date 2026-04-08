@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Tue, 07 Apr 2026 08:05:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:03:42 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -526,6 +526,88 @@
       <pubDate>Tue, 07 Apr 2026 08:05:31 +0000</pubDate>
       <category>fitness-science</category>
       <link>https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full</link>
+    </item>
+    <item>
+      <title>💪 冰浴恢复的代价：8项RCT元分析证实冷水浸泡削弱增肌效果约40%</title>
+      <description>&lt;p&gt;健身圈一直流传着「练完泡冰浴恢复更快」的说法，不少职业运动员也这么做。但如果你的目标是增肌，这可能是个坏主意。Piñero等人2024年发表在&lt;em&gt;European Journal of Sport Science&lt;/em&gt;上的系统综述与贝叶斯元分析，首次专门量化了训后冷水浸泡（Cold Water Immersion, CWI）对肌肥大的影响——结论相当扎眼。&lt;/p&gt;
+
+&lt;p&gt;研究纳入了8项随机对照试验，持续4-12周，对比「纯力量训练」和「力量训练+训后冰浴」两组。典型冰浴方案：10-15°C水温，泡10-20分钟，训练结束后立即执行。结果显示：纯力量训练组的肌肥大效应量为SMD = 0.36（明确的小到中等增长），而加了冰浴的组只有SMD = 0.14（接近可忽略）。两组直接对比的效应量为cSMD = -0.22，意味着&lt;strong&gt;冰浴大约削弱了40%的肌肉增长幅度&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;机制上，冰浴通过降低局部温度来抑制训后的急性炎症反应。问题在于：这个炎症反应恰恰是肌肉修复和生长的信号通路。冷水浸泡会抑制活性氧（ROS）的产生，进而下调MAPK通路的激活，最终减少肌肉蛋白合成。说白了，冰浴把你想要消除的「炎症」和你需要保留的「生长信号」一起灭掉了。&lt;/p&gt;
+
+&lt;p&gt;那冰浴完全没用吗？不是。2025年发表在&lt;em&gt;Frontiers in Physiology&lt;/em&gt;上的一项网络元分析纳入了55项RCT，发现冰浴在缓解延迟性肌肉酸痛（DOMS）方面效果显著——10-15分钟、11-15°C方案对DOMS的效应量高达SMD = -1.45。如果泡更冷的水（5-10°C，10-15分钟），对恢复跳跃能力和降低肌酸激酶水平效果最好。&lt;/p&gt;
+
+&lt;p&gt;实际操作建议很简单：比赛日或纯恢复日可以泡冰浴，尤其是需要短期内连续上场的运动员；但&lt;strong&gt;增肌训练后别泡&lt;/strong&gt;。如果你一周练4次力量、周末踢一场球，冰浴留给周末。这不是「冰浴无用论」，而是工具要用对场景。研究质量方面需要指出，8项纳入研究中有5项被评为质量较差（SMART-LD均分9.8/20），且缺乏女性受试者数据，后续需要更大规模、更长周期的试验来确认。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1525726/full"&gt;https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1525726/full&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">35e6e678-7d3c-52bc-8004-dd1097a7ba18</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:51 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11235606/</link>
+    </item>
+    <item>
+      <title>💪 咖啡因对力量训练的增益被精确量化：低摄入者效果是老手的四倍</title>
+      <description>&lt;p&gt;大多数人知道练前来杯咖啡能提神，但咖啡因到底能让你的杠铃速度快多少、功率大多少？2025年10月发表在&lt;em&gt;Frontiers in Nutrition&lt;/em&gt;的系统综述与元分析给出了迄今最精确的答案。&lt;/p&gt;
+
+&lt;p&gt;研究团队检索了五个数据库，最终纳入12项交叉设计研究、共230名受试者，所有研究只使用纯咖啡因（排除含多种成分的复合氮泵），对比安慰剂。结果显示：咖啡因让平均动作速度提升的效应量为SMD = 0.42，平均功率输出的效应量为SMD = 0.21。两个指标都达到了统计学显著。&lt;/p&gt;
+
+&lt;p&gt;但最有意思的不是平均值，而是亚组分析揭示的巨大差异：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;性别差异&lt;/strong&gt;：男性获益更大（SMD 0.56 vs 女性0.22），可能与体重、肌肉量和咖啡因代谢速率有关&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;习惯性摄入量&lt;/strong&gt;：每天咖啡因摄入低于3 mg/kg的人，效应量高达0.87；而日常高摄入者只有0.21——差了四倍。这直接说明耐受性会显著削弱咖啡因的急性运动增益&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;剂量效应&lt;/strong&gt;：高剂量（&gt;6 mg/kg）效应量0.78，中等剂量约0.31。不过高剂量也意味着更大的胃肠不适和睡眠干扰风险&lt;/li&gt;
+&lt;li&gt;负重强度不影响效果：无论轻负荷还是大重量，咖啡因都能提升速度和功率&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;结合此前已有的知识——Ganson 2025年N=912的研究发现含咖啡因氮泵使短睡眠风险翻倍——一个实际策略逐渐清晰：如果你想最大化咖啡因的训练增益，关键不是「喝更多」，而是「平时少喝」。工作日用无咖啡因饮品替代，把咖啡因留给重要训练日，3-6 mg/kg在训前60分钟摄入。一个70公斤的人大约对应210-420 mg，相当于2-4杯浓缩咖啡。&lt;/p&gt;
+
+&lt;p&gt;另外一个容易忽略的点：这项元分析只研究了纯咖啡因，而市面上大多数氮泵是复合配方。&lt;em&gt;Nutrients&lt;/em&gt;上2026年的一篇综述指出，咖啡中的绿原酸等多酚类物质可能会改变咖啡因的吸收动力学，导致咖啡和纯咖啡因胶囊的运动增益并不完全等价。实验室结论能否直接平移到你的美式咖啡上，还需要更多头对头比较。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1686283/full"&gt;https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1686283/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12537405/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12537405/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20251009/Caffeine-boosts-muscular-power-and-speed-in-resistance-training.aspx"&gt;https://www.news-medical.net/news/20251009/Caffeine-boosts-muscular-power-and-speed-in-resistance-training.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">db03de35-b5cd-5e6e-8d24-57a9a3980b4d</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:16 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1686283/full</link>
+    </item>
+    <item>
+      <title>💪 快举还是慢举？14项研究的元分析结论：节奏对增肌几乎没影响</title>
+      <description>&lt;p&gt;「离心阶段慢放4秒」「向心阶段爆发性加速」——关于动作节奏（repetition tempo）的建议在健身社区从未统一过。Schoenfeld团队联合Enes、Piñero等人在2025年&lt;em&gt;Journal of Strength and Conditioning Research&lt;/em&gt;上发表了一项贝叶斯元分析，终于给这场争论画了个句号：节奏对肌肥大的影响，基本可以忽略不计。&lt;/p&gt;
+
+&lt;p&gt;研究纳入14项对照试验，分别操纵了向心阶段和/或离心阶段的动作速度。「快节奏」组的平均单次动作约1秒，「慢节奏」组约3.5秒。组内分析显示两种节奏都能有效促进肌肥大——快节奏组效应量0.43，慢节奏组0.34——但两组直接对比的差异仅为0.09，95%可信区间跨零（-0.04到0.22）。达到「至少小幅度」差异的概率只有45%，达到中等差异的概率接近0。&lt;/p&gt;
+
+&lt;p&gt;亚组分析进一步细化了这个结论：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;单独看离心阶段（慢放vs快放）：差异微不足道&lt;/li&gt;
+&lt;li&gt;单独看向心阶段（爆发vs匀速）：差异同样微小&lt;/li&gt;
+&lt;li&gt;上肢vs下肢：没有一致性差异&lt;/li&gt;
+&lt;li&gt;是否练到力竭：不改变结论&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;唯一的例外来自极端情况。同一时期发表的另一项元分析（&lt;em&gt;Journal of Sports Sciences&lt;/em&gt;, 2025）发现，极慢节奏——单次动作超过10秒——确实会&lt;strong&gt;损害&lt;/strong&gt;肌肥大效果。原因很可能是极慢节奏大幅降低了机械张力：你被迫用更轻的重量，而机械张力才是肌肥大的核心驱动力。&lt;/p&gt;
+
+&lt;p&gt;这对训练实践意味着什么？你可以放下对「3-1-2节奏」「4-0-1节奏」这类精确处方的执念了。只要避免故意拖到每次动作超过10秒，你选择自然感觉舒服的速度就行。把省下的注意力放在更重要的变量上——渐进超负荷、足够的训练量、每组接近力竭。&lt;/p&gt;
+
+&lt;p&gt;这也再次印证了近年运动科学的一个大趋势：很多训练者花大量精力优化的「细节变量」——节奏、组间休息精确到秒、特定角度——在元分析层面的效应量往往小到可以忽略。真正解释增肌差异的，仍然是那些「无聊」的基本面：总训练量、力竭邻近度、蛋白质摄入和睡眠。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.researchgate.net/publication/395267527_How_slow_should_you_go_A_systematic_review_with_meta-analysis_of_the_effect_of_resistance_training_repetition_tempo_on_muscle_hypertrophy"&gt;https://www.researchgate.net/publication/395267527_How_slow_should_you_go_A_systematic_review_with_meta-analysis_of_the_effect_of_resistance_training_repetition_tempo_on_muscle_hypertrophy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2535198"&gt;https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2535198&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">335f9672-6f7b-5d6b-9c38-4d3548fb4d1f</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:42 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.researchgate.net/publication/395267527_How_slow_should_you_go_A_systematic_review_with_meta-analysis_of_the_effect_of_resistance_training_repetition_tempo_on_muscle_hypertrophy</link>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>职业成长与实习攻略</title>
     <description>Per-topic feed: 职业成长与实习攻略</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml</link>
-    <lastBuildDate>Tue, 07 Apr 2026 08:03:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:03:15 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" type="application/rss+xml" />
@@ -483,6 +483,74 @@
       <category>career-growth</category>
       <link>https://www.imf.org/en/publications/staff-discussion-notes/issues/2026/01/09/bridging-skill-gaps-for-the-future-new-jobs-creation-in-the-ai-age-572136</link>
       <enclosure url="https://www.imf.org/-/media/project/imf/shared/images/news/twitter-seal.png?h=405&amp;amp;iar=0&amp;amp;w=400" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 Goldman Sachs 首次量化 AI 就业替代效应：每月净减 1.6 万岗位，Z 世代首当其冲</title>
+      <description>&lt;p&gt;Goldman Sachs 经济学家 4 月 6 日发布的研究报告，首次用回归分析量化了 AI 在美国劳动力市场的「替代效应」与「增强效应」的净值——过去一年，AI 自动化每月消灭约 25,000 个岗位，同时因生产力提升创造约 9,000 个岗位，&lt;strong&gt;净损失约 16,000 个/月&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;更扎眼的是人群分布。报告结合 IMF 互补性指数（Complementarity Index）和标准 AI 暴露评分发现，AI 替代风险高的职业中，入门级与资深员工的薪资差距被拉大了约 3.3 个百分点。保险理赔员、催收员、数据录入、客服、法律助理、账单管理——这些岗位的共同特征是流程化、可编码，而恰恰是 Z 世代（30 岁以下）最集中的就业区间。这与此前 Stanford/ADP 研究（22-25 岁年轻人在 AI 高暴露岗位就业量下降 13%）和 Dallas Fed 的经验溢价（Experience Premium）发现高度吻合：经验不足的年轻人缺乏"判断力缓冲"，替代弹性最大。&lt;/p&gt;
+
+&lt;p&gt;Goldman 自己也承认了方法论局限：模型未充分捕捉 AI 基础设施投资（数据中心、电力系统、芯片制造）带来的间接招聘潮，也未计入生产力降本导致市场扩张后的增量劳动需求。换句话说，16,000 是上限估计而非精确数字。Morgan Stanley 同期的分析也指向类似方向，但规模估计更保守。&lt;/p&gt;
+
+&lt;p&gt;一个有趣的反转是：Z 世代也是 AI 原生（AI-native）比例最高的群体。他们用 LLM 做 side project、用 AI Agent 写代码的能力远超 40 岁以上的中层管理者。问题不在于年轻人"不行"，而在于劳动力市场的信号传导太慢——企业裁掉一个初级岗位的决策速度，远快于同一批年轻人通过 AI 技能重新找到位置的速度。这是一个&lt;strong&gt;时间差问题&lt;/strong&gt;，不是能力问题。对于正在找工作的新毕业生来说，最实际的策略或许是：先别急着投"传统"岗位，去找那些明确要求 AI 协作能力的新型角色——LinkedIn 数据显示这类岗位年增速最快，且薪资溢价高达 56%。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/06/ai-tech-displacement-effect-gen-z-16000-jobs-per-month/"&gt;https://fortune.com/2026/04/06/ai-tech-displacement-effect-gen-z-16000-jobs-per-month/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://allwork.space/2026/04/ai-eliminating-16000-u-s-jobs-every-month-goldman-sachs-reports/"&gt;https://allwork.space/2026/04/ai-eliminating-16000-u-s-jobs-every-month-goldman-sachs-reports/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.dallasfed.org/research/economics/2026/0224"&gt;https://www.dallasfed.org/research/economics/2026/0224&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">95691f1e-43f3-5c34-a9a8-ce20b9bfa7f6</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:22 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://fortune.com/2026/04/06/ai-tech-displacement-effect-gen-z-16000-jobs-per-month/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2232745660-e1775493720290.jpg?resize=1200,600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 Vermont 劳动委员会推翻州长 RTO 令：必须复职离职员工、赔偿损失</title>
+      <description>&lt;p&gt;4 月 1 日，Vermont 州劳动关系委员会（Labor Relations Board）裁定 Phil Scott 州长的三天到岗令违法，命令州政府立即撤销该政策、&lt;strong&gt;复职因该政策离职的员工&lt;/strong&gt;，并赔偿所有相关经济损失。这是 2026 年 RTO（Return to Office）浪潮中第一个被准司法机构正式推翻的案例。&lt;/p&gt;
+
+&lt;p&gt;委员会的核心认定是：州政府在推行 RTO 时"拒绝善意协商（refused to bargain in good faith），并干涉了雇员行使权利"。简单说，Scott 政府跳过了与 Vermont 州雇员工会（VSEA）的集体谈判程序，单方面把远程工作从"默认选项"改成了"每周三天到岗"。Scott 本人称裁决"令人失望但并不意外"，已向 Vermont 最高法院提起上诉。&lt;/p&gt;
+
+&lt;p&gt;这个判例的意义超出 Vermont 一州。此前我们追踪了 Home Depot、Ubisoft（4 月 6 日起五天到岗）、Stellantis、PNC Financial 等企业的 RTO 收紧动态，几乎所有案例中企业都是单方面宣布——因为私营部门雇员多数没有集体谈判权。Vermont 的判决揭示了一个结构性区别：&lt;strong&gt;在有工会保护的环境中，RTO 不是管理层单方面说了算的事&lt;/strong&gt;。联邦层面，IRS 的远程办公比例从 65% 暴跌到 25%（Trump 行政令后），但联邦雇员工会是否会效仿 Vermont 提出类似诉讼，目前还是未知数。&lt;/p&gt;
+
+&lt;p&gt;对个人的启示很直接：如果你在一个有工会或集体谈判协议的组织工作，RTO 政策的改变可能需要走协商程序，不能直接执行。而如果你在私营科技公司——大概率只能接受或走人。这也解释了为什么越来越多科技工程师开始关注工会化运动（Alphabet Workers Union、Apple retail organizing）。不管你对工会持什么态度，Vermont 的判决证明了一件事：谈判权在 RTO 语境下是有实际效力的。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.vermontpublic.org/local-news/2026-04-01/labor-board-overturns-return-to-office-mandate-state-employees"&gt;https://www.vermontpublic.org/local-news/2026-04-01/labor-board-overturns-return-to-office-mandate-state-employees&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://vtdigger.org/2026/04/01/vermont-labor-board-says-state-must-end-return-to-office-requirement-for-employees/"&gt;https://vtdigger.org/2026/04/01/vermont-labor-board-says-state-must-end-return-to-office-requirement-for-employees/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/national/2026/04/02/vermont-state-workers-return-to-office-labor-board/8e34a7ec-2eb4-11f1-aac2-f56b5ccad184_story.html"&gt;https://www.washingtonpost.com/national/2026/04/02/vermont-state-workers-return-to-office-labor-board/8e34a7ec-2eb4-11f1-aac2-f56b5ccad184_story.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0d29d261-b970-53cc-ab99-e7df778ad6b6</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:47 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://www.vermontpublic.org/local-news/2026-04-01/labor-board-overturns-return-to-office-mandate-state-employees</link>
+      <enclosure url="https://npr.brightspotcdn.com/dims4/default/5aeb35c/2147483647/strip/true/crop/6000x3150+0+850/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2F6b%2F060e8ffe4fe3a8a9d228b1665de0%2Fstate-office-complext-waterbury-exterior-2-vermontpublic-zmcdonald-20260226.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 内部转岗正在成为最被低估的职业加速器：留下来比跳槽更聪明？</title>
+      <description>&lt;p&gt;外面的市场寒冬人人都看得到，但很少有人反过来想：如果跳槽变难了，留在公司内部横向移动会不会反而是更好的选择？最新数据给出了一些意外答案。&lt;/p&gt;
+
+&lt;p&gt;根据多家 HR 科技公司（impress.ai、TalentGuard、Joveo）汇总的 2026 年数据，&lt;strong&gt;内部流动性高的组织，员工平均在职年限为 5.4 年，低流动性组织仅 2.9 年&lt;/strong&gt;。Microsoft 通过推行技能导向（skills-based）的内部转岗体系，内部流动率提升了 27%。LinkedIn 的 2026 Workforce Report 也指出，内部转岗员工的两年留存率比外部招聘高出 20 个百分点。&lt;/p&gt;
+
+&lt;p&gt;但现实中，很多人被"隐形天花板"卡住了。最常见的障碍不是能力不足，而是&lt;strong&gt;人才囤积（Talent Hoarding）&lt;/strong&gt;——你的直属经理 KPI 压力大，高绩效下属是核心产出来源，"放人"意味着自己团队产能下降。于是经理会有意无意地不通知你内部机会、不鼓励你申请、甚至暗示"现在不是好时机"。2026 年多项 HR 研究都把 talent hoarding 列为内部流动的头号障碍。&lt;/p&gt;
+
+&lt;p&gt;怎么破局？几个实操建议。第一，主动跟 HR Business Partner（HRBP）建立关系，而不只跟直属经理谈职业发展——HRBP 能看到跨部门的岗位需求，视角比你经理宽得多。第二，在公司内部的技能平台（Workday、Gloat、Phenom 等）上保持 profile 更新，很多公司已经在用 AI 匹配引擎自动推荐内部候选人。第三，做"可见的跨组贡献"——参与跨部门项目、内部黑客松、技术评审——这些是你建立跨团队声誉的最直接方式。&lt;/p&gt;
+
+&lt;p&gt;裁员潮下，外部市场的信号噪音比极高。与其在 LinkedIn 上海投 200 份简历，不如花同样的精力搞清楚自己公司内部正在扩张的部门是哪些、需要什么技能、谁在招人。很多时候，最好的下一个工作就在你现在的工牌能刷进去的楼层里。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://impress.ai/blogs/why-internal-mobility-is-the-future-of-talent-retention-the-2026-definitive-guide/"&gt;https://impress.ai/blogs/why-internal-mobility-is-the-future-of-talent-retention-the-2026-definitive-guide/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.talentguard.com/blog/ten-ways-to-boost-internal-talent-mobility"&gt;https://www.talentguard.com/blog/ten-ways-to-boost-internal-talent-mobility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/"&gt;https://relyworkforce.com/why-internal-mobility-is-becoming-a-retention-lifeline-in-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4469f436-ce04-565d-b9ae-ac5499f121b5</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:15 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://impress.ai/blogs/why-internal-mobility-is-the-future-of-talent-retention-the-2026-definitive-guide/</link>
+      <enclosure url="https://impress.ai/wp-content/uploads/2026/03/Gemini_Generated_Image_g3bxwyg3bxwyg3bx-1024x572.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

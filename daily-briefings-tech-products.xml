@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Tue, 07 Apr 2026 08:04:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:04:29 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -610,6 +610,107 @@
       <category>tech-products</category>
       <link>https://www.nintendolife.com/news/2026/03/nintendos-lawsuit-against-the-u-s-government-is-automatically-paused</link>
       <enclosure url="https://images.nintendolife.com/eb7b9e0e73a84/switch-2.large.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Intel 花 142 亿美元回购爱尔兰 Fab 34：从「生存模式」到主动出击</title>
+      <description>&lt;p&gt;Intel 4月1日宣布以 142 亿美元回购 Apollo Global Management 持有的爱尔兰 Fab 34 工厂 49% 股权，交易预计 2026 年 Q2 完成。2024 年 Intel 资金紧张时以 112 亿美元出售了这笔股权——当时 Pat Gelsinger 还在任，Intel 需要现金维持全球扩产计划。不到两年后溢价 30 亿回购，等于向市场宣告：最艰难的时期过去了。消息公布当天 Intel 股价跳涨超过 9%。&lt;/p&gt;
+
+&lt;p&gt;这笔交易将用手头现金加约 65 亿美元新发债务完成。CFO David Zinsner 表示，当初的合资结构"为 Intel 提供了关键灵活性，让我们加速推进了多项核心计划"，而现在回购是为了让资本结构重新对齐长期战略。Apollo 合伙人 Jamshid Ehsani 把这笔买卖定义为"双赢"——对 Apollo 来说，不到两年净赚 30 亿，年化回报率约 12%，确实不亏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fab 34 的战略位置是关键。&lt;/strong&gt;这座位于爱尔兰 Leixlip 的工厂是 Intel 4 和 Intel 3 制程的主力产线，生产 Core Ultra 笔记本处理器和 Xeon 6 服务器芯片。前者是 Panther Lake 笔记本的核心——上周评测数据亮眼，HP OmniBook Ultra 14 Intel 版售价 2339 美元。后者支撑着 Intel 在数据中心市场对抗 AMD EPYC 和 AWS Graviton 的最后防线。完全控股意味着 Intel 在产能调配、工艺迭代、客户优先级排序上不再受合资伙伴约束，生产节奏完全自主。&lt;/p&gt;
+
+&lt;p&gt;放在更大的棋盘上看，这和正在进行的 TSMC-Intel 代工合资谈判形成了有趣的对照。一边花大价钱收回欧洲自有工厂的完全控制权，一边又在谈判把美国晶圆厂的运营权交给 TSMC（TSMC 拟持 20% 股权）。Intel 的策略轮廓越来越清晰：&lt;strong&gt;欧洲产能自己握紧，美国产能借 TSMC 品牌和技术声誉吸引第三方客户。&lt;/strong&gt;两条腿走路，IDM 2.0 的故事终于有了具体形状。&lt;/p&gt;
+
+&lt;p&gt;142 亿美元不是小数字，但对比 Intel 手上约 210 亿美元现金储备和 CHIPS Act 补贴管道里的资金，融资压力可控。真正的考验在后面：Fab 34 能不能顺利过渡到 Intel 18A 制程，以及 TSMC 合资能不能在今年内签约落地。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://newsroom.intel.com/corporate/intel-repurchase-49-equity-interest-ireland-fab-joint-venture"&gt;https://newsroom.intel.com/corporate/intel-repurchase-49-equity-interest-ireland-fab-joint-venture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/04/01/intel-stock-ireland-stake-chip-factory.html"&gt;https://www.cnbc.com/2026/04/01/intel-stock-ireland-stake-chip-factory.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.trendforce.com/news/2026/04/02/news-intel-moves-to-reclaim-ireland-fab-from-apollo-in-14-2b-buyback-amid-cpu-demand-strength/"&gt;https://www.trendforce.com/news/2026/04/02/news-intel-moves-to-reclaim-ireland-fab-from-apollo-in-14-2b-buyback-amid-cpu-demand-strength/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7198693a-d14a-5fa7-b3fd-764b22407a8b</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:56 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://newsroom.intel.com/corporate/intel-repurchase-49-equity-interest-ireland-fab-joint-venture</link>
+      <enclosure url="https://newsroom.intel.com/wp-content/uploads/2026/03/IntelApollo-1-1200x675.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 任天堂首次实行数字版低于实体版定价：Switch 2 游戏价格体系正式分裂</title>
+      <description>&lt;p&gt;任天堂上周确认，从5月21日发售的《Yoshi and the Mysterious Book》开始，Switch 2 第一方游戏将实行数字版与实体版差异定价：数字版 59.99 美元，实体版 69.99 美元，相差 10 美元。任天堂官方声明措辞很讲究——"实体游戏并没有涨价"，数字版是"定价低于实体版"。但数学不会骗人：上一代 Switch 第一方大作统一定价 59.99 美元，现在实体版贵了 10 块。&lt;/p&gt;
+
+&lt;p&gt;已确认采用这套定价的游戏包括《Fire Emblem: Fortune's Wheel》《Splatoon Raiders》《The Duskbloods》，以及 2027 年的《Pokemon Winds &amp; Waves》。这不是个别案例，而是任天堂对整个 Switch 2 第一方阵容的系统性调整。&lt;/p&gt;
+
+&lt;p&gt;任天堂给出的理由是"实体游戏的制造和物流成本"。这话半真半假。卡带成本确实在涨——Switch 2 游戏卡容量从 32GB 翻倍到 64GB，NAND 闪存价格在 2026 年初因 AI 需求上涨了 15-20%。但 10 美元的差价显然超出了纯成本差异，更像是在引导用户转向利润更高的数字渠道。&lt;/p&gt;
+
+&lt;p&gt;关税也是绕不开的背景。虽然 Switch 2 主机本身维持 449 美元不变，但配件已经开始涨价：Pro Controller 从 79.99 涨到 84.99 美元，Joy-Con 2 套装从 89.99 涨到 94.99，涨幅约 5-6%。&lt;strong&gt;任天堂明确把原因归于"全球关税和不稳定的市场环境"。&lt;/strong&gt;分析机构 Niko Partners 预测 Switch 2 主机本身在 2026 年内也会涨价，可能到 499 美元。前任天堂美国销售主管也公开表示涨价"不可避免"。&lt;/p&gt;
+
+&lt;p&gt;对玩家来说，数字版便宜 10 美元的策略短期看像是好事，但长期意味着二手市场进一步萎缩、玩家对游戏的"所有权"继续被稀释。这套定价会不会成为行业惯例？索尼和微软都在看。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cbr.com/nintendo-switch-2-price-change-may-2026/"&gt;https://www.cbr.com/nintendo-switch-2-price-change-may-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gamedeveloper.com/business/nintendo-raises-price-of-switch-hardware-and-switch-2-accessories-in-the-u-s-"&gt;https://www.gamedeveloper.com/business/nintendo-raises-price-of-switch-hardware-and-switch-2-accessories-in-the-u-s-&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable"&gt;https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2b2a1d8a-8033-5c26-a337-0c45ba402dbb</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:21 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.cbr.com/nintendo-switch-2-price-change-may-2026/</link>
+      <enclosure url="https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/11/nintendo-switch-2-and-link-from-legend-of-zelda.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Galaxy S26 Ultra 四月更新后续：PWM 调光重新校准，但三星确认不会加入防闪烁模式</title>
+      <description>&lt;p&gt;跟进此前报道的 Galaxy S26 Ultra 显示争议。四月安全更新（S948BXXS2AZCL，556MB）已在韩国、印度、欧洲和美国全面推送。官方 changelog 一如既往只写"安全改进"，但 Android Authority 和 Sammy Fans 的跟踪测试发现了两个重要变化。&lt;/p&gt;
+
+&lt;p&gt;首先是 &lt;strong&gt;3x 长焦相机的模糊问题确实被修复了&lt;/strong&gt;。三星社区版主此前已暗示"最新版本解决了模糊问题"，现在多个第三方测试确认 3x 镜头的对焦一致性明显改善，尤其在低光环境下。三星为什么不在 changelog 里提这个？可能是不想公开承认旗舰机的相机软件有 bug——毕竟 S26 Ultra 发售才两个月。&lt;/p&gt;
+
+&lt;p&gt;第二个变化更微妙：固件对 PWM（Pulse Width Modulation）调光周期进行了重新校准。根据 Adam Lobo 的技术拆解，这次更新改变了 Snapdragon 8 Elite Gen 5 与显示驱动之间的通信方式，试图平滑像素间的过渡，减轻低亮度下的频闪感。三星官方对此的措辞是"像素级光散射优化"。实测来看，部分用户反馈低亮度下的不适感有所缓解，但远未根治。&lt;/p&gt;
+
+&lt;p&gt;核心问题在于 Privacy Nano-Layer 这项硬件创新的物理限制。这层纳米膜将可视角度收窄到 30 度来防偷窥，但代价是峰值亮度比 S25 Ultra 低了约 300 nit，而且改变了像素排列方式，导致文字渲染出现明显的彩色边缘（color fringing）。这些都不是软件能修的。更让敏感用户失望的是，三星已经正式确认 S26 系列不会提供防闪烁或类 DC 调光选项，会一直使用 PWM 亮度控制。&lt;/p&gt;
+
+&lt;p&gt;三星当前给出的临时建议是：关闭自适应亮度，手动把滑块保持在 40% 以上。这对一台起售价 1299 美元的旗舰来说，算不上体面的答案。欧美用户的长期反馈仍在持续收集中，如果投诉量达到一定规模，不排除三星在下半年的 S26 FE 上回退这项技术。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.androidauthority.com/samsung-galaxy-s26-april-2026-update-3655017/"&gt;https://www.androidauthority.com/samsung-galaxy-s26-april-2026-update-3655017/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://adamlobo.tv/samsung-galaxy-s26-ultra-display-flicker-fix/"&gt;https://adamlobo.tv/samsung-galaxy-s26-ultra-display-flicker-fix/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sammyfans.com/2026/04/06/samsung-galaxy-s26-april-2026-update/"&gt;https://www.sammyfans.com/2026/04/06/samsung-galaxy-s26-april-2026-update/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidauthority.com/samsung-galaxy-s26-lack-eye-care-pwm-dimming-3647933/"&gt;https://www.androidauthority.com/samsung-galaxy-s26-lack-eye-care-pwm-dimming-3647933/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6a189e49-ebac-5437-b519-229fc0bafadb</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:48 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.androidauthority.com/samsung-galaxy-s26-april-2026-update-3655017/</link>
+      <enclosure url="https://www.androidauthority.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-purple.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 iPhone 18 Pro 泄露汇总：屏下 Face ID、可变光圈、卫星上网，12 项升级逐条解读</title>
+      <description>&lt;p&gt;距离苹果秋季发布会还有约五个月，iPhone 18 Pro 的规格拼图已经基本成型。MacRumors 整理了目前泄露和供应链消息指向的 12 项升级，其中几个值得重点关注。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/Hfe5EY62g1a3fqkUdEXJAIfpvr4=/1600x0/article-new/2026/02/iPhone-18-Pro-Deep-Red-Feature.jpg" alt="iPhone 18 Pro deep red render" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;泄露渲染图中的 iPhone 18 Pro 深红配色&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;屏下 Face ID 终于来了。&lt;/strong&gt;根据多个供应链消息源，Face ID 的泛光照明器将被移到屏幕下方，直接结果是 Dynamic Island 缩小约 35%。这是 iPhone X 以来最大的正面设计变化。苹果为此准备了好几年——去年 iPhone 17 Pro 上的 Dynamic Island 已经微调过尺寸，但这次是质变。更小的 Island 意味着状态栏能显示更多信息，视觉干扰也大幅减少。&lt;/p&gt;
+
+&lt;p&gt;相机方面，主摄 48MP Fusion 镜头首次加入&lt;strong&gt;可变光圈&lt;/strong&gt;。和三星在 S24 Ultra 上的两档切换不同，苹果的方案据称支持连续调节，让用户在拍摄时直接控制进光量和景深——这本来是专业相机的功能。配合简化后的 Camera Control 按钮（取消了滑动手势，只保留按压），拍摄操作链条变得更直觉。&lt;/p&gt;
+
+&lt;p&gt;芯片层面，A20 Pro 采用台积电第一代 2nm 制程。这是苹果连续两年在旗舰芯片上踩中台积电最新节点。C2 调制解调器是苹果自研基带的第三代产品——从 iPhone 16 的 C1 到 iPhone 17 的 C1X，再到 C2——每一代都在补齐高通的功能差距。C2 最引人注目的能力是支持卫星上网：不只是发求救短信，而是真正的网页浏览。如果落地效果好，这将是 iPhone 在偏远地区和灾难场景中的巨大差异化优势。&lt;/p&gt;
+
+&lt;p&gt;其他值得一提的细节：深红配色取代了去年的沙漠钛色成为年度限定色；Pro Max 型号会略微加厚以塞进更大电池；背面采用陶瓷护盾材质配合磨砂玻璃外观，为 MagSafe 充电优化。网络芯片也升级到 N2，支持 Wi-Fi 7、蓝牙 6.0 和 Thread。&lt;/p&gt;
+
+&lt;p&gt;屏幕尺寸不变（6.3/6.9 英寸），采用升级版 LTPO+ 面板进一步降低功耗。整体看，iPhone 18 Pro 不是颠覆性迭代，但屏下 Face ID + 可变光圈 + 卫星上网这三张牌叠在一起，够苹果讲一个"Pro 真正变 Pro"的故事。再结合关税压力下苹果是否会调整定价策略（上一篇提到印度空运和关税成本），今年秋天的发布会悬念不少。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/04/03/iphone-18-pro-new-features/"&gt;https://www.macrumors.com/2026/04/03/iphone-18-pro-new-features/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.macworld.com/article/2953687/iphone-18-pro-2026-release-date-design-specs-rumors.html"&gt;https://www.macworld.com/article/2953687/iphone-18-pro-2026-release-date-design-specs-rumors.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techtimes.com/articles/315685/20260406/new-iphone-18-pro-leaks-release-date-specs-features-colors-whats-coming-2026.htm"&gt;https://www.techtimes.com/articles/315685/20260406/new-iphone-18-pro-leaks-release-date-specs-features-colors-whats-coming-2026.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3c4c26cb-e11b-5178-86e9-8ae5d4ba3a5c</guid>
+      <pubDate>Wed, 08 Apr 2026 08:04:29 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.macrumors.com/2026/04/03/iphone-18-pro-new-features/</link>
+      <enclosure url="https://images.macrumors.com/t/Hfe5EY62g1a3fqkUdEXJAIfpvr4=/1600x0/article-new/2026/02/iPhone-18-Pro-Deep-Red-Feature.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

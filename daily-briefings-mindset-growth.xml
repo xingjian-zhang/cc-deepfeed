@@ -4,7 +4,7 @@
     <title>心智成长与思维模型</title>
     <description>Per-topic feed: 心智成长与思维模型</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml</link>
-    <lastBuildDate>Tue, 07 Apr 2026 08:03:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:03:30 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml" type="application/rss+xml" />
@@ -550,6 +550,86 @@
       <category>mindset-growth</category>
       <link>https://www.cell.com/cell/fulltext/S0092-8674(25)00681-6</link>
       <enclosure url="https://www.nih.gov/sites/default/files/2025-09/20250909-brain-signals_0.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 中文脑机接口首次实时解码：394个音节、71%准确率，声调语言的特殊挑战</title>
+      <description>&lt;p&gt;此前我们跟踪了 Willett 团队在 Cell 上发表的内心独白解码研究（attempted speech vs inner speech 的隐私保护方案）。那项工作主要针对英语。现在，一个来自中国科学院上海微系统与信息技术研究所的团队在 &lt;em&gt;Science Advances&lt;/em&gt; 上报告了一个更具挑战性的目标：&lt;strong&gt;实时解码普通话&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;为什么普通话更难？英语 BCI 主要解码音素序列，而中文是声调语言——同一个音节 "ma" 配上四个声调就是四个完全不同的字。研究团队的方案是把约 400 个带声调音节作为中间解码单元，用一个双流解码器（dual-stream decoder）同时估计音节和声调的概率，再与三元语言模型融合，选出最合理的句子。&lt;/p&gt;
+
+&lt;p&gt;硬件方面，他们在一位 43 岁癫痫患者的皮层上放置了 256 通道高密度皮层脑电图（ECoG）阵列，提取 70-170 Hz 高频 gamma 信号，以 50 毫秒滑动窗口进行特征提取。仅经过 9 天训练，系统就达到了单字朗读任务中 &lt;strong&gt;71.2% 的音节识别准确率&lt;/strong&gt;，实时句子解码的字符准确率达到 73.1%（语言模型辅助后），通信速度为每分钟 49.6 个汉字——已经接近日常对话节奏。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是应用演示：参与者成功用脑信号控制了数字化身、与大语言模型对话、甚至操控了一只灵巧机械手。这把 BCI 从"打字替代品"推向了更广泛的人机交互场景。&lt;/p&gt;
+
+&lt;p&gt;回到心智成长的视角：这项工作揭示了&lt;strong&gt;声调编码在运动皮层中有独立的神经表征&lt;/strong&gt;。对于理解语言产出的脑机制，这是一个重要线索——声调不是"附加在音节上的修饰"，而是由专门的神经通路并行处理的独立维度。这也意味着，未来中文 BCI 的提升空间可能在于整合更高阶语言区（如颞中回、额下回）的语义和句法信息，弥补目前纯运动皮层解码的局限。&lt;/p&gt;
+
+&lt;p&gt;局限很明显：单一被试、临床场景、ECoG 阵列需要开颅手术。但作为声调语言 BCI 的首个实时解码概念验证，这一步走得扎实。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.science.org/doi/10.1126/sciadv.adz9968"&gt;Science Advances 原文&lt;/a&gt; ｜ &lt;a href="https://medicalxpress.com/news/2025-11/brain-interface-decodes-mandarin-neural.html"&gt;Medical Xpress 报道&lt;/a&gt; ｜ &lt;a href="https://hyper.ai/en/stories/250cbfa1cf3a73be817f070e2fdb506d"&gt;HyperAI 详解&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/sciadv.adz9968"&gt;https://www.science.org/doi/10.1126/sciadv.adz9968&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medicalxpress.com/news/2025-11/brain-interface-decodes-mandarin-neural.html"&gt;https://medicalxpress.com/news/2025-11/brain-interface-decodes-mandarin-neural.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hyper.ai/en/stories/250cbfa1cf3a73be817f070e2fdb506d"&gt;https://hyper.ai/en/stories/250cbfa1cf3a73be817f070e2fdb506d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">daf60f3f-5f96-5c4e-8f3b-0ac13c5f1d94</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:38 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.science.org/doi/10.1126/sciadv.adz9968</link>
+    </item>
+    <item>
+      <title>🧠 认知卸载不是偷懒：2026年两项研究揭示「外包记忆」的元认知机制</title>
+      <description>&lt;p&gt;你把电话号码存进手机而不是记在脑子里——这是认知卸载（Cognitive Offloading）。2011 年 Sparrow 等人在 Science 上提出的「谷歌效应」（Google Effect）曾引发恐慌：互联网是不是在让我们变笨？十几年后，2026 年的两项新研究给出了更精细的答案：&lt;strong&gt;关键不在于你卸不卸载，而在于你知不知道自己在卸载。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;第一项来自 Guo &amp; Ye 发表在 &lt;em&gt;Humanities and Social Sciences Communications&lt;/em&gt; 上的综述。他们把元认知拆成两层：元认知信念（metacognitive beliefs）是稳定的自我认知——"我记性不好"；元认知体验（metacognitive experiences）是动态的任务感受——"这个清单太长了我记不住"。两者的交互决定了你会不会主动使用外部工具。此前的研究已经证明，人的卸载决策受信心水平驱动——对自己记忆越没信心，越倾向设提醒。Guo &amp; Ye 的贡献在于把这个机制整合进一个统一的元认知框架，并指出干预的杠杆点：与其阻止人用工具，不如校准他们的元认知信念，让人准确判断什么该记、什么该存。&lt;/p&gt;
+
+&lt;p&gt;第二项来自 Jian Wang 发表在 &lt;em&gt;Frontiers in Psychology&lt;/em&gt;（2026年3月）上的实证研究。他用协方差结构方程模型分析了中国大学生群体的数据，发现认知卸载与批判性思维、任务坚持度、学习深度之间并非直接关系——中间有一个完全中介变量：&lt;strong&gt;认知自我效能感&lt;/strong&gt;（cognitive self-efficacy）。换句话说，使用数字工具本身不会让你学得更深或更浅，但如果使用工具的过程增强了你对自己认知能力的信心，你就会投入更多精力去设定目标、选择策略、监控自己的学习过程。反之，如果只是被动依赖——打开 ChatGPT 直接抄答案——效能感不升反降，学习深度也会打折扣。&lt;/p&gt;
+
+&lt;p&gt;这两项研究合在一起，给出了一个实用建议：面对 AI 工具爆发的时代，与其争论"该不该用"，不如问自己三个问题——我知道自己为什么在用它吗？我能判断它给我的答案是否靠谱吗？用完之后我对这个领域的理解加深了还是变浅了？这三个问题本身就是元认知训练。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.nature.com/articles/s41599-026-06621-5"&gt;Guo &amp; Ye, Humanities and Social Sciences Communications 2026&lt;/a&gt; ｜ &lt;a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1781101/full"&gt;Wang, Frontiers in Psychology 2026&lt;/a&gt; ｜ &lt;a href="https://www.science.org/doi/10.1126/science.1207745"&gt;Sparrow et al., Science 2011 (Google Effect 原文)&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41599-026-06621-5"&gt;https://www.nature.com/articles/s41599-026-06621-5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1781101/full"&gt;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1781101/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/science.1207745"&gt;https://www.science.org/doi/10.1126/science.1207745&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9027ae52-a92e-50cd-b07c-a602c6157bb4</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:03 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/s41599-026-06621-5</link>
+    </item>
+    <item>
+      <title>🧠 AI 正在侵蚀团队心理安全感 —— Edmondson 与 3M 首席科学家的联合诊断</title>
+      <description>&lt;p&gt;Amy Edmondson 是心理安全感（Psychological Safety）概念的奠基人。今年 2 月她与 3M 首席科学家 Jayshree Seth 在 &lt;em&gt;Harvard Business Review&lt;/em&gt; 联合发文，指出一个被低估的问题：AI 工具的引入正在悄悄瓦解团队的心理安全感。&lt;/p&gt;
+
+&lt;p&gt;核心概念是&lt;strong&gt;信任模糊性&lt;/strong&gt;（trust ambiguity）。团队成员觉得"应该信任 AI"，但内心其实并不信任，而且这种不信任说不出口。人犯错，团队可以讨论、消化、从中学习；AI 犯错，团队却往往陷入沉默——因为没人确定是自己用错了、提示词写差了、还是模型本身有问题。Edmondson 把这叫做"归因不确定性"（attribution uncertainty）：协作性的复盘机制在黑箱面前失效了。&lt;/p&gt;
+
+&lt;p&gt;更麻烦的是"人-AI 监管悖论"（human-AI oversight paradox）。随着使用时间变长，团队对 AI 的能力产生过度信心，认知上把责任卸载给了机器。结果是：即使专业人士发现 AI 输出有问题，他们也越来越不愿意挑战它。这跟此前我们讨论过的认知卸载问题一脉相承——工具可以增强能力，但如果元认知监控缺位，增强就变成了替代。&lt;/p&gt;
+
+&lt;p&gt;文章给出五条具体建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;把 AI 部署定义为"持续实验"而非"执行落地"，降低犯错的心理成本&lt;/li&gt;
+&lt;li&gt;奖励质疑 AI 的人——让"发现 AI 的错"成为好判断力的标志，而非团队不和谐的信号&lt;/li&gt;
+&lt;li&gt;领导者主动示范"我也看不懂这个输出"，打破全知全能的假象&lt;/li&gt;
+&lt;li&gt;区分"聪明的 AI 失败"（有控制地试探边界）和"低级的 AI 失败"（本可避免的错误）&lt;/li&gt;
+&lt;li&gt;保留纯人类讨论空间，专门聊团队动态、角色边界、情绪状态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一个关键指标值得注意：她们认为 AI 整合的成功不应该只看 AI 的性能指标，还要看团队整体效能、学习速度、以及团队同时调用人类智慧和人工智能的能力。说白了，如果 AI 让产出提高了 20% 但团队沟通质量下降了 30%，那就是亏的。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://hbr.org/2026/02/how-to-foster-psychological-safety-when-ai-erodes-trust-on-your-team"&gt;Edmondson &amp; Seth, HBR 2026.02&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://hbr.org/2026/02/how-to-foster-psychological-safety-when-ai-erodes-trust-on-your-team"&gt;https://hbr.org/2026/02/how-to-foster-psychological-safety-when-ai-erodes-trust-on-your-team&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bf1b639c-5a6c-5f6c-804b-6e79542a963b</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:30 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://hbr.org/2026/02/how-to-foster-psychological-safety-when-ai-erodes-trust-on-your-team</link>
     </item>
   </channel>
 </rss>

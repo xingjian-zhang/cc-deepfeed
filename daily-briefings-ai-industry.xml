@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Tue, 07 Apr 2026 08:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:03:07 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -607,6 +607,93 @@
       <category>ai-industry</category>
       <link>https://www.tomshardware.com/tech-industry/nvidia-has-received-pos-from-chinese-customers</link>
       <enclosure url="https://cdn.mos.cms.futurecdn.net/DimDToQWWU7bkBdu9vFGoQ-1600-80.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 OpenAI 发布13页政策蓝图：机器人税、全民AI财富基金、四天工作制——IPO前的政治投名状</title>
+      <description>&lt;p&gt;4月6日，OpenAI 发布了一份题为&lt;strong&gt;《智能时代的产业政策：以人为先的构想》&lt;/strong&gt;（Industrial Policy for the Intelligence Age: Ideas to keep people first）的13页政策文件。在这个时间点发布并非巧合——国会正准备审议AI立法，OpenAI自己的IPO也在Q4冲刺阶段。&lt;/p&gt;
+
+&lt;p&gt;文件核心提出五项政策建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;机器人税&lt;/strong&gt;（Robot Tax）——对自动化劳动征税，将税基从工资转向资本利得和企业所得。这个概念最早由比尔·盖茨2017年提出，思路很直接：机器取代了谁，就替谁交税。&lt;/li&gt;
+&lt;li&gt;全民AI财富基金——由AI企业注资、政府管理的公共基金，参照阿拉斯加永久基金（Alaska Permanent Fund）模式，将AI产业收益直接分配给全体公民。&lt;/li&gt;
+&lt;li&gt;32小时工作制试点——OpenAI 称之为「效率红利」，AI带来的生产力提升理论上允许每周少干一天。&lt;/li&gt;
+&lt;li&gt;自动安全触发机制——预设失业率阈值，一旦突破自动启动工资保险和补贴，稳定后自动退出。&lt;/li&gt;
+&lt;li&gt;失控AI应急预案——政府层面的协调协议，针对「无法轻易召回的危险自主AI系统」。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Altman 把当前时刻比作进步时代和新政，说得很坦率：「有些变化是好的，有些是坏的，但我们确实感到紧迫感。」与此同时，风投大佬 Vinod Khosla 公开呼应，提出取消年收入10万美元以下美国人的联邦所得税，靠统一资本利得税率来填补缺口。Khosla 估算「40%的资本利得税来自年收入超过1000万的人」，数学上说得通。&lt;/p&gt;
+
+&lt;p&gt;背景数据让这些提案显得不那么空想：AI目前每月淘汰约16000个美国岗位，Khosla预测到2030年80%的工作可被自动化，超过1亿美国人年收入不到10万美元。&lt;/p&gt;
+
+&lt;p&gt;批评者的看法也值得听：这些提案是「为监管虚无主义提供掩护的公关作品」。一家即将上市、估值3000亿美元级别的公司，主动提出给自己加税——这要么是真的有社会责任感，要么是精心计算过的政治投资。考虑到OpenAI Q4 IPO需要国会不设路障，这两种解释可能并不矛盾。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/'&gt;TechCrunch&lt;/a&gt; · &lt;a href='https://thenextweb.com/news/openai-robot-taxes-wealth-fund-superintelligence-policy'&gt;The Next Web&lt;/a&gt; · &lt;a href='https://fortune.com/2026/04/07/sam-altman-vinod-khosla-openai-tax-code-american-income-tax-100k/'&gt;Fortune&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"&gt;https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thenextweb.com/news/openai-robot-taxes-wealth-fund-superintelligence-policy"&gt;https://thenextweb.com/news/openai-robot-taxes-wealth-fund-superintelligence-policy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/07/sam-altman-vinod-khosla-openai-tax-code-american-income-tax-100k/"&gt;https://fortune.com/2026/04/07/sam-altman-vinod-khosla-openai-tax-code-american-income-tax-100k/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">82f1fad6-2cb9-5825-a062-83edc582ae4f</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:15 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2226496284.jpg?w=1024" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 DeepSeek V4-Lite 已上线内测：128K上下文召回率从45%飙至94%，华为芯片全栈优化初见成效</title>
+      <description>&lt;p&gt;跟进此前关于 DeepSeek V4 发布时间线的报道。4月初，V4-Lite（约200B参数的轻量版）已经悄悄上线API节点进行开发者内测，首批性能数据相当亮眼：推理速度提升30%，128K token上下文召回率从此前的45%跃升至&lt;strong&gt;94%&lt;/strong&gt;。这个召回率指标意味着长文本理解能力出现了质的飞跃——之前DeepSeek在长上下文任务上一直是短板。&lt;/p&gt;
+
+&lt;p&gt;技术上，V4-Lite采用了与V4相同的MODEL1架构：分层KV缓存（Tiered KV Cache）实现40%显存压缩，稀疏FP8解码带来1.8倍推理加速。完整版V4是1万亿参数的MoE模型，每个token仅激活约37B参数，配合Engram条件记忆系统和100万token上下文窗口。API定价维持在/usr/bin/zsh.28/百万输入token、.10/百万输出token——比同级闭源模型便宜约27倍。&lt;/p&gt;
+
+&lt;p&gt;时间线上，完整版V4预计4月下半月正式发布。路透社4月4日确认，V4将运行在华为Ascend 950PR芯片上，这使其成为&lt;strong&gt;首个为中国国产半导体底层优化的前沿AI模型&lt;/strong&gt;。梁文锋团队同期提交了两篇论文，一篇关于Engram记忆架构，一篇关于MoE稀疏激活的效率优化。&lt;/p&gt;
+
+&lt;p&gt;竞争格局正在因为V4的定价策略变得微妙。OpenAI GPT-5.5 Spud的预期定价是-25/百万token，V4的/usr/bin/zsh.30是它的五十到八十分之一。即便性能上V4可能不及Spud，这种价格差也足以改变企业客户的计算方式——特别是对于高频调用的Agent场景。&lt;/p&gt;
+
+&lt;p&gt;华为芯片这条线值得持续关注。如果V4在Ascend上的表现足够好，中国AI产业就有了一条不依赖Nvidia的完整技术栈。目前字节、阿里、腾讯已获批合计采购40万颗H200，但同时也在大量采购华为Ascend。两条路同时走的策略，说明中国科技公司自己也不确定哪条路更靠谱——但至少DeepSeek V4正在证明，国产芯片这条路走得通。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://findskill.ai/blog/deepseek-v4-release-date-specs/'&gt;FindSkill.ai&lt;/a&gt; · &lt;a href='https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026'&gt;NxCode&lt;/a&gt; · &lt;a href='https://dataconomy.com/2026/03/16/deepseek-v4-and-tencents-new-hunyuan-model-to-launch-in-april/'&gt;Dataconomy&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://findskill.ai/blog/deepseek-v4-release-date-specs/"&gt;https://findskill.ai/blog/deepseek-v4-release-date-specs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026"&gt;https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dataconomy.com/2026/03/16/deepseek-v4-and-tencents-new-hunyuan-model-to-launch-in-april/"&gt;https://dataconomy.com/2026/03/16/deepseek-v4-and-tencents-new-hunyuan-model-to-launch-in-april/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9d322a93-feed-577a-b386-c56528cc5f35</guid>
+      <pubDate>Wed, 08 Apr 2026 08:02:40 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://findskill.ai/blog/deepseek-v4-release-date-specs/</link>
+      <enclosure url="https://findskill.ai/images/og-image.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Colossus 2 本月扩容至1.5GW，Grok 5 训练进入收尾阶段——xAI用算力堆出的豪赌</title>
+      <description>&lt;p&gt;跟进此前关于 Grok 5 跳票和 Colossus 2 超级集群的报道。Elon Musk 确认，Colossus 2 将于4月完成从1GW到&lt;strong&gt;1.5GW&lt;/strong&gt;的扩容升级。这个功率数字需要语境才能理解：整个纽约市的平均用电负荷约11GW，一座1.5GW的单体AI训练设施已经相当于一座中等城市的电力消耗。&lt;/p&gt;
+
+&lt;p&gt;扩容时间点与 Grok 5 的训练收尾阶段吻合。目前的信息拼图是：Grok 5 的主要训练跑已经完成或接近完成，额外算力将用于微调和推理扩展。模型规格方面，6万亿参数的MoE架构基本确认——大约是GPT-4估算参数量的6倍，DeepSeek V4的6倍。&lt;/p&gt;
+
+&lt;p&gt;但规模不等于性能。xAI当前的旗舰是3月3日发布的Grok 4.20 Beta 2，核心卖点是多Agent架构：4个专业化Agent协同的标准版，以及16个Agent的Heavy版。这种多Agent架构被普遍视为通往Grok 5的技术跳板——先在小模型上验证协调机制，再在大模型上释放完整能力。&lt;/p&gt;
+
+&lt;p&gt;时间线已经从最初的Q1滑到了Q2。2月25日Grok官方X账号更新，将最可能的发布窗口指向Q2 2026，也就是4-6月之间。考虑到4月在做集群扩容，5-6月发布是更现实的预期。&lt;/p&gt;
+
+&lt;p&gt;xAI的处境有些尴尬。SpaceX 4月1日秘密递交了S-1，目标1.75万亿估值6月Nasdaq上市。xAI被裹入SpaceX的估值叙事中，但Grok 5还没发布。如果SpaceX 6月路演时Grok 5还没亮相，投资者会质疑xAI这部分到底值多少。反过来，如果Grok 5赶在路演前发布且表现惊艳，就是最好的上市催化剂。&lt;/p&gt;
+
+&lt;p&gt;另一个悬而未决的问题是Terafab——Musk此前提出的Tesla-SpaceX-xAI联合2nm芯片厂，预算200-250亿美元。可行性争议很大，但如果xAI真的要长期维持1.5GW级别的训练集群，自研芯片的动机只会越来越强。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.nxcode.io/resources/news/grok-5-release-date-latest-news-2026'&gt;NxCode&lt;/a&gt; · &lt;a href='https://www.adwaitx.com/grok-5-release-date-colossus-2-training/'&gt;AdwaitX&lt;/a&gt; · &lt;a href='https://neuriflux.com/en/blog/grok-review-2026'&gt;Neuriflux&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nxcode.io/resources/news/grok-5-release-date-latest-news-2026"&gt;https://www.nxcode.io/resources/news/grok-5-release-date-latest-news-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.adwaitx.com/grok-5-release-date-colossus-2-training/"&gt;https://www.adwaitx.com/grok-5-release-date-colossus-2-training/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://neuriflux.com/en/blog/grok-review-2026"&gt;https://neuriflux.com/en/blog/grok-review-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">486ed585-1a88-51c3-936a-e3f7746c6831</guid>
+      <pubDate>Wed, 08 Apr 2026 08:03:07 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.nxcode.io/resources/news/grok-5-release-date-latest-news-2026</link>
+      <enclosure url="https://www.nxcode.io/images/news/grok-5-release-date-update-2026.svg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
