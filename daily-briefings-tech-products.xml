@@ -4,7 +4,7 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Wed, 08 Apr 2026 08:04:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 08:05:17 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
@@ -711,6 +711,103 @@
       <category>tech-products</category>
       <link>https://www.macrumors.com/2026/04/03/iphone-18-pro-new-features/</link>
       <enclosure url="https://images.macrumors.com/t/Hfe5EY62g1a3fqkUdEXJAIfpvr4=/1600x0/article-new/2026/02/iPhone-18-Pro-Deep-Red-Feature.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Snapdragon X2 Elite Extreme 首批评测出炉：单核首超 M4 Max，但笔记本做工拖了后腿</title>
+      <description>&lt;p&gt;4月7日评测解禁后，搭载 Qualcomm Snapdragon X2 Elite Extreme 的首批笔记本评测密集上线。最受关注的 ASUS Zenbook A16（1699 美元起）和 HP OmniBook Ultra 14 G2（2049 美元起）成为主要测试平台。从数据看，X2 Elite Extreme 在 CPU 性能上确实实现了对 Apple M4 的全面反超——&lt;strong&gt;Geekbench 6 单核 4072 分、多核 23611 分&lt;/strong&gt;，单核超过 M4 Max（约 3913 分），多核也压过 M4 Pro。这是 Windows on Arm 阵营第一次在单核性能上追平甚至反超苹果旗舰芯片。&lt;/p&gt;
+
+&lt;p&gt;效率方面同样亮眼。和上一代 X1 Elite 相比，X2 在同等负载下功耗降低约 43%，ASUS Zenbook A14（990g）官方标称视频播放续航 35 小时。NPU 方面，80 TOPS 的 Hexagon NPU 在 Geekbench AI 中拿到 83624 分，是 Intel Core Ultra 7 265U 的约 6 倍。这对 Copilot+ PC 的本地 AI 功能来说是实打实的硬件基础。&lt;/p&gt;
+
+&lt;p&gt;不过，评测者给出的整体评分并不算高。Tom's Hardware 给 Zenbook A16 打了 &lt;strong&gt;3.5/5 星&lt;/strong&gt;，主要扣分项是：机身用料廉价感明显、施压下有弹性变形，续航反而不如预期（"lesser battery life than competitors"），以及 Windows on Arm 的应用兼容性仍有零星问题。HotHardware 给芯片本身 4.5/5 星，但也指出笔记本整机体验和芯片性能之间存在落差。&lt;/p&gt;
+
+&lt;p&gt;一个值得玩味的对比是：Zenbook A16 顶配 X2 Elite Extreme + 48GB RAM 售价 1599 美元，而搭载 Intel Core Ultra Series 3（Panther Lake）的 HP OmniBook Ultra 14 G2 Intel 版要 2339 美元。价格差了 740 美元，但 Intel 版在 GPU 和部分持续负载场景下仍然更稳。选 Arm 省钱省电，选 Intel 买兼容性和 GPU 性能——这个取舍在 2026 年 Q2 依然存在。&lt;/p&gt;
+
+&lt;p&gt;GPU 是 X2 最明显的短板。WCCFTech 的对比测试显示，M4 Pro 在 GPU 合成跑分中领先 X2 Elite Extreme 最多 45%。对于需要图形加速的创意工作者来说，macOS 阵营目前没有对手。Qualcomm 下半年的 X2 Plus（10 核和 6 核两个版本）将面向 700 美元价位笔记本，届时才是 Arm Windows 真正走量的时候。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tomsguide.com/computing/cpus/i-benchmarked-the-snapdragon-x2-elite-extreme-heres-how-it-compares-to-apple-m4-intel-core-ultra-9-and-more"&gt;https://www.tomsguide.com/computing/cpus/i-benchmarked-the-snapdragon-x2-elite-extreme-heres-how-it-compares-to-apple-m4-intel-core-ultra-9-and-more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/laptops/ultrabooks-ultraportables/asus-zenbook-a16-snapdragon-x2-elite-review"&gt;https://www.tomshardware.com/laptops/ultrabooks-ultraportables/asus-zenbook-a16-snapdragon-x2-elite-review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hothardware.com/reviews/qualcomm-snapdragon-x2-elite-benchmarks-and-performance"&gt;https://hothardware.com/reviews/qualcomm-snapdragon-x2-elite-benchmarks-and-performance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://wccftech.com/snapdragon-x2-elite-extreme-loses-to-m5-pro-and-m5-max-in-gpu-tests/"&gt;https://wccftech.com/snapdragon-x2-elite-extreme-loses-to-m5-pro-and-m5-max-in-gpu-tests/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">59f92869-c785-5394-a1ad-dbf1d32546ef</guid>
+      <pubDate>Thu, 09 Apr 2026 08:03:52 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.tomsguide.com/computing/cpus/i-benchmarked-the-snapdragon-x2-elite-extreme-heres-how-it-compares-to-apple-m4-intel-core-ultra-9-and-more</link>
+      <enclosure url="https://hothardware.com/contentimages/Article/3596/content/16x9_2133x1200_highres-asus-zenbook-a16-snapdragon-x2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Google 悄悄上线离线 AI 听写应用 Eloquent：Gemma 驱动、免费无上限、先发 iOS</title>
+      <description>&lt;p&gt;4月6日，Google 在 iOS App Store 上线了一款名为 &lt;strong&gt;AI Edge Eloquent&lt;/strong&gt; 的听写应用，没有任何预热或新闻稿。这款应用的核心卖点简单粗暴：完全离线的语音转文字，由 Gemma 模型驱动，免费且没有使用上限。&lt;/p&gt;
+
+&lt;p&gt;Eloquent 的工作流程很直觉——点击录音，说完后按暂停，应用自动剔除"嗯""啊"等填充词，然后把整理好的文本复制到剪贴板。除了基础转写，它还内置四个文本变换工具："要点提取"把长段转成摘要列表；"正式"把口语化表达改成书面语；"精简"和"扩写"分别缩短和展开内容。应用还会显示字数和每分钟语速这类统计数据。&lt;/p&gt;
+
+&lt;p&gt;隐私控制是 Eloquent 的另一个重点。用户可以开启"完全离线"模式，所有语音数据留在本地，不上传任何服务器。如果选择开启云端模式，则调用 Gemini 模型进行更精细的文本润色。对于医疗、法律等对数据敏感的行业从业者来说，一个真正可离线运行、不收费的听写工具相当有吸引力。&lt;/p&gt;
+
+&lt;p&gt;自定义词典功能值得注意。用户可以手动添加专业术语和人名来提高识别准确率。更聪明的是，登录 Google 账号后，Eloquent 能从用户近期 Gmail 邮件中自动导入高频词汇，省去手动配置的麻烦。&lt;/p&gt;
+
+&lt;p&gt;一个有趣的策略选择：Eloquent 首发 iOS 而非 Android。App Store 列表中提到了 Android 版，但至今还没在 Google Play 上架。TechCrunch 将这款应用定位为 Wispr Flow 的竞品——后者是 2025 年以来颇受欢迎的 AI 听写工具，主打 macOS 和 iOS。Google 选择先在对手的主场发布，说明它对 Gemma 端侧推理能力的信心。从更大的图景看，Eloquent 属于 Google "AI Edge" 产品线，和此前的 AI Edge Gallery 一样强调端侧 AI 体验。2026 年以来，本地优先（local-first）的 AI 应用正在成为一个明确趋势，Eloquent 是 Google 在这个方向上最具消费者感知度的产品。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/"&gt;https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/04/06/google-ai-edge-eloquent-app/"&gt;https://9to5google.com/2026/04/06/google-ai-edge-eloquent-app/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.neowin.net/news/google-ai-edge-eloquent-is-a-gemma-powered-dictation-app-that-works-offline/"&gt;https://www.neowin.net/news/google-ai-edge-eloquent-is-a-gemma-powered-dictation-app-that-works-offline/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fc6da3bb-6a0f-5065-9c2a-5265d4ef7358</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:21 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/</link>
+      <enclosure url="https://9to5google.com/wp-content/uploads/sites/4/2026/04/Google-AI-Edge-Eloquent-cover.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 OPPO Find X9 Ultra 4月21日全球首发：双 200MP 长焦、10 倍光学变焦、7050mAh 电池</title>
+      <description>&lt;p&gt;OPPO 确认 Find X9 Ultra 将于 4月21日全球同步发售，这是 OPPO Ultra 系列第一次在中国和海外市场同日首发。从泄露的完整规格来看，这台手机在影像系统上押了极大的赌注。&lt;/p&gt;
+
+&lt;p&gt;后置四摄系统的配置相当激进：&lt;strong&gt;200MP 主摄 + 200MP 3倍潜望长焦 + 50MP 10倍潜望长焦 + 50MP 超广角&lt;/strong&gt;，另有一颗专用的 True Color Camera 用于色彩校准。10 倍光学变焦通过"五棱镜反射结构"（Quintuple Prism Reflection）实现，官方还宣称 20 倍变焦下仍能保持"光学级"画质。哈苏（Hasselblad）联名的 Master Mode 继续保留。前置 50MP 自拍摄像头。从参数密度来看，Find X9 Ultra 直接对标三星 Galaxy S26 Ultra 和即将到来的 iPhone 18 Pro，尤其在长焦段上拉开了明显差距。&lt;/p&gt;
+
+&lt;p&gt;其他规格同样旗舰级：6.82 英寸 LTPO AMOLED 屏幕，&lt;strong&gt;144Hz 刷新率&lt;/strong&gt;，峰值亮度 3600nit；搭载骁龙 8 Elite Gen 5 处理器；16GB RAM + 512GB 存储；7050mAh 电池配 100W 有线 + 50W 无线充电；IP66/IP68/IP69 三重防护等级。机身 235-236g，厚度 8.65-9.5mm，背面采用金属中框加素皮材质。&lt;/p&gt;
+
+&lt;p&gt;Find X9 Ultra 的全球同步首发策略耐人寻味。过去几年，OPPO Ultra 系列通常先在中国上市，海外延迟数周甚至数月。这次同步发售既是对海外市场信心的体现，也可能与关税窗口有关——在中美贸易摩擦持续升级的背景下，尽早铺货全球市场能规避部分政策不确定性。&lt;/p&gt;
+
+&lt;p&gt;价格尚未正式公布，但参考上一代 Find X8 Ultra 的定价（约 6999 元人民币起），Find X9 Ultra 大概率会突破 7000 元大关。对于在意长焦拍摄的用户来说，双 200MP 潜望长焦加 10 倍光学变焦的组合，目前确实没有第二家能做到。PhoneArena 称其为"2026 年最佳拍照手机的有力竞争者"。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.phonearena.com/news/full-details-of-oppo-find-x9-ultra-leaked-online_id178974"&gt;https://www.phonearena.com/news/full-details-of-oppo-find-x9-ultra-leaked-online_id178974&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.lowyat.net/2026/387966/oppo-find-x9-ultra-global-launch/"&gt;https://www.lowyat.net/2026/387966/oppo-find-x9-ultra-global-launch/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techadvisor.com/article/3095910/oppos-find-x9-ultra-global-launch-date-confirmed.html"&gt;https://www.techadvisor.com/article/3095910/oppos-find-x9-ultra-global-launch-date-confirmed.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2c849431-cfc1-5aa8-987e-d640d9a778fd</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:48 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.phonearena.com/news/full-details-of-oppo-find-x9-ultra-leaked-online_id178974</link>
+      <enclosure url="https://m-cdn.phonearena.com/images/article/178974-wide-two_1200/Oppo-Find-X9-Ultra-launch-event-might-feel-pointless-after-this-leak-reveals-nearly-everything-about-the-upcoming-camera-beast.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Samsung Galaxy Z TriFold 4月10日再次补货：2899 美元的三折叠手机为何一机难求</title>
+      <description>&lt;p&gt;Samsung 4月8日正式宣布，Galaxy Z TriFold 将于 &lt;strong&gt;4月10日上午 9 点（美东时间）&lt;/strong&gt;再次补货，仅通过 Samsung 官网和全美七家 Samsung Experience Store（加州、明尼苏达、纽约、德州）发售，售价不变，依然是 2899 美元。&lt;/p&gt;
+
+&lt;p&gt;这已经是 TriFold 自 1月30日美国首发以来的第三轮补货。每一轮的剧本几乎相同：上架后数分钟售罄，然后消失数周。三月中旬，Samsung 一度宣布韩国市场停售，其他市场"售完即止"，外界一度以为这款产品要被砍掉。但强劲的需求让 Samsung 改了主意——Android Authority 的报道称，"需求持续超出有限库存"是决定继续生产的直接原因。&lt;/p&gt;
+
+&lt;p&gt;TriFold 的核心体验是一块 &lt;strong&gt;10 英寸可展开显示屏&lt;/strong&gt;，通过双铰链实现三段折叠。折叠状态下是一台正常尺寸的手机，完全展开后接近一台小平板。它搭载定制版骁龙 8 Elite、200MP 主摄，是三星有史以来电池最大的折叠手机。Samsung 把它定位为"从旗舰手机到便携工作站"的形态过渡。&lt;/p&gt;
+
+&lt;p&gt;2899 美元的定价让绝大多数消费者望而却步，但抢购热度说明了一个问题：愿意为新形态买单的早期用户数量超出了 Samsung 的预判。Samsung 最初把 TriFold 当作限量展示品（类似概念车），产能规划保守。现在它不得不追加生产，这对供应链是个挑战——双铰链组件的良品率远低于传统折叠屏，Samsung Display 的三折叠面板产线在今年初才刚投产。&lt;/p&gt;
+
+&lt;p&gt;从竞争格局看，华为 Mate XT 去年首发后同样经历了漫长的缺货期，至今全球供应量极其有限。三折叠品类在 2026 年仍处于"有价无量"阶段。Samsung 此前已确认 Galaxy Z TriFold 2 正在开发中，目标是更薄的机身和 2027 年中发售。短期内，4月10日的补货可能是现有版本最后一批大规模供应——如果你想买，手速要快。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5toys.com/2026/04/08/samsung-announces-galaxy-z-trifold-restock-this-week/"&gt;https://9to5toys.com/2026/04/08/samsung-announces-galaxy-z-trifold-restock-this-week/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidauthority.com/galaxy-z-trifold-returns-3655898/"&gt;https://www.androidauthority.com/galaxy-z-trifold-returns-3655898/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://odincase.com/blogs/news/samsung-galaxy-z-trifold-2-release-date-price-specs-everything-confirmed-updated-2026"&gt;https://odincase.com/blogs/news/samsung-galaxy-z-trifold-2-release-date-price-specs-everything-confirmed-updated-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">99303474-8198-5ef2-9c90-7cdf1c05f4f1</guid>
+      <pubDate>Thu, 09 Apr 2026 08:05:17 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://9to5toys.com/2026/04/08/samsung-announces-galaxy-z-trifold-restock-this-week/</link>
+      <enclosure url="https://www.androidauthority.com/wp-content/uploads/2026/01/Samsung-Galaxy-Z-TriFold-at-CES-2026-5-of-6.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

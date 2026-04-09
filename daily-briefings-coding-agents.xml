@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Wed, 08 Apr 2026 08:03:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 08:07:22 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -687,6 +687,72 @@
       <category>coding-agents</category>
       <link>https://www.cerebras.ai/blog/openai-codexspark</link>
       <enclosure url="https://cdn.sanity.io/images/e4qjo92p/production/44c185a70dd0973a051b918f67737a123ed8fe2b-1920x1080.png?rect=0,36,1920,1008&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=max&amp;amp;auto=format" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Claude Code 源码意外泄露：npm 打包失误暴露 51.2 万行代码，KAIROS、BUDDY 等未发布功能曝光</title>
+      <description>&lt;p&gt;3 月 31 日凌晨 00:21 UTC，Anthropic 发布 Claude Code v2.1.88 时犯了一个低级但致命的错误——npm 包里夹带了一个 59.8MB 的 source map 文件，直接指向 Cloudflare R2 存储桶中的完整源码压缩包。到 03:29 UTC 修复前，任何运行 &lt;code&gt;npm install&lt;/code&gt; 的人都能拿到全部源码。安全研究员 Chaofan Shou 最先在 X 上曝光，帖子浏览量飙到 2880 万次。&lt;/p&gt;
+
+&lt;p&gt;泄露规模惊人：&lt;strong&gt;1906 个 TypeScript 文件、51.2 万行代码、44 个功能标志（feature flags）、40 多个智能体工具、约 50 个斜杠命令&lt;/strong&gt;。社区迅速建立镜像仓库，两小时内 GitHub 星标突破 5 万，最终达到 8.4 万星和 8.2 万 fork——可能是 GitHub 历史上增长最快的仓库。有人甚至已经将 TypeScript 源码转写为 Python 和 Rust 版本来规避版权。&lt;/p&gt;
+
+&lt;p&gt;源码中最有看头的是 20 多个隐藏在功能标志后面的未发布特性。&lt;strong&gt;KAIROS&lt;/strong&gt; 是一个持久后台守护进程模式，Claude 可以在用户空闲时自主运行并执行记忆整合（memory consolidation）；ULTRAPLAN 是一个 30 分钟远程规划系统，用于协调复杂长任务；Coordinator Mode 让单个 Claude 实例能够派生并管理多个并行 worker 智能体。最出人意料的是 BUDDY——一个终端虚拟宠物系统，包含 18 个物种变体、稀有度分层、外观自定义和五个属性维度（Debugging、Patience、Chaos、Wisdom、Snark）。这让人想起 GitHub 的 Copilot Workspace 曾经藏过的彩蛋，但 Anthropic 的实现明显更认真。&lt;/p&gt;
+
+&lt;p&gt;架构层面的发现同样重要。完整的 ReAct 循环（推理→行动→观察→重复）、bash 执行和文件操作的工具定义、系统提示词中的安全和记忆管理策略全部曝光。代码中还有一套情感分析系统，扫描用户输入中的脏话和负面短语（如"this sucks"）来判断情绪并调整响应策略。一个叫"Undercover Mode"的内部功能被设计来防止 Claude 在 git 提交中泄露 Anthropic 的代号——讽刺的是，这个防泄露功能本身也跟着泄露了。&lt;/p&gt;
+
+&lt;p&gt;Anthropic 回应称"这是人为失误导致的打包问题，不是安全漏洞"，强调没有客户数据泄露。但这已是一年内第二次源码意外曝光。结合两周前的 CVE-2026-33068（deny 规则在第 51 条子命令后静默失效），Claude Code 在安全形象上连续受挫。相比之下，OpenAI 早在 2025 年 4 月就主动以 Apache 2.0 协议开源了 Codex CLI，拿到 6 万星和 363 个活跃贡献者。主动开源 vs 被动泄露，高下立判。&lt;/p&gt;
+
+&lt;p&gt;对竞争格局的实际影响可能没有想象中那么大——模型权重并未泄露，光有智能体框架代码跑不出 Claude 的效果。但 KAIROS 和 Coordinator Mode 的提前曝光确实打乱了 Anthropic 的产品节奏，竞争对手现在可以直接研究其多智能体编排设计。社区的热烈反响（8.4 万星）也从侧面证明了一件事：开发者对 Claude Code 的架构设计是真心认可的，Anthropic 或许应该认真考虑主动开源。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html"&gt;https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent"&gt;https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://futuretools.io/news/anthropics-claude-code-gets-leaked-openais-codex-was-already-open-source-heres-what-it-all-means"&gt;https://futuretools.io/news/anthropics-claude-code-gets-leaked-openais-codex-was-already-open-source-heres-what-it-all-means&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai"&gt;https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7f806e1d-b423-50b5-9263-a3ebb70424af</guid>
+      <pubDate>Thu, 09 Apr 2026 08:05:05 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html</link>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj39e4BXzk1M6BK7XEJcfogVbdwnYJjie08kNTAeW5T46Tn8UvbbaYGrrEpgw1Pa4IpJYeGe8AR7T_UCp4_vWYTcG-c5DY0HNlHW-8SbYkscVvjAKjKR3gHmlWAQONEx8kg_ANVfOr8OsQ7uTm-XWHW1PNfusxBj-Tn2kn-V2EedPykA3ESB66doPXxGzT8/s1700-e365/claude-code.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 GitHub Copilot 推出 Rubber Duck：用 GPT-5.4 给 Claude 当「代码审查官」，填补 74.7% 的性能差距</title>
+      <description>&lt;p&gt;GitHub 4 月 7 日在 Copilot CLI 中上线了一个实验性功能 &lt;strong&gt;Rubber Duck&lt;/strong&gt;——用一个来自不同 AI 家族的模型来审查主模型的编程决策。具体来说：当你选择 Claude（Opus、Sonnet 或 Haiku）作为编排器时，Rubber Duck 会调用 GPT-5.4 作为独立审查者。这个名字来自经典的"橡皮鸭调试法"，但这次鸭子真的会说话了。&lt;/p&gt;
+
+&lt;p&gt;Rubber Duck 在四个关键节点自动介入：方案草拟完成后审查整体思路、复杂实现完成后评估代码结构、测试编写完成后评估覆盖率、以及检测到主智能体陷入循环时触发反应式审查。审查者会输出一份简洁的关注清单，聚焦三类问题：主智能体做出的缺乏充分依据的假设、被忽略的边界情况、以及与现有代码库需求冲突的实现细节。&lt;/p&gt;
+
+&lt;p&gt;核心逻辑很清楚：同一个模型审查自己的输出，受限于相同的训练偏差盲区。不同模型家族的训练数据、RLHF 偏好和推理路径都不同，因此能发现对方系统性遗漏的问题。这不是什么新理论——学术界早就研究过 LLM 互审（cross-model verification），但 GitHub 是第一个在生产级编程智能体中正式落地的。&lt;/p&gt;
+
+&lt;p&gt;基准测试数据相当亮眼。在 SWE-Bench Pro 上，&lt;strong&gt;Claude Sonnet + Rubber Duck 填补了 Sonnet 与 Opus 之间 74.7% 的性能差距&lt;/strong&gt;。在跨 3 个以上文件、需要 70 步以上操作的复杂任务中，Sonnet + Rubber Duck 比单独的 Sonnet 高出 3.8%；在最难的子集上，这个差距扩大到 4.8%。换句话说，一个便宜的模型加上跨家族审查，就能逼近昂贵模型的效果。&lt;/p&gt;
+
+&lt;p&gt;这对编程智能体市场的定价模型是个挑战。如果 Sonnet + GPT-5.4 审查的组合能达到接近 Opus 的效果但成本显著更低，那"用最强模型"的简单策略就不再是唯一答案了。更深远的影响在于：这开创了编程智能体之间的"制衡"范式。过去每家都在推自己的单一模型方案——Cursor 用 Claude、Codex 用 GPT、Devin 用自研模型。Copilot 第一个说：不如让它们互相审查。&lt;/p&gt;
+
+&lt;p&gt;目前 Rubber Duck 处于实验阶段，通过 &lt;code&gt;/experimental&lt;/code&gt; 斜杠命令启用，需要同时接入 Claude 和 GPT-5.4。GitHub 没有透露这个功能何时转为正式版，也没说未来是否会支持更多模型组合（比如 Gemini 审查 Claude，或反过来）。但方向已经很明确：下一代编程智能体的竞争力不只在单模型能力，更在跨模型协作的编排智慧。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.helpnetsecurity.com/2026/04/07/github-copilot-rubber-duck-cross-model-review/"&gt;https://www.helpnetsecurity.com/2026/04/07/github-copilot-rubber-duck-cross-model-review/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.infoworld.com/article/4155289/github-copilot-cli-adds-rubber-duck-review-agent.html"&gt;https://www.infoworld.com/article/4155289/github-copilot-cli-adds-rubber-duck-review-agent.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/"&gt;https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f79416db-4717-51f4-91c3-c781b258f32c</guid>
+      <pubDate>Thu, 09 Apr 2026 08:05:44 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://www.helpnetsecurity.com/2026/04/07/github-copilot-rubber-duck-cross-model-review/</link>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2024/07/18100104/github-2-1500.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 JetBrains 开发者调查：Claude Code 半年内从 3% 飙至 18%，与 Cursor 并列，Copilot 增长停滞</title>
+      <description>&lt;p&gt;JetBrains 于 2026 年 4 月发布的年度开发者生态调查覆盖全球超过 25,000 名开发者，首次将 AI 编程工具采用率作为独立板块深入分析。数据显示，编程智能体市场正经历一场结构性洗牌——产品力开始压过生态锁定效应。&lt;/p&gt;&lt;h2&gt;三强格局：Copilot 领跑但失速&lt;/h2&gt;&lt;p&gt;GitHub Copilot 以 29% 的采用率继续领跑，品牌认知度高达 76%，几乎是第二名的两倍。但细看增长曲线，Copilot 的季度环比增长已从去年同期的 12% 跌至不足 2%。报告直言：「Copilot 正在经历典型的平台产品困境——用户知道它，但越来越多人在试用后转向其他工具。」&lt;/p&gt;&lt;p&gt;与此同时，Claude Code 和 Cursor 各以 18% 的采用率并列第二。Claude Code 的增长尤为惊人：六个月前这个数字还只有 3%，意味着半年内实现了六倍增长。调查中 Claude Code 的客户满意度（CSAT）达到 91%，净推荐值（NPS）54 分，两项指标均为所有工具中最高。&lt;/p&gt;&lt;h2&gt;90% 渗透率背后的分化&lt;/h2&gt;&lt;p&gt;报告的另一个关键发现是：90% 的受访开发者表示至少使用一款 AI 编程工具，较一年前的 62% 大幅提升。但这个数字掩盖了严重的使用深度分化。在日常将 AI 工具嵌入核心工作流的「重度用户」中，比例仅为 34%。其余大多数人停留在「偶尔用来生成样板代码或写单元测试」的阶段。&lt;/p&gt;&lt;p&gt;JetBrains 研究团队将这种分化归因于三个因素：企业安全审查流程缓慢、现有工具在大型代码库上的表现不稳定、以及开发者对 AI 生成代码的信任度仍然偏低。调查显示，只有 41% 的开发者「大部分时间信任」AI 生成的代码，而 23% 的人表示「几乎从不直接采纳」。&lt;/p&gt;&lt;h2&gt;产品力取代生态锁定&lt;/h2&gt;&lt;p&gt;最值得关注的趋势是工具选择逻辑的转变。在 2024 年的调查中，「与我使用的 IDE 集成」是开发者选择 AI 工具的首要因素，占比 58%。而在 2026 年的数据中，这一因素降至第三位（37%），排在前两位的分别是「代码生成质量」（71%）和「对项目上下文的理解能力」（63%）。&lt;/p&gt;&lt;p&gt;这一转变直接解释了 Claude Code 和 Cursor 的崛起。两者都以终端或独立编辑器为载体，绕开了传统 IDE 插件生态，却凭借更强的上下文理解和代码质量赢得用户。报告引用一位受访者的话：「我不在乎它跑在哪里，我在乎它能不能真正读懂我的项目。」&lt;/p&gt;&lt;p&gt;Windsurf、Cline 等较新的玩家也在快速成长，分别拿下 7% 和 5% 的采用率。报告预测，到 2026 年底，前两名之外的工具合计份额将首次超过 Copilot，标志着市场从「一家独大」正式进入「多强并立」阶段。对开发者而言，这意味着选择权回到了自己手中——而判断标准，已经从「谁的生态最大」变成了「谁最懂我的代码」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blog.jetbrains.com/team/2026/04/developer-ecosystem-survey-2026/"&gt;https://blog.jetbrains.com/team/2026/04/developer-ecosystem-survey-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">813a4b69-03e5-5482-9064-da79ee36658c</guid>
+      <pubDate>Thu, 09 Apr 2026 08:07:22 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://blog.jetbrains.com/team/2026/04/developer-ecosystem-survey-2026/</link>
     </item>
   </channel>
 </rss>

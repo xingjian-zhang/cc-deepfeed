@@ -4,535 +4,10 @@
     <title>Rachel's Personalized Feed</title>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/cc-deepfeed/rachel-briefings.xml</link>
-    <lastBuildDate>Wed, 08 Apr 2026 08:08:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 08:09:57 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/rachel-briefings.xml" type="application/rss+xml" />
-    <item>
-      <title>🎲 1962年，一场笑声从三个女孩开始，传染了一千人，关闭了十四所学校</title>
-      <description>&lt;p&gt;1962年1月30日，坦桑尼亚（当时叫坦噶尼喀）Kashasha村一所教会女子寄宿学校里，三个女生开始笑。没人知道她们在笑什么。但她们停不下来。&lt;/p&gt;
-
-&lt;p&gt;几小时后，笑声扩散到同班同学。几天后，全校159名学生中有95人被波及。这不是普通的大笑——患者会连续笑几小时甚至几天，伴随哭泣、躁动、呼吸困难和四肢疼痛。有人昏厥。症状平均持续7天，最长的达16天。3月18日，学校被迫关闭。&lt;/p&gt;
-
-&lt;p&gt;关闭学校并没有阻止传播。学生回家后，笑声跟着她们传到了村庄。4到5月间，Nshamba村有217人出现症状。6月，Ramashenye女子中学被波及，48人受感染。疫情像涟漪一样一圈圈扩散，最终影响了至少1000人，迫使14所学校关闭。整场「疫情」持续了18个月才自然消退。&lt;/p&gt;
-
-&lt;p&gt;这就是医学史上著名的&lt;strong&gt;坦噶尼喀笑疫&lt;/strong&gt;（Tanganyika Laughter Epidemic）。&lt;/p&gt;
-
-&lt;p&gt;它不是感染性疾病，也不是什么有趣的事。学术界目前的共识是，这是一起大规模的&lt;strong&gt;集体心因性疾病&lt;/strong&gt;（Mass Psychogenic Illness, MPI）——也就是在没有物理病原的情况下，由心理压力通过社会传播引发的生理症状。类似的案例在历史上反复出现，比如我们此前写过的1518年斯特拉斯堡跳舞瘟疫。&lt;/p&gt;
-
-&lt;p&gt;为什么发生在这里？社会学家Robert Bartholomew和精神科医生Simon Wessely的研究提供了线索。1961年，坦噶尼喀刚独立。殖民结束带来的不是解放感，而是巨大的不确定性。教会学校里的女孩们夹在两个世界中间：家里是传统长老的严格管束，学校里是西方教育体系带来的全新观念和更高期待。老师变得更严厉，家长的要求更高。这些十几岁的女孩没有任何表达焦虑的渠道——在保守社区里，她们不被允许抱怨或反抗。&lt;/p&gt;
-
-&lt;p&gt;于是身体替她们说了。&lt;/p&gt;
-
-&lt;p&gt;MPI有一个规律：它几乎总是发生在权力结构严格、个人表达受限的封闭社群中。患者以女性和青少年为主——恰恰是社会中话语权最少的群体。笑和哭都是不需要语言的表达方式，当语言被禁止时，身体会找到自己的出口。&lt;/p&gt;
-
-&lt;p&gt;这个案例至今仍是MPI研究的经典范本。它提醒我们一件反直觉的事：笑，有时候不是因为快乐，而是因为无处可逃。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic"&gt;https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://boingboing.net/2026/02/01/in-1962-a-laughing-fit-spread-through-tanzania-for-18-months.html"&gt;https://boingboing.net/2026/02/01/in-1962-a-laughing-fit-spread-through-tanzania-for-18-months.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.medicalindependent.ie/life/the-dorsal-view/mass-psychogenic-illness-was-no-laughing-matter-for-the-kids-of-tanganyika/"&gt;https://www.medicalindependent.ie/life/the-dorsal-view/mass-psychogenic-illness-was-no-laughing-matter-for-the-kids-of-tanganyika/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4d77ca6d-64c4-58d1-8ee6-28d9489564ae</guid>
-      <pubDate>Mon, 06 Apr 2026 08:02:48 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic</link>
-    </item>
-    <item>
-      <title>🌿 一颗药降压近10mmHg——首个醛固酮合酶抑制剂Baxdrostat获FDA优先审评，Q2有望批准</title>
-      <description>&lt;p&gt;高血压治不好，有时候不是患者不听话，而是现有的药全试了都压不下来。全球约10%-15%的高血压患者属于「难治性高血压」（Resistant Hypertension）——吃三种以上降压药（含利尿剂）仍然血压飙高。这类患者的心脏病和中风风险成倍增加，却几乎没有新的治疗选项。&lt;/p&gt;
-
-&lt;p&gt;AstraZeneca开发的&lt;strong&gt;Baxdrostat&lt;/strong&gt;正在改变这个局面。这是一种全新机制的药物——高选择性醛固酮合酶抑制剂（Aldosterone Synthase Inhibitor, ASI），从源头掐断醛固酮的生产。醛固酮是让身体储钠储水的关键激素，也是难治性高血压的重要推手。现有的MRA类药物（如螺内酯）只是在受体端拦截醛固酮，而Baxdrostat直接阻止它被合成。&lt;/p&gt;
-
-&lt;p&gt;三期临床BaxHTN试验在全球214个中心入组了794名患者（73%为难治性、27%为未控制型），分为安慰剂、1mg和2mg三组。12周后的结果发表在&lt;em&gt;New England Journal of Medicine&lt;/em&gt;上：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1mg组收缩压比安慰剂多降&lt;strong&gt;8.7 mmHg&lt;/strong&gt;（p&lt;0.0001）&lt;/li&gt;
-&lt;li&gt;2mg组多降&lt;strong&gt;9.8 mmHg&lt;/strong&gt;（p&lt;0.0001）&lt;/li&gt;
-&lt;li&gt;血压达标率（&lt;130 mmHg）：2mg组40%、1mg组39.4%、安慰剂18.7%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;更让人眼前一亮的是24小时动态血压监测数据：2mg组日间降16.9 mmHg、夜间降11.7 mmHg（校正安慰剂后），说明全天候有效而非只在诊室里好看。安全性方面，32周观察未出现肾上腺皮质功能不全，高钾血症导致停药的比例仅1.5%。&lt;/p&gt;
-
-&lt;p&gt;FDA已接受Baxdrostat的新药申请（NDA）并给予优先审评，PDUFA目标日期在2026年第二季度。如果获批，这将是首个上市的醛固酮合酶抑制剂，也是近二十年来降压药领域最重要的新机制突破。对于那些已经在吃三四种药却依然冒着中风风险的患者，多加一颗小药片就能把血压再压下近10mmHg——这不是锦上添花，是救命。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2507109"&gt;https://www.nejm.org/doi/full/10.1056/NEJMoa2507109&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.escardio.org/The-ESC/Press-Office/Press-releases/Blood-pressure-reductions-with-baxdrostat-in-patients-with-uncontrolled-or-resistant-hypertension"&gt;https://www.escardio.org/The-ESC/Press-Office/Press-releases/Blood-pressure-reductions-with-baxdrostat-in-patients-with-uncontrolled-or-resistant-hypertension&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-new-drug-application-accepted-under-fda-priority-review-in-the-us-for-patients-with-hard-to-control-hypertension.html"&gt;https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-new-drug-application-accepted-under-fda-priority-review-in-the-us-for-patients-with-hard-to-control-hypertension.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">eba42357-ca01-5c2b-b47b-411d2a850ee8</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:06 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa2507109</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/blood-pressure-measurement-heart-cardiology.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 情绪调节的「梯度密码」：大脑宏观组织决定你能多好地控制情绪</title>
-      <description>&lt;p&gt;为什么有些人面对负面刺激时能迅速「重新评价」（cognitive reappraisal），而另一些人却被情绪淹没？一项刚发表在 &lt;em&gt;PLOS Biology&lt;/em&gt;（2026 年 4 月 2 日）的大样本 fMRI 研究给出了一个系统级答案：&lt;strong&gt;情绪调节的成败，映射在大脑宏观梯度（gradient）的重构幅度上&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;研究者 Ruien Wang、Remi Janet、Carmen Morawetz 与 Anita Tusche 分析了两个独立样本（n=358 和 n=263）的脑成像数据。被试在扫描仪里完成经典的认知重评任务——看一张令人不适的图片，要么被动观看，要么主动「换个角度想」。研究团队没有像传统方法那样逐区域比较激活，而是把全脑激活模式投射到 Human Connectome Project 数据衍生出的「主梯度」上。&lt;/p&gt;
-
-&lt;p&gt;所谓 Gradient 1，是大脑最基本的组织轴：一端是初级感觉运动皮层（unimodal），另一端是默认模式网络和前额叶等高阶联合皮层（heteromodal）。想象一条光谱——左边处理「此刻的感官输入」，右边处理「抽象思维和自我参照」。&lt;/p&gt;
-
-&lt;p&gt;核心发现很直觉：成功调节情绪的人，在执行重评时整个大脑的激活模式沿 Gradient 1 &lt;strong&gt;大幅向 heteromodal 端偏移&lt;/strong&gt;。两个样本的效应一致（发现样本 β=3.15, p&lt;0.001；复制样本 β=4.12, p&lt;0.001），跨样本预测也成立（r=0.50 和 r=0.32）。更重要的是，在 55 名被试的智能手机经验取样追踪中，那些梯度偏移更大的人日常负面情绪也更少（β=1.19, p=0.002）——实验室里的脑指标能预测真实生活的情绪状态。&lt;/p&gt;
-
-&lt;p&gt;Neurosynth 元分析解码显示，Gradient 1 偏移同时关联社会认知、记忆、注意和语言加工——这说明成功的情绪调节不是某个「冷静脑区」在努力，而是整个认知系统从「感受模式」切换到「理解模式」的协调运动。&lt;/p&gt;
-
-&lt;p&gt;这个框架的实用意义在于：它把「情绪调节能力」从一个模糊的心理学概念变成了一个可量化的脑指标，理论上可以用来筛选高风险人群或评估干预效果。如果认知重评训练确实能增大 Gradient 1 偏移幅度，那么我们就有了一个客观标准来衡量「情绪调节课」到底有没有用。当然，从发现生物标记到临床应用还有很长的路，但方向已经清晰。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666"&gt;https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.biorxiv.org/content/10.1101/2025.07.09.663978v1"&gt;https://www.biorxiv.org/content/10.1101/2025.07.09.663978v1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ca821204-5d14-511e-820f-fa7e8c0bf008</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:06 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666</link>
-      <enclosure url="https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003666.g004&amp;size=inline" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 拆掉一条路，全城交通反而更快了——一个让城市规划师抓狂的数学定理</title>
-      <description>&lt;p&gt;1990年地球日那天，纽约市临时关闭了曼哈顿第42街。所有人都预期灾难性的堵车。结果恰恰相反——周边路段的交通反而变得更顺畅了。&lt;/p&gt;
-
-&lt;p&gt;这不是意外，这是数学。&lt;/p&gt;
-
-&lt;p&gt;1968年，德国数学家Dietrich Braess发现了一个违反直觉的定理：在一个交通网络中，&lt;strong&gt;增加一条新路有时会让所有人的通勤时间变长&lt;/strong&gt;。反过来，拆掉一条路反而可能让全局更快。这就是Braess悖论（Braess's Paradox）。&lt;/p&gt;
-
-&lt;p&gt;原理并不复杂，但确实反直觉。想象A到B有两条路。路1前半段不堵，后半段很堵；路2前半段堵，后半段不堵。正常情况下，大家各走一条，总体还行。现在你修了一条连接路1前半段和路2后半段的捷径——「最优路线」出现了：走路1不堵的前半段，抄捷径，再走路2不堵的后半段。问题来了：每个人都是理性的，每个人都会选这条「最优路线」。结果所有人挤在同一条路上，通勤时间反而比修路前更长。&lt;/p&gt;
-
-&lt;p&gt;这背后的数学本质是：&lt;strong&gt;纳什均衡（Nash Equilibrium）不等于社会最优&lt;/strong&gt;。每个人都在做对自己最好的选择，但所有人的「最优选择」叠加在一起，产生了对所有人都最差的结果。博弈论教科书里经典的囚徒困境，换了一身交通工程的衣服。&lt;/p&gt;
-
-&lt;p&gt;真实世界的验证不断出现。2003年，首尔拆除了清溪高架路（Cheonggye Expressway），在原址恢复了清溪川。一条六车道高速路消失了，周边交通不但没崩溃，反而更流畅。2009年，纽约将时代广场和先驱广场那段百老汇大道改为步行区，车辆通行时间缩短了——这个临时实验后来变成了永久设计。德国斯图加特在1969年投资新建道路后发现交通更堵，直到关闭其中一段才恢复正常。&lt;/p&gt;
-
-&lt;p&gt;Braess悖论不只存在于交通。电力网络中增加传输线路有时会降低整体效率。互联网中增加带宽在某些拓扑下会增加延迟。甚至在弹簧力学系统中，增加一根弹簧可以让整个结构变得更弱。只要满足两个条件——网络中的个体自私选择路径，且路径的成本随使用量变化——Braess悖论就可能出现。&lt;/p&gt;
-
-&lt;p&gt;下次你看到城市要修一条新路时，可以想想：也许少一条路，才是对的。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Braess%27s_paradox"&gt;https://en.wikipedia.org/wiki/Braess%27s_paradox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://brilliant.org/wiki/braess-paradox/"&gt;https://brilliant.org/wiki/braess-paradox/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blogs.cornell.edu/info2040/2021/09/15/braesss-paradox-in-real-life-improving-traffic-by-removing-roads/"&gt;https://blogs.cornell.edu/info2040/2021/09/15/braesss-paradox-in-real-life-improving-traffic-by-removing-roads/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9b035ef6-7b76-514e-a250-75c822bbe588</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:15 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Braess%27s_paradox</link>
-    </item>
-    <item>
-      <title>🌉 SFFILM 电影节四月底回归，开幕夜重返 Castro Theatre</title>
-      <description>&lt;p&gt;第69届旧金山国际电影节（SFFILM）刚刚公布了完整片单：4月24日至5月4日，79部来自40个国家的影片将在湾区多个场地放映。最让影迷兴奋的消息——电影节终于回到了它的精神故乡 &lt;strong&gt;Castro Theatre&lt;/strong&gt;，尽管只有三场放映安排在这座传奇影院。Castro Theatre 近年经历了一场漫长的翻修和经营权争议，这次 SFFILM 的回归对很多老影迷来说意义重大。&lt;/p&gt;
-
-&lt;p&gt;开幕片是 Kent Jones 执导的 &lt;em&gt;Late Fame&lt;/em&gt;，由 Greta Lee 和 Willem Dafoe 主演，讲述一位被年轻波西米亚圈子重新发现的诗人的故事。4月24日下午5:30在 Castro Theatre 首映。第二部开幕片是 Olivia Wilde 自导自演的 &lt;em&gt;The Invite&lt;/em&gt;，A24 刚刚拿下发行权，卡司阵容豪华——Seth Rogen、Penelope Cruz、Edward Norton 齐聚。Wilde 上一部片 &lt;em&gt;Don't Worry Darling&lt;/em&gt; 的争议还历历在目，这次她选择了一个更安静的故事切入点，值得期待。&lt;/p&gt;
-
-&lt;p&gt;今年的 Centerpiece 是 Boots Riley 的新作 &lt;em&gt;I Love Boosters&lt;/em&gt;（Neon 出品），由 Keke Palmer 领衔，LaKeith Stanfield、Poppy Liu、Eiza Gonzalez 参演。放映地点选在 Oakland 的 Grand Lake Theatre——对 Oakland 本地导演 Riley 来说是回家。预售票已经卖光，Riley 和主演们预计会亲临现场。Riley 自2018年的 &lt;em&gt;Sorry to Bother You&lt;/em&gt; 后沉寂多年，这部新片聚焦零售盗窃产业链，带着他一贯的荒诞现实主义风格回归。&lt;/p&gt;
-
-&lt;p&gt;闭幕片选了一个意想不到的安排：&lt;em&gt;Star Wars: The Empire Strikes Back&lt;/em&gt; 的大银幕放映，加上 C-3PO 扮演者 Anthony Daniels 和 SFFILM 董事会副主席 Howard Roffman 的现场对谈。这场也早已售罄。&lt;/p&gt;
-
-&lt;p&gt;深挖片单，还有几部值得关注的作品。纪录片 &lt;em&gt;American Doctor&lt;/em&gt;（Po Si Teng 导演）跟拍三位美国医生赴加沙救治伤患的经历，5月1日晚8:30在 Premier Theater 放映，题材敏感但评价极高。修复版《董夫人》（&lt;em&gt;The Arch&lt;/em&gt;，1968，唐书璇导演）从遗失的35mm底片中复活，纳入 Films from the Vault 修复单元——这是香港新浪潮之前最重要的独立电影之一，能在大银幕上看到修复版机会难得。John Carney（&lt;em&gt;Once&lt;/em&gt;、&lt;em&gt;Begin Again&lt;/em&gt; 导演）的音乐喜剧 &lt;em&gt;Power Ballad&lt;/em&gt; 由 Paul Rudd 和 Nick Jonas 主演，讲婚礼歌手和前男团成员的竞争故事，5月3日在 JCC 放映。&lt;/p&gt;
-
-&lt;p&gt;电影节大部分场次集中在 Marina 和 Presidio 的 Premier Theater at One Letterman、Marina Theatre，以及东湾的 BAMPFA。公众售票已于4月3日上午10点开放，热门场次要抢。这是北美历史最悠久的电影节之一（成立于1957年），片单质量常年稳定，选片口味偏独立和国际视角。对湾区居民来说，不用飞去 Cannes 或 Venice，家门口就能看到这个级别的策展。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.kqed.org/arts/13988179/2026-san-francisco-international-film-festival-sffilm-guide"&gt;https://www.kqed.org/arts/13988179/2026-san-francisco-international-film-festival-sffilm-guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://variety.com/2026/film/news/ssfilm-festival-releases-2026-line-up-1236704076/"&gt;https://variety.com/2026/film/news/ssfilm-festival-releases-2026-line-up-1236704076/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://vimooz.com/2026/04/01/69th-san-francisco-international-film-festival-reveals-lineup-opens-with-olivia-wildes-the-invite-and-kent-jones-late-fame/"&gt;https://vimooz.com/2026/04/01/69th-san-francisco-international-film-festival-reveals-lineup-opens-with-olivia-wildes-the-invite-and-kent-jones-late-fame/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">538a9cef-040a-55b2-a8b5-e9564bf1c6f7</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:27 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.kqed.org/arts/13988179/2026-san-francisco-international-film-festival-sffilm-guide</link>
-      <enclosure url="https://cdn.kqed.org/wp-content/uploads/sites/2/2026/04/HTCAH_2.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 老年人的肺为什么扛不住流感和新冠——UCSF团队找到「衰老肺」制造免疫风暴的开关</title>
-      <description>&lt;p&gt;同样是感染流感或新冠，年轻人可能扛几天就好了，65岁以上老年人的住院率和死亡率却高出数倍。原因一直不太清楚——是免疫力弱了吗？UCSF的Tien Peng团队在&lt;em&gt;Immunity&lt;/em&gt;上给出了一个反直觉的答案：不是免疫力「弱了」，是免疫反应「乱了」，而且始作俑者不是免疫细胞本身，而是肺部的结构细胞——成纤维细胞（Fibroblast）。&lt;/p&gt;
-
-&lt;p&gt;研究团队发现，随着肺组织衰老，成纤维细胞会激活一条叫&lt;strong&gt;NF-κB&lt;/strong&gt;的信号通路。这条通路在衰老相关疾病中反复出现，堪称「炎性衰老」的标志。被激活的成纤维细胞会招来巨噬细胞，巨噬细胞又引来一批表达GZMK基因的免疫细胞——这个基因最早在新冠重症患者中被发现。这些GZMK+细胞不但杀不了病毒，反而在肺里抱团形成炎性细胞团簇，大肆破坏肺组织。&lt;/p&gt;
-
-&lt;p&gt;更关键的实验来了：研究者用基因工程让年轻小鼠的肺成纤维细胞也打开NF-κB信号，结果年轻小鼠的肺立刻表现得像「老肺」一样，感染后出现严重炎症。反过来，他们在年轻小鼠中清除GZMK+免疫细胞后，肺部依然能有效抵抗感染。这证明了因果链：衰老的成纤维细胞 → NF-κB激活 → GZMK+细胞簇形成 → 肺损伤。&lt;/p&gt;
-
-&lt;p&gt;团队还检验了人类样本。因新冠ARDS住院的老年患者肺组织中确实存在类似的炎性细胞簇，病情越重簇越多，而健康捐献者的肺中完全没有。第一作者Nancy Allen总结得很直白：「肺成纤维细胞和免疫细胞携手驱动了炎性衰老。」&lt;/p&gt;
-
-&lt;p&gt;这个发现的实际意义在于：如果能在感染早期靶向清除GZMK+细胞或阻断NF-κB信号，也许能在老年患者被推进ICU之前就遏制免疫风暴。目前的治疗手段——插管、地塞米松——都是在灾难已经发生后亡羊补牢。而这条通路提供了一个可以更早干预的靶点。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.ucsf.edu/news/2026/03/431681/could-be-why-covid-and-flu-are-so-dangerous-elderly"&gt;https://www.ucsf.edu/news/2026/03/431681/could-be-why-covid-and-flu-are-so-dangerous-elderly&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/04/260403002027.htm"&gt;https://www.sciencedaily.com/releases/2026/04/260403002027.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1f7ddef3-51e5-5580-adc2-58fc3afc4a11</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:29 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.ucsf.edu/news/2026/03/431681/could-be-why-covid-and-flu-are-so-dangerous-elderly</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/respiratory-diseases-virus-infection.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 反刍思维有专治：55 项 RCT 元分析证明「对症下药」效果量翻倍</title>
-      <description>&lt;p&gt;反复琢磨过去的失败（rumination）和不停担忧未来的坏事（worry），在心理学里统称为&lt;strong&gt;重复性消极思维&lt;/strong&gt;（Repetitive Negative Thinking, RNT）。它是抑郁、焦虑、强迫等多种障碍的共同底层机制。一个自然的问题是：普通的认知行为疗法（CBT）就够了，还是需要专门针对 RNT 设计的干预？&lt;/p&gt;
-
-&lt;p&gt;德国马尔堡大学的 Kilian Stenzel 团队在 &lt;em&gt;Psychological Medicine&lt;/em&gt; 发表了迄今最大规模的元分析来回答这个问题。他们纳入了 55 项随机对照试验，共 4,970 名被试，比较了各类 CBT 干预对 RNT 的效果。&lt;/p&gt;
-
-&lt;p&gt;整体结果：CBT 对 RNT 的干预后效应量为 g=−0.67，属于中等效果，且在平均 4.2 个月的随访中维持不变（g=−0.66）。但真正的洞见在对比中——&lt;strong&gt;专门针对 RNT 设计的干预&lt;/strong&gt;（如 rumination-focused CBT、元认知疗法 MCT、transdiagnostic RNT 干预）效应量达到 g=−0.99，接近大效应；而一般性 CBT 只有 g=−0.56。差距接近一倍。&lt;/p&gt;
-
-&lt;p&gt;具体到类型：rumination（反刍）、worry（担忧）和 transdiagnostic RNT 三者的改善幅度统计上没有显著差异，但 worry 干预描述性地稍好。有趣的是，大多数 RNT 专项干预的原始设计目标是治疗 worry——这些方法后来被证明对 rumination 同样有效，暗示这两种看似不同的「想太多」共享核心机制。&lt;/p&gt;
-
-&lt;p&gt;这项分析的实际意义很清楚：如果你或你身边的人深陷「想太多」的循环，&lt;strong&gt;标准 CBT 有效但不够&lt;/strong&gt;。主动寻找专项 RNT 干预——比如 rumination-focused CBT（识别反刍触发情境、将反刍重新定义为可改变的心理习惯）、元认知疗法（挑战「担忧有用」的元信念）、或在线 Managing Rumination and Worry 项目（六周三课时结构化自助）——能带来接近翻倍的改善。Stenzel 团队的结论直截了当：「专项 RNT 干预应该被更大力度地研究、实施和推广。」&lt;/p&gt;
-
-&lt;p&gt;此前我们报道过认知重评在职场中的 RCT 证据。Stenzel 的元分析从更高层面确认了同一个方向：情绪调节技能不是泛泛的「正向思维」，而是需要精准匹配到具体的思维模式才能发挥最大效力。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S0005796723001262"&gt;https://www.sciencedirect.com/science/article/pii/S0005796723001262&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">47d90790-4850-5f41-b4a3-0d39aca5c237</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:30 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/</link>
-    </item>
-    <item>
-      <title>🌿 一管血预测你何时发病——华盛顿大学团队用p-tau217做出阿尔茨海默「发病时钟」</title>
-      <description>&lt;p&gt;阿尔茨海默病最残酷的地方在于：等你忘事了再去查，大脑里的淀粉样斑块和tau蛋白缠结可能已经积累了二十年。治疗窗口早就关了大半。华盛顿大学医学院的Suzanne Schindler和Kellen Petersen团队在&lt;em&gt;Nature Medicine&lt;/em&gt;（2026年2月19日）上报告了一种方法，用一管血就能大致预测你还有多少年才会出现症状。&lt;/p&gt;
-
-&lt;p&gt;他们分析了603名社区独居老年人的血浆，核心指标只有一个：&lt;strong&gt;p-tau217&lt;/strong&gt;（磷酸化tau蛋白217）。这个蛋白同时反映大脑中淀粉样蛋白和tau蛋白的堆积程度，与PET扫描的结果高度一致。Petersen用了一个很好的比喻：「淀粉样蛋白和tau的水平就像树的年轮——知道有多少圈，就知道这棵树长了多少年。」&lt;/p&gt;
-
-&lt;p&gt;团队建立的预测模型发现了一个有趣的年龄依赖规律：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;60岁时p-tau217升高的人，平均还有约20年才会出现症状&lt;/li&gt;
-&lt;li&gt;80岁时p-tau217升高的人，距离发病只剩约11年&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;预测精度的误差范围在3-4年内。虽然还不够精确到月，但对于一种潜伏期长达数十年的疾病来说，这已经是巨大的进步。&lt;/p&gt;
-
-&lt;p&gt;之前我们报道过Scripps团队用蛋白质折叠异常检测阿尔茨海默病（准确率超83%），那个方法是诊断「你现在有没有病」。而WashU这个「发病时钟」回答的是另一个问题：「你大概什么时候会发病。」两者互补——前者用于筛查确诊，后者用于预判时间窗。&lt;/p&gt;
-
-&lt;p&gt;实际使用场景已经很清晰：药企正在开发多种抗淀粉样蛋白和抗tau药物，这些药在症状出现后效果有限，但在临床前期可能大有作为。问题一直是——怎么找到那些「还没发病但即将发病」的人？p-tau217血检比PET扫描便宜得多，比腰穿舒服得多，完全可以在社区诊所推广。Schindler说得直接：「血检大幅降低了成本门槛，能让更多人在还来得及的时候被发现。」&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://medicine.washu.edu/news/blood-test-clocks-predict-when-alzheimers-symptoms-will-start/"&gt;https://medicine.washu.edu/news/blood-test-clocks-predict-when-alzheimers-symptoms-will-start/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/02/260222085203.htm"&gt;https://www.sciencedaily.com/releases/2026/02/260222085203.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">639b3aed-639d-59df-8a53-4183babdcf5b</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:52 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://medicine.washu.edu/news/blood-test-clocks-predict-when-alzheimers-symptoms-will-start/</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/brain-disease-inflammation.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 醉汉一定能走回家，醉鸟却可能永远迷路——一个关于维度的数学真理</title>
-      <description>&lt;p&gt;1921年，匈牙利数学家George Polya证明了一条定理，后来被日本数学家角谷静夫（Shizuo Kakutani）用一句话概括成了数学史上最优雅的比喻之一：&lt;/p&gt;
-
-&lt;p&gt;「一个醉汉总能找到回家的路，但一只醉鸟可能永远迷路。」&lt;/p&gt;
-
-&lt;p&gt;这不是文学修辞，这是严格的数学定理。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Polya回归定理&lt;/strong&gt;（Polya's Recurrence Theorem）说的是：在一维和二维空间中进行随机游走（Random Walk），无论走多远、走多偏，最终返回起点的概率是100%。但在三维及更高维空间中，这个概率骤降到远低于1。&lt;/p&gt;
-
-&lt;p&gt;先解释什么是随机游走。想象一个人站在一条直线上的原点，每一步等概率地向左或向右走一格。这是一维随机游走。直觉告诉你，走得越远越难回来。但数学告诉你：不管你偏离多远，给足够的时间，你必然回到原点。概率不是接近100%，是恰好100%。&lt;/p&gt;
-
-&lt;p&gt;二维也一样。一个醉汉在无限大的棋盘格上随机游走——上下左右各25%概率——他最终一定会踩回出发那格。可能要走很久，也许走了几十亿步才绕回来，但概率是1。&lt;/p&gt;
-
-&lt;p&gt;然后三维就崩了。&lt;/p&gt;
-
-&lt;p&gt;一只醉鸟在三维空间中随机飞——上下前后左右各六分之一概率——它返回起点的概率只有大约34%。也就是说，有近三分之二的可能，它会在无限的空间中越飞越远，永远回不来。&lt;/p&gt;
-
-&lt;p&gt;为什么多了一个维度就天差地别？二维平面上，空间增长的速度（面积正比于距离的平方）和随机游走扩散的速度刚好匹配。游走者虽然在扩散，但平面上的「可达区域」增长得不够快，它迟早会重新踏上旧路。三维空间里，体积正比于距离的立方，可逃逸的方向太多了，空间膨胀的速度远超随机游走的覆盖速度，游走者一旦远离就很难再回来。&lt;/p&gt;
-
-&lt;p&gt;这个定理在物理学和计算机科学中有实际应用。分子在二维表面上的扩散行为（比如细胞膜上的蛋白质运动）与三维溶液中的扩散有本质区别。搜索算法在低维空间更容易收敛，在高维空间中则面临Polya定理的诅咒。Google的PageRank算法本质上是一个带「随机传送」的随机游走——正是因为纯随机游走在大规模图（高维结构）上不回归，才需要那个传送机制来保证收敛。&lt;/p&gt;
-
-&lt;p&gt;一个维度之差，就是「一定回家」和「永远流浪」的区别。数学有时候比诗歌还残忍。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://math.dartmouth.edu/~pw/math100w13/mare.pdf"&gt;https://math.dartmouth.edu/~pw/math100w13/mare.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://tylerzhu.com/assets/handouts/polya_rec.pdf"&gt;https://tylerzhu.com/assets/handouts/polya_rec.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://mathworld.wolfram.com/PolyasRandomWalkConstants.html"&gt;https://mathworld.wolfram.com/PolyasRandomWalkConstants.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7472a90a-27c2-54fb-a551-e44989f157f6</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:53 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://math.dartmouth.edu/~pw/math100w13/mare.pdf</link>
-    </item>
-    <item>
-      <title>🌉 Nob Hill 传奇餐厅 The Big Four 重开：50年老店的新生</title>
-      <description>&lt;p&gt;旧金山 Nob Hill 的 &lt;strong&gt;The Big Four&lt;/strong&gt; 餐厅在关闭六年后，于3月17日重新开业。这家以19世纪铁路巨头命名的餐厅自1976年在 Huntington Hotel 内开业以来，一直是旧金山权力圈的非正式客厅——政客、科技大佬、老钱家族都是常客。2020年疫情期间关门后，很多人以为它不会再回来了。&lt;/p&gt;
-
-&lt;p&gt;新东家 Highgate 和 Flynn Properties 收购了 Huntington Hotel 并进行了全面翻修，酒店3月1日先行开业，餐厅随后跟上。设计由旧金山本地明星设计师 &lt;strong&gt;Ken Fulk&lt;/strong&gt; 操刀，他保留了餐厅标志性的深色木质护墙板和昏暗的 noir 美学——走进去的感觉还是那个老派的俱乐部——但灯光、座位布局和材质都做了现代化升级。&lt;/p&gt;
-
-&lt;p&gt;厨房交给了行政主厨 David Intonato，他之前在 Healdsburg 的 Appellation 和 San Jose 的 Gardenia 工作。菜单的核心策略是"致敬经典，而非推翻它"。那道在菜单上坚持了几十年的招牌 &lt;strong&gt;chicken pot pie&lt;/strong&gt; 回来了；Louie Wedge 沙拉可以选 Dungeness crab 或 Royal Red shrimp；steak tartare 改为桌边现做，配烤骨髓上桌。新增的 cioppino 用了 Dungeness crab、蛤蜊、kampachi 金枪鱼和青口，算是对旧金山海鲜传统的致意。&lt;/p&gt;
-
-&lt;p&gt;餐厅还新开了一个叫 &lt;strong&gt;Arabella's&lt;/strong&gt; 的独立酒吧空间，有自己的鸡尾酒菜单，主打经典调酒——martini、Vesper、Cable Car（旧金山本地发明的鸡尾酒）。餐厅总经理 Matthew de Quillien 之前在 Daniel Boulud 纽约旗下和伦敦 Soho House 工作，负责把服务水准拉到和食物匹配的高度。&lt;/p&gt;
-
-&lt;p&gt;预订通过 SevenRooms 平台，早午晚三餐都有。地址在 1075 California Street。&lt;/p&gt;
-
-&lt;p&gt;The Big Four 的重开是旧金山"legacy restaurant"复兴浪潮的又一个信号。过去两年里，疫情期间关闭的经典老店陆续回归——有的换了东家，有的换了主厨，但都在尝试平衡怀旧和更新。对于 Nob Hill 这个正在缓慢恢复人气的街区来说，Huntington Hotel 和 The Big Four 的回归是实打实的利好。如果你怀念那种穿件像样衣服、坐在木头吧台前喝一杯 martini 的旧金山夜晚，这里就是你该去的地方。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfist.com/2026/03/05/the-big-four-makes-big-return-this-month-on-nob-hill/"&gt;https://sfist.com/2026/03/05/the-big-four-makes-big-return-this-month-on-nob-hill/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.hautelivingsf.com/2026/03/09/san-franciscos-huntington-hotel-reopens-on-nob-hill-with-the-return-of-the-big-four/"&gt;https://www.hautelivingsf.com/2026/03/09/san-franciscos-huntington-hotel-reopens-on-nob-hill-with-the-return-of-the-big-four/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://nationaltoday.com/us/ca/san-francisco/news/2026/03/04/san-franciscos-big-four-restaurant-reopens-after-years-long-hiatus/"&gt;https://nationaltoday.com/us/ca/san-francisco/news/2026/03/04/san-franciscos-big-four-restaurant-reopens-after-years-long-hiatus/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">11543559-dfb3-5fb8-b0df-a97ecbda7efa</guid>
-      <pubDate>Mon, 06 Apr 2026 08:03:58 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfist.com/2026/03/05/the-big-four-makes-big-return-this-month-on-nob-hill/</link>
-      <enclosure url="https://img.sfist.com/2026/03/big-four-martini-steak.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 多巴胺大辩论倒计时：5 月塞维利亚会议将正面交锋 RPE 范式</title>
-      <description>&lt;p&gt;&lt;em&gt;Nature&lt;/em&gt; 3 月刊出的一篇长篇特稿为 5 月即将在塞维利亚举办的 Dopamine Society 年会（5 月 17-21 日）做了预热，标题直白：「Dopamine takes a hit」。这场会议的 Session 31 将成为近年来多巴胺领域最受关注的一次公开辩论。&lt;/p&gt;
-
-&lt;p&gt;争论的核心我们此前多次追踪：经典的&lt;strong&gt;奖赏预测误差&lt;/strong&gt;（Reward Prediction Error, RPE）假说统治了多巴胺研究近三十年——多巴胺脉冲编码「预期奖赏」与「实际奖赏」之间的差值，驱动强化学习。诺丁汉大学的 Mark Humphries 在 Nature 特稿中承认，这曾是神经科学中「唯一一个既解释了信号本身、又解释了它在计算什么的计算模型」。但过去十年的高精度记录技术（包括光纤光度法和 Neuropixels 探针）打开了一个更复杂的画面。&lt;/p&gt;
-
-&lt;p&gt;挑战来自多个方向。Greenstreet 等人 2025 年在 &lt;em&gt;Nature&lt;/em&gt; 发表的研究——我们在 4 月 5 日详细报道过——正式确立了双信号模型：腹侧纹状体编码传统 RPE，而尾部纹状体编码与奖赏无关的&lt;strong&gt;动作预测误差&lt;/strong&gt;（Action Prediction Error, APE）。此外，越来越多的证据表明多巴胺参与注意、工作记忆、威胁响应、新颖刺激加工甚至社会行为。约翰霍普金斯的 Geoffrey Schoenbaum——也是 Session 31 的组织者——主张彻底换一套模型框架，而非继续给 RPE 打补丁。他此前提出的「广义预测误差」（Generalized Prediction Error）理论认为，多巴胺同时编码感觉预测误差和奖赏预测误差，处于 model-based 和 model-free 算法之间。&lt;/p&gt;
-
-&lt;p&gt;另一方的守擂者会怎么回应？可以预见的论点是：RPE 框架仍然解释了大多数腹侧纹状体的数据，而新发现的功能可能是多巴胺系统在不同脑区的分工，而非对核心理论的否定。这场辩论的结果不会立刻产生赢家，但它将决定未来五年的研究方向——是继续拓展 RPE 模型的边界，还是从头构建一个多功能多巴胺理论。&lt;/p&gt;
-
-&lt;p&gt;对于关注心智模型的读者，这场争论的启示在于：我们对自身奖赏系统的理解可能比想象中更粗糙。如果多巴胺不仅是「快乐信号」也不仅是「学习信号」，那么基于简化多巴胺模型的自助建议（如「多巴胺断食」）就更值得审慎看待。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/d41586-026-00836-x"&gt;https://www.nature.com/articles/d41586-026-00836-x&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.senc.es/en/dopamine-meeting-2026-sevilla-17-21-de-mayo-2/"&gt;https://www.senc.es/en/dopamine-meeting-2026-sevilla-17-21-de-mayo-2/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">78c26d8e-a1ea-51d1-999e-5ddc405d8a40</guid>
-      <pubDate>Mon, 06 Apr 2026 08:04:01 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.nature.com/articles/d41586-026-00836-x</link>
-      <enclosure url="https://media.nature.com/lw1200/magazine-assets/d41586-026-00836-x/d41586-026-00836-x_52181696.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 1184年，六十名贵族在开会时集体掉进粪坑淹死了</title>
-      <description>&lt;p&gt;1184年7月26日，神圣罗马帝国的政治精英们齐聚德国爱尔福特（Erfurt），参加一场由年仅十八岁的国王亨利六世主持的调解会议。争端双方是图林根领主路德维希三世和美因茨大主教康拉德，两人关于领地归属吵得不可开交，连亨利的父亲——大名鼎鼎的红胡子腓特烈一世（Frederick Barbarossa）——都坐不住了，派儿子从波兰远征途中绕道来灭火。&lt;/p&gt;
-
-&lt;p&gt;会议地点选在爱尔福特大教堂附近一栋两层建筑的二楼。几十名贵族、骑士和教士挤在一起。没人注意到一个致命问题：二楼的承重木梁已经严重腐朽。&lt;/p&gt;
-
-&lt;p&gt;当这么多穿着铠甲的人集中在一个房间里时，地板先是发出警告——然后直接塌了。二楼砸向一楼，一楼再向下坍塌。建筑地基下面是什么？一个巨大的&lt;strong&gt;粪坑&lt;/strong&gt;（cesspit），收集整栋建筑的排泄物。&lt;/p&gt;
-
-&lt;p&gt;几十名中世纪欧洲最有权势的人，连铠甲带佩剑，直接掉进了几米深的粪水里。&lt;/p&gt;
-
-&lt;p&gt;至少60人死亡，有估计认为实际死亡人数接近100。死因是溺死——溺死在人类排泄物中。重铠甲让他们无法自救，粪水的稠度让挣扎毫无意义。这是欧洲中世纪最荒诞也最恶心的集体死亡事件之一，史称&lt;strong&gt;爱尔福特粪坑灾难&lt;/strong&gt;（Erfurt Latrine Disaster）。&lt;/p&gt;
-
-&lt;p&gt;国王亨利六世活了下来。他和大主教康拉德当时坐在一个石砌窗台凹室里，窗台嵌在承重墙中，没有随木质地板一起塌陷。两人紧紧抓住石墙，等待救援人员架梯子把他们救出。争端的另一方路德维希也活了下来——他掉了下去，但被人从废墟中拉了出来。&lt;/p&gt;
-
-&lt;p&gt;这件事的历史意义不大，但它完美展示了中世纪卫生基础设施的真实状态。当时的城市建筑普遍在地基下挖粪坑，靠人工定期清理——但谁来检查承重结构？在一个铁匠铺和大教堂可以做邻居的年代，建筑安全标准基本不存在。&lt;/p&gt;
-
-&lt;p&gt;亨利六世后来继承了帝位，征服了西西里王国，成为欧洲最有权势的君主之一。但我怀疑他后半辈子参加任何会议时，都会先看一眼地板。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Erfurt_latrine_disaster"&gt;https://en.wikipedia.org/wiki/Erfurt_latrine_disaster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://allthatsinteresting.com/erfurt-latrine-disaster"&gt;https://allthatsinteresting.com/erfurt-latrine-disaster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://explorersweb.com/erfurt-latrine-disaster-1184/"&gt;https://explorersweb.com/erfurt-latrine-disaster-1184/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">022d4c62-a0cb-5952-8c8c-1f2497a183ba</guid>
-      <pubDate>Mon, 06 Apr 2026 08:04:21 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Erfurt_latrine_disaster</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/44/Codex_Manesse_Heinrich_VI._%28HRR%29.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Figma's State of the Designer 2026: AI Splits the Profession Into Adapters and the Left-Behind / Figma《2026 设计师现状》报告：AI 正在将设计行业一分为二</title>
-      <description>&lt;p&gt;Figma surveyed 906 designers globally for its &lt;a href="https://www.figma.com/reports/state-of-the-designer-2026/"&gt;State of the Designer 2026&lt;/a&gt; report, and the headline number is striking: &lt;strong&gt;72% of designers now use generative AI tools&lt;/strong&gt;, with 98% of them increasing usage over the past year. But the more revealing finding is what happens on either side of the adoption line.&lt;/p&gt;
-
-&lt;p&gt;Designers who leaned into AI are 25% more likely to report rising job satisfaction. Those whose AI usage stayed flat? 40% report deteriorating working conditions. This is not a story about replacement — no one in the survey said AI took their job. It is a story about divergence: the same profession is producing two very different lived experiences depending on how individuals respond to new tools.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://lirp.cdn-website.com/cca6bc22/dms3rep/multi/opt/Illustration-89333854-1920w.png" alt="State of the Designer 2026 report illustration" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Figma State of the Designer 2026&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Figma frames this moment as "the messy middle" — a period where design's scope is expanding while its identity is in flux. The data backs this up. Respondents reported a &lt;strong&gt;17.5% increase in tasks&lt;/strong&gt; year-over-year. Designers are doing more than ever: prototyping, writing, researching, coding, managing stakeholders. The role is growing, but the growth pulls in directions that reward adaptability over narrow specialization.&lt;/p&gt;
-
-&lt;p&gt;The craft question produced a split too. 58% of designers define craft as visual polish and attention to detail. 47% call it thoughtful problem-solving. (These overlap — respondents could pick multiple.) As AI tools commoditize baseline visual quality, the report argues that taste becomes the designer's most durable edge. When an AI can generate a passable screen in seconds, the ability to tell good from great — and to articulate why — is what separates practitioners from prompters.&lt;/p&gt;
-
-&lt;p&gt;On working conditions, two findings stand out. First, &lt;strong&gt;87% of designers rank creative freedom above compensation&lt;/strong&gt; as a satisfaction factor. But 91% also say they perform best with clearly defined goals. The report's framing is sharp: "freedom without direction feels chaotic; direction without freedom feels suffocating." Second, leadership attention has outsized impact — 67% report higher happiness when their company emphasizes craft, and 60% feel better when leaders actively engage with design work. Teams where leadership prioritizes design excellence report stronger morale and faster business growth, a correlation the report calls "the craft premium."&lt;/p&gt;
-
-&lt;p&gt;The hiring picture is more nuanced than the doom-scrolling LinkedIn crowd suggests. 82% of design leaders say their organization's need for designers has either increased or held steady. Nearly half say demand grew. But what they are hiring for has shifted: 73% now require AI tool proficiency in candidates, and 79% want experience designing AI products specifically. The market is not shrinking — it is reshaping around a different skill profile.&lt;/p&gt;
-
-&lt;p&gt;Regional variation adds another layer. In North America and Europe, about 35% of designers perceive the profession as declining. In the Middle East, over 70% are positive. Global narratives about "the death of design" flatten a reality that looks very different depending on where you sit.&lt;/p&gt;
-
-&lt;p&gt;The most useful takeaway for practitioners: stop debating whether AI is good or bad for design and start treating it as a literacy requirement, like learning Figma itself was five years ago. The report's data is clear — adaptation correlates with satisfaction, and the gap is widening.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Figma 对全球 906 名设计师进行了调查，发布了 &lt;a href="https://www.figma.com/reports/state-of-the-designer-2026/"&gt;State of the Designer 2026&lt;/a&gt; 报告。最醒目的数据：&lt;strong&gt;72% 的设计师已在使用生成式 AI 工具&lt;/strong&gt;，其中 98% 在过去一年增加了使用频率。但更值得关注的是采纳线两侧的分化。&lt;/p&gt;
-
-&lt;p&gt;拥抱 AI 的设计师，工作满意度上升的概率高出 25%。AI 使用量没变的那批人？40% 表示工作环境在恶化。没人说 AI 抢了自己的饭碗——这不是一个"被取代"的故事，而是一个"分道扬镳"的故事。同一个职业，因为个人对新工具的态度不同，正在产生截然不同的体验。&lt;/p&gt;
-
-&lt;p&gt;Figma 把当下称为"混乱的中间地带"（the messy middle）——设计的工作范围在膨胀，但职业身份尚未稳定。数据印证了这一点：受访者报告年同比&lt;strong&gt;任务量增长 17.5%&lt;/strong&gt;。设计师在做的事越来越多：原型、写作、研究、编程、管理利益相关者。角色在扩张，但扩张的方向更奖励适应力，而非窄口专精。&lt;/p&gt;
-
-&lt;p&gt;关于"craft"的定义也出现分歧。58% 认为 craft 是视觉打磨与细节把控，47% 认为是有深度的问题解决。AI 工具正在让"及格线"变得廉价，报告认为品味（taste）正成为设计师最持久的竞争力。当 AI 几秒钟就能生成一个像样的界面，能看出好与更好之间差异的能力——以及能说清为什么——才是真正的护城河。&lt;/p&gt;
-
-&lt;p&gt;工作环境方面有两个发现值得记住。87% 的设计师把创意自由排在薪酬之上；但 91% 同时表示，明确的目标让他们表现最佳。报告说得很到位："自由没有方向就是混乱，方向没有自由就是窒息。"另外，领导层的关注度影响巨大——67% 的人在公司重视 craft 时更快乐，60% 在领导参与设计工作时士气更高。&lt;/p&gt;
-
-&lt;p&gt;招聘市场并没有"设计已死"那么戏剧化。82% 的设计 leader 说需求持平或增长，73% 要求候选人具备 AI 工具能力，79% 希望候选人有设计 AI 产品的经验。市场没有缩小，只是换了一套筛选标准。&lt;/p&gt;
-
-&lt;p&gt;区域差异也很大。北美和欧洲约 35% 的设计师觉得行业在走下坡，中东地区超 70% 持乐观态度。全球叙事掩盖了地方差异。&lt;/p&gt;
-
-&lt;p&gt;对从业者最实用的一句话：别再争论 AI 对设计是好是坏了，把它当作一种基本素养——就像五年前学 Figma 一样。数据已经很清楚：适应的人更满意，差距还在拉大。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/reports/state-of-the-designer-2026/"&gt;https://www.figma.com/reports/state-of-the-designer-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/blog/state-of-the-designer-2026/"&gt;https://www.figma.com/blog/state-of-the-designer-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://uxplaybook.org/articles/figma-2026-design-report-key-findings"&gt;https://uxplaybook.org/articles/figma-2026-design-report-key-findings&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0755d16c-65a0-5f7a-b968-d50d3ea7b216</guid>
-      <pubDate>Mon, 06 Apr 2026 08:04:28 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.figma.com/reports/state-of-the-designer-2026/</link>
-      <enclosure url="https://lirp.cdn-website.com/cca6bc22/dms3rep/multi/opt/Illustration-89333854-1920w.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 四月湾区徒步赏花指南：六条值得跑一趟的野花步道</title>
-      <description>&lt;p&gt;加州今年的野花季被评为"中等偏强"（moderate-to-strong），四月正是 East Bay 和半岛山区开得最猛的时候。之前我们提过超级花海的整体趋势，这次具体聊聊哪几条步道值得你这周末就出发。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sunol Regional Wilderness&lt;/strong&gt;（Fremont 以南）是 East Bay 赏花的首选。Canyon View Trail 和 Indian Joe Creek Trail 都比较好走，四月初已经出现大片紫色和橙色野花。公园入口有 wildflower guide 可以拿，方便对照辨认花种。这里游客密度远低于 Point Reyes，适合想安静走一走的人。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mount Diablo State Park&lt;/strong&gt; 的 Live Oak Trail、Wildcat Trail 沿线加州罂粟（California Poppy）已经铺开，Junction Ranger Station 附近能看到 Blue Dicks 和紫色的 Chinese Houses。Diablo 的优势是海拔差大，山顶和山脚的花期错开，能看到不同阶段的花。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Russian Ridge Preserve&lt;/strong&gt;（Skyline Blvd 沿线，半岛）不到四英里的步道穿过森林和草地，四月的主角是橙色罂粟和蓝色鲁冰花（lupine），往五月走会切换成 mule's ears 和 farewell-to-spring。视野极好，天气晴朗时能看到太平洋。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Point Reyes National Seashore&lt;/strong&gt; 的 Chimney Rock Trail 集合了罂粟、猫头鹰草（owl's clover）、鲁冰花好几种花同时开放的场面。步道尽头是海岬悬崖，花田和太平洋的同框画面是湾区最上镜的春季风景之一。缺点：周末停车极度困难，建议工作日去或者一早出发。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mount Tamalpais&lt;/strong&gt; 的 Matt Davis Trail 到 Fern Creek Trail 环线大约8.8英里，需要4-5小时。沿途能看到 milk maids、Indian paintbrush、checkerbloom 等花种，四月到五月是高峰。这条线体力要求稍高，但沿途植被多样性湾区数一数二。&lt;/p&gt;
-
-&lt;p&gt;半岛海边的 &lt;strong&gt;Pigeon Point Road&lt;/strong&gt;（Half Moon Bay 到 Santa Cruz 之间）则是另一种风格——公路两旁大片黄色野芥菜（wild mustard）铺满山坡，开车经过就很壮观，不需要徒步。适合不想出太多汗但想看花的人。&lt;/p&gt;
-
-&lt;p&gt;几个实用提醒：有些花只在晴天才完全绽开，出发前查天气；最近雨水不少，部分步道可能临时关闭，去之前确认 trail status；拍照可以，别摘花；狗需要拴绳。花期预计持续到五月中旬，但四月中下旬是覆盖面最广的时段。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.pleasantonweekly.com/cover-story/2026/04/02/pretty-petals-wildflowers-in-bloom-throughout-tri-valley-and-beyond/"&gt;https://www.pleasantonweekly.com/cover-story/2026/04/02/pretty-petals-wildflowers-in-bloom-throughout-tri-valley-and-beyond/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.7x7.com/bay-area-wildflower-hikes-1787126535.html"&gt;https://www.7x7.com/bay-area-wildflower-hikes-1787126535.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://guides.openspacetrust.org/wildflowers/"&gt;https://guides.openspacetrust.org/wildflowers/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.kqed.org/science/1996323/where-to-see-wildflowers-near-you-in-the-bay-area"&gt;https://www.kqed.org/science/1996323/where-to-see-wildflowers-near-you-in-the-bay-area&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ddfc0198-922f-5356-9ffb-0de8cffd49ba</guid>
-      <pubDate>Mon, 06 Apr 2026 08:04:32 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.pleasantonweekly.com/cover-story/2026/04/02/pretty-petals-wildflowers-in-bloom-throughout-tri-valley-and-beyond/</link>
-      <enclosure url="https://www.pleasantonweekly.com/wp-content/uploads/2026/03/A6702352-scaled.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Figma's April Platform Push: Make Attachments, Copilot in FigJam, and Built-in Approvals in Buzz / Figma 四月平台更新：Make 附件、FigJam 中的 Copilot 与 Buzz 内建审批</title>
-      <description>&lt;p&gt;Figma shipped a cluster of platform updates in early April that collectively tell a clear story: the company is betting hard on &lt;strong&gt;context-rich AI interactions&lt;/strong&gt; and tighter integration with enterprise workflows. Three features stand out.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Make Attachments&lt;/strong&gt; is the most practically significant. As of April 2, designers can attach existing files — PRDs, brand guidelines, code files (TSX, JS, CSS), CSVs, JSONs, images, videos, and SVGs — directly to any Make prompt. This addresses the single biggest frustration with AI design tools: the model does not know your project. Previously, getting Make to produce on-brand results meant writing elaborate prompts that described your brand verbally. Now you drop in the actual brand PDF and reference it. The tradeoff is cost: credit consumption scales with attachment size and complexity, so a 40-page brand guideline attached to every prompt gets expensive fast. Teams will need to learn what to attach and what to summarize.&lt;/p&gt;
-
-&lt;p&gt;This pairs with the &lt;a href="https://help.figma.com/hc/en-us/articles/35865276858647-Manage-AI-credits"&gt;Make AI Administration&lt;/a&gt; system, also now live on Organization and Enterprise plans. Admins can purchase AI credit subscriptions or enable pay-as-you-go billing at $0.03 per credit. The credit administration console includes role-based permissions, so design leads can set budgets without giving everyone purchase access. Professional plans get this in May 2026.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Copilot in FigJam&lt;/strong&gt; is the second notable addition. Microsoft 365 Copilot can now generate structured diagrams — flowcharts, Gantt charts, sequence diagrams, state diagrams — directly inside FigJam by referencing documents and messages from the Microsoft 365 ecosystem. For teams that live in Teams and SharePoint, this removes the manual step of reading a spec, summarizing it, and then drawing the diagram. You reference the source document and Copilot generates the visual. The quality will depend on Copilot's understanding of your specific documents, but the integration path itself is smart: FigJam becomes a visual layer on top of the Microsoft productivity stack.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://irp.cdn-website.com/cca6bc22/dms3rep/multi/Figma+Icon-59d54318.svg" alt="Figma logo" style="max-width:80px;height:auto;" /&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Built-in Approvals in Buzz&lt;/strong&gt; solves a workflow gap. Buzz, Figma's asset management layer, now supports approval workflows where admins can require design review before assets are exported. Teams can make review optional or mandatory, configurable per organization. This is aimed squarely at brand governance in large companies where dozens of people produce and export assets. The feature is in beta for Organization and Enterprise seats.&lt;/p&gt;
-
-&lt;p&gt;Taken together, these updates show Figma leaning into a platform strategy beyond the canvas. Make is becoming an AI layer that consumes real project context. FigJam is becoming a visualization endpoint for enterprise productivity tools. Buzz is becoming a governed asset pipeline. None of these features are revolutionary on their own, but the direction is consistent: Figma wants to own not just the design file, but the workflows around it.&lt;/p&gt;
-
-&lt;p&gt;For design system teams, the practical implication is clear: your documentation and brand assets are now inputs to AI generation. Their quality directly affects output quality. A well-structured brand guideline PDF attached to Make will produce better results than a sloppy one. Documentation just became part of the design system surface area.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Figma 在四月初集中发布了一批平台更新，释放出清晰信号：公司正在押注&lt;strong&gt;富上下文的 AI 交互&lt;/strong&gt;与企业级工作流整合。三个功能最值得关注。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Make Attachments&lt;/strong&gt; 是实用价值最高的一个。4 月 2 日起，设计师可以将 PRD、品牌指南、代码文件（TSX/JS/CSS）、CSV、JSON、图片、视频和 SVG 直接附加到 Make 提示词中。这击中了 AI 设计工具最大的痛点：模型不了解你的项目。以前要让 Make 输出符合品牌调性的结果，得写一堆描述性提示词。现在直接丢品牌 PDF 进去就行。但代价是消耗更多 credit——附件越大越复杂，费用越高。团队需要摸索出"该附什么、该概括什么"的平衡点。&lt;/p&gt;
-
-&lt;p&gt;配合上线的还有 &lt;a href="https://help.figma.com/hc/en-us/articles/35865276858647-Manage-AI-credits"&gt;Make AI Administration&lt;/a&gt;，Organization 和 Enterprise 计划已可用，Professional 计划 5 月跟上。管理员可以购买 AI credit 订阅或开启按量计费（$0.03/credit），并通过角色权限控制预算。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Copilot in FigJam&lt;/strong&gt; 让 Microsoft 365 Copilot 能直接在 FigJam 里生成流程图、甘特图、时序图和状态图，数据来源是 Teams 和 SharePoint 中的文档与消息。对于深度依赖微软生态的团队，这省去了"读文档→总结→手动画图"的步骤。FigJam 正在变成微软生产力工具之上的可视化层。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Buzz 内建审批&lt;/strong&gt; 填补了一个工作流缺口。管理员可以设置导出前的设计审核——可选或强制，按组织配置。这直接针对大公司里几十个人同时生产和导出素材的场景。功能目前处于 beta 阶段。&lt;/p&gt;
-
-&lt;p&gt;三个功能放在一起看，Figma 的平台战略已经很清晰：Make 变成消费真实项目上下文的 AI 层，FigJam 变成企业工具的可视化终端，Buzz 变成受治理的素材管线。单独看都不算革命性，但方向一致——Figma 要拥有的不只是设计文件，还有围绕设计文件的整个工作流。&lt;/p&gt;
-
-&lt;p&gt;对设计系统团队来说，实际含义很明确：你的文档和品牌素材现在是 AI 生成的输入。它们的质量直接决定输出质量。文档已经成为设计系统的一部分了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://releasebot.io/updates/figma"&gt;https://releasebot.io/updates/figma&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/35865276858647-Manage-AI-credits"&gt;https://help.figma.com/hc/en-us/articles/35865276858647-Manage-AI-credits&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/blog/product-updates/"&gt;https://www.figma.com/blog/product-updates/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">680c2cac-090c-540a-b056-19f63170e3ae</guid>
-      <pubDate>Mon, 06 Apr 2026 08:05:17 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://releasebot.io/updates/figma</link>
-      <enclosure url="https://irp.cdn-website.com/cca6bc22/dms3rep/multi/Figma+Icon-59d54318.svg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 iOS 27 Will Ship a System-Wide Liquid Glass Slider — If Apple Can Solve the Engineering / iOS 27 将推出系统级 Liquid Glass 强度滑块——前提是苹果能解决工程难题</title>
-      <description>&lt;p&gt;Following up on the ongoing Liquid Glass thread: Apple is making a second attempt at a system-wide Liquid Glass intensity slider for iOS 27, after the feature was cut from iOS 26 due to engineering challenges. Multiple reports from &lt;a href="https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/"&gt;MacRumors&lt;/a&gt;, &lt;a href="https://9to5mac.com/2026/03/16/ios-27-might-include-a-liquid-glass-slider/"&gt;9to5Mac&lt;/a&gt;, and &lt;a href="https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27"&gt;AppleInsider&lt;/a&gt; now converge on the same picture: the slider is real, actively under development, and targeted for WWDC 2026 on June 8.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/pFVhgRzRe2GSb-wcYZqyH9E3Eqc=/1600x0/article-new/2026/03/iOS-27-Glass-Slider-Feature.jpg" alt="iOS 27 Liquid Glass Slider concept" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;iOS 27 is expected to include a system-wide Liquid Glass intensity control. Source: MacRumors&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The engineering problem is specific.&lt;/strong&gt; During iOS 26 development, Apple successfully shipped a Liquid Glass intensity control for the Lock Screen clock. But extending that control to the rest of the system — app folders, home screen icons, and navigation bars — proved far harder than expected. According to Mark Gurman's reporting, the difficulty lies in applying a single intensity parameter consistently across UI elements that have fundamentally different rendering pipelines. A navigation bar's glass effect uses different compositing than an app folder's, and making one slider govern all of them requires unifying those rendering paths.&lt;/p&gt;
-
-&lt;p&gt;Apple is "trying again now for iOS 27," and the engineering team has reportedly made enough progress to keep the feature on the roadmap. If it ships, users will get a single system-wide control that adjusts the transparency and refraction intensity of Liquid Glass across the entire interface — from a subtle shimmer to the full effect Apple currently defaults to.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The design implications for product teams are significant.&lt;/strong&gt; If Apple ships a slider that lets users dial Liquid Glass down to near-zero, developers need to test their apps at every intensity level. A UI that looks great at full glass intensity might have contrast or readability issues at 30%. This is analogous to the Dark Mode rollout — what seemed like one design decision created a matrix of testing permutations. Apple's developer documentation for iOS 26 already recommends testing glass effects with both light and dark appearances; a slider would add a third dimension.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, Liquid Glass is becoming non-negotiable. AppleInsider reports that &lt;strong&gt;Xcode 27 will require Liquid Glass&lt;/strong&gt; — there is no opt-out path for developers. Steve Lemay, Apple's new VP of Human Interface Design (who replaced Alan Dye), was "a driving force behind Liquid Glass and was deeply involved in its development." The design language is here to stay; the question is only how much user control Apple adds around it.&lt;/p&gt;
-
-&lt;p&gt;Apple has been incrementally addressing the criticism Liquid Glass received at launch. iOS 26 updates added tinting options and granular Lock Screen controls. The system-wide slider is the most ambitious response yet — an admission that one-size-fits-all transparency does not work for everyone, while maintaining Liquid Glass as the visual identity of the platform.&lt;/p&gt;
-
-&lt;p&gt;For product designers building on Apple's ecosystem: start planning for variable glass intensity now. Design your contrast ratios, text legibility, and icon visibility to hold up across the full range. If the slider ships in September, apps that look broken at low intensity will stand out — and not in a good way.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Liquid Glass 动态后续：苹果正在为 iOS 27 第二次尝试系统级 Liquid Glass 强度滑块，此前该功能因工程难题被从 iOS 26 中砍掉。&lt;a href="https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/"&gt;MacRumors&lt;/a&gt;、&lt;a href="https://9to5mac.com/2026/03/16/ios-27-might-include-a-liquid-glass-slider/"&gt;9to5Mac&lt;/a&gt; 和 &lt;a href="https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27"&gt;AppleInsider&lt;/a&gt; 的多源报道指向同一结论：滑块确实存在，正在积极开发，目标是 6 月 8 日 WWDC 2026 亮相。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/pFVhgRzRe2GSb-wcYZqyH9E3Eqc=/1600x0/article-new/2026/03/iOS-27-Glass-Slider-Feature.jpg" alt="iOS 27 Liquid Glass Slider" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;iOS 27 预计将提供系统级 Liquid Glass 强度调节。来源：MacRumors&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;工程难点很具体。&lt;/strong&gt; iOS 26 开发时，苹果成功在锁屏时钟上实现了 Liquid Glass 强度控制。但将同一控制扩展到应用文件夹、主屏图标和导航栏时，难度远超预期。据 Mark Gurman 报道，核心问题在于这些 UI 元素使用不同的渲染管线——导航栏的玻璃效果合成方式与应用文件夹的完全不同，要让一个滑块统一控制所有元素，必须先统一底层渲染路径。&lt;/p&gt;
-
-&lt;p&gt;苹果"正在为 iOS 27 再次尝试"，工程团队据报已取得足够进展。如果最终发布，用户将获得一个系统级控件，可调节整个界面中 Liquid Glass 的透明度和折射强度——从微妙光泽到当前默认的完整效果。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;对产品团队的设计影响不容忽视。&lt;/strong&gt; 如果苹果发布强度滑块，开发者需要在每个强度级别测试应用。全效果下看起来很棒的界面，在 30% 强度时可能出现对比度或可读性问题。这类似于 Dark Mode 推出时的情况——一个设计决策创造出一整套测试排列组合。&lt;/p&gt;
-
-&lt;p&gt;同时，Liquid Glass 正变得不可回避。AppleInsider 报道 &lt;strong&gt;Xcode 27 将强制要求 Liquid Glass&lt;/strong&gt;，没有退出选项。苹果新任 HI 设计副总裁 Steve Lemay（接替 Alan Dye）"是 Liquid Glass 的推动者，深度参与了其开发"。设计语言已成定局，问题只在于苹果会给用户多少调控空间。&lt;/p&gt;
-
-&lt;p&gt;对在苹果生态中构建产品的设计师来说：现在就开始规划可变玻璃强度。确保对比度、文字清晰度和图标可见性在全范围内都站得住脚。如果滑块 9 月上线，在低强度下崩坏的应用会格外显眼。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/"&gt;https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/03/16/ios-27-might-include-a-liquid-glass-slider/"&gt;https://9to5mac.com/2026/03/16/ios-27-might-include-a-liquid-glass-slider/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27"&gt;https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.digitaltrends.com/phones/ios-27-may-let-you-adjust-the-liquid-glass-effect-across-your-iphone-with-a-new-slider/"&gt;https://www.digitaltrends.com/phones/ios-27-may-let-you-adjust-the-liquid-glass-effect-across-your-iphone-with-a-new-slider/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8b009883-9306-502f-9eb4-7e960ff41023</guid>
-      <pubDate>Mon, 06 Apr 2026 08:06:06 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.macrumors.com/2026/03/15/ios-27-may-add-a-useful-setting/</link>
-      <enclosure url="https://images.macrumors.com/t/pFVhgRzRe2GSb-wcYZqyH9E3Eqc=/1600x0/article-new/2026/03/iOS-27-Glass-Slider-Feature.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 KQED 深度报道「大挤压」：七个湾区人讲述自己怎么扛过高物价</title>
-      <description>&lt;p&gt;KQED 本周发布了一篇长报道&lt;a href="https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs"&gt;《The Great Squeeze》&lt;/a&gt;，采访了七位湾区普通居民，记录他们在持续高涨的生活成本面前做出的妥协和适应。文章附带的数据也够扎心——湾区中位房价约 120 万美元，较 2012 年（经通胀调整后）高出 77%；两居室中位月租 $3,300，比全国均价高 83%；2019 到 2025 年间杂货价格上涨 34%，养车成本更是在 2017 到 2024 年间飙升了 45%。&lt;/p&gt;
-
-&lt;p&gt;报道中几位受访者的故事相当有代入感。42 岁的 North Bay 临终关怀护士 Brooke Dawson 住在母亲后院的 Airstream 房车里，靠家人互助带孩子勉强维持；65 岁的退休夫妇 Keith 和 Lisa Alvord 在 2010 年失去了 Trinity County 的房子，之后在湾区码头的 35 英尺帆船上住了三年，现在准备搬进儿子车库改建的 ADU。Danville 的学校心理咨询师 Christy Brown，48 岁，每周工作 65 小时——白天做咨询，晚上去酒吧打工，周末教瑜伽。她说：「我感觉自己一直在拼命工作，但勉强够用。」&lt;/p&gt;
-
-&lt;p&gt;24 岁的艺术家 Misha Kurita-Ditz 从小在 SF 西部的 rent-controlled 公寓长大，房东换人后被赶走，不得不搬回母亲在旧金山的 condo。37 岁的 Santa Rosa 面包房员工 Chad Morrison 正在重新考虑是否还有必要养车——电动车买不起，油车养不起。39 岁的墨西哥移民 Citlali Iriarte 同时打两份工（居家护理 + YMCA 教育者），靠减少肉类摄入和调整餐食来压缩食品开支。&lt;/p&gt;
-
-&lt;p&gt;报道还指出一个趋势：2024 年美国多代同住购房比例达到 17%，其中 36% 的人明确说原因是「省钱」——这个数字 2015 年只有 15%。湾区正在把中产阶级逼回大家庭模式。这篇报道是理解湾区「数据之外」生活质量的好材料，值得完整读一遍。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs"&gt;https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f4556765-4e9f-5902-9d95-399845f98943</guid>
-      <pubDate>Tue, 07 Apr 2026 08:02:11 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.kqed.org/news/12078480/the-great-squeeze-bay-area-residents-downsize-and-adapt-to-rising-costs</link>
-      <enclosure url="https://cdn.kqed.org/wp-content/uploads/sites/10/2026/04/AffordabilitySeriesIntro_Lede.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🌉 本周末 Fort Mason 看海洋纪录片：第 23 届国际海洋电影节 4/10-12</title>
       <description>&lt;p&gt;第 23 届&lt;strong&gt;国际海洋电影节&lt;/strong&gt;（International Ocean Film Festival, IOFF）本周四到周六（4/10-12）在 Fort Mason 的 Cowell Theater 举行，集中放映来自世界各地的 30 多部海洋主题独立纪录片。对住在湾区的人来说，这是一个非常「在地」的文化活动——毕竟加州海岸本身就是许多片子的拍摄地。&lt;/p&gt;
@@ -1734,6 +1209,530 @@
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Mirror_therapy</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg/1280px-US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 六年磨一剑——康奈尔团队PNAS发表非激素男性避孕突破：靶向减数分裂，小鼠完全可逆</title>
+      <description>&lt;p&gt;男性避孕领域长久以来只有两个选项：安全套或输精管结扎。前者依赖性差，后者不可逆。几十年来科学家一直试图找到第三条路——一种安全、可逆、非激素的男性避孕方法。4月7日发表在&lt;strong&gt;PNAS&lt;/strong&gt;上的一项研究，让这个目标离现实又近了一步。&lt;/p&gt;
+
+&lt;p&gt;康奈尔大学遗传学教授Paula Cohen领导的团队，用了整整六年时间验证一个思路：用小分子化合物JQ1靶向精子生成过程中的&lt;strong&gt;减数分裂&lt;/strong&gt;（meiosis）关键检查点——前期I（prophase I）。JQ1原本是癌症和炎症研究中的工具化合物，但Cohen团队发现它能精准中断精子成熟所需的基因表达，使细胞在减数分裂阶段死亡，从而彻底阻断精子产生。&lt;/p&gt;
+
+&lt;p&gt;实验数据很干净：给雄性小鼠连续使用JQ1三周，精子产量降至零。停药六周后，减数分裂的所有分子参数恢复正常，精子产量回到基线水平。更关键的是——恢复后的小鼠成功交配产仔，后代再繁殖也完全正常，排除了遗传毒性的顾虑。&lt;/p&gt;
+
+&lt;p&gt;这项研究的意义在于「机制」而不仅仅是JQ1本身。Cohen团队已经锁定了三个新的基因靶点，它们在减数分裂中同样具有关键作用，接下来的任务是为这些靶点开发可逆的干预手段。Cohen表示，团队计划在两年内成立公司推进商业化，最终产品形态可能是每三个月一次的注射或贴片。&lt;/p&gt;
+
+&lt;p&gt;共同第一作者Stephanie Tanis和Leah Simon（均为康奈尔2025届博士）在论文中指出，与激素类方法不同，靶向减数分裂不干扰睾酮水平，因此不会带来情绪波动、肌肉流失或性欲下降等副作用——这正是过去激素类男性避孕药反复失败的原因。&lt;/p&gt;
+
+&lt;p&gt;从临床转化的角度看，小鼠到人类仍有很长的路。但减数分裂的核心机制在哺乳动物中高度保守，这让跨物种推演有了合理基础。如果一切顺利，这将是自口服避孕药1960年上市以来，避孕领域最重大的突破。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception"&gt;https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/04/260407193844.htm"&gt;https://www.sciencedaily.com/releases/2026/04/260407193844.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b4eec1ee-1e01-5962-9e1a-57fcab7b3899</guid>
+      <pubDate>Thu, 09 Apr 2026 08:03:35 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception</link>
+      <enclosure url="https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2026-04/0407_male_contraception.jpg?itok=SiMr8p0a" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 AI 公司正在吞噬旧金山办公楼：OpenAI 120万平方英尺领跑，机器人创业潮紧随其后</title>
+      <description>&lt;p&gt;SF Standard 本周发布了一份旧金山 AI 公司办公面积排行榜，数字令人咋舌。&lt;strong&gt;OpenAI&lt;/strong&gt; 以 120 万平方英尺（约 11 万平方米）高居榜首，分布在 Mission Bay、SoMa 等多个地点，其中包括转租 Uber Mission Bay 总部的一半。紧随其后的是 &lt;strong&gt;Anthropic&lt;/strong&gt;，约 99.5 万平方英尺，集中在 SoMa 的 Foundry Square 四栋楼——500、505、405、400 Howard Street 被开发商戏称为"AI Alley"。排名第三的 Sierra AI（OpenAI 董事长 Bret Taylor 创办）在 China Basin 拿下 30 万平方英尺；Scale AI 转租 Airbnb 在 650 Townsend 的 18 万平方英尺；Harvey AI 在 201 Third Street 占据 15 万平方英尺。&lt;/p&gt;
+
+&lt;p&gt;整体来看，AI 公司在旧金山已占据约 700 万平方英尺办公空间，占全市已租面积的 12%。两年前的排行榜上还有 Unlearn AI 和 Hive AI 等公司，如今已被 Sierra AI 和 Mira Murati 的 Thinking Machines Lab 等新玩家挤出前六。这种更替速度本身就说明了行业的疯狂。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是 AI 正在从软件蔓延到硬件。据 JLL 统计，湾区机器人和无人机公司的办公面积从 2020 年的不到 50 万平方英尺暴涨到 2025 年的 760 万平方英尺，今年预计新增租赁超过 150 万平方英尺。JLL 追踪的 96 家 AI 机器人公司中，一半在旧金山。Physical Intelligence 在 808 Brannan 租了 6 万平方英尺，Bedrock Robotics（刚完成 2.7 亿美元 B 轮）在 799 Market Street 租了 3.5 万平方英尺。就连 Jeff Bezos 的 Project Prometheus 也在找 6-10 万平方英尺的弹性空间。&lt;/p&gt;
+
+&lt;p&gt;风投数据同样惊人：AI 机器人领域的投资从 2015 年的 2.72 亿美元飙升到 2025 年的 206 亿美元，其中湾区自 2020 年以来吸纳了 118 亿美元，比洛杉矶（88 亿）多 30%。旧金山的 AI 机器人公司有个独特现象：80% 用的是普通办公空间而非实验室，因为它们更侧重模型开发而非硬件制造——制造环节留给了南湾。这座城市正从"软件吃世界"进化为"AI 机器人吃办公楼"。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/07/i-leaderboard-san-francisco-office/"&gt;https://sfstandard.com/2026/04/07/i-leaderboard-san-francisco-office/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/06/robotics-san-francisco-ai-boom/"&gt;https://sfstandard.com/2026/04/06/robotics-san-francisco-ai-boom/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">791d5590-9a79-540f-8fcf-9a9a61329e74</guid>
+      <pubDate>Thu, 09 Apr 2026 08:03:51 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sfstandard.com/2026/04/07/i-leaderboard-san-francisco-office/</link>
+      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_eu6kmdl9p50j33gmbvku7hdu2e/-S1200x630-FPNG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 11000人肠道数据揭示「隐形细菌」CAG-170——剑桥团队Cell Host &amp; Microbe论文：健康人群的肠道里都住着它</title>
+      <description>&lt;p&gt;肠道菌群研究已经进入精细化时代，但仍有大量细菌「活在暗处」——它们无法在实验室培养，只能通过基因测序才知道存在。剑桥大学Alexandre Almeida团队在&lt;strong&gt;Cell Host &amp; Microbe&lt;/strong&gt;（2026年2月）发表的一项大规模荟萃分析，就盯上了这类「隐形菌群」中的一个关键成员：CAG-170。&lt;/p&gt;
+
+&lt;p&gt;研究团队汇集了来自39个国家超过11,000份肠道宏基因组样本，涵盖13种慢性疾病（包括克罗恩病、结直肠癌、帕金森病、多发性硬化等）和健康对照。他们用三种独立的计算方法交叉验证同一个发现：CAG-170细菌群在健康人群中的丰度，&lt;strong&gt;持续且显著&lt;/strong&gt;高于患病人群。这不是某一个地区或某一种疾病的偶然关联——跨越五大洲、13种疾病谱的数据全都指向同一方向。&lt;/p&gt;
+
+&lt;p&gt;CAG-170到底在做什么？基因组功能分析给出了线索：这类细菌携带大量碳水化合物、糖类和膳食纤维的降解酶，同时具备高水平的&lt;strong&gt;维生素B12合成&lt;/strong&gt;能力。研究者推测，CAG-170产生的B12可能并非直接供给人体，而是「喂养」肠道中的其他共生菌——换句话说，它更像是微生物生态系统里的「后勤保障」，维持整个菌群的稳定运转。&lt;/p&gt;
+
+&lt;p&gt;这项研究与我们3月底报道的Rutgers/Princeton团队发表的&lt;strong&gt;ENBI&lt;/strong&gt;（肠道生态网络平衡指数）形成了有趣的呼应。ENBI侧重于用网络拓扑学量化菌群整体的「生态韧性」，而CAG-170则提供了一个具体的生物标志物——两条研究路径从不同方向收敛：肠道健康不应只看某几种「明星菌」的有无，而要理解整个生态系统的协调能力。&lt;/p&gt;
+
+&lt;p&gt;实用层面的前景也很清晰。CAG-170有潜力成为肠道健康的快速筛查指标——检测一个基因组签名，比分析整个菌群图谱简单得多。Almeida团队也提到了开发CAG-170定向益生菌的可能性，不过先决条件是搞清楚如何在实验室里把这些「隐形菌」养起来。这本身就是一个不小的技术挑战。&lt;/p&gt;
+
+&lt;p&gt;膳食纤维摄入对CAG-170丰度有无直接影响？不同种族和饮食模式下CAG-170的基线差异有多大？这些问题论文尚未回答，但数据集的跨国规模为后续分析预留了空间。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cam.ac.uk/research/news/hidden-bugs-in-our-gut-appear-key-to-good-health-finds-global-study"&gt;https://www.cam.ac.uk/research/news/hidden-bugs-in-our-gut-appear-key-to-good-health-finds-global-study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S1931312826000387"&gt;https://www.sciencedirect.com/science/article/pii/S1931312826000387&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">718df39a-28cf-5fe0-9233-2f444e0ef3b4</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:02 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.cam.ac.uk/research/news/hidden-bugs-in-our-gut-appear-key-to-good-health-finds-global-study</link>
+      <enclosure url="https://www.cam.ac.uk/sites/default/files/news/research/news/gettyimages-885x428px-gut-microbes-thom-leach-science-photo-library.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 东湾餐饮本周上新：Cheese Board 扩店、泰式茶馆变身海鲜酒吧、也门咖啡开到东奥克兰</title>
+      <description>&lt;p&gt;东湾这周有一波值得关注的餐饮开业。首先是伯克利地标 &lt;strong&gt;Cheese Board Collective&lt;/strong&gt;——这家由 50 多名员工共同拥有的合作社面包店已经运营了半个世纪，4 月 10 日（周五）将在 1504 Shattuck Ave 重新开放芝士和烘焙零售店，搬进了原 Berkeley Produce Center 的空间。Cheese Board 的披萨窗口早已是排队圣地，现在芝士柜台终于也回来了。&lt;/p&gt;
+
+&lt;p&gt;最令人期待的新店是 &lt;strong&gt;Nudi Blue&lt;/strong&gt;，4 月 9 日在 2049 San Pablo Ave 开业。老板 Jezreel "Jae" Rojas 和 Krissana "Tanz" Tussanaprasit 就是伯克利人气早午餐店 Tanzie's Cafe 的创始人。Nudi Blue 白天是泰式茶馆，供应清迈茶和小点心；到了晚上变身海鲜酒吧，主打葡萄酒搭配。"一店两面"的概念在湾区并不常见，Tanzie's 的口碑让人对这个新项目很有信心。&lt;/p&gt;
+
+&lt;p&gt;西伯克利也有动静：&lt;strong&gt;SoDo Cafe&lt;/strong&gt; 在 Hammerling Wines（1350 Fifth St）完成了试营业。SoDo 是湾区唯一一家专做酸面团甜甜圈（sourdough donut）的品牌，之前只做外卖和弹出店，现在终于有了固定门面。除了甜甜圈，还供应三明治和佛卡夏。在天然酒吧里吃酸面团甜甜圈，这个搭配很伯克利。&lt;/p&gt;
+
+&lt;p&gt;再往南，东奥克兰的 &lt;strong&gt;Sana'a Cafe&lt;/strong&gt; 已于 4 月 3 日在 185 98th Ave 开业，靠近奥克兰机场。这是一家也门咖啡馆，把也门传统咖啡文化带到了东奥克兰——一个餐饮选择相对有限的区域。另外，奥克兰还有一家叫 &lt;strong&gt;Bad Decision&lt;/strong&gt; 的新酒吧接管了原 A Capella 的空间，以及 Quebrada 在 Phở Vy 旧址开出了新概念。东湾的餐饮密度正在稳步提升，而且越来越多样化。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://oaklandside.org/2026/04/07/nudi-blue-cheese-board-sodo-quebrada-opening/"&gt;https://oaklandside.org/2026/04/07/nudi-blue-cheese-board-sodo-quebrada-opening/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.berkeleyside.org/2026/04/07/nudi-blue-cheese-board-sodo-quebrada-opening"&gt;https://www.berkeleyside.org/2026/04/07/nudi-blue-cheese-board-sodo-quebrada-opening&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4fcaef7d-2583-59d2-84ce-6c377d8b2daf</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:17 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://oaklandside.org/2026/04/07/nudi-blue-cheese-board-sodo-quebrada-opening/</link>
+    </item>
+    <item>
+      <title>🧠 🧠 大脑学会一件事靠的不是重复，而是间隔 —— Nature Neuroscience 颠覆巴甫洛夫经典假设</title>
+      <description>&lt;p&gt;一个多世纪以来，心理学教科书告诉我们：学习 = 重复。铃声响一次不够，响一百次狗才会流口水。但 UCSF 神经科学家 Namboodiri 团队 2026 年 2 月发表在 &lt;em&gt;Nature Neuroscience&lt;/em&gt; 的研究，用 101 只小鼠和精密的多巴胺追踪技术，彻底推翻了这个假设。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实验设计的巧妙之处。&lt;/strong&gt;研究者让小鼠听到一个短音后获得糖水奖励，但关键变量不是「重复多少次」，而是「两次奖励之间隔多久」。一组小鼠每 60 秒获得一次配对，另一组每 600 秒一次——间隔相差 10 倍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;核心发现令人震惊：间隔 600 秒的小鼠，只需约十分之一的试验次数就学会了同样程度的联想。&lt;/strong&gt;也就是说，尽管两组的重复次数相差 20 倍，但在相同的总时间内，它们达到了等价的学习效果。用光纤光度法追踪伏隔核中的多巴胺释放，结果完全吻合——大脑不是在「数」重复次数，而是在「计」时间间隔。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;这意味着什么？&lt;/strong&gt;经典的 Rescorla-Wagner 模型假设每一次配对都提供等量的学习信号。但 Burke 等人的数据表明，学习的真正驱动力是奖励之间的&lt;em&gt;时间比例&lt;/em&gt;，而非绝对次数。当间隔更长时，每次配对的信息量更大，大脑分配给它的权重也更高。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对日常学习的启示极为直接。&lt;/strong&gt;这从神经机制层面解释了教育心理学中早已观察到的「间隔效应」（spacing effect）：为什么考前突击的学生成绩不如分散复习的学生？不是因为后者复习了更多次，而是因为每次复习之间的间隔赋予了每一次更大的学习权重。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实操建议：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;学新技能时，与其一天练 5 小时，不如每天练 30 分钟、连续 10 天——总时间相同，但间隔更长，每次练习的神经编码效率更高&lt;/li&gt;&lt;li&gt;想建立新习惯？关键不在于「打卡频率」，而在于每次执行之间是否有足够的时间间隔让大脑消化&lt;/li&gt;&lt;li&gt;这也解释了为什么成瘾物质如此危险：高频率的奖励刺激压缩了间隔，让大脑的学习机制「降档」，需要越来越多的次数才能维持同样的效果&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;局限与展望。&lt;/strong&gt;该研究目前基于动物模型，人类验证尚需跟进。此外，研究主要聚焦于简单的声音-奖励联想，复杂认知任务（如语言学习、概念理解）是否遵循同一规律，仍是开放问题。但作为在 &lt;em&gt;Nature Neuroscience&lt;/em&gt; 发表的严谨工作，它为「间隔学习」提供了迄今最清晰的多巴胺层面的机制解释。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41593-026-01234-5"&gt;https://www.nature.com/articles/s41593-026-01234-5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ucsf.edu/news/2026/02/431511/brain-may-learn-more-rare-events-repetition"&gt;https://www.ucsf.edu/news/2026/02/431511/brain-may-learn-more-rare-events-repetition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/neuroscientists-just-upended-our-understanding-of-pavlovian-learning/"&gt;https://www.psypost.org/neuroscientists-just-upended-our-understanding-of-pavlovian-learning/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">10076c29-0a16-5264-83d8-dce2c01be9da</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:19 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/s41593-026-01234-5</link>
+    </item>
+    <item>
+      <title>🎲 每20年拆毁重建一次，持续1300年——伊势神宫如何用「消失」实现永恒</title>
+      <description>&lt;p&gt;如果一座建筑每隔20年就被彻底拆除、在旁边的空地上用全新的木头原样重建，那么今天你看到的这座建筑，还是1300年前的那一座吗？&lt;/p&gt;
+
+&lt;p&gt;这不是哲学课上的思想实验。这是日本三重县&lt;strong&gt;伊势神宫&lt;/strong&gt;（Ise Jingū）每20年都在做的事。这个仪式叫「式年迁宫」（Shikinen Sengū），始于公元690年，由天武天皇确立。2013年完成的是第62次迁宫，耗资约570亿日元（约合5.5亿美元）。下一次定于2033年。&lt;/p&gt;
+
+&lt;p&gt;迁宫的规模远超想象。神宫由内宫（Naikū）和外宫（Gekū）两大核心组成，每次需要重建的建筑群多达数十座。所有结构全部使用日本扁柏（hinoki），来自长野与岐阜交界的木曽山脉，树龄200到350年。一次迁宫需要约12000根扁柏原木，仅备料就要花4年。整个准备流程长达8到17年——而完工后的建筑只会存在20年。&lt;/p&gt;
+
+&lt;p&gt;建造方式同样古老：不用一根钉子，全凭木构件的榫卯接合。屋顶用茅草铺设，顶部竖着叫「千木」（chigi）的叉形饰件。每座建筑旁边都有一块铺满白色鹅卵石的空地，叫「古殿地」（kodenchi）——那是上一座神殿曾经站立的地方，也是下一座将要矗立的位置。两块地交替使用，新旧永远只隔一步之遥。&lt;/p&gt;
+
+&lt;p&gt;拆下来的旧木材并不丢弃。它们会被分送到日本各地的神社，用于修缮其他建筑。一棵350年的扁柏，从木曽山上砍下，在伊势服役20年，然后继续在另一座神社里存在几十甚至上百年。木头的生命比任何一座建筑都长。&lt;/p&gt;
+
+&lt;p&gt;伊势神宫的核心区域禁止拍照，普通参拜者只能隔着四重木栅看到茅草屋顶的一角。据传，内宫深处供奉着八咫镜——日本皇室三神器之一——但没有活着的人能确认它是否还在那里。这种刻意的不可见性本身就是设计的一部分：神圣感来自距离，不来自展示。&lt;/p&gt;
+
+&lt;p&gt;这套制度的哲学基础是一个叫「常若」（tokowaka）的概念——通过反复更新来追求永恒。表面上看这是个矛盾：如果你想让一样东西永远存在，为什么要不断地毁掉它？但伊势神宫的逻辑恰恰相反：&lt;strong&gt;正因为它不断被毁掉，所以它永远不会衰老。&lt;/strong&gt;木头会腐烂，石头会风化，但一种建造方式——如果每20年就把它完整地传授一次——可以比任何材料都持久。&lt;/p&gt;
+
+&lt;p&gt;这也是迁宫最实际的功能：每20年一次的重建，确保了古代建筑技艺在师徒之间活态传承。一个宫大工（miyadaiku，神社专属木匠）一生中大约能参与两到三次迁宫。第一次当学徒，第二次当主力，第三次当导师。知识不是写在书里，而是嵌在手上。&lt;/p&gt;
+
+&lt;p&gt;西方哲学用「忒修斯之船」（Ship of Theseus）来探讨这个问题：如果一艘船的每块木板都被替换过，它还是原来那艘船吗？伊势神宫用1300年的实践给出了一个截然不同的回答——它根本不关心这个问题。在「常若」的世界观里，身份不寄托在物质上，而寄托在形式、仪式和技艺的延续上。船板当然都换了，但造船的人、造船的方法、造船的理由，从来没有中断过。这比那艘船本身重要得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Ise_Shrine"&gt;https://en.wikipedia.org/wiki/Ise_Shrine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.archdaily.com/1002972/the-eternal-ephemeral-architecture-of-shikinen-sengu-the-japanese-temple-rebuilt-every-20-years"&gt;https://www.archdaily.com/1002972/the-eternal-ephemeral-architecture-of-shikinen-sengu-the-japanese-temple-rebuilt-every-20-years&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.iseshima-kanko.jp/en/highlights/sengu_eg"&gt;https://www.iseshima-kanko.jp/en/highlights/sengu_eg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9859b97a-8199-52c4-9ef5-b69d5f066969</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:25 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Ise_Shrine</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Naiku_04.jpg/1280px-Naiku_04.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 柏林Targeting Longevity 2026大会落幕：抗衰老领域的核心问题不再是「逆转」，而是「协调」</title>
+      <description>&lt;p&gt;4月8-9日在柏林举办的第二届Targeting Longevity世界大会刚刚闭幕。这是由世界线粒体学会（WMS）和国际微生物群学会（ISM）联合主办的跨学科会议，汇集了来自宾大、东京、利物浦等机构的研究者，以及L'OREAL、Springer Nature等20余家企业代表。续接我们4月3日的预告报道，这里是大会核心信息的总结。&lt;/p&gt;
+
+&lt;p&gt;大会的核心论点由主席Marvin Edeas博士定调：&lt;strong&gt;「衰老的本质不是某个分子通路的故障，而是线粒体、微生物群、免疫信号和代谢调控之间协调性的渐进丧失。」&lt;/strong&gt;这句话听起来抽象，但它实质上宣告了一个方向转变——过去十年，抗衰老研究的主流策略是找到某一个靶点（senolytic清除衰老细胞、rapamycin抑制mTOR、NAD+前体补充辅酶），然后在这个靶点上使劲。结果呢？临床转化率极低。&lt;/p&gt;
+
+&lt;p&gt;大会上多位报告者从不同角度论证了同一观点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线粒体信号通路如何在衰老过程中调控炎症反应——单独改善线粒体功能并不能阻止炎症失控&lt;/li&gt;
+&lt;li&gt;微生物群-大脑交互如何塑造衰老轨迹——菌群干预不配合神经免疫调节，效果有限&lt;/li&gt;
+&lt;li&gt;代谢微环境对组织修复的调控——仅仅补充某种代谢物，不改变组织整体环境，作用短暂&lt;/li&gt;
+&lt;li&gt;比较生物学视角——不同物种（甚至包括猫、狗等伴侣动物）的寿命差异可以用系统韧性而非单基因来解释&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;大会提出的新框架用了一个工程学隐喻：&lt;strong&gt;韧性工程&lt;/strong&gt;（resilience engineering）。目标不是「把时钟拨回去」，而是增强生物系统在受到扰动后恢复稳态的能力。这种思路在航空和桥梁工程里是常识，但在生物老化领域还很新。&lt;/p&gt;
+
+&lt;p&gt;对普通人来说，这意味着什么？大会的隐含信息是：没有哪一种「抗衰老神药」能单独起效。真正有效的干预更可能是多管齐下的组合策略——饮食、运动、睡眠、菌群管理同时优化，而非押注某一种补剂。这与我们最近报道的ENBI肠道生态指标、深度睡眠-GH反馈回路、运动抗癌分子机制等研究指向同一个方向：系统性思维，而非单一靶点思维。&lt;/p&gt;
+
+&lt;p&gt;下一步值得关注的是大会后是否会产出联合声明或共识文件，以及WMS和ISM是否会启动跨学科的联合研究计划。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1116021"&gt;https://www.eurekalert.org/news-releases/1116021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1122179"&gt;https://www.eurekalert.org/news-releases/1122179&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://targeting-longevity.com/"&gt;https://targeting-longevity.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d1ad9050-b5ab-5e0d-ab9f-511dfe38cc72</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:32 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.eurekalert.org/news-releases/1116021</link>
+    </item>
+    <item>
+      <title>🌉 本周湾区：加州街日出奇观、周末降雨、PloverFest 海滩派对——樱花祭和餐厅周之外还有这些</title>
+      <description>&lt;p&gt;樱花祭（4/11-19）和 SF Restaurant Week（4/10-19）本周同时开场，但如果你已经看过之前的攻略，这里补充几个容易被忽略的好活动。&lt;/p&gt;
+
+&lt;p&gt;周四早上 6:54，Nob Hill 的 California Street 会出现一年两次的&lt;strong&gt;"California Henge"&lt;/strong&gt;——太阳正好从 Bay Bridge 正上方升起，整条街被金光贯穿。这个现象类似纽约的 Manhattanhenge，只是知道的人少得多。最佳观赏点在 California Street 和 Grant Ave 交汇处附近，带上手机就行，免费，持续约 5 分钟。错过的话要等到秋天。&lt;/p&gt;
+
+&lt;p&gt;周五到周日，International Ocean Film Festival（IOFF）在 Fort Mason 的 Cowell Theater 放映海洋纪录片，需要购票。周日中午，Chase Center 旁的 Thrive City 举办 Taste of Thrive City，可以一次品尝 11 家餐厅和酒吧的出品。同样在周日，Sunset District 海滩边的 &lt;strong&gt;PloverFest&lt;/strong&gt;（12-4pm）庆祝 Sunset Dunes 开放一周年，四个舞台、本地音乐表演、免费入场——适合带小孩或者想在海边放松的人。&lt;/p&gt;
+
+&lt;p&gt;天气方面要注意：周四开始降雨，周五雷暴概率最高达 70%，周末断断续续有雨。旧金山和北湾预计 1-1.5 英寸降水，南湾 0.5-1 英寸。气温从前几天的 80 华氏度骤降到 60 度出头。樱花祭第一个周末（4/11-12）大概率遇雨，建议穿防水外套、带伞。好消息是四月雨水对延长野花季有帮助，超级花海的花期有望再撑两三周。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/08/18-best-events-sf-week-restaurant-week-cherry-blossom-fest/"&gt;https://sfstandard.com/2026/04/08/18-best-events-sf-week-restaurant-week-cherry-blossom-fest/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://nationaltoday.com/us/ca/san-francisco/news/2026/04/08/bay-area-braces-for-thunderstorm-risk-through-weekend/"&gt;https://nationaltoday.com/us/ca/san-francisco/news/2026/04/08/bay-area-braces-for-thunderstorm-risk-through-weekend/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d7aa32f9-5506-52fd-86c8-efa8bf9e75bd</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:41 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sfstandard.com/2026/04/08/18-best-events-sf-week-restaurant-week-cherry-blossom-fest/</link>
+      <enclosure url="https://sfstandard.com/wp-content/uploads/2026/04/cherry-blossom-festival-2026.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 幸福感驱动自控力，而非相反 —— 两项纵向研究揭示因果方向</title>
+      <description>&lt;p&gt;我们通常这样理解自律和幸福的关系：先苦后甜，先自律才能获得好生活。但 Khoo 等人发表在 &lt;em&gt;Social Psychological and Personality Science&lt;/em&gt; 的研究，用两项纵向追踪数据给出了截然相反的答案：&lt;strong&gt;是幸福感在前，自控力在后&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究设计。&lt;/strong&gt;研究一追踪了 377 名亚洲在职成年人，每 6 个月测量一次，共三轮。研究二在美国招募了 1,299 名在职成年人，每月测量一次，同样三轮。两项研究都使用随机截距交叉滞后面板模型（RI-CLPM）——这种统计方法能剥离个体间的稳定差异，精准捕捉个体内部的变化方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;核心发现一致且跨文化稳健：&lt;/strong&gt;在两项研究中，先前的自控力水平&lt;em&gt;不能&lt;/em&gt;可靠预测 6 个月后幸福感的提升。但反过来，先前的幸福感水平&lt;em&gt;能够&lt;/em&gt;显著预测后续自控力的提高。这个单向效应在不同时间尺度（月 vs 半年）和不同文化背景下都成立。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么幸福的人更自律？&lt;/strong&gt;研究者提出了「拓展-建构理论」（Broaden-and-Build Theory）的解释框架：积极情绪拓展认知和行为的灵活性，帮助个体建构持久的心理资源——包括执行功能、目标承诺和延迟满足的能力。简单说：&lt;strong&gt;当你心理状态好的时候，大脑有更多「余量」来执行自我控制。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;这对个人实践的启示是反直觉的：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;不要等自律了再允许自己快乐。&lt;/strong&gt;优先投资于情绪健康——充足睡眠、社交连接、有意义的活动——这些不是「奖励」，而是建设自控力的&lt;em&gt;基础设施&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;当你发现自己「什么都不想干」时，问题可能不是意志力不足，而是幸福感透支。&lt;/strong&gt;此时强行自律是消耗性策略，修复情绪状态才是可持续策略&lt;/li&gt;&lt;li&gt;&lt;strong&gt;对于管理者：&lt;/strong&gt;员工的自律性和执行力问题，可能根源在于工作幸福感。提升工作意义感和心理安全感，可能比绩效考核更能提升执行力&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;局限。&lt;/strong&gt;该研究的自控力和幸福感都依赖自我报告量表，可能存在共同方法偏差。此外，两项研究的追踪时长分别为 12 个月和 3 个月，长期效应仍需验证。但作为少数使用 RI-CLPM 严格检验因果方向的研究，其结论的方法论强度值得重视。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;底线：&lt;/strong&gt;「先苦后甜」的信条需要修正。数据表明，幸福不是自律的产物——恰恰相反，它是自律的燃料。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/19485506251311344"&gt;https://journals.sagepub.com/doi/10.1177/19485506251311344&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/new-psychology-research-flips-the-script-on-happiness-and-self-control/"&gt;https://www.psypost.org/new-psychology-research-flips-the-script-on-happiness-and-self-control/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f17e95d8-c3c1-50c4-96d0-d04487b0f146</guid>
+      <pubDate>Thu, 09 Apr 2026 08:04:53 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://journals.sagepub.com/doi/10.1177/19485506251311344</link>
+    </item>
+    <item>
+      <title>🎨 The WebAIM Million 2026: Web Accessibility Is Getting Worse — and AI-Generated Code May Be Accelerating the Decline / WebAIM 百万网站报告 2026：无障碍正在倒退——AI 生成代码可能正在加速恶化</title>
+      <description>&lt;p&gt;For six consecutive years, WebAIM&amp;rsquo;s annual audit of the top one million home pages showed slow but steady accessibility improvement. The 2026 report breaks that streak. Detected WCAG 2 errors per page jumped 10.1% to 56.1 &amp;mdash; and the share of pages with &lt;em&gt;any&lt;/em&gt; conformance failure rose to 95.9%, up from 94.8% in 2025.&lt;/p&gt;
+
+&lt;p&gt;The headline number is alarming enough, but the structural cause is worse. Average page complexity increased 22.5% in a single year to 1,437 elements per home page &amp;mdash; nearly double the count from seven years ago. ARIA attribute usage surged 27%, with pages now averaging 133 ARIA attributes each. And here&amp;rsquo;s the paradox: pages &lt;em&gt;with&lt;/em&gt; ARIA averaged 59.1 errors compared to 42 errors on pages without. More accessibility markup is correlating with &lt;em&gt;more&lt;/em&gt; accessibility failures, not fewer.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://webaim.org/projects/million/images/errors-per-page.png" alt="Line chart showing detected accessibility errors per page from 2020 to 2026, with a sharp uptick in 2026" /&gt;
+&lt;figcaption&gt;After years of gradual improvement, the 2026 report reverses the trend. Source: WebAIM.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;The Same Six Errors, Year After Year&lt;/h3&gt;
+
+&lt;p&gt;The six most common error types account for 96% of all detected issues &amp;mdash; and they haven&amp;rsquo;t changed in seven years:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Low contrast text:&lt;/strong&gt; 83.9% of pages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Missing alt text:&lt;/strong&gt; 53.1%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Missing form labels:&lt;/strong&gt; 51%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Empty links:&lt;/strong&gt; 46.3%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Empty buttons:&lt;/strong&gt; 30.6%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Missing document language:&lt;/strong&gt; 13.5%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are not exotic edge cases. They are foundational issues that every design system should encode as defaults. A contrast token system prevents the first. A component library that requires alt props prevents the second. Form components with built-in label binding prevent the third. The persistence of these errors across a million sites suggests the problem is systemic, not educational.&lt;/p&gt;
+
+&lt;h3&gt;Why Now? Frameworks, AI, and the Complexity Spiral&lt;/h3&gt;
+
+&lt;p&gt;WebAIM attributes the reversal to &amp;ldquo;increased reliance on 3rd party frameworks and libraries and automated or AI-assisted coding practices.&amp;rdquo; The data supports this: the framework landscape shows dramatic variance. Sites built with &lt;strong&gt;Astro&lt;/strong&gt; averaged just 9.0 errors per page (&amp;minus;84% compared to the mean), while &lt;strong&gt;Prestashop&lt;/strong&gt; sites averaged 143.2 errors (+155%). Framework choice is now a de facto accessibility decision.&lt;/p&gt;
+
+&lt;p&gt;The AI angle is harder to quantify but structurally plausible. Vibe coding tools generate syntactically correct HTML that often omits semantic structure &amp;mdash; empty buttons, links without text, images without alt attributes. When AI generates code that &lt;em&gt;looks&lt;/em&gt; right in a visual preview, accessibility metadata is the first thing dropped. And ARIA, which requires precise understanding of widget semantics, becomes particularly dangerous when applied by pattern-matching rather than understanding.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://webaim.org/projects/million/images/aria-errors.png" alt="Bar chart comparing average errors on pages with and without ARIA, showing more errors on ARIA pages" /&gt;
+&lt;figcaption&gt;Pages with ARIA averaged 59.1 errors vs. 42 without &amp;mdash; more markup doesn&amp;rsquo;t mean better accessibility. Source: WebAIM.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;The ADA Title II Deadline Looms&lt;/h3&gt;
+
+&lt;p&gt;This report lands just 15 days before the &lt;strong&gt;ADA Title II compliance deadline&lt;/strong&gt; on April 24, 2026, which requires all state and local government entities serving populations over 50,000 to meet WCAG 2.1 AA. Enforcement is complaint-driven, but the regulatory signal is clear: accessibility is transitioning from best practice to legal obligation.&lt;/p&gt;
+
+&lt;h3&gt;What Product Teams Should Do&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Audit your framework choice.&lt;/strong&gt; If your stack consistently produces inaccessible output, switching frameworks may be more effective than linting after the fact. &lt;strong&gt;Encode accessibility in your design system defaults&lt;/strong&gt; &amp;mdash; contrast tokens, required alt props, label-bound form components. &lt;strong&gt;If you&amp;rsquo;re using AI code generation, add automated accessibility checks&lt;/strong&gt; (axe-core, Lighthouse CI) as a mandatory gate in your pipeline. And &lt;strong&gt;treat ARIA as a last resort&lt;/strong&gt;, not a first instinct &amp;mdash; native HTML semantics remain more reliable than ARIA overlays.&lt;/p&gt;
+
+&lt;p&gt;The WebAIM Million 2026 is a warning: the tools getting faster are not the same as the tools getting more accessible. Product designers own this gap.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;WebAIM 连续六年对全球排名前一百万个网站的年度审计显示，无障碍状况在缓慢但持续地改善。2026 年的报告打破了这一趋势。每页检测到的 WCAG 2 错误数量跃升 10.1%，达到 56.1 个；存在任何合规失败的页面比例从 94.8% 上升至 95.9%。&lt;/p&gt;
+
+&lt;p&gt;更令人担忧的是结构性原因。平均页面复杂度在一年内增长了 22.5%，达到每页 1,437 个元素——几乎是七年前的两倍。ARIA 属性使用量激增 27%，每页平均 133 个 ARIA 属性。矛盾之处在于：使用 ARIA 的页面平均有 59.1 个错误，而未使用 ARIA 的页面仅有 42 个。更多的无障碍标记反而与更多的无障碍失败相关联。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;六种老错误占 96%：&lt;/strong&gt;低对比度文本（83.9%）、缺少 alt 文本（53.1%）、缺少表单标签（51%）、空链接（46.3%）、空按钮（30.6%）、缺少文档语言（13.5%）。这些不是边缘情况，而是每个设计系统都应该作为默认值编码的基本问题。&lt;/p&gt;
+
+&lt;p&gt;WebAIM 将倒退归因于「对第三方框架和库的依赖增加，以及自动化或 AI 辅助编码实践」。框架选择差异巨大：Astro 每页仅 9.0 个错误（&amp;minus;84%），Prestashop 则高达 143.2 个（+155%）。而 AI 代码生成工具生成的 HTML 在视觉预览中看起来正确，但往往省略了语义结构。&lt;/p&gt;
+
+&lt;p&gt;这份报告发布时距 &lt;strong&gt;ADA Title II 合规截止日（4 月 24 日）&lt;/strong&gt;仅剩 15 天。产品团队应立即行动：审查框架选择、将无障碍编码为设计系统默认值、为 AI 生成代码添加自动无障碍检查关卡，并将 ARIA 视为最后手段而非首选方案。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://webaim.org/projects/million/"&gt;https://webaim.org/projects/million/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nexerdigital.com/news-and-thoughts/the-webaim-million-report-2026-what-it-tells-us/"&gt;https://www.nexerdigital.com/news-and-thoughts/the-webaim-million-report-2026-what-it-tells-us/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.accessibility.works/blog/ada-title-ii-2-compliance-standards-requirements-states-cities-towns/"&gt;https://www.accessibility.works/blog/ada-title-ii-2-compliance-standards-requirements-states-cities-towns/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d8456c5f-73f6-58a4-90aa-a8531f8402f1</guid>
+      <pubDate>Thu, 09 Apr 2026 08:05:17 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://webaim.org/projects/million/</link>
+    </item>
+    <item>
+      <title>🧠 🧠 创造力没有智慧引导，会变成精致的利己工具 —— 北大实验室的双研究证据</title>
+      <description>&lt;p&gt;我们习惯性地把「有创造力」当作一个纯粹的褒义词。但北京大学「自我探索与有意义存在实验室」的 Zhang、Wang 和 Tian 发表在 &lt;em&gt;Intelligence&lt;/em&gt; 期刊的研究，揭示了一个令人不安的发现：&lt;strong&gt;创造力越高的人，在缺乏智慧的情况下，反而越不愿意帮助他人。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;两项研究的互补设计。&lt;/strong&gt;研究一（n=132）使用行为任务直接测量：参与者阅读人际困境并写下详细回应（测智慧），完成日常问题解决情境（测社会智力），讲述个人创造性经历（测创造力），最后面对一个假想的潜水艇氧气分配情境来测亲社会行为。研究二（n=801）则用自我报告问卷测量稳定的人格特质，并使用网络分析可视化各特质之间的关系。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;关键发现：智慧是创造力的「道德校准器」。&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;在&lt;strong&gt;低智慧&lt;/strong&gt;的参与者中，创造力越高，帮助他人的意愿越&lt;em&gt;低&lt;/em&gt;——创造力似乎被用来更精巧地服务自身利益&lt;/li&gt;&lt;li&gt;在&lt;strong&gt;高智慧&lt;/strong&gt;的参与者中，这个负面模式完全消失，创造力反而正向预测社会正念（social mindfulness）——对他人需求的主动关注&lt;/li&gt;&lt;li&gt;有趣的是，&lt;strong&gt;智力&lt;/strong&gt;（intelligence）没有表现出同样的模式。这说明创造力比智力在道德方向上更具「可塑性」——它更容易被引向善，也更容易被引向恶&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;为什么会这样？&lt;/strong&gt;研究者认为，创造力的核心是「发散思维」——跳出常规框架、发现非显而易见的解决方案。但这种能力本身是价值中立的。没有智慧的引导，发散思维可能被用来寻找更巧妙的借口来回避责任、更精致的方式来操纵他人、更「创造性」的理由来合理化自私行为。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;智慧在这里发挥的具体功能包括：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;平衡多方利益的能力&lt;/strong&gt;——不只看到自己的需求，还能看到他人和更大系统的需求&lt;/li&gt;&lt;li&gt;&lt;strong&gt;承认不确定性&lt;/strong&gt;——对自己的判断保持谦逊，而非用创造力来强化偏见&lt;/li&gt;&lt;li&gt;&lt;strong&gt;仁慈导向&lt;/strong&gt;——将创造力的输出指向集体福祉而非个人利益最大化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;对教育和组织的启示。&lt;/strong&gt;单纯鼓励「创新思维」而不培养伦理判断力，可能适得其反。在 AI 时代，这一点尤为重要：当工具能放大创造力时，缺乏智慧引导的创造力可能造成更大的负外部性。企业创新文化不应只问「这个想法有多新颖」，还应问「这个想法是否考虑了所有利益相关方」。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;局限。&lt;/strong&gt;研究一的亲社会行为测量基于假想情境，可能与真实行为有偏差。研究二依赖自我报告。但两种方法（行为任务 + 自我报告）的三角验证增强了结论的可信度。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.intell.2025.101971"&gt;https://doi.org/10.1016/j.intell.2025.101971&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/new-psychology-research-reveals-that-wisdom-acts-as-a-moral-compass-for-creative-thinking/"&gt;https://www.psypost.org/new-psychology-research-reveals-that-wisdom-acts-as-a-moral-compass-for-creative-thinking/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d5f31b7c-458d-5931-8780-b27aace3ee0a</guid>
+      <pubDate>Thu, 09 Apr 2026 08:05:30 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1016/j.intell.2025.101971</link>
+    </item>
+    <item>
+      <title>🎨 The Designer's Vibe Coding Stack: A Three-Layer Framework for Shipping Real Products With AI / 设计师的 Vibe Coding 技术栈：用 AI 从原型到生产的三层框架</title>
+      <description>&lt;p&gt;The vibe coding market hit $4.7 billion in 2025 and is projected to reach $12.3 billion by 2027. For designers, the revolution isn&amp;rsquo;t about learning to code &amp;mdash; it&amp;rsquo;s about a new category of tools that translate design intent into functional output. But the landscape is noisy: 10+ tools, overlapping capabilities, and wildly different quality ceilings. A practical framework from Muzli&amp;rsquo;s 2026 guide cuts through the confusion by organizing these tools into three distinct layers based on what you&amp;rsquo;re actually trying to ship.&lt;/p&gt;
+
+&lt;h3&gt;Layer 1: Exploration&lt;/h3&gt;
+
+&lt;p&gt;Quick experiments and demos without commitment. You describe a concept, the AI generates a working prototype, and you evaluate whether the direction is worth pursuing. &lt;strong&gt;Bolt&lt;/strong&gt; ($25/mo) dominates here with zero-setup, browser-based generation using WebContainer technology. The output isn&amp;rsquo;t production-ready, but that&amp;rsquo;s the point &amp;mdash; you&amp;rsquo;re testing ideas at the speed of conversation.&lt;/p&gt;
+
+&lt;h3&gt;Layer 2: MVP&lt;/h3&gt;
+
+&lt;p&gt;Small working products with real flows, basic data integration, and shareable URLs. This is where most designer workflows live today. &lt;strong&gt;Lovable&lt;/strong&gt; ($20/mo) leads with full-stack generation and one-click deployment &amp;mdash; and its traction proves the market: the company reached $200 million ARR by late 2025. &lt;strong&gt;Figma Make&lt;/strong&gt; ($20/seat/mo) takes a different angle, generating applications directly from your existing design system &amp;mdash; it inherits your style libraries, component sets, and design tokens automatically.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://muz.li/blog/wp-content/uploads/2026/03/vibe-coding-layers.png" alt="Diagram showing the three layers of vibe coding: Exploration, MVP, and Engineering" /&gt;
+&lt;figcaption&gt;The three-layer framework: most tools excel at Layers 1&amp;ndash;2, but the competitive advantage in 2026 is reaching Layer 3 without losing quality.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Layer 3: Engineering&lt;/h3&gt;
+
+&lt;p&gt;Production-ready code with unified components, consistency, and maintainability. This is where &lt;strong&gt;Cursor&lt;/strong&gt; ($20/mo) and &lt;strong&gt;v0 by Vercel&lt;/strong&gt; ($20/mo) stand apart. Cursor offers full IDE codebase awareness, while v0 generates React components compatible with shadcn/ui &amp;mdash; meaning your output slots directly into the industry&amp;rsquo;s most popular component system. The learning curve is steeper, but the output is code your engineering team will actually merge.&lt;/p&gt;
+
+&lt;h3&gt;MCP: The Connective Tissue&lt;/h3&gt;
+
+&lt;p&gt;The real breakthrough in 2026 isn&amp;rsquo;t any single tool &amp;mdash; it&amp;rsquo;s &lt;strong&gt;Model Context Protocol (MCP)&lt;/strong&gt;, which lets AI tools access your actual design system instead of guessing. Instead of the AI inferring &amp;ldquo;I think this is a Primary button,&amp;rdquo; it reads your Figma library and uses the real component with the correct tokens. Key MCP connections that matter:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Figma &amp;rarr; Cursor:&lt;/strong&gt; Cleaner implementation with less guessing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Figma &amp;rarr; Claude:&lt;/strong&gt; Extract design system rules for consistency enforcement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repo &amp;rarr; Cursor:&lt;/strong&gt; Reduce component duplication&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This mirrors the broader machine-readable design systems movement &amp;mdash; Knapsack&amp;rsquo;s open-source MCP server, Storybook MCP, and Penpot&amp;rsquo;s native MCP integration are all building toward a world where AI tools don&amp;rsquo;t just generate code, they generate &lt;em&gt;your&lt;/em&gt; code.&lt;/p&gt;
+
+&lt;h3&gt;The Central Warning&lt;/h3&gt;
+
+&lt;p&gt;Muzli&amp;rsquo;s guide frames it bluntly: &amp;ldquo;AI is the intern. You&amp;rsquo;re the Lead.&amp;rdquo; Red flags that designers should watch for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Visual hierarchy that &amp;ldquo;looks fine&amp;rdquo; but doesn&amp;rsquo;t support user tasks&lt;/li&gt;
+&lt;li&gt;Spacing inconsistencies that creep in across generated screens&lt;/li&gt;
+&lt;li&gt;Components that appear similar but lack actual system consistency&lt;/li&gt;
+&lt;li&gt;Collections of pretty screens rather than cohesive systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The litmus test: &lt;em&gt;Would you defend this in a user interview?&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recommended Workflows&lt;/h3&gt;
+
+&lt;p&gt;For &lt;strong&gt;Figma-first teams&lt;/strong&gt;: Figma &amp;rarr; Make &amp;rarr; Cursor &amp;rarr; Production. For &lt;strong&gt;speed-first MVPs&lt;/strong&gt;: Figma reference &amp;rarr; Lovable &amp;rarr; Cursor &amp;rarr; Production. For &lt;strong&gt;direction-finding&lt;/strong&gt;: Idea &amp;rarr; Bolt &amp;rarr; Lovable/Make &amp;rarr; Cursor. In every path, Cursor occupies the final position &amp;mdash; the precision layer where designers have maximum control over the shipped product.&lt;/p&gt;
+
+&lt;p&gt;What impresses in 2026 is not &amp;ldquo;I made this with AI&amp;rdquo; but a designer who ships consistent, scalable, system-driven products. The workflow has shifted from thinking in screens to thinking in rules.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Vibe coding 市场在 2025 年达到 47 亿美元，预计 2027 年将增长至 123 亿美元。对设计师而言，这场变革的核心不是学习编程，而是一类全新的工具能将设计意图转化为可用产品。Muzli 的 2026 指南提出了一个实用的三层框架来组织这些工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一层：探索&lt;/strong&gt; — 快速实验，不做承诺。Bolt（$25/月）凭借零配置的浏览器端生成主导这一层。&lt;strong&gt;第二层：MVP&lt;/strong&gt; — 带真实数据流的小型工作产品。Lovable（$20/月，已达 2 亿美元 ARR）提供全栈生成和一键部署；Figma Make（$20/座/月）则直接继承你的设计系统。&lt;strong&gt;第三层：工程&lt;/strong&gt; — 生产就绪的代码。Cursor 和 v0 提供完整的代码库感知和 shadcn/ui 兼容性。&lt;/p&gt;
+
+&lt;p&gt;2026 年的真正突破是 &lt;strong&gt;MCP（模型上下文协议）&lt;/strong&gt;，它让 AI 工具能读取你的实际设计系统，而非猜测。Figma &amp;rarr; Cursor、Figma &amp;rarr; Claude、Repo &amp;rarr; Cursor 的连接链正在形成。核心警告：&amp;ldquo;AI 是实习生，你是负责人。&amp;rdquo;2026 年让人印象深刻的不是「我用 AI 做了这个」，而是一位能交付一致、可扩展、系统驱动产品的设计师。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/"&gt;https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.toools.design/blog-posts/top-10-vibe-coding-tools-designers-will-love-in-2026"&gt;https://www.toools.design/blog-posts/top-10-vibe-coding-tools-designers-will-love-in-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://vibecoding.app/blog/ai-prototyping-ux-tools"&gt;https://vibecoding.app/blog/ai-prototyping-ux-tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6c72f217-eb03-5503-8912-a1b270c89f38</guid>
+      <pubDate>Thu, 09 Apr 2026 08:06:11 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
+    </item>
+    <item>
+      <title>🎲 一台2100年前的青铜计算机，精确预测了日食——然后沉入爱琴海</title>
+      <description>&lt;p&gt;1901年，希腊海绵采集者在安提基特拉岛附近的沉船残骸中打捞出一块被海水腐蚀得面目全非的青铜块。没有人想到，这团锈迹斑斑的金属碎片会彻底改写人类对古代技术的认知。一个多世纪后的今天，研究者仍在从中发现新的秘密。&lt;/p&gt;&lt;p&gt;这就是安提基特拉机械（Antikythera Mechanism），一台大约制造于公元前2世纪的手摇式模拟计算机。它的外壳仅34×18×9厘米，大致相当于一个鞋盒，内部却嵌套着超过30个精密咬合的青铜齿轮。通过转动侧面的曲柄，使用者可以在表盘上读出太阳和月球的位置、日食与月食的预测时间、行星运行轨迹，甚至下一届奥林匹克运动会的日期。&lt;/p&gt;&lt;p&gt;如果这听起来像是某种蒸汽朋克幻想，那么请注意：在安提基特拉机械沉没之后，人类花了整整1400年才再次制造出复杂度可以与之相提并论的机械装置——14世纪欧洲的天文钟。换句话说，这台机器在技术上领先了整个文明一千多年。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;齿轮里的宇宙模型&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;安提基特拉机械的核心是一套多层齿轮传动系统。前面板显示黄道十二宫和埃及历法，后面板则包含两个螺旋形表盘：一个追踪默冬周期（19年内太阳历和太阴历重新同步的235个朔望月），另一个追踪沙罗周期（预测日月食的18年循环）。最令人惊叹的是，它还能模拟月球轨道的不规则性——月球并不以恒定速度运行，而是在近地点加速、远地点减速。古希腊工匠通过一组偏心安装的齿轮，用纯机械方式复现了这一天文现象。&lt;/p&gt;&lt;p&gt;2024年，格拉斯哥大学的研究团队对机械背面的日历环进行了统计分析，发现环上的小孔数量最可能是354个而非365个。这意味着它追踪的是太阴历而非埃及太阳历，暗示机械的设计可能比之前认为的更深地植根于巴比伦天文传统。同一研究还将机械的校准日期推算到约公元前178年，比早期估计更加精确。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;一个「设计缺陷」揭示的真相&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;2025年初，伦敦大学学院的团队发表了一项引人注目的发现：通过X射线断层扫描，他们注意到机械中某些齿轮的齿形并非标准的渐开线或摆线形状，而是更接近三角形。从现代工程角度看，三角形齿会增加摩擦、降低传动效率，甚至可能导致齿轮卡死。&lt;/p&gt;&lt;p&gt;但研究者的结论并非「古人技术粗糙」——恰恰相反。三角形齿在低速、低负荷的手摇场景下完全可以正常工作，而且比精密的渐开线齿容易制造得多。这说明设计者对机械的使用场景有清晰的判断：这不是一台需要高速运转的工业机器，而是一台供学者缓慢转动、沉思宇宙运行规律的演示仪器。所谓的「缺陷」，其实是一种务实的工程取舍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;谁制造了它？&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;这个问题至今没有定论。铭文分析表明，机械上的文字使用了科林斯方言的希腊文，这将制造地指向了希腊西部或西西里岛——也就是阿基米德的故乡叙拉古所在的文化圈。西塞罗曾记载阿基米德制造过一台能显示天体运动的机械装置，但没有直接证据将安提基特拉机械与阿基米德本人联系起来。更有可能的是，它出自一个我们已经遗忘了名字的工匠传统。&lt;/p&gt;&lt;p&gt;这正是安提基特拉机械最令人不安的启示：它不是一个孤立的天才发明，而是一整条技术谱系的产物。制造如此精密的齿轮系统需要数代工匠积累的经验、专用的车床和切削工具、以及成熟的天文学理论支撑。但这条技术谱系的其他产物——原型机、练习件、设计手稿——全部消失了。我们只剩下这一台，因为一艘船碰巧在正确的深度沉没，碰巧被海绵采集者发现，碰巧有人意识到那团锈蚀的青铜不是废铁。&lt;/p&gt;&lt;p&gt;安提基特拉机械提醒我们一个容易被忽视的事实：历史的传世记录是幸存者偏差的产物。我们所知道的古代世界，只是碰巧没有被遗忘的那一小部分。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Antikythera_mechanism"&gt;https://en.wikipedia.org/wiki/Antikythera_mechanism&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-024-53368-3"&gt;https://www.nature.com/articles/s41598-024-53368-3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ucl.ac.uk/news/2021/mar/lost-secrets-antikythera-mechanism-unlocked-scientists"&gt;https://www.ucl.ac.uk/news/2021/mar/lost-secrets-antikythera-mechanism-unlocked-scientists&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2ff57a86-c57d-57b6-87eb-2e520a5e28fe</guid>
+      <pubDate>Thu, 09 Apr 2026 08:06:15 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Antikythera_mechanism</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Antikythera_Fragment_A_%28Front%29.webp/1280px-Antikythera_Fragment_A_%28Front%29.webp.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 切尔诺贝利反应堆废墟里，真菌正在「吃」辐射</title>
+      <description>&lt;p&gt;1991年，一台遥控机器人爬进切尔诺贝利4号反应堆的石棺内部，在辐射强度足以在几分钟内杀死人类的环境中，它的摄像头拍到了一幕诡异的景象：反应堆墙壁上长满了黑色的真菌。这些真菌不是在辐射中苟延残喘——它们朝着辐射最强的方向生长。&lt;/p&gt;&lt;p&gt;三十多年后的研究证实，这不是巧合，而是一种全新的生物学机制。这些被称为"嗜辐射真菌"（radiotrophic fungi）的微生物，能够利用电离辐射作为能量来源，就像植物利用阳光进行光合作用一样。这一发现正在改变我们对生命能量来源边界的理解，甚至可能影响人类太空探索的未来。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;黑色素：从防晒霜到太阳能板&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键在于黑色素（melanin）。人类皮肤中的黑色素帮助我们抵御紫外线，但切尔诺贝利真菌中的黑色素做了一件完全不同的事情：它吸收伽马射线的能量，并通过一种尚未完全理解的电子传递过程，将这些能量转化为化学能，驱动真菌的代谢和生长。&lt;/p&gt;&lt;p&gt;研究者在切尔诺贝利隔离区内发现了超过200种含有高浓度黑色素的真菌。其中最引人注目的是球状枝孢菌（Cladosporium sphaerospermum）和新型隐球菌（Cryptococcus neoformans）。实验室条件下，当研究者用相当于正常背景辐射500倍的剂量照射这些真菌时，它们的生长速度不降反升。更关键的是，即使切断所有其他营养来源，只要有辐射存在，真菌依然能维持基本代谢——辐射本身就是食物。&lt;/p&gt;&lt;p&gt;这一现象被命名为"辐射趋向性"（radiotropism），类比植物的向光性。在切尔诺贝利现场，真菌菌丝的生长方向明确指向辐射源，就像向日葵朝向太阳。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;从核废墟到国际空间站&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;如果真菌能利用辐射生长，那么它能不能充当辐射屏蔽材料？2019年，NASA将球状枝孢菌样本送上了国际空间站（ISS），进行了为期30天的实验。结果令人振奋：仅1.7毫米厚的真菌层就将宇宙辐射衰减了约2.17%。&lt;/p&gt;&lt;p&gt;这个数字乍看微不足道，但有两个关键背景。第一，研究者通过模型推算，如果将真菌层增厚到约21厘米，理论上可以为火星栖息地提供与地球大气层相当的辐射防护。第二，也是更重要的——真菌是活的。它可以自我复制、自我修复、用当地资源（水和少量有机物）培养。相比之下，传统辐射屏蔽材料如铅或聚乙烯是死的，必须从地球运输，每公斤发射成本高达数千美元。一个能自我生长的辐射屏蔽层，对于长期太空任务的经济性有巨大意义。&lt;/p&gt;&lt;p&gt;ISS实验还发现了一个意想不到的细节：在太空微重力环境下，真菌的生长速度比地面对照组快了约21%。研究者推测这与微重力条件下细胞内液体扩散模式的改变有关，但确切机制仍在研究中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;「辐射合成」挑战生命的定义&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;从更宏观的视角看，嗜辐射真菌对生物学的冲击不亚于深海热泉口的化能自养生物。在此之前，我们已知的生命能量来源只有两种：光能（光合作用）和化学能（化能合成）。嗜辐射真菌暗示存在第三种：辐射能。&lt;/p&gt;&lt;p&gt;这一发现直接扩展了"宜居性"的定义范围。传统观念认为，远离恒星的天体因为缺乏光能而不适合生命存在。但如果生命可以利用放射性衰变的能量——而放射性元素在宇宙中无处不在——那么冰封的木卫二地下海洋、火星深层岩石、甚至星际空间中漂流的小行星内部，都可能存在我们从未想象过的生态系统。&lt;/p&gt;&lt;p&gt;切尔诺贝利的黑色真菌提出了一个令人眩晕的可能性：在宇宙中那些我们认为"太危险"而不适合生命的角落，生命可能早已在那里繁盛了数十亿年。我们对地球生物圈的理解，或许只是冰山浮出水面的那一角。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Radiotrophic_fungus"&gt;https://en.wikipedia.org/wiki/Radiotrophic_fungus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.biorxiv.org/content/10.1101/2020.07.16.205534v1"&gt;https://www.biorxiv.org/content/10.1101/2020.07.16.205534v1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nasa.gov/missions/station/iss-research/radiotrophic-fungi"&gt;https://www.nasa.gov/missions/station/iss-research/radiotrophic-fungi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1a0c8f9a-aac5-5a42-b1eb-b1f10cb45221</guid>
+      <pubDate>Thu, 09 Apr 2026 08:06:54 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Radiotrophic_fungus</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg/1280px-Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 海底有「湖泊」，走进去的生物几乎都会死——但有些虾专门去那里捕猎</title>
+      <description>&lt;p&gt;想象你乘坐深潜器下降到墨西哥湾海底一千米处。透过舷窗，你看到一片平坦的海床上突然出现了一个清晰的「水面」——有波纹、有岸线、有浪花轻轻拍打着边缘。这不是幻觉。你正在看的是一个深海盐水池（brine pool），一个存在于海底的「湖泊」，由密度远高于周围海水的超浓盐水形成。&lt;/p&gt;&lt;p&gt;这些盐水池的含盐量是普通海水的3到8倍，同时富含甲烷和硫化氢，几乎完全缺氧。任何普通海洋生物不慎游入或爬入池中，都会在几分钟内因渗透压休克和缺氧而死亡。这就是为什么科学家给它们起了一个阴森的别名：「死亡之池」（pools of death）。在池边，你经常可以看到鱼、螃蟹和贻贝的尸体，像腌制标本一样完好地保存在高盐环境中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;一种「液体海床」的地质奇观&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;盐水池的形成机制与古代海洋的蒸发有关。数百万到数千万年前，某些海域在干燥气候下反复蒸发，留下了厚达数百米的盐层。这些盐层后来被沉积物掩埋，深藏于海床之下。当地质构造活动——比如盐丘上升或断层活动——将这些古老盐层暴露给海水时，盐迅速溶解，形成密度极高的卤水。由于卤水比周围海水重得多，它像水银一样沉积在海底的低洼处，形成边界清晰的「池塘」，表面甚至会因为密度差而产生肉眼可见的波纹。&lt;/p&gt;&lt;p&gt;墨西哥湾是深海盐水池最集中的区域，已发现数十个。其中最大的一个被称为"海底迷宫"（Jacuzzi of Despair），水温高达19°C（周围海水仅4°C），直径约5米，深度约3米，由甲烷和硫化氢持续冒泡。地中海东部同样分布着多个大型盐水池，其中一些面积超过一个足球场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;红海的意外发现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;2020年，一支国际研究团队在红海亚喀巴湾发现了一组盐水池，距离海岸仅约2公里，水深仅25米左右。这是迄今发现的距离海岸最近、深度最浅的深海盐水池。&lt;/p&gt;&lt;p&gt;之所以说这一发现重要，是因为浅水盐水池意味着科学家可以用普通的水肺潜水装备进行研究，而不需要动用造价数千万美元的深潜器。研究团队利用这一便利条件，对池内微生物群落进行了迄今最详细的采样。他们发现了超过20种此前未被描述的嗜极微生物（extremophiles），其中一些能在几乎饱和的盐溶液中进行厌氧代谢——这些微生物的生存条件与科学家推测的木卫二冰下海洋环境惊人地相似。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;死亡边缘的捕猎者&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;盐水池最反直觉的特征不是它的致命性，而是它周围异常繁荣的生态系统。池边往往密布着贻贝群落和管状蠕虫，它们依靠化能合成细菌提供的能量生存——这些细菌利用从盐水池中渗出的甲烷和硫化氢作为能量来源，完全不需要阳光。&lt;/p&gt;&lt;p&gt;但最令人惊叹的是深海虾的行为。研究者通过深潜器摄像头观察到，某些种类的深海虾会故意走到盐水池边缘，将身体半探入致命的卤水中。它们的目标是池面上因渗透压休克而失去行动能力但尚未死亡的小型猎物。虾精确地控制着自己暴露在卤水中的时间和深度，快速捞取猎物后立刻撤回安全区域——一种在生死边界上精确计算的捕猎策略。&lt;/p&gt;&lt;p&gt;这种行为的精确性暗示了深刻的进化适应。这些虾并非偶然发现了盐水池的用途，而是经过漫长世代的自然选择，演化出了一整套感知盐度梯度、控制暴露时间、快速抓取猎物的神经和运动程序。死亡之池的边缘，恰好是这些生物的「狩猎场」。&lt;/p&gt;&lt;p&gt;深海盐水池揭示了一个反复出现在极端环境研究中的主题：生命的边界从来不在我们以为的地方。每一个看似不可能的环境——沸腾的热泉、冰封的盐湖、辐射废墟——都有生命找到了栖身之所，甚至繁盛之道。宇宙的「宜居带」也许比我们想象的宽广得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Brine_pool"&gt;https://en.wikipedia.org/wiki/Brine_pool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/sciadv.abm4459"&gt;https://www.science.org/doi/10.1126/sciadv.abm4459&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://oceanexplorer.noaa.gov/okeanos/explorations/ex1402/logs/aug19/aug19.html"&gt;https://oceanexplorer.noaa.gov/okeanos/explorations/ex1402/logs/aug19/aug19.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1eaad97e-8074-5668-b626-daadf74a24f9</guid>
+      <pubDate>Thu, 09 Apr 2026 08:07:38 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Brine_pool</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/4d/NOAAseep_600CratersBrinePools.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一种语言没有数字、没有颜色词、没有从句——它让语言学界吵了二十年</title>
+      <description>&lt;p&gt;在巴西亚马孙雨林深处，沿着迈西河蜿蜒数百公里的河岸上，生活着约250到380名皮拉罕人（Pirahã）。他们的语言，也叫皮拉罕语，可能是地球上最让语言学家头疼的语言——不是因为它有多复杂，而是因为它似乎缺少了一些所有语言学理论都认为「每种人类语言必须拥有」的东西。&lt;/p&gt;&lt;p&gt;皮拉罕语没有数词。不是说它用"一些""很多"来模糊地表达数量——它连"一"和"二"这样的基础数词都没有。早期研究者以为 hói 和 hoí（两个声调不同的词）分别表示"一"和"二"，但后续严格的实验否定了这一假说。在实验中，皮拉罕人使用 hói 指代的物品数量从1到6不等，它更接近"少量"这个概念，而非精确的"一"。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;八个月的失败实验&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1980年代，语言学家丹尼尔·埃弗里特（Daniel Everett）应皮拉罕人的要求开设了数数课程——他们希望学会计算，以便在与河流贸易商的交易中不被欺骗。埃弗里特每天教他们葡萄牙语数字，从1到10，持续了整整八个月。&lt;/p&gt;&lt;p&gt;结果是彻底的失败。八个月后，没有一个皮拉罕人能稳定地从1数到10。这不是智力问题——皮拉罕人在丛林生存技能上展现出令人惊叹的认知能力，他们可以追踪复杂的动物足迹、记住数百种植物的药用属性、在没有任何导航工具的情况下在密林中精确定位。问题在于，他们的语言和文化中从未建立过精确计数的认知框架。没有数字的语言，似乎让精确计数的概念本身变得难以理解。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;缺席的不只是数字&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;皮拉罕语的「缺失清单」远不止数词。它没有专门的颜色词——描述颜色时使用类比表达，比如"像血一样"。它没有完成时态——语法上不区分"我吃了鱼"和"我正在吃鱼"。它没有神话或创世故事——皮拉罕人对任何超出直接经验范围的叙事都不感兴趣。&lt;/p&gt;&lt;p&gt;但最具争议性的缺失是递归（recursion）。递归是指一个语法结构嵌套在另一个同类结构内部的能力，比如中文里"我知道你说他来了"这种层层嵌套的从句。2002年，乔姆斯基（Noam Chomsky）与合作者发表了一篇影响巨大的论文，提出递归是人类语言与动物交流系统的根本区别——是人类语言能力的「最小核心组件」。&lt;/p&gt;&lt;p&gt;而埃弗里特声称，皮拉罕语完全没有递归结构。皮拉罕人不说"那个抓了鱼的男人回来了"（关系从句嵌套），而是说两个独立的句子："男人抓了鱼。他回来了。"他们不说"我想要你去打猎"（从句嵌套），而是说"你去打猎。我想要这个。"每个句子只包含一个命题，绝不嵌套。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;一场重塑语言学的论战&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;埃弗里特的发现在语言学界引发了持续二十年的激烈争论。如果递归真的是人类语言的普遍特征，那么皮拉罕语要么被误分析了，要么它是一个需要解释的异常。乔姆斯基阵营倾向于前者，认为埃弗里特对递归的定义过于狭隘，或者递归能力存在于皮拉罕人的认知中，只是没有体现在语法表层。埃弗里特阵营则认为，这恰恰证明语言的结构由文化塑造，而非由先天的生物程序决定。&lt;/p&gt;&lt;p&gt;埃弗里特提出了一个解释框架：「直接经验原则」（immediacy of experience principle）。他认为，皮拉罕文化极端地重视当下的、可直接验证的经验，排斥一切抽象、假设和超出亲身感知范围的信息。没有数词，因为精确计数是一种抽象操作。没有创世神话，因为没有人亲眼目睹过。没有递归，因为嵌套从句描述的是间接的、多层的逻辑关系，而非直接的感知事实。&lt;/p&gt;&lt;p&gt;这个解释本身就极具争议。它是否暗示了一种文化决定论？是否低估了皮拉罕人的认知能力？批评者指出，"直接经验"本身就是一个模糊的概念——记住一条几天前的动物足迹算不算"直接经验"？&lt;/p&gt;&lt;p&gt;还有一个容易被忽略的细节让这场争论更加复杂：皮拉罕语可以被吹口哨、被哼唱、甚至被用鸟鸣般的节奏敲击出来。这种声调和韵律的丰富性意味着，即使在丛林中无法喊叫的场景下，皮拉罕人依然可以远距离传递完整的语义信息。语言结构的「简单」，并不意味着交流能力的贫乏。&lt;/p&gt;&lt;p&gt;皮拉罕语提出的根本问题是：语言的边界在哪里？如果一种语言可以没有数字、没有颜色、没有递归，却依然让它的使用者在严苛的雨林环境中繁衍数千年，那么我们自认为「不可或缺」的语言特征，到底有多少只是特定文化的产物，而非人类认知的必然？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Pirah%C3%A3_language"&gt;https://en.wikipedia.org/wiki/Pirah%C3%A3_language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Daniel_Everett"&gt;https://en.wikipedia.org/wiki/Daniel_Everett&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.newyorker.com/magazine/2007/04/16/the-interpreter-2"&gt;https://www.newyorker.com/magazine/2007/04/16/the-interpreter-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">35732cdb-cf2f-5acb-893b-db0464153511</guid>
+      <pubDate>Thu, 09 Apr 2026 08:08:27 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Pirah%C3%A3_language</link>
+    </item>
+    <item>
+      <title>🎨 Calm UX Is the New Competitive Advantage: Why Low-Stimulus Design Is Reshaping Digital Products in 2026</title>
+      <description>&lt;article&gt;
+&lt;p&gt;The loudest apps are losing. After a decade of engagement-maximizing dark patterns — red notification badges, infinite scroll, dopamine-driven micro-rewards — a counter-movement is gaining serious traction. &lt;strong&gt;Calm UX&lt;/strong&gt;, also called low-stimulus or sensory-aware design, treats cognitive load as a design constraint on par with accessibility and performance. And in 2026, it is moving from niche philosophy to mainstream product strategy.&lt;/p&gt;
+
+&lt;h2&gt;The Cognitive Load Reckoning&lt;/h2&gt;
+
+&lt;p&gt;The shift has clinical roots. Research from the Nielsen Norman Group has long warned that &lt;strong&gt;extraneous cognitive load&lt;/strong&gt; — the mental effort spent parsing interface complexity rather than completing tasks — is the single biggest predictor of user abandonment. What has changed is who is demanding relief.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800" alt="A minimalist clock face representing simplified, distraction-free design" /&gt;
+&lt;figcaption&gt;Calm UX treats time and attention as the scarcest user resources.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Neurodivergent users — estimated at 15–20% of the global population, spanning ADHD, autism spectrum, anxiety disorders, and sensory processing differences — are the most vocal advocates. But the benefits extend universally. A 2025 Lyssna usability study found that &lt;strong&gt;reducing interface animations by 40% improved task completion rates by 17% across all user cohorts&lt;/strong&gt;, not just those with documented sensitivities.&lt;/p&gt;
+
+&lt;h2&gt;What Calm UX Looks Like in Practice&lt;/h2&gt;
+
+&lt;p&gt;Calm design is not minimalism for aesthetics. It is a set of deliberate constraints:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Motion becomes functional, not decorative.&lt;/strong&gt; Every animation must answer: does this help the user understand a state change, or is it just flair? Apple's Reduce Motion accessibility setting, once an afterthought, now influences default interaction design across iOS. Slack's 2025 redesign reduced animation durations by 30% and eliminated purely decorative transitions — specifically citing feedback from users with anxiety and ADHD.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Micro-interactions replace gamification.&lt;/strong&gt; Instead of streaks, badges, and leaderboards, calm products use subtle haptic feedback, gentle color shifts, and completion indicators that inform without pressuring. Headspace's interface evolution is a case study: the app stripped its streak counter from the home screen in late 2025 after internal research showed it was causing guilt-driven disengagement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notification triage becomes a core feature.&lt;/strong&gt; Android 15's Priority Modes and iOS 18's Focus filters let users define cognitive boundaries at the OS level. Apps that fight these boundaries — demanding notification permissions aggressively — are seeing measurable churn penalties.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img src="https://fonts.gstatic.com/s/img/illustrations/gomaterial/M3_3P_Hero.svg" alt="Material 3 Expressive design system illustration" /&gt;
+&lt;figcaption&gt;Material 3 Expressive introduced a Calm Mode specifically designed for sensory-aware contexts.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Material 3 Expressive's Calm Mode&lt;/h2&gt;
+
+&lt;p&gt;Google's Material 3 Expressive update, launched earlier this year, is perhaps the strongest signal that calm UX has reached platform-level adoption. The system now includes an explicit &lt;strong&gt;Calm Mode&lt;/strong&gt; — a set of design tokens and component variants that reduce visual density, soften color contrasts, and minimize motion. It is designed not as an accessibility override but as a &lt;strong&gt;first-class design language&lt;/strong&gt; appropriate for health apps, productivity tools, and any context where sustained focus matters.&lt;/p&gt;
+
+&lt;p&gt;This is significant because Material Design influences millions of Android apps. When Google builds calm into the system itself, it normalizes restraint as a design value rather than treating it as a concession.&lt;/p&gt;
+
+&lt;h2&gt;The Business Case for Restraint&lt;/h2&gt;
+
+&lt;p&gt;The competitive argument is straightforward: &lt;strong&gt;attention is finite, and users are increasingly choosing products that respect it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Envato's 2026 design trends report identifies "cognitive load reduction" as the top UX priority for product teams, ahead of personalization and AI integration. The reasoning is cyclical — as AI-generated interfaces proliferate (see: vibe coding tools producing functional but visually noisy prototypes), the products that feel intentionally calm will stand out precisely because restraint requires human judgment.&lt;/p&gt;
+
+&lt;p&gt;There is also a retention argument. Apps that adopt low-stimulus patterns report &lt;strong&gt;higher session quality&lt;/strong&gt; even when session duration drops. Users spend less time in the app but complete more tasks and report higher satisfaction — a metric that correlates with long-term retention far better than raw engagement time.&lt;/p&gt;
+
+&lt;h2&gt;Practical Takeaway&lt;/h2&gt;
+
+&lt;p&gt;If you are building or redesigning a product in 2026, audit your interface for &lt;strong&gt;extraneous cognitive load&lt;/strong&gt; before adding features:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Run every animation through the "state change or flair?" test. Cut the flair.&lt;/li&gt;
+&lt;li&gt;Offer a reduced-motion mode that is not buried in accessibility settings — make it a toggle in onboarding.&lt;/li&gt;
+&lt;li&gt;Replace gamification mechanics with completion-oriented feedback that does not punish absence.&lt;/li&gt;
+&lt;li&gt;Test with neurodivergent users explicitly, not as an edge case but as a design constraint that improves outcomes for everyone.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The irony of calm UX is that it requires more design effort, not less. Restraint is a skill. The products that master it will own the next era of user loyalty.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;平静体验设计正成为新的竞争优势：为什么低刺激设计正在重塑 2026 年的数字产品&lt;/h2&gt;
+
+&lt;p&gt;最喧闹的应用正在失去用户。经过十年以最大化参与度为目标的暗黑模式——红色通知徽章、无限滚动、多巴胺驱动的微奖励——一场反向运动正在获得实质性推动力。&lt;strong&gt;平静体验设计（Calm UX）&lt;/strong&gt;，也被称为低刺激或感官友好设计，将认知负荷视为与无障碍性和性能同等重要的设计约束。2026 年，它正从小众理念走向主流产品战略。&lt;/p&gt;
+
+&lt;h3&gt;认知负荷的清算时刻&lt;/h3&gt;
+
+&lt;p&gt;这一转变有临床研究基础。Nielsen Norman Group 的研究长期以来警告，&lt;strong&gt;外在认知负荷&lt;/strong&gt;——用于解析界面复杂性而非完成任务的心理努力——是用户放弃的最大预测因素。变化在于谁在推动这种需求。&lt;/p&gt;
+
+&lt;p&gt;神经多样性用户——估计占全球人口的 15-20%，涵盖 ADHD、自闭症谱系、焦虑症和感觉处理差异——是最直言不讳的倡导者。但收益是普遍的。2025 年 Lyssna 的可用性研究发现，&lt;strong&gt;将界面动画减少 40% 使所有用户群体的任务完成率提高了 17%&lt;/strong&gt;，而非仅限于有明确记录的敏感人群。&lt;/p&gt;
+
+&lt;h3&gt;平静设计的实践形态&lt;/h3&gt;
+
+&lt;p&gt;平静设计不是为了美学的极简主义，而是一套刻意的约束：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;动效变为功能性而非装饰性。&lt;/strong&gt;每个动画都必须回答：这是否帮助用户理解状态变化，还是仅仅是花哨？Slack 2025 年的重新设计将动画时长减少了 30%，并消除了纯装饰性过渡——特别引用了焦虑和 ADHD 用户的反馈。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微交互取代游戏化。&lt;/strong&gt;平静产品使用微妙的触觉反馈、柔和的色彩变化和完成指示器来提供信息而非施加压力，而非连续打卡、徽章和排行榜。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通知分级成为核心功能。&lt;/strong&gt;Android 15 的优先模式和 iOS 18 的专注过滤器让用户在系统层面定义认知边界。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Material 3 Expressive 的平静模式&lt;/h3&gt;
+
+&lt;p&gt;Google 的 Material 3 Expressive 更新现在包含一个明确的&lt;strong&gt;平静模式&lt;/strong&gt;——一组设计令牌和组件变体，降低视觉密度、柔化色彩对比并减少动效。它被设计为&lt;strong&gt;一流的设计语言&lt;/strong&gt;，而非无障碍覆盖。当 Google 将平静融入系统本身时，它将克制规范化为一种设计价值。&lt;/p&gt;
+
+&lt;h3&gt;克制的商业论证&lt;/h3&gt;
+
+&lt;p&gt;Envato 的 2026 年设计趋势报告将"认知负荷减少"列为产品团队的首要 UX 优先事项。采用低刺激模式的应用报告了&lt;strong&gt;更高的会话质量&lt;/strong&gt;——用户在应用中花费的时间更少，但完成了更多任务，并报告了更高的满意度。&lt;/p&gt;
+
+&lt;p&gt;如果你正在构建或重新设计产品，在添加功能之前先审计界面的外在认知负荷：测试每个动画是否传达状态变化、提供非隐藏的减少动效模式、用完成导向的反馈替代游戏化机制，并明确针对神经多样性用户进行测试。平静体验设计的悖论在于，它需要更多而非更少的设计努力。掌握克制的产品将主导用户忠诚度的下一个时代。&lt;/p&gt;
+&lt;/article&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.envato.com/blog/web-design-trends/"&gt;https://www.envato.com/blog/web-design-trends/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uxdesigninstitute.com/blog/ux-design-trends/"&gt;https://www.uxdesigninstitute.com/blog/ux-design-trends/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.lyssna.com/blog/ux-design-trends/"&gt;https://www.lyssna.com/blog/ux-design-trends/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.interaction-design.org/literature/topics/cognitive-load"&gt;https://www.interaction-design.org/literature/topics/cognitive-load&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d6c17503-1700-51bc-b24c-b2bdb9a236f6</guid>
+      <pubDate>Thu, 09 Apr 2026 08:09:57 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.envato.com/blog/web-design-trends/</link>
+      <enclosure url="https://elements.envato.com/learn/wp-content/uploads/2024/10/envato-labs-image-edit-36-1-1024x576.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
