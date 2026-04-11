@@ -9,856 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Fri, 10 Apr 2026 08:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 16:59:15 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 Figma MCP Goes Universal: Every Major Coding Agent Can Now Read and Write to the Canvas / Figma MCP 全面开放：所有主流编程智能体均可读写画布</title>
-      <description>&lt;p&gt;Figma's MCP server has quietly become the connective tissue between design and every major AI coding agent. Following the &lt;a href="https://www.figma.com/blog/introducing-claude-code-to-figma/"&gt;bidirectional Claude Code integration&lt;/a&gt; we covered on March 26, Figma has expanded the same capabilities to &lt;strong&gt;GitHub Copilot, Cursor, Windsurf, and OpenAI's Codex&lt;/strong&gt; — with additional support for Augment, Factory, Firebender, and Warp. As of March 2026, the Figma MCP server exposes 8 tools that let AI agents not just read designs but write back to the canvas.&lt;/p&gt;
-
-&lt;p&gt;The March 6 update was the pivotal one: GitHub announced that &lt;a href="https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/"&gt;Copilot users can now push rendered UI back to Figma as editable frames&lt;/a&gt;. Previously, the MCP pipeline was one-directional — agents could pull design context (tokens, component hierarchies, Auto Layout specs) to inform code generation, but couldn't close the loop. Now the cycle is complete: design informs code, code renders UI, UI gets captured and returned to Figma as native layers for designer review.&lt;/p&gt;
-
-&lt;h3&gt;The Eight Tools&lt;/h3&gt;
-
-&lt;p&gt;A &lt;a href="https://popularaitools.ai/blog/figma-mcp-server-review"&gt;detailed review from Popular AI Tools&lt;/a&gt; breaks down the eight MCP tools now available:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;get_code&lt;/strong&gt; — generates React/Tailwind code with framework auto-detection&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;get_screenshot&lt;/strong&gt; — captures visual context for AI prompts&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;get_variable_defs&lt;/strong&gt; — extracts design tokens and styling variables&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;get_code_connect_map&lt;/strong&gt; — maps designs to actual codebase components across React, SwiftUI, Jetpack Compose, and Vue simultaneously&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;get_metadata&lt;/strong&gt; — provides XML representation for large selections&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;use_figma&lt;/strong&gt; — writes native Figma objects to the canvas&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;generate_figma_design&lt;/strong&gt; — captures live running UI and converts it to editable Figma layers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;create_design_system_rules&lt;/strong&gt; — generates design system context for AI consumption&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;code&gt;get_code_connect_map&lt;/code&gt; deserves special attention. Unlike generic markup generation, it leverages your actual codebase components via Code Connect. The AI doesn't guess what your &lt;code&gt;&amp;lt;Button&amp;gt;&lt;/code&gt; looks like — it knows exactly how your component is implemented and generates code using it. This is the difference between "design-to-code" as a novelty and design-to-code as a production workflow.&lt;/p&gt;
-
-&lt;h3&gt;Who's Actually Ready for Bidirectional?&lt;/h3&gt;
-
-&lt;p&gt;Here's the reality check: while Figma-to-code works reliably across all editors, code-to-Figma (live UI capture and write-back) has uneven support. Claude Code remains the most reliable option for the full bidirectional loop. GitHub Copilot in VS Code supports it but requires the remote MCP server (not local). Cursor and Windsurf support read operations well but write capabilities are still maturing.&lt;/p&gt;
-
-&lt;p&gt;Pricing is a consideration too. The free tier allows only 6 monthly MCP calls — functionally useless for real work. Professional tier ($15/month) unlocks unlimited reads with a ~15 calls/minute rate limit. Write access requires a Full seat, not a Dev seat. For teams evaluating this, the practical recommendation is: start with read-only integration (pull design context into your coding agent), then upgrade to bidirectional once your design system is mature enough to produce clean round-trip results.&lt;/p&gt;
-
-&lt;h3&gt;The Real Metric: 50-70% Dev Time Reduction&lt;/h3&gt;
-
-&lt;p&gt;Affirm reportedly rebuilt major product flows in under 2 days using the MCP pipeline, with teams documenting 50-70% reduction in development time when working against mature design systems. The qualifier matters — &lt;em&gt;mature design systems&lt;/em&gt;. Teams with inconsistent component libraries, missing tokens, or poorly structured Figma files will get proportionally worse AI output. This reinforces a point from the &lt;a href="https://report.zeroheight.com/"&gt;zeroheight Design Systems Report&lt;/a&gt;: design system quality is no longer just a design concern — it directly determines how effectively AI coding agents can do their job.&lt;/p&gt;
-
-&lt;p&gt;Figma's strategic position is crystallizing. They're not competing with AI coding agents; they're becoming the shared protocol layer that all of them depend on. Whether you use Copilot, Cursor, Claude Code, or Codex, you're using Figma MCP. That's a powerful moat — one built not on lock-in, but on being the most useful thing in every developer's toolchain.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Figma 的 MCP 服务器已悄然成为设计与所有主流 AI 编程智能体之间的结缔组织。继我们 3 月 26 日报道的 Claude Code 双向集成之后，Figma 将同样的能力扩展到了 &lt;strong&gt;GitHub Copilot、Cursor、Windsurf 和 OpenAI Codex&lt;/strong&gt;，另外还支持 Augment、Factory、Firebender 和 Warp。截至 2026 年 3 月，Figma MCP 服务器共提供 8 个工具，让 AI 智能体不仅能读取设计，还能写回画布。&lt;/p&gt;
-
-&lt;p&gt;3 月 6 日的更新是关键转折：GitHub 宣布 Copilot 用户可以将渲染后的 UI 推回 Figma，生成可编辑的 Figma 图层。此前 MCP 管道是单向的——智能体能拉取设计上下文（Token、组件层级、Auto Layout 规范）来辅助代码生成，但无法闭环。现在循环完整了：设计指导代码 → 代码渲染 UI → UI 被截取并以原生图层回写 Figma，供设计师审阅。&lt;/p&gt;
-
-&lt;h3&gt;八大工具一览&lt;/h3&gt;
-
-&lt;p&gt;其中 &lt;code&gt;get_code_connect_map&lt;/code&gt; 格外值得关注。它不生成通用标记，而是通过 Code Connect 调用你代码库中的真实组件。AI 不用猜你的 Button 长什么样——它直接按照你的实现来生成代码。这才是"设计转代码"从玩具变成生产工作流的分水岭。&lt;/p&gt;
-
-&lt;h3&gt;谁真正准备好了双向同步？&lt;/h3&gt;
-
-&lt;p&gt;现实检验：Figma 转代码在所有编辑器中都稳定可用，但代码转 Figma（实时 UI 捕获与写回）支持参差不齐。Claude Code 仍是最可靠的全双向方案。Copilot 需要远程 MCP 服务器。Cursor 和 Windsurf 的写入能力还在成熟中。&lt;/p&gt;
-
-&lt;p&gt;定价方面，免费档每月仅 6 次调用——完全不够用。Professional（$15/月）解锁无限读取，写入需要 Full 席位。实际建议：先从只读集成起步（拉取设计上下文），等设计系统足够成熟再升级到双向。&lt;/p&gt;
-
-&lt;p&gt;Affirm 用 MCP 管道在不到两天内重建了主要产品流程，开发时间减少 50-70%。但前提是"成熟的设计系统"。组件库不规范、Token 缺失、Figma 文件结构混乱的团队，AI 产出质量也会成比例下降。Figma 的战略定位日益清晰：它不与 AI 编程智能体竞争，而是成为它们共同依赖的协议层。无论你用 Copilot、Cursor 还是 Claude Code，你都在用 Figma MCP。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/"&gt;https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://popularaitools.ai/blog/figma-mcp-server-review"&gt;https://popularaitools.ai/blog/figma-mcp-server-review&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/35280968300439-Figma-MCP-collection-What-is-the-Figma-MCP-server"&gt;https://help.figma.com/hc/en-us/articles/35280968300439-Figma-MCP-collection-What-is-the-Figma-MCP-server&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blockchain.news/news/github-copilot-figma-mcp-bidirectional-sync"&gt;https://blockchain.news/news/github-copilot-figma-mcp-bidirectional-sync&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2f499846-f5ea-55c0-9032-f6370053cc17</guid>
-      <pubDate>Fri, 27 Mar 2026 13:11:42 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</link>
-      <enclosure url="https://github.blog/wp-content/uploads/2024/10/Figma-GitHub-logo-banners.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 热水比冷水先结冰？一个坦桑尼亚中学生用冰淇淋证明了亚里士多德的「疯狂观察」</title>
-      <description>&lt;p&gt;把一杯滚烫的开水和一杯室温的冷水同时放进冰箱，哪个先结冰？直觉告诉你一定是冷水——毕竟它离冰点更近。但如果你真的做了这个实验，结果很可能让你怀疑物理课白学了：&lt;strong&gt;热水有时候确实比冷水先结冰。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个现象叫做 Mpemba 效应（Mpemba Effect），以发现者的名字命名。但「发现者」这个头衔给得有点不公平——因为人类注意到这件事已经超过两千年了。公元前300年，亚里士多德就写过「先前被加热过的水更容易结冰」。1620年弗朗西斯·培根（Francis Bacon）重复了这一说法。1637年笛卡尔（René Descartes）也表示：「经验表明，在火上加热很久的水比其他水更快结冰。」但到了20世纪，热力学已经高度成熟，科学界认为这些古人的观察不过是粗糙条件下的误判，渐渐把它遗忘了。&lt;/p&gt;
-
-&lt;p&gt;直到1963年，一个叫 Erasto Mpemba 的坦桑尼亚中学生重新发现了它——用的是冰淇淋。Mpemba 在学校的烹饪课上制作冰淇淋，因为怕冰箱没位置了，没等牛奶冷却就直接放了进去。结果他的冰淇淋比同学用冷牛奶做的先冻住了。他去问物理老师，老师嘲笑他说：「那是 Mpemba 的物理学，不是正统物理学。」&lt;/p&gt;
-
-&lt;p&gt;Mpemba 没有放弃。后来，物理学家 Denis Osborne 到他的学校做讲座，Mpemba 当众提问：「为什么热水比冷水先结冰？」Osborne 没有像那位老师一样嗤之以鼻，而是回去做了实验——他让实验室技术员同时测试热水和冷水。技术员的反馈堪称经典：「热水确实先冻了，我们会继续重复实验直到得到正确的结果。」但反复做，结果都一样。1969年，Mpemba 和 Osborne 在《Physics Education》上联合发表了论文。一个中学生的名字就此写进了物理学史。&lt;/p&gt;
-
-&lt;p&gt;那么，为什么会这样？坦率地说，&lt;strong&gt;至今没有一个被普遍接受的完整解释。&lt;/strong&gt;这大概是让这个效应最迷人的地方——它简单到任何人都能在厨房里复现，却复杂到让物理学家吵了半个多世纪。目前主流的假说有好几个，每个都能解释一部分情况，但没有一个能通吃所有实验条件：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒸发假说：&lt;/strong&gt;热水在冷却过程中会蒸发掉一部分质量，水少了自然冷得更快。1969年 G.S. Kell 的计算表明，如果水纯粹靠蒸发散热，确实可以先结冰。但 Mpemba 和 Osborne 的实验测量了质量损失，发现远小于 Kell 的预测值。而且在密封容器（没有蒸发）中实验，效应依然出现。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;对流假说：&lt;/strong&gt;热水内部温度不均匀，顶部更热、底部更冷，形成强烈的对流。等热水的平均温度降到和冷水一样的时候，它的表面温度其实比冷水高得多——而散热主要靠表面。所以在「看起来一样冷」的时刻，热水实际上散热更快。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;过冷假说：&lt;/strong&gt;水可以在低于0°C时仍不结冰（过冷现象）。有实验发现，初始温度高的水只过冷到约−2°C就开始结冰，而初始温度低的水可以过冷到−8°C才结冰。但这个假说被批评为「用一个谜解释另一个谜」——为什么初始温度会影响过冷程度？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;溶解气体假说：&lt;/strong&gt;热水中的溶解气体更少（因为加热会赶走气体），而溶解气体可能阻碍结冰过程。但也有实验在去气水中仍然观测到了效应。&lt;/p&gt;
-
-&lt;p&gt;物理学家 Firth 说得好：「这个问题的实验变量太多了，任何两个实验室几乎不可能得到完全相同的结果。」容器形状、冰箱大小、水的纯度、是否有霜层隔热……每一个细节都可能改变结果。也许 Mpemba 效应不是一个单一机制，而是多种因素在特定条件下的合力。&lt;/p&gt;
-
-&lt;p&gt;一个坦桑尼亚少年因为急着做冰淇淋而偶然触碰到了一个两千年的谜题。老师嘲笑他，他坚持追问；科学家重复他的实验，然后也被难住了。有时候科学最迷人的地方，就在于最简单的问题反而最没有答案。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://math.ucr.edu/home/baez/physics/General/hot_water.html"&gt;https://math.ucr.edu/home/baez/physics/General/hot_water.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Mpemba_effect"&gt;https://en.wikipedia.org/wiki/Mpemba_effect&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/does-hot-water-freeze-faster-than-cold-physicists-keep-asking-20220629/"&gt;https://www.quantamagazine.org/does-hot-water-freeze-faster-than-cold-physicists-keep-asking-20220629/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e67d5175-8c8c-561f-8bbe-93ed696a759d</guid>
-      <pubDate>Fri, 27 Mar 2026 13:11:50 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://math.ucr.edu/home/baez/physics/General/hot_water.html</link>
-    </item>
-    <item>
-      <title>📰 伊朗战争第28天：特朗普将最后通牒延至4月6日，五角大楼考虑增兵万人夺取哈尔克岛</title>
-      <description>&lt;p&gt;距离特朗普上一次设定的「最后期限」（3月28日）仅剩一天，白宫3月26日再度后退——将打击伊朗能源设施的暂停期延长10天至&lt;strong&gt;4月6日晚8点&lt;/strong&gt;（东部时间）。特朗普在Truth Social上称「谈判进展非常好」，但伊朗方面的口径截然相反：德黑兰明确表示没有与美国直接对话的意图，并驳回了美方15点停战方案为「极端主义式的、不可接受的」。&lt;/p&gt;
-
-&lt;p&gt;双方的要价差距之大，几乎不存在谈判空间。美国的15点方案由特使Steve Witkoff起草、经巴基斯坦中间人转交，核心要求包括弃核、开放霍尔木兹海峡、停止支持真主党。伊朗的五项反条件则要求美以停止一切空袭、永不再战保障、战争赔偿、停止打击所有「抵抗轴心」武装、以及国际社会承认伊朗对霍尔木兹海峡的主权。两份清单几乎没有重叠之处。&lt;/p&gt;
-
-&lt;p&gt;军事层面的升级信号远比外交辞令更值得关注。据《华尔街日报》和Stars and Stripes报道，五角大楼正考虑向中东增派多达&lt;strong&gt;10,000名地面部队&lt;/strong&gt;，加上已在调动中的约5,000名海军陆战队员和2,000名第82空降师伞兵，美军在该地区的地面力量将达到近20,000人。军事分析人士认为，这一规模与「有限时间、有限目标」的地面行动相符——最可能的目标是&lt;strong&gt;哈尔克岛（Kharg Island）&lt;/strong&gt;，伊朗90%的原油出口经由该岛处理和装船。&lt;/p&gt;
-
-&lt;p&gt;以色列也在同步加压。以军3月26日宣布炸毁伊朗伊斯法罕的弹道导弹工厂，并击毙了伊斯兰革命卫队海军司令Alireza Tangsiri——此人正是策划霍尔木兹海峡封锁的核心人物。伊朗随即向以色列中部发射两轮导弹进行报复，造成建筑损毁和人员受伤。&lt;/p&gt;
-
-&lt;p&gt;开战以来，伊朗已有超过1,750人死亡，其中包括217名儿童。以色列自3月2日起对黎巴嫩的打击也已造成1,116人死亡、3,229人受伤。霍尔木兹海峡事实上仍处于封锁状态——伊朗革命卫队宣布禁止「以色列支持者」的船只通行，本周又有三艘集装箱船在警告后被迫折返。布伦特原油价格回升至108美元/桶，WTI报94.48美元。&lt;/p&gt;
-
-&lt;p&gt;一个容易被忽略的细节：美国民意正在转向。最新民调显示，60%的美国人认为军事行动「过度」，油价成为中期选举前最敏感的政治议题之一。特朗普反复延长「最后期限」而非实际升级，或许正是在寻找一个既保全面子、又不至于陷入地面战泥潭的下台阶。但10,000人增兵计划的存在本身，说明这个选项并没有被排除。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions"&gt;NPR&lt;/a&gt;、&lt;a href="https://www.stripes.com/theaters/middle_east/2026-03-27/82nd-airborne-10000-troops-iran-21196096.html"&gt;Stars and Stripes&lt;/a&gt;、&lt;a href="https://www.csmonitor.com/USA/Military/2026/0327/iran-war-hormuz-trump-ceasefire-plan"&gt;Christian Science Monitor&lt;/a&gt;、&lt;a href="https://www.timesofisrael.com/liveblog-march-27-2026/"&gt;Times of Israel&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions"&gt;https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.stripes.com/theaters/middle_east/2026-03-27/82nd-airborne-10000-troops-iran-21196096.html"&gt;https://www.stripes.com/theaters/middle_east/2026-03-27/82nd-airborne-10000-troops-iran-21196096.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.csmonitor.com/USA/Military/2026/0327/iran-war-hormuz-trump-ceasefire-plan"&gt;https://www.csmonitor.com/USA/Military/2026/0327/iran-war-hormuz-trump-ceasefire-plan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.timesofisrael.com/liveblog-march-27-2026/"&gt;https://www.timesofisrael.com/liveblog-march-27-2026/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d0b1e45e-387d-5863-b9db-48cef9dde11d</guid>
-      <pubDate>Fri, 27 Mar 2026 13:12:04 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions</link>
-      <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2Ff2%2F661da909496aac5ad9e4a944192c%2Fgettyimages-2268031932.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 精神科该开「运动处方」了——JAMA Psychiatry 万人综述：运动对抑郁的效果不输抗抑郁药</title>
-      <description>&lt;p&gt;精神分裂症、重度抑郁、双相障碍患者的预期寿命比普通人短 10 到 20 年。头号杀手不是自杀，而是心血管和代谢疾病——而久坐是最大的帮凶。维也纳医科大学 Brendon Stubbs 联合拉夫堡大学 Florence Kinnafick、伦敦国王学院等十余所高校团队在 &lt;strong&gt;JAMA Psychiatry&lt;/strong&gt; 发表了一篇大规模综述，目标很直接：把运动从「建议」升级为精神科诊疗的正式组成部分。&lt;/p&gt;
-
-&lt;p&gt;这不是一项新实验，而是对现有最高质量证据的系统梳理。团队检索到 13 项高方法学质量的 Meta 分析，涵盖 256 项随机对照试验（RCT）、超过 12,000 名经临床诊断的精神疾病患者。核心结论：结构化运动干预对抑郁症状产生了「中度至大效应量」（moderate-to-large effect size）的改善；在抑郁症亚组中，效果与抗抑郁药物相当。对精神分裂症患者，运动不仅改善阴性症状和认知功能，还显著降低心血管代谢指标。双相障碍患者同样获得了生活质量和心肺适能的提升。&lt;/p&gt;
-
-&lt;p&gt;数据背后藏着一个令人沮丧的现实：精神分裂症患者每天久坐近 10 小时，不到 20% 达到 WHO 推荐的每周 150 分钟中等强度运动量；抑郁症和双相障碍患者达到运动标准的概率比普通人低约 50%。药物副作用（体重增加、代谢综合征）往往加剧这一恶性循环。&lt;/p&gt;
-
-&lt;p&gt;团队提出了一个具体的临床嵌入框架——&lt;strong&gt;5A 模型&lt;/strong&gt;：Ask（询问患者运动习惯）、Assess（评估行为改变准备度）、Advise（给出个性化运动建议）、Assist（辅助动机维持）、Arrange（安排随访和支持）。这个模型的核心诉求是：不需要额外的运动处方门诊，现有的精神科常规问诊就能完成筛查和启动干预。推荐的运动形式相当「亲民」——步行、骑车、瑜伽、普拉提均可，目标是每周 150 分钟中等强度活动加两次力量训练。&lt;/p&gt;
-
-&lt;p&gt;这篇综述本身不产生新数据，但它的政策含义很重。目前全球精神科指南中，运动仍然只是「生活方式建议」这个模糊分类下的一行小字。如果 12,000 人的 RCT 证据还不够让运动进入处方栏，那问题可能不在证据，而在医疗系统没有为此设计付费路径和考核机制。Stubbs 团队给出的 5A 框架试图绕过这个瓶颈——既然改不了体制，先改诊室里那五分钟的对话。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.lboro.ac.uk/news-events/news/2026/march/physical-activity-mental-health-care/"&gt;https://www.lboro.ac.uk/news-events/news/2026/march/physical-activity-mental-health-care/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.myscience.org/en/news/wire/integrating_physical_activity_into_the_treatment_of_mental_illness-2026-meduniwien"&gt;https://www.myscience.org/en/news/wire/integrating_physical_activity_into_the_treatment_of_mental_illness-2026-meduniwien&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.researchgate.net/publication/401566102_Integrating_Physical_Activity_Into_Routine_Psychiatric_Care_A_Review"&gt;https://www.researchgate.net/publication/401566102_Integrating_Physical_Activity_Into_Routine_Psychiatric_Care_A_Review&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">da05d9e2-c7f4-5fab-b5c2-23aec7412a72</guid>
-      <pubDate>Fri, 27 Mar 2026 13:12:06 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.lboro.ac.uk/news-events/news/2026/march/physical-activity-mental-health-care/</link>
-      <enclosure url="https://www.lboro.ac.uk/media/wwwlaboraboroacuk/content/news/2026/march/physical-activity-mental-health-care/kettlebells-in-a-row.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Visual Studio 2026's Fluent UI Overhaul: A Case Study in Designing for Long Sessions / Visual Studio 2026 的 Fluent UI 大改：一场为长时间工作设计的 UX 实践</title>
-      <description>&lt;p&gt;Microsoft shipped Visual Studio 2026 with a ground-up UI overhaul built on &lt;strong&gt;Fluent UI&lt;/strong&gt;, and the design rationale is worth studying regardless of whether you work in IDEs. The redesign tackles a specific, measurable problem: cognitive fatigue during extended coding sessions. Microsoft's research found that "small inconsistencies and visual noise add up, especially on dense screens" — the kind of finding that sounds obvious until you quantify its impact on an 8-hour workday.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2025/04/VS-2026-dark.png" alt="Visual Studio 2026 dark theme showing the new Fluent UI interface" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The Visual Studio 2026 dark theme, redesigned with Fluent UI for reduced visual noise and improved clarity&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;What Actually Changed&lt;/h3&gt;
-
-&lt;p&gt;The visual layer got a systematic refresh: crisper lines, improved iconography, better spacing, and a code-first layout philosophy that positions the editor as the central element while reducing peripheral visual noise. These aren't aesthetic choices — they're ergonomic ones. Every pixel of chrome around your editor is cognitive overhead.&lt;/p&gt;
-
-&lt;p&gt;The most tangible change for daily use is &lt;strong&gt;11 new tinted themes&lt;/strong&gt; with subtle color accents on light or dark backgrounds. But the real innovation is structural: the editor theme can now be configured independently from the IDE shell. You can have a high-contrast editor for code readability while keeping a softer shell UI, or vice versa. User font preferences persist across theme changes — a small detail that eliminates a surprisingly common friction point when switching between light and dark modes.&lt;/p&gt;
-
-&lt;p&gt;Accessibility is baked in rather than bolted on: the themes include increased contrast and improved text legibility as defaults, not options buried in settings. This aligns with the broader industry shift we've been tracking around ADA Title II compliance and the European Accessibility Act — even developer tools are expected to meet higher standards now.&lt;/p&gt;
-
-&lt;h3&gt;The Settings Redesign&lt;/h3&gt;
-
-&lt;p&gt;Visual Studio's settings have been notoriously labyrinthine. The 2026 version introduces a completely rebuilt settings experience: fully themed (matching your IDE preference), improved search with better-organized results, and — crucially — a new underlying JSON file that makes every change visible and trackable in real time. Settings-as-code means teams can version-control their IDE configurations, share them via repos, and diff changes. It's a small shift with outsized impact on developer team consistency.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2025/04/VS-2026-light.png" alt="Visual Studio 2026 light theme showing the new settings interface" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The light theme variant prioritizes clarity during daytime use with improved spacing and iconography&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;What Product Designers Can Learn&lt;/h3&gt;
-
-&lt;p&gt;The Visual Studio redesign offers three principles applicable well beyond IDEs:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Density requires discipline.&lt;/strong&gt; Information-dense interfaces — dashboards, admin panels, data tools — need more design attention, not less. Microsoft didn't simplify VS Code into a minimal text editor; they made a dense interface &lt;em&gt;calmer&lt;/em&gt; through consistent spacing, cleaner typography, and reduced visual noise. The lesson: you can have density without chaos.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Separate the layers.&lt;/strong&gt; Letting users independently theme the editor vs. the shell is a powerful pattern for any multi-panel interface. Email clients could separate inbox and compose panes. Design tools could let you theme the canvas differently from the toolbar. Any interface where users stare at one area 80% of the time benefits from independent visual treatment.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Make configuration observable.&lt;/strong&gt; The JSON-backed settings file transforms opaque preferences into a transparent, diffable artifact. This principle — making system state inspectable — maps directly to the agentic UX patterns we covered from Victor Yocco: when systems are transparent, trust follows.&lt;/p&gt;
-
-&lt;p&gt;The VS 2026 redesign won't win design awards. It's not meant to. It's designed to disappear — to let developers focus for 8 hours without the interface itself becoming a source of friction. That kind of invisible, session-length UX is some of the hardest design work there is.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;微软为 Visual Studio 2026 做了一次基于 &lt;strong&gt;Fluent UI&lt;/strong&gt; 的全面 UI 重构，设计理念值得所有产品设计师研究——即使你不做 IDE 产品。这次重设计针对的是一个具体的、可测量的问题：长时间编码中的认知疲劳。微软的研究发现，"微小的不一致和视觉噪声会在密集屏幕上累积"——听上去显而易见，但量化到 8 小时工作日的影响就不一样了。&lt;/p&gt;
-
-&lt;h3&gt;到底改了什么&lt;/h3&gt;
-
-&lt;p&gt;视觉层经历了系统性刷新：更锐利的线条、改进的图标、更好的间距，以及"代码优先"的布局哲学——编辑器居中，周围的视觉干扰被大幅削减。这些不是审美选择，而是人体工学选择。&lt;/p&gt;
-
-&lt;p&gt;最实质的变化是 &lt;strong&gt;11 套新的色调主题&lt;/strong&gt;。但真正的创新在于结构层面：编辑器主题现在可以独立于 IDE 外壳单独配置。你可以给代码区设高对比度以提升可读性，同时保持外壳柔和——反过来也行。用户字体偏好在切换主题时得到保留，消除了一个出人意料常见的摩擦点。&lt;/p&gt;
-
-&lt;p&gt;无障碍被内建而非后装：主题默认就包含增强对比度和改进的文字可读性，不是藏在设置深处的选项。&lt;/p&gt;
-
-&lt;h3&gt;设置系统重做&lt;/h3&gt;
-
-&lt;p&gt;VS 2026 引入了全新的设置体验：搜索更智能、结果组织更清晰，底层用 JSON 文件驱动，每个变更实时可见可追踪。设置即代码意味着团队可以版本控制 IDE 配置、通过仓库共享、diff 变更。一个小变化，对开发团队一致性的影响却不小。&lt;/p&gt;
-
-&lt;h3&gt;产品设计师能学到什么&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 高密度界面需要更多设计纪律，而非更少。&lt;/strong&gt; 微软没有把 VS 简化成极简编辑器；他们通过一致的间距、更干净的字体和减少的视觉噪声，让密集界面变得"安静"了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 分离界面层级。&lt;/strong&gt; 允许用户独立配置编辑器和外壳的主题，是一个可以推广到任何多面板界面的模式。邮件客户端可以分离收件箱和撰写区。设计工具可以让画布和工具栏有不同的视觉处理。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 让配置可观测。&lt;/strong&gt; JSON 驱动的设置文件把不透明的偏好变成了透明的、可 diff 的工件。这与我们此前报道的 Victor Yocco 智能体 UX 模式直接呼应：当系统透明时，信任随之而来。&lt;/p&gt;
-
-&lt;p&gt;VS 2026 的重设计不会赢设计奖。它本来就不追求那个。它被设计为"消失"——让开发者在 8 小时内专注工作，而界面本身不成为摩擦源。这种隐形的、面向长会话的 UX，恰恰是最难的设计工作之一。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/a-first-look-at-the-all%E2%80%91new-ux-in-visual-studio-2026/"&gt;https://devblogs.microsoft.com/visualstudio/a-first-look-at-the-all%E2%80%91new-ux-in-visual-studio-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.c-sharpcorner.com/article/brand-new-ui-in-visual-studio-2026-why-it-matters-for-long-coding-sessions/"&gt;https://www.c-sharpcorner.com/article/brand-new-ui-in-visual-studio-2026-why-it-matters-for-long-coding-sessions/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes"&gt;https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5fe85d13-117f-5413-a1b1-63bb637d9902</guid>
-      <pubDate>Fri, 27 Mar 2026 13:12:33 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://devblogs.microsoft.com/visualstudio/a-first-look-at-the-all%E2%80%91new-ux-in-visual-studio-2026/</link>
-      <enclosure url="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2025/04/VS-2026-dark.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 一栋楼的一楼属于荷兰、二楼属于比利时、三楼又属于荷兰：Baarle，全世界最疯狂的边境小镇</title>
-      <description>&lt;p&gt;在荷兰南部和比利时北部交界处，有一个叫 Baarle 的小镇。说它是「一个小镇」其实不太准确——它是两个小镇叠在一起：荷兰的 Baarle-Nassau 和比利时的 Baarle-Hertog。两国领土在这里搅成了一锅粥，程度之荒谬让任何地图绘制者都想辞职。&lt;/p&gt;
-
-&lt;p&gt;先说数字：比利时在荷兰境内有&lt;strong&gt;22块飞地&lt;/strong&gt;（enclave），完全被荷兰领土包围。而在这22块比利时飞地里面，又嵌套着7块荷兰的「反飞地」（counter-enclave）。也就是说，你可以站在荷兰境内的一块比利时领土里的一块荷兰领土上——三层俄罗斯套娃。整个小镇加起来有30个飞地，占了全世界飞地总数的将近一半。&lt;/p&gt;
-
-&lt;p&gt;这种混乱的源头要追溯到1198年。中世纪时，布雷达领主（Lord of Breda）和布拉班特公爵（Duke of Brabant）之间反复进行土地交换、出售和赠予，把领地搞得犬牙交错。这些封建时代的产权分配在1843年的《马斯特里赫特条约》中被正式确认为国界，但精确的边界线直到1995年才最终勘定——没错，这个「临时边界」用了将近八百年。&lt;/p&gt;
-
-&lt;p&gt;疯狂的不是历史，而是这条边界至今仍在日常生活中制造荒诞场景。&lt;/p&gt;
-
-&lt;p&gt;小镇上有些房子被国界线从中间劈开。厨房在荷兰，卧室在比利时，诸如此类。那这栋房子到底属于哪个国家？答案靠一条简单到近乎搞笑的规则：&lt;strong&gt;前门规则（voordeurregel）&lt;/strong&gt;——你家大门朝哪个国家开，你就是哪个国家的居民。据说历史上有居民为了享受更低的税率而把前门从一侧墙挪到另一侧墙，字面意义上的「换个门就换了国籍」。&lt;/p&gt;
-
-&lt;p&gt;更离谱的是那栋跨境公寓楼。荷兰的建筑法规允许建两层，比利时允许建三层。于是这栋楼的一楼在荷兰，二楼在比利时，三楼又是荷兰——垂直方向上的领土交替。&lt;/p&gt;
-
-&lt;p&gt;税务和法律问题在这里变成了噩梦。镇上有一家叫 De Biergrens 的商店横跨两国，店员必须精确计算每件商品在哪一侧货架上，因为荷兰和比利时的增值税税率不同。饮酒年龄也不一样：比利时是16岁，荷兰是18岁。两国各自在这个小镇维持着自己的警察局、邮政系统和行政机构，共用同一栋市政厅——市政厅的会议室里有一条对角线标记着国界。&lt;/p&gt;
-
-&lt;p&gt;婚礼也得小心。法律要求结婚双方必须站在正确的国家一侧，否则婚姻可能无效。想象一下牧师说「你可以亲吻新娘了」的时候，新郎还得先确认自己没有越境。&lt;/p&gt;
-
-&lt;p&gt;一战期间，德国占领了比利时但没有占领荷兰。这意味着在 Baarle，一条马路的荷兰一侧是自由的，比利时一侧是被占领的。德军沿着比利时飞地的边界架设了带电铁丝网（Dodendraad，字面意思「死亡之线」）。但比利时人发明了一种叫 passeursraam 的折叠木框，可以插进电线之间形成绝缘通道，帮助人们逃往荷兰一侧——而「荷兰一侧」可能就在街对面三米远。&lt;/p&gt;
-
-&lt;p&gt;今天的 Baarle 已经把这种混乱变成了旅游卖点。地面上用金属钉标记国界线，游客可以一步跨两国。镇上甚至有一个葡萄园完全位于被荷兰包围的比利时飞地内，生产的红酒叫「Enclaves Rood」，拥有欧盟地理标志保护。边境上有一座小镇，用八百年的行政混乱酿出了一瓶好酒——这大概是人类最浪漫的官僚主义了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Baarle-Hertog"&gt;https://en.wikipedia.org/wiki/Baarle-Hertog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://travel.bhushavali.com/2020/01/baarle-hertog-nassau-unique-borders.html"&gt;https://travel.bhushavali.com/2020/01/baarle-hertog-nassau-unique-borders.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.france24.com/en/live-news/20240606-europe-in-miniature-welcome-to-baarle-world-s-strangest-border"&gt;https://www.france24.com/en/live-news/20240606-europe-in-miniature-welcome-to-baarle-world-s-strangest-border&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.atlasobscura.com/places/borders-of-baarlenassau-and-baarlehertog"&gt;https://www.atlasobscura.com/places/borders-of-baarlenassau-and-baarlehertog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">29c798d5-cd9c-5ab5-af10-8eee595274dc</guid>
-      <pubDate>Fri, 27 Mar 2026 13:12:35 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Baarle-Hertog</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Gemeentehuis_Baarle-Hertog.jpg/1280px-Gemeentehuis_Baarle-Hertog.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 G7法国峰会：Rubio兜售伊朗战争遭冷遇，欧洲盟友公开批评「没有退出策略」</title>
-      <description>&lt;p&gt;G7外长会议3月27日在法国召开，美国国务卿Marco Rubio带着一个不受欢迎的任务到场：说服盟友为伊朗战争提供更多支持。结果可以用「碰壁」来形容。&lt;/p&gt;
-
-&lt;p&gt;Rubio的核心论点是：霍尔木兹海峡的封锁不是美国一家的问题，全球20%的海运石油经由这条咽喉通行，欧洲和亚洲的能源安全同样受到威胁，各国应「站出来」共同应对。这个逻辑在纸面上说得通，但欧洲的回应暴露了跨大西洋关系的深层裂痕。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;德国国防部长直言华盛顿「没有退出策略」&lt;/strong&gt;——这句话在外交场合的分量不轻，几乎等于公开质疑美国的战略能力。欧盟外交政策高级代表Kaja Kallas的表态更加微妙：她强调需要「推动中东局势降级」，同时提醒「不能忽视乌克兰」。潜台词是：你们把注意力和资源都投进了一场选择性战争，我们的首要安全关切——俄罗斯——被晾在了一边。&lt;/p&gt;
-
-&lt;p&gt;这种不满并非空穴来风。自2月28日美以对伊朗开战以来，没有任何一个G7成员国明确表态支持军事行动。欧洲各国抱怨事先未得到通知，认为这是一场「选择之战」（war of choice）而非必要之举。特朗普此前在社交媒体上对盟友的公开羞辱进一步恶化了气氛——Rubio现在要收拾的不仅是政策分歧，还有情感上的创伤。&lt;/p&gt;
-
-&lt;p&gt;会议还讨论了乌克兰问题。泽连斯基近日访问沙特阿拉伯寻求安全伙伴关系和军事援助，试图在中东乱局中为自己争取更多资源。Kallas和多位欧洲外长明确将两场战争挂钩：如果美国期望欧洲在伊朗问题上配合，那就不能在乌克兰问题上缩手。&lt;/p&gt;
-
-&lt;p&gt;从市场反应看，投资者对G7的期待并不高。当天华尔街出现自开战以来最大跌幅，亚洲市场同步走低。布伦特原油维持在108美元附近高位，市场显然不认为这次外交努力能带来实质性的局势降温。&lt;/p&gt;
-
-&lt;p&gt;这场G7会议暴露了一个深层问题：美国正在同时打两场半战争（伊朗直接军事行动 + 对真主党/民兵的打击 + 国内DHS停摆危机），却在最需要盟友分担压力的时候发现自己几乎是孤家寡人。Rubio能否在下一轮谈判中拿出足够的筹码——比如对乌克兰的更大承诺——来换取欧洲的配合，将决定这场战争的国际政治走向。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7"&gt;NPR&lt;/a&gt;、&lt;a href="https://www.washingtonpost.com/politics/2026/03/27/g7-france-rubio-iran-war-allies-trump/3fb69cbe-2992-11f1-a0f2-3ba4c9fe08ac_story.html"&gt;华盛顿邮报&lt;/a&gt;、&lt;a href="https://www.france24.com/en/live-news/20260326-g7-meets-in-france-to-narrow-transatlantic-iran-split-1"&gt;France 24&lt;/a&gt;、&lt;a href="https://www.cnbc.com/2026/03/26/g7-summit-iran-war-europe-us-marco-rubio-ukraine-strait-of-hormuz-shipping-energy.html"&gt;CNBC&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7"&gt;https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/politics/2026/03/27/g7-france-rubio-iran-war-allies-trump/3fb69cbe-2992-11f1-a0f2-3ba4c9fe08ac_story.html"&gt;https://www.washingtonpost.com/politics/2026/03/27/g7-france-rubio-iran-war-allies-trump/3fb69cbe-2992-11f1-a0f2-3ba4c9fe08ac_story.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.france24.com/en/live-news/20260326-g7-meets-in-france-to-narrow-transatlantic-iran-split-1"&gt;https://www.france24.com/en/live-news/20260326-g7-meets-in-france-to-narrow-transatlantic-iran-split-1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/26/g7-summit-iran-war-europe-us-marco-rubio-ukraine-strait-of-hormuz-shipping-energy.html"&gt;https://www.cnbc.com/2026/03/26/g7-summit-iran-war-europe-us-marco-rubio-ukraine-strait-of-hormuz-shipping-energy.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2ac607da-82fa-5580-95a3-02a4d32f3415</guid>
-      <pubDate>Fri, 27 Mar 2026 13:12:42 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7</link>
-      <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2Ff2%2F661da909496aac5ad9e4a944192c%2Fgettyimages-2268031932.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 全球数十亿人脑中都有一种猫传播的寄生虫，它可能正在悄悄改变你的性格</title>
-      <description>&lt;p&gt;如果有人告诉你，你大脑里可能住着一种寄生虫，而且它正在影响你的性格、你的驾驶习惯、甚至你选择读商学院的概率——你会觉得这是科幻片的设定。但这是真的。这种寄生虫叫&lt;strong&gt;弓形虫（Toxoplasma gondii）&lt;/strong&gt;，它感染了全球大约三分之一的人口。在一些国家，老年人的感染率高达60%–80%。&lt;/p&gt;
-
-&lt;p&gt;弓形虫的终宿主是猫。它只能在猫的肠道里完成有性繁殖，然后通过猫粪传播。人类感染的途径主要是接触被污染的猫砂、吃了未煮熟的肉、或者吃了受污染土壤中种出的蔬菜水果。感染后，弓形虫会在大脑中形成包囊（cyst），尤其集中在掌管情绪调节的边缘系统（limbic system），然后就安静地待在那里——可能一辈子。大多数感染者终身没有明显症状，医学上称为「隐性感染」（latent infection）。&lt;/p&gt;
-
-&lt;p&gt;但「没有明显症状」不等于「没有影响」。&lt;/p&gt;
-
-&lt;p&gt;过去二十多年，捷克查尔斯大学（Charles University）的寄生虫学家 Jaroslav Flegr 一直在研究弓形虫对人类行为的影响，发表了上百篇论文。他的发现令人不安：感染弓形虫的人比未感染者&lt;strong&gt;更外向、更不谨慎&lt;/strong&gt;。而且男女的变化方向不同——感染的男性倾向于更好妒、更容易冒险，感染的女性则变得更温暖、更合群。&lt;/p&gt;
-
-&lt;p&gt;这种行为改变的底层机制和多巴胺（dopamine）有关。弓形虫有一个惊人的能力：它自己的基因组里编码了一种叫&lt;strong&gt;酪氨酸羟化酶（tyrosine hydroxylase）&lt;/strong&gt;的酶——这是合成多巴胺的关键酶。换句话说，弓形虫不是间接干扰宿主的神经递质，而是自己动手生产多巴胺，直接拉高宿主大脑中的多巴胺水平。多巴胺浓度升高会让人更冲动、更愿意冒险、对奖赏更敏感。&lt;/p&gt;
-
-&lt;p&gt;这一切在进化上有完美的逻辑。弓形虫需要被猫吃掉才能完成生命周期。在它的主要中间宿主——老鼠身上，弓形虫的操控效果极其戏剧化：感染的老鼠会&lt;strong&gt;失去对猫的恐惧&lt;/strong&gt;，甚至被猫尿的气味吸引。一只正常老鼠闻到猫尿会拼命逃跑，感染弓形虫的老鼠却会主动靠近。结果？更容易被猫抓住吃掉，弓形虫顺利回到猫的肠道——任务完成。&lt;/p&gt;
-
-&lt;p&gt;人类不是弓形虫的目标宿主，但我们的大脑和老鼠的大脑共享很多基础的神经化学通路。所以弓形虫在人脑中的「操控」虽然不像在老鼠身上那么极端，却仍然可以被统计学探测到。Flegr 的团队发现，感染者的交通事故率略高于未感染者——反应速度更慢、冒险倾向更强。还有研究发现，弓形虫阳性的人选择读商科的概率比阴性的人高1.4倍，选「管理与创业」方向的概率高1.7倍。创业本身就是高风险行为，这个相关性耐人寻味。&lt;/p&gt;
-
-&lt;p&gt;更令人不安的关联还有：精神分裂症（schizophrenia）患者的弓形虫感染率显著高于普通人群，弓形虫感染也与自杀行为和物质滥用存在统计相关。&lt;/p&gt;
-
-&lt;p&gt;当然，必须强调：以上所有发现都是&lt;strong&gt;相关性，而非因果关系&lt;/strong&gt;。超过100项研究发现了弓形虫感染与行为变化的相关性，但没有一项研究能确定是寄生虫「导致」了这些变化。也许更爱冒险的人本来就更容易接触未煮熟的肉？也许某些混杂因素没有被控制？科学界对此仍有激烈争论。&lt;/p&gt;
-
-&lt;p&gt;不过有一点几乎没有争议：弓形虫在老鼠身上的行为操控是真实的、因果明确的。一种微生物可以重写哺乳动物的恐惧回路——这个事实本身就足够让人后背发凉了。至于它在人类大脑里到底做了什么，我们暂时还在猜。但考虑到全球有二三十亿人脑子里都住着这东西，这个问题大概值得继续追问。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/common-parasite-linked-to-personality-changes/"&gt;https://www.scientificamerican.com/article/common-parasite-linked-to-personality-changes/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1555024/full"&gt;https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1555024/full&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2526142/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC2526142/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f2596e7a-f14b-5a78-a314-5a66857d2bad</guid>
-      <pubDate>Fri, 27 Mar 2026 13:13:19 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.scientificamerican.com/article/common-parasite-linked-to-personality-changes/</link>
-      <enclosure url="https://static.scientificamerican.com/sciam/cache/file/C3E47E0D-85D9-41A6-ADBD6417E59FAFFB_source.jpg?w=1200" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 俄军春季攻势全面展开：千架无人机袭乌创纪录，乌方称防线仍在但压力「空前巨大」</title>
-      <description>&lt;p&gt;俄罗斯对乌克兰的春季攻势已从试探转入全面推进。3月23日至24日，俄军在24小时内发射了近&lt;strong&gt;950架无人机和数十枚导弹&lt;/strong&gt;——这是开战以来规模最大的单次空中打击。随后的36小时内，攻击总量突破1,000架，包括罕见的白天大规模无人机突袭，打破了此前以夜间袭击为主的惯例。&lt;/p&gt;
-
-&lt;p&gt;打击范围遍布乌克兰全境。西部城市利沃夫（Lviv）遭受的破坏尤为惨重：两次爆炸击中老城区历史中心，一名警察殉职、25人受伤，其中6人是赶赴现场的警员。更具象征意义的是，俄军导弹击中了利沃夫的圣安德烈教堂——这座建于17世纪的教堂是&lt;strong&gt;联合国教科文组织世界遗产&lt;/strong&gt;的一部分。乌克兰安全局（SBU）随后逮捕了两名GRU（俄军情报总局）特工，他们被指控为俄军评估「榛树」（Oreshnik）高超音速导弹对利沃夫打击效果。&lt;/p&gt;
-
-&lt;p&gt;地面战场同样在升温。美国智库ISW（战争研究所）正式评估俄军2026年春夏攻势已经启动，主攻方向集中在三个轴线：东部顿涅茨克地区的利曼（Lyman）——这里是乌军「堡垒防线」的关键节点，保护着更大城市斯洛维扬斯克（Sloviansk）；东南部的扎波罗热方向，俄军投入了大量坦克和装甲车辆；以及哈尔科夫和苏梅方向的持续消耗。&lt;/p&gt;
-
-&lt;p&gt;但前线并非一边倒。乌军在扎波罗热地区的反攻取得了可观战果：过去两个月收复约440平方公里领土，解放9个定居点，毙敌2,653人。这是自2023年以来乌军首次在月度净领土变化上实现正增长。乌克兰总参谋长瑟尔斯基（Syrskyi）向ISW确认了春季攻势评估，但也承认部队面临「空前压力」。&lt;/p&gt;
-
-&lt;p&gt;俄军此轮攻势的战术特征值得注意：继续采用「绞肉机」式的密集步兵冲锋，以人命换阵地。尽管投入了大量预备队，俄军在多个方向上未能完成既定任务。ISW的评估是：俄军有数量优势但缺乏决定性突破的能力，而乌军有防御纵深但兵力日益吃紧。&lt;/p&gt;
-
-&lt;p&gt;伊朗战争的溢出效应正在加重乌克兰的困境。多位欧洲外长在G7会议上直言：美国将资源和注意力投向中东，削弱了对乌援助的政治意愿。泽连斯基本周访问沙特阿拉伯寻求新的安全伙伴，说明基辅也在对冲美国可能进一步分心的风险。俄罗斯显然嗅到了这个窗口期——选择在美国最分身乏术的时候发动今年最大规模的攻势，时机绝非偶然。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts"&gt;Al Jazeera&lt;/a&gt;、&lt;a href="https://smallwarsjournal.com/2026/03/23/russias-spring-offensive-begins-against-ukraines-fortress-belt-isw/"&gt;Small Wars Journal/ISW&lt;/a&gt;、&lt;a href="https://kyivindependent.com/analysis-ukraines-counterattacks-and-the-upcoming-russian-spring-campaign/"&gt;Kyiv Independent&lt;/a&gt;、&lt;a href="https://thehill.com/homenews/ap/ap-international/ap-iran-war-deflects-attention-from-ukraine-as-an-emboldened-russia-starts-spring-offensive/"&gt;The Hill&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts"&gt;https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://smallwarsjournal.com/2026/03/23/russias-spring-offensive-begins-against-ukraines-fortress-belt-isw/"&gt;https://smallwarsjournal.com/2026/03/23/russias-spring-offensive-begins-against-ukraines-fortress-belt-isw/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kyivindependent.com/analysis-ukraines-counterattacks-and-the-upcoming-russian-spring-campaign/"&gt;https://kyivindependent.com/analysis-ukraines-counterattacks-and-the-upcoming-russian-spring-campaign/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://thehill.com/homenews/ap/ap-international/ap-iran-war-deflects-attention-from-ukraine-as-an-emboldened-russia-starts-spring-offensive/"&gt;https://thehill.com/homenews/ap/ap-international/ap-iran-war-deflects-attention-from-ukraine-as-an-emboldened-russia-starts-spring-offensive/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f82bd7c4-d757-5b9e-97d3-d02962598640</guid>
-      <pubDate>Fri, 27 Mar 2026 13:13:22 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts</link>
-      <enclosure url="https://smallwarsjournal.com/wp-content/uploads/2024/12/Ukraine-3.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 零粘度、爬墙、永不停止流动：超流体氦是宇宙中最不讲道理的液体</title>
-      <description>&lt;p&gt;把液氦冷却到−270.92°C（所谓的 λ 点，lambda point），它就会变成一种地球上几乎不存在的物质状态：&lt;strong&gt;超流体（superfluid）&lt;/strong&gt;。超流体氦的粘度是零——不是「非常小」，是数学意义上的零。如果你把超流体氦放在一个杯子里搅动，它会永远旋转下去，不会慢下来。物理学家 John Beamish 说过：「即使放一百万年不动，它还是会继续流动。」&lt;/p&gt;
-
-&lt;p&gt;但超流体氦最让人瞠目的技能是&lt;strong&gt;爬墙&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;把超流体氦倒进一个敞口杯子里，它会沿着杯壁向上攀爬，翻过杯沿，沿着外壁流下来，直到杯子里的液面和外面的液面齐平，或者杯子被彻底排空。你没看错——这种液体会自己翻出容器逃跑。普通液体也有沿着固体表面向上浸润的现象（毛细效应），但内部摩擦会很快让它停下来。超流体没有内部摩擦，所以一旦开始爬，就不会停。它在杯壁上形成一层极薄的液膜——只有几十纳米厚——然后通过虹吸效应把液体源源不断地输送出去。&lt;/p&gt;
-
-&lt;p&gt;还有更夸张的：&lt;strong&gt;超流体喷泉（fountain effect）&lt;/strong&gt;。如果你在一个装有超流体氦的容器底部加热一小块区域，超流体会从外面涌入来冷却它，但涌入的速度太快了，多余的液体会从容器顶部像喷泉一样射出来。加热竟然能让液体自发喷射——这在日常物理直觉里完全是反的。&lt;/p&gt;
-
-&lt;p&gt;为什么氦这么特殊？这得从量子力学说起。&lt;/p&gt;
-
-&lt;p&gt;氦-4（Helium-4）的原子核有2个质子和2个中子，总自旋为零，属于玻色子（boson）。根据量子统计力学，玻色子在极低温下可以发生&lt;strong&gt;玻色-爱因斯坦凝聚（Bose-Einstein Condensation, BEC）&lt;/strong&gt;——大量粒子「塌缩」到同一个量子态，不再是一群独立运动的原子，而是变成了一个巨大的、协同行动的量子实体。打个比方：普通液体是一群各跑各的人，超流体是所有人手拉手跳同一支舞。当它们的运动完全一致时，内部就没有了摩擦——因为摩擦来自粒子之间不协调的碰撞，而 BEC 态里根本没有「不协调」。&lt;/p&gt;
-
-&lt;p&gt;氦之所以能做到这一点，还有一个关键原因：它是唯一一种在绝对零度（−273.15°C）时仍然保持液态的物质。其他所有东西在那么低的温度下早就冻成固体了。氦原子特别轻，原子间的相互作用力又特别弱，即使在接近绝对零度时，它们的量子零点运动（zero-point motion）——一种由海森堡不确定性原理决定的、无法消除的最低限度振动——仍然足以阻止它们排列成固体晶格。除非你施加约25个大气压，否则氦永远不会结冰。&lt;/p&gt;
-
-&lt;p&gt;超流体氦的发现可以追溯到1908年，荷兰物理学家 Heike Kamerlingh Onnes 首次成功液化了氦。但直到1938年，苏联的 Pyotr Kapitsa 和英国的 John Allen、Don Misener 才通过极细玻璃管实验精确测量了液氦在 λ 点以下的异常低粘度，正式提出了「超流体」这个概念。Kapitsa 因此获得了1978年的诺贝尔物理学奖。&lt;/p&gt;
-
-&lt;p&gt;超流体不只是实验室里的奇观。中子星内部可能存在超流体态的中子——恒星残骸核心的物质密度极高、温度极低，正好满足超流性的条件。天文学家通过观测中子星的自转「故障」（glitch）——突然的微小加速——来间接推断其内部的超流体行为。宇宙中最极端的天体里，藏着和实验室杯壁上那层薄膜相同的物理学。&lt;/p&gt;
-
-&lt;p&gt;一种液体，零摩擦，自己爬墙，加热了反而喷射，冷到绝对零度也不结冰。超流体氦大概是物理学给人类准备的最优雅的冷笑话。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/superfluid-can-climb-walls/"&gt;https://www.scientificamerican.com/article/superfluid-can-climb-walls/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Superfluid_helium-4"&gt;https://en.wikipedia.org/wiki/Superfluid_helium-4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1675487e-05f7-5b43-8ec9-45445a398992</guid>
-      <pubDate>Fri, 27 Mar 2026 13:13:58 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.scientificamerican.com/article/superfluid-can-climb-walls/</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Liquid_helium_Rollin_film.jpg/330px-Liquid_helium_Rollin_film.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 黑猩猩打了一场四年的战争，系统性屠杀了对方所有雄性：贡贝战争如何粉碎了Jane Goodall的信念</title>
-      <description>&lt;p&gt;1974年1月7日，坦桑尼亚贡贝溪国家公园（Gombe Stream National Park）。六只黑猩猩悄无声息地穿过丛林，发现一只名叫 Godi 的雄性黑猩猩正在独自进食。它们围上去，对 Godi 进行了长达十分钟的殴打。这不是普通的动物打斗——这是一次有组织的、多对一的伏击。&lt;/p&gt;
-
-&lt;p&gt;这是&lt;strong&gt;贡贝黑猩猩战争（Gombe Chimpanzee War）&lt;/strong&gt;的第一滴血。这场持续四年的冲突至今仍是灵长类学史上最震撼的发现之一。&lt;/p&gt;
-
-&lt;p&gt;故事要从更早说起。1960年代，Jane Goodall 在贡贝研究一个叫 Kasakela 的黑猩猩群落，给每只猩猩都取了名字——Humphrey、Figan、Goliath、Hugh、Charlie……她观察到它们使用工具、有复杂的社交关系、会拥抱和亲吻。Goodall 后来承认，她一直觉得黑猩猩虽然和人类相似，但「比人类更好一些」（rather nicer）。&lt;/p&gt;
-
-&lt;p&gt;1971年至1972年间，事情起了变化。Kasakela 群落内部的权力斗争加剧——雄性数量多，能生育的雌性少，竞争异常激烈。一部分成员逐渐南迁，形成了一个新的独立群落，后来被命名为 Kahama。Kahama 有6只成年雄性、3只成年雌性和它们的幼崽。分裂一开始看起来还算和平，两群偶尔还有接触。&lt;/p&gt;
-
-&lt;p&gt;然后暴力开始了。&lt;/p&gt;
-
-&lt;p&gt;1974年1月，Godi 被围殴。1974年5月，另一只叫 Dé 的 Kahama 雄性被 Figan 带领的突袭队残忍殴打和撕咬。同年7月，曾经是 Kasakela 群落中最受尊敬的老雄性 Goliath——Goodall 认识多年的个体——被用树枝殴打致死。这些不是冲动的打斗，而是&lt;strong&gt;有计划的巡逻和伏击&lt;/strong&gt;：Kasakela 的雄性会组成小队，安静地深入 Kahama 的领地，寻找落单的个体，然后以多打少。&lt;/p&gt;
-
-&lt;p&gt;接下来的四年里，Kahama 的雄性被逐一清除。Hugh 在1975年被袭击后失踪，推定死亡。Charlie 和 Sniff 分别在1977年遇袭身亡。关于 Sniff 之死的记录尤其骇人：八只 Kasakela 雄性一起攻击他，有观察者记录到袭击者「舔食了他伤口中的血」。到1978年，&lt;strong&gt;Kahama 群落的全部六只成年雄性和一只青年雄性全部死亡&lt;/strong&gt;，三只雌性遭到严重殴打，另外两只失踪。Kasakela 完全吞并了 Kahama 的领地。&lt;/p&gt;
-
-&lt;p&gt;这场战争让 Goodall 陷入了深重的情感危机。她后来写道，1974年到1977年是贡贝历史上「最黑暗的岁月」。她夜里被受伤黑猩猩的画面折磨，失眠、抑郁。雪上加霜的是，1975年武装叛军绑架了四名贡贝研究站的学生，其中一人遇难。Goodall 对黑猩猩天性善良的信念被彻底粉碎。&lt;/p&gt;
-
-&lt;p&gt;科学界一开始对她的发现持怀疑态度。批评者说她给黑猩猩取名字、对它们唱歌，违反了研究者保持客观距离的原则，可能夸大了暴力的系统性。人类学家 R. Brian Ferguson 提出，Goodall 的食物投喂站（provisioning）人为地集中了资源，可能加剧了竞争和暴力。但后续在非洲18个不同黑猩猩群落的研究——包括没有任何人为食物投喂的马哈勒山（Mahale Mountains）种群——都观察到了类似的群际致命暴力，表明这种行为是黑猩猩的内在特征，而非人为干预的产物。&lt;/p&gt;
-
-&lt;p&gt;贡贝战争的后续效应持续了几十年。Kasakela 群落虽然赢了战争、扩大了领地，但很快被更大的邻近群落 Kalande 和 Mitumba 逼退，到1981年就失去了夺来的地盘。群落内部的攻击性也居高不下——Figan 的后代 Frodo 在1997年至2002年担任首领期间以暴力著称。超过20%的被采样贡贝黑猩猩携带猴免疫缺陷病毒（SIV），战争相关的压力可能加剧了疾病传播。&lt;/p&gt;
-
-&lt;p&gt;这场战争至今仍在塑造我们对人类暴力起源的理解。它与倭黑猩猩（bonobo）形成了鲜明对比——倭黑猩猩是雌性主导的、以亲和行为化解冲突的物种，而黑猩猩展现了雄性联盟、领土扩张和系统性杀戮。我们和黑猩猩共享约98.7%的基因。战争，可能比文明古老得多。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://grokipedia.com/page/Gombe_Chimpanzee_War"&gt;https://grokipedia.com/page/Gombe_Chimpanzee_War&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://creators.yahoo.com/lifestyle/story/the-chimpanzee-war-that-shattered-jane-goodalls-beliefs-180109454.html"&gt;https://creators.yahoo.com/lifestyle/story/the-chimpanzee-war-that-shattered-jane-goodalls-beliefs-180109454.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.livescience.com/animals/land-mammals/hostilities-began-in-an-extremely-violent-way-how-chimp-wars-taught-us-murder-and-cruelty-arent-just-human-traits"&gt;https://www.livescience.com/animals/land-mammals/hostilities-began-in-an-extremely-violent-way-how-chimp-wars-taught-us-murder-and-cruelty-arent-just-human-traits&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8d88b890-e1f8-5362-84e0-7696b9b7e528</guid>
-      <pubDate>Fri, 27 Mar 2026 13:14:46 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://grokipedia.com/page/Gombe_Chimpanzee_War</link>
-      <enclosure url="https://grokipedia.com/icon-512x512.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 伊朗战争第31天：以色列轰炸德黑兰致全城断电，特朗普威胁「彻底摧毁」能源设施，巴基斯坦斡旋谈判在即</title>
-      <description>&lt;p&gt;战争进入第五周，局势同时在三个方向急剧恶化：军事打击升级、特朗普言论走向极端、地区外溢风险陡增。与此同时，一条外交通道正在巴基斯坦艰难成形。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;德黑兰遭密集轰炸，多城断电&lt;/strong&gt;。以色列军方周日深夜宣布正在「攻击德黑兰全境的伊朗政府基础设施」，电力设施首次成为重点目标。强烈爆炸持续数小时，德黑兰一度全城断电；伊朗当局随后称已恢复供电。卡拉季、设拉子、库姆、阿巴丹、大不里士也遭到打击，大不里士一座石化厂起火后被扑灭。一名以色列官员透露，以方「距离打完全部最高优先目标仅剩数天」，且在美伊谈判启动前不会缩减攻击节奏。&lt;/p&gt;
-
-&lt;p&gt;开战以来伊朗已有超过&lt;strong&gt;2,000人死亡&lt;/strong&gt;，数千个民用设施被波及。黎巴嫩方面，以色列空袭已造成至少1,247人死亡，其中包括124名儿童。沙特当天拦截5枚弹道导弹，巴林4小时内3次拉响防空警报，科威特击落5架无人机并有1名印度工人遇难。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;胡塞武装正式参战&lt;/strong&gt;。也门胡塞武装3月28日首次向以色列发射弹道导弹，瞄准「以色列南部敏感军事目标」，以军称拦截1枚。数小时后又发射第二枚。这是自2月28日开战以来胡塞首次直接介入——若其封锁曼德海峡（Bab el-Mandeb），全球航运将面临霍尔木兹和红海双重咽喉被掐的局面。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;特朗普言论再度升级&lt;/strong&gt;。他在Truth Social发帖称正与「一个更理性的新政权」谈判（暗示哈梅内伊已死亡），并威胁：若霍尔木兹海峡不立即重新开放，美国将「炸毁并彻底摧毁所有发电厂、油井、哈尔克岛（Kharg Island），以及可能全部海水淡化设施」。他还在接受《金融时报》采访时称，最想做的事是「拿走伊朗的石油」，类比今年1月美军在委内瑞拉接管石油产业的行动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;巴基斯坦外交斡旋出现实质进展&lt;/strong&gt;。巴基斯坦、沙特、土耳其、埃及四国外长3月29日在伊斯兰堡举行两天会谈（原定在安卡拉举行，因巴基斯坦在美伊之间传话角色加深而改址）。巴外长达尔（Ishaq Dar）宣布，美伊双方已「对巴基斯坦的调解角色表达信心」，国务卿Rubio与伊朗外长Araghchi的直接对话可能「数天内」在巴基斯坦举行。中国也表态支持伊斯兰堡的调停方案。不过伊朗方面依然称美方15点方案「不切实际」，双方要价差距仍然巨大。&lt;/p&gt;
-
-&lt;p&gt;4月6日最后通牒逼近之际，谈判能否跑赢军事升级的时钟，是接下来一周最关键的悬念。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/economy/2026/3/30/us-israel-war-on-iran-whats-happening-on-day-31-of-attacks"&gt;https://www.aljazeera.com/economy/2026/3/30/us-israel-war-on-iran-whats-happening-on-day-31-of-attacks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump"&gt;https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/30/trump-iran-war-obliterate-kharg-island-strait-of-hormuz-peace-deal.html"&gt;https://www.cnbc.com/2026/03/30/trump-iran-war-obliterate-kharg-island-strait-of-hormuz-peace-deal.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy"&gt;https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2"&gt;https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">afaadf69-fbd5-57be-88d8-15c5dc566e39</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:03 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/economy/2026/3/30/us-israel-war-on-iran-whats-happening-on-day-31-of-attacks</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/03/getty_69ca0ef5d7-1774849781.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 四月最值得去的活动：SF 樱花祭完全攻略（4/11-19，免费入场）</title>
-      <description>&lt;p&gt;旧金山 Japantown 的北加州樱花祭（Northern California Cherry Blossom Festival）今年迎来第 59 届，横跨两个周末——&lt;strong&gt;4 月 11-12 日和 4 月 18-19 日&lt;/strong&gt;，每天 11:00 至 17:00，免费入场。这是西海岸规模最大的樱花庆典之一，每年吸引超过 22 万人次。&lt;/p&gt;
-
-&lt;p&gt;今年有几个变化要注意。Peace Plaza 仍在翻修中，主舞台搬到了 Webster Street；第一个周末新增了 Sutter Street 的一段街区作为扩展区域，多了不少摊位和出入口。另外一个亮点：疫情后首次恢复了神田神舆（Kanda Mikoshi）的巡游，这是日本祭典中非常有仪式感的传统环节。&lt;/p&gt;
-
-&lt;h3&gt;吃什么&lt;/h3&gt;
-&lt;p&gt;美食摊位由非营利组织运营，价格比外面餐厅友好不少。必吃的几样：章鱼烧（takoyaki）、照烧鸡串（yakitori）、新鲜寿司、天妇罗，以及各种口味的麻糬（mochi）。建议第一个周末去——第二个周末人多到排队要半小时起。&lt;/p&gt;
-
-&lt;h3&gt;看什么&lt;/h3&gt;
-&lt;p&gt;太鼓（taiko）表演是最震撼的节目，鼓声能把整条街震起来。还有三味线和筝的传统乐器演奏、民谣舞蹈（minyo）、茶道表演、盆栽展示。喜欢二次元文化的也有 J-Pop 和动漫主题的展区。小朋友可以去 Children's Cherry Blossom Village 做手工。&lt;/p&gt;
-
-&lt;h3&gt;压轴大游行&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;4 月 19 日（最后一天）下午 1:00-3:00&lt;/strong&gt; 是全场高潮——Grand Parade。今年的大元帅（Grand Marshal）是喜剧演员 Atsuko Okatsuka。游行队伍包括太鼓方阵、传统舞者和装饰花车，往年路线是从 Civic Center Plaza 出发沿 Polk Street 北上到 Post Street，最终抵达 Japantown。&lt;/p&gt;
-
-&lt;h3&gt;怎么去&lt;/h3&gt;
-&lt;p&gt;Japantown 在 Post Street 和 Buchanan Street 交汇处。坐 MUNI 的话，38 Geary 或 22 Fillmore 都能到。如果从南湾出发，开车走 101 大概 40 分钟（不堵车的话），Japantown 周边路边停车周末相对好找，Japan Center 地下停车场也可以用。不过游行那天下午强烈建议坐公共交通——封路范围不小。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfcherryblossom.org/"&gt;https://sfcherryblossom.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/event-series/cherry-blossom-festival/"&gt;https://sf.funcheap.com/event-series/cherry-blossom-festival/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sftourismtips.com/san-francisco-cherry-blossom-festival.html"&gt;https://www.sftourismtips.com/san-francisco-cherry-blossom-festival.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://dothebay.com/events/2026/4/11/59th-northern-california-cherry-blossom-festival-1st-weekend"&gt;https://dothebay.com/events/2026/4/11/59th-northern-california-cherry-blossom-festival-1st-weekend&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">18303876-4547-5107-bc97-e140818ad409</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:11 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfcherryblossom.org/</link>
-      <enclosure url="https://cdn.funcheap.com/wp-content/uploads/2015/02/cherryblossomparade.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 确认偏误可以被「训练掉」—— 一个 15 分钟的游戏让决策失误减少 19%</title>
-      <description>&lt;p&gt;我们都知道确认偏误（Confirmation Bias）很可怕——人倾向于只看到支持自己已有判断的证据，自动过滤掉反面信息。但一个更令人沮丧的共识是：&lt;strong&gt;知道偏误存在并不能让你避免它&lt;/strong&gt;。Daniel Kahneman 自己都说过：「你没法改善直觉」，「在高压情境下，规则会被丢到脑后」。读再多行为经济学的书，做再多商学院案例分析，似乎都无法在真正需要的时刻防住偏误。&lt;/p&gt;
-
-&lt;p&gt;但 Boston University 的 Carey Morewedge 和他的团队用一系列实验证明：&lt;strong&gt;正确设计的去偏训练（Debiasing Training）确实能在现实决策中起作用&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;他们的方法并非讲座或阅读，而是一个三关卡的侦探游戏。玩家在游戏中扮演调查者，做出一系列探查决策。这些决策场景被精心设计来诱发确认偏误、锚定效应等常见认知偏差。关键在于游戏结束后的反馈环节——系统会告诉你「你刚才在哪个节点表现出了多少偏误」，并解释「如果你当时主动搜索反对假设的证据，判断会更准确」。&lt;/p&gt;
-
-&lt;p&gt;这个方法的核心思路是：光讲道理没用，得让人在模拟场景中「亲身犯错」，然后立即得到具体的反馈。这和学骑自行车一个道理——没人靠读说明书学会的。&lt;/p&gt;
-
-&lt;p&gt;Morewedge 团队在三个职业硕士项目中测试了这个方法（N=290）。训练后，参与者面对一个以挑战者号航天飞机灾难为原型的商业案例决策（Carter Racing Case），需要在不完整信息下做 go/no-go 判断。结果：受过训练的人选择劣质的「确认假设」方案的比例比未受训者&lt;strong&gt;低 19%&lt;/strong&gt;。更重要的是，这个效果发生在「现场」——不是实验室里精心控制的条件，而是在正常课程流程中的突击测试。&lt;/p&gt;
-
-&lt;p&gt;2025 年 11 月发表在 Scientific Reports 上的后续研究将这一方法推向更高风险的场景。Morewedge 与荷兰的 Heerma van Voss 等人合作，对一个欧洲国家的大多数国家风险分析师进行了测试。这些人的日常工作就是评估恐怖主义、网络攻击、自然灾害等国家级威胁——他们的判断直接影响政策决策。研究发现：即使是这些训练有素的专业分析师，一次性去偏训练也显著降低了他们的确认偏误。一个有趣的附带发现是，分析师在风险相关和非风险相关的判断任务中都比学生表现出更少的偏误，这说明实战经验本身就在起某种「自然去偏」的作用。&lt;/p&gt;
-
-&lt;p&gt;这项研究的实用启示很直接：如果你经常需要在不确定性下做判断——面试候选人、评估项目风险、诊断技术问题——花 15 分钟做一个「让你犯错然后告诉你哪里错了」的练习，效果可能比读十本关于认知偏误的书都好。秘诀不在于「知道偏误的名字」，而在于&lt;strong&gt;在安全环境中体验偏误发生的感觉&lt;/strong&gt;，让你的直觉系统也学会警觉。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-025-28794-w"&gt;https://www.nature.com/articles/s41598-025-28794-w&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/abs/10.1177/0956797619861429"&gt;https://journals.sagepub.com/doi/abs/10.1177/0956797619861429&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://insights.bu.edu/training-to-reduce-cognitive-bias-may-improve-decision-making-after-all/"&gt;https://insights.bu.edu/training-to-reduce-cognitive-bias-may-improve-decision-making-after-all/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">78b1356b-53a2-5b37-80a1-25ea3053d9d7</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:19 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.nature.com/articles/s41598-025-28794-w</link>
-    </item>
-    <item>
-      <title>📰 布伦特原油突破116美元，3月涨幅创历史纪录——霍尔木兹海峡日均通行量从120艘暴跌至个位数</title>
-      <description>&lt;p&gt;伊朗战争的经济冲击正以超出多数分析师预期的速度扩散。布伦特原油周一早盘飙升逾3%，突破每桶116美元，距3月19日触及的119美元近两周高点仅一步之遥。整个3月，布伦特累计涨幅约55%，这一数字已超过1990年伊拉克入侵科威特时的涨幅，&lt;strong&gt;创下有记录以来最大月度涨幅&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;价格飙升的直接推手是霍尔木兹海峡（Strait of Hormuz）的事实封锁。这条水道承载全球约五分之一的石油和液化天然气供应，战前日均通行约120艘船只。如今的数字令人震惊：上周四仅7艘非伊朗船只通过，周三5艘，周二4艘。巴基斯坦和马来西亚分别与伊朗协商，获得了本国挂旗船只的通行许可，但绝大多数国际航运仍处于瘫痪状态。&lt;/p&gt;
-
-&lt;p&gt;火上浇油的是特朗普的言论。他周一在Truth Social威胁「彻底摧毁」伊朗全部油井和哈尔克岛，同日又对《金融时报》说最想做的是「拿走伊朗的石油」。Onyx Capital Group首席执行官Greg Newman警告：「布伦特正在反映现实……从现在开始会稳步向120美元及以上攀升」，实物石油溢价已处于历史高位。&lt;/p&gt;
-
-&lt;p&gt;终端消费者已切身感受到冲击。AAA数据显示，美国汽油均价升至每加仑3.99美元，为2022年以来最高。亚洲股市周一普遍下跌，印尼雅加达综合指数和马来西亚FTSE Bursa指数均走低。一个值得关注的信号是：东南亚企业正利用美国新发放的30天制裁豁免窗口大量采购俄罗斯原油——全球能源供应格局正在战争压力下被迫重组。&lt;/p&gt;
-
-&lt;p&gt;3月29日胡塞武装正式参战后，市场还在消化另一重风险：若胡塞封锁曼德海峡（Bab el-Mandeb），全球将同时失去两条最关键的海运咽喉。目前布伦特期货曲线呈现罕见的深度倒挂（backwardation），即期合约远高于远月——交易员正在为短期供应断裂而非长期趋势定价。4月6日特朗普的最后通牒期限将是下一个关键节点：若谈判破裂、美军真的打击伊朗能源基础设施，油价很可能冲向甚至超过150美元。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion"&gt;https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"&gt;https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cbsnews.com/live-updates/iran-war-us-trump-uncertainty-oil-prices-strait-of-hormuz-houthis-red-sea/"&gt;https://www.cbsnews.com/live-updates/iran-war-us-trump-uncertainty-oil-prices-strait-of-hormuz-houthis-red-sea/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4cef445d-9eb4-56ac-ba3a-a3d672770c73</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:29 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/03/AP26087465268697-1774828127_3a01c1-1774829058.jpg?resize=1200%2C630&amp;amp;quality=80" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 米其林指南新增五家湾区餐厅：Dogpatch 的千元 Tasting Menu 和 Menlo Park 的老朋友</title>
-      <description>&lt;p&gt;米其林上周（3 月 26 日）更新了加州指南，一口气往湾区塞了五家新餐厅。这五家虽然还没摘星，但进入指南本身就是六月颁奖典礼的入围信号。其中有几家特别值得关注。&lt;/p&gt;
-
-&lt;h3&gt;Wolfsbane — Dogpatch 的新晋 Fine Dining 天花板&lt;/h3&gt;
-&lt;p&gt;这家开在 Dogpatch 2495 3rd St 的餐厅，是米其林一星 Lord Stanley 的主厨夫妻档 Rupert 和 Carrie Blease 的新项目，去年十月开业。Tasting menu 定价 $248/人，加酒 pairing 要 $390，外加 20% 服务费——两个人吃下来轻松突破 $1,000。&lt;/p&gt;
-
-&lt;p&gt;贵是真的贵，但水准也是真的高。米其林评语用了"indulgent"和"precision"两个词。招牌菜包括用卷心菜搭配 buttermilk 和海胆 bottarga 的开胃菜、红酒汁蘸面包（pain au jus），以及当作"勺子"用的洋葱花瓣。餐厅里有棵从天花板长出来的大树，洗手间旁边种着剑蕨——装修也是够戏剧化的。适合特殊纪念日或者想豁出去一次的场合。&lt;/p&gt;
-
-&lt;h3&gt;Restaurant Naides — Bush Street 的当代菲律宾菜&lt;/h3&gt;
-&lt;p&gt;开在 Sons &amp; Daughters 的旧址，主厨 Patrick Gabon 做的是当代菲律宾料理，去年 12 月中旬才开业就被米其林盯上了。评审称它为"jewel box operation"——用加州本地食材（包括野采的香草和花）重新诠释菲律宾传统风味。这个速度在米其林历史上很少见，说明水平确实过硬。&lt;/p&gt;
-
-&lt;h3&gt;另外三家&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Dingles Public House&lt;/strong&gt;——一家正经的英式酒馆，炸鱼薯条配糊豆和咖喱酱、苏格兰蛋（Scotch egg）是招牌。用的是 Vermont 的 Jasper Hill Farm 切达奶酪做 Welsh rarebit，在 SF 吃到这么地道的英式 pub food 不容易。Le Cigale 的信息暂时不多，后续再跟进。&lt;/p&gt;
-
-&lt;p&gt;至于 &lt;strong&gt;Yeobo, Darling&lt;/strong&gt;——上次我们已经介绍过这家 Menlo Park 的韩国料理了。它也在这批新增名单里，进一步印证了 Menlo Park 正在经历的餐饮升级潮。从 Eylan 拿 Bib Gourmand 到 Yeobo 入选指南，这个小城的餐饮密度快赶上 SF 的热门街区了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfist.com/2026/03/26/five-bay-area-restaurants-added-to-2026-michelin-guide/"&gt;https://sfist.com/2026/03/26/five-bay-area-restaurants-added-to-2026-michelin-guide/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.theinfatuation.com/san-francisco/reviews/wolfsbane"&gt;https://www.theinfatuation.com/san-francisco/reviews/wolfsbane&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.gazetteer.co/four-sf-restaurants-added-to-michelin-guide"&gt;https://sf.gazetteer.co/four-sf-restaurants-added-to-michelin-guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://patch.com/california/san-francisco/michelin-adds-5-bay-area-restaurants-their-guide"&gt;https://patch.com/california/san-francisco/michelin-adds-5-bay-area-restaurants-their-guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">be6044f6-6ac2-5e80-a1d5-18c2ea522215</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:40 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfist.com/2026/03/26/five-bay-area-restaurants-added-to-2026-michelin-guide/</link>
-      <enclosure url="https://img.sfist.com/2026/03/restaurant-naides-dish-caviar.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 拖延症不是时间管理问题，是情绪管理问题 —— CBT 干预的大效应量证据</title>
-      <description>&lt;p&gt;关于拖延，最常见的建议是番茄钟、GTD、日历色块管理——全部指向「时间管理」。但越来越多的心理学研究指向一个不同的结论：拖延的本质是&lt;strong&gt;情绪调节失败&lt;/strong&gt;，不是计划能力的缺陷。&lt;/p&gt;
-
-&lt;p&gt;这个观点并不新。Carleton University 的 Tim Pychyl 和 Fuschia Sirois 在 2013 年就明确提出：拖延是「牺牲长期利益来修复短期情绪」。你不是不知道论文该写、代码该交，而是一想到那个任务就会产生焦虑、无聊、挫败感——于是你的大脑选择了「先刷十分钟手机来缓解这个不适」。刷完之后焦虑更重，于是继续刷。这是一个情绪调节的恶性循环，和「不会做计划」无关。&lt;/p&gt;
-
-&lt;p&gt;如果拖延是情绪问题，那么针对情绪的干预应该比针对时间的干预更有效。2025 年的几项随机对照试验给出了支持。&lt;/p&gt;
-
-&lt;p&gt;瑞典 Karolinska Institutet 的一项 RCT（N=71）测试了团体认知行为治疗（Group CBT）对大学生拖延的效果。干预持续数周，核心模块不教「如何排日程」，而是让参与者识别驱动拖延的&lt;strong&gt;自动化思维&lt;/strong&gt;——比如「这件事太难了我肯定做不好」（灾难化）、「等我状态好了再做」（许可型拖延）——然后练习用更现实的想法替换它们。结果：干预组的拖延程度相比对照组显著下降，效应量 Cohen's d = 1.09，属于大效应。参与者的自我效能感也有显著提升。&lt;/p&gt;
-
-&lt;p&gt;荷兰的 GetStarted 项目则走了另一条路：线上自助 + 学生教练指导的 CBT 干预。403 名大学生被随机分配到干预组和等待名单对照组。五个核心模块围绕拖延背后的心理机制设计——不仅处理认知扭曲，还包括价值观澄清（「这件事对你真正重要吗」）和行为激活（「从最小的一步开始做」）。&lt;/p&gt;
-
-&lt;p&gt;更早的对比研究也给出了类似结论。将网络 CBT 和面对面团体 CBT 做头对头比较，两种模式都产生了大效应量：网络 CBT 的 Cohen's d = 1.29，团体 CBT 的 d = 1.24。这个数字意味着什么？在心理学干预研究中，d &gt; 0.8 就被认为是「大效应」，而这些数字远超这个门槛。&lt;/p&gt;
-
-&lt;p&gt;这些发现的实用翻译是什么？&lt;/p&gt;
-
-&lt;p&gt;下次你发现自己在拖延时，不要问「我该怎么安排时间」，而是问一个不同的问题：&lt;strong&gt;「我现在在逃避什么感受？」&lt;/strong&gt;可能是对失败的恐惧，可能是对任务的厌烦，可能是对完美主义标准的焦虑。一旦你把那个情绪命名出来，它的控制力就会减弱——这正是 CBT 中「认知解离」（Cognitive Defusion）技术的原理。你不需要消除那个情绪，只需要看清它：「啊，这是我的焦虑在说话，不是现实在说话。」&lt;/p&gt;
-
-&lt;p&gt;然后，从最小的行动开始。不是「写完整篇论文」，而是「打开文档，写一个句子」。行为激活（Behavioral Activation）的核心洞见是：动力不是行动的前提，而是行动的结果。你不需要「等状态好了」再开始——开始本身就会制造状态。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.tandfonline.com/doi/full/10.1080/16506073.2025.2543893"&gt;https://www.tandfonline.com/doi/full/10.1080/16506073.2025.2543893&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S221478292500079X"&gt;https://www.sciencedirect.com/science/article/pii/S221478292500079X&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41598-025-87664-7"&gt;https://www.nature.com/articles/s41598-025-87664-7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d9626fc5-cd89-5d8a-9df4-ac052fe3e2db</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:52 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.tandfonline.com/doi/full/10.1080/16506073.2025.2543893</link>
-    </item>
-    <item>
-      <title>📰 国会两院互相「甩锅」后双双休假——DHS停摆进入第45天，TSA欠薪有望本周到账</title>
-      <description>&lt;p&gt;上次报道DHS停摆是在第42天，参议院刚通过部分拨款法案、众议院待表决。三天过去了，情况不仅没好转，反而更加死锁。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;周五晚上发生了什么&lt;/strong&gt;。众议院共和党以213票对203票通过了自己的版本——一份为期8周的DHS全额临时拨款，涵盖边境巡逻队、ICE和CBP的全部经费。这份法案与参议院版本截然不同：参议院版本故意排除了ICE和部分CBP拨款（这正是民主党的核心诉求）。换句话说，两院各自通过了对方绝不会接受的方案。&lt;/p&gt;
-
-&lt;p&gt;参议院少数党领袖Schumer直接宣布众议院版本「到了参议院就是死路」（dead on arrival）。众议院议长Mike Johnson则拒绝就参议院版本进行表决。两院随后各自开始了为期两周的复活节假期休会。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TSA员工总算可能拿到薪水&lt;/strong&gt;。代理国土安全部长Tom Homan周末表示，正与新任DHS部长协调，「希望周一或周二」向TSA员工发放工资。此前特朗普签署行政命令，授权动用One Big Beautiful Bill Act的资金先行支付TSA薪资。但这只是应急措施——停摆45天来，近500名TSA员工已辞职，累计欠薪逼近10亿美元，机场安检延误持续加剧。&lt;/p&gt;
-
-&lt;p&gt;FEMA、海岸警卫队、CISA（网络安全与基础设施安全局）等关键机构的员工同样面临欠薪困境。飓风季即将到来，FEMA以骨架编制运转的局面引发两党安全专家的共同担忧。&lt;/p&gt;
-
-&lt;p&gt;两周后国会回来，双方需要从头谈起。但中期选举临近、伊朗战争占据新闻头条、两党在移民执法上的立场鸿沟丝毫未缩小——没有任何迹象表明休会能带来转机。这场停摆正在从「政治博弈」演变为对联邦公共安全体系的实质损害。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/03/27/politics/dhs-shutdown-funding-bill-senate-house-vote"&gt;https://www.cnn.com/2026/03/27/politics/dhs-shutdown-funding-bill-senate-house-vote&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/politics/2026/03/27/dhs-funding-house-tsa/"&gt;https://www.washingtonpost.com/politics/2026/03/27/dhs-funding-house-tsa/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/03/29/politics/live-news/trump-shutdown-tsa-news"&gt;https://www.cnn.com/2026/03/29/politics/live-news/trump-shutdown-tsa-news&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://federalnewsnetwork.com/government-shutdown/2026/03/trump-signs-order-to-pay-tsa-employees-amid-shutdown-standoff/"&gt;https://federalnewsnetwork.com/government-shutdown/2026/03/trump-signs-order-to-pay-tsa-employees-amid-shutdown-standoff/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">99ceaf98-a6bf-53ef-bfa8-938f1a218ac9</guid>
-      <pubDate>Mon, 30 Mar 2026 17:06:53 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.cnn.com/2026/03/27/politics/dhs-shutdown-funding-bill-senate-house-vote</link>
-    </item>
-    <item>
-      <title>🌉 Fort Mason 夜市四月回归：每月一次的免费周五夜晚，吃喝逛买一站搞定</title>
-      <description>&lt;p&gt;如果你在湾区待了一阵，肯定听过 Off The Grid 的各种美食集市。但 Fort Mason 的 Friday Night Market 是另一个级别——它不只是美食摊，更像一场小型文化节。好消息是，2026 赛季从 &lt;strong&gt;四月开始，一直持续到十二月，每月一个周五晚上&lt;/strong&gt;，5:00 PM 到 10:00 PM，免费入场。&lt;/p&gt;
-
-&lt;h3&gt;为什么值得专门跑一趟&lt;/h3&gt;
-&lt;p&gt;Fort Mason 的位置本身就是卖点——Marina 区的海边，背靠金门大桥。夜市开场的时候正好赶上日落，一边吃东西一边看大桥从金色变成灯火通明，这个体验在湾区很难复制。&lt;/p&gt;
-
-&lt;p&gt;内容方面，今年有三条线并行。美食线由 Off The Grid 策划，20 多家餐车和摊位，从手工冰淇淋到现烤 pizza 到各种亚洲街头小吃都有；Fort Mason 自己的驻场餐厅——素食名店 Greens、精酿啤酒馆 Radhaus、Long Now 基金会旗下的 The Interval 也会延长营业。手工线由 &lt;strong&gt;West Coast Craft&lt;/strong&gt; 策划，50 多位艺术家和设计师摆摊，卖的都是本地手作的陶艺、首饰、版画之类。音乐线由 Stern Grove Festival 策划现场演出，另外海边还有一个"Secret Spot"DJ 舞台。&lt;/p&gt;
-
-&lt;h3&gt;实用信息&lt;/h3&gt;
-&lt;p&gt;地址：2 Marina Boulevard, San Francisco, CA 94123。开车去的话，Fort Mason 有自己的停车场，但热门夜市日会满得很快，建议早到或者直接坐公交。MUNI 28/30/43 路都能到附近，从 Marina 区走过去也就十来分钟。&lt;/p&gt;
-
-&lt;p&gt;四月的具体日期还没公布，建议关注 &lt;a href="https://fortmason.org"&gt;fortmason.org&lt;/a&gt; 获取最新排期。另外 FLAX Art &amp; Design 也会在夜市当晚延长营业时间，逛完夜市可以顺便去淘点美术用品。&lt;/p&gt;
-
-&lt;p&gt;一个小提醒：三月底四月初的 SF 晚上还是冷的，海边风又大，别被白天的阳光骗了。带件外套，最好是能挡风的那种——这可能是湾区生活最重要的穿搭建议了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://fortmason.org/event/fort-mason-night-market-2026/"&gt;https://fortmason.org/event/fort-mason-night-market-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/category/event/event-types/fairs-festivals/"&gt;https://sf.funcheap.com/category/event/event-types/fairs-festivals/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7e6b612d-61d0-5fc5-8d43-3c82168565aa</guid>
-      <pubDate>Mon, 30 Mar 2026 17:07:04 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://fortmason.org/event/fort-mason-night-market-2026/</link>
-      <enclosure url="https://fortmason.org/wp-content/uploads/2026/01/FM_nite_mkt_bridge_night_bigslide.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 一个数学定理证明：你可以把一个球切成5块，重新拼成两个一模一样大的球</title>
-      <description>&lt;p&gt;如果有人告诉你，数学已经严格证明了一件事——把一个橘子切成5块，不拉伸、不压缩、只是旋转和平移，就能拼出两个和原来一样大的橘子——你大概会觉得这人需要看医生。但这就是&lt;strong&gt;Banach-Tarski 悖论&lt;/strong&gt;（Banach-Tarski Paradox），1924年由波兰数学家 Stefan Banach 和 Alfred Tarski 发表在《Fundamenta Mathematicae》上的一个完全合法的数学定理。&lt;/p&gt;
-
-&lt;p&gt;更疯狂的说法叫「豌豆与太阳悖论」：理论上，你可以把一颗豌豆切碎，然后重新拼成一个太阳那么大的球体。不是比喻，是定理。&lt;/p&gt;
-
-&lt;p&gt;先说结论：这件事在物理世界里绝对做不到。你可以放心吃橘子。但在纯数学的世界里，它是真的——而它之所以成立，暴露了数学地基里一条极其诡异的裂缝。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么做到的？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;关键在于「切法」。Banach 和 Tarski 的证明不是用刀切——他们把球分解成的5块碎片，不是任何你能想象的固体形状，而是无限分散的点集合。这些碎片没有体积，或者更准确地说，它们的体积根本无法定义。数学上叫「不可测集」（non-measurable set）。你没法用尺子量它们，也没法用秤称它们。既然体积这个概念对这些碎片不适用，「体积守恒」这条直觉上天经地义的规则，也就无从约束了。&lt;/p&gt;
-
-&lt;p&gt;Raphael Robinson 后来证明了5块是最少的——少于5块就拼不出来。所以这不是什么「切成无穷多块」的耍赖，而是干干净净的5块。&lt;/p&gt;
-
-&lt;p&gt;整个证明的核心技巧涉及一个叫「自由群」（free group）的代数结构。简单说，三维空间里的旋转操作可以组合出一种特殊的群结构，这个群本身具有一种「自我复制」的性质——就像一棵树的两根树枝，各自都包含了整棵树的全部信息。Banach 和 Tarski 利用这个性质，把球面上的点分成几组，每组都能通过旋转「膨胀」成完整的球面。&lt;/p&gt;
-
-&lt;p&gt;但这里有个关键前提：要完成这个分组，你需要从无穷多个集合中各选一个元素。这在数学中需要动用一条争议性极大的公理——&lt;strong&gt;选择公理&lt;/strong&gt;（Axiom of Choice）。&lt;/p&gt;
-
-&lt;p&gt;选择公理说的是：给你任意一堆非空集合，你总能从每个集合里各挑一个元素出来，组成一个新集合。听起来毫无问题？问题在于，当集合是不可数无穷多个的时候，这个「挑选」过程根本无法具体描述。你说不清楚是怎么挑的，只是断言「能挑」。正是这种断言，让不可测集得以存在，也让 Banach-Tarski 悖论得以成立。&lt;/p&gt;
-
-&lt;p&gt;没有选择公理，这个定理就不成立。数学家 Robert Solovay 在1970年证明了，如果你不接受选择公理，可以构造一个所有集合都可测的数学世界——在那个世界里，一个球永远只能拼回一个球。&lt;/p&gt;
-
-&lt;p&gt;有趣的是，Banach 和 Tarski 发表这个结果时，本意其实是要给选择公理泼冷水——他们觉得这个结论太荒谬了，应该说明选择公理有问题。结果数学界的反应出乎他们的意料：大多数数学家耸耸肩，继续使用选择公理。毕竟，选择公理在其他地方太好用了，而 Banach-Tarski 的「荒谬」只涉及那些人类永远无法构造的不可测集。&lt;/p&gt;
-
-&lt;p&gt;还有一点同样反直觉：这个悖论只在三维及以上空间成立。二维平面上做不到。原因跟群论有关——二维旋转群是「可解群」（solvable group），保证了面积守恒的度量一定存在；而三维旋转群包含自由群，让这种保障失效。换句话说，我们生活的三维空间恰好处在「够复杂」的维度门槛上。&lt;/p&gt;
-
-&lt;p&gt;所以下次有人问你数学和现实有什么区别，你可以告诉他：在数学里，1=2 是一个定理。只要你愿意接受一条看似无害的公理。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox"&gt;https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/"&gt;https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9e1a4ead-9052-517f-8736-01b952ee7e1b</guid>
-      <pubDate>Mon, 30 Mar 2026 17:07:15 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox</link>
-    </item>
-    <item>
-      <title>📰 「No Kings」第三波全美抗议：800万人走上街头，三分之二来自非都市地区</title>
-      <description>&lt;p&gt;3月28日，全美50个州超过3,300场集会同时举行——组织者称累计参与人数超过800万，这是特朗普第二任期以来规模最大的一次民间抗议行动。&lt;/p&gt;
-
-&lt;p&gt;这已是「No Kings」运动发起的第三波全国示威。第一波是2025年6月特朗普79岁生日当天（恰逢军事阅兵），第二波是2025年10月（约700万人参与），第三波规模再创新高。一个显著变化是：约三分之二的参与者来自非都市地区，这一比例较前两次大幅上升。德州、佛罗里达和俄亥俄这三个共和党大州各有超过100场活动，爱达荷、怀俄明、犹他等深红州也录得两位数场次。&lt;/p&gt;
-
-&lt;p&gt;旗舰集会设在明尼苏达州，Bruce Springsteen、Joan Baez、Maggie Rogers等音乐人到场演出，参议员Bernie Sanders在台上警告「我们正处于美国历史上前所未有的危险时刻」。纽约市有数万人聚集，Robert De Niro在现场发言称特朗普是「对我们自由和安全的生存威胁」。华盛顿国家广场、洛杉矶、丹佛也有大规模集会，洛杉矶和丹佛出现少量逮捕事件。&lt;/p&gt;
-
-&lt;p&gt;抗议的焦点已从最初的反威权主题扩展到更具体的政策议题：伊朗战争、移民执法突袭、生活成本飙升、多元化项目被砍。巴黎组织者Ada Shen在巴士底广场的集会上直言抗议的是「非法的、不道德的、不计后果的无休止战争」。欧洲方面，伦敦、巴黎、阿姆斯特丹、马德里、罗马等城市共约2万人参与声援活动。&lt;/p&gt;
-
-&lt;p&gt;值得一提的是运动的组织能力进化。「No Kings」已从松散的社交媒体号召发展为覆盖全国的协调网络，在非都市地区的渗透尤其迅速。但大规模抗议能否转化为2026年中期选举的实际选票，仍是未知数。目前特朗普的支持率在战争和经济压力下持续走低，而共和党内部对伊朗战争的分歧也在加深——这为反对运动提供了比去年更大的政治空间。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.euronews.com/2026/03/28/huge-crowds-protest-against-trump-on-no-kings-day-in-the-us-and-abroad"&gt;https://www.euronews.com/2026/03/28/huge-crowds-protest-against-trump-on-no-kings-day-in-the-us-and-abroad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/gallery/2026/3/28/photos-no-kings-protests-erupt-across-the-us-with-a-minnesota-focus"&gt;https://www.aljazeera.com/gallery/2026/3/28/photos-no-kings-protests-erupt-across-the-us-with-a-minnesota-focus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/03/28/us/live-news/no-kings-protests-03-28-26"&gt;https://www.cnn.com/2026/03/28/us/live-news/no-kings-protests-03-28-26&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://time.com/article/2026/03/28/-no-kings-rally-trump/"&gt;https://time.com/article/2026/03/28/-no-kings-rally-trump/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f377585f-1516-5b70-8a21-eaba5820fd32</guid>
-      <pubDate>Mon, 30 Mar 2026 17:07:18 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.euronews.com/2026/03/28/huge-crowds-protest-against-trump-on-no-kings-day-in-the-us-and-abroad</link>
-      <enclosure url="https://images.euronews.com/articles/stories/09/70/25/52/1200x675_cmsv2_9a41dcdd-4b06-5898-b259-be5ff8888a56-9702552.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 感恩为什么有效：不是鸡汤，是前额叶皮层的可测量重塑</title>
-      <description>&lt;p&gt;「每天写三件感恩的事」——这条建议出现在几乎每一本自助书籍里，频繁到让人想翻白眼。但如果告诉你，fMRI 研究能清楚地看到，持续的感恩练习真的在改变你大脑的物理结构呢？&lt;/p&gt;
-
-&lt;p&gt;先看机制。当你体验到感恩时，大脑中最活跃的区域是&lt;strong&gt;内侧前额叶皮层&lt;/strong&gt;（medial Prefrontal Cortex, mPFC）和&lt;strong&gt;前扣带皮层&lt;/strong&gt;（Anterior Cingulate Cortex, ACC）。这两个区域恰好也是情绪调节、决策和共情的核心枢纽。感恩并不是激活「快乐中心」（那是多巴胺的事），而是强化了你大脑中负责「理解他人意图」和「管理自己情绪」的神经网络。主导神经递质也不是多巴胺，而是&lt;strong&gt;血清素&lt;/strong&gt;（Serotonin）——同一种被抗抑郁药物（SSRIs）靶向的物质。&lt;/p&gt;
-
-&lt;p&gt;这意味着感恩练习在做一件和冥想类似但路径不同的事：它通过反复激活 mPFC-ACC 回路，逐渐增强这些区域的灰质密度和功能连接。USC 的 Glenn Fox 团队在一系列 fMRI 研究中发现，即使在实验结束后数周，经过感恩训练的被试在面对中性刺激时，前额叶的活动模式仍然与未受训组有可测量的差异。大脑被「调」过了。&lt;/p&gt;
-
-&lt;p&gt;但这里有一个 Huberman Lab 强调过的关键细微差别：&lt;strong&gt;不是所有类型的感恩都一样有效&lt;/strong&gt;。Andrew Huberman 援引的 Antonio Damasio 实验室研究表明，最强的神经效应不来自「默默想我感谢什么」，而来自两种特定场景——接收到真诚的感谢，或者深度共情他人接收感恩的故事。Huberman 称之为「亲社会感恩」（Prosocial Gratitude）。当你阅读或聆听一个关于某人在困境中获得帮助的叙事，并与那个人的感受产生共鸣时，你的共情和奖赏回路会被强烈激活。相比之下，抽象地列举「我感谢健康、家人、工作」的效果要弱得多。&lt;/p&gt;
-
-&lt;p&gt;实证数据也在积累。2025 年发表在 JMIR mHealth and uHealth 的 RCT 对大学生测试了基于手机 App 的感恩干预。结果显示，持续使用感恩 App 的学生在抑郁、焦虑和压力症状上都有显著改善——而这些学生在入组时已经处于中度到重度心理困扰的水平。一项整合了 64 项 RCT 的元分析进一步确认：感恩干预能显著提升生活满意度和心理健康指标，同时降低焦虑和抑郁。&lt;/p&gt;
-
-&lt;p&gt;生理层面的证据同样有说服力。感恩练习与更低的皮质醇水平相关，这直接改善心血管功能和睡眠质量。这不是玄学——皮质醇是可以抽血检测的应激激素，它的下降代表 HPA 轴（下丘脑-垂体-肾上腺轴）的过度激活得到了缓解。&lt;/p&gt;
-
-&lt;p&gt;所以，如果你想尝试一个有神经科学背书的感恩练习，以下是根据研究设计的最优方案：不要写「我感谢三件事」的清单，而是花 5 分钟做这件事——回忆或阅读一个&lt;strong&gt;具体的、有叙事细节的感恩故事&lt;/strong&gt;。可以是你自己经历过的某次被人帮助的时刻，也可以是别人的故事。关键是让自己真正「进入」那个场景，感受到情绪的共振。每周三次，每次五分钟。&lt;/p&gt;
-
-&lt;p&gt;听起来太简单了？也许正因为太简单，大多数人从来没认真试过。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://positivepsychology.com/neuroscience-of-gratitude/"&gt;https://positivepsychology.com/neuroscience-of-gratitude/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://mhealth.jmir.org/2025/1/e53850"&gt;https://mhealth.jmir.org/2025/1/e53850&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://research.com/education/scientific-benefits-of-gratitude"&gt;https://research.com/education/scientific-benefits-of-gratitude&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ed046722-5a91-59b1-8062-baaba94c372c</guid>
-      <pubDate>Mon, 30 Mar 2026 17:07:25 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://positivepsychology.com/neuroscience-of-gratitude/</link>
-    </item>
-    <item>
-      <title>🎲 🎲 1932年，澳大利亚陆军用机枪向两万只鸸鹋宣战——然后输了</title>
-      <description>&lt;p&gt;1932年底，澳大利亚国防部长 Sir George Pearce 批准了一项军事行动：派遣皇家澳大利亚炮兵部队第七重炮连的 Major Gwynydd Purves Wynne-Aubrey Meredith，带两挺 Lewis 机枪和一万发子弹，前往西澳大利亚的小麦产区，消灭正在摧毁庄稼的鸸鹋（emu）。媒体立刻给这件事取了个名字——&lt;strong&gt;鸸鹋战争&lt;/strong&gt;（The Great Emu War）。&lt;/p&gt;
-
-&lt;p&gt;这不是比喻。这是一场有指挥官、有弹药清单、有作战报告的正式军事行动。对手是大约两万只身高一米八、体重五十公斤、奔跑时速四十八公里的巨型不会飞的鸟。&lt;/p&gt;
-
-&lt;p&gt;背景是这样的：一战结束后，大量退伍军人被安置到西澳边缘农业区种小麦。大萧条来了，麦价暴跌，政府承诺的补贴迟迟不到。雪上加霜的是，每年繁殖季结束后，成群的鸸鹋从内陆向海岸迁徙，发现这些新开垦的农田简直是自助餐厅——有水、有粮、有被推倒的围栏方便进出。鸸鹋毁坏庄稼，踩塌围栏，还顺带放进了成群的野兔。&lt;/p&gt;
-
-&lt;p&gt;农民们忍无可忍，集体请愿要求政府出兵。Pearce 部长批了。&lt;/p&gt;
-
-&lt;p&gt;11月2日，Meredith 少校率队抵达 Campion 镇，第一场遭遇战就充分展示了对手的水平。当天发现约50只鸸鹋，士兵们试图把它们赶进伏击圈，结果鸟群一哄而散，消失在灌木丛中。两天后，一千多只鸸鹋朝一个水坝走来，看似终于有了包围歼灭的机会——机枪手开火了，打倒了大概12只，然后枪卡壳了。等枪修好，鸸鹋早已四散奔逃。&lt;/p&gt;
-
-&lt;p&gt;接下来几天更加狼狈。有人想出了「车载机枪」战术——把 Lewis 机枪架在卡车上追击。但西澳的原野地形崎岖，卡车颠得厉害，射手根本无法瞄准，而鸸鹋在这种地形上跑得比车还快。&lt;/p&gt;
-
-&lt;p&gt;到11月8日，第一阶段行动结束。六天时间，打出了2500发子弹，战果？乐观估计50只到500只之间。这个数据浮动本身就说明了混乱程度。媒体开始嘲讽，Pearce 部长不得不下令撤军。&lt;/p&gt;
-
-&lt;p&gt;Meredith 少校向媒体表示：「如果我们有一个师的兵力配备这些鸟的机动能力，它们可以面对世界上任何一支军队。它们面对机枪，像坦克一样无懈可击。」观察人员还注意到一个令人不安的现象：鸸鹋似乎开始有了战术意识——&lt;strong&gt;每个群体都出现了一只哨兵&lt;/strong&gt;，一只全身黑羽、身高近两米的大鸟站在高处望风，其余鸟群分散成小股行动，让机枪失去了集火目标。&lt;/p&gt;
-
-&lt;p&gt;11月13日，政府不甘心，批准了第二阶段行动。这次稍有改善——到12月2日，每周能打死大约100只。12月10日 Meredith 最终被召回，提交的战报声称：使用9860发子弹，确认击杀986只，另有约2500只负伤后死亡。历史学家 Greg Beyer 指出，这个数字「极有可能被大幅夸大」。&lt;/p&gt;
-
-&lt;p&gt;议会的反应堪称经典。工党议员 Rowley James 在众议院质询中阴阳怪气地问总理 Joseph Lyons：「会不会给参战士兵颁发战斗勋章？」参议员 James Dunn 则直接给 Pearce 取了个新头衔——「鸸鹋战争部长」。&lt;/p&gt;
-
-&lt;p&gt;后来农民又在1934、1943、1948年三次请求军事援助，政府全部拒绝。最终解决问题的是悬赏制度——仅1934年上半年就兑付了57034份赏金，以及更实际的排斥围栏系统。有时候，解决问题不需要机枪，需要的是不跟鸟较劲。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Emu_War"&gt;https://en.wikipedia.org/wiki/Emu_War&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.britannica.com/topic/Emu-War"&gt;https://www.britannica.com/topic/Emu-War&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.atlasobscura.com/articles/the-great-emu-war-australia"&gt;https://www.atlasobscura.com/articles/the-great-emu-war-australia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">17e719ee-1989-549b-afdd-0f092fa61b6f</guid>
-      <pubDate>Mon, 30 Mar 2026 17:08:15 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Emu_War</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/b/be/Deceased_emu_during_Emu_War.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Google Stitch 2.0 Becomes a Full AI Design Platform — and Figma's Stock Felt It / Google Stitch 2.0 升级为完整 AI 设计平台——Figma 股价应声下跌</title>
-      <description>&lt;p&gt;On March 19, Google Labs shipped a &lt;strong&gt;major overhaul of Stitch&lt;/strong&gt;, its AI-native UI design tool, transforming it from a single-screen prototype generator into a multi-screen design platform with voice interaction, an infinite canvas, and developer tool integrations. Figma's stock dropped over 4% the same day — a signal that investors, at least, consider this a credible competitive threat.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/Stitch.png" alt="Google Stitch AI design platform interface showing multi-screen generation" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Google Stitch's new AI-native infinite canvas supports multi-screen generation and interactive prototyping.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;What Actually Changed&lt;/h3&gt;
-
-&lt;p&gt;The headline feature is &lt;strong&gt;multi-screen generation&lt;/strong&gt;: describe an entire application flow in natural language, and Stitch produces up to five interconnected screens with consistent typography, color palettes, and component libraries across all of them. The original Stitch could only generate one screen at a time. Combined with a new "Play" mode that simulates user navigation flows and an AI agent that auto-generates logical next screens based on interaction patterns, this starts to feel less like a mockup tool and more like an autonomous design collaborator.&lt;/p&gt;
-
-&lt;p&gt;The second major addition is a &lt;strong&gt;voice canvas&lt;/strong&gt;. You speak directly to the canvas; the agent listens, asks clarifying questions, and makes real-time updates. Google calls this "vibe design" — you describe the desired aesthetic or business objective, and the system generates multiple design directions matching that vibe. It is powered by Gemini 3 by default, with options to switch to Gemini 2.5 Pro for higher fidelity or 2.5 Flash for speed.&lt;/p&gt;
-
-&lt;p&gt;On the developer side, Stitch now exports production-ready HTML and CSS (with React export confirmed as coming soon), supports Tailwind CSS natively, and integrates with Google's Antigravity IDE. Most notably for the broader ecosystem, Stitch ships with an &lt;strong&gt;MCP (Model Context Protocol) server&lt;/strong&gt;, enabling integration with Gemini CLI, Claude Code, and Cursor. This means Stitch-generated designs can be pulled directly into AI coding agents — the same pattern Figma pioneered with its own MCP server.&lt;/p&gt;
-
-&lt;h3&gt;Design System Import and DESIGN.md&lt;/h3&gt;
-
-&lt;p&gt;A detail that matters more than it sounds: Stitch now supports &lt;strong&gt;design system import&lt;/strong&gt;. Upload your existing design tokens — color palettes, typography scales, spacing systems, component libraries — and Stitch constrains its generation to match. The export counterpart is &lt;strong&gt;DESIGN.md&lt;/strong&gt;, an agent-friendly markdown file that encodes design rules in a format other tools can consume. This is Google's answer to Figma's Code Connect: a portable design-system-as-code artifact.&lt;/p&gt;
-
-&lt;h3&gt;Free, With Generous Limits&lt;/h3&gt;
-
-&lt;p&gt;Stitch remains completely free through Google Labs. Standard mode allows 350 generations per month; Experimental mode (which uses Gemini 2.5 Pro) allows 50. No credit card required. Compare this to Figma's MCP server pricing at $15/month for unlimited reads, or Adobe Firefly's consumption-based credits.&lt;/p&gt;
-
-&lt;h3&gt;Where This Fits in the Tool Competition&lt;/h3&gt;
-
-&lt;p&gt;Following up on the AI design tool competition we've been tracking since March 23: the three-way race between Google, Figma, and Adobe now has clearer strategic differentiation. Google bets on speed, voice interaction, and free access. Figma bets on ecosystem depth, universal MCP support across 9+ coding agents, and design system fidelity. Adobe bets on creative depth with Custom Models and Project Moonlight. The emerging consensus workflow — generate in Stitch, refine in Figma, build with AI coding tools — just got more practical with Stitch's MCP integration enabling that exact pipeline.&lt;/p&gt;
-
-&lt;p&gt;The real question is whether Stitch's "good enough" output at zero cost will erode Figma's position with smaller teams and indie developers who don't need the full design system stack. For large product teams with mature design systems, Figma's ecosystem advantages remain substantial. But for the first 80% of a design? Stitch just made a strong argument that it should be your starting point.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;3月19日，Google Labs 对其 AI 原生 UI 设计工具 Stitch 进行了一次&lt;strong&gt;重大升级&lt;/strong&gt;，将其从单屏原型生成器转变为支持多屏生成、语音交互、无限画布和开发工具集成的完整设计平台。当天 Figma 股价下跌超过 4%——至少在投资者眼中，这是一个可信的竞争威胁。&lt;/p&gt;
-
-&lt;h3&gt;具体更新了什么&lt;/h3&gt;
-
-&lt;p&gt;最重要的功能是&lt;strong&gt;多屏生成&lt;/strong&gt;（Multi-screen Generation）：用自然语言描述整个应用流程，Stitch 可一次生成最多五个互相关联的页面，并在所有页面间保持统一的排版、色彩和组件体系。旧版 Stitch 只能一次生成一个页面。配合新的 Play 模式（模拟用户导航流程）和自动生成逻辑后续页面的 AI agent，这东西开始像一个自主设计协作者，而不只是出图工具。&lt;/p&gt;
-
-&lt;p&gt;第二个大更新是&lt;strong&gt;语音画布&lt;/strong&gt;（Voice Canvas）。直接对着画布说话，AI agent 会听、会追问、会实时修改。Google 把这叫 "vibe design"——你描述想要的氛围或商业目标，系统生成多个匹配方向。底层默认用 Gemini 3，也可以切换到 Gemini 2.5 Pro 获得更高保真度，或者 Gemini 2.5 Flash 追求速度。&lt;/p&gt;
-
-&lt;p&gt;开发者侧，Stitch 现在可以导出生产级 HTML 和 CSS（React 导出确认即将推出），原生支持 Tailwind CSS，并与 Google 的 Antigravity IDE 集成。对更广泛生态更重要的是，Stitch 自带 &lt;strong&gt;MCP（Model Context Protocol）服务器&lt;/strong&gt;，支持 Gemini CLI、Claude Code 和 Cursor 直接调用。Stitch 生成的设计可以被 AI 编程智能体直接拉取——这正是 Figma 自家 MCP server 开创的模式。&lt;/p&gt;
-
-&lt;h3&gt;设计系统导入与 DESIGN.md&lt;/h3&gt;
-
-&lt;p&gt;一个比听起来重要得多的细节：Stitch 支持&lt;strong&gt;设计系统导入&lt;/strong&gt;。上传现有的 design token（色板、字体比例、间距系统、组件库），Stitch 的生成会受到这些约束。导出端则是 &lt;strong&gt;DESIGN.md&lt;/strong&gt;——一种 agent 友好的 Markdown 文件，将设计规则编码为其他工具可消费的格式。这是 Google 对 Figma Code Connect 的回应：可移植的 design-system-as-code 产物。&lt;/p&gt;
-
-&lt;h3&gt;免费，且额度慷慨&lt;/h3&gt;
-
-&lt;p&gt;Stitch 通过 Google Labs 保持完全免费。标准模式每月 350 次生成；实验模式（使用 Gemini 2.5 Pro）每月 50 次。无需绑卡。对比 Figma MCP server 每月 $15 无限读取，或 Adobe Firefly 的按量计费——这个定价策略很有攻击性。&lt;/p&gt;
-
-&lt;h3&gt;竞争格局定位&lt;/h3&gt;
-
-&lt;p&gt;延续我们自 3 月 23 日以来跟踪的 AI 设计工具竞争：Google、Figma、Adobe 三方的战略差异化越来越清晰。Google 押注速度、语音交互和免费获取；Figma 押注生态深度、跨 9+ 编程智能体的通用 MCP 支持和设计系统保真度；Adobe 押注创意深度（Custom Models 和 Project Moonlight）。正在成形的共识工作流——在 Stitch 生成、在 Figma 精修、用 AI 编程工具实现——随着 Stitch 的 MCP 集成变得更加切实可行。&lt;/p&gt;
-
-&lt;p&gt;真正的问题是：Stitch 零成本的 "够用" 输出，是否会侵蚀 Figma 在小团队和独立开发者中的地位？对于拥有成熟设计系统的大型产品团队，Figma 的生态优势依然显著。但设计的前 80%？Stitch 刚刚给出了有力论证——它应该成为你的起点。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/"&gt;https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://winbuzzer.com/2026/03/20/google-redesigns-stitch-ai-voice-canvas-developer-integrations-xcxwbn/"&gt;https://winbuzzer.com/2026/03/20/google-redesigns-stitch-ai-voice-canvas-developer-integrations-xcxwbn/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://creati.ai/ai-news/2026-03-24/google-labs-stitch-ai-design-platform-text-to-ui/"&gt;https://creati.ai/ai-news/2026-03-24/google-labs-stitch-ai-design-platform-text-to-ui/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nxcode.io/resources/news/google-stitch-complete-guide-vibe-design-2026"&gt;https://www.nxcode.io/resources/news/google-stitch-complete-guide-vibe-design-2026&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">48690e61-f57b-521c-a95d-f652dd773bf0</guid>
-      <pubDate>Mon, 30 Mar 2026 17:08:44 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://siliconangle.com/2026/03/19/google-upgrades-stitch-ai-interface-development-tool/</link>
-      <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Stitch_Keyword_Hero_Visual.width-1300.png" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎲 🎲 心跳停止、大脑关机、全身结冰七个月——阿拉斯加林蛙每年都要「死」一次</title>
       <description>&lt;p&gt;如果你在阿拉斯加的冬天翻开一片落叶层，可能会发现一只硬邦邦的小青蛙。它不会动，不会呼吸，心脏不跳，大脑没有任何可检测的电活动，体内65%到70%的水已经变成了冰晶。按照所有常规标准，它已经死了。但到了春天冰雪融化的时候，这只青蛙会慢慢恢复心跳，恢复呼吸，然后若无其事地蹦走去找配偶。&lt;/p&gt;
@@ -1682,6 +836,673 @@
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Sailing_stones</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Racetrack_Playa_in_Death_Valley_National_Park.jpg/1280px-Racetrack_Playa_in_Death_Valley_National_Park.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 🎲 亚历山大大帝可能被活埋了：一个让历史学家脊背发凉的医学假说</title>
+      <description>&lt;p&gt;公元前323年6月，32岁的亚历山大大帝在巴比伦突然病倒，十一天后被宣告死亡。两千多年来，关于他的死因有无数猜测——中毒、酗酒、伤寒、疟疾。但2019年，新西兰但尼丁医学院的Katherine Hall博士提出了一个令人毛骨悚然的新理论：亚历山大根本没有死，他只是瘫痪了。&lt;/p&gt;&lt;p&gt;Hall的核心论点是：亚历山大患的是格林-巴利综合征（Guillain-Barré Syndrome, GBS）——一种自身免疫性神经疾病，免疫系统突然攻击周围神经，导致肌肉无力乃至全身瘫痪。这种病通常由感染触发，而史料记载亚历山大病倒前确实有过发热症状。&lt;/p&gt;&lt;p&gt;GBS最恐怖的地方在于：患者的意识可能完全清醒，但身体从四肢到躯干逐渐失去运动能力。到最后阶段，连呼吸肌都会瘫痪。Hall认为亚历山大经历的正是这种「活人棺材」般的过程——他的眼睛可能还在转动，大脑还在思考，但全身肌肉已经不听使唤了。&lt;/p&gt;&lt;p&gt;最关键的证据来自一个古怪的历史细节：史书记载，亚历山大「死后」整整六天，遗体没有出现任何腐败迹象。古人对此惊叹不已，认为这证明他是神之子。但Hall提出了一个更合理却更可怕的解释——遗体没有腐烂，是因为他还活着。&lt;/p&gt;&lt;p&gt;在古代世界，判断一个人是否死亡的标准是呼吸，而非脉搏。GBS的晚期变体（轴突型）可以导致呼吸极度微弱到几乎无法检测，同时瞳孔固定、扩大，体温调节失灵。在缺乏现代医疗设备的公元前四世纪，这一切加在一起，足以让最好的御医做出错误的死亡诊断。&lt;/p&gt;&lt;p&gt;想象一下那个场景：人类历史上最伟大的征服者，躺在那里，意识可能仍然清醒，听着身边的将军们为继承权争吵不休，看着仆人开始准备他的葬礼——而他无法动一根手指，无法发出一丝声音来告诉他们：我还没死。&lt;/p&gt;&lt;p&gt;当然，这个假说无法被完全证实。我们永远找不到亚历山大的遗体来做现代医学检查（他的墓地至今下落不明），也无法穿越回去测量他的脉搏。但Hall的理论之所以引人注目，是因为它比任何其他死因假说都能更好地解释所有已知症状——尤其是那个六天不腐的谜团。如果她是对的，那么亚历山大大帝的真正死因不是任何疾病或毒药，而是窒息——在被当作尸体处理的过程中，缓慢地、无声地窒息而死。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.livescience.com/64676-alexander-the-great-declared-dead-prematurely.html"&gt;https://www.livescience.com/64676-alexander-the-great-declared-dead-prematurely.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/was-alexander-great-pronounced-dead-prematurely-180971419/"&gt;https://www.smithsonianmag.com/smart-news/was-alexander-great-pronounced-dead-prematurely-180971419/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2019/01/190122115006.htm"&gt;https://www.sciencedaily.com/releases/2019/01/190122115006.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1beb8e2e-a66a-53bf-8842-51111e264554</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:03 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.livescience.com/64676-alexander-the-great-declared-dead-prematurely.html</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/VqXV59Qyhy3PNWAFigMjiT-1200-80.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 你的大脑如何「切换频道」来管理情绪——2026 年情绪调节的梯度重构理论</title>
+      <description>&lt;h2&gt;一个新发现：情绪调节不是「压制」，是「切换」&lt;/h2&gt;
+&lt;p&gt;当你面对让人焦虑的坏消息时，你的大脑在做什么？传统观点会告诉你：前额叶皮层在「压制」杏仁核的过度反应。这个模型简洁、直觉，但可能是错的——至少是不够精确的。&lt;/p&gt;
+
+&lt;p&gt;2026 年 4 月发表在 &lt;em&gt;PLOS Biology&lt;/em&gt; 的一项大样本研究（N=621），由 Queen's University 的 Anita Tusche 团队完成，提出了一个全新框架：&lt;strong&gt;情绪调节的本质不是某个区域「镇压」另一个区域，而是整个大脑沿着一条「梯度」发生系统性重构&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2&gt;什么是大脑梯度？&lt;/h2&gt;
+&lt;p&gt;想象你的大脑皮层是一座城市。一端是「感官区」——负责处理你看到的画面、听到的声音，像城市的码头和工厂，直接接触外部世界。另一端是「联想区」——负责抽象思维、自我反思、未来规划，像城市的大学和智库。这条从感官到抽象的连续光谱，就是「梯度 1」（Gradient 1），是大脑最基本的组织原则之一。&lt;/p&gt;
+
+&lt;h2&gt;核心发现&lt;/h2&gt;
+&lt;p&gt;研究者让参与者观看负面图片，有时被动观看（感受情绪），有时主动进行认知重评（调节情绪）。他们发现：&lt;strong&gt;情绪调节能力越强的人，大脑激活模式越倾向于沿梯度 1 向「联想端」偏移&lt;/strong&gt;——换句话说，他们的大脑更善于从「被感官信息淹没」的状态切换到「用抽象思维重新解读」的状态。&lt;/p&gt;
+
+&lt;p&gt;关键数据：这个效应在两个独立样本中都高度显著（β=3.15 和 β=4.12，p&lt;0.001），且能跨样本预测个体的调节能力（r=0.32-0.50）。更重要的是，在 55 名参与者的日常情绪追踪中，实验室里表现出更强梯度偏移的人，现实生活中也报告了更少的负面情绪。&lt;/p&gt;
+
+&lt;h2&gt;这对你意味着什么？&lt;/h2&gt;
+&lt;p&gt;这项研究提供了一个强大的心智模型：&lt;strong&gt;情绪调节 = 频道切换&lt;/strong&gt;。当你被坏消息击中时，你的大脑默认在「感官频道」上运作——画面、声音、身体感觉全面涌入。而有效的调节，本质上是把大脑「调频」到联想频道——开始问「这件事放到更大的时间尺度上意味着什么？」「还有哪些我没看到的角度？」&lt;/p&gt;
+
+&lt;p&gt;这不是鸡汤。研究者指出，这个框架可以指导未来的干预手段——从神经反馈训练到经颅磁刺激，目标不再是「增强某个区域」，而是「优化整体切换能力」。而在日常生活中，任何帮助你从具体感受「退后一步」进入抽象思考的练习——写日记、冥想、甚至只是问自己「我的朋友会怎么看这件事？」——本质上都是在训练这种梯度切换。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666"&gt;https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">792b1bc5-19ee-5bb7-97d7-8fcb6d492eec</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:05 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003666</link>
+      <enclosure url="https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003666.g004&amp;size=inline" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 做梦反而睡得更深——意大利团队发现沉浸式梦境是深度睡眠的「守护者」</title>
+      <description>&lt;p&gt;「深度睡眠 = 大脑完全关机」这条直觉，可能是错的。意大利 IMT School for Advanced Studies Lucca 的 Giulio Bernardi 团队 3 月在 &lt;strong&gt;PLOS Biology&lt;/strong&gt; 上发表了一项令人意外的研究：在 44 名健康成人、4 个夜晚、超过 1,000 次唤醒的密集实验中，他们发现沉浸式的生动梦境（vivid, immersive dreams）与主观感受到的深度睡眠之间存在强正相关——即便此时大脑 EEG 活动并不低。&lt;/p&gt;
+
+&lt;p&gt;实验设计相当硬核：研究者用高密度脑电图（high-density EEG）对受试者进行全夜监测，在不同睡眠阶段随机唤醒，要求受试者立即描述刚才的意识体验并为睡眠深度打分。结果出现了一个 U 形曲线——人们在两种情况下觉得自己睡得最沉：一是完全没有意识内容（经典的深睡眠），二是拥有高度沉浸、叙事丰富的梦境。相反，那些片段化、模糊的意识体验反而对应着浅睡感受。&lt;/p&gt;
+
+&lt;p&gt;更有趣的是时间维度的发现。随着夜间推移，身体对睡眠的生理需求（sleep pressure）在逐步下降，按理说后半夜应该越睡越浅。但数据显示，梦的沉浸度恰好在后半夜上升，仿佛接棒了生理睡眠压力的角色，让人依然觉得睡眠很深。Bernardi 用了一个漂亮的比喻：梦可能是睡眠的「守护者」（guardians of sleep），在生理机制退场后继续维持恢复性睡眠体验。&lt;/p&gt;
+
+&lt;p&gt;这项研究的实际意义在于：它可能解释了为什么一些人的客观睡眠指标正常，却总觉得没睡好——问题也许不在时长或深睡占比，而在梦的质量。未来的睡眠干预或许不再只盯着「睡多久」或「减少夜醒次数」，而是探索如何提升梦境的沉浸感。当然，这一步距离临床应用还很远，但它打开了一个全新的方向。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/03/260326011458.htm"&gt;https://www.sciencedaily.com/releases/2026/03/260326011458.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://time.com/article/2026/03/31/can-dreaming-help-you-sleep-more-deeply/"&gt;https://time.com/article/2026/03/31/can-dreaming-help-you-sleep-more-deeply/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1120184"&gt;https://www.eurekalert.org/news-releases/1120184&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e8d4348e-9b84-53c6-a22b-4bb6e5e00ff2</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:10 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/03/260326011458.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/1920/happy-young-woman-waking-up-rested.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Causwells 落地 Menlo Park Springline：SF 人气小酒馆南迁，菜单七成五换新</title>
+      <description>&lt;p&gt;继 Che Fico Parco、Vesta 之后，又一家 SF 名店正式进驻 Menlo Park 的 Springline 综合体——&lt;strong&gt;Causwells&lt;/strong&gt; 于 4 月 2 日开业，地址 550 Oak Grove。这家 2014 年在 SF Marina 区起家的美式小酒馆，由主厨 Adam Rosenblum 和合伙人 Elmer Mejicanos 经营，新店面积是 SF 原店的两倍。&lt;/p&gt;
+
+&lt;p&gt;菜单约 75% 是全新创作。Rosenblum 受古典法餐训练和新奥尔良烹饪经验影响，推荐初次到访点这三样：自制 ricotta 配迷迭香蜂蜜和 lavash 薄饼（$15）、招牌 American Burger——自家绞碎牛肉、美式芝士、乳酸发酵酸黄瓜搭配 Causwells 秘制酱（$24）、以及炸本地传统品种鸡配香草沙拉（$34）。周末 brunch 有 breakfast jambalaya 和 boudin 香肠 Benedict（$11-$19），新奥尔良痕迹很明显。&lt;/p&gt;
+
+&lt;p&gt;酒水方面同样大换血。招牌 espresso martini 保留了——烤香蕉加烟熏椰子泡沫，$18 一杯。新增的 martini cart 在桌边调制三款变体（$18-$19）。最有趣的是 "The Ceviche"，用百香果和 aji amarillo 辣椒做的 Pisco sour 变奏，还有 Pina Colada Royal——加了日式刨冰的朗姆鸡尾酒。Causwells 甚至自己蒸馏无酒精烈酒，做了一款灵感来自烟熏甜菜沙拉的零酒精鸡尾酒，给开车来的半岛居民一个不尴尬的选择。&lt;/p&gt;
+
+&lt;p&gt;室内 50 座，art deco 风格——孔雀纹壁纸、鼠尾草绿丝绒椅、拉丝金硬件。车库卷帘门打开后外面还有 60 个户外座位，加州好天气利用率拉满。营业时间：周一至周四 11am-9pm，周五 11am-10pm，周六 10am-10pm，周日 10am-9pm。&lt;/p&gt;
+
+&lt;p&gt;Springline 正在把 Menlo Park 从"半岛美食荒漠"的刻板印象里拉出来。加上之前获得米其林推荐的 Yeobo Darling 和拿到 Bib Gourmand 的 Eylan，这条街的密度已经不输 SF Mission 了——而且停车容易多了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.almanacnews.com/menlo-park/2026/04/01/causwells-opens-in-menlo-park/"&gt;https://www.almanacnews.com/menlo-park/2026/04/01/causwells-opens-in-menlo-park/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.7x7.com/menlo-park-restaurants-more-2668780944.html"&gt;https://www.7x7.com/menlo-park-restaurants-more-2668780944.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d51cc521-fc0a-5338-b3d1-f20d3b93078b</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:09 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.almanacnews.com/menlo-park/2026/04/01/causwells-opens-in-menlo-park/</link>
+      <enclosure url="https://www.almanacnews.com/wp-content/uploads/2026/03/Causwells_Menlo-Park_Bar-Cart-Elmer-laughing_credit-Hardy-Wilson_1184-scaled.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 伊斯兰堡和谈首日：美伊45年来首次直接对话，但黎巴嫩问题与霍尔木兹海峡成最大僵局</title>
+      <description>&lt;p&gt;美国和伊朗的谈判代表4月11日在巴基斯坦首都伊斯兰堡坐到了同一栋楼里——这是1979年伊朗伊斯兰革命以来，两国官员距离最近的一次。美方代表团由副总统万斯（JD Vance）领衔，特朗普特使维特科夫（Steve Witkoff）和女婿库什纳（Jared Kushner）随行；伊方则由外长阿拉格齐（Abbas Araghchi）和议长加利巴夫（Mohammad Bagher Ghalibaf）出面。&lt;/p&gt;
+
+&lt;p&gt;但"坐在一栋楼里"并不等于"坐在一张桌前"。双方采用的是&lt;strong&gt;「邻近谈判」&lt;/strong&gt;（proximity talks）模式：各自待在不同房间，由巴基斯坦官员在中间穿梭传话。这种形式本身就说明了信任度之低。&lt;/p&gt;
+
+&lt;p&gt;谈判的三大核心争议已经浮出水面。第一，&lt;strong&gt;霍尔木兹海峡&lt;/strong&gt;：4月8日的停火协议明确要求伊朗重新开放海峡，但截至11日，穿越海峡的商船仍被拦截。全球约五分之一的石油和天然气在和平时期经此通过，伊朗将其视为手中最大的筹码，坚称主权不可谈判。特朗普则放话海峡"很快"会重开。第二，黎巴嫩问题：停火宣布后，以色列继续轰炸黎巴嫩真主党目标，3月2日以来已造成1,953人死亡、6,303人受伤。伊朗认为这构成违反停火协议，但美国和以色列坚称黎巴嫩不在停火范围内——连斡旋方巴基斯坦都对此表示异议。第三，伊朗的核问题：美方要求可核查的浓缩铀限制，伊方坚持拥有铀浓缩权利并要求全面解除制裁。&lt;/p&gt;
+
+&lt;p&gt;巴基斯坦方面对这轮谈判设定了现实预期：目标不是达成和平协议，而是&lt;strong&gt;让双方同意继续谈下去&lt;/strong&gt;。接近斡旋方的消息人士称，没有人指望周六就能取得重大突破。这听起来不那么振奋人心，但考虑到六周前这两个国家还在互扔导弹，能让他们在同一栋楼里通过传话沟通已经算是外交进展。&lt;/p&gt;
+
+&lt;p&gt;关注后续：谈判能否产生"继续对话"的框架协议，以及霍尔木兹海峡在未来几天是否真的重新开放，将是判断这轮和谈成败的两个关键指标。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/4/10/pakistan-sets-modest-goal-for-us-iran-summit-a-deal-to-keep-talks-going"&gt;https://www.aljazeera.com/news/2026/4/10/pakistan-sets-modest-goal-for-us-iran-summit-a-deal-to-keep-talks-going&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://edition.cnn.com/2026/04/10/middleeast/us-iran-war-talks-pakistan-what-we-know-intl-hnk"&gt;https://edition.cnn.com/2026/04/10/middleeast/us-iran-war-talks-pakistan-what-we-know-intl-hnk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/liveblog/2026/4/11/iran-war-live-us-negotiators-due-to-arrive-in-pakistan-for-ceasefire-talks"&gt;https://www.aljazeera.com/news/liveblog/2026/4/11/iran-war-live-us-negotiators-due-to-arrive-in-pakistan-for-ceasefire-talks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.timesofisrael.com/liveblog-april-11-2026/"&gt;https://www.timesofisrael.com/liveblog-april-11-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">67eae41a-232e-5fec-89bd-6a26b16957f2</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:24 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/4/10/pakistan-sets-modest-goal-for-us-iran-summit-a-deal-to-keep-talks-going</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-10T064719Z_875262454_RC26MKA80HJZ_RTRMADP_3_IRAN-CRISIS-PAKISTAN-1775824375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 你肠道里藏着一群「隐形好菌」——剑桥团队在 11,000 人数据中发现健康的通用标记物 CAG-170</title>
+      <description>&lt;p&gt;益生菌市场年销售额数百亿美元，但绝大多数产品配方还在用几十年前发现的乳酸菌和双歧杆菌。剑桥大学兽医系的 Alexandre Almeida 团队决定换个思路：与其从已知菌种里挑「好的」，不如先搞清楚健康人的肠道里到底多了什么。答案发表在 2026 年 2 月的 &lt;strong&gt;Cell Host &amp; Microbe&lt;/strong&gt; 上：一群叫做 &lt;strong&gt;CAG-170&lt;/strong&gt; 的细菌，横跨 39 个国家、11,115 份肠道宏基因组样本，几乎总是在健康人群中显著富集，而在包括炎症性肠病、肥胖、结直肠癌、帕金森病、慢性疲劳综合征等 13 种疾病患者中明显偏低。&lt;/p&gt;
+
+&lt;p&gt;CAG-170 的特别之处在于它是一群「暗物质菌」——至今几乎无法在实验室中培养，科学家只能通过基因组测序知道它存在。Almeida 团队对其基因组做了功能注释，发现了两个突出能力：大量合成维生素 B12，以及编码多种碳水化合物降解酶。研究者推测，CAG-170 产生的 B12 主要不是供人体吸收，而是在肠道微生态中充当「公共资源」，支撑其他有益菌的生存。换句话说，它更像是肠道生态系统的基础设施，而不是单打独斗的功能菌。&lt;/p&gt;
+
+&lt;p&gt;Almeida 直言不讳地批评了益生菌行业：「益生菌产业并没有真正跟上肠道微生物组研究的步伐。」他认为 CAG-170 的发现指向了下一代益生菌的方向——不再是往肠道里「空投」几种明星菌株，而是维护整个微生态的平衡，让 CAG-170 这样的关键枢纽菌群保持健康水平。&lt;/p&gt;
+
+&lt;p&gt;从实用角度看，CAG-170 水平未来可能成为一种简单的肠道健康体检指标。目前的粪便检测产品（如 Viome、Thorne）已经能做宏基因组分析，如果加入 CAG-170 丰度作为参考值，用户就多了一把衡量自身肠道状态的尺子。当然，从发现关联到证明因果、再到开发出可商业化的 CAG-170 相关益生菌产品，中间还有很长的路——毕竟连培养它都还是个难题。但这项研究至少说明，我们对肠道里「谁是好人」的理解才刚刚开始。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cam.ac.uk/research/news/hidden-bugs-in-our-gut-appear-key-to-good-health-finds-global-study"&gt;https://www.cam.ac.uk/research/news/hidden-bugs-in-our-gut-appear-key-to-good-health-finds-global-study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/02/260211204210.htm"&gt;https://www.sciencedaily.com/releases/2026/02/260211204210.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://scitechdaily.com/a-mysterious-gut-microbe-keeps-appearing-in-healthy-people-worldwide/"&gt;https://scitechdaily.com/a-mysterious-gut-microbe-keeps-appearing-in-healthy-people-worldwide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">de56388b-09f5-59a5-9377-a2f2999c1f09</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:35 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.cam.ac.uk/research/news/hidden-bugs-in-our-gut-appear-key-to-good-health-finds-global-study</link>
+      <enclosure url="https://scitechdaily.com/images/Gut-Microbiome-Bacteria-Art-Concept.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 跑步不只练心肺——运动如何通过 BDNF 重塑你的认知灵活性</title>
+      <description>&lt;h2&gt;一个反直觉的链条：身体运动 → 大脑灵活性 → 心理韧性&lt;/h2&gt;
+&lt;p&gt;我们都知道运动对身体好。但 2026 年发表在 &lt;em&gt;Frontiers in Psychology&lt;/em&gt; 上的两项研究，用数据揭示了一条更深层的因果链：&lt;strong&gt;体育运动不只是让你更健康，它通过增强认知灵活性，系统性地提升你的心理韧性和学习投入度&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2&gt;什么是认知灵活性？&lt;/h2&gt;
+&lt;p&gt;认知灵活性（Cognitive Flexibility）是指你在不同思维策略、视角或任务之间切换的能力。它是执行功能的核心组件之一，决定了你能否在「这条路走不通」的时候迅速调转方向，而不是卡在原地反复撞墙。&lt;/p&gt;
+
+&lt;p&gt;心理学家发现，认知灵活性低的人更容易陷入反刍思维（同一个想法反复转圈）、更难从挫折中恢复、更容易被焦虑和抑郁困住。而认知灵活性高的人，能更快地从无效思维模式中脱离，灵活调整策略应对变化。&lt;/p&gt;
+
+&lt;h2&gt;运动为什么能提升它？&lt;/h2&gt;
+&lt;p&gt;关键机制是 &lt;strong&gt;BDNF（脑源性神经营养因子）&lt;/strong&gt;。有氧运动——跑步、游泳、骑车——会显著提升大脑中 BDNF 的水平，尤其是在海马体区域。BDNF 就像大脑的「肥料」，促进神经元新生（neurogenesis）和突触形成（synaptogenesis），让神经回路更容易被重塑。&lt;/p&gt;
+
+&lt;p&gt;2026 年的 Frontiers 研究（对中国大学生群体的大样本调查）揭示了一条清晰的中介链：体育运动 → 认知灵活性提升 → 心理韧性增强 → 学习投入度提高。这不是单一路径，而是通过认知灵活性和心理韧性的双重中介效应实现的。另一项针对竞技运动员的研究也发现，认知灵活性与自我调节正相关，而自我调节又正向预测心理恢复能力。&lt;/p&gt;
+
+&lt;h2&gt;不只是跑步那么简单&lt;/h2&gt;
+&lt;p&gt;有趣的是，研究发现并非所有运动效果相同。&lt;strong&gt;包含认知挑战的协调性运动&lt;/strong&gt;——比如球类运动、舞蹈、攀岩——对认知灵活性的提升效果可能优于单纯的有氧运动。原因在于这些运动要求你在快速变化的环境中不断做出决策和调整，本身就是认知灵活性的训练场。&lt;/p&gt;
+
+&lt;p&gt;此外，运动还能改变大脑网络的连接方式。研究发现急性运动后，额顶叶网络（负责高阶认知控制）和基底节（负责习惯与奖赏）之间的功能连接会增强，长期心血管运动则能增加海马体体积、防止内侧颞叶和前扣带皮层萎缩。&lt;/p&gt;
+
+&lt;h2&gt;一个可以带走的洞见&lt;/h2&gt;
+&lt;p&gt;下次你觉得思维僵化、陷入死胡同时，试试去运动 30 分钟。这不是逃避问题——&lt;strong&gt;你是在物理层面重塑大脑的切换能力&lt;/strong&gt;。BDNF 的释放会在运动后持续数小时发挥作用。而如果你想最大化效果，选择那些需要「边动边想」的运动：打一场篮球、跟一节舞蹈课、或者去一条新路线跑步。你的大脑会感谢你。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1731426/full"&gt;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1731426/full&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1789097"&gt;https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1789097&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1c284362-aef5-52da-96e6-b13bc2940a0b</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:36 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1731426/full</link>
+    </item>
+    <item>
+      <title>🎲 🎲 🎲 硅太阳能电池怕瑕疵，但钙钛矿电池的缺陷反而是它的超能力</title>
+      <description>&lt;p&gt;在半导体的世界里，有一条铁律：纯度就是一切。硅基太阳能电池之所以昂贵，就是因为它需要接近完美的单晶硅片——每一个杂质原子、每一处晶格缺陷，都会成为电荷的「陷阱」，吞噬掉本该变成电能的光子能量。几十年来，太阳能产业的核心工程挑战就是：如何把硅片做得更纯、更完美。&lt;/p&gt;&lt;p&gt;然后钙钛矿来了，把这条规则彻底打翻。&lt;/p&gt;&lt;p&gt;钙钛矿太阳能电池是近年能源领域最令人兴奋的突破之一。它用廉价的溶液法制造——说白了就是把材料溶在液体里，涂上去晾干。这种「涂涂抹抹」的工艺注定会产生大量结构缺陷。按照传统半导体理论，这东西的光电转换效率应该惨不忍睹。&lt;/p&gt;&lt;p&gt;但现实啪啪打脸：钙钛矿电池的效率已经逼近甚至超越了商用硅电池，而且还在飞速进步。这在物理学界引发了一个巨大的问号——为什么一个「千疮百孔」的材料能干得这么好？&lt;/p&gt;&lt;p&gt;2026年2月，奥地利ISTA的研究团队终于揭开了谜底，答案反直觉到令人拍案叫绝：那些缺陷不是bug，是feature。&lt;/p&gt;&lt;p&gt;关键在于一种叫做「畴壁」（domain wall）的结构。钙钛矿晶体内部并不是一块完美的大晶体，而是由无数小区域（畴）拼接而成，相邻区域的晶格朝向略有不同。这些区域之间的交界面——畴壁——会自发产生微小但关键的局部电场。&lt;/p&gt;&lt;p&gt;想象一下：当一个光子击中钙钛矿，激发出一对电子和空穴时，如果这对「冤家」不被迅速分开，它们会立刻复合，释放的能量白白浪费。但如果附近恰好有一道畴壁，畴壁上的局部电场会像一堵看不见的墙，把电子推向一边，空穴推向另一边——分离完成。&lt;/p&gt;&lt;p&gt;更妙的是，研究人员发现这些畴壁不是孤立存在的，它们在整个晶体内部形成了一张四通八达的网络，就像城市里的高速公路系统。电荷载流子一旦被畴壁分离，就会沿着这些「高速公路」长距离传输，最终被电极收集。ISTA的博士后Dmytro Rak形容说：「如果电子空穴对在畴壁附近产生，局部电场会把它们拉到墙的两边——这就像一个天然的电荷分离器。」&lt;/p&gt;&lt;p&gt;团队还发明了一种巧妙的「银血管造影」技术来验证这个理论：他们用电化学方法把银离子沉积到晶体中，银离子会聚集在畴壁位置，然后在显微镜下就能直接看到这张隐形的电荷高速公路网。&lt;/p&gt;&lt;p&gt;这个发现的深远意义在于：它彻底颠覆了「好材料必须纯净无瑕」的信条。硅走的是「消灭一切缺陷」的路线，钙钛矿走的却是「让缺陷为我所用」的路线——两条截然相反的道路，殊途同归。这也解释了为什么钙钛矿可以用如此廉价和粗糙的方法制造，却依然高效：正是那些「粗糙」制造出来的缺陷，构成了它性能的基石。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2026-02-physicists-exceptional-energy-harvesting-efficiency.html"&gt;https://phys.org/news/2026-02-physicists-exceptional-energy-harvesting-efficiency.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">95447a8e-92bb-5ad9-8dcb-8577f6134bc8</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:42 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://phys.org/news/2026-02-physicists-exceptional-energy-harvesting-efficiency.html</link>
+      <enclosure url="https://scx2.b-cdn.net/gfx/news/hires/2026/explaining-next-genera.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 四月赏花黄金期：湾区十条野花徒步路线，从新手到进阶全覆盖</title>
+      <description>&lt;p&gt;加州超级花海（Superbloom）效应仍在持续，四月是湾区野花的高峰期。综合 Berkeleyside 和 Richmondside 本周刚发布的 2026 年赏花指南，这里整理出几条值得跑一趟的路线，按难度分级。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;轻松入门（适合周末随便走走）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Mori Point Loop Trail, Pacifica&lt;/b&gt; — 约 2 英里环线，海边悬崖上铺满金黄色 goldfields 和紫色 lupine，背景是太平洋。从 SF 开车 20 分钟，停车免费但周末要早到。这条可能是湾区"出片率"最高的野花步道。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Abbott's Lagoon, Point Reyes&lt;/b&gt; — 2.8 英里往返，平坦沙地步道，沿途是湿地、草甸和沙丘野花，终点是一片安静的泻湖海滩。适合带小朋友。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Edgewood Park, Redwood City&lt;/b&gt; — 半岛本地居民的后花园，蛇纹石草甸上开满了 California poppy 和蓝色 lupine。Sylvan Trail 环线约 3 英里，几乎没有爬升。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;中等难度（有点爬升但不至于累瘫）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Ring Mountain Preserve, Tiburon&lt;/b&gt; — Phyllis Ellman Loop，Marin 县最受推荐的赏花点之一。蛇纹石地质支持了大量本地特有植物，五月下旬还能看到濒危的 Tiburon Mariposa Lily。从 101 下来很方便，免费开放。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Sunol Regional Wilderness&lt;/b&gt; — Canyon View Trail 约 4 英里往返，橡树峡谷加瀑布加野花三合一。这里远离城区所以人少，适合想安静走走的人。东湾公园周末收停车费。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Mount Tamalpais State Park&lt;/b&gt; — Matt Davis Trail 和 Steep Ravine Trail 沿途有 trillium、buttercup、mariposa lily。雾天也有雾中看花的独特体验。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;进阶挑战&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Mount Diablo, Mitchell Canyon Trailhead&lt;/b&gt; — 从 Clayton 出发，爬升明显但回报也大：山上记录了超过 100 种花卉。四月中旬正是 checker lily、larkspur、globe lily 集中开放的时段。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Black Diamond Mines, Antioch&lt;/b&gt; — 6000 多英亩的前矿区，五月还能看到黄白相间的 mariposa lily，历史遗迹加野花，适合拍照。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;几个实用提示：下载 &lt;b&gt;Seek&lt;/b&gt; 或 &lt;b&gt;PictureThat&lt;/b&gt; app 可以即时识别花种；不要采花，蛇纹石草甸上的许多物种是保护品种；最近雨后部分步道可能泥泞，穿防水徒步鞋比较保险；早上 9-11 点光线最好也最不挤。上一期我们提到的 Edgewood Park 和 Mount Diablo 花况目前仍在持续，预计本月中旬达到最高峰。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://richmondside.org/2026/04/08/10-best-wildflower-hikes-east-bay-2026/"&gt;https://richmondside.org/2026/04/08/10-best-wildflower-hikes-east-bay-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.berkeleyside.org/2026/04/06/10-spots-bursting-with-wildflowers-in-the-east-bay-and-beyond"&gt;https://www.berkeleyside.org/2026/04/06/10-spots-bursting-with-wildflowers-in-the-east-bay-and-beyond&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.parksconservancy.org/parks/wildflower-trails-without-crowds-san-francisco-marin-san-mateo-bay-area"&gt;https://www.parksconservancy.org/parks/wildflower-trails-without-crowds-san-francisco-marin-san-mateo-bay-area&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d7c71770-ee9e-507a-ab62-bc74bf9ded28</guid>
+      <pubDate>Sat, 11 Apr 2026 14:46:42 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://richmondside.org/2026/04/08/10-best-wildflower-hikes-east-bay-2026/</link>
+      <enclosure url="https://i0.wp.com/richmondside.org/wp-content/uploads/2025/04/ridge-trail.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 本周日 Taste of Thrive City：Chase Center 门口吃遍湾区名店， 起</title>
+      <description>&lt;p&gt;这个周日（4 月 12 日）11am-5pm，Chase Center 旁边的 Thrive City 广场办了个美食嘉年华——&lt;strong&gt;Taste of Thrive City&lt;/strong&gt;。入场免费，吃东西需要买 tasting ticket，每张 $6 兑一份食物样品。想多尝几家的话，现场也卖 5 张 $25、10 张 $40 的套票。&lt;/p&gt;
+
+&lt;p&gt;参与的餐厅阵容不错：Che Fico Pizzeria 的手工披萨、Dumpling Time 的招牌小笼包、Miller &amp;amp; Lux 的澳洲和牛串烧、Gott's Roadside 的加州经典汉堡、The Baked Bear 的定制冰淇淋三明治，还有 Kayah by Burma Love 的缅甸 laphet 炒饭。光看名单就知道这不是随便拉几个 food truck 凑数的——Che Fico 和 Burma Love 单独去排队都要等半小时。&lt;/p&gt;
+
+&lt;p&gt;喝的方面，21 岁以上可以买酒到广场上走着喝。Harmonic Brewing 有精酿啤酒 taster，Dumpling Time 和 Splash 有鸡尾酒，单杯价格官方没公布但估计在 $10-15 区间。带小朋友的话有 Kids Zone，具体活动没详细说但往年 Thrive City 的亲子活动质量都还行。现场还有 live entertainment，广场本身就很开阔，不会太挤。&lt;/p&gt;
+
+&lt;p&gt;交通提示：Thrive City 在 Mission Bay 的 1725 3rd Street，坐 T-Third Muni 到 UCSF/Chase Center 站最省事。开车的话 Chase Center 的停车场周末 $10-20 不等，但周日 Mission Bay 路边很多免费车位。&lt;/p&gt;
+
+&lt;p&gt;同一天还有 Ploverfest（Sunset Dunes 一周年音乐节）和 SF 樱花祭第一个周末。如果体力允许，可以上午 Thrive City 吃一圈，下午去 Japantown 逛樱花祭，晚上去 Ocean Beach 看日落——把三个活动串成一条线路。四月的 SF 就是这样，活动多到让人有选择困难症。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/sfs-taste-thrive-city-6-tasting-tickets-2026/"&gt;https://sf.funcheap.com/sfs-taste-thrive-city-6-tasting-tickets-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.chasecenter.com/events/taste-of-thrive-city-20260412/"&gt;https://www.chasecenter.com/events/taste-of-thrive-city-20260412/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eventbrite.com/e/taste-of-thrive-city-tickets-1983820304935"&gt;https://www.eventbrite.com/e/taste-of-thrive-city-tickets-1983820304935&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d6ff82bc-6c72-5c05-a928-5c9eeb8f8b57</guid>
+      <pubDate>Sat, 11 Apr 2026 14:57:16 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sf.funcheap.com/sfs-taste-thrive-city-6-tasting-tickets-2026/</link>
+      <enclosure url="https://cdn.funcheap.com/wp-content/uploads/2026/03/imgi_3_TC_BM_20260412_Taste_of_TC_DIGITAL_GFX_Event_Promo_1005x600-1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 裸盖菇素离处方药又近一步——Compass Pathways 获 FDA 批准 PTSD 临床，TRD 商业化年底启动</title>
+      <description>&lt;p&gt;我们一直在追踪的 COMP360 裸盖菇素（psilocybin）故事又有了重要进展。此前两项三期临床（COMP005 和 COMP006）均达到主要终点，Compass Pathways 计划 2026 年 Q4 提交 NDA。现在，这条管线正在同时向两个方向扩张。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PTSD 适应症获批 IND。&lt;/strong&gt; 2026 年 1 月 7 日，FDA 接受了 COMP360 用于创伤后应激障碍（PTSD）的研究性新药申请（IND）。这意味着 Compass 可以启动一项 Phase 2b/3 多中心、随机、双盲对照试验：受试者间隔 3 周接受两次 25 mg COMP360，对照组接受 1 mg 微量剂量，主要终点是第 8 周时 CAPS-5（临床用 PTSD 量表）总分的变化。此前一项 22 人的 Phase 2 研究已显示不错的信号——25 mg 单次给药后，CAPS-5 总分在第 4 周降低 9.9 分、第 12 周降低 29.5 分。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TRD 商业化准备全面推进。&lt;/strong&gt; 在治疗抵抗性抑郁症（TRD）方面，两项 Phase 3 的数据已经齐了：COMP006（581 人）在第 6 周时 25 mg 组 MADRS 评分较对照组多下降 3.8 分（p &lt; 0.001），39% 的参与者达到临床有意义的改善（MADRS 下降 &gt;= 25%）。26 周长期随访数据预计 Q3 2026 公布。Compass 的公开表态是「年底前做好商业化启动准备」。COMP360 目前拥有 FDA 突破性疗法认定（Breakthrough Therapy）和英国 ILAP 创新许可通道。&lt;/p&gt;
+
+&lt;p&gt;裸盖菇素药物审批的意义远超 Compass 一家公司。如果 COMP360 能在 2027 年前后获批上市，它将成为继 Spravato（艾司氯胺酮鼻喷剂）之后第二种针对难治性抑郁的「迷幻类」处方药，也可能为整个迷幻辅助心理治疗领域打开监管先例。PTSD 适应症的拓展则直接回应了 Lykos Therapeutics 的 MDMA 疗法在 2023 年被 FDA 拒绝后留下的临床空白。接下来要看的关键节点：Q3 的 26 周数据，以及 Q4 的 NDA 是否如期提交。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Acceptance-of-IND-Application-for-PTSD-and-Hosts-Webinar-on-PTSD-and-TRD/default.aspx"&gt;https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Acceptance-of-IND-Application-for-PTSD-and-Hosts-Webinar-on-PTSD-and-TRD/default.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.biopharmadive.com/news/compass-trial-data-fda-application-psilocybin-psychedelics/812332/"&gt;https://www.biopharmadive.com/news/compass-trial-data-fda-application-psilocybin-psychedelics/812332/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://psychedelicalpha.com/news/breaking-second-positive-phase-3-for-compass-psilocybin-though-modest-magnitude-raises-questions/"&gt;https://psychedelicalpha.com/news/breaking-second-positive-phase-3-for-compass-psilocybin-though-modest-magnitude-raises-questions/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">109c8f3b-0545-5090-8126-2ad6533a5031</guid>
+      <pubDate>Sat, 11 Apr 2026 14:57:20 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Acceptance-of-IND-Application-for-PTSD-and-Hosts-Webinar-on-PTSD-and-TRD/default.aspx</link>
+      <enclosure url="https://compasspathways.com/wp-content/uploads/2023/10/COMP360-psilocybin-therapy-1024x683.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 Artemis II成功返回地球：人类时隔53年重返月球轨道，圣迭戈海域「正中靶心」溅落</title>
+      <description>&lt;p&gt;北京时间4月11日凌晨，NASA的Orion飞船在圣迭戈附近太平洋海域溅落，Artemis II任务圆满完成。四名宇航员——指令长里德·怀斯曼（Reid Wiseman）、飞行员维克多·格洛弗（Victor Glover）、任务专家克里斯蒂娜·科赫（Christina Koch）和加拿大航天局的杰里米·汉森（Jeremy Hansen）——在历时10天、行程超过110万公里的旅程后安全回家。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.mos.cms.futurecdn.net/q5jGQE6Tdjs3nHjrJUpJEn-2560-80.jpg" alt="Artemis II Orion飞船溅落太平洋" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Orion飞船在太平洋溅落，美国海军USS John P. Murtha号随即展开回收（图源：Live Science/NASA）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这次任务创下多项纪录。4月6日，Orion飞船抵达距地球约40万公里处，打破了1970年Apollo 13保持的人类最远飞行距离纪录。飞船以约4万公里/小时的速度再入大气层，隔热罩表面温度飙升至约2,760°C——而这块隔热罩的前身在Artemis I无人飞行中曾出现裂纹，此次能否扛住一直是任务最大悬念之一。结果证明它表现完美，NASA称溅落精度为&lt;strong&gt;「正中靶心」&lt;/strong&gt;（bullseye landing）。飞船先后释放11个降落伞，将速度从超音速逐步降到约32公里/小时落水。&lt;/p&gt;
+
+&lt;p&gt;Artemis II也是自1975年美苏联合的Apollo-Soyuz任务以来，NASA首次由海军回收载人飞船。USS John P. Murtha号派出直升机将四名宇航员接回舰上。怀斯曼确认所有人身体状况良好。&lt;/p&gt;
+
+&lt;p&gt;任务期间，宇航员们从月球远侧拍摄了前所未见的"地落"（earthset）和日全食影像，并完成了Orion飞船各系统的载人环境测试。这些数据直接服务于下一步的&lt;strong&gt;Artemis III&lt;/strong&gt;——人类真正登陆月球表面的任务。&lt;/p&gt;
+
+&lt;p&gt;一个容易被忽略的细节：格洛弗是首位参与月球任务的非裔美国人，汉森是首位飞越月球的非美国人。Artemis计划从一开始就在有意识地让登月不再是"白人男性的专属故事"。&lt;/p&gt;
+
+&lt;p&gt;Artemis III目前计划在2028年实施，届时SpaceX的Starship将作为登月着陆器使用。但Starship自身的测试进度仍存在不确定性，这个时间表能否兑现是个开放问题。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.livescience.com/space/live/artemis-ii-returns-friday-april-10"&gt;https://www.livescience.com/space/live/artemis-ii-returns-friday-april-10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nasa.gov/mission/artemis-ii/"&gt;https://www.nasa.gov/mission/artemis-ii/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nasa.gov/blogs/missions/2026/04/09/artemis-ii-flight-day-9-crew-prepares-to-come-home/"&gt;https://www.nasa.gov/blogs/missions/2026/04/09/artemis-ii-flight-day-9-crew-prepares-to-come-home/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">dbee69a6-1248-532b-a0ad-bf56ba72e968</guid>
+      <pubDate>Sat, 11 Apr 2026 14:57:23 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.livescience.com/space/live/artemis-ii-returns-friday-april-10</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/q5jGQE6Tdjs3nHjrJUpJEn-2560-80.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 好奇心的多巴胺劫持——为什么「想知道」比「该知道」学得快十倍</title>
+      <description>&lt;h2&gt;一个关于记忆的实验&lt;/h2&gt;
+&lt;p&gt;加州大学戴维斯分校的 Matthias Gruber 做过一个精妙的实验：他让参与者评价一系列冷知识问题的好奇程度（「火星上的日落是什么颜色的？」），然后在揭晓答案的等待间隙，插入一张无关的人脸照片。结果发现：&lt;strong&gt;当人处于高好奇状态时，不仅目标知识记得更牢，连那张完全无关的人脸也记得更清楚。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;好奇心不只是帮你学得更好——它像是给整个记忆系统按下了「增强」按钮。&lt;/p&gt;
+
+&lt;h2&gt;背后的机制：多巴胺的「预习效应」&lt;/h2&gt;
+&lt;p&gt;fMRI 扫描揭示了原因。当好奇心被激发时，大脑的奖赏回路——尤其是&lt;strong&gt;腹侧被盖区（VTA）&lt;/strong&gt;和&lt;strong&gt;伏隔核（nucleus accumbens）&lt;/strong&gt;——会显著激活。这些区域释放的多巴胺不只是让你「感觉好」，它会顺着神经通路抵达&lt;strong&gt;海马体&lt;/strong&gt;，直接增强记忆编码和巩固过程。&lt;/p&gt;
+
+&lt;p&gt;Gruber 团队提出了 &lt;strong&gt;PACE 框架&lt;/strong&gt;（Prediction-Appraisal-Curiosity-Exploration）来解释这个过程：好奇心始于「信息缺口」的预测——你意识到自己不知道某个东西；然后是评估——这个缺口值得填补吗？一旦好奇心被点燃，多巴胺系统启动，注意力和探索行为全面升级，而此时编码进大脑的所有信息——不管是目标信息还是「路过」的信息——都会被增强记忆。&lt;/p&gt;
+
+&lt;h2&gt;「想知道」vs.「该知道」&lt;/h2&gt;
+&lt;p&gt;这解释了一个我们都有过的体验：&lt;strong&gt;被迫学习的东西总是记不住，而主动好奇的东西过目不忘&lt;/strong&gt;。原因不是意志力的差异，而是神经化学环境完全不同。「该知道」驱动的学习缺少多巴胺的助推，海马体处于「普通模式」；而「想知道」驱动的学习，海马体在多巴胺浴中工作，编码效率天差地别。&lt;/p&gt;
+
+&lt;p&gt;Ryan Holiday 在他今年出版的新书 &lt;em&gt;Wisdom Takes Work&lt;/em&gt; 中，从斯多葛哲学的角度也表达了类似洞见：真正的智慧来自持续的、主动的求知——不是被动地接受信息，而是带着问题去寻找。蒙田、塞内卡、林肯，这些智者的共同特征不是天赋，而是永不满足的好奇心。神经科学现在告诉我们，这种好奇心不只是一种性格特质，而是一种可以主动培养的大脑状态。&lt;/p&gt;
+
+&lt;h2&gt;如何「劫持」自己的好奇心&lt;/h2&gt;
+&lt;p&gt;既然好奇心是一种可训练的状态，那么在日常学习和工作中，你可以主动创造「信息缺口」来触发它：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;先问再学&lt;/strong&gt;：在阅读一篇文章或参加一个会议前，先写下三个你想从中得到答案的问题。这会预激活你的多巴胺回路。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;制造悬念&lt;/strong&gt;：把学习材料变成一个谜题。不要直接看答案，先猜测，错了也没关系——预测本身就是好奇心的触发器。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨界连接&lt;/strong&gt;：好奇心在新奇和熟悉的交界处最强烈。如果你是程序员，去读一本关于建筑设计的书；如果你学心理学，去看一个物理学科普视频。当大脑发现「这个领域的东西居然和我熟悉的领域有联系」时，多巴胺会猛烈释放。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;你的大脑天生就有一个强大的学习加速器——你只需要学会按下那个开关。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4252494/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC4252494/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S1364661319302384"&gt;https://www.sciencedirect.com/science/article/pii/S1364661319302384&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://store.dailystoic.com/pages/wisdom-takes-work"&gt;https://store.dailystoic.com/pages/wisdom-takes-work&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5f64976c-7050-5c71-95a9-591ac2b08d4e</guid>
+      <pubDate>Sat, 11 Apr 2026 14:57:27 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC4252494/</link>
+    </item>
+    <item>
+      <title>🎲 🎲 🎲 你的肌肉其实叫「小老鼠」：一场跨越三千年的命名误会</title>
+      <description>&lt;p&gt;下次你在健身房秀二头肌的时候，请记住：你炫耀的那块肌肉，名字的意思是「小老鼠」。&lt;/p&gt;&lt;p&gt;英语单词 muscle（肌肉）来自拉丁语 musculus，直译就是「小老鼠」——由 mūs（老鼠）加上指小后缀 -culus 构成。而拉丁语的这个用法又是从古希腊语直接借来的：希腊语 μῦς（mûs）同时表示「老鼠」和「肌肉」。也就是说，早在两三千年前，地中海沿岸的人们看着自己胳膊上隆起又放松的肌肉，脑子里浮现的画面是——一只小老鼠在皮肤底下跑。&lt;/p&gt;&lt;p&gt;这个比喻其实相当生动。你可以现在就试试：弯曲手臂，让二头肌收缩，然后盯着它看——那个在皮肤下滚动、鼓起又消退的轮廓，确实像一只圆滚滚的小鼠在地毯下面拱来拱去。古人没有解剖学教科书，但他们有敏锐的观察力和丰富的想象力。&lt;/p&gt;&lt;p&gt;但故事远不止于此。从 musculus 这个词出发，衍生出了一整个令人意想不到的语义家族。&lt;/p&gt;&lt;p&gt;首先是 mussel——贻贝（也就是我们常说的青口或淡菜）。这种双壳类软体动物的拉丁名也是 musculus，因为古罗马人觉得这种小贝壳的形状和颜色像极了一只蜷缩的小老鼠。所以，当你在餐厅点一盘白酒蒸青口（moules marinières）的时候，你点的其实也是「小老鼠」。&lt;/p&gt;&lt;p&gt;然后是最让人意外的一个：mouse（老鼠）这个英语词本身，和 muscle 以及 mussel 全部来自同一个印欧语根 *mūs-。这意味着在语言学的族谱上，你电脑桌上的鼠标（mouse）、你手臂上的肌肉（muscle）、和你盘子里的贻贝（mussel），是货真价实的三胞胎。&lt;/p&gt;&lt;p&gt;这种「一词多义」的现象在古代语言中并不罕见，学术上叫做语义扩展（semantic extension）。古人命名世界万物时，常常从已知的事物出发，用比喻和联想来给新概念贴标签。于是：肌肉像老鼠→叫它小老鼠；贝壳也像老鼠→也叫它小老鼠。日积月累之后，这些比喻固化成了独立的词汇，原始的联想反而被遗忘了。&lt;/p&gt;&lt;p&gt;类似的「动物命名法」在解剖学中俯拾皆是。你的大脑里有一个叫 hippocampus（海马体）的结构，hippo 是马，kampos 是海怪——因为它的形状像一只海马。你的耳朵里有一块叫 cochlea（耳蜗）的骨头，拉丁语意思是「蜗牛」。你的肩膀上趴着一块 trapezius（斜方肌），来自希腊语的「小桌子」，因为左右两块合在一起看起来像个梯形桌面。&lt;/p&gt;&lt;p&gt;但没有哪个例子比 musculus 更完美地展示了语言的魔力：一个简单的视觉比喻，在三千年的时间里分裂、演化、迁徙，最终在现代英语中以三个看似毫无关系的单词重新聚首——mouse, muscle, mussel。它们在词典里相隔万里，却是同一只小老鼠的后代。&lt;/p&gt;&lt;p&gt;所以下次当你一边吃着青口贝、一边用鼠标工作、一边揉着酸痛的二头肌时，请想起那只三千年前在某个古希腊人手臂皮肤下「奔跑」的小老鼠。它可能是人类语言史上最成功的一次跨界——从皮肤底下跑进了贝壳里，又从贝壳里跑上了你的书桌。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://altalang.com/beyond-words/etymology-of-muscle/"&gt;https://altalang.com/beyond-words/etymology-of-muscle/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.etymonline.com/word/muscle"&gt;https://www.etymonline.com/word/muscle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://wordhistories.net/2018/03/20/mouse-muscle-mussel/"&gt;https://wordhistories.net/2018/03/20/mouse-muscle-mussel/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">460eca8e-1a3f-5271-937e-33fe697bb3ed</guid>
+      <pubDate>Sat, 11 Apr 2026 15:00:17 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://altalang.com/beyond-words/etymology-of-muscle/</link>
+    </item>
+    <item>
+      <title>📰 📰 Anthropic的Mythos模型挖出27年老漏洞，美联储与财政部紧急召集华尔街CEO开会</title>
+      <description>&lt;p&gt;4月10日，美联储主席鲍威尔（Jerome Powell）和财政部长贝森特（Scott Bessent）把美国几大银行的CEO叫到了财政部——不是为了利率，不是为了监管，而是因为一个AI模型让他们睡不着觉。&lt;/p&gt;
+
+&lt;p&gt;这个模型叫&lt;strong&gt;Mythos&lt;/strong&gt;，来自Anthropic。它在网络安全领域展现出的能力让整个行业震动：Mythos自主发现了多个存在10到20年的软件漏洞，其中包括一个OpenBSD中潜伏了27年的安全缺陷——OpenBSD是公认最安全的操作系统之一，全球无数安全研究员审计了几十年都没找到这个洞。除此之外，Mythos还发现了主流操作系统和浏览器中的未知漏洞。&lt;/p&gt;
+
+&lt;p&gt;出席会议的包括美国银行CEO莫伊尼汉（Brian Moynihan）、花旗集团的弗雷泽（Jane Fraser）、高盛的所罗门（David Solomon）、摩根士丹利的皮克（Ted Pick）和富国银行的沙尔夫（Charlie Scharf）。摩根大通的戴蒙（Jamie Dimon）未能到场。财政部发言人表示，会议目的是"针对AI快速发展启动协调应对机制"，后续还将定期召集类似会议。&lt;/p&gt;
+
+&lt;p&gt;Anthropic自己也知道Mythos的危险性。公司明确表示不会广泛发布这个模型，而是发起了名为&lt;strong&gt;Project Glasswing&lt;/strong&gt;的合作项目，拉上了亚马逊、苹果、英伟达等巨头，用Mythos来主动加固网络安全防线而非让它流入攻击者手中。Anthropic还将Mythos的预览版访问权限扩展给了40个关键软件基础设施组织，并承诺投入最高1亿美元的使用额度。&lt;/p&gt;
+
+&lt;p&gt;这件事的深层含义比表面更令人不安。传统网络安全依赖"人比漏洞多"的假设——漏洞是有限的，而安全研究员在持续寻找。Mythos打破了这个平衡：如果一个AI能在几天内找到人类几十年没发现的漏洞，那同等能力落入对手手里意味着什么？这不是理论推演，是已经发生的事实。鲍威尔和贝森特的紧急反应说明，金融监管层已经意识到AI网络安全能力的跃升不是"未来问题"，而是"现在问题"。&lt;/p&gt;
+
+&lt;p&gt;接下来关注：Anthropic是否会公布Mythos发现的具体漏洞列表（responsible disclosure流程通常需要90天），以及Project Glasswing的第一批安全审计结果何时公开。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/10/bessent-powell-anthropic-mythos-ai-model-cyber-risk/"&gt;https://fortune.com/2026/04/10/bessent-powell-anthropic-mythos-ai-model-cyber-risk/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html"&gt;https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-10/mythos-why-anthropic-s-new-ai-has-officials-worried"&gt;https://www.bloomberg.com/news/articles/2026-04-10/mythos-why-anthropic-s-new-ai-has-officials-worried&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">276399a6-385d-5478-a039-c49795b8fe5c</guid>
+      <pubDate>Sat, 11 Apr 2026 15:01:56 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://fortune.com/2026/04/10/bessent-powell-anthropic-mythos-ai-model-cyber-risk/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2266397512-e1775840951498.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 特朗普重构金属关税体系：钢铝铜制品最高50%，电网设备暂享15%优惠</title>
+      <description>&lt;p&gt;特朗普4月2日签署公告，对进口钢铁、铝和铜产品的关税结构做了一次系统性重整。4月6日起，新规已生效。核心变化是建立了一套&lt;strong&gt;分级税率体系&lt;/strong&gt;，取代此前相对粗放的"一刀切"模式。&lt;/p&gt;
+
+&lt;p&gt;新税率结构如下：完全或几乎完全由钢、铝、铜制成的产品（如钢卷、铝板），按全额价值征收50%关税；以这三种金属为主要成分的衍生品，征收25%；特定金属密集型工业设备和电网设备享受15%的优惠税率，有效期至2027年，理由是支持美国正在进行的大规模工业基础建设；使用美国产钢铝铜但在海外制造的产品，税率降至10%；而钢铝铜含量低于15%的产品，则完全豁免232条款关税。&lt;/p&gt;
+
+&lt;p&gt;这套分级体系本身有一定逻辑——比之前更精细，也照顾到了美国制造业对关键设备的进口依赖。电网设备的15%优惠就是一个例子：美国正面临大规模电网升级需求（AI数据中心的用电狂飙是原因之一），完全按50%征税会让升级成本飙升。&lt;/p&gt;
+
+&lt;p&gt;但背景不能忽视。这只是特朗普关税体系的最新一块拼图。2025年6月，钢铝税率已从25%提至50%；7月，铜被首次纳入232条款；2月，最高法院裁定总统不能用IEEPA（《国际紧急经济权力法》）征收关税后，白宫转而动用1974年《贸易法》第122条维持10%的临时普遍附加关税——这个条款有150天的日落期限，除非国会续期。&lt;/p&gt;
+
+&lt;p&gt;现实影响已经在显现。以建筑行业为例，钢材是最大的成本项之一，50%的关税直接推高了从桥梁到住宅的造价。供应链行业报告称，企业正在加速囤积金属库存以规避进一步加税的风险，这本身又推高了短期价格。与此同时，5月的特朗普访华行程已经提上日程（此前已报道），中美贸易谈判是否会将金属关税纳入议题，是市场关注的焦点。&lt;/p&gt;
+
+&lt;p&gt;一个值得记住的日期：IEEPA替代方案的150天期限大约在7月中旬到期。届时如果国会不采取行动，10%的普遍附加关税将自动失效——这是目前整套关税体系中最大的法律悬崖。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-strengthens-tariffs-on-steel-aluminum-and-copper-imports/"&gt;https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-strengthens-tariffs-on-steel-aluminum-and-copper-imports/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-02/trump-revamps-steel-aluminum-copper-tariffs-but-keeps-50-rate"&gt;https://www.bloomberg.com/news/articles/2026-04-02/trump-revamps-steel-aluminum-copper-tariffs-but-keeps-50-rate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.supplychaindive.com/news/trump-steel-aluminum-copper-tariff-adjustments/816547/"&gt;https://www.supplychaindive.com/news/trump-steel-aluminum-copper-tariff-adjustments/816547/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">460444d8-3fb2-506f-ad0a-cae9a145b3b6</guid>
+      <pubDate>Sat, 11 Apr 2026 15:02:29 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-strengthens-tariffs-on-steel-aluminum-and-copper-imports/</link>
+      <enclosure url="https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 🎲 一个数学期望值无穷大的赌博游戏，为什么没人愿意花大钱玩？</title>
+      <description>&lt;p&gt;1713年，数学家尼古拉·伯努利（Nicolas Bernoulli）在给朋友的信中描述了一个看似简单的赌博游戏。三百多年后的今天，这个游戏仍然让数学家、经济学家和哲学家争论不休。它就是圣彼得堡悖论（St. Petersburg Paradox）——可能是人类理性与直觉冲突最剧烈的一道数学谜题。&lt;/p&gt;&lt;p&gt;游戏规则简单到令人发笑：赌场不断抛一枚公平硬币。第一次正面朝上，你赢2块钱；如果第一次反面，继续抛，第二次正面朝上赢4块；还是反面，继续抛，第三次正面赢8块……每多一次反面，奖金翻倍。出现正面时游戏结束，你拿走累积的奖金。&lt;/p&gt;&lt;p&gt;问题来了：你愿意花多少钱买一次玩这个游戏的机会？&lt;/p&gt;&lt;p&gt;大多数人的直觉回答是：几块钱，最多十几二十块吧。毕竟大概率你翻不了几次就正面了——有50%的概率你只赢2块，75%的概率你赢不到8块。这游戏看起来不怎么划算。&lt;/p&gt;&lt;p&gt;但数学告诉你一个完全不同的故事。让我们算一下这个游戏的数学期望值（也就是平均能赢多少）：第一次正面的概率是1/2，赢2元，贡献的期望值是1元；第二次正面的概率是1/4，赢4元，贡献也是1元；第三次正面的概率是1/8，赢8元，贡献还是1元……每一轮的期望贡献都是1元，而轮次可以无限延续。所以总期望值是 1 + 1 + 1 + 1 + …… = 无穷大。&lt;/p&gt;&lt;p&gt;没错，这个游戏的数学期望值是无穷大。按照经典概率论，一个「理性人」应该愿意用任何价格来买这个游戏的入场券——一百万、一个亿、乃至倾家荡产都值得，因为期望收益是无限的。&lt;/p&gt;&lt;p&gt;但这显然荒谬。&lt;/p&gt;&lt;p&gt;尼古拉·伯努利的表弟丹尼尔·伯努利（Daniel Bernoulli）在1738年发表了对这个问题的经典回应（发表在圣彼得堡的帝国科学院论文集上，悖论因此得名）。他写道：「一个相当理性的人会把自己的机会卖掉，哪怕只卖20个达克特金币。」&lt;/p&gt;&lt;p&gt;丹尼尔的核心洞见是：人们在乎的不是金钱本身，而是金钱带来的「效用」（utility）。你已经有100万的时候，再多赚100万的快乐，远远不如你从0赚到第一个100万。他提出用对数函数来衡量效用——这意味着奖金虽然指数增长，但它带来的实际满足感增长得越来越慢，两者相消之后，你愿意支付的价格变成了一个有限的数字。&lt;/p&gt;&lt;p&gt;这个看似无聊的数学游戏，催生了一场深刻的思想革命。丹尼尔·伯努利的效用函数概念直接催生了现代经济学中的「预期效用理论」——它是金融学、保险精算、行为经济学的基石之一。三百年后，你买保险、做投资、甚至选择职业时的决策模型，都能追溯到这个虚构赌局引发的争论。&lt;/p&gt;&lt;p&gt;但争论并未结束。有些数学家指出，如果你把效用函数换一种形式，悖论又会复活。还有人从赌场资源有限的角度入手——现实中没有赌场拥有无限资金，如果赌场家底是10亿，那你的期望值也就大约30块钱。又有人援引「遍历性」理论，指出期望值只描述了无限次平行游戏的平均结果，而你只活一辈子，只能玩一次——这时候你该关注的不是期望值，而是最可能发生的结果。&lt;/p&gt;&lt;p&gt;圣彼得堡悖论的魔力在于：它表面上是一道概率题，实质上却在追问——什么是理性？什么是价值？数学上的最优解，在真实人生中是否仍然最优？三百年过去了，我们仍然没有一个让所有人满意的答案。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/St._Petersburg_paradox"&gt;https://en.wikipedia.org/wiki/St._Petersburg_paradox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://plato.stanford.edu/entries/paradox-stpetersburg/"&gt;https://plato.stanford.edu/entries/paradox-stpetersburg/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fb9007cd-ad2c-5e0f-8469-51a1f18b94cb</guid>
+      <pubDate>Sat, 11 Apr 2026 15:51:27 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/St._Petersburg_paradox</link>
+    </item>
+    <item>
+      <title>🎲 🎲 🎲 日本有一门正经学问，专门发明「没有用的东西」：珍道具的十条戒律</title>
+      <description>&lt;p&gt;在一个痴迷效率和实用主义的世界里，有一个日本人用了三十年时间，正正经经地发明了几百件完全没有用的东西——而且还为此制定了严格的规章制度。&lt;/p&gt;&lt;p&gt;他叫川上贤司（Kenji Kawakami），曾是日本邮购杂志《通信生活》的编辑。1990年代，他创造了「珍道具」（Chindōgu）这个概念：珍（珍しい）是奇特、罕见的意思，道具就是工具。合在一起，珍道具指的是那些乍一看像是解决了某个日常问题、但实际上制造了更多问题的发明。&lt;/p&gt;&lt;p&gt;举几个经典例子：给鞋子装的迷你雨伞，让你的鞋面在雨天保持干燥（但你自己会被淋湿）；戴在头上的卫生纸架，感冒时随时可以扯纸擦鼻涕（但你会看起来像个移动纸巾盒）；带有小风扇的筷子，用来吹凉刚夹起的面条（但面可能会被吹飞）；鞋底拖把，走路的时候顺便拖地（但你会像在溜冰场上滑行）。&lt;/p&gt;&lt;p&gt;如果你以为这只是普通的搞笑发明，那你就低估了川上贤司的严肃程度。他和合作伙伴Dan Papia在1995年成立了「国际珍道具协会」（International Chindogu Society），并制定了严格的「珍道具十条戒律」。没错，十条，像摩西十诫一样庄严：&lt;/p&gt;&lt;p&gt;第一条：珍道具不能真的好用。如果你发现自己开始日常使用自己的发明，那恭喜你，你失败了。&lt;/p&gt;&lt;p&gt;第二条：珍道具必须实际存在。光靠纸上谈兵不算数，你必须把它真的做出来。&lt;/p&gt;&lt;p&gt;第三条：珍道具必须包含无政府主义精神。它应该挑战传统实用主义的思维定势。&lt;/p&gt;&lt;p&gt;第四条：珍道具是为日常生活服务的。它必须是解决某种真实存在的小烦恼——只不过解决方案比烦恼本身更烦人。&lt;/p&gt;&lt;p&gt;第五条：珍道具不能出售。一旦你靠它赚钱，它就不再是珍道具，而是商品了。&lt;/p&gt;&lt;p&gt;第六条：珍道具的核心动力是幽默，不是苦恼。&lt;/p&gt;&lt;p&gt;第七条：珍道具不是宣传工具。不能拿它来传播某种意识形态或政治观点。&lt;/p&gt;&lt;p&gt;第八条：珍道具不能粗俗低级。&lt;/p&gt;&lt;p&gt;第九条：珍道具不能被申请专利。它属于全人类。&lt;/p&gt;&lt;p&gt;第十条：珍道具不分国籍、年龄、性别。人人平等。&lt;/p&gt;&lt;p&gt;你发现了吗？这些规则设计得异常精妙。它们划定了一个极其狭窄的创意空间：你的发明必须足够巧妙让人觉得「这好像有道理」，又必须足够荒诞让人觉得「但我绝对不会用」；它必须是物质的而非概念的；它不能赚钱也不能申请专利；它必须有趣但不能下流。在「有用」和「无用」之间，珍道具精准地站在那条最微妙的分界线上。&lt;/p&gt;&lt;p&gt;川上贤司出版了两本专著——《101件「没没用」的日本发明》和《再来99件》，在全球卖出了数百万册，被翻译成几十种语言。「珍道具」这个概念甚至被收入了英语词典。他本人也成为了一种独特哲学的代言人：在一个什么都要求「有用」的时代，用不计成本的想象力去创造一些精心设计的无用之物——这本身就是对过度功利主义最优雅的反叛。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Chind%C5%8Dgu"&gt;https://en.wikipedia.org/wiki/Chind%C5%8Dgu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tofugu.com/japan/chindogu-japanese-inventions/"&gt;https://www.tofugu.com/japan/chindogu-japanese-inventions/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3a87be66-eb47-5a2d-afbe-42ab255e460c</guid>
+      <pubDate>Sat, 11 Apr 2026 15:52:09 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Chind%C5%8Dgu</link>
+    </item>
+    <item>
+      <title>🎨 Figma’s 2026 Bet: Make Kits, Live Code Sync, and the End of Design Handoff</title>
+      <description>&lt;p&gt;Figma's spring 2026 updates aren't incremental polish — they represent a fundamental rearchitecting of where design ends and development begins. Three features, shipped in rapid succession, signal that Figma sees its future not as a design tool that exports to code, but as a shared workspace where design &lt;em&gt;is&lt;/em&gt; code.&lt;/p&gt;
+
+&lt;h3&gt;Make Kits: Your Design System Becomes the AI's Design System&lt;/h3&gt;
+&lt;p&gt;Launched April 2, Make kits let teams import npm packages, private code libraries, and Figma library tokens directly into &lt;strong&gt;Figma Make&lt;/strong&gt; — the AI prototyping engine. Instead of Make generating generic components that approximate your brand, it now builds from your actual design system. The result: AI-generated prototypes that use your real buttons, your spacing tokens, your type scale. Make attachments complement this by accepting PDFs, CSVs, markdown specs, and brand guidelines as context, so prototypes reflect real data and constraints rather than lorem ipsum.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/46a7847a50fdd146ca14f0f9c61eb685c3baf980-2880x1800.png" alt="Figma Make kits interface showing design system integration" /&gt;
+&lt;figcaption&gt;Make kits allow teams to bring code packages and design tokens into Figma Make, ensuring AI-generated prototypes use real components. (Source: Figma Blog)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Git-Connected Files: Design History Meets Commit History&lt;/h3&gt;
+&lt;p&gt;Designers can now branch, commit, and merge Figma files directly to GitHub and GitLab repositories. Version history links to commit hashes. Pull requests show visual diffs alongside code diffs. This isn't a plugin — it's a first-party integration that treats design files as first-class citizens in version control. For teams practicing trunk-based development, this means design and code changes can be reviewed, approved, and shipped in the same PR.&lt;/p&gt;
+
+&lt;h3&gt;Live Code Sync: Bidirectional, Not One-Way&lt;/h3&gt;
+&lt;p&gt;The most ambitious addition is &lt;strong&gt;Live Code Sync&lt;/strong&gt; (currently in beta): bidirectional synchronization between Figma components and React codebases. Change a button's border-radius in Figma, and a PR updates in your repo. Change it in code, and the Figma component reflects the update. The promise is that there's no longer a "source of truth" question — both environments &lt;em&gt;are&lt;/em&gt; the source of truth, kept in sync automatically.&lt;/p&gt;
+
+&lt;h3&gt;The Real Impact — and the Learning Curve&lt;/h3&gt;
+&lt;p&gt;Early adopters report a 3–4 day learning curve before basic workflows stabilize, particularly for designers unfamiliar with Git concepts like branching and merge conflicts. But once past that hump, teams describe a shift from "handoff" to genuine collaboration — designers and developers working on the same artifact rather than passing artifacts between tools.&lt;/p&gt;
+&lt;p&gt;The strategic implication is clear: Figma is positioning itself as infrastructure, not just a canvas. If your design system lives in Figma and your code lives in Git, Figma wants to be the bridge — and it's betting that AI-powered generation (Make) plus bidirectional sync will make that bridge load-bearing.&lt;/p&gt;
+
+&lt;h3&gt;Takeaway&lt;/h3&gt;
+&lt;p&gt;If your team still treats Figma as "where designs live before developers rebuild them," these updates demand a rethink. The investment in Git literacy for designers — and design literacy for developers — is about to pay compound returns.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;h3&gt;中文翻译&lt;/h3&gt;
+
+&lt;p&gt;Figma 2026 年春季更新不是渐进式改良——而是从根本上重新定义了设计与开发的边界。三项功能的快速迭代表明，Figma 的未来定位不是一个「导出代码的设计工具」，而是一个设计&lt;em&gt;本身就是&lt;/em&gt;代码的共享工作空间。&lt;/p&gt;
+
+&lt;h3&gt;Make Kits：你的设计系统就是 AI 的设计系统&lt;/h3&gt;
+&lt;p&gt;4 月 2 日上线的 Make kits 允许团队将 npm 包、私有代码库和 Figma token 直接导入 &lt;strong&gt;Figma Make&lt;/strong&gt;（AI 原型引擎）。AI 生成的原型不再是通用组件的近似品，而是直接使用你真实的按钮、间距 token 和字体比例。Make attachments 还支持 PDF、CSV、Markdown 规范和品牌指南作为上下文输入，让原型反映真实数据而非占位内容。&lt;/p&gt;
+
+&lt;h3&gt;Git 连接文件：设计历史融入提交历史&lt;/h3&gt;
+&lt;p&gt;设计师现在可以直接在 GitHub 和 GitLab 中对 Figma 文件进行分支、提交和合并。版本历史与 commit hash 关联，Pull Request 同时展示视觉差异和代码差异。对于实践主干开发的团队，这意味着设计和代码变更可以在同一个 PR 中审核和发布。&lt;/p&gt;
+
+&lt;h3&gt;实时代码同步：双向而非单向&lt;/h3&gt;
+&lt;p&gt;最大胆的功能是 &lt;strong&gt;Live Code Sync&lt;/strong&gt;（测试版）：Figma 组件与 React 代码库的双向同步。在 Figma 中修改按钮圆角，代码仓库自动创建 PR；在代码中修改，Figma 组件自动更新。不再有「谁是唯一真实来源」的问题——两个环境都是真实来源。&lt;/p&gt;
+
+&lt;h3&gt;实际影响与学习曲线&lt;/h3&gt;
+&lt;p&gt;早期用户反馈需要 3-4 天适应期，尤其是对 Git 概念不熟悉的设计师。但度过磨合期后，团队描述这是从「交接」到真正协作的转变——设计师和开发者在同一个产物上工作。&lt;/p&gt;
+&lt;p&gt;如果你的团队仍然把 Figma 当作「开发者重新构建前的设计存放处」，这些更新要求你重新思考工作流。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/blog/introducing-make-kits-and-make-attachments/"&gt;https://www.figma.com/blog/introducing-make-kits-and-make-attachments/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8"&gt;https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/release-notes/"&gt;https://www.figma.com/release-notes/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2e5b089a-fb92-56f1-baf8-ab3df5eda591</guid>
+      <pubDate>Sat, 11 Apr 2026 15:52:43 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.figma.com/blog/introducing-make-kits-and-make-attachments/</link>
+      <enclosure url="https://cdn.sanity.io/images/599r6htc/regionalized/ae04571ad7f540060adede62d79d51ac22fcc3b6-3264x1836.png?w=1200&amp;amp;q=70&amp;amp;fit=max&amp;amp;auto=format" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 The April 2026 Accessibility Reckoning: WCAG 2.1 AA Becomes Law</title>
+      <description>&lt;p&gt;On April 24, 2026, the U.S. Department of Justice's ADA Title II rule takes full effect, establishing &lt;strong&gt;WCAG 2.1 Level AA&lt;/strong&gt; as the legal standard for all state and local government digital services. Across the Atlantic, the European Accessibility Act (EAA) enforcement is already underway for new products and services. For product designers, this isn't a distant compliance checkbox — it's a forcing function that is reshaping how teams build.&lt;/p&gt;
+
+&lt;h3&gt;What's Actually Changing&lt;/h3&gt;
+&lt;p&gt;The ADA Title II rule doesn't just cover primary websites. It applies to every digital touchpoint: mobile apps, PDFs, third-party platforms embedded in government services, emergency alerts, and voter information portals. Organizations must ensure all digital content meets four principles — perceivable, operable, understandable, and robust — across their &lt;em&gt;entire&lt;/em&gt; digital footprint.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, accessibility regulations are tightening globally. Australia, Canada, India, and Brazil are all strengthening their accessibility and data-protection requirements. The trend is unmistakable: accessibility is moving from voluntary best practice to legal baseline.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="W3C Web Accessibility Initiative standards overview showing WCAG, ATAG, and UAAG" /&gt;
+&lt;figcaption&gt;The W3C WAI standards stack: WCAG 2.1 Level AA is now the legal benchmark under ADA Title II, covering perceivability, operability, understandability, and robustness. (Source: W3C WAI)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Why Overlays Don't Count&lt;/h3&gt;
+&lt;p&gt;One critical detail from the compliance guidance: &lt;strong&gt;accessibility overlay solutions do not constitute meaningful compliance&lt;/strong&gt;. Studies consistently show that overlays — JavaScript widgets that promise to "fix" accessibility after the fact — fail to address underlying structural issues. Screen readers still can't parse a poorly-structured document just because an overlay added some ARIA labels on top. The DOJ guidance explicitly points teams toward building accessibility into the development process rather than bolting it on.&lt;/p&gt;
+
+&lt;h3&gt;The Design Team Impact&lt;/h3&gt;
+&lt;p&gt;For product teams, the practical implications are significant:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Audit everything&lt;/strong&gt;: comprehensive accessibility audits across all digital properties, not just the homepage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift left&lt;/strong&gt;: bake accessibility checks into design reviews and CI pipelines, not QA at the end&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Train content creators&lt;/strong&gt;: designers, writers, and marketers all need to understand alt text, heading structure, color contrast, and focus management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Budget for remediation&lt;/strong&gt;: legacy PDFs, embedded third-party widgets, and video content all need attention&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;The Competitive Angle&lt;/h3&gt;
+&lt;p&gt;Level Access's 2025-2026 State of Digital Accessibility Report found that &lt;strong&gt;89% of professionals&lt;/strong&gt; now consider digital accessibility a competitive advantage, not just a compliance cost. Organizations that treat accessibility as a design constraint — like responsive design or performance budgets — rather than an afterthought consistently report better usability metrics across &lt;em&gt;all&lt;/em&gt; users, not just those with disabilities.&lt;/p&gt;
+
+&lt;h3&gt;Takeaway&lt;/h3&gt;
+&lt;p&gt;If your team hasn't audited against WCAG 2.1 AA yet, the April 24 deadline is two weeks away. But beyond the deadline, the larger shift is clear: designing for accessibility is becoming as fundamental as designing for mobile. Teams that internalize this now will build better products for everyone.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;h3&gt;中文翻译&lt;/h3&gt;
+
+&lt;p&gt;2026 年 4 月 24 日，美国司法部 ADA Title II 规则正式生效，确立 &lt;strong&gt;WCAG 2.1 Level AA&lt;/strong&gt; 为所有州和地方政府数字服务的法定标准。在大西洋对岸，欧洲无障碍法案（EAA）的执行已经在新产品和服务上全面展开。对于产品设计师来说，这不是遥远的合规清单——而是正在重塑团队构建方式的强制推力。&lt;/p&gt;
+
+&lt;h3&gt;到底在改变什么&lt;/h3&gt;
+&lt;p&gt;ADA Title II 不仅覆盖主网站，而是适用于每个数字触点：移动应用、PDF、嵌入政府服务的第三方平台、紧急警报和选民信息门户。所有数字内容必须满足四项原则——可感知、可操作、可理解、健壮——覆盖&lt;em&gt;整个&lt;/em&gt;数字足迹。&lt;/p&gt;
+&lt;p&gt;与此同时，澳大利亚、加拿大、印度和巴西都在加强各自的无障碍和数据保护要求。趋势清晰：无障碍正从自愿最佳实践走向法律底线。&lt;/p&gt;
+
+&lt;h3&gt;为什么覆盖层方案不管用&lt;/h3&gt;
+&lt;p&gt;合规指导明确指出：&lt;strong&gt;无障碍覆盖层解决方案不构成有意义的合规&lt;/strong&gt;。研究反复表明，这些 JavaScript 小部件无法解决底层结构性问题。司法部指导团队将无障碍融入开发流程，而非事后补救。&lt;/p&gt;
+
+&lt;h3&gt;对设计团队的影响&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面审计&lt;/strong&gt;：覆盖所有数字资产，而非仅主页&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;左移策略&lt;/strong&gt;：将无障碍检查纳入设计评审和 CI 流水线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;培训内容创作者&lt;/strong&gt;：设计师、撰稿人和营销人员都需要理解 alt 文本、标题结构、颜色对比和焦点管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;预算修复&lt;/strong&gt;：遗留 PDF、嵌入式第三方组件和视频内容都需要处理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;竞争优势&lt;/h3&gt;
+&lt;p&gt;Level Access 的报告发现 &lt;strong&gt;89% 的专业人士&lt;/strong&gt;认为数字无障碍是竞争优势。将无障碍作为设计约束（如响应式设计或性能预算）而非事后补救的组织，在&lt;em&gt;所有&lt;/em&gt;用户群中都报告了更好的可用性指标。&lt;/p&gt;
+&lt;p&gt;如果你的团队还没有对照 WCAG 2.1 AA 进行审计，4 月 24 日截止期仅剩两周。但更大的趋势已经明确：为无障碍而设计，正变得和为移动端设计一样基本。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.govwebworks.com/2026/02/19/accessibility-for-april-2026-and-beyond/"&gt;https://www.govwebworks.com/2026/02/19/accessibility-for-april-2026-and-beyond/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.levelaccess.com/blog/three-insights-that-will-shape-accessibility-strategy-in-2026/"&gt;https://www.levelaccess.com/blog/three-insights-that-will-shape-accessibility-strategy-in-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.904.technology/posts/web-accessibility-in-2026-best-practices-for-inclusive-design"&gt;https://www.904.technology/posts/web-accessibility-in-2026-best-practices-for-inclusive-design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e558b3f7-9899-5192-bdff-a9508fef53a3</guid>
+      <pubDate>Sat, 11 Apr 2026 15:52:44 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.govwebworks.com/2026/02/19/accessibility-for-april-2026-and-beyond/</link>
+      <enclosure url="https://www.govwebworks.com/wp-content/uploads/2026/02/accessibility-april-2026.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 NNGroup’s State of UX 2026: Why Surface-Level Design Is Now Replaceable</title>
+      <description>&lt;p&gt;The Nielsen Norman Group's annual &lt;em&gt;State of UX&lt;/em&gt; report has long been a bellwether for where the industry is heading. The 2026 edition carries a blunt thesis: &lt;strong&gt;if you're just assembling components from a design system, you're already replaceable by AI.&lt;/strong&gt; The report argues that surface-level UI work has been commoditized, and the designers who thrive will be those who go deeper.&lt;/p&gt;
+
+&lt;h3&gt;The Commoditization Problem&lt;/h3&gt;
+&lt;p&gt;Design systems did what they promised — they made consistent UI cheaper and faster to produce. But NNGroup argues this success created a trap. When every product uses the same Material or platform-native components, when spacing and typography follow the same 8px grid, the visible layer of design becomes interchangeable. Add AI tools like Figma Make, Vercel's v0, or Bolt that can generate production-ready UI from a prompt, and the economics shift dramatically: what used to take a designer a week now takes an AI thirty seconds.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="https://media.nngroup.com/media/editor/2025/12/09/state-of-ux-2026-cover.png" alt="NNGroup State of UX 2026 report cover" /&gt;
+&lt;figcaption&gt;NNGroup's State of UX 2026 report warns that surface-level UI design is being commoditized by design systems and AI tools. (Source: Nielsen Norman Group)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Post-Hype AI: From Excitement to Fatigue&lt;/h3&gt;
+&lt;p&gt;The report identifies a new phase it calls "post-hype AI." While AI genuinely improved coding and search workflows, the broader landscape is littered with what NNGroup terms &lt;strong&gt;"lazy AI features and AI slop"&lt;/strong&gt; — superficial integrations added to check a box rather than solve a user problem. The sparkle icon (✨) has become a warning sign rather than a selling point. User fatigue is real, and it's creating a trust deficit that well-designed AI features must now overcome.&lt;/p&gt;
+
+&lt;p&gt;The design challenge isn't "how do we add AI?" but "how do we build trust?" NNGroup emphasizes four fundamentals for AI-powered experiences: &lt;strong&gt;transparency&lt;/strong&gt; (show what the system did and why), &lt;strong&gt;control&lt;/strong&gt; (let users override and correct), &lt;strong&gt;consistency&lt;/strong&gt; (predictable behavior builds confidence), and &lt;strong&gt;graceful failure&lt;/strong&gt; (support users when the system gets it wrong).&lt;/p&gt;
+
+&lt;h3&gt;The Job Market Reality&lt;/h3&gt;
+&lt;p&gt;The UX job market is stabilizing after the 2023-2024 layoffs, but recovery is uneven. Senior and generalist roles are bouncing back; entry-level positions remain scarce. The report notes that employers are compressing responsibilities — expecting designers to handle research, strategy, and execution simultaneously. Narrow specialists face headwinds; adaptable generalists with strategic thinking skills are in demand.&lt;/p&gt;
+
+&lt;h3&gt;What "Design Deeper" Actually Means&lt;/h3&gt;
+&lt;p&gt;NNGroup's prescription is specific. "Design deeper" means:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Research capabilities&lt;/strong&gt;: understanding users through direct observation, not just analytics dashboards&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategic thinking&lt;/strong&gt;: framing problems before jumping to solutions — moving beyond what they call "design theater"&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systems thinking&lt;/strong&gt;: understanding how your product connects to business goals, technical constraints, and organizational dynamics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Judgment about tools&lt;/strong&gt;: knowing when AI accelerates your work and when it produces confident-looking garbage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Takeaway&lt;/h3&gt;
+&lt;p&gt;The report's core message resonates: the value of design is shifting from the artifact (the UI) to the judgment behind it (the decisions about what to build and why). If your daily work is primarily arranging components on a canvas, 2026 is the year to expand your toolkit — toward research, strategy, and the kind of contextual thinking that no AI can replicate yet.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;h3&gt;中文翻译&lt;/h3&gt;
+
+&lt;p&gt;尼尔森诺曼集团年度《UX 现状》报告一直是行业风向标。2026 年版本带来一个直白的论点：&lt;strong&gt;如果你只是在拼装设计系统中的组件，AI 已经可以替代你了。&lt;/strong&gt;报告认为表层 UI 工作已被商品化，真正能脱颖而出的设计师是那些深入本质的人。&lt;/p&gt;
+
+&lt;h3&gt;商品化困境&lt;/h3&gt;
+&lt;p&gt;设计系统兑现了承诺——让一致的 UI 更便宜、更快。但 NNGroup 指出这个成功制造了陷阱。当每个产品使用相同的 Material 组件，遵循同样的 8px 网格，设计的可见层变得可互换。再加上 Figma Make、v0 等 AI 工具能在 30 秒内从提示词生成生产就绪的 UI，经济模型发生了剧变。&lt;/p&gt;
+
+&lt;h3&gt;后炒作时代的 AI：从兴奋到疲劳&lt;/h3&gt;
+&lt;p&gt;报告识别出「后炒作 AI」阶段。虽然 AI 确实改善了编程和搜索工作流，但整体环境充斥着 NNGroup 所称的&lt;strong&gt;「懒惰 AI 功能和 AI 垃圾」&lt;/strong&gt;——为打勾而非解决用户问题的表面整合。用户疲劳是真实的，正在制造信任赤字。&lt;/p&gt;
+&lt;p&gt;设计挑战不是「如何添加 AI」，而是「如何建立信任」。NNGroup 强调 AI 体验的四个基本面：&lt;strong&gt;透明度&lt;/strong&gt;、&lt;strong&gt;控制权&lt;/strong&gt;、&lt;strong&gt;一致性&lt;/strong&gt;和&lt;strong&gt;优雅降级&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h3&gt;就业市场现实&lt;/h3&gt;
+&lt;p&gt;UX 就业市场在 2023-2024 裁员后正在稳定，但复苏不均。高级和通才角色回弹较快；入门级职位仍然稀缺。雇主正在压缩职责——期望设计师同时处理研究、策略和执行。&lt;/p&gt;
+
+&lt;h3&gt;「设计更深」的具体含义&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;研究能力&lt;/strong&gt;：通过直接观察理解用户，而非仅依赖分析仪表板&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;战略思维&lt;/strong&gt;：在跳入解决方案前定义问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;系统思维&lt;/strong&gt;：理解产品如何连接商业目标、技术约束和组织动态&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具判断力&lt;/strong&gt;：知道 AI 何时加速工作、何时产出「看起来自信的垃圾」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;报告的核心信息很有共鸣：设计的价值正从产出物（UI）转向背后的判断力（关于构建什么、为什么构建的决策）。如果你的日常工作主要是在画布上排列组件，2026 年是扩展工具箱的时候——向研究、策略和 AI 尚无法复制的情境思维拓展。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/state-of-ux-2026/"&gt;https://www.nngroup.com/articles/state-of-ux-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d"&gt;https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/resource-library/ai-tools-for-ux-designers/"&gt;https://www.figma.com/resource-library/ai-tools-for-ux-designers/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">effb308e-00ba-51c3-ae82-0565b477ad3c</guid>
+      <pubDate>Sat, 11 Apr 2026 15:52:46 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.nngroup.com/articles/state-of-ux-2026/</link>
+      <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_aKYqHSg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 美伊伊斯兰堡谈判启动，停火脆弱，黎巴嫩与核问题成双重雷区</title>
+      <description>&lt;p&gt;伊朗议长加利巴夫与外长阿拉格齐率代表团4月11日抵达伊斯兰堡，与美国代表展开45年来首次直接面对面谈判。这距离特朗普4月8日宣布接受巴基斯坦斡旋方案、达成两周临时停火协议仅过去三天。停火的核心交换：伊朗立即重开霍尔木兹海峡，美国暂停一切军事打击行动。&lt;/p&gt;&lt;p&gt;这场冲突已持续逾40天。以色列先后打击德黑兰电力设施、设拉子、卡拉季、库姆等伊朗核心目标，霍尔木兹海峡商业通航一度降至个位数，布伦特原油曾突破116美元每桶。胡塞武装3月底宣布参战，向以色列发射弹道导弹。停火生效后，霍尔木兹重新开放，油价回落至约100美元区间。&lt;/p&gt;&lt;p&gt;但停火协议本身已出现三条裂缝。&lt;strong&gt;第一，黎巴嫩归属争议：&lt;/strong&gt;巴基斯坦总理谢里夫宣称停火覆盖黎巴嫩，但以色列总理内塔尼亚胡明确表态黎巴嫩不在停火范围内，以军4月10日仍在纳巴提耶地区行动，致至少10人死亡。&lt;strong&gt;第二，核问题红线：&lt;/strong&gt;伊朗10点方案要求美国承认其铀浓缩权利，特朗普已公开表示绝不允许任何铀浓缩，双方立场差距悬殊。&lt;strong&gt;第三，美军撤离问题：&lt;/strong&gt;伊朗方案要求美国撤出地区驻军，美方至今未作回应。&lt;/p&gt;&lt;p&gt;更令华盛顿不安的是，美国情报官员警告，伊朗可能借停火窗口期重建被摧毁的导弹库。评估显示，伊朗地下设施仍保有数千枚弹道导弹。分析师普遍悲观，称两周时间内要弥合如此巨大的分歧几乎不可能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;关注节点：&lt;/strong&gt;两周停火约于4月22日到期。4月15日，美伊双方预计公布首轮谈判成果——能否就核问题找到哪怕最小公分母，将决定这场冲突走向停战协议还是新一轮升级。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next"&gt;https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-ceasefire-trump-hormuz-israel-lebanon-rcna267205"&gt;https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-ceasefire-trump-hormuz-israel-lebanon-rcna267205&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://theintercept.com/2026/04/10/iran-ceasefire-israel/"&gt;https://theintercept.com/2026/04/10/iran-ceasefire-israel/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">93f848d8-2fef-5a78-93a7-4c597449f08b</guid>
+      <pubDate>Sat, 11 Apr 2026 16:13:00 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/04/reuters_69d5ab15-1775610645.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 阿尔忒弥斯二号成功溅落：人类时隔53年重返月球轨道，四名宇航员安全归来</title>
+      <description>&lt;p&gt;美国宇航局阿尔忒弥斯二号任务飞船猎户座号4月10日在加利福尼亚州近海太平洋成功溅落，四名宇航员——NASA指令长里德·怀斯曼、驾驶员维克多·格洛弗、任务专家克里斯蒂娜·科赫，以及加拿大航天局宇航员杰里米·汉森——在历时约10天的绕月任务后全员平安返回地球。这是人类自1972年阿波罗17号以来首次飞抵月球轨道。&lt;/p&gt;&lt;p&gt;阿尔忒弥斯二号并非登月任务——四人搭乘的猎户座飞船绕月飞行后直接返回，未降落月球表面——但它完成了阿尔忒弥斯三号实际载人登月前不可缺少的关键验证：飞船的热防护系统在再入大气层时承受了约2760摄氏度的高温考验，生命维持系统、导航精度以及太空辐射防护均通过实测。这次任务也刷新了多项纪录：格洛弗成为首位飞抵月球轨道的非裔美国人；汉森成为首位飞抵月球轨道的加拿大人。&lt;/p&gt;&lt;p&gt;任务背景可追溯至2022年发射的无人阿尔忒弥斯一号。当时飞船验证了运载火箭SLS的能力，但飞行时长与本次相仿。阿尔忒弥斯二号最大不同在于真实宇航员登舱，人的存在带来了全新的验证维度。任务期间，飞船在距月面约8895公里的近月点掠过，宇航员通过舷窗拍摄的月面照片已在社交媒体引发广泛传播。&lt;/p&gt;&lt;p&gt;对于中美太空竞争这一宏观背景，此次成功的时机意味深长。中国的嫦娥七号已于3月底发射，计划探测月球南极冰水资源；中国官员公开表态2030年前载人登月目标不变。阿尔忒弥斯二号的顺利返回，令NASA的阿尔忒弥斯三号——计划首次将宇航员降落月球南极——的时间表更加清晰。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;后续进展：&lt;/strong&gt;NASA预计在4月下旬召开任务总结发布会，公布热防护系统详细数据。阿尔忒弥斯三号计划最早于2027年执行，届时SpaceX的星舰月球着陆器将首次投入实战——其对接测试能否按期完成，将是下一个关键里程碑。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-11-2026"&gt;https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-11-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://abcnews.com/International/live-updates/iran-live-updates-casualties-reported-missile-strikes-israel/?id=131757074"&gt;https://abcnews.com/International/live-updates/iran-live-updates-casualties-reported-missile-strikes-israel/?id=131757074&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8a1614f4-c07f-53ec-87b4-eeceffbd38b5</guid>
+      <pubDate>Sat, 11 Apr 2026 16:13:24 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-11-2026</link>
+      <enclosure url="https://mediagolocalprov.imgix.net/JD-Vance-Iran-Protest-Trump-April-2026.png?auto=format%2Ccompress&amp;amp;fit=crop&amp;amp;fp-x=0.5&amp;amp;fp-y=0.5&amp;amp;h=630&amp;amp;ixlib=php-4.1.0&amp;amp;q=82&amp;amp;w=1200" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 AI系统发现27年安全漏洞，英格兰银行紧急警告，美联储召集华尔街高管开会</title>
+      <description>&lt;p&gt;英国金融监管机构本周向各大银行高管发出紧急警告，原因是Anthropic公司一款被内部评定为风险过高、不宜公开发布的AI系统——代号Mythos——据报发现了隐藏长达27年的计算机安全漏洞，其速度远超任何人类安全研究员。美联储与美国财政部随即紧急召集华尔街主要金融机构CEO召开闭门会议，讨论AI驱动的网络安全风险对金融基础设施的潜在冲击。&lt;/p&gt;&lt;p&gt;事件的核心争议在于：Mythos展示的能力，让监管机构第一次直观感受到所谓AI安全研究员双刃剑效应——同样的能力既可以在漏洞被恶意利用之前发现并修补，也可以被攻击方用来大规模搜寻未打补丁的系统。一位参与英格兰银行会议的知情人士告诉媒体，与会者形容当天的气氛前所未有的严肃。&lt;/p&gt;&lt;p&gt;Anthropic方面表示，Mythos系统目前处于严格限制研究状态，公司已启动名为Glasswing计划的内部评估项目，专门研究该系统的能力边界与安全协议。公司强调，发现漏洞后已通知相关软件厂商，并协助推动补丁发布，但拒绝透露具体涉及哪些系统或厂商。&lt;/p&gt;&lt;p&gt;这一事件发生的时机颇为微妙：美国参议院正在审议《人工智能安全与透明度法案》，法案草案要求具备关键能力的AI系统在部署前强制接受政府审计。批评者认为，Mythos事件恰好印证了强制审计的必要性；支持者则担心过于严苛的监管将迫使前沿AI研究转移至监管更宽松的司法管辖区。&lt;/p&gt;&lt;p&gt;对于普通用户而言，最直接的影响可能来自金融机构随后的应急措施：多家银行已宣布将加速部署AI驱动的漏洞扫描系统，以以攻制攻；另有机构宣布暂停部分遗留系统的外部接口，直至完成安全评估。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;关注节点：&lt;/strong&gt;美国参议院《人工智能安全与透明度法案》预计4月下旬进入全院表决。Anthropic将于4月14日发布Glasswing计划初步报告，届时外界将首次看到官方对Mythos能力边界的正式表述。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-11-2026"&gt;https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-11-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8c3b6af2-48e9-5c0b-9724-7aaa4cadb859</guid>
+      <pubDate>Sat, 11 Apr 2026 16:59:15 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-11-2026</link>
+      <enclosure url="https://mediagolocalprov.imgix.net/JD-Vance-Iran-Protest-Trump-April-2026.png?auto=format%2Ccompress&amp;amp;fit=crop&amp;amp;fp-x=0.5&amp;amp;fp-y=0.5&amp;amp;h=630&amp;amp;ixlib=php-4.1.0&amp;amp;q=82&amp;amp;w=1200" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
