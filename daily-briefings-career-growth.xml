@@ -4,7 +4,7 @@
     <title>职业成长与实习攻略</title>
     <description>Per-topic feed: 职业成长与实习攻略</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:16:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:05:00 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" type="application/rss+xml" />
@@ -732,6 +732,140 @@
       <category>career-growth</category>
       <link>https://www.acceler8talent.com/resources/blog/ai-engineer--salary---market-rates-2025-2026/</link>
       <enclosure url="https://sitescdn.wearevennture.co.uk/public/acceler8/mediahub/11-65a16dabd13844cabb98d3fbfe1c51be.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 📈 "先证明AI干不了"：Duolingo、Shopify 的招聘前置条件正在蔓延，冻招五阶段悄然展开</title>
+      <description>&lt;p&gt;今年初，Duolingo CEO Luis von Ahn向全员发出一封措辞简短却震动硅谷的内部邮件：各团队在申请增加人手之前，必须先证明相关工作无法由AI完成。紧随其后，Shopify也发出类似政策——团队提交招聘申请时，需附上书面论证，说明为何AI无法胜任该职位。这两家公司的做法并非孤例，它们正在成为一种正在扩散的企业治理模板。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;从「AI辅助」到「AI优先」：一条政策红线&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Duolingo的具体操作已具备相当完整的逻辑链：该公司在2026年初发布了148门全新语言课程，全部由生成式AI制作，此前负责内容创作的合同工已大规模被替代。内部规定进一步明确：团队的招聘申请只有在证明工作无法自动化之后才会被批准，同时AI使用情况将被纳入绩效考核。&lt;/p&gt;
+
+&lt;p&gt;Shopify的表述略有不同，但核心逻辑一致：团队必须「证明某些岗位为什么不能由AI来完成」，才能获得招聘配额。Uber也已跟进类似原则。&lt;/p&gt;
+
+&lt;p&gt;值得注意的是，Luis von Ahn在政策引发外部争议后发表了一篇澄清声明，称「我并不认为AI会取代员工的工作，我们实际上仍在以同样的速度持续招聘」。然而，公司行为本身已经说明一切——这种文字与动作之间的落差，恰恰是当前企业管理AI叙事的典型缩影。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;冻招的五阶段传导链&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;劳动力市场研究机构AfterLayoff整理的数据揭示了一个规律性路径：AI驱动的岗位削减往往不是突然宣布的大规模裁员，而是经历一条悄无声息的五阶段轨迹——&lt;/p&gt;
+
+&lt;p&gt;首先是冻招（hiring freeze），表现为新职位发布停止或大幅减少；其次是自然减员（attrition），已离职员工的岗位不再补充；第三阶段是岗位整合（role consolidation），多个职能被合并给少数人；第四阶段才是集中裁员（layoffs）；最终阶段是永久性自动化（permanent automation），整个工作流程被系统替代。&lt;/p&gt;
+
+&lt;p&gt;研究者指出，「冻招几乎总是早于裁员」，而且企业倾向于悄悄执行这一过程以规避公众反弹。识别这一进程的外部信号包括：职位发布页面消失但从未向外部开放、LinkedIn招聘公告大幅减少、实习名额缩减，以及已公布职位长期空置不填。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;哪些岗位风险最高&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;被列为高替代风险的岗位类别包括：客户支持、营销与内容创作、人力资源、财务运营、法务研究、招聘，以及——尤其值得注意的——初级软件开发。这一分类逻辑清晰：这些工作的共同特征是输出结果相对标准化、可量化，且不依赖深度上下文判断。&lt;/p&gt;
+
+&lt;p&gt;然而，并非所有声音都认同这条路径。Amazon Web Services CEO Matt Garman在一次公开讲话中直言：「用AI替换初级工程师是我听过最蠢的事之一。」他的理由是，今天不被培养的初级工程师，将成为明天的工程师荒。如果每家公司都把初级岗位当成第一个AI替换目标，整个行业的人才管道将面临代际断层。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一个结构性信号&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;「先证明AI干不了再招人」这一政策的扩散，意味着招聘本身的逻辑正在经历底层重写。过去，「是否需要人」是一个默认答案为「是」的问题；现在，这个问题的默认答案正在悄然翻转为「否，除非你能证明不可以」。&lt;/p&gt;
+
+&lt;p&gt;对于正在求职或规划实习的技术人才而言，理解这一结构性变化的时间窗口比表面数据更重要——真正的竞争压力不是来自某一次裁员公告，而是来自「招聘审批前置条件」这一制度性变量的系统性扩散。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/article/duolingo-ceo-says-getting-rid-of-contract-employees-replacing-them-with-ai/"&gt;https://fortune.com/article/duolingo-ceo-says-getting-rid-of-contract-employees-replacing-them-with-ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youreverydayai.com/ai-or-youre-fired-why-duolingo-and-shopifys-new-hiring-rulebook-will-be-the-norm/"&gt;https://www.youreverydayai.com/ai-or-youre-fired-why-duolingo-and-shopifys-new-hiring-rulebook-will-be-the-norm/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://afterlayoff.org/ai-hiring-freeze-tracker"&gt;https://afterlayoff.org/ai-hiring-freeze-tracker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c25a690e-d9b4-5bcc-a029-ccd09a76dc29</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:45 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://fortune.com/article/duolingo-ceo-says-getting-rid-of-contract-employees-replacing-them-with-ai/</link>
+    </item>
+    <item>
+      <title>📈 📈 不全是AI的错：2026届毕业生就业困境背后，利率周期与税法才是真正的结构性凶手</title>
+      <description>&lt;p&gt;当2026届大学毕业生面对史上最难就业季，「都是AI的错」已成为最流行的解释。但一篇来自斯坦福大学的分析，以及多项联邦储备银行研究，正在颠覆这一叙事——真正将这一代毕业生推入困境的，可能是两项几乎被大众忽视的政策变量：货币政策周期与税法修订。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数字有多难看&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;先看数据基线。应届毕业生失业率在2025年第四季度升至5.7%，超过2008年金融危机期间的任何时间点，创历史高位。未充分就业率同步攀升至42.5%，为2020年以来最高。具体到技术专业：计算机工程应届毕业生失业率7.5%，计算机科学专业6.1%。科技实习岗位的竞争更为激烈——每个职位平均吸引273份申请，较上年几乎翻倍，Morgan Stanley实习录取率从2.1%跌至0.4%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;凶手一：零利率时代的过度扩张&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2020年至2022年，美联储将基准利率维持在接近零的水平。廉价资本推动各大科技公司进入疯狂扩张模式：Meta员工人数从45,000人扩张至86,000人，增幅超过90%；Alphabet从119,000人膨胀至190,000人，涨幅近60%。这批岗位并非基于真实长期需求，而是零利率环境下「能融资就多招人」的扩张逻辑的产物。&lt;/p&gt;
+
+&lt;p&gt;2022年起，美联储开启40年来最快的加息周期。随着资金成本骤升，曾被视为理所当然的人头费开始接受严格审查。原本靠低利率支撑的边际岗位开始消失。新的招聘请求无论级别高低，都必须通过更苛刻的ROI论证。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;凶手二：2022年生效的研发摊销新规&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年美国《减税与就业法案》中存在一项不起眼的条款，于2022年正式落地执行：企业的研发支出（包括软件开发者工资）不再可以在当年全额税前扣除，必须分五年摊销。&lt;/p&gt;
+
+&lt;p&gt;这一变化的效果是：每雇用一名工程师，企业承担的实际税务成本增加了。当某家公司考虑是否新开一个初级工程师岗位时，「当年开支」与「可抵扣额」之间的差距已大幅拉开。这一政策变化在财务决策层面制造了一个隐形门槛，而绝大多数求职者对其存在毫无感知。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;凶手三：AI叙事被刻意放大&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Resume.org面向1,000名美国招聘经理的调查揭示了一个令人不安的发现：59%的受访企业承认，在解释裁员或冻招时，刻意强调了「AI的驱动作用」，因为「这比讲财务紧缩更容易向股东解释」。换言之，「AI换人」在一定程度上是一套经过精心校准的对外沟通策略，而非对实际原因的如实描述。&lt;/p&gt;
+
+&lt;p&gt;最具说服力的反驳数据来自纽约联邦储备银行。研究人员分析了超过百万家企业后得出结论：AI采纳行为与职位发布减少之间存在「精确估算的零效应」，即两者之间没有可测量的因果联系。报告作者明确表示，当前就业市场的放缓「不是由AI驱动的」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;那AI有没有影响？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;有，但远比公众认知的幅度小。哈佛大学一项研究估算，生成式AI的普及导致初级开发者就业减少约10%；经济学家进一步指出，2023-2024年的加息周期才对初级岗位萎缩贡献了约57%的解释力度。AI是真实的结构变量，但它正在被当作一块遮羞布，掩盖其他不那么上镜的政策影响。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;如果就业困境的核心驱动力是货币政策周期与税法，那它的逻辑就与AI主导叙事完全不同：它意味着，当美联储转入降息周期、资本成本重新下降，或研发摊销政策得到修订，就业市场可能比预期更快回暖——与AI能力的发展速度无关。理解真正的驱动变量，而非被流行叙事锚定，是读懂这个就业周期的前置条件。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://stanfordreview.org/the-class-of-2026-is-struggling-to-find-jobs-and-its-not-because-of-ai/"&gt;https://stanfordreview.org/the-class-of-2026-is-struggling-to-find-jobs-and-its-not-because-of-ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html"&gt;https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.newyorkfed.org/research/college-labor-market"&gt;https://www.newyorkfed.org/research/college-labor-market&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b3021c85-12e7-530c-8554-53cd7384e30a</guid>
+      <pubDate>Sun, 12 Apr 2026 08:04:25 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://stanfordreview.org/the-class-of-2026-is-struggling-to-find-jobs-and-its-not-because-of-ai/</link>
+    </item>
+    <item>
+      <title>📈 📈 初级开发者大灭绝：67% 的招聘断崖背后，2030 年的工程师荒已在酝酿</title>
+      <description>&lt;p&gt;ByteIota Research的数据描绘了一幅令人警觉的图景：从2022年到2026年，初级开发者岗位的发布量下降了67%。更诡异的是，同期职位发布数字表面上增长了47%——这意味着真实的招聘正在与可见的招聘广告之间产生结构性撕裂。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数字背后的「幽灵招聘」&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这一矛盾并非统计误差，而是一种被研究者命名为「幽灵招聘」的系统性现象：企业以「初级工程师」为头衔发布职位，吸引大量应届毕业生投递，但实际录用的候选人往往具有3至5年工作经验。页面上的初级岗位是真实存在的，入职的初级工程师却越来越少。&lt;/p&gt;
+
+&lt;p&gt;斯坦福大学数字经济研究项目的数据印证了这一点：22至25岁开发者就业人数自2022年峰值到2025年7月已下降近20%。Handshake的就业平台数据则显示，科技实习岗位数量自2023年减少30%，但投递量仍在上涨。每个实习职位平均吸引273份申请，摩根士丹利实习录取率从2.1%跌至0.4%，竞争烈度已接近顶级学术项目的录取难度。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AI的真实贡献：10% vs. 57%&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;初级岗位的塌陷当然有AI的部分原因，但比例被严重高估。哈佛大学的定量研究将生成式AI对初级开发者就业的直接影响估算为约10%；而经济学家普遍认为，2023年至2024年加息周期引发的预算收紧才是主要驱动力，贡献了约57%的解释力。&lt;/p&gt;
+
+&lt;p&gt;更值得注意的是「职能替换」而非「岗位消失」这一维度：当一名中级工程师借助AI编码工具能产出原本需要两名初级工程师才能完成的代码量，企业并不需要裁员——只需停止补充初级编制，自然减员即可实现「效率提升」。这种无声无息的岗位萎缩比主动裁员更难被统计，也更难被感知。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS CEO的警告：你在砍掉的是未来的高级工程师&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Amazon Web Services CEO Matt Garman在一次行业活动上罕见地公开表达了异见：「用AI替换初级工程师是我听过最蠢的事之一。」&lt;/p&gt;
+
+&lt;p&gt;他的逻辑清晰：今天被拒之门外的初级工程师，是2030至2035年供给高级工程师和技术领导岗位的唯一来源。如果整个行业在这一个窗口期集体选择「不培养初级」，那么未来将面临的不是初级岗位的竞争，而是高级岗位的空洞。&lt;/p&gt;
+
+&lt;p&gt;研究机构也给出了相似预警：当前的67%断崖如果持续三至五年，预测将在2030至2035年引发技术行业的结构性高级工程师荒——届时企业争抢的不是AI能力，而是能够驾驭AI系统的有经验的人类工程师。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;仍在招初级的公司是谁&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;并非所有公司都在收缩初级通道。IBM据报道在2026年三倍于之前地加大了对初级岗位的招募，理由是「AI虽然能做很多入门工作，但仍然需要人类判断」。部分传统行业科技团队（金融机构、医疗信息化、政府承包商）也因为合规壁垒和流程敏感性，对初级工程师的需求更为稳定。&lt;/p&gt;
+
+&lt;p&gt;与此同时，Atlassian在裁撤1,600个职位的同时宣布新增800个AI专向岗位，体现了「门槛上移」而非「通道关闭」的逻辑：新增的是需要理解AI系统、能做架构决策的岗位，消失的是执行性、流程性的初级任务。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一个代际风险正在累积&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;当企业将「节省初级人力成本」视为近期AI红利的主要变现路径，他们实际上是在向更远的未来借贷。今天看似高效的人才策略，正在静默地压缩行业十年后的工程能力储备。这是一个每季度财报都不会体现的风险，但它正在以每年一届毕业生的速度累积。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://hakia.com/news/junior-developer-crisis-2026/"&gt;https://hakia.com/news/junior-developer-crisis-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai"&gt;https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://jobsbyculture.com/blog/ai-layoffs-2026-who-is-hiring"&gt;https://jobsbyculture.com/blog/ai-layoffs-2026-who-is-hiring&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e4809bf6-d792-5496-a917-616d5a8a401d</guid>
+      <pubDate>Sun, 12 Apr 2026 08:05:00 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://hakia.com/news/junior-developer-crisis-2026/</link>
+      <enclosure url="https://hakia.com/images/og-default.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

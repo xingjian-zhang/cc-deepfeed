@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:15:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:03:54 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -773,6 +773,82 @@
       <category>fitness-science</category>
       <link>https://link.springer.com/article/10.1007/s40279-024-02169-z</link>
       <enclosure url="https://static-content.springer.com/image/art%3A10.1007%2Fs40279-024-02169-z/MediaObjects/40279_2024_2169_Fig1_HTML.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 每周该练多少组？67项研究的元回归揭示增肌与力量的不同剂量曲线</title>
+      <description>&lt;p&gt;训练量（周组数）和训练频率到底对增肌和力量有什么影响？Pelland等人2026年2月在&lt;strong&gt;Sports Medicine&lt;/strong&gt;发表了一项大规模元回归分析，纳入67项研究共2058名受试者（79.1%男性，均龄25.16岁），给出了迄今最清晰的剂量-效应图景。&lt;/p&gt;
+
+&lt;p&gt;核心发现：周训练量对增肌和力量提升都有效——贝叶斯分析显示二者斜率大于零的后验概率均为100%。但两条曲线的形状截然不同：力量的递减收益远比增肌明显。换句话说，增肌对加量的响应更线性，多练几组还能多长一点；力量增长则在某个阈值后迅速变平，再加量收益微乎其微。&lt;/p&gt;
+
+&lt;p&gt;频率方面的结论同样有趣。训练频率对增肌的独立贡献几乎可以忽略——只要周总量一样，分成几天练差别不大。但对力量而言，频率有可识别的正向效应，不过同样存在递减收益。这意味着如果你的目标是力量而非纯增肌，适当增加训练频率有独立价值。&lt;/p&gt;
+
+&lt;p&gt;这项研究还引入了一个重要方法论创新：&lt;strong&gt;分数量化法（Fractional Quantification）&lt;/strong&gt;。传统元分析把训练组简单分为「算」和「不算」，但实际上一个动作可能直接训练目标肌群（如卧推之于胸大肌），也可能只是间接参与（如卧推之于肱三头肌）。Pelland团队将训练组分为三级——直接组（1.0）、间接组（0.5）和无关组（0），结果发现这种更精细的量化方式能更好地预测训练适应。&lt;/p&gt;
+
+&lt;p&gt;实操建议：如果你的目标是增肌，目前的证据支持在可恢复的前提下适度加量，因为增肌对总量的响应曲线较平缓、递减不那么剧烈。但如果你主攻力量，与其盲目堆量，不如关注训练频率和动作特异性——力量对加量的回报下降得更快。另外，别忘了区分直接组和间接组：你的背部训练可能已经给二头肌贡献了不少「间接组」，没必要再专门加很多弯举。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://pubmed.ncbi.nlm.nih.gov/41343037/'&gt;Pelland et al. (2026) Sports Medicine&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41343037/"&gt;https://pubmed.ncbi.nlm.nih.gov/41343037/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1007/s40279-025-02344-w"&gt;https://link.springer.com/article/10.1007/s40279-025-02344-w&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">25002bc5-9f3f-5781-8e9a-1c6e64474a33</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:06 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/41343037/</link>
+      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 力量训练抗抑郁效果堪比药物——800项研究、57930人的伞状元分析</title>
+      <description>&lt;p&gt;运动能帮助抑郁和焦虑患者，这不算新闻。但效果到底有多大？哪种运动最好？2026年2月，Munro等人在&lt;strong&gt;British Journal of Sports Medicine&lt;/strong&gt;发表了一篇规模空前的伞状元分析（umbrella meta-analysis），汇总了57项此前的汇总分析，覆盖800项原始研究、57930名参与者，年龄从10岁到90岁。这不是一篇普通的元分析，而是对元分析的元分析。&lt;/p&gt;
+
+&lt;p&gt;结论：运动对抑郁症状的改善达到中等效应量，对焦虑达到小到中等效应量，与药物治疗和心理治疗的效果相当甚至更优。所有运动形式——有氧、力量训练、瑜伽/太极/气功、混合方案——都有效。&lt;/p&gt;
+
+&lt;p&gt;但不同运动类型有各自的甜区。对抑郁来说，有氧运动在有监督和团体环境下产生了最大的改善效果。力量训练和瑜伽则是「接受度」最高的运动形式——也就是说参与者最不容易中途退出，这在临床实践中其实至关重要。一个效果略弱但能坚持做下去的方案，往往比理论上最优但做不下去的方案更有价值。&lt;/p&gt;
+
+&lt;p&gt;对焦虑来说，低强度、8周以内的短期方案效果最显著。这个发现有些反直觉——高强度不一定更好，较温和的运动反而对焦虑更友好。&lt;/p&gt;
+
+&lt;p&gt;人群方面，18-30岁的年轻成人和产后女性获益最大。研究者特别强调运动作为「一线干预手段」的潜力，尤其在传统心理治疗资源匮乏的环境中。从成本效益角度看，运动几乎没有副作用，又能同时带来身体健康收益，这是药物和心理治疗无法兼顾的。&lt;/p&gt;
+
+&lt;p&gt;对力量训练者来说，这项研究提供了一个额外的动力来源：你每次去健身房推的不只是铁片，还有心理健康的保护伞。而且力量训练的高依从性意味着它可能是最「可持续」的抗抑郁运动形式之一。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://www.sciencedaily.com/releases/2026/02/260213020412.htm'&gt;ScienceDaily报道&lt;/a&gt; | 原文发表于British Journal of Sports Medicine (DOI: 10.1136/bjsports-2025-110301)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/02/260213020412.htm"&gt;https://www.sciencedaily.com/releases/2026/02/260213020412.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e98cd44e-1a2a-5cfc-a725-167369a06df9</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:29 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.sciencedaily.com/releases/2026/02/260213020412.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/1920/sad-balloon-face-depression.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💪 离心vs向心：26项研究682人的元分析说增肌没差，但上肢和短期训练例外</title>
+      <description>&lt;p&gt;「慢放比快推更增肌」——这个健身圈的老生常谈到底有没有证据支撑？Silva等人2025年1月在&lt;strong&gt;Journal of Strength and Conditioning Research&lt;/strong&gt;发表了一项元分析，纳入26项研究、682名受试者，正面比较离心（Eccentric）和向心（Concentric）训练对肌肥大的影响。&lt;/p&gt;
+
+&lt;p&gt;总体结论：没有统计学差异（95% CI: -0.131至0.701，p=0.179）。GRADE评级为「极低质量」证据。简单说，就目前的证据而言，你专门做离心训练并不会比正常训练长出更多肌肉。&lt;/p&gt;
+
+&lt;p&gt;但亚组分析揭示了两个有趣的例外。第一，上肢肌群中离心训练有显著优势（p=0.018），下肢则没有。可能的解释是上肢肌群纤维类型分布和力臂特征与下肢不同，对离心负荷的响应机制有差异。第二，短期训练（8周以内）中离心训练效果更好（p=0.046），但超过8周后差异消失。这暗示离心训练的早期优势可能来自肌肉损伤-修复循环带来的快速适应（包括肌节纵向增生），但长期来看向心训练会追上来。&lt;/p&gt;
+
+&lt;p&gt;与此同时，2026年3月发表在Sports上的一篇更广泛的系统综述（纳入441名参与者）进一步确认：持续8周以上、中高负荷、每周2-3次并采用渐进超负荷的离心训练，在健康人群和临床人群中都能产生稳定的力量和肌肥大收益。但这里的对照不是「向心训练」而是「无训练」或「常规康复」——说明离心训练本身有效，但不一定比向心训练更有效。&lt;/p&gt;
+
+&lt;p&gt;实操启示：不必刻意追求极端的离心训练方案。正常的全程动作已经包含了离心阶段，增肌效果与纯离心训练相当。如果你偏好上肢训练或正在做短期冲击计划（比如4-6周的专项周期），适当强调离心阶段（如3-4秒下放）可能有微弱额外收益。但对绝大多数训练者来说，把精力花在渐进超负荷和训练量管理上，回报远大于纠结收缩模式。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href='https://pubmed.ncbi.nlm.nih.gov/39652733/'&gt;Silva et al. (2025) JSCR&lt;/a&gt; | &lt;a href='https://www.mdpi.com/2075-4663/14/3/119'&gt;Sports系统综述 (2026)&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/39652733/"&gt;https://pubmed.ncbi.nlm.nih.gov/39652733/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mdpi.com/2075-4663/14/3/119"&gt;https://www.mdpi.com/2075-4663/14/3/119&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b65c3225-4414-5926-9481-fbe760faff9b</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:54 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/39652733/</link>
+      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

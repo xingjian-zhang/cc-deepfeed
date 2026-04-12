@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:16:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:07:20 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -854,6 +854,121 @@
       <category>ai-industry</category>
       <link>https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild</link>
       <enclosure url="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;amp;fit=1280%2C640&amp;amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2026%2F03%2Fxai-all-cofounders-departed-musk-spacex-rebuild.png&amp;amp;signature=134f6bcc42f6711dd8a342a194e7a5da" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Anthropic发布Claude Mythos Preview，拉着苹果微软谷歌组建AI网络安全联盟Project Glasswing</title>
+      <description>&lt;p&gt;4月7日，Anthropic宣布启动&lt;strong&gt;Project Glasswing&lt;/strong&gt;——一个由12家科技巨头组成的AI网络安全防御联盟。参与者名单读起来像是全球科技业的股东大会：AWS、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorganChase、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networks。另有40多家维护关键基础设施的组织获得了扩展访问权限。&lt;/p&gt;
+
+&lt;p&gt;联盟的核心武器是一个尚未公开发布的前沿模型——&lt;strong&gt;Claude Mythos Preview&lt;/strong&gt;。Anthropic称其为"迄今为止最强大的AI模型"，在编程、推理和智能体安全能力上远超现有产品。数字说话：Mythos在CyberGym漏洞复现基准上达到83.1%（Claude Opus 4.6为66.6%），SWE-bench Pro上77.8%，SWE-bench Verified上93.9%。&lt;/p&gt;
+
+&lt;p&gt;真正让业界震动的是Mythos已经发现的东西。过去几周，这个模型在主要操作系统和浏览器中找到了数千个零日漏洞（Zero-day Vulnerability），包括：OpenBSD中一个存在了27年的远程崩溃漏洞、FFmpeg中一个16年未被发现的编码缺陷（经过了500万次自动化测试都没抓到）、以及Linux内核中一组可以从普通用户权限升级到完全系统控制的链式漏洞。所有发现都已负责任地披露给了维护者。&lt;/p&gt;
+
+&lt;p&gt;Anthropic的逻辑很直白：AI发现和利用软件漏洞的能力已经超过了绝大多数人类安全研究员，而这种能力的扩散只是时间问题。与其等恶意行为者先用上，不如把防御方先武装起来。公司私下已经向政府官员发出警告——Mythos让大规模AI驱动的网络攻击"在今年内显著更有可能发生"。&lt;/p&gt;
+
+&lt;p&gt;钱也到位了。Anthropic承诺为Glasswing参与者提供最高1亿美元的模型使用额度（Mythos Preview标准价格：输入25美元/百万token，输出125美元/百万token），外加400万美元直接捐赠给开源安全组织——250万给Linux Foundation旗下的Alpha-Omega和OpenSSF，150万给Apache Software Foundation。&lt;/p&gt;
+
+&lt;p&gt;市场反应两极分化。一边是Palo Alto Networks加入联盟后股价涨了6%，另一边是CrowdStrike、Zscaler等网安股在Mythos能力曝光后跌了5%-11%——投资者担心传统安全产品在AI面前会被重新定价。这个反应本身就说明了问题：当AI能自动发现漏洞的速度远超人类团队，安全行业的商业模式需要重新思考。&lt;/p&gt;
+
+&lt;p&gt;Mythos不会公开发售。Anthropic的策略是先用Glasswing积累安全经验，为未来Claude Opus的大规模部署开发防护措施。90天内，公司将公开发布发现的漏洞详情（在补丁完成后）和改进建议。&lt;/p&gt;
+
+&lt;p&gt;回到更大的图景：这是Anthropic在&lt;a href="https://www.anthropic.com/glasswing"&gt;3月底宣布的安全防御联盟&lt;/a&gt;从概念到落地。从营收首超OpenAI到拉拢全球最大的科技公司搞安全联盟，Anthropic正在同时打两场仗——一场商业的，一场关于谁来定义AI安全标准的。&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://www.anthropic.com/glasswing"&gt;Anthropic Glasswing&lt;/a&gt;, &lt;a href="https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/"&gt;Fortune&lt;/a&gt;, &lt;a href="https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"&gt;TechCrunch&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.anthropic.com/glasswing"&gt;https://www.anthropic.com/glasswing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/"&gt;https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"&gt;https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4c22f861-285e-579a-a8e2-e9b982d7b610</guid>
+      <pubDate>Sun, 12 Apr 2026 08:04:13 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.anthropic.com/glasswing</link>
+      <enclosure url="https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Meta Muse Spark正式上线：代号Avocado从开源转向闭源，Alexandr Wang的第一把火</title>
+      <description>&lt;h2&gt;从Llama到Muse：Meta的AI路线大转向&lt;/h2&gt;
+
+&lt;p&gt;4月8日，Meta正式发布了Muse Spark——Meta Superintelligence Labs成立以来的首款模型。这个内部代号"Avocado"的项目酝酿了九个月，却在上线时做出了一个出乎所有人意料的决定：不开源。&lt;/p&gt;
+
+&lt;p&gt;过去三年，Meta几乎是AI开源运动的代名词。从Llama到Llama 3，每一次模型发布都伴随着开放权重和社区狂欢。但Muse Spark打破了这个惯例。至少在当前阶段，这款模型仅供Meta自家产品使用，没有API接口，没有权重下载，没有Hugging Face页面。&lt;/p&gt;
+
+&lt;h2&gt;Alexandr Wang的闭源逻辑&lt;/h2&gt;
+
+&lt;p&gt;理解这个转向，需要回到去年Meta以143亿美元收购Scale AI 49%股份、并请来联合创始人Alexandr Wang执掌Meta Superintelligence Labs这件事上。Wang带来的不只是一个人，而是一整套关于"数据质量决定模型上限"的方法论。他在内部推行的理念很直接：与其把权重公开让竞争对手免费蒸馏，不如先确保Meta自身产品的AI体验拉开差距。&lt;/p&gt;
+
+&lt;p&gt;这并不意味着Meta永远放弃开源。Zuckerberg在发布会上的措辞留了余地——"我们的开源承诺没有改变，但Muse系列会在验证后逐步开放。"翻译过来：先让自家产品吃到红利，再考虑社区。&lt;/p&gt;
+
+&lt;h2&gt;小而快，但别低估&lt;/h2&gt;
+
+&lt;p&gt;Muse Spark在定位上有些反直觉。Meta官方反复强调它"small and fast by design"，但同时宣称它在科学推理、数学、健康咨询和多模态感知上都达到了前沿水准。目前已知的第三方测试显示，它在Arena AI排名上与GPT-5.4和Claude Sonnet 4.6处于同一梯队。&lt;/p&gt;
+
+&lt;p&gt;更值得注意的是它的部署策略。Muse Spark不是一个独立产品，而是被直接注入Meta的整个产品矩阵：Meta AI应用和网站已经上线，未来几周将扩展到WhatsApp、Instagram、Facebook、Messenger以及Ray-Ban智能眼镜。这意味着它将一夜之间触达数十亿用户，这是OpenAI和Anthropic都做不到的分发优势。&lt;/p&gt;
+
+&lt;h2&gt;新功能值得关注&lt;/h2&gt;
+
+&lt;p&gt;两个新模式暗示了Muse系列的技术路线。"Instant"模式优化了响应速度，面向日常对话场景；"Thinking"模式则允许模型进行更长时间的推理，类似于当前推理模型的思维链方法。两者都先在美国市场推出。此外，Muse Spark还加入了视觉编程能力——用户可以通过对话直接生成网页和小游戏，这显然是在对标Anthropic的Artifacts和ChatGPT的Canvas。&lt;/p&gt;
+
+&lt;h2&gt;1150亿美元的赌注&lt;/h2&gt;
+
+&lt;p&gt;Muse Spark只是开始。Meta今年的AI资本支出预算在1150至1350亿美元之间，这个数字几乎等于Alphabet和亚马逊的AI投资之和。Wang在采访中透露，Muse系列的下一款模型已经在训练中，将在"规模和能力上实现显著跳跃"。考虑到Spark被定义为"scaling ladder的第一步"，可以合理推测后续模型会是真正的大参数量重型选手。&lt;/p&gt;
+
+&lt;p&gt;对于AI行业来说，Meta的转向传递了一个信号：当开源不再是获取市场份额的最优策略时，即使是最坚定的开源倡导者也会重新计算。而对于那些依赖Llama生态构建产品的初创公司和研究机构，现在可能需要开始考虑Plan B了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"&gt;https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/"&gt;https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.roborhythms.com/meta-muse-spark-2026/"&gt;https://www.roborhythms.com/meta-muse-spark-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">18190c0d-bd9c-5f99-8ed0-145b3df0b64f</guid>
+      <pubDate>Sun, 12 Apr 2026 08:06:37 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/</link>
+      <enclosure url="https://about.fb.com/wp-content/uploads/2026/04/Introducing-Muse-Spark_Header.gif?fit=1920%2C1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Google Gemma 4发布：31B参数打败400B对手，开源模型的新标杆</title>
+      <description>&lt;h2&gt;四个尺寸，一个目标：让AI跑在你的手机上&lt;/h2&gt;
+
+&lt;p&gt;4月2日，Google DeepMind发布了Gemma 4系列开源模型，包含四个尺寸：E2B、E4B、26B MoE和31B Dense。整个系列采用Apache 2.0许可证，任何人都可以免费商用。这是Google在开源AI领域最激进的一次出牌——尤其是在Meta刚刚用Muse Spark宣告闭源转向的背景下。&lt;/p&gt;
+
+&lt;h2&gt;31B Dense：小身材大能量&lt;/h2&gt;
+
+&lt;p&gt;四款模型中最引人注目的是31B Dense版本。在Arena AI的竞技场排名中，它位列第三，仅次于GPT-5.4和Claude Opus 4.5。要知道，排在它后面的不少模型参数量是它的10到20倍。这种"以小博大"的能力让开发者社区相当兴奋，因为它意味着你不需要租用一整个H100集群就能跑一个前沿级别的模型。&lt;/p&gt;
+
+&lt;p&gt;26B MoE版本走的是另一条路线。MoE（Mixture of Experts）架构在推理时只激活部分参数，理论上能在更低的计算成本下达到接近全参数模型的效果。Google没有公布具体的激活参数比例，但从定位来看，这款模型面向的是需要在成本和性能之间找平衡的企业用户。&lt;/p&gt;
+
+&lt;h2&gt;E2B和E4B：边缘计算的真正入口&lt;/h2&gt;
+
+&lt;p&gt;更小的E2B和E4B才是Gemma 4系列的战略核心。这两款模型专门为端侧部署设计——手机、平板、物联网设备、甚至智能手表。Google在发布文档中特别强调了它们的量化友好性和低内存占用。&lt;/p&gt;
+
+&lt;p&gt;端侧AI不是一个新概念，但过去的端侧模型往往在能力上差强人意，只能处理简单的文本补全或关键词提取。E4B支持256K上下文窗口和多模态输入（视觉+音频），这意味着一个运行在手机本地的模型理论上可以理解你的相机画面、处理语音指令、同时保持对长对话的记忆。如果这个性能在实际设备上能够兑现，它将重新定义"离线AI"的含义。&lt;/p&gt;
+
+&lt;h2&gt;开源vs闭源：Google选择了第三条路&lt;/h2&gt;
+
+&lt;p&gt;Gemma 4的发布时机耐人寻味。Meta在4月8日发布Muse Spark时明确表示不会开源，OpenAI从来没有认真考虑过开源，而Google选择了一个中间策略：旗舰产品Gemini保持闭源并通过API收费，同时用Gemma系列在开源社区建立影响力和开发者生态。&lt;/p&gt;
+
+&lt;p&gt;这个策略的聪明之处在于，Gemma模型虽然强大，但始终比Gemini低一个身位。开发者在Gemma上构建原型，验证可行性后自然会考虑升级到更强的Gemini API——Google相当于用开源模型做了一个超大规模的漏斗营销。&lt;/p&gt;
+
+&lt;h2&gt;对行业的影响&lt;/h2&gt;
+
+&lt;p&gt;Gemma 4的出现让开源AI模型的性能天花板又上移了一个台阶。31B参数量级的模型能与500B+的闭源模型竞争，这个事实本身就在动摇"只有万亿参数才能达到前沿智能"的叙事。对于无法承担闭源API费用的研究机构和初创公司来说，Gemma 4可能是目前最值得投入的开源选择。&lt;/p&gt;
+
+&lt;p&gt;不过，一个值得观察的问题是：Google会在多长时间内保持这种"旗舰闭源+社区开源"的双轨制？如果Gemma系列的能力持续逼近Gemini，Google是否会面临自我蚕食的困境？这将是未来几个季度AI行业最有趣的商业策略博弈之一。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ghacks.net/2026/04/02/google-releases-gemma-4-a-family-of-open-source-ai-models/"&gt;https://ghacks.net/2026/04/02/google-releases-gemma-4-a-family-of-open-source-ai-models/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.google/technology/developers/gemma-4/"&gt;https://blog.google/technology/developers/gemma-4/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3e875d3d-8ee2-57ad-9bf5-b784be812cb4</guid>
+      <pubDate>Sun, 12 Apr 2026 08:07:20 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://ghacks.net/2026/04/02/google-releases-gemma-4-a-family-of-open-source-ai-models/</link>
+      <enclosure url="https://s.yimg.com/ny/api/res/1.2/EIkT5P6bOBQMoAYMDI0saA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzQw/https://s.yimg.com/uu/api/res/1.2/.HLzYdeQ6Ic1QktvWJXlgA--~B/aD02Nzg7dz0xMjE0O2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/screenshot_2026-04-02_at_9.51.06%E2%80%AFam_4526.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

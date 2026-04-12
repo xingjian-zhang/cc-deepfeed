@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:16:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:04:38 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -846,6 +846,98 @@
       <category>coding-agents</category>
       <link>https://github.com/github/copilot-cli/releases</link>
       <enclosure url="https://repository-images.githubusercontent.com/585860664/88c02908-2585-431c-9c8a-8db1f3521e91" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Cursor 3 发布：从 IDE 变身「智能体工作台」，并行多 Agent、Design Mode 重新定义编程交互</title>
+      <description>&lt;p&gt;4 月 2 日，Anysphere 发布 Cursor 3——这不是一次常规更新，而是对「编程工具应该长什么样」的重新回答。核心变化：传统的 Composer 面板被替换为全新的 &lt;strong&gt;Agents Window&lt;/strong&gt;，一个专为并行管理多个 AI 智能体设计的全屏工作台。&lt;/p&gt;
+
+&lt;p&gt;Agents Window 的逻辑很直接：你不再是跟一个 AI 对话框聊天，而是同时运行多个 Agent，每个负责不同任务——重构模块、写测试、更新文档，全部并行推进。这些 Agent 既可以跑在本地，也可以推到云端隔离执行，两种环境之间无缝切换。云端 Agent 完成后会自动生成截屏和 demo 供你审核，不需要手动跑一遍。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是入口的多样化。除了桌面客户端，你可以从手机、Slack、GitHub、Linear 发起 Agent 任务，状态统一汇聚到 Agents Window 的侧边栏。这意味着你在通勤时用手机发起一个重构任务，到办公室打开 Cursor 就能看到进度和 diff。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design Mode&lt;/strong&gt;（快捷键 Cmd+Shift+D）是另一个亮点。它在 IDE 内嵌了浏览器，你可以直接在渲染出的 UI 上标注元素、用自然语言描述想要的修改，Agent 自动实现。这把前端开发从「写代码→刷新浏览器→检查效果」的循环压缩成了「指哪改哪」。&lt;/p&gt;
+
+&lt;p&gt;生态方面，Cursor 同步上线了 Marketplace，首发 30+ 插件，合作方包括 Atlassian、Datadog、GitLab、Hugging Face 等。插件类型涵盖 MCP 服务器、技能包（Skills）和子智能体（Subagents）——这是在构建一个 Agent 生态系统，而不只是一个插件商店。&lt;/p&gt;
+
+&lt;p&gt;社区反应两极分化。Hacker News 上最高赞评论写道：「我希望他们保留旧的哲学——开发者主导，Agent 辅助。」核心担忧是：当 IDE 的 UI 投资全部倾斜到 Agent 管理界面时，传统的手写代码体验是否会被边缘化？Cursor 工程师回应称传统 IDE 功能完整保留，Agents Window 是可选的。但方向已经很明确——Anysphere 赌的是未来开发者的主要工作是管理 Agent，不是写代码。&lt;/p&gt;
+
+&lt;p&gt;从竞争格局看，这是对 Claude Code 终端路线的正面回应。Claude Code 选择在终端内深耕，通过 Computer Use 扩展到 GUI 交互；Cursor 3 则选择把 IDE 变成 Agent 调度中心。两种路线的分歧本质上是对「开发者在哪里工作」的不同判断——终端还是编辑器。背后是融资超过 30 亿美元的 Anysphere 和 Anthropic 之间的路线之争。&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://cursor.com/blog/cursor-3"&gt;Cursor Blog&lt;/a&gt; · &lt;a href="https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/"&gt;SiliconANGLE&lt;/a&gt; · &lt;a href="https://medium.com/@han.heloir/cursor-3-is-not-an-ide-update-its-a-bet-that-you-ll-manage-agents-not-write-code-0d2bc51f0dcb"&gt;Medium&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://cursor.com/blog/cursor-3"&gt;https://cursor.com/blog/cursor-3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/"&gt;https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@han.heloir/cursor-3-is-not-an-ide-update-its-a-bet-that-you-ll-manage-agents-not-write-code-0d2bc51f0dcb"&gt;https://medium.com/@han.heloir/cursor-3-is-not-an-ide-update-its-a-bet-that-you-ll-manage-agents-not-write-code-0d2bc51f0dcb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b9d08030-0007-5dc3-8d9b-5522aa8b5395</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:23 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://cursor.com/blog/cursor-3</link>
+      <enclosure url="https://cursor.com/public/opengraph-image.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Cline 推出 Kanban：开源多智能体编排板，依赖链自动调度、工作树隔离并行</title>
+      <description>&lt;p&gt;当 Cursor 和 Claude Code 在「谁是最好的单体 Agent」上较劲时，开源社区给出了不同的答案：别争了，让用户同时跑一堆 Agent 就行。Cline 团队最新发布的 &lt;strong&gt;Kanban&lt;/strong&gt; 正是这个思路的产品化。&lt;/p&gt;
+
+&lt;p&gt;Kanban 本质上是一个本地 Web 应用——通过 &lt;code&gt;npm i -g cline&lt;/code&gt; 全局安装后，它会起一个看板界面，每张卡片对应一个编程任务。关键设计：每张卡片自动获得独立的终端进程和 Git worktree（工作树），多个 Agent 在各自的分支上并行工作，互不干扰。任务完成后点击卡片就能直接审核 diff。&lt;/p&gt;
+
+&lt;p&gt;最核心的功能是&lt;strong&gt;依赖链（Dependency Chains）&lt;/strong&gt;。你可以把卡片之间建立父子关系——前置任务完成后，依赖它的下游任务自动启动。这把原本散落在多个终端窗口里的 Agent 工作流，变成了一条结构化的流水线。举个例子：卡片 A 负责重构数据层，卡片 B 等 A 完成后自动更新 API 接口，卡片 C 再跟上写集成测试。整个链条无需人工干预。&lt;/p&gt;
+
+&lt;p&gt;Agent 无关性是另一个卖点。Kanban 不只能调度 Cline 自己的 Agent，还兼容 Claude Code、Codex 等其他终端编程智能体。这种开放策略直接对标 Cursor 3 的封闭生态——后者的 Agents Window 只能管理 Cursor 内部的 Agent。&lt;/p&gt;
+
+&lt;p&gt;侧边栏聊天也值得一提。你可以在侧边栏里用自然语言告诉 Agent「把这个需求拆成任务」，Kanban 会自动注入看板管理指令，Agent 就能直接在看板上创建卡片、建立依赖、启动执行。这比手动一张张建卡片高效得多。&lt;/p&gt;
+
+&lt;p&gt;Cline 团队同步发布了 20 个一键提示词（one-shot prompts），专门针对常见场景：从「把这个 monorepo 拆成微服务」到「给所有 API 端点加上鉴权中间件」，每个提示词都会自动创建带依赖关系的多卡片工作流。这降低了上手门槛——你不需要自己设计任务分解策略。&lt;/p&gt;
+
+&lt;p&gt;目前 Kanban 还处于「研究预览」阶段，部分功能标注为实验性。但它指向的方向很清晰：2026 年编程智能体的瓶颈不是 AI 能力，而是人类管理多个 Agent 的认知带宽。在多个终端之间切换、记住每个 Agent 的进度和上下文，代价太高。Kanban 试图用可视化看板和自动化调度来解决这个问题——而且是以开源的方式。&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://cline.ghost.io/announcing-kanban/"&gt;Cline Blog&lt;/a&gt; · &lt;a href="https://github.com/cline/kanban"&gt;GitHub&lt;/a&gt; · &lt;a href="https://cline.ghost.io/20-one-shot-prompts-that-turn-kanban-into-an-autonomous-coding-machine/"&gt;Cline: 20 One-Shot Prompts&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://cline.ghost.io/announcing-kanban/"&gt;https://cline.ghost.io/announcing-kanban/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/cline/kanban"&gt;https://github.com/cline/kanban&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cline.ghost.io/20-one-shot-prompts-that-turn-kanban-into-an-autonomous-coding-machine/"&gt;https://cline.ghost.io/20-one-shot-prompts-that-turn-kanban-into-an-autonomous-coding-machine/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">32814061-72f1-5c84-817f-b1855eda84e0</guid>
+      <pubDate>Sun, 12 Apr 2026 08:04:01 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://cline.ghost.io/announcing-kanban/</link>
+      <enclosure url="https://storage.ghost.io/c/d6/fe/d6feb101-a8e6-444b-bae8-3ca714794abb/content/images/size/w1200/2026/03/siddsant_Interior_of_a_minimalist_tea_house_shoji_screens_div_0f840b28-eede-4244-aadb-c68ff0c69db3_2--1-.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Anthropic 发布《2026 智能体编程趋势报告》：78% 会话涉及多文件编辑，开发者角色正在质变</title>
+      <description>&lt;p&gt;Anthropic 三月底发布了一份 &lt;strong&gt;Agentic Coding Trends Report&lt;/strong&gt;，用 Claude Code 的一手数据画出了编程智能体的使用全景。最扎眼的数字：2026 年 Q1，78% 的 Claude Code 会话涉及多文件编辑，一年前这个比例只有 34%。平均会话时长从 4 分钟涨到 23 分钟。开发者不再用 AI 做「问一句答一句」的补全，而是把整块任务交给它。&lt;/p&gt;
+
+&lt;p&gt;报告梳理了八大趋势，前三条直接关系到编程智能体的产品走向：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;趋势一：角色重心从写代码转向管理 Agent。&lt;/strong&gt;工程师的日常正在从实现细节转向架构设计、Agent 输出审核和系统集成。报告的说法是「开发者在 60% 的工作中使用 AI，但完全委托的比例只有 0-20%」。换句话说，人还在 loop 里，但位置变了——从执行者变成了审核者。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;趋势二：多 Agent 协作取代单 Agent 工作流。&lt;/strong&gt;编排器（Orchestrator）分派子任务给专门化的 Agent，各自在独立的上下文窗口中并行推理。这跟 Cursor 3 的 Agents Window 和 Cline Kanban 的设计完全吻合——行业正在从「一个 Agent 干所有事」向「多个专精 Agent 分工」迁移。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;趋势三：任务时间跨度从分钟级扩展到天级。&lt;/strong&gt;早期的编程 Agent 处理的是「改个 bug」「写个函数」这种分钟级任务。现在有些 Agent 会话持续数小时甚至数天，能完成从零搭建整个应用或者大规模技术债清理这样的工程。&lt;/p&gt;
+
+&lt;p&gt;其余五条趋势覆盖了：Agent 学会在不确定时主动求助（而非盲目执行）、编程 Agent 扩展到非传统开发者（安全、运维、数据团队）、代码产出量激增导致项目周期大幅压缩、非技术人员（销售、法务、市场）开始直接用 Agent 构建自动化工具、以及 Agent 在安全攻防两端同时放大能力。&lt;/p&gt;
+
+&lt;p&gt;报告提出的四个战略优先级也值得关注：掌握多 Agent 协调、通过 AI 审查系统扩展人机监督、将智能体编程推广到工程团队之外、以及把安全架构嵌入核心设计。这四条优先级对应的其实是 Anthropic 自己的产品路线图——Claude Code 的 headless 模式、多 Agent 编排、MCP 生态扩展，都是在为这些方向铺路。&lt;/p&gt;
+
+&lt;p&gt;一个值得深想的细节：开发者在 80-100% 的委托任务上仍保持主动监督。完全无人值守的 Agent 编程还远没到来。现阶段的真实状态更像是「半自动驾驶」——你放手让 Agent 开，但眼睛一直盯着路。这也解释了为什么所有主流工具都在做「Agent + 人类审核」的双层架构，而不是追求完全自主。&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/"&gt;tessl.io&lt;/a&gt; · &lt;a href="https://medium.com/ai-software-engineer/this-newly-released-anthropic-agentic-coding-trends-report-is-a-must-read-0701af881148"&gt;Medium&lt;/a&gt; · &lt;a href="https://resources.anthropic.com/2026-agentic-coding-trends-report"&gt;Anthropic&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/"&gt;https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/ai-software-engineer/this-newly-released-anthropic-agentic-coding-trends-report-is-a-must-read-0701af881148"&gt;https://medium.com/ai-software-engineer/this-newly-released-anthropic-agentic-coding-trends-report-is-a-must-read-0701af881148&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://resources.anthropic.com/2026-agentic-coding-trends-report"&gt;https://resources.anthropic.com/2026-agentic-coding-trends-report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">528d6a83-d5f7-50e4-aa85-62f1f397db8f</guid>
+      <pubDate>Sun, 12 Apr 2026 08:04:38 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/</link>
+      <enclosure url="https://cdn.sanity.io/images/ojuglg5y/production/cf5646e15f91dd2d3b598b8e81706d149f8892a2-1456x816.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

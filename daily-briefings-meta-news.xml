@@ -4,7 +4,7 @@
     <title>Meta SI Lab 动态</title>
     <description>Per-topic feed: Meta SI Lab 动态</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:17:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:04:28 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" type="application/rss+xml" />
@@ -823,6 +823,98 @@
       <category>meta-news</category>
       <link>https://www.cnbc.com/2026/04/09/meta-commits-to-spending-additional-21-billion-with-coreweave-.html</link>
       <enclosure url="https://image.cnbcfm.com/api/v1/image/108271054-17722088882026-02-27t161124z_343131313_rc2dujajql90_rtrmadp_0_usa-stocks.jpeg?v=1772209043&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Muse Spark 技术深潜：MSL 九个月交出的第一份答卷，医疗基准碾压 GPT-5.4 但编程严重拉胯</title>
+      <description>&lt;p&gt;4 月 8 日，Meta Superintelligence Labs 发布了成立以来的第一个模型 &lt;strong&gt;Muse Spark&lt;/strong&gt;——也就是此前内部代号「Avocado」的那个项目。从 Alexandr Wang 去年 6 月加入 Meta 算起，这个模型只用了九个月就上线，速度本身就是个信号。&lt;/p&gt;
+
+&lt;p&gt;Muse Spark 是原生多模态推理模型，支持文本、图像和语音输入，能做视觉编码（从 prompt 生成网页和小游戏）、科学推理、健康咨询。它有两种运行模式：快速应答的 Instant 模式和处理复杂任务的 Thinking 模式，后者会拆分子任务并行处理——本质上是内置了多智能体编排。&lt;/p&gt;
+
+&lt;p&gt;先说亮点。在 Artificial Analysis Intelligence Index 上，Muse Spark 拿到 52 分，排第四，前面是 Gemini 3.1 Pro（57）、GPT-5.4（57）和 Claude Opus 4.6（53）。作为 MSL 的处女作，这个位置不算丢人。真正让人意外的是医疗领域：HealthBench Hard 得分 42.8，直接超过 GPT-5.4 的 40.1，把 Gemini 3.1 Pro 的 20.6 甩开一倍多。Humanity's Last Exam 科学推理 50.2%、CharXiv 视觉推理 86.4，都是第一梯队水平。&lt;/p&gt;
+
+&lt;p&gt;但短板同样刺眼。Terminal-Bench 2.0 编程基准只有 59.0，GPT-5.4 是 75.1——16 分的差距在工程场景里基本意味着「不可用」。抽象推理更惨：ARC-AGI-2 得分 42.5，竞争对手在 76 左右，33 分的鸿沟让 Muse Spark 在这个维度上落后整整一代。&lt;/p&gt;
+
+&lt;p&gt;有意思的是 Meta 对这个模型的定位。官方说法是「small and fast by design」——刻意做小做快，而不是追求参数量。这和 MSL 成立时「追求超级智能」的宣言形成了微妙的张力。一种解读是：Muse Spark 只是验证架构的第一步，真正的大模型还在后面（代号 Mango 的多模态生成模型仍在开发中）。另一种解读是：MSL 需要快速拿出成果证明 143 亿美元的投资值得，所以先上了一个能跑通产品链路的模型。&lt;/p&gt;
+
+&lt;p&gt;从 token 效率看，有分析指出 Muse Spark 的效率是 Claude 的 2.7 倍，这意味着用更少的算力达到了接近的效果。如果属实，这对 Meta 的推理成本控制是个好消息——毕竟这个模型要免费跑在 meta.ai 上服务数亿用户。&lt;/p&gt;
+
+&lt;p&gt;部署节奏也值得关注。目前 Muse Spark 已经驱动 Meta AI 应用和网页端，未来几周会铺到 WhatsApp、Instagram、Facebook、Messenger 和 AI 眼镜上。Meta 还向部分合作伙伴开放了私有 API 预览，并承诺未来版本会开源。这个「先闭源再开源」的节奏，和之前 Llama 系列「一上来就开放权重」的做法完全不同。&lt;/p&gt;
+
+&lt;p&gt;总结一句：Muse Spark 证明了 MSL 能在短时间内从零搭建一个有竞争力的模型，尤其在医疗和科学推理上找到了差异化。但编程和抽象推理的硬伤意味着它还不是全能选手。对 Meta 来说，真正的考验是接下来的 Mango 和更大规模的 Muse 模型能否补上这些短板。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"&gt;https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ai.meta.com/blog/introducing-muse-spark-msl/"&gt;https://ai.meta.com/blog/introducing-muse-spark-msl/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/skilaai/meta-spent-143b-to-kill-open-source-ai-the-muse-spark-benchmarks-tell-a-different-story-4d1k"&gt;https://dev.to/skilaai/meta-spent-143b-to-kill-open-source-ai-the-muse-spark-benchmarks-tell-a-different-story-4d1k&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">76f93267-c7bd-5449-84e8-8d4ea7e6e018</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:06 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/</link>
+      <enclosure url="https://scontent-det1-1.xx.fbcdn.net/v/t39.2365-6/665581474_754379650958649_1048376096520346652_n.png?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=z0NIOyY7QuwQ7kNvwF2oleU&amp;_nc_oc=AdoQyK40GJ1TrGJGOljk4mam1IaRv5Ay7rr7YxS617-YyN3v0FCY2VdTZnwsmK2dO7g&amp;_nc_zt=14&amp;_nc_ht=scontent-det1-1.xx&amp;_nc_gid=7GlFAZqx8amjCpKqFNpVqg&amp;_nc_ss=7a389&amp;oh=00_Af3a0y_uVRsdJRsecgXprIJx0zF2V_gcA14v6t2NUv5J1w&amp;oe=69F59A72" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 开源冠军变闭源先锋：Muse Spark 背后 Meta AI 战略的 180 度转弯</title>
+      <description>&lt;p&gt;2024 年 7 月，Mark Zuckerberg 写了一篇两千字的宣言，标题直截了当：「开源 AI 是前进的道路。」他说开源代表着「让所有人获得最大经济机会和安全性的最佳方案」。十八个月后，Meta 发布 Muse Spark——公司历史上第一个完全闭源的 AI 模型，不公开权重，不公开架构，只通过 API 向少数合作伙伴提供预览。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2261857168-e1775665198765.jpg" alt="Meta CEO Mark Zuckerberg" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Zuckerberg 曾是开源 AI 最高调的倡导者，如今 MSL 的首个模型却选择了闭源路线&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;为什么变了？数据比任何解释都诚实。&lt;/p&gt;
+
+&lt;p&gt;Llama 系列曾经是开源 AI 的标杆，但中国开源模型的崛起彻底改变了竞争格局。到 2026 年 1 月，阿里巴巴的 Qwen 系列在 Hugging Face 上的累计下载量达到 7 亿次；到 2 月，Qwen 衍生模型的市场份额升至 69%，而 &lt;strong&gt;Llama 从 2023 年 11 月的 25% 跌至 11%&lt;/strong&gt;。Meta 花了大量资源开源 Llama，结果是给竞争对手做了嫁衣——更便宜、迭代更快的中国模型直接蚕食了 Llama 的生态位。&lt;/p&gt;
+
+&lt;p&gt;这不是 Meta 承认的原因，但逻辑链条很清楚：开源策略的核心假设是「开放权重能建立生态护城河」，而现实是护城河被洪水淹没了。Llama 4 的 Scout 和 Maverick 今年 4 月 5 日才刚发布，采用了 MoE 架构，技术指标不错——Scout 用 17B 活跃参数在单张 H100 上跑出了优于 Gemma 3 和 Gemini 2.0 Flash-Lite 的成绩。但 Llama 的开源阵地已经不再是 Meta 的竞争重心了。&lt;/p&gt;
+
+&lt;p&gt;开发者社区的反应两极分化。The Register 的标题带着英式冷幽默：「Meta 的新模型和 Zuckerberg 的私立学校一样开放。」独立分析师指出，当一家公司「终于有了值得保护的东西」时，关上大门是意料之中的。也有人更宽容：Muse Spark 承诺未来版本会开源，也许这只是「先上车再补票」。&lt;/p&gt;
+
+&lt;p&gt;但问题比「开不开源」更深一层。143 亿美元收购 Scale AI 49% 股份并引入 Wang 担任首席 AI 官，这笔交易的本质是买断一个能快速出成果的团队。MSL 的使命是追求超级智能，而超级智能的研发成果天然不适合开源——你不会把军火图纸贴在社区论坛上。从这个角度看，闭源不是 Zuckerberg 食言，而是 MSL 这个组织存在的逻辑必然。&lt;/p&gt;
+
+&lt;p&gt;更微妙的是 Meta 内部现在形成的双轨格局：Llama 继续走开源路线（4 月 29 日的 LlamaCon 还要发布 Behemoth），MSL 的 Muse 系列走闭源路线。两条线用不同的模型服务不同的目的——Llama 维持开发者生态和品牌形象，Muse 直接驱动产品和变现。这种「左手开源右手闭源」的策略并不矛盾，反而可能是当前竞争环境下唯一理性的选择。&lt;/p&gt;
+
+&lt;p&gt;真正的风险在于：如果 Muse 系列持续表现优于 Llama，开发者会用脚投票。到那时候，Llama 的开源承诺就不是战略选择，而是安慰剂。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source/"&gt;https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/skilaai/meta-spent-143b-to-kill-open-source-ai-the-muse-spark-benchmarks-tell-a-different-story-4d1k"&gt;https://dev.to/skilaai/meta-spent-143b-to-kill-open-source-ai-the-muse-spark-benchmarks-tell-a-different-story-4d1k&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.theregister.com/2026/04/08/meta_muse_spark"&gt;https://www.theregister.com/2026/04/08/meta_muse_spark&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push/"&gt;https://fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d1020588-dc29-5775-8534-fdb3085ab731</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:55 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2261857168-e1775665198765.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 上线 48 小时冲上 App Store 第五：Muse Spark 的消费端冲击波与变现悬念</title>
+      <description>&lt;p&gt;Muse Spark 4 月 8 日上线，48 小时内 Meta AI 应用从 App Store 第 57 名蹿升至&lt;strong&gt;第 5 名&lt;/strong&gt;。当天 iOS 下载量约 4.6 万次，环比前一天暴涨 87%。网页端更夸张——meta.ai 的美国日活访问量飙升超过 450%，创下历史新高。海外市场也被带动：加拿大 +51%、英国 +32%、法国 +27%、德国 +25%。&lt;/p&gt;
+
+&lt;p&gt;Appfigures 的数据显示，Meta AI 应用全球累计安装量已达 6050 万次（App Store + Google Play），其中 2500 万次发生在 2026 年。Muse Spark 上线相当于给这条增长曲线踩了一脚油门。&lt;/p&gt;
+
+&lt;p&gt;资本市场的反应同样积极。META 股价在发布当天上涨约 7%，部分对冲了 4 月初因关税恐慌导致的 35% 跌幅。分析师的逻辑很直接：如果 Meta AI 能靠 Muse Spark 拉到足够多的活跃用户，那 AI 助手就不再是成本中心，而是一个可以卖广告、卖订阅、卖 API 的新入口。&lt;/p&gt;
+
+&lt;p&gt;不过冷静看，这波下载潮更多是好奇心驱动。Muse Spark 目前免费使用，没有付费层级，也没有清晰的变现模式。Meta 的 AI 相关资本支出在 2026 年预计达到 1150 亿至 1350 亿美元——几乎是去年的两倍。用户增长再快，如果不能转化为收入，就只是一个更大的成本黑洞。&lt;/p&gt;
+
+&lt;p&gt;对比来看，ChatGPT 的 Plus 订阅（月费 20 美元）和 API 收入已经形成了可预测的现金流。Google 的 Gemini 嵌入 Workspace 生态，靠企业订阅变现。Meta AI 的独特困境在于：它的核心分发渠道是社交应用（WhatsApp、Instagram、Messenger），而社交应用的用户已经习惯了一切免费。把 AI 助手塞进免费产品里容易，让用户为此付费很难。&lt;/p&gt;
+
+&lt;p&gt;Meta 目前的策略似乎是先做用户规模，再想变现。Muse Spark 将在未来几周铺到 WhatsApp、Instagram、Facebook、Messenger 和 AI 眼镜上——这些渠道加起来覆盖数十亿月活用户。如果哪怕 5% 的用户养成使用 AI 助手的习惯，Meta 就拥有了一个比任何竞争对手都大的 AI 用户基座。&lt;/p&gt;
+
+&lt;p&gt;4 月 28 日的 Q1 财报是下一个关键节点。市场预期收入 417 亿美元，但真正的看点不是这个数字本身，而是管理层如何解释 AI 支出的回报逻辑。Muse Spark 的下载数据给了 Zuckerberg 一个好故事可讲，但华尔街要的不是故事，是毛利率。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/"&gt;https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://seekingalpha.com/news/4573997-meta-ai-app-downloads-on-app-store-surge-after-muse-spark-ai-model-st"&gt;https://seekingalpha.com/news/4573997-meta-ai-app-downloads-on-app-store-surge-after-muse-spark-ai-model-st&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://theaiinsider.tech/2026/04/10/meta-ai-app-surges-in-downloads-following-muse-spark-launch-under-alexandr-wang/"&gt;https://theaiinsider.tech/2026/04/10/meta-ai-app-surges-in-downloads-following-muse-spark-launch-under-alexandr-wang/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.yahoo.com/news/why-the-meta-muse-spark-rally-is-continuing-125713837.html"&gt;https://finance.yahoo.com/news/why-the-meta-muse-spark-rally-is-continuing-125713837.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b3714598-b363-51bf-a232-22e8006e9383</guid>
+      <pubDate>Sun, 12 Apr 2026 08:04:28 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/</link>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195497483.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

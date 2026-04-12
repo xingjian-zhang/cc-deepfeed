@@ -4,7 +4,7 @@
     <title>LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:21:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:03:52 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
@@ -856,6 +856,64 @@
       <category>llm-agents</category>
       <link>https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/</link>
       <enclosure url="https://blog.modelcontextprotocol.io/og-image.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 Omni-SimpleMem：自主研究流水线发现多模态 Agent 终身记忆架构，LoCoMo F1 提升 411%</title>
+      <description>&lt;p&gt;还在手工调参数建 Agent 记忆系统？卡内基梅隆与 UNC 的团队让 AI 自己设计记忆架构——部署 AutoResearchClaw 23 阶段自主研究流水线，从 F1=0.117 的 naive baseline 出发，自动跑完约 50 轮实验，最终收敛出 Omni-SimpleMem 架构。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;三个核心设计原则：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;选择性摄入（Selective Ingestion）&lt;/strong&gt;：对文本、图像、音频、视频分别设置模态特异的新颖性检测器，只让有信息增量的内容进入记忆。每条输入生成一个 Memory Addressable Unit（MAU），包含 LLM 生成的摘要和嵌入向量。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;渐进式检索（Progressive Retrieval）&lt;/strong&gt;：MAU 分为热存储（摘要+嵌入+元数据）和冷存储（原始内容），查询时先走热层快速过滤，必要时回溯冷层取细节。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;结构化知识（Structured Knowledge）&lt;/strong&gt;：自动抽取实体构建知识图谱，让记忆之间形成关联网络而非扁平列表。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;关键发现——自动化不只是调超参：&lt;/strong&gt;流水线发现的最大收益来源依次是 bug 修复（+175%）、架构变更（+44%）、prompt 工程，远超传统 AutoML 的超参搜索贡献。这说明 Agent 记忆系统的瓶颈不在数值优化，而在工程实现和架构选择。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;基准表现：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;LoCoMo：F1 从 0.117 → 0.598（+411%）&lt;/li&gt;&lt;li&gt;Mem-Gallery（多模态）：F1 从 0.254 → 0.797（+214%）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;为什么重要：&lt;/strong&gt;这是首次用全自主研究流水线发现 Agent 记忆架构，证明了「让 AI 研究 AI」在系统工程层面的可行性。热/冷分层存储 + 知识图谱的组合为生产级 Agent 长期记忆提供了可参考的工程模板。代码已开源。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.01007"&gt;https://arxiv.org/abs/2604.01007&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/aiming-lab/SimpleMem"&gt;https://github.com/aiming-lab/SimpleMem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">87502d40-4e16-5739-b7fb-9f4bff890770</guid>
+      <pubDate>Sun, 12 Apr 2026 08:02:44 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.01007</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 LangMARL：把经典 MARL 信用分配搬进语言空间，多 Agent 协作不再靠玄学</title>
+      <description>&lt;p&gt;多个 LLM Agent 合作完成任务时，谁的贡献大、谁在拖后腿？这个经典 MARL 中的信用分配问题，在 LLM 系统里一直被忽视——大家要么全体共享一个奖励信号，要么靠 heuristic 拆分。LangMARL（arXiv 2604.00722）首次把 Agent 级信用分配、策略梯度演化和轨迹因果摘要三件套搬到了自然语言空间。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;三大核心创新：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Agent-Level Language Credit Assignment&lt;/strong&gt;：在语言层面将全局反馈信号分解到每个 Agent，让每个参与者知道自己这一步对最终结果的贡献方向和大小。类比 MARL 中的 counterfactual baseline，但操作对象是自然语言动作而非数值向量。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;语言空间梯度演化（Gradient Evolution）&lt;/strong&gt;：不走传统数值梯度，而是在语言空间做策略改进——通过对比成功/失败轨迹中的语言模式差异来「演化」每个 Agent 的策略描述。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;轨迹因果摘要（Trajectory Summarization）&lt;/strong&gt;：从重放轨迹中提取任务相关的因果关系，在稀疏奖励场景下提供稠密反馈信号，大幅改善收敛速度。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;实验亮点：&lt;/strong&gt;在多个合作型多 Agent 任务上，LangMARL 展现了更好的样本效率、更强的泛化能力，以及在稀疏奖励条件下的更优收敛表现。更重要的是，因为所有中间过程都在语言空间，整个训练过程具有天然的可解释性——你可以直接读懂每个 Agent 学到了什么策略。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么重要：&lt;/strong&gt;此前 AT-GRPO 解决了多 Agent RL 的信用分配问题，但仍依赖数值奖励。LangMARL 把这条路线彻底推到语言原生层面，为「多个 LLM Agent 如何通过 RL 学会高效分工」提供了一个更自然的框架。对构建生产级多 Agent 系统（如多模块协作的编程 Agent）有直接参考价值。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.00722"&gt;https://arxiv.org/abs/2604.00722&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c027f6cf-76bc-5daa-9272-b699e9cf4a29</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:08 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.00722</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 WildToolBench：57 个 LLM 实测真实工具调用，最强模型会话准确率不到 15%</title>
+      <description>&lt;p&gt;学术 benchmark 上 Agent 工具调用看起来越来越强？腾讯与 King's College London 的 WildToolBench（arXiv 2604.06185）泼了一盆冷水：基于真实用户行为日志构建的 256 个场景、1024 个任务、约 1600 个公开 API，实测 57 个 LLM，&lt;strong&gt;最好的 Gemini-2.0-Thinking 会话准确率仅 14.45%，Claude-4-Sonnet 12.50%&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;三个被低估的真实世界难点：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;工具编排复杂度（Tool Orchestration）&lt;/strong&gt;：真实任务需要顺序、并行、混合拓扑的工具调用链。混合执行场景下最高任务准确率仅 43.75%，混合顺序+并行更是低至 25%。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;隐含意图推理（Hidden Intention）&lt;/strong&gt;：用户不会一次说完所有信息——部分数据、指代消歧、跨轮长距离依赖。长距离依赖任务上没有模型超过 50%。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;指令模式切换（Instruction Transition）&lt;/strong&gt;：用户在任务指令、澄清提问、闲聊之间随时切换，模型准确率随切换次数增加最多下降 30%。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;反直觉发现：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;专门针对工具调用微调的模型反而不如通用模型表现好，说明过度特化导致了脆弱性。&lt;/li&gt;&lt;li&gt;主要失败原因是语义推理而非语法正确性——模型能生成正确格式的工具调用，但调错了工具或漏了关键信息。&lt;/li&gt;&lt;li&gt;推理增强型模型（Thinking 系列）在同系列中一致优于非推理版本。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;为什么重要：&lt;/strong&gt;这篇论文重新定义了工具调用评测的标准——核心挑战不是人工设计的复杂任务，而是用户指令天然的组合性、模糊性和变化性。对所有在构建 Agent 产品的团队来说，这是一份很好的「真实世界 failure mode 清单」。新指标 OPRate（最优路径率）和 APRate（完成进度率）也值得关注。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.06185"&gt;https://arxiv.org/abs/2604.06185&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e8c7036e-9ad8-50c5-8565-c3e898cfc4e7</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:30 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.06185</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 Memento-Skills：让 Agent 自己设计 Agent——不改模型权重的持续学习框架，HLE 提升 116%</title>
+      <description>&lt;p&gt;RL 微调太贵、prompt 工程太脆弱？Memento-Skills（arXiv 2603.18743）提出了第三条路：把 Agent 的能力外化为结构化 Markdown 技能文件，让 Agent 在运行中自主构建、改写和淘汰技能，实现不修改 LLM 参数的持续学习。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;核心机制——读写循环：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Read 阶段&lt;/strong&gt;：行为可训练的技能路由器（Skill Router）根据当前状态选择最相关的技能文件。每个技能是一个结构化文件夹，包含行为描述、上下文、guardrails 和替代策略。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Write 阶段&lt;/strong&gt;：根据执行结果更新技能库。当技能的运行效用低于阈值时触发三级响应：① 技能重写（Skill Rewriter）——针对观察到的失败模式添加防护或替代策略；② 技能重构——用根本不同的方法重建技能文件夹；③ 技能发现——合成全新技能。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;为什么这不只是 prompt 缓存：&lt;/strong&gt;关键区别在于技能文件是有状态的、可演化的。系统维护每个技能的效用追踪，失败模式会被显式编码为 guardrails，成功模式会被强化。这比单纯的 few-shot 缓存多了反馈驱动的自我改进能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实验结果：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GAIA（通用 AI 助手基准）：整体准确率相对提升 26.2%&lt;/li&gt;&lt;li&gt;Humanity's Last Exam（HLE，高难度推理）：相对提升 116.2%&lt;/li&gt;&lt;li&gt;持续学习场景下表现持续增长，不出现灾难性遗忘&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;工程启示：&lt;/strong&gt;这个框架本质上把 Agent 的「经验」从权重空间搬到了文件系统——任何团队都可以检视、版本控制、手动编辑 Agent 学到的技能。对于需要可解释性和人机协作的生产场景（如编程 Agent、客服 Agent），这种「知识外化」的思路比黑盒 RL 更实用。代码已开源。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.18743"&gt;https://arxiv.org/abs/2603.18743&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/Memento-Teams/Memento-Skills"&gt;https://github.com/Memento-Teams/Memento-Skills&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3cce39ed-ebdd-5ee8-8cbc-29a28b39eca0</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:52 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.18743</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

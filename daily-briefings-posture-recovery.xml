@@ -4,7 +4,7 @@
     <title>体态恢复</title>
     <description>Per-topic feed: 体态恢复</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-posture-recovery.xml</link>
-    <lastBuildDate>Sun, 12 Apr 2026 03:16:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:03:47 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-posture-recovery.xml" type="application/rss+xml" />
@@ -691,6 +691,85 @@
       <category>posture-recovery</category>
       <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330665</link>
       <enclosure url="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0330665.g003&amp;size=inline" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🦴 前锯肌训练的盲区——你的神经驱动可能才是真正瓶颈</title>
+      <description>&lt;p&gt;你已经练了一阵子Push-Up Plus和Wall Slide，前锯肌（Serratus Anterior）应该越来越强了吧？不一定。2024年发表在&lt;em&gt;Journal of Musculoskeletal and Neuronal Interactions&lt;/em&gt;上的一项研究揭示了一个容易被忽视的问题：&lt;strong&gt;肩胛运动障碍（Scapular Dyskinesis）患者的前锯肌并非单纯"力量不够"，而是神经驱动（Neural Drive）本身出了问题。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;研究团队招募了32名无症状年轻人（13名对照组、19名存在肩胛运动障碍），用表面肌电分解技术分析了前锯肌在亚最大收缩时的运动单位特征。结果很清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;肩胛运动障碍组的高阈值运动单位振幅（Motor Unit Action Potential Amplitude）显著偏小——也就是说，负责产生大力量的那些运动单位根本没有被充分招募。&lt;/li&gt;
+&lt;li&gt;该组的平均放电频率（Mean Firing Rate）在所有招募阈值上都更低，说明中枢对前锯肌的神经驱动整体不足。&lt;/li&gt;
+&lt;li&gt;招募阈值出现"压缩"现象：肌肉激活集中在低力量水平，高阈值运动单位迟迟不上线。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a60/11145323/30e50ee7cf86/JMNI-24-148-g002.jpg" alt="对照组与肩胛运动障碍组运动单位振幅对比" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;对照组（左）与肩胛运动障碍组（右）高阈值运动单位振幅对比，障碍组明显偏小&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这意味着什么？如果你只做低负荷的Push-Up Plus或空手Wall Slide，可能一直在"用同一批运动单位打转"，那些真正需要被唤醒的大运动单位始终没有参与。研究者的建议是：训练负荷至少要达到&lt;strong&gt;最大自主收缩的30%（≥30% MVC）&lt;/strong&gt;才能有效刺激高阈值运动单位。&lt;/p&gt;
+
+&lt;p&gt;具体怎么操作？几个可以立刻尝试的调整：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;弹力带Push-Up Plus：&lt;/strong&gt;在肩胛骨周围套一条中等阻力弹力带，增加前推（Protraction）阶段的阻力。这比徒手版本能多招募约15-20%的前锯肌。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;负重Wall Slide：&lt;/strong&gt;之前已经知道手腕套弹力带能把前锯肌激活从32%提升到46% MVIC，现在再加一个维度——在弹力带基础上用更慢的离心速度（3秒上、3秒下），延长高阈值运动单位的激活时间。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;哑铃前锯肌上推（Dumbbell Serratus Punch）：&lt;/strong&gt;仰卧持哑铃做肩胛前推，负荷可以精确控制。从5kg开始，目标是做到8-12次觉得有挑战但动作不变形。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;放在你的康复阶段里，这属于Phase 2到Phase 4的过渡——前锯肌激活已经有基础了，下一步是用渐进阻力把神经驱动水平真正拉上来。不需要猛加重量，关键是超过那个30% MVC的门槛让大运动单位参与进来。&lt;/p&gt;
+
+&lt;p&gt;另一个值得注意的细节：2024-2025年多项研究都发现，&lt;strong&gt;把呼吸训练和肩胛稳定训练结合&lt;/strong&gt;比单独做肩胛训练效果更好。你已经在Phase 0做膈肌呼吸了，在做前锯肌训练时有意识地配合呼气前推、吸气归位，可以同时强化两个系统。&lt;/p&gt;
+
+&lt;p&gt;一句话总结：前锯肌练了没效果，问题可能不在训练动作，而在负荷太轻、神经驱动上不去。加点阻力，让大运动单位上线。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11145323/"&gt;Huang et al., JMNI, 2024&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11145323/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC11145323/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0684a338-dd0c-5256-84b5-6226ba5cbec9</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:02 +0000</pubDate>
+      <category>posture-recovery</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11145323/</link>
+      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a60/11145323/30e50ee7cf86/JMNI-24-148-g002.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🦴 深蹲和硬拉怎么练才不加重圆肩——UCS康复者的下肢训练指南</title>
+      <description>&lt;p&gt;上一篇聊了卧推，这次轮到深蹲和硬拉。很多UCS（Upper Crossed Syndrome）康复者进入Phase 4力量训练后，把注意力全放在推拉比上，却忽略了一个事实：&lt;strong&gt;下肢复合动作对胸椎的要求一点不比上肢训练低。&lt;/strong&gt;如果胸椎活动度不够，深蹲和硬拉时身体会自动找代偿——而这些代偿恰好会强化你正在努力纠正的圆肩模式。&lt;/p&gt;
+
+&lt;p&gt;先看深蹲的问题。杠铃后蹲需要胸椎保持一定伸展来稳住杠位。胸椎后凸严重的人蹲到底部时常见的情况是：杠铃往前滚到接近颈根部，上背塌陷，肩胛骨被迫进一步前倾。你越努力"挺胸"，上斜方肌和肩胛提肌就越紧张——正好是UCS代偿链里过度活跃的那些肌肉。&lt;/p&gt;
+
+&lt;p&gt;实用解法：&lt;strong&gt;安全深蹲杆（Safety Squat Bar, SSB）&lt;/strong&gt;。SSB的弧形设计让杠铃自然落在肩上，不需要双手后伸抓杆，完全绕过了胸椎伸展受限的瓶颈。它还有一个隐藏好处——SSB自带前倾力矩，迫使你的上背部肌群主动抗伸展，相当于在练腿的同时给胸椎伸展肌群做了等长训练。如果你的健身房没有SSB，高脚杯深蹲（Goblet Squat）是同样逻辑的替代方案：负重在前方，胸椎不需要额外伸展就能保持中立。&lt;/p&gt;
+
+&lt;p&gt;再看硬拉。2025年发表在&lt;em&gt;Frontiers in Sports and Active Living&lt;/em&gt;的研究用多节段脊柱模型追踪了13名训练者在60%-90% 1RM时的躯干运动，发现了一个清晰的规律：&lt;strong&gt;随着负荷增加，下胸椎和上腰椎区域的屈曲角度成比例增大，同时伴随骨盆后倾。&lt;/strong&gt;换句话说，即便是训练有素的人，重量一上去脊柱也会往前弯——而胸椎本身就僵硬的人，这个代偿来得更早、更明显。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.frontiersin.org/files/Articles/1682991/xml-images/fspor-07-1682991-g002.webp" alt="不同负荷下硬拉时各脊柱节段屈曲角度变化" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;不同负荷强度（60%-90% 1RM）下硬拉时脊柱各节段屈曲角度变化，下胸椎区域随负荷增加弯曲最显著&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;对UCS康复者的具体建议：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;六角杠硬拉（Trap Bar Deadlift）优先：&lt;/strong&gt;负重中心更接近身体质心，对胸椎伸展的需求远低于传统杠铃硬拉。2023年的生物力学对比研究显示六角杠硬拉的脊柱弯矩比传统硬拉低约10-15%。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;壶铃硬拉作为入门：&lt;/strong&gt;和上面的逻辑一致——负重在两腿之间，双臂自然下垂，肩胛骨可以维持中立而不被杠铃拉成前倾。先把髋铰链的动作模式练扎实，再考虑上杠铃。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;负荷控制在80% 1RM以下：&lt;/strong&gt;根据Frontiers的数据，80%到90%之间是脊柱代偿急剧增加的区间。康复阶段没必要冲大重量，3×5-8 @ 70-75% 1RM就能获得足够的力量刺激。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;每组前做一次胸椎伸展"启动"：&lt;/strong&gt;在深蹲/硬拉架前做3-5次泡沫轴分节段伸展，把胸椎"唤醒"。这不是替代你日常的Phase 1训练，而是利用训练前的窗口期让胸椎在随后的负重动作中有更好的活动度表现。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最后一点关于训练量。对UCS康复者来说，深蹲和硬拉的认知负荷很高——你需要同时管理呼吸、核心支撑、胸椎位置和动作节奏。动作越复杂，组数和次数就应该越保守。2-3组、每组5-8次，比4×12的疲劳训练更合适。疲劳状态下胸椎第一个塌掉，而你的目标是在整个训练过程中维持姿势质量。&lt;/p&gt;
+
+&lt;p&gt;这两个动作放在Phase 4的位置是对的，但"推拉比1:1.5-2"之外还需要一个原则：&lt;strong&gt;下肢训练时把胸椎位置当作限制因子&lt;/strong&gt;——是胸椎决定你能加多少重量，不是腿。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1682991/full"&gt;Frontiers in Sports and Active Living, 2025&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1682991/full"&gt;https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1682991/full&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9c824222-e052-54aa-bb65-ff9af94ba7e9</guid>
+      <pubDate>Sun, 12 Apr 2026 08:03:47 +0000</pubDate>
+      <category>posture-recovery</category>
+      <link>https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1682991/full</link>
+      <enclosure url="https://www.frontiersin.org/files/Articles/1682991/xml-images/fspor-07-1682991-g002.webp" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
