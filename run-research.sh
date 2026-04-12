@@ -71,7 +71,17 @@ spawn_workers() {
         IFS='|' read -r topic_id target_or_gap model extra_prompt <<< "$line"
         echo "  [$round_name] $topic_id (target: $target_or_gap, model: $model)"
 
+        # Pre-fetch recently covered subjects so the worker sees them in the prompt
+        local covered
+        covered=$($PYTHON feed.py state "$topic_id" 2>/dev/null | sed -n '/^=== RECENTLY COVERED/,/^===/p' || true)
+
         local prompt="@research-worker Process topic '$topic_id' with run-id '$RUN_ID'. Your target is $target_or_gap entries."
+        if [ -n "$covered" ]; then
+            prompt="$prompt
+
+$covered
+Do NOT write entries about subjects listed above unless you have genuinely new facts."
+        fi
         if [ -n "$extra_prompt" ]; then
             prompt="$prompt $extra_prompt"
         fi
