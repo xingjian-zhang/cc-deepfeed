@@ -2,28 +2,10 @@
 <opml version="2.0">
   <head>
     <title>RSS Research Feeds</title>
-    <dateCreated>Sun, 12 Apr 2026 08:23:10 +0000</dateCreated>
+    <dateCreated>Sun, 12 Apr 2026 16:06:30 +0000</dateCreated>
   </head>
   <body>
-    <outline text="Jimmy's Personalized Feed" title="Jimmy's Personalized Feed">
-      <outline type="rss" text="Jimmy's Personalized Feed (All)" title="Jimmy's Personalized Feed (All)" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="Meta SI Lab 动态" title="Meta SI Lab 动态" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-meta-news.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="新科技与电子产品" title="新科技与电子产品" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="足球赛事动态" title="足球赛事动态" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-soccer.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="密歇根大学与安娜堡动态" title="密歇根大学与安娜堡动态" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-umich-a2.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="LLM Agent、RL 与长期记忆前沿" title="LLM Agent、RL 与长期记忆前沿" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="每日冷知识深潜" title="每日冷知识深潜" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-random-knowledge.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="Claude Code 与编程智能体" title="Claude Code 与编程智能体" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="湾区生活指南" title="湾区生活指南" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-bay-area-life.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="职业成长与实习攻略" title="职业成长与实习攻略" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-career-growth.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="新游戏速报" title="新游戏速报" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-games-new.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="心智成长与思维模型" title="心智成长与思维模型" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-mindset-growth.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="氛围电子与音乐发现" title="氛围电子与音乐发现" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-music-discovery.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="力量训练与运动科学" title="力量训练与运动科学" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="体态恢复" title="体态恢复" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-posture-recovery.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="博士生存指南" title="博士生存指南" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-phd-survival.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-      <outline type="rss" text="AI 行业情报" title="AI 行业情报" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
-    </outline>
+    <outline type="rss" text="Jimmy's Personalized Feed" title="Jimmy's Personalized Feed" xmlUrl="https://xingjianz.com/cc-deepfeed/daily-briefings.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
     <outline type="rss" text="Rachel's Personalized Feed" title="Rachel's Personalized Feed" xmlUrl="https://xingjianz.com/cc-deepfeed/rachel-briefings.xml" htmlUrl="https://xingjianz.com/cc-deepfeed" />
   </body>
 </opml>
