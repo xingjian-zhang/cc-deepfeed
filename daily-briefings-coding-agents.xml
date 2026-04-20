@@ -4,7 +4,7 @@
     <title>Claude Code 与编程智能体</title>
     <description>Per-topic feed: Claude Code 与编程智能体</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml</link>
-    <lastBuildDate>Mon, 20 Apr 2026 03:47:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:05:13 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-coding-agents.xml" type="application/rss+xml" />
@@ -1240,6 +1240,107 @@
       <category>coding-agents</category>
       <link>https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli/</link>
       <enclosure url="https://github.blog/wp-content/uploads/2026/04/579036805-3f7f7fc2-dbfe-45d2-8041-40fe09703047.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 JetBrains 万人调查：Claude Code 半年认知度翻倍、满意度登顶，编程智能体格局正在重写</title>
+      <description>&lt;h2&gt;90% 的开发者已在工作中使用 AI 工具&lt;/h2&gt;
+&lt;p&gt;JetBrains 于 2026 年 4 月发布了一份覆盖全球超过一万名专业开发者的调查（数据采集于 2026 年 1 月）。核心数字令人瞩目：&lt;strong&gt;90% 的开发者在工作中至少定期使用一种 AI 工具&lt;/strong&gt;，74% 已采用专门的 AI 编程工具（而非通用聊天机器人）。AI 辅助编程已从「尝鲜」彻底转变为「标配」。&lt;/p&gt;
+
+&lt;h2&gt;Claude Code 增速最快，满意度最高&lt;/h2&gt;
+&lt;p&gt;在具体工具排名中，GitHub Copilot 仍以 76% 的认知度和 29% 的职场采用率位居第一，在 5000 人以上大企业中采用率更高达 40%。但真正的亮点是 Claude Code：&lt;strong&gt;从 2025 年中的 31% 认知度跃升到 2026 年 1 月的 57%&lt;/strong&gt;，职场采用率在同期实现了&lt;strong&gt;六倍增长&lt;/strong&gt;，目前与 Cursor 并列第二，均为 18%。在北美市场，Claude Code 采用率已达 24%。&lt;/p&gt;
+&lt;p&gt;更引人注目的是用户忠诚度指标：Claude Code 的 CSAT（满意度）达到 &lt;strong&gt;91%&lt;/strong&gt;，NPS（净推荐值）为 &lt;strong&gt;54&lt;/strong&gt;，均为市场最高。这意味着用它的人不仅满意，还在积极向同事推荐。相比之下，Copilot 虽然用户基数大，但增长已趋于平台期。&lt;/p&gt;
+
+&lt;h2&gt;市场正从「一家独大」走向「三足鼎立」&lt;/h2&gt;
+&lt;p&gt;调查揭示了一个清晰的市场格局转变：Copilot 凭借 GitHub 生态和企业渠道依然领先，但 Claude Code 和 Cursor 正在快速追赶。Google 的 Antigravity 于 2024 年 11 月上线，到 2026 年 1 月已获得 6% 的采用率，显示第四极也在形成。&lt;/p&gt;
+&lt;p&gt;传统聊天机器人方面，ChatGPT 仍有 28% 的开发者在编程中使用，但这一数字在专用工具崛起后逐渐被分流。JetBrains 自家的 AI Assistant 和 Junie 合计服务了 11% 的开发者。&lt;/p&gt;
+
+&lt;h2&gt;满意度与采用率的背离值得深思&lt;/h2&gt;
+&lt;p&gt;这份调查最有意思的发现或许是满意度与市场份额的错位：Claude Code 满意度最高但份额仅 18%，Copilot 份额最大但增长停滞。历史上，这种「满意度领先、份额追赶」的模式往往预示着市场即将翻转——当满意用户的口碑效应积累到临界点，增长曲线会急剧上扬。&lt;/p&gt;
+&lt;p&gt;对开发者而言，数据传递的信号很明确：&lt;strong&gt;编程智能体的竞争远未结束，现在正是尝试多种工具、找到最适合自己工作流的最佳时机&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/"&gt;https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8e523697-4bc7-5220-8ec7-5ae2659965ae</guid>
+      <pubDate>Mon, 20 Apr 2026 08:03:58 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/</link>
+    </item>
+    <item>
+      <title>💻 OpenAI 为 Claude Code 发布官方插件 codex-plugin-cc：跨厂商代码审查成为新范式</title>
+      <description>&lt;h2&gt;竞争对手给对手做插件？&lt;/h2&gt;
+&lt;p&gt;2026 年 3 月 30 日，OpenAI 在 GitHub 上发布了 &lt;code&gt;codex-plugin-cc&lt;/code&gt;——一个让开发者在 Claude Code 内部直接调用 Codex 进行代码审查和任务委托的官方插件。没错，&lt;strong&gt;OpenAI 主动为 Anthropic 的产品写了插件&lt;/strong&gt;。这在 AI 行业的竞争史上几乎没有先例，信号很明确：编程智能体的未来不是围墙花园，而是可组合的多模型工作流。&lt;/p&gt;
+
+&lt;h2&gt;它是怎么工作的&lt;/h2&gt;
+&lt;p&gt;技术上，codex-plugin-cc 是一个 MCP（Model Context Protocol）服务器，将 Codex CLI 的能力暴露为 Claude Code 可调用的工具。安装方式简洁：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/plugin marketplace add openai/codex-plugin-cc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;插件通过本地 Codex CLI 和 Codex App Server 代理请求，复用开发者已有的认证和配置，不需要额外的运行时环境。&lt;/p&gt;
+
+&lt;h2&gt;核心命令一览&lt;/h2&gt;
+&lt;p&gt;插件提供两种审查模式和一套任务委托系统：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;/codex:review&lt;/code&gt;&lt;/strong&gt;：标准代码审查，可对未提交更改或分支差异进行结构化检查，作为「中立第二意见」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;/codex:adversarial-review&lt;/code&gt;&lt;/strong&gt;：对抗性审查，会主动质疑设计决策、权衡取舍和隐含假设，支持自定义关注点文本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;/codex:rescue&lt;/code&gt;&lt;/strong&gt;：将任务交给 Codex 进行调查、修复或接续工作&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;/codex:status&lt;/code&gt; / &lt;code&gt;/codex:result&lt;/code&gt;&lt;/strong&gt;：监控和获取后台任务结果，支持通过 session ID 在 Codex 中恢复会话&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;配置通过 &lt;code&gt;.codex/config.toml&lt;/code&gt; 管理，支持用户级和项目级覆盖，可设定默认模型（如 &lt;code&gt;gpt-5.4-mini&lt;/code&gt;）和推理强度。&lt;/p&gt;
+
+&lt;h2&gt;为什么跨厂商审查很重要&lt;/h2&gt;
+&lt;p&gt;让同一个模型既写代码又审查代码，存在结构性偏差——模型倾向于认同自己的输出（所谓 sycophancy bias）。跨厂商审查打破了这一闭环：&lt;strong&gt;Claude 写代码，Codex 审查；或者反过来&lt;/strong&gt;。这本质上是把「双人编程」中的制衡逻辑搬到了 AI 工作流中。&lt;/p&gt;
+&lt;p&gt;对抗性审查模式尤其值得关注——它不只是找 bug，而是追问「为什么选这个方案而不是另一个？这里的失败模式是什么？」这类问题正是人类 code review 中最有价值、也最容易被跳过的部分。&lt;/p&gt;
+
+&lt;h2&gt;行业信号&lt;/h2&gt;
+&lt;p&gt;OpenAI 选择嵌入竞争对手的生态而非对抗，说明 AI 编程工具市场正在从「抢用户」转向「抢工作流中的位置」。开发者不会忠于单一厂商，谁能在多模型管道中占据关键节点，谁就能获得持续的 API 调用量。&lt;strong&gt;互操作性正在从技术理想变成商业策略。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/openai/codex-plugin-cc"&gt;https://github.com/openai/codex-plugin-cc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186"&gt;https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ac7b8275-f92d-578e-85dc-cf2f8bace6e6</guid>
+      <pubDate>Mon, 20 Apr 2026 08:04:34 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://github.com/openai/codex-plugin-cc</link>
+      <enclosure url="https://opengraph.githubassets.com/7ae6036705d69177322988b7c990d9e22f8fbeb7381bd3ee8f01a43045b8c2ee/openai/codex-plugin-cc" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>💻 Windsurf 2.0 发布：IDE 变身 Agent 指挥中心，Devin 一键云端执行</title>
+      <description>&lt;h2&gt;从代码编辑器到智能体调度台&lt;/h2&gt;
+&lt;p&gt;2026 年 4 月 15 日，Cognition AI 旗下的 Windsurf 发布 2.0 版本，核心卖点是将 IDE 从「写代码的地方」重新定义为「管理多个 AI 智能体的指挥中心」。新增的 &lt;strong&gt;Agent Command Center&lt;/strong&gt; 提供看板（Kanban）视图，将本地运行的 Cascade 会话和云端运行的 Devin 会话统一展示，开发者可以在一个界面中同时监控和管理数十个智能体。&lt;/p&gt;
+
+&lt;h2&gt;Spaces：多智能体任务的上下文容器&lt;/h2&gt;
+&lt;p&gt;Windsurf 2.0 引入了 &lt;strong&gt;Spaces&lt;/strong&gt; 概念，将智能体会话、Pull Request、相关文件和共享上下文打包为一个逻辑单元。切换任务时不再需要重建上下文——每个 Space 保留了完整的项目状态和对话历史。这解决了多智能体工作流中一个常见痛点：当你同时跑五六个 agent 处理不同功能时，上下文管理本身就成了一项负担。&lt;/p&gt;
+
+&lt;h2&gt;Devin 内嵌：本地规划、云端执行的闭环&lt;/h2&gt;
+&lt;p&gt;最引人注目的变化是 &lt;strong&gt;Devin 的原生集成&lt;/strong&gt;。工作流很直观：用 Cascade（本地智能体）分析代码库、制定计划，然后一键将任务交给 Devin 在云端执行。Devin 运行在独立的虚拟机上，拥有完整的桌面环境、浏览器和计算机视觉能力，可以：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自主完成调试、测试和部署&lt;/li&gt;
+&lt;li&gt;在你合上笔记本后继续工作&lt;/li&gt;
+&lt;li&gt;打开 Pull Request 并运行测试&lt;/li&gt;
+&lt;li&gt;管理并行的子智能体&lt;/li&gt;
+&lt;li&gt;自行安排后续工作计划&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;完成后，开发者可以直接在 Windsurf 中审查 diff、跑测试，或把结果交回本地智能体做微调。&lt;/p&gt;
+
+&lt;h2&gt;定价与可用性&lt;/h2&gt;
+&lt;p&gt;Devin 包含在 Pro、Max 和 Teams 计划中，消耗统一的 Windsurf 配额。新关联 GitHub 账号的用户可获得最多 50 美元的额外使用额度。企业版需要管理员启用并购买 Cognition Platform 访问权限。&lt;/p&gt;
+
+&lt;h2&gt;从收购到产品融合&lt;/h2&gt;
+&lt;p&gt;Cognition AI 于 2025 年 7 月收购 Windsurf（前身 Codeium），当时承诺保持 Windsurf 作为独立产品。此次 2.0 发布标志着从「合作伙伴关系」到「深度产品融合」的转变——Devin 不再是可选集成，而是 Windsurf 体验的核心组件。&lt;/p&gt;
+&lt;p&gt;这一模式——&lt;strong&gt;本地 IDE 负责理解和规划，云端智能体负责执行和持续运行&lt;/strong&gt;——可能定义编程智能体的下一个形态。与 Cursor 3 的多智能体窗口、Claude Code 的远程执行模式形成三种不同的「本地+云端」路径，编程工具的竞争正在从「谁的模型更好」转向「谁的智能体编排更顺畅」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://cognition.ai/blog/devin-in-windsurf"&gt;https://cognition.ai/blog/devin-in-windsurf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.testingcatalog.com/windsurf-2-0-adds-devin-and-agent-command-center/"&gt;https://www.testingcatalog.com/windsurf-2-0-adds-devin-and-agent-command-center/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ede11a6d-45bd-50fe-902c-3428dc1f8db1</guid>
+      <pubDate>Mon, 20 Apr 2026 08:05:13 +0000</pubDate>
+      <category>coding-agents</category>
+      <link>https://cognition.ai/blog/devin-in-windsurf</link>
+      <enclosure url="https://cdn.sanity.io/images/2mc9cv2v/production/bb221a5111f8458409d290a5111304f162a638af-1440x1080.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>力量训练与运动科学</title>
     <description>Per-topic feed: 力量训练与运动科学</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml</link>
-    <lastBuildDate>Mon, 20 Apr 2026 03:46:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:05:21 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-fitness-science.xml" type="application/rss+xml" />
@@ -1073,6 +1073,89 @@
       <pubDate>Mon, 20 Apr 2026 03:46:06 +0000</pubDate>
       <category>fitness-science</category>
       <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12780320/</link>
+    </item>
+    <item>
+      <title>💪 泵感、激素飙升、代谢压力——Phillips团队综述逐一拆解增肌四大迷思</title>
+      <description>&lt;p&gt;McMaster大学Stuart Phillips实验室联合Jeff Nippard，在&lt;strong&gt;Journal of Sport and Health Science&lt;/strong&gt;（2025年11月）发表了一篇面向教练和训练者的综述，系统清理了力量训练领域最顽固的几个错误观念。核心结论只有一句话：机械张力（Mechanical Tension）是肌肥大的唯一必要驱动力，其余变量充其量是配角。&lt;/p&gt;
+
+&lt;p&gt;被拆解的迷思包括四个：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;训练后睾酮/GH飙升能促增肌&lt;/strong&gt;——不能。无论男女，急性激素波动对肌蛋白合成和长期肌肥大结果没有因果影响。那些「做完深蹲全身激素爆炸」的说法可以停了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代谢压力是增肌的独立驱动力&lt;/strong&gt;——证据不成立。代谢物堆积确实存在，但缺乏因果链证明它能绕过机械张力独立刺激肌纤维生长。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;泵感（Cell Swelling）等于增长信号&lt;/strong&gt;——同样缺乏因果证据。泵感让你感觉很好，但它不是肌肥大的机制。把追求泵感当目标来编排训练，属于方向性错误。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;肌浆肥大（Sarcoplasmic Hypertrophy）是一种独立的、有功能意义的适应&lt;/strong&gt;——证据薄弱。肌纤维增粗主要靠肌原纤维蛋白的累积（Myofibrillar Protein Accretion），而不是细胞液体或非收缩蛋白的膨胀。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;那真正驱动增肌的通路是什么？综述确认了一条清晰的信号链：机械张力 → 力学传导（Mechanotransduction） → mTOR信号通路 → 核糖体生物合成（Ribosome Biogenesis） → 卫星细胞激活 → 肌原纤维生成。表观遗传调控在这个过程中也起作用，但最上游的开关始终是负荷施加的机械张力。&lt;/p&gt;
+
+&lt;p&gt;综述还校准了增肌预期：训练新手在8-12周内可以获得约1-2公斤去脂体重，之后增速递减。这个数字比很多健身博主暗示的要保守得多，但它来自对照实验，不是镜子里的感觉。&lt;/p&gt;
+
+&lt;p&gt;对实际训练的启示很直接：编排计划时优先考虑渐进式超负荷（Progressive Overload）和足够的训练量，而不是追求泵感、代谢疲劳或「激素优化」。Phillips团队的这篇综述不算颠覆性新闻——机械张力假说在圈内已成主流——但它把散落的证据整理成了一个统一框架，对仍然迷信泵感和激素窗口的训练者有纠偏价值。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S2095254625000869"&gt;https://www.sciencedirect.com/science/article/pii/S2095254625000869&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41276164/"&gt;https://pubmed.ncbi.nlm.nih.gov/41276164/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">18bd84e1-6867-55cb-b9c2-9c1c59c21786</guid>
+      <pubDate>Mon, 20 Apr 2026 08:03:31 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.sciencedirect.com/science/article/pii/S2095254625000869</link>
+    </item>
+    <item>
+      <title>💪 线性还是波动周期化？29项研究704人的元分析：别纠结了，效果差不多</title>
+      <description>&lt;p&gt;该选线性周期化（Linear Periodization, LP）还是波动周期化（Undulating Periodization, UP）？这个问题在健身论坛上能吵出几百页帖子。Zhang等人2026年3月发表在&lt;strong&gt;Frontiers in Public Health&lt;/strong&gt;的系统综述和元分析，用29项研究、704名受试者的数据给了一个让争论双方都有点扫兴的回答：没有显著差别。&lt;/p&gt;
+
+&lt;p&gt;先说结论。上肢力量SMD = 0.08，下肢力量SMD = 0.08，95%置信区间都跨过零线——也就是说，不管你是每周一三五大中小（UP），还是从高量低强度线性推进到低量高强度（LP），力量增幅在统计上没区别。短跑速度和爆发力同样如此。&lt;/p&gt;
+
+&lt;p&gt;体成分方面也基本打平，体重、BMI、体脂率、瘦体重都没看到一种方案比另一种更好。但有一个例外值得注意：在肥胖人群的亚组分析中，波动周期化在增加瘦体重方面显著优于线性方案（SMD = 1.17, 95% CI [0.23-2.10]）。研究者推测，频繁切换训练刺激可能对肥胖个体的代谢应答更有利。&lt;/p&gt;
+
+&lt;p&gt;血糖和胰岛素抵抗指标也被纳入分析——两种方案效果相当，只有在男性亚组中波动周期化显示出微弱优势，但整体差异不显著。&lt;/p&gt;
+
+&lt;p&gt;实用建议其实很简单：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;竞技运动员——两种都行，选你能坚持的。&lt;/li&gt;
+&lt;li&gt;肥胖人群做体成分优化——可以优先考虑波动方案。&lt;/li&gt;
+&lt;li&gt;短期减脂冲刺（6-8周）——波动周期化可能略有优势。&lt;/li&gt;
+&lt;li&gt;长期体重管理——线性方案的渐进结构更适合维持纪律。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这项研究本身有局限——29项RCT中样本量参差不齐，干预时长从4周到24周不等，训练人群从大学生到老年人跨度很大。但恰恰是在这种高异质性下两种方案仍然打平，反而更说明：周期化模型的选择远不如训练的一致性和总量重要。与其在Excel里花两小时排每日负荷波动，不如确保自己每周真的去练了四次。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1707627/full"&gt;https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1707627/full&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f6256d50-c55f-5211-b803-dc6322cb2074</guid>
+      <pubDate>Mon, 20 Apr 2026 08:03:56 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1707627/full</link>
+    </item>
+    <item>
+      <title>💪 训练量存在天花板：157项RCT揭示力量增长的非线性剂量效应</title>
+      <description>&lt;p&gt;练得越多就越强？不一定。La Trobe大学Lyristakis和Gordon团队在&lt;strong&gt;Sports Medicine&lt;/strong&gt;（2026年）发表的系统综述与元分析，用157项RCT的数据，给出了力量训练剂量效应的精确拐点。&lt;/p&gt;
+
+&lt;p&gt;研究者提出了一个统一的「训练剂量」公式：&lt;strong&gt;dosage = 组数 x 次数 x 动作数 x 强度 x 频率 x 周期长度&lt;/strong&gt;，单位为任意单位（arbitrary units, au）。这个公式把所有训练变量压缩成一个数字，然后对胸部和股四头肌两个肌群分别做了元回归分析。&lt;/p&gt;
+
+&lt;p&gt;核心发现：力量增长与训练剂量之间是&lt;strong&gt;非线性关系&lt;/strong&gt;。胸部力量在约887,000 au处达到平台——超过这个剂量，继续增加训练量不再带来额外力量增长。股四头肌的平台更低，大约在773,000 au。换句话说，不同肌群的「够了就是够了」阈值不同。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是变量之间的交互效应。研究发现影响力量的关键变量在不同肌群间并不一致——对胸部力量最重要的变量组合，跟对股四头肌最重要的可能不同。这挑战了「一套方案练全身」的万能模板思路，暗示训练处方需要按肌群定制。&lt;/p&gt;
+
+&lt;p&gt;频率、性别和年龄作为分类变量也被纳入元回归。虽然搜索结果没有披露所有亚组数据，但研究的整体框架指向一个实用结论：力量训练的边际收益递减是真实存在的，识别自己的训练量天花板比盲目堆量更有效率。&lt;/p&gt;
+
+&lt;p&gt;这和Pelland 2026年初发表的Bayesian元回归结论一致——那项研究同样发现训练量对肌肥大和力量的效应存在显著的递减趋势，且力量的递减比肌肥大更明显。两项独立的大规模元分析指向同一方向：对于中高级训练者，更多未必更好。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1007/s40279-026-02432-5"&gt;https://link.springer.com/article/10.1007/s40279-026-02432-5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0262674"&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0262674&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4114cf3d-2340-554c-9c40-b43118a99df2</guid>
+      <pubDate>Mon, 20 Apr 2026 08:05:21 +0000</pubDate>
+      <category>fitness-science</category>
+      <link>https://link.springer.com/article/10.1007/s40279-026-02432-5</link>
+      <enclosure url="https://static-content.springer.com/image/art%3A10.1007%2Fs40279-026-02432-5/MediaObjects/40279_2026_2432_Fig1_HTML.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

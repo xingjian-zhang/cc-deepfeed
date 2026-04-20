@@ -4,7 +4,7 @@
     <title>AI 行业情报</title>
     <description>Per-topic feed: AI 行业情报</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml</link>
-    <lastBuildDate>Mon, 20 Apr 2026 03:46:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:06:08 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-ai-industry.xml" type="application/rss+xml" />
@@ -1237,6 +1237,108 @@
       <category>ai-industry</category>
       <link>https://www.consumerfinancemonitor.com/2026/04/08/the-white-houses-national-policy-framework-for-artificial-intelligence-what-it-means-and-what-comes-next/</link>
       <enclosure url="https://images.bannerbear.com/direct/y0aJ23zRDdqMxX4OGl/requests/000/140/421/014/0eb715rd3zLXZro8zBPpEmKay/93e67c22ee8912eeac6e43a1e2ad412ebe97b01d.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 「Claude狂热」席卷硅谷：HumanX大会见证AI行业权力交接</title>
+      <description>&lt;h2&gt;从追赶者到话题中心&lt;/h2&gt;
+&lt;p&gt;4月初的旧金山HumanX大会上，6700名科技高管和投资人聚在一起讨论AI的未来。但今年的主角不再是OpenAI——所有人都在谈论Anthropic和它的Claude。CNBC将这种现象命名为「Claude Mania」（Claude狂热），企业AI公司Glean的CEO Arvind Jain直言：Claude Code正在给所有企业领导者施加部署压力。&lt;/p&gt;
+
+&lt;p&gt;这不是空穴来风。根据企业支出管理平台Ramp的数据，在其付费企业客户中，Anthropic的支出占比已达30.6%，仅比OpenAI的35.2%低不到5个百分点——而一个月前这个差距还是近12个百分点。按照这个速度，Ramp预测Anthropic将在两个月内超越OpenAI。&lt;/p&gt;
+
+&lt;h2&gt;Claude Code：「少即是多」的产品哲学&lt;/h2&gt;
+&lt;p&gt;Anthropic的崛起路径颇为反直觉。当竞争对手纷纷扩展到视频生成（Sora）、语音助手、广告系统时，Anthropic选择了极度聚焦：不做视频，不做语音，只做代码生成和企业工具。Synthesia的CEO将此归因于Anthropic的「纪律性」——在AI军备竞赛中，克制反而成了最大的竞争优势。&lt;/p&gt;
+
+&lt;p&gt;Claude Code是这一策略的集中体现。作为一款编程智能体，它的年化收入（ARR）已达25亿美元，成为Anthropic整体ARR逼近190亿美元的核心引擎。相比之下，OpenAI虽然以250亿美元ARR领先，但近期的战略摇摆——放弃Sora、在ChatGPT中植入广告、与特朗普政府合作引发争议——让行业对其战略一致性产生了疑虑。&lt;/p&gt;
+
+&lt;h2&gt;行业领导力的重新定义&lt;/h2&gt;
+&lt;p&gt;TechCrunch的报道中有一个细节值得玩味：一位参会厂商直言他的团队更偏爱Claude，并称OpenAI已经「fell off」（掉队）。虽然这只是一个人的观点，但它折射出更深层的行业情绪变化。在Artificial Analysis的综合智能指数上，GPT-5.4和Gemini 3.1 Pro并列第一，Claude Mythos 5因ASL-4安全协议触发而未公开发布——这本身就是一种「实力的证明」：有能力构建最强模型，但选择不发布。&lt;/p&gt;
+
+&lt;p&gt;Sierra CEO Bret Taylor（前Salesforce联席CEO）试图为Sam Altman辩护，称他「了不起」且值得信任。但这种辩护本身就说明了问题——当行业领袖需要被公开辩护时，权力天平已经开始倾斜。&lt;/p&gt;
+
+&lt;h2&gt;值得关注的信号&lt;/h2&gt;
+&lt;p&gt;这场「Claude狂热」背后有几个值得追踪的深层趋势：第一，企业AI市场正从「通用聊天机器人」转向「垂直编程工具」，这对商业模式有根本性影响；第二，Anthropic的聚焦策略是否可持续——当编程智能体市场趋于饱和时，它是否需要扩展产品线？第三，OpenAI的IPO计划是否会因市场份额流失而受到影响？这些问题的答案，可能在未来两个季度内逐渐清晰。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/04/11/vibe-check-from-ai-industry-humanx-anthropic-is-talk-of-the-town.html"&gt;https://www.cnbc.com/2026/04/11/vibe-check-from-ai-industry-humanx-anthropic-is-talk-of-the-town.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/"&gt;https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ab6224bc-fba8-5f9d-a937-874714379b4b</guid>
+      <pubDate>Mon, 20 Apr 2026 08:05:04 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.cnbc.com/2026/04/11/vibe-check-from-ai-industry-humanx-anthropic-is-talk-of-the-town.html</link>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/108290017-1775848878142-gettyimages-2269887537-boivin-notitle260408_npSXr.jpeg?v=1776328490&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 PwC重磅报告：20%的企业拿走了AI 74%的经济红利，剩下的在「陪跑」</title>
+      <description>&lt;h2&gt;7.2倍的鸿沟&lt;/h2&gt;
+&lt;p&gt;PwC最新发布的2026年AI绩效研究报告揭示了一个令人不安的事实：在全球范围内，仅20%的企业获取了AI驱动的74%的经济价值。这些领先企业的AI收入和效率收益是平均水平的7.2倍。更残酷的是，56%的CEO表示AI至今未带来显著的财务回报——换句话说，超过一半的企业在AI上的投入本质上是「沉没成本」。&lt;/p&gt;
+
+&lt;p&gt;这份报告基于对25个行业、1217名高管（总监级及以上）的调查，覆盖全球多个区域，样本的广度和深度使结论具有相当的说服力。&lt;/p&gt;
+
+&lt;h2&gt;赢家在做什么不同的事？&lt;/h2&gt;
+&lt;p&gt;报告的核心发现是：区分赢家和输家的不是技术投入的多少，而是战略定位的差异。&lt;/p&gt;
+
+&lt;p&gt;首先，领先企业用AI追求增长而非仅仅降本。它们将AI视为进入新市场、创造新收入流的工具，而不仅仅是提高现有流程效率的手段。这些企业追求「行业融合」（industry convergence）——利用AI突破传统行业边界，进入相邻市场。报告指出，行业融合是影响AI财务表现的最强因子，其影响力甚至超过了效率提升。&lt;/p&gt;
+
+&lt;p&gt;其次，领先企业围绕AI重新设计工作流程，而非简单地将AI工具叠加到现有流程上。它们这样做的可能性是落后企业的两倍。这意味着真正的AI转型不是「给现有系统加个AI功能」，而是「从零思考如果有AI，这个流程应该怎么设计」。&lt;/p&gt;
+
+&lt;p&gt;第三，它们在部署前就建立了治理框架。拥有预部署治理的企业获得有意义回报的可能性是没有治理的企业的三倍。&lt;/p&gt;
+
+&lt;h2&gt;80/20法则的反转&lt;/h2&gt;
+&lt;p&gt;报告中最有洞见的发现或许是一个反直觉的80/20法则：技术本身只占AI项目价值的约20%，而工作流重新设计、治理体系、员工再培训和效果衡量占了剩余的80%。然而，大多数企业的投入恰恰是反过来的——重金砸在工具采购上，对组织变革却投入不足。&lt;/p&gt;
+
+&lt;p&gt;这解释了为什么CEO信心跌至五年新低——只有30%的CEO对收入增长持乐观态度，低于2025年的38%。不是AI技术不行，而是大多数企业还没学会如何真正「用好」AI。&lt;/p&gt;
+
+&lt;h2&gt;对行业的启示&lt;/h2&gt;
+&lt;p&gt;这份报告对AI行业本身也有深刻启示。当56%的企业看不到AI回报时，这既是风险也是机会。风险在于，如果这种「AI疲劳」蔓延，企业AI支出增速可能在2026年下半年放缓。机会在于，那些能帮助企业跨越「从试点到价值」鸿沟的AI供应商——特别是提供工作流重新设计和变革管理服务的——将成为下一阶段的赢家。AI行业正在从「卖工具」转向「卖成果」，这个转变可能比底层模型的进步更能决定谁最终胜出。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html"&gt;https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.humai.blog/74-of-ais-economic-value-goes-to-20-of-companies-pwcs-new-study-explains-why/"&gt;https://www.humai.blog/74-of-ais-economic-value-goes-to-20-of-companies-pwcs-new-study-explains-why/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7c0628fe-ae44-59ad-8546-4079444fe75b</guid>
+      <pubDate>Mon, 20 Apr 2026 08:05:36 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html</link>
+      <enclosure url="https://www.pwc.com/gx/en/news-room/assets/news-releases/global-ai-study-newsroom.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🏭 Stanford AI Index 2026：六组数据重新定义你对AI行业的认知</title>
+      <description>&lt;h2&gt;5810亿美元：一年翻倍的资本洪流&lt;/h2&gt;
+&lt;p&gt;Stanford HAI发布的2026年AI指数报告再次成为理解AI行业全貌的必读文件。第一个冲击性数字：2025年全球企业AI投资总额达5810亿美元，是2024年2530亿美元的2.3倍，也远超2021年3600亿美元的前纪录。其中美国吸收了3440亿美元，占全球近六成。这不再是增长，而是某种形式的「资本相变」。&lt;/p&gt;
+
+&lt;h2&gt;工业界全面接管：90%的前沿模型来自企业&lt;/h2&gt;
+&lt;p&gt;报告记录了一个静默完成的权力转移：2025年美国发布了50个值得关注的AI模型，但其中超过90%来自工业界，而2015年这个比例仅约50%。学术界在前沿模型开发中的角色已从「主力」退居为「配角」。这意味着AI的研究议程越来越多地由商业利益而非学术好奇心驱动——对基础研究的长期影响值得警惕。&lt;/p&gt;
+
+&lt;p&gt;不过学术界在论文产出上仍然占据主导：AI相关计算机科学论文达25.8万篇（十年前的2.5倍），其中68%来自学术机构。学术界的困境不是缺乏想法，而是缺乏将想法变成前沿模型的算力资源。&lt;/p&gt;
+
+&lt;h2&gt;算力版图：Nvidia的60%垄断&lt;/h2&gt;
+&lt;p&gt;全球AI算力容量自2022年以来每年增长3.3倍，较2021年增长了30倍。但这种增长高度集中——Nvidia控制了全球AI算力的60%以上，Amazon和Google分列二三位。这种「算力寡头」格局意味着AI行业的命脉掌握在极少数公司手中。&lt;/p&gt;
+
+&lt;h2&gt;碳排放的指数级增长&lt;/h2&gt;
+&lt;p&gt;训练成本的环境代价同样触目惊心。xAI的Grok 4训练排放了约72000吨二氧化碳当量（部分估算高达14万吨），而GPT-4为5184吨，Llama 3.1 405B为8930吨。从GPT-4到Grok 4，碳排放增长了14-27倍。报告还发现不同模型的推理效率存在10倍差异，这意味着模型选择本身就是一个环境决策。&lt;/p&gt;
+
+&lt;h2&gt;就业市场的悖论&lt;/h2&gt;
+&lt;p&gt;报告呈现了一个看似矛盾的就业图景：入门级软件开发和客服岗位正在减少，但中高级职位保持稳定甚至增长。更反直觉的是，AI高暴露行业的失业率反而低于低暴露行业。这可能意味着AI不是简单地「消灭工作」，而是在重塑技能要求——那些能与AI协作的工人反而更有竞争力。&lt;/p&gt;
+
+&lt;h2&gt;公众认知的地理割裂&lt;/h2&gt;
+&lt;p&gt;59%的全球受访者认为AI利大于弊（2024年为55%），但信任分布极不均匀。新加坡81%的人信任政府的AI监管，而美国这一比例仅31%——全球最低。欧洲国家和日本同样偏低。这种「信任鸿沟」的讽刺之处在于：美国主导AI投资和能力，却对自身的监管能力最缺乏信心。这种认知落差如果持续，可能反过来影响AI的社会接受度和政策制定。&lt;/p&gt;
+
+&lt;h2&gt;一句话总结&lt;/h2&gt;
+&lt;p&gt;2026年的AI行业不缺速度，缺的是方向感——资本前所未有地充裕，技术进步令人眩晕，但环境成本、人才分布、公众信任和价值分配的裂痕正在同步扩大。Stanford的报告提醒我们：衡量AI行业健康状况的指标，不应该只有模型跑分和融资金额。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spectrum.ieee.org/state-of-ai-index-2026"&gt;https://spectrum.ieee.org/state-of-ai-index-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/"&gt;https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">39cd5d4f-3123-50e1-a8ce-136a510912f2</guid>
+      <pubDate>Mon, 20 Apr 2026 08:06:08 +0000</pubDate>
+      <category>ai-industry</category>
+      <link>https://spectrum.ieee.org/state-of-ai-index-2026</link>
+      <enclosure url="https://spectrum.ieee.org/media-library/image.jpg?id=65506010&amp;width=1200&amp;height=600&amp;coordinates=0%2C250%2C0%2C250" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

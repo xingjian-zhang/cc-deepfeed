@@ -4,116 +4,10 @@
     <title>LLM Agent、RL 与长期记忆前沿</title>
     <description>Per-topic feed: LLM Agent、RL 与长期记忆前沿</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml</link>
-    <lastBuildDate>Mon, 20 Apr 2026 03:47:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:05:12 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-llm-agents.xml" type="application/rss+xml" />
-    <item>
-      <title>🤖 MCP Dev Summit 纽约开幕首日：SDK V2 路线图公布、OAuth 2.1 作者到场、六场认证专题说明什么</title>
-      <description>&lt;p&gt;MCP Dev Summit 北美站今天（4 月 2 日）在纽约正式开幕，为期两天。我们此前报道过议程发布时的三大信号：SDK V2 路线图、认证难题、OpenAI 跨生态互操作。首日进展验证并深化了这些预判。&lt;/p&gt;
-
-&lt;p&gt;SDK V2 方面，Anthropic 的 Max Isbey 在「Path to V2 for MCP SDKs」演讲中首次公开了 Python SDK 升级路线。背景是自 1 月 24 日以来，Python SDK 一直停留在 v1.26.0，而 TypeScript SDK 在同期发布了多个版本。V2 可能涉及 &lt;code&gt;mcp.server.auth&lt;/code&gt; 模块的重构——这直接影响所有基于 MCP 构建 Agent 的团队。&lt;/p&gt;
-
-&lt;p&gt;认证（Authentication）成为首日最密集的议题，六个专门 session 围绕这一主题。其中最值得关注的是 &lt;strong&gt;Aaron Parecki&lt;/strong&gt;——OAuth 2.1 草案规范的作者——亲自到场。他的出席意味着 MCP 认证不是在造新轮子，而是在对接正式的 OAuth 标准。Anthropic 的 Paul Carleton 则介绍了 Cross-App Access（XAA/ID-JAG），目标是让单一身份在多个 AI Agent 之间实现 SSO。当前 MCP 认证的碎片化现状很明显：STDIO server 完全无认证、HTTP server 实现不统一、文档覆盖不足。六个 session 的密度说明社区已经把认证视为阻碍 MCP 进入生产环境的头号障碍。&lt;/p&gt;
-
-&lt;p&gt;跨生态互操作方面，OpenAI 的 Nick Cooper 将在明天（4 月 3 日）发表「MCP x MCP」主题演讲。已知的进展是 OpenAI Agents SDK 近期添加了 &lt;code&gt;list_resources()&lt;/code&gt; 和 &lt;code&gt;read_resource()&lt;/code&gt; 对 MCP Resources 的支持，Anthropic Python SDK 也有对应的 PR 待合并。这意味着用不同框架构建的 Agent 将能查询共享资源——这是真正意义上的互操作，不只是协议层面的兼容。&lt;/p&gt;
-
-&lt;p&gt;所有 session 同步在 YouTube 直播。明天的重头戏除了 OpenAI 主题演讲，还有 6 月新版规范的具体时间表是否会确认。我们会持续跟踪。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald"&gt;https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://events.linuxfoundation.org/mcp-dev-summit-north-america/"&gt;https://events.linuxfoundation.org/mcp-dev-summit-north-america/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://events.linuxfoundation.org/mcp-dev-summit-north-america/program/schedule/"&gt;https://events.linuxfoundation.org/mcp-dev-summit-north-america/program/schedule/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5f46fb44-5461-5b24-ac4c-2b3c519822ed</guid>
-      <pubDate>Thu, 02 Apr 2026 08:03:41 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-python-developers-should-actually-pay-attention-to-5ald</link>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1n2ea3m9gozjs3vqzg3v.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🤖 多层记忆框架实验评估：工作-情景-语义三层分解 + 自适应检索门控，六周期保留率 56.9%、虚假记忆率 5.1%</title>
-      <description>&lt;p&gt;Agent 记忆系统到底该怎么分层？Sunil Tiwari 与 Payal Fofadiya 在 arXiv 2603.29194（3 月 31 日提交）中给出了一套完整的实验评估。他们构建了一个&lt;strong&gt;多层记忆框架&lt;/strong&gt;（Multi-Layer Memory Framework），将对话历史分解为三个层次：工作记忆（Working Memory，处理即时上下文）、情景记忆（Episodic Memory，存储对话片段）、语义记忆（Semantic Memory，保留抽象知识）。在层间引入自适应检索门控（Adaptive Retrieval Gating）和保留正则化（Retention Regularization），控制跨会话语义漂移。&lt;/p&gt;
-
-&lt;p&gt;在 LOCOMO、LOCCO 等基准上的实验结果：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;成功率 46.85%，整体 F1 0.618，多跳推理 F1 0.594&lt;/li&gt;
-&lt;li&gt;六周期保留率 56.90%——即经过六轮对话后仍保留超过一半的关键信息&lt;/li&gt;
-&lt;li&gt;虚假记忆率仅 5.1%，上下文使用量 58.40%（意味着将近一半的上下文空间被有效节省）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这些数字需要放在我们已有的认知框架里理解。上一期我们报道了 MemoryArena 的评估结论：在真正的跨会话多任务场景下，长上下文 Agent 成功率仅 6%，外部记忆系统和 RAG 均为 0%。本文的 46.85% 成功率和 MemoryArena 的 6% 之间的巨大差距，很可能源于评估基准的差异——LOCOMO 侧重对话连贯性，MemoryArena 侧重跨任务迁移。两个数字都是真实的，但它们测量的是不同的能力维度。&lt;/p&gt;
-
-&lt;p&gt;架构层面，这篇工作与 UCSD Jishen Zhao 组提出的三层存储层次（I/O、缓存、内存）形成互补。Zhao 组从计算机体系结构视角出发，关注多 Agent 间的缓存一致性问题；本文从认知科学的工作-情景-语义分类出发，关注单 Agent 的长期保留与抗漂移。两条路线终将需要合流：一个多 Agent 系统中的每个 Agent 都需要内部的三层认知记忆，同时 Agent 之间需要体系结构层面的一致性协议。&lt;/p&gt;
-
-&lt;p&gt;5.1% 的虚假记忆率是个实用指标。对于需要事实准确性的 Agent（如医疗助手、法律分析），这个数字是否够低？大概率不够。但相比完全无记忆管理的 baseline，这已经是一个有意义的进步方向。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.29194"&gt;https://arxiv.org/abs/2603.29194&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/html/2603.29194"&gt;https://arxiv.org/html/2603.29194&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a12e7f93-6c46-5f57-b5f8-b72d5ce0143b</guid>
-      <pubDate>Thu, 02 Apr 2026 08:04:08 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2603.29194</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🤖 Agent Q-Mix：用 MARL 让多 Agent 自己学会何时沟通——UCLA 团队提出拓扑选择即合作博弈</title>
-      <description>&lt;p&gt;多 Agent 系统最头疼的问题之一：Agent 之间该不该说话、跟谁说、什么时候说？固定拓扑（全连接、星型、链式）要么浪费 token，要么错过关键信息。UCLA Ying Nian Wu 组 4 月 1 日挂出的 &lt;strong&gt;Agent Q-Mix&lt;/strong&gt;（arXiv 2604.00344）给出了一个干脆的回答——把拓扑选择建模为合作 MARL 问题，让 Agent 自己学。&lt;/p&gt;
-
-&lt;p&gt;核心设计很工程化：每个 Agent 在每轮从六种离散通信动作中选一种（solo、broadcast、selective query、aggregation、verification、debate），多个 Agent 的选择联合构成当轮的通信图。底层是 QMIX 值分解 + topology-aware GNN 编码器 + GRU 记忆 + per-agent Q-heads，走 Centralized Training with Decentralized Execution（CTDE）范式。奖励函数同时平衡准确率和 token 消耗，迫使 Agent 在难题上密集沟通、简单题上自己搞定。&lt;/p&gt;
-
-&lt;p&gt;在 GPT-OSS:120B 上跑七个 benchmark 的结果：Agent Q-Mix 平均准确率 72.73%，超过 AutoGen 的 68.60% 和 GTD 的 60.37%。亮点在数学推理——HMMT 2025 拿到 53.33%（比 GTD 高 10 个点），Beyond-AIME 42.00%（+7 点）。MMLU-Pro 上 92.86%，比 TopoDIM 高 4.29 个点。换到 Gemini-3.1-Flash-Lite 做 backbone，平均 66.90%，说明方法不绑定特定模型。&lt;/p&gt;
-
-&lt;p&gt;两个实用指标尤其值得关注。&lt;strong&gt;Token 效率&lt;/strong&gt;：MMLU-Pro 上只用 112K token，对比其他方法 471K-2.71M，省了 4-24 倍。&lt;strong&gt;鲁棒性&lt;/strong&gt;：往团队里塞一个对抗性 Agent（专门给错答案），Agent Q-Mix 在 MMLU-Pro 上只掉 2.86 个点，LLM-Debate 掉 8.57，AutoGen 掉 10。学到的策略会自动隔离不靠谱的队友。&lt;/p&gt;
-
-&lt;p&gt;这篇工作的意义在于：之前多 Agent 拓扑要么手工设计（LangGraph 的静态图），要么用启发式规则切换（AutoGen 的 GroupChat）。Agent Q-Mix 证明了拓扑选择可以端到端训练，而且学出来的策略在 token 效率和容错性上都优于固定方案。跟我们之前跟踪的 Dr. MAS（解决多 Agent GRPO 梯度不稳定）和 MAGRPO（多 Agent 多轮算法）形成互补——Dr. MAS/MAGRPO 解决的是「多 Agent 怎么一起训练」，Agent Q-Mix 解决的是「训好了怎么高效协作」。&lt;/p&gt;
-
-&lt;p&gt;代码已开源。在 Humanity's Last Exam 前 250 题上达到 20.8%，超过 Microsoft Agent Framework 和 LangGraph 的 19.2%。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.00344"&gt;https://arxiv.org/abs/2604.00344&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/html/2604.00344"&gt;https://arxiv.org/html/2604.00344&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">28845957-58a8-5c85-a072-ab887e0cc060</guid>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2604.00344</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🤖 Agentic RL 训练的「五维食谱」：小模型靠 reward shaping 逆袭，大模型反而不需要——arXiv 2603.21972 系统性实验</title>
-      <description>&lt;p&gt;做 Agentic RL 的人都知道，把一堆技巧拼在一起不等于能 work——reward 怎么塑形、模型多大合适、训练数据怎么配比、用哪种算法、环境稳不稳定，每个维度都是坑。电子科技大学 Xixi Wu 等人的这篇工作（arXiv 2603.21972）做了件朴实但极有价值的事：在 TravelPlanner 上沿五个维度做系统性消融实验，给出了一份可复现的训练 recipe。&lt;/p&gt;
-
-&lt;p&gt;七条核心结论，最有冲击力的是关于模型尺度与 reward shaping 的交互：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;8B 模型对 reward shaping 高度敏感&lt;/strong&gt;——加上分阶段过程奖励（staged process reward），性能大幅提升，token 效率比 32B 高 3.5 倍、内存效率高 1.5 倍。小模型+密集信号的组合在成本受限场景下极具竞争力。&lt;/li&gt;
-&lt;li&gt;32B 及以上模型在稀疏奖励下已能收敛，加 shaping 后的相对增益反而更小，且训练方差更高。换句话说，大模型不太需要精心设计的奖励函数。&lt;/li&gt;
-&lt;li&gt;训练数据存在甜蜜点：大约 1000 条样本、难度均衡混合，就能同时优化域内和域外性能。数据量翻倍并没有等比提升。&lt;/li&gt;
-&lt;li&gt;课程学习（curriculum learning）在这个设置下几乎没有显著收益——shaped reward 本身已经起到了类似引导作用。&lt;/li&gt;
-&lt;li&gt;环境稳定性是隐形杀手：API 调用失败、延迟抖动等外部因素会导致策略退化，必须在训练框架层面做容错设计。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最终 RL 训练出的模型在 TravelPlanner 上达到 56.9% final-pass rate，超过 GPT-5 的 21.2% 基线 2.7 倍。在 Multi-IF、NaturalPlan、τ-Bench 等域外任务上也保持或超过了基线性能，说明策略没有 overfit。&lt;/p&gt;
-
-&lt;p&gt;这份 recipe 跟我们之前跟踪的 Planner-R1（同样在 TravelPlanner 上做 reward shaping）结论高度一致：小模型+过程奖励是性价比最高的组合。但本文多了数据配比和环境稳定性两个维度的实证，实际上是对整个 Agentic RL 工程实践的一次系统审计。跟 SFR-RL（基础设施层面解决训练效率）结合来看，从底层训练栈到上层奖励设计，这条路线正在变得越来越可操作。代码开源在 GitHub Agent-STAR 仓库。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.21972"&gt;https://arxiv.org/abs/2603.21972&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2509.25779"&gt;https://arxiv.org/abs/2509.25779&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">907a85de-26e3-5239-bf21-41f86945ed2b</guid>
-      <pubDate>Fri, 03 Apr 2026 08:03:36 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2603.21972</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🤖 Agent Memory 2026 生态盘点：Mem0 报告揭示全上下文 vs 选择性检索的真实权衡——17 秒延迟换 6 个百分点</title>
       <description>&lt;p&gt;Mem0 发布的《State of AI Agent Memory 2026》报告把一个残酷现实摆在台面上：在 LOCOMO benchmark 上，全上下文（full-context）方案以 72.9% 准确率碾压所有选择性方案——但 p95 延迟 17.12 秒，生产环境根本不能用。&lt;/p&gt;
@@ -1343,6 +1237,62 @@
       <category>llm-agents</category>
       <link>https://github.com/OpenRLHF/OpenRLHF</link>
       <enclosure url="https://opengraph.githubassets.com/42031dfa51b556e4f1b6bae43cc789457c79e61458efbc941c8425d95fc374f9/OpenRLHF/OpenRLHF" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 ProRL Agent：把多轮 Agent Rollout 变成微服务——NVIDIA 发布 RL 训练基础设施新范式</title>
+      <description>&lt;p&gt;多轮 Agent RL 训练的核心瓶颈不在 GPU，而在 rollout：每条训练轨迹需要 Agent 在沙箱中执行数十步工具调用、代码运行、网页搜索，I/O 密集且环境异构。现有框架（veRL-Tool、SkyRL-Agent）把 rollout 和训练绑在同一进程里，导致 GPU 空转等 I/O、环境切换需要重新部署整套系统。NVIDIA 团队在 arXiv 2603.18815 提出 ProRL Agent，第一个将"rollout 生命周期"完全解耦为独立 HTTP 服务的开源框架。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;核心架构：三阶段异步流水线&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;ProRL Agent 把每条 rollout 拆成 INIT → RUN → EVAL 三个阶段，每个阶段由独立 worker 池处理。训练框架（无论是 veRL、OpenRLHF 还是 NeMo-Aligner）只需通过 POST 请求提交任务、GET 请求拉取轨迹，完全不用关心沙箱细节。这意味着：换训练框架不用改环境代码，加新任务类型只需实现一个 AgentHandler 接口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;无 Root 沙箱：Singularity 替代 Docker&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在 HPC 集群上跑 Docker 几乎不可能——需要 root 权限、与调度器（Slurm）冲突、安全策略不允许。ProRL Agent 选择 Singularity 容器，原生支持无 root 运行，直接对接 HPC 调度。这个工程选择看似简单，但解决了学术界和工业界 RL 训练落地的重大摩擦点。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;性能优化细节值得关注&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;团队在底层做了大量工程优化：用伪终端直接执行 bash 替代 tmux 中转、进程内 IPython kernel 替代子进程调用、Unix Domain Socket 替代 TCP 减少网络开销。最关键的是 token 级通信——rollout 服务直接传递 token ID 而非文本，避免了重新分词导致的精度漂移。这些细节在论文中不起眼，但对训练稳定性影响巨大。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实验结果：SWE-Bench 上 4B 模型超越未训练 14B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在 SWE-Bench Verified 上，经 ProRL Agent 训练的 4B 模型达到 21.2%（基线 14.8%），8B 模型从 9.6% 跃升到 18.0%，14B 模型达到 23.6%。数学推理（AMC Pass@1 从 0.4 到 0.9）和代码生成（Codeforces 从 0.23 到 0.42）同样有稳定提升。吞吐量随计算节点近线性扩展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么这很重要&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;ProRL Agent 解决的是 Agent RL 训练的"最后一公里"工程问题。之前 RLFactory 解决了多轮工具调用的训练算法，OpenRLHF 搞定了分布式 RL 训练框架，但两者都假设 rollout 和训练在同一系统中。ProRL Agent 把 rollout 抽象为通用服务层，让不同训练框架、不同任务环境可以自由组合。已集成进 NVIDIA NeMo Gym 开源。&lt;/p&gt;&lt;p&gt;值得观察的问题：rollout 服务化后，多租户共享沙箱池是否会引入新的安全隔离挑战？Singularity 在大规模并发下的稳定性如何？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.18815"&gt;https://arxiv.org/abs/2603.18815&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">12c0b88c-5b2e-5bfc-ad37-226aef7d14a8</guid>
+      <pubDate>Mon, 20 Apr 2026 08:03:32 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.18815</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 Agent Q-Mix：用 QMIX 值分解解决多 Agent LLM 系统的拓扑选择难题</title>
+      <description>&lt;p&gt;多 Agent LLM 系统面临一个被低估的问题：不是每个 Agent 该说什么，而是谁该跟谁说话。在一个由 coder、reviewer、planner 组成的多 Agent 团队中，每一轮的通信拓扑（谁和谁交换信息）直接决定最终质量和 token 消耗。现有框架（AutoGen、LangGraph）通常使用固定拓扑或简单规则，无法适应任务复杂度的动态变化。&lt;/p&gt;&lt;p&gt;UCLA 团队在 arXiv 2604.00344（2026 年 4 月）提出 Agent Q-Mix，首次将多 Agent LLM 的拓扑选择形式化为合作式多智能体强化学习（MARL）问题，使用经典的 QMIX 值分解方法求解。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;核心思路：拓扑选择 = 合作博弈&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;每一轮对话中，每个 Agent 独立决定"是否向其他 Agent 发送消息"，这些二元决策共同构成该轮的通信图。关键洞察是：这本质上是一个合作博弈——每个 Agent 的通信决策对全局结果的贡献是非线性耦合的。QMIX 的值分解恰好适合这个场景：每个 Agent 有自己的 Q 值估计，全局 Q 值通过单调混合网络聚合，保证分布式决策的一致性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;架构细节&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Agent Q-Mix 的网络架构包含三个模块：拓扑感知 GNN 编码器（将当前通信图结构编码为节点嵌入）、GRU 记忆单元（跨轮次维护每个 Agent 的状态历史）、以及每 Agent 的 Q-head（输出通信/沉默的 Q 值）。奖励函数精心设计为任务准确率和 token 消耗的加权组合，鼓励 Agent 在保持质量的前提下减少不必要的通信。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实验：七个基准上的最高平均准确率&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在覆盖编程、推理、数学的七个基准测试中，Agent Q-Mix 取得最高平均准确率。在难度最大的 Humanity's Last Exam 上达到 20.8%，超过 Microsoft Agent Framework 和 LangGraph 的 19.2%。更重要的是，它在 Agent 部分失效（模拟故障注入）时表现出更强的鲁棒性——这在生产环境中至关重要。Token 效率同样显著优于全连接拓扑基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么选择 QMIX 而非更现代的 MARL 算法？&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;这个选择值得思考。QMIX 在传统 MARL 领域已不算前沿（MAPPO、HAPPO 等更受关注），但它的核心优势——集中训练分布式执行（CTDE）+单调性约束——恰好匹配 LLM 多 Agent 的部署模式：训练时可以全局可见，推理时各 Agent 独立运行。论文没有对比 MAPPO 等替代方案，这是一个值得后续工作探索的方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;更大的图景&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Agent Q-Mix 和之前报道的 Stronger-MAS（AT-GRPO）代表了多 Agent LLM 训练的两个互补方向：AT-GRPO 优化的是"每个 Agent 说什么"（策略优化），Agent Q-Mix 优化的是"谁和谁说话"（拓扑优化）。两者的结合——既学习最优通信结构又学习最优通信内容——可能是下一步突破点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.00344"&gt;https://arxiv.org/abs/2604.00344&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">49df894f-0290-59ed-a817-2fe0b4086e37</guid>
+      <pubDate>Mon, 20 Apr 2026 08:04:02 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2604.00344</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 Stronger-MAS：AT-GRPO 让多 Agent RL 从 14% 飙到 99%——标准 GRPO 在多智能体场景为何失效</title>
+      <description>&lt;p&gt;DeepSeek-R1 让 GRPO（Group Relative Policy Optimization）成为 LLM 后训练的标配算法。但当你把 GRPO 直接搬到多 Agent 系统时，会遇到一个致命的假设冲突：GRPO 假设同一 prompt 下的多个 rollout 可以相互比较来计算优势值，但在多 Agent 系统中，不同角色（coder、reviewer、tester）的 prompt 完全不同，不同轮次的 prompt 也在动态变化。强行在所有 rollout 间计算相对优势，等于在不可比的苹果和橘子之间排名。&lt;/p&gt;&lt;p&gt;UCSD 团队在 Stronger-MAS（arXiv 2510.11062，2026 年 1 月修订至 v5）中提出 AT-GRPO（Agent- and Turn-wise GRPO），通过两层分组解决这个问题：先按 Agent 角色分组，再按对话轮次分组，确保优势值只在"同一角色、同一轮次"的 rollout 间计算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么标准 GRPO 在多 Agent 场景会崩溃&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;用一个例子说明：在一个 coder + reviewer 的代码生成任务中，coder 第一轮写代码，reviewer 第二轮给反馈，coder 第三轮修改。标准 GRPO 会把 coder 第一轮和 reviewer 第二轮的输出放在同一个组里比较——但它们的目标函数、输入分布完全不同。结果是梯度信号极度嘈杂，策略难以收敛。AT-GRPO 的分组保证 coder 第一轮只和其他 rollout 中 coder 的第一轮比较，信号干净、方差可控。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;训练系统：单策略与多策略并行&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;AT-GRPO 不仅是算法创新，还配套了工程基础设施。框架同时支持两种模式：单策略模式（所有 Agent 共享一个模型，通过角色 prompt 分化）和多策略模式（每个 Agent 角色对应独立模型）。在实验中，多策略模式在需要深度角色分化的任务上效果更好，但单策略模式在 Agent 数量多时更经济。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实验结果令人震惊&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在长程规划任务上，单 Agent RL 基线准确率仅 14.0-47.0%，AT-GRPO 直接飙升到 96.0-99.5%——这不是增量提升，是质的飞跃。编程任务平均提升 3.87-7.62%，数学任务 9.0-17.93%。关键发现是：多 Agent 协作 + 正确的 RL 算法在长程任务上的增益远超单 Agent 能力的提升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;与 Agent Q-Mix 的互补关系&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;有趣的是，AT-GRPO 和最新的 Agent Q-Mix 解决的是多 Agent RL 的不同维度：AT-GRPO 优化每个 Agent "说什么"（策略质量），Agent Q-Mix 优化"谁和谁说话"（通信拓扑）。两者目前互不感知，但理论上可以组合——先用 Q-Mix 选择最优通信结构，再在该结构下用 AT-GRPO 优化每个 Agent 的策略。这可能是多 Agent LLM 训练的下一个里程碑。&lt;/p&gt;&lt;p&gt;开放问题：AT-GRPO 的分组粒度（按角色 × 轮次）是否足够？在角色边界模糊的场景（如所有 Agent 都是通用助手但负责不同子任务），更细粒度的分组策略是否有帮助？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2510.11062"&gt;https://arxiv.org/abs/2510.11062&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1a1cb630-29df-5852-ad16-7537cbec51ce</guid>
+      <pubDate>Mon, 20 Apr 2026 08:04:37 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2510.11062</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 SSGM：当 Agent 记忆会自己进化——记忆治理框架首次系统化安全风险与防护机制</title>
+      <description>&lt;p&gt;之前报道的 A-MAC 解决了"什么该进入记忆"，多层记忆架构解决了"记忆怎么组织"，但一个更根本的问题被忽视了：当 Agent 的记忆会自主进化（合并、摘要、遗忘）时，谁来保证进化过程不出错？arXiv 2603.11768（2026 年 3 月）的 SSGM（Stability and Safety Governed Memory）框架首次系统化了这个问题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;记忆进化的三个维度和两类风险&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;论文将记忆进化分解为三个维度：内容抽象（将具体交互摘要为通用知识）、结构重组（记忆节点的合并与拆分）、策略优化（基于使用频率调整检索权重）。在每个维度上都存在两类核心风险：&lt;/p&gt;&lt;p&gt;第一类是拓扑诱导的知识泄露（Topology-induced Knowledge Leakage）。当 Agent 在多轮对话中积累记忆时，敏感信息可能通过记忆图的关联路径被间接暴露。例如，用户 A 的私人数据被摘要后与用户 B 的查询相关联，导致本不应共享的信息在推理时被检索出来。这不是传统的数据泄露——信息本身没有被"偷"，而是通过记忆结构的演化被"泛化"到了不该到达的上下文中。&lt;/p&gt;&lt;p&gt;第二类是语义漂移（Semantic Drift）。当记忆经过多轮迭代摘要后，原始含义逐渐偏移。论文给出了一个量化实验：经过 5 轮摘要迭代，事实准确率从 94% 下降到 67%。这意味着 Agent 的"长期记忆"可能在不知不觉中变成了幻觉的温床。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;SSGM 的核心设计：进化与治理解耦&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;SSGM 的关键架构决策是将记忆进化（Memory Evolution）和记忆治理（Memory Governance）分成独立模块。进化模块负责正常的记忆更新（摘要、合并、衰减），治理模块在每次进化操作前后执行三重检查：&lt;/p&gt;&lt;p&gt;一致性验证（Consistency Verification）：检查更新后的记忆是否与现有知识库矛盾。时间衰减建模（Temporal Decay）：为每条记忆附加时间权重，防止过时信息以同等权重参与推理。动态访问控制（Dynamic Access Control）：基于当前对话上下文动态调整记忆的可见范围，而非使用静态权限。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实际影响：从"能记住"到"安全地记住"&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;这篇论文的贡献不在于提出某个具体算法，而在于建立了一个分析框架。之前的记忆系统论文（Mem0、A-Mem、AgeMem）都聚焦在"如何记得更好"——更高的检索准确率、更长的上下文保持。SSGM 指出，当 Agent 从"工具"变成"持续运行的自主系统"时，记忆安全和记忆性能同等重要。&lt;/p&gt;&lt;p&gt;这对生产部署的启示很直接：如果你在部署带持久记忆的 Agent（如客服、个人助手），仅仅做好 RAG 检索是不够的——还需要对记忆进化过程本身进行审计和约束。SSGM 提供了第一套系统化的思考工具。&lt;/p&gt;&lt;p&gt;值得追踪的后续问题：SSGM 目前主要是分析框架而非可运行的系统，具体的一致性验证算法和访问控制策略还需要实验验证。从框架到工程落地的距离有多远？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.11768"&gt;https://arxiv.org/abs/2603.11768&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">69e055b3-58af-5338-b3ce-4e75e25225cb</guid>
+      <pubDate>Mon, 20 Apr 2026 08:05:12 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2603.11768</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

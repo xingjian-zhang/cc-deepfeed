@@ -4,110 +4,10 @@
     <title>新科技与电子产品</title>
     <description>Per-topic feed: 新科技与电子产品</description>
     <link>https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml</link>
-    <lastBuildDate>Mon, 20 Apr 2026 03:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:04:35 +0000</lastBuildDate>
     <generator>cc-deepfeed</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/cc-deepfeed/daily-briefings-tech-products.xml" type="application/rss+xml" />
-    <item>
-      <title>📱 TSMC 向 Nvidia、AMD、Broadcom、Qualcomm 兜售 Intel 代工合资方案，交易结构浮出水面</title>
-      <description>&lt;p&gt;TSMC与Intel代工部门的合资谈判有了更清晰的轮廓。据南华早报和多家媒体报道，TSMC已经向美国四大芯片设计巨头——&lt;strong&gt;Nvidia、AMD、Broadcom和Qualcomm&lt;/strong&gt;——逐一推介了入股Intel Foundry合资公司的方案。这是目前为止关于这笔潜在交易最详细的参与方信息。&lt;/p&gt;
-
-&lt;p&gt;交易结构的核心逻辑是这样的：TSMC将负责运营Intel的代工业务，持股不超过50%（此前报道的20%是TSMC的初始股份，以技术和培训入股而非注资）。剩余股份由Intel本身和上述fabless芯片公司分摊。这意味着Intel Foundry将变成一个由TSMC运营、美国公司控股的实体——既满足了Trump政府"不能让Intel完全落入外资之手"的政治红线，又为TSMC提供了在美国扩大产能的新路径。&lt;/p&gt;
-
-&lt;p&gt;时间线上，TSMC向这些公司推介方案的时间早于3月3日与Trump一同宣布的1000亿美元美国投资计划。这说明合资方案是TSMC更大布局的一部分，而非临时起意。据悉，Nvidia和Broadcom此前已在使用Intel 18A工艺进行制造测试，AMD也在评估18A是否适合自身需求——Intel高管还声称18A优于TSMC的2纳米工艺。&lt;/p&gt;
-
-&lt;p&gt;但截至目前，所有涉及方——Intel、TSMC、Nvidia、AMD、Qualcomm——都拒绝置评，交易尚未签署。核心难题有几个：首先是Intel员工的就业问题，TSMC接管运营几乎必然意味着进一步裁员，这在政治上极为敏感；其次是技术转让的深度，TSMC需要分享多少制造know-how才能让Intel的晶圆厂达到可用水平；最后是台湾政府的态度——此前TSMC和台湾官方都曾公开否认过相关谈判的存在，这种"否认"本身就增添了不确定性。&lt;/p&gt;
-
-&lt;p&gt;从美国半导体政策的角度看，这笔交易如果达成，将是CHIPS法案推动美国芯片制造回流以来最大的结构性变化。一个由TSMC运营、Nvidia/AMD/Broadcom参股的Intel代工厂，听起来像是美国政府梦寐以求的方案——但能否跨越商业、技术和政治的三重门槛，目前看还没有定论。关注点已经转向：哪些fabless公司会真正掏钱入股，以及TSMC在运营层面的具体参与深度。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.scmp.com/tech/big-tech/article/3302044/tsmc-has-pitched-nvidia-amd-broadcom-about-joint-venture-run-intel-foundry-sources"&gt;https://www.scmp.com/tech/big-tech/article/3302044/tsmc-has-pitched-nvidia-amd-broadcom-about-joint-venture-run-intel-foundry-sources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/tsmc-and-intel-foundry-joint-venture-reportedly-still-in-the-works-amd-broadcom-and-nvidia-approached"&gt;https://www.tomshardware.com/tech-industry/tsmc-and-intel-foundry-joint-venture-reportedly-still-in-the-works-amd-broadcom-and-nvidia-approached&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.tomshardware.com/tech-industry/intel-and-tsmc-agree-to-form-chipmaking-joint-venture-report"&gt;https://www.tomshardware.com/tech-industry/intel-and-tsmc-agree-to-form-chipmaking-joint-venture-report&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.tweaktown.com/news/103886/tsmc-pitches-an-intel-foundry-joint-venture-idea-to-nvidia-amd-broadcom-qualcomm/index.html"&gt;https://www.tweaktown.com/news/103886/tsmc-pitches-an-intel-foundry-joint-venture-idea-to-nvidia-amd-broadcom-qualcomm/index.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8cec659c-c32a-5a1b-9175-2fef7e0c4466</guid>
-      <pubDate>Thu, 02 Apr 2026 08:06:11 +0000</pubDate>
-      <category>tech-products</category>
-      <link>https://www.scmp.com/tech/big-tech/article/3302044/tsmc-has-pitched-nvidia-amd-broadcom-about-joint-venture-run-intel-foundry-sources</link>
-      <enclosure url="https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2025/03/12/ec52cf16-5836-4ceb-b82d-12d34d605bb4_a89bf62c.jpg?itok=HsLeY4NZ&amp;amp;v=1741756377" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📱 iOS 27 走「Snow Leopard」路线：稳定性优先，但 Siri Extensions 将打破 OpenAI 独占</title>
-      <description>&lt;p&gt;距离WWDC 2026（6月8-12日）还有两个月，iOS 27的轮廓已经相当清晰。多方信源指向一个出人意料的基调：这将是一个&lt;strong&gt;"Snow Leopard"式的版本&lt;/strong&gt;——功能增量克制，重心放在稳定性、性能优化和bug修复上。对于经历了iOS 25引入Apple Intelligence和iOS 26大幅改版的用户来说，这未必是坏消息。&lt;/p&gt;
-
-&lt;p&gt;但"克制"不等于"无聊"。iOS 27最重要的变化藏在AI层面：&lt;strong&gt;Siri Extensions系统&lt;/strong&gt;。苹果计划在设置中开放一个新的"Extensions"入口，允许用户将Siri的对话请求路由到第三方AI聊天机器人——Claude、Gemini、Grok都在候选名单中。这意味着OpenAI与Siri的独家合作将正式终结，用户可以自由选择默认AI后端。&lt;/p&gt;
-
-&lt;p&gt;从技术架构看，Siri Extensions的设计思路是把Siri作为统一的自然语言入口层（处理唤醒词、屏幕上下文感知、系统权限调用），而把"思考"的工作分发给用户选定的LLM。这和此前单纯调用OpenAI的模式有本质区别——苹果不再试图让一个模型覆盖所有场景，而是让用户根据自身需求选择最合适的模型。对于开发者来说，这可能意味着一套新的API框架，允许第三方AI服务声明自己的能力范围，从而参与Siri的查询分发。&lt;/p&gt;
-
-&lt;p&gt;配合Siri Extensions，苹果还计划在WWDC上发布&lt;strong&gt;Core AI框架&lt;/strong&gt;，接替现有的Core ML。这将为设备端AI推理提供更统一的底层支持，降低开发者集成本地模型的门槛。考虑到MacBook Neo搭载的A18 Pro和MacBook Air M5的Neural Accelerator都在强化端侧AI能力，Core AI的时机相当契合。&lt;/p&gt;
-
-&lt;p&gt;其他已知变化包括：为今秋发布的iPhone Fold优化折叠屏交互、新的卫星连接功能扩展（可能涉及NR-NTN标准的基础数据服务），以及常规的系统级性能优化。但整体上，iOS 27不会像iOS 26那样大刀阔斧地重新设计界面。&lt;/p&gt;
-
-&lt;p&gt;苹果三月底从Google挖来Lilian Rincon担任AI产品营销VP的动作，现在看时机感更强了——Siri Extensions本质上是一个需要精心营销的产品故事：既要让用户理解"你的Siri变聪明了"，又不能让人觉得"苹果放弃自研AI了"。Rincon在Google Shopping和Google Assistant的经验，正好对口这种需要平衡技术叙事和消费者认知的工作。六月八日，看苹果怎么讲这个故事。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone"&gt;https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://appleinsider.com/articles/26/03/23/what-to-expect-at-wwdc-2026-ios-27-siri-as-a-chatbot-and-more"&gt;https://appleinsider.com/articles/26/03/23/what-to-expect-at-wwdc-2026-ios-27-siri-as-a-chatbot-and-more&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.geeky-gadgets.com/wwdc-2026-guide/"&gt;https://www.geeky-gadgets.com/wwdc-2026-guide/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.techlusive.in/news/wwdc-2026-apples-new-approach-to-ai-leaks-before-june-8-event-could-change-iphone-experience-forever-1654300/"&gt;https://www.techlusive.in/news/wwdc-2026-apples-new-approach-to-ai-leaks-before-june-8-event-could-change-iphone-experience-forever-1654300/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">53916b19-5f16-5001-baf0-6cf5170c3147</guid>
-      <pubDate>Thu, 02 Apr 2026 08:06:27 +0000</pubDate>
-      <category>tech-products</category>
-      <link>https://www.fastcompany.com/91514587/apple-ios-27-launch-release-date-new-features-rumors-to-know-about-wwdc-2026-event-iphone</link>
-      <enclosure url="https://www.geeky-gadgets.com/wp-content/uploads/2026/04/WWDC.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📱 Google 无屏 Fitbit 手环曝光：Gemini 健康教练加持，Steph Curry 率先上手</title>
-      <description>&lt;p&gt;Bloomberg 4月1日报道，Google 正在开发一款&lt;strong&gt;无屏幕 Fitbit 手环&lt;/strong&gt;，直接对标 Whoop 和 Oura 在健康追踪领域的地位。NBA 球星 Stephen Curry 已在 Instagram 上率先佩戴展示，配文暗示「重新定义你和健康的关系」，几乎坐实了产品即将发布。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.androidauthority.com/wp-content/uploads/2026/03/Google-screen-free-fitbit-stephen-curry.jpg" alt="Stephen Curry 佩戴 Google 无屏 Fitbit 手环" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Stephen Curry 在 Instagram 上展示的无屏 Fitbit 原型（图源：Android Authority）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;从曝光图来看，手环采用灰色织物表带搭配橙色内衬，外观与 Whoop 4.0 相似度极高。没有屏幕意味着所有数据交互都在手机 App 端完成——而这里正是 Google 的杀手锏：新版 Fitbit App 内置 &lt;strong&gt;Gemini 驱动的 AI 健康教练&lt;/strong&gt;，能针对心理健康、恢复状态、营养摄入、水分补充和经期追踪提供个性化分析建议。&lt;/p&gt;
-
-&lt;p&gt;商业模式上，Google 选择了「硬件付费 + 订阅解锁」的混合路线：用户先购买手环硬件，高级功能（推测包括 Gemini 教练的深度分析）需额外订阅。这和 Whoop 的纯订阅模式（硬件免费、月费 30 美元起）形成直接对比——对不喜欢「租设备」感觉的用户来说，Google 的方案可能更有吸引力。&lt;/p&gt;
-
-&lt;p&gt;无屏手环赛道正在快速升温。Garmin CIRQA 已经跳票数月（从2月传到3月再到现在的 Q2），Polar Loop 和 Amazfit Helio Strap 也在布局。但 Google 手握两张独特的牌：一是 Gemini 大模型在健康数据分析上的潜力远超传统算法，二是 Fitbit 品牌在大众消费者中的认知度仍然高于 Whoop 这类偏运动员的品牌。关键问题是定价——如果硬件 + 年订阅总成本能控制在 Whoop 之下，这个品类可能迎来第一个真正的大众化产品。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze"&gt;https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.androidauthority.com/google-screenless-fitbit-whoop-rival-3653884/"&gt;https://www.androidauthority.com/google-screenless-fitbit-whoop-rival-3653884/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.tomsguide.com/wellness/fitness-trackers/google-just-gave-us-a-sneak-peek-of-its-screenless-fitbit-band-and-whoop-should-be-worried"&gt;https://www.tomsguide.com/wellness/fitness-trackers/google-just-gave-us-a-sneak-peek-of-its-screenless-fitbit-band-and-whoop-should-be-worried&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b133d432-fe75-5934-92a4-b2cae4ede1c7</guid>
-      <pubDate>Fri, 03 Apr 2026 08:02:49 +0000</pubDate>
-      <category>tech-products</category>
-      <link>https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze</link>
-      <enclosure url="https://www.androidauthority.com/wp-content/uploads/2026/03/Google-screen-free-fitbit-stephen-curry.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📱 RTX 5060 评测解禁：性能约等于 RTX 3070，但 8GB 显存让评测人集体翻脸</title>
-      <description>&lt;p&gt;GamersNexus 发布了 RTX 5060 的「禁令评测」（Forbidden Review），结论一句话概括：&lt;strong&gt;别买&lt;/strong&gt;。这张定价 299 美元的显卡性能大致与 2020 年发布的 RTX 3070 持平，比 RTX 4060 快 6%-27%（多数场景约 20%），比 RTX 3060 快 34%-49%。账面数字看起来还行，但问题出在显存上。&lt;/p&gt;
-
-&lt;p&gt;8GB GDDR7——这是 RTX 5060 最致命的硬伤。GamersNexus 在《龙之信条 2》1440p 测试中录得 57 FPS，勉强追平 RTX 4060 Ti 16GB。但在更多需要大纹理的游戏中，8GB 显存已经开始成为瓶颈，而且这个问题只会随时间恶化。Steve Burke 直言：「从 2016 年的 GTX 1060 6GB 到 2026 年的 RTX 5060 8GB，十年时间显存只多了 33%。」&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.mos.cms.futurecdn.net/mhCxvbV9KM4P9KqNcjtWaR-2243-80.jpg" alt="RTX 5060 显卡" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;RTX 5060 实物（图源：Tom's Guide）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;实际售价也偏离了 MSRP。GamersNexus 在 Newegg 上以 330 美元购入，台湾市场报价约 360 美元。而 eBay 上二手 RTX 3070 只要 270-320 美元，性能几乎一样；RTX 3060 Ti 二手价 150-260 美元，能达到 RTX 5060 约 93% 的性能。花更多钱买一张新卡，性能跟五年前的旧卡差不多——这笔账怎么算都不划算。&lt;/p&gt;
-
-&lt;p&gt;评测人的替代推荐指向 &lt;strong&gt;AMD RX 9060 XT&lt;/strong&gt;，它提供 16GB 和 8GB 两种版本。同价位段能拿到双倍显存，这让 Nvidia 在入门级市场的处境相当尴尬。之前我们跟踪的 RTX 5060 线程预期 5 月 19 日发售，但现在评测已经解禁、各渠道开始铺货，实际上市节奏明显提前。Nvidia 在高端 RTX 5090/5080 上风光无限，但在这个最走量的价位段，8GB 的决策正在被市场惩罚。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks"&gt;https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.club386.com/nvidia-geforce-rtx-5060-review/"&gt;https://www.club386.com/nvidia-geforce-rtx-5060-review/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.thefpsreview.com/2026/03/23/nvidia-geforce-rtx-5060-ti-16gb-vs-8gb-performance-review/"&gt;https://www.thefpsreview.com/2026/03/23/nvidia-geforce-rtx-5060-ti-16gb-vs-8gb-performance-review/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ea3451db-6b32-5664-8e3f-372c7864041d</guid>
-      <pubDate>Fri, 03 Apr 2026 08:03:12 +0000</pubDate>
-      <category>tech-products</category>
-      <link>https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks</link>
-      <enclosure url="https://cdn.mos.cms.futurecdn.net/mhCxvbV9KM4P9KqNcjtWaR-2243-80.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>📱 iPhone 18 Pro 泄露汇总：深红配色取代黑色、分阶段发售、标准款或推迟到2027</title>
       <description>&lt;p&gt;过去48小时，iPhone 18 系列的泄露密度明显上升。综合微博爆料人 WhyLab 和 Android Headlines 的信息，几个关键变化正在浮现。&lt;/p&gt;
@@ -1207,6 +1107,69 @@
       <category>tech-products</category>
       <link>https://www.gizmochina.com/2026/04/13/redmi-k90-max-launch-date-confirmed/</link>
       <enclosure url="https://www.gizmochina.com/wp-content/uploads/2026/04/Redmi-K90-Max-launch-date.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 大疆 Avata 360 全球开售：首款 8K 全景 FPV 无人机，双 1 英寸传感器 + O4+ 图传，2788 元起</title>
+      <description>&lt;p&gt;大疆于 3 月 26 日正式发布 &lt;strong&gt;DJI Avata 360&lt;/strong&gt;，这是大疆历史上首款支持 360° 全景拍摄的 FPV 无人机，同时也是一款高性能 FPV 运动飞行器。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;影像核心：&lt;/strong&gt;机身搭载双等效 1 英寸传感器（2.4μm 大像素），支持 &lt;strong&gt;8K/60fps HDR 全景视频&lt;/strong&gt;录制，单张可输出 1.2 亿像素超高清全景照片。飞手可在全景模式与单镜头模式（4K/60fps）之间一键切换，兼顾沉浸拍摄与高画质 FPV 飞行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图传与续航：&lt;/strong&gt;搭载旗舰级 &lt;strong&gt;O4+ 全高清图传&lt;/strong&gt;，支持 20 公里范围内 1080p/60fps 实时画面传输，内置 4G 增强图传模块，城市复杂环境下信号更稳定。同时支持双路高清图传，飞手和地勤可同时查看画面。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;安全飞行：&lt;/strong&gt;配备全向障碍感知系统，适合新手在复杂场景中安全飞行；自动返航、低电保护等功能完善。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;价格与上市：&lt;/strong&gt;国内 2788 元起（仅飞行器版），含 DJI RC 2 遥控器套装 4388 元，畅飞套装 5488 元。美国市场于 &lt;strong&gt;4 月 13 日&lt;/strong&gt;在亚马逊正式开售，RC 2 套装定价 &lt;strong&gt;719 美元&lt;/strong&gt;，比最近竞品 Antigravity A1（1279 美元）便宜近半，Fly More 组合套装 979 美元，预计四月底到货。&lt;/p&gt;&lt;p&gt;这是大疆首次将全景影像能力与 FPV 飞行融合于同一机身，也标志着消费级 8K 全景航拍门槛进一步降低。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://m.ithome.com/html/933051.htm"&gt;https://m.ithome.com/html/933051.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dronedj.com/2026/04/13/dji-avata-360-us-price/"&gt;https://dronedj.com/2026/04/13/dji-avata-360-us-price/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dronexl.co/2026/04/13/dji-avata-360-amazon-us-sale/"&gt;https://dronexl.co/2026/04/13/dji-avata-360-amazon-us-sale/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d4fb66b0-3e57-5b58-9c1e-160f69f9030e</guid>
+      <pubDate>Mon, 20 Apr 2026 08:03:25 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://m.ithome.com/html/933051.htm</link>
+      <enclosure url="https://img.ithome.com/m/images/logo.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 Intel Core Series 3 正式上市：18A 工艺打入入门 AI 笔记本，平台 40 TOPS，比五年旧机快 47%</title>
+      <description>&lt;p&gt;2026 年 4 月 16 日，英特尔正式推出面向中低端市场的 &lt;strong&gt;Intel Core Series 3（代号 Wildcat Lake）&lt;/strong&gt;移动处理器，这是继高端 Panther Lake（Core Ultra Series 3）之后，18A 工艺节点的第二波落地产品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;架构与规格：&lt;/strong&gt;典型配置包含 2 个性能核心（P-core）和 4 个低功耗效率核心（LP E-core），搭载集成 Xe 显卡与专用神经处理器（NPU）。整体平台最高可提供 &lt;strong&gt;40 TOPS&lt;/strong&gt; AI 算力（CPU + GPU + NPU 联合），其中 NPU 单独贡献最高 17 TOPS，满足 Copilot+ PC 入门资质。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;性能提升：&lt;/strong&gt;英特尔官方数据显示，相比使用五年的老旧系统，Core Series 3 平台可带来约 &lt;strong&gt;47% 的综合性能提升&lt;/strong&gt;，日常办公与轻度 AI 任务体验大幅改善。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;生态与上市：&lt;/strong&gt;包括宏碁（Acer）、华硕（ASUS）、戴尔（Dell）、惠普（HP）、联想（Lenovo）、微星（MSI）、三星（Samsung）在内的超过 70 款 OEM 设计将于 2026 年内陆续推出，首批系统已于 4 月 16 日同步开售。定位入门轻薄本与边缘 AI 计算设备，主打性价比替换方案。&lt;/p&gt;&lt;p&gt;随着 Core Ultra Series 3 主打高性能旗舰、Core Series 3 主攻大众入门，英特尔在 2026 年完成了从旗舰到入门的 18A 工艺全线覆盖，全面推进 AI PC 普惠化进程。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.ghacks.net/2026/04/17/intel-launches-core-series-3-processors-on-intel-18a-node-with-up-to-40-tops-ai-performance/"&gt;https://www.ghacks.net/2026/04/17/intel-launches-core-series-3-processors-on-intel-18a-node-with-up-to-40-tops-ai-performance/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnx-software.com/2026/04/17/intel-core-series-3-wildcat-lake-processor-family-launched-for-entry-level-laptops-and-edge-ai-systems/"&gt;https://www.cnx-software.com/2026/04/17/intel-core-series-3-wildcat-lake-processor-family-launched-for-entry-level-laptops-and-edge-ai-systems/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://winbuzzer.com/2026/04/17/intel-launches-core-series-3-budget-ai-laptops-xcxwbn/"&gt;https://winbuzzer.com/2026/04/17/intel-launches-core-series-3-budget-ai-laptops-xcxwbn/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5c665b99-bfec-50c4-be08-ec468cb29cd9</guid>
+      <pubDate>Mon, 20 Apr 2026 08:03:46 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.ghacks.net/2026/04/17/intel-launches-core-series-3-processors-on-intel-18a-node-with-up-to-40-tops-ai-performance/</link>
+      <enclosure url="https://www.ghacks.net/wp-content/uploads/2026/04/gHacks-articles-2026-04-17T090514.979.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 iQOO Z11 发布：9020mAh 史上最大量产手机电池，天玑 8500 + 165Hz 护眼屏，1699 元起</title>
+      <description>&lt;p&gt;2026 年 3 月 26 日，iQOO 正式发布 &lt;strong&gt;iQOO Z11&lt;/strong&gt;，核心卖点是搭载 vivo 全新研发的 &lt;strong&gt;蓝海超大电池 9020mAh&lt;/strong&gt;——目前量产手机中容量最大的电池，同时价格仅从 1699 元起，将超长续航带入千元机价位段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;电池与充电：&lt;/strong&gt;9020mAh 蓝海电池采用硅碳负极材料，能量密度显著提升以实现如此容量但不大幅增加机身厚度（8.25mm）和重量（216.5g）。支持 &lt;strong&gt;90W 有线快充&lt;/strong&gt;，即便电池超大，充满速度依然较快。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;性能：&lt;/strong&gt;处理器为联发科 &lt;strong&gt;天玑 8500 满血版&lt;/strong&gt;，搭配 OriginOS 6 系统与 Monster 超核引擎，游戏性能优化到位。屏幕为 &lt;strong&gt;6.83 英寸 165Hz 护眼电竞屏&lt;/strong&gt;，支持高帧率流畅显示，同时通过护眼认证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;影像：&lt;/strong&gt;主摄为 &lt;strong&gt;索尼 LYT-600 大底传感器&lt;/strong&gt;，5000 万像素，支持 OIS 光学防抖，拍照表现在同价位段有竞争力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;价格：&lt;/strong&gt;8GB+128GB 国补首销价 1699.15 元起，顶配 16GB+512GB 国补后 2719.15 元。进阶版 &lt;strong&gt;iQOO Z11 Turbo&lt;/strong&gt; 则在 1 月发布，搭载更高规格芯片，2399 元起，定位中端全能旗舰。&lt;/p&gt;&lt;p&gt;iQOO Z11 是目前最适合追求极致续航的用户的入门之选，将充一次用三天变成真实可量化的体验。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sspai.com/post/107915"&gt;https://sspai.com/post/107915&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.igao7.com/news/202604/wgH6xmbawt7OwTRL.html"&gt;https://www.igao7.com/news/202604/wgH6xmbawt7OwTRL.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aitcore.com/pc/2691.html"&gt;https://www.aitcore.com/pc/2691.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f5ed5bca-da0f-5b91-b005-f9903090c355</guid>
+      <pubDate>Mon, 20 Apr 2026 08:04:07 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://sspai.com/post/107915</link>
+      <enclosure url="https://rssfile.sspai.com/3/27/2026/article/8435f63d-12e8-f76d-ee89-77ce964f2230.png?imageMogr2/auto-orient/format/webp/ignore-error/1" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📱 荣耀 MagicBook Pro 2026 款发布：3:2 OLED 触控屏 + 酷睿 Ultra X9，国补到手 4799 元起</title>
+      <description>&lt;p&gt;荣耀在本周超级发布周期间推出 &lt;strong&gt;MagicBook Pro 14 / Pro 16 2026 款&lt;/strong&gt;笔记本，主打高端创作本定位，以酷睿 Ultra 全系列选项搭配高规格屏幕，面向设计师、学生和轻度创意工作者。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;屏幕亮点（Pro 14）：&lt;/strong&gt;配备 &lt;strong&gt;14.6 英寸 3120×2080 OLED 触控屏&lt;/strong&gt;，120Hz 刷新率，3:2 宽屏比例，峰值亮度 700 尼特，配备 LR 抗反光涂层，色彩准确、触控灵敏，是轻薄创作本中屏幕素质较为突出的选项。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;屏幕亮点（Pro 16）：&lt;/strong&gt;配备 &lt;strong&gt;16 英寸 3072×1920 LCD 高刷屏&lt;/strong&gt;，165Hz 刷新率，16:10 比例，屏占比达 93%，峰值亮度 500 尼特，适合需要大屏生产力的用户。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;性能配置：&lt;/strong&gt;全系搭载第三代英特尔酷睿 Ultra 处理器，可选 &lt;strong&gt;Ultra 5 338H / Ultra X7 358H / Ultra X9 388H&lt;/strong&gt;，性能释放最高 88W；标配 &lt;strong&gt;92Wh 大容量电池&lt;/strong&gt;，支持双 M.2 2280 固态硬盘扩展槽及最高 9600 MT/s 高频内存，扩展性较强。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;机身重量：&lt;/strong&gt;Pro 14 重 1.37kg，Pro 16 重 1.64kg，在同类高性能创作本中属于轻薄水平。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;软件生态：&lt;/strong&gt;荣耀同步推出 &lt;strong&gt;Magic 视界&lt;/strong&gt;功能，支持 YOYO AI 智慧搜索等 AI 助手能力，是荣耀 PC 软件生态的新一步探索。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;价格：&lt;/strong&gt;国补后到手价 &lt;strong&gt;4799.2 元起&lt;/strong&gt;（Ultra 5 配置），旗舰 Ultra X9 版本价格更高，性价比定位明确。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.donews.com/news/detail/5/4778309.html"&gt;https://www.donews.com/news/detail/5/4778309.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ithome.com/0/935/004.htm"&gt;https://www.ithome.com/0/935/004.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://finance.sina.com.cn/tech/roll/2026-04-02/doc-inhtcfxu0960691.shtml"&gt;https://finance.sina.com.cn/tech/roll/2026-04-02/doc-inhtcfxu0960691.shtml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">857ca79c-c3d5-5f32-8b5e-d19c82910ec9</guid>
+      <pubDate>Mon, 20 Apr 2026 08:04:35 +0000</pubDate>
+      <category>tech-products</category>
+      <link>https://www.donews.com/news/detail/5/4778309.html</link>
     </item>
   </channel>
 </rss>
