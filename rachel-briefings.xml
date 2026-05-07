@@ -9,739 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Wed, 06 May 2026 08:14:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 08:14:45 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 🎨 NN/g China Study: Verification UX Is Where Culture Still Lives—Even As AI Interfaces Globally Converge / NN/g 中国研究：AI 界面全球收敛，验证 UX 才是文化还活着的地方</title>
-      <description>&lt;p&gt;Western UX research about AI-mediated information seeking has been remarkably uniform: ChatGPT for first answer, Google to verify, occasional pivot to Reddit when both feel polished but wrong. Feifei Liu and Maria Rosala's &lt;strong&gt;"Information Seeking in China: A Different Ecosystem, Familiar Behavior,"&lt;/strong&gt; published by NN/g on May 1, 2026, is the rare comparative study that actually goes and looks—remote research with six Chinese participants spanning ages, occupations, and AI familiarity—and the findings are more interesting than the usual "they have a different ecosystem" framing suggests.&lt;/p&gt;
-
-&lt;p&gt;The headline numbers are stark. &lt;strong&gt;99.7% of Chinese internet users access the web via phone.&lt;/strong&gt; Every single participant in the study used phones exclusively for information-seeking tasks. There was no laptop fallback, no "open this on desktop later" intention. The mobile substrate isn't a preference; it's the only substrate. This matters for Western product teams: any service that hopes to onboard Chinese users via a mobile-secondary, desktop-first information architecture is competing with apps that have been pure-mobile-native since 2010.&lt;/p&gt;
-
-&lt;p&gt;The more provocative finding is what's &lt;em&gt;not&lt;/em&gt; being used. Baidu, the dominant search engine of the 2010s, has lost its grip. Liu and Rosala report that participants abandoned it because of advertising saturation. One direct quote: &lt;em&gt;"no matter what I searched, the results were mostly ads."&lt;/em&gt; This is a textbook case of dark-pattern revenue extraction destroying a category-defining product—the same arc that the FTC's $2.5 billion Amazon Prime settlement (refunds going out through July 27, 2026) just penalized in the US, and that the EU's DSA Article 25 enforcement is now pressuring across European platforms. The Chinese case is the market-driven version of the same correction: when the regulator doesn't act, users defect.&lt;/p&gt;
-
-&lt;p&gt;What they defect &lt;em&gt;to&lt;/em&gt; is the central finding. &lt;strong&gt;DeepSeek and Doubao are now the primary tools for initial information gathering&lt;/strong&gt;—not search engines, not social platforms, but generative AI as the default first stop. This mirrors Western behavior with ChatGPT or Claude as the entry point, but with a critical structural difference: these are domestic models trained on Chinese-language corpora and deeply integrated with payment, identity, and content ecosystems Western models can't reach. The substrate looks similar from a UX perspective; the underlying graph is entirely separate.&lt;/p&gt;
-
-&lt;p&gt;The cross-validation pattern is the biggest insight, and the most useful for product designers building anywhere in the world. Western users, when they want to verify what an AI told them, fall back to &lt;strong&gt;Google&lt;/strong&gt;—they want a second algorithmic opinion. Chinese users fall back to &lt;strong&gt;Rednote and Douyin&lt;/strong&gt;—they want to see real people who tried the thing. As the authors put it, they want to see "real-world outcomes and peer experiences." The cultural framing in the article is collectivism vs. individualism, but the design implication is sharper: &lt;strong&gt;verification UX is converging on social proof, not algorithmic re-ranking&lt;/strong&gt;. The Chinese pattern is two years ahead because the local search engine collapsed earlier and forced the substitution.&lt;/p&gt;
-
-&lt;p&gt;The behavioral parallels Liu and Rosala document are arguably more important than the differences. They list three:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Variable trust levels in AI accuracy&lt;/strong&gt;—same bimodal distribution Western studies have found. A subset of users trusts the AI implicitly, a subset cross-references everything, and the gap correlates more with personal disposition than with cultural background.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cross-validation among expert users&lt;/strong&gt;—the same "smart users verify, novice users don't" pattern. AI literacy doesn't track demographics in either ecosystem.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tool-based rather than anthropomorphic engagement&lt;/strong&gt;—Chinese users, like Western ones, treat chatbots as utilities, not companions. The widely held assumption that Asian markets would embrace anthropomorphic AI more readily because of cultural familiarity with virtual idols and assistants is, on this evidence, wrong.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For NN/g, this fits a now-substantial Spring 2026 series on AI interface convergence. The April 24 chatbot guidelines piece (Kenderova/Rosala/Kohler), April 17's "Less Chat, More Answer" (cut verbose responses), April 10's "AI Agents as Users" (Gibbons/Moran), and now this China study all argue the same underlying thesis: &lt;strong&gt;the pattern library for AI interfaces is converging globally&lt;/strong&gt;, not fragmenting by region. The interaction primitives—suggested questions as buttons, no autoscroll on streaming, voice input, source citations, social-proof verification fallback—are reaching the same equilibrium in Hangzhou as they are in Mountain View.&lt;/p&gt;
-
-&lt;p&gt;This has uncomfortable implications for the "design for local context" tradition. The conventional wisdom for international product design has been that interaction patterns must be deeply localized—WeChat-style super-apps for Chinese markets, swipe-driven feeds for Indian markets, etc. The Liu and Rosala data is not refuting that wisdom for established product categories. But for the AI interaction layer—how a user asks a model for information and how the model responds—the global convergence is real, and product teams shipping AI features to Chinese users are likely overengineering localization at the interaction layer while underengineering it at the verification layer.&lt;/p&gt;
-
-&lt;p&gt;The actionable design move: if you're shipping an AI feature internationally, the chat UI itself can be the same; the &lt;strong&gt;"and now verify this"&lt;/strong&gt; affordance has to be locally appropriate. In US/EU, link to authoritative sources and let users tap to Google. In China, link to Rednote/Douyin posts where real people show outcomes. In both, the underlying user need is the same—escape the algorithmic black box and see what actually happens when humans try the thing. The verification UX is where culture still lives.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Concrete takeaway:&lt;/strong&gt; open your team's AI feature and look for the verification moment. Is there a clear path from "the AI told me X" to "here's evidence X is true"? If yes, what's at the other end of that path, and does it work for non-Western users? If no, you have a bug that the Chinese ecosystem already solved.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;西方关于 AI 介导信息查询的 UX 研究结论高度一致：ChatGPT 给第一答案、Google 验证、偶尔在两者都看着光滑但不对劲时跳到 Reddit。Feifei Liu 和 Maria Rosala 5 月 1 日在 NN/g 发表的 &lt;strong&gt;"Information Seeking in China: A Different Ecosystem, Familiar Behavior"&lt;/strong&gt;，是难得真正去看了一眼的对照研究——远程访谈 6 名年龄、职业、AI 熟悉度跨度都不小的中国受访者——结论比通常那种"他们生态系统不一样"的框架更有意思。&lt;/p&gt;
-
-&lt;p&gt;头条数字很刺眼。&lt;strong&gt;99.7% 的中国互联网用户通过手机上网。&lt;/strong&gt;研究中每一位参与者在做信息查询时都只用手机，没有"等会儿用电脑打开"的备份念头，也没有笔记本回退。移动端不是偏好，是唯一的基底。这对西方产品团队意味着：任何想让中国用户上手、却采用 mobile-secondary、desktop-first 信息架构的服务，对手是从 2010 年就 pure-mobile-native 的 App。&lt;/p&gt;
-
-&lt;p&gt;更耐人寻味的是&lt;em&gt;没&lt;/em&gt;在用什么。2010 年代统治搜索的百度，握不住手了。Liu 和 Rosala 报告参与者因广告饱和而抛弃了它。原话引用：&lt;em&gt;"我搜什么，结果大部分都是广告。"&lt;/em&gt; 这是教科书级别的暗模式式吸钱毁掉品类定义产品的案例——FTC 25 亿美元 Amazon Prime 和解（退款窗口 7 月 27 日才关）刚在美国惩罚了同一种弧线，欧盟 DSA 第 25 条执行也正在向欧洲平台施压。中国这个案例是同一种修正的市场驱动版本：监管不动，用户走人。&lt;/p&gt;
-
-&lt;p&gt;用户走去哪里是核心发现。&lt;strong&gt;DeepSeek 和豆包现在是初步信息查询的首要工具&lt;/strong&gt;——不是搜索引擎，不是社交平台，而是把生成式 AI 当作默认第一站。这和西方用 ChatGPT 或 Claude 当入口的行为一致，但有一个关键的结构差异：这些是用中文语料训练、深度整合本地支付、身份和内容生态的国产模型，西方模型够不着这一层。从 UX 角度看基底相似，底层图谱完全分离。&lt;/p&gt;
-
-&lt;p&gt;验证模式的差异是最大的洞察，对在世界任何地方做产品的设计师都有用。西方用户想验证 AI 说的话时，回退到 &lt;strong&gt;Google&lt;/strong&gt;——他们想要第二个算法意见。中国用户回退到&lt;strong&gt;小红书和抖音&lt;/strong&gt;——他们想看真人试过这件事。作者原话："real-world outcomes and peer experiences"。文章里的文化框架是集体主义对个人主义，但设计含义更锐利：&lt;strong&gt;验证 UX 正在向社会证据收敛，而非算法重排&lt;/strong&gt;。中国模式领先两年，因为本地搜索引擎更早崩塌、更早强制了这种替代。&lt;/p&gt;
-
-&lt;p&gt;Liu 和 Rosala 记录的行为相似点，说不定比差异更重要。她们列了三条：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;对 AI 准确度的信任水平差异&lt;/strong&gt;——和西方研究一样的双峰分布。一部分用户无脑信，一部分什么都交叉验证，差距和个人性格的关系比和文化背景的关系更大。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;专家用户做交叉验证&lt;/strong&gt;——同样的"高 AI 素养验证、新手不验证"的模式。AI 素养在两个生态里都不与人口学变量挂钩。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;工具式而非拟人化的交互&lt;/strong&gt;——中国用户和西方用户一样，把 chatbot 当工具用、不当伴侣。"亚洲市场会因为对虚拟偶像和助手的文化熟悉度更容易接受拟人化 AI"——这个流传很广的假设，按这份证据，是错的。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对 NN/g 来说，这篇文章接上了一个已经成形的 2026 年春季系列。4 月 24 日 chatbot 准则（Kenderova/Rosala/Kohler）、4 月 17 日 "Less Chat, More Answer"（砍掉啰嗦回复）、4 月 10 日 "AI Agents as Users"（Gibbons/Moran），加上现在这篇中国研究，论证同一个底层命题：&lt;strong&gt;AI 界面的模式库正在全球收敛&lt;/strong&gt;，而非按地区分裂。交互原语——suggested questions 做按钮、流式时不自动滚、语音输入、来源引用、社会证据式验证回退——在杭州和山景城达成的均衡是同一个。&lt;/p&gt;
-
-&lt;p&gt;这对"为本地情境设计"的传统提出了一个不舒服的含义。国际产品设计的传统智慧是：交互模式必须深度本地化——给中国市场做 WeChat 式超级 App、给印度市场做 swipe 驱动的信息流，等等。Liu 和 Rosala 的数据并不否认那条智慧对成熟品类还成立。但对 AI 交互层——用户怎么向模型问信息、模型怎么回应——全球收敛是真实的，给中国用户上 AI 功能的产品团队大概率在交互层过度本地化、却在验证层本地化不足。&lt;/p&gt;
-
-&lt;p&gt;可执行的设计动作：你的 AI 功能要做国际版的话，chat UI 本身可以一样；&lt;strong&gt;"现在去验证这件事"&lt;/strong&gt;那个 affordance 必须本地化。欧美链接到权威来源、让用户点开 Google。中国链接到小红书/抖音帖子，看真人展示结果。两边底层用户需求一致——逃出算法黑箱，看真人试过会发生什么。验证 UX 才是文化还活着的地方。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;具体 takeaway：&lt;/strong&gt;打开你团队的 AI 功能，找到验证那一刻。从"AI 告诉我 X"到"X 是真的的证据"有清晰路径吗？如果有，路径另一端是什么，对非西方用户有效吗？如果没有，你有一个 bug——而这个 bug 中国生态已经解过了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/information-seeking-china/"&gt;https://www.nngroup.com/articles/information-seeking-china/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/"&gt;https://www.nngroup.com/articles/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">79070fdf-c34c-58df-8157-c25ad91ba8ab</guid>
-      <pubDate>Mon, 04 May 2026 13:29:30 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/information-seeking-china/</link>
-      <enclosure url="https://media.nngroup.com/media/editor/2026/05/01/social-card-information-seeking-china.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 🎲 🎲 1920 年代「镭女工」血案：4000 名女工被教用嘴唇捋尖刷子画夜光表盘，到 1927 年 50+ 人死于颌骨坏死和骨癌——5 人 1928 年胜诉催生美国职业病赔偿法，遗骨至今仍在辐射</title>
-      <description>&lt;p&gt;1917 年新泽西州 Orange 镇，United States Radium Corporation（USRC）开了一家工厂，专门给军方和民用钟表绘制夜光表盘。他们用的是自家专利产品「&lt;strong&gt;Undark&lt;/strong&gt;」——一种含镭的发光涂料，广告里得意地宣称「全靠镭的魔力！」工厂雇了大约 4000 名年轻女工——大多 14 到 20 岁，因为这是当时报酬最高的女性蓝领工作之一，是别处工资的 3 倍。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radium_Dial_Painters.jpg/640px-Radium_Dial_Painters.jpg" alt="1922 年镭表盘女工" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1922 年 USRC 工厂的镭表盘女工，无任何防护设备，使用「lip, dip, paint」工艺。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;表盘的字号极小，刷毛容易开叉。工厂教女工的工艺叫「&lt;strong&gt;lip, dip, paint&lt;/strong&gt;」——舔、蘸、画。把骆驼毛刷尖伸进嘴里用嘴唇捋尖，再蘸涂料，再画字。每个表盘十几个数字，每个女工每天画两三百个表盘，每天数千次的舔嘴动作。工厂主管告诉她们：「镭无害，专家都说了。」女工们甚至会用 Undark 涂料涂指甲、涂牙齿、涂头发，让自己在黑暗中发光，下班路上互相打量觉得好玩。&lt;/p&gt;
-
-&lt;p&gt;人体把镭误当成钙吸收，沉积在骨头里，从内部持续放射 α 和 γ 射线。&lt;strong&gt;1922 年第一名女工 Mollie Maggia 死亡&lt;/strong&gt;。她最后几个月的症状今天读来仍触目惊心：牙齿一颗颗自己掉、下颌骨开始坏死，医生在她嘴里轻轻一拨，整块下颌骨就「嘎吱」一声脱落。死亡证明上写「梅毒」——这是 USRC 公关团队成功散布的谎言，专门用来败坏女工名声让她们维权时无人同情。&lt;/p&gt;
-
-&lt;p&gt;到 1927 年，超过 50 名女工死于辐射病：颌骨坏死、贫血、骨折（骨头脆得能自己折）、不孕、月经停止、身上肿瘤。同时 USRC 拿到的工业医学体检报告显示女工普遍异常，公司把报告锁起来。Newark 县法医 &lt;strong&gt;Harrison Martland 1925 年起独立调查&lt;/strong&gt;，因为 USRC 自家首席化学家 Dr. Edwin Leman 也死了——这个事实终于戳破公司谎言。Martland 发明了第一个测体内镭的呼气检测法。&lt;/p&gt;
-
-&lt;p&gt;1927 年 5 名仍活着的女工——Grace Fryer、Edna Hussman、Katherine Schaub、Quinta McDonald、Albina Larice——决定起诉。Grace 跑了两年才找到愿意接案的律师 Raymond Berry，因为绝大多数律师不敢得罪整个镭工业。1928 年 USRC 在审判前庭外和解，每人赔偿 1 万美元（按 2025 年通胀约合 18.8 万）+ 每年 600 美元医疗津贴 + 全部医疗费用。这 5 个人全部在 1930 年代之前死去——和解金没救活任何一个。&lt;/p&gt;
-
-&lt;p&gt;但她们留下了三件改变美国劳工法的遗产：(1) 这是&lt;strong&gt;美国历史上第一次工人成功起诉雇主索赔职业病&lt;/strong&gt;——此前职业病不算工伤；(2) 1949 年美国国会通过工伤补偿法案，明文写入职业病；(3) 直接催生了后来的 OSHA 和原子能委员会的辐射安全标准。第二次世界大战曼哈顿计划的辐射防护规范，&lt;strong&gt;每一条都是踩着 1920 年代镭女工的尸骨&lt;/strong&gt;建立的。&lt;/p&gt;
-
-&lt;p&gt;最后一个细节让人毛骨悚然：&lt;strong&gt;Mollie Maggia 死后 5 年，1927 年验尸时遗体仍在发光&lt;/strong&gt;。她的骨头放在防辐射铅盒里至今——&lt;strong&gt;镭-226 的半衰期是 1600 年&lt;/strong&gt;，意味着这些女工的遗骨在墓地里会持续发出辐射到公元 3500 年。最后一家镭涂料厂 1978 年才关门。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Radium_Girls"&gt;https://en.wikipedia.org/wiki/Radium_Girls&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.history.com/articles/radium-girls-workplace-safety"&gt;https://www.history.com/articles/radium-girls-workplace-safety&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://historynet.com/radium-girls-vs-us-radium/"&gt;https://historynet.com/radium-girls-vs-us-radium/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ahf.nuclearmuseum.org/ahf/history/radium-girls/"&gt;https://ahf.nuclearmuseum.org/ahf/history/radium-girls/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">007b2d80-0672-59d3-b1c0-70cdd04399d3</guid>
-      <pubDate>Mon, 04 May 2026 13:29:45 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Radium_Girls</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radium_Dial_Painters.jpg/640px-Radium_Dial_Painters.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 利拉鲁肽 ELAD 二期试验：204 名阿尔茨海默病患者脑萎缩速度减半，但主终点失败——GLP-1 还有机会吗？</title>
-      <description>&lt;p&gt;GLP-1 受体激动剂能治阿尔茨海默病吗？这个问题在神经科学界争论了数年，如今终于有了第一份大型二期临床数据——结果喜忧参半。&lt;/p&gt;
-
-&lt;p&gt;帝国理工学院（Imperial College London）主导的 &lt;strong&gt;ELAD 二期 b 试验&lt;/strong&gt;（NCT01843075）于 2025 年 12 月发表于《自然·医学》（Nature Medicine）。试验纳入 204 名非糖尿病的轻中度阿尔茨海默病患者，随机分配接受每日皮下注射利拉鲁肽（liraglutide，1.8 mg）或安慰剂，持续 52 周。&lt;/p&gt;
-
-&lt;p&gt;主要终点落空：FDG-PET 测量的脑葡萄糖代谢在两组间无显著差异。但次要终点的信号让研究者没有完全放手。MRI 影像显示利拉鲁肽组脑萎缩速度约慢 50%；认知功能下降（ADAS-cog 评分）慢约 18%。安全性反而给了意外惊喜——利拉鲁肽组严重不良事件率仅 7%，安慰剂组高达 18%。&lt;/p&gt;
-
-&lt;p&gt;"主终点失败、次要终点亮眼"这个模式解读起来很棘手。帝国理工 Paul Edison 教授指出了一个关键变量：注射型利拉鲁肽穿越血脑屏障的效率有限，脑内实际药物浓度可能不足以影响 PET 信号，但外周机制——改善全身胰岛素信号、抑制系统性炎症——或许已经产生了保护作用。这与动物模型中 GLP-1 激动剂减少淀粉样蛋白沉积、抑制神经炎症的数据并不矛盾。&lt;/p&gt;
-
-&lt;p&gt;拿 ELAD 和三个月前失败的 EVOKE 试验对比更能说明问题。EVOKE 用的是口服索马鲁肽（oral semaglutide），纳入 3,800 名患者，规模是 ELAD 近 20 倍，主终点同样失败，但认知次要终点几乎没有任何信号。牛津大学 Ivan Koychev 的分析是：&lt;strong&gt;介入时机&lt;/strong&gt;可能是决定性变量——ELAD 选取的患者病程较早，疾病窗口更合适；而 EVOKE 纳入的患者病情已经进展到了一个较难逆转的阶段。但 ELAD 的样本量太小、随访仅一年，不足以做出确定性结论。&lt;/p&gt;
-
-&lt;p&gt;GLP-1 受体在海马体和前额叶皮质均有表达，可直接作用于神经元；同时能改善中枢胰岛素信号传导，抑制 tau 蛋白过度磷酸化（阿尔茨海默病有时被称为"3 型糖尿病"）；外周抗炎效应也可能间接保护脑组织。三条机制路径并行，很难从单一临床试验中厘清各自的贡献大小。&lt;/p&gt;
-
-&lt;p&gt;ELAD 数据本身不足以改变临床实践，但足以撑起更大规模三期试验的资金申请。Edison 团队正在设计三期方案，计划选用血脑屏障渗透率更高的 GLP-1 类似物，并考虑调整剂量策略以提高脑内药物暴露量。同类研究中，司美格鲁肽注射剂（与 EVOKE 的口服版是不同剂型）的三期试验仍在进行；探索替尔泊肽（tirzepatide，GIP/GLP-1 双受体激动剂）认知获益的早期研究也在积极招募。&lt;/p&gt;
-
-&lt;p&gt;五年前 GLP-1 还只是糖尿病用药，现在它已经在肥胖、心血管、肾病之外打开了神经退行性疾病这扇门——ELAD 的数据说明，这扇门还没有关上。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.imperial.ac.uk/news/articles/medicine/brain-sciences/2026/weight-loss-drugs-and-alzheimers-disease--is-there-hope-for-future-/"&gt;https://www.imperial.ac.uk/news/articles/medicine/brain-sciences/2026/weight-loss-drugs-and-alzheimers-disease--is-there-hope-for-future-/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41591-025-04106-7"&gt;https://www.nature.com/articles/s41591-025-04106-7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">45b673c7-581c-5fae-a30f-19f83a4d72c3</guid>
-      <pubDate>Mon, 04 May 2026 13:30:01 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.imperial.ac.uk/news/articles/medicine/brain-sciences/2026/weight-loss-drugs-and-alzheimers-disease--is-there-hope-for-future-/</link>
-      <enclosure url="https://www.imperial.ac.uk/news/media/images/landscape-3000x2000/2026-01-27_PET-scan.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Connect Bay Area 签名战冲刺：Caltrain 存亡的十一月公投还缺多少票？</title>
-      <description>&lt;p&gt;如果你最近在 Caltrain 站台或周末农夫市集被人拦下来问「能不能帮忙签个名」，别觉得奇怪——那是 &lt;strong&gt;Connect Bay Area&lt;/strong&gt; 的志愿者在收集选票请愿书。这场运动的目标是把一项区域交通税提案送上今年十一月的选票，而它关系到 Caltrain、BART 和 Muni 能不能活下去。&lt;/p&gt;
-
-&lt;p&gt;事情的起点是 2025 年 10 月。加州州长 Newsom 签署了 SB 63 法案，授权在湾区五个县（San Francisco、San Mateo、Santa Clara、Alameda、Contra Costa）开征为期 14 年的 0.5% 销售税（旧金山县为 1%），每年预计筹得约十亿美元，专项用于 BART、Caltrain、Muni、AC Transit 的运营和升级。SB 63 本身只是开了一扇门——要真正落地，必须走「公民提案」路线，在 2026 年 6 月前收集足够多的有效签名，才能进入十一月普选，最终需要简单多数同意。&lt;/p&gt;
-
-&lt;p&gt;今年一月，正式的签名收集运动启动。目标大约是 186,000 到 200,000 个有效签名（加上一定的缓冲量）。截至 2026 年三月下旬，Seamless Bay Area 和 MTC 的联合声明显示进展「顺利」，竞选经理 Cyrus Hall 表示已完成大部分签名，并在向 mid-May 冲刺。幕后金主包括一批与湾区交通基建深度绑定的工程咨询公司：HNTB、Jacobs、HDR、WSP、Arup 等，已合计捐出约 300 万美元。&lt;/p&gt;
-
-&lt;p&gt;现实很残酷：如果这项提案未能上选票或未获通过，BART 面临削减 90% 服务的预算危机，Caltrain 则可能关闭多个站点——这对住在 Peninsula 依赖火车通勤的人来说不是抽象威胁，而是字面意义上的「没车坐」。&lt;/p&gt;
-
-&lt;p&gt;想帮忙签名？去最近的 Caltrain 站台找志愿者，或者关注 &lt;strong&gt;seamlessbayarea.org&lt;/strong&gt; 查看周末活动地点。必须是加州登记选民，花不到两分钟。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.seamlessbayarea.org/blog/2025/10/20/governor-signs-sb63-paving-way-for-transit-funding-regional-measure-and-signature-gathering-campaign-1"&gt;https://www.seamlessbayarea.org/blog/2025/10/20/governor-signs-sb63-paving-way-for-transit-funding-regional-measure-and-signature-gathering-campaign-1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.streetsblog.org/2026/03/26/transit-agencies-mark-progress-as-ballot-efforts-intensify"&gt;https://sf.streetsblog.org/2026/03/26/transit-agencies-mark-progress-as-ballot-efforts-intensify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://mtc.ca.gov/news/governor-signs-bill-authorizing-bay-area-voters-consider-2026-transit-measure"&gt;https://mtc.ca.gov/news/governor-signs-bill-authorizing-bay-area-voters-consider-2026-transit-measure&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b4df82f3-af50-5133-bcb7-3207b3c8635b</guid>
-      <pubDate>Mon, 04 May 2026 13:30:21 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.seamlessbayarea.org/blog/2025/10/20/governor-signs-sb63-paving-way-for-transit-funding-regional-measure-and-signature-gathering-campaign-1</link>
-      <enclosure url="http://static1.squarespace.com/static/5a30a7876957da5157ab1d53/5a5ebe018165f524df640540/68f6955cf4a8c72991075cd3/1761069733452/IMG_0692.webp?format=1500w" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 全球因 PM2.5 损失 650 亿 IQ 积分：npj Clean Air 论文呼吁将认知健康写入空气质量标准</title>
-      <description>&lt;p&gt;全球每年因 PM2.5 空气污染损失 650 亿 IQ 积分——这个数字来自伯明翰大学（University of Birmingham）Francis Pope 教授团队，2026 年发表于《npj Clean Air》的一篇视角论文。这不是模型估算，而是对近十年全球流行病学研究的系统性综合。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.birmingham.ac.uk/media-library/header-images/london-pollution-1920.x15a50474.jpg" alt="伦敦城市空气污染景象" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;伦敦城市上空的污染景象。PM2.5 对大脑的危害从胎儿期一直延续到老年期。图片来源：University of Birmingham&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;研究者的核心发现是：PM2.5 对认知健康的损害曲线是连续的，没有明显的"安全阈值"。哪怕暴露浓度低于目前全球各大监管机构设定的"安全标准"，仍可观察到认知下降信号。这意味着现行标准——无论是 WHO 的 5 μg/m³ 年均指南，还是美国 EPA 的 9 μg/m³——可能在认知保护层面严重不足。&lt;/p&gt;
-
-&lt;p&gt;损害贯穿整个生命周期。产前暴露影响胎儿大脑发育；儿童期暴露影响认知发育轨迹和学业表现；成年期慢性暴露加速认知老化；老年期则显著提高阿尔茨海默病和其他痴呆的风险。Pope 团队把这描述为一条从出生前到死亡的"持续损害曲线"——没有任何年龄段是真正免疫的。&lt;/p&gt;
-
-&lt;p&gt;并非所有 PM2.5 成分的毒性都相同。论文特别指出&lt;strong&gt;黑碳（Black Carbon, BC）&lt;/strong&gt;和&lt;strong&gt;有机物（Organic Matter, OM）&lt;/strong&gt;与神经退行性疾病的关联最为密切，尤其是阿尔茨海默病。黑碳主要来源于柴油发动机和生物质燃烧，粒径更小，能更有效地进入血液循环，甚至通过嗅神经直接到达大脑。有研究在阿尔茨海默病患者脑组织中检测到来自交通排放的磁铁矿纳米颗粒，与认知损伤区域高度重叠。&lt;/p&gt;
-
-&lt;p&gt;地理不平等也是论文的重要发现。低收入和中等收入国家（LMICs）承受的认知健康负担远高于富裕国家，而这些地区恰恰是污染最重、监测最弱、政策响应最慢的地方。650 亿 IQ 积分的损失大部分集中在南亚、东南亚和撒哈拉以南非洲。&lt;/p&gt;
-
-&lt;p&gt;论文的政策主张很明确：空气质量标准的制定历来以心血管和呼吸系统终点为基础，神经认知健康从未被正式纳入标准化评估框架。Pope 呼吁 WHO 和各国监管机构在下一次标准修订时，将认知健康与心肺健康并列为核心终点。具体到执行层面，他们建议优先在学校、住宅和工作场所三类环境中加强监测和干预，因为这三个场所是人们暴露时间最长的地方。&lt;/p&gt;
-
-&lt;p&gt;这和此前 4 月 29 日关于 PM2.5 穿越血脑屏障的发现（微量 PM2.5 颗粒在人脑中检出）形成呼应——那篇研究解决的是"污染物到底有没有进入大脑"的问题，而 Birmingham 这篇解决的是"进入之后在人群层面损害了多大"的问题。两篇合在一起，构成了一个相对完整的因果链。&lt;/p&gt;
-
-&lt;p&gt;650 亿这个数字不是用来恐吓的。它是一个基准，用来度量我们在空气质量上每推迟一年行动的真实代价。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.birmingham.ac.uk/news/2026/air-pollution-harms-brain-health-existing-standards-may-fall-short"&gt;https://www.birmingham.ac.uk/news/2026/air-pollution-harms-brain-health-existing-standards-may-fall-short&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s44407-026-00059-4"&gt;https://www.nature.com/articles/s44407-026-00059-4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b995f8fe-afa0-579b-8e39-63dfd81c890b</guid>
-      <pubDate>Mon, 04 May 2026 13:30:45 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.birmingham.ac.uk/news/2026/air-pollution-harms-brain-health-existing-standards-may-fall-short</link>
-      <enclosure url="https://www.birmingham.ac.uk/media-library/header-images/london-pollution-1920.x15a50474.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 五月野花季爆发：Peninsula 三条徒步路线推荐</title>
-      <description>&lt;p&gt;今年湾区的雨水比往年足，野花季来得猛。五月上旬是 Peninsula 开放空间野花的高峰期——如果你还没去，这周末是最后的好时机。以下三条路线距离 Menlo Park / Palo Alto 都在 30 分钟以内，难度从轻松到中等，适合不同体力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edgewood Park（Redwood City）&lt;/strong&gt;，首推。蛇形环线（Serpentine Loop）全程约 2.9 英里，爬升 500 英尺，从停车场出发约 15 分钟就能进入花田。这片蛇纹岩地质地貌是湾区罕见的生境，Blue dicks（紫色星形）、Goldfields（金黄色毯）、California rose（粉红）往往同框出现。地址：641 Old County Rd, Redwood City，周末早 8 点前到，停车位有限。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pearson-Arastradero Preserve（Palo Alto）&lt;/strong&gt;，最顺路。从 Page Mill Rd 入口走 Arastradero Creek Loop，2.6 英里，爬升只有 272 英尺，家庭和遛狗都很友好。California poppy（金色）和 Hound's tongue（蓝紫色小花）开得很旺。停车免费，但周末 10 点后基本满了——建议步行或骑自行车过来，从 Palo Alto 市区骑大约 20 分钟。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Purisima Creek Redwoods（Half Moon Bay 方向）&lt;/strong&gt;，给想走远一点的人。全程 9.3 英里，爬升 2132 英尺，Baby blue eyes 和 Crimson columbine 在溪谷段特别密集。必须早去——下午沿海雾一进来，气温骤降，野花也会合拢。不建议带娃。&lt;/p&gt;
-
-&lt;p&gt;通用技巧：选晴天去，阴天野花闭合，效果大打折扣。出发前查 &lt;strong&gt;openspacetrust.org&lt;/strong&gt; 确认没有临时封闭。水带够，Peninsula 的山丘暴露在阳光下，比看起来热。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://guides.openspacetrust.org/wp-content/uploads/2026/03/Wildflower-Walks.png" alt="Peninsula wildflower hiking trails map" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Peninsula 野花徒步地图（图片来源：Peninsula Open Space Trust）&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://guides.openspacetrust.org/wildflowers/"&gt;https://guides.openspacetrust.org/wildflowers/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://weekendsherpa.com/trips/edgewood-county-park-serpentine-loop/"&gt;https://weekendsherpa.com/trips/edgewood-county-park-serpentine-loop/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0f63b4e5-0ce7-5084-9973-3d854bd67bc8</guid>
-      <pubDate>Mon, 04 May 2026 13:30:49 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://guides.openspacetrust.org/wildflowers/</link>
-      <enclosure url="https://guides.openspacetrust.org/wp-content/uploads/2026/03/Wildflower-Walks.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 湾区五月活动速查：Cinco de Mayo、Carnaval、南湾免费音乐节</title>
-      <description>&lt;p&gt;五月的湾区活动密度不低——明天就是 Cinco de Mayo，下旬还有两个不容错过的免费户外节。整理了几个值得出门的活动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;明天（5 月 5 日）：Cinco de Mayo SF&lt;/strong&gt;。Mission 区的 Valencia St 一带照例会热闹起来。Blondie's Bar（540 Valencia St）从下午开始有现场 salsa 音乐，不买酒也可以进来感受氛围。如果想吃地道墨西哥菜，La Corneta Taqueria 刚在 Palo Alto 开了第一家 Peninsula 分店（324 University Ave），正好顺道去试试——这家来自 SF 的老字号以超大 burrito 著称，在 Yelp 上口碑稳定。Pier 39 那边也有户外活动，但相比之下人太多且游客化，Mission 更有意思。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5 月 16-17 日：Boogie Music Fest（Campbell Downtown）&lt;/strong&gt;。南湾本地的免费户外音乐节，在 Campbell 市中心 E Campbell Ave 举行，两天多个舞台，以 R&amp;B、funk 和 retro 风格为主。Campbell 小镇氛围很好，有一堆小酒吧和餐厅，可以傍晚去，吃完晚饭赶第二段演出。停车在周边街道就可以。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5 月 23-24 日：SF Carnaval Festival（Mission District）&lt;/strong&gt;。这是旧金山规模最大的拉丁文化节，每年一届，免费入场。覆盖 Mission 17 个街区，5 个舞台，400 多个摊位，有巴西桑巴、加勒比海的 soca、古巴 son 等各种表演。周六有游行，建议早到占位，游行路线沿 24th St 走。地铁坐 BART 到 24th St Mission 站，步行即到，完全不需要开车。&lt;/p&gt;
-
-&lt;p&gt;另：如果五月只去一个地方，Carnaval 的性价比最高——规模大、免费、交通方便，在湾区住几年也就这一次机会看到这规模的拉丁文化汇聚。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/san-francisco-cinco-de-mayo-celebrations-2026/"&gt;https://sf.funcheap.com/san-francisco-cinco-de-mayo-celebrations-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://carnavalsf.com/"&gt;https://carnavalsf.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f68f4604-f542-59e3-bbf1-2db77e79a6ff</guid>
-      <pubDate>Mon, 04 May 2026 13:31:15 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sf.funcheap.com/san-francisco-cinco-de-mayo-celebrations-2026/</link>
-    </item>
-    <item>
-      <title>🌿 超加工食品让癌症生存者死亡风险升 57%：意大利 Moli-sani 研究 14.6 年前瞻数据</title>
-      <description>&lt;p&gt;癌症生存者是否需要比普通人更严格地控制超加工食品（Ultra-Processed Food, UPF）摄入？一项跟踪了 14.6 年的意大利前瞻性队列研究给出了肯定答案，且数字触目惊心。&lt;/p&gt;
-
-&lt;p&gt;这项研究来自意大利南部的 Moli-sani 研究（2005-2022），由 IRCCS Neuromed 研究所 Marialaura Bonaccio 博士领衔，2026 年 2 月发表于《癌症流行病学、生物标志物与预防》（Cancer Epidemiology, Biomarkers &amp;amp; Prevention）。研究从 24,325 名参与者中识别出 802 名癌症生存者，中位随访期 14.6 年，共记录 281 例死亡。&lt;/p&gt;
-
-&lt;p&gt;研究按照 NOVA 分类系统将食物分为四组，重点比较最高四分位（UPF 摄入最多）与最低四分位的死亡风险差异：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;全因死亡风险：最高组比最低组高 &lt;strong&gt;48%&lt;/strong&gt;（HR 1.48，95% CI 1.03–2.13）&lt;/li&gt;
-&lt;li&gt;癌症特异性死亡风险：最高组比最低组高 &lt;strong&gt;57%&lt;/strong&gt;（HR 1.57，95% CI 1.03–2.40）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个关联在校正了年龄、性别、BMI、体力活动、吸烟、癌症类型等一系列混杂因素后仍然显著。更重要的是，研究团队做了中介分析，试图解释这条关联路径：&lt;strong&gt;炎症指标&lt;/strong&gt;和&lt;strong&gt;静息心率&lt;/strong&gt;共同解释了 37.3% 的风险衰减效应。换句话说，UPF 通过促进慢性炎症和损害心血管调节，间接杀伤那些刚刚挺过癌症治疗的患者。&lt;/p&gt;
-
-&lt;p&gt;为什么癌症生存者尤其脆弱？机制层面有几条路径。UPF 富含精制碳水、饱和脂肪、乳化剂和人工色素，这些成分会通过改变肠道菌群、上调促炎细胞因子（如 IL-6、TNF-α）来维持低度慢性炎症状态——而癌症治疗本身（化疗、放疗）已经使免疫系统处于高度应激状态，额外的炎症负担会显著影响预后和复发风险。此外，部分 UPF 中含有的食品添加剂（如卡拉胶、聚山梨酯）已被动物实验证实能破坏肠黏膜屏障，增加系统性内毒素暴露。&lt;/p&gt;
-
-&lt;p&gt;Moli-sani 研究的优势在于样本来自社区人群（非医院招募），随访期极长，死亡终点判断基于国家死亡登记，相对可靠。局限在于 UPF 摄入量依赖基线问卷，无法捕捉随时间的变化；802 名癌症生存者的亚组样本也限制了按癌症类型细分的统计功效。&lt;/p&gt;
-
-&lt;p&gt;这项研究的时机有意义。过去三年，关于 UPF 与癌症发病率（而非生存率）的研究已经积累了相当数据；Moli-sani 的贡献是把视角从"会不会得癌"转向了"得了癌之后会不会死"——这是临床干预更关心的问题。美国癌症研究协会（AACR）在新闻稿中直接建议肿瘤科医生将 UPF 摄入评估纳入癌症生存者随访的常规问诊。&lt;/p&gt;
-
-&lt;p&gt;Bonaccio 团队的结论是保守的：目前证据支持将减少 UPF 摄入作为癌症生存者饮食管理的一部分，具体机制仍需随机对照试验来验证。但 14.6 年、57% 这两个数字，已经很难被忽视了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aacr.org/about-the-aacr/newsroom/news-releases/high-consumption-of-ultraprocessed-foods-may-be-linked-to-cancer-survivors-risk-of-death/"&gt;https://www.aacr.org/about-the-aacr/newsroom/news-releases/high-consumption-of-ultraprocessed-foods-may-be-linked-to-cancer-survivors-risk-of-death/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://aacrjournals.org/cebp/article-abstract/35/4/664/775615/Ultra-processed-Food-and-Mortality-among-Long-Term"&gt;https://aacrjournals.org/cebp/article-abstract/35/4/664/775615/Ultra-processed-Food-and-Mortality-among-Long-Term&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f8931e0a-39b0-52b1-a120-34ec23bc6831</guid>
-      <pubDate>Mon, 04 May 2026 13:31:19 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.aacr.org/about-the-aacr/newsroom/news-releases/high-consumption-of-ultraprocessed-foods-may-be-linked-to-cancer-survivors-risk-of-death/</link>
-      <enclosure url="https://www.aacr.org/wp-content/uploads/2026/01/Marialaura-Bonaccio.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Apple's Updated Liquid Glass Gallery: 19 Apps Reveal What 'Adopting' Actually Looks Like / Apple 升级版 Liquid Glass 画廊：19 个 App 揭示「适配」到底长什么样</title>
-      <description>&lt;p&gt;Apple quietly refreshed its &lt;a href="https://developer.apple.com/design/new-design-gallery-2026/"&gt;New Design Gallery&lt;/a&gt; on April 6, 2026, and it now contains the closest thing the industry has to a pattern manual for Liquid Glass. Nineteen third-party apps — AllTrails, CARROT Weather, Fantastical, Denim, Kroger, FotMob, Moises, KaraFun, Bigin, DROMI, SketchPro, Trello, Mockup, GoodLinks, Tasks, LazyFit, Monzo, Le Monde, and Channel 4 — are shown with iOS 18 / iOS 26 side-by-side comparisons. Less marketing, more spec sheet. After a year of confusion about what Liquid Glass adoption is supposed to look like beyond "make it shiny," the gallery finally communicates the substance.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/3RkqM6wFi0EFfsOxL3KAlqLd5HE=/1600x/article-new/2026/04/Apple-Design-Gallery-2026-1.jpg" alt="Apple New Design Gallery 2026 hero" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Apple’s second-iteration design gallery, refreshed April 6 2026. Source: MacRumors.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;What the gallery actually teaches.&lt;/strong&gt; Three patterns recur across nearly every featured app, and they are the real load-bearing decisions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Floating bottom toolbars replace top tab bars.&lt;/strong&gt; AllTrails, CARROT, Fantastical, Trello, Le Monde — almost everyone moved primary navigation to the bottom and wrapped it in translucent glass. The gain is vertical content space; the cost is that legacy iOS muscle memory (top-left back, top-right action) gets less reinforcement. Apple wants you to feel comfortable letting content reach edge-to-edge because the navigation now hovers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Color-adaptive tinting, not coloration.&lt;/strong&gt; Buttons pick up tint from what is behind them rather than from a brand palette. AllTrails toolbar buttons go green over a forest map and sandstone over a desert one. Brand consistency now lives in iconography and motion, not chrome.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Collapse-on-scroll as the default.&lt;/strong&gt; Large titles and prominent hero images aren’t static — they collapse into compact navigation bars as the user scrolls. Le Monde and FotMob lean on this hardest. The pattern reframes the navigation bar from "always-on container" to "transient surface that gets out of the way."&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Why this matters now.&lt;/strong&gt; The April 28, 2026 SDK deadline is in effect: any new App Store submission must build against the iOS 26 SDK. Until this gallery, "adopting Liquid Glass" was a rumor — every team interpreting it differently. Apple’s design org is now publicly endorsing specific implementations, which gives design leads concrete reference architectures to point at in design reviews. Notice what is &lt;em&gt;not&lt;/em&gt; in the gallery: heavy texture overlays, stacked translucencies, or skeuomorphic glass. Apple is gently telling everyone to stop overdoing it.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.macrumors.com/t/CkGmh7Zn-sSV9bx4rrDHFxRe5LM=/1600x/article-new/2026/04/Apple-Design-Gallery-2026-AllTrails.jpg" alt="AllTrails iOS 18 vs iOS 26 with Liquid Glass" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;AllTrails before/after. The toolbar dissolves into the trail photo; controls float, content breathes.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;What is missing is the most interesting signal.&lt;/strong&gt; Out of the App Store’s millions of apps, Apple chose nineteen. As Rahul Roy &lt;a href="https://rethinkwithroy.medium.com/apples-liquid-glass-gallery-is-a-showcase-of-12-apps-in-a-store-of-millions-7be2b1e7d830"&gt;noted&lt;/a&gt;, the asymmetry is striking. The gallery skews toward indie apps with strong opinionated design teams (Flexibits, Grailr, Apprime) and skips the giants. Meta, Google, Spotify, Uber, Netflix — none are present. Their apps still look like iOS 18 ports. Liquid Glass adoption is now a craft-versus-scale story: small teams ship the new aesthetic in weeks; large enterprise apps with cross-platform design systems will take years to align Material 3 Expressive and Liquid Glass without forking codebases.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The practical takeaway for design leads.&lt;/strong&gt; Use the gallery as your reference set. When stakeholders ask "what does Liquid Glass look like for our app," send them AllTrails (content-heavy with photography), Monzo (data-dense fintech), or Bigin (CRM list views). Three reference points give you license to translate without copying. And if your team is on a multi-platform design system, this is the moment to budget for parallel iOS surface work — the gap between "iOS-native" and "iOS-ported" is now visually obvious to any user who has updated their phone.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Open question.&lt;/strong&gt; WWDC 2026 (June 8–12) will preview iOS 27, which is rumored to add a system-wide Liquid Glass intensity slider — a user-controllable knob to dial down the translucency. If that ships, half the work done to "adopt Liquid Glass" today will be invisible to the users who turn it down. Designing for adaptive intensity is the next sub-problem.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple 在 2026 年 4 月 6 日悄悄更新了它的&lt;a href="https://developer.apple.com/design/new-design-gallery-2026/"&gt;新设计画廊（New Design Gallery）&lt;/a&gt;，这成了整个行业目前最接近 Liquid Glass 模式手册的东西。19 个第三方 App 展示了 iOS 18 / iOS 26 的对照——AllTrails、CARROT Weather、Fantastical、Denim、Kroger、FotMob、Moises、KaraFun、Bigin、DROMI、SketchPro、Trello、Mockup、GoodLinks、Tasks、LazyFit、Monzo、Le Monde、Channel 4。营销话术少，规格更多。过去一年里大家对「适配 Liquid Glass」该长什么样一直没共识，除了「让它闪一点」。这次画廊总算把内容讲清楚了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;画廊真正教的东西。&lt;/strong&gt;三种模式在几乎每个入选 App 里都出现，这些才是真正承重的设计决策：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;浮动底部工具栏替代顶部 Tab Bar。&lt;/strong&gt;AllTrails、CARROT、Fantastical、Trello、Le Monde——几乎所有人都把主导航挪到底部，再用 translucent glass 包裹。好处是垂直内容空间多了；代价是老 iOS 用户的肌肉记忆（左上角返回、右上角动作）不再被强化。Apple 希望你让内容铺到屏幕边缘，因为导航现在悬浮在上面。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;色彩自适应（color-adaptive tinting），而不是染色。&lt;/strong&gt;按钮根据背后的内容取色，不再依据品牌色板。AllTrails 工具栏按钮在森林地图上变绿，在沙漠地图上变成砂岩色。品牌一致性从此活在 iconography 和动效里，不在 chrome 里。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;滚动时折叠成默认行为。&lt;/strong&gt;大标题和 hero 图片不再是静态的——用户滚动时它们会折叠进紧凑的导航栏。Le Monde 和 FotMob 用得最狠。这个模式把导航栏从「常驻容器」重新定义成「临时浮现、会自己让位的表面」。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么现在重要。&lt;/strong&gt;4 月 28 日的 SDK 截止日期已生效：任何新提交 App Store 的 App 必须基于 iOS 26 SDK 构建。在这个画廊出现之前，「适配 Liquid Glass」基本是个传闻——每个团队各自解读。Apple 设计部门现在公开背书具体实现，这给了设计 lead 在设计评审里指着说「就这样做」的底气。注意什么&lt;em&gt;不在&lt;/em&gt;画廊里：厚重的纹理叠加、多层透明、拟物玻璃。Apple 在客气地提醒大家别玩过头。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;缺席的部分才是最有意思的信号。&lt;/strong&gt;App Store 几百万个 App，Apple 挑了 19 个。这种悬殊很说明问题。画廊明显偏向有强设计主张的 indie team（Flexibits、Grailr、Apprime），跳过了所有巨头。Meta、Google、Spotify、Uber、Netflix——一个都没有。它们的 App 看起来还是 iOS 18 移植版。Liquid Glass 适配现在变成了「craft 对 scale」的故事：小团队几周内就能把新美学搞出来；跑跨平台 design system 的大企业 App，要把 Material 3 Expressive 和 Liquid Glass 对齐又不分叉代码库，会花几年。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;给设计 lead 的实操建议。&lt;/strong&gt;把画廊当作 reference set。当 stakeholder 问「我们 App 适配 Liquid Glass 应该长什么样」，发给他们 AllTrails（图片为主的内容）、Monzo（数据密集的 fintech）、Bigin（CRM 列表视图）。三个参考点足够你「翻译」而不是「抄袭」。如果团队跑的是多平台 design system，现在该立项做 iOS 表层并行工作了——「iOS 原生」和「iOS 移植」之间的差距，对任何升级了手机的用户来说都已经一目了然。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;悬而未决的问题。&lt;/strong&gt;WWDC 2026（6 月 8–12 日）会预览 iOS 27，传闻会加一个全系统的 Liquid Glass intensity slider——让用户自己调透明度。如果真的发布，今天为「适配 Liquid Glass」做的一半工作，对那些把强度调低的用户来说就是隐形的。为「自适应强度」做设计，是下一个子问题。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://developer.apple.com/design/new-design-gallery-2026/"&gt;https://developer.apple.com/design/new-design-gallery-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/04/06/apple-liquid-glass-design-gallery-update/"&gt;https://www.macrumors.com/2026/04/06/apple-liquid-glass-design-gallery-update/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/04/06/apple-showcases-apps-using-liquid-glass-in-new-developer-gallery/"&gt;https://9to5mac.com/2026/04/06/apple-showcases-apps-using-liquid-glass-in-new-developer-gallery/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://rethinkwithroy.medium.com/apples-liquid-glass-gallery-is-a-showcase-of-12-apps-in-a-store-of-millions-7be2b1e7d830"&gt;https://rethinkwithroy.medium.com/apples-liquid-glass-gallery-is-a-showcase-of-12-apps-in-a-store-of-millions-7be2b1e7d830&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">88620584-4193-59df-bdf6-f1302210e3e6</guid>
-      <pubDate>Tue, 05 May 2026 08:10:21 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://developer.apple.com/design/new-design-gallery-2026/</link>
-      <enclosure url="https://images.macrumors.com/t/3RkqM6wFi0EFfsOxL3KAlqLd5HE=/1600x/article-new/2026/04/Apple-Design-Gallery-2026-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 史上最古老的 RNA 被找到了：4 万年前西伯利亚冻土中的猛犸幼崽 Yuka 体内还活着 1244 个基因转录本——Cell 2025-11 论文颠覆「DNA 是极限」的古生物学共识</title>
-      <description>&lt;p&gt;常识告诉我们 RNA 是极易降解的分子——单链结构、富含 2-OH 基团、几乎所有细胞里都漂浮着 RNase 在主动撕碎它。教科书的标准答案：RNA 在死后几小时到几天内就会化为乌有，最多熬过几个月。可是 2025 年 11 月 14 日《Cell》上 Stockholm University 古遗传学家 Emilio Mármol Sánchez 与 Love Dalén 团队发表的论文，把这条底线一脚踹穿了 4 万年——从一只在西伯利亚冻土里冷冻 39,000 年的猛犸幼崽 Yuka 体内，他们成功测到了 342 条编码蛋白的 mRNA 与 902 条非编码 RNA。这是人类有史以来恢复的最古老转录组。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/6e/78/6e789e99-6b3c-432e-83c3-1cf42cf9117b/yuka_legs.jpg" alt="保存完好的猛犸 Yuka 后腿与肌肉组织" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Yuka 的后腿肌肉组织——RNA 的来源（图：Smithsonian Magazine）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;团队从十只冻土猛犸的皮肤和肌肉里取样，最终只有三只——Yuka、Oymyakon 和 Chris Waddle——能稳定测出 RNA 信号，其中 Yuka 数据质量最好。Yuka 1942 年被驯鹿牧人发现于雅库特 Oyogos Yar 海岸悬崖，身上还留着远古洞狮的咬痕，被认为是被狮群追杀后掉进雪坑窒息冻死的。冷冻速度极快加上零下 7°C 的恒定永冻环境，让 RNA 分子的化学键被「冻结」在几乎完整的状态。&lt;/p&gt;
-
-&lt;p&gt;这次测序最反直觉的一点：他们居然能区分出哪些基因当时正在 Yuka 的肌肉里活跃表达。&lt;strong&gt;这就像在一具 4 万年前的尸体上读到死前最后一刻的「细胞日记」&lt;/strong&gt;。论文显示 Yuka 死前肌肉细胞里转录最活跃的是与肌肉应激（muscle stress）和缺氧反应（hypoxia response）相关的基因——这与「被洞狮追逐导致剧烈奔跑、最终力竭窒息」的法医学推断完美吻合。RNA 不只是确认 Yuka 是雄性（之前 DNA 已证实，推翻了从外形判断的雌性误判），还揭示了猛犸特有的 microRNA——其中几条在现代亚洲象基因组里完全不存在，可能与抗寒、皮下脂肪代谢有关。&lt;/p&gt;
-
-&lt;p&gt;为什么这件事重要？古生物学有一条隐性教条：DNA 是基因组的「档案」，能告诉你这个物种「能做什么」；而 RNA 是「日记」，告诉你这个个体「死前那一刻在做什么」。30 年前《侏罗纪公园》上映时，连古 DNA 都被认为不可能恢复——直到 1990 年代逐步打破这个限制，目前最古老的 DNA 来自西伯利亚 110 万年前的猛犸臼齿。但 RNA 这条战线一直停在几千年量级。Yuka 把这条边界一口气推到 4 万年，意味着古转录组学（paleotranscriptomics）作为一门学科正式诞生。&lt;/p&gt;
-
-&lt;p&gt;下一步意义不止于猛犸。古 RNA 让科学家能直接「看」灭绝物种的免疫反应、应激基因调控、组织特异性表达——这些信息 DNA 给不了。Colossal Biosciences 之类做猛犸「去灭绝」的公司，理论上可以用 Yuka 的转录组数据反推哪些基因调控网络在亚洲象身上需要重建。更广义地说，永冻土在全球变暖中正以肉眼可见的速度融化——西伯利亚每年解冻深度增加约 4 cm。这是一个时间窗口正在快速关闭的科学金矿：被锁在冰里的生物分子档案，可能在我们能读懂之前就先腐烂掉了。&lt;/p&gt;
-
-&lt;p&gt;论文里有个让人会心一笑的细节：Yuka 这个名字来自雅库特语「Yukagir」（冰河，沿海地区原住民族名）。一只 4 万年前死于狮口的少年猛犸，用现代族裔的名字进入了一篇 2025 年的《Cell》，把「死前一刻心跳加速、肌肉撕裂」这件事完完整整告诉了五百代人之后的我们。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cell.com/cell/fulltext/S0092-8674(25)01231-0"&gt;https://www.cell.com/cell/fulltext/S0092-8674(25)01231-0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/Scientists-Extract-the-Oldest-RNA-Ever-Found-Revealing-How-a-Woolly-Mammoths-Genes-May-Have-Functioned-40000-Years-Ago-180987701/"&gt;https://www.smithsonianmag.com/smart-news/Scientists-Extract-the-Oldest-RNA-Ever-Found-Revealing-How-a-Woolly-Mammoths-Genes-May-Have-Functioned-40000-Years-Ago-180987701/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.science.org/content/article/forty-thousand-year-old-mammoth-mummies-yield-oldest-rna-yet-found"&gt;https://www.science.org/content/article/forty-thousand-year-old-mammoth-mummies-yield-oldest-rna-yet-found&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2025/11/15/science/oldest-rna-mammoth"&gt;https://www.cnn.com/2025/11/15/science/oldest-rna-mammoth&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e36bbea7-fa3d-5e9d-acf9-bcd600af2fda</guid>
-      <pubDate>Tue, 05 May 2026 08:10:23 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.cell.com/cell/fulltext/S0092-8674(25)01231-0</link>
-      <enclosure url="https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/6e/78/6e789e99-6b3c-432e-83c3-1cf42cf9117b/yuka_legs.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 比埃及金字塔早 7000 年的 T 形石柱第一次长出了人脸：土耳其 Karahan Tepe 2025-10 出土 11000 年前石柱，证明 T 形柱不是建筑构件而是「人形」象征</title>
-      <description>&lt;p&gt;1994 年 Klaus Schmidt 在土耳其东南部发现 Göbekli Tepe 时，整个考古学界被震得失语——这座建于公元前 9500 年的环形巨石阵，比英国巨石阵早 6000 年，比埃及金字塔早 7000 年，而且建造者还是没有农业、没有城市、没有文字的狩猎采集者。Göbekli 与周边的 Karahan Tepe、Sefer Tepe 等约 12 个遗址被统称为「Taş Tepeler」（石头山丘）。这些遗址最显眼的元素就是 T 形巨石柱——平均 2-5 米高、几十吨重、数百根分布于环形围墙内外。30 年来考古学家一直在争论：这些 T 形柱到底是建筑承重柱，还是某种神祇 / 祖先的「替身」？&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/cxgd3urn/production/33e2eda96598f74fbaa720f7b745548860be3aa0-2048x1376.jpg" alt="Karahan Tepe 出土的带人脸的 T 形石柱" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;2025 年 10 月在 Karahan Tepe 出土的人面 T 形柱，柱高 135 cm（图：The Art Newspaper）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;2025 年 10 月 9 日，由 Istanbul University 的 Necmi Karul 主持的 Karahan Tepe 发掘季给这个争论扔下了一颗钉死棺材的钉子。他们出土了一根 135 cm 高的 T 形石柱——但这次柱子的「头部」横档上，&lt;strong&gt;第一次清晰地刻着一张人脸&lt;/strong&gt;：高耸的鼻梁、深陷的眼窝、棱角分明的下颌。这是 30 年来在 Taş Tepeler 群落里发现的第一个明确把 T 形结构与人形符号合并的样本。&lt;/p&gt;
-
-&lt;p&gt;为什么这件事让考古学家彻夜不眠？因为之前所有的 T 形柱解读都是间接证据。Schmidt 1990 年代末就推测 T 形柱代表「身体」——横档是「头」，柱身是「躯干」，因为部分柱身侧面有手臂浮雕（手肘弯曲、手指搭在腰前）和腰带、罗布袍的雕刻。但「躯干上没有头」始终是个尴尬的破绽——莫非这些是无头神像？还是脸刻得太抽象以至无法识别？2025-10 这根带脸的柱子直接把推论变成了结论：T 形柱就是石化的人形，横档上的窄面就是头部，建造者从一开始就把「柱子」当人来雕。&lt;/p&gt;
-
-&lt;p&gt;这意味着什么？意味着公元前 9000 年这群还不会种地的狩猎采集者，就已经开发出了高度抽象的「人体几何编码」——把整个人简化成一个 T 字，再在 T 的横档上选择性地雕刻五官。换言之，&lt;strong&gt;抽象艺术比农业早了至少两千年&lt;/strong&gt;。这与「文明先有定居和农业、再有艺术与宗教」的旧叙事截然相反。Karul 反复强调：Karahan Tepe 既是仪式中心也是住所，墙体内挖出大量石器、骨器与食物残留，表明这群人在没有发展出农业的情况下，已经能维持半定居生活并组织数百人的集体劳动来开采、运输、雕刻这些 T 形巨石。&lt;/p&gt;
-
-&lt;p&gt;更值得注意的细节：这根新柱子的「人脸」不是写实的——它是仪式化、几何化的脸，类似现代漫画里用三角形眉毛 + 椭圆眼睛 + 直线鼻梁就能让人识别为「人脸」的极简符号。这与 1996 年内华达 Spirit Cave 出土的 9000 年前木乃伊面部纹饰、与法国 Lascaux 洞穴 17000 年前的人形猎人都属于「极简人脸符号」家族。这暗示人类大脑对人脸的「降维识别」能力在更新世末期就已经稳定运行——只要鼻 + 双眼 + 颌的相对位置正确，无论多么抽象都能瞬间被识别为「人」。&lt;/p&gt;
-
-&lt;p&gt;2026 年的发掘季 Karul 团队会在同一探方继续向下挖——目标是寻找柱身上的手臂浮雕痕迹，验证「整根柱子就是一个人」的完整假说。如果他们能在这根带脸的柱身两侧找到对应的手臂或腰带雕刻，T 形柱之谜将以最优美的方式画上句号：这些石头不是在「支撑」什么，它们就是那群一万一千年前的人，把自己最重要的祖先或神祇凿成了石头，立在那里看着仪式举行。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.theartnewspaper.com/2025/10/09/discovery-of-11000-year-old-carved-face-in-turkey-offers-new-insight-into-early-human-expression"&gt;https://www.theartnewspaper.com/2025/10/09/discovery-of-11000-year-old-carved-face-in-turkey-offers-new-insight-into-early-human-expression&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/a-human-face-was-carved-into-this-stone-pillar-in-turkey-11000-years-ago-180987489/"&gt;https://www.smithsonianmag.com/smart-news/a-human-face-was-carved-into-this-stone-pillar-in-turkey-11000-years-ago-180987489/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.anatolianarchaeology.net/a-historic-first-at-karahantepe-human-faced-t-shaped-pillar-unearthed-in-turkiye/"&gt;https://www.anatolianarchaeology.net/a-historic-first-at-karahantepe-human-faced-t-shaped-pillar-unearthed-in-turkiye/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arkeonews.net/historic-discovery-in-karahantepe-the-first-t-shaped-pillar-with-a-human-face-unearthed/"&gt;https://arkeonews.net/historic-discovery-in-karahantepe-the-first-t-shaped-pillar-with-a-human-face-unearthed/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b3b87acc-4099-5d55-9978-55fccca0c46c</guid>
-      <pubDate>Tue, 05 May 2026 08:11:06 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.theartnewspaper.com/2025/10/09/discovery-of-11000-year-old-carved-face-in-turkey-offers-new-insight-into-early-human-expression</link>
-      <enclosure url="https://cdn.sanity.io/images/cxgd3urn/production/33e2eda96598f74fbaa720f7b745548860be3aa0-2048x1376.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 ATTAIN-MAINTAIN：从针剂换口服，Foundayo（orforglipron）让司美格鲁肽减重几乎0反弹</title>
-      <description>&lt;p&gt;2025年12月18日，礼来公布&lt;strong&gt;ATTAIN-MAINTAIN三期试验&lt;/strong&gt;结果——这是首个针对"打针减重后能否换片剂维持"问题的随机对照试验。结论很直接：从司美格鲁肽（semaglutide，商品名 Wegovy）切换到口服 orforglipron 的患者，52周后平均仅反弹 0.9 公斤；安慰剂组同期反弹高达 9.4 公斤。从替尔泊肽（tirzepatide，商品名 Zepbound）切换的患者反弹 5.0 公斤，仍显著优于安慰剂组的 9.1 公斤。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/0vv8moc6/pharmexec/b4a12c30de8a43d33dd8fe26aecd9d02f250127f-1280x720.png" alt="Foundayo orforglipron 口服 GLP-1 片剂" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Foundayo（orforglipron）是首款无空腹/饮水限制的口服 GLP-1 受体激动剂&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;试验设计&lt;/strong&gt;：376 名先前完成 SURMOUNT-5（替尔泊肽减重）或 STEP（司美格鲁肽减重）研究、已经达到目标体重的成人，按 3:2 比例随机分配到 orforglipron（24mg 或 36mg 每日一次口服，从 12mg 起每 4 周递增）或安慰剂组，盲法持续 52 周。所有受试者保持原有的"健康饮食 + 运动"建议。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;详细数据&lt;/strong&gt;：从 Wegovy 切换组的体重轨迹是：原始基线 113.5 kg → 减重至 95.0 kg → 52 周后 95.9 kg。从 Zepbound 切换组：原始基线 115.8 kg → 减重至 90.9 kg → 52 周后 95.9 kg。值得关注的是，所有 orforglipron 维持组的最终体重都接近 95.9 kg——意味着片剂的减重"地板"和注射剂的"天花板"在这个体重段交汇了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;安全性反而更好&lt;/strong&gt;：因不良事件停药率，orforglipron 组（4.8% 与 7.2%）多数情况下低于或接近安慰剂组（7.6% 与 6.3%）。最常见的副作用仍是胃肠道反应（恶心、腹泻），强度多为轻中度。&lt;strong&gt;未观察到肝脏安全信号&lt;/strong&gt;——这是 orforglipron 早期开发阶段的核心担忧之一，三期数据连续清场。&lt;/p&gt;
-
-&lt;p&gt;为什么这个结果重要？&lt;a href="https://feed.example/healthy-life/2026-04-30"&gt;4月30日报道&lt;/a&gt;过 ATTAIN-1 三期 72 周减重 11.2% 时，业内最大的疑问是"片剂的实际天花板能不能撑住注射剂的减重成果"。ATTAIN-MAINTAIN 给出了非常实用的临床路径：先用注射剂打到目标体重，再切换到口服维持。这避开了三个长期痛点——注射剂的依从性差（每周一针约 30% 患者中途放弃）、PBM 报销复杂（Wegovy/Zepbound 月费 $1,000-1,300）、以及 GLP-1 类药物长期使用的供应短缺问题。&lt;/p&gt;
-
-&lt;p&gt;Foundayo 已通过 LillyDirect 直送渠道定价 $25-149/月，绕开 PBM。ATTAIN-MAINTAIN 数据如果支持 FDA 扩大适应症标签，临床上"针剂启动 + 口服维持"会迅速成为减重医学的标准方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;下一节点&lt;/strong&gt;：Lilly 已就肥胖适应症向 FDA 递交新药申请，并获得 Commissioners National Priority Voucher（优先审评券）。需要观察的几个变量：长期（2-5 年）维持效果是否真能持平注射剂、肌肉量损失是否随时间累积、心血管复合终点试验（ATTAIN-CVOT）何时读出数据。礼来副总裁 Kenneth Custer 在新闻稿中的措辞耐人寻味——"convenient oral option"——已经把 orforglipron 定位为"维持治疗的首选"而非"首线减重药"。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://investor.lilly.com/news-releases/news-release-details/lillys-orforglipron-helped-people-maintain-weight-loss-after"&gt;https://investor.lilly.com/news-releases/news-release-details/lillys-orforglipron-helped-people-maintain-weight-loss-after&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.prnewswire.com/news-releases/lillys-orforglipron-helped-people-maintain-weight-loss-after-switching-from-injectable-incretins-to-oral-glp-1-therapy-in-first-of-its-kind-phase-3-trial-302645471.html"&gt;https://www.prnewswire.com/news-releases/lillys-orforglipron-helped-people-maintain-weight-loss-after-switching-from-injectable-incretins-to-oral-glp-1-therapy-in-first-of-its-kind-phase-3-trial-302645471.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.pharmacytimes.com/view/orforglipron-shows-strong-weight-maintenance-in-phase-3-attain-maintain-trial"&gt;https://www.pharmacytimes.com/view/orforglipron-shows-strong-weight-maintenance-in-phase-3-attain-maintain-trial&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.hcplive.com/view/orforglipron-maintains-weight-loss-in-patients-switching-from-semaglutide-or-tirzepatide"&gt;https://www.hcplive.com/view/orforglipron-maintains-weight-loss-in-patients-switching-from-semaglutide-or-tirzepatide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">de452efd-a13c-542e-81bd-7b549541780d</guid>
-      <pubDate>Tue, 05 May 2026 08:11:09 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://investor.lilly.com/news-releases/news-release-details/lillys-orforglipron-helped-people-maintain-weight-loss-after</link>
-      <enclosure url="https://cdn.sanity.io/images/0vv8moc6/pharmexec/b4a12c30de8a43d33dd8fe26aecd9d02f250127f-1280x720.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Six UX Patterns for Agentic AI Are Now Industry-Standard: Victor Yocco's Smashing Manual / 六条智能体 UX 模式开始变成行业标准：Victor Yocco 的 Smashing 手册</title>
-      <description>&lt;p&gt;If 2024 was about chatbots and 2025 was about copilots, 2026 is the year UX teams actually have to design for AI &lt;em&gt;agents&lt;/em&gt; — software that pursues goals autonomously, takes multi-step actions, and sometimes spends real money. The pattern vocabulary for this was scattered across blog posts and PM Twitter threads. Victor Yocco’s February 11, 2026 &lt;a href="https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/"&gt;Smashing Magazine essay&lt;/a&gt; consolidated the six patterns that now appear in essentially every credible enterprise agent UI shipping in 2026. Worth reading like a spec.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/designing-agentic-ai-practical-ux-patterns/01-designing-agentic-ai-practical-ux-patterns.jpg" alt="Smashing Magazine cover for designing agentic AI" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Yocco’s framing: trust is built by interface affordances, not by model improvement. Source: Smashing Magazine.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Pattern 1: Intent Preview.&lt;/strong&gt; Before the agent does anything consequential, it shows a plain-language summary of the planned steps and lets the user Proceed, Edit, or Handle Myself. The success metric Yocco proposes is concrete: &lt;strong&gt;&gt;85% acceptance rate without edits&lt;/strong&gt;. Below that threshold, the agent is doing the wrong work or explaining it badly. This is what Anthropic calls a "plan" in Claude Code, what Cursor surfaces as "Composer plan," and what Salesforce Agentforce shows as "I will…" pre-action cards. Same pattern, different chrome.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pattern 2: Autonomy Dial.&lt;/strong&gt; A four-step ladder users can set per task type: Observe &amp; Suggest → Plan &amp; Propose → Act with Confirmation → Act Autonomously. Crucially, it’s per task, not global — users may want full autonomy for "schedule meetings" but only suggestions for "send external emails." Monitor monthly churn on these settings; high churn means defaults are wrong. Most agent products in 2026 hard-code this to two levels (manual or auto). The four-level dial is becoming the answer to consent fatigue.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pattern 3: Explainable Rationale.&lt;/strong&gt; Plain-language justifications grounded in user preferences and prior decisions, not in technical logs. "I scheduled 2 PM because you blocked mornings for deep work last quarter" beats "Selected slot via constraint solver heuristic 3.2." The metric Yocco targets is qualitative: support tickets tagged "unclear agent behavior" should trend toward zero. This is where most current agents fall hardest — they explain in model-speak, not user-speak.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pattern 4: Confidence Signal.&lt;/strong&gt; The agent communicates its own internal certainty: percentage scores, scope hedges, visual cues (checkmark for high confidence, question mark for uncertainty). The metric is sharp: &lt;strong&gt;Pearson correlation &gt;0.8 between model confidence and user acceptance&lt;/strong&gt;. If users approve at the same rate regardless of expressed confidence, the signal is noise. The corollary is that agents must be calibrated — overconfident agents (the default for current LLMs) destroy this pattern from the inside.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/designing-agentic-ai-practical-ux-patterns/02-designing-agentic-ai-practical-ux-patterns.jpg" alt="Confidence signal example interface" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Confidence signaling: percent + visual + scope statement. The trio together calibrates trust.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Pattern 5: Action Audit &amp; Undo.&lt;/strong&gt; Persistent chronological log of every agent-initiated action with one-click reversal, plus clearly communicated time-limited undo windows. The metric is &lt;strong&gt;&lt;5% reversion rate per task type&lt;/strong&gt;. Higher reversion means the agent is acting prematurely or out-of-scope. This pattern alone is what enabled banks and healthcare orgs to clear agent deployments past compliance — auditability is the regulatory unlock.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pattern 6: Escalation Pathway.&lt;/strong&gt; When ambiguous, the agent does &lt;em&gt;not&lt;/em&gt; guess. It asks for clarification, presents options, or escalates to a human. Yocco’s metric: &lt;strong&gt;&gt;90% recovery success rate post-escalation&lt;/strong&gt;. Below that, escalation is just deferred failure. This is the pattern that keeps agents from gaslighting users with confidently-wrong outputs — and it’s the hardest to implement because it requires the agent to know what it doesn’t know.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How this connects to where the field is.&lt;/strong&gt; NN/g’s parallel guidance in their April 24, 2026 &lt;a href="https://www.nngroup.com/articles/site-specific-ai-chatbots/"&gt;site-specific chatbot piece&lt;/a&gt; converges on the same fundamentals — clear capability statements, scannable output, prompt suggestions. And the State of UX 2026 report from NN/g calls trust "the major design problem" of the year. Yocco is giving the trust problem an actual interface solution. The six patterns together form what amounts to a contract between agent and user: I will tell you what I plan, how confident I am, why I chose it, what I did, and when I am unsure. Skipping any of the six and the trust contract has a hole.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Practical takeaway.&lt;/strong&gt; Audit any agent UI you ship against this six-pattern checklist. The most common failure modes in 2026 production agents: skipping Pattern 4 (no confidence signaling, so users have no calibration), and doing Pattern 6 wrong (escalating to a human who doesn’t exist or can’t respond fast enough). Every enterprise agent demo now needs to answer: which of the six are present, which are missing, and why.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Open question.&lt;/strong&gt; Notice what Yocco does &lt;em&gt;not&lt;/em&gt; include: a pattern for "agent collaborating with other agents." When two agents disagree about a user’s intent — your calendar agent says decline, your email agent says accept — whose UI mediates? That is the seventh pattern, and no one has shipped it yet.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;如果说 2024 年是 chatbot 的年份、2025 年是 copilot 的年份，那 2026 年就是 UX 团队真的得为 AI &lt;em&gt;agent&lt;/em&gt;（智能体）做设计的年份——一种自主追求目标、执行多步动作、有时还会花真钱的软件。这套设计模式之前散落在博客文章和 PM 的 Twitter 帖子里。Victor Yocco 在 2026 年 2 月 11 日的 &lt;a href="https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/"&gt;Smashing Magazine 文章&lt;/a&gt;把六条模式整合了出来，目前 2026 年市面上靠谱的企业 agent UI 几乎都用到了。值得当 spec 来读。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;模式 1：Intent Preview（意图预览）。&lt;/strong&gt;agent 做任何有后果的动作前，先用大白话总结计划步骤，让用户选 Proceed / Edit / Handle Myself。Yocco 给的成功指标很具体：&lt;strong&gt;无修改接受率 &gt;85%&lt;/strong&gt;。低于这个数，要么 agent 做错了事，要么它解释得太烂。Anthropic 在 Claude Code 里叫 "plan"，Cursor 里是 "Composer plan"，Salesforce Agentforce 里是 "I will…" 卡片。同一个模式，不同壳。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;模式 2：Autonomy Dial（自主度刻度盘）。&lt;/strong&gt;四级台阶，用户按任务类型自己设：Observe &amp; Suggest → Plan &amp; Propose → Act with Confirmation → Act Autonomously。关键是&lt;em&gt;按任务&lt;/em&gt;设，不是全局——用户可能愿意 "安排会议" 全自动，但 "发外部邮件" 只接受建议。每月监控这些设置的 churn；churn 高说明默认值错了。2026 年大部分 agent 产品把这个粗暴写死成两档（manual / auto）。四级刻度盘正在变成同意疲劳问题的解药。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;模式 3：Explainable Rationale（可解释理由）。&lt;/strong&gt;用大白话给出基于用户偏好和过去决策的理由，不要扔技术 log。「我安排在下午两点是因为你上季度把上午留给深度工作」，比「通过约束求解器启发式 3.2 选中」要好得多。Yocco 给的指标偏定性：support ticket 里标 "agent 行为不清楚" 的应该往零趋近。当前大部分 agent 在这一条上栽得最惨——它们用 model-speak 解释，不是 user-speak。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;模式 4：Confidence Signal（置信度信号）。&lt;/strong&gt;agent 主动表达自己的内部不确定性：百分比分数、范围限定、视觉提示（高置信度打勾，不确定打问号）。指标很锋利：&lt;strong&gt;模型置信度和用户接受率的 Pearson 相关 &gt;0.8&lt;/strong&gt;。如果用户接受率跟表达的置信度无关，那信号就是噪音。推论是 agent 必须 calibrated——目前 LLM 默认都过度自信，这一条会被从内部破坏。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;模式 5：Action Audit &amp; Undo（动作审计与撤销）。&lt;/strong&gt;每个 agent 发起的动作都进持久化时间线日志，一键撤销，还要清楚标出限时撤销窗口。指标是&lt;strong&gt;每类任务撤销率 &lt;5%&lt;/strong&gt;。更高说明 agent 提前行动或超范围了。这一条是银行和医疗机构能把 agent 部署推过合规的关键——可审计性是监管解锁键。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;模式 6：Escalation Pathway（升级通道）。&lt;/strong&gt;遇到歧义时，agent &lt;em&gt;不&lt;/em&gt;猜。它请求澄清、给出选项、或升级给人类。Yocco 的指标：&lt;strong&gt;升级后恢复成功率 &gt;90%&lt;/strong&gt;。低于这个，升级只是延迟的失败。这一条让 agent 不至于自信地给出错误答案误导用户——也是最难实现的，因为 agent 得知道自己不知道什么。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这跟现场情况怎么连。&lt;/strong&gt;NN/g 在 2026 年 4 月 24 日发的&lt;a href="https://www.nngroup.com/articles/site-specific-ai-chatbots/"&gt;站内 chatbot 文章&lt;/a&gt;讲的基本面是一致的——明确能力声明、可扫读的输出、提示建议。NN/g 的 State of UX 2026 报告把信任称为今年「the major design problem」。Yocco 给信任问题一个真正的界面解。六条模式合起来，相当于 agent 和用户之间一份合约：我会告诉你我计划做什么、我有多确信、为什么这么选、我做了什么、什么时候我不确定。跳过任何一条，信任合约就有漏洞。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;实操建议。&lt;/strong&gt;用这六条 checklist 审计你团队上线的任何 agent UI。2026 年生产环境 agent 最常见的失败模式：跳过模式 4（没有置信度信号，用户无法 calibrate），以及做错模式 6（升级给一个根本不存在或反应太慢的人类）。每个企业 agent demo 现在都要回答：六条里哪些有、哪些缺、为什么缺。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;悬而未决。&lt;/strong&gt;注意 Yocco 没写的一条：agent 之间协作的模式。当两个 agent 对用户意图理解相反——日历 agent 说拒绝、邮件 agent 说接受——谁的 UI 来调停？这是第七条模式，目前还没人发货过。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/"&gt;https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/state-of-ux-2026/"&gt;https://www.nngroup.com/articles/state-of-ux-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/site-specific-ai-chatbots/"&gt;https://www.nngroup.com/articles/site-specific-ai-chatbots/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://agentic-design.ai/patterns/ui-ux-patterns"&gt;https://agentic-design.ai/patterns/ui-ux-patterns&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9f7eb290-7eb8-5a63-b06b-6eb97d5616b5</guid>
-      <pubDate>Tue, 05 May 2026 08:11:32 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/</link>
-      <enclosure url="https://files.smashing.media/articles/designing-agentic-ai-practical-ux-patterns/01-designing-agentic-ai-practical-ux-patterns.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 🌉 Bay to Breakers 5/17 实战指南：怎么蹭跑、怎么观赛、怎么避免被封路困住</title>
-      <description>&lt;p&gt;每年五月第三个周日，旧金山会上演一场全世界最不正经的 12K 比赛——&lt;strong&gt;Bay to Breakers&lt;/strong&gt;。今年是 5 月 17 日（周日），从 1912 年办到现在，已经 114 届。比赛本身只是借口，重点是看几万人穿着各种奇装异服横穿整座城市，从 Embarcadero 跑到 Ocean Beach。&lt;/p&gt;
-
-&lt;p&gt;路线很经典：起点在 Howard 与 Main 街口（金融区），沿 Howard 一路向西，过了 Market 拐到 Hayes，再沿 Divisadero 北上，转 Fell 进入 Golden Gate Park，最后沿 JFK Drive 到 Great Highway 终点。第一波 8:00 出发，最后一波 8:45。整条 12K 路线起伏不小，最虐的是 Hayes Hill——从第八街爬到 Steiner，海拔升 100 米，号称"全美最有名的赛跑硬坡"。&lt;/p&gt;
-
-&lt;p&gt;正经报名要 $94.15（12K 单人），加 3K Bonus 加价到 $105.05。13-15 人的"蜈蚣队"（Centipede team）$900.75——传统是几个朋友穿同款衣服用绳子串起来跑完全程。Packet Pickup 在 Stonestown 的 Sports Basement（3251 20th Avenue），5 月 14-16 取号码布。&lt;/p&gt;
-
-&lt;p&gt;但这里有个公开的秘密：&lt;strong&gt;大部分路段几乎没有警察查号码布&lt;/strong&gt;。沿途随便从哪个路口插进去都行，跟着人群走完，到终点参加 Finish Festival 蹭乐队和现场气氛——只是没有 Michelob 免费啤酒（要 bib 才能领）。住南湾的话，5/17 当天 Caltrain 周日加班车 8:00 前从 Palo Alto 出发就能赶上起跑（通常会加开特别班次，临近日期看 Caltrain 官网）。San Bruno、South SF 的人坐 BART 到 Embarcadero 站走两个街口就到起点。&lt;/p&gt;
-
-&lt;p&gt;装扮文化是这个比赛的灵魂。最经典的"鲑鱼逆游"（一群人穿粉色衣服反方向跑）、各种漫威英雄、整个新闻编辑部带着办公桌跑、政治讽刺主题年年翻新。规则上写着"不能裸奔"，但每年都有人挑战这条线，警察一般睁一只眼闭一只眼。穿什么没限制，唯一的真规则：别穿全新跑鞋，因为这条路你大概率要踩到至少一摊不明液体。&lt;/p&gt;
-
-&lt;p&gt;怎么观赛？三个最佳点位：第一是 Hayes Hill 顶（Hayes &amp; Steiner），看人挣扎爬坡；第二是 Alamo Square——可以在草地上铺野餐垫，背景是著名的 Painted Ladies 维多利亚屋；第三是 Golden Gate Park 里 JFK Drive 的 Hippie Hill，跑过这里的人差不多到 8 公里，状态最放飞。带杯咖啡和点零食过去，比电视看春晚有意思多了。&lt;/p&gt;
-
-&lt;p&gt;实用提醒：当天封路从凌晨 4 点开始，到下午 2 点全部解封。Howard、Hayes、Fell、JFK Drive、Great Highway 全段不通车，影响范围比想象大很多。如果要开车进 SF，绕行 280 北上转 19 大道往北，避开市中心。Muni 当天早上 N-Judah 和 5R 部分路段改道，去 Ocean Beach 的话坐 N 到 Judah &amp; La Playa 比开车好太多——封路日 Great Highway 一带停车几乎是不可能完成的任务。&lt;/p&gt;
-
-&lt;p&gt;跑完别急着走。Ocean Beach 终点 Great Highway 1000 号有 Finish Festival，5 小时（8:00-13:00）现场乐队加食物摊位，bib 持有者免费 Michelob。但更湾区式的玩法是：跑完之后顺势在 Outer Sunset 找家咖啡馆——Andytown Coffee（3655 Lawton St）或 Trouble Coffee（4033 Judah St）补血，然后走到海边坐一会，听 Karl 雾的风。这个雾在五月已经开始上线了，跑完出汗下来很容易冷，外套一定要在车里留一件。&lt;/p&gt;
-
-&lt;p&gt;这个比赛唯一的"赞助商运营"色彩越来越重的吐槽点是：报名费贵到劝退正常人，但本地人有自己的解法——蹭跑、组队穿衣服、或者直接开个野餐摊。$94.15 不付，照样可以是 Bay to Breakers 的一部分。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.baytobreakers.com/"&gt;https://www.baytobreakers.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/bay-breakers-sf/"&gt;https://sf.funcheap.com/bay-breakers-sf/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bay_to_Breakers"&gt;https://en.wikipedia.org/wiki/Bay_to_Breakers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sftravel.com/article/everything-you-need-to-know-about-bay-to-breakers"&gt;https://www.sftravel.com/article/everything-you-need-to-know-about-bay-to-breakers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">068425f9-acdb-57ec-a2b7-0244e1283c91</guid>
-      <pubDate>Tue, 05 May 2026 08:11:34 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.baytobreakers.com/</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/a/a8/Bay_to_Breakers_2011_Up.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 类淋巴系统真能在睡眠中清扫阿尔茨海默蛋白：Nature Communications 39人交叉试验首次给出血浆证据</title>
-      <description>&lt;p&gt;睡眠期间大脑会"自我清洗"——这个由 Maiken Nedergaard 团队 2013 年提出的&lt;strong&gt;类淋巴系统（glymphatic system）&lt;/strong&gt;假说，过去三年在动物模型上越证据越扎实，但在人类身上一直缺乏直接的因果证据。2026年1月27日 &lt;em&gt;Nature Communications&lt;/em&gt; 发表的一项 39 人随机交叉试验，第一次用血浆生物标志物把"睡眠 → 类淋巴清除 → 大脑废物排出"的因果链补齐了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;试验设计&lt;/strong&gt;：39 名健康成年人在两个不同夜晚分别进行（1）正常睡眠和（2）整夜剥夺睡眠，研究者用 Applied Cognition 公司开发的可穿戴设备同步记录脑实质阻力（parenchymal resistance, RP）、EEG 和心率，并在次日清晨抽血测定五种阿尔茨海默病（Alzheimers Disease, AD）相关蛋白：β-淀粉样蛋白 Aβ40、Aβ42，以及 tau 蛋白的三种形式（np-tau181、np-tau217、p-tau181）。研究由华盛顿大学医学院 Jeffrey Iliff 团队、Applied Cognition、C2N Diagnostics、斯坦福、佛罗里达大学等多机构合作完成。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;核心发现&lt;/strong&gt;：正常睡眠后清晨血浆中 Aβ 和 tau 浓度&lt;strong&gt;显著升高&lt;/strong&gt;，而剥夺睡眠组没有这个升高。这听起来反直觉——但研究者的解释正是关键：血浆浓度升高意味着这些蛋白被成功"冲出"大脑、排到外周循环。模型分析进一步显示，正常睡眠夜晚，清晨血浆水平的主要决定因素是&lt;strong&gt;类淋巴清除&lt;/strong&gt;；剥夺睡眠夜晚，主要决定因素则是 Aβ 和 tau 的&lt;strong&gt;产生与释放&lt;/strong&gt;——清除通路被堵了，大脑里的废物只能继续累积。脑实质阻力的下降是核心物理机制：睡眠让神经元胞体收缩，间质间隙开放，脑脊液（CSF）才能高效冲洗。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://uwnewsroom-prod-backend.parallelpublicworks.com/sites/default/files/styles/crop_thumbnail/public/2025-05/brain%20illustration.jpg?itok=beF-fnux" alt="大脑类淋巴系统插图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;类淋巴系统沿血管周围间隙工作，脑脊液与间质液在睡眠中加速交换&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;方法学突破&lt;/strong&gt;：过去人类类淋巴研究只能依赖造影剂注射 + MRI（Eide 团队的经典方法），需要侵入和大型设备，每次仅能测一个夜晚。Applied Cognition 的电极头帽让多夜对比、长期追踪成为可能，价格也低得多。Iliff 在团队官网公开评论：清除速率"越睡得久、清除越快，醒来后渐变缓慢"——不是开关式，而是连续过程。这推翻了"必须深睡才有清洗"的早期通俗说法，更接近"持续而梯度变化"的真实生理。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;临床意义层面&lt;/strong&gt;：（1）失眠或睡眠呼吸暂停人群的阿尔茨海默病高发风险，第一次有了清晰的物理机制——不是"睡得不好让人脆弱"这种模糊关联，而是"夜间清除被阻断 → 蛋白堆积"的可量化通路。（2）紧随其后，同团队 2026 年 3 月在 medRxiv 发布的二期临床试验显示，&lt;strong&gt;药物增强类淋巴功能可在单次 4小时15分睡眠中将 Aβ 和 tau 清除提升约 9-10%&lt;/strong&gt;——这意味着从机制研究到药物干预的距离比想象中近得多。Applied Cognition 已锁定一款先导化合物，进入早期临床。&lt;/p&gt;
-
-&lt;p&gt;对普通读者，可操作的健康优先级清单需要更新：保护睡眠时长和睡眠呼吸通畅性，至少和"地中海饮食"或"运动"处于同一权重——不是养生玄学，是有实测生物标志物支撑的神经退行性疾病一级预防。习惯性熬夜（每晚6小时以下）的人群，相当于每晚都让大脑在"工作未关机"状态下错过一次自我维护窗口。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;悬而未决的问题&lt;/strong&gt;：这个 39 人样本是健康成年人，年龄分布偏年轻（中位 56-66 岁的早期可比研究为 49 人）。在已经出现轻度认知障碍（MCI）或携带 APOE4 等位基因的高风险人群里，类淋巴清除是否还能被睡眠"救回来"？药物增强清除能否真正延缓淀粉样斑块形成？2026-2027 年应有更多答案。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41467-026-68374-8"&gt;https://www.nature.com/articles/s41467-026-68374-8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41593094/"&gt;https://pubmed.ncbi.nlm.nih.gov/41593094/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://newsroom.uw.edu/news-releases/scientists-test-real-time-view-of-brains-waste-removal"&gt;https://newsroom.uw.edu/news-releases/scientists-test-real-time-view-of-brains-waste-removal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.medrxiv.org/content/10.64898/2026.03.10.26348048v2"&gt;https://www.medrxiv.org/content/10.64898/2026.03.10.26348048v2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.neurologylive.com/view/debate-glymphatic-system-reexamines-sleep-role-alzheimer-disease-pathology"&gt;https://www.neurologylive.com/view/debate-glymphatic-system-reexamines-sleep-role-alzheimer-disease-pathology&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">006f6014-95ec-5da6-9902-cce768f16f2f</guid>
-      <pubDate>Tue, 05 May 2026 08:11:52 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.nature.com/articles/s41467-026-68374-8</link>
-      <enclosure url="https://uwnewsroom-prod-backend.parallelpublicworks.com/sites/default/files/styles/crop_thumbnail/public/2025-05/brain%20illustration.jpg?itok=beF-fnux" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 第一次拍到鲸豚类用工具：太平洋濒危南方居留虎鲸用海带「按摩」彼此——Current Biology 2025-06 论文记录 12 天内 30 次「allokelping」，社交工具+皮肤护理一举两得</title>
-      <description>&lt;p&gt;动物界用工具的故事我们听了不少：黑猩猩用树枝钓白蚁、海獭用石头敲海胆、新喀里多尼亚乌鸦弯铁丝勾肉、章鱼搬椰子壳当移动堡垒。但 70 年的鲸豚研究里，从来没有人观察到鲸鱼或海豚为「非觅食目的」制造和使用工具——直到 2025 年 6 月 23 日《Current Biology》上 Center for Whale Research 的 Michael Weiss 团队发表的这篇论文。他们用无人机拍到了西雅图外海 Salish Sea 里的&lt;strong&gt;南方居留虎鲸（Southern Resident orcas）用海带互相按摩&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://th-thumbnailer.cdn-si-edu.com/yETRFkIXX5s5ULdq7rRZTPf0Y-A=/1026x684/filters:no_upscale():focal(925x422:926x423)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/10/ea/10ead8b9-0e7f-44cf-861b-9d293cd11641/j19-and-j51-allokelping-center-for-whale-research-nmfs-noaa-permit-27038-x.jpg" alt="两只南方居留虎鲸用海带互相摩擦身体" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;J19 与 J51 用一段巨藻互相滚动按摩——「allokelping」首次被高清记录（图：Center for Whale Research，NOAA 27038 号许可）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;研究团队给这个行为起了个新词：&lt;strong&gt;allokelping&lt;/strong&gt;（allo-= 互相；kelping = 用海带）。具体动作是这样的：一只虎鲸潜到海床附近，用嘴咬住一根 2-3 米长的巨藻（bull kelp）茎，把它从根部扯断，然后游到伙伴身边把这段海带横在两个身体之间，两只鲸用胸鳍/身体相互挤压并滚动数十秒到几分钟——海带在中间被来回搓动，就像两个人共用一条搓澡巾互相搓背。&lt;/p&gt;
-
-&lt;p&gt;12 天内，仅在 73 头南方居留虎鲸（这是地球上濒危等级最高的虎鲸亚群之一，在美加之间的 Salish Sea 里所剩无几）里，研究团队就用无人机拍到了 30 次完整的 allokelping 事件。所有可观察的成员——成年雄性、雌性、亚成体、幼鲸——都参与了这个行为。亲缘关系越近的虎鲸越倾向于互相搓澡：母子、兄弟姐妹、或同母系氏族的远亲。&lt;strong&gt;这是有史以来第一例「双方同时受益」的野生动物工具使用&lt;/strong&gt;——之前所有已知的工具使用案例都是单个个体使用工具获取自己的利益。&lt;/p&gt;
-
-&lt;p&gt;为什么是海带？bull kelp（Nereocystis luetkeana）的茎光滑、有弹性、富含黏液（藻胶），物理上确实是一根天然搓澡巾。研究团队推测这个行为有两重功能：（1）皮肤护理——虎鲸每年要蜕一次皮，皮屑积累会吸引海虱（cyamid amphipods）寄生，海带摩擦能加速死皮脱落。论文里观察到 allokelping 偏好对象是身上有可见皮屑剥落的鲸；（2）社交粘合——「一起搓澡」是一种身体接触密集的协同行为，与黑猩猩互相梳毛、人类互相按摩在功能上同源，能强化群体凝聚力。&lt;/p&gt;
-
-&lt;p&gt;这个发现也让人发愁。Bull kelp 在加州到不列颠哥伦比亚的太平洋东岸正在快速消失：2014-2016 年的「热泡」海洋热浪事件让北加州 90% 的 bull kelp 林直接消失，至今没有恢复。Climate change + 海胆爆发（因为捕食海胆的海星被 sea star wasting syndrome 灭了 95%）让这种海藻林成了北美海洋生态系里最脆弱的环节之一。&lt;strong&gt;南方居留虎鲸恰好在两个夹击下苟延残喘：食物来源（奇努克鲑鱼）已经因水坝和过度捕捞接近崩溃；现在连「搓澡巾」也可能很快没了&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;更细思极恐的一点：allokelping 是一个文化行为，不是基因写死的本能。研究团队在 Biggs 虎鲸（同海域的另一群、以海豹为食）和南方居留虎鲸的姊妹群「北方居留虎鲸」（栖息在阿拉斯加沿岸）身上都没观察到这个行为。这意味着它要么是南方居留群独有的发明，要么是一个文化传统。如果这 73 头鲸全部死光，这个行为就跟着永久消失——就像一种没有人会说的语言。Weiss 团队下一步用 acoustic tag 给虎鲸装麦克风，准备研究 allokelping 时是否伴随特定的发声编码——如果有，那就是「鲸语版搓澡邀请函」。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cell.com/current-biology/fulltext/S0960-9822(25)00450-6"&gt;https://www.cell.com/current-biology/fulltext/S0960-9822(25)00450-6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2025/06/23/science/orca-kelp-tool-grooming"&gt;https://www.cnn.com/2025/06/23/science/orca-kelp-tool-grooming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/these-killer-whales-make-tools-from-kelp-to-massage-each-other-in-a-newly-discovered-grooming-behavior-180986873/"&gt;https://www.smithsonianmag.com/smart-news/these-killer-whales-make-tools-from-kelp-to-massage-each-other-in-a-newly-discovered-grooming-behavior-180986873/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.science.org/content/article/killer-whales-groom-each-other-pieces-kelp"&gt;https://www.science.org/content/article/killer-whales-groom-each-other-pieces-kelp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/orcas-social-skin-care-routine-uses-kelp-as-a-tool/"&gt;https://www.scientificamerican.com/article/orcas-social-skin-care-routine-uses-kelp-as-a-tool/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">940be7ce-5f72-58db-ad2d-29f8b5235897</guid>
-      <pubDate>Tue, 05 May 2026 08:11:54 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(25)00450-6</link>
-      <enclosure url="https://th-thumbnailer.cdn-si-edu.com/yETRFkIXX5s5ULdq7rRZTPf0Y-A=/1026x684/filters:no_upscale():focal(925x422:926x423)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/10/ea/10ead8b9-0e7f-44cf-861b-9d293cd11641/j19-and-j51-allokelping-center-for-whale-research-nmfs-noaa-permit-27038-x.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 自我连续性悖论：Blondé 2026 EJSP 四研究 N=1936——让戒烟者觉得「我还是我」反而戒得更彻底</title>
-      <description>&lt;p&gt;多数戒烟干预走的是「告别旧自我、拥抱新自我」的剧本——把吸烟者的过去描绘成需要切割的负担。比利时鲁汶大学 Bruno Blondé 团队在 2026 年 4 月《European Journal of Social Psychology》上发表的四项研究（总样本 1936 名常吸烟者）说，这个剧本可能在偷偷拖慢改变。&lt;/p&gt;
-
-&lt;p&gt;研究的核心变量叫&lt;strong&gt;感知到的自我不连续性（Perceived Self-Discontinuity）&lt;/strong&gt;——你在多大程度上觉得「戒烟之后的我」会和「现在的我」断成两截。研究 1 和研究 2 是横断与纵向相关，研究 3 和研究 4 是干预实验，用 5000 次 bootstrap 偏差校正中介模型估计：自我不连续性越高，「吸烟者身份（smoker identity）」越被强化，「前吸烟者身份（ex-smoker identity）」越发不出来，接下来一个月的实际戒烟行为越少。中介效应在 ex-smoker identity 路径上显著，意思是阻碍改变的不是「丢不掉旧的」，而是「长不出新的」。&lt;/p&gt;
-
-&lt;p&gt;实验组别的操纵很简单：给一半人读「戒烟意味着成为一个全新的人，告别过去的自己」式材料，给另一半人读「戒烟只是你给自己增加了一个新选项，你内核的好恶、价值观、关系都还在」式材料。后者一个月后报告的戒烟尝试和减量行为都显著高于前者。&lt;/p&gt;
-
-&lt;p&gt;这个发现把 James Clear《Atomic Habits》那条被引爆的口号——「每个习惯都是身份的投票」——做了一次精修。Clear 主张要主动重塑身份：「我要成为一个不吸烟的人」。Blondé 的数据说，这种激进的身份切换对一部分人是动力，对另一部分人却是威胁——因为吸烟可能和他们记忆里某段重要友谊、某种放松仪式、某个深夜赶 deadline 时的陪伴绑定在一起。让他们觉得戒烟会切断这些，他们就会本能地守住「吸烟者」标签。&lt;/p&gt;
-
-&lt;p&gt;这条思路其实和 Sedikides 长期做的 self-continuity 文献一脉相承——nostalgia（怀旧）之所以对心理健康有保护作用，正是因为它修复自我连续感。Blondé 把这个机制反过来用到行为改变上：威胁连续性 = 制造阻力。&lt;/p&gt;
-
-&lt;p&gt;怎么用？三个具体动作。&lt;/p&gt;
-
-&lt;p&gt;一，&lt;strong&gt;把改变描述成扩展而不是替换&lt;/strong&gt;。要少喝酒，不要说「我要变成一个不喝酒的人」，说「我还是我，只是新增了一个不在工作日喝的我」。要开始跑步，不要说「我从今天起是个跑者」，说「我还是那个爱赖床的我，但我顺便也是个偶尔出门跑跑的我」。新身份是叠加层，不是覆盖层。这个措辞的差别看起来像鸡毛蒜皮，但实验数据说它在一个月的尺度上能改变行为。&lt;/p&gt;
-
-&lt;p&gt;二，&lt;strong&gt;主动盘点改变后什么会保留&lt;/strong&gt;。在动笔写改变计划之前，先写三件「就算改变成功了我还是会做的事」——你和谁的关系、你哪些日常仪式、你哪些价值观。这一步会显著降低改变本身带来的身份焦虑。Blondé 实验组的材料其实就是这种盘点的浓缩版。&lt;/p&gt;
-
-&lt;p&gt;三，&lt;strong&gt;处理身份触发器，而不是回避&lt;/strong&gt;。如果吸烟和「咖啡后的 5 分钟独处」绑定，戒烟时不要把咖啡也戒了——保留这个仪式，只换掉里面的烟。让旧身份的骨架留着，只换骨架上的肉。这个原则可以推广到任何带仪式属性的旧习惯。&lt;/p&gt;
-
-&lt;p&gt;这条线索和这个 feed 之前覆盖的两个发现刚好成三角。Wendy Wood 说真正决定行为的是环境。Lile Jia 团队（5/4 那篇）说自控不是品质而是幸福状态的副产品。Blondé 现在补上第三个支点：连续的自我感才是改变的承载体。三个角度合起来给出的反直觉建议是——想改变越大，越要让自己觉得「我还是那个我」，越不要号召自己来一场轰轰烈烈的告别。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://onlinelibrary.wiley.com/doi/10.1002/ejsp.70044"&gt;https://onlinelibrary.wiley.com/doi/10.1002/ejsp.70044&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://onlinelibrary.wiley.com/doi/10.1002/ejsp.70044?af=R"&gt;https://onlinelibrary.wiley.com/doi/10.1002/ejsp.70044?af=R&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a7190f49-e554-5611-8511-75d7a072dcf6</guid>
-      <pubDate>Tue, 05 May 2026 08:12:12 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://onlinelibrary.wiley.com/doi/10.1002/ejsp.70044</link>
-    </item>
-    <item>
-      <title>📰 📰 Project Freedom首日：Brent +6%上114美元、Iran 19枚导弹无人机砸UAE Fujairah油港、CENTCOM沉6艘IRGC小艇</title>
-      <description>&lt;p&gt;&lt;strong&gt;Project Freedom启动第二天，Iran把战火烧到了UAE。&lt;/strong&gt;当地时间5月4日，Iran向阿联酋发射12枚弹道导弹、3枚巡航导弹和4架无人机；UAE防空系统拦截了大部分，但一架无人机突破防线，命中Fujairah石油工业区（Fujairah Oil Industry Zone, FOIZ），引发大火，3名印度籍工人中度受伤。这是自4月8日美伊停火以来Iran首次直接打击UAE境内目标。&lt;/p&gt;
-
-&lt;p&gt;Fujairah的战略价值不在于产量，而在于绕开霍尔木兹海峡（Strait of Hormuz）。它位于阿布扎比原油管道（Abu Dhabi Crude Oil Pipeline, ADCOP）出口端，把内陆油田原油直送阿曼湾出海，是UAE在Hormuz被封后唯一还能稳定外运的出口。Iran打这里，意图很明显：要让Project Freedom护航变成一笔不划算的账。&lt;/p&gt;
-
-&lt;p&gt;护航本身按计划推进。CENTCOM 5月4日通报，2艘悬挂美国国旗的商船已经成功穿越海峡，由制导导弹驱逐舰、100+架空海平台和1.5万兵员护送。途中美军击沉6艘伊朗革命卫队（IRGC）小艇；Iran方面发射巡航导弹瞄准美舰和商船，CENTCOM声明"无任何美军舰艇被击中"，并启动对Iran港口的海上封锁回应。&lt;/p&gt;
-
-&lt;p&gt;市场反应剧烈。Brent原油5月4日收盘上涨近6%至每桶114.44美元，创2022年5月以来新高。CNBC同日发文警告市场陷入"误置的乐观"——投资者把Project Freedom看作问题的解决方案，但分析师认为这恰恰说明Iran宁愿打破停火也不愿放弃Hormuz筹码。WTI同步走高，美国汽油期货也在上涨。&lt;/p&gt;
-
-&lt;p&gt;更值得追的是节奏。3月19日Apple Avocado模型延迟那种科技节奏在地缘上完全不适用——Hormuz这种死结，每天都有可能擦枪走火变成全面冲突。Iran议会安全委员会主席Ebrahim Azizi 5月4日的话已经把红线划清楚："美国对Hormuz新海上机制的任何干预都将被视为违反停火"——也就是说，Iran把Project Freedom本身定性为破坏停火，而不是回应封锁。&lt;/p&gt;
-
-&lt;p&gt;UAE的态度反而值得关注。阿联酋国防部公布的拦截清单（12+3+4=19个来袭目标）罕见地具体，等于公开把Iran摆上被告席。这是自2025年Iran-US谈判以来，UAE第一次直接被卷入战火。Fujairah港的恢复时间没有公布，但ADCOP管道吞吐量短期内大概率打折扣——这意味着UAE自己的原油外运也得部分回到Hormuz走，恰好是Iran想要的结果。&lt;/p&gt;
-
-&lt;p&gt;Trump 5月4日凌晨在Truth Social上说Iran的14点方案"不可接受"，这条话和UAE攻击几乎同步发生。CENTCOM版本的故事是："美舰未被击中、6艘IRGC小艇被沉、2艘商船过去了"；Iran Fars通讯社版本是"Jask岛美舰被命中"——CENTCOM明确否认。两边都在用消息战抢叙事主导权。&lt;/p&gt;
-
-&lt;p&gt;下一个关键节点：5月5日CENTCOM预计公布第二日护航数据。如果数字稳步上升（比如10艘、20艘），Project Freedom就坐实了；如果Iran在Hormuz内或UAE再来一波，原油可能直接冲120美元，CME 9月降息概率从已经掉到的28%再被打到20%以下。Powell 5月15日交棒前最后一场新闻发布会，正撞上这个时点。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html"&gt;https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/4/uae-reports-missile-and-drone-strikes-incoming-from-iran"&gt;https://www.aljazeera.com/news/2026/5/4/uae-reports-missile-and-drone-strikes-incoming-from-iran&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/05/04/middleeast/project-freedom-hormuz-guide-ships-intl-hnk-ml"&gt;https://www.cnn.com/2026/05/04/middleeast/project-freedom-hormuz-guide-ships-intl-hnk-ml&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates"&gt;https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">79cd268f-4f44-5f61-bd47-32a706d76634</guid>
-      <pubDate>Tue, 05 May 2026 08:12:25 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/05/Screenshot-2026-05-05-at-10.07.06-AM-1777965082.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 PREDIMED 17年随访：地中海饮食+每日一杯酒，心血管事件HR低至0.55——但这不是开始喝酒的许可证</title>
-      <description>&lt;p&gt;2026年2月11日 &lt;em&gt;European Heart Journal&lt;/em&gt; 发表了 PREDIMED 试验&lt;strong&gt;17年延展随访&lt;/strong&gt;结果，由西班牙纳瓦拉大学 Miguel A. Martínez-González 与 Ramón Estruch 团队主导。这项把 7,447 名西班牙高心血管风险成人追踪了将近二十年的研究，给出了一组让人重新思考"红酒悖论"的数据：在&lt;strong&gt;已经&lt;/strong&gt;严格遵循地中海饮食的人群中，每天1-2杯葡萄酒的人比不喝酒的人，主要心血管事件风险又降低了一半。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;关键风险比（hazard ratio, HR）&lt;/strong&gt;：高地中海饮食依从、不喝酒组心血管疾病 HR 0.84；高地中海饮食依从、喝酒组 HR &lt;strong&gt;0.55&lt;/strong&gt;。全因死亡率分别是 HR 0.77 和 HR 0.67（95% CI 0.57-0.78）。研究纳入 7,447 名 55-80 岁高 CVD 风险参与者（女性 4,282 人 / 男性 3,165 人），平行参考队列 SUN（10,554 人，22 年随访）作交叉验证。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这次的方法学进步是什么&lt;/strong&gt;？过去关于"红酒护心"的争论核心在于：自报酒精摄入量误差极大，无饮酒人群中可能混入"因病戒酒"的高危患者，造成&lt;strong&gt;残余混杂（residual confounding）&lt;/strong&gt;。PREDIMED 这次用&lt;strong&gt;尿液酒石酸（urinary tartaric acid）&lt;/strong&gt;作为葡萄酒摄入的客观生物标志物——只有葡萄发酵才会大量产生酒石酸。配合 17 年长随访和已经控制了大量饮食/运动/社会经济变量的 PREDIMED 设计，至少在统计层面把传统的混杂减到了历史最低。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;但等一下——这不是劝你开始喝酒。&lt;/strong&gt;研究合作者 Estruch 自己在新闻发布时强调："对不饮酒的人群，我们不建议开始饮酒。"格拉斯哥大学 Naveed Sattar 教授对该研究的&lt;a href="https://www.sciencemediacentre.org/expert-reaction-to-study-of-a-small-amount-of-wine-on-cvd-in-higher-risk-people-on-a-mediterranean-diet/"&gt;公开反驳&lt;/a&gt;更直接："压倒性证据显示，&lt;strong&gt;任何剂量的酒精都会增加多种健康风险&lt;/strong&gt;，红酒悖论本身就是一个神话。"开放大学的 Kevin McConway 也指出，尿液酒石酸与自报量的相关系数仅 0.46（解释力约 21%），地中海饮食人群本身就具备其他保护性生活方式因素，葡萄酒效应未必能脱离这个语境单独存在。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;剂量临界点&lt;/strong&gt;：剂量-反应分析显示，每天 3 杯及以上葡萄酒，所有保护效应消失。WHO 在 2023 年明确表示酒精是 1 类致癌物，每天&lt;strong&gt;1 杯标准酒&lt;/strong&gt;已与乳腺癌、肝癌、口腔癌发病率上升挂钩。即使 PREDIMED 数据成立，"心血管获益"和"癌症风险"的权衡需要个体化评估，而不是把红酒重新塑造成"健康食品"。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://d14d5nk8lue86f.cloudfront.net/s3fs-public/styles/header_image/public/2024-12/PREDIMED%20Analysis%20May%20Rekindle%20Hope%20for%20Wine%E2%80%99s%20Heart%20Benefits%20.jpeg?itok=LC_oLbsl" alt="PREDIMED 试验葡萄酒与地中海饮食研究" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;PREDIMED 17年随访：佐餐型适量葡萄酒与心血管事件下降相关，但因果关系仍未完全确立&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;更应该被注意的另一半数据&lt;/strong&gt;：这次随访同时显示，&lt;strong&gt;仅靠地中海饮食（不喝酒）就能让心血管疾病风险降低 16%、全因死亡降低 23%&lt;/strong&gt;。地中海饮食的核心组件——初榨橄榄油、坚果、鱼类、豆类、全谷物、新鲜蔬果、低红肉摄入——其单独获益已经接近大多数处方药的效应量。&lt;a href="https://feed.example/healthy-life/2026-04-30"&gt;4月30日的 PREDIMED-Plus 报道&lt;/a&gt;也指出初榨橄榄油（vs 精炼）通过 Adlercreutzia 菌属影响认知。把这两条线索合起来看，地中海饮食是&lt;strong&gt;循证营养干预里证据最厚的一套饮食模式&lt;/strong&gt;，葡萄酒只是其中可选、可疑、需个体化评估的一个组件。&lt;/p&gt;
-
-&lt;p&gt;临床实践层面，美国心脏协会、世界卫生组织、英国 NICE 指南目前都&lt;strong&gt;不&lt;/strong&gt;建议为了心血管健康开始饮酒。PREDIMED 这项数据更可能影响的是：已经有规律佐餐饮酒习惯（每天 1-2 杯，与餐同饮）的中老年人，是否需要"为了健康戒酒"——答案在 PREDIMED 这个特定人群中，看起来是"不必"。但永远不要倒过来读这个结论。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehaf1081/8471742"&gt;https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehaf1081/8471742&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.acc.org/Latest-in-Cardiology/Journal-Scans/2026/02/20/14/57/PREDIMED"&gt;https://www.acc.org/Latest-in-Cardiology/Journal-Scans/2026/02/20/14/57/PREDIMED&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.tctmd.com/news/predimed-analysis-may-rekindle-hope-wines-heart-benefits"&gt;https://www.tctmd.com/news/predimed-analysis-may-rekindle-hope-wines-heart-benefits&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencemediacentre.org/expert-reaction-to-study-of-a-small-amount-of-wine-on-cvd-in-higher-risk-people-on-a-mediterranean-diet/"&gt;https://www.sciencemediacentre.org/expert-reaction-to-study-of-a-small-amount-of-wine-on-cvd-in-higher-risk-people-on-a-mediterranean-diet/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41667089/"&gt;https://pubmed.ncbi.nlm.nih.gov/41667089/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c08f5362-a594-5d3c-b8e1-be91b36377bb</guid>
-      <pubDate>Tue, 05 May 2026 08:12:36 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehaf1081/8471742</link>
-      <enclosure url="https://d14d5nk8lue86f.cloudfront.net/s3fs-public/styles/header_image/public/2024-12/PREDIMED%20Analysis%20May%20Rekindle%20Hope%20for%20Wine%E2%80%99s%20Heart%20Benefits%20.jpeg?itok=LC_oLbsl" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 110 年解不开的 Voynich 手稿可能是用「掷骰子+抽扑克牌」加密的：Cryptologia 2025-11 论文提出 Naibbe 替换密码，统计指纹与原稿吻合度极高</title>
-      <description>&lt;p&gt;Voynich 手稿是密码学界的一道伤疤——240 页羊皮纸、234,000 个看起来像字母的奇怪符号、画着看不懂的植物、星图、裸女在绿色浴池里游泳。1912 年波兰书商 Wilfrid Voynich 从意大利耶稣会图书馆里买到它时，就已经没人能读懂上面的字。碳-14 测年定在 1404-1438 年。一个世纪以来，破译者中有美国陆军密码学家 William Friedman（破译日本紫密的天才）、有 NSA 团队、有牛津剑桥的语言学家、有 AI 研究员——所有人都失败了。最尴尬的是：手稿里的「字」既不是任何已知的自然语言（频率分析对不上）、也不是已知的简单替换密码、也不像是随机乱写的胡话（因为符号分布服从齐普夫定律和词长分布与自然语言惊人接近）。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.mos.cms.futurecdn.net/SL6fTQTvd4TNyw3yATnXCA.jpg" alt="Voynich 手稿的植物插图与未解符号" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Voynich 手稿一页：奇怪植物图配着不属于任何语言的符号（图：Live Science）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;2025 年 11 月 26 日《Cryptologia》（DOI: 10.1080/01611194.2025.2566408）上 Michael Greshko 发表的论文给这个问题提出了一个让所有人拍大腿的解释：&lt;strong&gt;这可能是个用骰子加扑克牌（具体说是 14 世纪意大利「Naibbe」纸牌）加密的「verbose substitution cipher」&lt;/strong&gt;。Greshko 不是说他破译了 Voynich——他明确强调论文是「proof of concept」，证明 15 世纪的人有没有可能用当时身边随手可得的工具，造出一种统计指纹与 Voynich 几乎一样的密文。答案：能。&lt;/p&gt;
-
-&lt;p&gt;Naibbe 密码的工作方式很诡异。第一步：掷一颗六面骰。骰子的点数决定怎么把要加密的拉丁文/意大利文文本「分块」——比如骰到 3，就从原文里取 3 个字母作为一个分块。论文举的例子：意大利文「gatto」（猫）可能被分成「g」「at」「to」三块。第二步：抽一张 Naibbe 牌（14 世纪意大利的早期塔罗牌前身，56 张）。牌的花色与点数决定使用 6 张查找表中的哪一张。第三步：在选中的查找表里把这一块字母翻译成「Voynichese」字符（手稿里的那些奇怪符号）。&lt;/p&gt;
-
-&lt;p&gt;关键巧妙之处在于：六张查找表是被精心「加权」的。论文里 Greshko 设计了表格的字符频率，使得密文输出的统计性质——字符频率分布、双连字（bigram）频率、词长分布、字母位置分布——与 Voynich 手稿的实际统计指纹高度吻合。&lt;strong&gt;这解决了一个长期困扰破译者的悖论&lt;/strong&gt;：为什么 Voynich 的字符既不像简单替换（频率分布太怪）、也不像无意义的乱写（因为它服从自然语言的统计规律）？因为它本来就是从自然语言出发、经过两步随机化（骰子+牌）变换出来的伪自然语言。&lt;/p&gt;
-
-&lt;p&gt;Greshko 在论文里反复强调几个限制：（1）他不是说 Voynich 一定是用 Naibbe 加密的——他只是证明这种风格的密码在 15 世纪技术条件下可行（骰子和扑克牌当时都已经流行）；（2）他的密码只是「approximated Voynichese」，并不能完全复现原稿的所有特征；（3）这个方案是不可逆的——即使你知道了密码框架，没有完整的 6 张查找表（每张表大约 200 个映射）和当时使用的随机数序列，仍然解不开原文。换言之，&lt;strong&gt;如果手稿真是这样加密的，它就是一种「one-way function」，永远解不开&lt;/strong&gt;——除非作者的笔记本被找到。&lt;/p&gt;
-
-&lt;p&gt;这篇论文之所以被严肃看待，是因为它用现代统计学第一次给出了一个自洽且历史可行的「为什么 Voynich 看起来这么诡异」的解释。在此之前的几十种「破译方案」（最近一次是 2019 年 Bristol University 的 Gerard Cheshire 声称是「原始罗曼语」，被语言学界全员打脸）都过不了同行评审。Greshko 没声称破译，反而获得了最严肃的关注——这本身就说明 Voynich 学界已经悄悄转向另一种共识：&lt;strong&gt;它可能是一份永远读不到原文的高级伪装&lt;/strong&gt;。一种可能的设计目的：作者要么是在炫技（造一本看起来神秘但其实没什么内容的奇书来卖钱，或讨好某位赞助人），要么是为某个秘密团体（比如某个哈布斯堡神秘学家小圈子）造的密语载体。两种情况都比「失落的古老智慧」更符合奥卡姆剃刀。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.livescience.com/archaeology/mysterious-voynich-manuscript-may-be-a-cipher-a-new-study-suggests"&gt;https://www.livescience.com/archaeology/mysterious-voynich-manuscript-may-be-a-cipher-a-new-study-suggests&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://archaeologymag.com/2026/01/voynich-manuscript-may-be-a-cipher/"&gt;https://archaeologymag.com/2026/01/voynich-manuscript-may-be-a-cipher/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.newsweek.com/voynich-manuscript-15th-century-book-cards-dice-cipher-naibbe-11316017"&gt;https://www.newsweek.com/voynich-manuscript-15th-century-book-cards-dice-cipher-naibbe-11316017&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.iflscience.com/is-this-how-the-voynich-manuscript-was-made-a-new-cipher-offers-fascinating-clues-81786"&gt;https://www.iflscience.com/is-this-how-the-voynich-manuscript-was-made-a-new-cipher-offers-fascinating-clues-81786&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.theartnewspaper.com/2024/09/25/voynich-manuscript-scans-reveal-early-decoding-attempt"&gt;https://www.theartnewspaper.com/2024/09/25/voynich-manuscript-scans-reveal-early-decoding-attempt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">17af3cd9-5a2b-5a8d-a9df-909f65475542</guid>
-      <pubDate>Tue, 05 May 2026 08:12:40 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.livescience.com/archaeology/mysterious-voynich-manuscript-may-be-a-cipher-a-new-study-suggests</link>
-      <enclosure url="https://cdn.mos.cms.futurecdn.net/SL6fTQTvd4TNyw3yATnXCA.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 主动 vs 被动用社交媒体都让人更孤独：Roberts 等 9 年纵向 N=6965 推翻「主动使用假设」</title>
-      <description>&lt;p&gt;关于社交媒体和孤独的关系，过去十年学界有一个相对乐观的主流——passive social media use hypothesis：刷信息流（被动）会让人孤独，但发帖、评论、互动（主动）反而能提升连接感。Baylor 大学 James Roberts 团队在《Personality and Social Psychology Bulletin》上的 9 年纵向研究把这个假设的后半段直接打掉了。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://www.psypost.org/wp-content/uploads/2025/03/lonely-teen-boy-male-in-bed-on-smartphone-at-night-750x375.jpg" alt="lonely person on smartphone" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;9 年的数据说，发帖也救不了你——被动和主动使用都和孤独正相关。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;样本是荷兰 LISS panel 的 6965 名成年人，2014-2022 每年测一次。被动使用（passive social media use, PSMU）测的是每周纯刷信息流不互动的小时数，主动使用（active social media use, ASMU）测的是发帖、回复、点赞参与互动的小时数。孤独用六题成熟量表测。研究控制了年龄、性别、初始孤独水平、其他时变协变量，跨滞后建模。&lt;/p&gt;
-
-&lt;p&gt;结果：&lt;strong&gt;PSMU 显著预测后续孤独上升&lt;/strong&gt;，符合既有理论；但&lt;strong&gt;ASMU 也显著预测后续孤独上升&lt;/strong&gt;，方向和 ASMU hypothesis 预测的相反。两个方向同时还存在反向因果——孤独的人更倾向去用社交媒体，于是形成一个 9 年都没崩的反馈环。Roberts 自己的结论很直白：不管怎么用，社交媒体都是面对面交流的劣质替代品。&lt;/p&gt;
-
-&lt;p&gt;这条数据为什么重要？因为过去几年很多自助类指南给的建议是「别只是刷，多发帖、多互动、多评论别人的内容」，潜台词是 Facebook/Instagram/小红书只要换一种用法就能产生真正的连接。9 年大样本说，这种积极使用的转向并不能把社交媒体变成一个净正面的工具。互动的形式像极了社交，但没产生面对面交流那个变量真正负责的东西——心理学叫 perceived responsiveness，对方&lt;strong&gt;当下、不可被剪辑地&lt;/strong&gt;回应你的信号。&lt;/p&gt;
-
-&lt;p&gt;这和这个 feed 之前覆盖的几条线刚好接得上。挪威 Health &amp; Place 那条说孤独的代际反转，年轻人比老年人更孤独；社交媒体的高使用率是嫌疑因素之一。Adam Grant 计划 2026-10 出版的 Vibe 主题就是怎么在孤独时代建立强连接。Roberts 这条研究说出了 Vibe 那本书可能要解决的具体问题：换姿势刷手机不算解药。&lt;/p&gt;
-
-&lt;p&gt;怎么用？三个落地动作。&lt;/p&gt;
-
-&lt;p&gt;一，&lt;strong&gt;给主动使用做一次降级评估&lt;/strong&gt;。如果你的我有在主动用社交媒体是指每天评论 5 条朋友圈、发 2 条状态，研究数据不站在你这边。降级到「每周和 1-2 个朋友约一次面对面、视频通话或电话」，单位时间产生的连接质量大概率高一个数量级。&lt;/p&gt;
-
-&lt;p&gt;二，&lt;strong&gt;把社交媒体从默认变成专用工具&lt;/strong&gt;。Roberts 数据里 ASMU 也增孤独的部分原因可能是&lt;strong&gt;挤出效应&lt;/strong&gt;——花在主动互动上的时间，挤掉了真正面对面相处的时间，但你以为已经社交过了。具体动作：把 IG/小红书/微博从手机首屏移走，只在桌面或浏览器打开；和朋友的实质沟通用 iMessage、WhatsApp、电话单独走，不混在 feed 里。&lt;/p&gt;
-
-&lt;p&gt;三，&lt;strong&gt;识别孤独 → 刷手机的反馈环&lt;/strong&gt;。Roberts 研究的最有价值发现可能是双向因果：孤独驱动你打开 app，打开 app 又加重孤独。下次发现自己点开 IG 时，先停 5 秒问自己一句我现在感到什么。如果答案是孤独，关掉 app，发条信息约人见面。这个动作小，但它打断的是反馈环本身。&lt;/p&gt;
-
-&lt;p&gt;研究的局限：荷兰样本，可能不完全外推到中文社交媒体生态（小红书、微信、抖音的算法和互动模式不同）。但核心结论——主动互动并不天然解孤独——在多数证据较好的研究里反复出现，跨文化的差距大概率是程度差距，不是方向差距。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/01461672241295870"&gt;https://journals.sagepub.com/doi/10.1177/01461672241295870&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/social-media-may-be-trapping-us-in-a-cycle-of-loneliness-new-study-suggests/"&gt;https://www.psypost.org/social-media-may-be-trapping-us-in-a-cycle-of-loneliness-new-study-suggests/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://news.web.baylor.edu/news/story/2025/social-medias-double-edged-sword-study-links-both-active-and-passive-use-rising"&gt;https://news.web.baylor.edu/news/story/2025/social-medias-double-edged-sword-study-links-both-active-and-passive-use-rising&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">fd57e3f6-d3ce-5be7-a18f-d50295ae0a8e</guid>
-      <pubDate>Tue, 05 May 2026 08:12:54 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://journals.sagepub.com/doi/10.1177/01461672241295870</link>
-      <enclosure url="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://www.psypost.org/wp-content/uploads/2025/03/lonely-teen-boy-male-in-bed-on-smartphone-at-night-750x375.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎨 NN/g Argues 'User' No Longer Means Human: AI Agents Just Made the Accessibility Business Case Self-Evident / NN/g 论点：「用户」不再只指人类——AI agent 让无障碍的商业理由不证自明</title>
       <description>&lt;p&gt;Sarah Gibbons and Kate Moran’s April 10, 2026 NN/g essay &lt;a href="https://www.nngroup.com/articles/ai-agents-as-users/"&gt;"AI Agents as Users"&lt;/a&gt; quietly does something the accessibility community has been trying to do for twenty years: make the business case for inclusive design self-evident. The argument is simple and structurally inescapable. AI agents now functionally interact with digital interfaces. They have goals, encounter your UI, and either succeed or fail. The interfaces agents navigate best are the same ones blind users, screen-reader users, and keyboard-only users navigate best. Therefore, every euro spent on accessibility is now also a euro spent on agent-readiness. The two budgets are the same budget.&lt;/p&gt;
@@ -1914,6 +1185,694 @@
       <category>daily-news</category>
       <link>https://www.cbsnews.com/news/missing-us-soldiers-morocco-one-tried-to-save-another-officials-say/</link>
       <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/05/AP21169669159620-1777809966.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 八个物理学家用一年时间画出了「芝士胡椒面」的相图，2025 Ig Nobel 物理学奖得主说：你做不好 Cacio e Pepe 不是手艺问题，是淀粉浓度差了 1.5%</title>
+      <description>&lt;p&gt;2025 年 9 月 18 日，&lt;strong&gt;Ig 诺贝尔物理学奖&lt;/strong&gt;颁给了一个看似无聊到极点的题目：怎么把一碗 Cacio e Pepe 做不糟。意大利芝士胡椒面只有三种食材——意面、Pecorino Romano 芝士、黑胡椒——但它有一个所有意大利妈妈都默认的诅咒：芝士一旦下锅，七成的概率会瞬间凝结成橡皮一样的奶酪团，整碗面直接报废。Sapienza 大学和 Max Planck 复杂系统物理研究所的八位物理学家组队跟它死磕了一年，最终在《Physics of Fluids》上发了一篇五十多页的论文，画出了 Cacio e Pepe 的&lt;strong&gt;相图（phase diagram）&lt;/strong&gt;，一举把一道家常菜送进了软物质物理学（Soft Matter Physics）教科书。&lt;/p&gt;
+
+&lt;p&gt;问题的物理学本质很优雅。Pecorino 芝士是高蛋白高脂肪的复杂胶体，溶在水里时蛋白质分子被电荷和水合层撑开。一旦水温超过 65°C，蛋白质开始变性（denature），疏水基团暴露，分子互相黏成一坨——这就是「&lt;strong&gt;蛋白质聚集（protein aggregation）&lt;/strong&gt;」，也是为什么传统做法把面汤直接浇芝士上几乎必翻车。论文给这种灾难起了个一针见血的名字：「&lt;em&gt;Mozzarella Phase&lt;/em&gt;（马苏里拉相）」——整碗变成漂浮在水里的奶酪团块，唯一的用法是垃圾桶。&lt;/p&gt;
+
+&lt;p&gt;八个物理学家做的事情很硬核：他们系统改变芝士-水-淀粉三者比例和温度，跑了上百次实验，用图像分析量化结块大小。结论非常反直觉——单纯加面汤不够，因为面汤里的&lt;strong&gt;淀粉浓度（starch concentration）&lt;/strong&gt;是随机的，全看你煮多少面、用多少水。他们的相图给出了一个铁律：&lt;strong&gt;淀粉占芝士质量的 2-3%&lt;/strong&gt;是稳定区，低于 1% 必出 Mozzarella Phase，高于 4% 又会变成糊状。家常面汤的淀粉浓度大约在 0.5-1.5%，正好踩在悬崖边上——这就解释了为什么这道菜既被尊为罗马灵魂也被全世界厨师称为噩梦。&lt;/p&gt;
+
+&lt;p&gt;论文给出的最终方案有点反传统：&lt;strong&gt;不要用面汤兑芝士。&lt;/strong&gt;正确做法是先单独取一份冷水，加入约相当于芝士质量 2-3% 的玉米淀粉或马铃薯淀粉，搅拌煮至清亮黏稠（淀粉糊化）。这一步在低温下让淀粉颗粒充分水合，形成保护性多糖网络。降温后再拌入磨碎的 Pecorino 和现磨胡椒，做成「芝士酱基底」。最后把刚煮好的意面捞出（保持 65°C 以下接触温度），分次淋入酱料拌匀。整套流程的物理逻辑是用淀粉的&lt;strong&gt;大分子保护层&lt;/strong&gt;预先包裹蛋白质胶束，阻止它们在升温时直接撞在一起。&lt;/p&gt;
+
+&lt;p&gt;这项研究在意大利掀起了一场口水战。罗马传统派厨师集体怒斥「淀粉是欺诈，老祖宗不需要这玩意」；与此同时论文在 arXiv 上的下载量冲到了软物质类目第一。共同作者 Daniel Maria Busiello 在领奖时说了句几乎可以载入科学史的话：「我们不是在告诉你们怎么做菜。我们是在告诉你们，为什么你们一直做不好。」Ig Nobel 委员会的颁奖词更冷幽默——「奖给那些用流体力学解释为什么你的婚姻在罗马蜜月期间破裂的研究者」。&lt;/p&gt;
+
+&lt;p&gt;更深一层，这篇论文揭示了一个被低估的事实：&lt;strong&gt;食物物理学（food physics）正在快速学院化&lt;/strong&gt;。从 2024 年 ETH Zürich 的意大利面捻断研究（Feynman 曾经研究过的「为什么意面总是断成三截」）到 2023 年苏黎世大学的卡布奇诺奶泡稳定性论文，传统厨房里的"祖传秘方"正在被一行行偏微分方程改写。下一个目标？据物理学家私下透露，是 Carbonara——含蛋黄的版本物理上比 Cacio e Pepe 还难。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce"&gt;https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2501.00536"&gt;https://arxiv.org/abs/2501.00536&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2025/09/250918225012.htm"&gt;https://www.sciencedaily.com/releases/2025/09/250918225012.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ista.ac.at/en/news/2025-ig-nobel-prize-for-perfect-pasta-sauce/"&gt;https://ista.ac.at/en/news/2025-ig-nobel-prize-for-perfect-pasta-sauce/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://physics.aps.org/articles/v18/163"&gt;https://physics.aps.org/articles/v18/163&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e00355d1-7292-5445-8c86-4b7b3bc3cbe2</guid>
+      <pubDate>Thu, 07 May 2026 08:09:16 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce</link>
+      <enclosure url="https://scx2.b-cdn.net/gfx/news/2025/2025-09-ig-physics-nobel-prize-pasta.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 现在还有格陵兰鲨在北大西洋游泳，它们出生那年莎士比亚还在写《哈姆雷特》：用核试验留下的碳-14「炸弹脉冲」给鲨鱼眼球晶状体定年，最大个体 392 ± 120 岁，性成熟需要 156 年</title>
+      <description>&lt;p&gt;2016 年 8 月，丹麦哥本哈根大学的 Julius Nielsen 在《Science》上发表了一篇看似不该被刊登在顶刊上的论文：&lt;strong&gt;格陵兰鲨（Greenland shark, Somniosus microcephalus）的寿命可能超过 400 年。&lt;/strong&gt;这意味着今天还在北大西洋深海游泳的某些个体，出生时莎士比亚还在写《哈姆雷特》。论文一夜之间把这种长得像史前怪物的鲨鱼推上了「&lt;strong&gt;地球上已知最长寿的脊椎动物&lt;/strong&gt;」宝座，把之前的纪录保持者弓头鲸（Bowhead whale，约 211 年）整整甩开一个世纪。&lt;/p&gt;
+
+&lt;p&gt;这个发现的难点不在抓鱼，而在&lt;strong&gt;怎么给一条没有耳石、没有年轮的鲨鱼定年&lt;/strong&gt;。鲨鱼是软骨鱼，全身没有一块能像树一样数年轮的硬组织。但 Nielsen 想到了一个非常聪明的把戏：&lt;strong&gt;眼球晶状体的核心（eye lens nucleus）&lt;/strong&gt;。鲨鱼出生时晶状体核心就已形成，此后终身不再代谢。如果你能测出晶状体核心碳-14 的同位素水平，就等于读到了它出生那年大气中的 ¹⁴C 浓度——而 1950 年代的核武器试验在大气里留下了一道清晰的「&lt;strong&gt;炸弹脉冲（bomb pulse）&lt;/strong&gt;」，把全球大气 ¹⁴C 在十年内拉高了一倍。这是地球化学家最爱的天然时钟。&lt;/p&gt;
+
+&lt;p&gt;Nielsen 团队从格陵兰岛附近渔业误捕的 28 条雌性格陵兰鲨身上取下晶状体（鲨鱼长度从 81 cm 到 502 cm），送到伍兹霍尔加速器质谱实验室。结果震惊全场：只有最小的几条鲨鱼（≤220 cm）的晶状体里测得到 1960 年代的炸弹脉冲信号。其他个体的 ¹⁴C 全都低于 1950 基线——它们出生时根本没有人类核试验。校准后，最大的那条 502 cm 雌鲨估算年龄是 &lt;strong&gt;392 ± 120 岁&lt;/strong&gt;，可能跨越 1505 到 1745 年间。论文给出的保守下限是 272 岁，意味着哪怕用最严格的统计区间，这条鱼也比美利坚合众国还老。&lt;/p&gt;
+
+&lt;p&gt;更让人发抖的是&lt;strong&gt;性成熟年龄&lt;/strong&gt;：约 156 岁。也就是说，一条格陵兰鲨从出生到能繁殖第一次后代，需要经历整个文艺复兴。这种慢得不真实的生命节奏背后是它们的生存环境——格陵兰鲨生活在 &lt;strong&gt;1-12°C 的极地深水（200-2200 米）&lt;/strong&gt;，新陈代谢率极低，每年只长约 1 cm。他们以腐肉为生，胃里曾经发现过完整的北极熊和驯鹿（推测是从冰面掉下去的尸体），偶尔会在 600 米深的海床用 0.34 m/s 的爬行速度——是的，比人类散步慢 10 倍——把毫无戒备的睡眠中的海豹吞下去。&lt;/p&gt;
+
+&lt;p&gt;这种鱼还有一个让人心碎的特征：&lt;strong&gt;几乎所有成年个体都是瞎的。&lt;/strong&gt;因为格陵兰鲨眼角膜上几乎都寄生着一种叫 Ommatokoita elongata 的桡足类（copepod），这种寄生虫从鲨鱼眼睛里伸出 5 厘米长的卵囊，最终把宿主的视觉摧毁。但格陵兰鲨视觉本就不发达，主要靠嗅觉和侧线觅食，所以瞎了对它们影响有限。2025 年 11 月，丹麦水产研究所在《Nature Communications》发了后续论文，证明&lt;strong&gt;剩下没瞎的格陵兰鲨视网膜在 100 多岁时仍然功能正常&lt;/strong&gt;——这意味着鲨鱼眼睛里的视网膜光感受器和神经节细胞拥有目前已知最长的脊椎动物功能寿命。&lt;/p&gt;
+
+&lt;p&gt;这项研究的意义远超古生物学猎奇。格陵兰鲨现在被 IUCN 列为&lt;strong&gt;易危物种（Vulnerable）&lt;/strong&gt;，但因为渔业混捕而每年仍有约 3500 条死于渔网。一条 400 岁的鱼被渔网拖死，从生物学时间尺度看相当于把一棵红杉砍倒——但红杉至少还能再种回去，格陵兰鲨需要 156 年才能再生育一次。冰岛和格陵兰早期渔民会用它的肝脏炼油，肉则用乳酸菌发酵成 Hákarl（冰岛国菜，新鲜肉因肉中三甲胺氧化物含量过高有毒，必须经过几个月发酵）。地球上还有多少 1600 年代出生的活体在我们身边游？没人知道。但 Nielsen 的论文留下了一句论文中罕见的诗意结语：「&lt;em&gt;Some sharks alive today are likely to have been alive when Newton wrote the Principia.&lt;/em&gt;」&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/science.aaf1703"&gt;https://www.science.org/doi/10.1126/science.aaf1703&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/27516602/"&gt;https://pubmed.ncbi.nlm.nih.gov/27516602/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/08/160811143218.htm"&gt;https://www.sciencedaily.com/releases/2026/08/160811143218.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41467-025-67429-6"&gt;https://www.nature.com/articles/s41467-025-67429-6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Greenland_shark"&gt;https://en.wikipedia.org/wiki/Greenland_shark&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">81158a01-b5f8-5b91-b238-a1fe23e79182</guid>
+      <pubDate>Thu, 07 May 2026 08:10:12 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.science.org/doi/10.1126/science.aaf1703</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Somniosus_microcephalus_okeanos.jpg/1280px-Somniosus_microcephalus_okeanos.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 五月长周末去哪儿？Memorial Day 2026 湾区活动全攻略</title>
+      <description>&lt;p&gt;Memorial Day 三天小长假（5月23-25日）马上来了，先把几个不容错过的活动记到日历里。&lt;/p&gt;
+
+&lt;h3&gt;🎉 Carnaval SF（5月23-24日，Mission 区，免费）&lt;/h3&gt;
+&lt;p&gt;今年第46届，24th Street &amp;amp; Bryant 附近绵延17个街区，11am-6pm 两天都有。5个舞台、400个摊位，周六热闹，周日10am-2pm 大游行是重头戏——从 24th &amp;amp; Bryant 出发，往 Mission、15th Street、S. Van Ness 绕一圈，拉丁美洲各国文化全上了。完全免费，去晚了停车会有点头疼，建议坐 BART 到 24th St Mission 站。&lt;/p&gt;
+
+&lt;h3&gt;🔥 Ocean Beach 篝火夜（5月25日 Memorial Day 当天，免费）&lt;/h3&gt;
+&lt;p&gt;5-9:30pm，Golden Gate Park 西边的 Ocean Beach，每年 Memorial Day 传统。傍晚温度 13-16°C 左右，带件抓绒，带瓶酒，在海边对着夕阳喝一杯——是那种「啊湾区真的挺好住的」的时刻。不需要预约，直接去就行。&lt;/p&gt;
+
+&lt;h3&gt;🏔 Yosemite：今年不需要入园预约&lt;/h3&gt;
+&lt;p&gt;2026年 Yosemite 取消了入园预约制，这是好消息；坏消息是 Memorial Day 周末肯定挤。Half Dome 缆绳5月22日（周五）上架，但许可证3月已抽签结束，这次没机会了。替代方案：Mist Trail（Vernal Falls / Nevada Falls）、Hetch Hetchy 的 Wapama Falls 线路春季水量充沛，比 Half Dome 人少一半。入园最好8am前到，否则入口可能排队1-2小时。&lt;/p&gt;
+
+&lt;h3&gt;🌲 近郊徒步：Purisima Creek Redwoods（Half Moon Bay 上方）&lt;/h3&gt;
+&lt;p&gt;不想开3小时去 Yosemite？这个地方离南湾只有40分钟。红木 + 海岸山脊，走 Harkins Ridge 可以俯瞰太平洋。停车场周末正午前就满，建议9am出发。旁边就是 Half Moon Bay，顺道去海边吃个 Sam's Chowder House 也不错。&lt;/p&gt;
+
+&lt;h3&gt;🍹 彩蛋：SF AAPI Cocktail Week（5月24-28日）&lt;/h3&gt;
+&lt;p&gt;第四届，主题「Spice Routes」，Opening Party 在 Pacific Cocktail Haven（SoMa）。参与的酒吧会推出亚裔调酒师特调，大多数场次需要提前买票，票价-60不等。门票在 sfaapicocktailweek.com。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实用提示：&lt;/strong&gt;BottleRock Napa（Foo Fighters + Lorde 压轴）上周提的——全票已售罄，Waitlist。没票就别惦记了，把精力放 Carnaval 吧。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://carnavalsanfrancisco.org/"&gt;https://carnavalsanfrancisco.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/san-francisco-carnaval-festival-mission/"&gt;https://sf.funcheap.com/san-francisco-carnaval-festival-mission/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sftourismtips.com/memorial-day-in-san-francisco.html"&gt;https://www.sftourismtips.com/memorial-day-in-san-francisco.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0aad3617-d690-5a90-a9af-e12133349a00</guid>
+      <pubDate>Thu, 07 May 2026 08:11:01 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://carnavalsanfrancisco.org/</link>
+    </item>
+    <item>
+      <title>🎲 🎲 1848 年一根 6 公斤铁棒贯穿 25 岁工头 Phineas Gage 的整个左前额叶，他不仅没死，还自己走上旅店台阶等医生：「他不再是 Gage」——人类医学史上第一例被详细记录的「大脑损伤后人格改变」</title>
+      <description>&lt;p&gt;1848 年 9 月 13 日下午四点半，美国佛蒙特州 Cavendish 镇的 Rutland &amp; Burlington 铁路工地上，&lt;strong&gt;25 岁的工头 Phineas Gage&lt;/strong&gt; 正在用一根定制的 &lt;strong&gt;3 英尺 7 英寸长（109 cm）、直径 3.2 cm、重 13.25 磅（6 kg）的尖头铁棒&lt;/strong&gt;把火药压实进岩石钻孔。他的助手分了神，他直接用铁棒往下捣——结果火星溅出，火药瞬间在这根铁棒的底端爆炸。铁棒像炮弹一样从孔里轰出来，&lt;strong&gt;从他左脸颊下方进入，穿过左眼后方，贯穿整个左侧前额叶（frontal lobe），从颅顶飞出&lt;/strong&gt;，落在 25 米开外的地上沾着脑组织。&lt;/p&gt;
+
+&lt;p&gt;Gage 的故事从这里开始变得彻底超现实。他&lt;strong&gt;没有死&lt;/strong&gt;。事实上据 Cavendish 镇医生 John Harlow 的记录，Gage 不仅活了下来，他甚至&lt;strong&gt;没有失去意识&lt;/strong&gt;。他被工友抬上一辆牛车坐着回到镇上，自己走上了旅店的台阶，坐到走廊上等医生来。Harlow 到达时第一句话是「Doctor, here is business enough for you」（医生，这下够你忙了）。当晚 Gage 还在跟人聊天，第二天能正常说话。Harlow 用各种他能想到的方式清理了伤口——包括把他自己的两根手指&lt;strong&gt;同时伸进铁棒造成的颅顶出口和颅底入口&lt;/strong&gt;互相摸到对方——确认大脑确实被一根棒子贯穿过。Gage 在感染了三个月（脓液把伤口烧成 fungus cerebri 真菌脑），活过了 19 世纪医学最致命的并发症，最终完全康复了身体。&lt;/p&gt;
+
+&lt;p&gt;但他&lt;strong&gt;不再是同一个人&lt;/strong&gt;了。&lt;/p&gt;
+
+&lt;p&gt;事故前的 Gage 是工头的典范——稳重、可靠、计划周全、有威望。他的雇主 Rutland &amp; Burlington 铁路公司在他出事前的评语是「公司最得力、最有效率的工头」。事故后呢？Harlow 1868 年在《马萨诸塞医学会报》发表的二次报告里有一段成为神经科学经典的描述：「&lt;em&gt;他的智力和动物的本能之间的平衡似乎被毁掉了。他变得反复无常、不敬、时不时迸发出极其亵渎的脏话（这在他从前完全不存在）、对同伴几乎不再表现任何尊重、对他不喜欢的限制或建议毫无忍耐力、有时候非常固执但又总是反复变换计划、做事冲动而无远见……他的朋友和熟人都说，他「&lt;strong&gt;不再是 Gage&lt;/strong&gt;」（"no longer Gage"）。&lt;/em&gt;」&lt;/p&gt;
+
+&lt;p&gt;这是&lt;strong&gt;人类医学史上第一例被详细记录的「人格在大脑损伤后改变」案例&lt;/strong&gt;，也是为什么 Gage 后来被 William James 写进 1890 年的《心理学原理》并成为今天每一本神经科学教材必讲的故事。在 1848 年那个还信奉颅相学（phrenology）但还没人知道大脑各区域功能分工的年代，Gage 的案例第一次&lt;strong&gt;暗示前额叶皮层（prefrontal cortex）和人格、决策、社会行为有直接关系&lt;/strong&gt;——这条线索后来直接演化出 1990 年代 Antonio Damasio 的「躯体标记假说（somatic marker hypothesis）」和今天的腹内侧前额叶（vmPFC）研究。&lt;/p&gt;
+
+&lt;p&gt;但故事还有一个常被遗忘的反转。后来的历史研究——尤其是 2009 年 Macmillan 和 Lena 在《Neuropsychologia》上的复盘——指出，&lt;strong&gt;Gage 后期可能恢复了相当一部分人格功能&lt;/strong&gt;。事故后的他做了什么？他先是在新罕布什尔州一家酒馆当噱头展览自己（带着那根铁棒），然后去了智利首都圣地亚哥&lt;strong&gt;当了七年长途马车夫&lt;/strong&gt;——这是一个需要复杂规划、社交协调、应对突发的高难度工作。他能稳定地干这份工作，说明他的执行功能在十多年里得到了显著恢复，可能是大脑神经可塑性（neuroplasticity）的一个早期案例。&lt;/p&gt;
+
+&lt;p&gt;1860 年 5 月 21 日，事故 12 年后，Gage 在加州死于一系列癫痫发作并发症，享年 36 岁。1867 年他的家人按 Harlow 的请求&lt;strong&gt;把遗体掘出来&lt;/strong&gt;，把头骨和那根铁棒一起寄回马萨诸塞。Harlow 1868 年把它们捐给了 Harvard Medical School 的 &lt;strong&gt;Warren 解剖博物馆（Warren Anatomical Museum）&lt;/strong&gt;，今天它们仍然是该馆最受访客追索的展品。&lt;strong&gt;那根铁棒上还刻着字。&lt;/strong&gt;Gage 的家人在他活着的那段时间，用尖刀亲自在铁棒上刻了铭文：「This is the bar that was shot through the head of Mr. Phineas P. Gage at Cavendish, Vermont, Sept 13, 1848」（这是 1848 年 9 月 13 日在佛蒙特州 Cavendish 射穿 Phineas P. Gage 先生头颅的铁棒）——Gage 去世前，这根铁棒一直跟着他出现在巡回展览上。它见证过自己造的伤，也见证过自己被治愈的过程。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phineas_Gage"&gt;https://en.wikipedia.org/wiki/Phineas_Gage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://collections.countway.harvard.edu/onview/exhibits/show/beyond-the-bone-box/the-case-of-phineas-gage"&gt;https://collections.countway.harvard.edu/onview/exhibits/show/beyond-the-bone-box/the-case-of-phineas-gage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hms.harvard.edu/news/new-view-phineas-gage"&gt;https://hms.harvard.edu/news/new-view-phineas-gage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/history/phineas-gage-neurosciences-most-famous-patient-11390067/"&gt;https://www.smithsonianmag.com/history/phineas-gage-neurosciences-most-famous-patient-11390067/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d2312b3c-be97-5146-848c-f53fc7653890</guid>
+      <pubDate>Thu, 07 May 2026 08:11:07 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Phineas_Gage</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_Cropped.jpg/800px-Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_Cropped.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 太二酸菜鱼已登陆 Valley Fair！大陆知名连锁终于来到南湾</title>
+      <description>&lt;p&gt;如果你在国内吃过太二酸菜鱼，看到这条消息可能会比较激动：&lt;strong&gt;太二（Tai Er）已于4月正式在 Santa Clara Westfield Valley Fair 开业&lt;/strong&gt;，这是湾区第二家（第一家2025年底开在 San Mateo）。&lt;/p&gt;
+
+&lt;h3&gt;📍 基本信息&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;地址：&lt;/strong&gt;2855 Stevens Creek Blvd, Unit A268, Santa Clara, CA 95050（Valley Fair 购物中心内）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;营业时间：&lt;/strong&gt;周一至周四 11am-9:30pm；周五至周六 11am-10:30pm；周日 11am-9:30pm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开车：&lt;/strong&gt;距 Menlo Park 约25分钟，停车免费&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐟 招牌菜 &amp;amp; 价格&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;酸菜鱼 &lt;/strong&gt; ——就是那个用黑鱼（Snakehead Fish）、猪骨汤底加上自制发酵23天的四川酸菜炖出来的那道，号称「鱼比菜贵」。配上干辣椒和藤椒，麻而不燥，酸爽解腻。&lt;/p&gt;
+&lt;p&gt;其他菜：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小食 -15：脆皮猪肉条、拍黄瓜&lt;/li&gt;
+&lt;li&gt;点心 -10：抄手（钵钵香麻红油版）&lt;/li&gt;
+&lt;li&gt;大菜 -28：宫保虾仁、重庆辣子鸡、水煮黑椒牛肉、麻婆豆腐&lt;/li&gt;
+&lt;li&gt;Valley Fair 独家：青柠蜜汁糖醋虾、松露菌菇炒饭&lt;/li&gt;
+&lt;li&gt;甜品 -9：麻薯炸球 + 冰淇淋 + 红糖浆&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🍽 吃之前要知道&lt;/h3&gt;
+&lt;p&gt;太二在国内以「不改菜」出名——不加辣、不减辣、不改料，这在美国门店执行力度可能不同，但心理上做好准备。餐厅约100座位，有开放式厨房，能看到大火炒菜，视觉上就很下饭。San Mateo 那家目前 Yelp 已有 200+ 评价，整体4星。&lt;/p&gt;
+
+&lt;p&gt;对于想吃酸菜鱼但不想开车去 Richmond 中国城或 Cupertino 的南湾居民来说，Valley Fair 这家确实方便很多。周末可能排队，建议平日午餐或周末开门时段去。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thesanjoseblog.com/2026/04/tai-er-sichuan-cuisine-opens-at-valley.html"&gt;https://www.thesanjoseblog.com/2026/04/tai-er-sichuan-cuisine-opens-at-valley.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fsrmagazine.com/industry-news/asian-concept-tai-er-to-open-new-location-at-westfield-valley-fair-in-santa-clara-california/"&gt;https://www.fsrmagazine.com/industry-news/asian-concept-tai-er-to-open-new-location-at-westfield-valley-fair-in-santa-clara-california/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a4945cc5-b780-5215-ada5-fc939d746edb</guid>
+      <pubDate>Thu, 07 May 2026 08:11:23 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.thesanjoseblog.com/2026/04/tai-er-sichuan-cuisine-opens-at-valley.html</link>
+      <enclosure url="https://lh3.googleusercontent.com/p/AF1QipNB3Xx5cVrETkV7BJ3X_GaJjuABKRjFhAU3wXkH=s1360-w1360-h1020" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 Lancet Neurology 加拿大自然实验：23 万安省老人数据再证带状疱疹疫苗能延缓痴呆——绝对风险下降 2 个百分点</title>
+      <description>&lt;p&gt;带状疱疹疫苗（herpes zoster vaccine）能预防或延缓痴呆的证据链又添一笔。2026 年 2 月发表于 &lt;em&gt;The Lancet Neurology&lt;/em&gt; 的一篇论文（Pomirchy M et al., 25 卷 2 期 170–180 页），由 Stanford 团队 Pascal Geldsetzer 领衔，这次借的是加拿大安大略省 2016 年开始的免费疫苗推行计划。这是继 2025 年 4 月 &lt;em&gt;Nature&lt;/em&gt; 威尔士研究、2025 年 12 月 &lt;em&gt;Cell&lt;/em&gt; 多阶段队列分析之后，同一团队第三次用&lt;strong&gt;自然实验设计&lt;/strong&gt;逼近因果推断。&lt;/p&gt;&lt;p&gt;样本量是迄今最大：&lt;strong&gt;232,124 名 70 岁以上加拿大人&lt;/strong&gt;，来自 1,434 家初级保健机构的 Canadian Primary Care Sentinel Surveillance Network。安省把出生日期定为分配规则——1946 年 1 月 1 日及之后出生者可在 71 岁免费接种活减毒疫苗（Zostavax），之前出生者则失去资格。这种基于政策门槛的不连续设计，让 1945 年 12 月底和 1946 年 1 月初出生的人在所有可观测和不可观测特征上几乎一致，唯一差异就是疫苗接种率，从而模拟随机化。痴呆诊断追踪自 1990 年至 2022 年 6 月，主分析窗口为政策实施后 5.5 年。&lt;/p&gt;&lt;p&gt;核心结果：在出生日期临近 1946 年 1 月 1 日门槛的两组之间，疫苗资格组的新发痴呆诊断&lt;strong&gt;绝对风险下降 2.0 个百分点&lt;/strong&gt;，且置信区间不跨零。研究还设了 1945 年 1 月 1 日次级阈值（该年仅 3.5 个月窗口期），结果方向一致。2 个百分点听起来不大，但放在 5.5 年窗口里，相当于把 100 个老人中 2 例痴呆推后或避免——这超过目前任何抗淀粉样蛋白单抗药物的临床获益规模，而后者每年要花几万美元、还伴随脑水肿风险。&lt;/p&gt;&lt;p&gt;方法学上值得专门讲一句。传统疫苗-痴呆观察性研究有个无法消除的偏倚：愿意打疫苗的人本身更健康、更注重健康行为、医保覆盖更好，这些&lt;em&gt;healthy vaccinee bias&lt;/em&gt; 会系统性夸大保护效应。Geldsetzer 团队过去四年的核心方法论贡献，就是利用各国疫苗推行的政策不连续性——威尔士按出生周划线、安省按出生月划线——把这类偏倚切干净。三个独立国家、三种不同设计、效应方向一致，这种 triangulation 证据强度已经接近 RCT。&lt;/p&gt;&lt;p&gt;机制还在猜。两条主流假说：一是 varicella-zoster 病毒再激活会触发慢性神经炎症和血管内皮功能障碍，疫苗压制再激活就保护了大脑；二是活减毒疫苗的非特异性免疫训练（trained immunity）改善了老年人的整体神经免疫稳态。前两次研究里女性获益更明显，作者推测与雌激素退潮后免疫反应的性别差异有关。本次安省论文未公布性别分层 HR，需要等补充材料。&lt;/p&gt;&lt;p&gt;实践含义直白：如果你 50 岁以上还没接种带状疱疹疫苗（美国 CDC 推荐重组亚单位疫苗 Shingrix，两针，间隔 2–6 个月），把它列进今年的健康清单。这是目前 evidence-based 程度最高的痴呆一级预防干预之一，比补任何益智补剂都靠谱。下一步值得追踪的是：（1）重组疫苗 Shingrix vs 活减毒 Zostavax 在痴呆终点的头对头比较——既往观察性研究提示前者可能更强；（2）Geldsetzer 团队下一步从 medRxiv 已挂出的英国 cohort 扩展研究；（3）疫苗在 APOE4 携带者亚组的效应是否更大。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(25)00455-7/fulltext"&gt;https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(25)00455-7/fulltext&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cidrap.umn.edu/adult-non-flu-vaccines/analysis-adds-evidence-shingles-vaccine-prevents-or-delays-new-onset"&gt;https://www.cidrap.umn.edu/adult-non-flu-vaccines/analysis-adds-evidence-shingles-vaccine-prevents-or-delays-new-onset&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41579903/"&gt;https://pubmed.ncbi.nlm.nih.gov/41579903/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.emjreviews.com/neurology/news/shingles-vaccine-tied-to-fewer-dementia-diagnoses/"&gt;https://www.emjreviews.com/neurology/news/shingles-vaccine-tied-to-fewer-dementia-diagnoses/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">29dcbc2e-92c2-5705-86d8-1e6b260b9304</guid>
+      <pubDate>Thu, 07 May 2026 08:11:40 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(25)00455-7/fulltext</link>
+    </item>
+    <item>
+      <title>🎨 Figma's May 5 Release Notes Made the Agent-on-Canvas Story Official: Skills, MCP, and a Voice-First Make / Figma 5月5日 Release Notes 把「Agent 在画布上设计」正式坐实：Skills、MCP 与语音版 Make</title>
+      <description>&lt;p&gt;The May 5 Figma Release Notes livestream — the first since the March 24 launch of &lt;code&gt;use_figma&lt;/code&gt; write-to-canvas — did something the original announcement couldn't: it stitched the pieces together into a story most teams can actually adopt. Watching it back, three concrete shifts stand out, and they collectively make the agent-on-canvas workflow the new default narrative for Config 2026 (Jun 23–25) rather than a March experiment that might fade.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png" alt="Figma canvas showing code and design side by side" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Figma's framing of the new workflow: a single shared context across code editor and canvas. Source: Figma blog.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Skills are now the surface area, not tools.&lt;/strong&gt; The May Release Notes formalized nine pre-built skills as the canonical interface — &lt;code&gt;/figma-generate-library&lt;/code&gt;, &lt;code&gt;/figma-generate-design&lt;/code&gt;, &lt;code&gt;/apply-design-system&lt;/code&gt;, &lt;code&gt;/sync-figma-token&lt;/code&gt;, &lt;code&gt;/edit-figma-design&lt;/code&gt;, &lt;code&gt;/multi-agent&lt;/code&gt;, plus three community skills (&lt;code&gt;/create-voice&lt;/code&gt; from Uber's Ian Guisard, &lt;code&gt;/cc-figma-component&lt;/code&gt; from Nick Villapiano, &lt;code&gt;/rad-spacing&lt;/code&gt; from Nolan Perkins). Skills are markdown files. They tell the agent &lt;em&gt;which MCP tools to call, in what order, and how to apply the result&lt;/em&gt;. The clearest framing comes from Bitovi's first-look: "the agent doesn't pick up on a linked design system unless you tell it to." Without skills, write-to-canvas hardcodes spacing and color values — defeating the design system. With skills, the agent reaches for variables, components, and Code Connect mappings on its own. This is the same DESIGN.md vs Figma Skills competition the April thread has been tracking, except now Figma has shipped the equivalent of npm-style installable defaults. DESIGN.md still wins on portability across tools; Skills win on canvas-aware execution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FigJam became the agent's whiteboard.&lt;/strong&gt; The April 28 add of &lt;code&gt;generate_diagram&lt;/code&gt; for ERDs and architecture diagrams was the first hint. May fully extended this: a &lt;code&gt;figma-use-figjam&lt;/code&gt; foundational skill, board read/write, a &lt;code&gt;generate-project-plan&lt;/code&gt; skill, and Mermaid.js paste-to-canvas. The pattern Figma is converging on: the coding agent generates a plan in FigJam, the designer (or PM) reviews and edits the plan, the agent then walks the plan on the design canvas. It's the missing first step that made the March demo feel like "agent improvises a screen" rather than "agent executes a spec." Read access still requires Dev seat; write requires Full seat — and the Dev/Full seat split is now the cleanest pricing wedge Figma has between designer and developer audiences.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png" alt="Terminal command running an agent that writes to Figma canvas" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Agent writes Figma-native frames, components, and variables — not a flat image export.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Make got a voice-first pivot, not a tools dump.&lt;/strong&gt; The April 30 Make additions read at first like a feature list — voice-to-text prompts, question cards, version history, clear context, Zapier connector — but they cohere around one workflow: "talk to Make about what you want, let it ask clarifying questions, branch into versions when you change your mind." Voice-to-text isn't dictation; it transcribes, lets you review, then submits. Question cards force the agent to ask before assuming, with each option carrying a tradeoff description. The Zapier connector pulls from Google Drive, Microsoft Office, Zoom, and 9,000+ other apps — meaning Make can read a sales call transcript and propose a feature spec in the same session. This is what "agentic Make" looks like when it's treated as a co-design partner instead of a generator.&lt;/p&gt;
+
+&lt;p&gt;The connecting thesis: &lt;strong&gt;the bottleneck has moved from canvas operations to canvas &lt;em&gt;conventions&lt;/em&gt;&lt;/strong&gt;. Anyone can write to a Figma file now. Only teams with codified skills (markdown), explicit token names, and Code Connect mappings get output that doesn't have to be redone. The April zeroheight 2026 report's grim numbers — 7% full design-system adoption, 40% token automation, 44% missing accessibility specialists — predict exactly which teams will benefit and which won't. Skills assume design-system maturity that two-thirds of teams don't have. For Config 2026 the inflection question is: does Figma ship something to bridge that gap (perhaps a generative design-system bootstrap), or does the gap become the new line that separates AI-leveraged teams from everyone else?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Concrete takeaway:&lt;/em&gt; if your team is Figma-resident, install the Figma plugin in Cursor today, write one skill (a single markdown file naming your color and spacing variables and your three canonical components), and run &lt;code&gt;/apply-design-system&lt;/code&gt; on an existing screen. Twenty minutes, and you'll know whether your tokens are good enough yet.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Figma 5月5日的 Release Notes 直播——3月24日 &lt;code&gt;use_figma&lt;/code&gt; 写画布功能上线以来的第一次——做成了原始公告做不到的事：把零散的部件缝成了大多数团队真能落地的叙事。回看下来有三个具体转变值得拿出来说，它们合起来让 "agent 在画布上设计" 从一个三月份的实验跃升为 Config 2026（6月23-25日）的默认主线。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skills 才是真正的接口，工具是底层细节。&lt;/strong&gt;5月的 Release Notes 把九个预置 skill 正式定为标准接口——&lt;code&gt;/figma-generate-library&lt;/code&gt;、&lt;code&gt;/figma-generate-design&lt;/code&gt;、&lt;code&gt;/apply-design-system&lt;/code&gt;、&lt;code&gt;/sync-figma-token&lt;/code&gt;、&lt;code&gt;/edit-figma-design&lt;/code&gt;、&lt;code&gt;/multi-agent&lt;/code&gt;，外加三个来自社区的 skill（Uber Ian Guisard 的 &lt;code&gt;/create-voice&lt;/code&gt;、Nick Villapiano 的 &lt;code&gt;/cc-figma-component&lt;/code&gt;、Nolan Perkins 的 &lt;code&gt;/rad-spacing&lt;/code&gt;）。Skills 就是 markdown 文件，告诉 agent &lt;em&gt;调哪些 MCP 工具、按什么顺序、结果怎么用&lt;/em&gt;。Bitovi 的首发评测里有一句最直白的话："除非你明确告诉它，agent 是认不出关联的设计系统的。"没有 skill，写画布功能会硬编码间距和颜色——等于绕开了整套设计系统。有 skill，agent 才会自己去抓 Variables、组件和 Code Connect 映射。这正是4月份在追踪的 DESIGN.md 与 Figma Skills 之间的较量，区别在于 Figma 现在把 npm 风格的可安装默认 skill 集做出来了。DESIGN.md 在跨工具可移植性上仍占优；Skills 在画布感知的执行能力上占优。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FigJam 成了 agent 的白板。&lt;/strong&gt;4月28日给 &lt;code&gt;generate_diagram&lt;/code&gt; 加上 ERD 和架构图生成只是开头。5月把这件事彻底铺开：&lt;code&gt;figma-use-figjam&lt;/code&gt; 基础 skill、看板的双向读写、&lt;code&gt;generate-project-plan&lt;/code&gt; skill，以及 Mermaid.js 粘贴到画布。Figma 收敛出的模式是：编码 agent 在 FigJam 生成计划，设计师（或 PM）审阅并编辑这个计划，agent 再到设计画布上把计划走一遍。这正是三月份 demo 缺的那一步——之前看起来像 "agent 在临场即兴出屏幕"，现在终于变成 "agent 在执行规格"。读权限仍需 Dev seat，写权限要 Full seat——Dev/Full seat 的拆分如今是 Figma 在设计师与开发者两个受众之间最清楚的定价分水岭。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Make 走的是语音优先，不是功能堆料。&lt;/strong&gt;4月30日 Make 的几项更新——语音输入、Question cards、版本历史、clear context、Zapier 连接器——乍看是列表式的功能 dump，仔细看会发现它们围绕同一个工作流："用嘴跟 Make 说你想要什么，让它反问澄清，改主意时就分支出新版本。"语音不是单纯的听写；它转写之后让你审阅，再提交。Question cards 逼着 agent 在动手前先问，每个选项都附一句 tradeoff。Zapier 连接器接通 Google Drive、Microsoft Office、Zoom 和 9000+ 个应用——意味着 Make 可以在同一个 session 里读一份销售电话纪要、然后提出 feature spec。这就是 "agentic Make" 被当作协同设计伙伴而非生成器使用时该有的样子。&lt;/p&gt;
+
+&lt;p&gt;把这三件事串起来的论点是：&lt;strong&gt;瓶颈已经从画布操作转移到了画布&lt;em&gt;规约&lt;/em&gt;&lt;/strong&gt;。现在谁都能往 Figma 文件里写东西，但只有那些把 skill（markdown）、明确的 token 命名、Code Connect 映射都写好的团队，输出的东西才不用返工。4月份 zeroheight 2026 报告里那组难看的数字——7% 全员采用设计系统、40% 实现 token 自动化、44% 团队没有无障碍专员——精确预测了谁会得益、谁不会。Skills 假定的是设计系统成熟度，而三分之二的团队还没到。Config 2026 真正的悬念在于：Figma 会不会发一个填补这个空隙的功能（比如某种生成式的设计系统冷启动），还是这道空隙就此成为 AI 杠杆团队与其他团队之间的新分界线？&lt;/p&gt;
+
+&lt;p&gt;具体可执行的动作：如果你的团队驻在 Figma 上，今天就在 Cursor 里装 Figma 插件，写一个 skill（一个 markdown 文件，写明你的颜色和间距 variable 名称、以及三个标志性组件），然后在已有屏幕上跑 &lt;code&gt;/apply-design-system&lt;/code&gt;。二十分钟，你就知道你们的 token 够不够好了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026"&gt;https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fig-events.figma.com/may-rn-2026/"&gt;https://fig-events.figma.com/may-rn-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"&gt;https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/39166810751895-Figma-skills-for-MCP"&gt;https://help.figma.com/hc/en-us/articles/39166810751895-Figma-skills-for-MCP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens"&gt;https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8cf45acd-ccdf-5338-9d47-177ab344de74</guid>
+      <pubDate>Thu, 07 May 2026 08:11:44 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026</link>
+      <enclosure url="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 BART Millbrae↔SFO 夜间施工整夏持续：坐晚班机前必看</title>
+      <description>&lt;p&gt;如果你平时坐 Caltrain 到 Millbrae 再转 BART 去 SFO，这条信息很重要：&lt;strong&gt;BART Millbrae 至 SFO 段的夜间施工将持续整个夏季2026&lt;/strong&gt;，没有明确结束日期。&lt;/p&gt;
+
+&lt;h3&gt;⚠️ 具体影响&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;影响时段：&lt;/strong&gt;周日至周四晚上（大部分）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;7:30pm 起：&lt;/strong&gt;列车降速运行，延误5-7分钟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;9:00-9:30pm：&lt;/strong&gt;Millbrae 和 SFO 之间完全停运（这半小时内没有列车，工程人员进场作业）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;9:30pm 以后：&lt;/strong&gt;仍有约30分钟延误&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;周五、周六夜间：不受影响&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🚧 为什么要施工&lt;/h3&gt;
+&lt;p&gt;BART 正在把旧式固定闭塞信号系统换成&lt;strong&gt;通信型列车控制（CBTC）&lt;/strong&gt;系统，完成后可以缩短列车间距，Transbay 段容量提升。这是2025年12月开始的多年期改造，短痛换长治。&lt;/p&gt;
+
+&lt;h3&gt;✅ 实用应对方案&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;周五/周六晚班机？&lt;/strong&gt;不受影响，正常坐 Caltrain → Millbrae → BART 即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;周日至周四晚班机？&lt;/strong&gt;有几个选项：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;最省钱：&lt;/strong&gt;Caltrain 到 Millbrae → 等施工窗口过了（9:30pm 后）再转 BART，多留45分钟 buffer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最省事：&lt;/strong&gt;Caltrain 到 Millbrae → Lyft/Uber 直接到 SFO，3英里约-20，施工期间值这个钱&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果你在 Palo Alto：&lt;/strong&gt;直接 Lyft 去 SFO 约-50，比反复转车、赶时间强&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;永远出发前查一下：&lt;/strong&gt;BART Trip Planner 每周更新施工安排，计划有变时会在 &lt;a href="https://www.bart.gov"&gt;bart.gov&lt;/a&gt; 发公告。&lt;/p&gt;
+
+&lt;p&gt;4月9日 San Bruno 附近还发生了一起设备故障，Red/Yellow 线全线延误——这种老基础设施的脆弱性正是 CBTC 改造的直接原因，今年大概还会有几次类似突发事故，坐这条线的朋友心里要有准备。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.bart.gov/news/articles/2025/news20251219"&gt;https://www.bart.gov/news/articles/2025/news20251219&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smdailyjournal.com/news/local/bart-construction-to-slow-evening-service-between-millbrae-sfo-through-2026/article_0e7cbb74-c4b0-4a0a-9776-a982a0822dd0.html"&gt;https://www.smdailyjournal.com/news/local/bart-construction-to-slow-evening-service-between-millbrae-sfo-through-2026/article_0e7cbb74-c4b0-4a0a-9776-a982a0822dd0.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">18fd8635-e609-534f-9d15-c46fb806de30</guid>
+      <pubDate>Thu, 07 May 2026 08:11:44 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.bart.gov/news/articles/2025/news20251219</link>
+    </item>
+    <item>
+      <title>📰 Trump 5/6'bombing starts'威胁vs Project Freedom暂停：Rubio'军事行动结束'+Araghchi抢访Beijing、美方实质接受Iran先海峡后核议程</title>
+      <description>&lt;p&gt;Trump 5/6上午8时白宫椭圆办公室开口："如果Iran不接受协议，bombing starts，而且会比之前更猛、更高强度。"这是Project Freedom 5/5暂停后24小时之内的同步施压。Defense Secretary Hegseth同日Pentagon简报口径有差——"停火目前还有效，我们会盯着"——典型的红白脸。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://i.abcnewsfe.com/a/809e2f2e-259d-4a3c-8d2b-66a2af39027b/donald-trump-16-rt-gmh-260506_1778094789915_hpMain_16x9.jpg?w=992" alt="Trump在椭圆办公室谈Iran" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Trump 5/6椭圆办公室回应Iran 14点方案（ABC News）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这次施压有具体由头。Iran 4/30经Pakistan总理Sharif通道递交的14点方案，把核问题主动拆出停战桌——外交部发言人原话"At this stage, we do not have nuclear negotiations"——要求30天内结束战争（vs美方两月停火）、解除制裁、撤美军、终止UAE/Lebanon/海峡封锁、新Hormuz机制、释放冻结资产、赔偿。Trump 5/5嘴上"完全无法接受"，但同步暂停Project Freedom护航行动，理由竟是"重大进展"。&lt;/p&gt;
+
+&lt;p&gt;5/6最关键的转折是Secretary of State Rubio口径——军事行动"已经结束"，下一步走"memorandum of understanding"路径，核材料"必须处理但不是现在谈"。这等于美方默认了Iran的要求顺序：先海峡先停战，核问题留到后面阶段。三月时美方还在喊"立即拆核设施"，五月已经退到"先MoU再说"。这不是嘴炮变软，是美方实际接受了Tehran主导的议程节奏。&lt;/p&gt;
+
+&lt;p&gt;同一天Tehran也在打另一张牌。Iranian FM Araghchi 5/6飞抵Beijing，开战2/28以来首次访华，和Wang Yi在外交部见面。Wang Yi要求"全面停火"+"Hormuz航运立即恢复"——后半句Iran自家通报里被删了。这次访问时机精准：Trump 5/14-15要去Beijing和Xi开峰会，Araghchi提前一周锁定中方公开背书，把China推到调停人位置。&lt;/p&gt;
+
+&lt;p&gt;China的筹码是经济命门。Iran九成原油卖给China，长年折扣价。制裁越紧，Tehran越依赖Beijing。这次5/6的会谈里中方公开"Iran有权和平利用核能"——直接戳Trump和Vance"零浓缩"红线。CNBC 5/6报道指出，China实际上在替Iran谈Hormuz重开——一旦海峡通了，沙特/UAE/Iran的油都能正常出货，对中国炼油厂同样关键。&lt;/p&gt;
+
+&lt;p&gt;市场已经反应。5/4 Brent冲到114.44美元，2022年5月以来最高。AAA口径全美汽油均价5/4跑到4.45美元/加仑（部分口径4.50+），四年新高。CNN 5/5报道一些口径已经到$4.50以上。NPR 5/3一周涨了30+美分。Goldman Sachs等机构警告：夏季driving season加上海峡问题不解，本月底前破5美元/加仑不是难事。&lt;/p&gt;
+
+&lt;p&gt;三件事在同一周收口：5/8-9 Iran书面回函窗口；5/11参议院Warsh联储主席投票（Powell 5/15卸任）；5/14-15 Trump-Xi北京峰会。Iran的回函如果绕开核问题、只谈30天停战和海峡，Trump会面对一个硬选择——接受意味着实质让步、拒绝就要在Xi面前翻脸开打。Vance昨天还在重申"零浓缩"底线，但Rubio MoU路径已经把这条底线挪到了"后续阶段"。下一周看Tehran给的具体时间表，看Brent能不能从114回到100以下。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later"&gt;https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/"&gt;https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html"&gt;https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/6/irans-araghchi-holds-talks-with-chinas-wang-yi-in-beijing"&gt;https://www.aljazeera.com/news/2026/5/6/irans-araghchi-holds-talks-with-chinas-wang-yi-in-beijing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582&amp;amp;entryId=132673273"&gt;https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582&amp;amp;entryId=132673273&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://oilprice.com/Latest-Energy-News/World-News/Average-US-Gasoline-Price-Tops-450-to-Near-Four-Year-High.html"&gt;https://oilprice.com/Latest-Energy-News/World-News/Average-US-Gasoline-Price-Tops-450-to-Near-Four-Year-High.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7fa0133f-3e4d-5af2-b258-fd69065920ed</guid>
+      <pubDate>Thu, 07 May 2026 08:11:45 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later</link>
+      <enclosure url="https://i.abcnewsfe.com/a/809e2f2e-259d-4a3c-8d2b-66a2af39027b/donald-trump-16-rt-gmh-260506_1778094789915_hpMain_16x9.jpg?w=992" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 1953 年神经外科医生切掉 27 岁年轻人 Henry Molaison 两侧海马 8 厘米后，他从此活在「永恒的现在」55 年——「Patient H.M.」死后大脑被切成 2401 片网络直播，40 万人围观了认知神经科学的奠基时刻</title>
+      <description>&lt;p&gt;1953 年 8 月 25 日早晨，康涅狄格州 Hartford 医院手术室，神经外科医生 William Beecher Scoville 给一位 27 岁年轻人做了一台他自己也没把握的脑部手术。这位病人叫 Henry Molaison（在医学文献里成了「&lt;strong&gt;Patient H.M.&lt;/strong&gt;」），从 9 岁开始就被严重癫痫折磨——成年后每周发作十多次，甚至无法正常工作。Scoville 没有现代影像学（MRI 要等到 1977 年），他凭直觉决定把 Molaison 大脑两侧&lt;strong&gt;从颞叶中线开始向后 8 厘米&lt;/strong&gt;的组织全部切除——包括两侧海马（hippocampus）的大部分、内嗅皮层（entorhinal cortex）、部分杏仁核（amygdala）。手术成功控制了癫痫。但 Molaison 醒来后，身上发生了人类历史上第一次被科学记录的事——&lt;strong&gt;他失去了形成新长期记忆的能力&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这种损伤的奇异之处不在于「失忆」这个词本身，而在于它的&lt;strong&gt;选择性&lt;/strong&gt;。Molaison 的智商完全正常（手术后甚至还略有提高，因为癫痫不再消耗能量）。他的语言、感知、推理、童年记忆、动手技能完全保留。他能跟你聊天，谈论二战，告诉你 1929 年股市崩盘的故事。但他&lt;strong&gt;认不出自己每天看到的护士&lt;/strong&gt;。每隔几分钟见到 Suzanne Corkin（后来研究他 41 年的麻省理工神经科学家），他都把她当成第一次见的陌生人，礼貌地伸出手说「你好，我是 Henry」。&lt;strong&gt;他的大脑像一个磁带始终在写但磁头被拔掉了——经验进得来，但永远不会被刻上去。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这种状态在医学上叫「&lt;strong&gt;顺行性失忆症（anterograde amnesia）&lt;/strong&gt;」，但 H.M. 的特殊价值在于让 Brenda Milner（当时麦吉尔大学博士生，今年 107 岁仍在工作）和 Scoville 1957 年合写的论文成为&lt;strong&gt;认知神经科学的开创性文献&lt;/strong&gt;。在那之前，主流观点（包括 Karl Lashley 30 年研究小鼠迷宫的结论）认为&lt;strong&gt;记忆均匀分布在整个大脑里&lt;/strong&gt;，没有特定脑区专门负责。H.M. 的存在直接砸碎了这套观点：&lt;strong&gt;记忆的形成有专门的解剖学位置——海马及其周边内侧颞叶。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;更精彩的是 Milner 1962 年的发现。她让 H.M. 做一个叫「&lt;strong&gt;镜像绘图（mirror drawing）&lt;/strong&gt;」的任务：在镜子里看着一个星形图案，用手描出它的轮廓。这是个手眼不协调的任务，常人需要练习几十次才能熟练。H.M. 第一次做时跟所有人一样笨拙。第二次见到 Milner 他说「你好，我是 Henry，我们今天要做什么？」——他根本不记得做过这个测试。但 Milner 让他再做一次时，&lt;strong&gt;他的成绩比上一次好&lt;/strong&gt;。再做一次，又好一些。三天后，H.M. 已经能流畅地完成镜像绘图——但他仍然坚信自己从来没做过这个任务。&lt;/p&gt;
+
+&lt;p&gt;这意味着大脑里&lt;strong&gt;至少存在两套独立的记忆系统&lt;/strong&gt;：一套是「&lt;strong&gt;陈述性记忆（declarative memory）&lt;/strong&gt;」（事实、事件、人脸——这套被 H.M. 切除了），另一套是「&lt;strong&gt;程序性记忆（procedural memory）&lt;/strong&gt;」（运动技能、习惯——这套保留在小脑和基底神经节，H.M. 完整保留）。这是今天神经科学每个本科生第一周课本里的内容，但 1962 年之前没人知道这个划分。我们今天对「学骑自行车的人这辈子都不会忘」的所有理解，都从 H.M. 描镜像里的那个星形开始。&lt;/p&gt;
+
+&lt;p&gt;H.M. 在 2008 年 12 月 2 日死于呼吸衰竭，享年 82 岁。他从未结婚，最后 28 年住在康州一家护理院里，每天接受神经心理学家测试。Corkin 早在 1992 年就跟他和他的监护人签好了脑部捐献协议。死后 9 小时，他的大脑被运到 UC San Diego 的 Jacopo Annese 实验室，&lt;strong&gt;在明胶里冷冻成块，用低温切片机切成 2401 张厚 70 微米的超薄切片&lt;/strong&gt;。整个 53 小时的切片过程在 2009 年 12 月通过网络直播，超过 40 万人在线观看了人类神经科学史上最重要的大脑被一刀刀切开的全过程。&lt;/p&gt;
+
+&lt;p&gt;H.M. 在他可意识到的世界里活了 27 年，又在「永恒的现在」里活了 55 年。他每次照镜子都不认识镜子里的老人——他记忆中的自己永远是 27 岁。但他塑造的认知神经科学，会在他无法记住的人类未来里持续产生回声。Suzanne Corkin 在悼词里写道：「&lt;em&gt;For 55 years, Henry was the most generous human being in the history of cognitive neuroscience. He gave us our science. He gave it to us with a gentle smile, every single day, having forgotten he gave it to us yesterday.&lt;/em&gt;」&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Henry_Molaison"&gt;https://en.wikipedia.org/wiki/Henry_Molaison&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.themantic-education.com/ibpsych/2019/01/29/key-study-hms-case-study-milner-and-scoville-1957/"&gt;https://www.themantic-education.com/ibpsych/2019/01/29/key-study-hms-case-study-milner-and-scoville-1957/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kpbs.org/news/2009/dec/10/first-complete-brain-dissection-also-social-media-/"&gt;https://www.kpbs.org/news/2009/dec/10/first-complete-brain-dissection-also-social-media-/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/science-nature/postmortem-most-famous-brain-neuroscience-history-180949504/"&gt;https://www.smithsonianmag.com/science-nature/postmortem-most-famous-brain-neuroscience-history-180949504/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">25bfc3b9-dd96-5eeb-9211-17044f78b715</guid>
+      <pubDate>Thu, 07 May 2026 08:11:56 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Henry_Molaison</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Henry_Gustav_1.jpg/800px-Henry_Gustav_1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 每天多一包薯片：Monash 大学研究发现超加工食品占比每升 10%，注意力下降 0.05 分、痴呆风险评分升 0.24 分</title>
+      <description>&lt;p&gt;超加工食品（ultra-processed food, UPF）影响认知的证据多见于队列死亡率终点，&lt;em&gt;Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring&lt;/em&gt; 2026 年 4 月发表的一篇澳大利亚横断面研究（Cardoso et al., DOI: 10.1002/dad2.70335）首次把 UPF 摄入与中年人的&lt;strong&gt;多领域计算机化认知测试&lt;/strong&gt;直接挂钩，并叠加痴呆风险预测工具。论文同步发布在 PMC（PMC13104065），引发主流媒体关注。&lt;/p&gt;&lt;p&gt;研究纳入 &lt;strong&gt;2,192 名 40–70 岁、基线无痴呆的澳大利亚人&lt;/strong&gt;。膳食用经验证的食物频率问卷采集，并按 &lt;strong&gt;NOVA 分类&lt;/strong&gt;归到四级（未加工/最少加工、加工烹饪原料、加工食品、超加工食品）。认知用 Cogstate Brief Battery 这个老牌成套电脑化测验，覆盖反应速度、视觉注意/工作记忆、视觉学习、配对联想等四个域。痴呆风险则用 CAIDE（Cardiovascular Risk Factors, Aging and Incidence of Dementia）评分量化，把年龄、性别、教育、收缩压、BMI、胆固醇、运动等已知风险因子合并成一个 0–15 分的量表。&lt;/p&gt;&lt;p&gt;三个发现：（1）样本平均 &lt;strong&gt;UPF 占总能量的 41%&lt;/strong&gt;——这是发达国家中年人群的真实饮食底色，不是少数极端摄入者；（2）UPF 占比每增加 10 个百分点（大约相当于一天多一包标准薯片），&lt;strong&gt;视觉注意/处理速度得分下降约 0.05 分&lt;/strong&gt;，CAIDE 痴呆风险评分上升约 0.24 分，效应在调整年龄、性别、教育、能量摄入、BMI 后仍稳健；（3）&lt;strong&gt;记忆相关测试与 UPF 摄入无显著关联&lt;/strong&gt;。换言之，受冲击的是注意/处理速度这条认知通路，而不是海马依赖的情景记忆。这与既往 UK Biobank 神经影像数据中 UPF 与额顶网络灰质体积关联的方向吻合。&lt;/p&gt;&lt;p&gt;样本特征值得说明：以白人女性为主，受教育水平偏高，因此结论外推到其他族裔时要谨慎。横断面设计也意味着不能直接推因果——可能是认知较差者更倾向选择方便、廉价、高 UPF 的饮食，而不是反向。但 0.05 分听上去微小，叠加群体效应就不小：澳大利亚成年人 UPF 占比从过去 30 年的 30% 升到 42%，意味着群体平均注意力评分被悄悄拉低了一格。&lt;/p&gt;&lt;p&gt;机制假说在论文讨论部分密集列出：UPF 加工破坏食物 matrix（食物基质），降低多酚、纤维、Omega-3 等保护性成分的生物利用度；同时引入双酚类、邻苯二甲酸酯等内分泌干扰物，丙烯酰胺等加工副产物，以及大量乳化剂（聚山梨酯-80、羧甲基纤维素），后者已被反复证明会改变肠道菌群、增加肠道通透性、激活外周与中枢炎症。这与本知识库已覆盖的 Moli-sani 队列癌症生存者死亡率结果，以及暴露组-大脑老化研究形成同一机制图谱的不同切面。&lt;/p&gt;&lt;p&gt;实操结论：（1）日常 UPF 占比目标低于 20% 是合理的，地中海饮食和 DASH 饮食结构本身已天然偏低；（2）替代时不必苛求 100% 全食物，把含量最高的几类先撤掉收益最大——含糖饮料、加工肉、即食烘焙、调味即食谷物；（3）注意力是这个研究里被点名的认知域，对脑力工作者尤其值得警觉；（4）单纯靠减糖或减脂指标不够，NOVA 分类提示我们要看&lt;em&gt;加工层级&lt;/em&gt;本身。下一步要追踪的是同一组研究者已申请的 5 年纵向随访，以及 2027 年 UK Biobank 计划释出的二次脑成像 + UPF 配对数据。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70335"&gt;https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70335&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13104065/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC13104065/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/04/29/health/ultraprocessed-food-dementia-study-wellness"&gt;https://www.cnn.com/2026/04/29/health/ultraprocessed-food-dementia-study-wellness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencealert.com/ultra-processed-foods-may-be-quietly-affecting-your-brains-ability-to-focus"&gt;https://www.sciencealert.com/ultra-processed-foods-may-be-quietly-affecting-your-brains-ability-to-focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.monash.edu/news/articles/ultra-processed-foods-damage-your-focus-even-if-you-eat-healthy"&gt;https://www.monash.edu/news/articles/ultra-processed-foods-damage-your-focus-even-if-you-eat-healthy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ee88a92d-99f2-5528-87c3-14a26f4b18e1</guid>
+      <pubDate>Thu, 07 May 2026 08:12:18 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70335</link>
+    </item>
+    <item>
+      <title>🧠 🧠 ⚡ 卡壳的瞬间不是大脑在抗议——是奖赏回路在准备点亮：Communications Psychology 2026 翻案研究，认知冲突本身就是内源性奖励</title>
+      <description>&lt;p&gt;把"认知冲突"（cognitive conflict）想象成大脑被两条相反指令同时拉扯——经典的 Stroop 任务里看到红色墨水写的"绿"字，前额叶必须强压住自动反应、调出受控反应。教科书几十年来的论调是：这种状态令人不快、消耗资源、是要被规避的。Communications Psychology 2026 年 5 月刊出的一篇研究把这个论断翻了过来。&lt;/p&gt;
+
+&lt;p&gt;这篇题为 The experience of cognitive conflict is intrinsically rewarding 的论文（La Pietra、Vives、Molinaro 等，DOI: 10.1038/s44271-026-00462-3）做了一件简单但说服力十足的事：让被试在没有任何外部奖励的情况下，自由选择是要做更难的、含冲突的 Stroop / Flanker 试次，还是更轻松的对照试次。结果——在两个独立在线实验、合计约 200 名被试中——人们居然主动倾向于选有冲突的版本。配套的 fMRI 数据更进一步：冲突解决的瞬间，&lt;strong&gt;腹侧纹状体（ventral striatum）和内侧前额叶（medial prefrontal cortex）&lt;/strong&gt;这两个核心奖赏回路被点亮，模式跟人吃巧克力或拿到金钱奖励时高度相似。整个过程呈现两阶段：检测冲突时是压力反应，解决冲突时是奖赏反应。&lt;/p&gt;
+
+&lt;p&gt;这件事为什么值得多想一会儿。心理学界这三十年关于"自我损耗"（ego depletion）的整套故事，框架就是把认知控制当成消耗品——你用越多就剩越少。但如果冲突解决本身能激活奖赏回路，那么"用脑很累"和"用脑很爽"其实是同一件事的两个相位，关键是任务有没有跨过解决得了的门槛。论文作者特意强调了一个边界条件：&lt;strong&gt;冲突必须是"可解的难"&lt;/strong&gt;。如果太简单，不激活；如果完全无解，也不激活；只有那种"卡一下、想一想、过了"的甜区，才会启动奖赏回路。这跟 Csikszentmihalyi 心流理论的难度-技能匹配模型在神经层面合上了。&lt;/p&gt;
+
+&lt;p&gt;把这个洞见做成可以带走的工具，第一条是&lt;strong&gt;重新解读"卡壳"的体感&lt;/strong&gt;。下一次你做数独、改 bug、读论文卡住的那个瞬间——那种胸口一紧、想换标签页的冲动——别把它当作大脑在抗议要你停下来。它是冲突检测阶段的压力信号，紧跟其后就是解决阶段的奖赏。如果你能多坚持 30 秒，神经化学上的回报就在那里等着。逃开的代价不只是没解决问题，而是错过了一次免费的多巴胺发放。&lt;/p&gt;
+
+&lt;p&gt;第二条更反直觉。很多自学者、教育者一直在追求"让学习变得轻松愉快"，但这篇研究暗示：&lt;strong&gt;把难度降到没有冲突，等于把奖赏回路也一起关掉&lt;/strong&gt;。Khan Academy 那种"小步迭代、永远不卡"的设计，舒服归舒服，但缺了那一下解决感。有意识地让自己每天接触一些"刚好够呛"的问题——比平时难 10-20%、能解但要费劲——比刷一堆熟练区的题更能维持长期动机。这跟 desirable difficulty（合意难度）在记忆研究里的发现是一脉相承的。&lt;/p&gt;
+
+&lt;p&gt;第三条是面对辩论和分歧的态度。日常对话里，遇到观点冲突，绝大多数人的本能是回避或拉黑。但如果冲突本身（在可解范围内）是大脑期待的奖赏源，那么和不同意见的朋友吃饭、参加思想真正交锋的读书会、甚至自己写一个 steelman 反驳自己——这些活动给你的不只是"长见识"那种抽象好处，还有具体的神经层面的回馈。这也呼应了之前覆盖过的"认知谦逊与建设性冲突"研究：智识谦逊高的人更愿意暴露在反方意见中，部分原因可能就是他们不再把冲突体验编码为纯粹的负担。&lt;/p&gt;
+
+&lt;p&gt;研究者还特意提到一个临床方向：抑郁症和 ADHD 患者的共同特征之一是奖赏回路反应迟钝（这跟前几天 burnout 那期的 reward responsiveness 主题刚好接得上）。如果未来能用"可解冲突"作为一种温和的、内源性的奖赏激活手段，可能比单纯的多巴胺类药物更可持续。这是后续值得追踪的方向。&lt;/p&gt;
+
+&lt;p&gt;最后一句私人化的提醒：你脑袋里那个"再想一下就放弃"的临界点，往往就在奖赏回路即将点亮的前 10 秒。别在最后一公里关掉引擎。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s44271-026-00462-3"&gt;https://www.nature.com/articles/s44271-026-00462-3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://scienmag.com/cognitive-conflict-feels-intrinsically-rewarding-study-finds/"&gt;https://scienmag.com/cognitive-conflict-feels-intrinsically-rewarding-study-finds/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">25daee80-6345-5b6d-aa3c-2c2228a15815</guid>
+      <pubDate>Thu, 07 May 2026 08:12:19 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/s44271-026-00462-3</link>
+      <enclosure url="https://scienmag.com/wp-content/uploads/2026/05/Cognitive-Conflict-Feels-Intrinsically-Rewarding-Study-Finds-1778074590.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 💍 高情商的人婚姻更幸福，原因不是更会沟通——是更频繁地做一件具体的小事：MacCann 团队 175 对夫妇 14 周追踪指向 valuing</title>
+      <description>&lt;p&gt;关于亲密关系，业界一直有个未解的问题：高情商（emotional intelligence, EI）的人婚姻确实更幸福，但具体到底是因为什么行为？情商研究里"管理他人情绪"通常被拆成至少三种策略——cognitive reframing（认知重评）、receptive listening（共情倾听）、valuing（让对方感到被重视）。哪个才是真正起作用的那一个？悉尼大学 Carolyn MacCann 团队 2026 年 2 月发表在 Journal of Social and Personal Relationships 的一篇研究给出了一个干净的答案。&lt;/p&gt;
+
+&lt;p&gt;研究（Xiao、Double、Pinkus、MacCann，DOI: 10.1177/02654075251399696）招募了 175 对异性恋伴侣，年龄从 20 多岁到 80 多岁都有，做了 14 周的三波纵向追踪。统计模型用的是 Actor-Partner Interdependence Mediation Model——能同时看到自己情商对自己关系满意度的影响、以及对伴侣关系满意度的影响。&lt;/p&gt;
+
+&lt;p&gt;结果出乎意料地干净：在三种高投入策略里，&lt;strong&gt;只有 valuing 是稳定的中介&lt;/strong&gt;。也就是说，情商高的人之所以关系更好，主要不是因为他们更会"重新解读"配偶的情绪，也不是因为他们倾听技巧更娴熟，而是因为他们更频繁地做出让伴侣感觉到"你对我很特别、很重要、很被珍惜"的具体行为。这个效应对男女都成立。Cognitive reframing 和 receptive listening 在不同性别上有零星效应，但远不如 valuing 一致。&lt;/p&gt;
+
+&lt;p&gt;什么算 valuing？研究里的操作化定义不是抽象的"爱"，而是一系列可观察的小动作：在对方说话时停下手里的事、记得对方在意的小细节并主动提起、对对方的成就表达具体的（而不是泛泛的）赞赏、在第三人面前公开肯定对方、在普通日子里主动表达感激而不是只在节日才说。和 Gottman 实验室长年的"micro-bid"研究是一脉相承的——婚姻的健康度不是由几次大事件决定的，而是由每天几十次微小的"我看到了你"决定的。&lt;/p&gt;
+
+&lt;p&gt;但论文里一个不那么乐观的发现也得讲清楚：当研究者控制掉基线满意度之后，valuing 对长期关系改善的中介效应消失了。换句话说，&lt;strong&gt;valuing 维持已经不错的关系，但不太能修复已经坏掉的关系&lt;/strong&gt;。这点跟之前覆盖过的 Körner/Overall"亲密关系影响力被低估"研究合在一起看，画面更立体：日常的肯定有用，但前提是关系里还有可以被肯定的土壤；如果已经积累了大量怨气，单靠多说"你真棒"不够。&lt;/p&gt;
+
+&lt;p&gt;把这个洞见落到日常，可以做一个简单的自检。回想过去 24 小时，你跟伴侣（或最亲近的人）的对话里，有几次是&lt;strong&gt;具体地&lt;/strong&gt;表达了对方让你欣赏的某件事？不是"你今天很棒"这种空话，而是"你刚才跟我妈打电话时那种耐心，我其实做不到"。多数人会发现答案是零或一次。这不是因为你不爱对方，而是因为大脑天然把熟悉的人当作背景板——hedonic adaptation（享乐适应）的近亲，叫做 partner-as-background 效应。&lt;/p&gt;
+
+&lt;p&gt;研究团队提到一个特别值得注意的点：valuing 不需要长时间。一句具体的话、一个简短的"我注意到你..."的开头，常常比 30 分钟的"严肃谈话"效果更好。原因是，重大对话往往把对方放在被评估的位置上，触发防御；而日常的、不带要求的肯定让对方处在被接住的状态。Adam Grant 在 Vibe（10 月出版）的预热文章里讲过类似的话——chemistry 不一定要慢慢来，一句精确的肯定就能让对方感到被看见。&lt;/p&gt;
+
+&lt;p&gt;有一个推论很多人没意识到：valuing 也有副作用极低的一面。即使你那天心情糟、注意力被工作塞满、对关系本身的投入变低，你仍然可以做这个动作。它不需要你的能量充足，只需要你睁开眼睛看到对方做了什么。这跟"高强度共情倾听"不同——后者真的会消耗精神资源，状态差的时候做反而会假。&lt;/p&gt;
+
+&lt;p&gt;所以，下一次想对关系做点什么，先别去搜"如何沟通"，回到一个最朴素的问题：今天，对方做了哪一件事，是我可以具体地、不带评价地告诉对方"我看到了"的？这一句话的效率，比一晚上的"深度对话"高得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/02654075251399696"&gt;https://journals.sagepub.com/doi/10.1177/02654075251399696&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/this-behavior-explains-why-emotionally-intelligent-couples-are-happier/"&gt;https://www.psypost.org/this-behavior-explains-why-emotionally-intelligent-couples-are-happier/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">48bcb1de-78f1-5c4e-92bb-7112e6411cc2</guid>
+      <pubDate>Thu, 07 May 2026 08:12:25 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://journals.sagepub.com/doi/10.1177/02654075251399696</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/02/happy-young-couple-750x375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 Russia 10小时违约1,820次砸Sumy幼儿园：Zelenskyy 5/6给5/8-9阅兵设新检验窗口、红场首次零硬件出场、Trump白宫沉默</title>
+      <description>&lt;p&gt;Zelenskyy 5/6晚间视频讲话给出数字：Russia在Ukraine单方面5/6停火生效后10小时内违约1,820次。这不是统计口径游戏——前线一千八百多次开火加无人机加导弹，等于每20秒一次接触。FM Sybiha同步声明：Russia用"持续性、节奏性"的攻击回应停火提议。这是5/4-5 Putin宣胜利日48小时停火、Zelenskyy反将一军提前两天单方面停火之后的首夜验收结果。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.euronews.com/articles/stories/09/74/92/67/1536x864_cmsv2_a49960e0-450d-565d-a637-f356b8bfbe9c-9749267.jpg" alt="Zelenskyy回应Russia违约" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Zelenskyy 5/6回应Russia破坏停火（Euronews）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;具体打击地点已经清楚。5/6凌晨Sumy州北部，Russia一发炸弹直接命中一所幼儿园——FM声明强调"幸而当时没有孩子"，2人遇难。同日Sumy市中心两架drone砸民宅，又一辆民车被炸1死。Kharkiv 7户民居受损、Zaporizhzhia工业设施被砸、Kryvyi Rih基础设施被毁。从昨晚18:00基辅时间起，Russia共发射2枚弹道导弹+1枚巡航导弹+108架drone。这个剂量不是漏勤，是常规配额。&lt;/p&gt;
+
+&lt;p&gt;Zelenskyy的措辞往后挪了一档："今晚和明天的局势会决定我们的合理回应。"——这不是宣布升级，是把5/8-9 Putin的胜利日停火设为新的检验窗口。Ukraine的算盘：你要48小时停火搞阅兵，我先看你5/5-6给我什么样的"停火"，Russia如果继续打，Ukraine就在5/8-9对等回敬——按Sybiha"symmetrical response"原话翻译，就是阅兵当天Kyiv也能让Moscow吃drone。&lt;/p&gt;
+
+&lt;p&gt;红场阅兵这次自己也露怯。Putin 5/4安排首次零硬件出场——没有坦克、没有导弹车。Zelenskyy 5/6直接点穿："这说明Russia怕Ukraine的drone。"Kyiv Post 5/6还报了Putin coup rumor的细节，加上俄方核武器试射动向——克里姆林宫这次安全焦虑写在台面上。Trump白宫迄今对俄方违约没有公开回应，EU高级代表Kallas和德国总理Merz 5/5-6先后站队Zelenskyy，要求把5/8-9 Russia停火和5/5-6 Ukraine停火并表测试。&lt;/p&gt;
+
+&lt;p&gt;这个"竞争性停火"模式本身就是新东西。过去三年俄乌停火提议都是单边喊话单边拒绝，这次双方各自宣布、各自喊对方违约、各自做合法性框架。Ukraine的优势是先提先让——5/5零时第一秒就先停手。Russia的劣势是阅兵在即不能挨炸，但现在选择继续打1,820次，等于把5/8-9自家停火信用透支干净。&lt;/p&gt;
+
+&lt;p&gt;下一周三个事件接连：5/8 Russia胜利日阅兵首日（如果Ukraine drone真打到Moscow，Putin是否启动其威胁过的"massive missile strike on Kyiv"）；5/9阅兵第二日是停火窗口尾段；之后Putin要不要把停火延长到谈判阶段，是一场新选择。Trump 5/8-9会不会沉默到底，决定他在Iran和Ukraine两条线上能不能保持双线施压一致。1,820这个数字本身已经把Putin"求和"的人设打碎——这不是停火谈判前的施压，是直接把Ukraine提议当噪音处理。&lt;/p&gt;
+
+&lt;p&gt;对Zelenskyy来说短期最关键的是Trump态度。EU/德国背书是常规牌，Trump一句话就能把场面翻转。5/9 Putin阅兵那天，看White House Truth Social发什么。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://english.nv.ua/russian-war/zelenskyy-says-russia-violated-ukraine-ceasefire-1-820-times-50605868.html"&gt;https://english.nv.ua/russian-war/zelenskyy-says-russia-violated-ukraine-ceasefire-1-820-times-50605868.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire"&gt;https://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.newsweek.com/russia-violates-ukraine-ceasefire-within-minutes-11917195"&gt;https://www.newsweek.com/russia-violates-ukraine-ceasefire-within-minutes-11917195&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.kyivpost.com/post/75573"&gt;https://www.kyivpost.com/post/75573&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins"&gt;https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kyivindependent.com/ukraine-rejects-russias-victory-day-truce-after-moscow-violates-kyivs-ceasefire/"&gt;https://kyivindependent.com/ukraine-rejects-russias-victory-day-truce-after-moscow-violates-kyivs-ceasefire/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">75d9ba2f-324b-56a6-90bd-0b7676250423</guid>
+      <pubDate>Thu, 07 May 2026 08:12:28 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://english.nv.ua/russian-war/zelenskyy-says-russia-violated-ukraine-ceasefire-1-820-times-50605868.html</link>
+      <enclosure url="https://images.euronews.com/articles/stories/09/74/92/67/1536x864_cmsv2_a49960e0-450d-565d-a637-f356b8bfbe9c-9749267.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 🪞 谦虚不是嘴上说不行——是脑子里少一个回路：Human Brain Mapping fMRI 研究揭示 modest mindset 让你扛拒绝又能享接纳</title>
+      <description>&lt;p&gt;"谦虚"在中文语境里常被理解成一种社交修辞——不是真不行，而是嘴上说不行。这种文化滤镜让人很难严肃看待"谦逊作为一种心理品质"的研究价值。北京大学吴艳红团队 2026 年初发表在 Human Brain Mapping 的一篇 fMRI 研究，给"谦虚"找到了一个意外清晰的神经基础——而且发现高谦虚的人对社交反馈的处理方式有一种&lt;strong&gt;不对称的优势&lt;/strong&gt;：对拒绝更耐受，对接纳依然敏感。&lt;/p&gt;
+
+&lt;p&gt;研究（Wang、Zheng、Wu，论文标题 Take the Rough With the Smooth: Modesty Modulates Neurocognitive and Emotional Processing of Social Feedback）让 47 名年轻被试躺进 fMRI，做一个叫 Social Judgment Paradigm 的任务：先看一张同龄人的照片，预测对方喜欢还是不喜欢自己，再看到真实反馈。这样产生四种情境——&lt;strong&gt;预期接纳、预期拒绝、意外接纳、意外拒绝&lt;/strong&gt;。被试事先填了 Honesty-Humility 量表中的谦虚分项。&lt;/p&gt;
+
+&lt;p&gt;关键结果有两个。第一，谦虚得分高的人在收到"意外拒绝"时，&lt;strong&gt;下顶叶（inferior parietal lobe）激活更弱&lt;/strong&gt;——这个脑区跟自我参照加工密切相关。意思是：他们没有把别人不喜欢自己这件事过度内化为关于"我是谁"的信号。第二，他们在收到接纳（无论预期还是意外）时，腹内侧前额叶（ventral medial prefrontal cortex）的激活依然饱满，奖赏回路没有被钝化。&lt;/p&gt;
+
+&lt;p&gt;这个组合很关键。常见的"对拒绝免疫"的人格特质——比如自恋——往往是通过把所有反馈都打折来实现的，结果是接纳也不香了，整个情感生活变得平淡。而高谦虚的人不一样：他们对负面反馈打折，对正面反馈不打折。论文作者用了一个很诗意的表达 take the rough with the smooth，但 fMRI 数据显示这俩其实是分开处理的，不是一种钝化。&lt;/p&gt;
+
+&lt;p&gt;更细的机制层面，研究者发现高谦虚组在面对意外反馈时，&lt;strong&gt;较少使用 expressive suppression（表情抑制）这种情绪调节策略&lt;/strong&gt;，更多通过认知重评——也就是直接重新解读情境——来调整。表情抑制是一种事后挽救，认知负担高且被反复证明长期有害；而前置的重评是更省力的方式。&lt;/p&gt;
+
+&lt;p&gt;这个结果对中文语境里被传统教育熏陶过的"谦虚"有点反讽：研究里的谦虚不是嘴上说自己不行，而是&lt;strong&gt;不把每一次社交反馈都当作关于自我价值的全局判定&lt;/strong&gt;。一种内在的、稳定的"我不必通过这次互动证明自己"的状态。这种状态恰恰是社交焦虑（social anxiety）的反面——社交焦虑的核心机制就是把模糊的反馈过度解读为关于"我是不是被接受"的信号。&lt;/p&gt;
+
+&lt;p&gt;带得走的工具是什么？研究者明确提出了 modest mindset 干预的可能：在进入一个高敏感的社交场合前（面试、第一次约会、新团队的第一次开会），&lt;strong&gt;主动把自我焦点调低 5 度&lt;/strong&gt;——不是装谦虚，而是在心里清晰地告诉自己"这次互动的反馈，无论好坏，都只是关于这次具体情境的信号，不是关于我整个人的判决"。这个简单的认知框架，根据论文的延伸推论，应该可以让下顶叶的过度激活降下来。&lt;/p&gt;
+
+&lt;p&gt;有一个具体可操作的练习：在收到任何让你刺痛的反馈（同事的冷淡、群聊的已读不回、面试的没下文）之后的 30 秒里，强迫自己问一个问题——"如果我把这件事的发生概率拆成 50% 是关于我、50% 是关于对方此刻的状态、对方的工作节奏、对方根本没意识到，会不会更接近真相？"这个练习不是自我安慰，而是把单一归因换成贝叶斯式的多源归因。从神经层面，它正是研究里高谦虚组自然在做的事。&lt;/p&gt;
+
+&lt;p&gt;放到更大的图景里，这跟我们之前覆盖过的几个主题是一脉相承的：信心是状态而非特质（Conti × Huberman）、智识谦逊关联建设性冲突应对、grounded confidence 强调把价值观翻译成具体行为而不是装确定。共同的线索是——&lt;strong&gt;真正的稳定来自把自我的边界画清楚，而不是把它抬高&lt;/strong&gt;。脑子里少一点"这是对我的全局判决"，多一点"这只是一帧画面"，反而能让你既能扛拒绝、又能享受接纳。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/brain-scans-reveal-an-emotional-advantage-for-modest-people/"&gt;https://www.psypost.org/brain-scans-reveal-an-emotional-advantage-for-modest-people/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1d51db45-6955-5364-af12-7cb8cf4366eb</guid>
+      <pubDate>Thu, 07 May 2026 08:12:30 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/brain-scans-reveal-an-emotional-advantage-for-modest-people/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/01/brain-750x375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 斯洛文尼亚地下溶洞里有一种粉色蝾螈能活 100 年、能 10 年不吃饭、能在原地一动不动 7 年——但它的代谢率和抗氧化机制都完全普通：洞螈「人鱼」是衰老生物学的最大谜题之一</title>
+      <description>&lt;p&gt;2010 年，巴黎南方的 Moulis 洞穴生态实验室（一个国际著名的洞穴生物学研究站）发表了一个发现，让生物学家集体陷入沉思——他们正在研究的&lt;strong&gt;洞螈（Olm，学名 Proteus anguinus）&lt;/strong&gt;正在打破所有已知的代谢-寿命缩放定律：这种 25 厘米长、终身住在斯洛文尼亚和克罗地亚地下喀斯特溶洞里的盲眼蝾螈，&lt;strong&gt;可能能活到 100 岁以上&lt;/strong&gt;。一个体型不超过你前臂、新陈代谢率毫无特殊之处的两栖类——为什么活得比一头蓝鲸还久？&lt;/p&gt;
+
+&lt;p&gt;Olm 中文叫「洞螈」，但更生动的名字是&lt;strong&gt;「人鱼（human fish）」&lt;/strong&gt;——拉丁文 Proteus anguinus，意为「会变形的鳗」。它的皮肤是粉嫩的人类肤色（其实是因为缺乏色素，皮肤下的毛细血管直接显色），头侧长着鲜红的羽状外鳃（external gills）——这是它&lt;strong&gt;幼态持续（neoteny）&lt;/strong&gt;的特征：洞螈一辈子不变态，永远停留在「幼体阶段」就性成熟，永远长着幼蝾螈的外鳃。它眼睛在胚胎期发育正常，但出生四个月后开始萎缩，最终被皮肤覆盖。完全瞎了的洞螈用什么导航？答案让生物学家又惊喜了一次——它有&lt;strong&gt;电感受器（ampullary organs）&lt;/strong&gt;能感应弱电场，还能感知地球磁场方向，这套感官在两栖类里极其罕见，通常只在鲨鱼、鸭嘴兽身上看到。&lt;/p&gt;
+
+&lt;p&gt;但最让人发抖的是它的&lt;strong&gt;禁食纪录&lt;/strong&gt;。Postojna 洞穴生物学研究站的老员工讲过一个事——某次水族箱里的洞螈被工作人员忘了喂食，再去看它的时候，&lt;strong&gt;它已经原地不动 7 年&lt;/strong&gt;，仍然活着。后来对照实验确认，洞螈在野外环境下可以&lt;strong&gt;10 年不进食&lt;/strong&gt;，靠降低代谢率到几乎检测不到的水平、并且重新吸收自己的肌肉和肝脏组织维生。法国科研人员还在监测的另一组洞螈中观察到一只个体在 2300 多天里只移动了大约 5 米。这种「&lt;strong&gt;极端节能模式&lt;/strong&gt;」是它能在洞穴贫食环境中存活的关键。&lt;/p&gt;
+
+&lt;p&gt;它的繁殖也极其反直觉。雌性&lt;strong&gt;平均每 12.5 年只繁殖一次&lt;/strong&gt;，每次产 35-70 个卵。有一群 2016 年在 Postojna 出生的小洞螈被生物学家昵称为「Postojna Babies」，那次产卵被全程直播，吸引了全球洞穴生物迷围观——因为下一次同一只雌性产卵要等到 2028 年左右。配对仪式涉及雄性产生「精包（spermatophore）」沉到洞底由雌性自行收集，这种隔空交配在脊椎动物里也是少数派。&lt;/p&gt;
+
+&lt;p&gt;真正让生物学家头疼的是它的&lt;strong&gt;长寿机制完全无法解释&lt;/strong&gt;。Robert Voituron 团队 2010 年在《Biology Letters》发表的论文系统对比了洞螈和它的近亲：&lt;strong&gt;洞螈的基础代谢率（basal metabolic rate）和其他两栖类没有区别&lt;/strong&gt;，&lt;strong&gt;它的抗氧化酶活性也很普通&lt;/strong&gt;，&lt;strong&gt;它的端粒（telomere）长度也不特别&lt;/strong&gt;。按经典的「氧化应激衰老理论（oxidative stress theory of aging）」，洞螈应该跟一只 5-10 岁的普通蝾螈差不多寿命。但现实是它能活到 100 岁以上——也就是说&lt;strong&gt;同样大小、代谢率、抗氧化能力的两栖动物里，洞螈的寿命异常值大约是 6-10 倍&lt;/strong&gt;。论文标题是「Extreme lifespan of the human fish: a challenge for ageing mechanisms」（人鱼的极端寿命：对衰老机制的挑战）——这种几乎绝望的措辞在科学论文里非常少见。&lt;/p&gt;
+
+&lt;p&gt;2021 年延世大学和卢布尔雅那大学合作启动了 &lt;strong&gt;Proteus 基因组计划&lt;/strong&gt;——洞螈基因组超过 50 Gb（人类的 16 倍），是已知动物中最大的之一。研究团队希望从基因组层面找到长寿的分子基础，但这个工作量巨大的项目目前只发表了片段性结果。已知的早期发现包括：&lt;strong&gt;洞螈基因组里有大量重复序列和未知功能基因&lt;/strong&gt;，可能与代谢调节和 DNA 修复有关，但 mechanism 仍是黑箱。&lt;/p&gt;
+
+&lt;p&gt;洞螈的栖息地正在快速消失。斯洛文尼亚和克罗地亚的喀斯特地下水系受到农药、重金属和气候变化威胁。野生种群估计不超过几万只，而且因为生活完全在地下、世代时间极长（&gt;100 年），种群恢复几乎不可能。下一次有人不小心忘了喂洞螈 7 年，可能就再也找不到下一只来代替它了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/science/article/the-olm-the-blind-cave-salamander-that-lives-to-100"&gt;https://www.nationalgeographic.com/science/article/the-olm-the-blind-cave-salamander-that-lives-to-100&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://royalsociety.org/news/2010/cave-salamander/"&gt;https://royalsociety.org/news/2010/cave-salamander/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Olm"&gt;https://en.wikipedia.org/wiki/Olm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3030882/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC3030882/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/34480358/"&gt;https://pubmed.ncbi.nlm.nih.gov/34480358/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">42e128e1-7db5-51c8-8b73-b7d0907c4a82</guid>
+      <pubDate>Thu, 07 May 2026 08:12:47 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.nationalgeographic.com/science/article/the-olm-the-blind-cave-salamander-that-lives-to-100</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Proteus_anguinus_Postojnska_Jama_Slovenija.jpg/1280px-Proteus_anguinus_Postojnska_Jama_Slovenija.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 PEARL 试验完整数据出炉：低剂量雷帕霉素 48 周让女性瘦体重显著上升、慢性疼痛缓解，但 720 人扩展试验才是真考验</title>
+      <description>&lt;p&gt;抗衰老药物 rapamycin（雷帕霉素，mTOR 抑制剂）能否在&lt;em&gt;健康人&lt;/em&gt;身上复制小鼠中惊艳的延寿效应，过去十年一直停在动物模型与肾移植患者数据。&lt;em&gt;Aging&lt;/em&gt;（Aging-US）2025 年 4 月号发表的 &lt;strong&gt;PEARL 试验&lt;/strong&gt;（Participatory Evaluation of Aging With Rapamycin for Longevity, NCT04488601）给出了第一份较为像样的&lt;strong&gt;去中心化双盲安慰剂对照 RCT 结果&lt;/strong&gt;，把这条路推到了人体数据起点。研究者来自 AgelessRx 与多家美国独立研究机构。&lt;/p&gt;&lt;p&gt;设计：&lt;strong&gt;115 名 50 岁以上健康成年人&lt;/strong&gt;，1:1:1 随机化到安慰剂、5 mg 复方雷帕霉素、10 mg 复方雷帕霉素，每周服一次，48 周。注意——复方（compounded）配方的生物利用度约为标准口服雷帕霉素的&lt;strong&gt;1/3.5&lt;/strong&gt;，因此 10 mg 周剂量大致相当于标准药 2.9 mg 周剂量，这是有意为之的低剂量策略，目的是绕开免疫抑制相关副作用。试验完全远程进行：受试者居家测量、指尖血卡寄送中心实验室、电子日志记录症状。这种设计本身在大规模衰老干预试验里值得记一笔。&lt;/p&gt;&lt;p&gt;主要终点是安全性。&lt;strong&gt;不良事件与严重不良事件三组无显著差异&lt;/strong&gt;，10 mg 组报告的口腔溃疡、轻度感染等已知雷帕霉素副反应频率略高但未触发停药安全信号。这一点至关重要：雷帕霉素长期以来被排除在普通人健康使用之外，正是因为高剂量（每天 2 mg 以上）会显著抑制免疫并伴血脂代谢异常。PEARL 数据提示，每周脉冲式 2.9 mg-eq 对中年健康人是可接受的。&lt;/p&gt;&lt;p&gt;次要终点（探索性疗效）出现了几个有意思的信号：&lt;strong&gt;10 mg 组的女性瘦体重（lean tissue mass）显著上升&lt;/strong&gt;，自评慢性疼痛显著下降；5 mg 组的自评情绪健康与综合健康打分改善。&lt;strong&gt;男性这些指标无显著变化&lt;/strong&gt;。内脏脂肪未见统计学差异。研究者把这归因于 mTORC1 抑制对肌肉蛋白合成-降解平衡的调控，以及对慢性低度炎症的改善，但样本量太小，现阶段当作 hypothesis-generating 来看更合适。&lt;/p&gt;&lt;p&gt;该把这事放进多大期待框里？四点：（1）样本 115、随访 48 周、复方制剂的剂量 PK 不完全标准化——这只是安全性 OK 加探索信号的早期数据，离硬终点（死亡、肌少症、痴呆发生率）还远；（2）次要终点的性别异质性必须独立队列验证才能接受；（3）大手笔扩展试验已启动：University of Arizona、Mayo Clinic 等领衔的 720 人 RCT 正在招募 65 岁以上成年人，2 年连续每周给药加 1 年随访，主要终点改为&lt;strong&gt;frailty 转归与 IL-6 炎症水平&lt;/strong&gt;，外加表观遗传时钟（Horvath、GrimAge、DunedinPACE）、免疫表型、肺功能、关节健康——这才是值得密切跟踪的关键试验；（4）医学界的 deprescribing 大趋势——本知识库 RETREAT-FRAIL 已涵盖——意味着再加一种慢性药门槛比以往更高，雷帕霉素必须证明的不只是有效，而是与减药生活方式干预相比的&lt;strong&gt;边际收益值得&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;对读者的实用结论：（1）现阶段不要在临床试验外自行使用 off-label 雷帕霉素——剂量、监测、人群均未定型，且复方配方在 FDA 框架外质量参差；（2）如果对衰老干预感兴趣，已被反复验证的低成本干预——抗阻加有氧组合训练、地中海饮食加橄榄油、每晚 7 至 8 小时含深睡眠的睡眠、维持社交参与——其证据强度此刻仍远高于任何 longevity 药物；（3）2027 年初发布的 720 人扩展试验中期数据，是值得设日历提醒的一个时间点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/40188830/"&gt;https://pubmed.ncbi.nlm.nih.gov/40188830/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12074816/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12074816/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aging-us.com/interviews/rapamycin-s-1-year-impact-on-healthspan-pearl-trial-results"&gt;https://www.aging-us.com/interviews/rapamycin-s-1-year-impact-on-healthspan-pearl-trial-results&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://clinicaltrials.gov/study/NCT04488601"&gt;https://clinicaltrials.gov/study/NCT04488601&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gethealthspan.com/research/article/human-rapamycin-trial-longevity-evidence"&gt;https://www.gethealthspan.com/research/article/human-rapamycin-trial-longevity-evidence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e081128c-666f-5e37-a7aa-1b77ebf99c84</guid>
+      <pubDate>Thu, 07 May 2026 08:13:11 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/40188830/</link>
+      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 WebAIM Million 2026 Reverses Seven Years of Accessibility Progress — and Names Vibe Coding as Cause / WebAIM Million 2026 报告：七年改善趋势首次反转，「Vibe Coding」被点名</title>
+      <description>&lt;p&gt;The WebAIM Million 2026 report is out — and for the first time in seven years, the numbers got worse. 95.9% of homepages had detectable WCAG failures, up from 94.8% in 2025. Average errors per page jumped from 51 to 56.1, a 10.1% YoY increase. The trendline of small annual improvements that ran 2019–2025 just broke. WebAIM's diagnosis is unusually direct: "broader shifts in web development including increased reliance on 3rd party frameworks and libraries and automated or AI-assisted coding practices ('vibe coding')." Carrie Webster's April 22 Smashing essay on the production-ready-as-deliverable trap now reads less like prediction and more like archived warning.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://webaim.org/projects/million/media/HomePageErrors2026.png" alt="WebAIM Million chart showing average errors per page rising in 2026 after years of decline" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Average WCAG errors per home page, 2019–2026. The 2026 reversal is the first since the report began.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The complexity story.&lt;/strong&gt; Average page elements rose to 1,437 — a 22.5% YoY increase. That alone explains a large share of the error rise. ARIA usage grew 27% to 133 attributes per page, but pages using ARIA averaged 59.1 errors versus 42 errors on pages without it. The correlation is now textbook: more ARIA = more errors. 5.7% of pages used &lt;code&gt;role="menu"&lt;/code&gt; and 22% of those broke required markup contracts. ARIA was supposed to be the patch layer for inaccessible HTML; it's becoming a separate failure surface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Six errors account for 96% of all detected problems.&lt;/strong&gt; Low-contrast text leads at 83.9% of pages (up from 79.1% — itself a four-point YoY climb), missing alt text 53.1%, missing form labels 51%, empty links 46.3%, empty buttons 30.6%, missing document language 13.5%. The first four are &lt;em&gt;design decisions&lt;/em&gt;. They originate in the design file. Visual Communication Guy's May 5 essay puts the case starkly: contrast, alt-text intent, typography hierarchy, and motion preferences are settled before a developer opens an editor. The 1-in-26 elements with errors number is what the design file authorizes.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://webaim.org/projects/million/media/PercentErrors2026.png" alt="Bar chart showing six error categories accounting for 96% of accessibility issues" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Six error categories cover 96% of all WCAG failures. The first four are decided in the design file.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Framework data is more interesting than the headline.&lt;/strong&gt; Astro pages averaged 9.0 errors (84% below average). Next.js: 40.9 errors (27% below). React: 43.5 (22.5% below). Vue: 64.6 (15% above). Shopify storefronts: 75.1 (34% above). Prestashop: 143.2 (155% above). The framework alone doesn't break accessibility — what breaks it is what gets glued in: jQuery UI (+42% errors), Select2 (+46%), SweetAlert2 (+81%). These are JS libraries that paint UI from JavaScript at runtime, often bypassing the accessibility tree entirely. They're also exactly the libraries an LLM reaches for when asked to add a date picker or modal — they have the most StackOverflow examples.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where vibe coding actually shows up in the data.&lt;/strong&gt; ACM's April techbrief reported 45% of AI-generated code contains vulnerabilities and AI co-authored code has 1.7x more major issues than human-written. Veracode's number from Webster's essay was 92% AI-codebase vulnerability rate. WebAIM's 2026 framing aligns with these but adds a specific accessibility mechanism: AI generates components with class names that compile, but without the alt-text discipline, label-input pairing, or keyboard-handler patterns that humans (sometimes) supply. Pages get more complex — 22.5% more elements YoY — and each new element carries the same 3.9% chance of being broken.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Geographic and category disparity.&lt;/strong&gt; Government sites averaged 42.4 errors (24% below average); .gov TLD specifically hit 18.5 errors (67% below). Shopping sites: 71.0 (27% above). Sports sites: 71.4 (27% above). Chinese-language pages: 136.2 (143% above) — the largest language gap in the report. The .ua (Ukraine) TLD jumped to 103.1 errors, plausibly driven by emergency-deployed sites with skeleton accessibility. The clean reading: when there's a regulator (ADA Title II for state/local government, EN 301 549 for EU public sector) and budget for compliance, the numbers are dramatically better. Without those, accessibility is what gets cut.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What this does to the 2026 designer career thesis.&lt;/strong&gt; The Gibbons/Moran NN/g "AI Agents as Users" frame from April 10 already turned accessibility into agent-readiness. WebAIM's 2026 numbers turn it into &lt;em&gt;regression risk&lt;/em&gt;. A team that ships a vibe-coded checkout flow in May 2026 with low contrast and unlabeled inputs is now simultaneously: (1) failing WCAG 2.1 AA, (2) failing the EU EAA Article 25 effective from June 28, 2025, (3) invisible to ChatGPT/Operator/Claude Computer Use that parse the accessibility tree, and (4) — per zeroheight 2026 — handled by a team where 44% have zero accessibility specialists. The four-column accessibility business case (moral / legal / SEO / agent revenue) just acquired a regression-prevention column. The most underpriced 2026 hire remains the designer who can credibly own accessibility plus design-system tokens plus agent-readiness simultaneously.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Open question worth exploring:&lt;/em&gt; what would a "vibe accessibility" tool look like? Not an axe-core scanner running after the fact, but a Cursor/Make-resident skill that refuses to ship a component without contrast checking, label pairing, and focus-management resolved at generation time. The tools to build this exist; the will to ship them as default-on does not, yet.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;WebAIM Million 2026 报告出炉——七年来第一次，数字变难看了。95.9% 的首页存在可检测的 WCAG 缺陷，比 2025 年的 94.8% 高了一截。每页平均错误数从 51 涨到 56.1，同比增加 10.1%。2019-2025 年那条逐年小幅改善的趋势线就这么断了。WebAIM 的诊断罕见地直接："网页开发的更广泛变化，包括对第三方框架和库的依赖度上升，以及自动化或 AI 辅助的编码实践（'vibe coding'）。"4月22日 Carrie Webster 在 Smashing 那篇关于「production-ready 沦为交付物」的文章，现在读起来不像预言，更像归档警告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;复杂度那条线。&lt;/strong&gt;每个首页的平均元素数涨到 1437——同比 22.5%。光这一条就能解释错误数上升的相当一部分。ARIA 使用量增长 27%、达到每页 133 个属性，但用了 ARIA 的页面平均 59.1 个错误，没用 ARIA 的只有 42 个。这条相关性现在已经是教科书级别：ARIA 越多，错误越多。5.7% 的页面用了 &lt;code&gt;role="menu"&lt;/code&gt;，其中 22% 的页面破坏了必需的标记契约。ARIA 本来是无障碍 HTML 的补丁层，现在成了一个独立的失败面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;六类错误占了所有可检测问题的 96%。&lt;/strong&gt;低对比度文本以 83.9% 居首（去年是 79.1%——本身就是一个四分点的同比攀升）、缺 alt 文本 53.1%、缺表单 label 51%、空链接 46.3%、空按钮 30.6%、缺文档语言 13.5%。前四项都是&lt;em&gt;设计决定&lt;/em&gt;，它们的源头在设计文件里。Visual Communication Guy 5月5日那篇文章把话说得很白：对比度、alt 文本意图、字体层级、动效偏好——这些在开发者打开编辑器之前就已经定下来了。"每 26 个元素就有 1 个出错"这个数字，正是设计文件授权出去的结果。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;框架数据比标题更有意思。&lt;/strong&gt;Astro 页面平均 9.0 个错误（低于均值 84%）。Next.js：40.9（低 27%）。React：43.5（低 22.5%）。Vue：64.6（高 15%）。Shopify 店铺：75.1（高 34%）。Prestashop：143.2（高 155%）。光看框架不能说它毁了无障碍——真正毁掉的是粘进去的东西：jQuery UI（错误率 +42%）、Select2（+46%）、SweetAlert2（+81%）。这些都是运行时用 JavaScript 绘制 UI 的库，经常完全绕开 accessibility tree。这些也恰好是 LLM 在被要求加日期选择器或弹窗时最先伸手去抓的库——它们在 StackOverflow 上的样例最多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vibe coding 在数据里是怎么显形的。&lt;/strong&gt;ACM 4月的 techbrief 报告 AI 生成的代码 45% 有漏洞，AI 共著的代码主要问题数是人类编写代码的 1.7 倍。Webster 文章里引用的 Veracode 数字是 AI 代码库漏洞率 92%。WebAIM 2026 的框架与这些一致，但补充了一个具体的无障碍机制：AI 生成的组件有能编译通过的 class 名，但没有人类（有时候）会补上的 alt 文本意识、label-input 配对、键盘处理模式。页面变得更复杂——同比多 22.5% 的元素——每个新元素都带着同样 3.9% 的出错概率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;地理和品类差异。&lt;/strong&gt;政府站点平均 42.4 个错误（低于均值 24%）；.gov 顶级域更是只有 18.5（低 67%）。购物：71.0（高 27%）。体育：71.4（高 27%）。中文页面：136.2（高 143%）——报告里语言差距最大的一项。.ua（乌克兰）顶级域跳到 103.1，多半是紧急部署的站点带着骨架级无障碍。读这份数据最干净的角度是：有监管者（美国州/地方政府的 ADA Title II、欧盟公共部门的 EN 301 549）且有合规预算的地方，数字明显好；没有的地方，无障碍就是会被砍的那一项。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这件事对 2026 年设计师职业判断的影响。&lt;/strong&gt;4月10日 NN/g 的 Gibbons/Moran 那篇 "AI Agents as Users" 已经把无障碍重新定义为 agent-readiness。WebAIM 2026 的数字把它进一步定义为&lt;em&gt;回退风险&lt;/em&gt;。一个团队 2026 年5月份发出去一个 vibe coding 编出来的低对比度、无 label 的结账流程，等于同时做到了四件事：（1）违反 WCAG 2.1 AA；（2）违反欧盟 EAA Article 25（已于 2025 年6月28日生效）；（3）对 ChatGPT/Operator/Claude Computer Use 这类解析 accessibility tree 的 agent 完全不可见；（4）按 zeroheight 2026 报告，归属于一个 44% 没有无障碍专员的团队。无障碍商业理由的四列论证（道德 / 法律 / SEO / agent 收入）刚刚多了一列「防回退」。2026 年最被低估的招聘对象，依然是那个能同时可信地承担无障碍 + 设计系统 token + agent-readiness 的设计师。&lt;/p&gt;
+
+&lt;p&gt;值得探索的开放问题："vibe 无障碍" 工具会长什么样？不是事后跑一遍 axe-core 扫描器，而是一个驻在 Cursor/Make 里的 skill，在生成时就拒绝输出对比度、label 配对、焦点管理没解决的组件。做这套工具的技术能力已经齐了；把它们做成默认开启的意愿，目前还没有。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://webaim.org/projects/million/"&gt;https://webaim.org/projects/million/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thevisualcommunicationguy.com/2026/05/05/why-accessibility-failures-start-in-the-design-file/"&gt;https://thevisualcommunicationguy.com/2026/05/05/why-accessibility-failures-start-in-the-design-file/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/"&gt;https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.acm.org/media-center/2026/april/techbrief-vibe-coding"&gt;https://www.acm.org/media-center/2026/april/techbrief-vibe-coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/state-of-ux-2026/"&gt;https://www.nngroup.com/articles/state-of-ux-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3a4a387a-0012-51d7-aebf-62c2019fd019</guid>
+      <pubDate>Thu, 07 May 2026 08:13:12 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://webaim.org/projects/million/</link>
+      <enclosure url="https://webaim.org/projects/million/media/HomePageErrors2026.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 MV Hondius 5/6启航Tenerife、WHO首次承认有限人传人：8例3死1危重、Switzerland增1例、船医本人倒下被空运回Spain</title>
+      <description>&lt;p&gt;MV Hondius 5/6启航离开Cape Verde，目的地Tenerife，路程3.5天，预计5/9-10前后到——这一节是上周悬案的解锁。Spain中央政府5/5官宣允许靠泊，但Canary Islands自治区5/6当天发声明拒绝任何港口接收，结果是中央覆盖地方、船在路上但港口政治没解决。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://aje.news/wp-content/uploads/2026/05/2026-05-04T153002Z_1355855329_RC2B2LAP7RSG_RTRMADP_3_CRUISESHIP-HANTAVIRUS-UPDATE-1778034046.jpg" alt="MV Hondius在Cape Verde外海" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;MV Hondius停泊Cape Verde外海等待救援（Al Jazeera）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;5/6最关键的医学进展来自WHO。5/2向WHO报告时是7例（2确诊+5疑似+3死1危重），5/6 WHO新口径升到8例。死亡名单确认：荷兰夫妇+德国籍——加上之前撤到南非ICU的英国籍，三死一危重的格局没变。但WHO 5/6官方措辞从"transmission cannot be ruled out"调到"limited human-to-human transmission may have occurred"——这是WHO首次承认可能发生过有限人传人，定位在"同舱密接"层级。这是hantavirus的Andes株系最关键的差异点：Argentina/Chile南部曾报过限定人传人病例，全球罕见，普通Sin Nombre或Hantaan株系没有这个能力。&lt;/p&gt;
+
+&lt;p&gt;5/6当天还做了三人撤离：两名危重船员+一名确诊密接，从船上转走。船医本人也是病人，被Spain医疗航班单独空运回西班牙——船医角色感染等于船上一线医疗已经失能。Switzerland公共卫生部门5/5确认一例Swiss国民既往乘客发病，CBS News 5/6详细报道——这是离船后社区监测中第一次拿到病例，CDC/ECDC/UKHSA联合追踪范围因此扩大到至少23个原乘客来源国。&lt;/p&gt;
+
+&lt;p&gt;船上现状是147人在大西洋开三天半，没确诊检测能力，没ICU——Praia港停的两周里船医自己倒下了，剩余船员能不能撑住到Tenerife是真问题。CBS News引述WHO："Andes hantavirus潜伏期1-6周，4/6至4/28的发病时间窗显示Dutch couple是上船前在Argentina感染，登船时病毒已经在他们体内。" Argentina卫生部已经在配合调查Buenos Aires/Ushuaia段陆地溯源——是住宿、是民宿、是旅行装备、还是其他人传人源头，目前都没拍板。&lt;/p&gt;
+
+&lt;p&gt;路线层面的细节：MV Hondius是荷兰Oceanwide Expeditions运营，从Argentina的Ushuaia出发，途经Tristan da Cunha群岛、St. Helena，正常航程目标St. Helena/Las Palmas/Tenerife/Lisbon。Falklands当局5/5特地发声明否认船曾停Falklands，等于排除了Falklands被列为感染地的可能。这条北上路线在过去十年都是常规极地探险船dead-leg调动航线，不是首次跑。&lt;/p&gt;
+
+&lt;p&gt;这次为什么是WHO关键案例：WHO数据库里没有"船上hantavirus集群"的先例。SARS、COVID、Norovirus、Legionella都有大量船上记录，hantavirus一直认为是啮齿类粪尿吸入感染，传染源固定在地面。147人空间里再次出现8例集群、有限人传人无法排除——会改变国际邮轮卫生标准里rodent control的优先级。WHO Director-General Tedros 5/6声明措辞用"unprecedented"——这词WHO很少用。&lt;/p&gt;
+
+&lt;p&gt;下一周三个节点：5/9-10 MV Hondius抵Tenerife（看Canary Islands是否最后一刻开口或Spain要硬上）；WHO 5/8-9前后DON599更新版本（看Andes株系认定是否落锤）；CDC/ECDC联合任务发到23国。短期Andes确认了，意味着23国密接通知和追踪。如果不是Andes、是其他株系出现新人传人能力——那是更大的事。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/6/spain-agrees-to-let-hantavirus-hit-cruise-ship-dock-in-canary-islands"&gt;https://www.aljazeera.com/news/2026/5/6/spain-agrees-to-let-hantavirus-hit-cruise-ship-dock-in-canary-islands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/spain-agrees-welcome-hantavirus-cruise-ship-who/"&gt;https://www.cbsnews.com/news/spain-agrees-welcome-hantavirus-cruise-ship-who/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/hantavirus-canary-islands-cruise-ship-new-case-switzerland/"&gt;https://www.cbsnews.com/news/hantavirus-canary-islands-cruise-ship-new-case-switzerland/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/health/2026/05/06/hantavirus-cruise-ship-hondius-outbreak-spain/"&gt;https://www.washingtonpost.com/health/2026/05/06/hantavirus-cruise-ship-hondius-outbreak-spain/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"&gt;https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/05/05/africa/cruise-ship-hantavirus-who-intl"&gt;https://www.cnn.com/2026/05/05/africa/cruise-ship-hantavirus-who-intl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.mercopress.com/2026/05/05/falklands-monitor-mv-hondius-hantavirus-outbreak-and-clarify-the-route-did-not-include-the-islands"&gt;https://en.mercopress.com/2026/05/05/falklands-monitor-mv-hondius-hantavirus-outbreak-and-clarify-the-route-did-not-include-the-islands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a941b3d1-ab2f-5e41-9a50-4fddb58aaf8d</guid>
+      <pubDate>Thu, 07 May 2026 08:13:13 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/5/6/spain-agrees-to-let-hantavirus-hit-cruise-ship-dock-in-canary-islands</link>
+      <enclosure url="https://aje.news/wp-content/uploads/2026/05/2026-05-04T153002Z_1355855329_RC2B2LAP7RSG_RTRMADP_3_CRUISESHIP-HANTAVIRUS-UPDATE-1778034046.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 Senate共和党700亿ICE法案夹带10亿Trump舞厅安保：Warren揭'纳税人买金箔'、ICE预算锁三年到2029、Democrats两难</title>
+      <description>&lt;p&gt;Senate共和党5/5-6推出的ICE/CBP拨款包里塞了一条10亿美元的"特勤局基础设施"项，专款专用于Trump白宫舞厅项目的安保设施加固——名义上叫Secret Service硬化White House complex，实际就是给Trump的Gold Ballroom翻新工程做安全配套。CNN和华盛顿邮报5/5首报，NPR 5/6完整时间线。整个党派路线包大约700亿美元，主体600亿+给ICE和CBP的Trump任期内运营经费，舞厅这10亿是夹带条款。&lt;/p&gt;
+
+&lt;p&gt;5/4 White House Correspondents' Dinner有未遂袭击事件，按NPR描述属于"一次性事件"——这是共和党拿来给舞厅安保10亿背书的直接由头。Senate版法案文本明确限制"funds restricted to security elements of the project"，理论上不能花在舞厅本身的金箔装饰上，只能花在监控、防爆、生物识别等安保系统。但实操层面：舞厅工程本来Trump找私人捐款建——Reuters/NYT之前披露捐款人名单含Boeing、Coinbase、Lockheed Martin等承包商，原成本估算2亿美元——现在安保部分10亿吃公帑，等于把项目成本结构整体改成公私混合。&lt;/p&gt;
+
+&lt;p&gt;Senator Elizabeth Warren 5/6 X发文火力开炮："Trump这个金箔舞厅从2亿美元'shady donors'付费变成10亿美元TAXPAYERS埋单——被Senate共和党塞进ICE法案。"她把账算得很清：原来是承包商捐款换访问权，现在成了纳税人买单+承包商保留访问权，对Democrats来说是双输。Schumer领衔的Senate Democrats从5/5起在committee环节连发反对声明，但70亿规模的ICE/CBP扩张已经是党争主战场，舞厅10亿是次级议题。&lt;/p&gt;
+
+&lt;p&gt;ICE/CBP那边的真账更猛。这个包是把ICE和CBP的运营经费一次性锁到Trump任期结束（2029年1月）——不再走年度appropriation流程。这是Schumer和McConnell今年来在DHS拨款上最大的体制性变化：把移民执法预算从年度自由裁量调整为多年期锁定。如果5/15-6/1 Senate党团表决通过，未来三年Democrats即便拿回Senate多数也很难调整ICE人手和拘留床位规模。&lt;/p&gt;
+
+&lt;p&gt;司法预算端再加15亿给DOJ运营：反恐调查+起诉、DEA、FBI——这一节相对低争议，但和ICE 60亿+捆绑过审。5/5 House那边Speaker已经表态接收Senate版本不做大改，目标是Trump白宫6/1前签署。&lt;/p&gt;
+
+&lt;p&gt;程序节奏：5/11 Banking Committee Warsh联储主席投票，5/15 Powell卸任，6/1这个ICE+舞厅包Trump要签，6月7日Florida最高法院预定接Marc Elias诉新图案二巡——Trump五月到六月每周都有大事在桌上。舞厅10亿在媒体头条吵两周，最后是不是会单独被剥出来另外讨论，关键看Joe Manchin/Sinema/Fetterman这种红州民主党的Cosponsor走向——目前没有人公开反对舞厅条款本身，所有发言都集中在ICE 60亿主体。&lt;/p&gt;
+
+&lt;p&gt;这个剧本几个看点。第一，2024年ICE预算才100亿出头，现在60亿+三年版本等于直接翻倍。第二，Trump任期结束2029年1月，但拨款锁定意味着即便2028年Democrats胜选，到2029年1月仍要执行老规则。第三，Warren这条10亿舞厅指控如果在TikTok和Instagram扩散，加上汽油4.45美元/加仑的痛感，给2026 midterm Democrats递了一把刀——但用不用、怎么用，目前Schumer阵营内部还没有共识。看5/15前后Senate地板辩论时Republicans怎么讲故事。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/05/06/g-s1-120455/republicans-trump-ballroom-billion"&gt;https://www.npr.org/2026/05/06/g-s1-120455/republicans-trump-ballroom-billion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.opb.org/article/2026/05/06/republicans-want-dollar1-billion-for-trump-s-ballroom-security/"&gt;https://www.opb.org/article/2026/05/06/republicans-want-dollar1-billion-for-trump-s-ballroom-security/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/05/05/politics/ballroom-security-ice-cbp-senate-gop-bill"&gt;https://www.cnn.com/2026/05/05/politics/ballroom-security-ice-cbp-senate-gop-bill&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/politics/2026/05/05/senate-budget-bill-trump-ballroom/"&gt;https://www.washingtonpost.com/politics/2026/05/05/senate-budget-bill-trump-ballroom/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0ee2ef2b-afbb-5fe6-bce2-2e52fade2420</guid>
+      <pubDate>Thu, 07 May 2026 08:13:54 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.npr.org/2026/05/06/g-s1-120455/republicans-trump-ballroom-billion</link>
+      <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+149/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F2a%2Fbd057f674bfcb5928e0dff8ab40e%2Fgettyimages-2271803977.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Two May 2026 Essays Crystallize the 'From Producing to Deciding' Thesis — and the Junior Designer Paradox / 两篇五月文章把「从生产到判断」的论点钉死了——以及初级设计师的悖论</title>
+      <description>&lt;p&gt;Two essays published in the past week landed on the same conclusion from opposite directions, and together they finally give the 2026 designer career story a sharable thesis. UX.raspberry's May 4 Medium piece — "From producing to deciding, from craft to operation" — argues the value shift in plain language. The (March 27) verifiedinsider playbook on "Operating as an AI-native product designer" lays out the operating model. Read together with NN/g's State of UX 2026 "design deeper to differentiate" frame and Lenny Rachitsky's flat-since-2023 hiring data, the picture for May 2026 is unusually clear — and the implication for junior designers is uncomfortable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The thesis, stated cleanly.&lt;/strong&gt; UX.raspberry: &lt;em&gt;"It's no longer about what you produce (AI can produce too); it's about what you decide."&lt;/em&gt; The middle of the design workflow — wireframes, button states, padding, color application, layout permutations — is the part LLMs and Figma Make are reliably good at. The before (problem framing, strategy, what should exist) and the after (judgment, taste, evaluation, when to ship) are the parts they aren't. Designer compensation, in this frame, no longer tracks throughput. It tracks decision quality. This is the same conclusion NN/g's State of UX 2026 reaches via the "design deeper" thesis, except UX.raspberry says the quiet part: aesthetic-only skills are insufficient. Designers must become "bilingual" — fluent in business metrics (KPIs, ARR) and system logic (APIs, tokens, prompts) — or they'll lose to designers who are.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The operating model.&lt;/strong&gt; Verifiedinsider's piece is the practical other half. Five infrastructure essentials for an AI-native designer: (1) an AI editor (Cursor/Codex), (2) a coding agent, (3) a design system, (4) Figma Code Connect, (5) a GitHub workflow with a protected &lt;code&gt;/design-space/&lt;/code&gt; route for in-product prototyping. The operating principle: &lt;em&gt;"knowing where AI should replace your effort and where your judgment is irreplaceable."&lt;/em&gt; Specifically: AI replaces production (initial layouts, component variants, copy drafts, exploratory comps). Designer judgment is irreplaceable for evaluation (does this resonate? does this serve the user's actual goal? does motion and micro-interaction feel right?). The piece's strongest claim: prototype &lt;em&gt;inside your real product&lt;/em&gt; behind a feature flag, not on a separate canvas. The reason is taste calibration — judging design quality requires the production environment, not Figma's idealized canvas.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://miro.medium.com/v2/resize:fill:1200:630/1*dmbNkD5D-u45r44go_cf0g.png" alt="UX.raspberry essay illustration showing producing vs deciding" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The shift UX.raspberry names: production is the part AI does well — strategy and judgment are not.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The Junior Paradox is the uncomfortable corollary.&lt;/strong&gt; UX.raspberry frames it directly: a Senior Designer with AI tools now produces what previously required two Juniors. Entry-level work — file cleanup, button-variant production, redline annotation — has been automated. But the operating model verifiedinsider describes &lt;em&gt;presupposes the judgment that used to be developed by doing junior work for two years.&lt;/em&gt; The pipeline has been disrupted at its first stage. Lenny's data confirms the structural reading: design roles flat at ~5,700 globally since 2023 while engineering recovered to 67,000+ and PM to 7,300+. The PM-to-designer ratio flipped to 1.27x. The hiring isn't coming back through the bottom — it's coming back, where it does, through senior re-hires with AI fluency.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What juniors do about it.&lt;/strong&gt; Three concrete moves emerge from cross-reading both essays plus NN/g's State of UX 2026:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lead with judgment, not output.&lt;/strong&gt; Portfolio reviews increasingly weight the rationale narrative over the visual artifact. "Why this and not three plausible alternatives" is the question senior reviewers actually answer. Junior portfolios that show six finished mockups are now read as evidence of production capacity AI already has. Junior portfolios that show one finished mockup, three rejected explorations, and the explicit reason each was rejected — those read as evidence of the thing AI doesn't have.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build infrastructure, not artifacts.&lt;/strong&gt; Verifiedinsider's design-space route is the actionable signal. A junior who has shipped a working prototype behind a feature flag in their employer's actual product, instrumented it, and read the metrics — they have the operating credential. A junior with a Behance gallery does not.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pick the underpriced specialty.&lt;/strong&gt; Per the WebAIM Million 2026 reversal and the NN/g "AI Agents as Users" frame: accessibility plus agent-readiness plus design-system-tokens is the most underpriced 2026 specialty. 44% of design system teams have zero accessibility specialists. The combined skill is rare, hireable, and now has a regression-prevention business case attached.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Where the thesis pushes back on itself.&lt;/strong&gt; Both essays understate the team-substrate damage Hudetz and Olive identified in their April 27 "Bug-Free Workforce" piece. If juniors don't get hired, design teams don't develop senior judgment internally — the pipeline that produced the AI-native operators of 2026 was the junior cohort of 2018-2022. The "deciders" model assumes the deciders will keep arriving. The current data suggests they won't, and the people noticing this loudest are senior designers worried about their own succession bench. The Figma Designer Demand Report's optimism on growing demand has to be read against this — demand for the senior decider role is rising; demand for the junior production role has structurally shrunk.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The takeaway worth printing on a sticker:&lt;/em&gt; the AI-native designer of 2026 is not the one with the most tools. It's the one who can articulate, for any AI-generated output, exactly why it's wrong and what it should become instead. That is a learnable skill. The harder question is how a junior learns it now that the apprenticeship model that produced it has been quietly removed.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;过去一周发表的两篇文章，从相反方向走到了同一个结论，合在一起终于让 2026 年设计师职业故事有了一个能拿去分享的论点。UX.raspberry 5月4日 Medium 那篇——"从生产到判断、从手艺到运营"——用大白话把价值转移说清楚了。verifiedinsider 那篇 3月27日的 "Operating as an AI-native product designer" 则给出了运营模型。把它们和 NN/g 的 State of UX 2026「design deeper to differentiate」框架、以及 Lenny Rachitsky 那份「2023 年以来设计岗位持平」的招聘数据对照着读，2026 年5月的图景出奇地清晰——而对初级设计师的含义则相当令人不安。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;论点本身，干净版。&lt;/strong&gt;UX.raspberry：&lt;em&gt;"重点不再是你&lt;em&gt;生产&lt;/em&gt;什么（AI 也能生产），而是你&lt;em&gt;决定&lt;/em&gt;什么。"&lt;/em&gt;设计工作流的中段——线框、按钮状态、padding、配色应用、布局排列——正是 LLM 和 Figma Make 稳定擅长的部分。前段（问题框定、策略、什么东西该存在）和后段（判断、品味、评估、何时该上线）则不是。在这个框架下，设计师薪酬不再跟随产出量。它跟随判断质量。这和 NN/g 的 State of UX 2026 通过 "design deeper" 论点得出的结论一致，区别在于 UX.raspberry 把那句安静的话说出口了：纯审美技能不够。设计师必须变 "双语"——在业务指标（KPI、ARR）和系统逻辑（API、token、prompt）两边都流利——否则会输给那些能做到的人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;运营模型。&lt;/strong&gt;verifiedinsider 那篇是另一半的实操。AI-native 设计师的五项基础设施：（1）AI 编辑器（Cursor/Codex），（2）编码 agent，（3）设计系统，（4）Figma Code Connect，（5）一套 GitHub 工作流，外加一个受保护的 &lt;code&gt;/design-space/&lt;/code&gt; 路由用于在产品内做原型。运营原则：&lt;em&gt;"知道哪里该让 AI 替你出力、哪里你的判断不可替代。"&lt;/em&gt;具体来说：AI 接管生产（初始布局、组件变体、文案草稿、探索性 comp）。设计师的判断在评估上不可替代（这个东西打动人吗？真的服务到用户的实际目标吗？动效和微交互的手感对吗？）。这篇文章最有力的主张是：&lt;em&gt;在你真实的产品里、藏在 feature flag 后面&lt;/em&gt;做原型，而不是在另一块画布上。理由是品味校准——判断设计质量需要真正的生产环境，不是 Figma 那块理想化的画布。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;初级悖论是不舒服的推论。&lt;/strong&gt;UX.raspberry 直接说出来了：一个高级设计师配上 AI 工具，现在能产出过去需要两个初级设计师才能完成的工作量。入门级工作——文件整理、按钮变体生产、批注——已经被自动化。但 verifiedinsider 描述的那套运营模型，&lt;em&gt;预设了你已经具备过去通过两年初级工作才能磨出来的判断力&lt;/em&gt;。流水线在第一道工序就被切断了。Lenny 的数据从结构上印证了这种读法：自 2023 年以来，全球设计岗位持平在约 5700 个，而工程岗回到 67000+、PM 岗回到 7300+。PM 与设计师比例反转到了 1.27 倍。招聘并没有从底部回流——它真要回流的话，是通过有 AI 流利度的高级再聘。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;初级设计师该怎么办。&lt;/strong&gt;把两篇文章加上 NN/g State of UX 2026 交叉来读，浮现出三个具体动作：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用判断而不是产出来开场。&lt;/strong&gt;作品集评审越来越看重论证叙事，而非视觉成品。"为什么是这个方案、不是另外三个看起来也合理的方案"才是高级评审真正在回答的问题。展示六张完成稿的初级作品集，现在被读作 AI 已经具备的产能证明。展示一张完成稿、三个被否决的探索方向、以及每个被否决的明确理由——这种作品集读作 AI 不具备的东西的证据。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;建基础设施而不是建工件。&lt;/strong&gt;verifiedinsider 的 design-space 路由就是可执行的信号。一个初级设计师如果在雇主的真实产品里、藏在 feature flag 背后发出过一个能跑的原型、给它埋了点、读过指标——TA 拿到了运营资历。一个把 Behance 画廊填满的初级设计师没有。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;选那个被低估的专业。&lt;/strong&gt;结合 WebAIM Million 2026 的反转和 NN/g "AI Agents as Users" 框架：无障碍 + agent-readiness + 设计系统 token 是 2026 年最被低估的专业组合。44% 的设计系统团队没有无障碍专员。这套组合技能稀有、可招聘，而且现在还附带了一条「防回退」的商业理由。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;这个论点对自己的反驳。&lt;/strong&gt;两篇文章都低估了 Hudetz 和 Olive 4月27日 "Bug-Free Workforce" 那篇文章里识别出的团队基底损伤。如果初级设计师不被雇佣，设计团队就不能在内部培育出高级判断——产出 2026 年这批 AI-native 操作者的流水线，正是 2018-2022 年那批初级队伍。"决策者" 模型预设了决策者会持续到来。当下数据表明他们不会，而最大声注意到这件事的恰恰是那些担心自己接班板凳的高级设计师。Figma Designer Demand Report 关于需求增长的乐观叙事必须放在这个背景下读——高级决策者岗位的需求确实在涨；初级生产岗位的需求已经结构性萎缩。&lt;/p&gt;
+
+&lt;p&gt;值得贴在显示器上的总结：2026 年的 AI-native 设计师，不是手上工具最多的那个。是那个能针对任何 AI 生成的输出，准确说出它哪里不对、应该改成什么样的人。这是可以学的。更难的问题是：当过去培养出这种能力的学徒制已经被悄悄取消了，初级设计师现在该怎么学。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803"&gt;https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://verifiedinsider.substack.com/p/operating-as-an-ai-native-product"&gt;https://verifiedinsider.substack.com/p/operating-as-an-ai-native-product&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/state-of-ux-2026/"&gt;https://www.nngroup.com/articles/state-of-ux-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9"&gt;https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/"&gt;https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">18814b1b-a954-5396-b97a-433e76bb04f2</guid>
+      <pubDate>Thu, 07 May 2026 08:14:45 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803</link>
+      <enclosure url="https://miro.medium.com/v2/resize:fill:1200:630/1*dmbNkD5D-u45r44go_cf0g.png" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
