@@ -9,149 +9,12 @@
     </image>
     <description>Deep research briefings on AI, tech, sports, and local news</description>
     <link>https://xingjianz.com/rss-research/daily-briefings.xml</link>
-    <lastBuildDate>Thu, 07 May 2026 08:15:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 23:41:43 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
     <ns0:link rel="self" href="https://xingjianz.com/rss-research/daily-briefings.xml" type="application/rss+xml" />
     <ns1:image href="https://xingjianz.com/rss-research/icon-jimmy.png" />
     <ns0:icon>https://xingjianz.com/rss-research/icon-jimmy.png</ns0:icon>
-    <item>
-      <title>🎲 🎲 八个物理学家用一年时间画出了「芝士胡椒面」的相图，2025 Ig Nobel 物理学奖得主说：你做不好 Cacio e Pepe 不是手艺问题，是淀粉浓度差了 1.5%</title>
-      <description>&lt;p&gt;2025 年 9 月 18 日，&lt;strong&gt;Ig 诺贝尔物理学奖&lt;/strong&gt;颁给了一个看似无聊到极点的题目：怎么把一碗 Cacio e Pepe 做不糟。意大利芝士胡椒面只有三种食材——意面、Pecorino Romano 芝士、黑胡椒——但它有一个所有意大利妈妈都默认的诅咒：芝士一旦下锅，七成的概率会瞬间凝结成橡皮一样的奶酪团，整碗面直接报废。Sapienza 大学和 Max Planck 复杂系统物理研究所的八位物理学家组队跟它死磕了一年，最终在《Physics of Fluids》上发了一篇五十多页的论文，画出了 Cacio e Pepe 的&lt;strong&gt;相图（phase diagram）&lt;/strong&gt;，一举把一道家常菜送进了软物质物理学（Soft Matter Physics）教科书。&lt;/p&gt;
-
-&lt;p&gt;问题的物理学本质很优雅。Pecorino 芝士是高蛋白高脂肪的复杂胶体，溶在水里时蛋白质分子被电荷和水合层撑开。一旦水温超过 65°C，蛋白质开始变性（denature），疏水基团暴露，分子互相黏成一坨——这就是「&lt;strong&gt;蛋白质聚集（protein aggregation）&lt;/strong&gt;」，也是为什么传统做法把面汤直接浇芝士上几乎必翻车。论文给这种灾难起了个一针见血的名字：「&lt;em&gt;Mozzarella Phase&lt;/em&gt;（马苏里拉相）」——整碗变成漂浮在水里的奶酪团块，唯一的用法是垃圾桶。&lt;/p&gt;
-
-&lt;p&gt;八个物理学家做的事情很硬核：他们系统改变芝士-水-淀粉三者比例和温度，跑了上百次实验，用图像分析量化结块大小。结论非常反直觉——单纯加面汤不够，因为面汤里的&lt;strong&gt;淀粉浓度（starch concentration）&lt;/strong&gt;是随机的，全看你煮多少面、用多少水。他们的相图给出了一个铁律：&lt;strong&gt;淀粉占芝士质量的 2-3%&lt;/strong&gt;是稳定区，低于 1% 必出 Mozzarella Phase，高于 4% 又会变成糊状。家常面汤的淀粉浓度大约在 0.5-1.5%，正好踩在悬崖边上——这就解释了为什么这道菜既被尊为罗马灵魂也被全世界厨师称为噩梦。&lt;/p&gt;
-
-&lt;p&gt;论文给出的最终方案有点反传统：&lt;strong&gt;不要用面汤兑芝士。&lt;/strong&gt;正确做法是先单独取一份冷水，加入约相当于芝士质量 2-3% 的玉米淀粉或马铃薯淀粉，搅拌煮至清亮黏稠（淀粉糊化）。这一步在低温下让淀粉颗粒充分水合，形成保护性多糖网络。降温后再拌入磨碎的 Pecorino 和现磨胡椒，做成「芝士酱基底」。最后把刚煮好的意面捞出（保持 65°C 以下接触温度），分次淋入酱料拌匀。整套流程的物理逻辑是用淀粉的&lt;strong&gt;大分子保护层&lt;/strong&gt;预先包裹蛋白质胶束，阻止它们在升温时直接撞在一起。&lt;/p&gt;
-
-&lt;p&gt;这项研究在意大利掀起了一场口水战。罗马传统派厨师集体怒斥「淀粉是欺诈，老祖宗不需要这玩意」；与此同时论文在 arXiv 上的下载量冲到了软物质类目第一。共同作者 Daniel Maria Busiello 在领奖时说了句几乎可以载入科学史的话：「我们不是在告诉你们怎么做菜。我们是在告诉你们，为什么你们一直做不好。」Ig Nobel 委员会的颁奖词更冷幽默——「奖给那些用流体力学解释为什么你的婚姻在罗马蜜月期间破裂的研究者」。&lt;/p&gt;
-
-&lt;p&gt;更深一层，这篇论文揭示了一个被低估的事实：&lt;strong&gt;食物物理学（food physics）正在快速学院化&lt;/strong&gt;。从 2024 年 ETH Zürich 的意大利面捻断研究（Feynman 曾经研究过的「为什么意面总是断成三截」）到 2023 年苏黎世大学的卡布奇诺奶泡稳定性论文，传统厨房里的"祖传秘方"正在被一行行偏微分方程改写。下一个目标？据物理学家私下透露，是 Carbonara——含蛋黄的版本物理上比 Cacio e Pepe 还难。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce"&gt;https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2501.00536"&gt;https://arxiv.org/abs/2501.00536&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2025/09/250918225012.htm"&gt;https://www.sciencedaily.com/releases/2025/09/250918225012.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ista.ac.at/en/news/2025-ig-nobel-prize-for-perfect-pasta-sauce/"&gt;https://ista.ac.at/en/news/2025-ig-nobel-prize-for-perfect-pasta-sauce/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://physics.aps.org/articles/v18/163"&gt;https://physics.aps.org/articles/v18/163&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e00355d1-7292-5445-8c86-4b7b3bc3cbe2</guid>
-      <pubDate>Thu, 07 May 2026 08:09:16 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce</link>
-      <enclosure url="https://scx2.b-cdn.net/gfx/news/2025/2025-09-ig-physics-nobel-prize-pasta.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📈 📈 Microsoft Rule of 70买断今天送达：8,750人30天倒计时与剩下人怎么读这份reality check</title>
-      <description>&lt;p&gt;5月7日，Microsoft首次自愿买断方案的具体条款正式落到员工和经理桌上。覆盖&lt;strong&gt;senior director及以下、年龄+司龄≥70&lt;/strong&gt;的约8,750名美国员工，30天决策窗口，6月初前后签字截止。这是Microsoft 51年历史第一次自愿买断（CNBC、Yahoo Finance、CNN Business 多方确认），方案细节比之前传闻更狠也更软。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;具体条款拆解&lt;/strong&gt;（综合Yahoo Finance、Moneywise、Metaintro公开汇总）：①一次性现金severance——按周薪×司龄计算，老员工有floor有cap，一名15年工龄senior engineer净到手在'high six figures'区间（不含equity）；②加速vesting——离职日后数月内本应vest的RSU提前解锁；③医疗续保5年——第1年Microsoft全额承担premium，第2-5年员工按月付费但保留group rate（牙科、视力、wellness全包）；④销售激励岗、Copilot/AI核心团队豁免，无论是否符合Rule of 70都不在名单。Q3财报同日披露这次买断一次性减记&lt;strong&gt;9亿美元&lt;/strong&gt;，配合的是Azure 40%增速和318亿美元季度利润——所以这不是'省钱'，是&lt;strong&gt;结构性置换&lt;/strong&gt;：把institutional knowledge厚但AI产出曲线陡的中后段员工，换成更年轻、单位产出更高的agentic-native工程师。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;分析师对签字率的押注&lt;/strong&gt;：60-75%接受，5,200-6,500人在8月前离开公司。这个区间暗藏一个细节——Rule of 70 disproportionately落在50-60岁工程师身上，这群人正是'pre-AI Microsoft'的搭建者。UC Today和Let's Data Science都点出了同一个矛盾：被推走的是institutional memory最厚的一批，但Microsoft同时在公开场合说'AI productivity让我们能用更少人做更多事'——这是一个赌博，赌的是agentic工具能在18-24个月内补上离开的tribal knowledge。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;对Class of 2026和实习生的三层信号&lt;/strong&gt;。第一层最直接：Microsoft给的是'voluntary'，但Fortune报道里CFO的潜台词是'这次没拿，下半年走的就是involuntary了'——这意味着Microsoft Q4或FY27初极可能跟一轮强制裁员。第二层是&lt;strong&gt;FY26招聘pipeline的扰动&lt;/strong&gt;：买断走8,750人不会1:1开新req，分析师测算回填率&lt;35%，对应3,000个新岗位中又有约一半留给internal mobility，外部junior真正能争的可能不到1,500个——所以Microsoft夏季实习的return offer发放也会比2025收紧。第三层最反直觉：Microsoft历史上从不做自愿买断，这次破例本身是在给行业树标杆。预计6-8月Amazon、Salesforce、Cisco跟一波类似方案——'Rule of 70'变成2026下半年中段裁员的统一话术。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;实习生层面的可操作动作&lt;/strong&gt;：①跟你的Microsoft mentor确认他/她是否在Rule of 70池子里（公开聊不奇怪，方案已经走office-wide email），决定你的项目continuity风险；②把return offer 1:1从'你怎么看我表现'改成'我的项目在FY26招聘冻结后的归属是什么'——后者直接逼manager说出真相；③如果Microsoft是你offer之一同时另有Meta/Cloudflare/中型SaaS，把6月签字日的不确定性算进决策——Microsoft的return rate历史上75-80%，但2026这个数字大概率掉到65-70%。Cisco和Salesforce如果跟进类似方案，整个行业的junior通道会进一步窄化。&lt;/p&gt;
-
-&lt;p&gt;下一观察点：6月6日左右签字截止后Microsoft是否公布实际take-up率（历史IBM类似方案take-up率45-55%）；FY26 Q1电话会CFO对'员工净变化'的措辞——'flat'还是'modest decline'决定整个2026下半年招聘冷暖。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html"&gt;https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.metaintro.com/blog/microsoft-voluntary-buyout-playbook-2026"&gt;https://www.metaintro.com/blog/microsoft-voluntary-buyout-playbook-2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://moneywise.com/employment/employment/microsoft-voluntary-retirement-buyout-rule-of-70-ai"&gt;https://moneywise.com/employment/employment/microsoft-voluntary-retirement-buyout-rule-of-70-ai&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fortune.com/2026/04/26/why-did-microsoft-do-buyouts-layoffs-tech-workers/"&gt;https://fortune.com/2026/04/26/why-did-microsoft-do-buyouts-layoffs-tech-workers/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.uctoday.com/talent-hcm-platforms/rule-of-70-could-microsofts-employee-exit-plan-undermine-its-ai-push/"&gt;https://www.uctoday.com/talent-hcm-platforms/rule-of-70-could-microsofts-employee-exit-plan-undermine-its-ai-push/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://finance.yahoo.com/sectors/technology/articles/microsoft-wants-8-750-workers-090500948.html"&gt;https://finance.yahoo.com/sectors/technology/articles/microsoft-wants-8-750-workers-090500948.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2ad70c95-7490-5eff-a7c2-3db0e79e4490</guid>
-      <pubDate>Thu, 07 May 2026 08:09:21 +0000</pubDate>
-      <category>career-growth</category>
-      <link>https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html</link>
-      <enclosure url="https://image.cnbcfm.com/api/v1/image/108285611-1774982732434-gettyimages-2269268520-emaz-1_em14045.jpeg?v=1777065615&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🤖 🤖 MemTier (arXiv 2605.03675)：把 retrieval 五信号 PPO 加权 + cognitive weight 反向归因——LongMemEval-S 0.382 vs baseline 0.050（+33.2pp）、消费级 6GB GPU 本地跑 Qwen2.5-7B</title>
-      <description>&lt;p&gt;&lt;strong&gt;MEMTIER&lt;/strong&gt;（arXiv 2605.03675，5 月 5 日，Ben-Gurion University 的 Bronislav Sidik 与 Lior Rokach）把 5 月 minimalism 阵营的 supervised admission 命题（MemRouter）从 write-side 推进到 read-side：long-running agent 的核心瓶颈不在 "存什么"，而在 retrieval 的 signal 怎么加权与 consolidation 怎么调度。问题动机给得很狠——flat-file memory system 跑满 72 小时窗口，tool-execution 成功率掉 14pp，作者直接把这个 "memory coherence drift" 当 RL 评测目标。&lt;/p&gt;
-
-&lt;p&gt;架构是三件套：episodic JSONL 存储 + 异步 consolidation daemon（把 fact 升级到 semantic tier）+ 五信号加权检索。五个信号配比经过 PPO 学出来——BM25 (0.35)、Time Decay (0.25, λ=0.05 相当于 14 天半衰期)、Cognitive Weight (0.25)、Tier Boost (0.15)、Semantic two-stage scoping (0.0 单独无贡献，但作为前级过滤)。&lt;strong&gt;Cognitive Weight&lt;/strong&gt; 是最有意思的一环：每条 episodic 记忆初始 CW=0，被成功 tool call 引用累加正 CW，被失败 trajectory 引用累加负 CW，再经 ϕ_cw=(CW+1)/2 归一化进检索分数。这是把 RewardFlow 的 hop-distance credit 信号思路搬到了 retrieval 端——记忆条目的 "重要性" 不是 LLM 当场判断的，而是从下游 tool outcome 反推出来的。&lt;/p&gt;
-
-&lt;p&gt;实测在 LongMemEval-S 500 题、Qwen2.5-7B、消费级 6GB GPU 上完全本地跑：accuracy 0.382 vs baseline 0.050（+33.2pp），F1 0.412。Single-session recall 0.686-0.714 已经接近 RAG BM25 + GPT-4o baseline 的 0.560 上限；但 multi-session synthesis 只有 0.173，temporal reasoning 0.323——长程合成依然是断崖。Ablation 给出每个信号的边际贡献：去掉 semantic tier 掉 0.128（最重要）、去掉 two-stage scoping 掉 0.038、单独抽掉 decay/CW/tier 各掉 0.014-0.016 且互不冗余。把 token budget 从 300 提到 600 还能再涨 0.032——retrieval bottleneck 远没饱和。&lt;/p&gt;
-
-&lt;p&gt;这篇值得读的原因：5 月 memory 路线已经形成 minimalism 三件套——MemRouter (5/1) 解决 write-side admission、MemTier (5/5) 解决 read-side multi-signal weighting、MemORAI (5/2) 解决 retrieval 的图结构。三家在写、读、组织三个轴正交切分，加上 4 月 AgeMem 的 RL-trained tool-action 路线，几乎可以拼成一个完整的 supervised + RL 混合记忆栈。Cognitive Weight 这一招特别值得 multi-agent 场景借鉴——把 attention 反向归因到 episodic 记忆条目上，本质上是 message-level counterfactual credit 在 memory 维度的实现，正好补 Orchestration Traces Survey (5/4) 点出的 "message-level counterfactual credit 几乎空白" 这个 gap。&lt;/p&gt;
-
-&lt;p&gt;批评一句：semantic-tier 5 个 ablation 信号只在 500 题 LongMemEval-S 上调出来，generalization 到 Memora、LongDialQA、LongMemEval-500 没测；attention attribution 的 lexical Jaccard fallback 也是工程妥协，full SGLang logprob 在生产环境是否能 scale 还要看后续。但 framework 本身可拆——CW 模块可以单独嵌进 Mem0/A-Mem/AgeMem 任何一家，几乎是 plug-and-play 的 retrieval upgrade。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2605.03675"&gt;https://arxiv.org/abs/2605.03675&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/html/2605.03675"&gt;https://arxiv.org/html/2605.03675&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b53a61e7-b41a-5b7b-a2fd-8f8433684529</guid>
-      <pubDate>Thu, 07 May 2026 08:09:59 +0000</pubDate>
-      <category>llm-agents</category>
-      <link>https://arxiv.org/abs/2605.03675</link>
-      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📈 📈 Cloudflare要招1,111名实习生：当行业砍junior时这家在押反向赌注——给Class of 2027的真信号</title>
-      <description>&lt;p&gt;当54%工程领导计划2026减少junior招聘（Pragmatic Engineer 4月数据）、Microsoft今天送出8,750份Rule of 70买断时，Cloudflare在4月底官宣了一个数字：&lt;strong&gt;2026年招1,111名实习生&lt;/strong&gt;。这个数字不是凑的——对应他们的1.1.1.1公共DNS。Gergely Orosz在Pragmatic Engineer 5月的newsletter里把它和Shopify（每年1,000名实习生）、GitHub（'比以往更多'）并列，写了一句：'These companies have never invested as much in interns as now.'&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;方案细节&lt;/strong&gt;（Cloudflare blog 4月29日，CEO Matthew Prince + CPO联署）：①六个hub——Austin、SF、NYC、Bengaluru、Lisbon、London，要求每周3-4天到岗；②12周标准时长，全年滚动开放，summer占大头；③薪资'按全职entry-level prorate'+ 搬迁补贴（Levels.fyi给的Cloudflare intern中位时薪在&lt;strong&gt;-&lt;/strong&gt;区间，对应月薪7,500左右，加housing stipend后逼近Meta水平）；④面试前置一个独特环节——SE intern候选人完成一个'用Cloudflare平台搭一个AI-powered application'的开放task，做完直接fast-track。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;战略动机里有一句话值得贴在墙上&lt;/strong&gt;。Cloudflare的blog原文：'AI tools make great team members even better. They are not replacements for new hires.' 这是公开喊话，针对Amazon Jassy的'5人65天'神话、Meta 14,000人净消失、Microsoft 8,750买断方案——同一个赛道里，Cloudflare在做反向赌注。Prince的判断是：agentic工具确实让senior工程师变10x，但&lt;strong&gt;'who's going to be the next senior'是个时间问题&lt;/strong&gt;——你现在不养junior，2028-2029年senior pipeline会断。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1,111这个数字相对Cloudflare体量的含义&lt;/strong&gt;。Cloudflare截至2026 Q1有约4,200名工程师（10-K披露），1,111实习生意味着&lt;strong&gt;每4个工程师带1个实习生&lt;/strong&gt;——这是FAANG的2-3倍密度。运营压力体现在两个地方：①mentor capacity——他们要求mentor必须先完成6小时'agent-first工作流mentorship'内训，把Will Larson的scaffolding三步法直接做成onboarding必修；②return offer池子大小——Cloudflare 2024 return rate公开数据是68%，2026这个数字大概率维持在60-70%（即700-780个全职），意味着Class of 2027有&lt;strong&gt;700+ Cloudflare entry-level岗&lt;/strong&gt;从这个池子直接产出，绕过外部投递。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;对Class of 2026/2027的可操作信号&lt;/strong&gt;。第一，Cloudflare、Shopify、GitHub、Netflix、Amazon（Orosz确认这五家都在加大junior投入）现在是&lt;strong&gt;反共识机会窗口&lt;/strong&gt;——主流叙事说'junior赛道死了'，这五家在公开发req。第二，&lt;strong&gt;fast-track门槛清晰&lt;/strong&gt;：Cloudflare的SE intern用'用我们的平台搭AI app'做筛选——意味着GitHub上有Cloudflare Workers + Vectorize + Workers AI项目的candidate，简历直接跳过初筛。第三，&lt;strong&gt;地点策略&lt;/strong&gt;：Lisbon、Bengaluru hub的entry本地竞争比SF/NYC弱60-70%，但package按本地市场prorate，对国际学生（特别是H-1B uncertain的Class of 2026）这两个hub是被严重低估的入口。第四，对在Microsoft/Meta/Amazon实习+在等return offer的同学：把Cloudflare这种公司放进backup list——他们的&lt;strong&gt;summer 2026 SE intern req&lt;/strong&gt;到5月初仍开放（Greenhouse上Austin/SF多个岗），跨实习项目转跳虽然累但风险显著低。&lt;/p&gt;
-
-&lt;p&gt;反向命题也要承认。这五家加起来年招junior大概3,000-4,000人，对冲不了FAANG砍的15,000+ entry-level岗。但相对于'整个行业都在收缩'的氛围，&lt;strong&gt;这是2026少数还在公开扩张junior pipeline的样本&lt;/strong&gt;，写进求职名单本身就是认知校准。下一观察：Cloudflare Q2财报披露的实际intern conversion率，以及Shopify是否在5月7日Fall 2026 intern申请截止后跟一波类似数字承诺。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://blog.cloudflare.com/cloudflare-1111-intern-program/"&gt;https://blog.cloudflare.com/cloudflare-1111-intern-program/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cloudflare.com/press/press-releases/2025/cloudflare-aims-to-hire-1111-interns-in-2026-to-help-train-the-next-gen/"&gt;https://www.cloudflare.com/press/press-releases/2025/cloudflare-aims-to-hire-1111-interns-in-2026-to-help-train-the-next-gen/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://newsletter.pragmaticengineer.com/p/more-follow-up-hiring-market"&gt;https://newsletter.pragmaticengineer.com/p/more-follow-up-hiring-market&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://internships.shopify.com/"&gt;https://internships.shopify.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cloudflare.com/careers/early-talent/"&gt;https://www.cloudflare.com/careers/early-talent/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7d211726-a9f1-5695-84bb-eebc9160ddad</guid>
-      <pubDate>Thu, 07 May 2026 08:10:03 +0000</pubDate>
-      <category>career-growth</category>
-      <link>https://blog.cloudflare.com/cloudflare-1111-intern-program/</link>
-      <enclosure url="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2ZUQ7flYhCcJ56uxxMtWBQ/cb9e12dec51125ef22bf279fa356239f/BLOG-2947_OG.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🏭 🏭 Anthropic 拿下 xAI 的 Colossus 1：22 万张 NVIDIA + 300MW + 轨道算力意向，Musk 把对头的对头当朋友</title>
-      <description>&lt;p&gt;5 月 6 日 Code with Claude 旧金山开幕同一天，Anthropic 与 SpaceX 共同宣布：Anthropic 将&lt;strong&gt;独占租用 SpaceX 旗下 Colossus 1 数据中心的全部 AI 算力&lt;/strong&gt;——位于 Memphis 田纳西州、22 万张以上 NVIDIA GPU、300MW 新增容量，一个月内全部上线。这等于把 xAI 当年为 Grok 训练而建的旗舰超算，整建制租给了 xAI 在前沿模型市场的最直接竞争对手。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://the-decoder.com/wp-content/uploads/2026/05/space_rocket_anthropic_head.png" alt="Anthropic SpaceX Colossus 合作配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Colossus 1 容量分配图，22 万张 NVIDIA GPU 一次性切给 Anthropic（the-decoder）。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;合约金额未披露，但&lt;strong&gt;实物量级足够直接换算&lt;/strong&gt;：300MW 折合年耗电约 2.6 TWh、足够 30 万户家庭用电。Claude Code 五小时窗口的 Pro/Max/Team/Enterprise 速率限制全线翻倍并取消高峰时段降速；Opus API Tier 1 输入额度从 30K/min 跳到 500K/min（17 倍），Tier 4 从 200 万跳到 1000 万。这是 4 月 20 日 Amazon 1000 亿/10 年合约和 5 月 5 日 Google 2000 亿/5 年合约之后，&lt;strong&gt;Anthropic 三云供应链的第四只脚——专门补给短期容量&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;更值得注意的是合作的第二条线：双方公开宣布探索"多个 GW 级的轨道 AI 算力（orbital AI compute）"。SpaceX 提供发射能力，Anthropic 提供模型负载——这是迄今为止最具体的太空数据中心商业合约草签。距离 Bezos 的 Project Prometheus 4 月底押注物理 AI 仅一周，太空作为下一代算力载体已不再只是 Sam Altman 在 Lex Fridman 节目里的口嗨。&lt;/p&gt;
-
-&lt;p&gt;Musk 的动机在 Al Jazeera 的报道里讲得很直白：他与 Amodei 团队会谈后，"我的邪恶探测器没有响"。把这句话放回 Musk-OpenAI 的诉讼背景看更耐人寻味——Musk 一边以 OpenAI 联合创始人身份起诉 Sam Altman 在 2022 年底"窃取慈善"、要求 OpenAI 回归非营利使命，一边把自己拥有的 SpaceX 算力以独家形式租给 OpenAI 在企业市场最大的挑战者。OpenAI 法律团队此前公开指控 Musk 的诉讼是为 xAI 谋取竞争优势——如今 Musk 用 Anthropic 削 OpenAI，等于&lt;strong&gt;同时给 xAI 自己的训练任务转嫁了短期外部收入&lt;/strong&gt;，在 Colossus 2 建成前为 Memphis 团队赚一波过桥现金。&lt;/p&gt;
-
-&lt;p&gt;对竞争格局的影响有三层。第一，OpenAI 4 月底自建 Stargate 收缩、4/27 微软合约改写删除 AGI 条款、5/5 WSJ 披露机器人/硬件 spinout 被否——OpenAI 这波是收缩战线、IPO 优先；Anthropic 同期是反方向——三云锁定 + 三年 600 亿/年算力支出 + xAI 数据中心+ orbital。两家估值差距（Anthropic 9000 亿 vs OpenAI 8500 亿）的逻辑底座由此清晰。第二，Anthropic AUP 有"只与民主国家合作"的承诺，但 Musk 的 SpaceX 不算民主国家、却也不算威权政府承包商，AUP 在企业供应商层面的灰区由此暴露——5/1 Pentagon IL6/IL7 排除 Anthropic 用的就是供应链 risk 标签。这次 SpaceX 合约会让 Pentagon 的供应链评估更难解释。第三，xAI 自身正在为 Colossus 2 紧急融资 200 亿，把 Colossus 1 整租给对手是&lt;strong&gt;Musk 给 xAI 估值故事的一次反向交易&lt;/strong&gt;——把训练资产转化为 ARR，为下一轮估值垫脚。&lt;/p&gt;
-
-&lt;p&gt;下一观察点：合约期限和最低消费金额是否在 Anthropic IPO 招股书披露；orbital AI compute 是否给出第一颗发射时间；Colossus 1 是否仍保留任何 xAI 内部任务份额。Musk 这一步走完之后，"哪几家实验室在跟 SpaceX 合作"将成为一个独立的供应链维度。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/"&gt;https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/economy/2026/5/6/spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit"&gt;https://www.aljazeera.com/economy/2026/5/6/spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html"&gt;https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://x.ai/news/anthropic-compute-partnership"&gt;https://x.ai/news/anthropic-compute-partnership&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d65ea9ab-63dc-5a04-8957-819156f5e34c</guid>
-      <pubDate>Thu, 07 May 2026 08:10:06 +0000</pubDate>
-      <category>ai-industry</category>
-      <link>https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/</link>
-      <enclosure url="https://the-decoder.com/wp-content/uploads/2026/05/space_rocket_anthropic_head.png" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎲 🎲 现在还有格陵兰鲨在北大西洋游泳，它们出生那年莎士比亚还在写《哈姆雷特》：用核试验留下的碳-14「炸弹脉冲」给鲨鱼眼球晶状体定年，最大个体 392 ± 120 岁，性成熟需要 156 年</title>
       <description>&lt;p&gt;2016 年 8 月，丹麦哥本哈根大学的 Julius Nielsen 在《Science》上发表了一篇看似不该被刊登在顶刊上的论文：&lt;strong&gt;格陵兰鲨（Greenland shark, Somniosus microcephalus）的寿命可能超过 400 年。&lt;/strong&gt;这意味着今天还在北大西洋深海游泳的某些个体，出生时莎士比亚还在写《哈姆雷特》。论文一夜之间把这种长得像史前怪物的鲨鱼推上了「&lt;strong&gt;地球上已知最长寿的脊椎动物&lt;/strong&gt;」宝座，把之前的纪录保持者弓头鲸（Bowhead whale，约 211 年）整整甩开一个世纪。&lt;/p&gt;
@@ -1413,6 +1276,182 @@
       <category>soccer</category>
       <link>https://sports.yahoo.com/articles/real-madrid-next-coach-german-151500403.html</link>
       <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/05/2026-02-17T201539Z_141682956_UP1EM2H1KA2DE_RTRMADP_3_SOCCER-CHAMPIONS-SLB-RMA-1777642941.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🔬 Instagram 端到端加密 5/8 关停：MSL 数据飞轮的最后一块开关——3 亿 DM 流量从加密黑箱回到 Meta 训练管道</title>
+      <description>&lt;p&gt;5 月 8 日（今天）起，Instagram DM 的端到端加密（End-to-End Encryption, E2EE）正式下架。这个 2021 年开始测试、2024 年底全平台 opt-in 的功能用了不到两年就被砍。Meta 官方说法是 &lt;strong&gt;采用率太低&lt;/strong&gt;——Casey Newton 在 Platformer 反驳说 Meta 自己从来没认真推过：入口藏在四层菜单后面、Instagram 内部从未做过任何宣传，"低采用率"是自己制造的结果。要 E2EE 的用户被建议去用 WhatsApp。&lt;/p&gt;
+
+&lt;p&gt;对 MSL 的意义远比表面隐私争议大。Meta 的 AI 训练数据来源最近几周连续被打：5/5 五大出版社（Elsevier、Cengage、Hachette、Macmillan、McGraw Hill）联合 Scott Turow、James Patterson、Donna Tartt 等作家在曼哈顿联邦法院起诉 Meta 通过 LibGen 和 Anna&amp;apos;s Archive 训练 Llama；外部公开数据池正在合法化收紧。E2EE 关停打开的恰好是另一条管道——&lt;strong&gt;3 亿用户的私信流量&lt;/strong&gt;。Meta 2025 年 12 月已经声明 Meta AI 工具的对话（包括私信里被 @ 的）可用于广告定向；E2EE 拿掉之后，整个 DM 文本进入服务器端可读状态，技术上能做自动扫描、能响应法律传票、也能进训练 pipeline。&lt;/p&gt;
+
+&lt;p&gt;Newton 引内部文件指出真正的政策驱动力：UK Online Safety Act 和 EU Chat Control 都要求平台留 backdoor，加密本身不兼容；Meta 安全部门 Monika Bickert 警告过完整 E2EE 会让 NCMEC 儿童保护举报量降 65%；TikTok 反向把"配合执法"当卖点跟 Meta 抢市占。三股力量加上 MSL 的数据饥渴，关停就成了路径最优解。&lt;/p&gt;
+
+&lt;p&gt;这件事接到一周前的几条主线上：Saba 4/14 备忘录把 RL 和 post-training 列为 excellent gains 方向、Q1 财报会 Zuckerberg 把 Meta self-improvement 配方定义为 RL post-training + agent harness（Hatch）+ world model（V-JEPA 2.1）+ physical action（ARI/PAR）的 closed loop。这套配方需要海量高质量 multi-turn 对话数据训 RL reward model 和 agent harness——互联网公开语料用得差不多了，模型对话数据 Anthropic/OpenAI 占着自家 API 流量、Meta 的 Hatch 现在还在借 Claude Opus 4.6/Sonnet 4.6 训练。Instagram 私信 + WhatsApp business 对话 + Messenger 三条流量是 Meta 独家、量级在十亿 user × 日均数十亿条这个体量。E2EE 关停+ Meta Ads AI Connectors（4/29 上线，MCP server 让 Anthropic/OpenAI agent 直接接广告系统）+ 5/20 8000 人裁员后的 AI Pod 重组三件事拼起来，是 MSL &lt;strong&gt;把核心商业系统和用户私域数据同时打开&lt;/strong&gt;给 AI flywheel 的完整动作。&lt;/p&gt;
+
+&lt;p&gt;耐人寻味的是时机。Newton 说这是"&lt;em&gt;第一次有大平台主动回退加密保护&lt;/em&gt;"——两周前 4/21 Meta 才宣布要监控员工屏幕和键盘做 AI 训练数据（员工集体抗议），现在轮到用户。出版社 5/5 的诉状里有一句关键反驳——Meta 自己 2023 年起就跟 Reuters/CNN/Fox News 签过授权协议，证明合法授权市场存在；同一逻辑套到 DM 数据上，Meta 后续如果用 DM 训广告或训模型而没改 ToS、没给 opt-out，可能在 EU GDPR 和加州 CCPA 下打开新一波诉讼面。Wang 的双层策略此刻处于罕见的两面收紧：上游开源生态被 DeepSeek/Qwen 反超（HF Spring 报告 R1 取代 Llama 登顶）、合法训练数据市场被诉讼围攻、所以中间层（Connectors）和数据层（DM/键盘）必须同时反向开闸。9/17 Meta Connect 之前 6 周内，DM 流量数据用法的官方说明会是关键观察点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2026/05/05/psa-instagram-encrypted-messaging-ends-may-8/"&gt;https://www.macrumors.com/2026/05/05/psa-instagram-encrypted-messaging-ends-may-8/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.platformer.news/instagram-encryption-meta-whatsapp/"&gt;https://www.platformer.news/instagram-encryption-meta-whatsapp/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html"&gt;https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://boingboing.net/2026/05/05/after-friday-meta-can-read-your-instagram-dms-again.html"&gt;https://boingboing.net/2026/05/05/after-friday-meta-can-read-your-instagram-dms-again.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d92b9914-2d5a-5660-94cd-af23cee2ce5b</guid>
+      <pubDate>Fri, 08 May 2026 12:00:24 +0000</pubDate>
+      <category>meta-news</category>
+      <link>https://www.macrumors.com/2026/05/05/psa-instagram-encrypted-messaging-ends-may-8/</link>
+      <enclosure url="https://images.macrumors.com/t/MU49mkqkTLsK9y7h4wGO2nj5RQQ=/400x0/article-new/2021/03/Instagram-Feature-2.jpg?lossy" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🤖 🤖 More Is Not Always Better (arXiv 2605.05716)：5 个 scaffolding 组件 32 个全因子实验——183/325 组合违反 submodularity，单工具 agent 在 HotpotQA 反超 All-In 32%</title>
+      <description>&lt;p&gt;&lt;strong&gt;问题。&lt;/strong&gt; Agent scaffolding（planning, tool use, memory, self-reflection, retrieval）这五件套已经是当下任何 LLM agent 框架的默认堆叠，但工程界对 "组件越多性能越好" 的假设几乎没有受过严格质疑。Vinu Kuriakose 等人（arXiv 2605.05716, 5/7）做了五个组件的 &lt;strong&gt;full factorial 2^5 = 32 组合实验&lt;/strong&gt;，在 HotpotQA（多跳推理）和 GSM8K（数学）上系统量化 cross-component interaction，结论非常反直觉：scaffolding 的边际效用经常为负，destructive interaction 比 additive benefit 更常见。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;方法。&lt;/strong&gt; 模型选 Llama-3.1 8B 与 70B，Qwen2.5 做复现验证。5 个组件×2 状态 = 32 种 agent 配置，每种跑完整 benchmark，得到 32 个分数向量。统计层面三件套：(a) main-effects regression 看每个组件单独平均贡献，R²=0.916 说明 80%+ 方差能被一阶效应解释，但 16% 的方差来自高阶 interaction；(b) Shapley value 算每个组件的边际贡献分布，揭示哪些组件在哪些上下文里 carry the team；(c) submodularity 检验——submodularity 是 "边际收益递减" 的形式化：f(S∪{x}) − f(S) ≥ f(T∪{x}) − f(T) for S ⊆ T。如果 scaffolding 满足 submodularity，贪心选择（每次加最 marginal 收益最高的组件）会逼近最优；如果违反，贪心选择不可靠。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;核心结果。&lt;/strong&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HotpotQA：&lt;/strong&gt; 单工具 agent F1 = 0.233 比 All-In（5 个组件全开）F1 = 0.177 高出 &lt;strong&gt;32%&lt;/strong&gt;。多跳推理上越多组件越拖累，self-reflection + memory 反复改写中间结果反而把对的答案改错。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GSM8K：&lt;/strong&gt; 最佳 3 组件组合比完整系统好 &lt;strong&gt;79%&lt;/strong&gt;（0.43 vs 0.24）。数学任务上 retrieval 经常引入无关上下文，扰乱原本应该走直球的 CoT。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最优组件数 k*：&lt;/strong&gt; 随 task 和 model scale 变化在 1–4 之间。没有 "通用 stack"。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Submodularity 违反：&lt;/strong&gt; &lt;strong&gt;325 个待比较 pair 中 183 个（56.3%）违反 submodularity&lt;/strong&gt;。这意味着贪心 / 添加式构建 agent stack（"先加最有用的组件再加次有用的"）的策略论根本不成立。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;三阶 synergistic interaction：&lt;/strong&gt; Tool Use × Self-Reflection × Retrieval 三者交叉项 INT₃ = +0.175，是少数稳定正向 interaction。其他大多数高阶 interaction 是负的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这篇重要。&lt;/strong&gt; 这是第一篇用 full factorial + submodularity 检验给 agent scaffolding 设计建立 statistical foundation 的工作。三个含义：&lt;/p&gt;
+
+&lt;p&gt;(1) &lt;em&gt;否定 "All-In = Best" 默认论&lt;/em&gt;。LangChain、AutoGen、CrewAI 这类框架的工程默认是把所有 capability 都开起来，让 LLM 自己选。这篇说：在 HotpotQA 上单工具 agent 比全配置高 32%，浪费的不只是 token，是真实的 task accuracy。&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;em&gt;否定贪心选择策略&lt;/em&gt;。56.3% 的组合违反 submodularity 意味着 ablation study 的常见做法——一个一个加组件看增量——根本检不出真正最优的 subset。组件之间的 interaction 是 high-dimensional 的，必须做 factorial。&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;em&gt;对 LLM-as-residual 哲学是双刃剑的支撑&lt;/em&gt;。一方面，知识 brief 里追踪的 MemRouter + MemTier + MAGE + Terminus-4B 这类 "central LLM + N 个轻量 supervised module" 哲学，每个 module 应该被独立挑选 / 独立训练 / 独立 ablate——这篇结果正好支持 module-per-decision 的 narrow specialist 思路。但另一方面，它也警告：N 个 module 之间会有 destructive interaction，不能盲目堆。Tool Use × Self-Reflection × Retrieval 的三阶正向 interaction（+0.175）说明 "工具调用后必须有反思 + 检索回路" 是真实存在的 synergistic 组合——这反过来给 ReAct + RAG 这种早期范式找到了 statistical 证据。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;和 active threads 的连接。&lt;/strong&gt; Orchestration Traces Survey（arXiv 2605.02801, 5/4）把 multi-agent RL 抽象成 temporal interaction graph，指出 message-level counterfactual credit gap；这篇恰好把 single-agent 内部 component-level counterfactual 量化了——每个 scaffolding 组件相当于一个 "internal agent"，submodularity 违反就是 message-level interference 在 single-LLM scaffolding 内的版本。LATTE（arXiv 2605.06320）的 47.5% token saving 也部分能用这套框架解释：删掉冗余 component 等价于 selective activation。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;批判。&lt;/strong&gt; 实验只覆盖 HotpotQA + GSM8K 两个 benchmark，泛化到 WebArena、SWE-Bench、Tau-Bench 这种 long-horizon agentic benchmark 是否成立尚未验证；32 个组合都用同一组超参数，没排除 "组件单独要调超参" 的混杂；5 个组件的颗粒度也偏粗（"tool use" 内部其实包含 tool selection / tool call / tool result parsing 等子决策）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实务启示。&lt;/strong&gt; 下次写 agent demo 之前先做 minimum viable scaffolding：单工具 + CoT，跑通后再做 factorial ablation 决定下一个组件。AutoGen / LangGraph 这类框架的 "default stack" 应该被默认认为不是最优。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2605.05716"&gt;https://arxiv.org/abs/2605.05716&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2605.02801"&gt;https://arxiv.org/abs/2605.02801&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2605.06320"&gt;https://arxiv.org/abs/2605.06320&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bcab6d1b-34ac-5509-8ac5-f34ac342eda3</guid>
+      <pubDate>Wed, 13 May 2026 11:22:32 +0000</pubDate>
+      <category>llm-agents</category>
+      <link>https://arxiv.org/abs/2605.05716</link>
+      <enclosure url="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎮 《Subnautica 2》明天 EA 上线：等了七年的水下生存续作，30 刀该不该跳坑？</title>
+      <description>&lt;p&gt;等了七年的《&lt;strong&gt;Subnautica 2&lt;/strong&gt;》终于要在 5/14（明天）正式上线 Steam EA + Xbox Game Preview，Game Pass 首日入库，PC + Xbox Series X|S 双平台同步开放，全球同步时间 8:00 AM PDT。售价 29.99 美元，PS5 玩家继续等——首发不在计划内。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://gamingbolt.com/wp-content/uploads/2025/07/Subnautica-2_02-1024x576.jpg" alt="Subnautica 2 海底场景" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Subnautica 2 早期访问首日开放两片区域。图：Unknown Worlds&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先把最关键的事说清楚——这是 EA（Early Access），不是 1.0。Unknown Worlds 自己讲明白了：EA 周期预计 &lt;strong&gt;2-3 年&lt;/strong&gt;，完整版要到 2027-2028。首发只给两片生物群系（Biome）+ 一小段剧情（完整版规划 10 章），核心装备和生存系统全在，但内容厚度肯定比不上当年初代 EA 长尾后的样子。好消息是工作室承诺这次 EA 起步内容会"比之前任何一作都多"——更多 Biome、更多生物、更多 Leviathan-class 巨兽。&lt;/p&gt;
+
+&lt;p&gt;系列首次加入&lt;strong&gt;四人在线合作&lt;/strong&gt;（一个房主 + 三个朋友），跨平台联机直接打通，这是 Subnautica 系粉丝喊了多年的功能。剧情上换了星球——不再是初代的 4546B，新设定是一艘名为 CICADA 的飞船载着 4 万殖民者出事，主角驾驶名为 Tadpole 的潜水器探索未知海域。&lt;/p&gt;
+
+&lt;p&gt;Steam 愿望单已经堆到 &lt;strong&gt;500 万&lt;/strong&gt;，热度毋庸置疑。但有一个老问题要警惕：Krafton 去年和 Unknown Roads 前管理层那场法律纠纷曾让发售时间一度成谜，工作室内部经过了一轮人事震荡，开发周期被打乱过。所以现在媒体口径基本是"谨慎乐观"——内容能不能撑住、节奏会不会断档，要看首周玩家反馈。&lt;/p&gt;
+
+&lt;h2&gt;买不买？&lt;/h2&gt;
+&lt;p&gt;我的建议分情况：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Xbox/PC Game Pass 订阅用户&lt;/strong&gt;：直接玩，零成本，没什么好犹豫的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;初代铁粉&lt;/strong&gt;：可以买，但请明白你是在为一个"未完成的游戏"付 30 刀，未来 2-3 年慢慢更新。如果你享受过初代 EA 的逐月更新体验，那这是你的游戏。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新人或只玩过 Below Zero&lt;/strong&gt;：建议等。先去 Game Pass 试试初代，或者等 6-12 个月看内容补到什么程度再决定。29.99 这个价位 EA 周期内大概率不会大幅降价，但等 1.0 体验绝对更完整。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PS5 党&lt;/strong&gt;：没得选，继续等。微软那边显然吃到了独占红利，PS 版时间表官方至今没给。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;另外友情提醒——多人合作是新加的，首周服务器和 cross-play 翻车的可能性不低，建议等 3-5 天再叫朋友联机。Pre-load 已经开放，明天上线立刻能玩。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://news.xbox.com/en-us/2026/05/04/subnautica-2-game-preview/"&gt;https://news.xbox.com/en-us/2026/05/04/subnautica-2-game-preview/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gamingbolt.com/subnautica-2-promises-more-biomes-creatures-leviathans-than-previous-early-access-launches"&gt;https://gamingbolt.com/subnautica-2-promises-more-biomes-creatures-leviathans-than-previous-early-access-launches&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://store.steampowered.com/app/1962700/Subnautica_2/"&gt;https://store.steampowered.com/app/1962700/Subnautica_2/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://insider-gaming.com/subnautica-2-early-access-roadmap/"&gt;https://insider-gaming.com/subnautica-2-early-access-roadmap/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ebfde5a8-1f10-5e9c-826b-96c17e1744a6</guid>
+      <pubDate>Wed, 13 May 2026 13:52:18 +0000</pubDate>
+      <category>games-new</category>
+      <link>https://news.xbox.com/en-us/2026/05/04/subnautica-2-game-preview/</link>
+      <enclosure url="https://gamingbolt.com/wp-content/uploads/2025/07/Subnautica-2_02-1024x576.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎮 《Directive 8020》评测出炉：黑暗图集第五作 71 分，太空恐怖能玩但别期待太高</title>
+      <description>&lt;p&gt;Supermassive 的&lt;strong&gt;《Directive 8020》&lt;/strong&gt;昨天（5/12）上线 PS5、Xbox Series X|S 和 PC，黑暗图集（Dark Pictures Anthology）系列第五作，这次场景搬到了太空。Metacritic &lt;strong&gt;71 分&lt;/strong&gt;、OpenCritic &lt;strong&gt;76 分&lt;/strong&gt;，又是熟悉的"两极分化"——这家工作室自从《Until Dawn》之后就再没拿过 80+，每作都在 65-75 这个区间徘徊。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/06/a-scary-face-in-directive-8020.jpg" alt="Directive 8020 太空惊悚画面" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Directive 8020 把恐怖搬上了 Tau Ceti f 殖民飞船。图：Supermassive Games&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这次故事设定在 2200 年的殖民飞船 Cassiopeia 号，目标是 Tau Ceti f 行星，结果船上爆发了变种生物危机——经典的"宇宙版异形"题材。剧本依然是 Supermassive 标志性的多结局分支 + 角色生死全靠玩家选择，全员可以活也可以全员死。&lt;/p&gt;
+
+&lt;p&gt;这次评测吵架的焦点很集中：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体喜欢的&lt;/strong&gt;：最大亮点是新加的"Turning Points"系统——可以单独回退某个关键决策点重玩，不用从头跑流程。系列老粉肯定懂这有多香，以前选错一个选项整章都要重打。Game Rant 评价"这是黑暗图集迄今最大胆的一次尝试"，TheXboxHub 给 4/5，认为本作的剧本可能是 Supermassive 至今最强。GamingTrend 把它放在系列第二好的位置，仅次于《House of Ashes》。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体不喜欢的&lt;/strong&gt;：新加的&lt;strong&gt;潜行段落&lt;/strong&gt;几乎被全员吐槽。TheGamer 的原话是"等怪转过身好让你溜过去，既不刺激也不吓人"。说白了 Supermassive 想给"互动电影"加点游戏性，但加得很笨——节奏全断在这种走格子潜行上。另外早段对话写得太"网络段子化"，被批"角色嘴贫到出戏"。&lt;/p&gt;
+
+&lt;p&gt;资源管理元素也是新的（食物、医疗、弹药都要算），评测口碑两极：喜欢的人觉得增加了 survival horror 真实感，不喜欢的人觉得搞复杂没意义。&lt;/p&gt;
+
+&lt;h2&gt;买不买？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;黑暗图集系列粉&lt;/strong&gt;：可以入，但建议等 6 月打折。本作完成度在系列里算中上，Turning Points 真的好用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;异形/太空恐怖爱好者&lt;/strong&gt;：氛围确实做得不错，特别是飞船密闭空间和变种设计。但别指望它能到《Dead Space》或《Alien: Isolation》的高度——它本质还是个互动电影。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从没玩过 Supermassive 的&lt;/strong&gt;：劝退。先去玩《Until Dawn》或者 Quarry，那两部明显更好。这部不适合当入坑作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;双人/聚会玩家&lt;/strong&gt;：本作支持 Movie Night 多人传递手柄模式和线上合作，这种玩法下黑暗图集系列体验加分明显。朋友一起骂剧本骂得最香。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;定价 39.99 美元（豪华版 49.99），考虑流程 8-10 小时 + 多结局多周目，性价比在 Supermassive 标准里算正常。但着急的话不如等暑期 Steam 大促，估计能砍到 25 刀左右。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thegamer.com/directive-8020-dark-pictures-anthology-mixed-reviews/"&gt;https://www.thegamer.com/directive-8020-dark-pictures-anthology-mixed-reviews/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.metacritic.com/game/directive-8020/"&gt;https://www.metacritic.com/game/directive-8020/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gamerant.com/directive-8020-review/"&gt;https://gamerant.com/directive-8020-review/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.thexboxhub.com/directive-8020-is-on-xbox-playstation-and-pc-supermassives-darkest-sci-fi-horror-yet/"&gt;https://www.thexboxhub.com/directive-8020-is-on-xbox-playstation-and-pc-supermassives-darkest-sci-fi-horror-yet/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9d28828f-8cd7-5363-966b-f730d2147b3a</guid>
+      <pubDate>Wed, 13 May 2026 14:08:38 +0000</pubDate>
+      <category>games-new</category>
+      <link>https://www.thegamer.com/directive-8020-dark-pictures-anthology-mixed-reviews/</link>
+      <enclosure url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/06/a-scary-face-in-directive-8020.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📈 2026 大厂裁员浪潮下，工程师该怎么保住饭碗？</title>
+      <description>&lt;p&gt;2026年Q1，科技行业裁员&lt;strong&gt;52,050人&lt;/strong&gt;，同比2025年Q1上涨40%，是2023年以来最高的季度数字。Oracle砍掉2-3万岗位、Amazon累计裁员1.6万、Meta和Dell也大规模收缩。但和以往不同，这轮裁员的核心驱动力不是经济下行，而是&lt;strong&gt;AI工具带来的工程效率跃升&lt;/strong&gt;——数据显示，配备AI编码工具的开发者每个sprint代码产出提升40-55%，这意味着10个人能干过去15个人的活。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;什么岗位还在招人？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;云迁移架构师&lt;/strong&gt;（多云经验最吃香，目前就业最快的方向）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;云安全工程师&lt;/strong&gt;（SOC 2、IAM、检测工程）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;平台/SRE工程师&lt;/strong&gt;（有成本优化经验的优先）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;数据工程师&lt;/strong&gt;（数据治理方向）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;中型SaaS公司全栈工程师&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;求职速度的现实差距很大：&lt;/strong&gt;有云/安全专项技能的高级工程师平均17天拿到offer；普通岗位中位数45-90天；没有专项技能的应届生等待时间更长。被裁后重新找到工作的中位时间从2024年的3.2个月延长到了2026年初的4.7个月。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;给在职工程师的建议：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;现在开始补云（AWS/GCP）或安全方向——不是"以防万一"，而是已成必备技能&lt;/li&gt;
+  &lt;li&gt;目标公司转向中型企业（500-5000人规模），这类公司2021年没有过度扩张，现在反而在稳步招人&lt;/li&gt;
+  &lt;li&gt;合同/兼职岗位是过渡期内的快速选择，很多演变成正式岗位&lt;/li&gt;
+  &lt;li&gt;把AI工具用熟练，让自己成为那个"10个人产出15个人价值"团队里的核心成员&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;总comp可能比2022年高峰低，但有专项技能的工程师在这个市场里依然不愁找工作。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.kore1.com/tech-layoffs-2026/"&gt;https://www.kore1.com/tech-layoffs-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tech-insider.org/tech-layoffs-2026-ai-workforce-impact/"&gt;https://tech-insider.org/tech-layoffs-2026-ai-workforce-impact/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.finalroundai.com/blog/software-engineering-job-market-2026"&gt;https://www.finalroundai.com/blog/software-engineering-job-market-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">20308b41-49a9-5eb6-a755-507975e8c9a9</guid>
+      <pubDate>Wed, 13 May 2026 23:41:43 +0000</pubDate>
+      <category>career-growth</category>
+      <link>https://www.kore1.com/tech-layoffs-2026/</link>
+      <enclosure url="https://www.kore1.com/wp-content/uploads/2026/03/Kore1-Social-Posts-73.webp" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
