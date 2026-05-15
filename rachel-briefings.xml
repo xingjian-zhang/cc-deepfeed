@@ -9,667 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Thu, 14 May 2026 16:11:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 11:14:58 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🌉 🌉 五月底三连爆：BottleRock、FoodieLand、Carnaval SF 撞同一个周末</title>
-      <description>&lt;p&gt;五月底那个周末，湾区同时爆了三件大事，风格完全不搭——可以说是今年活动密度最高的 72 小时。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BottleRock Napa Valley（5/22-24）&lt;/strong&gt;：今年阵容很强，Lorde（周五）、Foo Fighters（周六）、Backstreet Boys（周日）压轴，另有 75+ 支乐队分五个舞台。坏消息：GA 三日票早已售罄，现在只剩候补名单。Platinum 套票和 Skydeck 视角席还能买到，单日票 -179，三日 -449。不赶最后一班车的话，可以考虑 Napa 小镇逛逛顺带蹭氛围——主会场对面的 Oxbow Public Market 节期间人气极高，无需门票进场。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FoodieLand 全国最大户外美食节（5/22-24，Cow Palace，Daly City）&lt;/strong&gt;：200+ 摊位，台湾卤肉饭、日式炸物、墨西哥街头玉米、各路网红甜品一网打尽。周五下午三点开门，周六周日一点起，票必须提前在 &lt;a href="https://foodielandnm.com"&gt;foodielandnm.com&lt;/a&gt; 官网购买，现场不售票。停车 ，停车场节期间能排半小时；建议坐 Muni 44 路或开到 BART Balboa Park 站再步行过去，省时省力。5 岁及以下免费进场。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Carnaval San Francisco（5/23-24，Mission 区，完全免费）&lt;/strong&gt;：第 48 届，两天 17 个街区，五个舞台，400 个摊位。重头戏是 5月24日（周日）上午十点从 24th &amp; Bryant 出发的盛大游行：来自 13+ 拉美国家的 5,500+ 艺术家、60 个方阵，头牌乐队 Mi Banda El Mexicano de Casimiro。BART 24th St 站出来直接就是现场，是 Mission 区一年最热闹的一天。&lt;/p&gt;
-
-&lt;p&gt;时间完全可以错开：周五 BottleRock、周六 FoodieLand、周日 Carnaval。周一 5月25日 Memorial Day，Ocean Beach 还有免费篝火夜（下午 5pm-9:30pm），收尾用。三个选一个也够了，三个都去的话当心腿脚。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.bottlerocknapavalley.com/"&gt;https://www.bottlerocknapavalley.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://riffmagazine.com/festivals/bottlerock-napa-daily-lineups-2026/"&gt;https://riffmagazine.com/festivals/bottlerock-napa-daily-lineups-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://foodielandnm.com/"&gt;https://foodielandnm.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://carnavalsanfrancisco.org/parade/"&gt;https://carnavalsanfrancisco.org/parade/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/san-francisco-carnaval-festival-mission/"&gt;https://sf.funcheap.com/san-francisco-carnaval-festival-mission/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">866be885-d637-5e05-b515-f2e7186c17df</guid>
-      <pubDate>Wed, 06 May 2026 08:13:33 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.bottlerocknapavalley.com/</link>
-      <enclosure url="https://www.bottlerocknapavalley.com/wp-content/uploads/2026/01/BR26-Admat-SingleDay-03-05-2026-819x1024.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 1924 年两个波兰数学家证明了：你可以把一个球切成 5 块，重新拼起来变成两个一模一样的球——而且过程中体积「合法守恒」。这条 Banach-Tarski 定理 100 年来没人能反驳，但它不可能在物理世界发生</title>
-      <description>&lt;p&gt;真的假的——给你一个完美的实心球（数学意义上的，不是橘子），允许你做的事只有三种：分成有限块、把每块平移和旋转、再拼起来。能不能拼出两个完全一样的实心球？小学生都会告诉你：不可能，体积不能凭空翻倍。&lt;/p&gt;
-
-&lt;p&gt;但&lt;strong&gt;1924 年&lt;/strong&gt;，波兰数学家 Stefan Banach 和 Alfred Tarski 在《Fundamenta Mathematicae》第 6 卷上发表了一篇 18 页的论文《Sur la décomposition des ensembles de points en parties respectivement congruentes》，证明了：&lt;strong&gt;可以&lt;/strong&gt;。而且只需要切成&lt;strong&gt;5 块&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Banach-Tarski_Paradox.svg/500px-Banach-Tarski_Paradox.svg.png" alt="Banach-Tarski 悖论示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Banach-Tarski 悖论：把一个球分成有限块，平移旋转后拼成两个一模一样的球——并且数学上完全合法。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这条定理还有更恐怖的版本，叫做&lt;strong&gt;"豌豆与太阳（pea and the sun）"&lt;/strong&gt;形式：给你一颗豌豆，按 Banach-Tarski 的方法切碎再拼，可以拼出一个和太阳一样大的实心球。反过来也行，把太阳切成几块，可以变成豌豆。&lt;strong&gt;体积在这个过程里不再是守恒量&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这听起来像魔术或者数学诡辩，但 100 年来没有任何人能在 ZFC 集合论框架内反驳它。它被称为&lt;strong&gt;悖论（paradox）&lt;/strong&gt;不是因为它有逻辑矛盾——它没有——而是因为它和我们的物理直觉有矛盾。它是&lt;strong&gt;定理&lt;/strong&gt;，不是错误。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;它怎么可能成立？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;关键有两条。第一条是&lt;strong&gt;选择公理（Axiom of Choice，AC）&lt;/strong&gt;。证明里需要从一个不可数无穷的集合族里"任取"一个代表——这件事在没有具体规则可循的情况下，需要 AC 这个公理来保证。波兰数学家自己在原论文里写："The role this axiom plays in our reasoning seems to us to deserve attention."（这个公理在我们推理中扮演的角色，值得关注。）他们已经预感到这是一颗炸弹。&lt;/p&gt;
-
-&lt;p&gt;第二条是&lt;strong&gt;不可测集（non-measurable set）&lt;/strong&gt;。Banach-Tarski 切出来的 5 块，&lt;strong&gt;没有定义良好的体积&lt;/strong&gt;——它们不是连续的几何体，是&lt;strong&gt;不可数无穷多个点的散布&lt;/strong&gt;，每一块都形如分形粉尘。Lebesgue 测度（标准的"体积"概念）根本不能给它们赋值。所以"切前体积 = 切后体积"这条定律压根不适用——你怎么"守恒"一个根本不能定义体积的东西？&lt;/p&gt;
-
-&lt;p&gt;这听起来像在耍赖。但数学界的回应是：&lt;strong&gt;恰恰相反，这件事是数学诚实的标志&lt;/strong&gt;。它告诉我们，"体积"这个概念本身有边界——超过那个边界，常识就不再适用。1929 年 Tarski 进一步证明了一个对偶定理：在二维平面上 &lt;strong&gt;Banach-Tarski 形式不成立&lt;/strong&gt;，因为二维有 Banach 测度的扩张，三维及以上没有。所以"球可以变两个"是&lt;strong&gt;三维及以上专属&lt;/strong&gt;的怪事——这件事本身已经够诡异。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;那这事在物理世界能不能发生？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不能，原因很美。Banach-Tarski 切出的 5 块每一块都是&lt;strong&gt;不可数&lt;/strong&gt;无穷多个点的集合。但物理实心球由&lt;strong&gt;有限个&lt;/strong&gt;原子组成，最多 10²³ 量级——这是&lt;strong&gt;可数的&lt;/strong&gt;。可数集合上不存在 Banach-Tarski 类的悖论分解。&lt;strong&gt;原子的离散性救了物理&lt;/strong&gt;。或者反过来说：如果我们的宇宙真是连续介质（古希腊"以太"那种概念），那豌豆变太阳就会是合法物理过程，宇宙不会那么稳定。&lt;/p&gt;
-
-&lt;p&gt;1947 年 Raphael M. Robinson 证明了 5 块是&lt;strong&gt;下界&lt;/strong&gt;——不能再少了。但你可以做出&lt;strong&gt;更夸张&lt;/strong&gt;的版本：1990 年代有人证明了"你可以把一个球面变成无穷多个一模一样的球面"——只要你愿意切成可数无穷块。&lt;/p&gt;
-
-&lt;p&gt;Banach-Tarski 还引发了一场&lt;strong&gt;哲学风暴&lt;/strong&gt;。它依赖选择公理 AC，而 AC 在 20 世纪初是争议性极大的公理——Russell、Borel、Lebesgue 都反对过。Banach-Tarski 的存在让 AC 看起来"产生了荒诞结论"，反对派用它论证 AC 应该被抛弃。但抛弃 AC 会让数学的很多基础结果（比如每个向量空间都有一组基）也跟着崩塌。最终数学界的妥协：AC 保留，但在分析学的某些子领域，研究者会明确声明"在 ZF（不带选择）下"得到的结果，避免依赖。&lt;/p&gt;
-
-&lt;p&gt;所以 Banach-Tarski 给我们的最大教训不是"数学很怪"，而是&lt;strong&gt;"直觉是局部的"&lt;/strong&gt;——我们对体积的常识来自有限大小的可测物体，外推到无穷可分的点集就失效。100 年了，这条定理依然立在那里，提醒所有学数学的人：当你说"显然不可能"，先看看你的"显然"建立在哪些不言自明的假设上。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox"&gt;https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/"&gt;https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.iflscience.com/the-mathematical-paradox-that-lets-you-create-something-from-nothing-80687"&gt;https://www.iflscience.com/the-mathematical-paradox-that-lets-you-create-something-from-nothing-80687&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://brilliant.org/wiki/banach-tarski-paradox/"&gt;https://brilliant.org/wiki/banach-tarski-paradox/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://austinrochford.com/posts/2014-05-14-banach-tarski-paradox.html"&gt;https://austinrochford.com/posts/2014-05-14-banach-tarski-paradox.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2f31381f-8871-585e-8b04-d6769e0682b2</guid>
-      <pubDate>Wed, 06 May 2026 08:13:34 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Banach-Tarski_Paradox.svg/500px-Banach-Tarski_Paradox.svg.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 🌉 Stern Grove 第89届夏日免费音乐节：Al Green + Public Enemy 压轴，六月场摇号窗口快关了</title>
-      <description>&lt;p&gt;想象一下：茂密的桉树林，天然草坡，坐着听 Al Green 唱 Let's Stay Together——完全免费。这就是 Stern Grove 的卖点，也是它从 1938 年办到第 89 届还年年满座的原因。&lt;/p&gt;
-
-&lt;p&gt;2026 年阵容刚公布，11 场横跨整个夏天（6/14-8/16），每周日下午两点，地点：Sigmund Stern Grove，19th Ave &amp;amp; Sloat Blvd，SF：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;6/14 Peter Cat Recording Co.（印度独立摇滚）+ Marinero&lt;/li&gt;
-&lt;li&gt;6/21 Bomba Estéreo（哥伦比亚拉丁电子）+ La Misa Negra&lt;/li&gt;
-&lt;li&gt;6/28 Japanese Breakfast&lt;/li&gt;
-&lt;li&gt;7/5 Major Lazer&lt;/li&gt;
-&lt;li&gt;7/12 SF Symphony × Béla Fleck（爵士班卓琴大师）&lt;/li&gt;
-&lt;li&gt;7/19 Charley Crockett + Nicki Bluhm&lt;/li&gt;
-&lt;li&gt;7/26 Suki Waterhouse&lt;/li&gt;
-&lt;li&gt;8/2 Violent Femmes + Tune-Yards&lt;/li&gt;
-&lt;li&gt;8/9 Patti LaBelle + Destani Wolf&lt;/li&gt;
-&lt;li&gt;8/15 Public Enemy（周六 Big Picnic 特别场）&lt;/li&gt;
-&lt;li&gt;8/16 Al Green + Goapele + Glide Ensemble Choir&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;关键操作：Stern Grove 实行&lt;strong&gt;摇号入场&lt;/strong&gt;制，每场开演前六周开放抽签登记，不摇到号就进不去。&lt;strong&gt;六月14日场&lt;/strong&gt;（Peter Cat Recording Co.）的摇号 5月3日已开启，今天还是最后窗口期——去 &lt;a href="https://www.sterngrove.org"&gt;sterngrove.org&lt;/a&gt; 立刻登记。其余各场往后推六周各自开窗，提前在日历上标好。&lt;/p&gt;
-
-&lt;p&gt;现场几个注意：草坡陡而且经常有露水，穿防滑鞋。SF 夏天下午常常降温到 60°F 以下，带一件抓绒。停车极难——建议 Muni 23 路或 K/M/L 轻轨到 19th Ave &amp; Eucalyptus 下车步行。可以带食物和酒进场，但不能带玻璃瓶，不能带宠物（导盲犬除外）。草坡没有固定座位，带野餐垫或折叠椅都行，早到能占好位置。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sterngrove.org/lineup2026"&gt;https://www.sterngrove.org/lineup2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/city-guide/stern-grove-festival-drops-epic-2026-lineup/"&gt;https://sf.funcheap.com/city-guide/stern-grove-festival-drops-epic-2026-lineup/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://riffmagazine.com/festivals/stern-grove-festival-2026-lineup-public-enemy/"&gt;https://riffmagazine.com/festivals/stern-grove-festival-2026-lineup-public-enemy/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0c090cf2-4523-5f87-811c-88d7b11fa0f8</guid>
-      <pubDate>Wed, 06 May 2026 08:13:57 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.sterngrove.org/lineup2026</link>
-      <enclosure url="https://riffmedia.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/28130421/Public-20250523-03.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 Cap Draa断崖人链救援失败：African Lion 2026两名美军入海失踪、P-8 Poseidon从Italy驰援</title>
-      <description>&lt;p&gt;5月2日晚9点，Morocco西南Cap Draa训练区的大西洋断崖边——一群参加African Lion 2026演习的美军在山顶等夕阳。一人滑落下海。&lt;strong&gt;战友用皮带组成人链试图拉回，链断；第二人跃海救援，被一道浪头瞬间打走；第三人下水，只够救自己。&lt;/strong&gt;5月6日搜救进入第五天，海上仍无两人下落。&lt;/p&gt;
-
-&lt;p&gt;失踪人员都是&lt;strong&gt;U.S. Army&lt;/strong&gt;士兵，名字暂未对外公布——按家属通知程序通常要等7天或确认死亡之后。Cap Draa是Tan Tan市附近的一处临海训练区，地形特点是垂直入海的高断崖，下面就是深水。Moroccan Royal Armed Forces 5/3声明给出的失联时间是当地时间约21:00。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://i.guim.co.uk/img/media/cap-draa-cliff-image.jpg" alt="" style="display:none;" /&gt;&lt;/figure&gt;
-
-&lt;p&gt;搜救资产很重——这不是一次简单的当地搜救：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Boeing P-8 Poseidon海上巡逻机&lt;/strong&gt;从Italy基地起飞驰援；&lt;/li&gt;
-&lt;li&gt;Moroccan Navy多艘巡逻艇沿海岸线扫描；&lt;/li&gt;
-&lt;li&gt;Moroccan军方&lt;strong&gt;潜水员深入Cap Draa附近海蚀洞穴搜索&lt;/strong&gt;——洋流容易把漂浮物推进岩洞；&lt;/li&gt;
-&lt;li&gt;美军和Morocco双方多架直升机+drone轮班；&lt;/li&gt;
-&lt;li&gt;African Lion参演的其他国家也共享了部分海上资产。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;关于事故性质，AFRICOM 5/5最新简报定性&lt;strong&gt;非演习相关、非敌对行为，属休假期间徒步事故&lt;/strong&gt;。这些士兵当晚不在执勤序列，是个人时间组团去看日落。Cap Draa断崖在当地的徒步资料里以"日落最美"出名，但没有围栏，沙地+碎石+海风，外军到访很容易低估风险。&lt;/p&gt;
-
-&lt;p&gt;关于African Lion 2026本身：这是AFRICOM在非洲大陆主办的&lt;strong&gt;最大规模年度联合演习&lt;/strong&gt;，今年是第22届，4月20日开打、5月8日结束，&lt;strong&gt;全期跨Morocco、Ghana、Senegal、Tunisia四国，30+国家、7000+人参与&lt;/strong&gt;，规模上甚至超过了一些北约级演习。今年的focus包括反恐、海上安全、人道援助协调——Cap Draa作为传统训练点已用多年。&lt;/p&gt;
-
-&lt;p&gt;对家属和军方的政治意义：African Lion期间&lt;strong&gt;历史上很少有美军伤亡&lt;/strong&gt;——演习设计本身回避高风险科目，过去22届基本零美方训练死亡记录。这次事故是&lt;strong&gt;非战斗、非演习&lt;/strong&gt;失踪，对AFRICOM的演习安全flag倒不会被立刻竖起来，但司令部内部要做的事很多：（1）所有参演部队的off-duty活动管理流程要复盘；（2）Cap Draa临海点的风险标识和访客管控会被U.S. Army内部AAR（After Action Review）拿出来重判；（3）家属支援程序——失踪而不是死亡的状态可能要拖几周才有明确结果，对家属是漫长煎熬。&lt;/p&gt;
-
-&lt;p&gt;从舆论角度看，这条新闻的关键转折是5/5 CBS披露的"&lt;strong&gt;有人跳海救人&lt;/strong&gt;"细节——美军士兵之间的人链救援尝试，瞬间把一条边角军讯拉到全国头条。Stars and Stripes 5/5刊文里引述AFRICOM发言人："我们将搜救持续到所有合理可能性都被排除。"军方内部对"合理可能性"的解读窗口通常是7-10天，对应的就是5/9-12这个观察点。&lt;/p&gt;
-
-&lt;p&gt;African Lion 2026按计划5/8结束。届时大部分参演单位回基地，但搜救资产会留下——Moroccan Navy承诺"无限期协助"。下一回合关注：5/8 AFRICOM简报是否给出新阶段定性（搜寻→打捞）；P-8 Poseidon任务架次是否减少（资源转移信号）；五角大楼是否开始走"presumed dead"流程（通常在第10-14天）。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/missing-us-soldiers-morocco-one-tried-to-save-another-officials-say/"&gt;https://www.cbsnews.com/news/missing-us-soldiers-morocco-one-tried-to-save-another-officials-say/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/2026/05/04/g-s1-119963/2-us-service-members-missing-in-morocco"&gt;https://www.npr.org/2026/05/04/g-s1-119963/2-us-service-members-missing-in-morocco&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/3/us-military-says-two-service-members-taking-part-in-morocco-drills-missing"&gt;https://www.aljazeera.com/news/2026/5/3/us-military-says-two-service-members-taking-part-in-morocco-drills-missing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.stripes.com/theaters/africa/2026-05-03/search-rescue-african-lion-21562827.html"&gt;https://www.stripes.com/theaters/africa/2026-05-03/search-rescue-african-lion-21562827.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.africom.mil/pressrelease/36450/search-and-rescue-ongoing-at-african-lion-2026"&gt;https://www.africom.mil/pressrelease/36450/search-and-rescue-ongoing-at-african-lion-2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.foxnews.com/us/2-us-service-members-missing-morocco-multinational-military-exercise-search-underway"&gt;https://www.foxnews.com/us/2-us-service-members-missing-morocco-multinational-military-exercise-search-underway&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">aafba124-c013-58c2-a2ff-63a700b38a07</guid>
-      <pubDate>Wed, 06 May 2026 08:14:05 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.cbsnews.com/news/missing-us-soldiers-morocco-one-tried-to-save-another-officials-say/</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/05/AP21169669159620-1777809966.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 八个物理学家用一年时间画出了「芝士胡椒面」的相图，2025 Ig Nobel 物理学奖得主说：你做不好 Cacio e Pepe 不是手艺问题，是淀粉浓度差了 1.5%</title>
-      <description>&lt;p&gt;2025 年 9 月 18 日，&lt;strong&gt;Ig 诺贝尔物理学奖&lt;/strong&gt;颁给了一个看似无聊到极点的题目：怎么把一碗 Cacio e Pepe 做不糟。意大利芝士胡椒面只有三种食材——意面、Pecorino Romano 芝士、黑胡椒——但它有一个所有意大利妈妈都默认的诅咒：芝士一旦下锅，七成的概率会瞬间凝结成橡皮一样的奶酪团，整碗面直接报废。Sapienza 大学和 Max Planck 复杂系统物理研究所的八位物理学家组队跟它死磕了一年，最终在《Physics of Fluids》上发了一篇五十多页的论文，画出了 Cacio e Pepe 的&lt;strong&gt;相图（phase diagram）&lt;/strong&gt;，一举把一道家常菜送进了软物质物理学（Soft Matter Physics）教科书。&lt;/p&gt;
-
-&lt;p&gt;问题的物理学本质很优雅。Pecorino 芝士是高蛋白高脂肪的复杂胶体，溶在水里时蛋白质分子被电荷和水合层撑开。一旦水温超过 65°C，蛋白质开始变性（denature），疏水基团暴露，分子互相黏成一坨——这就是「&lt;strong&gt;蛋白质聚集（protein aggregation）&lt;/strong&gt;」，也是为什么传统做法把面汤直接浇芝士上几乎必翻车。论文给这种灾难起了个一针见血的名字：「&lt;em&gt;Mozzarella Phase&lt;/em&gt;（马苏里拉相）」——整碗变成漂浮在水里的奶酪团块，唯一的用法是垃圾桶。&lt;/p&gt;
-
-&lt;p&gt;八个物理学家做的事情很硬核：他们系统改变芝士-水-淀粉三者比例和温度，跑了上百次实验，用图像分析量化结块大小。结论非常反直觉——单纯加面汤不够，因为面汤里的&lt;strong&gt;淀粉浓度（starch concentration）&lt;/strong&gt;是随机的，全看你煮多少面、用多少水。他们的相图给出了一个铁律：&lt;strong&gt;淀粉占芝士质量的 2-3%&lt;/strong&gt;是稳定区，低于 1% 必出 Mozzarella Phase，高于 4% 又会变成糊状。家常面汤的淀粉浓度大约在 0.5-1.5%，正好踩在悬崖边上——这就解释了为什么这道菜既被尊为罗马灵魂也被全世界厨师称为噩梦。&lt;/p&gt;
-
-&lt;p&gt;论文给出的最终方案有点反传统：&lt;strong&gt;不要用面汤兑芝士。&lt;/strong&gt;正确做法是先单独取一份冷水，加入约相当于芝士质量 2-3% 的玉米淀粉或马铃薯淀粉，搅拌煮至清亮黏稠（淀粉糊化）。这一步在低温下让淀粉颗粒充分水合，形成保护性多糖网络。降温后再拌入磨碎的 Pecorino 和现磨胡椒，做成「芝士酱基底」。最后把刚煮好的意面捞出（保持 65°C 以下接触温度），分次淋入酱料拌匀。整套流程的物理逻辑是用淀粉的&lt;strong&gt;大分子保护层&lt;/strong&gt;预先包裹蛋白质胶束，阻止它们在升温时直接撞在一起。&lt;/p&gt;
-
-&lt;p&gt;这项研究在意大利掀起了一场口水战。罗马传统派厨师集体怒斥「淀粉是欺诈，老祖宗不需要这玩意」；与此同时论文在 arXiv 上的下载量冲到了软物质类目第一。共同作者 Daniel Maria Busiello 在领奖时说了句几乎可以载入科学史的话：「我们不是在告诉你们怎么做菜。我们是在告诉你们，为什么你们一直做不好。」Ig Nobel 委员会的颁奖词更冷幽默——「奖给那些用流体力学解释为什么你的婚姻在罗马蜜月期间破裂的研究者」。&lt;/p&gt;
-
-&lt;p&gt;更深一层，这篇论文揭示了一个被低估的事实：&lt;strong&gt;食物物理学（food physics）正在快速学院化&lt;/strong&gt;。从 2024 年 ETH Zürich 的意大利面捻断研究（Feynman 曾经研究过的「为什么意面总是断成三截」）到 2023 年苏黎世大学的卡布奇诺奶泡稳定性论文，传统厨房里的"祖传秘方"正在被一行行偏微分方程改写。下一个目标？据物理学家私下透露，是 Carbonara——含蛋黄的版本物理上比 Cacio e Pepe 还难。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce"&gt;https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2501.00536"&gt;https://arxiv.org/abs/2501.00536&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2025/09/250918225012.htm"&gt;https://www.sciencedaily.com/releases/2025/09/250918225012.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ista.ac.at/en/news/2025-ig-nobel-prize-for-perfect-pasta-sauce/"&gt;https://ista.ac.at/en/news/2025-ig-nobel-prize-for-perfect-pasta-sauce/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://physics.aps.org/articles/v18/163"&gt;https://physics.aps.org/articles/v18/163&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e00355d1-7292-5445-8c86-4b7b3bc3cbe2</guid>
-      <pubDate>Thu, 07 May 2026 08:09:16 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://pubs.aip.org/aip/pof/article/37/4/044122/3345324/Phase-behavior-of-Cacio-e-Pepe-sauce</link>
-      <enclosure url="https://scx2.b-cdn.net/gfx/news/2025/2025-09-ig-physics-nobel-prize-pasta.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 现在还有格陵兰鲨在北大西洋游泳，它们出生那年莎士比亚还在写《哈姆雷特》：用核试验留下的碳-14「炸弹脉冲」给鲨鱼眼球晶状体定年，最大个体 392 ± 120 岁，性成熟需要 156 年</title>
-      <description>&lt;p&gt;2016 年 8 月，丹麦哥本哈根大学的 Julius Nielsen 在《Science》上发表了一篇看似不该被刊登在顶刊上的论文：&lt;strong&gt;格陵兰鲨（Greenland shark, Somniosus microcephalus）的寿命可能超过 400 年。&lt;/strong&gt;这意味着今天还在北大西洋深海游泳的某些个体，出生时莎士比亚还在写《哈姆雷特》。论文一夜之间把这种长得像史前怪物的鲨鱼推上了「&lt;strong&gt;地球上已知最长寿的脊椎动物&lt;/strong&gt;」宝座，把之前的纪录保持者弓头鲸（Bowhead whale，约 211 年）整整甩开一个世纪。&lt;/p&gt;
-
-&lt;p&gt;这个发现的难点不在抓鱼，而在&lt;strong&gt;怎么给一条没有耳石、没有年轮的鲨鱼定年&lt;/strong&gt;。鲨鱼是软骨鱼，全身没有一块能像树一样数年轮的硬组织。但 Nielsen 想到了一个非常聪明的把戏：&lt;strong&gt;眼球晶状体的核心（eye lens nucleus）&lt;/strong&gt;。鲨鱼出生时晶状体核心就已形成，此后终身不再代谢。如果你能测出晶状体核心碳-14 的同位素水平，就等于读到了它出生那年大气中的 ¹⁴C 浓度——而 1950 年代的核武器试验在大气里留下了一道清晰的「&lt;strong&gt;炸弹脉冲（bomb pulse）&lt;/strong&gt;」，把全球大气 ¹⁴C 在十年内拉高了一倍。这是地球化学家最爱的天然时钟。&lt;/p&gt;
-
-&lt;p&gt;Nielsen 团队从格陵兰岛附近渔业误捕的 28 条雌性格陵兰鲨身上取下晶状体（鲨鱼长度从 81 cm 到 502 cm），送到伍兹霍尔加速器质谱实验室。结果震惊全场：只有最小的几条鲨鱼（≤220 cm）的晶状体里测得到 1960 年代的炸弹脉冲信号。其他个体的 ¹⁴C 全都低于 1950 基线——它们出生时根本没有人类核试验。校准后，最大的那条 502 cm 雌鲨估算年龄是 &lt;strong&gt;392 ± 120 岁&lt;/strong&gt;，可能跨越 1505 到 1745 年间。论文给出的保守下限是 272 岁，意味着哪怕用最严格的统计区间，这条鱼也比美利坚合众国还老。&lt;/p&gt;
-
-&lt;p&gt;更让人发抖的是&lt;strong&gt;性成熟年龄&lt;/strong&gt;：约 156 岁。也就是说，一条格陵兰鲨从出生到能繁殖第一次后代，需要经历整个文艺复兴。这种慢得不真实的生命节奏背后是它们的生存环境——格陵兰鲨生活在 &lt;strong&gt;1-12°C 的极地深水（200-2200 米）&lt;/strong&gt;，新陈代谢率极低，每年只长约 1 cm。他们以腐肉为生，胃里曾经发现过完整的北极熊和驯鹿（推测是从冰面掉下去的尸体），偶尔会在 600 米深的海床用 0.34 m/s 的爬行速度——是的，比人类散步慢 10 倍——把毫无戒备的睡眠中的海豹吞下去。&lt;/p&gt;
-
-&lt;p&gt;这种鱼还有一个让人心碎的特征：&lt;strong&gt;几乎所有成年个体都是瞎的。&lt;/strong&gt;因为格陵兰鲨眼角膜上几乎都寄生着一种叫 Ommatokoita elongata 的桡足类（copepod），这种寄生虫从鲨鱼眼睛里伸出 5 厘米长的卵囊，最终把宿主的视觉摧毁。但格陵兰鲨视觉本就不发达，主要靠嗅觉和侧线觅食，所以瞎了对它们影响有限。2025 年 11 月，丹麦水产研究所在《Nature Communications》发了后续论文，证明&lt;strong&gt;剩下没瞎的格陵兰鲨视网膜在 100 多岁时仍然功能正常&lt;/strong&gt;——这意味着鲨鱼眼睛里的视网膜光感受器和神经节细胞拥有目前已知最长的脊椎动物功能寿命。&lt;/p&gt;
-
-&lt;p&gt;这项研究的意义远超古生物学猎奇。格陵兰鲨现在被 IUCN 列为&lt;strong&gt;易危物种（Vulnerable）&lt;/strong&gt;，但因为渔业混捕而每年仍有约 3500 条死于渔网。一条 400 岁的鱼被渔网拖死，从生物学时间尺度看相当于把一棵红杉砍倒——但红杉至少还能再种回去，格陵兰鲨需要 156 年才能再生育一次。冰岛和格陵兰早期渔民会用它的肝脏炼油，肉则用乳酸菌发酵成 Hákarl（冰岛国菜，新鲜肉因肉中三甲胺氧化物含量过高有毒，必须经过几个月发酵）。地球上还有多少 1600 年代出生的活体在我们身边游？没人知道。但 Nielsen 的论文留下了一句论文中罕见的诗意结语：「&lt;em&gt;Some sharks alive today are likely to have been alive when Newton wrote the Principia.&lt;/em&gt;」&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/science.aaf1703"&gt;https://www.science.org/doi/10.1126/science.aaf1703&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/27516602/"&gt;https://pubmed.ncbi.nlm.nih.gov/27516602/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/08/160811143218.htm"&gt;https://www.sciencedaily.com/releases/2026/08/160811143218.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41467-025-67429-6"&gt;https://www.nature.com/articles/s41467-025-67429-6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Greenland_shark"&gt;https://en.wikipedia.org/wiki/Greenland_shark&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">81158a01-b5f8-5b91-b238-a1fe23e79182</guid>
-      <pubDate>Thu, 07 May 2026 08:10:12 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.science.org/doi/10.1126/science.aaf1703</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Somniosus_microcephalus_okeanos.jpg/1280px-Somniosus_microcephalus_okeanos.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 五月长周末去哪儿？Memorial Day 2026 湾区活动全攻略</title>
-      <description>&lt;p&gt;Memorial Day 三天小长假（5月23-25日）马上来了，先把几个不容错过的活动记到日历里。&lt;/p&gt;
-
-&lt;h3&gt;🎉 Carnaval SF（5月23-24日，Mission 区，免费）&lt;/h3&gt;
-&lt;p&gt;今年第46届，24th Street &amp;amp; Bryant 附近绵延17个街区，11am-6pm 两天都有。5个舞台、400个摊位，周六热闹，周日10am-2pm 大游行是重头戏——从 24th &amp;amp; Bryant 出发，往 Mission、15th Street、S. Van Ness 绕一圈，拉丁美洲各国文化全上了。完全免费，去晚了停车会有点头疼，建议坐 BART 到 24th St Mission 站。&lt;/p&gt;
-
-&lt;h3&gt;🔥 Ocean Beach 篝火夜（5月25日 Memorial Day 当天，免费）&lt;/h3&gt;
-&lt;p&gt;5-9:30pm，Golden Gate Park 西边的 Ocean Beach，每年 Memorial Day 传统。傍晚温度 13-16°C 左右，带件抓绒，带瓶酒，在海边对着夕阳喝一杯——是那种「啊湾区真的挺好住的」的时刻。不需要预约，直接去就行。&lt;/p&gt;
-
-&lt;h3&gt;🏔 Yosemite：今年不需要入园预约&lt;/h3&gt;
-&lt;p&gt;2026年 Yosemite 取消了入园预约制，这是好消息；坏消息是 Memorial Day 周末肯定挤。Half Dome 缆绳5月22日（周五）上架，但许可证3月已抽签结束，这次没机会了。替代方案：Mist Trail（Vernal Falls / Nevada Falls）、Hetch Hetchy 的 Wapama Falls 线路春季水量充沛，比 Half Dome 人少一半。入园最好8am前到，否则入口可能排队1-2小时。&lt;/p&gt;
-
-&lt;h3&gt;🌲 近郊徒步：Purisima Creek Redwoods（Half Moon Bay 上方）&lt;/h3&gt;
-&lt;p&gt;不想开3小时去 Yosemite？这个地方离南湾只有40分钟。红木 + 海岸山脊，走 Harkins Ridge 可以俯瞰太平洋。停车场周末正午前就满，建议9am出发。旁边就是 Half Moon Bay，顺道去海边吃个 Sam's Chowder House 也不错。&lt;/p&gt;
-
-&lt;h3&gt;🍹 彩蛋：SF AAPI Cocktail Week（5月24-28日）&lt;/h3&gt;
-&lt;p&gt;第四届，主题「Spice Routes」，Opening Party 在 Pacific Cocktail Haven（SoMa）。参与的酒吧会推出亚裔调酒师特调，大多数场次需要提前买票，票价-60不等。门票在 sfaapicocktailweek.com。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;实用提示：&lt;/strong&gt;BottleRock Napa（Foo Fighters + Lorde 压轴）上周提的——全票已售罄，Waitlist。没票就别惦记了，把精力放 Carnaval 吧。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://carnavalsanfrancisco.org/"&gt;https://carnavalsanfrancisco.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/san-francisco-carnaval-festival-mission/"&gt;https://sf.funcheap.com/san-francisco-carnaval-festival-mission/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sftourismtips.com/memorial-day-in-san-francisco.html"&gt;https://www.sftourismtips.com/memorial-day-in-san-francisco.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0aad3617-d690-5a90-a9af-e12133349a00</guid>
-      <pubDate>Thu, 07 May 2026 08:11:01 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://carnavalsanfrancisco.org/</link>
-    </item>
-    <item>
-      <title>🎲 🎲 1848 年一根 6 公斤铁棒贯穿 25 岁工头 Phineas Gage 的整个左前额叶，他不仅没死，还自己走上旅店台阶等医生：「他不再是 Gage」——人类医学史上第一例被详细记录的「大脑损伤后人格改变」</title>
-      <description>&lt;p&gt;1848 年 9 月 13 日下午四点半，美国佛蒙特州 Cavendish 镇的 Rutland &amp; Burlington 铁路工地上，&lt;strong&gt;25 岁的工头 Phineas Gage&lt;/strong&gt; 正在用一根定制的 &lt;strong&gt;3 英尺 7 英寸长（109 cm）、直径 3.2 cm、重 13.25 磅（6 kg）的尖头铁棒&lt;/strong&gt;把火药压实进岩石钻孔。他的助手分了神，他直接用铁棒往下捣——结果火星溅出，火药瞬间在这根铁棒的底端爆炸。铁棒像炮弹一样从孔里轰出来，&lt;strong&gt;从他左脸颊下方进入，穿过左眼后方，贯穿整个左侧前额叶（frontal lobe），从颅顶飞出&lt;/strong&gt;，落在 25 米开外的地上沾着脑组织。&lt;/p&gt;
-
-&lt;p&gt;Gage 的故事从这里开始变得彻底超现实。他&lt;strong&gt;没有死&lt;/strong&gt;。事实上据 Cavendish 镇医生 John Harlow 的记录，Gage 不仅活了下来，他甚至&lt;strong&gt;没有失去意识&lt;/strong&gt;。他被工友抬上一辆牛车坐着回到镇上，自己走上了旅店的台阶，坐到走廊上等医生来。Harlow 到达时第一句话是「Doctor, here is business enough for you」（医生，这下够你忙了）。当晚 Gage 还在跟人聊天，第二天能正常说话。Harlow 用各种他能想到的方式清理了伤口——包括把他自己的两根手指&lt;strong&gt;同时伸进铁棒造成的颅顶出口和颅底入口&lt;/strong&gt;互相摸到对方——确认大脑确实被一根棒子贯穿过。Gage 在感染了三个月（脓液把伤口烧成 fungus cerebri 真菌脑），活过了 19 世纪医学最致命的并发症，最终完全康复了身体。&lt;/p&gt;
-
-&lt;p&gt;但他&lt;strong&gt;不再是同一个人&lt;/strong&gt;了。&lt;/p&gt;
-
-&lt;p&gt;事故前的 Gage 是工头的典范——稳重、可靠、计划周全、有威望。他的雇主 Rutland &amp; Burlington 铁路公司在他出事前的评语是「公司最得力、最有效率的工头」。事故后呢？Harlow 1868 年在《马萨诸塞医学会报》发表的二次报告里有一段成为神经科学经典的描述：「&lt;em&gt;他的智力和动物的本能之间的平衡似乎被毁掉了。他变得反复无常、不敬、时不时迸发出极其亵渎的脏话（这在他从前完全不存在）、对同伴几乎不再表现任何尊重、对他不喜欢的限制或建议毫无忍耐力、有时候非常固执但又总是反复变换计划、做事冲动而无远见……他的朋友和熟人都说，他「&lt;strong&gt;不再是 Gage&lt;/strong&gt;」（"no longer Gage"）。&lt;/em&gt;」&lt;/p&gt;
-
-&lt;p&gt;这是&lt;strong&gt;人类医学史上第一例被详细记录的「人格在大脑损伤后改变」案例&lt;/strong&gt;，也是为什么 Gage 后来被 William James 写进 1890 年的《心理学原理》并成为今天每一本神经科学教材必讲的故事。在 1848 年那个还信奉颅相学（phrenology）但还没人知道大脑各区域功能分工的年代，Gage 的案例第一次&lt;strong&gt;暗示前额叶皮层（prefrontal cortex）和人格、决策、社会行为有直接关系&lt;/strong&gt;——这条线索后来直接演化出 1990 年代 Antonio Damasio 的「躯体标记假说（somatic marker hypothesis）」和今天的腹内侧前额叶（vmPFC）研究。&lt;/p&gt;
-
-&lt;p&gt;但故事还有一个常被遗忘的反转。后来的历史研究——尤其是 2009 年 Macmillan 和 Lena 在《Neuropsychologia》上的复盘——指出，&lt;strong&gt;Gage 后期可能恢复了相当一部分人格功能&lt;/strong&gt;。事故后的他做了什么？他先是在新罕布什尔州一家酒馆当噱头展览自己（带着那根铁棒），然后去了智利首都圣地亚哥&lt;strong&gt;当了七年长途马车夫&lt;/strong&gt;——这是一个需要复杂规划、社交协调、应对突发的高难度工作。他能稳定地干这份工作，说明他的执行功能在十多年里得到了显著恢复，可能是大脑神经可塑性（neuroplasticity）的一个早期案例。&lt;/p&gt;
-
-&lt;p&gt;1860 年 5 月 21 日，事故 12 年后，Gage 在加州死于一系列癫痫发作并发症，享年 36 岁。1867 年他的家人按 Harlow 的请求&lt;strong&gt;把遗体掘出来&lt;/strong&gt;，把头骨和那根铁棒一起寄回马萨诸塞。Harlow 1868 年把它们捐给了 Harvard Medical School 的 &lt;strong&gt;Warren 解剖博物馆（Warren Anatomical Museum）&lt;/strong&gt;，今天它们仍然是该馆最受访客追索的展品。&lt;strong&gt;那根铁棒上还刻着字。&lt;/strong&gt;Gage 的家人在他活着的那段时间，用尖刀亲自在铁棒上刻了铭文：「This is the bar that was shot through the head of Mr. Phineas P. Gage at Cavendish, Vermont, Sept 13, 1848」（这是 1848 年 9 月 13 日在佛蒙特州 Cavendish 射穿 Phineas P. Gage 先生头颅的铁棒）——Gage 去世前，这根铁棒一直跟着他出现在巡回展览上。它见证过自己造的伤，也见证过自己被治愈的过程。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phineas_Gage"&gt;https://en.wikipedia.org/wiki/Phineas_Gage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://collections.countway.harvard.edu/onview/exhibits/show/beyond-the-bone-box/the-case-of-phineas-gage"&gt;https://collections.countway.harvard.edu/onview/exhibits/show/beyond-the-bone-box/the-case-of-phineas-gage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://hms.harvard.edu/news/new-view-phineas-gage"&gt;https://hms.harvard.edu/news/new-view-phineas-gage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC1114479/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/history/phineas-gage-neurosciences-most-famous-patient-11390067/"&gt;https://www.smithsonianmag.com/history/phineas-gage-neurosciences-most-famous-patient-11390067/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d2312b3c-be97-5146-848c-f53fc7653890</guid>
-      <pubDate>Thu, 07 May 2026 08:11:07 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Phineas_Gage</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_Cropped.jpg/800px-Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_Cropped.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 太二酸菜鱼已登陆 Valley Fair！大陆知名连锁终于来到南湾</title>
-      <description>&lt;p&gt;如果你在国内吃过太二酸菜鱼，看到这条消息可能会比较激动：&lt;strong&gt;太二（Tai Er）已于4月正式在 Santa Clara Westfield Valley Fair 开业&lt;/strong&gt;，这是湾区第二家（第一家2025年底开在 San Mateo）。&lt;/p&gt;
-
-&lt;h3&gt;📍 基本信息&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;地址：&lt;/strong&gt;2855 Stevens Creek Blvd, Unit A268, Santa Clara, CA 95050（Valley Fair 购物中心内）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;营业时间：&lt;/strong&gt;周一至周四 11am-9:30pm；周五至周六 11am-10:30pm；周日 11am-9:30pm&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开车：&lt;/strong&gt;距 Menlo Park 约25分钟，停车免费&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;🐟 招牌菜 &amp;amp; 价格&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;酸菜鱼 &lt;/strong&gt; ——就是那个用黑鱼（Snakehead Fish）、猪骨汤底加上自制发酵23天的四川酸菜炖出来的那道，号称「鱼比菜贵」。配上干辣椒和藤椒，麻而不燥，酸爽解腻。&lt;/p&gt;
-&lt;p&gt;其他菜：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;小食 -15：脆皮猪肉条、拍黄瓜&lt;/li&gt;
-&lt;li&gt;点心 -10：抄手（钵钵香麻红油版）&lt;/li&gt;
-&lt;li&gt;大菜 -28：宫保虾仁、重庆辣子鸡、水煮黑椒牛肉、麻婆豆腐&lt;/li&gt;
-&lt;li&gt;Valley Fair 独家：青柠蜜汁糖醋虾、松露菌菇炒饭&lt;/li&gt;
-&lt;li&gt;甜品 -9：麻薯炸球 + 冰淇淋 + 红糖浆&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;🍽 吃之前要知道&lt;/h3&gt;
-&lt;p&gt;太二在国内以「不改菜」出名——不加辣、不减辣、不改料，这在美国门店执行力度可能不同，但心理上做好准备。餐厅约100座位，有开放式厨房，能看到大火炒菜，视觉上就很下饭。San Mateo 那家目前 Yelp 已有 200+ 评价，整体4星。&lt;/p&gt;
-
-&lt;p&gt;对于想吃酸菜鱼但不想开车去 Richmond 中国城或 Cupertino 的南湾居民来说，Valley Fair 这家确实方便很多。周末可能排队，建议平日午餐或周末开门时段去。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.thesanjoseblog.com/2026/04/tai-er-sichuan-cuisine-opens-at-valley.html"&gt;https://www.thesanjoseblog.com/2026/04/tai-er-sichuan-cuisine-opens-at-valley.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.fsrmagazine.com/industry-news/asian-concept-tai-er-to-open-new-location-at-westfield-valley-fair-in-santa-clara-california/"&gt;https://www.fsrmagazine.com/industry-news/asian-concept-tai-er-to-open-new-location-at-westfield-valley-fair-in-santa-clara-california/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a4945cc5-b780-5215-ada5-fc939d746edb</guid>
-      <pubDate>Thu, 07 May 2026 08:11:23 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.thesanjoseblog.com/2026/04/tai-er-sichuan-cuisine-opens-at-valley.html</link>
-      <enclosure url="https://lh3.googleusercontent.com/p/AF1QipNB3Xx5cVrETkV7BJ3X_GaJjuABKRjFhAU3wXkH=s1360-w1360-h1020" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 Lancet Neurology 加拿大自然实验：23 万安省老人数据再证带状疱疹疫苗能延缓痴呆——绝对风险下降 2 个百分点</title>
-      <description>&lt;p&gt;带状疱疹疫苗（herpes zoster vaccine）能预防或延缓痴呆的证据链又添一笔。2026 年 2 月发表于 &lt;em&gt;The Lancet Neurology&lt;/em&gt; 的一篇论文（Pomirchy M et al., 25 卷 2 期 170–180 页），由 Stanford 团队 Pascal Geldsetzer 领衔，这次借的是加拿大安大略省 2016 年开始的免费疫苗推行计划。这是继 2025 年 4 月 &lt;em&gt;Nature&lt;/em&gt; 威尔士研究、2025 年 12 月 &lt;em&gt;Cell&lt;/em&gt; 多阶段队列分析之后，同一团队第三次用&lt;strong&gt;自然实验设计&lt;/strong&gt;逼近因果推断。&lt;/p&gt;&lt;p&gt;样本量是迄今最大：&lt;strong&gt;232,124 名 70 岁以上加拿大人&lt;/strong&gt;，来自 1,434 家初级保健机构的 Canadian Primary Care Sentinel Surveillance Network。安省把出生日期定为分配规则——1946 年 1 月 1 日及之后出生者可在 71 岁免费接种活减毒疫苗（Zostavax），之前出生者则失去资格。这种基于政策门槛的不连续设计，让 1945 年 12 月底和 1946 年 1 月初出生的人在所有可观测和不可观测特征上几乎一致，唯一差异就是疫苗接种率，从而模拟随机化。痴呆诊断追踪自 1990 年至 2022 年 6 月，主分析窗口为政策实施后 5.5 年。&lt;/p&gt;&lt;p&gt;核心结果：在出生日期临近 1946 年 1 月 1 日门槛的两组之间，疫苗资格组的新发痴呆诊断&lt;strong&gt;绝对风险下降 2.0 个百分点&lt;/strong&gt;，且置信区间不跨零。研究还设了 1945 年 1 月 1 日次级阈值（该年仅 3.5 个月窗口期），结果方向一致。2 个百分点听起来不大，但放在 5.5 年窗口里，相当于把 100 个老人中 2 例痴呆推后或避免——这超过目前任何抗淀粉样蛋白单抗药物的临床获益规模，而后者每年要花几万美元、还伴随脑水肿风险。&lt;/p&gt;&lt;p&gt;方法学上值得专门讲一句。传统疫苗-痴呆观察性研究有个无法消除的偏倚：愿意打疫苗的人本身更健康、更注重健康行为、医保覆盖更好，这些&lt;em&gt;healthy vaccinee bias&lt;/em&gt; 会系统性夸大保护效应。Geldsetzer 团队过去四年的核心方法论贡献，就是利用各国疫苗推行的政策不连续性——威尔士按出生周划线、安省按出生月划线——把这类偏倚切干净。三个独立国家、三种不同设计、效应方向一致，这种 triangulation 证据强度已经接近 RCT。&lt;/p&gt;&lt;p&gt;机制还在猜。两条主流假说：一是 varicella-zoster 病毒再激活会触发慢性神经炎症和血管内皮功能障碍，疫苗压制再激活就保护了大脑；二是活减毒疫苗的非特异性免疫训练（trained immunity）改善了老年人的整体神经免疫稳态。前两次研究里女性获益更明显，作者推测与雌激素退潮后免疫反应的性别差异有关。本次安省论文未公布性别分层 HR，需要等补充材料。&lt;/p&gt;&lt;p&gt;实践含义直白：如果你 50 岁以上还没接种带状疱疹疫苗（美国 CDC 推荐重组亚单位疫苗 Shingrix，两针，间隔 2–6 个月），把它列进今年的健康清单。这是目前 evidence-based 程度最高的痴呆一级预防干预之一，比补任何益智补剂都靠谱。下一步值得追踪的是：（1）重组疫苗 Shingrix vs 活减毒 Zostavax 在痴呆终点的头对头比较——既往观察性研究提示前者可能更强；（2）Geldsetzer 团队下一步从 medRxiv 已挂出的英国 cohort 扩展研究；（3）疫苗在 APOE4 携带者亚组的效应是否更大。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(25)00455-7/fulltext"&gt;https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(25)00455-7/fulltext&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cidrap.umn.edu/adult-non-flu-vaccines/analysis-adds-evidence-shingles-vaccine-prevents-or-delays-new-onset"&gt;https://www.cidrap.umn.edu/adult-non-flu-vaccines/analysis-adds-evidence-shingles-vaccine-prevents-or-delays-new-onset&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41579903/"&gt;https://pubmed.ncbi.nlm.nih.gov/41579903/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.emjreviews.com/neurology/news/shingles-vaccine-tied-to-fewer-dementia-diagnoses/"&gt;https://www.emjreviews.com/neurology/news/shingles-vaccine-tied-to-fewer-dementia-diagnoses/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">29dcbc2e-92c2-5705-86d8-1e6b260b9304</guid>
-      <pubDate>Thu, 07 May 2026 08:11:40 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(25)00455-7/fulltext</link>
-    </item>
-    <item>
-      <title>🎨 Figma's May 5 Release Notes Made the Agent-on-Canvas Story Official: Skills, MCP, and a Voice-First Make / Figma 5月5日 Release Notes 把「Agent 在画布上设计」正式坐实：Skills、MCP 与语音版 Make</title>
-      <description>&lt;p&gt;The May 5 Figma Release Notes livestream — the first since the March 24 launch of &lt;code&gt;use_figma&lt;/code&gt; write-to-canvas — did something the original announcement couldn't: it stitched the pieces together into a story most teams can actually adopt. Watching it back, three concrete shifts stand out, and they collectively make the agent-on-canvas workflow the new default narrative for Config 2026 (Jun 23–25) rather than a March experiment that might fade.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png" alt="Figma canvas showing code and design side by side" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Figma's framing of the new workflow: a single shared context across code editor and canvas. Source: Figma blog.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Skills are now the surface area, not tools.&lt;/strong&gt; The May Release Notes formalized nine pre-built skills as the canonical interface — &lt;code&gt;/figma-generate-library&lt;/code&gt;, &lt;code&gt;/figma-generate-design&lt;/code&gt;, &lt;code&gt;/apply-design-system&lt;/code&gt;, &lt;code&gt;/sync-figma-token&lt;/code&gt;, &lt;code&gt;/edit-figma-design&lt;/code&gt;, &lt;code&gt;/multi-agent&lt;/code&gt;, plus three community skills (&lt;code&gt;/create-voice&lt;/code&gt; from Uber's Ian Guisard, &lt;code&gt;/cc-figma-component&lt;/code&gt; from Nick Villapiano, &lt;code&gt;/rad-spacing&lt;/code&gt; from Nolan Perkins). Skills are markdown files. They tell the agent &lt;em&gt;which MCP tools to call, in what order, and how to apply the result&lt;/em&gt;. The clearest framing comes from Bitovi's first-look: "the agent doesn't pick up on a linked design system unless you tell it to." Without skills, write-to-canvas hardcodes spacing and color values — defeating the design system. With skills, the agent reaches for variables, components, and Code Connect mappings on its own. This is the same DESIGN.md vs Figma Skills competition the April thread has been tracking, except now Figma has shipped the equivalent of npm-style installable defaults. DESIGN.md still wins on portability across tools; Skills win on canvas-aware execution.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FigJam became the agent's whiteboard.&lt;/strong&gt; The April 28 add of &lt;code&gt;generate_diagram&lt;/code&gt; for ERDs and architecture diagrams was the first hint. May fully extended this: a &lt;code&gt;figma-use-figjam&lt;/code&gt; foundational skill, board read/write, a &lt;code&gt;generate-project-plan&lt;/code&gt; skill, and Mermaid.js paste-to-canvas. The pattern Figma is converging on: the coding agent generates a plan in FigJam, the designer (or PM) reviews and edits the plan, the agent then walks the plan on the design canvas. It's the missing first step that made the March demo feel like "agent improvises a screen" rather than "agent executes a spec." Read access still requires Dev seat; write requires Full seat — and the Dev/Full seat split is now the cleanest pricing wedge Figma has between designer and developer audiences.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png" alt="Terminal command running an agent that writes to Figma canvas" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Agent writes Figma-native frames, components, and variables — not a flat image export.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Make got a voice-first pivot, not a tools dump.&lt;/strong&gt; The April 30 Make additions read at first like a feature list — voice-to-text prompts, question cards, version history, clear context, Zapier connector — but they cohere around one workflow: "talk to Make about what you want, let it ask clarifying questions, branch into versions when you change your mind." Voice-to-text isn't dictation; it transcribes, lets you review, then submits. Question cards force the agent to ask before assuming, with each option carrying a tradeoff description. The Zapier connector pulls from Google Drive, Microsoft Office, Zoom, and 9,000+ other apps — meaning Make can read a sales call transcript and propose a feature spec in the same session. This is what "agentic Make" looks like when it's treated as a co-design partner instead of a generator.&lt;/p&gt;
-
-&lt;p&gt;The connecting thesis: &lt;strong&gt;the bottleneck has moved from canvas operations to canvas &lt;em&gt;conventions&lt;/em&gt;&lt;/strong&gt;. Anyone can write to a Figma file now. Only teams with codified skills (markdown), explicit token names, and Code Connect mappings get output that doesn't have to be redone. The April zeroheight 2026 report's grim numbers — 7% full design-system adoption, 40% token automation, 44% missing accessibility specialists — predict exactly which teams will benefit and which won't. Skills assume design-system maturity that two-thirds of teams don't have. For Config 2026 the inflection question is: does Figma ship something to bridge that gap (perhaps a generative design-system bootstrap), or does the gap become the new line that separates AI-leveraged teams from everyone else?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Concrete takeaway:&lt;/em&gt; if your team is Figma-resident, install the Figma plugin in Cursor today, write one skill (a single markdown file naming your color and spacing variables and your three canonical components), and run &lt;code&gt;/apply-design-system&lt;/code&gt; on an existing screen. Twenty minutes, and you'll know whether your tokens are good enough yet.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Figma 5月5日的 Release Notes 直播——3月24日 &lt;code&gt;use_figma&lt;/code&gt; 写画布功能上线以来的第一次——做成了原始公告做不到的事：把零散的部件缝成了大多数团队真能落地的叙事。回看下来有三个具体转变值得拿出来说，它们合起来让 "agent 在画布上设计" 从一个三月份的实验跃升为 Config 2026（6月23-25日）的默认主线。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Skills 才是真正的接口，工具是底层细节。&lt;/strong&gt;5月的 Release Notes 把九个预置 skill 正式定为标准接口——&lt;code&gt;/figma-generate-library&lt;/code&gt;、&lt;code&gt;/figma-generate-design&lt;/code&gt;、&lt;code&gt;/apply-design-system&lt;/code&gt;、&lt;code&gt;/sync-figma-token&lt;/code&gt;、&lt;code&gt;/edit-figma-design&lt;/code&gt;、&lt;code&gt;/multi-agent&lt;/code&gt;，外加三个来自社区的 skill（Uber Ian Guisard 的 &lt;code&gt;/create-voice&lt;/code&gt;、Nick Villapiano 的 &lt;code&gt;/cc-figma-component&lt;/code&gt;、Nolan Perkins 的 &lt;code&gt;/rad-spacing&lt;/code&gt;）。Skills 就是 markdown 文件，告诉 agent &lt;em&gt;调哪些 MCP 工具、按什么顺序、结果怎么用&lt;/em&gt;。Bitovi 的首发评测里有一句最直白的话："除非你明确告诉它，agent 是认不出关联的设计系统的。"没有 skill，写画布功能会硬编码间距和颜色——等于绕开了整套设计系统。有 skill，agent 才会自己去抓 Variables、组件和 Code Connect 映射。这正是4月份在追踪的 DESIGN.md 与 Figma Skills 之间的较量，区别在于 Figma 现在把 npm 风格的可安装默认 skill 集做出来了。DESIGN.md 在跨工具可移植性上仍占优；Skills 在画布感知的执行能力上占优。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FigJam 成了 agent 的白板。&lt;/strong&gt;4月28日给 &lt;code&gt;generate_diagram&lt;/code&gt; 加上 ERD 和架构图生成只是开头。5月把这件事彻底铺开：&lt;code&gt;figma-use-figjam&lt;/code&gt; 基础 skill、看板的双向读写、&lt;code&gt;generate-project-plan&lt;/code&gt; skill，以及 Mermaid.js 粘贴到画布。Figma 收敛出的模式是：编码 agent 在 FigJam 生成计划，设计师（或 PM）审阅并编辑这个计划，agent 再到设计画布上把计划走一遍。这正是三月份 demo 缺的那一步——之前看起来像 "agent 在临场即兴出屏幕"，现在终于变成 "agent 在执行规格"。读权限仍需 Dev seat，写权限要 Full seat——Dev/Full seat 的拆分如今是 Figma 在设计师与开发者两个受众之间最清楚的定价分水岭。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Make 走的是语音优先，不是功能堆料。&lt;/strong&gt;4月30日 Make 的几项更新——语音输入、Question cards、版本历史、clear context、Zapier 连接器——乍看是列表式的功能 dump，仔细看会发现它们围绕同一个工作流："用嘴跟 Make 说你想要什么，让它反问澄清，改主意时就分支出新版本。"语音不是单纯的听写；它转写之后让你审阅，再提交。Question cards 逼着 agent 在动手前先问，每个选项都附一句 tradeoff。Zapier 连接器接通 Google Drive、Microsoft Office、Zoom 和 9000+ 个应用——意味着 Make 可以在同一个 session 里读一份销售电话纪要、然后提出 feature spec。这就是 "agentic Make" 被当作协同设计伙伴而非生成器使用时该有的样子。&lt;/p&gt;
-
-&lt;p&gt;把这三件事串起来的论点是：&lt;strong&gt;瓶颈已经从画布操作转移到了画布&lt;em&gt;规约&lt;/em&gt;&lt;/strong&gt;。现在谁都能往 Figma 文件里写东西，但只有那些把 skill（markdown）、明确的 token 命名、Code Connect 映射都写好的团队，输出的东西才不用返工。4月份 zeroheight 2026 报告里那组难看的数字——7% 全员采用设计系统、40% 实现 token 自动化、44% 团队没有无障碍专员——精确预测了谁会得益、谁不会。Skills 假定的是设计系统成熟度，而三分之二的团队还没到。Config 2026 真正的悬念在于：Figma 会不会发一个填补这个空隙的功能（比如某种生成式的设计系统冷启动），还是这道空隙就此成为 AI 杠杆团队与其他团队之间的新分界线？&lt;/p&gt;
-
-&lt;p&gt;具体可执行的动作：如果你的团队驻在 Figma 上，今天就在 Cursor 里装 Figma 插件，写一个 skill（一个 markdown 文件，写明你的颜色和间距 variable 名称、以及三个标志性组件），然后在已有屏幕上跑 &lt;code&gt;/apply-design-system&lt;/code&gt;。二十分钟，你就知道你们的 token 够不够好了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026"&gt;https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fig-events.figma.com/may-rn-2026/"&gt;https://fig-events.figma.com/may-rn-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"&gt;https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/39166810751895-Figma-skills-for-MCP"&gt;https://help.figma.com/hc/en-us/articles/39166810751895-Figma-skills-for-MCP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens"&gt;https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8cf45acd-ccdf-5338-9d47-177ab344de74</guid>
-      <pubDate>Thu, 07 May 2026 08:11:44 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026</link>
-      <enclosure url="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 BART Millbrae↔SFO 夜间施工整夏持续：坐晚班机前必看</title>
-      <description>&lt;p&gt;如果你平时坐 Caltrain 到 Millbrae 再转 BART 去 SFO，这条信息很重要：&lt;strong&gt;BART Millbrae 至 SFO 段的夜间施工将持续整个夏季2026&lt;/strong&gt;，没有明确结束日期。&lt;/p&gt;
-
-&lt;h3&gt;⚠️ 具体影响&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;影响时段：&lt;/strong&gt;周日至周四晚上（大部分）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;7:30pm 起：&lt;/strong&gt;列车降速运行，延误5-7分钟&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;9:00-9:30pm：&lt;/strong&gt;Millbrae 和 SFO 之间完全停运（这半小时内没有列车，工程人员进场作业）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;9:30pm 以后：&lt;/strong&gt;仍有约30分钟延误&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;周五、周六夜间：不受影响&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;🚧 为什么要施工&lt;/h3&gt;
-&lt;p&gt;BART 正在把旧式固定闭塞信号系统换成&lt;strong&gt;通信型列车控制（CBTC）&lt;/strong&gt;系统，完成后可以缩短列车间距，Transbay 段容量提升。这是2025年12月开始的多年期改造，短痛换长治。&lt;/p&gt;
-
-&lt;h3&gt;✅ 实用应对方案&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;周五/周六晚班机？&lt;/strong&gt;不受影响，正常坐 Caltrain → Millbrae → BART 即可。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;周日至周四晚班机？&lt;/strong&gt;有几个选项：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;最省钱：&lt;/strong&gt;Caltrain 到 Millbrae → 等施工窗口过了（9:30pm 后）再转 BART，多留45分钟 buffer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;最省事：&lt;/strong&gt;Caltrain 到 Millbrae → Lyft/Uber 直接到 SFO，3英里约-20，施工期间值这个钱&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;如果你在 Palo Alto：&lt;/strong&gt;直接 Lyft 去 SFO 约-50，比反复转车、赶时间强&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;永远出发前查一下：&lt;/strong&gt;BART Trip Planner 每周更新施工安排，计划有变时会在 &lt;a href="https://www.bart.gov"&gt;bart.gov&lt;/a&gt; 发公告。&lt;/p&gt;
-
-&lt;p&gt;4月9日 San Bruno 附近还发生了一起设备故障，Red/Yellow 线全线延误——这种老基础设施的脆弱性正是 CBTC 改造的直接原因，今年大概还会有几次类似突发事故，坐这条线的朋友心里要有准备。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.bart.gov/news/articles/2025/news20251219"&gt;https://www.bart.gov/news/articles/2025/news20251219&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smdailyjournal.com/news/local/bart-construction-to-slow-evening-service-between-millbrae-sfo-through-2026/article_0e7cbb74-c4b0-4a0a-9776-a982a0822dd0.html"&gt;https://www.smdailyjournal.com/news/local/bart-construction-to-slow-evening-service-between-millbrae-sfo-through-2026/article_0e7cbb74-c4b0-4a0a-9776-a982a0822dd0.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">18fd8635-e609-534f-9d15-c46fb806de30</guid>
-      <pubDate>Thu, 07 May 2026 08:11:44 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.bart.gov/news/articles/2025/news20251219</link>
-    </item>
-    <item>
-      <title>📰 Trump 5/6'bombing starts'威胁vs Project Freedom暂停：Rubio'军事行动结束'+Araghchi抢访Beijing、美方实质接受Iran先海峡后核议程</title>
-      <description>&lt;p&gt;Trump 5/6上午8时白宫椭圆办公室开口："如果Iran不接受协议，bombing starts，而且会比之前更猛、更高强度。"这是Project Freedom 5/5暂停后24小时之内的同步施压。Defense Secretary Hegseth同日Pentagon简报口径有差——"停火目前还有效，我们会盯着"——典型的红白脸。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://i.abcnewsfe.com/a/809e2f2e-259d-4a3c-8d2b-66a2af39027b/donald-trump-16-rt-gmh-260506_1778094789915_hpMain_16x9.jpg?w=992" alt="Trump在椭圆办公室谈Iran" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Trump 5/6椭圆办公室回应Iran 14点方案（ABC News）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这次施压有具体由头。Iran 4/30经Pakistan总理Sharif通道递交的14点方案，把核问题主动拆出停战桌——外交部发言人原话"At this stage, we do not have nuclear negotiations"——要求30天内结束战争（vs美方两月停火）、解除制裁、撤美军、终止UAE/Lebanon/海峡封锁、新Hormuz机制、释放冻结资产、赔偿。Trump 5/5嘴上"完全无法接受"，但同步暂停Project Freedom护航行动，理由竟是"重大进展"。&lt;/p&gt;
-
-&lt;p&gt;5/6最关键的转折是Secretary of State Rubio口径——军事行动"已经结束"，下一步走"memorandum of understanding"路径，核材料"必须处理但不是现在谈"。这等于美方默认了Iran的要求顺序：先海峡先停战，核问题留到后面阶段。三月时美方还在喊"立即拆核设施"，五月已经退到"先MoU再说"。这不是嘴炮变软，是美方实际接受了Tehran主导的议程节奏。&lt;/p&gt;
-
-&lt;p&gt;同一天Tehran也在打另一张牌。Iranian FM Araghchi 5/6飞抵Beijing，开战2/28以来首次访华，和Wang Yi在外交部见面。Wang Yi要求"全面停火"+"Hormuz航运立即恢复"——后半句Iran自家通报里被删了。这次访问时机精准：Trump 5/14-15要去Beijing和Xi开峰会，Araghchi提前一周锁定中方公开背书，把China推到调停人位置。&lt;/p&gt;
-
-&lt;p&gt;China的筹码是经济命门。Iran九成原油卖给China，长年折扣价。制裁越紧，Tehran越依赖Beijing。这次5/6的会谈里中方公开"Iran有权和平利用核能"——直接戳Trump和Vance"零浓缩"红线。CNBC 5/6报道指出，China实际上在替Iran谈Hormuz重开——一旦海峡通了，沙特/UAE/Iran的油都能正常出货，对中国炼油厂同样关键。&lt;/p&gt;
-
-&lt;p&gt;市场已经反应。5/4 Brent冲到114.44美元，2022年5月以来最高。AAA口径全美汽油均价5/4跑到4.45美元/加仑（部分口径4.50+），四年新高。CNN 5/5报道一些口径已经到$4.50以上。NPR 5/3一周涨了30+美分。Goldman Sachs等机构警告：夏季driving season加上海峡问题不解，本月底前破5美元/加仑不是难事。&lt;/p&gt;
-
-&lt;p&gt;三件事在同一周收口：5/8-9 Iran书面回函窗口；5/11参议院Warsh联储主席投票（Powell 5/15卸任）；5/14-15 Trump-Xi北京峰会。Iran的回函如果绕开核问题、只谈30天停战和海峡，Trump会面对一个硬选择——接受意味着实质让步、拒绝就要在Xi面前翻脸开打。Vance昨天还在重申"零浓缩"底线，但Rubio MoU路径已经把这条底线挪到了"后续阶段"。下一周看Tehran给的具体时间表，看Brent能不能从114回到100以下。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later"&gt;https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/"&gt;https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html"&gt;https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/5/6/irans-araghchi-holds-talks-with-chinas-wang-yi-in-beijing"&gt;https://www.aljazeera.com/news/2026/5/6/irans-araghchi-holds-talks-with-chinas-wang-yi-in-beijing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582&amp;amp;entryId=132673273"&gt;https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582&amp;amp;entryId=132673273&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://oilprice.com/Latest-Energy-News/World-News/Average-US-Gasoline-Price-Tops-450-to-Near-Four-Year-High.html"&gt;https://oilprice.com/Latest-Energy-News/World-News/Average-US-Gasoline-Price-Tops-450-to-Near-Four-Year-High.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7fa0133f-3e4d-5af2-b258-fd69065920ed</guid>
-      <pubDate>Thu, 07 May 2026 08:11:45 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later</link>
-      <enclosure url="https://i.abcnewsfe.com/a/809e2f2e-259d-4a3c-8d2b-66a2af39027b/donald-trump-16-rt-gmh-260506_1778094789915_hpMain_16x9.jpg?w=992" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 1953 年神经外科医生切掉 27 岁年轻人 Henry Molaison 两侧海马 8 厘米后，他从此活在「永恒的现在」55 年——「Patient H.M.」死后大脑被切成 2401 片网络直播，40 万人围观了认知神经科学的奠基时刻</title>
-      <description>&lt;p&gt;1953 年 8 月 25 日早晨，康涅狄格州 Hartford 医院手术室，神经外科医生 William Beecher Scoville 给一位 27 岁年轻人做了一台他自己也没把握的脑部手术。这位病人叫 Henry Molaison（在医学文献里成了「&lt;strong&gt;Patient H.M.&lt;/strong&gt;」），从 9 岁开始就被严重癫痫折磨——成年后每周发作十多次，甚至无法正常工作。Scoville 没有现代影像学（MRI 要等到 1977 年），他凭直觉决定把 Molaison 大脑两侧&lt;strong&gt;从颞叶中线开始向后 8 厘米&lt;/strong&gt;的组织全部切除——包括两侧海马（hippocampus）的大部分、内嗅皮层（entorhinal cortex）、部分杏仁核（amygdala）。手术成功控制了癫痫。但 Molaison 醒来后，身上发生了人类历史上第一次被科学记录的事——&lt;strong&gt;他失去了形成新长期记忆的能力&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这种损伤的奇异之处不在于「失忆」这个词本身，而在于它的&lt;strong&gt;选择性&lt;/strong&gt;。Molaison 的智商完全正常（手术后甚至还略有提高，因为癫痫不再消耗能量）。他的语言、感知、推理、童年记忆、动手技能完全保留。他能跟你聊天，谈论二战，告诉你 1929 年股市崩盘的故事。但他&lt;strong&gt;认不出自己每天看到的护士&lt;/strong&gt;。每隔几分钟见到 Suzanne Corkin（后来研究他 41 年的麻省理工神经科学家），他都把她当成第一次见的陌生人，礼貌地伸出手说「你好，我是 Henry」。&lt;strong&gt;他的大脑像一个磁带始终在写但磁头被拔掉了——经验进得来，但永远不会被刻上去。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这种状态在医学上叫「&lt;strong&gt;顺行性失忆症（anterograde amnesia）&lt;/strong&gt;」，但 H.M. 的特殊价值在于让 Brenda Milner（当时麦吉尔大学博士生，今年 107 岁仍在工作）和 Scoville 1957 年合写的论文成为&lt;strong&gt;认知神经科学的开创性文献&lt;/strong&gt;。在那之前，主流观点（包括 Karl Lashley 30 年研究小鼠迷宫的结论）认为&lt;strong&gt;记忆均匀分布在整个大脑里&lt;/strong&gt;，没有特定脑区专门负责。H.M. 的存在直接砸碎了这套观点：&lt;strong&gt;记忆的形成有专门的解剖学位置——海马及其周边内侧颞叶。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;更精彩的是 Milner 1962 年的发现。她让 H.M. 做一个叫「&lt;strong&gt;镜像绘图（mirror drawing）&lt;/strong&gt;」的任务：在镜子里看着一个星形图案，用手描出它的轮廓。这是个手眼不协调的任务，常人需要练习几十次才能熟练。H.M. 第一次做时跟所有人一样笨拙。第二次见到 Milner 他说「你好，我是 Henry，我们今天要做什么？」——他根本不记得做过这个测试。但 Milner 让他再做一次时，&lt;strong&gt;他的成绩比上一次好&lt;/strong&gt;。再做一次，又好一些。三天后，H.M. 已经能流畅地完成镜像绘图——但他仍然坚信自己从来没做过这个任务。&lt;/p&gt;
-
-&lt;p&gt;这意味着大脑里&lt;strong&gt;至少存在两套独立的记忆系统&lt;/strong&gt;：一套是「&lt;strong&gt;陈述性记忆（declarative memory）&lt;/strong&gt;」（事实、事件、人脸——这套被 H.M. 切除了），另一套是「&lt;strong&gt;程序性记忆（procedural memory）&lt;/strong&gt;」（运动技能、习惯——这套保留在小脑和基底神经节，H.M. 完整保留）。这是今天神经科学每个本科生第一周课本里的内容，但 1962 年之前没人知道这个划分。我们今天对「学骑自行车的人这辈子都不会忘」的所有理解，都从 H.M. 描镜像里的那个星形开始。&lt;/p&gt;
-
-&lt;p&gt;H.M. 在 2008 年 12 月 2 日死于呼吸衰竭，享年 82 岁。他从未结婚，最后 28 年住在康州一家护理院里，每天接受神经心理学家测试。Corkin 早在 1992 年就跟他和他的监护人签好了脑部捐献协议。死后 9 小时，他的大脑被运到 UC San Diego 的 Jacopo Annese 实验室，&lt;strong&gt;在明胶里冷冻成块，用低温切片机切成 2401 张厚 70 微米的超薄切片&lt;/strong&gt;。整个 53 小时的切片过程在 2009 年 12 月通过网络直播，超过 40 万人在线观看了人类神经科学史上最重要的大脑被一刀刀切开的全过程。&lt;/p&gt;
-
-&lt;p&gt;H.M. 在他可意识到的世界里活了 27 年，又在「永恒的现在」里活了 55 年。他每次照镜子都不认识镜子里的老人——他记忆中的自己永远是 27 岁。但他塑造的认知神经科学，会在他无法记住的人类未来里持续产生回声。Suzanne Corkin 在悼词里写道：「&lt;em&gt;For 55 years, Henry was the most generous human being in the history of cognitive neuroscience. He gave us our science. He gave it to us with a gentle smile, every single day, having forgotten he gave it to us yesterday.&lt;/em&gt;」&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Henry_Molaison"&gt;https://en.wikipedia.org/wiki/Henry_Molaison&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.themantic-education.com/ibpsych/2019/01/29/key-study-hms-case-study-milner-and-scoville-1957/"&gt;https://www.themantic-education.com/ibpsych/2019/01/29/key-study-hms-case-study-milner-and-scoville-1957/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.kpbs.org/news/2009/dec/10/first-complete-brain-dissection-also-social-media-/"&gt;https://www.kpbs.org/news/2009/dec/10/first-complete-brain-dissection-also-social-media-/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/science-nature/postmortem-most-famous-brain-neuroscience-history-180949504/"&gt;https://www.smithsonianmag.com/science-nature/postmortem-most-famous-brain-neuroscience-history-180949504/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">25bfc3b9-dd96-5eeb-9211-17044f78b715</guid>
-      <pubDate>Thu, 07 May 2026 08:11:56 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Henry_Molaison</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Henry_Gustav_1.jpg/800px-Henry_Gustav_1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 每天多一包薯片：Monash 大学研究发现超加工食品占比每升 10%，注意力下降 0.05 分、痴呆风险评分升 0.24 分</title>
-      <description>&lt;p&gt;超加工食品（ultra-processed food, UPF）影响认知的证据多见于队列死亡率终点，&lt;em&gt;Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring&lt;/em&gt; 2026 年 4 月发表的一篇澳大利亚横断面研究（Cardoso et al., DOI: 10.1002/dad2.70335）首次把 UPF 摄入与中年人的&lt;strong&gt;多领域计算机化认知测试&lt;/strong&gt;直接挂钩，并叠加痴呆风险预测工具。论文同步发布在 PMC（PMC13104065），引发主流媒体关注。&lt;/p&gt;&lt;p&gt;研究纳入 &lt;strong&gt;2,192 名 40–70 岁、基线无痴呆的澳大利亚人&lt;/strong&gt;。膳食用经验证的食物频率问卷采集，并按 &lt;strong&gt;NOVA 分类&lt;/strong&gt;归到四级（未加工/最少加工、加工烹饪原料、加工食品、超加工食品）。认知用 Cogstate Brief Battery 这个老牌成套电脑化测验，覆盖反应速度、视觉注意/工作记忆、视觉学习、配对联想等四个域。痴呆风险则用 CAIDE（Cardiovascular Risk Factors, Aging and Incidence of Dementia）评分量化，把年龄、性别、教育、收缩压、BMI、胆固醇、运动等已知风险因子合并成一个 0–15 分的量表。&lt;/p&gt;&lt;p&gt;三个发现：（1）样本平均 &lt;strong&gt;UPF 占总能量的 41%&lt;/strong&gt;——这是发达国家中年人群的真实饮食底色，不是少数极端摄入者；（2）UPF 占比每增加 10 个百分点（大约相当于一天多一包标准薯片），&lt;strong&gt;视觉注意/处理速度得分下降约 0.05 分&lt;/strong&gt;，CAIDE 痴呆风险评分上升约 0.24 分，效应在调整年龄、性别、教育、能量摄入、BMI 后仍稳健；（3）&lt;strong&gt;记忆相关测试与 UPF 摄入无显著关联&lt;/strong&gt;。换言之，受冲击的是注意/处理速度这条认知通路，而不是海马依赖的情景记忆。这与既往 UK Biobank 神经影像数据中 UPF 与额顶网络灰质体积关联的方向吻合。&lt;/p&gt;&lt;p&gt;样本特征值得说明：以白人女性为主，受教育水平偏高，因此结论外推到其他族裔时要谨慎。横断面设计也意味着不能直接推因果——可能是认知较差者更倾向选择方便、廉价、高 UPF 的饮食，而不是反向。但 0.05 分听上去微小，叠加群体效应就不小：澳大利亚成年人 UPF 占比从过去 30 年的 30% 升到 42%，意味着群体平均注意力评分被悄悄拉低了一格。&lt;/p&gt;&lt;p&gt;机制假说在论文讨论部分密集列出：UPF 加工破坏食物 matrix（食物基质），降低多酚、纤维、Omega-3 等保护性成分的生物利用度；同时引入双酚类、邻苯二甲酸酯等内分泌干扰物，丙烯酰胺等加工副产物，以及大量乳化剂（聚山梨酯-80、羧甲基纤维素），后者已被反复证明会改变肠道菌群、增加肠道通透性、激活外周与中枢炎症。这与本知识库已覆盖的 Moli-sani 队列癌症生存者死亡率结果，以及暴露组-大脑老化研究形成同一机制图谱的不同切面。&lt;/p&gt;&lt;p&gt;实操结论：（1）日常 UPF 占比目标低于 20% 是合理的，地中海饮食和 DASH 饮食结构本身已天然偏低；（2）替代时不必苛求 100% 全食物，把含量最高的几类先撤掉收益最大——含糖饮料、加工肉、即食烘焙、调味即食谷物；（3）注意力是这个研究里被点名的认知域，对脑力工作者尤其值得警觉；（4）单纯靠减糖或减脂指标不够，NOVA 分类提示我们要看&lt;em&gt;加工层级&lt;/em&gt;本身。下一步要追踪的是同一组研究者已申请的 5 年纵向随访，以及 2027 年 UK Biobank 计划释出的二次脑成像 + UPF 配对数据。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70335"&gt;https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70335&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13104065/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC13104065/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/04/29/health/ultraprocessed-food-dementia-study-wellness"&gt;https://www.cnn.com/2026/04/29/health/ultraprocessed-food-dementia-study-wellness&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencealert.com/ultra-processed-foods-may-be-quietly-affecting-your-brains-ability-to-focus"&gt;https://www.sciencealert.com/ultra-processed-foods-may-be-quietly-affecting-your-brains-ability-to-focus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.monash.edu/news/articles/ultra-processed-foods-damage-your-focus-even-if-you-eat-healthy"&gt;https://www.monash.edu/news/articles/ultra-processed-foods-damage-your-focus-even-if-you-eat-healthy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ee88a92d-99f2-5528-87c3-14a26f4b18e1</guid>
-      <pubDate>Thu, 07 May 2026 08:12:18 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70335</link>
-    </item>
-    <item>
-      <title>🧠 🧠 ⚡ 卡壳的瞬间不是大脑在抗议——是奖赏回路在准备点亮：Communications Psychology 2026 翻案研究，认知冲突本身就是内源性奖励</title>
-      <description>&lt;p&gt;把"认知冲突"（cognitive conflict）想象成大脑被两条相反指令同时拉扯——经典的 Stroop 任务里看到红色墨水写的"绿"字，前额叶必须强压住自动反应、调出受控反应。教科书几十年来的论调是：这种状态令人不快、消耗资源、是要被规避的。Communications Psychology 2026 年 5 月刊出的一篇研究把这个论断翻了过来。&lt;/p&gt;
-
-&lt;p&gt;这篇题为 The experience of cognitive conflict is intrinsically rewarding 的论文（La Pietra、Vives、Molinaro 等，DOI: 10.1038/s44271-026-00462-3）做了一件简单但说服力十足的事：让被试在没有任何外部奖励的情况下，自由选择是要做更难的、含冲突的 Stroop / Flanker 试次，还是更轻松的对照试次。结果——在两个独立在线实验、合计约 200 名被试中——人们居然主动倾向于选有冲突的版本。配套的 fMRI 数据更进一步：冲突解决的瞬间，&lt;strong&gt;腹侧纹状体（ventral striatum）和内侧前额叶（medial prefrontal cortex）&lt;/strong&gt;这两个核心奖赏回路被点亮，模式跟人吃巧克力或拿到金钱奖励时高度相似。整个过程呈现两阶段：检测冲突时是压力反应，解决冲突时是奖赏反应。&lt;/p&gt;
-
-&lt;p&gt;这件事为什么值得多想一会儿。心理学界这三十年关于"自我损耗"（ego depletion）的整套故事，框架就是把认知控制当成消耗品——你用越多就剩越少。但如果冲突解决本身能激活奖赏回路，那么"用脑很累"和"用脑很爽"其实是同一件事的两个相位，关键是任务有没有跨过解决得了的门槛。论文作者特意强调了一个边界条件：&lt;strong&gt;冲突必须是"可解的难"&lt;/strong&gt;。如果太简单，不激活；如果完全无解，也不激活；只有那种"卡一下、想一想、过了"的甜区，才会启动奖赏回路。这跟 Csikszentmihalyi 心流理论的难度-技能匹配模型在神经层面合上了。&lt;/p&gt;
-
-&lt;p&gt;把这个洞见做成可以带走的工具，第一条是&lt;strong&gt;重新解读"卡壳"的体感&lt;/strong&gt;。下一次你做数独、改 bug、读论文卡住的那个瞬间——那种胸口一紧、想换标签页的冲动——别把它当作大脑在抗议要你停下来。它是冲突检测阶段的压力信号，紧跟其后就是解决阶段的奖赏。如果你能多坚持 30 秒，神经化学上的回报就在那里等着。逃开的代价不只是没解决问题，而是错过了一次免费的多巴胺发放。&lt;/p&gt;
-
-&lt;p&gt;第二条更反直觉。很多自学者、教育者一直在追求"让学习变得轻松愉快"，但这篇研究暗示：&lt;strong&gt;把难度降到没有冲突，等于把奖赏回路也一起关掉&lt;/strong&gt;。Khan Academy 那种"小步迭代、永远不卡"的设计，舒服归舒服，但缺了那一下解决感。有意识地让自己每天接触一些"刚好够呛"的问题——比平时难 10-20%、能解但要费劲——比刷一堆熟练区的题更能维持长期动机。这跟 desirable difficulty（合意难度）在记忆研究里的发现是一脉相承的。&lt;/p&gt;
-
-&lt;p&gt;第三条是面对辩论和分歧的态度。日常对话里，遇到观点冲突，绝大多数人的本能是回避或拉黑。但如果冲突本身（在可解范围内）是大脑期待的奖赏源，那么和不同意见的朋友吃饭、参加思想真正交锋的读书会、甚至自己写一个 steelman 反驳自己——这些活动给你的不只是"长见识"那种抽象好处，还有具体的神经层面的回馈。这也呼应了之前覆盖过的"认知谦逊与建设性冲突"研究：智识谦逊高的人更愿意暴露在反方意见中，部分原因可能就是他们不再把冲突体验编码为纯粹的负担。&lt;/p&gt;
-
-&lt;p&gt;研究者还特意提到一个临床方向：抑郁症和 ADHD 患者的共同特征之一是奖赏回路反应迟钝（这跟前几天 burnout 那期的 reward responsiveness 主题刚好接得上）。如果未来能用"可解冲突"作为一种温和的、内源性的奖赏激活手段，可能比单纯的多巴胺类药物更可持续。这是后续值得追踪的方向。&lt;/p&gt;
-
-&lt;p&gt;最后一句私人化的提醒：你脑袋里那个"再想一下就放弃"的临界点，往往就在奖赏回路即将点亮的前 10 秒。别在最后一公里关掉引擎。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s44271-026-00462-3"&gt;https://www.nature.com/articles/s44271-026-00462-3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://scienmag.com/cognitive-conflict-feels-intrinsically-rewarding-study-finds/"&gt;https://scienmag.com/cognitive-conflict-feels-intrinsically-rewarding-study-finds/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">25daee80-6345-5b6d-aa3c-2c2228a15815</guid>
-      <pubDate>Thu, 07 May 2026 08:12:19 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.nature.com/articles/s44271-026-00462-3</link>
-      <enclosure url="https://scienmag.com/wp-content/uploads/2026/05/Cognitive-Conflict-Feels-Intrinsically-Rewarding-Study-Finds-1778074590.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 💍 高情商的人婚姻更幸福，原因不是更会沟通——是更频繁地做一件具体的小事：MacCann 团队 175 对夫妇 14 周追踪指向 valuing</title>
-      <description>&lt;p&gt;关于亲密关系，业界一直有个未解的问题：高情商（emotional intelligence, EI）的人婚姻确实更幸福，但具体到底是因为什么行为？情商研究里"管理他人情绪"通常被拆成至少三种策略——cognitive reframing（认知重评）、receptive listening（共情倾听）、valuing（让对方感到被重视）。哪个才是真正起作用的那一个？悉尼大学 Carolyn MacCann 团队 2026 年 2 月发表在 Journal of Social and Personal Relationships 的一篇研究给出了一个干净的答案。&lt;/p&gt;
-
-&lt;p&gt;研究（Xiao、Double、Pinkus、MacCann，DOI: 10.1177/02654075251399696）招募了 175 对异性恋伴侣，年龄从 20 多岁到 80 多岁都有，做了 14 周的三波纵向追踪。统计模型用的是 Actor-Partner Interdependence Mediation Model——能同时看到自己情商对自己关系满意度的影响、以及对伴侣关系满意度的影响。&lt;/p&gt;
-
-&lt;p&gt;结果出乎意料地干净：在三种高投入策略里，&lt;strong&gt;只有 valuing 是稳定的中介&lt;/strong&gt;。也就是说，情商高的人之所以关系更好，主要不是因为他们更会"重新解读"配偶的情绪，也不是因为他们倾听技巧更娴熟，而是因为他们更频繁地做出让伴侣感觉到"你对我很特别、很重要、很被珍惜"的具体行为。这个效应对男女都成立。Cognitive reframing 和 receptive listening 在不同性别上有零星效应，但远不如 valuing 一致。&lt;/p&gt;
-
-&lt;p&gt;什么算 valuing？研究里的操作化定义不是抽象的"爱"，而是一系列可观察的小动作：在对方说话时停下手里的事、记得对方在意的小细节并主动提起、对对方的成就表达具体的（而不是泛泛的）赞赏、在第三人面前公开肯定对方、在普通日子里主动表达感激而不是只在节日才说。和 Gottman 实验室长年的"micro-bid"研究是一脉相承的——婚姻的健康度不是由几次大事件决定的，而是由每天几十次微小的"我看到了你"决定的。&lt;/p&gt;
-
-&lt;p&gt;但论文里一个不那么乐观的发现也得讲清楚：当研究者控制掉基线满意度之后，valuing 对长期关系改善的中介效应消失了。换句话说，&lt;strong&gt;valuing 维持已经不错的关系，但不太能修复已经坏掉的关系&lt;/strong&gt;。这点跟之前覆盖过的 Körner/Overall"亲密关系影响力被低估"研究合在一起看，画面更立体：日常的肯定有用，但前提是关系里还有可以被肯定的土壤；如果已经积累了大量怨气，单靠多说"你真棒"不够。&lt;/p&gt;
-
-&lt;p&gt;把这个洞见落到日常，可以做一个简单的自检。回想过去 24 小时，你跟伴侣（或最亲近的人）的对话里，有几次是&lt;strong&gt;具体地&lt;/strong&gt;表达了对方让你欣赏的某件事？不是"你今天很棒"这种空话，而是"你刚才跟我妈打电话时那种耐心，我其实做不到"。多数人会发现答案是零或一次。这不是因为你不爱对方，而是因为大脑天然把熟悉的人当作背景板——hedonic adaptation（享乐适应）的近亲，叫做 partner-as-background 效应。&lt;/p&gt;
-
-&lt;p&gt;研究团队提到一个特别值得注意的点：valuing 不需要长时间。一句具体的话、一个简短的"我注意到你..."的开头，常常比 30 分钟的"严肃谈话"效果更好。原因是，重大对话往往把对方放在被评估的位置上，触发防御；而日常的、不带要求的肯定让对方处在被接住的状态。Adam Grant 在 Vibe（10 月出版）的预热文章里讲过类似的话——chemistry 不一定要慢慢来，一句精确的肯定就能让对方感到被看见。&lt;/p&gt;
-
-&lt;p&gt;有一个推论很多人没意识到：valuing 也有副作用极低的一面。即使你那天心情糟、注意力被工作塞满、对关系本身的投入变低，你仍然可以做这个动作。它不需要你的能量充足，只需要你睁开眼睛看到对方做了什么。这跟"高强度共情倾听"不同——后者真的会消耗精神资源，状态差的时候做反而会假。&lt;/p&gt;
-
-&lt;p&gt;所以，下一次想对关系做点什么，先别去搜"如何沟通"，回到一个最朴素的问题：今天，对方做了哪一件事，是我可以具体地、不带评价地告诉对方"我看到了"的？这一句话的效率，比一晚上的"深度对话"高得多。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/02654075251399696"&gt;https://journals.sagepub.com/doi/10.1177/02654075251399696&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/this-behavior-explains-why-emotionally-intelligent-couples-are-happier/"&gt;https://www.psypost.org/this-behavior-explains-why-emotionally-intelligent-couples-are-happier/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">48bcb1de-78f1-5c4e-92bb-7112e6411cc2</guid>
-      <pubDate>Thu, 07 May 2026 08:12:25 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://journals.sagepub.com/doi/10.1177/02654075251399696</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/02/happy-young-couple-750x375.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 Russia 10小时违约1,820次砸Sumy幼儿园：Zelenskyy 5/6给5/8-9阅兵设新检验窗口、红场首次零硬件出场、Trump白宫沉默</title>
-      <description>&lt;p&gt;Zelenskyy 5/6晚间视频讲话给出数字：Russia在Ukraine单方面5/6停火生效后10小时内违约1,820次。这不是统计口径游戏——前线一千八百多次开火加无人机加导弹，等于每20秒一次接触。FM Sybiha同步声明：Russia用"持续性、节奏性"的攻击回应停火提议。这是5/4-5 Putin宣胜利日48小时停火、Zelenskyy反将一军提前两天单方面停火之后的首夜验收结果。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.euronews.com/articles/stories/09/74/92/67/1536x864_cmsv2_a49960e0-450d-565d-a637-f356b8bfbe9c-9749267.jpg" alt="Zelenskyy回应Russia违约" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Zelenskyy 5/6回应Russia破坏停火（Euronews）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;具体打击地点已经清楚。5/6凌晨Sumy州北部，Russia一发炸弹直接命中一所幼儿园——FM声明强调"幸而当时没有孩子"，2人遇难。同日Sumy市中心两架drone砸民宅，又一辆民车被炸1死。Kharkiv 7户民居受损、Zaporizhzhia工业设施被砸、Kryvyi Rih基础设施被毁。从昨晚18:00基辅时间起，Russia共发射2枚弹道导弹+1枚巡航导弹+108架drone。这个剂量不是漏勤，是常规配额。&lt;/p&gt;
-
-&lt;p&gt;Zelenskyy的措辞往后挪了一档："今晚和明天的局势会决定我们的合理回应。"——这不是宣布升级，是把5/8-9 Putin的胜利日停火设为新的检验窗口。Ukraine的算盘：你要48小时停火搞阅兵，我先看你5/5-6给我什么样的"停火"，Russia如果继续打，Ukraine就在5/8-9对等回敬——按Sybiha"symmetrical response"原话翻译，就是阅兵当天Kyiv也能让Moscow吃drone。&lt;/p&gt;
-
-&lt;p&gt;红场阅兵这次自己也露怯。Putin 5/4安排首次零硬件出场——没有坦克、没有导弹车。Zelenskyy 5/6直接点穿："这说明Russia怕Ukraine的drone。"Kyiv Post 5/6还报了Putin coup rumor的细节，加上俄方核武器试射动向——克里姆林宫这次安全焦虑写在台面上。Trump白宫迄今对俄方违约没有公开回应，EU高级代表Kallas和德国总理Merz 5/5-6先后站队Zelenskyy，要求把5/8-9 Russia停火和5/5-6 Ukraine停火并表测试。&lt;/p&gt;
-
-&lt;p&gt;这个"竞争性停火"模式本身就是新东西。过去三年俄乌停火提议都是单边喊话单边拒绝，这次双方各自宣布、各自喊对方违约、各自做合法性框架。Ukraine的优势是先提先让——5/5零时第一秒就先停手。Russia的劣势是阅兵在即不能挨炸，但现在选择继续打1,820次，等于把5/8-9自家停火信用透支干净。&lt;/p&gt;
-
-&lt;p&gt;下一周三个事件接连：5/8 Russia胜利日阅兵首日（如果Ukraine drone真打到Moscow，Putin是否启动其威胁过的"massive missile strike on Kyiv"）；5/9阅兵第二日是停火窗口尾段；之后Putin要不要把停火延长到谈判阶段，是一场新选择。Trump 5/8-9会不会沉默到底，决定他在Iran和Ukraine两条线上能不能保持双线施压一致。1,820这个数字本身已经把Putin"求和"的人设打碎——这不是停火谈判前的施压，是直接把Ukraine提议当噪音处理。&lt;/p&gt;
-
-&lt;p&gt;对Zelenskyy来说短期最关键的是Trump态度。EU/德国背书是常规牌，Trump一句话就能把场面翻转。5/9 Putin阅兵那天，看White House Truth Social发什么。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://english.nv.ua/russian-war/zelenskyy-says-russia-violated-ukraine-ceasefire-1-820-times-50605868.html"&gt;https://english.nv.ua/russian-war/zelenskyy-says-russia-violated-ukraine-ceasefire-1-820-times-50605868.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire"&gt;https://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.newsweek.com/russia-violates-ukraine-ceasefire-within-minutes-11917195"&gt;https://www.newsweek.com/russia-violates-ukraine-ceasefire-within-minutes-11917195&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.kyivpost.com/post/75573"&gt;https://www.kyivpost.com/post/75573&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins"&gt;https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kyivindependent.com/ukraine-rejects-russias-victory-day-truce-after-moscow-violates-kyivs-ceasefire/"&gt;https://kyivindependent.com/ukraine-rejects-russias-victory-day-truce-after-moscow-violates-kyivs-ceasefire/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">75d9ba2f-324b-56a6-90bd-0b7676250423</guid>
-      <pubDate>Thu, 07 May 2026 08:12:28 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://english.nv.ua/russian-war/zelenskyy-says-russia-violated-ukraine-ceasefire-1-820-times-50605868.html</link>
-      <enclosure url="https://images.euronews.com/articles/stories/09/74/92/67/1536x864_cmsv2_a49960e0-450d-565d-a637-f356b8bfbe9c-9749267.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 🧠 🪞 谦虚不是嘴上说不行——是脑子里少一个回路：Human Brain Mapping fMRI 研究揭示 modest mindset 让你扛拒绝又能享接纳</title>
-      <description>&lt;p&gt;"谦虚"在中文语境里常被理解成一种社交修辞——不是真不行，而是嘴上说不行。这种文化滤镜让人很难严肃看待"谦逊作为一种心理品质"的研究价值。北京大学吴艳红团队 2026 年初发表在 Human Brain Mapping 的一篇 fMRI 研究，给"谦虚"找到了一个意外清晰的神经基础——而且发现高谦虚的人对社交反馈的处理方式有一种&lt;strong&gt;不对称的优势&lt;/strong&gt;：对拒绝更耐受，对接纳依然敏感。&lt;/p&gt;
-
-&lt;p&gt;研究（Wang、Zheng、Wu，论文标题 Take the Rough With the Smooth: Modesty Modulates Neurocognitive and Emotional Processing of Social Feedback）让 47 名年轻被试躺进 fMRI，做一个叫 Social Judgment Paradigm 的任务：先看一张同龄人的照片，预测对方喜欢还是不喜欢自己，再看到真实反馈。这样产生四种情境——&lt;strong&gt;预期接纳、预期拒绝、意外接纳、意外拒绝&lt;/strong&gt;。被试事先填了 Honesty-Humility 量表中的谦虚分项。&lt;/p&gt;
-
-&lt;p&gt;关键结果有两个。第一，谦虚得分高的人在收到"意外拒绝"时，&lt;strong&gt;下顶叶（inferior parietal lobe）激活更弱&lt;/strong&gt;——这个脑区跟自我参照加工密切相关。意思是：他们没有把别人不喜欢自己这件事过度内化为关于"我是谁"的信号。第二，他们在收到接纳（无论预期还是意外）时，腹内侧前额叶（ventral medial prefrontal cortex）的激活依然饱满，奖赏回路没有被钝化。&lt;/p&gt;
-
-&lt;p&gt;这个组合很关键。常见的"对拒绝免疫"的人格特质——比如自恋——往往是通过把所有反馈都打折来实现的，结果是接纳也不香了，整个情感生活变得平淡。而高谦虚的人不一样：他们对负面反馈打折，对正面反馈不打折。论文作者用了一个很诗意的表达 take the rough with the smooth，但 fMRI 数据显示这俩其实是分开处理的，不是一种钝化。&lt;/p&gt;
-
-&lt;p&gt;更细的机制层面，研究者发现高谦虚组在面对意外反馈时，&lt;strong&gt;较少使用 expressive suppression（表情抑制）这种情绪调节策略&lt;/strong&gt;，更多通过认知重评——也就是直接重新解读情境——来调整。表情抑制是一种事后挽救，认知负担高且被反复证明长期有害；而前置的重评是更省力的方式。&lt;/p&gt;
-
-&lt;p&gt;这个结果对中文语境里被传统教育熏陶过的"谦虚"有点反讽：研究里的谦虚不是嘴上说自己不行，而是&lt;strong&gt;不把每一次社交反馈都当作关于自我价值的全局判定&lt;/strong&gt;。一种内在的、稳定的"我不必通过这次互动证明自己"的状态。这种状态恰恰是社交焦虑（social anxiety）的反面——社交焦虑的核心机制就是把模糊的反馈过度解读为关于"我是不是被接受"的信号。&lt;/p&gt;
-
-&lt;p&gt;带得走的工具是什么？研究者明确提出了 modest mindset 干预的可能：在进入一个高敏感的社交场合前（面试、第一次约会、新团队的第一次开会），&lt;strong&gt;主动把自我焦点调低 5 度&lt;/strong&gt;——不是装谦虚，而是在心里清晰地告诉自己"这次互动的反馈，无论好坏，都只是关于这次具体情境的信号，不是关于我整个人的判决"。这个简单的认知框架，根据论文的延伸推论，应该可以让下顶叶的过度激活降下来。&lt;/p&gt;
-
-&lt;p&gt;有一个具体可操作的练习：在收到任何让你刺痛的反馈（同事的冷淡、群聊的已读不回、面试的没下文）之后的 30 秒里，强迫自己问一个问题——"如果我把这件事的发生概率拆成 50% 是关于我、50% 是关于对方此刻的状态、对方的工作节奏、对方根本没意识到，会不会更接近真相？"这个练习不是自我安慰，而是把单一归因换成贝叶斯式的多源归因。从神经层面，它正是研究里高谦虚组自然在做的事。&lt;/p&gt;
-
-&lt;p&gt;放到更大的图景里，这跟我们之前覆盖过的几个主题是一脉相承的：信心是状态而非特质（Conti × Huberman）、智识谦逊关联建设性冲突应对、grounded confidence 强调把价值观翻译成具体行为而不是装确定。共同的线索是——&lt;strong&gt;真正的稳定来自把自我的边界画清楚，而不是把它抬高&lt;/strong&gt;。脑子里少一点"这是对我的全局判决"，多一点"这只是一帧画面"，反而能让你既能扛拒绝、又能享受接纳。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/brain-scans-reveal-an-emotional-advantage-for-modest-people/"&gt;https://www.psypost.org/brain-scans-reveal-an-emotional-advantage-for-modest-people/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1d51db45-6955-5364-af12-7cb8cf4366eb</guid>
-      <pubDate>Thu, 07 May 2026 08:12:30 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/brain-scans-reveal-an-emotional-advantage-for-modest-people/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/01/brain-750x375.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 🎲 斯洛文尼亚地下溶洞里有一种粉色蝾螈能活 100 年、能 10 年不吃饭、能在原地一动不动 7 年——但它的代谢率和抗氧化机制都完全普通：洞螈「人鱼」是衰老生物学的最大谜题之一</title>
-      <description>&lt;p&gt;2010 年，巴黎南方的 Moulis 洞穴生态实验室（一个国际著名的洞穴生物学研究站）发表了一个发现，让生物学家集体陷入沉思——他们正在研究的&lt;strong&gt;洞螈（Olm，学名 Proteus anguinus）&lt;/strong&gt;正在打破所有已知的代谢-寿命缩放定律：这种 25 厘米长、终身住在斯洛文尼亚和克罗地亚地下喀斯特溶洞里的盲眼蝾螈，&lt;strong&gt;可能能活到 100 岁以上&lt;/strong&gt;。一个体型不超过你前臂、新陈代谢率毫无特殊之处的两栖类——为什么活得比一头蓝鲸还久？&lt;/p&gt;
-
-&lt;p&gt;Olm 中文叫「洞螈」，但更生动的名字是&lt;strong&gt;「人鱼（human fish）」&lt;/strong&gt;——拉丁文 Proteus anguinus，意为「会变形的鳗」。它的皮肤是粉嫩的人类肤色（其实是因为缺乏色素，皮肤下的毛细血管直接显色），头侧长着鲜红的羽状外鳃（external gills）——这是它&lt;strong&gt;幼态持续（neoteny）&lt;/strong&gt;的特征：洞螈一辈子不变态，永远停留在「幼体阶段」就性成熟，永远长着幼蝾螈的外鳃。它眼睛在胚胎期发育正常，但出生四个月后开始萎缩，最终被皮肤覆盖。完全瞎了的洞螈用什么导航？答案让生物学家又惊喜了一次——它有&lt;strong&gt;电感受器（ampullary organs）&lt;/strong&gt;能感应弱电场，还能感知地球磁场方向，这套感官在两栖类里极其罕见，通常只在鲨鱼、鸭嘴兽身上看到。&lt;/p&gt;
-
-&lt;p&gt;但最让人发抖的是它的&lt;strong&gt;禁食纪录&lt;/strong&gt;。Postojna 洞穴生物学研究站的老员工讲过一个事——某次水族箱里的洞螈被工作人员忘了喂食，再去看它的时候，&lt;strong&gt;它已经原地不动 7 年&lt;/strong&gt;，仍然活着。后来对照实验确认，洞螈在野外环境下可以&lt;strong&gt;10 年不进食&lt;/strong&gt;，靠降低代谢率到几乎检测不到的水平、并且重新吸收自己的肌肉和肝脏组织维生。法国科研人员还在监测的另一组洞螈中观察到一只个体在 2300 多天里只移动了大约 5 米。这种「&lt;strong&gt;极端节能模式&lt;/strong&gt;」是它能在洞穴贫食环境中存活的关键。&lt;/p&gt;
-
-&lt;p&gt;它的繁殖也极其反直觉。雌性&lt;strong&gt;平均每 12.5 年只繁殖一次&lt;/strong&gt;，每次产 35-70 个卵。有一群 2016 年在 Postojna 出生的小洞螈被生物学家昵称为「Postojna Babies」，那次产卵被全程直播，吸引了全球洞穴生物迷围观——因为下一次同一只雌性产卵要等到 2028 年左右。配对仪式涉及雄性产生「精包（spermatophore）」沉到洞底由雌性自行收集，这种隔空交配在脊椎动物里也是少数派。&lt;/p&gt;
-
-&lt;p&gt;真正让生物学家头疼的是它的&lt;strong&gt;长寿机制完全无法解释&lt;/strong&gt;。Robert Voituron 团队 2010 年在《Biology Letters》发表的论文系统对比了洞螈和它的近亲：&lt;strong&gt;洞螈的基础代谢率（basal metabolic rate）和其他两栖类没有区别&lt;/strong&gt;，&lt;strong&gt;它的抗氧化酶活性也很普通&lt;/strong&gt;，&lt;strong&gt;它的端粒（telomere）长度也不特别&lt;/strong&gt;。按经典的「氧化应激衰老理论（oxidative stress theory of aging）」，洞螈应该跟一只 5-10 岁的普通蝾螈差不多寿命。但现实是它能活到 100 岁以上——也就是说&lt;strong&gt;同样大小、代谢率、抗氧化能力的两栖动物里，洞螈的寿命异常值大约是 6-10 倍&lt;/strong&gt;。论文标题是「Extreme lifespan of the human fish: a challenge for ageing mechanisms」（人鱼的极端寿命：对衰老机制的挑战）——这种几乎绝望的措辞在科学论文里非常少见。&lt;/p&gt;
-
-&lt;p&gt;2021 年延世大学和卢布尔雅那大学合作启动了 &lt;strong&gt;Proteus 基因组计划&lt;/strong&gt;——洞螈基因组超过 50 Gb（人类的 16 倍），是已知动物中最大的之一。研究团队希望从基因组层面找到长寿的分子基础，但这个工作量巨大的项目目前只发表了片段性结果。已知的早期发现包括：&lt;strong&gt;洞螈基因组里有大量重复序列和未知功能基因&lt;/strong&gt;，可能与代谢调节和 DNA 修复有关，但 mechanism 仍是黑箱。&lt;/p&gt;
-
-&lt;p&gt;洞螈的栖息地正在快速消失。斯洛文尼亚和克罗地亚的喀斯特地下水系受到农药、重金属和气候变化威胁。野生种群估计不超过几万只，而且因为生活完全在地下、世代时间极长（&gt;100 年），种群恢复几乎不可能。下一次有人不小心忘了喂洞螈 7 年，可能就再也找不到下一只来代替它了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/science/article/the-olm-the-blind-cave-salamander-that-lives-to-100"&gt;https://www.nationalgeographic.com/science/article/the-olm-the-blind-cave-salamander-that-lives-to-100&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://royalsociety.org/news/2010/cave-salamander/"&gt;https://royalsociety.org/news/2010/cave-salamander/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Olm"&gt;https://en.wikipedia.org/wiki/Olm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3030882/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC3030882/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/34480358/"&gt;https://pubmed.ncbi.nlm.nih.gov/34480358/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">42e128e1-7db5-51c8-8b73-b7d0907c4a82</guid>
-      <pubDate>Thu, 07 May 2026 08:12:47 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.nationalgeographic.com/science/article/the-olm-the-blind-cave-salamander-that-lives-to-100</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Proteus_anguinus_Postojnska_Jama_Slovenija.jpg/1280px-Proteus_anguinus_Postojnska_Jama_Slovenija.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 PEARL 试验完整数据出炉：低剂量雷帕霉素 48 周让女性瘦体重显著上升、慢性疼痛缓解，但 720 人扩展试验才是真考验</title>
-      <description>&lt;p&gt;抗衰老药物 rapamycin（雷帕霉素，mTOR 抑制剂）能否在&lt;em&gt;健康人&lt;/em&gt;身上复制小鼠中惊艳的延寿效应，过去十年一直停在动物模型与肾移植患者数据。&lt;em&gt;Aging&lt;/em&gt;（Aging-US）2025 年 4 月号发表的 &lt;strong&gt;PEARL 试验&lt;/strong&gt;（Participatory Evaluation of Aging With Rapamycin for Longevity, NCT04488601）给出了第一份较为像样的&lt;strong&gt;去中心化双盲安慰剂对照 RCT 结果&lt;/strong&gt;，把这条路推到了人体数据起点。研究者来自 AgelessRx 与多家美国独立研究机构。&lt;/p&gt;&lt;p&gt;设计：&lt;strong&gt;115 名 50 岁以上健康成年人&lt;/strong&gt;，1:1:1 随机化到安慰剂、5 mg 复方雷帕霉素、10 mg 复方雷帕霉素，每周服一次，48 周。注意——复方（compounded）配方的生物利用度约为标准口服雷帕霉素的&lt;strong&gt;1/3.5&lt;/strong&gt;，因此 10 mg 周剂量大致相当于标准药 2.9 mg 周剂量，这是有意为之的低剂量策略，目的是绕开免疫抑制相关副作用。试验完全远程进行：受试者居家测量、指尖血卡寄送中心实验室、电子日志记录症状。这种设计本身在大规模衰老干预试验里值得记一笔。&lt;/p&gt;&lt;p&gt;主要终点是安全性。&lt;strong&gt;不良事件与严重不良事件三组无显著差异&lt;/strong&gt;，10 mg 组报告的口腔溃疡、轻度感染等已知雷帕霉素副反应频率略高但未触发停药安全信号。这一点至关重要：雷帕霉素长期以来被排除在普通人健康使用之外，正是因为高剂量（每天 2 mg 以上）会显著抑制免疫并伴血脂代谢异常。PEARL 数据提示，每周脉冲式 2.9 mg-eq 对中年健康人是可接受的。&lt;/p&gt;&lt;p&gt;次要终点（探索性疗效）出现了几个有意思的信号：&lt;strong&gt;10 mg 组的女性瘦体重（lean tissue mass）显著上升&lt;/strong&gt;，自评慢性疼痛显著下降；5 mg 组的自评情绪健康与综合健康打分改善。&lt;strong&gt;男性这些指标无显著变化&lt;/strong&gt;。内脏脂肪未见统计学差异。研究者把这归因于 mTORC1 抑制对肌肉蛋白合成-降解平衡的调控，以及对慢性低度炎症的改善，但样本量太小，现阶段当作 hypothesis-generating 来看更合适。&lt;/p&gt;&lt;p&gt;该把这事放进多大期待框里？四点：（1）样本 115、随访 48 周、复方制剂的剂量 PK 不完全标准化——这只是安全性 OK 加探索信号的早期数据，离硬终点（死亡、肌少症、痴呆发生率）还远；（2）次要终点的性别异质性必须独立队列验证才能接受；（3）大手笔扩展试验已启动：University of Arizona、Mayo Clinic 等领衔的 720 人 RCT 正在招募 65 岁以上成年人，2 年连续每周给药加 1 年随访，主要终点改为&lt;strong&gt;frailty 转归与 IL-6 炎症水平&lt;/strong&gt;，外加表观遗传时钟（Horvath、GrimAge、DunedinPACE）、免疫表型、肺功能、关节健康——这才是值得密切跟踪的关键试验；（4）医学界的 deprescribing 大趋势——本知识库 RETREAT-FRAIL 已涵盖——意味着再加一种慢性药门槛比以往更高，雷帕霉素必须证明的不只是有效，而是与减药生活方式干预相比的&lt;strong&gt;边际收益值得&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;对读者的实用结论：（1）现阶段不要在临床试验外自行使用 off-label 雷帕霉素——剂量、监测、人群均未定型，且复方配方在 FDA 框架外质量参差；（2）如果对衰老干预感兴趣，已被反复验证的低成本干预——抗阻加有氧组合训练、地中海饮食加橄榄油、每晚 7 至 8 小时含深睡眠的睡眠、维持社交参与——其证据强度此刻仍远高于任何 longevity 药物；（3）2027 年初发布的 720 人扩展试验中期数据，是值得设日历提醒的一个时间点。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/40188830/"&gt;https://pubmed.ncbi.nlm.nih.gov/40188830/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12074816/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12074816/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aging-us.com/interviews/rapamycin-s-1-year-impact-on-healthspan-pearl-trial-results"&gt;https://www.aging-us.com/interviews/rapamycin-s-1-year-impact-on-healthspan-pearl-trial-results&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://clinicaltrials.gov/study/NCT04488601"&gt;https://clinicaltrials.gov/study/NCT04488601&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.gethealthspan.com/research/article/human-rapamycin-trial-longevity-evidence"&gt;https://www.gethealthspan.com/research/article/human-rapamycin-trial-longevity-evidence&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e081128c-666f-5e37-a7aa-1b77ebf99c84</guid>
-      <pubDate>Thu, 07 May 2026 08:13:11 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://pubmed.ncbi.nlm.nih.gov/40188830/</link>
-      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎨 WebAIM Million 2026 Reverses Seven Years of Accessibility Progress — and Names Vibe Coding as Cause / WebAIM Million 2026 报告：七年改善趋势首次反转，「Vibe Coding」被点名</title>
       <description>&lt;p&gt;The WebAIM Million 2026 report is out — and for the first time in seven years, the numbers got worse. 95.9% of homepages had detectable WCAG failures, up from 94.8% in 2025. Average errors per page jumped from 51 to 56.1, a 10.1% YoY increase. The trendline of small annual improvements that ran 2019–2025 just broke. WebAIM's diagnosis is unusually direct: "broader shifts in web development including increased reliance on 3rd party frameworks and libraries and automated or AI-assisted coding practices ('vibe coding')." Carrie Webster's April 22 Smashing essay on the production-ready-as-deliverable trap now reads less like prediction and more like archived warning.&lt;/p&gt;
@@ -1518,6 +861,816 @@
       <category>product-design</category>
       <link>https://www.nngroup.com/articles/state-of-ux-2026/</link>
       <enclosure url="https://media.nngroup.com/media/editor/2026/01/15/ai-roller-coaster-nng.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 这个实验已经跑了 99 年，看守它 52 年的物理教授到死也没看见过它「发生」一次</title>
+      <description>&lt;p&gt;世界上跑得最久的实验室实验已经连续运行 99 年了，但它的看守人——一位守了它整整 52 年的物理教授——直到去世，也没亲眼见到这个实验"发生"过任何一次。&lt;/p&gt;
+
+&lt;p&gt;故事的主角是澳大利亚布里斯班昆士兰大学的&lt;strong&gt;沥青滴漏实验（Pitch Drop Experiment）&lt;/strong&gt;。1927 年，物理学家 Thomas Parnell 把一块沥青——就是修路用的那种黑色焦油状物质——加热熔化，倒进一个封口的漏斗里，让它慢慢凝固。三年后的 1930 年，他剪开漏斗底部的封口，把这只漏斗架在一个支架上，旁边放了一只接滴杯。然后……就开始等。&lt;/p&gt;
+
+&lt;p&gt;Parnell 想向学生证明一件反直觉的事：有些看起来是固体的东西，其实是黏度极高的液体（high-viscosity fluid）。沥青在常温下硬得能用锤子砸碎，但只要给它足够长的时间，它会"流"。多慢？根据第八滴掉落时的测量，沥青的黏度大约是水的 &lt;strong&gt;2300 亿倍&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这只漏斗的"产能"是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第 1 滴：1938 年 12 月（漏斗启封 8 年后）&lt;/li&gt;
+&lt;li&gt;第 2 滴：1947 年 2 月&lt;/li&gt;
+&lt;li&gt;第 3 滴：1954 年 4 月&lt;/li&gt;
+&lt;li&gt;第 4 滴：1962 年 5 月&lt;/li&gt;
+&lt;li&gt;第 5 滴：1970 年 8 月&lt;/li&gt;
+&lt;li&gt;第 6 滴：1979 年 4 月&lt;/li&gt;
+&lt;li&gt;第 7 滴：1988 年 7 月&lt;/li&gt;
+&lt;li&gt;第 8 滴：2000 年 11 月&lt;/li&gt;
+&lt;li&gt;第 9 滴：2014 年 4 月&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;平均下来八九年一滴。但真正让这个实验进入吉尼斯纪录、变成"史上最长实验"的，是另一件事——&lt;strong&gt;从来没有人亲眼看到过一滴掉下来&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;1961 年，物理学家 John Mainstone 从 Parnell 手中接过了这个实验的看守人身份。他守了 52 年。1988 年第七滴要掉的时候，他守了整整一周。结果就在他出门去倒杯水的那短短几分钟里，那滴沥青无声地落下了。回来一看，漏斗下面已经多了一滴。&lt;/p&gt;
+
+&lt;p&gt;2000 年第八滴。这次他学聪明了——架了网络摄像头 24 小时直播。结果当晚有雷暴，&lt;strong&gt;摄像头死机了 20 分钟&lt;/strong&gt;。等他重启录像时，沥青已经躺在杯底。&lt;/p&gt;
+
+&lt;p&gt;2013 年 8 月 13 日，Mainstone 因中风去世，享年 78 岁。八个月后，2014 年 4 月，第九滴掉落。还是没拍到——这次是因为接滴杯太满了，新滴下来时连带把杯子里前面累积的旧沥青一起带塌了。&lt;/p&gt;
+
+&lt;p&gt;真正第一个被相机抓到的沥青滴，发生在地球另一端。爱尔兰&lt;strong&gt;都柏林圣三一学院（Trinity College Dublin）&lt;/strong&gt;在 1944 年也做了一个类似的实验，被遗忘在物理系的架子上几十年。2013 年 7 月 11 日下午 5 点左右，他们 2013 年才架上的网络摄像头终于拍下了人类历史上第一段沥青滴落的视频——刚好比 Mainstone 去世早了一个月。&lt;/p&gt;
+
+&lt;p&gt;这件事的浪漫之处在于：物理学家把毕生时间献给一个"什么都没发生"的实验，而这个"什么都没发生"，恰恰就是宇宙在告诉你时间尺度有多么残酷。你眼里的固体，在沥青眼里只是一杯还没流完的咖啡。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Pitch_drop_experiment"&gt;https://en.wikipedia.org/wiki/Pitch_drop_experiment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://smp.uq.edu.au/pitch-drop-experiment"&gt;https://smp.uq.edu.au/pitch-drop-experiment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencealert.com/the-worlds-longest-running-lab-experiment-is-almost-100-years-old"&gt;https://www.sciencealert.com/the-worlds-longest-running-lab-experiment-is-almost-100-years-old&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2013-08-custodian-world-longest-dies.html"&gt;https://phys.org/news/2013-08-custodian-world-longest-dies.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1c945fa7-4ab4-5ff6-a59b-a72902eba721</guid>
+      <pubDate>Fri, 15 May 2026 11:09:01 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Pitch_drop_experiment</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/University_of_Queensland_Pitch_drop_experiment-white_bg.jpg/960px-University_of_Queensland_Pitch_drop_experiment-white_bg.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 1919 年波士顿被一场糖蜜海啸淹了——半数死者不是被冲死，是被冻硬的糖浆活活困死</title>
+      <description>&lt;p&gt;1919 年 1 月 15 日中午 12 点 30 分，波士顿北区一声闷响——一座 15 米高的钢制储罐爆裂，&lt;strong&gt;870 万升糖蜜（molasses）&lt;/strong&gt;以每小时 56 公里的速度冲上街道，浪高 7.5 米。21 人死亡，150 人受伤。这听起来像个荒诞笑话，但事实上，糖蜜溺死人的方式，比水还要可怕。&lt;/p&gt;
+
+&lt;p&gt;事故发生在 Purity Distilling Company 的码头工厂。这家公司把加勒比海运来的糖蜜发酵成工业酒精，转手卖给军火商做炸药——当时正值一战刚结束，禁酒令还有 32 天才生效，工厂在赶最后一批存货。储罐装了 1.3 万吨糖蜜，重量相当于一艘小型驱逐舰。&lt;/p&gt;
+
+&lt;p&gt;前一天，工厂临时往罐里加了一批刚出港的&lt;strong&gt;温热糖蜜&lt;/strong&gt;，目的是降低存量糖蜜的黏度方便后续处理。当晚波士顿气温从零下 17 度急升到约 5 度，温差超过 22 度。第二天中午，钢板铆钉接缝开始漏液——目击者描述听到"像机枪扫射"的金属断裂声——然后整罐爆开。&lt;/p&gt;
+
+&lt;p&gt;糖蜜没像水那样冲刷过去就算了。它形成的浪扫平了波士顿高架铁路的支柱、把房屋从地基掀起、把一辆消防车甩进波士顿港。但更恐怖的是浪过之后发生的事。冷空气一接触，糖蜜的&lt;strong&gt;黏度急剧上升&lt;/strong&gt;——温度每下降 10 度，黏度涨到 3 倍以上，越冷涨得越夸张。受困者陷在齐腰深的糖浆里，越挣扎陷得越深。救援队赶到时看到的景象，按当时记者的描述是"街上散落着像被巨大苍蝇拍打过的尸体——人、马、狗"。&lt;/p&gt;
+
+&lt;p&gt;遇难者的死因，大多数不是被冲走砸死，而是&lt;strong&gt;被困在凝固的糖浆里慢慢窒息&lt;/strong&gt;。半数死者是被卡住后无法呼吸而死。清理工作持续了几个月——市政用消防船从港里抽海水冲洗街道（淡水冲不动糖蜜），下水道里的糖浆把整个波士顿港染成棕色直到夏天。多年之后老波士顿人传说，温暖的夏日里整个北区还能闻到一丝甜味。&lt;/p&gt;
+
+&lt;p&gt;这件事一直被当成都市怪谈讲了 97 年，直到 2016 年——&lt;strong&gt;哈佛大学&lt;/strong&gt;一个研究团队真的把它当成流体力学问题立项研究。航空工程师 Nicole Sharp 联手哈佛物理系研究生 Jordan Kennedy 和 Shmuel Rubinstein 做了一系列流变学（rheological）测试，搞清楚了一个困扰百年的问题：&lt;strong&gt;为什么这场灾难这么致命？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;他们的发现让事故的物理图景终于清晰：温热的糖蜜冲出来时确实流得像水（黏度比水大不了太多），所以能冲倒铁路桥；但当糖蜜在零度左右的冬日街道上铺开后，&lt;strong&gt;每降低 10°C 黏度上升 3 倍&lt;/strong&gt;，温度从 10°C 掉到 0°C 时黏度变化最为剧烈。半小时之内，街道上的糖蜜就从"流体"变成了"沥青"。哈佛团队的论文标题诚实得很直白："In a sea of sticky molasses: The physics of the Boston Molasses Flood"。&lt;/p&gt;
+
+&lt;p&gt;反直觉的结论是：&lt;strong&gt;如果这件事发生在夏天，死的人会少得多&lt;/strong&gt;。糖蜜会流得更远更稀，确实波及更广，但人能挣脱。冬天的糖蜜不放过任何陷在里面的东西。这次事故后，美国所有压力容器都被强制要求由特许工程师签字盖章，这是工程师执业资质制度的一个起点。&lt;/p&gt;
+
+&lt;p&gt;顺便一提，Purity Distilling 的母公司 United States Industrial Alcohol 后来在民事诉讼里赔了 60 万美元，相当于今天的 1100 多万美元——美国早期最大的群体诉讼案之一。罐子早就拆了，事故地点今天是波士顿北区 Langone Park 棒球场，一块小小的纪念牌写着：纪念那 21 个被甜死的人。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Great_Molasses_Flood"&gt;https://en.wikipedia.org/wiki/Great_Molasses_Flood&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/molasses-flood-physics-science/"&gt;https://www.scientificamerican.com/article/molasses-flood-physics-science/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.csmonitor.com/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919"&gt;https://www.csmonitor.com/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aps.org/apsnews/2017/01/this-month-in-physics-history"&gt;https://www.aps.org/apsnews/2017/01/this-month-in-physics-history&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">314aa0c6-d103-54fd-a280-9970702715e4</guid>
+      <pubDate>Fri, 15 May 2026 11:09:45 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Great_Molasses_Flood</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/BostonMolassesDisaster.jpg/1280px-BostonMolassesDisaster.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 🌉 五月 SF 餐厅开业潮：Oracle Park 旁的秘鲁主厨 + NoPa 法式小馆 + Fisherman's Wharf 精品咖啡</title>
+      <description>&lt;p&gt;五月中旬 SF 一口气开了四家新店，从 SoMa 到 NoPa 到 Fisherman's Wharf 分布得很均匀。挑两家最值得跑一趟的说说。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casa Sofia（701 2nd St., SoMa）&lt;/strong&gt;——5/18 开业晚市。这是 Carlos Altamirano 在湾区的第九家店，前八家覆盖了从 Mission 的 La Costanera 到 Burlingame 的 Sanguchon，可以说是湾区秘鲁菜的标杆人物。这次他和太太 Shu 合作，店名取自女儿的名字，菜单走的是加州菜的拉美视角路线——除了招牌的 ceviche（生鱼柠檬腌制）、tiradito（薄切刺身式）、anticucho（炭烤牛心串），还有秘鲁华人 chifa 传统里的 lomo saltado（牛柳炒土豆），以及加了 yuca mousse（木薯泥）和 chimichurri 黄油的烤猪排。120 座位，调酒师专门做了 Pisco Sour、Chilcano、Chicha Sour 三款秘鲁国酒鸡尾酒。位置离 Oracle Park 一个街区，巨人队主场赛前赛后聚餐定位很明显。设计师是 Jon de la Cruz（做过 Wayfare Tavern、Che Fico），整体迈阿密+加州混搭，定制木工、柔和粉色调、绿植和大幅壁画。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://assets.sfstandard.com/image/994911177489/image_9sn6l53se50atf37p2gtoq673j/-S3840x2400-FPNG" alt="Casa Sofia 室内设计" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Casa Sofia 的拉美+加州混搭空间，701 2nd St. 离 Oracle Park 仅一街之隔&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Esme（311 Divisadero, NoPa）&lt;/strong&gt;——五月开业。Hotel Metro 一楼，主厨 Susan Dunn 第一家独立项目，主打经典法式小馆菜——steak frites（牛排薯条）、paté（肉酱）、配勃艮第皮椅和本地手作家具。NoPa 这两年精品小餐厅密度越来越高，Esme 走的是邻里小馆路线，定价应该比 Casa Sofia 友好不少。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Francisco Brewing Co. 第二店（100 Hooper St., Mission Bay）&lt;/strong&gt;——五月中开。占地接近 20,000 平方英尺，室内外结合，主打 Fog City IPA 和 Alcatraz Amber Ale 这些招牌。最大的看点是一座从苏格兰运来的 750 加仑铜制蒸馏器——意味着这里不只卖啤酒，未来也会有自家蒸馏的烈酒。Mission Bay 这个区一直缺像样的喝酒据点，巨人队/勇士队比赛日步行可达。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Signal Coffee（2701 Leavenworth, Fisherman's Wharf）&lt;/strong&gt;——五月初开业。Alameda 起家的精品烘焙商在 SF 的第一家独立店面。除了常规 espresso，重点推单一产地的 anaerobic（厌氧发酵）处理咖啡豆，搭配早餐三明治和糕点。Fisherman's Wharf 长期以来是游客陷阱区，能开一家本地烘焙商的店面算是少见的反游客化操作。&lt;/p&gt;
+
+&lt;p&gt;四家放一起看，能看出 SF 餐饮今年的两个走向——一是名厨横向扩张（Altamirano 第九店、SF Brewing 第二店），二是 Hotel Metro、Aloft 这类酒店一楼开始引入本地餐饮品牌做非游客目标客群。隔壁 Palo Alto 还在等 Bistro Demiya 和 Pengs Kitchen，SF 这边已经一波接一波开门了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/04/30/best-new-san-francisco-restaurants-may/"&gt;https://sfstandard.com/2026/04/30/best-new-san-francisco-restaurants-may/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hoodline.com/2026/04/star-peruvian-chef-plants-casa-sofia-steps-from-oracle-park/"&gt;https://hoodline.com/2026/04/star-peruvian-chef-plants-casa-sofia-steps-from-oracle-park/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.casasofiasf.com/"&gt;https://www.casasofiasf.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">536a69ec-12bb-5d0b-96df-eff8a49fef34</guid>
+      <pubDate>Fri, 15 May 2026 11:09:50 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sfstandard.com/2026/04/30/best-new-san-francisco-restaurants-may/</link>
+      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_9sn6l53se50atf37p2gtoq673j/-S3840x2400-FPNG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 宾州一座叫 Centralia 的小镇地下烧了 64 年了——挖隔离沟反而让火跑得更快，还能再烧 250 年</title>
+      <description>&lt;p&gt;1981 年 2 月 14 日情人节那天，宾州 Centralia 镇 12 岁的男孩 Todd Domboski 在自家后院玩，脚下的地面突然&lt;strong&gt;裂开一个直径 1.2 米的洞&lt;/strong&gt;。他掉了进去——洞深 45 米，里面冒出 80 度的蒸汽和致命浓度的一氧化碳。他抓住一根树根挣扎着没掉到底，他表哥 Eric Wolfgang 把他拉了上来。回到地面那一刻，Todd 第一次明白：他从小生活的整座小镇，&lt;strong&gt;脚下一直在烧&lt;/strong&gt;，而且已经烧了 19 年。&lt;/p&gt;
+
+&lt;p&gt;Centralia 在&lt;strong&gt;无烟煤（anthracite coal）&lt;/strong&gt;矿脉之上，一座典型的宾州矿镇。1962 年 5 月，市政当局决定清理一处废弃露天矿坑改造成的垃圾填埋场，方式很直接：点把火烧掉表面垃圾。但烧得太热，火苗钻进了填埋坑底部一个&lt;strong&gt;没封死的矿井开口&lt;/strong&gt;，顺着矿道往下窜，引燃了 Buck Mountain 煤层。等市政发现问题派人灭火时，火已经钻进了地下迷宫。&lt;/p&gt;
+
+&lt;p&gt;地下煤层火（underground coal seam fire）一旦点着，几乎不可能扑灭。它有三个让人绝望的特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;燃料管够&lt;/strong&gt;。Buck Mountain 煤层估计还有 2400 万吨可燃煤——以当前燃烧速率算，这把火可以再烧 &lt;strong&gt;250 年&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;越挖越糟&lt;/strong&gt;。Centralia 试过开挖隔离沟、灌泥浆、灌惰性气体。每次工程队挖到火线附近，新鲜空气从开口涌入——&lt;strong&gt;反而加速了火势蔓延&lt;/strong&gt;，火线跑得比挖掘机还快。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;面太大&lt;/strong&gt;。烧到今天，火场绵延 13 公里、覆盖约 1500 公顷土地、深度最多到 90 米。要真灭火得整个挖开重新埋——估算费用 6.6 亿美元，远超整个小镇的价值。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1980 年代，地表开始出现征兆：街道莫名变烫融化柏油、井水沸腾、地基塌陷、屋里一氧化碳浓度致命。1984 年美国国会拨款 4200 万美元买下整个镇——大多数居民迁走，1992 年宾州正式动用&lt;strong&gt;征用权（eminent domain）&lt;/strong&gt;没收剩余房产。&lt;strong&gt;2002 年美国邮政局取消了 Centralia 的邮编 17927&lt;/strong&gt;，这是美国邮政史上罕见的"小镇被注销"操作。&lt;/p&gt;
+
+&lt;p&gt;这座镇 1981 年还有大约 1500 居民。&lt;strong&gt;2017 年只剩 5 个人&lt;/strong&gt;，几位老人通过法律斗争保住了在地权——条件是他们死后房子归州政府拆除。镇上的天主教教堂 Saint Ignatius 在 1995 年被联邦判定不安全后拆除；曾经的 7 街区如今几乎是空旷草地，只剩几条断头路和裂缝里冒出的水汽。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，Centralia 在 21 世纪初变成了一个反向旅游目的地。游客们涌来看一段被废弃的&lt;strong&gt;61 号公路&lt;/strong&gt;——路面被地热顶起开裂、涂满了几十年累积的涂鸦，被叫做"Graffiti Highway"。2020 年 4 月，私人土地所有者忍无可忍，雇推土机把整段路覆上了 70 厘米厚的土——一夜之间这个景点消失了。&lt;/p&gt;
+
+&lt;p&gt;这把火也成了流行文化的素材。2006 年 Konami 游戏《寂静岭》的电影版直接以 Centralia 为蓝本拍摄那个永远在燃烧的废城；StephenKing 的《Desperation》、电视剧《The Walking Dead》都借用过这个意象。&lt;/p&gt;
+
+&lt;p&gt;Todd Domboski 那次掉进洞里活了下来，但据他自己后来描述，这件事让他终生 PTSD。&lt;strong&gt;2022 年 2 月 4 日，他因药物过量去世，享年 53 岁&lt;/strong&gt;。在他的家乡 Centralia——他从坑里爬出来 41 年后——脚下那把火，依然在烧。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Centralia_mine_fire"&gt;https://en.wikipedia.org/wiki/Centralia_mine_fire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Centralia"&gt;https://en.wikipedia.org/wiki/Centralia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="_Pennsylvania"&gt;_Pennsylvania&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pa.gov/agencies/dep/programs-and-services/mining/abandoned-mine-reclamation/aml-program-information/centralia-mine-fire-resources"&gt;https://www.pa.gov/agencies/dep/programs-and-services/mining/abandoned-mine-reclamation/aml-program-information/centralia-mine-fire-resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.history.com/articles/mine-fire-burning-more-50-years-ghost-town"&gt;https://www.history.com/articles/mine-fire-burning-more-50-years-ghost-town&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c045c6ef-9b6e-59ea-90a5-87d924569859</guid>
+      <pubDate>Fri, 15 May 2026 11:10:29 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Centralia_mine_fire</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Old_Mine_Fire_1969.jpg/1280px-Old_Mine_Fire_1969.jpg?utm_source=en.wikipedia.org&amp;amp;utm_campaign=index&amp;amp;utm_content=thumbnail" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 🌉 Peninsula 茶饮地图大更新：Auntea Jenny 进驻 Palo Alto，Millbrae 出现 24 小时无人 Boba Bot</title>
+      <description>&lt;p&gt;Peninsula 的茶饮市场最近有两个有意思的动作——一个是中国一万家门店的大连锁正式进军 Palo Alto，另一个是 Millbrae 的酒店大堂里出现了一台 24 小时不打烊的无人 boba 机器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Auntea Jenny 进驻 328 University Ave.（夏季开业）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这家诞生于上海、全球门店数超过 10,000 家的连锁品牌（中文名沪上阿姨），把湾区首店选在了 Downtown Palo Alto。位置紧挨 Apple Store，对面就是即将开业的 La Corneta Taqueria——University Ave 这一段未来三个月会成为新店密度最高的一条街。店面不大，只有一张橙色卡座加两张小桌，定位是 grab-and-go。&lt;/p&gt;
+
+&lt;p&gt;菜单和已经站稳脚跟的 Yifang、Heytea 路线不太一样。招牌是 &lt;strong&gt;mango pomelo sago（杨枝甘露）&lt;/strong&gt;——芒果冰沙加椰浆、柚子粒和西米，香港甜品改良成现做茶饮。还有一个差异化的超级食物+蔬菜系列，包括羽衣甘蓝纤维茶和六莓抗氧化茶（.99-7.59），算是抓住 Palo Alto 的健身/科技人群口味。另一款值得一试的是 strawberry green fresh milk tea daifuku，茶里加了大福麻薯块，比常规珍珠多一层口感。&lt;/p&gt;
+
+&lt;p&gt;Palo Alto 现有的茶饮选择已经很多——T4、Tea Top、Sharetea、Yifang、Tea Era 都在五分钟步行圈内，新店再加一家会不会过剩？看 Auntea Jenny 在加州其他城市的口碑（Arcadia、Irvine 店常年排队），它的差异化在于水果茶用料和价格——同款杨枝甘露在隔壁两家店都要 +，这家做到  出头是一个直接的价格锚点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yo-Kai Express Boba Bot @ Aloft Hotel Millbrae（已开业，24/7）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://i0.wp.com/www.paloaltoonline.com/wp-content/uploads/2026/03/Millbrae_Yo-Kai-Express_MARCH2026_01-1200x900.jpg" alt="Yo-Kai Express Boba Bot 在 Aloft Hotel Millbrae" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Aloft Hotel Millbrae 大堂的 20 平方英尺无人 boba 机，24 小时运营&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这台机器在 401 E. Millbrae Ave. 的 Aloft Hotel 大堂，离 Millbrae BART/Caltrain 联运站步行五分钟。Yo-Kai Express 是 Hayward 起家的公司，之前主要做拉面自动贩卖机，这次第一次把概念扩展到茶饮。占地 20 平方英尺，没有任何员工——从煮珍珠到出杯全程 60 秒煮珍珠+ 90 秒到 2 分钟出杯，看你加多少配料。&lt;/p&gt;
+
+&lt;p&gt;菜单六款，统一  一杯：桂花乌龙奶茶、葡萄绿茶、芒果柚子、椰奶红茶、咖啡豆奶、椰奶咖啡。机器据说还能做蛋白粉饮料、胶原蛋白饮，甚至（在有酒类执照的前提下）调鸡尾酒。Yo-Kai 的 COO 公开放话说消费者尝不出机器和人工做的区别——这话当然有营销成分，但作为一个红眼航班落地 SFO 凌晨两点想喝奶茶的方案，它的实用性非常具体。&lt;/p&gt;
+
+&lt;p&gt;两家店放一起看挺有意思——Auntea Jenny 走的是大连锁进军 Downtown 黄金地段的传统打法，Yo-Kai 则是用机器人切入凌晨空白时段的边缘场景。Peninsula 的 boba 市场已经过热到需要分时段和地点细分，但夏天来之前去试一杯都不亏。Burlingame 的 Ume Tea（替代了 Mochiko Mochi Pizza 的位置）也刚开，凑齐三家可以做一个 SamTrans 沿线的 boba 巡游。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.paloaltoonline.com/palo-alto/2026/02/25/chinese-tea-chain-plans-bay-area-debut-in-downtown-palo-alto/"&gt;https://www.paloaltoonline.com/palo-alto/2026/02/25/chinese-tea-chain-plans-bay-area-debut-in-downtown-palo-alto/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.almanacnews.com/food/2026/03/18/yo-kai-express-boba-bot-millbrae/"&gt;https://www.almanacnews.com/food/2026/03/18/yo-kai-express-boba-bot-millbrae/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://aunteajenny.us/discover.html"&gt;https://aunteajenny.us/discover.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f821cd7e-5433-5882-b876-c8ea5637ebde</guid>
+      <pubDate>Fri, 15 May 2026 11:10:42 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.paloaltoonline.com/palo-alto/2026/02/25/chinese-tea-chain-plans-bay-area-debut-in-downtown-palo-alto/</link>
+      <enclosure url="https://i0.wp.com/www.paloaltoonline.com/wp-content/uploads/2026/03/Millbrae_Yo-Kai-Express_MARCH2026_01-1200x900.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Design Tokens Spec Hits Stable v1.0: Six Months In, Tooling Has Caught Up / 设计令牌规范 v1.0 稳定版半年回顾：工具链终于跟上了</title>
+      <description>&lt;p&gt;The Design Tokens Community Group (DTCG) shipped &lt;strong&gt;version 2025.10&lt;/strong&gt; of the Design Tokens specification on October 28, 2025 — the first release the group is willing to call stable. After roughly six years of in-the-open iteration at the W3C, design teams finally have a vendor-neutral JSON format they can build on without expecting the schema to break next quarter. Six months in, the adoption picture looks healthier than past "industry standard" announcements would predict, and it's worth a closer look at what the spec actually unlocks and where the seams still show.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.unsplash.com/photo-1642346889463-a6224f8d3b1c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;w=1200&amp;q=80" alt="Color swatches representing design tokens" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The DTCG 2025.10 spec is the first stable JSON contract for design tokens. Image: Richard Bell / Unsplash.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;What's actually in v1.&lt;/strong&gt; Three things matter most. First, &lt;em&gt;theming and multi-brand support&lt;/em&gt; — you can describe light/dark, accessibility variants, and entirely different brands as overlays on a single source of truth instead of duplicating files. Second, &lt;em&gt;modern color&lt;/em&gt; — Display P3, Oklch, and CSS Color Module 4 are first-class, which finally aligns the token format with where browsers and OSes have been for two years. Third, &lt;em&gt;token relationships&lt;/em&gt; — aliases, inheritance, and component-level references are formalized rather than left as a tooling convention. The spec was edited by twenty-plus contributors across Adobe, Amazon, Google, Figma, Microsoft, Meta, Sketch, Salesforce, Shopify, and others, which is most of the table you'd want sitting at this kind of standard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The format itself&lt;/strong&gt; is intentionally boring — a JSON object where each token has a &lt;code&gt;$value&lt;/code&gt; and a &lt;code&gt;$type&lt;/code&gt;, and groups inherit type from their parent. A minimal token file looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  "colors": {
+    "$type": "color",
+    "brand": {
+      "base": {
+        "$value": "#00A758",
+        "$description": "Primary brand color"
+      }
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That same file fans out into CSS custom properties, Swift constants, Android XML resources, Flutter Dart, or whatever else &lt;strong&gt;Style Dictionary&lt;/strong&gt; (the de facto reference transformer, originally from Amazon) is configured to emit. Style Dictionary v4 added native DTCG support; Tokens Studio and Terrazzo are also reference-grade.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/12/Material-3-Expressive-Google-Drive-2.jpg" alt="Tokens flowing from Figma to platform code" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The pipeline that v1 makes boring: Figma variables → DTCG JSON → Style Dictionary → CSS / Swift / XML / Dart.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Tooling is the real story.&lt;/strong&gt; Ten-plus tools shipped support around the v1 release: Penpot, Figma, Sketch, Framer, Knapsack, Supernova, zeroheight, Style Dictionary, Tokens Studio, and others. Figma's piece is the most consequential — at Schema 2025 (their annual design-systems conference), they announced native bidirectional export and import of variables as DTCG-compliant JSON, removing the longest-standing reason teams reached for plugins. Until that ships everywhere, plugins like Token Press, Variables JSON Import, and the W3C Design Tokens Export plugin cover the gap.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this is more than a JSON spec.&lt;/strong&gt; The pre-v1 world had a real problem: every design system team was maintaining a private bridge between Figma variables and code. Token files had proprietary shapes; switching tools meant rewriting your transform layer; multi-brand setups duplicated everything because there was no theming primitive. Co-chair Kaelig Deloumeau-Prigent's framing at the release captures it: "Design systems teams can now maintain one source of truth that works everywhere — from design to production code across iOS, Android, and web." Boring infrastructure, but the kind that changes hiring requirements: teams that previously needed a "design systems engineer" to maintain glue code can now plug standard tools together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where seams still show.&lt;/strong&gt; Component-level tokens (the slot-based primitives used in Material You, Carbon, Polaris) are not yet fully in scope — the spec covers primitive and semantic layers cleanly but punts on component slots. &lt;code&gt;$extensions&lt;/code&gt; is the escape hatch tools use for proprietary metadata, which works but is also how interoperability quietly breaks if everyone leans on it. And while the spec is stable, several major systems (notably Apple's HIG) have not signaled adoption — Apple has its own SF Symbols / SwiftUI styles pipeline and shows no sign of converging.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practical takeaway.&lt;/strong&gt; If you're starting a design system in 2026, structure your tokens to the DTCG shape from day one — even if you stay on Style Dictionary v3 or another transformer for the moment, the upgrade path will be trivial. If you have an existing system, the migration is mostly mechanical: rename custom keys to &lt;code&gt;$value&lt;/code&gt;/&lt;code&gt;$type&lt;/code&gt;, formalize your aliases, and add theming overlays for any brand or mode you currently maintain by file duplication. The interesting question for the next twelve months isn't whether the spec succeeds — it has — but whether &lt;strong&gt;component-level tokens&lt;/strong&gt; get standardized next, and whether Apple stays outside the tent.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;设计令牌社区组（Design Tokens Community Group, DTCG）在 2025 年 10 月 28 日发布了设计令牌规范的 &lt;strong&gt;2025.10 版&lt;/strong&gt;——这是该组织愿意称之为「稳定」的第一个版本。经过在 W3C 大约六年的公开迭代，设计团队终于有了一个厂商中立的 JSON 格式，可以放心建设而不必担心 schema 下个季度就变。半年过去，落地情况比过往「行业标准」公告预测的健康得多，值得仔细看看这份规范实际解锁了什么、哪些缝合处仍然显眼。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;v1 里到底有什么。&lt;/strong&gt;三件事最重要。第一，&lt;em&gt;主题化与多品牌支持（theming and multi-brand support）&lt;/em&gt;——浅色/深色、无障碍变体、乃至完全不同的品牌都可以作为「叠加层」描述在同一份真源之上，而不是复制文件。第二，&lt;em&gt;现代色彩&lt;/em&gt;——Display P3、Oklch、CSS Color Module 4 都是一等公民，这让令牌格式终于追上了浏览器和操作系统两年前就到达的位置。第三，&lt;em&gt;令牌关系&lt;/em&gt;——别名、继承、组件级引用被规范化，而不是停留在工具约定层面。规范的编辑者来自 Adobe、Amazon、Google、Figma、Microsoft、Meta、Sketch、Salesforce、Shopify 等二十多家公司——基本是这种标准你希望看到的桌前阵容。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;格式本身&lt;/strong&gt;故意做得「无聊」——每个令牌一个 &lt;code&gt;$value&lt;/code&gt; 和一个 &lt;code&gt;$type&lt;/code&gt;，分组从父级继承类型。一份最小令牌文件就这样：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  "colors": {
+    "$type": "color",
+    "brand": {
+      "base": {
+        "$value": "#00A758",
+        "$description": "Primary brand color"
+      }
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;同一份文件经 &lt;strong&gt;Style Dictionary&lt;/strong&gt;（事实上的参考转换器，源自 Amazon）扇出为 CSS 自定义属性、Swift 常量、Android XML 资源、Flutter Dart 等任何被配置的输出格式。Style Dictionary v4 已加入原生 DTCG 支持；Tokens Studio 和 Terrazzo 也达到参考级。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;真正的故事在工具链。&lt;/strong&gt;v1 发布前后，十多个工具上线支持：Penpot、Figma、Sketch、Framer、Knapsack、Supernova、zeroheight、Style Dictionary、Tokens Studio 等。Figma 的部分最关键——他们在 Schema 2025（每年的设计系统大会）宣布原生双向支持把 variables 导出/导入为 DTCG 兼容的 JSON，消除了团队长期依赖插件的最大理由。在该功能全面铺开前，Token Press、Variables JSON Import、W3C Design Tokens Export 这些插件填补空缺。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这不只是一份 JSON 规范。&lt;/strong&gt;v1 之前的世界有个实在问题：每个设计系统团队都在维护一座 Figma 变量和代码之间的私人桥梁。令牌文件形态各异；换工具就要重写转换层；多品牌方案因为没有主题化原语而被迫复制一切。联席主席 Kaelig Deloumeau-Prigent 在发布时的表述抓住了关键：「设计系统团队现在可以维护一份真源，它在所有地方都能用——从设计到生产代码，跨 iOS、Android 和 Web。」无聊的基础设施，但属于会改变招聘标准的那种：以前必须有一位「设计系统工程师」维护胶水代码，现在团队可以把标准工具拼起来用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;缝合处仍然显眼。&lt;/strong&gt;组件级令牌（Material You、Carbon、Polaris 中使用的槽位原语）尚未完全纳入范围——规范干净地覆盖了 primitive 与 semantic 两层，但把组件槽位推后了。&lt;code&gt;$extensions&lt;/code&gt; 是工具用来塞专有元数据的逃生口，能用，但也正是大家若过度依赖、互操作性会悄悄破裂的地方。此外，规范虽稳定，几个主要系统（尤其是 Apple HIG）未表态采用——Apple 自有 SF Symbols / SwiftUI styles 管线，看不出收敛迹象。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实操建议。&lt;/strong&gt;如果你 2026 年才起步做设计系统，从第一天就把令牌按 DTCG 形态组织——即使暂时停留在 Style Dictionary v3 或其他转换器上，升级路径也会很简单。已有系统的迁移大多机械：把自定义键改名为 &lt;code&gt;$value&lt;/code&gt;/&lt;code&gt;$type&lt;/code&gt;，把别名规范化，给当前靠复制文件维护的每个品牌或模式加一层主题化覆盖。未来十二个月真正有意思的问题不是规范是否成功——已经成功了——而是&lt;strong&gt;组件级令牌&lt;/strong&gt;会不会成为下一个标准化对象，以及 Apple 会不会一直待在帐篷外面。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/"&gt;https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://designzig.com/design-tokens-specification-reaches-first-stable-version-with-w3c-community-group/"&gt;https://designzig.com/design-tokens-specification-reaches-first-stable-version-with-w3c-community-group/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.misha.wtf/blog/figma-dtcg-design-tokens"&gt;https://www.misha.wtf/blog/figma-dtcg-design-tokens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.designtokens.org/"&gt;https://www.designtokens.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f167a735-f801-5a1b-8f16-bd2caa5106f4</guid>
+      <pubDate>Fri, 15 May 2026 11:11:07 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/</link>
+      <enclosure url="https://images.unsplash.com/photo-1642346889463-a6224f8d3b1c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;w=1200&amp;q=80" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 加拿大一位语言学家造了一门只有 137 个词的语言，治愈了自己的抑郁——你能用它聊哲学，但说不出「绿色」</title>
+      <description>&lt;p&gt;世界上最小的"完整语言"只有 &lt;strong&gt;137 个核心词&lt;/strong&gt;、14 个音素。学完它的整个词汇量大约需要一个下午。你能用它聊哲学、写诗、表达爱意——但你不能说"红色"，因为这门语言没有这个词。"红"在它眼里是一种"火的颜色"或"血的颜色"。&lt;/p&gt;
+
+&lt;p&gt;它叫 &lt;strong&gt;Toki Pona（图基波纳）&lt;/strong&gt;，意为"善之语 / The Language of Good"。创造者是加拿大语言学家、翻译者 &lt;strong&gt;Sonja Lang&lt;/strong&gt;（生于 1978 年的纽布伦瑞克）。&lt;/p&gt;
+
+&lt;p&gt;Toki Pona 不是一门"为了酷"而存在的玩具语。它有真实的诞生背景。2001 年，Sonja 处于一段严重的抑郁期。作为受过专业语言学训练的人，她精通法语、英语、世界语，会一点波斯语和阿坎语。但越精通她越焦虑——人类语言塞满了太多区分、限定、专有概念，&lt;strong&gt;她觉得这些复杂性让她的思维更混乱、更焦虑&lt;/strong&gt;。受道家思想影响（《道德经》里那句"为学日益，为道日损"），她开始反向实验：能不能造一门&lt;strong&gt;极简到能让思维平静下来&lt;/strong&gt;的语言？&lt;/p&gt;
+
+&lt;p&gt;词汇精简的方法不是省略，而是&lt;strong&gt;合并语义&lt;/strong&gt;。Toki Pona 的每个词都是&lt;strong&gt;polysemous（一词多义）&lt;/strong&gt;，覆盖一大片相邻概念。例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;suli&lt;/code&gt; 同时表示"大、长、重要、成年"。一座大山、一段长河、一件重要的事、一个长大的人，都用同一个词。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jaki&lt;/code&gt; 同时表示"脏、毒、令人不适、垃圾"。你不能区分"脏内衣"和"有毒废料"，得靠上下文。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;telma&lt;/code&gt; 是"任何流体"。水、汤、酒、血、汗、海，都是 telma。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;kasi&lt;/code&gt; 是"任何长在地里的东西"——草、花、菜、树、苔藓。一句"mi moku e kasi"既能表示"我吃菜"也能表示"我啃树叶"。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;颜色只有五种：&lt;code&gt;pimeja&lt;/code&gt;（暗/黑）、&lt;code&gt;walo&lt;/code&gt;（亮/白）、&lt;code&gt;loje&lt;/code&gt;（红/粉/橘红，火的颜色）、&lt;code&gt;jelo&lt;/code&gt;（黄/金）、&lt;code&gt;laso&lt;/code&gt;（蓝/绿/青，植物天空的颜色）。&lt;strong&gt;红色和蓝色是基本词，绿色不是&lt;/strong&gt;——这其实意外贴合人类语言进化研究里 Berlin-Kay 1969 著名的"基本颜色词层级"（红会先于绿出现）。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，&lt;strong&gt;用 Toki Pona 你可以表达任何意思&lt;/strong&gt;，但你必须接受&lt;strong&gt;损失精度&lt;/strong&gt;。Sonja 的语言哲学是：当你不得不用更少的词表达一个想法时，你被迫审视：&lt;strong&gt;这件事真的需要这么精细的区分吗？&lt;/strong&gt;"焦虑"和"恐惧"分得那么清，对于眼前这件事重要吗？很多 Toki Pona 学习者反馈说，几周练习之后，他们的&lt;strong&gt;思维确实变得更简洁&lt;/strong&gt;——这是反过来的萨丕尔-沃尔夫假说（Sapir-Whorf Hypothesis）小规模印证：你的语言形态会反向塑造你的思维形态。&lt;/p&gt;
+
+&lt;p&gt;语法极简到让人怀疑可行性：基本句式是 &lt;code&gt;主语 li 谓语 e 宾语&lt;/code&gt;，&lt;code&gt;li&lt;/code&gt; 和 &lt;code&gt;e&lt;/code&gt; 是两个介词标记。没有时态——"我吃苹果"和"我昨天吃过苹果，明天还会吃"在 Toki Pona 里写法可以一样。如果要区分时间，加一个时间状语就够了。&lt;/p&gt;
+
+&lt;p&gt;2001 年 Sonja 在网上发布初版，本来只是个人项目。2014 年她出版了《Toki Pona: The Language of Good》正式版本，2021 年又出了官方词典。结果这个"作为治愈个人抑郁的语言艺术品"意外火了——目前全球约有&lt;strong&gt;数千名活跃使用者&lt;/strong&gt;，Reddit 上的社群超过 1.5 万人，Discord 服务器超过 1 万人，是世上规模最大的人造语社群之一。Sonja 自己 2024 年也来 University of Colorado Boulder 做过一次访谈，称这件事完全超出她的预期。&lt;/p&gt;
+
+&lt;p&gt;顺带一个冷知识里的冷知识：&lt;strong&gt;Toki Pona 的两个词 &lt;code&gt;toki&lt;/code&gt;（说话）和 &lt;code&gt;pona&lt;/code&gt;（好）其实都借自其他语言&lt;/strong&gt;——&lt;code&gt;toki&lt;/code&gt; 源自托克皮辛语（Tok Pisin，巴布亚新几内亚通用克里奥尔语），&lt;code&gt;pona&lt;/code&gt; 源自世界语 &lt;code&gt;bona&lt;/code&gt;（好）。这门"自造"的语言，从它的名字开始，就是一次跨语言的拼贴。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Toki_Pona"&gt;https://en.wikipedia.org/wiki/Toki_Pona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ai.glossika.com/blog/toki-pona"&gt;https://ai.glossika.com/blog/toki-pona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.colorado.edu/linguistics/2024/03/13/roundtable-sonja-lang-toki-pona-personal-art-project-small-world-language"&gt;https://www.colorado.edu/linguistics/2024/03/13/roundtable-sonja-lang-toki-pona-personal-art-project-small-world-language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://comprehensibleinputwiki.org/wiki/Toki_Pona"&gt;https://comprehensibleinputwiki.org/wiki/Toki_Pona&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ea66436a-a576-5f31-9e28-88a9571ce676</guid>
+      <pubDate>Fri, 15 May 2026 11:11:16 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Toki_Pona</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Toki_pona.svg/960px-Toki_pona.svg.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 🌉 五月看花续集：北湾 + 海岸线七条赏花步道（Angel Island、Ring Mountain、Point Reyes）</title>
+      <description>&lt;p&gt;上周写过 Peninsula 半小时车程内的野花路线（Edgewood Park、Pearson-Arastradero 那一批），有读者问北湾和海岸线方向有没有推荐。五月正是 Marin 县野花的高峰，加上 Point Reyes 沿岸——挑几条不同地形、不同难度的路线，按从近到远排一遍。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ring Mountain（Tiburon）——最近、最特别&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Phyllis Ellman Trail，2 英里环线，简单。从 South Bay 走 101 到 Tiburon 出口大概一小时。这条路线最特别的地方是有 &lt;strong&gt;Tiburon mariposa lily（蒂伯龙花斑百合）&lt;/strong&gt;——这种花全世界只在 Ring Mountain 这一座小山上能看到，是真正的地方特有种。同期还能看到 milkmaids、Fremont's camas、buttercups。山顶视野极好，整个 SF 天际线和 Richmond Bridge 一览无余。停车在 Paradise Drive 入口，免费但车位有限，周末十点前到。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Angel Island——岛屿赏花，搭船更有仪式感&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sunset Trail 上 Mount Livermore 再接 North Ridge Trail 下来，4 英里中等强度。看 lupine（鲁冰花）、mule ears（驴耳菊）、Indian paintbrush（印第安画笔花）、yarrow（蓍草）、sticky monkey flower（粘猴花）。从 Tiburon 坐渡轮去（往返 ，10 分钟船程），渡轮班次有限，提前查 angelislandferry.com。岛上有自行车租赁，腿酸了可以骑车一圈再走 trail。Mount Livermore 山顶能 360 度看到旧金山、Oakland、Marin Headlands。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mount Burdell（Novato）——大草甸的诗意&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;位置稍远，从 SF 开车 45 分钟。难度自选——可以走简单 2 英里小环线，也可以挑战 7 英里全山。看 milkmaid（牛奶妹）、iris（鸢尾）、California poppy（加州罂粟）、yellow mariposa lilies（黄花斑百合）。这条路线的特点是大片开阔草甸，没有 Edgewood 那种纯野花地毯的视觉冲击，但有橡树林+草原的混合景观，适合带相机拍那种加州金色山丘的标志性画面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mount Tamalpais——三条难度任选&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Matt Davis/Nora/West Point Inn Loop（3.9 英里简单）适合家庭；Phoenix Trail Loop（4.7 英里中等）景观最均衡；Cataract Falls-Potrero Meadows（6.5 英里强度）能看瀑布+大草甸+老红木林三种景观。五月底瀑布水量还行，再晚就快干了。停车选 Bootjack 或 Pantoll，停车费 /天。Mount Tam 的好处是基本不会迷路，trail 都修得很好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Point Reyes——海岸线限定景观&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;从 SF 开车 1 小时 40 分，是单程最远的，但风景独一份。两条推荐：&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chimney Rock Trail&lt;/strong&gt;（1.75 英里简单）：海崖边的野花地毯，运气好同时能看到 elephant seal（北象海豹）在沙滩晒太阳。停车在 Chimney Rock 入口。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Abbotts Lagoon&lt;/strong&gt;（2.3 英里简单）：从草甸走到泻湖再到沙丘海滩，地形变化最丰富，看的是 clover、iris、buttercup 类。鸟很多，带望远镜更好。&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Samuel P. Taylor State Park——红木林里的花&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bill's Trail 通 Mount Barnabe Peak，7 英里中等强度。看 California poppy、buttercup、clarkia（深粉色钟形花）、creamcups。这条路线最大的吸引力是红木林+野花的双重场景——一般野花路线在开阔地，红木林里有花的不多见。州立公园门票 /车。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实操建议&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;五月中下旬是窗口期最后两周，再晚草就黄了&lt;/li&gt;&lt;li&gt;Marin 海岸早晨雾大，下午两三点光线最好&lt;/li&gt;&lt;li&gt;Point Reyes 方向手机信号差，提前下离线地图&lt;/li&gt;&lt;li&gt;Ring Mountain 是性价比最高的一条——开车一小时看到地球独有的花&lt;/li&gt;&lt;li&gt;所有这些 trail 在 AllTrails 上都有详细 GPX 轨迹&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;对 Peninsula 出发的人来说，这一批比上周那一批远是远，但景观差异化更明显——从特有种百合到岛屿到海崖到红木林。挑一个周末一个地形，五月剩下的两个周末刚好够刷两条。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://marinlibrary.org/blogs/post/wildflower-walks-and-hikes-in-marin/"&gt;https://marinlibrary.org/blogs/post/wildflower-walks-and-hikes-in-marin/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.visitmarin.org/blog/spring-in-marin-collection/the-best-spring-wildflower-walks-in-marin-county/"&gt;https://www.visitmarin.org/blog/spring-in-marin-collection/the-best-spring-wildflower-walks-in-marin-county/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.parksconservancy.org/parks/wildflower-trails-without-crowds-san-francisco-marin-san-mateo-bay-area"&gt;https://www.parksconservancy.org/parks/wildflower-trails-without-crowds-san-francisco-marin-san-mateo-bay-area&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c6e36651-be7b-587c-a537-e6e630ea18ed</guid>
+      <pubDate>Fri, 15 May 2026 11:11:41 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://marinlibrary.org/blogs/post/wildflower-walks-and-hikes-in-marin/</link>
+      <enclosure url="https://www.parksconservancy.org/sites/default/files/styles/card/public/trail/A_MOTA_150814_KW-3046_3x2.jpg.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 Trump-Xi北京峰会收官：200架Boeing+Nvidia H200松绑、但Taiwan被Xi定为'首要议题'、Hormuz只挂在嘴上</title>
+      <description>&lt;p&gt;Trump 5/14-15北京峰会落幕，&lt;strong&gt;两人共同宣布建立'战略稳定的建设性中美关系'&lt;/strong&gt;，Beijing把这定为未来三年及以后的指导框架。但没有任何重大突破文件，Trump登机回程时对Fox News用的词是"fantastic"和'a lot of different problems'被解决，但记者会上拿不出具体协定文本。&lt;/p&gt;
+
+&lt;p&gt;三笔商业大单是峰会能讲出来的实质成果。&lt;strong&gt;Boeing：China承诺采购200架飞机&lt;/strong&gt;——比分析师预期的500架腰斩，但比此前150架预期高一点。&lt;strong&gt;Nvidia H200松绑给约10家中国公司&lt;/strong&gt;：Alibaba、Tencent、ByteDance、JD.com在列，这是Nvidia仅次于Blackwell的次旗舰AI芯片，去年Q1中国营收占比已经从过去的20%多掉到5%、H200对华零销量。Jensen Huang这次是Trump亲自邀请的临时随团，专机从Anchorage上的飞机。第三笔是&lt;strong&gt;能源+大豆&lt;/strong&gt;：China承诺采购美国原油（Texas、Louisiana、Alaska三州出口）+农产品，但具体数量没公布。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hormuz_map.png/330px-Hormuz_map.png" alt="Strait of Hormuz map" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Hormuz海峡——Trump-Xi北京会谈讨论但没拿到具体承诺的议题&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Taiwan是Xi定的'首要议题'——这是峰会最硬的一句话。第一天会面Xi直接警告Trump"if handled poorly, the two countries will come into confrontation or even conflict"（处理不好就会有对抗甚至冲突）。Beijing把Taiwan放在公开议程之首本身就是信号，过去几年峰会通常把贸易放最前面。Rubio事后NBC采访承认：Trump"没有请求Xi帮忙结束Iran战争"——这跟上周白宫吹风的Hormuz重开预期是矛盾的。Trump自己倒在公开场合说Xi'想要美国原油'，等于把Hormuz议题挂在嘴上但没有签字。&lt;/p&gt;
+
+&lt;p&gt;峰会同期，CNBC报道&lt;strong&gt;美方实际清单10家中企能拿H200，但还有35家被卡&lt;/strong&gt;，包括Huawei生态。这给Beijing后续谈判留了筹码——Trump想要中国买更多东西，但芯片管制名单还在白宫手里。Brent原油5/14盘中触及107.82美元后收在105左右，市场对Hormuz具体重开时点没有信心。&lt;/p&gt;
+
+&lt;p&gt;本周接续观察：第一，Boeing 200架订单的&lt;strong&gt;分批交付时间表&lt;/strong&gt;能不能出来（关键是会不会被中方做选项化处理）；第二，&lt;strong&gt;H200交付到货时间&lt;/strong&gt;——CNBC的提示是'commitments from Chinese firms but no deliveries have been made yet'，承诺和到货之间还隔着出口许可证和最终客户审查；第三，5/15 Powell卸任Fed主席最后一天，Warsh 5/16上任，Trump-Xi峰会同周完成Fed换届——给市场的信号叠加期。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/15/trump-xi-summit-the-3-big-takeaways-from-historic-meeting-in-beijing.html"&gt;https://www.cnbc.com/2026/05/15/trump-xi-summit-the-3-big-takeaways-from-historic-meeting-in-beijing.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/politics/live-news/trump-china-visit-xi-meeting-hnk"&gt;https://www.cnn.com/politics/live-news/trump-china-visit-xi-meeting-hnk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html"&gt;https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/05/14/oil-prices-today-wti-brent-hormuz-trump-xi-meeting.html"&gt;https://www.cnbc.com/2026/05/14/oil-prices-today-wti-brent-hormuz-trump-xi-meeting.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://athens-times.com/trump-xi-talks-yield-oil-soy-boeing-and-ai-chip-deals/"&gt;https://athens-times.com/trump-xi-talks-yield-oil-soy-boeing-and-ai-chip-deals/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8a7eb8d1-290c-5b34-bdaa-d9fde35e02bf</guid>
+      <pubDate>Fri, 15 May 2026 11:11:55 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnbc.com/2026/05/15/trump-xi-summit-the-3-big-takeaways-from-historic-meeting-in-beijing.html</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hormuz_map.png/330px-Hormuz_map.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 🎲 心理学家一次配错音的失误，意外发现你的耳朵其实一直在「用眼睛听话」——这个错觉知道了也躲不掉</title>
+      <description>&lt;p&gt;1976 年的一个下午，苏格兰萨里大学的发展心理学家 &lt;strong&gt;Harry McGurk&lt;/strong&gt; 和他的研究助理 &lt;strong&gt;John MacDonald&lt;/strong&gt; 正在研究婴儿如何处理语音。他们让技术员制作一段配错音的视频——画面里嘴在说一个音节，配音却放另一个音节——本来是想搞个对照素材。视频做好那一刻，两人盯着屏幕同时愣住了：他们听到的，&lt;strong&gt;既不是嘴说的那个音，也不是配音放的那个音，而是第三个、完全不同的音&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;更诡异的是：闭上眼睛只听声音，他们听到的是 A；睁开眼睛看着画面同时听，他们听到的是 B；不可能。但谁都试，结果都一样。&lt;/p&gt;
+
+&lt;p&gt;这次意外发现的现象，就是后来被称为 &lt;strong&gt;McGurk Effect（麦格克效应）&lt;/strong&gt;的视听整合（audiovisual integration）错觉。论文 &lt;em&gt;"Hearing Lips and Seeing Voices"&lt;/em&gt; 于 1976 年 12 月发表于 &lt;em&gt;Nature&lt;/em&gt;，从此成了认知心理学最经典的演示之一。&lt;/p&gt;
+
+&lt;p&gt;它的标准范例是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;给你看一段视频：一个人嘴型说 &lt;strong&gt;"ga-ga"&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;但配上的录音是 &lt;strong&gt;"ba-ba"&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;你大脑的最终感知是—— &lt;strong&gt;"da-da"&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注意：da 既不在画面里也不在声音里。它是你的大脑&lt;strong&gt;主动合成&lt;/strong&gt;出来的。原理大致是：你耳朵接收到的是双唇音（bilabial）/b/——这个音必须用合拢的双唇发出来；但你眼睛看到的嘴根本没合上，是软腭音（velar）/g/ 的口型——这个音是舌头后部抬起触碰软腭发出。这两条感官信息互相矛盾，大脑做了一次"最佳猜测"（best-guess inference），&lt;strong&gt;选了一个折中方案&lt;/strong&gt;：齿龈音（alveolar）/d/——舌尖抬到牙龈，介于双唇和软腭之间的位置。&lt;/p&gt;
+
+&lt;p&gt;负责这个合成的脑区是&lt;strong&gt;左侧颞上沟（left superior temporal sulcus, STS）&lt;/strong&gt;。fMRI 研究显示，当 McGurk 错觉发生时，STS 的激活强度跟错觉的"逼真度"正相关。受试者的 STS 越活跃，他们越无法分辨这是合成出来的而非真听到的。&lt;/p&gt;
+
+&lt;p&gt;这个错觉最让心理学家头大的特性是：&lt;strong&gt;它免疫"知道"&lt;/strong&gt;。普通错觉，比如缪勒-莱尔（Müller-Lyer）错觉——两条长度相同的线，加上不同箭头看起来一长一短——你一旦知道两条线一样长，盯着看反复测，错觉会变弱。但 McGurk 不一样。McGurk 和 MacDonald 自己研究了几十年，每次播放视频，他们依然听到"da"。&lt;strong&gt;你知道你大脑在骗你，但你阻止不了它继续骗&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是它的&lt;strong&gt;文化差异&lt;/strong&gt;。英语母语者中受影响的比例高达 90% 以上；但日语和汉语母语者中，效应明显减弱，有些研究里只有 30% 左右。研究者认为这跟文化对"看说话者的脸"的态度有关——日语谈话中眼睛盯着对方面部被视为失礼，所以日语听者大脑对视觉信息的权重更低。换句话说，&lt;strong&gt;文化习惯改变了感官融合的算法&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;儿童的表现也很有趣：婴儿和幼童&lt;strong&gt;不太容易出现 McGurk 错觉&lt;/strong&gt;——他们更"诚实"地把听到和看到的当作独立通道处理。要到大约 6-10 岁，视听整合才慢慢成熟到能产生这种错觉。这说明 McGurk 不是"大脑出 bug"，而是大脑&lt;strong&gt;多年训练出来的多模态融合能力&lt;/strong&gt;的副产品：在真实世界里，看嘴形是降噪的有效手段（嘈杂餐厅里你能靠看嘴听清对方），代价就是当声画对不上时，你的大脑会主动编造一个"合理的中间答案"。&lt;/p&gt;
+
+&lt;p&gt;这个效应还有一个被广泛实用的角落：助听器佩戴者和人工耳蜗使用者的&lt;strong&gt;听力康复&lt;/strong&gt;，会刻意训练 McGurk 效应——让大脑学会用视觉补足残缺的听觉信号。你以为你的耳朵在听话，其实从婴儿期起，你一直在&lt;strong&gt;用眼睛帮耳朵"听"&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;顺带一提：你现在打开 YouTube 搜 "McGurk effect"，找几段示例视频，闭眼听，然后睁眼看——亲身体验一下这个 50 年前从一次配音错误中跌出来的发现。你的大脑会当场给你表演一次。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/McGurk_effect"&gt;https://en.wikipedia.org/wiki/McGurk_effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.simplypsychology.org/mcgurk-effect.html"&gt;https://www.simplypsychology.org/mcgurk-effect.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.illusionsindex.org/i/mcgurk-effect"&gt;https://www.illusionsindex.org/i/mcgurk-effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8046930/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC8046930/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.livescience.com/58047-mcgurk-effect-weird-way-eyes-trick-brain.html"&gt;https://www.livescience.com/58047-mcgurk-effect-weird-way-eyes-trick-brain.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4ba6f06f-874b-581b-8ccf-8c0c040eb45d</guid>
+      <pubDate>Fri, 15 May 2026 11:11:59 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/McGurk_effect</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Skilled-musicians-are-not-subject-to-the-McGurk-effect-srep30423-s3.ogv/1280px--Skilled-musicians-are-not-subject-to-the-McGurk-effect-srep30423-s3.ogv.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 🌿 🌿 Mount Sinai Cell Stem Cell：抑制衰老造血干细胞过度活跃的溶酶体，让血液再生能力暴涨 8 倍</title>
+      <description>&lt;p&gt;2026 年 5 月 12 日 Mount Sinai 团队发布的新研究把抗衰老靶点指向了一个常被忽略的细胞器：溶酶体（lysosome）。负责人 Saghi Ghaffari 团队在 Cell Stem Cell 上发表的工作表明，造血干细胞（hematopoietic stem cells, HSC）变老的核心机制之一，是溶酶体变得过度酸化、损伤、又异常活跃——把这股「过劳」按下去，老化的造血干细胞就能恢复年轻表现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;机制层面发现了什么。&lt;/strong&gt;过去大家把造血干细胞的衰老主要归因于线粒体功能下降、DNA 损伤累积和炎症环境。Ghaffari 团队用单细胞转录组学（single-cell transcriptomics）扫描老年小鼠的造血干细胞，意外发现衰老 HSC 的溶酶体不是「罢工」而是「狂飙」：pH 过低、形态异常、降解活性失控，连带把代谢和表观遗传都搅乱了。更巧的是，这种过度活跃的溶酶体会激活 cGAS-STING 免疫信号通路——这正是近几年公认的「无菌性炎症」和细胞衰老的核心放大器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么干预的。&lt;/strong&gt;团队用液泡型 ATP 酶抑制剂（vacuolar ATPase inhibitor, V-ATPase inhibitor）短暂离体处理老年小鼠的造血干细胞，相当于给溶酶体的质子泵装了个「刹车」。结果：处理过的细胞回输小鼠后，造血能力提升 8 倍以上；血液中各类血细胞的比例从老年模式回归年轻模式；线粒体 DNA 处理改善，cGAS-STING 通路活性下降；表观遗传不稳定也得到部分纠正。这个 8 倍数字在干细胞领域算是相当夸张的效应量，过去 Yamanaka 因子部分重编程拿到的恢复幅度也大致在这个量级。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这事值得关注。&lt;/strong&gt;这条路径有几个特别之处。第一，干预的是细胞「已经在做的事情」——溶酶体本身就在工作，只是节奏失调，所以无需引入外源蛋白或基因编辑，把现有通路调到正确档位即可。第二，对造血干细胞老化的纠正几乎是即时可测的：血细胞产量、免疫平衡这些都是临床上每天都在做的常规检查。第三，最现实的转化场景不是直接做「返老还童针剂」，而是嫁接到现有体系——老年患者的造血干细胞移植、骨髓清髓后的恢复、基因治疗前的条件预处理（conditioning），这些场景里把供者或自体细胞先做一次离体溶酶体复位，可能直接改善移植成功率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;合理边界。&lt;/strong&gt;实验全部在小鼠和离体细胞上完成，没有人体数据；V-ATPase 抑制剂在全身用药时毒性不小（破骨细胞高度依赖该酶），所以走到临床更可能是「取出—离体处理—回输」路径，而不是口服药。另外，这次只看了造血系统，神经、肌肉、皮肤干细胞是否同样存在「溶酶体过载」机制，还是开放问题。把它当成「细胞老化新靶点」读，而不是「明年就能用上的疗法」读，比较合适。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么放进读者的健康框架里。&lt;/strong&gt;知识简报里之前几条线索（雷帕霉素、生物学年龄逆转、SPAN 队列）共同指向一个判断：进入 2026 年，衰老干预正在从动物模型快速转向人体替代终点，但「全身性药物」的路径毒性都不小；更现实的路线是「局部、短暂、可逆」的细胞器层面调控。这次 Mount Sinai 的工作是这一思路的又一个支撑点——溶酶体之于造血干细胞，就像 mTOR 之于普通体细胞，是可以「按下暂停键」重新校准的开关。50+ 读者短期内能做的最实在事，仍然是：保持骨髓健康的基础（充足睡眠、足够蛋白、控制慢性炎症、避免长期糖皮质激素）、按指南完成 Shingrix 等疫苗接种、定期血常规追踪——把自己的造血系统留在尽可能好的起点上等技术成熟。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/05/260511213204.htm"&gt;https://www.sciencedaily.com/releases/2026/05/260511213204.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.counselheal.com/articles/60277/20260514/blood-stem-cell-aging-reversed-major-anti-aging-breakthrough-stem-cell-rejuvenation.htm"&gt;https://www.counselheal.com/articles/60277/20260514/blood-stem-cell-aging-reversed-major-anti-aging-breakthrough-stem-cell-rejuvenation.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">820eedde-c37a-5e9e-be6d-77df5fc56b4a</guid>
+      <pubDate>Fri, 15 May 2026 11:12:08 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/05/260511213204.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/2026/05/260511213204_1_900x600.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 Powell 5/15卸任最后一天、Warsh 54比45接棒：但Powell留任理事到2028、Trump想立刻换人换不了</title>
+      <description>&lt;p&gt;Jerome Powell 5/15周五卸任Fed主席，8年任期结束，5/13参议院54比45通过Kevin Warsh继任——基本是党争路线、&lt;strong&gt;Pennsylvania民主党Fetterman是唯一倒戈的民主党人&lt;/strong&gt;。但故事不止换主席这么简单：&lt;strong&gt;Powell明确表态留在理事会到2028年5月任期结束&lt;/strong&gt;，这意味着Trump想立刻提名第二个'自己人'入Fed董事会的算盘暂时落空。&lt;/p&gt;
+
+&lt;p&gt;Powell给Warsh留的话是"I plan to keep a low profile as a governor. There is only ever one chair of the Federal Reserve Board"——只有一个Fed主席，他不会公开抢话。但他坐在7人理事会的席位上、参加每次FOMC议息投票，&lt;strong&gt;等于在Warsh身边长期保留一个'非Trump体系'的资深票&lt;/strong&gt;。Powell自己给出的延迟离开理由是Fed总部翻修项目调查未结，要等结论。&lt;/p&gt;
+
+&lt;p&gt;56岁的Warsh不是新人——George W. Bush年代当过Fed理事（2006-2011），是2008-2009金融危机期间Bernanke身边的少壮派。他这次的政策口径有两条：&lt;strong&gt;第一，主张降息&lt;/strong&gt;，认为目前利率水平有下调空间——这跟Trump'要降息'的政治压力契合；&lt;strong&gt;第二，主张改革通胀统计方法、改革Fed的对外沟通方式&lt;/strong&gt;。但他在5/13参议院最后陈述里明确说会'用自己的判断设定货币政策，不接受白宫指令'——给市场吃定心丸的标准动作。&lt;/p&gt;
+
+&lt;p&gt;市场怎么读？Fortune 5/1的分析指出Powell留任对Warsh反而是'huge favor'——Warsh如果操之过急降息、被市场质疑独立性，Powell的在场就是缓冲。Brookings提醒下一个真正的悬念是&lt;strong&gt;Lael Brainard 2026年9月任期到期&lt;/strong&gt;，那才是Trump能加塞第二张牌的窗口。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Oil_prices.webp/250px-Oil_prices.webp.png" alt="Oil prices chart" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;5/15 Warsh接任Fed主席，迎面就是Brent 105+、汽油破4.5美元的通胀压力——降息和稳通胀的两难&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;换届的宏观背景很不友好：&lt;strong&gt;Brent原油5/14在105美元上下、全美汽油均价4.45-4.50美元/加仑（四年新高）&lt;/strong&gt;，IEA上周报告说Hormuz海峡日吞吐量比正常少400万桶/天，警告即使6月战争结束、油市到10月之前都会持续紧张。Warsh想降息可以，但通胀这一关绕不过——Trump-Xi北京峰会5/15同日收官，China承诺买美国原油，但具体量没公布、海峡也没真正打开。&lt;/p&gt;
+
+&lt;p&gt;本周接续看三点：第一，&lt;strong&gt;Warsh 5/16就任后的首次公开讲话&lt;/strong&gt;选什么场合、是否提6月FOMC前的政策展望；第二，&lt;strong&gt;Powell 5/15告别讲话&lt;/strong&gt;的措辞——通常会留下'独立性'级别的余韵；第三，下一次FOMC议息会议是&lt;strong&gt;6/16-17&lt;/strong&gt;，Warsh主持的首会，市场CME FedWatch目前定价6月不动、7月25bp的概率约55%。如果Warsh想给Trump一个'降息红包'，6月那次会议就是窗口。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/05/13/nx-s1-5816235/kevin-warsh-federal-reserve-chair-jerome-powell"&gt;https://www.npr.org/2026/05/13/nx-s1-5816235/kevin-warsh-federal-reserve-chair-jerome-powell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/05/13/economy/kevin-warsh-confirmation-trump-fed-chair"&gt;https://www.cnn.com/2026/05/13/economy/kevin-warsh-confirmation-trump-fed-chair&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.foxnews.com/politics/senate-confirms-kevin-warsh-fed-chair-trumps-economic-vision-comes-focus"&gt;https://www.foxnews.com/politics/senate-confirms-kevin-warsh-fed-chair-trumps-economic-vision-comes-focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pbs.org/newshour/show/powell-says-he-will-stay-on-fed-board-after-chair-term-ends-addressing-trumps-attacks"&gt;https://www.pbs.org/newshour/show/powell-says-he-will-stay-on-fed-board-after-chair-term-ends-addressing-trumps-attacks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/05/01/jerome-powell-federal-reserve-board-incoming-chairman-kevin-warsh-trump-fed-rate-cuts/"&gt;https://fortune.com/2026/05/01/jerome-powell-federal-reserve-board-incoming-chairman-kevin-warsh-trump-fed-rate-cuts/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">06c2769f-520e-5475-9056-737b9146819a</guid>
+      <pubDate>Fri, 15 May 2026 11:12:33 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.npr.org/2026/05/13/nx-s1-5816235/kevin-warsh-federal-reserve-chair-jerome-powell</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Oil_prices.webp/250px-Oil_prices.webp.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 🌿 🌿 Baycrest JSLHR：用 AI 听 174 人讲一段图画描述就能预测执行功能，找词卡壳是最强信号</title>
+      <description>&lt;p&gt;跟着前几周 Lancet Neurology 带状疱疹疫苗、Monash 超加工食品两条痴呆早期识别线索，又来了一条更日常的：2026 年 5 月 12 日 Baycrest 老年医学中心、多伦多大学和 York 大学联合团队在 Journal of Speech, Language, and Hearing Research（JSLHR）发表的「自然语言分析揭示成年期执行功能个体差异」研究。结论简单粗暴：让一个人自由描述一张复杂图画的录音，再用 AI 提取几百个微观语音特征，就能预测他/她在标准执行功能测试上的表现——而且这个关系在 18 岁到 90 岁的整个成年期都成立。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;研究是怎么做的。&lt;/strong&gt;团队跑了两个独立样本：研究一收 67 名 65-75 岁健康老人；研究二把范围扩到 174 名 18-90 岁健康成人。每位受试者完成两件事——口头描述一组复杂图画（自然口语任务），以及包括 Stroop、连线测验等在内的执行功能（executive function, EF）测试组合。录音被一套自动管道处理，提取了上百个语音特征，覆盖三大类：信息量（information units，说出多少有效内容点）、连贯性（coherence，话题切换是否自然）、以及不流畅（disfluencies，停顿、填充词「嗯/啊」、找词卡壳）。再用统计模型看哪一类语音特征最能解释 EF 测试分数的个体差异。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;核心发现：找词卡壳赢了。&lt;/strong&gt;三类语音特征里，&lt;strong&gt;不流畅&lt;/strong&gt;——尤其是反映找词困难的那些指标——和执行功能的相关性最强、最稳定，多重比较校正后依然显著。信息量和连贯性也有关系，但通不过严格的统计校正。这个结果有点反直觉：老年人说话慢、停顿多，长期被认为是「语速下降」或者单纯「老了反应慢」，但这项研究说，真正在追踪的是「调度找词所需要的认知资源」——这恰恰是执行功能的核心组成部分。需要提醒的是，媒体里有一种说法称「是语速而不是找词在预测认知」，这来自另一项独立研究（Aging, Neuropsychology, and Cognition 125 人样本），结论与本研究不同——领域内还没收敛。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这事值得关心。&lt;/strong&gt;认知筛查的瓶颈一直是成本和频率。MoCA、MMSE 这类纸笔测验要训练有素的评估者、要安静环境、要 15-20 分钟，还容易受练习效应污染（同一份题目反复做分数会被推高）。自然语音任务正好补齐这些短板：日常对话或简单图画描述就能采集，被试不知道在被「考试」所以更接近真实状态，AI 处理几乎零边际成本，可以高频重复采集做纵向追踪。已经有几家创业公司（Canary Speech、Winterlight Labs 的余脉等）在做类似产品的临床落地，这项 JSLHR 工作给出了「健康成人也行、不只是已确诊痴呆人群」的关键背书。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;当下能怎么用。&lt;/strong&gt;真正落地的临床工具还要 2-3 年（FDA 软件医疗器械认证、跨语种验证、不同口音和方言适配都得做），所以现在不必拿这事吓自己。但有两个动作可以做。一是 50+ 读者如果发现身边亲人最近半年明显频繁找词卡壳、固定话题反复跑题、相同句子反复说——这些是值得带去看初级医生做正式认知筛查的信号，不要按「老人都这样」忽略掉。二是想做基线记录的人，可以每半年录一段自己描述同一张图（推荐的临床标准图叫 Cookie Theft Picture，公开可查）的录音存档，未来工具成熟时这些录音就是最好的纵向数据。这个对中文使用者的临床工具还在追赶中，本研究在英语样本上完成，跨语种推广是后续要解决的关键问题。&lt;/p&gt;
+
+&lt;p&gt;放在长线看，这条证据和 Lancet Neurology 带状疱疹疫苗那条形成了认知健康的「两端」——左端是早识别（看你说话），右端是早干预（疫苗、地中海饮食、运动多样性、UPF&amp;lt;20%）。读者优先级排序里，识别成本越低就越值得做基线追踪，自然语音是目前已知最便宜的筛查模态。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/05/260512202333.htm"&gt;https://www.sciencedaily.com/releases/2026/05/260512202333.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41202270/"&gt;https://pubmed.ncbi.nlm.nih.gov/41202270/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubs.asha.org/doi/10.1044/2025_JSLHR-24-00268"&gt;https://pubs.asha.org/doi/10.1044/2025_JSLHR-24-00268&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://neurosciencenews.com/speech-cognitive-decline-29922/"&gt;https://neurosciencenews.com/speech-cognitive-decline-29922/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d2b3eded-7da5-5ec3-83be-180699d00faf</guid>
+      <pubDate>Fri, 15 May 2026 11:12:51 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/05/260512202333.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/2026/05/260512202333_1_900x600.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Apple's Liquid Glass Gets a Slider — and a Lesson in Shipping Bold Materials / 苹果给 Liquid Glass 装上滑块——以及如何发布大胆材质的一堂课</title>
+      <description>&lt;p&gt;Following up on last week's entry about Liquid Glass winning an ADC Gold Cube and the year-one backlash: the next chapter has begun, and it's a slider. Apple shipped a per-clock &lt;strong&gt;Liquid Glass intensity slider&lt;/strong&gt; on the lock screen in iOS 26.2 (Macworld and MacRumors covered the release on November 4, 2025), and reporting from AppleInsider and Engadget now points to a &lt;em&gt;system-wide&lt;/em&gt; slider arriving with iOS 27 at WWDC 2026 on June 8. This is a small change with an outsized lesson about how to ship a polarizing material — one worth pulling apart for any team about to launch a similarly bold design system.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2025/11/lg-lock-screen-262-sbs.png" alt="iOS 26.2 lock screen showing the Liquid Glass slider applied to the clock at different intensities" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;iOS 26.2's lock screen slider, dragged from clear to frosted. The clock-only scope was a deliberate test bed before going system-wide. Image: Six Colors / Glenn Fleishman.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The retreat in slow motion.&lt;/strong&gt; Apple has been "soaping up" Liquid Glass — Glenn Fleishman's term at Six Colors — almost continuously since the first iOS 26 developer beta in June 2025. The sequence: dev beta increased layer solidity at every overlap (search fields, toolbars, type stacks); iOS 26.1 added a &lt;strong&gt;Tinted&lt;/strong&gt; mode that nudges opacity up and contrast slightly; iOS 26.2 (November) shipped the lock-screen &lt;strong&gt;slider&lt;/strong&gt; for the clock plus a &lt;strong&gt;Solid&lt;/strong&gt; button to remove the effect entirely; iOS 27 (rumored, WWDC 2026) extends the slider system-wide. Each step follows the same shape: keep the rich material as the default, give users incremental escape hatches, never publicly retract the original direction.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What's actually adjustable today.&lt;/strong&gt; If your iPhone is on iOS 26.2, three controls coexist:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Settings → Display &amp; Brightness → Liquid Glass → Tinted&lt;/strong&gt; (added in 26.1) — the global "make it less transparent" toggle.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Settings → Accessibility → Display &amp; Text Size → Reduce Transparency&lt;/strong&gt; — the nuclear option that swaps translucent surfaces for opaque ones throughout the OS.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lock Screen customization → Glass option → slider&lt;/strong&gt; — clock-only, continuous from clear to frosted, plus a discrete &lt;strong&gt;Solid&lt;/strong&gt; alternative.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The lock-screen slider is the interesting one because it's a controlled experiment: limited surface, low risk, easy to measure. Mark Gurman's Bloomberg reporting (cited by AppleInsider on March 15) framed iOS 27 as a "tightening up" release, with the system-wide intensity slider as one of two flagship changes. That's Apple telling us they liked what they saw on the lock screen.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2025/11/lg-accessibility-matrix-1380px.png" alt="Matrix of Liquid Glass appearance options across normal, tinted, reduced transparency, and dark mode combinations" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The full appearance matrix in iOS 26.2 — tinted, reduced transparency, dark mode, and the new slider all interact. The combinatorics are why a single intensity dial is the right next move. Image: Six Colors.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Why a slider beats a binary.&lt;/strong&gt; The accessibility-design literature has known this for years: bold visual treatments need &lt;em&gt;continuous&lt;/em&gt; escape hatches, not binary toggles. Reduce Transparency is a hammer — it removes the design language entirely and looks visually inconsistent next to non-transparent system elements. The Tinted mode is a mid-strength preset, but a preset can't track the variance in user environments (lock screens with photos vs. solid wallpapers, OLED vs. LCD, indoor vs. outdoor). A slider lets the same material gracefully degrade across context without forcing the design team to ship N preset variants. This is the same pattern Material 3's dynamic color uses on the contrast axis (Standard / Medium / High) — Apple is just going one step further to a continuous control.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The ADC Gold Cube context, revisited.&lt;/strong&gt; The award (covered last week) went to the &lt;em&gt;conception&lt;/em&gt; of Liquid Glass, not its execution at scale — and this slider arc explains why that distinction matters. The material's design problem was never "is it pretty?" — it was "does it stay legible across a billion devices, photo wallpapers, accessibility settings, and lighting conditions?" The answer turned out to be no, by default — but yes, with the right user controls. Shipping the slider is Apple admitting that the right place for the Liquid Glass dial is in the user's hands, not Cupertino's.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What designers should take away.&lt;/strong&gt; Three concrete things. First, if your design system has a "richness" axis (translucency, motion, depth, color saturation), expose it as a user-controllable continuous parameter from day one — not a binary "Reduce X" accessibility toggle bolted on later. Second, ship the per-component version before the system-wide version: it lets you measure usage and iterate without committing the whole OS. Third, watch the wording in Apple's marketing — they have not retracted "delightful and elegant new software design" from their June 2025 announcement. The retreat is happening through controls, not through narrative. That's the pattern to copy: keep the editorial direction, instrument the dimmer switch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What to watch.&lt;/strong&gt; WWDC 2026 keynote on June 8. Three signals will tell you how far Apple has internalized the lesson: (1) does the system-wide slider have the same per-app override granularity rumored in Bloomberg's reporting, (2) do third-party apps get an API to declare their own Liquid Glass intensity, and (3) does Apple ship any quantitative claim about legibility (e.g., contrast ratios at default settings) — that would be a strong indication they ran the numbers and want to put the year-one criticism behind them.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;接续上周关于 Liquid Glass 拿下 ADC 金奖与首年反弹的那篇文章：下一章已经开始，主角是一根滑块。Apple 在 iOS 26.2 中为锁屏时钟加入了 &lt;strong&gt;Liquid Glass 强度滑块&lt;/strong&gt;（Macworld 与 MacRumors 在 2025 年 11 月 4 日报道发布），AppleInsider 与 Engadget 现在指向一个&lt;em&gt;系统级&lt;/em&gt;滑块将随 iOS 27 在 6 月 8 日 WWDC 2026 登场。这是个小改动，却带出一个对任何即将发布类似大胆设计系统的团队都「超额」有用的教训——值得拆开看看。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;慢动作的撤退。&lt;/strong&gt;从 2025 年 6 月 iOS 26 第一个开发者 beta 起，Apple 就在持续给 Liquid Glass「打肥皂」——这是 Six Colors 的 Glenn Fleishman 的说法。顺序大致是：开发者 beta 把每处叠加（搜索框、工具栏、文字层）的层级实在感往上拨；iOS 26.1 加入 &lt;strong&gt;Tinted&lt;/strong&gt;（着色）模式，把不透明度往上推、对比度略增；iOS 26.2（11 月）发布锁屏时钟&lt;strong&gt;滑块&lt;/strong&gt;外加一个直接关效果的 &lt;strong&gt;Solid&lt;/strong&gt;（实心）按钮；iOS 27（传闻，WWDC 2026）把滑块扩展到全系统。每一步形状都一样：保留富有的材质作为默认，分次给用户逃生口，从不公开撤回最初的方向。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;今天到底能调什么。&lt;/strong&gt;如果你的 iPhone 在 iOS 26.2，有三套控件并存：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;设置 → 显示与亮度 → Liquid Glass → 着色&lt;/strong&gt;（26.1 加入）——全局「让它不那么透明」的开关。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;设置 → 辅助功能 → 显示与文字大小 → 降低透明度&lt;/strong&gt;——核选项，把全系统的半透明表面换为不透明。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;锁屏自定义 → Glass 选项 → 滑块&lt;/strong&gt;——只对时钟，从透明到磨砂连续可调，外加一个离散的 &lt;strong&gt;Solid&lt;/strong&gt; 备选。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;锁屏滑块是有意思的那个，因为它是受控实验：表面有限、风险低、好测量。Mark Gurman 在 Bloomberg 的报道（被 AppleInsider 在 3 月 15 日引用）把 iOS 27 框定为「收紧」型版本，系统级强度滑块是两大旗舰改动之一。这等于 Apple 告诉我们他们在锁屏上看到的结果是满意的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么滑块胜过二元开关。&lt;/strong&gt;无障碍设计文献多年前就知道：大胆的视觉处理需要&lt;em&gt;连续&lt;/em&gt;的逃生口，而不是二元开关。「降低透明度」是一把大锤——它把设计语言整体抹掉，与非透明系统元素并置时视觉上不一致。「着色」模式是中强度预设，但预设无法追踪用户环境的方差（带照片的锁屏 vs. 纯色壁纸；OLED vs. LCD；室内 vs. 室外）。滑块让同一种材质在上下文之间「优雅退化」，又不强迫设计团队发 N 套预设。这跟 Material 3 动态色彩在对比度轴上做的是同一个模式（标准 / 中等 / 高对比度）——Apple 只是再往前一步，做成连续控制。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;重提 ADC 金奖语境。&lt;/strong&gt;奖（上周提到）颁给的是 Liquid Glass 的&lt;em&gt;构想&lt;/em&gt;，不是它在规模化中的执行——这条滑块弧线正解释了为什么这个区分重要。这套材质的设计问题从来不是「好不好看」，而是「在十亿台设备、照片壁纸、各种无障碍设置和光照条件下，它能不能保持可读」。答案是：默认状态下不能，但有合适的用户控件就能。发滑块就是 Apple 承认 Liquid Glass 这个旋钮的位置在用户手里，不在库比蒂诺。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;设计师应该带走什么。&lt;/strong&gt;三件具体的事。第一，如果你的设计系统有一根「丰富度」轴（半透明、动效、景深、色彩饱和度），从第一天起就把它开放为用户可控的连续参数——不要后期再补一个「降低 X」的二元无障碍开关。第二，在系统级版本之前先发组件级版本：你能测量使用情况、迭代，而不必把整个 OS 押上去。第三，留意 Apple 营销文案的措辞——他们至今未从 2025 年 6 月的发布稿中撤掉「delightful and elegant new software design」。撤退通过控件发生，而不是通过叙事。这是值得复制的模式：保留编辑方向，给调光开关装上仪表。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;下一步看什么。&lt;/strong&gt;WWDC 2026 主旨演讲，6 月 8 日。三个信号会告诉你 Apple 把这个教训消化到了什么程度：（1）系统级滑块是否带 Bloomberg 报道里传的「每应用覆写」粒度；（2）第三方应用是否拿到 API 来声明自己的 Liquid Glass 强度；（3）Apple 是否给出任何关于可读性的定量声明（例如默认设置下的对比度数值）——若给，则是他们跑过数据、想把首年批评翻篇的强烈信号。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.macrumors.com/2025/11/04/ios-26-2-liquid-glass-slider/"&gt;https://www.macrumors.com/2025/11/04/ios-26-2-liquid-glass-slider/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sixcolors.com/post/2025/11/soaping-up-liquid-glass-less-transparency-more-contrast/"&gt;https://sixcolors.com/post/2025/11/soaping-up-liquid-glass-less-transparency-more-contrast/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://appleinsider.com/articles/26/03/15/siri-and-refined-liquid-glass-controls-on-the-docket-for-wwdc-2026"&gt;https://appleinsider.com/articles/26/03/15/siri-and-refined-liquid-glass-controls-on-the-docket-for-wwdc-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.engadget.com/big-tech/what-to-expect-from-wwdc-2026-110000086.html"&gt;https://www.engadget.com/big-tech/what-to-expect-from-wwdc-2026-110000086.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.geeky-gadgets.com/ios-27-liquid-glass-slider/"&gt;https://www.geeky-gadgets.com/ios-27-liquid-glass-slider/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">aaf2ed83-6edb-5c10-86e4-5b424623b367</guid>
+      <pubDate>Fri, 15 May 2026 11:12:54 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.macrumors.com/2025/11/04/ios-26-2-liquid-glass-slider/</link>
+      <enclosure url="https://i0.wp.com/sixcolors.com/wp-content/uploads/2025/11/lg-lock-screen-262-sbs.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 Pentagon 5/14突砍4,200人Black Jack旅赴Poland部署：87辆Abrams+152辆Bradley原地待命、欧洲撤军节奏加速</title>
+      <description>&lt;p&gt;5/14 Pentagon突然取消&lt;strong&gt;第1骑兵师第2装甲旅战斗队（Black Jack Brigade）&lt;/strong&gt;赴Poland轮换部署——4,200人、&lt;strong&gt;87辆M1 Abrams主战坦克、152辆Bradley步兵战车、18门榴弹炮&lt;/strong&gt;，原计划9个月的东欧轮换任务。部队前期准备已经开始，命令是直接被叫停。这是Trump政府欧洲撤军节奏明显加速的一个标志性动作。&lt;/p&gt;
+
+&lt;p&gt;背景拉一下时间线：两周前Pentagon宣布&lt;strong&gt;6-12个月内从Germany撤5,000人&lt;/strong&gt;，Trump同期暗示削减还会继续扩大。这次Poland取消的4,200人加上Germany那5,000人，&lt;strong&gt;不到一个月就锁定9,200人减员&lt;/strong&gt;——目标是把驻欧美军规模拉回2022年Russia入侵Ukraine之前的水平。当时Biden政府为应对乌战增加了约2万人，Trump等于在系统性回退Biden四年的部署。&lt;/p&gt;
+
+&lt;p&gt;波兰方面反应有意思。&lt;strong&gt;国防部长Władysław Kosiniak-Kamysz公开口径是'这件事不涉及Poland'&lt;/strong&gt;、是之前已宣布的欧洲调整的一部分。但另一名匿名波兰官员对路透社承认"消息来得突然"。Poland这种'对外淡化、内部错愕'的双轨表态，说明华沙没拿到提前通报——而Poland是NATO东翼最配合美国、年防务支出GDP占比4.7%（北约最高）的盟友。&lt;/p&gt;
+
+&lt;p&gt;NATO总部口径走的是'我们正在适应'路线：一位匿名官员承认'美方正在调整在欧部署'，但坚持'取消美军一个旅不会影响联盟威慑和防御计划'。这话翻译过来就是：联盟得自己补上这4,200人留出的缺口。FDD（保守派智库）5/14的评论稿直接定性为'削弱美国在欧威慑'。&lt;/p&gt;
+
+&lt;p&gt;国会反应比较冷。&lt;strong&gt;参议员Jeanne Shaheen（NH民主党、外委会资深委员）公开抱怨'我们没被简报、决定理由不清楚'&lt;/strong&gt;。但因为Senate本周主要议程是Warsh表决+5/14 Trump-Xi北京峰会，欧洲撤军议题被新闻周期挤到二线。ABC报道里没看到Hegseth本人的发言记录——这次撤令明显是直接从Trump-Hegseth链路下来的，没走五角大楼公开流程。&lt;/p&gt;
+
+&lt;p&gt;战略含义两条：第一，&lt;strong&gt;Trump在向NATO盟友施压'你们自己掏钱'&lt;/strong&gt;，这是2017年开始的旧逻辑加码版；第二，&lt;strong&gt;资源向印太转移的暗示&lt;/strong&gt;——Pentagon内部多份吹风稿提到美军战备重心转向homeland defense和Indo-Pacific。Trump-Xi 5/14峰会同日发生欧洲撤军，时间点上很难说是巧合。&lt;/p&gt;
+
+&lt;p&gt;本周接续看：第一，&lt;strong&gt;5/15-16 NATO国防部长会议（Brussels）&lt;/strong&gt;美方代表口径会怎么解释；第二，Poland是否启动追加自购Abrams或加速Korea K2坦克订单——Warsaw去年签了1,000辆K2分阶段交付协议；第三，Germany方面的5,000人撤离启动日期——这才是真正的大动作。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://abcnews.com/Politics/pentagon-abruptly-cuts-us-combat-forces-poland-officials/story?id=132972267"&gt;https://abcnews.com/Politics/pentagon-abruptly-cuts-us-combat-forces-poland-officials/story?id=132972267&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.euronews.com/my-europe/2026/05/14/us-cancels-planned-troop-deployment-to-poland-euronews-confirms"&gt;https://www.euronews.com/my-europe/2026/05/14/us-cancels-planned-troop-deployment-to-poland-euronews-confirms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.inquirer.com/news/nation-world/us-troops-poland-cancel-deployment-europe-germany-hegseth-trump-20260514.html"&gt;https://www.inquirer.com/news/nation-world/us-troops-poland-cancel-deployment-europe-germany-hegseth-trump-20260514.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/05/14/politics/us-military-troop-numbers-europe-trump"&gt;https://www.cnn.com/2026/05/14/politics/us-military-troop-numbers-europe-trump&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fdd.org/analysis/2026/05/14/canceled-poland-deployment-further-weakens-american-deterrence-in-europe/"&gt;https://www.fdd.org/analysis/2026/05/14/canceled-poland-deployment-further-weakens-american-deterrence-in-europe/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bcbc2f95-3c93-5b3c-a6b3-5a398ca5d3ca</guid>
+      <pubDate>Fri, 15 May 2026 11:13:08 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://abcnews.com/Politics/pentagon-abruptly-cuts-us-combat-forces-poland-officials/story?id=132972267</link>
+      <enclosure url="https://i.abcnewsfe.com/a/75c7ed40-41f9-41fe-bb0a-be59992b14ab/us-forces-poland-1-gty-jef-260514_1778782082497_hpMain_16x9.jpg?w=1600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 想戒掉刷手机用 why，想去健身房用 how：Fujita 把自控研究浓缩成两套问句</title>
+      <description>&lt;p&gt;5 月 11 日 Huberman Lab 请来俄亥俄州立大学的 Kentaro Fujita——把构念水平理论（Construal Level Theory）应用到自控研究的奠基者之一。他用一句话浓缩二十年研究：&lt;strong&gt;自控不是靠咬牙，是靠你怎么"取景"&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;同一件事可以高层级也可以低层级地构念。"跑 30 分钟"——低层级是"腿酸、心跳快、汗滴眼里"；高层级是"我在变成一个能跑半马的人"。Fujita 2006 年那篇被引数千次的 JPSP 论文做了六个实验：把人引向高层级构念后，对延迟奖励的偏好上升、握力计坚持时间变长、对诱惑的评价变负面。机制是高层级让你看见行为的"主旨"——它属于哪个目标——而低层级把你困在当下不适感里。&lt;/p&gt;
+
+&lt;p&gt;节目里的具体工具：&lt;strong&gt;诱惑或拖延来袭，连续问三层"为什么"&lt;/strong&gt;。"为什么不开始写论文？想刷手机。为什么想刷手机？开始写很难受。为什么宁愿要难受少一点也不要论文早一周交？" 第三层问出来时，construal level 已经跳到目标层，眼前的难受被放回更大的框架。&lt;/p&gt;
+
+&lt;p&gt;反过来，要&lt;em&gt;开始&lt;/em&gt;一件已经决定要做的事，问"怎么做"（how）更有用——"怎么开始？打开笔记本。怎么打开？走到桌子前。" 具体的"怎么做"把抽象目标降到行动层，绕过启动门槛。&lt;/p&gt;
+
+&lt;p&gt;关键是认清两套问法治不同的病："为什么"治价值动摇（眼前痛苦看起来比远期目标大），"怎么做"治执行卡顿（目标抽象到不知从何下手）。想戒掉刷手机用 why；想去健身房用 how。混着用两边都用不上。&lt;/p&gt;
+
+&lt;p&gt;节目里 Fujita 把"意志力是有限资源"（ego depletion）这套说法直接打掉了——十年大规模复现没站住，更新的看法是你对意志力的&lt;em&gt;信念&lt;/em&gt;本身比实际消耗更影响表现。Mischel 棉花糖实验也被重新解读：孩子等不等，更多取决于他对环境可靠性的判断，不是某种与生俱来的"自控基因"。&lt;/p&gt;
+
+&lt;p&gt;可应用版本：下次拖延先判断卡点是"不想做"还是"不知怎么做"。前者拿"为什么"那套，后者拿"怎么做"那套。过去归因为"意志力薄弱"的时刻，多半只是用错了取景器。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita"&gt;https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3153425/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC3153425/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://psychology.osu.edu/people/fujita.5"&gt;https://psychology.osu.edu/people/fujita.5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0e5e7173-7e9f-5c69-9731-d51575437cb3</guid>
+      <pubDate>Fri, 15 May 2026 11:13:37 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita</link>
+      <enclosure url="https://cdn.prod.website-files.com/64751ad903a904b42aa4adc1/6a01196f4f739c849868cae3_SITE_KentaroFujita_L1160494.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 🌿 🌿 NYU J Gerontol A：440 名女性的单核细胞表观遗传时钟挑选性预测抑郁的「非躯体症状」——给抑郁找到第一个稳定生物学锚点</title>
+      <description>&lt;p&gt;除了认知衰退，2026 年另一条「血液标志物预警心理疾病」的线索也浮出水面。2026 年 5 月 4 日 NYU 罗里·梅尔斯护理学院 Nicole Beaulieu Perez 团队联合约翰霍普金斯、耶鲁、爱因斯坦医学院、Emory 等 11 家机构，在 The Journals of Gerontology Series A: Biological Sciences and Medical Sciences 发表的工作显示：用「单核细胞专属表观遗传时钟」（monocyte-specific epigenetic clock）测出来的免疫细胞生物学年龄，能预测抑郁的认知-情感症状——但预测不了躯体症状。换句话说，免疫细胞的衰老速度，挑选性地跟抑郁的「绝望、无快感、自我否定」这一面挂钩。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;研究怎么做的。&lt;/strong&gt;样本来自 Women's Interagency HIV Study（WIHS）队列里 440 名女性，261 名 HIV 感染者 + 179 名未感染对照。每人完成 20 项 CES-D 抑郁量表评估，区分出「躯体症状」（疲劳、睡眠、食欲）和「非躯体症状」（无快感/anhedonia、绝望感、失败感、抑郁情绪）。同步抽血做两套表观遗传时钟：一套是覆盖多种组织的「通用时钟」（multi-tissue clock），一套是只针对单核细胞甲基化模式校准过的「单核细胞专属时钟」（monocyte-specific clock）。然后看哪种「加速衰老」和哪种抑郁症状关联。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;核心发现：分得很干净。&lt;/strong&gt;通用时钟测出来的「整体生物学年龄加速」与抑郁的任何亚组症状都没显著关联——这是过去十年表观时钟领域里反复见到的「时钟太粗」问题。单核细胞专属时钟则相反，加速衰老和「非躯体症状」（情感-认知那一组）显著相关，HIV+ 和 HIV− 两组都成立；与躯体症状无显著关联。这把抑郁的两套症状机制拆开了：躯体那部分可能更受当下生活方式（睡眠、活动量、慢病）驱动，而情感-认知那部分则被慢性免疫激活和炎症加速衰老所驱动——后者正是单核细胞作为先天免疫核心承担的角色。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这事重要。&lt;/strong&gt;抑郁的临床诊断一直是「症状打卡」式的，CES-D、PHQ-9 这些量表灵敏但主观。给抑郁找一个生物学锚点是过去 20 年精神病学的圣杯，但试过的炎症因子（CRP、IL-6）、皮质醇、肠菌等候选都没拿到稳定的临床效用。单核细胞甲基化时钟这条路子和过去不同的地方在于：它测的不是某个时点的炎症水平，而是「免疫系统累积暴露下的衰老程度」——这个指标更稳定、能拉时间纵深、还能挑出特定症状群。这意味着未来精神病学诊断可能进入一个新阶段：用免疫细胞甲基化谱给抑郁分亚型，再分别配药（比如非躯体症状强的，优先试抗炎或免疫调节路线；躯体症状强的，先调睡眠和代谢）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;合理边界。&lt;/strong&gt;样本全是女性，且一半多是 HIV 感染者，外推到一般人群、男性、其他慢性免疫激活状态（自身免疫病、长 COVID）还需验证。横断面设计无法证明因果方向——是免疫细胞加速衰老导致抑郁，还是慢性抑郁加速了免疫细胞衰老，目前分不清。单核细胞专属时钟还不是临床常规检测，需要全基因组甲基化芯片或定点 PCR，价格在每样本几百美元量级。这套技术先在「难治性抑郁」「焦虑抑郁共病」这些场景做亚型分型，可能比直接做大众筛查更现实。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;放进读者的健康框架。&lt;/strong&gt;对一般读者直接的启示其实有限——没法明天就去测，也没有「这样做能让你的单核细胞变年轻」的可操作干预。但有两点值得记住。第一，长期慢性炎症不仅伤心血管和代谢，还会通过免疫细胞老化影响心理健康——这给「控制 hsCRP &amp;lt; 1 mg/L」「保证 7+ 小时睡眠」「UPF &amp;lt; 20%」「运动多样性」这些既有建议又加了一条心理健康通路的注脚。第二，如果你或家人有抑郁病史而且躯体症状不重，主要是「快感缺失、自我否定、情感钝化」型的，未来一两年内出现的「免疫亚型抑郁」检测可能就是为这类人准备的——可以保持关注。&lt;/p&gt;
+
+&lt;p&gt;这条证据和本期 Mount Sinai 的造血干细胞研究、Baycrest 的语音执行功能研究放在一起，构成了 2026 春季健康科学的一个统一主题：&lt;strong&gt;用细分的生物学/行为信号去解构「衰老」这个旧概念&lt;/strong&gt;——不再问「你多大」，而是问「你的造血系统、你的语言系统、你的免疫系统各自处在什么状态」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/05/260504023827.htm"&gt;https://www.sciencedaily.com/releases/2026/05/260504023827.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20260504/Cellular-aging-in-immune-cells-signals-early-onset-of-cognitive-depression.aspx"&gt;https://www.news-medical.net/news/20260504/Cellular-aging-in-immune-cells-signals-early-onset-of-cognitive-depression.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medicalxpress.com/news/2026-05-marker-biological-aging-linked-cognitive.html"&gt;https://medicalxpress.com/news/2026-05-marker-biological-aging-linked-cognitive.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://distilinfo.com/2026/05/07/biological-aging-marker-predicts-depression-symptoms/"&gt;https://distilinfo.com/2026/05/07/biological-aging-marker-predicts-depression-symptoms/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">509e7c15-0f9d-5e67-b303-36fc79fe182d</guid>
+      <pubDate>Fri, 15 May 2026 11:13:45 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.sciencedaily.com/releases/2026/05/260504023827.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/2026/05/260504023827_1_900x600.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 📰 Philippine参议院5/13夜响枪：ICC通缉的dela Rosa在议会内躲捕、5/14凌晨2:30跟Robin Padilla开车溜走</title>
+      <description>&lt;p&gt;5/13晚约19:48 Manila时间，&lt;strong&gt;Philippine参议院大楼内响起5到30声枪响&lt;/strong&gt;，国家调查局（NBI）特工与议会警卫之间的对峙演变成短暂交火，持续约3分钟无人死伤。事件中心是&lt;strong&gt;参议员Ronald "Bato" dela Rosa&lt;/strong&gt;——Duterte反毒战时的国家警察总长——为躲避ICC（国际刑事法院）的'反人类罪'逮捕令而躲在议会楼内。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ronald_dela_Rosa_inside_the_Senate_of_the_Philippines_%2805-11-2026%29.jpg/330px-Ronald_dela_Rosa_inside_the_Senate_of_the_Philippines_%2805-11-2026%29.jpg" alt="Ronald dela Rosa inside the Senate" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;5/11 dela Rosa半年来首次出现在参议院投票，触发了之后的连锁事件&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;时间线倒回去看：&lt;strong&gt;5/11 dela Rosa突然出现在参议院投票&lt;/strong&gt;——这是他自2025年11月以来首次出席。当天议程是新一届参议院议长选举，现任Tito Sotto被Alan Peter Cayetano（Duterte系盟友）翻盘。Trillanes前参议员+NBI特工同日到议会执行ICC逮捕令，dela Rosa从楼梯逃上议会楼内躲避。5/13ICC正式确认警令存在，NBI带武装人员二次上门，触发对峙。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;开火细节：&lt;/strong&gt;Palace（总统府）声明称参议院司礼官Mao Aplasca首先开'警告枪'瞄向NBI特工，NBI还击。Cayetano议长事后定性dela Rosa是"voluntarily"离开议会（不是'逃跑'）——他的解释是：菲律宾国内没有签发针对dela Rosa的逮捕令，ICC命令法律地位有争议，所以参议员有权离开。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5/14凌晨约2:30&lt;/strong&gt;，dela Rosa跟&lt;strong&gt;参议员Robin Padilla&lt;/strong&gt;（菲律宾老牌动作明星、Duterte派议员）一起从议会大楼离开。截至5/15他仍在外。司法部已明确：如果他试图离境会被边检拦下逮捕。&lt;/p&gt;
+
+&lt;p&gt;背景信息：ICC的起诉书把&lt;strong&gt;dela Rosa列为'间接共犯'&lt;/strong&gt;，跟前总统Duterte一同被指控2016-2022反毒战期间杀害数千人（人权组织估计6,000-12,000人，菲方官方数据约6,000）。&lt;strong&gt;Duterte本人已于2025年被ICC带到海牙&lt;/strong&gt;，dela Rosa是当时的全国警察总长（PNP长官），被认为是行刑链最关键的执行者。ICC 2026年2月13日把dela Rosa和7人正式列为Duterte的'间接共同实施者'，5/9一度有'非官方'命令传闻，5/11才被ICC正式确认。&lt;/p&gt;
+
+&lt;p&gt;政治影响层面：&lt;strong&gt;新议长Cayetano是Duterte长期盟友&lt;/strong&gt;，5/11投票本身就是Duterte派系夺回议会主导权的一次成功。dela Rosa的'躲在议会楼里被武装保护'状态，等于把ICC命令的执行卡在议会自治权这一关。Marcos现任总统跟Duterte家族2024年开始公开决裂，但司法部+NBI执行ICC命令时碰到议会武装阻挡，&lt;strong&gt;暴露了Marcos政府在国会失控&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;本周接续看：第一，&lt;strong&gt;5/15-16 Marcos总统是否亲自发声&lt;/strong&gt;——之前他对ICC命令公开持'尊重但不主动协助'立场；第二，dela Rosa是否藏入其他议员私宅或回到议会，议长Cayetano的庇护边界；第三，ICC海牙方面是否升级——可能借美方Trump政府（对ICC本身敌视）从中给Manila留台阶。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/2026_Philippine_Senate_lockdown"&gt;https://en.wikipedia.org/wiki/2026_Philippine_Senate_lockdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://edition.cnn.com/2026/05/13/asia/gunshots-philippine-senate-dela-rosa-intl"&gt;https://edition.cnn.com/2026/05/13/asia/gunshots-philippine-senate-dela-rosa-intl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/05/13/asia/philippines-dela-rosa-icc-arrest-warrant-intl-hnk"&gt;https://www.cnn.com/2026/05/13/asia/philippines-dela-rosa-icc-arrest-warrant-intl-hnk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.asiamediacentre.org.nz/gunshots-in-the-senate-dutertes-top-cop-barricades-himself-in-as-icc-closes-in"&gt;https://www.asiamediacentre.org.nz/gunshots-in-the-senate-dutertes-top-cop-barricades-himself-in-as-icc-closes-in&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://politiko.com.ph/2026/05/14/bato-dela-rosa-reportedly-slips-out-of-senate-with-robin-padilla-after-night-of-chaos/daily-feed/"&gt;https://politiko.com.ph/2026/05/14/bato-dela-rosa-reportedly-slips-out-of-senate-with-robin-padilla-after-night-of-chaos/daily-feed/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">970b31ac-2c87-5d81-95b9-8f5cfa81ef99</guid>
+      <pubDate>Fri, 15 May 2026 11:13:47 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://en.wikipedia.org/wiki/2026_Philippine_Senate_lockdown</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ronald_dela_Rosa_inside_the_Senate_of_the_Philippines_%2805-11-2026%29.jpg/330px-Ronald_dela_Rosa_inside_the_Senate_of_the_Philippines_%2805-11-2026%29.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 给社恐的人灌成长心态反而帮倒忙：Uziel 四实验颠覆鸡汤共识</title>
+      <description>&lt;p&gt;3 月 1 日 &lt;em&gt;Personality and Social Psychology Bulletin&lt;/em&gt; 发表了 Bar-Ilan 大学 Liad Uziel 团队的四个实验（n=695），结论让一票成长心态（growth mindset）布道者尴尬：&lt;strong&gt;对社交焦虑（social anxiety）的人来说，被引导持"固定心态"反而表现得更好&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;实验长这样。把英国和以色列被试按社交焦虑分高低，再随机分到两个心态条件：一组读一段"印象是会变的、人们的看法可塑"的材料（成长心态启动）；另一组读"第一印象很难改、人们对你的判断比较稳定"的材料（固定心态启动）。然后进入需要给陌生人留印象的任务——自我介绍、小组讨论、被评价。&lt;/p&gt;
+
+&lt;p&gt;结果：低社交焦虑组在哪种心态下都差不多；&lt;strong&gt;高社交焦虑组在"成长心态"下反而表现显著更差、自评压力更大&lt;/strong&gt;。一旦把他们引向"固定心态"，他们的表现拉回到和低焦虑组同一水平。&lt;/p&gt;
+
+&lt;p&gt;Uziel 给出的机制非常通顺：成长心态告诉社交焦虑者"你每一个表情、每一句口误都还在改写别人对你的印象"——这恰恰是焦虑者最怕的剧本。社交焦虑的核心症状就是过度自我监控（self-monitoring）和事后反刍（rumination），成长心态相当于把这台监控器的灵敏度调到最高。反过来，"印象一旦形成就比较稳定"这个信念把当下每一个微动作的赌注调低了——既然怎么做都改变不了多少，那就别盯着自己看了。&lt;/p&gt;
+
+&lt;p&gt;这条研究戳破了一个流行的简化叙述："成长心态在所有场合都更好"。Carol Dweck 自己近年的修正版工作（dual mindset、domain-specific mindset）一直在说：心态不是单维度好坏，是要看情境匹配。Uziel 这篇是同一脉络上一次更尖锐的实证——在某些情境下，把可变性调高反而是负担。&lt;/p&gt;
+
+&lt;p&gt;可应用的版本其实有几层：第一，&lt;strong&gt;如果你是焦虑型选手，进社交场合前别给自己读"每一次互动都是改写印象的机会"那种鸡汤&lt;/strong&gt;，那是给你的反刍机器加油。读"大家对我的看法已经差不多定型了，今晚就放松一点"这种话反而省力。第二，更一般地，&lt;em&gt;哪种心态有用取决于焦虑系数&lt;/em&gt;——高焦虑场景（求职面试、初次约会、汇报）适合"它已经定了"的稳态视角；低焦虑、需要主动改变的场景（学习新技能、长期关系经营）适合"它可以变"的成长视角。&lt;/p&gt;
+
+&lt;p&gt;第三层是元层面的：心态本身不是答案，&lt;em&gt;把心态用对地方&lt;/em&gt;才是。读心理学最大的陷阱是把单一概念当万灵药。Uziel 这篇提醒——再被反复验证的工具，放错场景也是负资产。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/psychology-study-shows-how-a-fixed-mindset-helps-socially-anxious-people/"&gt;https://www.psypost.org/psychology-study-shows-how-a-fixed-mindset-helps-socially-anxious-people/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://journals.sagepub.com/home/psp"&gt;https://journals.sagepub.com/home/psp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a9e87977-5582-5a3e-b32b-af43bf77bb97</guid>
+      <pubDate>Fri, 15 May 2026 11:13:47 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/psychology-study-shows-how-a-fixed-mindset-helps-socially-anxious-people/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/04/worried-anxiety-woman.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 🧠 我难过所以我看得清楚是错觉：俄亥俄州立 372 人 3 个月追踪戳破抑郁现实主义</title>
+      <description>&lt;p&gt;"抑郁的人看世界更清楚"——这是流传四十多年的"抑郁现实主义"（depressive realism）说法。1979 年 Alloy 和 Abramson 的实验显示，轻度抑郁者在"判断自己对随机事件有多少控制力"任务上比非抑郁者更准；非抑郁者系统性高估了自己的能动性。结论被无数科普书、自助书、心理学课反复引用：悲伤是清醒，乐观是错觉。&lt;/p&gt;
+
+&lt;p&gt;3 月 26 日 &lt;em&gt;Behaviour Research and Therapy&lt;/em&gt; 刊出俄亥俄州立大学 Joseph Maffly-Kipp 团队的反例。372 名被试，先估计 40 件常见生活事件（20 件正面、20 件负面）在未来一个月发生的概率，再连续三个月汇报实际发生情况。这样就能比对"主观预测"和"客观频率"，并跟踪信念怎么更新。&lt;/p&gt;
+
+&lt;p&gt;结果分两层。第一层：&lt;strong&gt;抑郁程度高的人对正面事件的预测显著低于这些事件实际发生的频率&lt;/strong&gt;——他们不是"准"，是真的&lt;em&gt;预测偏低&lt;/em&gt;。低抑郁组确实偏乐观一点，但抑郁组偏到了另一边。所谓"depressive realism"在这套生态效度更高的设计里站不住。&lt;/p&gt;
+
+&lt;p&gt;第二层更狠，是关于&lt;strong&gt;信念怎么更新&lt;/strong&gt;的不对称。当好事真发生了，抑郁组确实会上调对未来好事的预期——但这种乐观更新"极其脆弱"，到第三个月就反弹回低位。当坏事发生了，他们的悲观更新却"根深蒂固"，反复巩固。换句话说：&lt;em&gt;好消息留不住，坏消息粘得紧&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;这条研究的心智模型价值在于戳破一个广泛的认知谬误——"我现在很丧，所以我看得清楚"。这种自我安慰其实在大脑里有具体的不对称机制：抑郁不是把滤镜摘掉，是把滤镜换成了一种"正向信号易挥发、负向信号易固化"的版本。它对常人也有启示：每个人在情绪低谷时都不同程度地享受这种"伪清醒"——觉得自己看到了平时被乐观掩盖的真相。这套叙事感觉很深刻，但 Maffly-Kipp 的数据说，它在统计上就是错的。&lt;/p&gt;
+
+&lt;p&gt;可应用的版本：&lt;strong&gt;低谷期做的任何长期决定都要打折扣&lt;/strong&gt;——辞职、分手、放弃一个项目——不是因为"消极的你"是错的另一面，而是因为这个版本的你对正面可能性的预测系统性偏低，且这个偏差不会随一两件好事消散。Tim Urban 那句"你在情绪里时不要做决定"现在有了具体的脑机制版本：你的信念更新通道在低谷期是不对称的。&lt;/p&gt;
+
+&lt;p&gt;另一个推论：陪伴抑郁的朋友时，给他报好消息几乎留不下痕迹（更新即蒸发），但给他报坏消息会沉底。明白这点能省下很多无效的"鼓励"，转而把精力放到帮他&lt;em&gt;反复&lt;/em&gt;验证小的正面证据——不是说一次大的，是日常的、可重复的、能慢慢覆盖回那个不对称通道的小事。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/depression-is-linked-to-a-genuine-pessimistic-bias-rather-than-a-realistic-view-of-the-world/"&gt;https://www.psypost.org/depression-is-linked-to-a-genuine-pessimistic-bias-rather-than-a-realistic-view-of-the-world/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S0005796726000112"&gt;https://www.sciencedirect.com/science/article/pii/S0005796726000112&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">33cab11f-6396-5029-ba06-a0b944cbd791</guid>
+      <pubDate>Fri, 15 May 2026 11:13:54 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/depression-is-linked-to-a-genuine-pessimistic-bias-rather-than-a-realistic-view-of-the-world/</link>
+      <enclosure url="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://www.psypost.org/wp-content/uploads/2025/12/sad-depressed-man-750x375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Material 3 Expressive at One Year: Google Drive's Container Saga as the Cleanest Case Study / Material 3 Expressive 一周年：Google Drive 容器故事是最清楚的案例</title>
+      <description>&lt;p&gt;One year after Material 3 Expressive launched at The Android Show: I/O Edition (May 2025), Google's own apps are still slowly catching up to the design language Google asked the rest of the ecosystem to adopt. The most-cited shorthand — and not in a flattering way — is &lt;strong&gt;"Material 3.5"&lt;/strong&gt;: component swaps where Material You used to be, without rethinking the underlying interaction model. The Google Drive container saga from August 2025 to January 2026 is the cleanest case study, and the May 2026 web app launcher refresh shows the bar has moved but not by much. Worth a closer look at what "true Expressive" requires versus what most teams (including Google's) actually ship.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5google.com/wp-content/uploads/sites/4/2025/12/Material-3-Expressive-recap-cover.jpg?quality=82&amp;strip=all&amp;w=1200" alt="Composite of Google apps showing Material 3 Expressive redesigns" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;9to5Google's December recap framed Google's own apps as "Material 3.5" — Expressive components dropped into Material 3 layouts. Image: 9to5Google.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The Drive container saga, in three acts.&lt;/strong&gt; Google Drive's redesign is the most legible example of the gap between Expressive ambition and Expressive shipping. &lt;strong&gt;Act 1 (Aug 16, 2025)&lt;/strong&gt;: Drive rolled out the full M3E treatment — search app bar, FAB menu, short bottom bar, and the file list wrapped in a &lt;em&gt;container component&lt;/em&gt; with rounded top corners and edge padding. &lt;strong&gt;Act 2 (Sep 2025)&lt;/strong&gt;: Google quietly pulled the container in the list view because it made the file list feel cramped on smaller phones. &lt;strong&gt;Act 3 (Jan 6, 2026)&lt;/strong&gt;: Drive 2.25.497.5 brought the container back, this time with the bottom and search app bars sharing a single background layer and narrower top-tab indicators. The retreat-and-return wasn't a bug — it was Google realizing that &lt;em&gt;Expressive shapes only earn their pixels when they actually structure the page&lt;/em&gt;, not when they sit decoratively around a list.&lt;/p&gt;
+
+&lt;p&gt;The same pattern shows up across the Google app portfolio. 9to5Google's December recap and ongoing coverage through May 2026 catalogs the failure modes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Search app bar inconsistency&lt;/strong&gt; — works in Workspace (Gmail, Docs, Sheets, Drive, Keep) but fails in Contacts (no hamburger menu) and Phone (no profile switcher). System cohesion replaced by per-app pattern drift.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bottom bar regression&lt;/strong&gt; — reverted from the tall Material You bottom bars to shorter ones, with no measurable content-space gains and against the broader Expressive preference for larger touch targets.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Over-containerization&lt;/strong&gt; — list views feel cluttered or dense; this is the failure that Drive lived through.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Comically large buttons&lt;/strong&gt; — Meet's call-placement button and Clock's Stopwatch button are extra-large per Expressive's spec, but the proportional balance is off and the buttons "look comical" in their actual context.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/12/Material-3-Expressive-Google-Drive-2.jpg" alt="Google Drive showing the Material 3 Expressive container around the file list with edge padding and rounded corners" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Drive in January 2026: the container component is back, this time with bottom bar and search bar sharing a single background layer.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;What "true Expressive" actually demands.&lt;/strong&gt; The Material team's research framing for M3E (3+ years, 18,000+ participants) wasn't about new shapes — it was about &lt;em&gt;communicating&lt;/em&gt; with shape, motion, and color. The system-level Android implementation gets this right: notification dismissal makes neighbors physically respond, the FAB menu has spring physics in Docs, pull-to-refresh in Photos has a custom Expressive shape. These aren't decoration; they're the system telling you what just happened. The "Material 3.5" critique is precisely that Google's own teams swapped the visible components (rounded corners here, pill shape there) without re-authoring the moments where Expressive's communicative function would actually pay off.&lt;/p&gt;
+
+&lt;p&gt;This is the same diagnosis NN/g made about UI work generally in their State of UX 2026 (covered last week): when the components are commoditized, the differentiation moves to &lt;em&gt;decisions about when and where to spend visual richness&lt;/em&gt;. Google has the components. The decisions are still uneven.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What's working.&lt;/strong&gt; Photos pull-to-refresh and Docs FAB menu spring physics show what Expressive looks like at full strength — the animations communicate state changes rather than just decorate them. Gmail's January 2026 widget update (bottom-line wider read region, FAB pill replacing the rounded square) is small but functional. Drive's container return is the right kind of self-correction: ship, measure, retreat, refine, ship again. And Android Auto's I/O 2026 announcement of widgets and video apps is a genuine surface expansion rather than a re-skin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What's not.&lt;/strong&gt; The Phone app's short bottom bar (covered Jan 19, 2026) is the canonical "Material 3.5" — a component swap, no rethought interaction model. Chrome for Android's M3E settings (April 2, 2026) and the May 10 web app launcher refresh are similarly cosmetic. The gap a year in is large enough that &lt;strong&gt;third-party app developers using the Material 3 Expressive Android components ship more cohesive Expressive experiences than Google's own teams do&lt;/strong&gt;, because they're starting fresh against the spec while Google teams are mid-migration from Material You.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practical takeaway for design system leads.&lt;/strong&gt; If you're rolling out a new design system in 2026, the Drive container arc is the case study to internalize. Three rules fall out of it. &lt;em&gt;First&lt;/em&gt;: containers are a structural commitment, not a decorative one — if you can't justify the edge padding by what the container groups together, don't add it. &lt;em&gt;Second&lt;/em&gt;: ship motion and shape together — Google's strongest M3E surfaces (Photos refresh, Docs FAB) pair both; the weakest swap one without the other. &lt;em&gt;Third&lt;/em&gt;: accept that a public retreat-and-return loop (Drive pulling and re-shipping the container in five months) is a healthier outcome than a slow, defensive defense of a wrong default.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What to watch.&lt;/strong&gt; Google I/O 2026's keynote (May 20-21) is the moment to see whether Google's own apps move past 3.5. The two signals worth tracking: (1) does Maps — conspicuously absent from Expressive coverage so far — get a real overhaul, and (2) does Google publish any updated guidance distinguishing "Expressive components" from "Expressive interactions." If both happen, the second year of M3E will look different from the first.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Material 3 Expressive 在 The Android Show: I/O Edition（2025 年 5 月）发布一年后，Google 自家应用还在慢慢追赶它要求生态系统其他人采用的那套设计语言。最常被引用、且并不友好的简称是 &lt;strong&gt;「Material 3.5」&lt;/strong&gt;：把 Material You 的位置换成 Expressive 组件，但底层交互模型没有重新思考。从 2025 年 8 月到 2026 年 1 月的 Google Drive 容器故事是最清楚的案例研究，2026 年 5 月 web 应用启动器的小翻新表明门槛抬高了一点点，但不多。值得仔细看「真正的 Expressive」要求什么——以及大多数团队（包括 Google 自己的）实际发布的是什么。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Drive 容器三幕剧。&lt;/strong&gt;Google Drive 的改版是 Expressive 雄心与 Expressive 实际出货之间的鸿沟最易读的例子。&lt;strong&gt;第一幕（2025 年 8 月 16 日）&lt;/strong&gt;：Drive 推出完整 M3E——搜索栏、FAB 菜单、短底栏、以及把文件列表包进带圆角顶部和边距的&lt;em&gt;容器组件&lt;/em&gt;。&lt;strong&gt;第二幕（2025 年 9 月）&lt;/strong&gt;：Google 悄悄在列表视图撤掉容器，因为在小屏手机上让文件列表显得逼仄。&lt;strong&gt;第三幕（2026 年 1 月 6 日）&lt;/strong&gt;：Drive 2.25.497.5 把容器请回来，这次让底栏和搜索栏共享同一层背景，顶部 tab 指示器变窄。这场撤回再上线不是 bug——是 Google 意识到 &lt;em&gt;Expressive 形状只有真正构建页面结构时才配得上它占的像素&lt;/em&gt;，而不是当装饰物围在列表外面。&lt;/p&gt;
+
+&lt;p&gt;同样的模式在 Google 应用矩阵中各处可见。9to5Google 的 12 月回顾以及到 2026 年 5 月的持续报道盘点了几种失败模式：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;搜索栏不一致&lt;/strong&gt;——在 Workspace（Gmail、Docs、Sheets、Drive、Keep）能用，但在 Contacts（没有汉堡菜单）和 Phone（没有账号切换器）失败。系统层一致性被「每应用模式漂移」取代。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;底栏倒退&lt;/strong&gt;——从 Material You 的高底栏改回短底栏，没有可测量的内容空间收益，而且违背 Expressive 整体偏好的更大触控目标。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;过度容器化&lt;/strong&gt;——列表视图显得拥挤稠密；这就是 Drive 经历的失败。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;滑稽地大的按钮&lt;/strong&gt;——Meet 的呼叫按钮和 Clock 的秒表按钮按 Expressive 规范是 extra-large，但比例失衡，在实际语境里「看起来滑稽」。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;「真正的 Expressive」到底要什么。&lt;/strong&gt;Material 团队为 M3E 给出的研究框架（3+ 年、18,000+ 参与者）不是关于新形状——是关于用形状、动效、色彩&lt;em&gt;沟通&lt;/em&gt;。Android 系统层做对了：通知滑掉时邻居物理性地回应；Docs 里 FAB 菜单有弹簧物理；Photos 下拉刷新带定制的 Expressive 形状。这些不是装饰，是系统在告诉你刚刚发生了什么。「Material 3.5」批评恰好指 Google 自家团队换了可见组件（这里圆角，那边药丸形），但没有重写那些 Expressive 的沟通功能本该兑现的瞬间。&lt;/p&gt;
+
+&lt;p&gt;这跟 NN/g 在《2026 UX 现状》里对 UI 工作整体的诊断是同一句（上周已写）：当组件被商品化，差异化转向&lt;em&gt;「在哪里和何时花掉视觉丰富度」的判断&lt;/em&gt;。Google 有组件。判断仍然参差。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;做对的地方。&lt;/strong&gt;Photos 下拉刷新与 Docs FAB 菜单弹簧物理展示了 Expressive 满血状态的样子——动画沟通状态变化，不只是装饰。Gmail 2026 年 1 月的 widget 更新（更宽的阅读区、FAB 从圆角方变药丸）小但有功能。Drive 容器回归是健康的自我修正：发布、测量、撤回、打磨、再发。Android Auto 在 I/O 2026 公布的 widgets 与视频应用是真正的表面扩展，不是换皮。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;没做对的地方。&lt;/strong&gt;Phone 应用的短底栏（2026 年 1 月 19 日报道）是「Material 3.5」的标本——组件替换，交互模型未重思。Chrome for Android 的 M3E 设置（4 月 2 日）和 5 月 10 日的 web 应用启动器更新同样停在外观层。一年后的差距大到一个反讽出现：&lt;strong&gt;使用 Material 3 Expressive 安卓组件的第三方开发者，比 Google 自家团队发出的 Expressive 体验更连贯&lt;/strong&gt;——因为他们对着规范从零开始，而 Google 团队还在从 Material You 迁移的中段。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;给设计系统负责人的实操建议。&lt;/strong&gt;如果你 2026 年正在推一套新设计系统，Drive 容器弧线是该消化的案例。三条规则从中掉出来。&lt;em&gt;第一&lt;/em&gt;：容器是结构承诺，不是装饰承诺——如果你无法用容器分组的内容关系来证明边距合理，就不要加。&lt;em&gt;第二&lt;/em&gt;：动效与形状一起发——Google 最强的 M3E 表面（Photos 刷新、Docs FAB）两者并发；最弱的那些只换一个。&lt;em&gt;第三&lt;/em&gt;：接受公开的「撤回—回归」循环（Drive 在五个月内拉掉再上线容器）比慢慢、防御性地为错误默认辩护更健康。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;下一步看什么。&lt;/strong&gt;Google I/O 2026 主旨演讲（5 月 20-21 日）是观察 Google 自家应用是否走出 3.5 的时刻。两个信号值得追踪：（1）Maps——迄今在 Expressive 报道中显眼缺席——是否得到真正的大改；（2）Google 是否发布更新的指南，区分「Expressive 组件」与「Expressive 交互」。如果两者都发生，M3E 的第二年会跟第一年看上去不一样。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2025/12/27/recap-material-3-expressive/"&gt;https://9to5google.com/2025/12/27/recap-material-3-expressive/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/01/06/google-drive-m3-expressive-redesign-complete/"&gt;https://9to5google.com/2026/01/06/google-drive-m3-expressive-redesign-complete/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/05/06/google-tasks-expressive-widget/"&gt;https://9to5google.com/2026/05/06/google-tasks-expressive-widget/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/01/19/google-phone-m3-expressive-bottom-bar/"&gt;https://9to5google.com/2026/01/19/google-phone-m3-expressive-bottom-bar/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.androidauthority.com/android-auto-google-io-2026-features-material-3-widgets-video-apps-3665474/"&gt;https://www.androidauthority.com/android-auto-google-io-2026-features-material-3-widgets-video-apps-3665474/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.google/products-and-platforms/platforms/android/material-3-expressive-android-wearos-launch/"&gt;https://blog.google/products-and-platforms/platforms/android/material-3-expressive-android-wearos-launch/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">35a20842-310b-5e15-b8c2-8a06a2c2cfaa</guid>
+      <pubDate>Fri, 15 May 2026 11:14:58 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://9to5google.com/2025/12/27/recap-material-3-expressive/</link>
+      <enclosure url="https://9to5google.com/wp-content/uploads/sites/4/2025/12/Material-3-Expressive-recap-cover.jpg?quality=82&amp;strip=all&amp;w=1200" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
