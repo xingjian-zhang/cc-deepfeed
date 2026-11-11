@@ -9,7 +9,7 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Wed, 11 Nov 2026 12:10:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:15:16 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
@@ -2148,6 +2148,684 @@
       <category>bay-area-life</category>
       <link>https://sfstandard.com/2026/11/05/t-t-supermarket-san-francisco-opening/</link>
       <enclosure url="https://assets.sfstandard.com/image/994911177489/image_t92lf6aust4uv6c30qsdru552h/-S1200x630-FPNG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 一个心理学发现，平均只该信一半：SCORE 项目预注册重做 164 篇社科论文，49% 复现成功，效应量中位数从 r=.25 缩到 .10</title>
+      <description>&lt;p&gt;你在书里、播客里、公众号里读到的那个「研究发现」，被认真重做一遍之后还剩多少？10 月 29 日发表在 &lt;em&gt;Nature&lt;/em&gt; 的一篇论文给了个很具体的答案：大约一半能站住，而站住的那一半，效应也平均缩水了一半多。&lt;/p&gt;
+
+&lt;p&gt;这篇论文叫《Investigating the replicability of the social and behavioural sciences》，第一作者是开放科学中心（Center for Open Science）的 Andrew H. Tyner，通讯作者是 Brian Nosek（同时在弗吉尼亚大学），属于 DARPA 从 2019 年开始资助的 SCORE（Systematizing Confidence in Open Research and Evidence）项目，31 个国家几百名研究者参与。做法是：从 62 本期刊 2009—2018 年发表的 3,900 篇量化论文里随机抽样，筛出 1,500 篇合格的，最后对 164 篇做了 296 次复现，覆盖 274 个具体结论。每次复现的设计和分析计划都先经同行评审、在 OSF 上预注册，再收数据。原研究样本量中位数 206，复现是 545，统计功效中位数 99.6%——也就是说，原效应如果真像论文写的那么大，复现几乎不可能漏掉。&lt;/p&gt;
+
+&lt;h3&gt;结果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;按论文加权，49.3% 在同方向上显著复现，40.4% 是零结果，9.7% 方向反了。按单个结论算，成功率 55.1%。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;效应量中位数从 r=0.25 降到 0.10&lt;/strong&gt;，相对缩水 58%；能复现的论文里，80% 效应变小了。&lt;/li&gt;
+&lt;li&gt;分学科：经济学 42.5%，商学 47.2%，心理学 49.0%，社会学 51.1%，政治学 52.0%，教育学 63.1%。学科之间的差异并不显著，教育和政治学的样本也很小。&lt;/li&gt;
+&lt;li&gt;换 13 种「成功」标准，成功率在 28.6% 到 74.8% 之间晃，中位数还是 49.3%。发表年份越晚并不越好。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nosek 自己反复强调两句话：「复现失败不等于原发现是错的」；另一位未参与研究的学者 Zellers 补了一句，「复现成功也不能证明原结论为真」。这里还有一个统计学上必然发生的回归均值（regression to the mean）：只挑「发表了、显著了」的结果去重测，本来就会看到缩水。所以这篇论文不是在说社会科学全是假的，而是在给「一个已发表的效应」定一个更现实的折扣率。&lt;/p&gt;
+
+&lt;h3&gt;能带走什么：给每个「研究表明」打对折&lt;/h3&gt;
+&lt;p&gt;这正好接上我们这个月一直在追的线索。9 月 Ariely 与 Wertenbroch 2002 年那篇「自设截止日期」研究被撤稿，复现结果是三种截止安排毫无差别；11/9 介绍的 Klein &amp;amp; Swann 指出社会启动研究的复现率大约只有 17%。SCORE 是第一次用随机抽样、跨六个学科的方式，把这种直觉变成了一个数字。&lt;/p&gt;
+
+&lt;p&gt;落到日常，我会用三条规则：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;默认先把效应砍一半。&lt;/strong&gt;一本书说「某个小技巧让表现提高 30%」，心里先记成「可能 10% 左右，也可能没有」。r=0.10 意味着这个因素大约解释 1% 的差异——有，但远不是「改变人生」。&lt;/li&gt;
+&lt;li&gt;单篇研究当假设，不当结论。多实验室复现、元分析、预注册的大样本 RCT 才值得改行为。这也是为什么本栏更偏爱后者。&lt;/li&gt;
+&lt;li&gt;便宜、没副作用的建议，证据弱也可以试；要花大钱、大量时间或者要你放弃别的东西的建议，证据门槛要高得多。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有一个细节挺耐人寻味：用新数据重做的研究，效应量从 0.28 缩到 0.11；用已有二手数据重新分析的，只从 0.13 缩到 0.10。原本吹得越大的效应，缩得越狠。下次再看到一个大得惊人的心理学效应，第一反应应该是怀疑，而不是兴奋。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.nature.com/articles/s41586-025-10078-y"&gt;Tyner, Errington, Nosek et al., Nature (DOI 10.1038/s41586-025-10078-y)&lt;/a&gt;；&lt;a href="https://www.psypost.org/only-about-half-of-social-science-findings-held-up-when-retested-major-replication-project-finds/"&gt;PsyPost 报道（2026-10-29）&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-10078-y"&gt;https://www.nature.com/articles/s41586-025-10078-y&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/only-about-half-of-social-science-findings-held-up-when-retested-major-replication-project-finds/"&gt;https://www.psypost.org/only-about-half-of-social-science-findings-held-up-when-retested-major-replication-project-finds/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f32c9551-d32a-5f29-9556-8e84ae5871e0</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:06 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.nature.com/articles/s41586-025-10078-y</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/10/scientific-paper-review.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 好的聊天不是一直同频：Dartmouth 分析 1,656 场陌生人对话，「靠拢—走散—再靠拢」的粉红噪声节奏与愉快感相关</title>
+      <description>&lt;p&gt;聊得好的对话，是不是两个人一直「在同一频道」？Dartmouth 的一项新研究说，不完全是。真正让人想继续聊下去的，是一种有节奏的靠拢、走散、再靠拢——物理学里叫它粉红噪声（pink noise）。&lt;/p&gt;
+
+&lt;p&gt;论文是 Kathryn O'Nell、Kiara Sanchez 和 Emily Finn 发在 &lt;em&gt;Science Advances&lt;/em&gt; 的《Pink noise in dyads' semantic similarity trajectories predicts conversation enjoyment》，PsyPost 11 月 11 日做了报道。方法很巧：把对话按说话轮次切开，每一轮用语言模型转换成 768 维的语义向量，再算相邻两轮之间有多相似，得到一条「语义相似度时间线」。如果这条线是纯随机的，就是白噪声（指数 0.5）；如果是小波动嵌套在大波动里——两人在一个话题上对齐，然后有人带出新东西，彼此稍微拉开，再重新汇合——就更接近粉红噪声（指数 1.0）。每段对话还被打乱顺序 1,000 次作为随机基线。&lt;/p&gt;
+
+&lt;h3&gt;六组数据&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1,656 场陌生人之间至少 25 分钟的视频聊天（平均约 320 轮）：94% 高于随机水平，平均 0.62。打乱顺序后信号就减弱，说明这是两个人共同的节奏，不是某一方的说话习惯。&lt;/li&gt;
+&lt;li&gt;在 205 个问卷问题里，经过严格多重比较校正后，粉红噪声与 7 项结果正相关：整体愉快、想继续聊、自我袒露、感到对方在袒露、不想提前离开、觉得对方也想继续、实际聊过 25 分钟。&lt;/li&gt;
+&lt;li&gt;97 场大学朋友之间的对话：和愉快感有小幅关联，和亲近感不显著。&lt;/li&gt;
+&lt;li&gt;31 场播客里的电话速配：互相说「愿意/可以考虑」的 19 对节奏更明显，作者自己也说这只是初步结果。&lt;/li&gt;
+&lt;li&gt;25 档业余双人播客的前 50 期（共 1,032 集）：粉红噪声随期数上升，像是两个主持人在磨合。&lt;/li&gt;
+&lt;li&gt;研究者让 Claude 3.7 Sonnet 各写了 50 段愉快和不愉快的 100 轮咖啡馆对话：愉快版有明显的粉红噪声，不愉快版和随机基线没差别。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;别当鹦鹉，也别乱跳&lt;/h3&gt;
+&lt;p&gt;O'Nell 有句话说得很直白：「没人想跟一只鹦鹉聊天。」过度同步——你说什么我就附和什么——和不停换话题一样，都会把节奏弄平。好的对话两头都要：先在一个话题上待够，追问、展开，等真聊透了再带出一个相关的新角度，然后对方接住，你们又汇到一起。&lt;/p&gt;
+
+&lt;p&gt;她给的实用建议只有一句：「别怕让对话慢下来。」换成具体动作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下一句话之前，先问一个跟进问题（follow-up question），而不是急着分享自己的类似经历。&lt;/li&gt;
+&lt;li&gt;想换话题时，用一座桥：「你刚说的 X 让我想到……」，而不是硬切。&lt;/li&gt;
+&lt;li&gt;注意自己是不是在一味点头附和。偶尔提出一点不同角度，反而让对话活起来。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;局限得说清楚。所有真人数据都是观察性的，作者自己强调「这项工作关键在于它是观察性的」——也可能是两个人本来就投缘，才自然聊出了这种节奏。效应量小；当把粉红噪声和另外三种动量、对齐指标一起放进模型时，它不再是显著的独立预测因子。所以它更像一个描述好对话的新指纹，而不是一个已证实的「聊天技巧」。&lt;/p&gt;
+
+&lt;p&gt;这和本栏 11/9 介绍的 Davison 等人的冲突修复研究可以对照着看：那篇说沉默比难听的回应更伤人，这篇说附和得太紧也会让对话变平。两头指向同一件事——对话里的人需要对方真的在场，而在场不等于同意。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://doi.org/10.1126/sciadv.aeb2684"&gt;O'Nell, Sanchez &amp;amp; Finn, Science Advances (DOI 10.1126/sciadv.aeb2684)&lt;/a&gt;；&lt;a href="https://www.psypost.org/the-best-conversations-may-follow-a-hidden-mathematical-rhythm-called-pink-noise-according-to-new-psychology-research/"&gt;PsyPost 报道（2026-11-11）&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1126/sciadv.aeb2684"&gt;https://doi.org/10.1126/sciadv.aeb2684&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/the-best-conversations-may-follow-a-hidden-mathematical-rhythm-called-pink-noise-according-to-new-psychology-research/"&gt;https://www.psypost.org/the-best-conversations-may-follow-a-hidden-mathematical-rhythm-called-pink-noise-according-to-new-psychology-research/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">82a5e96e-d35b-5362-b268-1b9a24145d2b</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:06 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1126/sciadv.aeb2684</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/conversation-750x375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 「我希望」悄悄变成了「我预计」：UConn 分析 70 年选民数据，约九成人预计自己支持的候选人会赢，笃定会赢的输家选后敌意不降</title>
+      <description>&lt;p&gt;美国中期选举刚过去一周。一项发在 &lt;em&gt;Political Behavior&lt;/em&gt; 的研究提醒了一件比党派之争更普遍的事：人想要什么，就容易相信什么会发生。心理学上叫它一厢情愿偏误（wishful thinking，也叫期望偏差 desirability bias）。&lt;/p&gt;
+
+&lt;p&gt;作者是康涅狄格大学（UConn）政治学者 Seth Warner，论文题为《Partisan Wishful Thinking in Polarized Times》。美国全国选举研究（ANES）从 1952 年起每次大选都问受访者「你觉得谁会赢」，Warner 把这些回答和每个人的投票意向对上，再配上当时的民调均值（2004 年前用 Gallup，之后用 RealClearPolitics）。&lt;/p&gt;
+
+&lt;h3&gt;数字&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;说得出自己支持谁的选民里，&lt;strong&gt;约九成预计自己的人会赢&lt;/strong&gt;。这个比例几十年来一直在 70% 左右，2000 年代升到 70% 多，2012 年后稳定在 80% 多到 90%。两个候选人，不可能九成的人都对。&lt;/li&gt;
+&lt;li&gt;民调领先每多 1 个百分点，预计获胜的几率高约 7%——人确实会看民调，但 2012 年后的信心明显跑在民调前面。&lt;/li&gt;
+&lt;li&gt;1980—2020 年间「预计己方赢」上升约 18 个百分点。统计分解里，投票越来越忠于本党解释约 25%，对另一党的敌意上升解释约 22%（给对方打分低于 25/100 的人多了 47 个百分点）。对自家候选人的好感是个人层面最强的预测因子。&lt;/li&gt;
+&lt;li&gt;选后 22,313 份前后访谈：一般来说输家选后敌意会比赢家低约 2 分（百分制），但赛前确信能赢的输家没有这种降温，比赛前就预料会输的输家高约 3.1 分。2020 年预期获胜的共和党输家，这份额外敌意到 2024 年还在。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;效应不大，约 3 分，而且 Warner 自己把 2020 年当作特例（伴随无根据的舞弊说法）。数据是观察性的，敌意和乐观可能互为因果，也分不开「内心愿望」和「党派媒体喂的信息」。他还在论文里披露用 GPT-5 和 Claude Opus 4.6 帮忙写统计代码，数据和代码公开。&lt;/p&gt;
+
+&lt;h3&gt;把「想要」和「预计」拆成两个数&lt;/h3&gt;
+&lt;p&gt;这个偏误不只发生在投票上。你觉得面试稳了、论文这次一定中、对方一定会答应、这个项目下季度能上线——这些判断里有多少是证据，有多少是愿望？Warner 的数据最有用的地方在后半段：预期越笃定，落空后越难消化，愤怒更可能找外部归因。&lt;/p&gt;
+
+&lt;p&gt;一个简单做法：每次面对你很在乎的结果，写下两个数。第一个是「我有多希望它发生」（0—10），第二个是「如果这是别人的事，我会给多大概率」。第二个问题借的是外部视角（outside view）：同类事情的基础比率是多少？民调差多少？过去几次结果怎样？两个数如果几乎一样，大概率是愿望在替你估计。&lt;/p&gt;
+
+&lt;p&gt;然后，在结果出来前把概率写下来。这不只是为了事后校准，它还提前给失望留了位置。Warner 发现那些赛前就承认可能会输的人，输了之后反而更快平静。想要可以是 100%，预计最好老老实实写个 55%。&lt;/p&gt;
+
+&lt;p&gt;这和本栏一直在追的「动机性解读」线索是一路的：Vollberg &amp;amp; Gross 发现人会按偏好扭曲模糊的社会后果，Gu 等发现我们怎么归因同事的动机决定自己的反应。Warner 补上的是时间维度——扭曲不只影响当下的判断，还会在结果揭晓后变成持续好几年的情绪账单。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://doi.org/10.1007/s11109-026-10214-y"&gt;Warner, Political Behavior (DOI 10.1007/s11109-026-10214-y)&lt;/a&gt;；&lt;a href="https://www.psypost.org/nearly-90-of-voters-now-expect-their-candidate-to-win-the-math-doesnt-work/"&gt;PsyPost（2026-10-31）&lt;/a&gt;；&lt;a href="https://studyfinds.com/sore-loser-effect-high-election-expectations-tied-to-lasting-partisan-hostility/"&gt;StudyFinds（2026-11-08）&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1007/s11109-026-10214-y"&gt;https://doi.org/10.1007/s11109-026-10214-y&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/nearly-90-of-voters-now-expect-their-candidate-to-win-the-math-doesnt-work/"&gt;https://www.psypost.org/nearly-90-of-voters-now-expect-their-candidate-to-win-the-math-doesnt-work/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://studyfinds.com/sore-loser-effect-high-election-expectations-tied-to-lasting-partisan-hostility/"&gt;https://studyfinds.com/sore-loser-effect-high-election-expectations-tied-to-lasting-partisan-hostility/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">06fc7244-6e7f-5569-8215-e28582137602</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:07 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1007/s11109-026-10214-y</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/10/voting-750x375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 众议院以211比204把赫格塞思弹劾案送进委员会：条款没人表决，民主党1月还会再提</title>
+      <description>&lt;p&gt;众议院11月10日以211比204票把马西（Thomas Massie）提出的赫格塞思（Pete Hegseth）弹劾决议交付委员会，这在实际效果上等于把它埋在了本届国会里。共和党人里只有马西自己投了反对票。这是一次程序性表决，八条弹劾条款本身从头到尾没有被表决过。&lt;/p&gt;
+
+&lt;p&gt;先说它怎么走到这一步的。马西9月15日提交了一份34页的决议，列了八条弹劾条款，核心指控是赫格塞思在没有国会授权的情况下发动伊朗战争，并且越过《战争权力法》的期限继续打。决议还批评了抓捕委内瑞拉总统马杜罗的行动。关键在于马西把它作为"特权决议"（privileged resolution）提出：这种决议一旦提交，众议院领导层必须在两个立法日内安排表决，不能靠不排日程把它压住。&lt;/p&gt;
+
+&lt;p&gt;共和党领导层的办法是拖。NBC报道，党内领袖曾经取消原定的表决，把它推到11月选举之后，众议院11月9日复会，这才有了本周二的这一票。议长约翰逊（Mike Johnson）称马西的做法"荒谬"（ridiculous），为赫格塞思辩护。民主党少数党领袖杰弗里斯（Hakeem Jeffries）9月就说自己是"坚定的赞成票"。&lt;/p&gt;
+
+&lt;p&gt;表决之后，两边的说法一如所料。特朗普在社交平台上称这次表决是对"一位伟大爱国者的&lt;em&gt;平反&lt;/em&gt;"（原文为"EXONERATION of a Great American Patriot"）。赫格塞思对NBC说，这"是一场闹剧，是一次作秀，每个人都知道"。&lt;/p&gt;
+
+&lt;p&gt;这里有一个要纠正的地方。我们之前的条目引用Axios称众议院本周可能就弹劾表决，当时只有单一来源。现在可以确认的是：表决确实发生了，但结果不是弹劾条款被否决，而是被送进委员会。区别很实在——送委员会可以说"没有结果"，却没有留下一条"共和党多数明确否决弹劾"的记录。&lt;/p&gt;
+
+&lt;p&gt;为什么这件事不会就此结束？Axios的判断是，这次缓刑多半很短：民主党在1月重新拿下众议院和参议院多数之后，几乎肯定会再把这个问题提出来。到那时，发动程序的就不再是一个孤立无援的共和党异见者，而是掌握议程、手握传票权的多数党。伊朗战争权力问题、赫格塞思处理战争的方式，都是现成的调查题目。&lt;/p&gt;
+
+&lt;p&gt;顺带一提另一条线。10日同一天，众议院共和党还在选下一任党团领导人。有一份汇总称吉姆·乔丹（Jim Jordan）以106比73当选少数党领袖，但我没能找到第二个信源，所以这里只作线索，不当结论。共和党在新国会里由谁带头，会直接决定他们对赫格塞思、对伊朗战争是继续护航还是开始切割，这一点值得盯。&lt;/p&gt;
+
+&lt;p&gt;这条线对读者的实际含义不复杂：赫格塞思短期内不会因弹劾丢掉职位，真正的压力窗口在2027年1月新国会开张之后。要看的具体节点是1月3日前后的新国会宣誓，以及民主党新任委员会主席的第一批听证和传票名单。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534"&gt;NBC News&lt;/a&gt;、&lt;a href="https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress"&gt;CNN现场更新&lt;/a&gt;、&lt;a href="https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"&gt;CNBC&lt;/a&gt;、&lt;a href="https://www.axios.com/2026/11/10/pete-hegseth-impeachment-house-republicans-massie"&gt;Axios&lt;/a&gt;、&lt;a href="https://www.pbs.org/newshour/politics/watch-live-house-expected-to-hold-preliminary-vote-on-hegseth-impeachment-as-gop-chooses-next-leader"&gt;PBS NewsHour&lt;/a&gt;、&lt;a href="https://krdo.com/news/2026/09/15/massie-pushes-surprise-impeachment-vote-of-hegseth-overshadowing-a-democrats-bid-to-impeach-trump/"&gt;CNN（9月15日，经KRDO转载）&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534"&gt;https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress"&gt;https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"&gt;https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.axios.com/2026/11/10/pete-hegseth-impeachment-house-republicans-massie"&gt;https://www.axios.com/2026/11/10/pete-hegseth-impeachment-house-republicans-massie&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d153bddf-6973-5ffa-9da6-140faeb0e8f9</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534</link>
+      <enclosure url="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261110-hegseth-rs-d9fa9e.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 艾森科特的28天：48席加19席是67，但利伯曼不要阿拉伯政党，极端正统派要兵役豁免</title>
+      <description>&lt;p&gt;艾森科特（Gadi Eisenkot）手里有28天，需要凑出61席。以色列总统赫尔佐格（Isaac Herzog）11月7日（周六）在听取各党意见之后，把组阁授权交给了这位66岁的前军队总参谋长。如果拿不下，可以延期14天，之后才轮到别的选项。按7日起算，第一个期限大约落在12月5日，延期后大约是12月19日（日期是我按法定天数推算的）。&lt;/p&gt;
+
+&lt;p&gt;先看算术。Al Jazeera 11月8日的解释稿给出了几个关键数字：艾森科特领导的Yashar党拿了21席，利库德仍是第一大党，27席。内塔尼亚胡的宗教民族主义阵营从2022年的64席掉到53席。艾森科特能依靠的核心圈子包括Yashar、戈兰（Yair Golan）的民主党、贝内特（Naftali Bennett）的Together，以及利伯曼（Avigdor Lieberman）的我们的家园党，合计48席。议会共120席，过半要61席，还差13席。&lt;/p&gt;
+
+&lt;p&gt;差的这13席从哪来，是整件事的核心。Ra'am和联合名单（Joint List）两个阿拉伯政党合计19席，已经表态支持艾森科特组阁，加上去就是67席，这也是此前"67比46"那个推荐数字的来源。问题是48席里有人不愿意接这份支持。报道称，利伯曼拒绝依靠阿拉伯政党；另一侧，联合名单据说只愿意从政府外面支持，不入阁。&lt;/p&gt;
+
+&lt;p&gt;另一条路是向右走。沙斯党和犹太教联盟（UTJ）合计13席，48加13刚好61。但极端正统派的头号诉求是兵役豁免，这和艾森科特阵营里的世俗派几乎正面相撞。UTJ在总统磋商时没有推荐内塔尼亚胡，也没有推荐任何人，说明他们在观望。以色列Hayom报道，艾森科特11月9日专门和利伯曼见面谈联盟问题，标题写的是"主要障碍仍在"。该文我没能打开（对方返回403），所以只引标题。&lt;/p&gt;
+
+&lt;p&gt;内塔尼亚胡这边的打法很清楚。他呼吁成立"国家团结政府"，同时攻击艾森科特是在和"想消灭以色列国的人"组阁。艾森科特的回应有点出人意料：他自己表示，对内塔尼亚胡加入联合政府持开放态度。他在X上写的是："现在是组建国家紧急政府的时候，我会尽一切努力配得上这份信任。"&lt;/p&gt;
+
+&lt;p&gt;如果48席加阿拉伯政党的方案走不通，Al Jazeera列出的备选有三个：一是由阿拉伯政党从外部撑腰的少数政府；二是和利库德联合的团结政府；三是所有尝试都失败，进入约100天的程序，之后可能重新大选。&lt;/p&gt;
+
+&lt;p&gt;这件事为什么值得读者关注？伦敦玛丽女王大学的内夫·戈登（Neve Gordon）的判断是，如果艾森科特真能组成政府，他大概率能叫停司法改革。换句话说，这不只是换一个总理，而是以色列三年来最大的内政争议能不能刹车。反过来，如果阿拉伯政党的支持成了联盟内部的毒丸，内塔尼亚胡"看守总理"的身份就会继续拖下去。&lt;/p&gt;
+
+&lt;p&gt;接下来该看三件事：利伯曼是否松口接受外部支持；沙斯和UTJ会不会为兵役豁免开价；艾森科特会不会在12月5日之前申请延期。哪一件先有动静，就是风向。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition"&gt;Al Jazeera（11月8日）&lt;/a&gt;、&lt;a href="https://www.israelhayom.com/2026/11/09/eisenkot-liberman-meet-for-coalition-talks-as-major-hurdles-remain/"&gt;Israel Hayom（11月9日，仅标题）&lt;/a&gt;、&lt;a href="https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"&gt;Al Jazeera（11月3日）&lt;/a&gt;。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae72d243514-1793535268.jpg" alt="耶路撒冷总理官邸附近的示威者" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;10月31日，耶路撒冷总理官邸附近的示威。图：AFP/Al Jazeera&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition"&gt;https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"&gt;https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e625858c-3ab4-5bff-a75f-2f494229fed8</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae72d243514-1793535268.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 阿布扎比俄乌会谈进入第二天：威特科夫与库什纳坐庄，议程是安全保障，结果暂无报道</title>
+      <description>&lt;p&gt;美国中东特使威特科夫（Steve Witkoff）11月2日宣布，美国将在11月10日至11日把乌克兰和俄罗斯代表团请到阿布扎比，谈"战后安全协议、降级、人道措施以及结束战争"。今天是第二天。截至我检索时，还没有找到任何一家媒体报道会谈的结果，所以这篇只能讲清楚桌上摆着什么，不能假装知道谁让了步。&lt;/p&gt;
+
+&lt;p&gt;路透社11月3日的报道给了几个确定的事实。美方出席的是威特科夫和库什纳（Jared Kushner），这是一位美国高级官员对路透社透露的。普京是在圣彼得堡和威特科夫见面之后，同意再开一轮三方会谈，那次见面发生在宣布前大约两周。同一周，美国谈判代表还要在布鲁塞尔和法国、德国、英国、欧盟、北约开工作层会议，议题是乌克兰的安全保障。路透社的总体判断很直接：乌俄双方在和平条件上"仍然相距甚远"。&lt;/p&gt;
+
+&lt;p&gt;为什么说这轮的看点在"安全协议"而不是"停火线"？因为前几轮已经把这个问题摆出来了。今年1月在阿布扎比的首次三方会谈之后，泽连斯基（Volodymyr Zelensky）说美方的安全保障文件"100%准备好了"，只等签署的时间和地点。真正卡住的是另一头：俄罗斯要求乌克兰军队撤出顿涅茨克地区约五分之一的区域，以及是否允许国际维和部队进驻。换句话说，美乌之间的文件是一回事，俄罗斯愿不愿意接受它的后果是另一回事。&lt;/p&gt;
+
+&lt;p&gt;也要看会谈之外的战场。我们此前记录过，俄国防部11月9日声称打击了三艘运往乌克兰的货船和两座变电站，这个说法由俄方发布，我没有找到独立证实。会谈开始前一天，一边谈安全保障，一边打击能源和运输节点，这种节奏在这场战争里并不新鲜：谈判桌上的筹码，往往要靠战场上的动作来加码。&lt;/p&gt;
+
+&lt;p&gt;还有一条值得标注来源的信息。印度媒体Dainik Jagran的11月11日汇总称，泽连斯基在会谈前和印度总理莫迪通了电话，并称会谈可能涉及恢复黑海粮食出口通道，另有一个标题提到"G7寻求团结"。这些说法我只在这一个来源看到，细节没有展开，所以只作参考。&lt;/p&gt;
+
+&lt;p&gt;顺带记一笔时间线：路透社说上一次美国斡旋的会谈是今年2月，之后美国和以色列就对伊朗开战，俄乌这条线随之被挤到了后面。这次重启，本身就是一个信号：华盛顿在伊朗问题上有了一点喘息，有精力回到乌克兰。反过来看，如果伊朗局势恶化，这条线很容易再次被搁置。&lt;/p&gt;
+
+&lt;p&gt;接下来看什么？一，会谈结束后有没有美方或乌方的书面通报，尤其是有没有出现下一轮的时间和地点；二，布鲁塞尔工作层会议是否给出欧洲对安全保障的具体出资和部署方案；三，莫斯科对"国际维和部队"的表态有没有变化。如果11月12日之前三方都没有任何公开通报，那本身就说明没什么进展。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff"&gt;Khaleej Times转载路透社（11月3日）&lt;/a&gt;、&lt;a href="https://novayagazeta.eu/en/articles/2026/01/26/us-security-guarantees-for-ukraine-100-ready-after-abu-dhabi-talks-zelensky-says-en-news"&gt;Novaya Gazeta Europe（1月26日）&lt;/a&gt;、&lt;a href="https://www.aljazeera.com/news/2026/1/31/us-envoy-witkoff-says-ukraine-talks-with-russia-productive"&gt;Al Jazeera（1月31日）&lt;/a&gt;、&lt;a href="https://english.dainikjagranmpcg.com/top-stories/november-11-news-india-and-world-latest-headlines-2026/article-43649"&gt;Dainik Jagran（11月11日，单一来源）&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff"&gt;https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://novayagazeta.eu/en/articles/2026/01/26/us-security-guarantees-for-ukraine-100-ready-after-abu-dhabi-talks-zelensky-says-en-news"&gt;https://novayagazeta.eu/en/articles/2026/01/26/us-security-guarantees-for-ukraine-100-ready-after-abu-dhabi-talks-zelensky-says-en-news&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/1/31/us-envoy-witkoff-says-ukraine-talks-with-russia-productive"&gt;https://www.aljazeera.com/news/2026/1/31/us-envoy-witkoff-says-ukraine-talks-with-russia-productive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e6b83f23-0ef0-5288-bcf9-d0e7dfd62b6c</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff</link>
+      <enclosure url="https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-29/44gffbdi/2026newsmlRC2OCOA47EJX1154500405.jpeg?width=800&amp;height=533&amp;q=60&amp;format=auto&amp;mode=crop&amp;rect=0,1016,2334,1556" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 COP31领导人环节今天开场：印度、中国不派最高领导人，“2035年35%”倡议和化石燃料路线图都悬着</title>
+      <description>&lt;p&gt;COP31的领导人环节今天（11月11日）在安塔利亚开幕，持续到12日。联合国气候大会11月9日至20日举行，土耳其管"行动议程"，澳大利亚管正式谈判。Climate Home News的会前简报给出的信号不太乐观：印度和中国都不派最高领导人，而美国本来就缺席。&lt;/p&gt;
+
+&lt;p&gt;先说谁来了。已知的发言名单上有巴西总统卢拉、英国的安迪·伯纳姆（Andy Burnham）和西班牙首相桑切斯（Pedro Sánchez）。印度和中国派的不是国家元首或政府首脑。对一个以"把承诺变成行动"为口号的大会来说，全球排放第一和第三的国家缺了最高层，分量会打折扣。&lt;/p&gt;
+
+&lt;p&gt;东道国推的是一个自愿性倡议，叫"2035年35%"（35 by 35）：到2035年，电力占全球终端能源消费的比重达到35%。按计划它会在11月10日的能源日（Energy Day）发布。Climate Home的判断是澳大利亚已经签了，印度"很可能说不"，中国"也许"。Climate Action Tracker给了一个参照：按现行政策，2035年这个比例只能到28%，差7个百分点。我没能确认这个倡议是否已经正式发布，以及有多少国家签署，这一点要等官方通报。&lt;/p&gt;
+
+&lt;p&gt;正式谈判这头，最大的争议还是化石燃料。巴西在COP30上推动的化石燃料路线图，11月3日发布了182页的文本，给出自愿性的三阶段时间表，目标时间点到2033年。但这份路线图不在COP31的正式议程上，各方只能在"封面决定"（cover decision）里争取一句话。澳大利亚气候与能源部长鲍恩（Chris Bowen）说要推动一个由主席国发起、缔约方主导的决定，争取拿出一个实用的成果；土耳其则表态，在安塔利亚发生什么，土耳其有最终决定权。两套分工叠在一起，谁来拍板会是个问题。&lt;/p&gt;
+
+&lt;p&gt;发展中国家这边的声音很具体。非洲集团主席阿莫阿（Antwi-Boasiako Amoah）说，关于"三倍"可再生能源的目标，"没人确定基线是什么，路径也不清楚"。小岛屿国家联盟（AOSIS）主席赛德（Ilana Seid）则说，"减轻海洋压力最好的办法，是转向摆脱化石燃料。"前一个质疑的是目标怎么算，后一个坚持的是目标要不要有牙齿，两者在同一张桌子上很难一次谈完。&lt;/p&gt;
+
+&lt;p&gt;科学评估这头也不顺。Climate Home称，政府间气候变化专门委员会（IPCC）第六次未能就下一轮评估周期的时间表达成一致。这听上去很技术，实际后果是：下一份评估报告什么时候出，可能牵动2028年全球盘点的节奏。&lt;/p&gt;
+
+&lt;p&gt;所以对这场大会，一个现实的预期是：领导人环节会有若干倡议和表态，真正的分歧要到11月20日前后的封面决定里才见分晓。具体盯两个点：封面决定的草案里有没有出现"化石燃料转型"的措辞；"35 by 35"最后的签署国名单有多长。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/"&gt;Climate Home News（11月5日，11月6日更新）&lt;/a&gt;、&lt;a href="https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis"&gt;Khaleej Times（开幕报道）&lt;/a&gt;、&lt;a href="https://www.dailysabah.com/turkiye/cop31-opens-in-turkiye-with-push-to-turn-climate-pledges-into-action/news/amp"&gt;Daily Sabah（开幕报道）&lt;/a&gt;。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.climatechangenews.com/wp-content/files/2026/11/55632294802_42ccee88fb_c-1.jpg" alt="COP31安塔利亚气候大会" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：Climate Home News&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/"&gt;https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis"&gt;https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9a68c46b-9a0e-5029-ac11-c9f6c9cc2f58</guid>
+      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/</link>
+      <enclosure url="https://www.climatechangenews.com/wp-content/files/2026/11/55632294802_42ccee88fb_c-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 The EU's Digital Fairness Act Blacklists Ten Dark Patterns: A Designer's Reading of the Draft / 欧盟《数字公平法》把十种暗黑模式列入黑名单：设计师视角读草案</title>
+      <description>&lt;p&gt;The European Commission was due to present its Digital Fairness Act (DFA) today, November 11, and the independent tracker digitalfairnessact.com already lists the proposal as published. The specifics below come from the leaked draft (COM(2026) 1100) that &lt;a href="https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows"&gt;Euronews&lt;/a&gt;, &lt;a href="https://neurowired.substack.com/p/the-ten-dark-patterns-in-the-leaked"&gt;Neurowired&lt;/a&gt; and the German &lt;a href="https://shopbetreiber-blog.de/digital-fairness-act-entwurf-der-europaeischen-kommission-geleakt"&gt;Shopbetreiber-Blog&lt;/a&gt; reported on November 9-10. Article numbers and exact wording are provisional until the official text reaches EUR-Lex. The overall design is already clear, though. If you design checkouts, subscription screens or engagement loops, the draft works less like a legal text and more like a lint rule set for your UI.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.euronews.com/articles/stories/09/98/57/87/1536x864_cmsv2_fcb95d20-5f38-5a6e-917e-be39a88aecb9-9985787.jpg" alt="European Commission building flags in Brussels" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The Commission was due to present the Digital Fairness Act on November 11, 2026. (Euronews)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;From "unfair if proven" to "unfair, full stop"&lt;/h3&gt;
+&lt;p&gt;The DFA would replace the 2005 Unfair Commercial Practices Directive with a regulation that applies directly in all 27 member states. It would take effect 12 months after entry into force, with fines of up to 6% of global turnover. Article 10(1) bans designing or operating interfaces "in a manner that is likely to deceive or manipulate consumers." The part that changes the most for designers is Article 10(2) and Annex I, Part III, points 53-62. These are ten practices deemed unfair in all circumstances. A regulator would not have to prove that your pattern hurt anyone, only that you used it. The Commission could also add to the list by delegated act, without going back to Parliament.&lt;/p&gt;
+
+&lt;p&gt;Read as UI rules, the ten points are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;53: False or unqualified availability or popularity claims. "Only 3 left" and "bought 40 times today" need real, qualified numbers.&lt;/li&gt;
+&lt;li&gt;54: Scarcity or urgency messages repeated throughout the ordering process, even if each one is accurate on its own.&lt;/li&gt;
+&lt;li&gt;55: Defaults the consumer has to reject, such as pre-ticked insurance, warranties or inflated quantities.&lt;/li&gt;
+&lt;li&gt;56: Framing the decline option as the wrong choice. This covers confirmshaming copy like "No thanks, I prefer to pay full price."&lt;/li&gt;
+&lt;li&gt;57: Creating the false impression that there is no other option, for example a dominant "Continue" that makes "Skip" look absent.&lt;/li&gt;
+&lt;li&gt;58: Persistently asking users to make or change a choice they already made, as in nag modals after a "no."&lt;/li&gt;
+&lt;li&gt;59: Misleading or ambiguous wording in choices: double negatives and reversed button logic.&lt;/li&gt;
+&lt;li&gt;60: Showing price or auto-renewal terms with less prominence than other material information.&lt;/li&gt;
+&lt;li&gt;61: Fake notifications suggesting that another consumer, the trader or a third party has contacted the user.&lt;/li&gt;
+&lt;li&gt;62: Making the steps to refuse, withdraw or change a choice "disproportionately more numerous" than the steps to accept.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Beyond the blacklist&lt;/h3&gt;
+&lt;p&gt;The subscription chapter is just as concrete. Free trials (Art. 20) cannot convert to paid without a reminder and explicit consent. Renewal reminders (Art. 21-22) must arrive between one month and 14 days ahead for contracts of six months or longer, and at least a week ahead for shorter ones. If the reminder is missing, the customer can cancel at any time for free. Article 23 requires an online termination function labelled "terminate the contract here" (or an unambiguous equivalent), followed by a "confirm the contract termination" step and an acknowledgment within a week. An email address or contact form alone does not qualify. Article 25 gives users the right to reach a human whenever online customer service exists, so a chatbot can no longer be the only door.&lt;/p&gt;
+
+&lt;p&gt;Article 17 covers addictive design for all users, not only minors. It gives a right to switch off autoplay, notifications unrelated to the user's own activity, streak-style rewards, and chatbot features that simulate a relationship to keep people engaged. Articles 26-27 add the first EU consumer-law rules for AI shopping agents: users choose which purchases need their approval, and sponsored suggestions must be disclosed. Article 29 bars using design to get around any of these obligations.&lt;/p&gt;
+
+&lt;h3&gt;How it fits the patchwork&lt;/h3&gt;
+&lt;p&gt;This is the EU counterpart to the NYC click-to-cancel rule this feed has followed since it took effect October 1. NYC demands channel parity: if you can sign up online, you can cancel online. The DFA goes further and specifies the button label. Germany's &lt;em&gt;Kündigungsbutton&lt;/em&gt;, in force since July 2022, is the clear template. The DSA's Article 25 already bans manipulative interfaces on online platforms. But it does not reach small traders, search engines or sellers that aren't intermediaries, and the DFA closes that gap. The Commission's 2024 Fitness Check found at least one dark pattern on 97% of the sites and apps it examined. The leaked impact assessment estimates €88.4 billion in consumer losses avoided over 2025-2035, against €678 million a year in recurring business costs.&lt;/p&gt;
+
+&lt;p&gt;None of this is law yet. Parliament and Council still have to agree. Germany's October 14 non-paper argued against converting the directive into a regulation at all, and CMS does not expect the act to apply before the end of 2028. The timeline is long, but the list is unlikely to shrink much, because nearly every item already matches existing national enforcement practice.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Practical takeaway:&lt;/em&gt; treat points 53-62 as an audit checklist now. Diff your sign-up and cancel flows by step count. Grep your copy for decline-shaming. Check whether urgency badges are computed from inventory or simply hard-coded. The harder open question is Article 17. What does a legally required "turn off streaks" toggle do to products like Duolingo whose retention model is the streak?&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;欧盟委员会原定今天（11 月 11 日）公布《数字公平法》（Digital Fairness Act, DFA）提案，独立追踪站 digitalfairnessact.com 已标注为“已发布”。下文的细节来自 Euronews、Neurowired 和德国 Shopbetreiber-Blog 在 11 月 9 日至 10 日披露的泄露草案（COM(2026) 1100），条款编号和措辞要等 EUR-Lex 上的正式文本出来才算数。不过大框架已经很清楚：做结账流程、订阅页面或留存机制的人读它，会觉得更像一套 UI 的 lint 规则，而不是法条。&lt;/p&gt;
+
+&lt;h3&gt;从“证明有害才违法”到“用了就违法”&lt;/h3&gt;
+&lt;p&gt;DFA 要用一部条例取代 2005 年的《不公平商业行为指令》（Unfair Commercial Practices Directive），在 27 个成员国直接适用，生效 12 个月后开始执行，罚款最高可达全球营业额的 6%。第 10(1) 条禁止以“可能欺骗或操纵消费者的方式”设计或运营界面。真正改变设计工作的，是第 10(2) 条和附件一第三部分第 53 至 62 点：十种在任何情况下都属不公平的做法。监管机构不必证明你的设计伤害了谁，只要证明你用了。委员会还可以通过授权法案（delegated act）扩充清单，不用回到议会走一遍。&lt;/p&gt;
+
+&lt;p&gt;翻译成界面语言，这十条是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;53：虚假或不加限定的库存、热度声明。“仅剩 3 件”“今日已售 40 件”必须有真实、可核对的数字。&lt;/li&gt;
+&lt;li&gt;54：在整个下单过程中反复出现稀缺或紧迫提示，哪怕每一条单独看都属实。&lt;/li&gt;
+&lt;li&gt;55：需要用户主动取消的默认选项，比如预先勾选的保险、延保或被调高的数量。&lt;/li&gt;
+&lt;li&gt;56：把拒绝选项包装成错误选择，也就是“确认羞辱”（confirmshaming），例如“不了，我宁愿付全价”。&lt;/li&gt;
+&lt;li&gt;57：制造“别无选择”的假象，比如一个巨大的“继续”按钮让“跳过”几乎看不见。&lt;/li&gt;
+&lt;li&gt;58：用户已经做了选择，还反复要求重选，例如拒绝后不停弹窗。&lt;/li&gt;
+&lt;li&gt;59：选项文案含糊或误导，包括双重否定和反转的按钮逻辑。&lt;/li&gt;
+&lt;li&gt;60：价格或自动续费条款的醒目程度低于其他重要信息。&lt;/li&gt;
+&lt;li&gt;61：伪造通知，暗示有其他用户、商家或第三方联系过你。&lt;/li&gt;
+&lt;li&gt;62：拒绝、撤回或更改选择所需的步骤“不成比例地多于”接受所需的步骤。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;黑名单之外&lt;/h3&gt;
+&lt;p&gt;订阅部分同样具体。免费试用（第 20 条）未经提醒和明确同意，不得转为付费。续费提醒（第 21、22 条）方面，六个月及以上的合同要在续期前一个月到 14 天之间发出，更短的合同至少提前一周。没发提醒，用户可以随时免费解约。第 23 条要求提供在线解约功能，按钮写明“terminate the contract here”（或含义明确的等价表述），之后是“confirm the contract termination”确认步骤，商家须在一周内回执。只留一个邮箱或联系表单不算数。第 25 条规定，只要有在线客服，用户就有权要求转人工，聊天机器人不能是唯一入口。&lt;/p&gt;
+
+&lt;p&gt;第 17 条针对成瘾式设计（addictive design），而且覆盖所有用户，不只是未成年人：用户有权关闭自动播放、关闭与本人活动无关的通知、关闭连续打卡（streak）奖励，以及关闭那些模拟亲密关系来拉长使用时间的聊天机器人功能。第 26、27 条首次在欧盟消费者法里给 AI 购物代理立规矩：哪些购买需要本人批准由用户决定，赞助推荐必须披露。第 29 条则堵住后路，不许用设计手段绕开上述任何义务。&lt;/p&gt;
+
+&lt;h3&gt;放进现有的监管拼图&lt;/h3&gt;
+&lt;p&gt;这是本 feed 自 10 月 1 日起一直跟踪的纽约市 click-to-cancel 规则的欧盟版本。纽约要求渠道对等（channel parity），能在线注册就得能在线取消；DFA 更进一步，连按钮文字都规定好了，德国 2022 年 7 月起实施的“解约按钮”（Kündigungsbutton）显然是蓝本。《数字服务法》（DSA）第 25 条虽已禁止在线平台使用操纵性界面，却管不到小商家、搜索引擎和非中介卖家，DFA 正好补上。委员会 2024 年的适应性检查（Fitness Check）发现，97% 的受检网站和应用至少用了一种暗黑模式。泄露的影响评估估算，2025 至 2035 年可为消费者挽回 884 亿欧元损失，企业每年的持续合规成本约 6.78 亿欧元。&lt;/p&gt;
+
+&lt;p&gt;目前这还只是提案，需要议会和理事会达成一致。德国在 10 月 14 日的非正式文件（non-paper）里就反对把指令改成条例，律所 CMS 预计最早也要 2028 年底才会适用。路还长，但清单大概率不会缩水，因为几乎每一条都和各国已有的执法实践吻合。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;可以马上做的事：&lt;/em&gt;把第 53 至 62 点当成审计清单。对比注册和取消流程各要几步；搜一遍文案里有没有羞辱式拒绝；查查紧迫提示是真从库存算出来的，还是写死的。更难回答的是第 17 条：法定的“关闭打卡”开关，会让 Duolingo 这类靠连续打卡留人的产品变成什么样？&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows"&gt;https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://neurowired.substack.com/p/the-ten-dark-patterns-in-the-leaked"&gt;https://neurowired.substack.com/p/the-ten-dark-patterns-in-the-leaked&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://shopbetreiber-blog.de/digital-fairness-act-entwurf-der-europaeischen-kommission-geleakt"&gt;https://shopbetreiber-blog.de/digital-fairness-act-entwurf-der-europaeischen-kommission-geleakt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://digitalfairnessact.com/"&gt;https://digitalfairnessact.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techtimes.com/articles/330286/20261109/eu-dark-patterns-law-listed-wednesday-digital-fairness-act-targets-firms-platform-rules-miss.htm"&gt;https://www.techtimes.com/articles/330286/20261109/eu-dark-patterns-law-listed-wednesday-digital-fairness-act-targets-firms-platform-rules-miss.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ceffbbb1-40f1-5b24-aa6b-44776cf6ae67</guid>
+      <pubDate>Wed, 11 Nov 2026 12:13:45 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows</link>
+      <enclosure url="https://images.euronews.com/articles/stories/09/98/57/87/1536x864_cmsv2_fcb95d20-5f38-5a6e-917e-be39a88aecb9-9985787.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Adobe MAX 2026 Opens Photoshop and Illustrator Files to Outside Agents and Joins the Prompt-to-Website Race / Adobe MAX 2026：把 Photoshop 和 Illustrator 文件开放给外部智能体，并加入提示词生成网站之争</title>
+      <description>&lt;p&gt;Adobe opened MAX 2026 in Miami Beach on November 10 with a keynote about agents, which wasn't a surprise. One announcement does matter for this feed's ongoing tracking of the agent-era design tool fight. Adobe previewed local MCP integrations that let third-party agents, including ChatGPT and Claude, work directly inside native Photoshop, Illustrator, Premiere and After Effects project files, with layers, sequences and compositions left editable. Adobe also showed Firefly Builder, a prompt-to-website tool that puts it in the same race as Figma's code layers. This entry skips the photo and video features (Relight, Color Mode and so on) and covers only what changes how product designers and their agents work.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://substack-post-media.s3.amazonaws.com/public/images/040edc74-aa92-490f-ad71-0d82f4c6901a_5712x4284.jpeg" alt="ChatGPT generating DJ poster variations inside Photoshop on the Adobe MAX stage" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Keynote demo: ChatGPT driving Photoshop through Creative Cloud MCP to produce poster variations as layered files. (Photo: TechTiff)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Native files as the agent surface&lt;/h3&gt;
+&lt;p&gt;According to &lt;a href="https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity"&gt;Adobe's release&lt;/a&gt;, the MCP integrations run locally against your project files. The on-stage demos showed ChatGPT generating DJ poster variations in Photoshop and Claude preparing a tiger illustration for screen printing in Illustrator. Adobe is also shipping connectors in the other direction, bringing its tools into ChatGPT, Claude, Gemini, Microsoft Copilot and Slack. The availability is modest. &lt;a href="https://www.digitaltrends.com/computing/adobe-max-2026-firefly-creative-cloud-ai/"&gt;Digital Trends&lt;/a&gt; reports the MCP integrations are a preview, with a private beta planned for early 2027.&lt;/p&gt;
+
+&lt;p&gt;The strategic contrast is the point. Three bets are now visible on where the source of truth lives when agents do part of the design work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Figma&lt;/strong&gt; pulls agents onto its own canvas. Code layers went to open beta on October 15, and MCP write-back grew 4x quarter over quarter. Since November 4, generation is metered in AI credits. The canvas is the environment, and Figma bills for activity inside it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt; makes the canvas itself HTML/CSS, so agents read and write the same material that ships.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adobe&lt;/strong&gt; exposes its proprietary formats (PSD, AI, Premiere sequences) to whichever agent you already use, running locally. The bet is that the file format is the moat, and the agent can be anyone's.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Digital Trends notes Adobe is "a little late to the AI party," since Canva and DaVinci Resolve already have MCP integrations. But Adobe's file formats are where a huge amount of production work sits. An agent that can edit a layered PSD without flattening it removes the reason many teams keep agents away from final assets.&lt;/p&gt;
+
+&lt;h3&gt;Firefly Builder and the prompt-to-website race&lt;/h3&gt;
+&lt;p&gt;Firefly Builder (private beta, waitlist) takes designs and brand guidelines and produces a responsive website with real code. You then select an element on the page and describe the change. &lt;a href="https://techtiff.substack.com/p/adobe-max-2026"&gt;TechTiff's keynote notes&lt;/a&gt; describe the demo going from a design reference to a multi-page hotel site, "OVELA," in minutes. Adobe's release frames Builder more broadly as turning natural-language prompts into interactive prototypes of websites, presentations or apps.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://substack-post-media.s3.amazonaws.com/public/images/37591c00-54eb-42a1-b226-94e92aae8410_4032x3024.jpeg" alt="Firefly Builder editing a multi-page hotel website called OVELA" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Firefly Builder editing the demo "OVELA" hotel site: select an element, describe the change. (Photo: TechTiff)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Builder overlaps with Figma Make and code layers, Google Stitch, Lovable and Paper. Adobe's handicap is that it has no live UI design system story. XD has been in maintenance mode since 2023, and nothing announced here connects Builder to a team's production component library. That is the same gap Figma is trying to close with code sources, which are still in closed beta. Adobe Brand Intelligence, coming to Photoshop, Illustrator and InDesign, plus Intelligent Reflow in GenStudio, covers brand rules and layout adaptation, but not components.&lt;/p&gt;
+
+&lt;h3&gt;Agent UX patterns worth copying&lt;/h3&gt;
+&lt;p&gt;The Firefly AI Assistant (beta), powered by the Adobe Creative Agent, adds two interaction patterns this feed has been tracking under agentic UX standardization. &lt;em&gt;Plan Mode&lt;/em&gt; lets users review and approve the agent's approach before it acts. That is the "intent preview" pattern in its plainest form, and it's notable to see it in a mass-market creative tool, not just in coding agents. The &lt;em&gt;Model Selector&lt;/em&gt; exposes which model handles a task, from a roster that now includes Google, OpenAI, ByteDance, Kling, Topaz Labs and ElevenLabs alongside Adobe's own. Adobe also previewed &lt;em&gt;always-on agents&lt;/em&gt; that run recurring jobs (organizing assets, quality checks, preparing channel variants) in the background, which raises the familiar question of how background agents report what they did.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://substack-post-media.s3.amazonaws.com/public/images/1a0d3dcb-ba3e-45be-bc58-a0c32cdd42a3_5712x4284.jpeg" alt="Adobe MAX keynote slide listing Claude, Gemini, ChatGPT, Slack and Microsoft Copilot connectors" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Adobe's connector slide: its tools inside Claude, Gemini, ChatGPT, Slack and Copilot. (Photo: TechTiff)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Pricing is the missing piece. Neither the release nor the coverage gives credit costs for agent actions or MCP usage. After Figma's switch to metered credits on November 4, that is the number design leads will want before planning around any of this.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; if your team's real assets live in PSD and AI files, join the early-2027 MCP beta and test whether agent edits survive a round trip through your production pipeline. For UI work, Builder is a prototype generator until Adobe shows how it connects to a component library.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Adobe MAX 2026 于 11 月 10 日在迈阿密海滩开幕，主题演讲通篇讲智能体（agent），这不出所料。但有一项发布直接关系到本 feed 一直跟踪的“智能体时代设计工具之争”：Adobe 预览了本地 MCP 集成，让 ChatGPT、Claude 等第三方智能体直接操作 Photoshop、Illustrator、Premiere 和 After Effects 的原生工程文件，图层、序列和合成都保持可编辑。另外还有 Firefly Builder，一个从提示词生成网站的工具，正面对上 Figma 的 code layers。下面略过 Relight、Color Mode 这类照片和视频功能，只谈会改变产品设计师及其智能体工作方式的部分。&lt;/p&gt;
+
+&lt;h3&gt;原生文件成为智能体的操作面&lt;/h3&gt;
+&lt;p&gt;按 Adobe 新闻稿的说法，这些 MCP 集成在本地针对项目文件运行。台上演示里，ChatGPT 在 Photoshop 里生成多版 DJ 海报，Claude 在 Illustrator 里把一张老虎插画处理成丝网印刷稿。反方向也有连接器：Adobe 的工具会进入 ChatGPT、Claude、Gemini、Microsoft Copilot 和 Slack。可用性还很有限。Digital Trends 报道称，MCP 集成目前只是预览，私测要到 2027 年初。&lt;/p&gt;
+
+&lt;p&gt;关键在于路线对比。当智能体承担一部分设计工作时，“真相来源”放在哪里？现在能看到三种押注：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Figma&lt;/strong&gt; 把智能体拉到自己的画布上。code layers 于 10 月 15 日开放公测，MCP 回写（write-back）环比增长 4 倍，11 月 4 日起生成按 AI 积分计费。画布就是运行环境，用多少算多少。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt; 让画布本身就是 HTML/CSS，智能体读写的就是最终上线的材料。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adobe&lt;/strong&gt; 把 PSD、AI、Premiere 序列这些私有格式开放给你已经在用的任何智能体，而且在本地跑。它押的是：格式是护城河，智能体是谁的都行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Digital Trends 说 Adobe“来 AI 派对有点晚了”，Canva 和 DaVinci Resolve 早已接入 MCP。可是大量生产工作就躺在 Adobe 的文件格式里。一个能编辑分层 PSD 而不把它拍平的智能体，恰好消除了很多团队不让智能体碰终稿的理由。&lt;/p&gt;
+
+&lt;h3&gt;Firefly Builder 与“提示词生成网站”赛道&lt;/h3&gt;
+&lt;p&gt;Firefly Builder（私测，需排队）读取设计稿和品牌规范，输出带真实代码的响应式网站；之后在页面上点选元素、用自然语言描述修改即可。据 TechTiff 的现场笔记，演示几分钟内就从一张设计参考做出了多页面的酒店网站“OVELA”。Adobe 新闻稿的定位更宽：把自然语言变成网站、演示文稿或 App 的交互原型。&lt;/p&gt;
+
+&lt;p&gt;它的对手是 Figma Make 与 code layers、Google Stitch、Lovable 和 Paper。Adobe 的短板很明显：没有在用的 UI 设计系统方案。XD 自 2023 年起就处于维护模式，这次的发布也没有任何东西把 Builder 接到团队的生产组件库上。Figma 想靠 code sources 补的正是这个缺口，而它还在封闭测试。登陆 Photoshop、Illustrator、InDesign 的 Adobe Brand Intelligence，加上 GenStudio 里的智能重排（Intelligent Reflow），管得了品牌规则和版式适配，管不了组件。&lt;/p&gt;
+
+&lt;h3&gt;值得借鉴的智能体交互模式&lt;/h3&gt;
+&lt;p&gt;由 Adobe Creative Agent 驱动的 Firefly AI Assistant（公测）带来了两个本 feed 在“智能体 UX 模式标准化”线索下关注的模式。&lt;em&gt;Plan Mode&lt;/em&gt; 让用户先审阅、批准智能体的方案再执行，这是“意图预览”（intent preview）最直白的形态。这个模式出现在大众创意工具里而不只是编程智能体里，本身就说明了问题。&lt;em&gt;Model Selector&lt;/em&gt; 把“哪个模型在干活”摆到台面上，可选的除了 Adobe 自家模型，还有 Google、OpenAI、ByteDance、Kling、Topaz Labs 和 ElevenLabs。Adobe 还预览了常驻后台的 always-on agents，定期整理素材、做质检、准备各渠道版本。老问题又来了：后台智能体做完事，怎么向人汇报？&lt;/p&gt;
+
+&lt;p&gt;缺的一块是价格。新闻稿和各家报道都没给出智能体操作或 MCP 调用的积分成本。Figma 11 月 4 日刚转向按积分计费，设计负责人在做任何规划之前，最想知道的就是这个数。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;结论：&lt;/em&gt;如果团队的核心资产在 PSD 和 AI 文件里，值得报名 2027 年初的 MCP 私测，验证智能体的修改能不能完整走完生产管线。至于 UI 工作，在 Adobe 讲清楚 Builder 怎么接组件库之前，它只是个原型生成器。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity"&gt;https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.digitaltrends.com/computing/adobe-max-2026-firefly-creative-cloud-ai/"&gt;https://www.digitaltrends.com/computing/adobe-max-2026-firefly-creative-cloud-ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techtiff.substack.com/p/adobe-max-2026"&gt;https://techtiff.substack.com/p/adobe-max-2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">673b4e38-bb4e-559f-bab8-1de575a70146</guid>
+      <pubDate>Wed, 11 Nov 2026 12:14:33 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity</link>
+      <enclosure url="https://news.adobe.com/news/downloads/images/2026/11/media_194f62215cc674a3099d1a6f6b08199d16183a1ba.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 日本杉树的年轮里，记着一场比卡林顿猛烈得多的太阳风暴：三宅事件，以及它如何把维京人登陆美洲钉死在公元 1021 年</title>
+      <description>&lt;p&gt;1859 年的卡林顿事件把电报线烧出了火花，前天我们讲过它。可要是把时间尺度拉到几千年，卡林顿只能算小打小闹：日本的一棵老杉树里，记着一场强得多的宇宙辐射冲击，发生在公元 774 年到 775 年之间。当时没人发现，一千两百多年后才被一个博士生从年轮里读出来。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Time_profile_of_the_774_AD_spike_in_C-14..jpg" alt="公元 774 年树轮碳-14 含量陡增的时间曲线" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;774 年前后树轮中碳-14 的变化：平滑曲线上突然出现一级台阶（图：Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;年轮怎么会记住太空&lt;/h3&gt;
+&lt;p&gt;原理不复杂。高能宇宙射线打进大气，撞上氮原子，生成放射性的碳-14；碳-14 很快变成二氧化碳，被树吸进去，长进当年那一圈年轮。所以每一圈年轮都是一份「那一年大气里有多少碳-14」的存档。平常年份这个数值起伏很小，曲线平平的。&lt;/p&gt;
+&lt;p&gt;2012 年，名古屋大学的博士生三宅芙沙（Fusa Miyake）和合作者在 &lt;em&gt;Nature&lt;/em&gt; 发表论文：日本屋久杉的年轮里，774 到 775 年的碳-14 突然跳了一大截，在大约两年内上涨超过 1%。随后德国橡树、北美树木里都找到了同一个台阶，说明这不是哪棵树的毛病，而是全球大气层整体被「打了一针」。2013 年，她的团队又在 993 到 994 年找到第二个类似的尖峰。这类现象从此以发现者命名，叫作&lt;strong&gt;三宅事件（Miyake Event）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h3&gt;谁干的？&lt;/h3&gt;
+&lt;p&gt;目前证据最强的解释是极端太阳粒子事件，也就是比有观测记录以来任何一次太阳风暴都猛烈得多的爆发，可能和天文学家在其他类太阳恒星上看到的「超级耀斑」是同一类东西。不过也有人怀疑，个别事件的源头在太阳系外，比如伽马射线暴。原因至今没有定论。&lt;/p&gt;
+&lt;p&gt;一个有意思的历史插曲：2012 年三宅论文刚发表，就有读者在 &lt;em&gt;Nature&lt;/em&gt; 写信，指出《盎格鲁-撒克逊编年史》774 年条目写着「日落后天空出现红色十字架」，猜测是被尘埃遮住的超新星。很快就有人反驳，说这更像极光；还有学者指出这条记载其实和奥特福德之战挂钩，年份可能是 776 年。所以这个「红十字」只能当作好玩的旁注，不能当证据。&lt;/p&gt;
+
+&lt;h3&gt;从宇宙尖峰到维京人的斧头&lt;/h3&gt;
+&lt;p&gt;这些尖峰真正改变的是考古学。放射性碳测年通常有几十年的误差，可如果一块木头里恰好包含 993 年那一圈「标记年轮」，你只要从那一圈往外数到树皮，就能得到精确到年的砍伐时间。&lt;/p&gt;
+&lt;p&gt;2021 年 10 月 20 日，格罗宁根大学的 Margot Kuitems 和 Michael Dee 在 &lt;em&gt;Nature&lt;/em&gt; 发表了这么做的结果。对象是加拿大纽芬兰的 L'Anse aux Meadows——北美唯一确认的维京遗址。她们挑了四块冷杉和杜松木料，都是被金属斧砍过、还带着树皮，堆在维京长屋旁边。其中三块找到了 993 年的尖峰，从尖峰往外数，三块都正好再长了 28 圈。也就是说，这些树是在公元 1021 年被砍的。&lt;/p&gt;
+&lt;p&gt;这是欧洲人在美洲最早的精确年份，比哥伦布早了 471 年。在此之前，维京人登陆的时间只能靠冰岛萨迦和模糊的碳测年「猜个大概」。&lt;/p&gt;
+&lt;p&gt;同样的方法也用在了更古老的地方。公元前 5259 年的一次三宅事件，帮希腊 Dispilio 新石器时代湖边聚落的木桩定了年——这是欧洲第一次把一个公元前六千纪的遗址定到具体某一年。&lt;/p&gt;
+
+&lt;h3&gt;下一次什么时候来&lt;/h3&gt;
+&lt;p&gt;目前公认的三宅事件有五次：公元前 7176 年、公元前 5259 年、公元前 664–663 年、公元 774 年、公元 993 年；另外还有公元前 12350 年、公元前 5410 年、公元 1052 年和 1279 年等几个候选，等待独立确认。公元前 12350 年那次留下的碳-14 增量几乎是 774 年的两倍，但换算回来，太阳本身的爆发只强了约 18%——因为当时大气二氧化碳更少、地磁场更弱，同样的冲击更容易「写」进树里。&lt;/p&gt;
+&lt;p&gt;按现有数据估算，这种事件大约每 400 到 2400 年发生一次。774 年的欧洲人和日本人大概什么都没察觉。换成今天，卫星、通信和电网都得挨一顿狠的。卡林顿事件是电报时代的警告，三宅事件则提醒我们：太阳能做出的最坏的事，我们根本还没见过。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Miyake_event"&gt;https://en.wikipedia.org/wiki/Miyake_event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/history/article/ancient-solar-storm-pinpoints-viking-settlement-americas-exactly-1000-years-ago"&gt;https://www.nationalgeographic.com/history/article/ancient-solar-storm-pinpoints-viking-settlement-americas-exactly-1000-years-ago&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencenews.org/article/vikings-north-america-date-newfoundland"&gt;https://www.sciencenews.org/article/vikings-north-america-date-newfoundland&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nature.com/articles/486473e"&gt;https://www.nature.com/articles/486473e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://strangehistory.net/2012/06/29/tree-rings-and-supernovas"&gt;https://strangehistory.net/2012/06/29/tree-rings-and-supernovas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">83a8cfe9-d592-51d2-95fd-8a7a3ee62f36</guid>
+      <pubDate>Wed, 11 Nov 2026 12:14:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Miyake_event</link>
+      <enclosure url="https://i.natgeofe.com/n/0a7642af-5d60-4c3b-b3d3-077f6431059e/120756_16x9.JPG?w=1200" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 问裂脑病人「为什么指铲子」，他张口就编了个理由：鸡爪、雪景和大脑里那个专门「圆谎」的左脑解释器</title>
+      <description>&lt;p&gt;问一个裂脑病人：「你左手为什么指着铲子？」他会立刻给你一个理由，流畅、合理，而且完全是编的。最诡异的是，他自己深信不疑。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://media.npr.org/assets/img/2017/06/14/split-brain-1_wide-fd957b50531bdf71a3c658529fb863e747b49961.jpg?s=1400&amp;c=85&amp;f=jpeg" alt="裂脑示意插图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;胼胝体被切断后，左右半脑各自看到不同的世界（图：NPR）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;一刀切开两个半球&lt;/h3&gt;
+&lt;p&gt;人脑左右两个半球之间，靠一束约两亿根神经纤维组成的胼胝体（Corpus Callosum）相连。20 世纪中叶，对药物无效的重度癫痫，医生有一个最后手段：切断胼胝体，阻止异常放电从一侧蔓延到另一侧。这就是胼胝体切开术（Corpus Callosotomy）。1936 年 Walter Dandy 就报告过部分切开的病例，1962 年，一位代号 W.J. 的二战老兵接受了完整切开，术后发作明显减少。&lt;/p&gt;
+&lt;p&gt;当时学界的共识是：切了也没什么。著名记忆研究者 Karl Lashley 开玩笑说，胼胝体的作用大概就是「防止两个半球往下塌」。病人术后看起来也确实正常，能聊天、能工作、性格也没变。&lt;/p&gt;
+
+&lt;h3&gt;只有一半大脑会说话&lt;/h3&gt;
+&lt;p&gt;加州理工学院 Roger Sperry 实验室的年轻研究生 Michael Gazzaniga 不信这个邪。他利用了一个解剖学事实：左侧视野的信息送到右脑，右侧视野的信息送到左脑。让病人盯住屏幕中心，在一侧闪现图片，时间短到眼睛来不及转动，就能只给一个半球「看」。&lt;/p&gt;
+&lt;p&gt;结果让人愣住。图片闪在右侧视野（进左脑），病人能直接说出看到了什么。闪在左侧视野（进右脑），病人说「什么也没看见」。但如果让他用左手（右脑控制）去摸、去指、去画，他能准确挑出刚才那样东西。右脑明明看见了，只是不会说话——语言中枢在绝大多数人身上都在左脑。&lt;/p&gt;
+&lt;p&gt;Gazzaniga 后来回忆：「看着一个跟别人没什么两样的人，他的左半球完全不知道右半球能干什么，那种冲击你很难想象。」1981 年，Sperry 因为半球功能特化的研究获得诺贝尔生理学或医学奖。&lt;/p&gt;
+
+&lt;h3&gt;鸡爪、雪景和一把铲子&lt;/h3&gt;
+&lt;p&gt;后来实验升级了。研究者给左脑看一只鸡爪，给右脑看一幅新英格兰雪景，然后让两只手分别从一排图片里挑相关的。右手（左脑）挑了一只鸡，左手（右脑）挑了一把铲子。&lt;/p&gt;
+&lt;p&gt;接着他们问病人：你为什么挑了鸡和铲子？会说话的左脑只知道鸡爪，不知道雪景，但它没有说「我不知道」。病人张口就来：「鸡爪当然配鸡，铲子是用来清理鸡舍的嘛。」&lt;/p&gt;
+&lt;p&gt;Gazzaniga 说他们当时意识到：「我们一整天都在这么干！」大脑里有一大堆各自运转的系统、冲动、情绪，左脑负责事后把它们编成一个说得通的故事。他把这个功能叫作&lt;strong&gt;左脑解释器（Left-Brain Interpreter）&lt;/strong&gt;。你以为是自己先有理由再行动，很多时候其实顺序反了。&lt;/p&gt;
+
+&lt;h3&gt;两只手打架&lt;/h3&gt;
+&lt;p&gt;两个半球偶尔也会正面冲突。NPR 报道过一位叫 Karen 的病人，手术后左手「有了自己的主意」，会违背她的意志去解衣服，甚至打她自己。我们 11 月 9 日写过的异手综合征（Alien Hand Syndrome），裂脑手术就是它最典型的成因之一。不过这种冲突并不常见，大多数病人会慢慢发展出补偿策略，日常生活里看不出异样。&lt;/p&gt;
+
+&lt;h3&gt;到底是一个人还是两个人？&lt;/h3&gt;
+&lt;p&gt;这正是故事还没讲完的地方。Gazzaniga 的看法很激进：把一个正常大脑的两个半球断开，「你就突然有了两个意识」。&lt;/p&gt;
+&lt;p&gt;2017 年，阿姆斯特丹大学的 Yair Pinto 团队在 &lt;em&gt;Brain&lt;/em&gt; 期刊发表论文，测试了两位完整切开胼胝体的病人，发现他们虽然左右视野信息互不相通，但无论用左手、右手还是口头回答，都能对两侧的刺激做出反应。结论是：「知觉分裂了，意识没有」。Gazzaniga 和合作者 Lukas Volz 随即发文反驳，几轮来回之后谁也没说服谁。Pinto 那边也承认一个漏洞：他们测试的病人做手术已经几十年了，也许「两个意识」真实存在过，只是大脑后来慢慢学会了绕路。&lt;/p&gt;
+&lt;p&gt;半个多世纪过去，「切开大脑会不会切开自我」仍然没有答案。能确定的只有一件事：你脑子里那个负责解释「我为什么这么做」的声音，并不总是知道真相。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/sections/health-shots/2017/06/15/532920899/the-roots-of-consciousness-were-of-two-minds"&gt;https://www.npr.org/sections/health-shots/2017/06/15/532920899/the-roots-of-consciousness-were-of-two-minds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Split-brain"&gt;https://en.wikipedia.org/wiki/Split-brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uva.nl/en/content/news/press-releases/2017/01/split-brain-does-not-lead-to-split-consciousness.html"&gt;https://www.uva.nl/en/content/news/press-releases/2017/01/split-brain-does-not-lead-to-split-consciousness.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bps.org.uk/research-digest/looks-were-going-have-re-write-textbooks-split-brain-patients"&gt;https://www.bps.org.uk/research-digest/looks-were-going-have-re-write-textbooks-split-brain-patients&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5417d5ef-1e87-5d0f-8e1b-2150e1277e48</guid>
+      <pubDate>Wed, 11 Nov 2026 12:14:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.npr.org/sections/health-shots/2017/06/15/532920899/the-roots-of-consciousness-were-of-two-minds</link>
+      <enclosure url="https://media.npr.org/assets/img/2017/06/14/split-brain-1_wide-fd957b50531bdf71a3c658529fb863e747b49961.jpg?s=1400&amp;c=85&amp;f=jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 小美洲驼千万别用奶瓶喂大：「狂暴美洲驼综合征」，一只把人类当成同类的雄驼会怎样跟你争地位</title>
+      <description>&lt;p&gt;养羊驼和美洲驼（Llama）的人之间流传着一条反直觉的规矩：小驼羔千万别对它太好。从小用奶瓶喂大、天天被人抱的那只，长大后最可能把你撞翻在地、连踩带咬。这种病有个名字，叫「狂暴美洲驼综合征」（Berserk Llama Syndrome）。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Llama_at_Shernal_Green_-_geograph.org.uk_-_466830.jpg" alt="英国乡间草地上的一只美洲驼" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;看起来温顺的美洲驼。被人类「养歪」的那一只，问题恰恰出在太亲人（图：Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;俄勒冈的一个傍晚&lt;/h3&gt;
+&lt;p&gt;2007 年 9 月 10 日傍晚六点左右，俄勒冈州中部小镇 Terrebonne，Nancy Campbell 正在慢跑，八岁的女儿 Carly 骑车在前面。Carly 回头喊妈妈小心，一只棕色的美洲驼正冲过来。按她丈夫 Bill 的说法，Nancy「几乎还没来得及转身，就被它撞倒了」。&lt;/p&gt;
+&lt;p&gt;这只驼踩她、冲她吐口水、龇牙咬人，然后转向了孩子。Nancy 挡在中间，Carly 骑车逃回家。Bill 赶到后把驼引开，它跟着他走了半个街区。邻居们用绳子套住它的脖子拴在树上，五个人才把它按住，再由四个人抬进马拖车。州人道执法员 Carl Quigley 量了一下：身高约 1.65 米，体重约 113 公斤。&lt;/p&gt;
+&lt;p&gt;这只驼五天前从主人家的围栏里跑出来，主人一个月前才领养它，自己也承认不知道怎么照顾、而且怕它。兽医给它注射了大剂量镇静剂，第二天经主人同意实施了安乐死。Nancy 只受了些擦伤，Carly 则做了好几天噩梦。&lt;/p&gt;
+
+&lt;h3&gt;它把你当成了另一只驼&lt;/h3&gt;
+&lt;p&gt;给这只驼看病的是专做美洲驼和羊驼出诊的兽医 Rachel Eaton。她的判断是：典型的狂暴美洲驼综合征。&lt;/p&gt;
+&lt;p&gt;病根在于&lt;strong&gt;印记（Imprinting）&lt;/strong&gt;。正常的驼羔在驼群里长大，学会自己是谁、该跟谁较劲。可如果它被母驼拒奶、或者母乳不够，只能靠人用奶瓶喂；再加上身边没有别的驼，天天只跟人待在一起，它就会把人类认作「同类」。小时候这表现为黏人、可爱、会往你身上蹭。等到雄驼进入青春期，问题来了。&lt;/p&gt;
+&lt;p&gt;成年雄性美洲驼的领地意识极强，雄驼之间打架的方式是用胸口猛撞、冲锋、用脖子和腿缠斗、撕咬。它们嘴里还有专门用来打架的獠牙，长在磨牙后面，养驼人通常在驼两岁左右把这几颗牙拔掉。一只把人当成同类的雄驼，会把这一整套招数用在你身上——它不是发疯，是在跟「另一只雄驼」争地位。严重的个体甚至会从背后偷袭。&lt;/p&gt;
+&lt;p&gt;雌驼也可能受影响，但通常只是爱吐口水、难以操控。这种行为问题最早在 1970 年代被记录下来，正是美洲驼开始大量进口到美国农村之后。&lt;/p&gt;
+
+&lt;h3&gt;为什么基本没救&lt;/h3&gt;
+&lt;p&gt;Eaton 说得很直接：没有疗法，安乐死是最好的选择。青春期前阉割可以降低风险，但不能保证，已经去势的雄驼照样可能发病。她在中俄勒冈执业十年，亲手处理过四只这样的驼。她也补了一句公道话：99% 跑出围栏的宠物驼都不会到处伤人；美洲驼平时会主动跟人保持距离，主动攻击女人和孩子，本身就说明这只驼不正常。这个词现在也有被滥用的趋势，有些只是脾气不好的驼也被扣上这顶帽子。&lt;/p&gt;
+
+&lt;h3&gt;同一种本能，换个对象就是保镖&lt;/h3&gt;
+&lt;p&gt;最有意思的反转在这里。让狂暴驼危险的，正是让美洲驼成为优秀「保安」的同一套本能。&lt;/p&gt;
+&lt;p&gt;美国西部的牧羊人很早就发现，往羊群里放一只美洲驼能赶走郊狼。1993 年爱荷华州立大学调查了 145 位牧场主：典型做法是一只去势的雄驼，跟 250 到 300 只羊一起放在差不多同样英亩数的草场上，掠食造成的损失从羊群的约 11% 降到约 1%。只放一只驼比放好几只更管用——驼多了，它们会自己凑成一伙，不再把羊当成「自己的群」。牧场主们还说，驼很快就会跟小羊建立感情，护得特别紧。&lt;/p&gt;
+&lt;p&gt;一只驼把羊群当成自己的驼群，面对闯入者就会冲锋、踢打、驱赶，人类管这叫护卫。一只驼把人类当成自己的驼群，同样的冲锋落在主人身上，人类管这叫狂暴。驼本身从头到尾没变，变的是它小时候认错了谁是「自己人」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://bendbulletin.com/?p=324443"&gt;https://bendbulletin.com/?p=324443&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Berserk_llama_syndrome"&gt;https://en.wikipedia.org/wiki/Berserk_llama_syndrome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sanangelo.tamu.edu/files/2022/05/Use-of-Livestock-Guarding-Animals-to-Reduce-Predation-on-Livestock-Andelt-2004.pdf"&gt;https://sanangelo.tamu.edu/files/2022/05/Use-of-Livestock-Guarding-Animals-to-Reduce-Predation-on-Livestock-Andelt-2004.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Guard_llama"&gt;https://en.wikipedia.org/wiki/Guard_llama&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">701ed91b-8259-50f8-991b-71f3a4f177a8</guid>
+      <pubDate>Wed, 11 Nov 2026 12:14:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://bendbulletin.com/?p=324443</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/a/ac/Llama_at_Shernal_Green_-_geograph.org.uk_-_466830.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 欧拉说 36 个军官排不成方阵，他是对的；直到物理学家让军官们量子纠缠，答案里还冒出了黄金分割比</title>
+      <description>&lt;p&gt;6 个兵团，每团 6 个军衔各一名军官，排成 6×6 方阵，要求每行每列的兵团和军衔都不重复。欧拉在 1779 年断言：做不到。他是对的——直到 2021 年，一群物理学家说：如果军官们彼此量子纠缠，就做得到。而且答案里还藏着黄金分割比。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2022/01/Quantum-Latin-Squares_2560_Lede.jpg" alt="量子拉丁方插图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;欧拉的 36 军官问题有了量子解（图：Quanta Magazine）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;欧拉的「做不到」&lt;/h3&gt;
+&lt;p&gt;这道题用今天的话说，是在找两个 6 阶的「正交拉丁方」，也叫希腊-拉丁方（Graeco-Latin Square）：一个拉丁方管兵团，一个管军衔，叠在一起后 36 种（兵团，军衔）组合每种恰好出现一次。把扑克牌里的 A、K、Q、J 和四种花色排成 4×4，就是 4 阶的版本，几分钟就能摆出来。&lt;/p&gt;
+&lt;p&gt;可 6 阶怎么都排不出来。欧拉写道：「这样的排列是不可能的，尽管我们无法给出严格证明。」他还更进一步猜测，所有形如 4k+2 的阶数（6、10、14、18……）都无解。&lt;/p&gt;
+&lt;p&gt;6 阶的情况在 1900 年前后被法国业余数学家 Gaston Tarry 用最笨的办法证实：把所有可能情况分门别类，一个个排除。欧拉在 6 上没错。&lt;/p&gt;
+
+&lt;h3&gt;「欧拉扫兴者」&lt;/h3&gt;
+&lt;p&gt;但欧拉的大猜想错了。1959 年，北卡罗来纳大学的 R. C. Bose、S. S. Shrikhande 和雷明顿-兰德公司 Univac 部门的 E. T. Parker 证明：除了 2 和 6，所有阶数的希腊-拉丁方都存在，10 阶、14 阶统统能排。这件事 1959 年 4 月 26 日上了《纽约时报》头版，三个人从此得了个外号：「欧拉扫兴者」（Euler Spoilers）。&lt;/p&gt;
+&lt;p&gt;于是 6 成了一个孤零零的例外。所有大于 2 的阶数里，只有它不行。&lt;/p&gt;
+
+&lt;h3&gt;让军官处于叠加态&lt;/h3&gt;
+&lt;p&gt;2016 年，Jamie Vicary 和 Ben Musto 开始研究「量子拉丁方」：格子里放的不再是确定的符号，而是量子态。到了 36 军官问题，一个来自印度和波兰的物理学家团队——成员包括 Suhail Ahmad Rather、Adam Burchardt、Arul Lakshminarayan、Karol Życzkowski 等人——把规则改成：每个军官可以处于多个军衔和多个兵团的叠加态，而且军官之间可以纠缠。&lt;/p&gt;
+&lt;p&gt;他们从一个「差一点点就成」的经典近似解出发，写了个算法一点点微调，最后几个格子手工填完。结果是一个合法的量子解。论文《Thirty-six Entangled Officers of Euler》2021 年挂上 arXiv，2022 年发表在 &lt;em&gt;Physical Review Letters&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;解的结构很漂亮：军衔只和「相邻」的军衔纠缠（国王配王后，车配象，马配兵），兵团也只和相邻兵团纠缠。态里两种系数之比恰好是&lt;strong&gt;黄金分割比 φ ≈ 1.618&lt;/strong&gt;，作者因此把它命名为「黄金 AME 态」（Golden AME）。AME 是「绝对最大纠缠」（Absolutely Maximally Entangled）的缩写，具体说是 AME(4,6)：可以想成四个彼此纠缠的六面骰子，单独看其中任意两个，结果都完全随机，可四个合在一起却是一个确定的纯态。这样的态到底存不存在，此前一直是量子信息领域悬而未决的开放问题。&lt;/p&gt;
+
+&lt;h3&gt;欧拉被推翻了吗？&lt;/h3&gt;
+&lt;p&gt;没有。经典版本的 6 阶问题仍然无解，Tarry 的证明一个字都不用改。量子版本是换了一套规则的新问题：军官不必有确定的身份，「不重复」的条件也换成了量子态之间的正交。打个比方，这不是有人终于把 36 个人排好了，而是有人发现，如果允许每个人同时是好几个人，题就活了。&lt;/p&gt;
+&lt;p&gt;物理学家 Gemma De las Cuevas 评价说：「这里面有很多量子魔法。」参与过量子数独 SudoQ 研究的 Ion Nechita 则说：「他们给这个问题合上了书。」&lt;/p&gt;
+&lt;p&gt;它也不只是数学游戏。AME 态被认为跟量子纠错密切相关，Burchardt 猜测这个解可能对应一类新的纠错码。一道 18 世纪给皇家军官排队的智力题，绕了 240 多年，最后落脚在量子计算机怎么防止出错上。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/eulers-243-year-old-impossible-puzzle-gets-a-quantum-solution-20220110/"&gt;https://www.quantamagazine.org/eulers-243-year-old-impossible-puzzle-gets-a-quantum-solution-20220110/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2104.05122"&gt;https://arxiv.org/abs/2104.05122&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/pdf/2204.06800"&gt;https://arxiv.org/pdf/2204.06800&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.scientificamerican.com/roots-of-unity/proving-a-legendary-mathematician-wrong/"&gt;https://blogs.scientificamerican.com/roots-of-unity/proving-a-legendary-mathematician-wrong/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">93e14a00-ab89-56a7-87a0-657e8613ccfb</guid>
+      <pubDate>Wed, 11 Nov 2026 12:14:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.quantamagazine.org/eulers-243-year-old-impossible-puzzle-gets-a-quantum-solution-20220110/</link>
+      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2022/01/Quantum-Latin-Squares_2560_Lede.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 18 万张用旧贺卡剪的卡片，装在香烟盒里：线形文字 B 的破译，和读出来后发现全是记账单的欧洲最古老希腊文</title>
+      <description>&lt;p&gt;破译人类最古老希腊文字的，是一位每晚抽着烟、在自家餐桌上剪卡片的布鲁克林学院老师，和一个没受过专业语言学训练的英国建筑师。而这些文字被读出来之后，内容大部分是：羊毛几捆，绵羊几只，粮食几袋。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/5/55/NAMA_Linear_B_tablet_of_Pylos.jpg" alt="出土于皮洛斯的线形文字 B 泥板" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;皮洛斯出土的线形文字 B 泥板，现藏雅典国家考古博物馆（图：Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;浴缸里的泥板&lt;/h3&gt;
+&lt;p&gt;1900 年 3 月，英国考古学家 Arthur Evans 开始在克里特岛发掘克诺索斯（Knossos）宫殿，他认定这里是传说中米诺斯王的宫殿。4 月 5 日，工人在一个废弃的陶土浴缸里发现了第一批刻满符号的泥板。Evans 把这种文字命名为线形文字 B（Linear B），并且坚信它记录的是一种已经失传的「米诺斯语」，跟希腊语没关系。&lt;/p&gt;
+&lt;p&gt;这些泥板本来是普通的晒干泥块，宫殿大火把它们烧成了陶，才保存了三千多年。文字大约有 87 个音节符号，外加一百多个表意图形。Evans 的权威太大，接下来的几十年，几乎没人认真考虑过「它就是希腊语」这个可能。&lt;/p&gt;
+
+&lt;h3&gt;18 万张自制卡片&lt;/h3&gt;
+&lt;p&gt;Alice Kober 是布鲁克林学院教拉丁语和希腊语的助理教授，和寡居的母亲住在布鲁克林 Flatbush。1930 到 40 年代，她花了将近二十年，晚上坐在餐桌前，手边一支点着的香烟，分析线形文字 B。&lt;/p&gt;
+&lt;p&gt;那时没有计算机，二战又造成纸张短缺。她自己用剪刀剪卡片，原料是旧贺卡的背面、教会通告、考试册封皮的内页，还有从布鲁克林学院图书馆顺来的借书单。她在卡片上记下每个符号出现的位置和前后搭配，最后积攒了约 18 万张，装在空香烟盒里。&lt;/p&gt;
+&lt;p&gt;她的关键发现是一组组「三连词」（Kober's triplets）：几个词开头相同，结尾却以固定的方式变化。这说明线形文字 B 背后的语言有词形变化，是一种屈折语（Inflected Language）。她还据此排出了一张符号关系网格：哪些符号可能共享辅音，哪些共享元音。她刻意不去猜任何一个符号的读音，只研究结构——这正是她和那些异想天开的业余破译者最大的不同。&lt;/p&gt;
+&lt;p&gt;1950 年，Kober 去世，年仅 43 岁，没来得及给自己的网格填上任何读音。&lt;/p&gt;
+
+&lt;h3&gt;十四岁的誓言&lt;/h3&gt;
+&lt;p&gt;Michael Ventris 1922 年出生，母亲是波兰人，他八岁就说一口流利的波兰语，后来又学了瑞士德语、瑞典语和俄语。1936 年，十四岁的他去伦敦伯灵顿府听 Evans 的讲座，得知线形文字 B 还没人能读，当场就决定要破译它。十八岁时他在《美国考古学期刊》发表论文，主张这种语言和伊特鲁里亚语有关。这个方向是错的，他却在里面兜了十几年圈子。&lt;/p&gt;
+&lt;p&gt;二战中他在英国皇家空军当领航员，飞哈利法克斯轰炸机，战后读完建筑学，成了职业建筑师。破译工作完全是业余爱好。&lt;/p&gt;
+&lt;p&gt;转折来自一个大胆的猜测。他在 Kober 的网格基础上工作，注意到有些符号组合只出现在克里特岛出土的泥板上，于是猜它们是克里特的地名。他试着代入，其中一个读成 ko-no-so，也就是 Knossos。一个个地名对上之后，越来越多的词开始像希腊语。&lt;/p&gt;
+&lt;p&gt;1952 年 7 月 1 日，他在 BBC 电台宣布：线形文字 B 是「一种艰深而古老的希腊语」，比荷马还早五百年。这其实也推翻了他自己坚持多年的伊特鲁里亚假说。&lt;/p&gt;
+
+&lt;h3&gt;一块事后才看到的泥板&lt;/h3&gt;
+&lt;p&gt;广播被剑桥的语言学家 John Chadwick 听到了，两人开始合作。1953 年 5 月 16 日，美国考古学家 Carl Blegen 写信给 Ventris，附上皮洛斯新出土的一块泥板，后来编号 PY Ta 641，俗称「三足鼎泥板」。上面画着几种器皿的图形，旁边的文字用 Ventris 的读音规则一念，正好描述的是三足鼎和不同把手数的罐子。这块泥板 Ventris 破译时根本没用过，相当于一次盲测。&lt;/p&gt;
+&lt;p&gt;当然也有人不服。学者 Arthur Beattie 在 1958 年指控 Ventris 事先见过这块泥板的照片，是在造假。Beattie 后来自己也松了口，承认这块泥板「比任何东西都更能说服古典学者」。&lt;/p&gt;
+
+&lt;h3&gt;结局&lt;/h3&gt;
+&lt;p&gt;1956 年 9 月 6 日，Ventris 在赫特福德郡哈特菲尔德遭遇车祸去世，年仅 34 岁。他和 Chadwick 合著的&lt;em&gt;《迈锡尼希腊语文献》（Documents in Mycenaean Greek）&lt;/em&gt;在他死后不久出版。&lt;/p&gt;
+&lt;p&gt;泥板读出来之后，人们发现上面没有史诗，没有神谕，也没有国王的丰功伟绩，主要是账目：分发了多少羊毛、多少绵羊、多少粮食，给了哪些祭司团体，偶尔也有军事物资清单。欧洲最早的希腊文字，原来是会计写的。&lt;/p&gt;
+&lt;p&gt;记者 Margalit Fox 在 2013 年的书《The Riddle of the Labyrinth》里，用大量篇幅重建了 Kober 被遗忘的工作。如今不少学者认为，没有那 18 万张卡片，线形文字 B 很可能不会在 1952 年被破译。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://theworld.org/stories/2013-05-13/how-american-linguist-helped-unlock-secrets-linear-b"&gt;https://theworld.org/stories/2013-05-13/how-american-linguist-helped-unlock-secrets-linear-b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://languagehat.com/alice-kober/"&gt;https://languagehat.com/alice-kober/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Michael_Ventris"&gt;https://en.wikipedia.org/wiki/Michael_Ventris&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Linear_B"&gt;https://en.wikipedia.org/wiki/Linear_B&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/PY_Ta_641"&gt;https://en.wikipedia.org/wiki/PY_Ta_641&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f52299cb-27bd-5f12-9a77-78b9ab6ef243</guid>
+      <pubDate>Wed, 11 Nov 2026 12:14:49 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://theworld.org/stories/2013-05-13/how-american-linguist-helped-unlock-secrets-linear-b</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/a/a4/Michael_Ventris_obituary_photo.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 AI Chatbots All Score B+ on Usability, So SUS Can't Pick a Winner. NPS Can, With a Catch / AI 聊天产品可用性全拿 B+，SUS 分不出高下，NPS 却能，但有个前提</title>
+      <description>&lt;p&gt;This one is from July, but this feed hadn't covered it, and it belongs next to last week's NN/g studies on AI in UX research. In &lt;a href="https://measuringu.com/ai-based-chat-software-ux-2026/"&gt;UX Benchmarks for AI-Based Chat Software (2026)&lt;/a&gt;, Jim Lewis and Jeff Sauro of MeasuringU surveyed 420 U.S. panel users in May 2026: ChatGPT (n=113), Claude (n=103), Gemini (n=101) and Grok (n=103). The headline for practitioners isn't who won. It's that the standard usability questionnaires can no longer tell these products apart, while a loyalty metric can.&lt;/p&gt;
+
+&lt;h3&gt;Usability: a four-way tie at B+&lt;/h3&gt;
+&lt;p&gt;On the UX-Lite (perceived ease plus usefulness), scores ran from 77.8 for Grok to 83.3 for ChatGPT. That 5.5-point spread was not statistically significant (F(3,416)=1.7, p=.16). The SUS was even flatter: 78.4 (Grok) to 81.5 (ChatGPT), a 3.1-point range, p=.41. All four products sit at B+ or better on the Sauro-Lewis curve, well above the 68 average across 500+ products. The study's precision is about plus or minus 5 points on 0-100 scales, so these products are statistically interchangeable on usability.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://measuringu.com/wp-content/uploads/2026/07/Figure2-scaled.png" alt="Bar chart of SUS scores with 95% confidence intervals for ChatGPT, Claude, Gemini and Grok, all overlapping around 78-82" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;SUS by product with 95% confidence intervals. The intervals overlap almost entirely. (MeasuringU)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;That makes sense once you look at the interface. Every one of these products is a text box, a scrolling transcript and a handful of affordances like attachments, model pickers and canvases. The interaction layer has converged, and questionnaires designed to measure interaction friction have nothing left to separate. SUS was built in 1986 for task-based software, and it asks whether the system is easy to use. It doesn't ask whether the answer was right.&lt;/p&gt;
+
+&lt;h3&gt;Loyalty: a 21-point spread&lt;/h3&gt;
+&lt;p&gt;The Net Promoter Score tells a different story: Claude 28%, Grok 17%, Gemini 12%, ChatGPT 7%. Claude's lead over ChatGPT grew from 4 points in 2025 to 21 points in 2026, and NPS fell for every product measured in both years. Year over year, Gemini had the biggest UX-Lite drop and moved from the upper-right to the lower-left quadrant. Claude improved most on perceived usefulness, and ChatGPT's SUS rose 5.3 points.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://measuringu.com/wp-content/uploads/2026/07/Figure3-scaled.png" alt="NPS by product with 95% confidence intervals: Claude highest at 28%, ChatGPT lowest at 7%" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;NPS by product. Claude's 28% versus ChatGPT's 7% is the only large gap in the study. (MeasuringU)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Before reading this as "Claude has better UX," look at one more number. MeasuringU also administered the TAC-10, its 10-item technical activity checklist for respondent tech savviness. It is not a product score. Claude's respondents scored 7.0 against ChatGPT's 6.3, a significant difference (p=.04). Claude's user base is more technical, and technical users tend to choose tools deliberately and stick with them. That selection effect is my reading, not the authors' conclusion, but any comparison across products with different audiences has to account for it. ChatGPT's mass-market base includes many people who use it because it's the default.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://measuringu.com/wp-content/uploads/2026/07/Figure4-scaled.png" alt="TAC-10 tech savviness scores by product and year" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;TAC-10 (respondent tech savviness) by product and year. Claude's users are measurably more technical. (MeasuringU)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;What the verbatims say&lt;/h3&gt;
+&lt;p&gt;The open-ended complaints point to where differentiation actually lives. For ChatGPT, Gemini and Grok, the top complaint was accuracy and reliability, including "hallucination loops" for Grok, followed by slow responses. Claude was the exception. Its complaints centered on usage limits and capability limits, which is a capacity problem, not a trust problem. This matches the &lt;a href="https://www.nngroup.com/"&gt;NN/g&lt;/a&gt; AI-in-UX survey covered on November 10, where unreliable output was the most common grievance among 521 practitioners. And as ZURB's &lt;a href="https://radar.zurb.com/article/you-finally-have-a-yardstick-for-ai-chat-now-watch-what-it-cant-measure"&gt;Radar&lt;/a&gt; points out, neither SUS nor NPS captures attachment or emotional dependency, which is becoming a design concern for companion-style features. The EU's draft Digital Fairness Act would even give users a right to switch those features off.&lt;/p&gt;
+
+&lt;h3&gt;What to do with this&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you benchmark an AI product, don't stop at SUS or UX-Lite. Expect a ceiling effect. Add outcome measures (task success, factual accuracy checked against a rubric, rework rate) and a trust item.&lt;/li&gt;
+&lt;li&gt;Measure respondent characteristics such as tech savviness or prior AI use, and report them. Without them, an NPS gap between products is uninterpretable.&lt;/li&gt;
+&lt;li&gt;Treat verbatims as the primary signal. The complaint categories here (accuracy versus limits) are more actionable than any score.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The open question is whether a standardized questionnaire for output quality will emerge, something that does for "was the answer good" what SUS did for "was the interface easy." Until it does, AI product benchmarks will keep measuring the part that no longer differs.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;这份研究发布于 7 月，本 feed 一直没写，正好可以和上周 NN/g 那两项 AI 与 UX 研究放在一起看。MeasuringU 的 Jim Lewis 和 Jeff Sauro 在《AI 聊天软件 UX 基准（2026）》里，于 2026 年 5 月调查了 420 名美国样本库用户：ChatGPT 113 人、Claude 103 人、Gemini 101 人、Grok 103 人。对从业者来说，重点不在谁赢了，而在于标准可用性问卷已经分不出这几款产品的高下，忠诚度指标却分得出来。&lt;/p&gt;
+
+&lt;h3&gt;可用性：四家并列 B+&lt;/h3&gt;
+&lt;p&gt;在 UX-Lite（感知易用性加有用性）上，最低是 Grok 的 77.8，最高是 ChatGPT 的 83.3。5.5 分的差距不显著（F(3,416)=1.7，p=.16）。SUS 更平：Grok 78.4，ChatGPT 81.5，相差 3.1 分，p=.41。按 Sauro-Lewis 评分曲线，四款产品都在 B+ 以上，远高于 500 多款产品的平均分 68。研究在 0 至 100 量表上的精度约为正负 5 分。换句话说，单看可用性，它们在统计上可以互相替换。&lt;/p&gt;
+
+&lt;p&gt;看看界面就不奇怪了：一个输入框，一段滚动的对话记录，外加附件、模型选择、画布这几样功能。交互层已经趋同，专门测交互摩擦的问卷自然无从区分。SUS 是 1986 年为任务型软件设计的，它问的是“系统好不好用”，不问“答案对不对”。&lt;/p&gt;
+
+&lt;h3&gt;忠诚度：差出 21 个点&lt;/h3&gt;
+&lt;p&gt;净推荐值（Net Promoter Score, NPS）完全是另一回事：Claude 28%，Grok 17%，Gemini 12%，ChatGPT 7%。Claude 对 ChatGPT 的领先从 2025 年的 4 个点拉大到 21 个点，而两年都参测的产品 NPS 全部下滑。和去年相比，Gemini 的 UX-Lite 跌得最多，从右上象限掉到左下；Claude 在感知有用性上进步最大；ChatGPT 的 SUS 涨了 5.3 分。&lt;/p&gt;
+
+&lt;p&gt;先别急着得出“Claude 体验更好”的结论，还有一个数要看。MeasuringU 同时测了 TAC-10，这是一份 10 项的技术活动清单，衡量的是受访者自己有多懂技术，不是给产品打分。Claude 受访者得分 7.0，ChatGPT 受访者 6.3，差异显著（p=.04）。Claude 的用户更偏技术型，而这类人往往是刻意挑选工具、选定了就长期用。这种选择效应是我的解读，作者没有下这个结论。可只要比较的是受众不同的产品，就绕不开它。ChatGPT 的大众用户里，有不少人用它只因为它是默认选项。&lt;/p&gt;
+
+&lt;h3&gt;开放回答里说了什么&lt;/h3&gt;
+&lt;p&gt;用户的抱怨指向真正拉开差距的地方。ChatGPT、Gemini 和 Grok 排第一的抱怨都是准确性和可靠性（Grok 还有“幻觉循环”），其次是响应慢。Claude 是例外，抱怨集中在用量限制和能力限制上。这是容量问题，不是信任问题。这和 11 月 10 日介绍过的 NN/g AI 与 UX 调查一致：521 名从业者最常提的不满就是输出不可靠。ZURB 的 Radar 也提醒，SUS 和 NPS 都测不出依恋和情感依赖，而这正在成为陪伴型功能的设计议题。欧盟《数字公平法》草案甚至要给用户一个关闭这类功能的权利。&lt;/p&gt;
+
+&lt;h3&gt;拿这些结论做什么&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;给 AI 产品做基准测试，别只停在 SUS 或 UX-Lite 上，要预料到天花板效应（ceiling effect）。加上结果类指标（任务成功率、按评分标准核对的事实准确率、返工率），再加一道信任题。&lt;/li&gt;
+&lt;li&gt;测量并报告受访者特征，比如技术熟练度、AI 使用经验。少了这些，产品之间的 NPS 差距无从解释。&lt;/li&gt;
+&lt;li&gt;把开放回答当作主信号。这里“准确性”和“用量限制”两类抱怨，比任何一个分数都更能指导行动。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;悬而未决的问题是：会不会出现一份测输出质量的标准化问卷，对“答案好不好”做到 SUS 对“界面好不好用”做到的事？在那之前，AI 产品的基准测试会继续测量那个已经没有差别的部分。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://measuringu.com/ai-based-chat-software-ux-2026/"&gt;https://measuringu.com/ai-based-chat-software-ux-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://radar.zurb.com/article/you-finally-have-a-yardstick-for-ai-chat-now-watch-what-it-cant-measure"&gt;https://radar.zurb.com/article/you-finally-have-a-yardstick-for-ai-chat-now-watch-what-it-cant-measure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://measuringu.com/classifying-tech-savviness-levels-with-technical-activity-checklists/"&gt;https://measuringu.com/classifying-tech-savviness-levels-with-technical-activity-checklists/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d18d26a8-9e0f-5fe9-8071-cb38e12bb348</guid>
+      <pubDate>Wed, 11 Nov 2026 12:15:16 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://measuringu.com/ai-based-chat-software-ux-2026/</link>
+      <enclosure url="https://measuringu.com/wp-content/uploads/2026/07/FeatureImage-070726-scaled.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
