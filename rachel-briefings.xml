@@ -9,737 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Wed, 11 Nov 2026 12:15:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 12:16:33 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 18 of 21 Major Design Systems Now Ship MCP Servers, and the Leaders Coerce Agents Instead of Instructing Them / 21 个主流设计系统中 18 个已有 MCP 服务器，领先者不再指示智能体，而是强制它</title>
-      <description>&lt;p&gt;Design systems now have a second audience, and most big systems already serve it. &lt;a href="https://state-of-ai-in-design-systems.netlify.app/"&gt;State of AI in Design Systems&lt;/a&gt; is a CC BY 4.0 survey by Kaelig Deloumeau-Prigent, co-founder of the W3C Design Tokens Community Group. It catalogs what 21 public design systems ship for AI coding agents, with every data point linked to its source. Of the 21, 18 ship an official MCP server and 18 ship official agent skills. Fifteen publish an &lt;code&gt;llms.txt&lt;/code&gt;, and the survey labels 15 of them "ai-native." The data is a snapshot from July 26–28, 2026, and the report was regenerated on October 28. The headline is less the adoption rate than the shift in method: the leading systems no longer &lt;em&gt;ask&lt;/em&gt; agents to stay on-system. They make it hard for agents to do anything else.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.drweb.de/wp-content/uploads/2026/08/state-of-ai-in-design-systems-wie-sich-20-design-systeme-fuer-ki-agenten-oeffnen-beitragsbild-1024x572.jpg" alt="Dr. Web header illustration for its coverage of the State of AI in Design Systems survey" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Dr. Web's coverage of the survey (image: Dr. Web)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Who's in it.&lt;/strong&gt; The ai-native group includes Ant Design, Atlassian, IBM Carbon, Chakra UI, Coinbase CDS, daisyUI, HeroUI, Nuxt UI, PatternFly, GitHub Primer, React Spectrum, Salesforce SLDS, shadcn/ui, Shopify Polaris and Astryx. Cloudscape, Mantine, MUI, Microsoft Fluent and Nord count as "invested." USWDS, the U.S. Web Design System, is the only one labeled "emerging." It has no consumer-facing AI affordances, and its only move so far is a single vendor-neutral &lt;code&gt;AGENTS.md&lt;/code&gt; for contributors, merged July 6.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;From instruction to coercion.&lt;/strong&gt; The essay's central idea is "structural coercion," summed up as "Instruction hopes the model complies. Structure checks." It names four techniques:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tool-gating.&lt;/strong&gt; The agent has to call a tool before it gets real component information. Primer's MCP tool descriptions say "CRITICAL: CALL THIS FIRST." Shopify's Polaris skill opens with "you cannot trust your trained knowledge" and requires a docs search and a validator run before any answer.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scaffolding.&lt;/strong&gt; A CLI writes the canonical code and the agent only orchestrates. shadcn's skill says "NEVER fetch raw files from GitHub manually — always use the CLI."&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Registries.&lt;/strong&gt; Agents install real, versioned artifacts instead of regenerating them from memory.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Validation loops.&lt;/strong&gt; SLDS ships a validate skill and &lt;code&gt;slds-linter&lt;/code&gt;. Fluent wraps lint auto-fix in Storybook and Playwright visual checks. Polaris bundles a &lt;code&gt;validate.mjs&lt;/code&gt; the agent must run. None of these systems trust generated output.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Prohibitions also name specific failures. Ant Design keeps an allow-list to stop models from inventing &lt;code&gt;Box&lt;/code&gt;, &lt;code&gt;Stack&lt;/code&gt; or &lt;code&gt;Container&lt;/code&gt;. shadcn bans raw divs with &lt;code&gt;space-y-*&lt;/code&gt; and manual &lt;code&gt;dark:&lt;/code&gt; overrides.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Compile your agent docs; don't hand-write them.&lt;/strong&gt; Mantine generates &lt;code&gt;llms.txt&lt;/code&gt;, a 4.2 MB &lt;code&gt;llms-full.txt&lt;/code&gt; and an MCP index from the same MDX and docgen data as its human docs, on every release. Cloudscape regenerates &lt;code&gt;llms.txt&lt;/code&gt; daily and exposes typed JSON API definitions for each component. The survey puts it bluntly: "Hand-written agent docs rot. These can't." Skills have independently converged on progressive disclosure. Carbon has a 24 KB &lt;code&gt;SKILL.md&lt;/code&gt; plus 12 reference files, and Chakra uses a decision tree across about 114 components: the always-loaded surface stays small and detail comes on request.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Where they disagree.&lt;/strong&gt; Figma grounding is thin. 248 public repos list &lt;code&gt;@figma/code-connect&lt;/code&gt; as a dependency, but only CDS (124 files), Carbon (~86) and Primer (52) show real use. That is a relevant data point as Figma pushes code sources and MCP write-back. Openness is also split. Polaris blocks GPTBot and ClaudeBot in &lt;code&gt;robots.txt&lt;/code&gt;, tags its docs &lt;code&gt;noai&lt;/code&gt;, and routes all AI use through Shopify's gated toolkit. Nuxt UI does the opposite, with an RFC 9727 api-catalog and markdown content negotiation. Open-source systems are also adding paid AI tiers: MUI's MCP &lt;code&gt;generateReactCode&lt;/code&gt;, Chakra Pro templates, and daisyUI's paid skills.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The frontier is published evals.&lt;/strong&gt; Astryx runs a nightly benchmark that scores agent-written UI against a plain shadcn/Tailwind baseline on six dimensions, and publishes every run. The baseline has won 50 of 91 nights, which is a humbling result for anyone who assumes that more context always helps. Atlassian published head-to-head results for MCP, skill, DESIGN.md and no context (covered in a separate entry). This connects to our DESIGN.md thread: a portable file is now one option among several, and the survey's evidence favors tools that load on demand.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Takeaway.&lt;/strong&gt; Dr. Web's suggested self-test is simple: ask a coding agent to build a component from your own system. If the result is generic, what's missing is the machine interface, not better visuals. The survey gives a priority order. First, generate an &lt;code&gt;llms.txt&lt;/code&gt; from your docs pipeline. Then add a read-only MCP or skill that lists real components and tokens. Then gate generation behind your CLI or registry. Last, close the loop with a linter the agent has to pass. Builder-side tooling (for contributors) and consumer-side tooling barely correlate: only 8 of 21 systems invest seriously in both. So decide which audience you're serving first.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://state-of-ai-in-design-systems.netlify.app/"&gt;State of AI in Design Systems (K. Deloumeau-Prigent, July 2026 snapshot)&lt;/a&gt;; &lt;a href="https://state-of-ai-in-design-systems.netlify.app/insights.md"&gt;Findings and coercion essay&lt;/a&gt;; &lt;a href="https://www.drweb.de/design-systeme-ki-agenten-studie/"&gt;Dr. Web (Aug 12, 2026)&lt;/a&gt;; &lt;a href="https://www.w3.org/community/design-tokens/"&gt;W3C Design Tokens CG&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;设计系统现在多了一类用户，大多数大型系统已经在为它服务了。&lt;a href="https://state-of-ai-in-design-systems.netlify.app/"&gt;State of AI in Design Systems&lt;/a&gt; 是一份 CC BY 4.0 的调查，作者是 W3C 设计令牌社区组（Design Tokens Community Group）联合创始人 Kaelig Deloumeau-Prigent。它统计了 21 个公开设计系统为 AI 编码智能体提供了什么，每条数据都附了出处。21 个系统里，18 个有官方 MCP 服务器，18 个有官方智能体技能（Agent Skills），15 个发布了 &lt;code&gt;llms.txt&lt;/code&gt;，被标为 "ai-native" 的也有 15 个。数据采集于 2026 年 7 月 26 日至 28 日，报告在 10 月 28 日重新生成过。普及率倒不是重点，重点是做法变了：领先的系统不再"请"智能体守规矩，而是让它很难不守。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;名单。&lt;/strong&gt;ai-native 这一档有 Ant Design、Atlassian、IBM Carbon、Chakra UI、Coinbase CDS、daisyUI、HeroUI、Nuxt UI、PatternFly、GitHub Primer、React Spectrum、Salesforce SLDS、shadcn/ui、Shopify Polaris 和 Astryx。Cloudscape、Mantine、MUI、Microsoft Fluent、Nord 算 "invested"。美国政府的 USWDS 是唯一的 "emerging"：面向使用者的 AI 能力一个都没有，目前唯一的动作是 7 月 6 日合并了一份给贡献者看的、不绑定厂商的 &lt;code&gt;AGENTS.md&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;从"指示"到"强制"。&lt;/strong&gt;文章的核心概念叫结构性强制（Structural Coercion），一句话概括："指示是希望模型照做，结构是去检查它有没有照做。"具体有四种手段。一是工具门控（Tool-gating）：先调用工具才拿得到真实组件信息。Primer 的 MCP 工具描述里写着 "CRITICAL: CALL THIS FIRST"，Polaris 的技能开头就说"你不能相信自己训练出来的知识"，回答之前必须先搜文档、跑校验器。二是脚手架：代码由 CLI 生成，智能体只负责调度。shadcn 的技能明令"禁止手动从 GitHub 抓原始文件，一律用 CLI"。三是注册表（Registry）：安装真实的、有版本号的组件，不靠记忆重新生成。四是校验循环：SLDS 有 validate 技能和 &lt;code&gt;slds-linter&lt;/code&gt;，Fluent 在 lint 自动修复外面再套一层 Storybook 和 Playwright 视觉检查，Polaris 附带一个智能体必须运行的 &lt;code&gt;validate.mjs&lt;/code&gt;。这些系统没有一个信任生成出来的代码。&lt;/p&gt;
-&lt;p&gt;禁令也会点出具体的错误。Ant Design 维护了一份白名单，防止模型凭空造出 &lt;code&gt;Box&lt;/code&gt;、&lt;code&gt;Stack&lt;/code&gt;、&lt;code&gt;Container&lt;/code&gt;。shadcn 禁止用裸 div 配 &lt;code&gt;space-y-*&lt;/code&gt;，也禁止手写 &lt;code&gt;dark:&lt;/code&gt; 覆盖。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;给智能体的文档要编译出来，别手写。&lt;/strong&gt;Mantine 每次发版都从和人类文档同一份 MDX 与 docgen 数据生成 &lt;code&gt;llms.txt&lt;/code&gt;、4.2 MB 的 &lt;code&gt;llms-full.txt&lt;/code&gt; 和 MCP 索引。Cloudscape 每天重新生成 &lt;code&gt;llms.txt&lt;/code&gt;，还给每个组件提供类型化的 JSON API 定义。调查的说法很直接："手写的智能体文档会腐烂，这些不会。"各家技能还不约而同用了渐进式披露：Carbon 是 24 KB 的 &lt;code&gt;SKILL.md&lt;/code&gt; 加 12 个参考文件，Chakra 用一棵覆盖约 114 个组件的决策树。常驻上下文保持很小，细节按需读取。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;分歧在哪。&lt;/strong&gt;和 Figma 的打通很薄。248 个公开仓库把 &lt;code&gt;@figma/code-connect&lt;/code&gt; 列为依赖，真正在用的只有 CDS（124 个文件）、Carbon（约 86 个）和 Primer（52 个）。Figma 正在推 code sources 和 MCP 写回，这个数字值得记住。开放程度也分成两派：Polaris 在 &lt;code&gt;robots.txt&lt;/code&gt; 里屏蔽 GPTBot 和 ClaudeBot，文档页都打上 &lt;code&gt;noai&lt;/code&gt;，所有 AI 调用只能走 Shopify 自己的受控工具链；Nuxt UI 反过来，用 RFC 9727 api-catalog 加 Markdown 内容协商，尽量让机器找得到。开源系统也开始收费了：MUI 的 MCP 里有付费的 &lt;code&gt;generateReactCode&lt;/code&gt;，Chakra 用 API key 解锁 Pro 模板，daisyUI 直接卖技能。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;前沿是公开评测。&lt;/strong&gt;Astryx 每晚跑一次基准，从六个维度把智能体写的 UI 和一个普通的 shadcn/Tailwind 基线对比，每次结果都公开。91 个晚上里，基线赢了 50 次。觉得上下文越多越好的人，看到这个数字该清醒一下。Atlassian 也公开了 MCP、技能、DESIGN.md 和无上下文四种方式的对比（另有一篇单独讲）。放回我们一直在跟的 DESIGN.md 线索里看，可移植的文件现在只是几种方案之一，调查给出的证据更支持按需加载的工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么用。&lt;/strong&gt;Dr. Web 建议的自测很简单：让编码智能体用你自己的设计系统做一个组件。结果如果很通用，缺的是机器接口，不是视觉设计。调查给出了一个先后顺序：先从文档流水线自动生成 &lt;code&gt;llms.txt&lt;/code&gt;，再加一个只读的 MCP 或技能，列出真实存在的组件和令牌，然后把生成过程挡在 CLI 或注册表后面，最后用一个智能体必须通过的 linter 收口。面向贡献者的投入和面向使用者的投入几乎不相关，21 个里只有 8 个两边都下了功夫。先想清楚你在服务哪一边。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://state-of-ai-in-design-systems.netlify.app/"&gt;https://state-of-ai-in-design-systems.netlify.app/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://state-of-ai-in-design-systems.netlify.app/insights.md"&gt;https://state-of-ai-in-design-systems.netlify.app/insights.md&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.drweb.de/design-systeme-ki-agenten-studie/"&gt;https://www.drweb.de/design-systeme-ki-agenten-studie/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.w3.org/community/design-tokens/"&gt;https://www.w3.org/community/design-tokens/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">bdec42d5-b008-50d4-adb1-f6234e394f4e</guid>
-      <pubDate>Mon, 09 Nov 2026 15:06:42 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://state-of-ai-in-design-systems.netlify.app/</link>
-      <enclosure url="https://www.drweb.de/wp-content/uploads/2026/08/state-of-ai-in-design-systems-wie-sich-20-design-systeme-fuer-ki-agenten-oeffnen-beitragsbild-1024x572.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Atlassian Tested DESIGN.md Against Its MCP Server: 92% More Tokens and Agents That Rebuild Components / Atlassian 实测 DESIGN.md 对比 MCP：token 多耗 92%，智能体还会重造组件</title>
-      <description>&lt;p&gt;When Google Labs released DESIGN.md in April, the pitch was a single Markdown file that would make any agent produce on-brand UI. Atlassian is one of the few big design-system teams to actually test that against its existing agent tooling, and it published the numbers. In a June 15 post, Kylor Hall (Principal Prompt Engineer) and Andrew Campbell (Senior Design Technologist) report that on a production task, agents given DESIGN.md used &lt;strong&gt;about 92% more tokens&lt;/strong&gt; than agents using Atlassian's MCP server. Those runs also showed 2.7x the run-to-run variance in tokens and took more turns, and agents often rebuilt components instead of importing them. The post resurfaced last month when the &lt;a href="https://state-of-ai-in-design-systems.netlify.app/"&gt;State of AI in Design Systems&lt;/a&gt; survey called published evals the field's frontier. It is still the clearest evidence on where a portable design file fits.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://atlassianblog.wpengine.com/wp-content/uploads/2026/06/designmd_tokens-rationale.jpg" alt="Diagram of Atlassian's DESIGN.md: YAML semantic tokens on top, Markdown design rationale below" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;DESIGN.md pairs machine-readable tokens (YAML frontmatter) with prose rationale (image: Atlassian)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;What Atlassian built.&lt;/strong&gt; The file at &lt;a href="https://atlassian.design/DESIGN.md"&gt;atlassian.design/DESIGN.md&lt;/a&gt; comes out of the same structured content pipeline that feeds Atlassian's MCP server and skills. It is about 80 KB: roughly 1,000 lines of YAML (every color, the type scale, spacing, radii, border widths, component "recipes") and about 700 lines of prose using RFC 2119 MUST/SHOULD language. It also has a Do/Don't table of "drift patterns to correct on sight." The don'ts include gradient text, glass cards and &lt;code&gt;backdrop-filter&lt;/code&gt; blur stacks, the "hero metric" template, Unicode glyphs used as icons, and Inter/Geist/SF Pro/Roboto in product UI. In other words, it bans the default look of AI-generated UI. Because the spec doesn't support theming yet, Atlassian ships a separate dark-mode file, &lt;code&gt;DESIGN.short.md&lt;/code&gt;. Some of the team's feedback has already been adopted into Google's spec.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The eval.&lt;/strong&gt; Agents built a simple login screen under four context conditions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;No context&lt;/strong&gt; (~5% of design-system context available): 4.20M tokens, 6m19s, 43 turns&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ADS MCP&lt;/strong&gt; (~80%): 3.75M tokens, 5m01s, 35.1 turns&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ADS skill&lt;/strong&gt; (~80%): 4.43M tokens, 5m23s, 36 turns&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DESIGN.md&lt;/strong&gt; (~30%): 7.21M tokens, 6m46s, 45.3 turns&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;DESIGN.md came out worst on all three cost measures, and it was also the only condition slower than giving the agent nothing.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://atlassianblog.wpengine.com/wp-content/uploads/2026/06/image-20260610-034811.png" alt="Atlassian table comparing token usage, time and turns for no context, MCP, skill and DESIGN.md" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Atlassian's internal results for the login-screen task (image: Atlassian)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Why the static file lost.&lt;/strong&gt; The authors give three mechanisms, and each applies to any team considering a DESIGN.md.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;It loads everything, every time.&lt;/strong&gt; The file is about 19,800 LLM tokens (about 10,700 without frontmatter) and sits in context for the whole run. That raises cost and makes context truncation happen sooner. MCP and skills fetch what they need when they need it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compression drops detail.&lt;/strong&gt; Atlassian's MCP and skills draw on about 2.5 MB of guidance. Fitting into 80 KB meant cutting usage guidance for 50+ components and dropping low-use tokens, so agents went reading component source to fill the gaps.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Describing internals invites rebuilding.&lt;/strong&gt; Because the spec explains component styling in prose and token references, agents "frequently re-created components rather than use the existing system." That is how tech debt gets in quietly: the result looks right and imports nothing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Where it won.&lt;/strong&gt; For the Team '26 keynote, Figma Make generated dashboards on Atlassian's Teamwork Graph with no access to internal MCP servers. With DESIGN.md, a one-shot prompt produced output that was recognizably Atlassian in color, spacing, shape, type and elevation. Without it, the result "works, technically, but it doesn't look like your brand." Atlassian's verdict is that DESIGN.md is "a portable snapshot of your design system, not a replacement for richer design system tooling."&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://atlassianblog.wpengine.com/wp-content/uploads/2026/06/designmd_comparison.jpg" alt="Side-by-side dashboards generated with and without Atlassian's DESIGN.md" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The same one-shot dashboard prompt with and without DESIGN.md (image: Atlassian)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The decision rule.&lt;/strong&gt; Use MCP or skills, together with lint and type checks, for production apps that have a real component library. Use DESIGN.md for four jobs: setting art direction where no written visual guidance exists, quick prototypes in tools you can't configure, design tools that assemble UI from their own prebuilt components, and customer theming of AI-generated reports and dashboards. The caveats are real. Atlassian discloses no models, prompts, run counts or quality rubric, and says the results aren't conclusive. Still, this answers the question left open in our DESIGN.md thread. With Figma Specs offering Markdown on the canvas and Google offering Markdown in the repo, the evidence says neither should be the only way production agents learn your system. Treat the file as an export format and the MCP server as the interface. A good next experiment for your own team is to run Atlassian's four-way test on one real screen and measure how often the agent imports components versus redraws them.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://www.atlassian.com/blog/how-we-build/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice"&gt;Atlassian: "Atlassian's DESIGN.md is here" (June 15, 2026)&lt;/a&gt;; &lt;a href="https://atlassian.design/DESIGN.md"&gt;atlassian.design/DESIGN.md&lt;/a&gt;; &lt;a href="https://state-of-ai-in-design-systems.netlify.app/systems/atlassian-design-system.md"&gt;State of AI in Design Systems: Atlassian record&lt;/a&gt;; &lt;a href="https://atlassian.design/get-started/develop/with-ai"&gt;Atlassian Design: develop with AI&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Google Labs 四月发布 DESIGN.md 时的卖点是：一个 Markdown 文件，就能让任何智能体做出符合品牌的 UI。大型设计系统团队里，Atlassian 是少数真拿它和自家现有智能体工具链比过、还把数字公开的。6 月 15 日，Kylor Hall（首席提示词工程师）和 Andrew Campbell（高级设计技术专家）发文说，在一个生产任务上，用 DESIGN.md 的智能体比用 Atlassian MCP 服务器的多耗了&lt;strong&gt;约 92% 的 token&lt;/strong&gt;。这些运行之间 token 用量的波动是 2.7 倍，轮次也更多，而且智能体经常自己重做组件，不去导入现成的。上个月 &lt;a href="https://state-of-ai-in-design-systems.netlify.app/"&gt;State of AI in Design Systems&lt;/a&gt; 调查把公开评测列为这个领域的前沿，这篇文章又被翻了出来。要判断可移植的设计文件该放在哪，它仍然是最清楚的证据。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Atlassian 做了什么。&lt;/strong&gt;&lt;a href="https://atlassian.design/DESIGN.md"&gt;atlassian.design/DESIGN.md&lt;/a&gt; 和他们的 MCP 服务器、技能出自同一条结构化内容流水线。文件约 80 KB：大约 1,000 行 YAML（全部颜色、字号阶梯、间距、圆角、边框宽度、组件"配方"），加上大约 700 行用 RFC 2119 的 MUST/SHOULD 写的说明。里面还有一张 Do/Don't 表，每一行都是"见到就要纠正的跑偏模式"。禁止的包括渐变文字、玻璃卡片和层层叠叠的 &lt;code&gt;backdrop-filter&lt;/code&gt; 模糊、"大号指标"模板、拿 Unicode 字符当图标，以及在产品界面里用 Inter/Geist/SF Pro/Roboto。说白了，禁掉的就是 AI 生成界面的默认长相。规范还不支持主题，所以深色模式单独放在 &lt;code&gt;DESIGN.short.md&lt;/code&gt;。他们给 Google 规范提的一些意见已经被采纳。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;评测怎么做的。&lt;/strong&gt;让智能体在四种上下文条件下做一个简单的登录页。无上下文（能拿到约 5% 的设计系统上下文）：420 万 token，6 分 19 秒，43 轮。ADS MCP（约 80%）：375 万 token，5 分 01 秒，35.1 轮。ADS 技能（约 80%）：443 万 token，5 分 23 秒，36 轮。DESIGN.md（约 30%）：721 万 token，6 分 46 秒，45.3 轮。三项成本指标 DESIGN.md 都垫底，而且它是唯一一个比"什么都不给"还慢的方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;静态文件为什么输。&lt;/strong&gt;作者给了三个原因，打算用 DESIGN.md 的团队每一条都会碰到。第一，每次全部加载。文件约 19,800 个 LLM token（去掉 frontmatter 约 10,700），整个运行期间都占着上下文，成本更高，上下文也更早被截断，而 MCP 和技能是按需取用。第二，压缩会丢细节。MCP 和技能背后约有 2.5 MB 的指南，要塞进 80 KB，就得删掉 50 多个组件的用法说明和不常用的令牌，结果智能体只好去翻组件源码补空缺。第三，把内部实现写出来，等于鼓励重做。规范用文字和令牌引用描述组件样式，智能体就"经常重新造组件，而不是用现有的系统"。技术债就是这样悄悄进来的：看着没问题，其实一个组件都没导入。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;它在哪赢了。&lt;/strong&gt;Team '26 主题演讲上，Figma Make 在没有内部 MCP 服务器的情况下，基于 Atlassian 的 Teamwork Graph 生成仪表盘。有 DESIGN.md 时，一句提示词生成的结果在颜色、间距、形状、字体、层级上一眼就是 Atlassian。没有它时，结果"技术上能用，但看着不像你的品牌"。Atlassian 的结论是：DESIGN.md 是"设计系统的一份可移植快照，不能替代更完整的设计系统工具"。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么选。&lt;/strong&gt;有真实组件库的生产应用，用 MCP 或技能，再配上 lint 和类型检查。DESIGN.md 适合四种场景：还没有成文视觉规范时定美术方向，在没法配置的工具里快速做原型，对接用自家预制组件拼 UI 的设计工具，以及让客户给 AI 生成的报表和仪表盘换主题。局限也很明显：Atlassian 没公开模型、提示词、运行次数和质量评分标准，自己也说结论不确定。但它回答了我们 DESIGN.md 线索里悬着的问题。Figma Specs 主张把 Markdown 放在画布上，Google 主张放进仓库，可证据表明，两者都不该是生产环境智能体了解设计系统的唯一途径。把文件当导出格式，把 MCP 当接口。想在自己团队验证的话，可以拿一个真实页面跑一遍这四种条件，看看智能体导入组件和重画组件的比例各是多少。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.atlassian.com/blog/how-we-build/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice"&gt;https://www.atlassian.com/blog/how-we-build/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://atlassian.design/DESIGN.md"&gt;https://atlassian.design/DESIGN.md&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://state-of-ai-in-design-systems.netlify.app/systems/atlassian-design-system.md"&gt;https://state-of-ai-in-design-systems.netlify.app/systems/atlassian-design-system.md&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://atlassian.design/get-started/develop/with-ai"&gt;https://atlassian.design/get-started/develop/with-ai&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9379f7b4-c885-5e05-80d0-1a7fd57e9b6c</guid>
-      <pubDate>Mon, 09 Nov 2026 15:06:42 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.atlassian.com/blog/how-we-build/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice</link>
-      <enclosure url="https://atlassianblog.wpengine.com/wp-content/uploads/2026/06/designmd.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 4,800 公里外的人以为是军舰开炮：1883 年喀拉喀托的爆炸声，是人类记录过最响的声音，气压波绕地球转了好几圈</title>
-      <description>&lt;p&gt;1883 年 8 月 27 日上午 10 点 02 分，印度洋上的罗德里格斯岛（Rodrigues，毛里求斯附近）有人听到东方传来一阵沉闷的轰鸣，像远处军舰在开炮。声音的来源在 4,800 公里之外——爪哇和苏门答腊之间的喀拉喀托（Krakatoa）火山。这是有可靠记录以来人类听到过的&lt;strong&gt;最响的声音&lt;/strong&gt;，而它的传播距离相当于从北京喊一嗓子，在新加坡被人听见。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Krakatoa_eruption_lithograph.jpg" alt="1888 年描绘喀拉喀托火山喷发的石版画" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1888 年的喀拉喀托喷发石版画（Wikimedia Commons，公有领域）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;离火山约 64 公里（40 英里）的英国船 Norham Castle 号上，船长在航海日志里写道：「爆炸如此猛烈，我一半以上船员的耳膜都被震破了。」再远一些，1,300 英里外的安达曼和尼科巴群岛、2,000 英里外的新几内亚和西澳大利亚，都有人听到。Nautilus 杂志整理当年的报告后统计，全球五十多个地点留下了「听到」的记录，覆盖了大约地球表面的十三分之一。&lt;/p&gt;
-
-&lt;p&gt;声音有多大？没人带着分贝计站在旁边，但有一个意外的仪器帮了忙。160 公里外巴达维亚（今雅加达）的煤气厂装着压力计，爆炸冲过来时，读数瞬间跳了超过 2.5 英寸汞柱。换算下来，在那个距离上声压级超过 172 分贝。作为参照：电钻约 100 分贝，人耳痛阈约 130 分贝，喷气发动机近处约 150 分贝。分贝是对数刻度，每加 10 分贝，主观响度大约翻倍。160 公里外还有 172 分贝，火山口附近是什么光景，很难想象。&lt;/p&gt;
-
-&lt;p&gt;更离谱的是另一个物理上限。地球大气里的「声音」最高只能到约 194 分贝——再往上，稀疏区的气压已经降到零，没法更稀了，波就不再是来回振荡的声波，而变成推着空气一起往前冲的冲击波。喀拉喀托近场早就越过了这条线。网上常见的「310 分贝」说法，其实是把冲击波的能量硬套进声学单位，物理上不成立。&lt;/p&gt;
-
-&lt;h3&gt;一个绕了地球好几圈的气压脉冲&lt;/h3&gt;
-
-&lt;p&gt;人耳听不到的部分更惊人。当时全球已经有不少气象站装了气压计，喷发后几小时，它们一个接一个记下了一个突兀的尖峰：加尔各答在 6 小时 47 分后，毛里求斯、墨尔本、悉尼约 8 小时，圣彼得堡 12 小时，纽约、华盛顿、多伦多约 18 小时。这个低频气压波以接近声速在地表扩散，到达喀拉喀托的对跖点（哥伦比亚附近）后重新汇聚，再折返回来。&lt;/p&gt;
-
-&lt;p&gt;接下来五天里，大约 50 座城市的气压计每隔约 34 小时就再记录到一次尖峰。脉冲朝两个方向各绕地球三到四圈，有些站点前后记到多达七次。英国皇家学会后来编了一份厚厚的调查报告，当时人管这东西叫「大气浪」（the great air-wave）。连印度、英格兰和旧金山的验潮站都记下了同步的水位起伏——是空气压着海面动，不是海啸本身走过去的。&lt;/p&gt;
-
-&lt;h3&gt;为什么是喀拉喀托，而不是坦博拉&lt;/h3&gt;
-
-&lt;p&gt;11 月 8 日这里写过 1815 年的坦博拉火山，它喷出的物质比喀拉喀托多得多，直接导致了 1816 年「无夏之年」。那为什么「史上最响」的头衔落在喀拉喀托头上？答案多半是时机。到 1883 年，海底电报电缆已经连通了各大洲，气象站有了自记式气压计，新闻能在一天内传遍全球。喀拉喀托是第一场被全球仪器网络「同时看见」的巨型喷发。坦博拉的爆炸声其实也在两千多公里外被当作炮声，但没有遍布全球的压力计帮它作证。&lt;/p&gt;
-
-&lt;p&gt;代价是惨烈的：30 多米高的海啸摧毁了 165 个沿海村镇，荷兰殖民当局的官方统计是 36,417 人死亡，也有估计超过 12 万。喷发柱冲上约 27 公里高空，此后几年世界各地出现了异常鲜红的晚霞——有学者猜测蒙克《呐喊》背景里那片血红的天空就跟它有关，不过这说法至今有争议。&lt;/p&gt;
-
-&lt;p&gt;这些 1883 年的气压记录到今天还在被翻出来用。2022 年汤加洪阿哈阿帕伊火山喷发时，全球的现代气压传感器同样记下了绕地球多圈的兰姆波（Lamb wave），研究者（Matoza 等人 2022 年发表于 Science）把两次数据摆在一起比较，结论是汤加这次的大气波振幅和喀拉喀托处在同一量级。140 年前的纸带记录，成了现代火山学的标尺。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/"&gt;Nautilus: The Sound So Loud That It Circled the Earth Four Times&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"&gt;Wikipedia: 1883 eruption of Krakatoa&lt;/a&gt;；&lt;a href="https://www.discoverwildlife.com/environment/loudest-recorded-noise"&gt;BBC Wildlife: loudest recorded noise&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/"&gt;https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"&gt;https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.discoverwildlife.com/environment/loudest-recorded-noise"&gt;https://www.discoverwildlife.com/environment/loudest-recorded-noise&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">045be24e-cc36-5db1-9a79-cf7c02354a22</guid>
-      <pubDate>Mon, 09 Nov 2026 16:30:29 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/4/49/Krakatoa_eruption_lithograph.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 1859 年的电报员拔掉电池，靠极光的感应电流聊了两个小时——卡林顿事件，有记录以来最强的太阳风暴</title>
-      <description>&lt;p&gt;1859 年 9 月 2 日凌晨，波士顿和缅因州波特兰之间的电报员做了一件现在听起来像科幻小说的事：他们拔掉了电池，靠天上的极光给电报线供电，照样收发了大约两个小时的电报。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg" alt="理查德·卡林顿 1859 年 9 月 1 日手绘的太阳黑子群与耀斑位置" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;卡林顿 1859 年 9 月 1 日的黑子手绘图，A、B、C、D 标出了他看到的白光耀斑（Wikimedia Commons，公有领域）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一位业余天文学家的五分钟&lt;/h3&gt;
-
-&lt;p&gt;故事要从前一天中午说起。9 月 1 日上午 11 点多，英国萨里郡雷德希尔（Redhill）的业余天文学家理查德·卡林顿（Richard Carrington）正把太阳的像投影到屏幕上描黑子。突然，一大片黑子群里冒出两团刺眼的白光，亮得像要「烧穿」画面。他跑出去找人来当见证，回来时光斑已经开始减弱，前后只持续了几分钟。同一时刻，伦敦海格特的另一位业余观测者理查德·霍奇森（Richard Hodgson）也独立看到了。这是人类第一次有记录地观测到&lt;strong&gt;太阳耀斑&lt;/strong&gt;（solar flare）。&lt;/p&gt;
-
-&lt;p&gt;邱园天文台（Kew Observatory）的磁强计在同一时刻记下了一个小小的扰动，负责人 Balfour Stewart 注意到了。卡林顿怀疑两者有关联，但很克制地写了一句：「一只燕子不成夏天。」他没敢下结论。&lt;/p&gt;
-
-&lt;h3&gt;17.6 小时后，天空着火了&lt;/h3&gt;
-
-&lt;p&gt;这次耀斑伴随的日冕物质抛射（Coronal Mass Ejection, CME）只用了大约 17.6 小时就冲到地球。通常这段旅程要两到三天。一种解释是几天前刚有一次较小的 CME 先把行星际空间「扫干净」了，第二波一路畅通。&lt;/p&gt;
-
-&lt;p&gt;结果是有记录以来最强的地磁暴。极光一路向赤道推进，加勒比海和哥伦比亚都有人看见。落基山脉里的淘金工人半夜被照醒，以为天亮了，起床开始做早饭。美国东北部有人借着极光在户外读报纸。远在南半球，澳大利亚和智利的天空同样发红。&lt;/p&gt;
-
-&lt;p&gt;电报网络是当时唯一的「高科技基础设施」，它首当其冲。欧洲和北美的线路大面积瘫痪，不少电报站冒出火花，有的纸带被点着。在华盛顿，一位叫 Frederick Royce 的电报员额头碰到接地线，被电得不轻。匹兹堡的报道说，线路上的铂触点都快被感应电流熔化了。&lt;/p&gt;
-
-&lt;p&gt;然后就是开头那一幕。地磁场剧烈变化，在几百公里长的导线里感应出强电流。波士顿的电报员对波特兰发报：请把你的电池从线路上完全断开十五分钟。波特兰回答：照办，已断开。波士顿接着说：我这边也断开了，我们现在用的是极光电流。两边就这么用「天电」聊了两个小时。&lt;/p&gt;
-
-&lt;h3&gt;如果今天再来一次&lt;/h3&gt;
-
-&lt;p&gt;2024 年有研究者把邱园和格林尼治天文台的老磁强计纸带数字化，估计当时英国上空磁场的变化速率超过每分钟 700 纳特斯拉（nT/min），而同纬度「百年一遇」的标准只有 350-400 nT/min。这个变化率决定了长距离导线里会感应出多大电流——今天的长导线叫高压输电网。&lt;/p&gt;
-
-&lt;p&gt;1989 年 3 月一次强度远不如卡林顿的磁暴，就让加拿大魁北克全省停电 9 个小时。2012 年 7 月，一次卡林顿级别的 CME 从地球轨道擦过，只差大约 9 天——如果早一周喷发，正对地球。2013 年劳合社（Lloyd's）与 AER 的评估是，类似事件可能给美国造成 6,000 亿到 2.6 万亿美元的损失，约占当年 GDP 的 3.6% 到 15.5%。&lt;/p&gt;
-
-&lt;p&gt;卡林顿事件也不是天花板。树轮里的碳-14 和冰芯里的铍-10 记录显示，公元 774-775 年和 993-994 年各发生过一次更猛的太阳粒子事件，前者的规模估计是卡林顿的十倍左右，被称为「三宅事件」（Miyake event），以发现它的日本学者三宅芙沙命名。早年有人用格陵兰冰芯里的硝酸盐峰值「证明」卡林顿事件留下了痕迹，后来发现那些峰值多半来自森林火灾，这条证据现在基本不被采信。&lt;/p&gt;
-
-&lt;p&gt;2024 年 5 月那场让加州、德国甚至印度北部都看到极光的 G5 级磁暴，算是这代人离卡林顿最近的一次体验。它的 Dst 指数约为 -412 nT，还不到卡林顿事件估计值（-800 到 -1,750 nT）的一半，就已经让美国中西部不少依赖 GPS 自动驾驶的拖拉机在播种季暂时「迷路」。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Carrington_Event"&gt;Wikipedia: Carrington Event&lt;/a&gt;；&lt;a href="https://www.history.com/articles/a-perfect-solar-superstorm-the-1859-carrington-event"&gt;History.com: A Perfect Solar Superstorm&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Carrington_Event"&gt;https://en.wikipedia.org/wiki/Carrington_Event&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.history.com/articles/a-perfect-solar-superstorm-the-1859-carrington-event"&gt;https://www.history.com/articles/a-perfect-solar-superstorm-the-1859-carrington-event&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d2845c5a-d279-5820-871f-f628618987ce</guid>
-      <pubDate>Mon, 09 Nov 2026 16:30:29 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Carrington_Event</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 冠军喝了老鼠药兑白兰地、被人架着过线，第一个冲线的坐了汽车：1904 年奥运马拉松，主办方故意只设一处水源</title>
-      <description>&lt;p&gt;1904 年圣路易斯奥运会马拉松的冠军，是一个被灌了老鼠药、一路幻觉、最后被两名助手架着「走」过终点的人。而他还不是第一个冲线的——第一个冲线的人坐了一段汽车。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Marathon_Hicks1904.jpg" alt="1904 年奥运马拉松中托马斯·希克斯在助手陪同下比赛" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1904 年马拉松途中的 Thomas Hicks 与他的助手们（Wikimedia Commons，公有领域）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一场被设计成折磨的比赛&lt;/h3&gt;
-
-&lt;p&gt;1904 年的奥运会是附属于圣路易斯世界博览会的，赛程拖了好几个月，组织混乱。马拉松定在 8 月 30 日下午 3 点开跑，那是一天里最热的时候，起跑气温约 32°C。赛道全长约 40 公里，除了开头在体育场跑五圈，其余全是尘土飞扬的乡间土路，有七座陡坡。官员、医生和记者坐着汽车在选手前后来回开，扬起的尘土一路糊在运动员脸上。选手们还得躲马车、火车、有轨电车和遛狗的路人。&lt;/p&gt;
-
-&lt;p&gt;整条路线只有一处水源：大约 12 英里处的一口井。这不是疏忽。赛事总负责人 James Sullivan 公开说，他想借这场比赛研究&lt;strong&gt;「有意脱水」&lt;/strong&gt;（purposeful dehydration）对人体的影响。32 名来自 7 个国家的选手出发，最终只有 14 人完赛。&lt;/p&gt;
-
-&lt;h3&gt;汽车、士的宁和白兰地&lt;/h3&gt;
-
-&lt;p&gt;先说第一个冲线的 Fred Lorz。他跑到约 9 英里处就抽筋退赛，搭上一辆汽车往回开。车在大约 19 英里处抛锚了，他神清气爽地下车，重新跑起来，以 3 小时 13 分冲过终点。观众欢呼，他已经站好准备合影——据说当时总统罗斯福的女儿 Alice 都准备给他戴花环——直到有人揭穿。Lorz 辩称只是开玩笑。美国业余体育联合会（AAU）先判他终身禁赛，第二年 2 月又减为半年。1905 年，他正儿八经地赢了波士顿马拉松。&lt;/p&gt;
-
-&lt;p&gt;真正的冠军 Thomas Hicks 是英国出生的美国人。离终点还剩 10 英里时，他领先 1.5 英里，但已经快不行了，嚷着要躺下。他的两名助手拒绝给他水，而是用海绵蘸温水给他擦嘴，然后喂了一剂士的宁（strychnine，也就是老鼠药的主要成分，小剂量时是当时的「兴奋剂」）混蛋清。后来又加了一剂，配白兰地。最后几英里，Hicks 出现幻觉、几乎迈不开腿，助手们一边一个架着他往前挪。他以 3 小时 28 分 53 秒「跑」完，被担架抬下去，四名医生抢救，体重掉了约 3.6 公斤。这通常被认为是奥运史上第一起有记录的服用兴奋剂事件，只是当时根本没有相关禁令。&lt;/p&gt;
-
-&lt;h3&gt;配角们更离奇&lt;/h3&gt;
-
-&lt;p&gt;第四名是古巴邮差 Andarín Carvajal。他为了参赛一路募捐来到美国，结果在新奥尔良赌博输光了钱，只好搭便车到圣路易斯，赛前已经约 40 小时没吃东西。他穿着长裤和长袖衬衫上场，有人临时帮他把裤腿剪短。路上他一边跑一边和观众聊天练英语，顺手从观众手里抢了两个桃子，又钻进果园吃了几个烂苹果，结果肚子绞痛，干脆躺在路边睡了一觉。睡醒接着跑，还是拿了第四。&lt;/p&gt;
-
-&lt;p&gt;来自南非的 Len Taunyane 和 Jan Mashiani 是茨瓦纳人，他们当时在世博会的「布尔战争展」里做表演人员，算是最早参加奥运会的黑人非洲选手。Taunyane 半路被一条狗追离赛道约一英里，最终第九；不少人认为没有那条狗，他能进前五。美国选手 William Garcia 被人发现昏倒在路边，汽车扬起的尘土让他吸入过多，造成严重内伤，差点送命。&lt;/p&gt;
-
-&lt;p&gt;这场比赛的后果很直接：之后很长一段时间，有人主张把马拉松逐出奥运会，认为它对人体太危险。马拉松保住了，补水站和禁药规则后来也都有了。只是 Hicks 的金牌至今没人收回——按当时的规则，他什么也没违反。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon"&gt;Wikipedia: 1904 Olympic men's marathon&lt;/a&gt;；&lt;a href="https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/"&gt;Smithsonian: How the 1904 Marathon Became One of the Weirdest Olympic Events&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Thomas_Hicks_(athlete)"&gt;Wikipedia: Thomas Hicks&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon"&gt;https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/"&gt;https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Thomas_Hicks_(athlete)"&gt;https://en.wikipedia.org/wiki/Thomas_Hicks_(athlete)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f699ffb2-664f-5c0a-885e-e32f83586020</guid>
-      <pubDate>Mon, 09 Nov 2026 16:30:30 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/6/66/Marathon_Hicks1904.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 一个词重复 30 遍就会「失去意义」：语义饱和与未视感，一项被罚抄写启发的研究拿了搞笑诺贝尔奖</title>
-      <description>&lt;p&gt;试试看：在心里把「门」这个字连说三十遍。说到第二十几遍，你大概会觉得它突然变成一个陌生的音节，好像从来不知道它是什么意思。这不是你累了，心理学里它有正式名字——&lt;strong&gt;语义饱和&lt;/strong&gt;（Semantic Satiation）。2023 年，研究它的一篇论文还拿了搞笑诺贝尔文学奖。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/548389/original/file-20230914-9125-llzb2a.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" alt="The Conversation 关于 jamais vu 研究的配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;O'Connor 与 Moulin 在 The Conversation 上介绍 jamais vu 研究时的配图&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;从 1907 年的「盯字实验」开始&lt;/h3&gt;
-
-&lt;p&gt;最早系统记录这种现象的，是美国心理学家 Margaret Floy Washburn。1907 年她和学生 Elizabeth Severance 发表了一项实验：让人盯着一个词看整整三分钟。被试报告说，词会「失去联想能力」，变得古怪、陌生，最后像一堆没意义的笔画。论文标题就叫《长时间注视后词语联想力的丧失》。Washburn 本人是美国第一位拿到心理学博士学位的女性（1894 年），1921 年又成为美国心理学会第二位女会长。&lt;/p&gt;
-
-&lt;p&gt;「语义饱和」这个术语出现得晚得多。1962 年，麦吉尔大学（McGill University）的博士生 Leon Jakobovits（后来改名 Leon James）在导师 Wallace Lambert 指导下完成了论文《重复刺激对行为认知层面的影响：语义饱和现象的若干实验》。他让被试反复大声念一个词，再去给这个词打分、归类、做加法或做双语翻译，发现重复之后这些任务都会变难一点。他的解释借用了神经生理学里的「反应性抑制」（reactive inhibition）：同一组神经通路被高频反复激活，每次的响应强度都在下降，最后意义那一层「点不亮」了。&lt;/p&gt;
-
-&lt;p&gt;这个解释后来被挑过刺。1997 年 Pilotti 等人认为饱和可能发生在更早的「前语义」阶段——先是声音或字形的识别疲劳，意义只是被连带拖下水。2000 年 Kounios 等人的实验又显示，它不能简单归结为感知输入变弱。机制至今没有定论。&lt;/p&gt;
-
-&lt;h3&gt;2023 年的搞笑诺贝尔奖&lt;/h3&gt;
-
-&lt;p&gt;英国圣安德鲁斯大学的 Akira O'Connor 和法国格勒诺布尔-阿尔卑斯大学的 Christopher Moulin 把这件事往前推了一步。Moulin 的灵感来自中学时被罚抄写——抄到后来，句子开始变得很「怪」。&lt;/p&gt;
-
-&lt;p&gt;他们让 94 名本科生反复抄写 12 个词中的一个，从常见的「door」到冷僻的「sward」（草地），想停就停，只需说明原因（无聊、手酸，或者「感觉不对劲」）。结果约 70% 的人至少因为「怪异感」停下过一次，平均出现在第 33 遍左右，大约一分钟，而且越常见的词越容易出现。第二个实验只让人写「the」：55% 的人在约 27 遍后因为同类原因停笔。有被试形容，这个词「看起来不太对，几乎不像一个真词」。论文 2020 年发表在期刊 Memory 上，2023 年获得搞笑诺贝尔文学奖。&lt;/p&gt;
-
-&lt;p&gt;两人把这种体验归入「未视感」（jamais vu）——déjà vu 的反面：明明极其熟悉的东西，突然显得从未见过。他们的观点是，这种怪异感其实有用。它是一个信号，告诉大脑当前的处理「太自动、太流畅、太重复了」，该跳出来重新检查一下。换句话说，那种不真实感恰恰是一次「现实检查」。他们还提出，这可能有助于理解强迫症（OCD）：反复检查门有没有锁，检查到后来「锁好了」这件事本身失去意义，于是只好再检查一次，陷入循环。&lt;/p&gt;
-
-&lt;h3&gt;汉字读者其实更熟悉它&lt;/h3&gt;
-
-&lt;p&gt;中文读者对它的「视觉版」大概更有体会：盯着一个汉字看久了，会觉得它的结构散架了，越看越不像字，这在心理学里叫「完形崩溃」（Gestaltzerfall）。听觉上也有一个反方向的近亲。1995 年，加州大学圣地亚哥分校的 Diana Deutsch 在录 CD 时发现，把她自己说的一句话「sometimes behave so strangely」循环播放几遍，这句话就从说话变成了唱歌，而且一旦听成歌，就再也回不去了。重复能让意义消失，也能让旋律浮出来。&lt;/p&gt;
-
-&lt;p&gt;Jakobovits 当年还想过用它治病：既然重复能削弱一个词的情绪含义，那反复念让人恐惧的词，是否能减轻恐惧？后来确实有人把它用在减轻口吃者的言语焦虑上。下次你在会上把「对齐」说到第十遍突然卡壳，至少可以说这是认知系统在正常工作。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Semantic_satiation"&gt;Wikipedia: Semantic satiation&lt;/a&gt;；&lt;a href="https://theconversation.com/jamais-vu-the-science-behind-eerie-opposite-of-deja-vu-213596"&gt;The Conversation: Jamais vu, the science behind eerie opposite of déjà vu&lt;/a&gt;；&lt;a href="https://escholarship.mcgill.ca/downloads/02871064n"&gt;McGill eScholarship: Jakobovits 1962 博士论文&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Speech-to-song_illusion"&gt;Wikipedia: Speech-to-song illusion&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Semantic_satiation"&gt;https://en.wikipedia.org/wiki/Semantic_satiation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://theconversation.com/jamais-vu-the-science-behind-eerie-opposite-of-deja-vu-213596"&gt;https://theconversation.com/jamais-vu-the-science-behind-eerie-opposite-of-deja-vu-213596&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://escholarship.mcgill.ca/downloads/02871064n"&gt;https://escholarship.mcgill.ca/downloads/02871064n&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Speech-to-song_illusion"&gt;https://en.wikipedia.org/wiki/Speech-to-song_illusion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">803e09d5-78e4-5c14-a61a-20c54ba1fde9</guid>
-      <pubDate>Mon, 09 Nov 2026 16:30:30 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Semantic_satiation</link>
-      <enclosure url="https://images.theconversation.com/files/548389/original/file-20230914-9125-llzb2a.jpg?ixlib=rb-4.1.1&amp;q=45&amp;auto=format&amp;w=754&amp;fit=clip" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 右手扣扣子，左手跟着解开：异手综合征，被自己的手打耳光的人，和「奇爱博士」这个外号</title>
-      <description>&lt;p&gt;一个女人用右手把烟放进嘴里，左手立刻伸过来把烟拔掉、扔到一边。她用右手扣衬衫纽扣，左手跟在后面一颗颗解开。她没有任何恶作剧的意思——她只是控制不了自己的左手。神经科医生管这叫&lt;strong&gt;异手综合征&lt;/strong&gt;（Alien Hand Syndrome），也有人叫它「奇爱博士综合征」。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Corpus_callosum.png" alt="胼胝体在大脑中的位置示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;连接左右脑半球的胼胝体（Corpus Callosum），它的损伤是异手综合征最典型的成因之一（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;1908 年的第一个病例&lt;/h3&gt;
-
-&lt;p&gt;最早的病例报告来自德国神经学家 Kurt Goldstein，1908 年。病人是一位右利手的中年女性，中风影响了她的左侧身体。她坚持说左手「属于别人」，左手一旦抓住东西就不肯放，她自己掰都掰不开。后来的转述里常提到，这只手还曾掐住过她自己的脖子，得靠右手把它拉开。病人去世后的尸检显示，她的胼胝体确实有损伤。他由此推测，人的「意志」需要左右脑之间的联络才能统一调度双手。&lt;/p&gt;
-
-&lt;p&gt;1945 年，美国医生 Andrew Akelaitis 在接受胼胝体切开术（Corpus Callosotomy）的癫痫病人身上看到了更戏剧性的版本。这种手术把连接左右半球的约两亿根神经纤维切断，用来阻止癫痫放电从一侧扩散到另一侧。手术控制了发作，但有个病人用右手翻书，左手一次次把书合上。Akelaitis 把这叫做「对角失用」（diagonistic dyspraxia）——两只手像两个各有主意的人在打架。&lt;/p&gt;
-
-&lt;h3&gt;三种「异手」&lt;/h3&gt;
-
-&lt;p&gt;今天的神经学大致把它分成三类，取决于损伤在哪儿：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;胼胝体型&lt;/strong&gt;：两只手互相作对，一只做、一只拆，所谓「手间冲突」（intermanual conflict）。&lt;/li&gt;
-&lt;li&gt;额叶型：内侧额叶（尤其是辅助运动区，Supplementary Motor Area）受损，手会不由自主地去够、去抓眼前的东西，抓住了不放，有学者形容为「磁性失用」。&lt;/li&gt;
-&lt;li&gt;后部型：顶叶或枕叶受损，手反而会躲开接触，有时还会自己悬浮到半空。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;机制上，最流行的解释跟「能动感」（sense of agency）有关。正常情况下，大脑在发出运动指令的同时，会给自己抄送一份「副本」（efference copy），等手动了，实际感觉和预期一对上，你就知道「这是我干的」。如果这份副本在半路丢失，手的动作就像别人干的一样。病人往往能清楚地看到、感觉到左手在动，却完全不觉得那是自己的意图。&lt;/p&gt;
-
-&lt;h3&gt;被自己的手打耳光&lt;/h3&gt;
-
-&lt;p&gt;2011 年，BBC 的 Michael Mosley 在纪录片《The Brain: A Secret History》里采访了新泽西的 Karen Byrne。她为了治疗严重癫痫做了胼胝体切开术，癫痫好了，左手却开始「造反」：会解开她的衬衫纽扣，会把她刚放进包里的东西掏出来，还会扇她耳光、打她，留下淤青。她后来接受美国公共广播的采访时说，左手会「直接一巴掌糊在我脸上」。&lt;/p&gt;
-
-&lt;p&gt;没有什么根治的办法。最实用的对策反而很朴素：给那只手找点事做。有病人拿着一根根本用不上的拐杖，就为了让左手有东西握着；也有人把手夹在双腿之间，或者泡温水。急性中风引起的病例，一年内多半会慢慢恢复。&lt;/p&gt;
-
-&lt;p&gt;「奇爱博士」这个名字来自库布里克 1964 年的电影《奇爱博士》（Dr. Strangelove）。彼得·塞勒斯演的那位前纳粹科学家，右手总是不受控地举起来行纳粹礼，他得用左手把它按下去。有人曾提议把它作为正式病名，没被采纳，但这个外号一直在用。&lt;/p&gt;
-
-&lt;p&gt;之前这里写过卡普格拉妄想（觉得亲人被冒名顶替）和科塔尔综合征（坚信自己已经死了）。异手综合征是同一个谜题的第三张面孔：大脑决定「什么属于我」的那套机制，原来是可以坏掉的——坏在不同的地方，就有了不同的怪病。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Alien_hand_syndrome"&gt;Wikipedia: Alien hand syndrome&lt;/a&gt;；&lt;a href="https://www.wamc.org/2017-07-29/when-your-hand-has-a-mind-of-its-own"&gt;WAMC/NPR: When Your Hand Has A Mind Of Its Own&lt;/a&gt;；&lt;a href="https://boingboing.net/2011/01/25/alien-hand-syndrome-3.html"&gt;Boing Boing: Alien hand syndrome sufferer（BBC 报道转述）&lt;/a&gt;；&lt;a href="https://www.nbcnews.com/health/body-odd/when-one-hand-develops-mind-its-own-flna1c6437669"&gt;NBC News: When one hand develops a mind of its own&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Alien_hand_syndrome"&gt;https://en.wikipedia.org/wiki/Alien_hand_syndrome&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.wamc.org/2017-07-29/when-your-hand-has-a-mind-of-its-own"&gt;https://www.wamc.org/2017-07-29/when-your-hand-has-a-mind-of-its-own&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://boingboing.net/2011/01/25/alien-hand-syndrome-3.html"&gt;https://boingboing.net/2011/01/25/alien-hand-syndrome-3.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nbcnews.com/health/body-odd/when-one-hand-develops-mind-its-own-flna1c6437669"&gt;https://www.nbcnews.com/health/body-odd/when-one-hand-develops-mind-its-own-flna1c6437669&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">6fbecbf8-a44a-590c-8ac5-df2a795f20ae</guid>
-      <pubDate>Mon, 09 Nov 2026 16:30:30 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Alien_hand_syndrome</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/6/60/Corpus_callosum.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 感恩节、圣诞节坐 Caltrain：11/26 跑周末班，11/27 时刻表还没出</title>
-      <description>&lt;p&gt;先说结论：感恩节当天（11/26，周四）Caltrain 跑的是周末时刻表，第二天 11/27 是"改动时刻表"（Modified Schedule），而这份改动时刻表现在还没公布。Caltrain 官网的原话是，改动时刻表会在假期前几周才放出来，所以 11/27 要进城逛街或者去机场的人，先别急着定时间。&lt;/p&gt;
-
-&lt;p&gt;官网列的 2026 年底假期安排是这样：11/11 退伍军人节按工作日班次，也就是明天；11/26 感恩节按周末班次；11/27 改动班次；12/24 平安夜改动班次；12/25 圣诞节周末班次；12/31 按工作日班次。官网备注里还有一句老话：所有时刻表随时可能调整，不另行通知。&lt;/p&gt;
-
-&lt;p&gt;周末班次比工作日稀，这是平时坐 Caltrain 周末出门的人都知道的事。感恩节那天如果要去 SF 或者 San Jose 赴饭局，别按平时通勤的节奏估时间，回程尤其要留余量，错过一班可能就得在站台上多等不少时间。&lt;/p&gt;
-
-&lt;p&gt;月票（Monthly Pass）的规则比较友好：上面这些假日里，除了 12/24 平安夜，月票在所有分区都照常有效。平安夜那天月票不认，要另外买票，这一点很容易漏掉。另外 2026 年的表里没有 2027 年 1 月 1 日的条目，元旦那天怎么跑，得等官网补。&lt;/p&gt;
-
-&lt;p&gt;还有一个跟假期无关、但会影响体验的通知：San Jose Diridon 站从 10/19 开始施工，一直持续到 12 月。官网的提示是"看站内标示，查看显示屏上的轨道分配变化"。意思就是你熟悉的那个站台可能临时换了，去 Diridon 转 VTA 或者接 Amtrak/ACE 的人多留几分钟找站台。年初 1 月 31 日那次改点已经把电气化列车恢复到了 Tamien 站，所以南端的班次安排今年和去年不太一样。&lt;/p&gt;
-
-&lt;p&gt;BART 的情况我没查到 2026 年的官方假期安排。去年（2025）感恩节 BART 是按周日班次跑的，第二天恢复工作日班次，今年大概率类似，但这只是参照往年，要转乘的话去 bart.gov 确认再出门。&lt;/p&gt;
-
-&lt;p&gt;我们前两天写过的感恩节周活动（Turkey Trot、Dickens Fair）里，有不少是要往 SF 或者 Daly City 方向跑的，那些行程也受这张表影响。11/27 的时刻表一出来，如果有变化我会再补一篇。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.caltrain.com/holidays"&gt;Caltrain 2026 Holiday Service&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.caltrain.com/holidays"&gt;https://www.caltrain.com/holidays&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f96475d9-9ca5-50fd-a51d-ef5156a6c3cf</guid>
-      <pubDate>Tue, 10 Nov 2026 12:09:47 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.caltrain.com/holidays</link>
-      <enclosure url="https://www.caltrain.com/files/images/2026-06/Passengers-looking-at-pamphlet.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Resy 十月榜单里不太难订的旧金山新店：SAAM、Prubechu、Esme</title>
-      <description>&lt;p&gt;Resy 的旧金山 Hit List 10 月 1 日更新了一版（编辑 Justin Goldman），20 家里有一批是今年新开的。大部分是米其林级别的高价店，我只挑了几家不用提前一个月抢位、人均也不算夸张的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SAAM&lt;/strong&gt; 是泰餐，价位标 $，今年 7 月开业，主厨是 Thitid "Ton" Tassanakajohn，和 Song Wat 的 Tee Atthapon 一起做。店名在泰语里是"三"，指辣、咸、酸。榜单推荐 Monterey 鱿鱼配黑墨酱粉丝。位置有点乱：榜单列表写 China Basin，正文写 SOMA，出发前自己查一下地图。&lt;/p&gt;
-
-&lt;p&gt;Prubechu 在 Mission，做查莫洛（Chamorro，关岛原住民）菜，$$。两位老板 Shawn Naputi 和 Shawn Camacho 都是关岛人。菜单有椰子醋配打发黄油的甜面包卷、烤猪肋排、酥炸彩虹鳟 escabeche，还有葱油炖木薯。Fiesta Table 套餐 $96，院子里有现场乐队。湾区能吃到关岛菜的地方真不多，这家算是少见的。&lt;/p&gt;
-
-&lt;p&gt;Esme 在 Divisadero，开在 Metro Hotel 一楼，法式小馆，$$。主厨 Susan Dunn 之前在 Pearl 6101。鸡肝慕斯配草莓甜菜 mostarda，煎黑鳕鱼，烤鸡配玉米粥。大部分按杯卖的酒不到 $16，这在 SF 算很克制了。&lt;/p&gt;
-
-&lt;p&gt;两家披萨和意大利菜：Rose Pizzeria 的 SF 店 4 月底开，$，有辣凯撒沙拉和 Chicago tavern-style 的薄脆披萨（Tonda Romana），榜单写 Inner Richmond、正文写 Inner Sunset，同样自己核对。Polenta Trattoria Friulana 在 Alamo Square，$$，5 月开，做意大利东北部弗留利（Friuli）的菜：炸猪排、阿尔卑斯鳟鱼、手工香肠肉酱蛋面。&lt;/p&gt;
-
-&lt;p&gt;想吃中餐的话，榜单上有两家要提前做功课。Mister Jiu's 在唐人街，十周年，招牌是整只北京烤鸭套餐，Tock 订位。Fù Huì Huá 在 Mission，是 10 道菜、8 个吧台位的中式 omakase；去年被 Chronicle 和 Eater 同时评为湾区年度最佳新店，现在订位改成 Tock Notify 候补加抽签，最近两个月订过的人优先级往后排。想去的话先去登记吧，抽不抽得到全看运气。&lt;/p&gt;
-
-&lt;p&gt;提醒一句：Resy 只给了街区，没给街道地址，页面日期也是 10 月 1 日，菜单和价格到现在可能已经变了，订位前看一下各家官网。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/"&gt;Resy Hit List: San Francisco, Oct. 2026&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/"&gt;https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">3b235c9c-55f3-5520-8bd3-5b693bbfbcac</guid>
-      <pubDate>Tue, 10 Nov 2026 12:09:48 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/</link>
-      <enclosure url="https://blog.resy.com/wp-content/uploads/2026/10/prubechu-1-2000x1125.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 周末开车出城吃饭：Point Reyes、Berkeley、Los Gatos、Sonoma 的新店</title>
-      <description>&lt;p&gt;同一份 Resy 10 月榜单里，有一半以上的新店根本不在旧金山市区。对住 Menlo Park 的人来说，这些反而更适合安排成一个周末的目的地。&lt;/p&gt;
-
-&lt;p&gt;最远也最像周末小旅行的是 Bar Auklet，在 Point Reyes Station，开在原来 Station House Cafe 的位置。主厨 Shannon Gregory 是 Marshall Store 出来的，$$。榜单提到本地生蚝、腌鳀鱼吐司、Dungeness 蟹蒜香面、腌鲭鱼 aguachile 和鸭心串。户外座位有 happy hour，汉堡、鱼肉塔可、炸鸡各 $15，对 Point Reyes 这个价位的地方算友好。蟹季提醒：商业蟹季已延到至少 2027 年 1 月 1 日，这页写的是 10 月初的菜单，蟹面现在能不能点到，去之前问一下。&lt;/p&gt;
-
-&lt;p&gt;往东湾走，West Berkeley 的 Divan 在 Fourth Street，土耳其菜，$$，团队是 SF 那两家 Lokma 和 Taksim 的原班人马。午餐 6 月开，晚餐 7 月开。白天有 mezze、fattoush、烤肉和 pide，晚上多了鲈鱼和羊排；酒吧做桶陈 old-fashioned 和土耳其咖啡味的 espresso martini。Piedmont 的 The Wolf 是 Rich 和 Rebekah Wood 夫妇开的，他们之前关了 Oakland 的 Wood Tavern。房子是 Craftsman 风格，前身是 Bay Wolf。菜单有鸭肝酱配酪乳饼干、南瓜籽 salsa macha 烤甜菜胡萝卜、西班牙章鱼，有带顶的露台。&lt;/p&gt;
-
-&lt;p&gt;对南湾来说最近的是 Los Gatos 的 Vicinity，藏在 Tasting House 旁边的 16 席"地下酒吧"式小空间，主厨 Julian Silvera，13 道加州风味套餐。一道叫"Santa Cruz"的菜是昆布蒸鲍鱼配月桂腌北海道扇贝，另一道"East Bay"是炸玉米饼配烟熏玉米泥的羊里脊。价格榜单没写，这类套餐通常不便宜，订之前去官网确认。（这三家的细节来自榜单摘要，不是我逐字读到的原文。）&lt;/p&gt;
-
-&lt;p&gt;再往北是 Sonoma：Valley Bar &amp;amp; Bottle 在 Sonoma Plaza，两位主厨 Emma Lipp 和 Stephanie Reagor 是 2026 年 Beard 奖的提名人，早午餐有 chilaquiles，晚上有猪排配腌菊苣和 tonnato、樱桃油封鸭腿，隔壁还卖橄榄油和自然酒。同一个广场边上的 Enclos 是三星，主厨 Brian Limoges（做过 Atelier Crenn、Quince、Saison），8 到 10 道菜，人均 $295。这家就属于特殊日子才去的了。&lt;/p&gt;
-
-&lt;p&gt;如果只能挑一家：不想开太远，Divan；想顺便看海，Bar Auklet。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/"&gt;Resy Hit List: San Francisco, Oct. 2026&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/"&gt;https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e430e652-5ed5-5e99-88f3-65efaa11c84b</guid>
-      <pubDate>Tue, 10 Nov 2026 12:09:48 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://blog.resy.com/the-hit-list/sf-restaurants-oct-2026/</link>
-      <enclosure url="https://blog.resy.com/wp-content/uploads/2026/10/prubechu-1-906x604.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 用 AI 会不会越用越笨？Autor 三个月专利律师随机试验：资深者借 AI 长了本事，新手的成绩反而两极分化</title>
-      <description>&lt;p&gt;用 AI 干活，人会不会越用越笨？MIT 经济学家 David Autor 和 Google 的六位研究者给出了一个比"会"或"不会"都更具体的答案：&lt;strong&gt;取决于你用之前已经会多少&lt;/strong&gt;。论文是 NBER 工作论文 w35720《Does AI Assistance Enhance or Erode Expertise?》，九月挂出，11 月 7 日 PsyPost 做了详细报道，尚未经过同行评审。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2025/01/artificial-intelligence-1.jpg" alt="人工智能概念图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;AI 辅助能提升产出，但能不能沉淀成技能是另一回事（PsyPost）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;实验怎么做的&lt;/h3&gt;
-&lt;p&gt;这是一个预注册的三个月现场随机试验。研究者找了 11 家美国知识产权律所（24 家里同意参加的），133 名专利律师完成入职后随机分组：90 人拿到 Google Labs 一款未发布的专利撰写 AI，43 人只用常规法律工具。律师按正常时薪拿报酬，做的是真实客户（Google）的活。&lt;/p&gt;
-&lt;p&gt;第 10 天，所有人在两小时内写一份权利要求加说明书；第 90 天，再做一次更难的撰写任务，外加一项关键测试——&lt;em&gt;不许用 AI&lt;/em&gt;，对一份现成的 AI 草稿做修订批注（redlining）。打分的是不知道分组的资深专利律师，看可执行性、技术准确性、策略性模糊、完整性和清晰度。&lt;/p&gt;
-
-&lt;h3&gt;结果：产出涨了，技能分化了&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;用 AI 时，草稿质量在第 10 天高 0.34 个标准差，第 90 天高 0.38 个标准差，主要靠减少"很差的稿子"；速度快了约 10 分钟（对照组平均约 110 分钟）。&lt;/li&gt;
-&lt;li&gt;拿掉 AI 后的修订任务里，AI 组整体高 0.32 个标准差（p=0.04）——但这份优势&lt;em&gt;全部&lt;/em&gt;来自执业七年以上的资深律师（0.45 SD）。&lt;/li&gt;
-&lt;li&gt;初级律师平均没有任何提升。更怪的是分布：中等分数明显变少，很差和很好的都变多，顶尖分数没有增加。同样三个月的 AI 陪练，有人学会了，有人反而退步了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;作者的结论很克制："基础专业能力可能是从 AI 辅助练习中提取持久技能的前提。"&lt;/p&gt;
-
-&lt;h3&gt;为什么会这样&lt;/h3&gt;
-&lt;p&gt;论文没回答机制，但学习科学里有现成的解释。专家看 AI 的草稿，是在&lt;em&gt;对照&lt;/em&gt;——脑子里已有一套判断"好权利要求长什么样"的心智模型（mental model），AI 的每一处选择都在跟这个模型比对，差异本身就是反馈。新手没有这个参照系，AI 的输出就只是答案。照抄的人跳过了生成和判断这两步，而这两步恰恰是练习里真正长本事的部分。分布两极化也说得通：会追问"它为什么这么写"的新手学得更快，直接接受的新手连原本靠硬写攒下的手感都没了。&lt;/p&gt;
-
-&lt;h3&gt;可以带走的做法&lt;/h3&gt;
-&lt;p&gt;如果你在某个领域还是新手，用 AI 时给自己加一道工序：&lt;em&gt;先写，再看&lt;/em&gt;。自己出一版（哪怕很糙），再让 AI 出一版，然后逐处比对并说出差异的理由。这把 AI 从代笔变成了一个有标准答案的陪练。如果你已经是专家，可以放心地让 AI 起草——你的判断力会自动把它变成训练材料。带新人的管理者要警惕：初级成员在 AI 加持下交出的作品更整齐，不代表他们离开工具也能做到。&lt;/p&gt;
-&lt;p&gt;这也给本栏追踪的"特质天花板"线补了一块：前几天的 Sackett/Kuncel 元分析把一般智力对工作表现的预测力压到 r≈.20，当时留下的问题是生成式 AI 会不会进一步拉平差距。这项研究显示，至少在产出层面 AI 确实抹平了一部分差距；但在能力层面，它可能在拉大积累的差距——起点高的人，用 AI 涨得更多。&lt;/p&gt;
-
-&lt;h3&gt;要打的折扣&lt;/h3&gt;
-&lt;p&gt;样本小，最终只有 91 人做完全部任务，初级组更小；审计发现 91 份修订里有 15 份可能偷用了 AI，剔除后资深组优势减弱、整体差异不再显著。三个月相对于专利律师的多年养成也太短。工具和资金都来自 Google。所以它是一个值得认真对待的信号，还算不上定论。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.psypost.org/prior-expertise-may-determine-whether-ai-builds-skills-or-substitutes-for-them-field-experiment-suggests/"&gt;PsyPost&lt;/a&gt; · &lt;a href="https://www.nber.org/papers/w35720"&gt;NBER w35720&lt;/a&gt; · &lt;a href="https://economics.mit.edu/sites/default/files/2026-10/Does%20AI%20Assistance%20Enhance%20or%20Erode%20Expertise%20Evidence%20from%20a%20Three-Month%20Field%20Experiment%20in%20Patent%20Drafting.pdf"&gt;MIT 全文 PDF&lt;/a&gt; · &lt;a href="https://www.socialscienceregistry.org/trials/15823"&gt;AEA 预注册&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/prior-expertise-may-determine-whether-ai-builds-skills-or-substitutes-for-them-field-experiment-suggests/"&gt;https://www.psypost.org/prior-expertise-may-determine-whether-ai-builds-skills-or-substitutes-for-them-field-experiment-suggests/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nber.org/papers/w35720"&gt;https://www.nber.org/papers/w35720&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.socialscienceregistry.org/trials/15823"&gt;https://www.socialscienceregistry.org/trials/15823&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4c256be5-fb82-5ebc-b4d7-a3a906614475</guid>
-      <pubDate>Tue, 10 Nov 2026 12:10:16 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/prior-expertise-may-determine-whether-ai-builds-skills-or-substitutes-for-them-field-experiment-suggests/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/01/artificial-intelligence-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 是爱没了，还是你今天太累？14 天双人日记研究：比平常更糟的一天，会让人当晚对伴侣的爱意和亲密感下降</title>
-      <description>&lt;p&gt;某天晚上你看着伴侣，心里冒出一句"好像没那么喜欢了"。先别急着下结论，回头看看今天：地铁晚点、被同事甩锅、家里又冒出一堆杂事？渥太华大学的 Ece Yilmaz 和爱丁堡大学的 Sarah Stanton 在 &lt;em&gt;Journal of Social and Personal Relationships&lt;/em&gt; 发表的新研究，标题就把问题挑明了：《Is Love Gone or Are You Stressed?》——是爱没了，还是你只是累了？&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2026/09/sad-upset-asian-couple.jpg" alt="一对情侣坐在一起，神情低落" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;糟糕的一天，可能悄悄改写你对伴侣的感觉（PsyPost / Adobe Stock）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;研究设计&lt;/h3&gt;
-&lt;p&gt;研究预注册在 OSF。100 对英国情侣（87 对异性、13 对同性或性别多元，平均 24 岁，在一起平均 2.8 年）先来实验室一次，之后连续 14 天每晚各自独立填问卷：今天遇到了 10 类日常麻烦中的哪些（家务、交通、生病、和同事或朋友起冲突等），心情如何，以及对伴侣的爱、激情、亲密各打几分（1-7）。研究者用双人多层模型把"这个人平时压力大不大"和"今天比自己平时更糟吗"拆开分析。&lt;/p&gt;
-
-&lt;h3&gt;三个发现&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;波动比水平重要。&lt;/strong&gt;当某天的麻烦比自己平常多时，当晚的爱、激情和亲密感都更低，每多一件麻烦约低 0.04 到 0.13 分。单日效应不大，但作者提醒，它会累积。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;长期压力大的人并不更不爱。&lt;/strong&gt;两周内平均压力高的人，平均感情评分和别人没有显著差别。Yilmaz 的解释是："如果你一直都压力大，你知道怎么应对，它对关系的影响就没那么大。"&lt;/li&gt;
-&lt;li&gt;伴侣的压力不会直接降低你的感情评分，中间隔着一层：外部压力先拉低自己的心情，心情再拉低激情和亲密。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;这里的思维工具：先做归因，再做判断&lt;/h3&gt;
-&lt;p&gt;心理学里有个老概念叫情绪的错误归因（misattribution of arousal）：身体和情绪的状态会被安到眼前最显眼的对象上。伴侣就是那个最显眼的对象——他就在你面前，而真正惹你的老板和地铁不在。这项研究给了这个机制一个关系版本的日常证据。&lt;/p&gt;
-&lt;p&gt;可以试的做法很简单：当你对伴侣产生负面感觉、想说重话或想"好好谈谈我们的关系"时，先问自己一句"今天比平时更难吗？"如果答案是是，把判断推迟到一个普通的日子。这不是压抑情绪——前几天本栏写过，硬撑式的表达抑制本身就没好处——而是给情绪贴对标签。说出来也有用："我今天被工作搞得很烦，不是因为你"这句话，既让对方不用往最坏处猜，也让自己把账记到正确的地方。&lt;/p&gt;
-&lt;p&gt;这和上周追踪的"别人怎么解读你"那条线也接上了：Davison 等人的研究显示，沉默和模糊信号会被焦虑型依恋者往最坏处读。一个因外部压力而冷淡的晚上，如果不解释，对方很可能把它读成"你不爱我了"。&lt;/p&gt;
-
-&lt;h3&gt;边界&lt;/h3&gt;
-&lt;p&gt;这是观察研究，因果方向说不死：也可能是关系不顺的日子让人更容易注意到外部麻烦，或者疲惫同时拉低了两者。样本年轻、大多是学生、感情本来就好（平均爱意 6.6/7），对长期陷入困境的伴侣未必适用。麻烦清单只记了"有没有"，没记"有多难受"——作者自己也说，"错过一班车或多一件家务，对每个人的分量不一样"。应对和情绪调节策略没有测，那正好是下一步该看的缓冲变量。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.psypost.org/a-bad-day-at-work-may-leave-you-feeling-less-in-love-study-suggests/"&gt;PsyPost&lt;/a&gt; · &lt;a href="https://doi.org/10.1177/02654075261500167"&gt;Yilmaz &amp;amp; Stanton, Journal of Social and Personal Relationships (DOI)&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/a-bad-day-at-work-may-leave-you-feeling-less-in-love-study-suggests/"&gt;https://www.psypost.org/a-bad-day-at-work-may-leave-you-feeling-less-in-love-study-suggests/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1177/02654075261500167"&gt;https://doi.org/10.1177/02654075261500167&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2fa1c49f-e211-5654-a5e1-5c65866c1749</guid>
-      <pubDate>Tue, 10 Nov 2026 12:10:39 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/a-bad-day-at-work-may-leave-you-feeling-less-in-love-study-suggests/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/09/sad-upset-asian-couple.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 该问的不是「什么时候放弃」，而是「放弃后我会更了解自己吗」：一位被拒二十多次的哲学家谈放弃的探索价值</title>
-      <description>&lt;p&gt;"什么时候该放弃？"这是坚毅（grit）文化教我们问的问题，答案通常是"再坚持一下"。杜兰大学（Tulane University）哲学助理教授 Mario I. Juarez-Garcia 在 Psyche 的新文章里换了个问法：&lt;em&gt;放弃之后，我会不会更了解自己？&lt;/em&gt;他把这叫做放弃的&lt;strong&gt;探索价值（exploratory value of giving up）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://images.aeonmedia.co/images/7de9ad31-6e9d-4918-8dc6-50fcbee2b1e0/sz-gettyimages-1083192412.jpg?top=105&amp;left=0&amp;cropWidth=2000&amp;cropHeight=1125&amp;width=1600&amp;quality=75&amp;format=auto" alt="两个人坐在一栋大型建筑外的石阶上" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Psyche 文章配图（Qilai Shen / Bloomberg / Getty Images）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一个哲学家的放弃史&lt;/h3&gt;
-&lt;p&gt;Juarez-Garcia 讲了自己的故事。在墨西哥城做兼职讲师时，他连续三年申请美国哲学博士项目，被拒了二十多次。于是他没续合同，去做了一份办公室工作。一周后他就明白了：真正驱动他的是哲学，不是那份工作。他又申请了两年，第一年仍被拒，第二年被亚利桑那大学录取。&lt;/p&gt;
-&lt;p&gt;这段经历的要点不在"最后还是成功了"。如果他一直硬撑着申请，他永远不会获得那一周的信息——&lt;em&gt;没有哲学的生活是什么感觉&lt;/em&gt;。放弃本身是一次实验，结果告诉他这个目标对他到底意味着什么。&lt;/p&gt;
-
-&lt;h3&gt;"临时目标"与"橱柜式"选择&lt;/h3&gt;
-&lt;p&gt;文章借用了两个概念。一个是哲学家 David Schmidtz 1994 年在《Choosing Ends》里提出的助产式目标（maieutic ends）：很多早期目标本来就是临时的，它们的作用是帮你找到下一个真正的目标，就像苏格拉底式的"助产"。另一个来自创业研究者 Saras Sarasvathy：照菜谱选目标（先定目标再找资源）和看橱柜选目标（看手头有什么再即兴组合）。很多创业者正是在一次次失败中弄清了自己擅长什么。&lt;/p&gt;
-&lt;p&gt;他也点名了反方：Robert Nozick 认为尊重过去的投入能形成承诺，Jennifer Morton 和 Sarah Paul 主张长期项目开始时要抱着强信念，哪怕证据不支持。Juarez-Garcia 并不否认坚持的价值，他反对的是把坚持当成唯一美德——尼采那句"杀不死我的使我更强大"在他看来已经成了坚毅文化的陈词滥调。他的改写是："没能让我们更强大的东西，也许能告诉我们自己是谁。"&lt;/p&gt;
-
-&lt;h3&gt;实证那边怎么说&lt;/h3&gt;
-&lt;p&gt;这篇是哲学随笔，没有数据，但心理学这边的证据和它方向一致。Curtin 大学 Hugh Riddell 团队 2025 年 11 月在 &lt;em&gt;Nature Human Behaviour&lt;/em&gt; 发表的元分析汇总了 235 项研究、1,421 个效应量：从无法实现的目标中脱离（goal disengagement）与更低的压力、焦虑和抑郁相关，重新投入新目标（goal reengagement）则与幸福感和生活满意度的恢复相关。更早的 Barlow、Wrosch 与 McGrath 元分析也显示，两种能力都对身心健康有保护作用，而且重新投入的效应更稳定。Riddell 的原话是："死守不可能的目标会付出真实代价。"&lt;/p&gt;
-&lt;p&gt;所以放弃只是半个动作。只脱离、不重新投入，得到的多半是空虚；Juarez-Garcia 的"探索"框架恰好补上了后半段：放弃的意义在于它产出的信息，而信息要用到下一个目标上才算数。&lt;/p&gt;
-
-&lt;h3&gt;怎么用&lt;/h3&gt;
-&lt;p&gt;下次卡在一个目标上时，与其问"我是不是不够坚持"，不如做一次限时的退出实验：明确停一段时间（一周、一个月），并事先写下你想观察什么——会不会想念它？精力去了哪里？哪些事突然变容易了？实验结束后，你会回到一个更清楚的位置：要么带着确认过的动机回去，像这位哲学家那样；要么带着新线索去找下一个目标。&lt;/p&gt;
-&lt;p&gt;这和本栏 11 月 6 日写的 Ariely 截止日期研究撤稿也能对上：我们对"把自己绑死"的承诺装置有真实的渴望，但它有效的证据很薄。也许比"绝不回头"更有用的，是允许自己回头看一眼。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could"&gt;Psyche：When giving up teaches you more than persevering ever could&lt;/a&gt; · &lt;a href="https://www.curtin.edu.au/news/media-release/know-when-to-fold-em-study-reveals-benefits-of-dropping-unrealistic-goals/"&gt;Curtin University 新闻稿&lt;/a&gt; · &lt;a href="https://eprints.soton.ac.uk/506833/"&gt;Riddell et al., Nature Human Behaviour (Southampton 存档)&lt;/a&gt; · &lt;a href="https://ehps.net/ehp/index.php/contents/article/view/2727"&gt;Barlow, Wrosch &amp;amp; McGrath 元分析&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could"&gt;https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.curtin.edu.au/news/media-release/know-when-to-fold-em-study-reveals-benefits-of-dropping-unrealistic-goals/"&gt;https://www.curtin.edu.au/news/media-release/know-when-to-fold-em-study-reveals-benefits-of-dropping-unrealistic-goals/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://eprints.soton.ac.uk/506833/"&gt;https://eprints.soton.ac.uk/506833/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ehps.net/ehp/index.php/contents/article/view/2727"&gt;https://ehps.net/ehp/index.php/contents/article/view/2727&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">6929173c-f278-5d52-bd40-7da03d631a74</guid>
-      <pubDate>Tue, 10 Nov 2026 12:11:16 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could</link>
-      <enclosure url="https://images.aeonmedia.co/images/7de9ad31-6e9d-4918-8dc6-50fcbee2b1e0/sz-gettyimages-1083192412.jpg?top=105&amp;left=0&amp;cropWidth=2000&amp;cropHeight=1125&amp;width=1600&amp;quality=75&amp;format=auto" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 纳指单日暴跌5.52%进入回调：民主党横扫之后，华尔街开始给AI数据中心的政治风险定价</title>
-      <description>&lt;p&gt;11月5日（周四），纳斯达克综合指数收于24,315.00点，单日下跌&lt;strong&gt;5.52%&lt;/strong&gt;，是19个月来最大单日跌幅，也是2025年4月“解放日”关税冲击以来最差的一天。标普500跌4.36%至7,353.73点，道琼斯指数跌3.44%至51,523.06点。路透的口径是标普500成分股一天蒸发约3万亿美元市值，NPR的口径是纳斯达克蒸发2万亿美元以上，两个数字覆盖的范围不同，并不矛盾。纳指现在比10月6日的收盘纪录低了超过10%，技术上已经进入回调区间。当天成交269亿股，20日均值是177亿股。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://npr-brightspot.s3.amazonaws.com/22/8a/246fd1f04d62b6c6e0b904447992/gettyimages-2303241458.jpg" alt="纽约证券交易所交易员" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;股市因投资者担心民主党主导的国会和各州会收紧AI行业而下挫（图：Timothy A. Clary / AFP via Getty Images，来自NPR）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;触发点不是哪家公司的财报，而是选举结果。周二的中期选举里，民主党拿下国会两院，还在几个数据中心争议很大的州赢得了州长职位，德州的吉娜·伊诺霍萨（Gina Hinojosa）赢得“出人意料”（NPR的说法）。NPR写道，选民对AI数据中心“发起了反抗”，担心它们耗尽水和电。投资者的推理很直接：新当选的议员和州长想放慢AI基础设施的建设速度，而这一轮AI增长恰恰靠的是快速铺算力。&lt;/p&gt;
-
-&lt;p&gt;跌得最狠的是算力链条。路透列出的数字：英伟达跌超9%，费城半导体指数跌超12%，IREN和Applied Digital各跌超14%，CoreWeave跌近10%，GE Vernova跌7.5%，Meta跌4%，亚马逊和Alphabet各跌2.2%，Constellation Energy跌2.5%。高通跌9.5%，但原因是第四财季手机芯片销售不及预期，和选举无关。据路透援引，瑞银估计，如果各地暂停数据中心施工，2028年美国计划新增的数据中心容量里大约30%会面临风险。&lt;/p&gt;
-
-&lt;p&gt;分析师的说法并不一致。SimCorp的梅利莎·布朗（Melissa Brown）说，投资者意识到新当选的国会议员和州长想放慢AI基建的节奏；彻底叫停不太可能，但任何放缓都会让人担心，因为AI增长一直依赖快速建设。Argent Capital的杰德·埃勒布罗克（Jed Ellerbroek）则称这是数据中心资本开支受益股的“投降阶段”，同时认为“波动幅度被夸大了”。Trajan Wealth的大卫·布施（David Busch）提到的是更多AI监管和各地对数据中心的抵制。&lt;/p&gt;
-
-&lt;p&gt;还有一条容易被忽略的线索：马斯克。NPR称投资者担心新国会1月就位后，会对马斯克和他的公司加强审查，他此前为共和党投入了巨额资金（NPR说“数亿美元”，路透说“近5亿美元”）。特斯拉和SpaceX当天都下跌。&lt;/p&gt;
-
-&lt;p&gt;这件事和美联储的故事缠在一起。路透同一天写到，克利夫兰联储的哈马克（Beth Hammack）和里士满联储的巴尔金（Thomas Barkin）都暗示未来可能继续加息，市场预期联储12月再加一次。圣路易斯联储的穆萨勒姆（Alberto Musalem）次日进一步说，AI投资在目前会通过推高铜等大宗商品需求而继续推升通胀。也就是说，AI一边被联储看作通胀来源，一边被新国会看作要约束的对象，估值没什么缓冲垫。上周五的就业数据又把12月加息概率推回约78%，前一天约67%（此前条目有详述）。&lt;/p&gt;
-
-&lt;p&gt;需要留意的是：这里的数字截至11月5日收盘，我没有核实11月6日和9日的后续走势。缓冲在于，年初至今标普500仍涨7.4%，纳指涨4.6%，普通人通过401(k)和养老金持有的AI股票敞口不小。真正的检验在1月：民主党拿到委员会主席职位和传唤权之后，第一批针对数据中心用电、用水的听证会会点什么名，市场会很快知道。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.wunc.org/2026-11-05/fears-of-an-ai-crackdown-after-midterms-spark-2-trillion-rout-in-tech-stocks"&gt;NPR/WUNC&lt;/a&gt;、&lt;a href="https://www.devdiscourse.com/article/international/4002353-us-stocks-nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations"&gt;路透（Devdiscourse转载）&lt;/a&gt;、&lt;a href="https://www.kitco.com/news/off-the-wire/2026-11-06/fed-seen-sticking-december-rate-hike-after-jobs-data"&gt;路透（Kitco转载）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.wunc.org/2026-11-05/fears-of-an-ai-crackdown-after-midterms-spark-2-trillion-rout-in-tech-stocks"&gt;https://www.wunc.org/2026-11-05/fears-of-an-ai-crackdown-after-midterms-spark-2-trillion-rout-in-tech-stocks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.devdiscourse.com/article/international/4002353-us-stocks-nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations"&gt;https://www.devdiscourse.com/article/international/4002353-us-stocks-nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.kitco.com/news/off-the-wire/2026-11-06/fed-seen-sticking-december-rate-hike-after-jobs-data"&gt;https://www.kitco.com/news/off-the-wire/2026-11-06/fed-seen-sticking-december-rate-hike-after-jobs-data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b7578f0d-f90a-5aa4-83d7-b78c01941f6f</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:16 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.wunc.org/2026-11-05/fears-of-an-ai-crackdown-after-midterms-spark-2-trillion-rout-in-tech-stocks</link>
-      <enclosure url="https://npr-brightspot.s3.amazonaws.com/22/8a/246fd1f04d62b6c6e0b904447992/gettyimages-2303241458.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 COP31今天在安塔利亚开幕：土耳其办会、澳大利亚主谈，化石燃料路线图却不在正式议程上</title>
-      <description>&lt;p&gt;第31届联合国气候大会（COP31）今天在土耳其安塔利亚开幕，会期到11月20日。安排很特别：土耳其做东道主，穆拉特·库鲁姆（Murat Kurum）任大会主席，牵头不带谈判性质的“行动议程”（Action Agenda）；澳大利亚的克里斯·鲍恩（Chris Bowen）任谈判主席，主持正式谈判。澳大利亚原本想在阿德莱德办会，僵持数月后让步，换来的就是这种分权。鲍恩说，他预期自己拥有管理谈判、准备草案、发布封面决定（cover decision）的权力。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.climatechangenews.com/wp-content/files/2026/09/ENB_SB64_8Jun26_KiaraWorth-25-1440x822.jpg" alt="库鲁姆与鲍恩在波恩中期谈判" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;库鲁姆与鲍恩在今年6月的波恩中期谈判上（图：IISD/ENB，来自Climate Home News）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;议程上最大的缺席，是化石燃料。逐步退出化石燃料不是COP31的正式议程项。去年COP30在贝伦陷入僵局之后，巴西主席国自愿牵头起草“化石燃料转型路线图”，据Climate Home报道，这份路线图应在11月初交付。接下来由土耳其和澳大利亚决定，是把它放进谈判，还是放在谈判之外。IISD的娜塔莉·琼斯（Natalie Jones）说，这份路线图“不能被扔进积灰的抽屉”。Climate Home预计土耳其会对此保持安静。今年另有约60个国家在联合国进程之外开了一场会，要求更快行动；太平洋岛国预计会继续向主席国施压。&lt;/p&gt;
-
-&lt;p&gt;东道主想谈的是电气化。土耳其推动一个到2035年全球电气化率达到35%的新目标，这是它提出的行动议程的核心。库鲁姆的逻辑是，电气化会“自动”带来化石燃料使用的下降。Climate Home当天的一条标题还提到，两位主席提出的优先事项是电气化目标和更容易获得的气候融资；这一条我只看到标题，没有读全文。&lt;/p&gt;
-
-&lt;p&gt;批评也恰恰落在这里。Climate Action Tracker 9月22日的简报显示，土耳其2025年煤电和气电仍占发电量的56%，和2019年几乎没变；风电加光伏占22%，2020年是12%。土耳其自己的能源规划，到2035年电气化率只有25%，低于它要推动的35%，还计划扩大黑海天然气产量。澳大利亚的情况类似：化石燃料供应超过60%的电力，其中煤电占45%，它是世界第三大化石燃料出口国，最近又批准了昆士兰Saraji露天煤矿的延期。Climate Analytics的评估是，煤和气可能在其电力系统里留到2050年前后。塔夫茨大学的詹妮弗·摩根（Jennifer Morgan）说，两个东道主的信誉“取决于国内是否采取进一步行动”。&lt;/p&gt;
-
-&lt;p&gt;有几件事我没能核实：美国是否派团、适应融资的具体数字，所查到的文章都没有写，我不做猜测。能确定的是权力结构——土耳其管叙事，澳大利亚管文本，而两国都不想把化石燃料退出当主菜。&lt;/p&gt;
-
-&lt;p&gt;看点很具体：11月20日闭幕时，封面决定里有没有出现巴西那份路线图。出现了，说明鲍恩把它拉进了正式轨道；没有，那它大概又回到抽屉里。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://climatechangenews.com/2026/09/18/fossil-fuel-expansion-threatens-cop31-hosts-credibility-experts-warn/"&gt;Climate Home News&lt;/a&gt;、&lt;a href="https://www.unccd.int/index.php/events/other/2026-un-climate-change-conference-cop31"&gt;UNCCD COP31页面&lt;/a&gt;、&lt;a href="https://www.climatechangenews.com/2025/11/20/cop31-un-climate-summit-turkiye-australia-antalya/"&gt;Climate Home：COP31由土耳其主办、澳大利亚主谈&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://climatechangenews.com/2026/09/18/fossil-fuel-expansion-threatens-cop31-hosts-credibility-experts-warn/"&gt;https://climatechangenews.com/2026/09/18/fossil-fuel-expansion-threatens-cop31-hosts-credibility-experts-warn/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.unccd.int/index.php/events/other/2026-un-climate-change-conference-cop31"&gt;https://www.unccd.int/index.php/events/other/2026-un-climate-change-conference-cop31&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.climatechangenews.com/2025/11/20/cop31-un-climate-summit-turkiye-australia-antalya/"&gt;https://www.climatechangenews.com/2025/11/20/cop31-un-climate-summit-turkiye-australia-antalya/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5dda2887-5e89-5a9f-a537-6efc69469615</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:16 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://climatechangenews.com/2026/09/18/fossil-fuel-expansion-threatens-cop31-hosts-credibility-experts-warn/</link>
-      <enclosure url="https://www.climatechangenews.com/wp-content/files/2026/09/ENB_SB64_8Jun26_KiaraWorth-25-1440x822.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 共和党输掉国会后的内斗：图恩要竞选少数党领袖，约翰逊不再争众院党魁，万斯把账算到伊朗战争头上</title>
-      <description>&lt;p&gt;共和党丢掉国会之后，内斗比预想的来得快。福克斯新闻11月4日报道，参议院共和党领袖约翰·图恩（John Thune）打算竞选少数党领袖。据接近图恩的消息人士说，他“打算”这么做。报道称，目前不清楚会不会有人挑战他。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://ewscripps.brightspotcdn.com/dims4/default/1bc8fbc/2147483647/strip/true/crop/6731x3786+0+350/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F4e%2F59%2F2d6729804873929025753ae7faea%2Fap26308678510310.jpg" alt="特朗普" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;共和党内部围绕中期选举失败追责（图：AP，来自News5 Cleveland）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;图恩自己的辩护写在社交媒体上：共和党“在每个环节对抗民主党的阻挠”，阻止了“美国历史上最大的增税”。批评者的说法也在流传。一位匿名人士说，参议院2025年开会217天，2026年只有148天，并把它与共和党对参议院的支持度创新低联系起来；另一位说共和党团“没有兑现总统议程的关键承诺”。还有人暗示，犹他州的迈克·李（Mike Lee）这样的特朗普强硬盟友，可能成为替代人选。以上都是匿名说法，没有哪位参议员公开站出来挑战。至于投票时间，我读到的福克斯那篇没写；搜索摘要里有一家媒体称党团将在周二（11月10日）投票，但原文我打不开，只能算未证实。&lt;/p&gt;
-
-&lt;p&gt;众议院那边，News5 Cleveland称议长迈克·约翰逊（Mike Johnson）已宣布不再竞选党魁，“保证了会有新面孔”。这篇报道没写日期，也没说是谁宣布的，更没有提到接班人，所以这条我只视为单一来源。&lt;/p&gt;
-
-&lt;p&gt;追责的方向分成几路。副总统万斯在社交媒体上说，战争是共和党失败的“核心原因”，重建“必须从对伊朗决定的诚实评估开始”。佛州州长德桑蒂斯（Ron DeSantis）把选举结果称为共和党的“灭绝事件”，要求大改。田纳西州参议员玛莎·布莱克本（Marsha Blackburn）赢得了州长选举，参议院由此出现空缺，有人开始议论由谁补位。福克斯则把败因归结为特朗普支持率下滑，原因是伊朗战争、移民执法和高油价；SAVE America Act也卡在了参议院。&lt;/p&gt;
-
-&lt;p&gt;国防部长皮特·赫格塞思（Pete Hegseth）是这个追责链条的一环。接着此前11月6日、8日的条目：CBS称多位消息人士说特朗普还没有最终决定，正在问顾问要不要换人；NBC的一位消息人士说，德桑蒂斯被考虑接任。特朗普11月4日在白宫舞厅相关的记者会上否认了这些报道，说他“觉得他干得很好”，“但我根本没听说过”换人的事。有些共和党人拿2006年期中选举后布什撤换拉姆斯菲尔德（Rumsfeld）作类比。&lt;/p&gt;
-
-&lt;p&gt;众议员托马斯·马西（Thomas Massie）9月提出的弹劾条款共八条，前三条指控赫格塞思在没有宣战或法定授权的情况下发动并持续伊朗冲突，违反了1973年《战争权力决议》，以及国会要求撤军后仍继续敌对行动。约翰逊当时让议员提前回家，投票被推迟。民主党领袖杰弗里斯（Hakeem Jeffries）说过，民主党拿到多数后会把赫格塞思“赶出去”。&lt;/p&gt;
-
-&lt;p&gt;这些线索会在同一个窗口汇合：参议院党团选举、11月13日的密西西比认证和11月18日的阿拉斯加排序计票、1月民主党接手委员会。万斯那句话尤其值得留意——副总统公开把败因指向战争，是特朗普阵营里少见的裂缝。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.foxnews.com/politics/thune-plans-run-republican-minority-leader-after-dem-midterm-takeover.amp"&gt;Fox News&lt;/a&gt;、&lt;a href="https://www.news5cleveland.com/politics/america-votes/gop-meltdown-sparks-battle-over-whos-to-blame"&gt;News5 Cleveland&lt;/a&gt;、&lt;a href="https://newschannel9.com/news/nation-world/trump-is-considering-firing-hegseth-after-devastating-gop-midterm-loss-report-ron-desantis-democrats-kentucky-florida"&gt;TNND&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.foxnews.com/politics/thune-plans-run-republican-minority-leader-after-dem-midterm-takeover.amp"&gt;https://www.foxnews.com/politics/thune-plans-run-republican-minority-leader-after-dem-midterm-takeover.amp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.news5cleveland.com/politics/america-votes/gop-meltdown-sparks-battle-over-whos-to-blame"&gt;https://www.news5cleveland.com/politics/america-votes/gop-meltdown-sparks-battle-over-whos-to-blame&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://newschannel9.com/news/nation-world/trump-is-considering-firing-hegseth-after-devastating-gop-midterm-loss-report-ron-desantis-democrats-kentucky-florida"&gt;https://newschannel9.com/news/nation-world/trump-is-considering-firing-hegseth-after-devastating-gop-midterm-loss-report-ron-desantis-democrats-kentucky-florida&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c68b076f-c935-5de9-b418-e2db6e4801ec</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:16 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.foxnews.com/politics/thune-plans-run-republican-minority-leader-after-dem-midterm-takeover.amp</link>
-      <enclosure url="https://ewscripps.brightspotcdn.com/dims4/default/1bc8fbc/2147483647/strip/true/crop/6731x3786+0+350/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F4e%2F59%2F2d6729804873929025753ae7faea%2Fap26308678510310.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 伊朗开出的价码：解除制裁、归还60亿美元、认可新航道；卡塔尔提议五天落实，伊朗说两天</title>
-      <description>&lt;p&gt;特朗普在伊朗问题上的“很快决定”还没落地，但伊朗这边的底牌已经比较清楚。外长阿拉格齐（Abbas Araghchi）10月31日对半岛电视台说，伊朗的条件包括：解除“伊斯兰堡备忘录”之后施加的制裁、削减美军在中东的存在、恢复石油豁免、释放全部被冻结资金（包括存在卡塔尔的资金）。半岛的德黑兰记者称，仅卡塔尔一处就有60亿美元。伊朗还要求承认与阿曼共同设立的霍尔木兹新航道，并关闭其他航线。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.pakistantoday.com.pk/uploads/Iran-Pakistan-Qatar-1793562490738-kipz21.jpg" alt="伊朗、巴基斯坦、卡塔尔" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;伊朗、巴基斯坦与卡塔尔的斡旋（图：Pakistan Today）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;11月2日Pakistan Today援引伊朗官方通讯社IRNA，条件清单里还有一条：结束“所有战线”上的战争，包括黎巴嫩。这是个大要价，因为它把美伊谈判和以色列的北线绑在了一起。&lt;/p&gt;
-
-&lt;p&gt;最具体的分歧在时间表。阿拉格齐说，卡塔尔方面提议把伊朗方案的落实期缩短到五天，“我们现在达成的方案把它缩短到了两天”。（这是接着此前条目里“两天可落实”的说法；这个数字出自伊朗外长一人之口，美方没有确认。）&lt;/p&gt;
-
-&lt;p&gt;另一个卡点是顺序。据Pakistan Today，华盛顿坚持核问题从一开始就要谈，德黑兰则希望第一阶段只处理霍尔木兹。阿拉格齐说，斡旋方已经就核问题提出方案，伊朗把它放在“第二阶段”审议。&lt;/p&gt;
-
-&lt;p&gt;美方的公开表态很克制。国务卿卢比奥10月31日说，特朗普“还没有决定”是否恢复军事行动，他本人倾向外交解决，也不清楚卡塔尔牵头的会谈有没有时限。副总统万斯给伊朗官员写的信，阿拉格齐称之为“积极一步”，但补了一句：如果目的是制造分裂，那“又是一个错误”。Pakistan Today还写道，特朗普在中期选举前的几周里没有下令新的打击。选举已经结束，这层顾虑还在不在，要看接下来几天，这是我的推断，不是报道里的说法。&lt;/p&gt;
-
-&lt;p&gt;军事上也在备战。阿拉格齐说伊朗军队处于“最高戒备”；武装部队总参谋长阿卜杜拉希（Ali Abdollahi）称，若遭攻击，将以“巨大力量”还击，不受地域限制；最高领袖穆杰塔巴·哈梅内伊（Mojtaba Khamenei）周六发表声明，要求军队随时待命。斡旋方面，卡塔尔官员10月30日到过德黑兰，伊朗代表团10月31日去了多哈；巴基斯坦军方负责人10月内两次访问德黑兰。&lt;/p&gt;
-
-&lt;p&gt;要提醒的是时效：这些材料集中在10月31日到11月2日，距今一周左右。Pakistan Today页面上还挂着一条11月9日的标题，称CNN报道特朗普说如果谈判有进展，他不太可能下令攻击伊朗，我没有打开原文，只能当线索。对读者来说，眼下要盯的是两件事：美国代表团会不会真的去多哈，以及特朗普“很快”的决定会不会在伊朗的两天方案和封锁之间选一边。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks"&gt;半岛电视台（10月31日）&lt;/a&gt;、&lt;a href="https://www.pakistantoday.com.pk/2026/11/02/iran-appreciates-pakistan-qatar-mediation-as-tehran-sets-conditions-for-us-talks"&gt;Pakistan Today（11月2日）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks"&gt;https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.pakistantoday.com.pk/2026/11/02/iran-appreciates-pakistan-qatar-mediation-as-tehran-sets-conditions-for-us-talks"&gt;https://www.pakistantoday.com.pk/2026/11/02/iran-appreciates-pakistan-qatar-mediation-as-tehran-sets-conditions-for-us-talks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">815c73c8-bafc-5987-8e2e-bc0853143244</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:16 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks</link>
-      <enclosure url="https://www.pakistantoday.com.pk/uploads/Iran-Pakistan-Qatar-1793562490738-kipz21.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Synthetic Users Reached the Same Conclusion as 604 Humans, but Lost the Long Tail / 合成用户和 604 位真人得出同一结论，却丢掉了长尾</title>
-      <description>&lt;p&gt;Nielsen Norman Group ran the cleanest test of synthetic users I've seen so far, and the result cuts both ways. In a study published October 16, Rachel Banawa asked 120 AI-generated respondents the same open-ended question that 604 real tech and design professionals had answered in an earlier NN/g survey on UX terminology. The headline conclusion came out the same. The texture of the answers didn't. If you're being pitched "synthetic research" as a cheaper substitute for recruiting, this is the study to read first.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The setup.&lt;/strong&gt; The question asked which professional field best describes work that turns insights about people's needs and experiences into product recommendations, and respondents had to name one field. The human sample came from NN/g's Practitioner Panel and other channels. The synthetic sample was generated in February 2026 on the Synthetic Users platform. NN/g fed it the research plan (questions, inclusion and exclusion criteria), and the platform gave each respondent a profile: age, location, profession, cultural background, organization type, years of experience and Big Five personality traits. NN/g set role quotas to widen the professional mix. The article doesn't name the underlying model.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/10/15/synthetic-users-vs-human-respondents-2.png" alt="Bar chart comparing UX-related terminology use: 84% of synthetic respondents vs about 70% of human respondents" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Synthetic respondents used UX-related terms more often than real professionals (84% vs. ~70%), even though only 20% of them were cast as UX professionals. Source: NN/g.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Same conclusion, but too confident.&lt;/strong&gt; Both groups agreed that "UX" is the dominant label for this kind of work. But 84% of synthetic respondents used UX-related terms, compared with about 70% of humans, and the 14-point gap is statistically significant. The odd part is who was answering. 67% of the human sample were UX professionals, against just 20% of the synthetic sample. So a mostly non-UX synthetic panel was more loyal to UX vocabulary than a mostly UX human panel. Product managers show it most clearly: 93% of synthetic PMs used UX terms, versus 44% of human PMs.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The long tail disappears.&lt;/strong&gt; This is the practical finding. Humans produced more than 50 distinct labels. Synthetic respondents produced about a dozen, six UX-related and six not, mostly generic ones like "user experience research," "customer insights," and "market research." Nobody synthetic said "human factors," "experience design," "journey management," or "consumer-behavior research," all of which showed up in the human data. Banawa calls this &lt;strong&gt;mode collapse&lt;/strong&gt;: answers clump around the most probable phrasing. And it happened even though synthetic answers were longer, because the platform simulated an interview rather than a survey. They had more words but fewer distinct ideas.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/10/15/synthetic-users-vs-human-respondents-1.png" alt="Chart: 93% of synthetic product managers used UX terms vs 44% of human product managers" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The subgroup gap: synthetic product managers answered like UX people. Real PMs didn't. Source: NN/g.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Assigned roles did shift the synthetic wording. 45% of synthetic customer-insights professionals said "customer" and 30% of synthetic market researchers said "market," compared with 0% of synthetic UX professionals for either. So the personas aren't cosmetic. But every role was pulled harder toward the dominant answer than real people were. Subgroup differences, which are often the reason you segment a study in the first place, came out muted.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Limitations NN/g flags itself.&lt;/strong&gt; It was one question on one platform. The platform sometimes reworded the question, which may have primed answers. The interview format confounds the length comparison. And the human sample probably knew UX vocabulary better than the general population, yet the synthetic panel still outdid it, which NN/g can't explain.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How this fits the bigger picture.&lt;/strong&gt; A week later NN/g's 2026 AI-in-UX survey found that 11% of practitioners already use synthetic users and 11% use AI interviewers (see the companion entry). That's a small share, but it's the part of the toolchain vendors are pushing hardest. It also echoes a pattern from our earlier coverage of agents in design systems: models drift toward the statistically safest output. Atlassian's agents rebuilt generic components instead of using the real ones, and synthetic respondents give generic labels instead of the odd specific ones. Generative systems are tuned for the center of the distribution, while research and design differentiation tend to live in the tails.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What to do with this.&lt;/strong&gt; NN/g's guidance is narrow and sensible:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Synthetic panels are fine when you only need the most common answer: sanity-checking a survey draft, pre-testing question wording, generating hypotheses.&lt;/li&gt;
-&lt;li&gt;Use humans whenever you need unexpected terminology, emerging themes, subgroup differences, or leads for follow-up work.&lt;/li&gt;
-&lt;li&gt;Prompting for "more diversity" doesn't fix this. Without human data to compare against, you can't tell whether the variety you got is representative or just noise.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The open question is whether any vendor will publish this kind of head-to-head on their own product. A synthetic-research tool that reported its distinct-answer ratio against a human baseline would be making a claim you could check. Until then, the burden of proof is on the vendor.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/"&gt;NN/g, "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation" (Oct 16, 2026)&lt;/a&gt;; &lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;NN/g, "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings" (Oct 23, 2026)&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;关于合成用户（Synthetic Users），Nielsen Norman Group 做了一次我目前见过最干净的对照实验，结果有好有坏。10 月 16 日发表的研究里，Rachel Banawa 把 NN/g 早先一项 UX 术语调查中的开放题拿出来，原封不动地问了 120 个 AI 生成的受访者。原调查的回答者是 604 位真实的科技和设计从业者。两边的大结论一致，回答的质地却差很多。如果有人向你推销用"合成研究"代替招募真人来省钱，先读这篇。&lt;/p&gt;
-
-&lt;p&gt;实验设计。题目问的是：把人们的需求和体验洞察转化为产品建议的工作，最适合归入哪个职业领域？只能答一个。真人样本来自 NN/g 的从业者面板（Practitioner Panel）等渠道。合成样本于 2026 年 2 月在 Synthetic Users 平台上生成。NN/g 输入了研究计划（问题、纳入和排除标准），平台给每个受访者配了档案：年龄、地区、职业、文化背景、机构类型、从业年限和大五人格（Big Five）特质。NN/g 还设了角色配额，让职业分布更分散。底层用的什么模型，文章没说。&lt;/p&gt;
-
-&lt;p&gt;结论一样，只是过于笃定。两组都认为"UX"是这类工作的主流称呼。但 84% 的合成受访者用了 UX 相关词汇，真人只有约 70%，14 个百分点的差距在统计上显著。怪就怪在回答者是谁：真人样本里 67% 本身就是 UX 从业者，合成样本里只有 20%。一个以非 UX 角色为主的合成面板，比一个以 UX 人为主的真人面板更认 UX 这个词。产品经理最明显：93% 的合成 PM 用了 UX 词汇，真人 PM 只有 44%。&lt;/p&gt;
-
-&lt;p&gt;长尾没了。这才是最有用的发现。真人给出了 50 多个不同的标签。合成受访者只给了十来个，UX 相关和非 UX 各六个，多是"用户体验研究""客户洞察""市场研究"这种通用词。"人因工程"（human factors）、"体验设计"（experience design）、"旅程管理"（journey management）、"消费者行为研究"在真人数据里都出现过，合成数据里一个也没有。Banawa 称之为&lt;strong&gt;模式坍缩（Mode Collapse）&lt;/strong&gt;：回答扎堆在概率最高的说法上。而且合成回答其实更长，因为平台模拟的是访谈而不是问卷。字多了，想法反倒少了。&lt;/p&gt;
-
-&lt;p&gt;角色设定也确实改变了措辞。45% 的合成"客户洞察"从业者用了"customer"，30% 的合成市场研究员用了"market"，合成 UX 从业者在这两个词上都是 0%。人设不是摆设。但每个角色都比真人更强烈地被拉向主流答案。很多研究之所以要分群，就是为了看群体差异，而这些差异在合成数据里被抹平了。&lt;/p&gt;
-
-&lt;p&gt;NN/g 自己列出的局限：只测了一道题、一个平台；平台有时会改写题目，可能起了引导作用；访谈格式让回答长度不可比；真人样本对 UX 词汇大概本来就比普通人熟，合成面板却比它更偏向 UX，原因 NN/g 也解释不了。&lt;/p&gt;
-
-&lt;p&gt;放到更大的图景里看。一周后 NN/g 发布的 2026 年 AI 与 UX 调查显示，11% 的从业者已经在用合成用户，11% 在用 AI 访谈员（见同期另一条）。比例不高，却是厂商推得最猛的一块。这和我们之前报道的设计系统里的智能体问题如出一辙：模型总往统计上最稳妥的方向漂。Atlassian 的智能体放着现成组件不用、自己重造一个通用版；合成受访者放着冷门但精确的说法不说、只给通用标签。生成式系统为分布中心而优化，研究和设计的差异化却往往藏在尾部。&lt;/p&gt;
-
-&lt;p&gt;实际怎么用。NN/g 的建议范围很窄，也很实在：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;只需要最常见答案时，合成面板够用：检查问卷草稿、预测试题目措辞、生成假设。&lt;/li&gt;
-&lt;li&gt;需要意外的术语、新兴主题、群体差异或后续研究线索时，必须找真人。&lt;/li&gt;
-&lt;li&gt;在提示词里要求"更多样"解决不了问题。没有真人数据做对照，你分不清得到的多样性是有代表性的，还是噪声。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;接下来要看的是，会不会有哪家厂商拿自己的产品做同样的正面对比并公开结果。一个合成研究工具如果敢公布自己"不同答案数"相对真人基线的比例，那才算给出了可以检验的说法。在那之前，举证责任在厂商。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/"&gt;https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;https://www.nngroup.com/articles/ai-in-ux-survey-26/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">73d6f837-a1ff-5678-8f6c-2f918f25a7d0</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:34 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/</link>
-      <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Synthetic_Users_vs._Human_Respondents__Same_Conclusion_Less_Variation.png" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎨 NN/g's 2026 AI-in-UX Survey: Faster Work, Lukewarm Practitioners, and AI That Avoids Users / NN/g 2026 年 AI 与 UX 调查：干活更快，从业者不买账，AI 离用户最远</title>
       <description>&lt;p&gt;NN/g's 2026 survey of UX practitioners is the best data I've seen on what AI is actually doing to design and research work. The short version: nearly everyone uses it, it saves time on the tasks furthest from users, and the people doing the work feel noticeably less upbeat about it than their managers. Maria Rosala and Rachel Banawa published it on October 23.&lt;/p&gt;
@@ -1227,138 +500,6 @@
       <category>random-knowledge</category>
       <link>https://oceanservice.noaa.gov/facts/bloop.html</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bloop.jpg/330px-Bloop.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 熬夜前一次性吃 0.2 g/kg 肌酸：29 人交叉试验里，逻辑和语言任务掉得少了最多 12%</title>
-      <description>&lt;p&gt;肌酸通常是健身房里的话题。但德国的一个团队这几年一直在问另一个问题：人熬了一整夜，大脑能量吃紧的时候，补一次肌酸有没有用？2026 年 4 月，他们在 &lt;em&gt;Nutrients&lt;/em&gt; 上发表了第二个试验（Gordji-Nejad 等，doi:10.3390/nu18081192），这次把剂量从 0.35 g/kg 降到了 0.2 g/kg。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.nutraingredients.com/resizer/v2/WNBJNCZ7EVD2ZNFG273LGY5DEQ.jpg?auth=b04fe18856a9b065fa00db9ede97eb1afc52ec0f0d2db95e986e07678928cdb3&amp;width=1200&amp;height=630&amp;smart=true" alt="大脑与灯泡概念图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图片来源：NutraIngredients / Getty Images&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;试验是怎么做的&lt;/h3&gt;
-&lt;p&gt;29 名没有睡眠障碍的健康成年人，随机交叉：一次服用单剂 0.2 g/kg 一水肌酸，另一次服用安慰剂。两次之间留出洗脱期。每次都要经历 21 小时的完全不睡，在开始时以及服药后 3 小时、5.5 小时、7.5 小时做认知测试。体重 70 公斤的人，0.2 g/kg 就是 14 克，大约是常规日剂量（3-5 克）的三到四倍，但只吃一次。&lt;/p&gt;
-
-&lt;h3&gt;结果&lt;/h3&gt;
-&lt;p&gt;作者的结论是：肌酸组的认知表现下滑得更慢，最多改善 12%，主要集中在逻辑和语言类任务上。短时记忆和处理速度没有出现明显差异。和他们 2024 年发表在 &lt;em&gt;Scientific Reports&lt;/em&gt; 的高剂量试验（0.35 g/kg，15 人，词汇记忆准确率提高约 10.3%，3.5 小时起效、约 4 小时达峰、可持续到 9 小时）相比，低剂量的效果更弱，作者因此说短时记忆的获益“看起来是剂量依赖的”。&lt;/p&gt;
-&lt;p&gt;亚组里有两个有意思的方向：女性在逻辑、语言任务和精神运动警觉测试（PVT）上受益更多；素食者在处理速度上有改善。作者的解释是女性和素食者的脑内肌酸需求或基础储备不同，不过这只是推测，没有直接测脑代谢。&lt;/p&gt;
-
-&lt;h3&gt;为什么“一次”就可能有用&lt;/h3&gt;
-&lt;p&gt;在正常状态下，肌酸很难进入大脑，一般要连续补充一周左右才能看到认知层面的变化。作者提出的思路是：缺觉本身造成了细胞层面的能量压力，让脑细胞对肌酸的摄取增加；而要利用这个窗口，血液里还得有足够的肌酸可用。低剂量组仍然有效、但效果小，在他们看来说明这两个条件缺一不可。&lt;/p&gt;
-
-&lt;h3&gt;该怎么读这个结果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;样本只有 29 人，作者自己也说缺少脑代谢的直接测量和严格的组间统计比较，“最多 12%”是最好的那项任务，不是平均值。&lt;/li&gt;
-&lt;li&gt;我读到的是 NutraIngredients 的报道和 PubMed 的摘要信息，没有读到全文，具体的效应量和多重比较处理没法核对。&lt;/li&gt;
-&lt;li&gt;实验设置是 21 小时被迫清醒的健康人。这不等于“考前通宵吃肌酸就能多拿分”，也没有回答长期睡眠不足的人补肌酸会怎样。肌酸本身是安全性记录较好的补剂，但一次吃十几克会让一部分人肠胃不舒服。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;更接近实际的结论是：如果你本来就在吃肌酸（每天 3-5 克），不必为了熬夜加量，现有证据撑不起这个建议。真正想看的是更大样本、有脑磁共振波谱测量的重复试验，以及对夜班、值班医生这类真正长期缺觉人群的研究。目前的价值在于它给“肌酸是大脑的能量缓冲”这个假说多添了一个剂量-反应的数据点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;参考：&lt;/strong&gt;
-&lt;a href="https://www.nutraingredients.com/Article/2026/04/21/single-dose-creatine-may-support-cognition-in-sleep-deprivation-study"&gt;NutraIngredients 报道&lt;/a&gt;；
-&lt;a href="https://pubmed.ncbi.nlm.nih.gov/42075005/"&gt;PubMed 条目&lt;/a&gt;；
-&lt;a href="https://doi.org/10.3390/nu18081192"&gt;Nutrients 论文（doi:10.3390/nu18081192）&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nutraingredients.com/Article/2026/04/21/single-dose-creatine-may-support-cognition-in-sleep-deprivation-study"&gt;https://www.nutraingredients.com/Article/2026/04/21/single-dose-creatine-may-support-cognition-in-sleep-deprivation-study&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/42075005/"&gt;https://pubmed.ncbi.nlm.nih.gov/42075005/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.3390/nu18081192"&gt;https://doi.org/10.3390/nu18081192&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5870cc27-58cd-54b9-828b-0975c05afae7</guid>
-      <pubDate>Wed, 11 Nov 2026 12:09:38 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.nutraingredients.com/Article/2026/04/21/single-dose-creatine-may-support-cognition-in-sleep-deprivation-study</link>
-      <enclosure url="https://www.nutraingredients.com/resizer/v2/WNBJNCZ7EVD2ZNFG273LGY5DEQ.jpg?auth=b04fe18856a9b065fa00db9ede97eb1afc52ec0f0d2db95e986e07678928cdb3&amp;width=1200&amp;height=630&amp;smart=true" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 少盐之外还得多吃钾：AJCN 新观点论文和一堆盐替代品的试验，把“低钠”改写成“钠钾比”</title>
-      <description>&lt;p&gt;降血压的老办法是少吃盐。佛蒙特大学的 Naomi Fukagawa 和同事 2026 年在 &lt;em&gt;American Journal of Clinical Nutrition&lt;/em&gt; 发表了一篇观点论文（124 卷第 2 期，doi:10.1016/j.ajcnut.2026.101396），主张把重心挪一挪：&lt;strong&gt;钠要少，钾也要多，两件事一起算&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sci.news/images/2026/08/image_14962-Potassium-Rich-Foods.jpg" alt="富含钾的蔬菜水果" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;富含钾的食物：水果、蔬菜、豆类、乳制品。图片来源：Sci.News / Jasmine Lin&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;论文在说什么&lt;/h3&gt;
-&lt;p&gt;全球有超过 12.8 亿成年人患高血压。世卫组织的建议是每天钠低于 2000 毫克、钾高于 3500 毫克，但现实是钠摄入大约是上限的两倍，许多国家的钾又远远不够。富裕国家的钠多数不来自家里的盐瓶，而来自包装食品和餐馆，所以靠个人少放盐很难落地；消费者喜欢咸味，食品厂重新配方也有技术难度。作者认为，光盯着钠，几十年来在人群层面很难守住成果。&lt;/p&gt;
-&lt;p&gt;他们给出的生理解释是“肾脏钾开关”（renal potassium switch）：肾脏在形成尿液时调节钠钾平衡，这套机制在进化上是为了保住稀缺的钾，而放在高钠低钾的现代饮食里，结果反而是把血压推高。&lt;/p&gt;
-
-&lt;h3&gt;证据在哪里&lt;/h3&gt;
-&lt;p&gt;最有力的一块来自中国的盐替代与卒中研究（SSaSS）：用含钾的盐替代部分氯化钠，血压下降，心血管事件也减少。论文引用的建模提示，获益的相当一部分来自加进去的钾，而不是少掉的钠。&lt;/p&gt;
-&lt;p&gt;2026 年 1 月 &lt;em&gt;BMC Medicine&lt;/em&gt; 的网络荟萃分析也指向同一方向：中等钾含量、低钠的盐替代品大概率能降低收缩压和心血管结局，没有增加不良事件或退出率，接受度与普通盐相当。但死亡率方面的获益主要靠那一项大型中国试验撑着，推广到别的饮食环境要打折。另一项只纳入四个随机试验、共 1430 名高血压患者的荟萃分析（&lt;em&gt;Arquivos Brasileiros de Cardiologia&lt;/em&gt;）给出的数字是：收缩压约降 5.75 mmHg，舒张压约降 1.6 mmHg。&lt;/p&gt;
-
-&lt;h3&gt;什么人要小心&lt;/h3&gt;
-&lt;p&gt;作者明确提醒：含钾盐替代品不适合晚期肾病患者，也不适合正在用补钾药或保钾利尿剂的人，因为有高钾血症的风险。这不是小事，因为很多高血压患者恰恰在吃 ACEI/ARB 这类药。约翰霍普金斯大学有一项登记号 NCT07460882 的研究，计划纳入 607 人，从 2026 年 7 月开始，专门看低钠盐替代品会不会让服用降压药（尤其是 RAS 抑制剂）的人血钾升高，以及能不能纠正低血钾。我没有找到任何结果，目前它只是在研项目。&lt;/p&gt;
-
-&lt;h3&gt;实际怎么用&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;血压偏高但肾功能正常、也没在吃保钾药：多吃水果、蔬菜、豆类和乳制品，是风险最低的“加钾”方式。&lt;/li&gt;
-&lt;li&gt;想换含钾盐：先问医生，尤其是在吃降压药或有肾病的情况下。&lt;/li&gt;
-&lt;li&gt;这篇是观点论文，不是新的随机试验。作者自己也承认，2019 年美国国家科学院的报告认为钾的剂量-反应数据还不足以定下正式目标。证据在变强，但“钠钾比作为目标”还没有硬性的临床指南依据。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我读到的是 Sci.News 对论文的转述和各项荟萃分析的摘要，没有核对原文表格。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;参考：&lt;/strong&gt;
-&lt;a href="https://www.sci.news/medicine/potassium-sodium-intake-hypertension-14962.html"&gt;Sci.News 报道&lt;/a&gt;；
-&lt;a href="https://doi.org/10.1016/j.ajcnut.2026.101396"&gt;AJCN 原文（doi:10.1016/j.ajcnut.2026.101396）&lt;/a&gt;；
-&lt;a href="https://doaj.org/article/f27f2d304bd0422b95d4b6064e9ed4f4"&gt;BMC Medicine 网络荟萃分析（2026-01）&lt;/a&gt;；
-&lt;a href="https://tundraspace.com/directory/studies/nct07460882"&gt;NCT07460882 试验登记&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sci.news/medicine/potassium-sodium-intake-hypertension-14962.html"&gt;https://www.sci.news/medicine/potassium-sodium-intake-hypertension-14962.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.ajcnut.2026.101396"&gt;https://doi.org/10.1016/j.ajcnut.2026.101396&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doaj.org/article/f27f2d304bd0422b95d4b6064e9ed4f4"&gt;https://doaj.org/article/f27f2d304bd0422b95d4b6064e9ed4f4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://tundraspace.com/directory/studies/nct07460882"&gt;https://tundraspace.com/directory/studies/nct07460882&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">da63521f-d82c-5e4d-81aa-316a44c70634</guid>
-      <pubDate>Wed, 11 Nov 2026 12:09:38 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.sci.news/medicine/potassium-sodium-intake-hypertension-14962.html</link>
-      <enclosure url="https://cdn.sci.news/images/2026/08/image_14962-Potassium-Rich-Foods.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 每周两次、中等强度的北欧式健走，五周就让一半抑郁患者症状减半：64 人试验的亮点与缺口</title>
-      <description>&lt;p&gt;运动能缓解抑郁，这个结论本身不新。新的是时间尺度：&lt;em&gt;Journal of Affective Disorders&lt;/em&gt; 第 405 卷上的一项随机试验（Ginoux 等，文章编号 121618，doi:10.1016/j.jad.2026.121618）发现，一个每周只练两次的北欧式健走（Nordic walking，手持登山杖的快走）项目，在&lt;strong&gt;第五周&lt;/strong&gt;就让大约一半参与者达到了临床应答。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://assets.newatlas.com/dims4/default/64c09be/2147483647/strip/true/crop/3250x1706+0+230/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Fa3%2F07%2F08e797784f98be59936dacbefb65%2Fdepositphotos-14858909-xl.jpg&amp;rf.image_optimisation=0" alt="户外北欧式健走" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;北欧式健走：双手持杖，上肢也参与发力。图片来源：Refractor / New Atlas&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;试验设计&lt;/h3&gt;
-&lt;p&gt;64 名有中度到重度抑郁症状的成年人，分到两组：48 人参加为期 10 周的有监督北欧式健走，每周两次，强度控制在最大心率的 65-75%；16 人是不运动的对照组，据报道只收到资讯类的通讯邮件。抑郁严重程度用贝克抑郁量表 BDI-II，在基线、第 5 周和第 10 周测量。分析采用意向性治疗，也就是说，健走组里有 4 人没完成至少一半课程，仍然计入。&lt;/p&gt;
-
-&lt;h3&gt;结果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;第 5 周：&lt;/strong&gt;健走组约一半人症状下降 50% 以上，对照组为 0。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;第 10 周：&lt;/strong&gt;健走组的缓解率和应答率显著高于对照组。&lt;/li&gt;
-&lt;li&gt;基线重度的人，改善比中度的人更快更大。&lt;/li&gt;
-&lt;li&gt;从第 5 周到第 10 周，健走组症状只是小到中等幅度地继续下降，没有达到统计显著；也就是说，大部分收益来得很早。&lt;/li&gt;
-&lt;li&gt;据报道没有不良事件。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我没有找到确切的缓解人数和效应量，需要看全文。&lt;/p&gt;
-
-&lt;h3&gt;三个需要打折的地方&lt;/h3&gt;
-&lt;p&gt;第一，样本小，而且分组 48 比 16，很不均衡。第二，对照组什么都没做，既没有普通健走，也没有任何同等关注度的活动。所以这个结果能说的是“有监督的运动小组比什么都不做好”，说不出“北欧杖有什么特别”。每周两次有教练带、有同伴的活动本身就带来社交和预期效应，这些在抑郁研究里很难剥离。第三，抑郁研究里的自评量表对安慰剂反应很敏感，这里没有盲法可言。&lt;/p&gt;
-
-&lt;h3&gt;它在已有证据里的位置&lt;/h3&gt;
-&lt;p&gt;这类结果和此前的方向是一致的。2025 年 &lt;em&gt;Acta Psychologica&lt;/em&gt; 上一项 121 名晚年轻中度抑郁的社区老人试验，也发现有氧、力量和平衡训练能减轻抑郁并改善认知。而另一个提醒来自 2025 年 LIFE 研究的二次分析：对有行动障碍的老人，运动组和健康教育组的抑郁症状并没有清晰分开，只有基线症状较重的人随时间有改善。换句话说，“运动治抑郁”的效果在重度人群里更容易看到，在轻度人群里反而容易被对照组的进步抹平。这项北欧健走试验的“重度改善更快”，和这个模式吻合。&lt;/p&gt;
-
-&lt;h3&gt;可以带走的&lt;/h3&gt;
-&lt;p&gt;如果你或身边的人正在抑郁状态里，这不是药物的替代品，更不是让人“多出门走走就好”的理由。但它给出了一个门槛很低的补充选项：每周两次、每次能达到“能说话但唱不了歌”的强度，最好有人带、有人一起，五周左右就能评估有没有感觉。北欧杖的好处主要是让上肢和核心一起参与，对膝盖不好的人也更友好。想验证“杖”本身有没有用，还需要一个拿普通健走做对照的试验。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;参考：&lt;/strong&gt;
-&lt;a href="https://pure.ul.ie/en/publications/early-antidepressant-effects-of-supervised-nordic-walking-in-adul/"&gt;利默里克大学研究库条目&lt;/a&gt;；
-&lt;a href="https://doi.org/10.1016/j.jad.2026.121618"&gt;论文 doi:10.1016/j.jad.2026.121618&lt;/a&gt;；
-&lt;a href="https://refractor.io/mental-health/low-intensity-workout-depression/"&gt;Refractor 报道&lt;/a&gt;；
-&lt;a href="https://psypost.org/practicing-moderate-intensity-nordic-walking-reduces-depression-symptoms-study-suggests"&gt;PsyPost 报道&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pure.ul.ie/en/publications/early-antidepressant-effects-of-supervised-nordic-walking-in-adul/"&gt;https://pure.ul.ie/en/publications/early-antidepressant-effects-of-supervised-nordic-walking-in-adul/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.jad.2026.121618"&gt;https://doi.org/10.1016/j.jad.2026.121618&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://refractor.io/mental-health/low-intensity-workout-depression/"&gt;https://refractor.io/mental-health/low-intensity-workout-depression/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://psypost.org/practicing-moderate-intensity-nordic-walking-reduces-depression-symptoms-study-suggests"&gt;https://psypost.org/practicing-moderate-intensity-nordic-walking-reduces-depression-symptoms-study-suggests&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d2774eac-4607-51ce-8ad8-f7168c7e6109</guid>
-      <pubDate>Wed, 11 Nov 2026 12:09:38 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://pure.ul.ie/en/publications/early-antidepressant-effects-of-supervised-nordic-walking-in-adul/</link>
-      <enclosure url="https://assets.newatlas.com/dims4/default/64c09be/2147483647/strip/true/crop/3250x1706+0+230/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Fa3%2F07%2F08e797784f98be59936dacbefb65%2Fdepositphotos-14858909-xl.jpg&amp;rf.image_optimisation=0" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>🌉 Año Nuevo 看象海豹：H5N1 之后第一个繁殖季，导览 12/15 开始</title>
@@ -2130,6 +1271,865 @@
       <category>product-design</category>
       <link>https://measuringu.com/ai-based-chat-software-ux-2026/</link>
       <enclosure url="https://measuringu.com/wp-content/uploads/2026/07/FeatureImage-070726-scaled.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Midpen 免费导览徒步 11 月下半月：Skyline、Long Ridge、Rancho 火鸡、Windy Hill 浆果</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.openspace.org/sites/default/files/styles/16x9_1600w/public/Lanette%20Otvos_RR_Docent%20hikes.jpg" alt="Midpen 志愿讲解员带队在 Russian Ridge 徒步" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Midpen 讲解员带队徒步（摄影：Lanette Otvos / Midpen）&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Midpen（Midpeninsula Regional Open Space District）每个月都有一批免费的志愿讲解员（docent naturalist）带队徒步，覆盖 Rancho San Antonio、Skyline Ridge、Windy Hill 这些半岛居民本来就常去的山。大多数人只把它们当成周末自己走的路线，其实跟着懂行的人走一趟，同一条路能看出完全不同的东西。下面是官网上 11 月中下旬、离 Menlo Park / Palo Alto 开车不远的几场，都是我在活动页上逐个核对过的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11/14（周六）Giving Thanks，Skyline Ridge，10:00-14:00，约 4 英里。&lt;/strong&gt;走 Ipiwa、Alpine Loop、Sunny Jim 几条步道，主题是原住民如何照看这片土地，包括控制性烧荒（cultural burning）和定期修剪。中途在 Alpine Pond 停下吃东西，所以自带点心。页面写明能轻松走四英里以上的孩子可以来。集合点是 Skyline Boulevard 上的 Skyline Ridge Circle 停车区，从 I-280 沿 Page Mill 上去大约 45 分钟，别算错时间。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11/15（周日）Early Winter Exploration，Long Ridge，10:00-14:30，约 4.5 英里。&lt;/strong&gt;沿 Peters Creek 和 Long Ridge 步道绕一圈，看果实、植物、真菌、鸟和蛞蝓。停车在 Skyline 西侧的 Peters Creek 路边停车处，对面还有 Grizzly Flat 的郡立公园停车位可以备用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11/18（周三）Annual Turkey Trot，Rancho San Antonio，10:30-14:30，约 4 英里。&lt;/strong&gt;感恩节前的老传统：走 Coyote、Wildcat Loop 和 Lower Meadow，目标是找野火鸡，节奏中等，自带午饭。集合点在最右边的 Lot 6，靠近停车场底部的洗手间。官网专门提醒：Rancho 是 Midpen 人气最高的保护区，早到、拼车、给找车位多留时间。工作日上午能请假的话，比周末舒服得多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11/21（周六）Fall &amp;amp; Winter Berries，Windy Hill，12:00-14:00，约 2 英里。&lt;/strong&gt;最适合带小孩或者想轻松走走的一场。绕 Sausal Pond，沿 Spring Ridge 和 Betsy Crowder 步道认野生浆果和坚果，聊人类怎么用它们。要注意两点：官网明说保护区内禁止采摘，这场只是认识，不能带回家；另外 Lower Windy Hill 停车场（Portola Road 上）很快会满，路边停车会被严格开罚单。&lt;/p&gt;
+
+&lt;p&gt;选哪场的粗略判断：想看真菌和鸟挑 11/15；带家人挑 11/21；想蹭社交感挑 11/18。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;报名细节要自己确认。&lt;/strong&gt;这几个页面都没写明是否强制预约，只提醒“如果活动需要报名，不能来请取消，把名额让给别人”。我搜到的第三方信息显示 11/16 的 Rancho 到 Black Mountain 徒步和 11/17 的 Windy Hill 狗狗徒步需要预约，截止时间分别是 11/13 和 11/16 下午 2 点，不过这是二手来源。出发前直接点进活动页最保险。12 月的场次我没有查到，官网日历大概还没更新。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.openspace.org/events/guided-activities/giving-thanks"&gt;Giving Thanks&lt;/a&gt;、&lt;a href="https://www.openspace.org/events/guided-activities/early-winter-exploration"&gt;Early Winter Exploration&lt;/a&gt;、&lt;a href="https://www.openspace.org/events/guided-activities/explorer-hike-annual-turkey-trot-3"&gt;Annual Turkey Trot&lt;/a&gt;、&lt;a href="https://www.openspace.org/events/guided-activities/fall-winter-berries"&gt;Fall &amp;amp; Winter Berries&lt;/a&gt;（均为 openspace.org）。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.openspace.org/events/guided-activities/giving-thanks"&gt;https://www.openspace.org/events/guided-activities/giving-thanks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.openspace.org/events/guided-activities/early-winter-exploration"&gt;https://www.openspace.org/events/guided-activities/early-winter-exploration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.openspace.org/events/guided-activities/explorer-hike-annual-turkey-trot-3"&gt;https://www.openspace.org/events/guided-activities/explorer-hike-annual-turkey-trot-3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.openspace.org/events/guided-activities/fall-winter-berries"&gt;https://www.openspace.org/events/guided-activities/fall-winter-berries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">942c1b77-b330-5e33-85ac-e6e6b56cc5c9</guid>
+      <pubDate>Thu, 12 Nov 2026 12:09:16 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.openspace.org/events/guided-activities/giving-thanks</link>
+      <enclosure url="https://www.openspace.org/sites/default/files/styles/16x9_1600w/public/Lanette%20Otvos_RR_Docent%20hikes.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 这个周末去 Sausalito：The Big Open 100 多位艺术家免费开放工作室</title>
+      <description>&lt;figure&gt;&lt;img src="https://sf.funcheap.com/wp-content/uploads/2026/11/bibby-gignilliat-02_bibby_opendstudios2025-1-1.jpg" alt="Sausalito ICB 艺术家开放工作室" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The Big Open 往年现场（图源：Funcheap / ICB ART）&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;这个周末如果只想选一件事做，我会选 Sausalito 的 The Big Open。ICB ART 每年把 Industrial Center Building 里的工作室整体向公众开放，100 多位艺术家同时开门，是他们一年里规模最大的一次开放日。免费入场，所有年龄都可以来，官方说停车也免费（建议 RSVP，不过不是硬要求）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;时间：&lt;/strong&gt;周五 11/13 傍晚 17:00-20:00 是预展（first look），周六 11/14 和周日 11/15 是 11:00-17:00。地点是 480 Gate 5 Road, Sausalito，ICB 大楼。&lt;/p&gt;
+
+&lt;p&gt;开放日的好处很具体：平时看画要去画廊或美术馆，这天可以直接走进艺术家的工作室，当面问作品怎么做出来的。主办方的说法是，这是让公众发现原创作品的一个机会，也就是说可以直接和作者聊，有喜欢的也可以考虑买下来。具体价格区间页面没写，我不乱猜。&lt;/p&gt;
+
+&lt;p&gt;去之前有两点要自己确认：一是路上时间，Sausalito 在金门大桥北边，从 Menlo Park / Palo Alto 过去，周末车流多的话要预留比平时更长的时间，我没有查实时路况；二是停车，官方写免费停车，但没有说车位数量，建议开门时段（11 点）前后或者下午晚些去，避开中午高峰。&lt;/p&gt;
+
+&lt;p&gt;适合谁：想给年底送礼找原创小件的人、喜欢看创作现场的人、带孩子的家庭（页面写明所有年龄都欢迎）。不适合：想快进快出的人，100 多位艺术家全逛一遍需要不少时间，建议先挑几层或几个区域。&lt;/p&gt;
+
+&lt;p&gt;如果这周末被别的安排占了，同一个周末的备选：旧金山 Fort Mason 的 Renegade Craft 假日市集（据 Funcheap 等聚合信息，两天都有，250 多家手作摊位，建议捐款 $5），以及 Ferry Building 的 SF Tea Festival（$24 起）。这两项的信息来自聚合网站，我没有逐个核对官网，去之前请确认时间。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://sf.funcheap.com/big-open-100-sausalito-artists-open-studios-nov-1315/"&gt;Funcheap：The Big Open&lt;/a&gt;，主办方 &lt;a href="https://www.icbart.com/"&gt;ICB ART&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/big-open-100-sausalito-artists-open-studios-nov-1315/"&gt;https://sf.funcheap.com/big-open-100-sausalito-artists-open-studios-nov-1315/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.icbart.com/"&gt;https://www.icbart.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c1aef89b-fa24-5f5a-a6de-b00c9ce7c21f</guid>
+      <pubDate>Thu, 12 Nov 2026 12:09:16 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sf.funcheap.com/big-open-100-sausalito-artists-open-studios-nov-1315/</link>
+      <enclosure url="https://sf.funcheap.com/wp-content/uploads/2026/11/bibby-gignilliat-02_bibby_opendstudios2025-1-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 湾区秋色还剩两三周：Rancho、Filoli、植物园去哪看</title>
+      <description>&lt;p&gt;加州的秋天很淡，不像东海岸那样满山红。湾区真正的秋色集中在 11 月中到 12 月初，靠的是枫树、银杏、橡树、柿子树和几种落叶乔木。树叶颜色变了，不过一场大风雨就会把它们打光，所以这个窗口大概只剩两三周。先说明：我没有查到今年的实时观叶报告，下面是往年的规律和多家本地指南的汇总，具体颜色请出发前看照片再决定。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Peninsula / 南湾：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rancho San Antonio（Los Altos）：&lt;/strong&gt;有一份指南把它称为南湾和半岛看秋色最好的地方，有枫树、橡树和开花后结果的柿子树。它也是 Midpen 最热门的保护区，周末早上停车场很快满，工作日更从容。Midpen 的 11/18 Turkey Trot 导览也在这里走。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Filoli（Woodside）：&lt;/strong&gt;庄园的花园秋色偏晚，11-12 月可以看到 parrotia、红橡和山楂的颜色。需要买票、有开放日历，别直接开车去。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;东湾 / 北湾：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UC Berkeley Botanical Garden：&lt;/strong&gt;几个来源都说它的高峰通常在 11 月底到 12 月初，园里的橡树这个时间才转色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;San Francisco Botanical Garden：&lt;/strong&gt;银杏和山茱萸是亮点，高峰期通常两周左右，多在 11 月。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sunol Regional Wilderness：&lt;/strong&gt;进游客中心就有大片颜色，路程近，适合半天。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;要开远一点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Forest of Nisene Marks（Santa Cruz 县）：&lt;/strong&gt;河谷沿岸有大叶枫、美国梧桐、白蜡、柳树和杨树。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Henry W. Coe State Park：&lt;/strong&gt;梧桐、枫树和落叶橡树的黄色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Big Basin：&lt;/strong&gt;据说秋色到 11 月初，现在应该已经过了，我没有核实公园目前的开放情况，不建议专程去。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;实用技巧三条。第一，看天气预报，一场大风雨过后树叶可能很快掉光，下雨前去更稳。第二，要追实时进度，可以查 California Fall Color 这个网站，里面有高峰日期和用户上传的照片地图。第三，不少步道上颜色最红的叶子其实是毒橡树（poison oak），拍照别为了取景去碰。&lt;/p&gt;
+
+&lt;p&gt;我的建议：想要一次稳妥的，周末上午去 UC Berkeley Botanical Garden 或者 SF Botanical Garden，票价和开放时间请自查；想要免费又走路的，周中去 Rancho。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.kqed.org/news/12056776/bay-area-fall-foliage-guide-make-your-leaf-peeping-plans-now"&gt;KQED 观叶指南&lt;/a&gt;、&lt;a href="https://modernhiker.com/13-trails-for-bay-area-fall-foliage"&gt;Modern Hiker：13 条观叶步道&lt;/a&gt;、&lt;a href="https://sf.funcheap.com/city-guide/fall-colors-bay/"&gt;Funcheap 秋色指南&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.kqed.org/news/12056776/bay-area-fall-foliage-guide-make-your-leaf-peeping-plans-now"&gt;https://www.kqed.org/news/12056776/bay-area-fall-foliage-guide-make-your-leaf-peeping-plans-now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://modernhiker.com/13-trails-for-bay-area-fall-foliage"&gt;https://modernhiker.com/13-trails-for-bay-area-fall-foliage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/city-guide/fall-colors-bay/"&gt;https://sf.funcheap.com/city-guide/fall-colors-bay/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ca705095-ea2b-5f1c-9e63-e28dc3c675a7</guid>
+      <pubDate>Thu, 12 Nov 2026 12:09:16 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.kqed.org/news/12056776/bay-area-fall-foliage-guide-make-your-leaf-peeping-plans-now</link>
+      <enclosure url="https://cdn.kqed.org/wp-content/uploads/sites/10/2025/09/holt_286_4870-2000x1333.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 维生素 K2+D3 两年，冠状动脉钙化进展慢了 21%：DANCODE 试验的数字、没说的细节和一家供应商</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.nutraceuticalsworld.com/wp-content/uploads/sites/12/2026/09/Untitled-design-32-19.jpg" alt="维生素 K2 与冠状动脉钙化研究配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;配图：Sebastian Kaulitzki / Adobe Stock（来源：Nutraceuticals World）&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;8 月的欧洲心脏病学会大会（ESC 2026，慕尼黑）上，欧登塞大学医院的 Selma Hasific 报告了丹麦冠状动脉脱钙试验 &lt;strong&gt;DANCODE&lt;/strong&gt;，随后论文发表在 &lt;em&gt;Circulation&lt;/em&gt;。这是迄今样本量最大的一项维生素 K2（MK-7）加维生素 D3 补充试验，结果落在一个很具体的问题上：已经钙化的冠状动脉，钙化还能不能长得慢一点？&lt;/p&gt;
+&lt;h2&gt;试验做了什么&lt;/h2&gt;
+&lt;p&gt;共 398 人，平均年龄 71 岁，入组时冠状动脉钙化积分（CAC）至少 400 Agatston 单位（AU），也就是已有明显钙化。干预组每天服用 720 µg 维生素 K2（MK-7）加 25 µg 维生素 D3，对照组服安慰剂，持续 24 个月，用 CT 复查钙化积分。&lt;/p&gt;
+&lt;p&gt;结果：两组钙化都在增加，但补充组平均增加 196 AU，安慰剂组 248 AU，相对少了约 21%（(248−196)/248）。报道称男女、中度和极高基线钙化的亚组方向一致。&lt;/p&gt;
+&lt;h2&gt;它接上了哪条线&lt;/h2&gt;
+&lt;p&gt;2023 年同一团队的前序试验 AVADEC 发表在 &lt;em&gt;JACC Advances&lt;/em&gt;，当时只在一个亚组（钙化严重的男性）看到获益。DANCODE 样本更大，把“只对一小撮人有效”改写成“多数亚组方向一致”。作者对机制的解释是，补充后无活性形式的基质 Gla 蛋白（dp-ucMGP）明显下降。MGP 需要维生素 K 才能活化，活化后抑制血管钙沉积，这条逻辑本身是自洽的。&lt;/p&gt;
+&lt;p&gt;此外，4 月有一项 12 周的交叉试验在健康成年人中没有发现 K2 能改善肌肉恢复，说明 K2 的获益不是“越多越好、处处有效”，只在血管钙化这类明确依赖 MGP 的问题上才有理论依据。&lt;/p&gt;
+&lt;h2&gt;我没能确认的部分&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;我读到的是行业媒体 Nutraceuticals World（9 月 24 日）的报道，不是 &lt;em&gt;Circulation&lt;/em&gt; 全文。报道没有给出 p 值、置信区间、各组人数、不良事件，也没讲主要终点的定义。&lt;/li&gt;
+&lt;li&gt;试验用的是 Balchem 的 K2Vital Delta，报道引用了该公司科学总监的话；资助方和利益冲突报道里没写，需要查论文。&lt;/li&gt;
+&lt;li&gt;报道导语写“维生素 D2”，正文写 D3，大概率是笔误，但一并说明。&lt;/li&gt;
+&lt;li&gt;钙化积分不是临床终点。少增加 52 AU 能否转化为更少的心梗，试验没有回答。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;现实中怎么看&lt;/h2&gt;
+&lt;p&gt;21% 是相对数字，绝对差值是 52 AU，对一个本来就快到 250 AU/两年的进展速度来说，是“减缓”而非“逆转”。已知钙化的人是这个结果的适用对象；对没有钙化的健康人，没有证据说补 K2 能预防什么。服用华法林等维生素 K 拮抗剂的人不能自己补 K2，这是已经确立的相互作用。&lt;/p&gt;
+&lt;p&gt;值得追的下一个节点是论文本身的 CI 与利益冲突，以及有没有人做以心血管事件为终点的试验。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.nutraceuticalsworld.com/breaking-news/k2-d3-supplementation-reduced-coronary-artery-calcification-progression-by-21-in-two-years-study/"&gt;https://www.nutraceuticalsworld.com/breaking-news/k2-d3-supplementation-reduced-coronary-artery-calcification-progression-by-21-in-two-years-study/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.082363"&gt;https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.082363&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.jacc.org/doi/10.1016/j.jacadv.2023.100643"&gt;https://www.jacc.org/doi/10.1016/j.jacadv.2023.100643&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nutraingredients.com/Article/2026/04/24/no-recovery-benefit-seen-for-vitamin-k2-in-takeover-trial/"&gt;https://www.nutraingredients.com/Article/2026/04/24/no-recovery-benefit-seen-for-vitamin-k2-in-takeover-trial/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c0ba388a-b04a-5c01-ae17-609c9856d12b</guid>
+      <pubDate>Thu, 12 Nov 2026 12:09:21 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.nutraceuticalsworld.com/breaking-news/k2-d3-supplementation-reduced-coronary-artery-calcification-progression-by-21-in-two-years-study/</link>
+      <enclosure url="https://www.nutraceuticalsworld.com/wp-content/uploads/sites/12/2026/09/Untitled-design-32-19.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 每坐满 30 分钟不起身，死于癌症的风险高一截：9.1 万人的加速度计数据怎么读</title>
+      <description>&lt;figure&gt;&lt;img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/18618/gettyimages-1380715747.jpg" alt="一对老年夫妇在阳光下散步" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;配图：MoMo Productions / Getty Images（来源：Harvard Health）&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;“久坐有害”听了十几年，但多数研究只统计每天坐了多少小时。7 月 2 日发表的这项研究换了个角度：不看总坐多久，看&lt;strong&gt;坐了多久不起身&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2&gt;研究内容&lt;/h2&gt;
+&lt;p&gt;数据来自英国一个大型健康数据库，超过 9.1 万名成年人，每人戴腕部加速度计 7 天，之后随访约 12 年。研究者比较了“连续坐 30 分钟以上”和“时不时站起来活动”两种模式，结果指标是癌症死亡。Harvard Health 的转述给出以下数字：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;连续久坐每多 1 小时，癌症死亡风险约高 10%。&lt;/li&gt;
+&lt;li&gt;把每天约 1 小时的连续久坐换成轻度活动（走路、做家务），风险低 12%。&lt;/li&gt;
+&lt;li&gt;换成 30 分钟中等强度活动（快走），低 8%。&lt;/li&gt;
+&lt;li&gt;换成仅 5 分钟高强度活动，低 22%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;这些数字不能直接拿来用&lt;/h2&gt;
+&lt;p&gt;Harvard Health 的文章没有给风险比、置信区间和事件数，所以上面的百分比只是转述，不能当成精确的 HR。两家报道对期刊的说法也不一致：Harvard Health 写 &lt;em&gt;PLOS One&lt;/em&gt;，但它给出的论文链接和 Earth.com 都指向 &lt;em&gt;PLOS Medicine&lt;/em&gt;（DOI 为 pmed.1004767）。我没能打开论文，期刊以链接为准。&lt;/p&gt;
+&lt;p&gt;这是观察性研究，反向因果难以排除：本来身体不好、已有未确诊疾病的人，更可能久坐不动。“替换”估计是统计模型假设一小时久坐被另一种行为取代，不等于真的做了干预试验。腕部加速度计也只测了一周，用来代表之后十几年的习惯。&lt;/p&gt;
+&lt;h2&gt;和已有证据的关系&lt;/h2&gt;
+&lt;p&gt;这与近期关于“饭后走动”的小型试验方向一致（见 11 月 10 日关于餐后快走 2 分钟降低血糖的条目）：短而频繁的活动打断，比一次长时间运动更能改变代谢指标。但 mindbodygreen 报道的 PURE 研究给了一个反例：坐得最少的人多半是体力劳动者，他们的心血管结局并不是最好的，说明“少坐”本身并不万能，职业和收入等因素混在里面。&lt;/p&gt;
+&lt;p&gt;也不要把站着当解药。早前的悉尼大学研究（2024）发现，每天站立超过两小时后，每多站 30 分钟，循环系统疾病风险反而更高，站立桌不等于活动。&lt;/p&gt;
+&lt;h2&gt;能做什么&lt;/h2&gt;
+&lt;p&gt;哈佛的建议很朴素：设个定时器，每隔一段时间起来动一动。从证据强度看，这个建议的成本几乎为零，即使因果效应只有观察到的一半，也不亏。真正值得追的是：随机试验里“每 30 分钟起身 2–5 分钟”这类干预，能否在癌症相关生物标志物上看到变化。比利时 NCT07363499（运动加减少工作场所久坐）已于 2026 年初完成数据收集，结果尚未公布。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.harvardhealth.org/cancer/taking-breaks-from-sitting-to-move-around-may-lower-cancer-risk"&gt;https://www.harvardhealth.org/cancer/taking-breaks-from-sitting-to-move-around-may-lower-cancer-risk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004767"&gt;https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004767&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.earth.com/news/long-uninterrupted-sitting-tied-to-higher-cancer-risk/"&gt;https://www.earth.com/news/long-uninterrupted-sitting-tied-to-higher-cancer-risk/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mindbodygreen.com/articles/less-sitting-doesnt-always-mean-better-health-study-finds"&gt;https://www.mindbodygreen.com/articles/less-sitting-doesnt-always-mean-better-health-study-finds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">46a60099-ebb0-557d-b761-79d2c357c6fc</guid>
+      <pubDate>Thu, 12 Nov 2026 12:09:21 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.harvardhealth.org/cancer/taking-breaks-from-sitting-to-move-around-may-lower-cancer-risk</link>
+      <enclosure url="https://domf5oio6qrcr.cloudfront.net/medialibrary/18618/gettyimages-1380715747.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 力量训练每周 90–120 分钟，全因死亡风险低 13%：14.7 万名医护人员 30 年随访里的“天花板”</title>
+      <description>&lt;p&gt;6 月 2 日发表在 &lt;em&gt;British Journal of Sports Medicine&lt;/em&gt; 的这项哈佛陈曾熙公共卫生学院研究，是“力量训练与长寿”这条线上目前最大的一份前瞻性数据，规模和时长都超过我们此前读到的同类研究。&lt;/p&gt;
+&lt;h2&gt;数据和结果&lt;/h2&gt;
+&lt;p&gt;研究分析了 147,374 名成年人，随访长达 30 年，期间反复记录运动习惯。与完全不做力量训练的人相比：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每周做 90–120 分钟力量训练的人，全因死亡风险低 13%；&lt;/li&gt;
+&lt;li&gt;心血管死亡风险低 19%；&lt;/li&gt;
+&lt;li&gt;神经系统疾病死亡风险低 27%；&lt;/li&gt;
+&lt;li&gt;每周超过约 120 分钟后，没有看到额外的死亡率下降，即存在“天花板”；&lt;/li&gt;
+&lt;li&gt;有氧和力量训练都规律做的人，死亡风险最多低 45%（对照是几乎不做有氧也不做力量训练的人）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;13% 的幅度不大。45% 的比较对象是最不活跃的一组，所以它主要体现的是“有氧加力量比什么都不做强”，而不是力量训练独占的贡献。&lt;/p&gt;
+&lt;h2&gt;该保留的怀疑&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;观察性研究，无法证明因果。爱锻炼的人通常也更少吸烟、饮食更好。&lt;/li&gt;
+&lt;li&gt;运动量靠自我报告，会有记忆偏差。&lt;/li&gt;
+&lt;li&gt;人群主要是白人、中老年医护人员，推广到其他人群要谨慎。&lt;/li&gt;
+&lt;li&gt;我只看到了电视台报道和一篇关注衰老的 Substack，没有读到 BJSM 原文或新闻稿，具体风险比和置信区间未核对。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;对时间分配的意义&lt;/h2&gt;
+&lt;p&gt;“90–120 分钟”对应每周 2–3 次、每次 30–45 分钟，远低于很多健身计划的负担。天花板的存在有一个实际含义：想靠力量训练降低死亡率，增加到每周 5 小时并不划算，可以把时间分给有氧、睡眠或休息。这与我们之前跟踪的“力量与长寿”线索一致：规律力量训练的收益在中等剂量时就基本拿到。&lt;/p&gt;
+&lt;p&gt;需要注意，这项研究没有区分训练类型（器械、自重、阻力带），也无法回答“从零开始的人多久能看到好处”。这两点要靠随机试验补，目前还没有这个规模的结果。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.fox4news.com/news/exercise-habit-may-slash-dementia-risk-help-you-live-longer-study-finds"&gt;https://www.fox4news.com/news/exercise-habit-may-slash-dementia-risk-help-you-live-longer-study-finds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://agingbetter.substack.com/p/new-research-connects-resistance"&gt;https://agingbetter.substack.com/p/new-research-connects-resistance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6c272d4e-0925-5152-8e26-7d181d05b5ef</guid>
+      <pubDate>Thu, 12 Nov 2026 12:09:21 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.fox4news.com/news/exercise-habit-may-slash-dementia-risk-help-you-live-longer-study-finds</link>
+      <enclosure url="https://images.foxtv.com/static.livenowfox.com/www.livenowfox.com/content/uploads/2026/06/1200/630/gettyimages-2271918731.jpg?ve=1&amp;amp;tl=1" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Making AI Chat Usable Without Sight: Eric Bailey's Blueprint for Accessible LLM Interfaces / 看不见也能用的 AI 聊天：Eric Bailey 的无障碍 LLM 界面方案</title>
+      <description>&lt;p&gt;Most full-screen AI chat products are designed for people who watch text appear. In a 21-minute piece for Smashing Magazine (Nov 5, 2026), Eric Bailey lays out what that looks like to a screen reader user. You type a prompt and press Enter. Focus stays in the input, and the reply renders somewhere else on the page with no announcement. A sighted user sees the answer stream in. A blind user hears nothing and can't tell whether the app is thinking, finished, or broken.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/making-immersive-llm-chat-experiences-more-accessible/before-comparison.webp" alt="Side-by-side comparison: a sighted user sees an LLM reply appear while the screen reader user's experience stays silent" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Bailey's starting point: the reply is visible, but nothing tells assistive technology that it arrived. (Smashing Magazine)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;None of his fixes need new technology, and that's what makes the article worth reading. He treats Claude, ChatGPT, Gemini, GitHub Copilot and Glean as a single pattern class, "immersive LLM chat," and works through it with ordinary WCAG techniques. The guidance covers web apps and Electron/Tauri desktop wrappers. Pop-up chat widgets and inline summarizers are out of scope.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements: one live region, fired once.&lt;/strong&gt; The most common mistake he sees is putting &lt;code&gt;aria-live&lt;/code&gt; on every message bubble, which makes announcements unreliable. His alternative:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Put a single dedicated live region at the end of the DOM and route every announcement through it.&lt;/li&gt;
+&lt;li&gt;Don't announce tokens while they stream. Partial text read aloud produces a "juddering" mess. Wait until the stream finishes, then announce the whole reply.&lt;/li&gt;
+&lt;li&gt;If the UI shows loading text ("Thinking…"), mirror the exact same wording into the live region. If it only shows an animation, announce "Loading" after about five seconds and repeat every five seconds. He calls five seconds the sweet spot from the inclusive research he reviewed. For long agent runs, rotate phrases like "Researching," "Planning" so the user knows work is still happening.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/making-immersive-llm-chat-experiences-more-accessible/live-region-do-dont.png" alt="Do: one dedicated live region at the end of the document. Don't: aria-live on each chat message" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;One live region for the whole app, not one per message. (Smashing Magazine)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;He mentions &lt;code&gt;ariaNotify()&lt;/code&gt; as the cleaner future API, but advises holding off for now because of uneven browser rollout, slow upgrades and polyfill maturity. Firefox shipped it in version 150 (April 2026). Safari support is reported in later compat data but isn't settled. Until then he recommends TetraLogical's live-region technique.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure: headings, not landmarks.&lt;/strong&gt; Every message becomes an &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt; with a visually hidden &lt;code&gt;h2&lt;/code&gt; that reads "You said:" or "Cody said:". This is the non-visual version of left/right bubble alignment, and since the WebAIM screen reader survey keeps finding headings to be the most-used navigation method, it lets users jump message by message. Landmarks are kept to the page frame: &lt;code&gt;nav&lt;/code&gt; for the session list, &lt;code&gt;main&lt;/code&gt; for the conversation, &lt;code&gt;form&lt;/code&gt; for the prompt, &lt;code&gt;aside&lt;/code&gt; for artifacts and code. Wrapping each message in a &lt;code&gt;section&lt;/code&gt; is the anti-pattern. In his VoiceOver demo it grows the landmark list from 3 entries to 23.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/making-immersive-llm-chat-experiences-more-accessible/landmarks.png" alt="LLM chat layout annotated with nav, main, form, and aside landmarks" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Four landmarks for the frame. Per-message navigation is done with headings. (Smashing Magazine)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Keyboard: fewer Tab stops, plus F6.&lt;/strong&gt; A long session sidebar can mean dozens of Tab presses, which is tiring or even painful for people with motor disabilities. Bailey makes the conversation list a composite widget: one tab stop, arrow keys inside it, Home/End and typeahead. He also brings back a desktop convention most web apps ignore. Ctrl+F6 / Ctrl+Shift+F6 (plain F6 in native wrappers) cycle focus between landmarks, the prompt input and the last reply, so a user can read the latest answer and get back to typing in two keystrokes. Users need to be told the shortcut exists, so list it in settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Preferences agentic UIs now need.&lt;/strong&gt; Agent products narrate a lot of side activity: reasoning, searching, reading files, running commands, compacting context. Bailey proposes per-category toggles for which of these get announced, and optionally shown. He also asks for an animation switch that defaults to off under &lt;code&gt;prefers-reduced-motion&lt;/code&gt;, app sounds that can be muted separately from the device, and keyboard shortcuts that can be remapped or disabled, since they clash with screen reader keys and non-US layouts. For tables and code blocks he suggests announcing a summary ("settings.json, 738 lines") and leaving the full content in the message body.&lt;/p&gt;
+
+&lt;p&gt;This article fits two threads we've been following. The Chrome 154 carousel change showed public accessibility audits pushing browsers to change semantics. Here a practitioner is offering the same kind of audit for a product category that has no shared component yet. And MeasuringU's 2026 chatbot benchmark scored ChatGPT, Claude, Gemini and Grok as statistically identical B+ products on SUS. Like nearly every usability benchmark, that sample was presumably sighted mouse-and-keyboard users. Accessibility is a real way for these products to differ, and almost nobody measures it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; if your product has a chat surface, run three tests this week. Send a prompt with VoiceOver or NVDA running and check whether the reply is announced exactly once. Count the landmarks in the rotor. Count the Tab presses from the input to the latest reply. If the answers are "no," "more than five" and "more than a few," you have a backlog. Bailey's article gives you a spec for most of it.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;主流的全屏 AI 聊天产品，几乎都是为“看着文字冒出来”的人设计的。Eric Bailey 11 月 5 日在 Smashing Magazine 发了一篇 21 分钟的长文，讲屏幕阅读器（screen reader）用户在这类产品里遇到什么。输入提示词，按回车，焦点还停在输入框里，回复在页面别处渲染出来，没有任何播报。明眼用户看着答案一行行流出，盲人用户什么也听不到，不知道应用是还在想、已经答完，还是卡死了。&lt;/p&gt;
+
+&lt;p&gt;他给的方案都用不着新技术，这正是这篇文章的价值。他把 Claude、ChatGPT、Gemini、GitHub Copilot、Glean 归为同一类模式，叫“沉浸式 LLM 聊天”，然后拿常规的 WCAG 手法逐项处理。网页应用和 Electron/Tauri 封装的桌面应用都适用，弹窗式客服挂件和内嵌摘要工具不在讨论范围。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;播报：一个实时区域（live region），只报一次。&lt;/strong&gt;他见得最多的错误，是给每个消息气泡都加 &lt;code&gt;aria-live&lt;/code&gt;，结果播报时有时无。他的做法是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 DOM 末尾放唯一一个专用实时区域，所有播报都从这里走。&lt;/li&gt;
+&lt;li&gt;流式输出时不要逐 token 播报，半截文字读出来只会一卡一顿。等输出结束，整段一次读完。&lt;/li&gt;
+&lt;li&gt;界面上有加载文字（比如“Thinking…”），实时区域就同步一模一样的措辞。只有动画没有文字的，大约 5 秒后播报“Loading”，之后每 5 秒重复。他说 5 秒是他看过的包容性研究里的最佳点。智能体跑得久，就轮换“Researching”“Planning”之类的短语，让用户知道活还在干。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;他提到 &lt;code&gt;ariaNotify()&lt;/code&gt; 是更干净的未来 API，但建议先别用：浏览器支持不齐，用户升级慢，polyfill 也不成熟。Firefox 150（2026 年 4 月）已经支持，Safari 在后来的兼容性数据里有记录，但还没定论。在那之前，他推荐 TetraLogical 的实时区域写法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结构上靠标题，别靠地标。&lt;/strong&gt;每条消息做成一个 &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;，里面放一个视觉隐藏的 &lt;code&gt;h2&lt;/code&gt;，写“You said:”或“Cody said:”，等于把气泡左右对齐翻译成了声音。WebAIM 屏幕阅读器调查一直显示标题是用户最常用的导航方式，这样就能一条条跳着听。地标（landmark）只用来搭页面框架：会话列表用 &lt;code&gt;nav&lt;/code&gt;，对话用 &lt;code&gt;main&lt;/code&gt;，输入框用 &lt;code&gt;form&lt;/code&gt;，产物和代码放 &lt;code&gt;aside&lt;/code&gt;。反面例子是给每条消息套一个 &lt;code&gt;section&lt;/code&gt;，他在 VoiceOver 里演示，地标列表从 3 项膨胀到 23 项。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;键盘：少几个 Tab 停靠点，再加上 F6。&lt;/strong&gt;侧栏会话一长，就得按几十次 Tab，对运动障碍用户来说既累又疼。Bailey 把会话列表做成复合控件（composite widget）：整体只占一个 Tab 停靠点，内部用方向键，支持 Home/End 和键入跳转。他还捡回了一个网页应用普遍忽略的桌面惯例：Ctrl+F6 / Ctrl+Shift+F6（原生封装里直接用 F6）在地标、输入框和最后一条回复之间切换焦点，读完最新答案，两下就能回去打字。这个快捷键用户多半不知道，得在设置里写出来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;智能体界面需要的新偏好设置。&lt;/strong&gt;智能体产品会实时汇报一堆旁支动作：推理、搜索、读文件、跑命令、压缩上下文。Bailey 建议按类别开关这些动作要不要播报，也可以选择要不要显示。另外几项：动画开关在 &lt;code&gt;prefers-reduced-motion&lt;/code&gt; 下默认关闭；应用音效能独立于设备静音；快捷键可以改键或禁用，因为它们会和读屏软件的按键、非美式键盘布局冲突。表格和代码块只播报摘要（“settings.json，738 行”），完整内容留在消息正文里。&lt;/p&gt;
+
+&lt;p&gt;这篇文章能接上我们追的两条线。Chrome 154 改轮播语义，说明公开的无障碍审查真能逼浏览器改行为。这一次是一位从业者给一个还没有通用组件的产品品类写审查报告。另一条是 MeasuringU 2026 年的聊天产品基准：ChatGPT、Claude、Gemini、Grok 的 SUS 统计上毫无差别，全是 B+。和几乎所有可用性基准一样，那批样本大概率是用鼠标键盘的明眼用户。无障碍是这些产品真正能拉开差距的地方，可几乎没人去量。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;动手建议：&lt;/strong&gt;如果你的产品有聊天界面，这周做三个测试。开着 VoiceOver 或 NVDA 发一条提示词，看回复是不是恰好播报一次；数一数转子（rotor）里有几个地标；数一数从输入框到最新回复要按几次 Tab。如果答案分别是“没有”“超过五个”“好几次”，那就有一份待办清单了，而 Bailey 这篇文章基本就是现成的规格说明。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/"&gt;https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://web-platform-dx.github.io/web-features-explorer/features/arianotify/"&gt;https://web-platform-dx.github.io/web-features-explorer/features/arianotify/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://measuringu.com/"&gt;https://measuringu.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5b4a17d3-cdbb-5214-b36f-89c6118dd5b0</guid>
+      <pubDate>Thu, 12 Nov 2026 12:12:03 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/</link>
+      <enclosure url="https://files.smashing.media/articles/making-immersive-llm-chat-experiences-more-accessible/making-immersive-llm-chat-experiences-more-accessible.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 阿布扎比三方会谈无突破：换俘最接近落地，北约问题仍卡死</title>
+      <description>&lt;p&gt;阿布扎比的美俄乌三方会谈开了两天，没有突破。11月10日是第一天，11日是第二天，这是自2月以来第一次由美国牵头的三方会面，中间停了九个月。能确定的成果只有一个：会谈重新开了。&lt;/p&gt;
+
+&lt;p&gt;先看谁坐在桌边。美方是威特科夫（Steve Witkoff）和库什纳（Jared Kushner），据美联社报道，北约盟军最高司令格里内维奇上将（Gen. Alexus Grynkewich）也在场。乌克兰代表团由乌梅罗夫（Rustem Umerov）带队，成员包括总统办公室主任布达诺夫、基斯利齐亚、阿拉哈米亚和斯基比茨基，泽连斯基本人没去。俄方由梅金斯基（Vladimir Medinsky）带队，外交部副部长里亚布科夫也在。鲁比奥当时人在巴黎的G7会议上，只是远程评论。&lt;/p&gt;
+
+&lt;p&gt;会谈前一天，乌克兰代表团先单独见了英国、法国、德国、意大利、北约和欧盟委员会的代表，然后才进三方会场。这个安排说明基辅想先和欧洲对好口径。库什纳在会后说，要达成协议，俄罗斯和欧洲之间还需要就更大范围的安全安排直接接触，等于把欧洲也拉进了最终方案的签字名单。&lt;/p&gt;
+
+&lt;p&gt;具体谈了什么？泽连斯基的说法是“建设性且相当实质”（constructive and quite substantive），他提到了人道主义措施的可能参数、降级步骤，以及安全保障的“具体内容”。他想要的是仿照北约第五条（Article 5）的保障。换俘是最接近落地的议题：泽连斯基说可以按1000换1000或1500换1500的规模进行，一名乌方高级官员对美联社称双方谈到了大规模换俘，细节几天内再议。但目前没有宣布任何换俘协议。&lt;/p&gt;
+
+&lt;p&gt;分歧在老地方。基伊夫独立报（Kyiv Independent）的梳理是，俄方要求包括禁止乌克兰加入北约，而它所说的“安全保障”很可能指北约在中东欧的军事存在后撤。塔斯社援引莫斯科代表团附近的匿名消息称，双方可能就乌克兰不入北约达成了一致，我没能找到第二个来源，只能当作未经证实的说法。鲁比奥的评价很克制：会谈“非常有成效”，但“不是24小时内就能解决的事”。&lt;/p&gt;
+
+&lt;p&gt;基伊夫独立报页面上的一条侧栏标题写着，特朗普的特使将前往莫斯科，阿布扎比会谈“无突破而终”。我只看到了标题，没有打开那篇文章，所以访问时间和议程要等后续报道确认。&lt;/p&gt;
+
+&lt;p&gt;和11月5日我们跟踪这条线时相比，变化很具体：会谈确实举行了，议题定在人道措施、降级和安全保障三块，欧洲被正式拉进旁线会议。没变的是核心矛盾，即领土和北约，这两项在公开报道里连讨论的痕迹都没有。阿拉哈米亚的话大概最贴切：光是重新开始谈，就已经算成绩了。&lt;/p&gt;
+
+&lt;p&gt;接下来该盯两件事：威特科夫和库什纳去莫斯科的具体日期，以及大规模换俘有没有在一周内公布细节。如果换俘按1000换1000落地，这轮会谈就至少有了可以拿出来的成果；如果拖到月底，那“建设性”三个字就只是外交辞令。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/"&gt;Kyiv Independent：Ukraine, Russia, US resume trilateral peace talks in Abu Dhabi after 9-month pause&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi"&gt;PBS NewsHour / AP：Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi"&gt;Al Jazeera：‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/"&gt;https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi"&gt;https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi"&gt;https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a6675a12-398e-55d7-adea-f2820b3fbaec</guid>
+      <pubDate>Thu, 12 Nov 2026 12:12:26 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/</link>
+      <enclosure url="https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2303997577_20261110-125429.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 10月CPI环比涨0.4%、核心连续三个月0.3%：市场已全额计入12月加息，50个基点被摆上桌</title>
+      <description>&lt;p&gt;10月美国CPI环比涨0.4%，核心CPI涨0.3%，两项都高于市场预期（分别是0.3%和0.2%）。数据11月10日公布，CME FedWatch显示交易员已经把12月加息25个基点完全计入价格，加息50个基点的概率从接近零跳到13.6%。&lt;/p&gt;
+
+&lt;p&gt;构成上，涨幅不是单点异常。住房（shelter）涨0.3%，占整体涨幅的三成以上；食品涨0.5%，其中零食涨1.0%、牛肉涨0.9%；能源涨0.7%，汽油一项就涨了1.0%，电力涨0.9%。运输服务涨0.8%，汽车保险涨0.7%。唯一明显往下拉的是二手车，跌1.2%，天然气也跌了0.8%。核心CPI这是连续第三个月涨0.3%，9月整体CPI环比是0.6%，10月回落到0.4%，但核心部分没有降温。&lt;/p&gt;
+
+&lt;p&gt;这份报告有个技术上的坑：BLS没有公布10月的同比数字。原因是2025年10月联邦政府停摆，当月价格根本没采集，BLS的说明是不会为缺少去年同期数据的指数公布12个月变化。同比数据要到12月10日的11月CPI才恢复，也就是12月9日美联储做决定之后一天。所以12月会议前，决策者手里最新的官方同比数字仍是9月的3.7%（整体）。StockTitan依据BLS表格算出汽油同比涨37.4%，这是少数能直接看到的同比数。&lt;/p&gt;
+
+&lt;p&gt;美联储这边已经走上了加息路径。9月16日加息25个基点，目标区间升到3.75%至4.00%；10月28日按兵不动，但表决是10比2，莉莎·库克（Lisa Cook）和哈马克（Beth Hammack）投了加息票。沃什（Kevin Warsh）主政后没有给出明确的加息信号，市场是靠数据在推。&lt;/p&gt;
+
+&lt;p&gt;最有意思的是理事沃勒（Christopher Waller）。他11月10日在伦敦的演讲发生在数据公布之前，原话是倾向于支持12月加息25个基点，但如果10月核心CPI“大约0.3%甚至更高”，应该考虑加息50个基点。他还说，只加25个基点会冒“信誉风险”，而“我不想冒这个险”。实际数据正好踩在他划的线上。达拉斯联储的洛根（Lorie Logan）则说，她看到还需要两次25个基点的加息，并且冬季可以加快节奏。费城联储的保尔森（Anna Paulson）更温和，称“眼下继续逐步收紧看来合适”。&lt;/p&gt;
+
+&lt;p&gt;市场反应很直接：股票下跌，国债收益率跳升。联邦爱马仕（Federated Hermes）的卡伦·曼纳说，这是市场“最经不起”看到的一份报告。在11月5日纳指单日重挫5.52%之后，这样的数据来得很不是时候，科技股本来就在消化数据中心的政治风险，现在又多了一层利率压力。&lt;/p&gt;
+
+&lt;p&gt;对普通人来说，更直观的影响有两条：房贷和信用卡利率短期内不会回落，而汽油和食品的涨价会继续吃掉购买力。如果12月真的是50个基点，那就是沃什任内最大的一次加息。&lt;/p&gt;
+
+&lt;p&gt;时间表很清楚：12月8日至9日FOMC开会，12月9日出结果；12月10日BLS发布11月CPI，同比数据恢复。在此之前，没有新的CPI可以改变判断，下一个能动摇预期的数据是11月的就业报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"&gt;CNBC：CPI inflation report October 2026&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.stocktitan.net/articles/october-2026-cpi-inflation-report"&gt;StockTitan：CPI Report Shows Core Prices Up 0.3% Again, Hitting Waller's Line for Weighing a Half Point Hike&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bls.gov/cpi/"&gt;美国劳工统计局（BLS）：CPI 主页&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"&gt;https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.stocktitan.net/articles/october-2026-cpi-inflation-report"&gt;https://www.stocktitan.net/articles/october-2026-cpi-inflation-report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bls.gov/cpi/"&gt;https://www.bls.gov/cpi/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ba67717f-ca54-5518-9347-3684e5f23450</guid>
+      <pubDate>Thu, 12 Nov 2026 12:12:26 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html</link>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/108414079-1794318539817-108414079-1792067685758-gettyimages-2275677175-l1081559_c7svuif5.jpg?v=1794318549&amp;w=1920&amp;h=1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 科利姆赢下密西西比参议院席位：该州四十多年来首位民主党参议员，民主党至少55席</title>
+      <description>&lt;p&gt;民主党的科利姆（Scott Colom）赢下了密西西比州联邦参议员席位，击败共和党现任议员海德-史密斯（Cindy Hyde-Smith）。美联社11月11日根据未认证的计票结果宣布了这个结果，海德-史密斯随后在社交媒体上发视频认输。&lt;/p&gt;
+
+&lt;p&gt;差距很小。NPR称这是全国最接近的一场参议院选举，只差几千票，是在一周多的缺席选票和临时选票（affidavit ballot）点算之后才分出胜负。密西西比本地媒体Mississippi Today的数字是科利姆49.2%、海德-史密斯48.7%，我只在检索摘要里看到这个数字，没能打开原文核对，请当作参考。&lt;/p&gt;
+
+&lt;p&gt;这一票的分量要从两头算。从议席算：NPR说科利姆的胜利让民主党在新一届国会的参议院席位扩大到55席，而阿拉斯加还没定。我们之前记录的是“至少54席，密西西比和阿拉斯加未定”，现在密西西比落地，下限变成55。从历史算：密西西比四十多年没选过民主党参议员，自重建时期（Reconstruction）以来也没有送过黑人参议员去华盛顿。这个州的黑人选民占比接近40%，居全美最高，但特朗普2024年在这里赢了23个百分点。&lt;/p&gt;
+
+&lt;p&gt;NPR给的原因是投票率和物价。黑人选民投票率上升，加上以农业为主的农村经济被物价上涨打得特别重。科利姆是一名地区检察官，竞选主题就是生活成本，给对手起的外号是“高物价辛迪”（Cindy High-Prices）。两党在最后几周都往这里砸了几百万美元，一个原本不被看作摇摆的深红州，临近选举时成了烧钱的战场。这一点和上一条里讲的CPI数据对得上：物价是这轮中期选举里能把深红州翻过来的变量。&lt;/p&gt;
+
+&lt;p&gt;海德-史密斯的认输词很短：“这不是我们努力争取或希望的结果，但我尊重密西西比选民的决定。”科利姆在历史上的黑人大学图加卢学院（Tougaloo College）对支持者发表了讲话。&lt;/p&gt;
+
+&lt;p&gt;不过程序还没走完。这次是媒体根据未认证结果做的判断。我们之前跟踪到的信息是，密西西比各县要在11月13日前认证，而且州法没有自动重新计票的规定；Mississippi Today的报道还提到有一个县的计票仍在收尾，最终认证数字可能有小幅变化。海德-史密斯已经认输，翻盘的可能性很小，但认证前不算彻底盖章。&lt;/p&gt;
+
+&lt;p&gt;阿拉斯加是最后一个悬着的席位。11月6日阿拉斯加媒体的数字是民主党的佩尔托拉（Mary Peltola）领先共和党现任议员沙利文（Dan Sullivan）637票，约48.02%对47.72%，两人都没过50%，要启动排序选择投票（ranked-choice）。这个数字已经过时，最新计票我没有查到。沙利文阵营声称排序选择的结果对自己有利，这是竞选团队的说法，不是已核实的数字。&lt;/p&gt;
+
+&lt;p&gt;要盯的日期：11月13日密西西比各县认证截止，11月18日阿拉斯加排序选择计票。阿拉斯加一旦落到佩尔托拉手里，民主党的席位就是56。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom"&gt;NPR：Mississippi Senate: Democrat Scott Colom wins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mississippitoday.org/2026/11/11/scott-colom-wins-senate-mississippi-hyde-smith/"&gt;Mississippi Today：Colom wins Mississippi Senate race&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.alaskasnewssource.com/2026/11/06/peltola-sullivan-campaigns-project-wins-while-quarter-ballots-are-outstanding/"&gt;Alaska's News Source：Peltola and Sullivan campaigns project wins while a quarter of ballots are outstanding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom"&gt;https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://mississippitoday.org/2026/11/11/scott-colom-wins-senate-mississippi-hyde-smith/"&gt;https://mississippitoday.org/2026/11/11/scott-colom-wins-senate-mississippi-hyde-smith/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.alaskasnewssource.com/2026/11/06/peltola-sullivan-campaigns-project-wins-while-quarter-ballots-are-outstanding/"&gt;https://www.alaskasnewssource.com/2026/11/06/peltola-sullivan-campaigns-project-wins-while-quarter-ballots-are-outstanding/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4863da24-2010-5f1d-8d58-17ea7ccb7946</guid>
+      <pubDate>Thu, 12 Nov 2026 12:12:26 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom</link>
+      <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3174x1785+0+165/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe4%2F8a%2Ff54fa9dd4de4a9cae7937ebf9994%2Fmdt-colom.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 COP31领导人峰会：特朗普、莫迪缺席，成果只有一项电气化承诺</title>
+      <description>&lt;p&gt;COP31领导人峰会11月11日至12日在土耳其安塔利亚举行，最大的新闻是谁没来。据法新社报道，特朗普不出席，习近平由副主席韩正代表，莫迪缺席，马克龙、默茨和梅洛尼也没有到场。土耳其官方原先预计有102位领导人来自95个国家，其中37位是国家元首、35位是政府首脑，但发言名单上的重量级人物明显少于往年。&lt;/p&gt;
+
+&lt;p&gt;路透社整理的发言人包括联合国秘书长古特雷斯（António Guterres）、东道主埃尔多安、巴西总统卢拉、韩正、澳大利亚总理阿尔巴尼斯、埃塞俄比亚总理阿比、欧盟委员会主席冯德莱恩、马尔代夫总统穆伊兹、伊朗总统佩泽什基安。耶路撒冷邮报的分析引用法新社称，七国集团（G7）领导人里似乎只有英国方面有人出席，不过路透社的发言名单里没有这位英国领导人，我无法交叉核实，这里不做定论。&lt;/p&gt;
+
+&lt;p&gt;发言的基调是失望。古特雷斯说“残酷的真相是，气候危机正在跑到我们前面”，并称当前路径等于“相互确保毁灭”。卢拉说得更直白：气候变化已经从全球领导层的讲话和文件里消失了，缺乏共识“不能成为前进的障碍”，而“否决权的特权和金钱的力量让天平倾斜”。韩正重申“共同但有区别的责任”，要求发达国家带头减排并兑现气候资金。阿比说责任最大、能力最强的国家必须在这十年里做更深的减排。马尔代夫的穆伊兹要的是“新的、额外的、可预期的、以赠款为主”的资金。&lt;/p&gt;
+
+&lt;p&gt;具体成果呢？目前只有一项：冯德莱恩表态支持土耳其推的“35-by-35”全球电气化承诺（Global Electrification Pledge），并鼓励其他国家跟进。我之前记录过这个2035年电气化率达到35%的倡议。除此之外，路透社和耶路撒冷邮报的报道里都没有出现新的资金承诺，耶路撒冷邮报把领导人在会场内做出的气候承诺形容为“微薄”。东道国此前说要起草的“安塔利亚宣言”（Antalya Declaration），我在这两篇报道里都没找到，状态未确认。&lt;/p&gt;
+
+&lt;p&gt;战争把议程挤到了一边。耶路撒冷邮报的分析认为，美伊战争、俄乌战争和中东冲突让气候议题靠后站。佩泽什基安甚至把气候和战争直接挂钩，要求为“军事侵略”造成的环境破坏提供赔偿机制。欧盟气候事务专员霍克斯特拉（Wopke Hoekstra）的预期管理很到位：期望“不一定很高”。&lt;/p&gt;
+
+&lt;p&gt;这和我们11月10日COP31开幕那条里提到的情况连得上：印度和中国不派最高领导人，美国缺席，巴西的化石燃料路线图（11月3日发布的182页文件）不在正式议程。现在领导人环节过半，路线图仍然只是场外话题。&lt;/p&gt;
+
+&lt;p&gt;真正的谈判在后面。领导人们讲完回家，谈判代表要在11月20日闭幕前交出一份一揽子的“封面决定”（cover decision）。到时候看两件事：化石燃料转型有没有进文本，以及气候资金的数字有没有增量。如果11月20日前两项都没有，这届大会的头条就只剩“谁没来”了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"&gt;Al-Monitor / Reuters：World leaders speak at COP31 climate conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.jpost.com/middle-east/article-914649"&gt;The Jerusalem Post：COP31 in Turkey becomes diplomatic stage as climate agenda takes back seat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://unfccc.int/node/662632"&gt;UNFCCC：Antalya Leaders' Summit at COP 31&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"&gt;https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.jpost.com/middle-east/article-914649"&gt;http://www.jpost.com/middle-east/article-914649&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://unfccc.int/node/662632"&gt;https://unfccc.int/node/662632&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">84502390-4103-5331-8400-1464d48dcedb</guid>
+      <pubDate>Thu, 12 Nov 2026 12:12:26 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference</link>
+      <enclosure url="https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2026-11/2026-11-11T173049Z_2_LYNXNPEMAA0RM_RTROPTP_3_CLIMATE-COP31.JPG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 A Design System Benchmark Finds Two Ways Agents Fail: Ignoring Your Components or Inventing Them / 设计系统基准测试发现智能体两种翻车方式：无视你的组件，或凭空编造</title>
+      <description>&lt;p&gt;Most "is your design system AI-ready?" checklists count artifacts: do you have an MCP server, an llms.txt, an AGENTS.md. &lt;a href="https://christophhellmuth.com/open-design-system-bench/"&gt;open-design-system-bench&lt;/a&gt; takes a harder question and measures it. When a coding agent builds UI against your component library, does it actually use the library correctly, and how much does each layer of guidance help? Christoph Hellmuth built the benchmark against Aurora, Nord Security's production design system, then generalized it for any React + TypeScript library. It's MIT-licensed on &lt;a href="https://github.com/christophhdesign/open-design-system-bench"&gt;GitHub&lt;/a&gt; (created Aug 26, last pushed Nov 2), and Smashing's Nov 10 newsletter put it in front of a wider audience.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://christophhellmuth.com/open-design-system-bench/visuals/hero-field.svg" alt="Abstract field of compass needles, one following a current while the others drift" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The project's visual metaphor: one agent following the system's API while the rest drift. (open-design-system-bench)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Two layers: a free audit and a paid benchmark.&lt;/strong&gt; The static audit runs in seconds with no API key and gives a 0-100 AI-Readiness Score across seven checks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Enablement surface&lt;/em&gt;: AGENTS.md/CLAUDE.md, llms.txt, a machine-readable catalog, MCP hints, skills, editor rules, Code Connect.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Catalog quality&lt;/em&gt;: typed props, defaults, descriptions, staleness against source.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Export hygiene&lt;/em&gt;: public components that aren't actually exported, missing types.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Vocabulary convention-distance&lt;/em&gt;: how far your component names sit from an empirical lexicon of names models tend to invent.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Token machine-readability&lt;/em&gt;: CSS custom properties or DTCG, a semantic layer, light/dark pairing.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Deprecation legibility&lt;/em&gt;: &lt;code&gt;@deprecated&lt;/code&gt; annotations and a machine-readable changelog.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Docs greppability&lt;/em&gt;: docs available as text and covering the full component set.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Scores below 40 are "Emerging," 40-70 "Invested," 70+ "AI-native." The generation benchmark is the part that costs money. Agents get intent-level prompts that never name the expected component, and a linter checks each prompt against the catalog to enforce that. They work in isolated fixture repos, and the resulting diffs are graded on six dimensions: imports, API fidelity, token discipline, static accessibility, compilation (&lt;code&gt;tsc --noEmit&lt;/code&gt;) and a weighted LLM-judged rubric. The gate is the &lt;em&gt;worst&lt;/em&gt; dimension, not the average. That one choice is the most useful idea in the project, because averaging hides the failure mode its results reveal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The results: two different ways to fail.&lt;/strong&gt; Across 898 graded generations on Aurora, the models split into two camps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPT 5.6 Luna and Terra ignored Aurora in 55% and 63% of outputs, hallucinated 0% of component names, and compiled 83-94% of the time. Their code looks clean because it mostly skips the design system.&lt;/li&gt;
+&lt;li&gt;DeepSeek Flash, DeepSeek V4 Pro and Sonnet 5 (single-shot) ignored the system only 4-9% of the time, but hallucinated about a third of component names (31-36%) and compiled only 11-29% of the time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An average-based score would rank the GPT runs as the "safest." A worst-dimension gate flags them for what they are: off-system code. Guidance helps everyone, though by very different amounts. Going from no guidance to instruction files plus skills plus a generated catalog raised scores by +23 to +26 points for the DeepSeek models and Sonnet 5, and by only +6 to +12 for the GPT models, which never engaged with the system much to begin with.&lt;/p&gt;
+
+&lt;p&gt;The static audit of four systems (Aurora and three anonymized open-source libraries) put every one in the "Invested" band: 63.4, 60.0, 56.2, 52.2. None reached AI-native. Aurora's own score averages two kits (59.3 and 67.5), so a system can be in better shape for agents in one package than in another.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How it fits what we've been tracking.&lt;/strong&gt; This is the evaluation layer the "AI-ready design systems" thread has been missing. Kaelig Deloumeau-Prigent's State of AI in Design Systems counted 18 of 21 systems shipping MCP servers and described the leaders' "structural coercion" (tool-gating, CLI scaffolding, validators). Atlassian's DESIGN.md test showed agents re-creating components that already existed. Hellmuth's numbers explain why coercion matters. Left to their defaults, some models route around your library and others confidently invent pieces of it, and better documentation fixes the second problem far more than the first. His "Engagement" and "Vocabulary" sub-scores turn those two failure modes into metrics a team can follow from release to release.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveats.&lt;/strong&gt; Behavioral data exists for one system only, and the author built that system. There are ten starter tasks. One of the six dimensions is LLM-judged. The 40/70 tier cut-offs are defaults he plans to recalibrate. The page mentions six model configurations, but the charts show five. Treat the per-model numbers as one team's measurements, not a leaderboard. The author also says lift is the fairest basis for comparing systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; the audit is free, so run it (&lt;code&gt;npx tsx src/cli.ts audit --verbose&lt;/code&gt;) and see which of the seven checks pulls you down. Export hygiene and deprecation legibility are cheap fixes most teams have never looked at. If you have budget, the "smoke" profile costs a few dollars and will tell you which failure mode your preferred model has: ignoring your library, or inventing parts of it. The fix differs by mode. Ignoring calls for tool-gating, scaffolding and a CI gate (the harness includes &lt;code&gt;ci --freeze&lt;/code&gt;). Inventing calls for a better catalog and names closer to what models expect.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;市面上大多数“你的设计系统准备好迎接 AI 了吗”清单，数的都是有没有某样东西：MCP 服务器、llms.txt、AGENTS.md。open-design-system-bench 问了个更难的问题，而且真去量了：编码智能体（coding agent）照着你的组件库写 UI 时，到底有没有用对？每多一层指引，能好多少？作者 Christoph Hellmuth 先拿 Nord Security 的生产级设计系统 Aurora 搭了这套基准，再推广到任意 React + TypeScript 组件库。代码在 GitHub 上，MIT 许可（8 月 26 日创建，11 月 2 日最后一次提交），Smashing 11 月 10 日的通讯推荐后，看到的人多了起来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;分两层：免费审计，付费跑测。&lt;/strong&gt;静态审计几秒钟跑完，不需要 API key，按七项检查给出 0-100 的 AI 就绪分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;赋能面：AGENTS.md/CLAUDE.md、llms.txt、机器可读目录、MCP 提示、skills、编辑器规则、Code Connect。&lt;/li&gt;
+&lt;li&gt;目录质量：props 类型、默认值、描述，以及和源码比是否过时。&lt;/li&gt;
+&lt;li&gt;导出卫生：号称公开却没导出的组件、缺失的类型。&lt;/li&gt;
+&lt;li&gt;命名的惯例距离：你的组件名和模型惯于“编造”的名字词库差多远。&lt;/li&gt;
+&lt;li&gt;令牌（token）机器可读性：CSS 自定义属性或 DTCG、语义层、明暗配对。&lt;/li&gt;
+&lt;li&gt;弃用可读性：&lt;code&gt;@deprecated&lt;/code&gt; 注解和机器可读的变更日志。&lt;/li&gt;
+&lt;li&gt;文档可检索性：文档是否有纯文本、是否覆盖全部组件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;40 分以下算“起步”，40-70 算“投入中”，70 以上算“AI 原生”。生成基准才花钱。给智能体的是意图层面的提示，从不点名该用哪个组件，并由一个 linter 对照组件目录检查提示词来保证这一点。智能体在隔离的样例仓库里干活，产出的 diff 按六个维度打分：导入、API 准确度、令牌纪律、静态无障碍、能否编译（&lt;code&gt;tsc --noEmit&lt;/code&gt;），外加一份加权的 LLM 评审量表。卡口看的是最差的那一维，不是平均分。这是整个项目里最有用的设计，因为平均分恰好会掩盖它测出来的那种失败。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结果：两种截然不同的翻车。&lt;/strong&gt;在 Aurora 上评了 898 次生成，模型分成两派：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPT 5.6 Luna 和 Terra 分别有 55% 和 63% 的产出直接无视 Aurora，组件名幻觉为 0%，编译通过率 83-94%。代码看着干净，是因为基本绕开了设计系统。&lt;/li&gt;
+&lt;li&gt;DeepSeek Flash、DeepSeek V4 Pro 和 Sonnet 5（单次生成）只有 4-9% 无视系统，但三分之一左右（31-36%）的组件名是编的，编译通过率只有 11-29%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;按平均分排，GPT 那几组最“安全”。按最差一维卡，就能看出它们的真面目：脱离系统的代码。指引对谁都有用，只是幅度差得远。从零指引加到“说明文件 + skills + 自动生成的目录”，DeepSeek 两款和 Sonnet 5 涨了 23 到 26 分，GPT 两款只涨 6 到 12 分，它们本来就没怎么用这个系统。&lt;/p&gt;
+
+&lt;p&gt;四个系统的静态审计（Aurora 加三个匿名开源库）全落在“投入中”：63.4、60.0、56.2、52.2，没有一个够得上 AI 原生。Aurora 的分数是两个组件包（59.3 和 67.5）的平均值，同一个系统，不同包对智能体的友好程度可以差一截。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;和我们之前追的线怎么接上？&lt;/strong&gt;“AI 就绪设计系统”这条线一直缺一个评估层，这套基准正好补上。Kaelig Deloumeau-Prigent 的 State of AI in Design Systems 统计到 21 个系统里 18 个有 MCP 服务器，还归纳了领先者的“结构性强制”（工具门控、CLI 脚手架、校验器）。Atlassian 的 DESIGN.md 实测里，智能体会把已有的组件再造一遍。Hellmuth 的数据说明了强制为什么重要：放任默认行为，有的模型绕开你的库，有的模型自信地编出库里没有的东西，而文档写得再好，主要也只治后一种。他的“Engagement”和“Vocabulary”两个子分数，把这两种失败变成团队每个版本都能跟踪的指标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意事项。&lt;/strong&gt;行为数据只覆盖一个系统，而且是作者自己做的系统。起步任务只有十个。六个维度里有一个靠 LLM 评审。40/70 的分档是默认值，作者打算重新校准。页面一处写六种模型配置，图表里只有五种。各模型的数字当成一个团队的实测看就好，别当排行榜。作者自己也说，跨系统比较最公平的是提升幅度（lift）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;动手建议：&lt;/strong&gt;审计是免费的，跑一遍（&lt;code&gt;npx tsx src/cli.ts audit --verbose&lt;/code&gt;），看七项里哪一项拖后腿。导出卫生和弃用可读性修起来最便宜，多数团队从没检查过。有预算的话，“smoke”配置几美元就能告诉你常用模型属于哪种失败：无视你的库，还是编造库里的东西。两种病开的药不一样。无视要靠工具门控、脚手架和 CI 卡口（工具里自带 &lt;code&gt;ci --freeze&lt;/code&gt;），编造要靠更好的目录，以及更贴近模型预期的组件命名。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://christophhellmuth.com/open-design-system-bench/"&gt;https://christophhellmuth.com/open-design-system-bench/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/christophhdesign/open-design-system-bench"&gt;https://github.com/christophhdesign/open-design-system-bench&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-584/"&gt;https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-584/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">cebf6e68-04d9-54c4-b611-dcbe90246118</guid>
+      <pubDate>Thu, 12 Nov 2026 12:12:49 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://christophhellmuth.com/open-design-system-bench/</link>
+      <enclosure url="https://christophhellmuth.com/open-design-system-bench/visuals/hero-field.svg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 83% of Design Systems Say Nothing About AI. The Ones That Do Share Four Rules / 83% 的设计系统对 AI 只字未提，写了的那些共享四条规则</title>
+      <description>&lt;p&gt;Design systems have spent 2026 learning to serve agents: MCP servers, skills, llms.txt. A quieter question gets less attention. What do they tell &lt;em&gt;human-facing&lt;/em&gt; teams about designing AI features? Romina Kavcic went through 156 public design systems to find out (&lt;a href="https://learn.thedesignsystem.guide/p/design-systems-that-document-ai"&gt;"Design Systems That Document AI"&lt;/a&gt;, The Design System Guide). Smashing's newsletter brought the study back into circulation this autumn, alongside a fresh critique of the sparkle-button trend. The headline number is stark. &lt;strong&gt;130 of 156 systems (83%) have no visible AI layer at all.&lt;/strong&gt; Only 26 address AI in any form.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://substackcdn.com/image/fetch/$s_!JBUp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec056dd-2ec6-4566-a4b9-1e3635a4de4f_1152x1152.png" alt="IBM Carbon form with AI labels marking which input fields were filled by AI" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;IBM Carbon's AI label applied to form fields, marking which values the AI filled in. (The Design System Guide)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Method.&lt;/strong&gt; Kavcic scored the 26 systems that do document AI on five 20-point dimensions: marking AI, reusable AI components, documenting AI behavior, governance, and infrastructure integration. She says plainly that the score measures how deep the public documentation goes, not how good a company's AI is. She doesn't explain how the 156 were selected. ServiceNow scored highest. Apple's HIG, which added a generative AI section in June 2025, scored 43. Shopify Polaris scored 31. SAP Fiori fell out of the top 10 because its Explainable AI pages are now deprecated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A maturity ladder worth borrowing:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Level 0: no AI layer (most systems).&lt;/li&gt;
+&lt;li&gt;Level 1: AI as decoration. Polaris's "Magic" color role is the example.&lt;/li&gt;
+&lt;li&gt;Level 2: AI as a component. Carbon's AI label and explainability popover, reused across 13 components.&lt;/li&gt;
+&lt;li&gt;Level 3: AI as an interaction pattern. Atlassian's workflow-level guidelines.&lt;/li&gt;
+&lt;li&gt;Level 4: AI as a governance layer. Microsoft Fluent 2's Responsible AI rubric.&lt;/li&gt;
+&lt;li&gt;Level 5: AI as infrastructure. Fluent's Copilot UI kits.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The ladder makes one thing clear. A sparkle icon and a purple gradient are Level 1. They signal "AI is here" without telling the user what the AI did, why, or how to undo it. That's roughly the complaint in John Sabutis's "Nobody Asked for the Sparkle Button," which Smashing linked on Nov 10.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The four rules the better systems share:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Mark it, every time.&lt;/em&gt; Label AI-generated content consistently, and reserve AI styling for AI alone. Carbon, AWS Cloudscape, GitLab Pajamas and Workday Canvas all do this. Kavcic's practical advice is to make AI marking a component &lt;em&gt;variant&lt;/em&gt;, not bespoke styling, so consistency is the default.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Explain it, in layers.&lt;/em&gt; What the AI did goes on the surface, why sits one click down, and how is available for audit, with depth scaled to the stakes. Carbon's popover, opened from the AI label, is the reference.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Keep the human in control.&lt;/em&gt; Users decide, can undo, and give explicit consent for risky actions. Classify actions by risk: lightweight confirmation for reversible changes, explicit authorization for destructive ones.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Design for the moment it's wrong.&lt;/em&gt; Make errors explicit, offer recovery, and always provide a path that doesn't depend on AI. PatternFly, GitLab and Cloudscape document failure states, not just the happy-path chat.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;&lt;img src="https://substackcdn.com/image/fetch/$s_!LR-O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd92e002-d1b2-4677-a988-f81de3af3e83_650x584.png" alt="AWS Cloudscape dialog where the AI describes a proposed change and asks the user to authorize it" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Cloudscape's authorization pattern: the AI describes the change before it acts. (The Design System Guide)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src="https://substackcdn.com/image/fetch/$s_!SWC_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb907f390-f8f8-4125-9251-e46b2da741f5_1152x648.png" alt="Carbon input showing a revert-to-AI control after a user edits an AI suggestion" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Carbon's revert-to-AI state: once a user edits an AI value, the field loses its AI label and offers a way back. (The Design System Guide)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The gaps are the interesting part.&lt;/strong&gt; Almost no system documents confidence or uncertainty, source attribution, hallucination recovery, or escalation to a human reviewer. Those are exactly the problems practitioners complain about. In NN/g's 2026 AI-in-UX survey, unreliable output was the top complaint, and MeasuringU found accuracy dominating chatbot complaints. Most design systems give teams no reusable pattern for any of them. Kavcic also calls the "value gate" (ask whether the feature needs AI at all) the most underused guideline, even though several systems state it.&lt;/p&gt;
+
+&lt;p&gt;This connects to the agentic-UX thread. Adobe's Plan Mode, shown at MAX this week, is a product-level version of rules 2 and 3: show the plan and get approval before acting. Kavcic's argument is that this shouldn't be reinvented feature by feature. It belongs in the system, where a missing transparency or control pattern can block a feature from shipping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; place your own system on the ladder. If you're at Level 1, the cheapest real step up is Carbon's move: one AI-label component with a popover that explains what happened, plus a documented failure state. If you're further along, write the patterns nobody has yet. A shared component for showing uncertainty or citing sources would put you ahead of almost all of the 156.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;2026 年的设计系统一直在学怎么服务智能体：MCP 服务器、skills、llms.txt。另一个问题却很少有人问：它们给面向人的团队提供了哪些设计 AI 功能的规范？Romina Kavcic 翻了 156 个公开设计系统，写成《Design Systems That Document AI》（发在 The Design System Guide）。今年秋天 Smashing 的通讯又把这项研究翻了出来，同期推荐的还有一篇批评“闪光按钮”（sparkle button）潮流的新文章。核心数字很扎眼：&lt;strong&gt;156 个系统里有 130 个（83%）完全没有可见的 AI 层&lt;/strong&gt;，涉及 AI 的只有 26 个。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;方法。&lt;/strong&gt;Kavcic 给这 26 个系统按五个维度打分，每项 20 分：AI 标识、可复用 AI 组件、AI 行为文档、治理、基础设施集成。她明说，分数衡量的是公开文档写得多深，不是这家公司的 AI 好不好。156 个样本怎么选的，她没交代。ServiceNow 排第一；Apple HIG（2025 年 6 月加了生成式 AI 章节）43 分；Shopify Polaris 31 分；SAP Fiori 的可解释 AI 页面已经弃用，掉出了前十。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一套可以直接借用的成熟度阶梯：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0 级：没有 AI 层（大多数系统）。&lt;/li&gt;
+&lt;li&gt;1 级：AI 只是装饰，例子是 Polaris 的“Magic”颜色角色。&lt;/li&gt;
+&lt;li&gt;2 级：AI 是组件，例子是 Carbon 的 AI 标签和可解释性弹层，复用在 13 个组件里。&lt;/li&gt;
+&lt;li&gt;3 级：AI 是交互模式，例子是 Atlassian 的工作流级规范。&lt;/li&gt;
+&lt;li&gt;4 级：AI 是治理层，例子是 Microsoft Fluent 2 的负责任 AI 评分表。&lt;/li&gt;
+&lt;li&gt;5 级：AI 是基础设施，例子是 Fluent 的 Copilot UI 套件。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这把梯子说明了一件事：闪光图标加紫色渐变，就是 1 级。它告诉用户“这里有 AI”，却不告诉用户 AI 做了什么、为什么、怎么撤销。Smashing 11 月 10 日推荐的 John Sabutis《Nobody Asked for the Sparkle Button》，吐槽的大致就是这个。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;做得好的系统，共享四条规则：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;每次都标出来。AI 生成的内容统一打标，AI 专用样式只给 AI 用。Carbon、AWS Cloudscape、GitLab Pajamas、Workday Canvas 都这么做。Kavcic 的实操建议是把 AI 标识做成组件的变体（variant），不要单独定制样式，这样默认就是一致的。&lt;/li&gt;
+&lt;li&gt;分层解释。表层说 AI 做了什么，点一下看为什么，审计时能查怎么做的，深度随风险加码。参照物是 Carbon 从 AI 标签点开的弹层。&lt;/li&gt;
+&lt;li&gt;人说了算。用户做决定、能撤销，高风险操作要明确同意。按风险给操作分级：可逆的改动轻确认，破坏性的要明确授权。&lt;/li&gt;
+&lt;li&gt;为出错的那一刻设计。错误要摆在明处，要能恢复，永远留一条不依赖 AI 的路。PatternFly、GitLab、Cloudscape 都写了失败状态，不只写顺利情况下的聊天。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;缺口才是最有意思的部分。&lt;/strong&gt;几乎没有系统写过这几样：置信度与不确定性、来源标注、幻觉后的恢复、升级给人工审核。偏偏这些就是从业者天天抱怨的事。NN/g 的 2026 年 AI 与 UX 调查里，输出不可靠是头号抱怨；MeasuringU 也发现，聊天产品的抱怨里准确性占大头。可大多数设计系统在这些问题上一个可复用的模式都没有。Kavcic 还指出，“价值关卡”（先问这个功能到底需不需要 AI）是最被低估的一条规范，虽然好几个系统都写了。&lt;/p&gt;
+
+&lt;p&gt;这和智能体 UX 那条线是连着的。Adobe 本周在 MAX 上展示的 Plan Mode，就是规则 2 和 3 在产品层面的实现：先给计划，批准了再动手。Kavcic 的意思是，这种东西不该每个功能各造一遍，应该进设计系统，缺了透明度或控制模式，功能就别想上线。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;动手建议：&lt;/strong&gt;先给自家系统在梯子上定个位。如果还在 1 级，最便宜的实质性升级就是学 Carbon：一个 AI 标签组件，配一个说明发生了什么的弹层，再写好失败状态。如果已经走得更远，就去写没人写过的模式。哪怕只是一个展示不确定性或标注来源的通用组件，也足以领先这 156 个系统里的绝大多数。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://learn.thedesignsystem.guide/p/design-systems-that-document-ai"&gt;https://learn.thedesignsystem.guide/p/design-systems-that-document-ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-579/"&gt;https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-579/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-584/"&gt;https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-584/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6"&gt;https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ac01a253-8f6f-5a13-832f-89ca11c40602</guid>
+      <pubDate>Thu, 12 Nov 2026 12:13:34 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://learn.thedesignsystem.guide/p/design-systems-that-document-ai</link>
+      <enclosure url="https://substackcdn.com/image/fetch/$s_!JBUp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec056dd-2ec6-4566-a4b9-1e3635a4de4f_1152x1152.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 比萨斜塔差点被工程师亲手推倒：1995 年「黑色九月」的液氮冻土事故，以及最后救它的办法竟是从塔底偷偷掏土</title>
+      <description>&lt;p&gt;1995 年 9 月的一个深夜，比萨斜塔突然开始往南倒，每天倾斜 4 角秒。这次没有地震，也没有暴雨。动手的是一群专门来救它的世界顶级岩土工程师。后来委员会成员把那一晚叫作&lt;strong&gt;「黑色九月」（Black September）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;先倒回去讲这座塔为什么会斜。1173 年 8 月 9 日奠基，1178 年盖到第二层时地基就开始往南沉：塔下是一层层不均匀的沉积土，南侧的黏土更软。偏偏这时比萨和邻邦打起仗来，工程一停就是将近一百年。歪打正着，这一百年让地基土慢慢固结，否则塔大概在中世纪就已经倒了。复工的石匠发现塔已经歪了，于是把南侧的楼层砌得高一点去「找平」；1278 年又停工，一百年后加钟楼时又补偿了一次。结果是：比萨斜塔不是一根斜着的直棍，而是一根微微弯曲的「香蕉」。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/960px-Italy_-_Pisa_-_Leaning_Tower.jpg" alt="比萨斜塔与奇迹广场" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;比萨斜塔。仔细看上部几层，会发现石匠为了「找平」留下的轻微弯折。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;1817 年第一次有记录的测量是约 4.9°，到 1990 年已经到 5.5° 左右，而且每年还在多斜几角秒。1989 年，意大利帕维亚一座类似的中世纪市政塔毫无预兆地垮塌，比萨坐不住了：1990 年 1 月 7 日，斜塔对游客关闭。1993 年有人估算塔基的安全系数只有约 1.07，也就是说土壤只剩 7% 的余量。工程师的原话是：非常接近倒塌。&lt;/p&gt;
+
+&lt;p&gt;意大利政府组建了一个由 Michele Jamiolkowski 牵头、帝国理工的 John Burland 等人参与的国际委员会。第一步很朴素：1993 年 5 月到 1994 年 1 月，在塔基北侧浇了一圈临时混凝土环，往上一块块码特制的铅锭，总重约 600 吨。效果是有的，到 1994 年 7 月塔往北回了 52 角秒。但一座世界文化遗产脚下堆着一圈难看的铅块，谁都觉得不是长久之计。&lt;/p&gt;
+
+&lt;p&gt;于是有了 1995 年的「升级方案」：在地下打十根钢锚索，把塔的北侧往下拽，然后撤掉铅块。问题是比萨地下水位很高，一挖就渗水，所以他们先用液氮把塔基周围的土冻住再施工。冻土时水结冰膨胀，把土层撑开；停止冷冻、冰一融化，土里就留下了空隙，而施工又拆掉了塔基周围一部分步道结构。塔立刻回应：往南倒，每天 4 角秒。委员会紧急叫停，把北侧的铅块追加到约 900 吨才稳住。几位世界上最懂土的人，用最先进的方法，差点亲手推倒了比萨斜塔。&lt;/p&gt;
+
+&lt;p&gt;真正的解法反而像个笑话：不往高处那边压，而是从高处那边的下面「掏」。原理是这样——在北侧斜着钻孔伸进塔基下方，每次只抽出一点点土，上方土壤的压力会让小空洞慢慢合拢，北侧就会极轻微地下沉，塔自己往回「躺」一点。1996 年 3 月试验成功，因为政治扯皮又拖了近三年。1999 年 2 月正式开挖，起初的速度保守到离谱：大约每两天抽出 5 加仑（不到 20 升）土。到 8 月底塔已经回正 130 角秒，9 月 14 日撤掉了第一批三块铅锭。2000 年起扩大到 41 个钻孔，前后一共掏出约 38 立方米、70 吨土，塔顶的偏移量缩小了约 45 厘米，倾角大致回到了 19 世纪初的水平。&lt;/p&gt;
+
+&lt;p&gt;为什么不干脆扶正？因为没人想要一座笔直的比萨塔，游客是冲着「斜」来的。1964 年意大利政府向国际求援时就明确了这一点：要救，但得留着歪。2001 年 12 月 15 日斜塔重新开放；2008 年 5 月工程师宣布，它在有记录以来第一次彻底停止了移动，预计至少能稳两百年。&lt;/p&gt;
+
+&lt;p&gt;讽刺的是，伽利略据说曾在这座塔上扔铁球证明重力对所有物体一视同仁。四百年后，救下它的恰恰是对重力最小心翼翼的一次让步：一次只让它往下沉几粒土。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.pbs.org/wgbh/nova/pisa/interventions2.html"&gt;https://www.pbs.org/wgbh/nova/pisa/interventions2.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://practical.engineering/blog/2023/12/19/how-engineers-straightened-the-leaning-tower-of-pisa"&gt;https://practical.engineering/blog/2023/12/19/how-engineers-straightened-the-leaning-tower-of-pisa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"&gt;https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ingenia.org.uk/articles/the-stabilisation-of-the-leaning-tower-of-pisa/"&gt;https://ingenia.org.uk/articles/the-stabilisation-of-the-leaning-tower-of-pisa/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">00c46e21-4f29-583f-8bdf-682123d59652</guid>
+      <pubDate>Thu, 12 Nov 2026 12:15:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.pbs.org/wgbh/nova/pisa/interventions2.html</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/960px-Italy_-_Pisa_-_Leaning_Tower.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一座随时可能「爆炸」的湖在给一个国家发电：基伍湖底 65 立方公里甲烷，卢旺达把它当天然气田来抽</title>
+      <description>&lt;p&gt;前天这里讲过尼奥斯湖。地球上已知会发生湖泊喷发（limnic eruption）的湖只有三个，尼奥斯湖 1986 年一口气闷死了 1700 多人，可它只是个小湖。名单上真正让火山学家睡不着的，是第三个：卢旺达和刚果（金）交界处的基伍湖（Lake Kivu）。更离谱的是，卢旺达人现在正把它当成气田，从湖底抽气发电。&lt;/p&gt;
+
+&lt;p&gt;先看规模。基伍湖面积约 2,700 平方公里，最深近 480 米，坐落在东非大裂谷西支，湖畔住着约 200 万人。它的深水层里溶解着估计约 256 立方公里的二氧化碳和约 65 立方公里的甲烷。尼奥斯湖只有二氧化碳；基伍湖多了甲烷，而甲烷是可燃的。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.sciencealert.com/images/2022-01/processed/LakeKivuInAfrica_1024.jpg" alt="基伍湖上的 KivuWatt 采气平台" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;基伍湖看上去风景如画，深水层却溶着巨量气体。图：ScienceAlert / AFP&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这些气为什么能一直憋在湖底？因为基伍湖是「永久分层」的。火山热泉从湖底渗入，带来热量和大量溶解盐，深层水虽然更温暖，但含盐量高、密度大，上下层几乎从不翻转混合。深水就像一瓶拧紧盖子的苏打水，压力把气体死死压在溶液里。甲烷的来源也很有意思：不少是湖底微生物把火山送来的二氧化碳「还原」成甲烷，等于湖里住着一座天然的生物制气厂，而且还在持续加料。&lt;/p&gt;
+
+&lt;p&gt;苏打水的盖子一旦松开呢？深层水被扰动上浮，压力下降，气体瞬间析出，气泡又带着更多水往上冲，形成连锁反应。KivuWatt 的湖沼学家 François Darchambeau 的描述是：深水中的气体「巨大地爆发」到湖面，掀起大浪和毒气云。湖底沉积物里，研究者找到了大约每千年一次大规模生物灭绝的痕迹，推测就是过去的排气事件。当地斯瓦希里语有个词叫 mazuku，意思是「邪风」，专指从地里冒出来、能悄悄杀死人畜的气体。&lt;/p&gt;
+
+&lt;p&gt;可能的扳机是火山。2002 年尼拉贡戈火山喷发，约 100 万立方米熔岩流进湖里，好在没引发翻转；2021 年它再次喷发，熔岩造成 32 人死亡，还有一股岩浆从地下钻到了湖底下方。&lt;/p&gt;
+
+&lt;p&gt;卢旺达的应对方式堪称「以毒攻毒」。美国公司 ContourGlobal 的 KivuWatt 项目在湖上锚定了一座浮动平台，从约 350 米深处把饱含气体的湖水抽上来。负责人 Priysham Nundah 说，原理「就像打开一瓶苏打水」：压力一降，气水分离，甲烷经管道送到岸上发电，二氧化碳和脱气后的水再按设计深度注回湖里，尽量不扰乱分层。KivuWatt 一期装机 26 兆瓦，2022 年的报道称它供应了卢旺达约 30% 的年用电。另一座 Shema Power Lake Kivu（Kivu 56）电站 2023 年起分阶段并网，2024 年 2 月起满负荷输出 56 兆瓦。&lt;/p&gt;
+
+&lt;p&gt;那抽着抽着，是不是就把危险抽没了？没这么简单。瑞士联邦水科学技术研究所（Eawag）的 Martin Schmid 估计，只靠 KivuWatt 的速度，要让甲烷显著减少得花上「几百年」；也有人担心，回注做得不好反而会破坏分层，亲手拧开瓶盖。目前的共识是：抽气本身风险可控，降低爆发风险的效果则要用很长时间来验证。&lt;/p&gt;
+
+&lt;p&gt;顺带一个冷门细节：基伍湖原本几乎没有能利用开阔水域的鱼。1959 年，比利时农学家 Alphonse Collart 从坦噶尼喀湖引入了一种小沙丁鱼 &lt;em&gt;Limnothrissa miodon&lt;/em&gt;，如今它撑起了整个湖区的渔业。一座湖，水面上捕鱼，湖底下采气，再往下藏着可能毁掉这一切的东西。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencealert.com/killer-lake-in-africa-looks-like-paradise-but-it-s-hiding-a-vast-deadly-secret"&gt;https://www.sciencealert.com/killer-lake-in-africa-looks-like-paradise-but-it-s-hiding-a-vast-deadly-secret&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Lake_Kivu"&gt;https://en.wikipedia.org/wiki/Lake_Kivu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Kivu_56_Power_Station"&gt;https://en.wikipedia.org/wiki/Kivu_56_Power_Station&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.africanews.com/2022/01/20/in-rwanda-kivuwatt-transforms-gas-from-killer-lake-into-electricity/"&gt;https://www.africanews.com/2022/01/20/in-rwanda-kivuwatt-transforms-gas-from-killer-lake-into-electricity/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a2344a5d-59af-5206-bc44-6e443459fa0c</guid>
+      <pubDate>Thu, 12 Nov 2026 12:15:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.sciencealert.com/killer-lake-in-africa-looks-like-paradise-but-it-s-hiding-a-vast-deadly-secret</link>
+      <enclosure url="https://www.sciencealert.com/images/2022-01/processed/LakeKivuInAfrica_1024.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 比毕昇早了两千多年的「活字印刷」？菲斯托斯圆盘：242 个用印章压出来的符号，全世界只此一件，至今没人读得懂</title>
+      <description>&lt;p&gt;昨天讲线形文字 B 的破译时，结尾是一个有点泄气的反转：读出来全是账单。今天这件克里特岛的文物正好相反——它可能是人类最早的「印刷品」，却一个字都没人读懂，而且全世界只有这一件。&lt;/p&gt;
+
+&lt;p&gt;1908 年 7 月 3 日，意大利考古学家 Luigi Pernier 正在克里特岛南部菲斯托斯（Phaistos）的米诺斯宫殿遗址给上级写信，当天的工地监工 Zacharias Eliakis 拿着一个东西进来。Pernier 在信末加了一段附言描述它：一枚烧制过的黏土圆盘，直径约 16 厘米、厚约 2 厘米，大小像一只餐盘，形状不太圆。它出土于宫殿北侧一处地下室，旁边几厘米外还躺着一块线形文字 A 泥板。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Phaistos_Disc_%E2%80%94_Side_A.jpg/500px-Phaistos_Disc_%E2%80%94_Side_A.jpg" alt="菲斯托斯圆盘 A 面" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;菲斯托斯圆盘 A 面，现藏希腊伊拉克利翁考古博物馆。符号沿螺旋排布，竖线把它们分成一个个「词」。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;圆盘两面共有 242 个符号，A 面 123 个、B 面 119 个，归纳起来是 45 种不同的图形：戴羽冠的人头、鱼、船、梳子、盾牌、海螺、植物……它们沿着螺旋线排列，主流看法是从外圈顺时针读向圆心，并被短竖线分成 61 个「词」，每个词 2 到 7 个符号。&lt;/p&gt;
+
+&lt;p&gt;让人说「真的假的」的地方在于这些符号是怎么做出来的。它们不是用笔尖刻画的，而是用一枚枚预先雕好的印章，趁黏土没干时一个一个压进去的。同一种符号的每次出现，轮廓几乎完全一样。德国语言学家 Herbert Brekle 认为它「满足活字排印原理（typographic principle）的全部定义条件」：可重复使用的单个字符模具，按顺序组合成文本。如果这个判断成立，那它就是已知最早的活字印刷。圆盘的年代说法不一，从公元前 1850 年到前 14 世纪都有人主张，但无论取哪个，都比毕昇的泥活字（约 1040 年）早两千多年，比古腾堡早近三千年。&lt;/p&gt;
+
+&lt;p&gt;问题马上来了。做 45 枚印章是一笔不小的投资，图的就是能反复印。可迄今为止，这套印章一枚也没找到，克里特岛和整个爱琴海也再没出土过第二件用这套印章压出来的东西。为了印一张盘子而发明活字，印完就扔了模具？这本身就很不合理。圆盘上还有 18 道用尖笔刻的短斜线，不是盖上去的，像是排版后补的标记。&lt;/p&gt;
+
+&lt;p&gt;「只此一件」也给破译判了死刑。线形文字 B 能被 Ventris 读出来，靠的是几千块泥板提供的统计规律，外加地名这样的突破口。菲斯托斯圆盘只有 242 个符号，45 种字符的数量介于字母和音节文字之间，九种符号只出现一次。有人读成希腊语，有人读成赫梯语、埃及语、巴斯克语甚至苏美尔语；有人说是收据、历法、棋盘、祷词。连线形文字 B 的合作破译者 John Chadwick 都被寄来的「破译方案」淹没过。这么短的文本，几乎任何假设都能「自圆其说」，也就几乎没有一个能被证实。&lt;/p&gt;
+
+&lt;p&gt;于是另一种声音一直都在：它是假的吗？2008 年，古物学家 Jerome Eisenberg 在《Minerva》杂志上指控 Pernier 出于对 Arthur Evans 的嫉妒伪造了圆盘，蓝本是 1882 年出土的伊特鲁里亚 Magliano 圆盘。理由包括青铜时代没有别的扁平黏土圆盘、符号重复太少不像真实文字、出土经过可疑。2009 年 Pavol Hnila 翻查 Pernier 的往来信件反驳说，他的行为相当公开透明。而且确实有旁证：1934 年在 Arkalochori 洞穴出土的一把青铜斧上刻着 15 个象形符号，其中「羽冠人头」等与圆盘高度相似；菲斯托斯本地出土的陶器上也有压印的同款图案。&lt;/p&gt;
+
+&lt;p&gt;要一锤定音其实有个办法：热释光测年（thermoluminescence），取一点点样本加热就能测出最后一次烧制的时间。很多学者呼吁过，但伊拉克利翁考古博物馆一直拒绝，理由是不想让这件孤品承担任何损伤风险。多数学者目前倾向于它是真的。四千年前就有人想到用活字印东西，然后这套技术就和它的语言一起，彻底消失了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phaistos_Disc"&gt;https://en.wikipedia.org/wiki/Phaistos_Disc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://explorersweb.com/fraud-or-find-what-we-know-about-cretes-mysterious-phaistos-disk/"&gt;https://explorersweb.com/fraud-or-find-what-we-know-about-cretes-mysterious-phaistos-disk/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kk.org/thetechnium/?p=2934"&gt;https://kk.org/thetechnium/?p=2934&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.atlasobscura.com/places/phaistos-disc"&gt;https://www.atlasobscura.com/places/phaistos-disc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">75525120-3ee6-57a4-8efc-235c24bc5e31</guid>
+      <pubDate>Thu, 12 Nov 2026 12:15:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Phaistos_Disc</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Phaistos_Disc_%E2%80%94_Side_A.jpg/500px-Phaistos_Disc_%E2%80%94_Side_A.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 满大街的陌生人其实都是同一个人在乔装：弗雷戈利妄想，一种以百变演员命名、和卡普格拉综合征恰好镜像的怪病</title>
+      <description>&lt;p&gt;想象一下：楼下便利店的收银员、地铁上看报纸的大叔、医院里给你量血压的护士，长相、年龄、性别都不一样，可你心里无比确定，他们全是同一个人，换了装来跟踪你。这不是悬疑片设定，而是一种真实存在、有正式名字的精神症状：&lt;strong&gt;弗雷戈利妄想（Fregoli delusion）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;名字来自一位真实的意大利演员。Leopoldo Fregoli（1867–1936）是 19 世纪末欧洲最红的「快速换装」艺人。他的走红就很离奇：1890 年他作为士兵驻扎在阿比西尼亚（今埃塞俄比亚一带），一个剧团临时取消演出，他顶上去救场，结果一炮而红，后来干脆在马萨瓦管起了剧院和赌场。1897 年他登上伦敦 Alhambra 剧院，一个英语都不会说的意大利人，在台上接连变成瓦格纳、罗西尼、威尔第，演期一延再延。往往是一个街头乐手刚从左边下场，几乎同一瞬间，一位贵妇就从右边走了出来。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Leopoldo_Fregoli.png" alt="意大利快速换装演员 Leopoldo Fregoli" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Leopoldo Fregoli，「一人分饰全场」的换装大师。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;他快到什么程度？当时流传着「其实有好几个 Fregoli」的谣言，逼得他把记者请到后台亲眼看自己怎么换。他在巴黎 Olympia 剧院连演一年多，1922 年才告别换装表演。他的墓碑上刻着：「他的最后一次变身。」&lt;/p&gt;
+
+&lt;p&gt;1927 年，两位法国精神科医生 Paul Courbon 和 G. Fail 发表论文，描述了一位 27 岁的女病人。她常去剧院看戏，深信当时的两位名女演员 Robine 和莎拉·伯恩哈特（Sarah Bernhardt）在迫害她，而且会化身成她身边认识的各种人来接近她。两位医生想到了那位能在一晚上变出一个又一个角色的 Fregoli，于是把这种症状命名为「弗雷戈利错觉综合征」。&lt;/p&gt;
+
+&lt;p&gt;如果你读过本栏之前那篇卡普格拉妄想（Capgras delusion），会发现两者恰好是一对镜像。卡普格拉患者看着自己的母亲，认得出脸，却感觉不到那份「熟悉」，于是得出结论：这是一个长得一模一样的冒牌货。弗雷戈利患者正好反过来：看着一个陌生人，脸明明不认识，大脑却错误地亮起了「熟悉」信号，于是结论变成：这个人是我认识的某人乔装的。一个是「熟悉感缺失」，一个是「熟悉感过剩」。两者同属妄想性错认综合征（delusional misidentification syndrome），而弗雷戈利是其中最罕见的一种，同一个人同时出现两种的情况也极少。&lt;/p&gt;
+
+&lt;p&gt;有多罕见？2014 年，麦考瑞大学的 Robyn Langdon、Emily Connaughton 和 Max Coltheart 在《Topics in Cognitive Science》上系统梳理了 1927 年以来的文献，按严格定义能确认的「干净」病例只有 38 例。他们统计的维度很有画面感：患者有没有提到假发、整容这类「乔装手段」？是认定一个陌生人还是很多个？会不会给乔装者编造动机？&lt;/p&gt;
+
+&lt;p&gt;成因大致有几类：精神分裂症最常见；脑外伤，尤其是右侧额叶或左侧颞顶区受损；右侧梭状回附近、与人脸识别相关区域的病变；还有一个出人意料的来源——帕金森病药物左旋多巴（L-DOPA），它引发的幻觉和妄想被认为是诱发弗雷戈利症状的主要原因之一。&lt;/p&gt;
+
+&lt;p&gt;这个病也会跟着时代长出新形态。2012 年一篇病例报告里，一位 21 岁的首发精神分裂症男生在 Facebook 上结识了一个女孩，对方疏远他之后，他开始坚信之后每一个加他好友的年轻女性，其实都是她换了身份回来找他，脑部 MRI 却完全正常。&lt;/p&gt;
+
+&lt;p&gt;最后推荐一部电影：Charlie Kaufman 2015 年的定格动画《失常》（Anomalisa）。主角眼中，除了一个女人之外，世界上所有人的脸都长得差不多，说话也是同一个男声，因为片中几乎所有其他角色都由同一位演员 Tom Noonan 配音。主角入住的酒店叫什么？The Fregoli。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Fregoli_delusion"&gt;https://en.wikipedia.org/wiki/Fregoli_delusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Leopoldo_Fregoli"&gt;https://en.wikipedia.org/wiki/Leopoldo_Fregoli&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://researchers.mq.edu.au/en/publications/the-fregoli-delusion-a-disorder-of-person-identification-and-trac/"&gt;https://researchers.mq.edu.au/en/publications/the-fregoli-delusion-a-disorder-of-person-identification-and-trac/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psychiatrist.com/pcc/contemporary-case-frgoli-syndrome/"&gt;https://www.psychiatrist.com/pcc/contemporary-case-frgoli-syndrome/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7f8ba5f5-3600-5f3c-8da4-661201962f03</guid>
+      <pubDate>Thu, 12 Nov 2026 12:15:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Fregoli_delusion</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/3/3d/Leopoldo_Fregoli.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 外星人逼人类算 R(5,5) 我们还有救，换成 R(6,6) 就该先开战：拉姆齐数，一个派对问题为什么连全世界的电脑都算不动</title>
+      <description>&lt;p&gt;匈牙利数学家保罗·埃尔德什（Paul Erdős）讲过一个著名的比喻：假如一支强大的外星舰队降临，要求人类在限期内算出 R(5,5) 的准确值，否则毁灭地球，那我们应该集结全世界的计算机和数学家，大概还有希望；可如果他们要的是 R(6,6)，那最好的选择是先下手为强，攻打外星人。（这个段子经 Ronald Graham 和 Joel Spencer 在 1990 年《科学美国人》上的文章流传开来。）&lt;/p&gt;
+
+&lt;p&gt;R(5,5) 听起来像个高深的东西，其实它来自一个派对问题。随便请一群人来聚会，任意两个人要么互相认识，要么互不认识。问：至少请多少人，才能&lt;strong&gt;保证&lt;/strong&gt;其中一定有 k 个人两两互相认识，或者 k 个人两两互不认识？这个最小人数就叫拉姆齐数 R(k)（也写作 R(k,k)）。用图论的话说，把完全图的每条边涂成红或蓝，人足够多时，单色的 k 人团就躲不掉。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2023/05/RamseyImprovement-byDVDP-Social.webp" alt="拉姆齐理论示意插图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;无论怎样给边涂色，只要点够多，单色团一定会出现。图：Quanta Magazine&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;k=3 的情况可以在纸上搞定：R(3)=6，六个人里必然有三人互相认识或三人互不认识，五个人则可以构造出反例。R(4)=18，1955 年确定。然后就卡住了。R(5) 已知最少 43（Exoo 1989 年构造的反例），上界在 2024 年才被 Vigleik Angeltveit 和 Brendan McKay 用线性规划加海量计算机枚举压到 46，所以答案是 43、44、45、46 中的某一个。R(6) 只知道在 102 到 160 多之间。R(10) 的估计范围是 798 到两万多。&lt;/p&gt;
+
+&lt;p&gt;为什么电脑算不动？拿 43 个点来说，一共有 43×42÷2 = 903 条边，每条边两种颜色，就是 2 的 903 次方种涂法，约等于 10 的 272 次方，比可观测宇宙里的原子总数还多出近两百个数量级。暴力枚举毫无可能，只能靠巧妙的数学剪枝。埃尔德什的段子不是夸张，是精确的数学判断：R(5) 难到要动员全人类，R(6) 则难到动员全人类也没用。&lt;/p&gt;
+
+&lt;p&gt;这个领域的创始人本身就是个传奇。Frank Ramsey 是剑桥的天才，同时在经济学和哲学上留下了经典工作，1930 年发表这个定理后不过几周，就以 26 岁的年纪去世。拉姆齐定理在他手里只是一篇逻辑学论文里的引理。&lt;/p&gt;
+
+&lt;p&gt;由于精确值遥不可及，数学家退而求其次，研究 R(k) 随 k 增长的速度。1935 年，埃尔德什和 George Szekeres 证明了 R(k) &amp;lt; 4^k；1947 年，埃尔德什用开创性的「概率方法」证明 R(k) 至少约为 √2 的 k 次方。上下界之间隔着天壤之别，而接下来的近九十年里，上界的底数 4 一直纹丝不动，后人的改进都只是在指数上抠出更小的因子。&lt;/p&gt;
+
+&lt;p&gt;直到 2023 年 3 月 16 日。Marcelo Campos、Simon Griffiths、Robert Morris 和 Julian Sahasrabudhe 在剑桥、里约热内卢和圣保罗同时开讲座，题目只神秘地写着「埃尔德什的一个老问题」，当晚论文上了 arXiv：R(k) &amp;lt; 3.993^k。底数只降了 0.007，却是 1935 年以来第一次「指数级」改进。故事始于 2018 年 8 月，Sahasrabudhe 当时在巴西 IMPA 跟 Morris 做博士后，读到 David Conlon 的一篇论文后有了思路，一个月就画出了草图，然后在一个叫「红书」（red book）的构造上卡了好几年，最后绕道「非对角」拉姆齐数才打通。听到消息的 Yuval Wigderson 说自己「真的发抖了半小时到一小时」，Béla Bollobás 称之为「绝妙至极的证明」。&lt;/p&gt;
+
+&lt;p&gt;Bollobás 当时预言三年内大家就会开始讨论怎么突破 3.993。结果一年多就应验了：2024 年 Gupta、Ndiaye、Norin 和 Wei 通过优化原论文的参数把底数降到约 3.8。原论文则在 2026 年正式发表于《数学年刊》（Annals of Mathematics）。至于外星人想要的 R(5) 到底是 43 还是 46？目前还是没人知道。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/after-nearly-a-century-a-new-limit-for-patterns-in-graphs-20230502/"&gt;https://www.quantamagazine.org/after-nearly-a-century-a-new-limit-for-patterns-in-graphs-20230502/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2303.09521"&gt;https://arxiv.org/abs/2303.09521&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2409.15709"&gt;https://arxiv.org/abs/2409.15709&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2407.19026"&gt;https://arxiv.org/abs/2407.19026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cs.umd.edu/users/gasarch/COURSES/752/S25/slides/aliens.pdf"&gt;https://www.cs.umd.edu/users/gasarch/COURSES/752/S25/slides/aliens.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">48c1553a-aeec-5828-89ad-0feace9817d3</guid>
+      <pubDate>Thu, 12 Nov 2026 12:15:35 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.quantamagazine.org/after-nearly-a-century-a-new-limit-for-patterns-in-graphs-20230502/</link>
+      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2023/05/RamseyImprovement-byDVDP-Social.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 有人在旁边，身体的账单会便宜一点：希伯来大学预注册实验发现伴侣在场时饭后血糖累积升高低 15-24%，冷暴露降温更少</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2025/09/happy-couple.jpg" alt="一对情侣在一起" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Masalha 等人的实验里，伴侣只是在场、可以随意聊天或触碰，没有任何"任务"。图：PsyPost / Adobe Stock&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;我们习惯把"自我调节"理解成一个人的事：睡够、吃好、管住情绪，全靠自己的容量。耶路撒冷希伯来大学 Shir Atzil 实验室 9 月发在 &lt;em&gt;Science Advances&lt;/em&gt; 的论文《Social Physiology: Human homeostasis is more efficient in social proximity》（DOI 10.1126/sciadv.aeg4937，第一作者 Monia Masalha，PsyPost 11/12 报道）给出了一个不太一样的视角：身体维持稳态（Homeostasis）的一部分成本，可能是和亲近的人分摊的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实验怎么做的。&lt;/strong&gt;180 名 18-37 岁、恋爱至少九个月的健康成年人，同一天内分别在"独自一人"和"伴侣在场"两种条件下接受测试，顺序随机。四个实验中三个做了预注册，数据和代码放在 OSF。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;血糖：空腹后吃 102 克白面包（50 克碳水），指尖采血追踪两小时（108 人）。伴侣在场时，血糖累积升高在个体内低 14.55%，组间比较低 23.9%。&lt;/li&gt;
+&lt;li&gt;体温：先常温五分钟，再在 12°C 待五分钟，最后回暖 15 分钟（116 人）。伴侣在场时手腕皮温下降少 6.76%（个体内，只通过单侧检验），组间少 16.17%。&lt;/li&gt;
+&lt;li&gt;压力：前臂两次轻微电击，测皮肤电（115 人）。组间唤醒低 5.98%；个体内只低 1.89%，不显著。&lt;/li&gt;
+&lt;li&gt;合并所有成人数据，"生理支出"个体内低 7.59%，组间低 12.07%。另有一个 56 名婴儿的探索性预实验，母亲在旁时对 82 分贝声音的皮肤电反应低 2.55%-4.24%，同样只过了单侧阈值。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;伴侣可以自由说话和触碰，但录像编码显示触碰并不能完整解释效应；吃面包时的皮肤电也没有差别，说明血糖曲线变平不只是"放松了"。作者的解释框架接近 James Coan 的社会基线理论（Social Baseline Theory）：大脑默认身边有人，独处反而是需要额外预算的状态。&lt;/p&gt;
+
+&lt;p&gt;证据强度要说清楚。效应量不大，好几项只过了单侧检验，个体内的压力效应不显著；部分被试和伴侣在一起时调节反而更差；每项测试只是一天里的一个短窗口；样本是年轻、健康的异性恋情侣。Atzil 在利益声明中披露正在为"社会生理学"相关成果寻求知识产权保护。未参与研究的 Koul 直言"这些发现暂时不该做临床解读"，Atzil 自己也说"我们不是在说和亲近的人吃饭能治糖尿病"。&lt;/p&gt;
+
+&lt;p&gt;把它放进本栏一直在跟的那条线里就更有意思了。11/10 写过 Yilmaz &amp; Stanton 的日记研究：比平时更糟糕的一天，会经由心情外溢到当晚的亲密感。那是压力往关系里渗。这篇是反方向——关系在替身体做一部分调节工作。两者合起来，"调节容量"并不完全长在个体身上，它有一部分外包给了身边的人。&lt;/p&gt;
+
+&lt;p&gt;可以带走的用法很朴素。在你知道自己会被消耗的时刻——一顿赶时间的午饭、一个要熬的冷夜、一场体检抽血——如果条件允许，别默认一个人扛。反过来，当你觉得"最近状态差、自制力不够"时，不妨也查一下最近是不是独处太多、和亲近的人见得太少。这不是鸡汤式的"爱能治愈一切"，而是一个可检验、效应不大但方向明确的假设：有人在旁边，身体的账单会便宜一点。&lt;/p&gt;
+
+&lt;p&gt;接下来值得等的是更长时间窗口、非伴侣关系（朋友、室友）以及代谢病人群的复现。如果效应在朋友之间也成立，这条结论的适用面会大得多。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/"&gt;PsyPost 报道&lt;/a&gt;；&lt;a href="https://doi.org/10.1126/sciadv.aeg4937"&gt;Science Advances 原文&lt;/a&gt;；&lt;a href="https://www.sci.news/medicine/social-physiology-15091.html"&gt;Sci.News&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/"&gt;https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1126/sciadv.aeg4937"&gt;https://doi.org/10.1126/sciadv.aeg4937&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sci.news/medicine/social-physiology-15091.html"&gt;https://www.sci.news/medicine/social-physiology-15091.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d5450753-bbe2-5ef8-9dc5-40caaa0b1d6c</guid>
+      <pubDate>Thu, 12 Nov 2026 12:16:33 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/09/happy-couple.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 关心世界，不必让身体付全款：Royal Holloway 两轮美国选举追踪发现内感受越强，政治压力的健康代价越小，参与度反而更高</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2023/06/asian-man-meditating.jpg" alt="一位男性闭眼静坐" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;内感受（Interoception）不是"放空"，而是察觉身体信号并且信任它。图：PsyPost / Adobe Stock&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;刷完一轮坏消息，胸口发紧、肩膀耸着、晚上睡不好——很多人对这种状态的应对是两种之一：要么换个想法说服自己"没那么糟"，要么干脆不看了。伦敦大学皇家霍洛威学院（Royal Holloway）的 Mariana Von Mohr 和 Manos Tsakiris 10 月底在 &lt;em&gt;Political Psychology&lt;/em&gt; 发表的论文《Feeling the body politic》（DOI 10.1111/pops.70217，开放获取）指向第三条路：先跟自己的身体打交道。&lt;/p&gt;
+
+&lt;p&gt;研究对象是政治带来的健康代价，用 32 题的 Politics and Health Scale 测躯体、情绪、行为、社交四个维度的自评损害。核心预测变量是内感受敏感性（Interoceptive Sensibility），用 37 题的 MAIA-2 量表测：你会不会注意到紧张、呼吸、舒适感的变化，会不会被不舒服的感觉吓到，会不会用身体信号来平复情绪，觉不觉得身体是可信的。&lt;/p&gt;
+
+&lt;p&gt;三项研究，论文称总计两千多名参与者（研究 3 是研究 2 的追踪子样本）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;研究 1：2022 年美国中期选举后，632 人，民主共和两党各半。MAIA 每高 1 分，情绪损害低 2.55 分（95% CI −3.25 到 −1.88），其他三个维度低 1.2-1.3 分。按 MAIA 标准差 0.69 换算，大约相当于情绪损害少四分之一个标准差。最有保护作用的两个子维度是"不担忧"（Not-Worrying）和"身体信任"（Body Trust）。&lt;/li&gt;
+&lt;li&gt;研究 2：预注册的 2024 大选三波追踪，1,050 人。结果重复，情绪维度 b=−2.62；控制了认知重评（Reappraisal）和表达抑制（Suppression）之后依然显著。落选一方的 Harris 选民损害更重，内感受的保护作用在他们身上也更强。&lt;/li&gt;
+&lt;li&gt;研究 3：选后四个月，752 人。内感受越高，政治参与和效能感越高（研究 2 中与参与度 r=.21）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最后这一点是整篇论文最值得带走的。Brett Ford 等人此前发现，认知重评能减轻政治事件后的负面情绪，但也会削弱行动动机——你把事情想得没那么糟，自然也就不那么想做点什么。内感受走的是另一条路：它降低的是身体为情绪付的账，而不是把问题本身解释掉。论文里，重评与内感受放进同一模型后重评的效应被削弱，内感受的独立贡献还在。&lt;/p&gt;
+
+&lt;p&gt;这和本栏 11/5 写过的 Schulze/Pruessner 元分析能对上：认知控制和情绪调节的关联全部 |r|&amp;lt;.15，"脑子转得快"不是调节的瓶颈。这篇补上了另一块：调节有一部分是身体层面的能力，不完全在认知里。&lt;/p&gt;
+
+&lt;p&gt;怎么用？区分两件经常被混在一起的事：&lt;strong&gt;注意到身体&lt;/strong&gt;和&lt;strong&gt;担心身体&lt;/strong&gt;。看到让你愤怒的新闻时，试着只描述——"下巴咬紧了""呼吸变浅了"——而不是马上接一句"我是不是焦虑症又犯了"。前者是 Body Trust 和 Not-Worrying 的方向，后者恰恰是 MAIA 里得低分的模式。作者提到正念、躯体觉察和生物反馈训练能提高内感受，但这篇本身没有做干预。&lt;/p&gt;
+
+&lt;p&gt;局限也很明确：全部是自评问卷，没有心率变异性等生理指标；内感受是测出来的而非操纵的（四个月重测 ICC=.77，相当稳定）；只在高度极化的美国做过；分组交互的检验功效不足。它是一个前瞻性的"标记"，还不是一套被验证的疗法。&lt;/p&gt;
+
+&lt;p&gt;不过这个问题本身很实用：你能不能既关心世界，又不让身体替你的关心付全款？这篇的回答是，至少有一部分人做到了，他们的共同点不是更冷漠，而是更信任自己的身体。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://doi.org/10.1111/pops.70217"&gt;Political Psychology 原文&lt;/a&gt;；&lt;a href="https://www.psypost.org/tuning-into-your-body-might-protect-against-the-stress-of-modern-politics/"&gt;PsyPost 报道&lt;/a&gt;；&lt;a href="https://kar.kent.ac.uk/116801/"&gt;Kent 学术库记录&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1111/pops.70217"&gt;https://doi.org/10.1111/pops.70217&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/tuning-into-your-body-might-protect-against-the-stress-of-modern-politics/"&gt;https://www.psypost.org/tuning-into-your-body-might-protect-against-the-stress-of-modern-politics/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kar.kent.ac.uk/116801/"&gt;https://kar.kent.ac.uk/116801/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a056e253-a87f-5f03-9fd3-7299c55eaae7</guid>
+      <pubDate>Thu, 12 Nov 2026 12:16:33 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1111/pops.70217</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2023/06/asian-man-meditating.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 过度自信可能是一种性格：INSEAD/Duke 新论文称高估、高置、过度精确共享一个稳定的「核心过度自信」，自认懂行的人决策反而更简单</title>
+      <description>&lt;figure&gt;&lt;img src="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/september/chicago-booth-man-boulder.jpg" alt="一个人站在摇摇欲坠的石柱上举起巨石" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;觉得自己懂，和真的懂，是两条只中等相关的曲线。图：Chicago Booth Review / Adobe Stock&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;心理学教科书里，过度自信（Overconfidence）通常被当成"情境偏差"：题目难了大家都高估自己，题目简单了又会低估。言下之意是，没有谁天生更自负，只有谁碰上了更容易让人自负的任务。INSEAD 的 M. Asher Lawson 与 Duke 的 Richard Larrick、Jack Soll 发表在 &lt;em&gt;Cognition&lt;/em&gt; 2026 年 11 月号（第 276 卷，DOI 10.1016/j.cognition.2026.106665）的论文《Individual differences in overconfidence: A common core and its motivational and cognitive correlates》对这个默认看法提出了挑战。&lt;/p&gt;
+
+&lt;p&gt;他们把过度自信拆成三种：高估（Overestimation，觉得自己答对的比实际多）、高置（Overplacement，觉得自己比别人强）、过度精确（Overprecision，给出的区间太窄）。论文摘要的结论是：三种形式各自存在稳定的个体差异，而且共享一个"核心过度自信"（Core Overconfidence），短期和长期都稳定；即使把跨任务的正确率相关压到最小，这种差异依然存在，所以不只是某个领域里的自我感觉良好。自恋（Narcissism）、积极开放思维（Actively Open-minded Thinking, AOT）等指标都与它显著相关，这些关系大多通过"自信"或"准确度"其中一端起作用——也就是说，有人是因为自我感觉膨胀，有人是因为想得不够周全，两条路都通向高估。&lt;/p&gt;
+
+&lt;p&gt;我目前只看到了这篇的摘要，具体样本量和系数还没拿到。能查到的数字来自这条研究线的前期工作：Binnendyk &amp; Pennycook 2024 年在 &lt;em&gt;Judgment and Decision Making&lt;/em&gt; 上引用 Lawson 等人 2023 年的版本称，三种过度自信在地理、历史、文学、科学题目上的相关为 r=.22 到 .59，团队还开发了一个三题的简版量表（OCT）。Binnendyk &amp; Pennycook 自己设计了一个"纯猜测"任务：10 张极难辨认的对抗图片，正确率基本在随机水平（平均 5.9/10），但人们自估的成绩 15 天后重测相关 r≈.53-.54，与 Lawson 的 OCT 相关 r=.42，还和阴谋论信念、"胡扯接受度"都在 r=.34 左右。&lt;/p&gt;
+
+&lt;p&gt;反方意见同样要摆出来。同一篇 Binnendyk &amp; Pennycook 指出，"觉得自己比别人强"那一项的重测相关只有 r=.11，不显著；另有综述发现过度精确在不同测法之间几乎不一致。所以更稳妥的读法是：&lt;strong&gt;"高估自己"像一种性格&lt;/strong&gt;，"比别人强"和"区间太窄"还很难说。&lt;/p&gt;
+
+&lt;p&gt;这对日常决策有什么用？芝加哥大学 Booth 学院的 Borislow &amp; Bartels（&lt;em&gt;Journal of Behavioral Decision Making&lt;/em&gt;，2026 年 3 月）给了一个具体场景。390 人先自评对汽车、葡萄酒等五类产品懂多少，再做知识测验，两者只中等相关。在 335 人的选择实验里，真正懂的人更常去看难以直接比较的属性（香气、口感描述），自认为懂的人则偏向价格、产地这类能一眼对比的参数；在其他研究中，自认为懂的人也更少采纳建议、更少再找信息。觉得自己懂，决策反而变简单了。&lt;/p&gt;
+
+&lt;p&gt;放回本栏的脉络：11/5 写过 GMA 对工作表现只有 r≈.20，本栏一直在说"单个硬特质撑不起多少"。这篇是一个诚实的反例——至少有一种稳定特质确实存在，而且它恰恰是让你高估其他特质的那一种。昨天 Warner 的选民研究里"九成人预计己方会赢"，也许不全是党派情绪，一部分就是这种核心倾向。&lt;/p&gt;
+
+&lt;p&gt;可以带走的做法有两个。第一，别问自己"我有多确定"，而是先给一个区间，再问"如果我错了，最可能错在哪里"——这正是积极开放思维所描述的那种习惯。第二，当你发现自己在用一两个好比较的数字快速拍板（价格、跑分、年薪），停一下，那可能正是"自觉懂行"在替你省事。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://scholars.duke.edu/publication/1911601"&gt;Duke Scholars：Lawson, Larrick &amp; Soll 2026&lt;/a&gt;；&lt;a href="https://www.insead.edu/faculty-research/publications/journal-articles/individual-differences-overconfidence-a-common-core"&gt;INSEAD 论文页&lt;/a&gt;；&lt;a href="https://www.cambridge.org/core/product/D2CC80B7DBFBF152F19356F337F0A2AF/core-reader"&gt;Binnendyk &amp; Pennycook 2024, JDM&lt;/a&gt;；&lt;a href="https://www.chicagobooth.edu/review/2026/september/think-youre-expert-that-may-hurt-you"&gt;Chicago Booth Review&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://scholars.duke.edu/publication/1911601"&gt;https://scholars.duke.edu/publication/1911601&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.insead.edu/faculty-research/publications/journal-articles/individual-differences-overconfidence-a-common-core"&gt;https://www.insead.edu/faculty-research/publications/journal-articles/individual-differences-overconfidence-a-common-core&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cambridge.org/core/product/D2CC80B7DBFBF152F19356F337F0A2AF/core-reader"&gt;https://www.cambridge.org/core/product/D2CC80B7DBFBF152F19356F337F0A2AF/core-reader&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.chicagobooth.edu/review/2026/september/think-youre-expert-that-may-hurt-you"&gt;https://www.chicagobooth.edu/review/2026/september/think-youre-expert-that-may-hurt-you&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a8a96eb1-bdff-5e8a-8ed8-a2b06aed1569</guid>
+      <pubDate>Thu, 12 Nov 2026 12:16:33 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://scholars.duke.edu/publication/1911601</link>
+      <enclosure url="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/september/chicago-booth-man-boulder.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
