@@ -9,841 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Thu, 12 Nov 2026 12:16:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:18:41 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 NN/g's 2026 AI-in-UX Survey: Faster Work, Lukewarm Practitioners, and AI That Avoids Users / NN/g 2026 年 AI 与 UX 调查：干活更快，从业者不买账，AI 离用户最远</title>
-      <description>&lt;p&gt;NN/g's 2026 survey of UX practitioners is the best data I've seen on what AI is actually doing to design and research work. The short version: nearly everyone uses it, it saves time on the tasks furthest from users, and the people doing the work feel noticeably less upbeat about it than their managers. Maria Rosala and Rachel Banawa published it on October 23.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Method.&lt;/strong&gt; The survey ran August 24 to September 11, 2026. Of 2,814 responses, 521 complete ones survived cleaning. NN/g removed incomplete responses, bots (all of which came from LinkedIn ads) and people not currently working. Respondents were 246 designers, 145 researchers, 21 PMs and 109 others. Almost half worked at enterprises. It's a convenience sample from NN/g's own channels, so it leans toward people who read NN/g, but it's large enough to show patterns by role.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Access is no longer the question.&lt;/strong&gt; More than 99% have generative AI at work, and only 0.4% don't use it. 96% use general chatbots and 65% use AI features inside design tools. The bigger shift is agentic use: 48% use agents for multistep tasks, 47% use agentic coding or app builders, and 66% use at least one agentic tool. Adoption follows organization size and risk appetite, from 85% at startups and 69% at enterprises down to 42% in government and 36% in nonprofits/education. By role, designers (71%) are well ahead of researchers (57%) and content designers (35%).&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/10/22/which-roles-use-agentic-ai-1700-v2.png" alt="Bar chart of agentic AI use by role: operations 83%, product 81%, engineering 71%, design 71%, research 57%, content 35%" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Agentic AI use by role. Designers have caught up with engineers; researchers and content designers lag. Source: NN/g.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Where AI helps, and where it doesn't.&lt;/strong&gt; On a 1-5 frequency scale, the most AI-assisted tasks are writing or editing code (3.99), desk research (3.83) and analyzing your own research data (3.81). At the bottom are evaluating designs (2.59), testing designs with users (1.97) and interviewing users (1.82). 61% have never used AI to interview users. Time savings follow the same order: biggest for code and desk research, smallest for anything involving users. The tasks closest to the user are the ones AI touches least. That's the practical map for anyone deciding where to point these tools. (One caveat: the article's text and chart describe the time-savings scale in opposite directions, so read the rank order rather than the absolute numbers.)&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/10/22/why-respondents-feel-negatively-about-ai_s-effect-on-their-work-1700-v2.png" alt="Bar chart of reasons for negative comments about AI at work: unreliable output leads, followed by skill atrophy, ethics, and mandated adoption" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Why practitioners are negative. Unreliable output and verification burden lead, followed by skill atrophy, ethics, and adoption mandates. Source: NN/g.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The mood.&lt;/strong&gt; Average sentiment is 3.57 out of 5: positive, but only modestly. The open-ended comments are more telling. Of 226 people who wrote one, 69% expressed some negativity and only 20% were purely positive. The most-coded complaints were:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;unreliable output and the burden of checking it (40 mentions)&lt;/li&gt;
-&lt;li&gt;skill atrophy (26)&lt;/li&gt;
-&lt;li&gt;ethics and environmental concerns (25)&lt;/li&gt;
-&lt;li&gt;top-down mandates (24)&lt;/li&gt;
-&lt;li&gt;devaluation of UX expertise (20)&lt;/li&gt;
-&lt;li&gt;having to clean up other people's AI output (17)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;One respondent put it this way: "The people who actually care about what we make end up doing double work, having to review and fix the slop of others AND do our own work right." Even praise came with conditions. Of 61 comments mentioning speed, 26 also contained something negative.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Designers versus researchers.&lt;/strong&gt; This split is the most consequential one. Researchers were purely negative more often than designers (51% vs. 33%). On role outlook, 49% of designers expect their job to be "redefined but as important," against 34% of researchers, and 23% of researchers expect their role to shrink, against 12% of designers. Mean job security is low across the board (3.08 of 5; designers 2.99, researchers 2.94). Government staff feel safest (3.86) and startup staff least safe (2.74). That fits the agentic adoption numbers: the more aggressively an organization adopts, the less secure its people feel.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Context from our running coverage.&lt;/strong&gt; This is the human side of the shift we've been tracking on the tool side: Figma moving code layers and agents into the canvas and metering them by credit, and design systems publishing MCP servers so agents become a second audience. NN/g's companion piece "The Role of UX in Agentic Software Factories" (Oct 30) makes the same warning: AI-native development can reduce UX to "supplying context." The survey shows practitioners already feel that squeeze. Their AI work is concentrated in code and desk research, while the user-facing work, which is the thing that justifies UX, has barely moved.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Takeaways.&lt;/strong&gt; NN/g's recommendations are worth borrowing word for word for a team AI policy:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Measure whether work reaches users faster and better, not whether people use AI.&lt;/li&gt;
-&lt;li&gt;Decide which tasks merit AI. User-facing tasks benefit least.&lt;/li&gt;
-&lt;li&gt;Treat output as a draft, and don't automatically turn saved time into more output.&lt;/li&gt;
-&lt;li&gt;Count productivity at the system level, including the reviewer's time cleaning up someone else's slop.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That last point is the sleeper. If your AI metrics only count the producer's hours, you're measuring the wrong person's time.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;NN/g, "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings" (Oct 23, 2026)&lt;/a&gt;; &lt;a href="https://www.nngroup.com/articles/ux-agentic-software-factories/"&gt;NN/g, "The Role of UX in Agentic Software Factories" (Oct 30, 2026)&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;NN/g 的 2026 年 UX 从业者调查，是我看到过关于 AI 究竟如何改变设计与研究工作的最好数据。一句话概括：几乎人人都在用；离用户越远的任务越省时间；一线干活的人对它远没有管理层那么乐观。作者是 Maria Rosala 和 Rachel Banawa，10 月 23 日发布。&lt;/p&gt;
-
-&lt;p&gt;方法。调查在 2026 年 8 月 24 日至 9 月 11 日进行。收到 2,814 份回答，清洗后剩 521 份完整有效的，去掉的包括不完整的、机器人（全部来自 LinkedIn 广告）和目前没有工作的人。其中设计师 246 人，研究员 145 人，产品经理 21 人，其他 109 人。将近一半在大企业工作。这是从 NN/g 自有渠道拿到的便利样本，会偏向 NN/g 的读者，但规模足以按角色看出规律。&lt;/p&gt;
-
-&lt;p&gt;用不用早已不是问题。99% 以上的人工作中能用生成式 AI，不用的只有 0.4%。96% 用通用聊天机器人，65% 用设计工具里的 AI 功能。更大的变化在智能体（Agentic AI）：48% 用智能体处理多步骤任务，47% 用智能体编程或应用生成工具，66% 至少用一种智能体工具。采用率和机构规模、风险偏好挂钩：初创公司 85%，大企业 69%，政府 42%，非营利和教育机构 36%。按角色看，设计师（71%）明显领先研究员（57%）和内容设计师（35%）。&lt;/p&gt;
-
-&lt;p&gt;哪里有用，哪里没用。按 1 到 5 的使用频率打分，用 AI 最多的是写代码和改代码（3.99）、桌面研究（3.83）、分析自己的研究数据（3.81）。垫底的是评审设计（2.59）、拿设计做用户测试（1.97）和用户访谈（1.82）。61% 的人从没用 AI 做过用户访谈。省时排序完全一致：代码和桌面研究省得最多，凡是要接触用户的都省得最少。离用户越近的任务，AI 碰得越少。想决定把这些工具往哪儿用，这就是一张现成的地图。（提醒一句：文章正文和图表对省时量表的方向描述相反，看排名就好，别抠绝对数值。）&lt;/p&gt;
-
-&lt;p&gt;情绪。整体评分 3.57（满分 5），偏正面，但只是略高于中性。开放题更说明问题：226 位写了评论的人里，69% 带有负面情绪，纯正面的只有 20%。被提到最多的抱怨依次是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;输出不可靠、核查负担重（40 次）&lt;/li&gt;
-&lt;li&gt;技能退化（26）&lt;/li&gt;
-&lt;li&gt;伦理和环境顾虑（25）&lt;/li&gt;
-&lt;li&gt;被自上而下强制使用（24）&lt;/li&gt;
-&lt;li&gt;UX 专业能力被贬低（20）&lt;/li&gt;
-&lt;li&gt;还得替别人收拾 AI 产出（17）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;一位受访者说："真正在乎产品的人最后干双份活，既要审、要修别人的垃圾产出，又要把自己的活干好。"连夸奖也带着保留：61 条提到"更快"的评论里，有 26 条同时带着负面内容。&lt;/p&gt;
-
-&lt;p&gt;设计师和研究员。这是影响最深远的分歧。研究员给出纯负面评价的比例高于设计师（51% 对 33%）。谈到角色前景，49% 的设计师认为自己的工作会"被重新定义但同样重要"，研究员只有 34%；23% 的研究员预计自己的角色会缩水，设计师是 12%。职业安全感普遍偏低（平均 3.08，设计师 2.99，研究员 2.94）。政府雇员最安心（3.86），初创公司最不安（2.74）。这和智能体采用率的分布对得上：机构上 AI 越激进，员工越没安全感。&lt;/p&gt;
-
-&lt;p&gt;和我们一直在跟的线索放在一起看。工具那一侧，我们追踪过 Figma 把代码图层和智能体搬进画布并按积分计费，也追踪过设计系统纷纷发布 MCP 服务器、把智能体当作第二类读者。这份调查讲的是人这一侧。NN/g 10 月 30 日的配套文章《UX 在智能体软件工厂中的角色》给出了同样的警告：AI 原生开发可能把 UX 缩成"给 AI 提供上下文"。调查显示从业者已经感觉到这种挤压：他们的 AI 使用集中在代码和桌面研究，而真正让 UX 站得住脚的面向用户的工作，几乎没动。&lt;/p&gt;
-
-&lt;p&gt;可以直接拿走的建议。NN/g 的几条建议，几乎可以原样抄进团队的 AI 政策：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;衡量工作是否更快、更好地到达用户，而不是员工用没用 AI。&lt;/li&gt;
-&lt;li&gt;先决定哪些任务值得用 AI。面向用户的任务收益最小。&lt;/li&gt;
-&lt;li&gt;把输出当草稿；省下的时间不要自动变成更多产出。&lt;/li&gt;
-&lt;li&gt;在系统层面算生产率，把审阅者给别人收拾残局的时间也算进去。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最后一条最容易被忽视。AI 指标如果只算产出者省了几小时，那就算错了人的时间。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;https://www.nngroup.com/articles/ai-in-ux-survey-26/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/ux-agentic-software-factories/"&gt;https://www.nngroup.com/articles/ux-agentic-software-factories/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c28734db-db08-562e-84e5-cd2a719fc70b</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:34 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/ai-in-ux-survey-26/</link>
-      <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/AI_in_UX__Work_Is_Faster_But_Practitioners_Have_Mixed_Feelings.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Chrome 154 Flips CSS Carousels From Tabs to Links After Accessibility Criticism / Chrome 154 在无障碍批评后把 CSS 轮播从标签页改为链接语义</title>
-      <description>&lt;p&gt;Chrome 154 went stable on September 22 with a small CSS change that matters for accessibility: &lt;code&gt;scroll-marker-group&lt;/code&gt; now takes a mode, &lt;code&gt;links&lt;/code&gt; or &lt;code&gt;tabs&lt;/code&gt;, and the default is &lt;code&gt;links&lt;/code&gt;. On paper it's one keyword. In practice, Chrome reversed the semantics of every CSS carousel built since Chrome 135, in direct response to accessibility critics. If your design system has been waiting to decide whether CSS carousels are safe to use, this changes the answer from "no" to "maybe, with care."&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The backstory.&lt;/strong&gt; CSS carousels (&lt;code&gt;::scroll-marker&lt;/code&gt;, &lt;code&gt;::scroll-marker-group&lt;/code&gt;, &lt;code&gt;::scroll-button()&lt;/code&gt;) shipped in Chrome 135 in spring 2025, alongside the customizable select we covered on November 9. They let you build a carousel's pagination dots and prev/next buttons in pure CSS. In May 2025 Sara Soueidan published "Are 'CSS Carousels' accessible?", a VoiceOver-and-keyboard audit of Chrome's own demos. Her verdict was that they were "not accessible, and not ready for production." The core problem was that the browser exposed every marker group as a &lt;code&gt;tablist&lt;/code&gt; and every marker as a &lt;code&gt;tab&lt;/code&gt;, whether or not the UI behaved like tabs. A horizontal product list announced itself as a single-select tab widget. Markers shared the same accessible name. Off-screen items were announced as "selected." Shift+Tab walked into links in scrolled-away cards. Disabled scroll buttons stayed focusable. Adrian Roselli, David Bushell and others raised separation-of-concerns objections around the same time.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.sarasoueidan.com/assets/images/css-carousels-accessibility/list-tablist-not-multi-selectable.png" alt="Screenshot of the Chrome DevTools accessibility tree showing a CSS carousel marker group exposed as a single-selectable tablist" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Sara Soueidan's 2025 audit: the original CSS carousel exposed its markers as a single-select tablist even when several items were visible at once. Source: sarasoueidan.com.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;What shipped.&lt;/strong&gt; According to the Chrome 154 release notes, the two modes follow WAI-ARIA patterns:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;links&lt;/code&gt; (default):&lt;/strong&gt; The marker group is a &lt;code&gt;navigation&lt;/code&gt; list and each marker is a &lt;code&gt;link&lt;/code&gt;. Every marker is its own tab stop, and activating one moves focus to the target element. This fits carousels, galleries and scroll-spy tables of contents, where all the content stays visible and reachable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;tabs&lt;/code&gt;:&lt;/strong&gt; The group becomes a &lt;code&gt;tablist&lt;/code&gt;, markers become &lt;code&gt;tab&lt;/code&gt;s, and the originating elements get &lt;code&gt;tabpanel&lt;/code&gt;. There is one tab stop with a roving tabindex, arrow keys move between markers, and Tab from the active marker moves into its panel. Content in inactive tabs is removed from the accessibility tree, and activating a marker keeps focus on the marker.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The syntax combines with placement: &lt;code&gt;scroll-marker-group: after tabs;&lt;/code&gt;. Daniil Sakhapov's intent-to-ship (July 15) says the change answers "criticism of CSS Carousels from developers and several working groups."&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://developer.chrome.com/static/blog/new-in-chrome-154/image/thumb.png" alt="New in Chrome 154 banner image" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Chrome 154, stable September 22, 2026. Source: Chrome for Developers.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The part that should make you check your sites.&lt;/strong&gt; The blink-dev thread shows this wasn't a free change. Google's Dan Clark pointed out that Chromium had been shipping tabs-like behavior, so making &lt;code&gt;links&lt;/code&gt; the default turns one tab stop into many on existing sites. Usage was around 0.09% of page loads, which is above Chrome's usual breakage threshold. He suggested making &lt;code&gt;tabs&lt;/code&gt; the default to avoid the risk. Robert Flack argued the opposite on August 19: tabs-as-default would remove inactive content from the accessibility tree and tab order, which is the riskier failure. If a carousel is wrongly labeled as tabs, assistive tech users can lose access to content. If a tab set is wrongly labeled as links, they just get extra tab stops. Links won. Chrome picked the failure mode that loses less content, which is the right call. Clark also noted that WPT coverage for focus order in the new modes was thin at the time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What's still open.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gecko and WebKit both had "no signal" on the modes when the intent shipped. MDN still marks &lt;code&gt;scroll-marker-group&lt;/code&gt; experimental and not Baseline. This is Chrome-only for now.&lt;/li&gt;
-&lt;li&gt;The CSS Carousel TAG review was still in progress, with comments specifically on tabs-versus-links semantics.&lt;/li&gt;
-&lt;li&gt;Soueidan's broader point still stands: semantics should come from HTML, with CSS doing the styling. OpenUI's work on native tabs and carousel elements is the alternative path. &lt;code&gt;scroll-target-group&lt;/code&gt;, which turns existing &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; elements into markers, is the more HTML-first option.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practical guidance for design systems.&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;If you shipped CSS-marker carousels before Chrome 154, retest them with a screen reader and keyboard now. Their tab order changed under you.&lt;/li&gt;
-&lt;li&gt;Set the mode explicitly every time. Use &lt;code&gt;links&lt;/code&gt; for carousels and galleries where all slides are meant to be reachable, and &lt;code&gt;tabs&lt;/code&gt; only when the panels really are mutually exclusive views.&lt;/li&gt;
-&lt;li&gt;Give every &lt;code&gt;::scroll-marker&lt;/code&gt; a meaningful &lt;code&gt;content&lt;/code&gt; alt text, since marker names come from CSS.&lt;/li&gt;
-&lt;li&gt;Keep a JavaScript or HTML-first fallback for Safari and Firefox, and treat the CSS version as progressive enhancement.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This is the same pattern we saw with &lt;code&gt;appearance: base-select&lt;/code&gt;: the platform is slowly absorbing UI components that design systems have hand-rolled with ARIA for a decade. The difference is that select had native semantics to build on, while carousels didn't. Chrome had to pick them, got it wrong the first time, and changed course after public criticism. If you're on the accessibility side, write your audit up publicly. Browser vendors read them.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://developer.chrome.com/release-notes/154"&gt;Chrome 154 release notes&lt;/a&gt;; &lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/xRezayRFIJ0/m/L6MzDbmODQAJ"&gt;blink-dev, Intent to Ship: CSS scroll-marker-group modes&lt;/a&gt;; &lt;a href="https://sarasoueidan.com/blog/css-carousels-accessibility"&gt;Sara Soueidan, "Are 'CSS Carousels' accessible?"&lt;/a&gt;; &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-marker-group"&gt;MDN: scroll-marker-group&lt;/a&gt;; &lt;a href="https://drafts.csswg.org/css-overflow-5/#scroll-marker-modes"&gt;CSS Overflow 5: scroll marker modes&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Chrome 154 于 9 月 22 日进入稳定版，里面有一项对无障碍（Accessibility）很关键的小改动：&lt;code&gt;scroll-marker-group&lt;/code&gt; 现在可以指定模式，&lt;code&gt;links&lt;/code&gt; 或 &lt;code&gt;tabs&lt;/code&gt;，默认是 &lt;code&gt;links&lt;/code&gt;。字面上只多了一个关键字。实际上，Chrome 把自 Chrome 135 以来所有 CSS 轮播（CSS Carousels）的语义翻转了过来，直接回应了无障碍社区的批评。如果你的设计系统一直在观望 CSS 轮播能不能用，答案从"不能"变成了"可以试，但要小心"。&lt;/p&gt;
-
-&lt;p&gt;前情。CSS 轮播（&lt;code&gt;::scroll-marker&lt;/code&gt;、&lt;code&gt;::scroll-marker-group&lt;/code&gt;、&lt;code&gt;::scroll-button()&lt;/code&gt;）2025 年春天随 Chrome 135 上线，跟我们 11 月 9 日写过的可定制 select 同一批。它让你用纯 CSS 做出轮播的分页圆点和前后按钮。2025 年 5 月，Sara Soueidan 发表《CSS 轮播无障碍吗？》，用 VoiceOver 和键盘把 Chrome 官方示例逐个测了一遍，结论是"不无障碍，不能用于生产"。核心问题在于：浏览器把每个标记组都暴露成 &lt;code&gt;tablist&lt;/code&gt;、每个标记都暴露成 &lt;code&gt;tab&lt;/code&gt;，不管界面的行为像不像标签页。一个横向商品列表会把自己报成单选标签控件；标记的可访问名称全都一样；屏幕外的项目被报成"已选中"；Shift+Tab 会跑进已经滚出视野的卡片里的链接；禁用的滚动按钮还能获得焦点。Adrian Roselli、David Bushell 等人当时也从关注点分离的角度提出了反对。&lt;/p&gt;
-
-&lt;p&gt;这次上线了什么。按 Chrome 154 发布说明，两种模式都对应 WAI-ARIA 模式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;links&lt;/code&gt;（默认）：标记组是 &lt;code&gt;navigation&lt;/code&gt; 列表，每个标记是 &lt;code&gt;link&lt;/code&gt;。每个标记各占一个 Tab 停靠点，激活后焦点移到目标元素。适合轮播、图库、滚动监听式目录，也就是所有内容都可见、都可达的场景。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tabs&lt;/code&gt;：标记组变成 &lt;code&gt;tablist&lt;/code&gt;，标记变成 &lt;code&gt;tab&lt;/code&gt;，原始元素获得 &lt;code&gt;tabpanel&lt;/code&gt;。只有一个 Tab 停靠点（漫游 tabindex），方向键在标记间切换，从当前标记按 Tab 进入对应面板。非活动标签的内容从无障碍树中移除，激活标记后焦点留在标记上。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;语法可以和位置组合：&lt;code&gt;scroll-marker-group: after tabs;&lt;/code&gt;。Daniil Sakhapov 7 月 15 日提交的 Intent to Ship 写得很直白：这是在回应"开发者和多个工作组对 CSS 轮播的批评"。&lt;/p&gt;
-
-&lt;p&gt;要回头检查自己网站的原因在这儿。blink-dev 的讨论串说明这个改动有代价。Google 的 Dan Clark 指出，Chromium 一直在发布类似 tabs 的行为，默认改成 &lt;code&gt;links&lt;/code&gt; 后，现有网站的一个 Tab 停靠点会变成很多个。使用率约占页面加载的 0.09%，超过了 Chrome 通常能接受的破坏阈值。他建议默认值干脆定为 &lt;code&gt;tabs&lt;/code&gt; 来规避风险。Robert Flack 8 月 19 日给出了相反的理由：默认 tabs 会把非活动内容移出无障碍树和 Tab 顺序，那是更危险的失败。把轮播错标成 tabs，辅助技术用户会丢内容；把标签页错标成 links，最多是多按几下 Tab。最后选了 links。Chrome 选的是丢内容更少的那种失败方式，这个判断是对的。Clark 还提到，新模式下焦点顺序的 WPT 测试当时覆盖得很薄。&lt;/p&gt;
-
-&lt;p&gt;悬而未决的部分。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Intent 发出时，Gecko 和 WebKit 对这两种模式都是"无信号"。MDN 仍把 &lt;code&gt;scroll-marker-group&lt;/code&gt; 标为实验性、非 Baseline。目前只有 Chrome 支持。&lt;/li&gt;
-&lt;li&gt;CSS 轮播的 TAG 审查当时还没结束，审查意见里专门讨论了 tabs 和 links 的语义之争。&lt;/li&gt;
-&lt;li&gt;Soueidan 更根本的观点依然成立：语义应该来自 HTML，CSS 只管样式。OpenUI 在做原生 tabs 和轮播元素，是另一条路。把现有 &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; 元素变成标记的 &lt;code&gt;scroll-target-group&lt;/code&gt;，是更偏 HTML 的方案。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;给设计系统的建议。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;如果你在 Chrome 154 之前上线过基于 CSS 标记的轮播，现在就用读屏软件和键盘重测一遍。它的 Tab 顺序已经变了。&lt;/li&gt;
-&lt;li&gt;每次都显式写明模式。所有幻灯片都应可达的轮播和图库用 &lt;code&gt;links&lt;/code&gt;；只有面板确实互斥时才用 &lt;code&gt;tabs&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;给每个 &lt;code&gt;::scroll-marker&lt;/code&gt; 写有意义的 &lt;code&gt;content&lt;/code&gt; 替代文本，因为标记的名称来自 CSS。&lt;/li&gt;
-&lt;li&gt;为 Safari 和 Firefox 保留 JavaScript 或 HTML 优先的回退方案，把 CSS 版本当作渐进增强。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这和 &lt;code&gt;appearance: base-select&lt;/code&gt; 是同一条路：设计系统用 ARIA 手搓了十年的组件，正在一点点被平台收编。区别在于 select 本来就有原生语义可以依托，轮播没有，只能由 Chrome 来选。第一次选错了，公开批评之后又改了回来。做无障碍的同行，审计结果写出来公开发。浏览器厂商是会看的。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://developer.chrome.com/release-notes/154"&gt;https://developer.chrome.com/release-notes/154&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/xRezayRFIJ0/m/L6MzDbmODQAJ"&gt;https://groups.google.com/a/chromium.org/g/blink-dev/c/xRezayRFIJ0/m/L6MzDbmODQAJ&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sarasoueidan.com/blog/css-carousels-accessibility"&gt;https://sarasoueidan.com/blog/css-carousels-accessibility&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-marker-group"&gt;https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-marker-group&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://drafts.csswg.org/css-overflow-5/#scroll-marker-modes"&gt;https://drafts.csswg.org/css-overflow-5/#scroll-marker-modes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4bacc2d6-85fe-572d-9340-6fd13a4316a1</guid>
-      <pubDate>Tue, 10 Nov 2026 12:12:34 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://developer.chrome.com/release-notes/154</link>
-      <enclosure url="https://developer.chrome.com/static/blog/new-in-chrome-154/image/thumb.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 特朗普把幕僚长换成米勒：威尔斯在败选三天后辞职，国会还没开张，调查预告已经出来了</title>
-      <description>&lt;p&gt;特朗普11月6日（周五）宣布，副幕僚长斯蒂芬·米勒（Stephen Miller）接替苏茜·威尔斯（Susie Wiles），出任白宫幕僚长。此时距共和党在期中选举里丢掉国会两院只过了三天。据美联社引述一位知情人士，威尔斯周四晚上向特朗普递交了辞呈；多家媒体报道，交接从11月9日起生效。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://gray-wbtv-prod.gtv-cdn.com/resizer/v2/TB5OOIAUNBCR3F6H7YRG27LKVM.jpg?width=980&amp;amp;height=653&amp;amp;smart=true" alt="威尔斯在内阁会议上" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;威尔斯（资料照，2025年4月30日内阁会议）。图：Evan Vucci/美联社&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;威尔斯今年69岁，是白宫第一位女幕僚长，也是特朗普两个任期里任职最久的一位。特朗普第一任期换了四个幕僚长，她撑到了第二任期的第二年。她操盘过特朗普2016、2020、2024三次竞选，2024年那次常被称作他打得最干净的一仗。特朗普在社交平台上夸了她，说她会继续在他的政治组织里做事，具体头衔没有公布。威尔斯自己的声明是：在白宫服务“是一生的荣幸”，对总统和使命的承诺“不会改变”。&lt;/p&gt;
-
-&lt;p&gt;接任的米勒是谁，不用多介绍。他2016年以撰稿人身份加入竞选团队，此前做过参议员杰夫·塞申斯的助手，是这届政府强硬移民政策的主要设计者。现在他从政策侧直接坐到了日程、人事和对国会关系的总开关上。&lt;/p&gt;
-
-&lt;p&gt;时间点很有意思。威尔斯去年12月接受《名利场》（Vanity Fair）长篇采访，说特朗普有“酒鬼式的性格”，说司法部长邦迪在爱泼斯坦文件上“搞砸了”，还说万斯“当了十年阴谋论者”。她后来称那篇文章是“居心不良的抹黑”，但没有否认引语。那件事当时没动她，选举败了反倒动了。另一边，今年3月她公开自己早期乳腺癌的诊断，后来说已经没有癌症迹象。&lt;/p&gt;
-
-&lt;p&gt;反应来得很快。据《Democracy Now》11月9日的报道，即将出任众议院监督委员会主席的民主党议员罗伯特·加西亚说米勒“应该去请律师”。司法部长托德·布兰奇在福克斯新闻上回了一句：“斯蒂芬·米勒有律师，就是我。”一个是预告调查，一个是公开站台，国会换手之后白宫和民主党的相处方式，已经提前演了一遍。&lt;/p&gt;
-
-&lt;p&gt;顺带一个小插曲：特朗普前几天提过让UFC老板达纳·怀特（Dana White）当新闻秘书，后来说自己“只是开玩笑”。据时代以色列报（Times of Israel）直播，他还把输掉选举的部分原因归结为“对以色列的极大反感”。这些话说明新班子短期内不会收敛，也说明幕僚长换人不等于路线换人。&lt;/p&gt;
-
-&lt;p&gt;另有一条没有被独立证实的线：前联邦卫生官员卡利·米恩斯（Calley Means）两周前辞职，在乔·罗根的播客里指控威尔斯为了竞选资金压下他推动的儿童饮食改革，并称雇用威尔斯女儿（一名游说人士）的公司得到了优先处理。这只是米恩斯一面之词，威尔斯一方没有回应，我没找到第二个信源，读的时候留个心眼。&lt;/p&gt;
-
-&lt;p&gt;接下来看三件事：米勒会不会把副幕僚长的位置交给谁，12月前后移民执法有没有新动作，以及1月新国会开张后，监督委员会的第一批传票发给谁。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.wbtv.com/2026/11/06/trump-replaces-susie-wiles-with-stephen-miller-chief-staff-after-gops-midterm-defeat/"&gt;美联社/WBTV&lt;/a&gt;、&lt;a href="https://opb.org/article/2026/11/06/stephen-miller-chief-of-staff-trump"&gt;OPB&lt;/a&gt;、&lt;a href="https://www.democracynow.org/2026/11/9/headlines"&gt;Democracy Now&lt;/a&gt;、&lt;a href="https://www.timesofisrael.com/liveblog-november-9-2026/"&gt;Times of Israel&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.wbtv.com/2026/11/06/trump-replaces-susie-wiles-with-stephen-miller-chief-staff-after-gops-midterm-defeat/"&gt;https://www.wbtv.com/2026/11/06/trump-replaces-susie-wiles-with-stephen-miller-chief-staff-after-gops-midterm-defeat/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://opb.org/article/2026/11/06/stephen-miller-chief-of-staff-trump"&gt;https://opb.org/article/2026/11/06/stephen-miller-chief-of-staff-trump&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/9/headlines"&gt;https://www.democracynow.org/2026/11/9/headlines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.timesofisrael.com/liveblog-november-9-2026/"&gt;https://www.timesofisrael.com/liveblog-november-9-2026/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2908b6ed-7d37-5f31-8da6-cac5d21af2cf</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:07 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.wbtv.com/2026/11/06/trump-replaces-susie-wiles-with-stephen-miller-chief-staff-after-gops-midterm-defeat/</link>
-      <enclosure url="https://gray-wbtv-prod.gtv-cdn.com/resizer/v2/TB5OOIAUNBCR3F6H7YRG27LKVM.jpg?width=980&amp;height=653&amp;smart=true" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 以色列总统把组阁权交给艾森科特：67席对46席，真正的钥匙在19席阿拉伯政党手里</title>
-      <description>&lt;p&gt;以色列总统赫尔佐格（Isaac Herzog）11月7日（周六）晚上宣布，让反对派领袖加迪·艾森科特（Gadi Eisenkot）先组阁，而不是内塔尼亚胡。10月27日大选过去12天，内塔尼亚胡和盟友丢了议会多数，艾森科特这边也没拿到多数，球现在到了他手里。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://gray-wala-prod.gtv-cdn.com/resizer/v2/CG5JASFX35GITNMJDJAYRDTMQ4.png?width=980&amp;amp;height=551&amp;amp;smart=true" alt="内塔尼亚胡与艾森科特" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;赫尔佐格把首次组阁机会交给艾森科特（右），内塔尼亚胡（左）受挫。图：美联社&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;数字是这样的。据多家媒体报道，推荐艾森科特的各党团合计67席，推荐内塔尼亚胡的合计46席；极端正统派的“联合托拉犹太教”（UTJ）是内塔尼亚胡多年的盟友，这次谁也没推荐。利库德集团仍是议会第一大党，约27席，但内塔尼亚胡的宗教民族主义阵营总共只有53席左右。两个阿拉伯政党加起来拿到19席，历史新高。120席的议会里，61席是门槛，所以谁都离不开这19席的态度。&lt;/p&gt;
-
-&lt;p&gt;艾森科特有最多六周时间（Democracy Now的说法是28天，可延长14天）。他在X上说，现在是建立“国家紧急政府”的时候，“我会尽一切可能证明我们配得上这份信任”。他的党叫Yashar，呼吁利库德的议员公开切割与“激进政党”的联盟，指的是内塔尼亚胡依赖的极右翼伙伴。&lt;/p&gt;
-
-&lt;p&gt;难点在阿拉伯政党。美联社写，艾森科特表示在一定条件下愿意合作，条件之一是把哈马斯明确定性为必须被消灭的恐怖组织；另有报道称他排除与阿拉伯政党一起执政。比较现实的路径是少数政府：阿拉伯政党在议会投票时外部支持，不入阁。以色列历史上阿拉伯政党只进过一次执政联盟，而他自己阵营里有人已经说了不接受这种安排。&lt;/p&gt;
-
-&lt;p&gt;内塔尼亚胡的反击已经开始。他在视频里喊“民族团结政府”，警告不要“仓促宣誓成立一个支持恐怖分子的政府”，这是他对阿拉伯政党惯用的说法。美联社提到有“阿拉伯政党‘偷走’选举”的无依据说法在流传；另据一份汇总报道，以色列中央选举委员会本周三表示选举完整性没有受损。&lt;/p&gt;
-
-&lt;p&gt;美国这边也有表态。特朗普11月9日说艾森科特和内塔尼亚胡在政策上“非常相似”（据Times of Israel直播）。这话在以色列国内怎么被读，要看两人各自怎么用。&lt;/p&gt;
-
-&lt;p&gt;两边分歧并不只在阿拉伯政党。内塔尼亚胡靠的宗教党派要的是极端正统派兵役豁免，他也反对对10月7日安全失败设立正式调查，这两件事艾森科特的支持者基本都不能接受。如果六周内谁都凑不够61席，以色列要再选一次，内塔尼亚胡作为看守总理继续留任。&lt;/p&gt;
-
-&lt;p&gt;接下来看两件事：艾森科特能不能拿到阿拉伯政党的明确表态，哪怕只是外部支持；以及UTJ会不会松口，那是内塔尼亚胡最想争取的几席。六周的期限大约到12月中旬。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.fox10tv.com/2026/11/07/setback-netanyahu-israels-president-taps-opposition-candidate-form-government/"&gt;美联社&lt;/a&gt;、&lt;a href="https://kuwaittimes.com/article/53099/world/netanyahus-position-weakens-as-rival-wins-backing-to-form-govt/amp"&gt;Kuwait Times&lt;/a&gt;、&lt;a href="https://www.democracynow.org/2026/11/9/headlines"&gt;Democracy Now&lt;/a&gt;、&lt;a href="https://www.timesofisrael.com/liveblog-november-9-2026/"&gt;Times of Israel&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.fox10tv.com/2026/11/07/setback-netanyahu-israels-president-taps-opposition-candidate-form-government/"&gt;https://www.fox10tv.com/2026/11/07/setback-netanyahu-israels-president-taps-opposition-candidate-form-government/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kuwaittimes.com/article/53099/world/netanyahus-position-weakens-as-rival-wins-backing-to-form-govt/amp"&gt;https://kuwaittimes.com/article/53099/world/netanyahus-position-weakens-as-rival-wins-backing-to-form-govt/amp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/9/headlines"&gt;https://www.democracynow.org/2026/11/9/headlines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.timesofisrael.com/liveblog-november-9-2026/"&gt;https://www.timesofisrael.com/liveblog-november-9-2026/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4fbe4a56-6e37-5995-87e1-02e5a415fa28</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:07 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.fox10tv.com/2026/11/07/setback-netanyahu-israels-president-taps-opposition-candidate-form-government/</link>
-      <enclosure url="https://gray-wala-prod.gtv-cdn.com/resizer/v2/CG5JASFX35GITNMJDJAYRDTMQ4.png?width=980&amp;height=551&amp;smart=true" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 密西西比的票数每天都在变：科洛姆领先从43票扩到约2,500票，剩多少票双方差了近6倍</title>
-      <description>&lt;p&gt;密西西比参议院席位的票还在数，科洛姆（Scott Colom，民主党）领先现任共和党参议员海德-史密斯（Cindy Hyde-Smith），但领先幅度三天里一直在变：11月5日选票计到约96%时双方只差43票，周四超过1,700票，周五晚间报道称约2,500票。我们11月8日那篇写的是1,138票，现在已经落后一拍。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://ewscripps.brightspotcdn.com/dims4/default/cbf03a4/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F50%2F08%2F92772dea4914b6264951dcc1357e%2Fall-youtube-thumbnail-2026-11-05t093750-689.png" alt="科洛姆与海德-史密斯的合成照" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;科洛姆（民主党）与海德-史密斯（共和党）。图：Scripps News&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;剩下多少票，双方说法差了好几倍。密西西比州务卿办公室告诉Scripps，最多还有3,500张邮寄选票没到，而且不是每张都会回来，有些选民申请了选票但没寄回。海德-史密斯阵营的说法是，邮寄、缺席和宣誓（affidavit）选票加起来“大约还有2万张”。2万这个数是竞选团队的估计，没有官方数字支持。&lt;/p&gt;
-
-&lt;p&gt;日期都很紧。邮寄选票只要在选举日当天或之前盖了邮戳，可以在11月10日（今天）前送到；暂定（provisional）选票的选民，要在11月10日前补齐身份核验。各县要在11月13日前把认证结果交给州务卿。官方宣布结果，Scripps估计还要几天。&lt;/p&gt;
-
-&lt;p&gt;最麻烦的是重数。密西西比是全美唯一没有任何重新计票途径的州，联邦选举也没有自动重数规定，只有法院下令才能重数。两个竞选团队都已经布置了律师。差几百票时，这种制度会把胜负交给法庭，而不是计票机器。&lt;/p&gt;
-
-&lt;p&gt;放到整盘棋里看。按我们此前的累计，民主党在这两席没定之前已经至少54席，所以密西西比不决定多数，但决定“多出多少”：它是民主党能不能在南方深红州拿下一席的象征，对1月新国会里的院内平衡和每一项需要60票的议题都有影响。另一席在阿拉斯加，佩尔托拉领先637票，11月18日才做排序计票。&lt;/p&gt;
-
-&lt;p&gt;具体日子：11月13日认证；11月18日阿拉斯加。如果最后几批选票把科洛姆的领先压到几百票，官司就很难避免，因为这里没有别的重数通道。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.scrippsnews.com/politics/america-votes/democrat-clings-to-razor-thin-lead-in-mississippi-senate-race"&gt;Scripps News&lt;/a&gt;、&lt;a href="https://ground.news/article/feb65aae-f5e1-46f2-931a-2cc721ac5c04"&gt;Ground News&lt;/a&gt;、&lt;a href="https://san.com/cc/democrat-scott-colom-leads-mississippis-senate-race-by-just-1138-votes/"&gt;SAN&lt;/a&gt;、&lt;a href="https://www.wowt.com/2026/11/06/votes-continue-be-counted-mississippis-senate-race/"&gt;WOWT&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.scrippsnews.com/politics/america-votes/democrat-clings-to-razor-thin-lead-in-mississippi-senate-race"&gt;https://www.scrippsnews.com/politics/america-votes/democrat-clings-to-razor-thin-lead-in-mississippi-senate-race&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ground.news/article/feb65aae-f5e1-46f2-931a-2cc721ac5c04"&gt;https://ground.news/article/feb65aae-f5e1-46f2-931a-2cc721ac5c04&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://san.com/cc/democrat-scott-colom-leads-mississippis-senate-race-by-just-1138-votes/"&gt;https://san.com/cc/democrat-scott-colom-leads-mississippis-senate-race-by-just-1138-votes/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.wowt.com/2026/11/06/votes-continue-be-counted-mississippis-senate-race/"&gt;https://www.wowt.com/2026/11/06/votes-continue-be-counted-mississippis-senate-race/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">74d3925c-635e-596f-ae16-eeb821ca85eb</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:07 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.scrippsnews.com/politics/america-votes/democrat-clings-to-razor-thin-lead-in-mississippi-senate-race</link>
-      <enclosure url="https://ewscripps.brightspotcdn.com/dims4/default/cbf03a4/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F50%2F08%2F92772dea4914b6264951dcc1357e%2Fall-youtube-thumbnail-2026-11-05t093750-689.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 卢比奥：伊朗的条件“离谱而且荒唐”；格什姆岛凌晨传出爆炸，美方分阶段方案伊朗还没回</title>
-      <description>&lt;p&gt;国务卿卢比奥11月9日对伊朗开出的条件下了一个很重的评语：“离谱而且荒唐”（outrageous and ridiculous），“不现实”。他同时说，不会讲“我们已经到了突破的边缘”。我们昨天写的那份伊朗价码清单——解除制裁、归还卡塔尔账户里的60亿美元、认可与阿曼的新航道——卢比奥的评语基本是一口回绝。&lt;/p&gt;
-
-&lt;p&gt;同一天凌晨，局势也有实质动静。据美联社引述伊朗官方媒体，凌晨1点左右，格什姆岛（Qeshm）居民听到多次爆炸，原因官方没有确认。卢比奥被问到时没有承认发动新打击，只说：“如果对航运或我方在地区的力量构成明确而现实的威胁，我们有权自卫。”伊朗法尔斯通讯社引述一位省级官员说，没有重要基础设施受损，目标远离居民区。路透社汇总的另一条消息称，革命卫队海军一名官员说，霍尔木兹海峡南段的助航设施被毁，夜间没有未经许可的船只通过。后两条都是伊朗方面的说法，没有独立核实。&lt;/p&gt;
-
-&lt;p&gt;桌面下的方案也漏出来一些。阿联酋媒体Erem News称，美方提出分两步：第一步，部分解除封锁，换伊朗开放海峡；第二步，谈核问题，逐步放松制裁，释放冻结资金。伊朗据称还没回应，并要求先拿到书面承诺。这是单一来源，美国政府没有证实。如果属实，它和伊朗“先解除制裁、核问题以后再谈”的顺序刚好倒着来，这也解释了为什么卢比奥会说“不现实”。&lt;/p&gt;
-
-&lt;p&gt;伊朗外交部发言人巴加埃（Baghaei）的表态，则是在回避。他说德黑兰只会签署保障国家利益的协议，并把美国新成立的“铁门”（Iron Gate）工作组说成“转移美国期中选举结果的手段”。同一天，伊朗总统的说法被转述为：最高领袖要他结束“不战不和”的局面。把两句放一起看，伊朗内部也在催着要个结果，但没有谁愿意先退一步。&lt;/p&gt;
-
-&lt;p&gt;特朗普的态度更单一。他11月9日重复说，这场战争是对的，会是“我们做过的最好的事情之一”。这和共和党内几天前对败选原因的争论完全相反——万斯等人把账记在战争头上。前一天我们写过，特朗普自己称“很快”做出伊朗决定，顾问分成谈判和封锁两派；卢比奥这番话，至少说明谈判派短期内没拿到想要的东西。&lt;/p&gt;
-
-&lt;p&gt;航运侧还有一条未证实的消息：据路透社汇总，伊拉克与美国达成谅解，允许伊拉克石油经靠近阿曼一侧的航道出海。如果成立，说明封锁并非铁板一块，也让“新航道”这个词在谈判里多了一层现实意义。这条没有第二个信源，别当定论。&lt;/p&gt;
-
-&lt;p&gt;这条线接下来的几个日子很具体：伊朗是否对分阶段方案正式回复；格什姆岛一带是否再出现爆炸；以及布伦特原油能否守住11月5日的98美元上下。顺带一提，国内这头，Axios称众议院本周可能表决弹劾赫格塞思，CNN的标题称特朗普表示即使赫格塞思被弹劾也会站在他一边；Axios那条是单一来源，等本周议程出来再确认。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.timesofisrael.com/liveblog-november-9-2026/"&gt;Times of Israel 11月9日直播（含美联社）&lt;/a&gt;、&lt;a href="https://www.democracynow.org/2026/11/9/headlines"&gt;Democracy Now&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.timesofisrael.com/liveblog-november-9-2026/"&gt;https://www.timesofisrael.com/liveblog-november-9-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/9/headlines"&gt;https://www.democracynow.org/2026/11/9/headlines&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">22d8f028-597b-5b93-bd55-ed179a1be781</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:07 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.timesofisrael.com/liveblog-november-9-2026/</link>
-    </item>
-    <item>
-      <title>🎲 把「磅」当成「公斤」，一架波音 767 在 41,000 英尺高空没油了：金利滑翔机滑行 17 分钟，降落在正在办飞车赛的跑道上</title>
-      <description>&lt;p&gt;1983 年 7 月 23 日晚，一架几乎全新的波音 767 在加拿大上空 41,000 英尺处两台发动机先后熄火。原因不是机械故障，而是一道单位换算题做错了：地勤和机组把「磅」当成了「公斤」，飞机只加了所需燃油的不到一半。最后它像一架大号滑翔机，滑了 17 分钟，降落在一条正在举办飞车赛的旧军用跑道上。69 人全部生还。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Air_Canada_Flight_143_after_emergency_landing_2.jpg/330px-Air_Canada_Flight_143_after_emergency_landing_2.jpg" alt="加航143航班迫降金利后机头着地" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;迫降后的 C-GAUN：前起落架没锁住，机头直接擦地停下（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一道换算题是怎么出错的&lt;/h3&gt;
-&lt;p&gt;这架飞机是加航（Air Canada）143 航班，机号 C-GAUN，从蒙特利尔经停渥太华飞往埃德蒙顿。那一年加拿大正在推行公制，767 是加航第一批全公制的飞机，燃油按公斤计；而老机队和地勤习惯的是磅。&lt;/p&gt;
-&lt;p&gt;雪上加霜的是，这架飞机的燃油量指示系统（Fuel Quantity Indication System, FQIS）坏了。两个通道一个失效，另一个被断路器关掉；维修人员在蒙特利尔折腾了一番，结果仪表盘上的油量干脆一片空白。按最低设备清单（Minimum Equipment List），这种状态下飞机根本不该放飞，但机长 Bob Pearson 认为只要用量油尺人工核实就可以。&lt;/p&gt;
-&lt;p&gt;于是有了那道算术题。航程需要 22,300 公斤燃油。量油尺显示油箱里有 7,682 升。正确的燃油密度是 0.803 kg/L，算出来机上约 6,169 公斤，应该再加约 20,088 升。可加油单上写的密度是 1.77——这是&lt;strong&gt;磅每升&lt;/strong&gt;。机组把它当成公斤每升来算，得出只需再加 4,917 升。最终起飞时，飞机带的是 22,300 磅（约 10,100 公斤）燃油，而他们以为是 22,300 公斤。数字一模一样，单位差了 2.2 倍。&lt;/p&gt;
-&lt;p&gt;到渥太华经停时又量了一次，同样的错误重复了一遍，飞行管理计算机里被输入了 20,400 公斤，实际只有约 9,250 公斤。没人再加油。&lt;/p&gt;
-
-&lt;h3&gt;41,000 英尺，没有引擎，没有检查单&lt;/h3&gt;
-&lt;p&gt;飞到安大略省 Red Lake 上空时，燃油压力警报响起。先是左发熄火，飞机下降穿过约 35,000 英尺时右发也停了。驾驶舱里的电子仪表随之全黑——767 是第一代「玻璃座舱」，没有发动机就没有电。冲压空气涡轮（Ram Air Turbine）自动弹出，只能提供勉强够用的液压，襟翼和缝翼都放不下来。机组翻遍检查单，发现根本没有「双发失效」这一节，因为设计者认为这不会发生。&lt;/p&gt;
-&lt;p&gt;运气在于机长 Pearson 业余就是滑翔机飞行员。他凭经验选定 220 节作为最佳滑翔速度；副驾驶 Maurice Quintal 用备用仪表和雷达给出的距离估算，飞机的滑翔比大约 12:1——到不了温尼伯。Quintal 想起自己当兵时驻扎过的金利（Gimli）皇家空军旧基地，就在附近。&lt;/p&gt;
-&lt;p&gt;他不知道的是，那座基地早已退役，一条跑道改成了金利赛车公园的直线加速赛道，当天正办着比赛，跑道中间还竖着一道护栏，两边停满了房车和观众。&lt;/p&gt;
-
-&lt;h3&gt;大飞机做小飞机的动作&lt;/h3&gt;
-&lt;p&gt;接近金利时飞机太高、太快。没有襟翼和减速板可用，Pearson 做了一个客机飞行员几乎从不会用的动作：前侧滑（forward slip）——交叉操纵副翼和方向舵，让机身斜着「侧身」迎风，用整个机身当减速板。这是滑翔机和小飞机的常规技巧，用在一架 767 上相当吓人，还进一步削弱了冲压涡轮的气流和液压。&lt;/p&gt;
-&lt;p&gt;起落架靠重力放下，主起落架锁住了，前轮没有。触地后两个轮胎爆掉，机头砸在跑道上一路擦出火花，反而起到了刹车作用；主起落架恰好骑跨在中间那道护栏两侧。飞机在距离人群不远处停了下来。赛车手和工作人员拿着灭火器冲上来，扑灭了机头的小火。受伤的 10 个人都是轻伤，主要是因为机尾翘起，后舱撤离滑梯够不着地。&lt;/p&gt;
-
-&lt;h3&gt;后来&lt;/h3&gt;
-&lt;p&gt;1985 年的调查报告把主要责任归给加航：公司没有明确谁负责燃油计算，公制转换培训不足，备件也不够。Pearson 被降级六个月，Quintal 停飞两周，后来两人申诉成功，还拿了国际航空联合会（FAI）的优秀飞行技术奖。事后其他机组在模拟机里复现同样的情况，结果都坠毁了。&lt;/p&gt;
-&lt;p&gt;这架飞机修好后又给加航飞了约 25 年，2008 年才退役，被拉到加州莫哈韦沙漠的飞机坟场；2013 年拍卖流拍，后来机身蒙皮被切成行李牌出售。2025 年 6 月，回收的驾驶舱在金利的纪念展馆展出，已经年迈的 Pearson 到场。&lt;/p&gt;
-&lt;p&gt;工程师们喜欢拿这件事和 1999 年 NASA 火星气候探测者号（Mars Climate Orbiter）比较——后者因为一方用磅力·秒、一方用牛顿·秒而烧毁在火星大气里。单位，是最不起眼也最致命的接口。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Gimli_Glider"&gt;Wikipedia: Gimli Glider&lt;/a&gt;；&lt;a href="https://fly.historicwings.com/2012/07/the-gimli-glider/"&gt;Historic Wings: The Gimli Glider&lt;/a&gt;；&lt;a href="https://www.todayifoundout.com/index.php/2014/05/time-commercial-aircraft-ran-fuel-mid-flight-gimli-glider/"&gt;Today I Found Out&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Gimli_Glider"&gt;https://en.wikipedia.org/wiki/Gimli_Glider&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fly.historicwings.com/2012/07/the-gimli-glider/"&gt;https://fly.historicwings.com/2012/07/the-gimli-glider/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.todayifoundout.com/index.php/2014/05/time-commercial-aircraft-ran-fuel-mid-flight-gimli-glider/"&gt;https://www.todayifoundout.com/index.php/2014/05/time-commercial-aircraft-ran-fuel-mid-flight-gimli-glider/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">fde54055-34af-59e1-abfc-cd3673c769ed</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:12 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Gimli_Glider</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Air_Canada_Flight_143_after_emergency_landing_2.jpg/330px-Air_Canada_Flight_143_after_emergency_landing_2.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 一座湖在夜里「打了个嗝」，一夜闷死 1,746 人：尼奥斯湖二氧化碳喷发，和给湖插管放气的办法</title>
-      <description>&lt;p&gt;1986 年 8 月 21 日晚上，喀麦隆西北部一座安静的火山口湖「打了个嗝」。没有岩浆，没有火光，只有一团看不见的气体顺着山谷流下去。第二天早上，方圆约 23 公里内的村庄里，1,746 人和约 3,500 头牲畜死在床上、路边、炉火旁。凶手是二氧化碳——就是汽水里冒泡的那种。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tml15-16_Nc.jpg/330px-Tml15-16_Nc.jpg" alt="灾后八天的尼奥斯湖，湖水呈浑浊的红褐色" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;喷发八天后的尼奥斯湖：深层富铁湖水翻到表面被氧化，整片湖变成了红褐色（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一瓶被摇了几百年的汽水&lt;/h3&gt;
-&lt;p&gt;尼奥斯湖（Lake Nyos）是一座火山口湖，最深约 208 米，湖底的水压大约是 21 个大气压。湖底下方有岩浆，碳同位素和氦同位素都指向地幔来源——岩浆持续往湖底「漏」二氧化碳，在高压下溶进最深层的湖水里。&lt;/p&gt;
-&lt;p&gt;热带湖泊的特点是常年分层：表层温暖、底层冰冷，一年四季很少上下翻转。于是二氧化碳就一年又一年地在底部攒着，越积越多，像一瓶拧紧盖子、被反复摇晃的可乐。据估算，饱和时底层湖水能溶解约 3%（质量分数）的二氧化碳。&lt;/p&gt;
-&lt;p&gt;只要某个扰动让一部分深层水往上走，压力降低，气泡就会析出；气泡上升又带着更多的水往上走、继续降压、继续析出——一个自我加速的链式反应。地质学家把这种现象叫作&lt;strong&gt;湖泊喷发（Limnic Eruption）&lt;/strong&gt;。人类有记录的只有两次，另一次是两年前、仅一百公里外的莫努恩湖（Lake Monoun），死了 37 人。&lt;/p&gt;
-
-&lt;h3&gt;那天晚上发生了什么&lt;/h3&gt;
-&lt;p&gt;触发因素至今没有定论：多数地质学家倾向于一次山体滑坡，也有人认为是湖底的小型火山活动，或是一场冷雨让湖的一侧变凉下沉。还有一派认为根本不需要外力，分层本身已经不稳定到了临界点。&lt;/p&gt;
-&lt;p&gt;结果是确定的。湖面上冒起一根约 100 米高的水与泡沫柱，掀起至少 25 米高的浪拍上湖岸，岸边的树被推倒，湖面在喷发后下降了约 1 米。大约 10 万到 30 万吨二氧化碳（约 1.2 立方公里）一口气释放出来。&lt;/p&gt;
-&lt;p&gt;气团先以接近每小时 100 公里的速度冲上天，随后因为二氧化碳比空气重，又沉了下来，形成一层约 50 米厚的「气毯」，以每小时 20 到 50 公里的速度沿山谷往下淌，灌进了 Nyos、Kam、Cha、Subum 等村庄。二氧化碳浓度一旦超过一定水平，人几次呼吸就会失去意识。许多遇难者甚至没来得及离开床铺。&lt;/p&gt;
-&lt;p&gt;Subum 村的幸存者 Joseph Nkwain 后来回忆：「我说不出话，然后就昏过去了。」第二天他醒来，发现女儿死在自己床上。他骑着摩托车到了 Wum 镇，几乎不能走路，也说不出话。赶到现场的记者形容那里像是被中子弹扫过：房屋完好无损，人和动物却全死了。约 4,000 人逃离家园，很多人留下了呼吸道疾病、皮肤溃疡和瘫痪。&lt;/p&gt;
-
-&lt;h3&gt;给湖「放气」&lt;/h3&gt;
-&lt;p&gt;灾后，法国科学家 Michel Halbwachs 等人想出了一个优雅的办法：往湖底插一根管子，用泵把深层水往上抽一小段。一旦管子里的水开始析出气泡，气泡上浮就会带动水继续往上涌——就是喷发本身的机制，只不过被约束在一根管子里，慢慢地、可控地放。它会自己持续下去，不需要任何外部动力，管口喷出几十米高的水柱，像一座人造喷泉。&lt;/p&gt;
-&lt;p&gt;第一根永久排气管在 2001 年安装，伸到约 200 米深；2011 年又加了两根。2019 年的评估认为，单靠其中一根就足以把湖底的二氧化碳长期维持在安全水平。&lt;/p&gt;
-&lt;p&gt;更大的隐忧在东非。卢旺达和刚果（金）交界处的基伍湖（Lake Kivu）面积约是尼奥斯湖的 2,000 倍，湖底同样溶着大量二氧化碳和甲烷，沿岸住着约 200 万人。2005 年一项研究认为它可能每千年左右会剧烈排气一次，2020 年的复核修正了那项分析，认为风险并没有在逐年增长。如今人们正在从基伍湖底抽取甲烷发电——这算是给另一瓶「汽水」慢慢松盖。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Lake_Nyos_disaster"&gt;Wikipedia: Lake Nyos disaster&lt;/a&gt;；&lt;a href="https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2009.10.005/"&gt;Comptes Rendus Géoscience&lt;/a&gt;；&lt;a href="https://www.frontiersin.org/articles/10.3389/feart.2022.766791/full"&gt;Frontiers in Earth Science (2022)&lt;/a&gt;；&lt;a href="https://www.worldatlas.com/lakes/lake-nyos-disaster.html"&gt;WorldAtlas&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Lake_Nyos_disaster"&gt;https://en.wikipedia.org/wiki/Lake_Nyos_disaster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2009.10.005/"&gt;https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2009.10.005/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.frontiersin.org/articles/10.3389/feart.2022.766791/full"&gt;https://www.frontiersin.org/articles/10.3389/feart.2022.766791/full&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.worldatlas.com/lakes/lake-nyos-disaster.html"&gt;https://www.worldatlas.com/lakes/lake-nyos-disaster.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">52a114ec-6cce-5d22-a41b-a0800b231185</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:12 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Lake_Nyos_disaster</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tml15-16_Nc.jpg/330px-Tml15-16_Nc.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 墙里住着一只自称「第五维度」的会说话猫鼬：1930 年代马恩岛 Gef 事件，怀疑论者打诽谤官司赢了 7,500 英镑</title>
-      <description>&lt;p&gt;1930 年代的英国报纸追过一个连续剧式的怪谈：马恩岛（Isle of Man）一户农家的墙板里，住着一只会说话的猫鼬。它自称 1852 年生于新德里，会唱童谣、会骂人、会说几句希伯来语和俄语，还宣布「我是第五维度！我是世界第八大奇迹！」这件事最离谱的后续是：一位 BBC 杂志主编因为「相信会说话的猫鼬」被人说成脑子坏了，打官司赢了 7,500 英镑。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Gef_the_talking_mongoose.png/250px-Gef_the_talking_mongoose.png" alt="George Scott 1936 年所绘的 Gef 素描" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;George Scott 1936 年根据描述画的 Gef（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;墙里的声音&lt;/h3&gt;
-&lt;p&gt;主角一家姓 Irving。父亲 James 原本在利物浦卖钢琴和风琴，一战期间生意垮了，1916 年拿 310 英镑积蓄在马恩岛 Dalby 附近买下一座破旧山间农舍，叫 Doarlish Cashen（「Cashen's Gap」）。农舍是双层木墙，墙板和石墙之间有空腔——这个细节后来很关键。&lt;/p&gt;
-&lt;p&gt;1931 年 9 月，James、妻子 Margaret 和 13 岁的女儿 Voirrey 开始听到墙板后面有抓挠声、窸窣声，然后是动物叫，再然后，是人话。这个声音自称 Gef（读作「Jeff」），说自己是「一只特别特别聪明的猫鼬」，也是一个「被困在人间的灵（Earthbound spirit）」。&lt;/p&gt;
-&lt;p&gt;按 Irving 一家的说法，Gef 大小像只小老鼠，黄毛、尾巴蓬松，每只「手」上有三根冰冷坚硬的淡黄色手指。它声音尖细，带点马恩岛口音，会用当地方言词。它挑食，不吃面包牛奶，喜欢饼干、巧克力和香蕉，一家人就把食物放在吊在天花板下的碟子里；吃培根「总是剩下肥肉」，第二天还会隔着墙报告自己吃了什么。它替这家人看门，有陌生人或陌生狗靠近就报信；会把忘关的炉子弄灭，把睡过头的人叫醒。有人问它死后去哪，它先说「我永远不死」，后来改口「去地狱，去迷雾之地」。问它是不是邪恶的，答：「我不邪恶。想的话也可以。」&lt;/p&gt;
-&lt;p&gt;它从不让外人好好看见自己。James 记了一本两百多页的「Gef 语录」，常常领着访客在田野里散步，替 Gef「翻译」它的话——而 Voirrey 总是落在后面。&lt;/p&gt;
-
-&lt;h3&gt;一群认真的调查者&lt;/h3&gt;
-&lt;p&gt;报纸给它起名「Dalby 怪灵（Dalby Spook）」。1935 年 7 月，英国最有名的灵异调查者 Harry Price 带着 BBC 旗下杂志《The Listener》的主编 Richard Lambert 上岛。Gef 一整周都没出声。两人 1936 年合写了《The Haunting of Cashen's Gap》，态度怀疑但没把话说死，还指出双层木墙的空腔完全可以传导声音。这本书卖了不到 400 本。&lt;/p&gt;
-&lt;p&gt;物证都指向同一个方向。Gef「亲手剪下」寄来的一撮毛，经动物学家 Julian Huxley 转交鉴定，是狗毛——Price 怀疑来自家里的牧羊犬 Mona。自然史博物馆的 Reginald Pocock 看了 Gef 留在橡皮泥上的爪印和齿痕，结论是：认不出是什么动物，有一个可能是狗的，但没有一个是猫鼬的。当地《Isle of Man Examiner》的记者说他亲眼看见 Voirrey 在发出那些声音；同学也回忆 Voirrey 很会口技，能「把声音扔出去」，学猫叫学得惟妙惟肖。&lt;/p&gt;
-&lt;p&gt;匈牙利裔心理研究者 Nandor Fodor 1937 年在农舍住了一周，同样一无所获（只有石头被扔、门被摔），却依然宣布「Gef 确实存在」，还给 Gef 写信抱怨：「你整整一周都不跟我说话，我非常失望。」到了 1950 年代，他又改口，认为 Gef 是不得志的 James Irving 分裂出来的另一个人格。&lt;/p&gt;
-
-&lt;h3&gt;「猫鼬案」&lt;/h3&gt;
-&lt;p&gt;真正把 Gef 送进法律史的是 Lambert。伦敦郡议会的 Sir Cecil Levita 在社交场合说 Lambert 相信会说话的猫鼬和邪眼，「脑子有问题」。话传开后，BBC 内部的一份备忘录显示 Lambert 的职位真的受到了威胁。Lambert 起诉诽谤，法庭认定调查一只猫鼬不等于发疯，判他获赔约 7,500 英镑——在当时是一笔惊人的数字，这场官司被称作「猫鼬案（the Mongoose Case）」。整个 Gef 事件里，赚到最多钱的人反而是这位怀疑论者；Irving 一家只收到过一张 10 英镑的支票。&lt;/p&gt;
-
-&lt;h3&gt;结局&lt;/h3&gt;
-&lt;p&gt;1945 年 James 去世，母女低价卖掉了这座「闹鬼」的农舍。新主人 Leslie Graham 后来打死了一只黑白相间、比描述大得多的动物，声称那就是 Gef；Voirrey 说不是。她 1939 年离岛做战时工作，余生都在躲这件事。1970 年她对记者说 Gef 对她的人生「伤害很大」，但坚持那不是骗局。2005 年她去世，带走了唯一可能的答案。&lt;/p&gt;
-&lt;p&gt;这件事至今没有定论。研究了七年、写出《Gef!》一书的伦敦大学图书馆员 Christopher Josiffe 也说不准，骗局到底是女儿的、父亲的，还是父女合谋。2023 年还有人把 Fodor 的调查拍成了电影《Nandor Fodor and the Talking Mongoose》。一只从没被外人看清的猫鼬，九十多年后还在拿片约。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Gef"&gt;Wikipedia: Gef&lt;/a&gt;；&lt;a href="https://www.lrb.co.uk/the-paper/v39/n15/bee-wilson/i-am-the-fifth-dimension"&gt;London Review of Books: Bee Wilson, 'I am the fifth dimension'&lt;/a&gt;；&lt;a href="https://mentalfloss.com/article/71816/strange-story-gef-talking-mongoose"&gt;Mental Floss&lt;/a&gt;；&lt;a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/cashens-gap"&gt;Encyclopedia.com: Cashen's Gap&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Gef"&gt;https://en.wikipedia.org/wiki/Gef&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.lrb.co.uk/the-paper/v39/n15/bee-wilson/i-am-the-fifth-dimension"&gt;https://www.lrb.co.uk/the-paper/v39/n15/bee-wilson/i-am-the-fifth-dimension&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://mentalfloss.com/article/71816/strange-story-gef-talking-mongoose"&gt;https://mentalfloss.com/article/71816/strange-story-gef-talking-mongoose&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/cashens-gap"&gt;https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/cashens-gap&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">46fd2457-50af-55bd-bd16-64e2466ba792</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:12 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Gef</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Gef_the_talking_mongoose.png/250px-Gef_the_talking_mongoose.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 北极小镇「禁止死亡」是假的，但不许下葬是真的：朗伊尔城冻土里的 1918 流感矿工，和一次扑空的病毒发掘</title>
-      <description>&lt;p&gt;网上流传一个说法：挪威北极的朗伊尔城（Longyearbyen）「法律禁止死亡」。这句话是假的——挪威刑法里没有任何一条禁止人死。但它背后的真事更离奇：这座小镇从 1950 年起不再埋葬死人，因为埋下去的尸体不会腐烂；而 1998 年，一支国际科研队专门跑来，把 1918 年死于西班牙流感的七名矿工从冻土里挖了出来，想取回那场杀死数千万人的病毒。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Longyearbyen-spisshus-2022.jpg/330px-Longyearbyen-spisshus-2022.jpg" alt="朗伊尔城的彩色尖顶房屋与背后的雪山" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;朗伊尔城，世界最北的常住人口在千人以上的城镇之一（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一座不让埋人的镇子&lt;/h3&gt;
-&lt;p&gt;朗伊尔城位于斯瓦尔巴群岛（Svalbard），北纬 78 度，人口两千多，1906 年由美国商人 John Munro Longyear 的北极煤炭公司建起来，镇名就来自他。镇上的墓地建于 1918 年——正是那年秋天，一艘补给船把西班牙流感带上了岛，当地有 11 人病死，墓地因此开张。&lt;/p&gt;
-&lt;p&gt;到 1950 年，墓地里一共埋了 44 人。随后人们发现，这些遗体在&lt;strong&gt;永久冻土（permafrost）&lt;/strong&gt;里几乎没有分解。冻土的反复冻融还会把棺材慢慢往上「顶」。镇子于是停止了土葬。从那以后，在朗伊尔城去世的人，遗体都要运回挪威本土安葬；骨灰可以经政府批准后葬在山坡上的旧墓地里。&lt;/p&gt;
-&lt;p&gt;斯瓦尔巴总督办公室的说法很干脆：在斯瓦尔巴死亡并不违法，这种事时不时会发生，「但原则上你不能葬在这里」。镇上只有一家小医院，也不具备照护重症和临终病人的条件，所以重病和临终的居民通常会被送回本土。孕妇一般也会在预产期前几周回本土待产。这里的社会默认，人只是来工作和生活一段时间，出生和死亡都发生在别处。&lt;/p&gt;
-
-&lt;h3&gt;七个矿工的坟&lt;/h3&gt;
-&lt;p&gt;1918 年 9 月底到 10 月，七名刚搭船抵岛的挪威年轻矿工染上流感，几周内相继死去，被合葬在镇上的墓地里：一个覆着草皮、用小石块围边的坟堆，前面立着七块刻着名字的标记。&lt;/p&gt;
-&lt;p&gt;七十多年后，加拿大医学地理学者 Kirsty Duncan 读到了他们。她的想法是：西班牙流感病毒为什么那么致命，一直没人说得清，而 1918 年的人体组织几乎不可能保存下来——除非是在冻土里。她花了好几年拿到挪威政府、教会和死者家属的许可，组建了一支跨国团队。她后来强调，目标是测序病毒基因，不是复活病毒。&lt;/p&gt;
-&lt;p&gt;1998 年 8 月到 9 月，团队开挖。挖之前他们先用探地雷达（Ground-Penetrating Radar）扫描，结果显示地面扰动深达 2 米左右，冻土从约 1 米处开始——看上去棺材应该埋在冻土里。真挖下去却发现，棺材离地表不到 1 米，有的只有约 30 厘米深，处在每年夏天都会融化的「活动层（active layer）」里。尸体并没有一直冻着。&lt;/p&gt;
-&lt;p&gt;不过它们也没烂透。一年中八九个月是冻着的，遗体裹着报纸、干草和木料，有些棺材里的器官还能辨认。团队从肺、肝、肾、脑组织中提取到了病毒的片段，但质量不足以拼出完整基因组，更不存在任何活病毒。&lt;/p&gt;
-
-&lt;h3&gt;真正的答案在阿拉斯加&lt;/h3&gt;
-&lt;p&gt;讽刺的是，就在 Duncan 筹备期间，答案已经从另一块冻土里挖出来了。1997 年，72 岁的瑞典裔病理学家 Johan Hultin 自掏腰包回到阿拉斯加的布雷维格使团村（Brevig Mission）——1918 年 11 月，这个 80 人的村子在五天里死了七十多人。Hultin 1951 年读研究生时就来挖过一次，失败了。这次整趟只花了 3,200 美元，其中 900 美元付给帮忙挖土的村里年轻人。&lt;/p&gt;
-&lt;p&gt;他从一位体型较胖的女性遗体中取出了肺。她的脂肪在冻土偶尔融化的时候保护了内脏。Hultin 叫她「Lucy」，把样本寄给美国陆军病理研究所的 Jeffery Taubenberger。几天之内实验室就检出了病毒。2005 年，Taubenberger 团队在《Nature》发表了 1918 流感病毒的完整基因组，证实它源自禽类。&lt;/p&gt;
-&lt;p&gt;所以朗伊尔城那座坟里大概并不睡着一场瘟疫。但「北极小镇禁止死亡」这条流言能传这么广，也不算全无道理：气候变暖正在加深这里的活动层，冻土里封存了什么，没人能列出完整清单。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Longyearbyen"&gt;Wikipedia: Longyearbyen&lt;/a&gt;；&lt;a href="https://www.iflscience.com/it-is-against-the-law-to-die-in-this-town-for-very-good-reason-46724"&gt;IFLScience&lt;/a&gt;；&lt;a href="https://arcticportal.org/ap-library/news/3689-unfreezing-the-past-could-thawing-permafrost-release-deadly-viruses"&gt;Arctic Portal&lt;/a&gt;；&lt;a href="https://www.cmaj.ca/content/cmaj/158/11/1419.full-text.pdf"&gt;CMAJ (1998)&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Spanish_flu_research"&gt;Wikipedia: Spanish flu research&lt;/a&gt;；&lt;a href="https://www.adn.com/science/article/dogged-scientist-who-unearthed-alaska-victims-horrific-flu-pandemic/2014/11/22"&gt;Anchorage Daily News&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Longyearbyen"&gt;https://en.wikipedia.org/wiki/Longyearbyen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.iflscience.com/it-is-against-the-law-to-die-in-this-town-for-very-good-reason-46724"&gt;https://www.iflscience.com/it-is-against-the-law-to-die-in-this-town-for-very-good-reason-46724&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arcticportal.org/ap-library/news/3689-unfreezing-the-past-could-thawing-permafrost-release-deadly-viruses"&gt;https://arcticportal.org/ap-library/news/3689-unfreezing-the-past-could-thawing-permafrost-release-deadly-viruses&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cmaj.ca/content/cmaj/158/11/1419.full-text.pdf"&gt;https://www.cmaj.ca/content/cmaj/158/11/1419.full-text.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Spanish_flu_research"&gt;https://en.wikipedia.org/wiki/Spanish_flu_research&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.adn.com/science/article/dogged-scientist-who-unearthed-alaska-victims-horrific-flu-pandemic/2014/11/22"&gt;https://www.adn.com/science/article/dogged-scientist-who-unearthed-alaska-victims-horrific-flu-pandemic/2014/11/22&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c66d9f76-1ad0-5c47-a9df-3dd5a90ca2fd</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:12 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Longyearbyen</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Longyearbyen-spisshus-2022.jpg/330px-Longyearbyen-spisshus-2022.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 5,000 公里外都听得见的海底怪声「Bloop」：被当成克苏鲁和美人鱼的证据，NOAA 只好声明「没有水生类人生物」，真凶是一块冰</title>
-      <description>&lt;p&gt;1997 年，美国国家海洋和大气管理局（NOAA）的水下麦克风在南太平洋录到一个声音：频率很低、能量极大、持续约一分钟、音调逐渐升高。相隔 5,000 多公里的传感器都听到了它。它的频谱形状像动物叫声，但响度比地球上任何已知动物都大得多。科学家给它起了个外号叫「Bloop」。接下来的十几年里，它被当成巨型未知海怪的证据、克苏鲁的鼾声，还在一部假纪录片里成了美人鱼存在的「铁证」。真相是一块冰。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bloop.jpg/330px-Bloop.jpg" alt="Bloop 声音的频谱图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Bloop 的频谱图：频率在约一分钟内逐渐上扬（NOAA / Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;冷战耳朵，和平用途&lt;/h3&gt;
-&lt;p&gt;Bloop 能被录下来，得感谢冷战。美国海军从 1950 年代起在海底布设了一张绝密的水听器网络 SOSUS（Sound Surveillance System），用来追踪苏联核潜艇。冷战结束后，部分数据开放给民用科学研究；NOAA 太平洋海洋环境实验室（PMEL）又在赤道太平洋布了一套自主水听器阵列作为补充，原本是为了监听海底火山和地震。&lt;/p&gt;
-&lt;p&gt;它们能听这么远，靠的是海洋里一层天然的「声道」——深海声道（SOFAR channel）。在约 1,000 米深处，温度和压力的组合让声速达到最低，声波会被反复折射回这一层，几乎不往上下逃逸，低频声音因此能横跨整个大洋。须鲸的歌声能传几百上千公里，也是这个原理。&lt;/p&gt;
-&lt;p&gt;Bloop 是次声，人耳几乎听不见。NOAA 公开的那段音频被加速了 16 倍，听起来是「啵」的一声；原始录音其实是一阵低沉的隆隆声，像远处的闷雷。三角定位把源头大致锁定在南纬 50 度、西经 100 度附近，智利南端以西约 2,400 公里的空旷海域。&lt;/p&gt;
-
-&lt;h3&gt;一个声音如何养活了一批怪物&lt;/h3&gt;
-&lt;p&gt;这种空白最适合讲故事。参与项目的 NOAA 科学家 Christopher Fox 2001 年对 CNN 说，他们怀疑是南极近海的冰，「如果是的话，那可真够响的」。但 2002 年接受《New Scientist》采访时，他也承认 Bloop 的频谱特征和动物叫声有相似之处，同时又说它比任何已知动物都强得多。记者顺着这条线写了下去，「深海里有没有比蓝鲸还大的东西」就成了流行话题。&lt;/p&gt;
-&lt;p&gt;洛夫克拉夫特（H. P. Lovecraft）的书迷很快发现了巧合：在 1928 年的小说《克苏鲁的呼唤》（The Call of Cthulhu）里，沉睡的克苏鲁所在的海底城市拉莱耶（R'lyeh）坐标是南纬 47°9′、西经 126°43′。按球面距离算，它离 Bloop 的源头大约 2,000 公里，在大洋尺度上算「邻居」。于是 Bloop 成了「克苏鲁翻身」的证据。顺带一提，这片海域还挨着我们之前写过的&lt;a href="https://en.wikipedia.org/wiki/Pole_of_inaccessibility#Oceanic_pole_of_inaccessibility"&gt;尼莫点（Point Nemo）&lt;/a&gt;，距 Bloop 的源头约 1,700 公里。&lt;/p&gt;
-&lt;p&gt;最离谱的一次是 2012 年 5 月。Animal Planet 播出了两小时的伪纪录片《Mermaids: The Body Found》，用 Bloop 当作美人鱼存在的科学证据，片中的「科学家」其实是演员。观众信以为真，询问电话打爆了 NOAA。同年 6 月底，NOAA 在官网上发了一条罕见的声明：从来没有发现任何水生类人生物（aquatic humanoids）存在的证据。&lt;/p&gt;
-
-&lt;h3&gt;南极的冰在「说话」&lt;/h3&gt;
-&lt;p&gt;PMEL 的科学家后来把水听器往南极方向挪近了一些，系统地记录冰山崩解和破裂的声音。2008 年初，他们追踪南乔治亚岛附近正在解体的冰山 A53a，录到的冰震（icequake，一种非构造性的「冰川地震」）在频谱形状和振幅上都和 Bloop 高度相似。最终结论是：Bloop 是一次大型冰震，冰山从南极冰架上开裂、断落时发出的声音，最可能来自布兰斯菲尔德海峡（Bransfield Strait）到罗斯海之间的某处。同一批 1997 年夏天录到的其他神秘声音，比如被命名为「Julia」的那个，也被归入同一类。具体是哪块冰，已经没法知道了。&lt;/p&gt;
-&lt;p&gt;NOAA 现在给出的说法还多了一句：随着全球变暖，冰震每年都在变多。也就是说，南极的冰越来越「吵」了。&lt;/p&gt;
-&lt;p&gt;Bloop 的故事很像我们之前写过的 Wow! 信号——一个异常数据，一个好记的外号，然后流行文化接手。区别在于，Bloop 等到了答案，只是这个答案远没有海怪那么好卖。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://oceanservice.noaa.gov/facts/bloop.html"&gt;NOAA Ocean Service: What is the Bloop?&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Bloop"&gt;Wikipedia: Bloop&lt;/a&gt;；&lt;a href="https://www.popsci.com/environment/sea-monster-bloop-sound/"&gt;Popular Science&lt;/a&gt;；&lt;a href="https://southernfriedscience.com/we-know-what-the-bloop-is-and-its-not-mermaids"&gt;Southern Fried Science&lt;/a&gt;；&lt;a href="https://www.theregister.co.uk/2012/07/03/mermaids/"&gt;The Register (2012)&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://oceanservice.noaa.gov/facts/bloop.html"&gt;https://oceanservice.noaa.gov/facts/bloop.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bloop"&gt;https://en.wikipedia.org/wiki/Bloop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.popsci.com/environment/sea-monster-bloop-sound/"&gt;https://www.popsci.com/environment/sea-monster-bloop-sound/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://southernfriedscience.com/we-know-what-the-bloop-is-and-its-not-mermaids"&gt;https://southernfriedscience.com/we-know-what-the-bloop-is-and-its-not-mermaids&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.theregister.co.uk/2012/07/03/mermaids/"&gt;https://www.theregister.co.uk/2012/07/03/mermaids/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2dfb1c25-c0d3-572e-9113-94805742451e</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:12 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://oceanservice.noaa.gov/facts/bloop.html</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bloop.jpg/330px-Bloop.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Año Nuevo 看象海豹：H5N1 之后第一个繁殖季，导览 12/15 开始</title>
-      <description>&lt;p&gt;今年 2 月，Año Nuevo 州立公园（Año Nuevo State Park）出了件大事：加州州立公园局 2 月 25 日宣布，七只刚断奶的北象海豹（northern elephant seal）幼崽检测出 H5N1 禽流感。这是加州海洋哺乳动物第一次确诊 H5N1，也是北象海豹第一次。当时滩上大约有 1,350 只海豹，公园临时关闭观景区，当季剩下的导览行程全部取消。&lt;/p&gt;
-
-&lt;p&gt;现在新一季的导览（guided walk）已经开卖，从&lt;strong&gt;12 月 15 日到 3 月 31 日&lt;/strong&gt;每天都有，只有 12 月 25 日休息。公园官网目前没有任何 H5N1 相关的警示，4 月起的自助观海豹（需要免费 permit）也在正常开放，不过我没找到一份写明“正式解除关闭”的官方通告，这点要如实说一下。&lt;/p&gt;
-
-&lt;p&gt;具体信息：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;票价&lt;/strong&gt;：$7 + $3.99 订位费，4 岁及以下免费。停车另算，一辆车 $10。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;订位&lt;/strong&gt;：ReserveCalifornia 网站，或打 1-800-444-4445（每天 8am-6pm）。10 月 20 日起售，提前 56 天开放，所以想去 12 月底、元旦那一周的，现在就能订；我没法确认还有没有余票。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;规模&lt;/strong&gt;：每场最多 15 人，全程约 2.5 小时，走 3-4 英里，沙丘路段，官方评级 moderate。别穿拖鞋。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;退款&lt;/strong&gt;：天气、迟到、没出现一律不退不换，只有公园方面取消才退。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;坑&lt;/strong&gt;：12 月 1 日到 14 日，保护区内的观景区关闭，不开放看海豹。再加上 2027 年 1 月有一个“Seal Adventure”特别活动周末，期间不售公共场次。官方两个页面写的日期还对不上（一页写 1 月 23-24 日，另一页写 1 月 31 日-2 月 1 日），订之前以 ReserveCalifornia 上的日历为准。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;从 Menlo Park 开过去大约一小时，走 Highway 1 往南，Half Moon Bay 之后路上没什么店，建议自己带吃的。12 月中到 1 月是雄海豹打架、母海豹陆续生崽的高峰期，这也是这个行程难订的原因。如果赶不上导览，12 月 15 日之前或 3 月底之后还是能自助观赏，只是看不到最热闹的场面。&lt;/p&gt;
-
-&lt;p&gt;这条线之前的“冬季野生动物”里我们聊过帝王蝶，这篇算是同一条线的另一半。帝王蝶感恩节计数的结果 1 月才会出。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.parks.ca.gov/?page_id=523"&gt;加州州立公园局 Año Nuevo 官方页面&lt;/a&gt;、&lt;a href="https://www.parks.ca.gov/NewsRelease/1485"&gt;2026 年 2 月 25 日新闻稿：H5N1 确诊&lt;/a&gt;、&lt;a href="https://www.parks.ca.gov/?page_id=27613"&gt;导览订位说明&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.parks.ca.gov/?page_id=523"&gt;https://www.parks.ca.gov/?page_id=523&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.parks.ca.gov/NewsRelease/1485"&gt;https://www.parks.ca.gov/NewsRelease/1485&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.parks.ca.gov/?page_id=27613"&gt;https://www.parks.ca.gov/?page_id=27613&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">eb3bd77b-e01f-5e4c-8b21-9f98701f9c5f</guid>
-      <pubDate>Wed, 11 Nov 2026 12:10:14 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.parks.ca.gov/?page_id=523</link>
-      <enclosure url="https://www.parks.ca.gov/pages/712/images/FL20260224_69877_0.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Let's Glow SF：12/4-12/13 旧金山市中心十晚免费投影艺术展</title>
-      <description>&lt;p&gt;12 月第一个周末，旧金山市中心会连续十个晚上变成投影艺术展。&lt;strong&gt;Let's Glow SF&lt;/strong&gt; 2026 年的日期是 &lt;strong&gt;12 月 4 日（周五）到 12 月 13 日（周日）&lt;/strong&gt;，每晚 5:30pm 到 10pm，免费。Golden Gate 桥区交通局的活动页面和 Funcheap 都是这个日期；有个餐厅活动页写的是 12 月 6-15 日，应该是错的，别信。&lt;/p&gt;
-
-&lt;p&gt;据官方介绍，今年有 19 位艺术家，把动画投影打在市中心八栋标志性建筑的外墙上，中心区域在 Ferry Building 一带。我没找到每栋楼的具体清单，主办方的 &lt;a href="https://downtownsf.org/things-to-do/lets-glow-sf"&gt;DowntownSF 页面&lt;/a&gt;应该会放地图，去之前看一眼。&lt;/p&gt;
-
-&lt;p&gt;开幕夜叫 Countdown to Glow，12 月 4 日 6pm 到 10pm，在 Ferry Building 门前的 Harry Bridges Plaza。这个信息只有 Funcheap 一个来源，具体节目我没查到。另外参加活动的一些市中心餐厅和酒吧，报“Let's Glow SF”能打 95 折，省不了多少，但吃饭本来就要吃。&lt;/p&gt;
-
-&lt;p&gt;怎么去：BART 坐到 Embarcadero 站，出来就是 Market Street 尽头，走几分钟到 Ferry Building。这个时间段不用开车，市中心停车贵，晚上还有被砸车窗的风险，这是湾区的老问题。从 Peninsula 来的话，Caltrain 到 4th &amp;amp; King 再转 Muni 也行，但回程别拖太晚，晚班车间隔拉得很长。&lt;/p&gt;
-
-&lt;p&gt;天气方面，12 月晚上沿海边风很大，气温大概 8-10°C 的体感，穿一件防风外套，别穿得像去 Palo Alto 喝咖啡那样。&lt;/p&gt;
-
-&lt;p&gt;接着前面的节日线说：Dickens Fair 11 月 21 日开始，Let's Glow 是 12 月初。Alameda 的 Christmas Tree Lane 今年的开灯日期我又查了一遍，依然没找到官方公告，往年大致是 12 月 3 日前后开始，要等他们的 Facebook 页面通知。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.goldengate.org/events/lets-glow-sf-2026/"&gt;Golden Gate 桥区交通局活动页&lt;/a&gt;、&lt;a href="https://sf.funcheap.com/lets-glow-sf/"&gt;Funcheap SF&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.goldengate.org/events/lets-glow-sf-2026/"&gt;https://www.goldengate.org/events/lets-glow-sf-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/lets-glow-sf/"&gt;https://sf.funcheap.com/lets-glow-sf/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://downtownsf.org/things-to-do/lets-glow-sf"&gt;https://downtownsf.org/things-to-do/lets-glow-sf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c52ac377-11e0-5ee8-bcdb-695e3a57a8c4</guid>
-      <pubDate>Wed, 11 Nov 2026 12:10:14 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.goldengate.org/events/lets-glow-sf-2026/</link>
-      <enclosure url="https://www.goldengate.org/assets/1/14/eventdimensionmain/event_calendar_bus___ferry_copy_(1).jpeg?11248" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 T&amp;T 旧金山店 11/5 开业：热食区、美国首家 T&amp;T Café 和 $99 感恩节火鸡</title>
-      <description>&lt;p&gt;加拿大华人连锁超市 &lt;strong&gt;T&amp;amp;T Supermarket&lt;/strong&gt; 的旧金山店 11 月 5 日（周四）早上 9 点开门，据报道有人凌晨 4 点就开始排队，队伍绕了停车场一圈。地址是 &lt;strong&gt;2675 Geary Blvd&lt;/strong&gt;，Anza Vista 的 City Center 购物中心，原来是一家 Best Buy。面积各家说法不一，SF Standard 写 5 万平方英尺，Shelby Report 写 5.2 万。&lt;/p&gt;
-
-&lt;p&gt;这是 T&amp;amp;T 在湾区的第二家店，6 月 18 日它刚在 San Jose 的 Westgate Center 开了加州第一家。住 Menlo Park 的人其实去 San Jose 那家更顺路，旧金山这家更适合周末进城顺便逛。&lt;/p&gt;
-
-&lt;p&gt;店里的东西，目前报道里有这些：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;自助热食区，由自家的“T&amp;amp;T Kitchen”做，二十多道菜，还有 Papa Chicken 炸鸡、现做的台式饭团。旧金山店独家的“Baby Bear Bao”，据 SF Standard 的描述，馅是手撕猪肉、酸菜（pickled mustard greens）、花生和香菜。&lt;/li&gt;
-&lt;li&gt;面包房有 City Hall Mousse Cake、6 寸芒果蛋糕、抹茶开心果包、Bolo Butter Bun。&lt;/li&gt;
-&lt;li&gt;美国第一家 T&amp;amp;T Café，有紫薯拿铁、黑芝麻拿铁、冰沙类的 Arctic 系列。CEO Tina Lee 说她现在最爱的是火龙果柠檬水。&lt;/li&gt;
-&lt;li&gt;杂货方面，约 200 种蔬菜、17 种蘑菇、活海鲜柜台、Ippodo 抹茶、300 多款自有品牌商品，另外有日韩美妆。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;两篇报道都没给热食和咖啡的价格，所以“性价比”这件事我现在没法下结论，得等有人实际去吃过再说。&lt;/p&gt;
-
-&lt;p&gt;感恩节相关：店里卖一只 &lt;strong&gt;$99 的中式糯米馅火鸡&lt;/strong&gt;，配肉汁和蔓越莓酱，11 月 10 日起已经可以预订。线上购物和配送 12 月 4 日上线，有免费快递和到店自取。&lt;/p&gt;
-
-&lt;p&gt;想住在 Peninsula 的人更关心的是 Millbrae 店。这里各方说法有出入：SF Standard 说 2027 年夏天前开，Shelby Report 只说“计划中”，早些时候有报道写“2026 冬季”，所以现在看来要往后推了。Millbrae 店在 South El Camino Real，选址是旧 Lucky 超市。Newark 的 NewPark Mall 还会有第四家，是 72,600 平方英尺的旧 Macy's，预计 2027 年冬天开。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://sfstandard.com/2026/11/05/t-t-supermarket-san-francisco-opening/"&gt;SF Standard&lt;/a&gt;、&lt;a href="https://theshelbyreport.com/2026/11/06/first-tt-cafe-in-u-s-comes-with-new-san-fran-tt-supermarket/"&gt;The Shelby Report&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/05/t-t-supermarket-san-francisco-opening/"&gt;https://sfstandard.com/2026/11/05/t-t-supermarket-san-francisco-opening/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://theshelbyreport.com/2026/11/06/first-tt-cafe-in-u-s-comes-with-new-san-fran-tt-supermarket/"&gt;https://theshelbyreport.com/2026/11/06/first-tt-cafe-in-u-s-comes-with-new-san-fran-tt-supermarket/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0cfe0d3a-063d-5aa6-aa66-52808d449c87</guid>
-      <pubDate>Wed, 11 Nov 2026 12:10:14 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/11/05/t-t-supermarket-san-francisco-opening/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_t92lf6aust4uv6c30qsdru552h/-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 一个心理学发现，平均只该信一半：SCORE 项目预注册重做 164 篇社科论文，49% 复现成功，效应量中位数从 r=.25 缩到 .10</title>
-      <description>&lt;p&gt;你在书里、播客里、公众号里读到的那个「研究发现」，被认真重做一遍之后还剩多少？10 月 29 日发表在 &lt;em&gt;Nature&lt;/em&gt; 的一篇论文给了个很具体的答案：大约一半能站住，而站住的那一半，效应也平均缩水了一半多。&lt;/p&gt;
-
-&lt;p&gt;这篇论文叫《Investigating the replicability of the social and behavioural sciences》，第一作者是开放科学中心（Center for Open Science）的 Andrew H. Tyner，通讯作者是 Brian Nosek（同时在弗吉尼亚大学），属于 DARPA 从 2019 年开始资助的 SCORE（Systematizing Confidence in Open Research and Evidence）项目，31 个国家几百名研究者参与。做法是：从 62 本期刊 2009—2018 年发表的 3,900 篇量化论文里随机抽样，筛出 1,500 篇合格的，最后对 164 篇做了 296 次复现，覆盖 274 个具体结论。每次复现的设计和分析计划都先经同行评审、在 OSF 上预注册，再收数据。原研究样本量中位数 206，复现是 545，统计功效中位数 99.6%——也就是说，原效应如果真像论文写的那么大，复现几乎不可能漏掉。&lt;/p&gt;
-
-&lt;h3&gt;结果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;按论文加权，49.3% 在同方向上显著复现，40.4% 是零结果，9.7% 方向反了。按单个结论算，成功率 55.1%。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;效应量中位数从 r=0.25 降到 0.10&lt;/strong&gt;，相对缩水 58%；能复现的论文里，80% 效应变小了。&lt;/li&gt;
-&lt;li&gt;分学科：经济学 42.5%，商学 47.2%，心理学 49.0%，社会学 51.1%，政治学 52.0%，教育学 63.1%。学科之间的差异并不显著，教育和政治学的样本也很小。&lt;/li&gt;
-&lt;li&gt;换 13 种「成功」标准，成功率在 28.6% 到 74.8% 之间晃，中位数还是 49.3%。发表年份越晚并不越好。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nosek 自己反复强调两句话：「复现失败不等于原发现是错的」；另一位未参与研究的学者 Zellers 补了一句，「复现成功也不能证明原结论为真」。这里还有一个统计学上必然发生的回归均值（regression to the mean）：只挑「发表了、显著了」的结果去重测，本来就会看到缩水。所以这篇论文不是在说社会科学全是假的，而是在给「一个已发表的效应」定一个更现实的折扣率。&lt;/p&gt;
-
-&lt;h3&gt;能带走什么：给每个「研究表明」打对折&lt;/h3&gt;
-&lt;p&gt;这正好接上我们这个月一直在追的线索。9 月 Ariely 与 Wertenbroch 2002 年那篇「自设截止日期」研究被撤稿，复现结果是三种截止安排毫无差别；11/9 介绍的 Klein &amp;amp; Swann 指出社会启动研究的复现率大约只有 17%。SCORE 是第一次用随机抽样、跨六个学科的方式，把这种直觉变成了一个数字。&lt;/p&gt;
-
-&lt;p&gt;落到日常，我会用三条规则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;默认先把效应砍一半。&lt;/strong&gt;一本书说「某个小技巧让表现提高 30%」，心里先记成「可能 10% 左右，也可能没有」。r=0.10 意味着这个因素大约解释 1% 的差异——有，但远不是「改变人生」。&lt;/li&gt;
-&lt;li&gt;单篇研究当假设，不当结论。多实验室复现、元分析、预注册的大样本 RCT 才值得改行为。这也是为什么本栏更偏爱后者。&lt;/li&gt;
-&lt;li&gt;便宜、没副作用的建议，证据弱也可以试；要花大钱、大量时间或者要你放弃别的东西的建议，证据门槛要高得多。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;有一个细节挺耐人寻味：用新数据重做的研究，效应量从 0.28 缩到 0.11；用已有二手数据重新分析的，只从 0.13 缩到 0.10。原本吹得越大的效应，缩得越狠。下次再看到一个大得惊人的心理学效应，第一反应应该是怀疑，而不是兴奋。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.nature.com/articles/s41586-025-10078-y"&gt;Tyner, Errington, Nosek et al., Nature (DOI 10.1038/s41586-025-10078-y)&lt;/a&gt;；&lt;a href="https://www.psypost.org/only-about-half-of-social-science-findings-held-up-when-retested-major-replication-project-finds/"&gt;PsyPost 报道（2026-10-29）&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-025-10078-y"&gt;https://www.nature.com/articles/s41586-025-10078-y&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/only-about-half-of-social-science-findings-held-up-when-retested-major-replication-project-finds/"&gt;https://www.psypost.org/only-about-half-of-social-science-findings-held-up-when-retested-major-replication-project-finds/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f32c9551-d32a-5f29-9556-8e84ae5871e0</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:06 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.nature.com/articles/s41586-025-10078-y</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/10/scientific-paper-review.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 好的聊天不是一直同频：Dartmouth 分析 1,656 场陌生人对话，「靠拢—走散—再靠拢」的粉红噪声节奏与愉快感相关</title>
-      <description>&lt;p&gt;聊得好的对话，是不是两个人一直「在同一频道」？Dartmouth 的一项新研究说，不完全是。真正让人想继续聊下去的，是一种有节奏的靠拢、走散、再靠拢——物理学里叫它粉红噪声（pink noise）。&lt;/p&gt;
-
-&lt;p&gt;论文是 Kathryn O'Nell、Kiara Sanchez 和 Emily Finn 发在 &lt;em&gt;Science Advances&lt;/em&gt; 的《Pink noise in dyads' semantic similarity trajectories predicts conversation enjoyment》，PsyPost 11 月 11 日做了报道。方法很巧：把对话按说话轮次切开，每一轮用语言模型转换成 768 维的语义向量，再算相邻两轮之间有多相似，得到一条「语义相似度时间线」。如果这条线是纯随机的，就是白噪声（指数 0.5）；如果是小波动嵌套在大波动里——两人在一个话题上对齐，然后有人带出新东西，彼此稍微拉开，再重新汇合——就更接近粉红噪声（指数 1.0）。每段对话还被打乱顺序 1,000 次作为随机基线。&lt;/p&gt;
-
-&lt;h3&gt;六组数据&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;1,656 场陌生人之间至少 25 分钟的视频聊天（平均约 320 轮）：94% 高于随机水平，平均 0.62。打乱顺序后信号就减弱，说明这是两个人共同的节奏，不是某一方的说话习惯。&lt;/li&gt;
-&lt;li&gt;在 205 个问卷问题里，经过严格多重比较校正后，粉红噪声与 7 项结果正相关：整体愉快、想继续聊、自我袒露、感到对方在袒露、不想提前离开、觉得对方也想继续、实际聊过 25 分钟。&lt;/li&gt;
-&lt;li&gt;97 场大学朋友之间的对话：和愉快感有小幅关联，和亲近感不显著。&lt;/li&gt;
-&lt;li&gt;31 场播客里的电话速配：互相说「愿意/可以考虑」的 19 对节奏更明显，作者自己也说这只是初步结果。&lt;/li&gt;
-&lt;li&gt;25 档业余双人播客的前 50 期（共 1,032 集）：粉红噪声随期数上升，像是两个主持人在磨合。&lt;/li&gt;
-&lt;li&gt;研究者让 Claude 3.7 Sonnet 各写了 50 段愉快和不愉快的 100 轮咖啡馆对话：愉快版有明显的粉红噪声，不愉快版和随机基线没差别。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;别当鹦鹉，也别乱跳&lt;/h3&gt;
-&lt;p&gt;O'Nell 有句话说得很直白：「没人想跟一只鹦鹉聊天。」过度同步——你说什么我就附和什么——和不停换话题一样，都会把节奏弄平。好的对话两头都要：先在一个话题上待够，追问、展开，等真聊透了再带出一个相关的新角度，然后对方接住，你们又汇到一起。&lt;/p&gt;
-
-&lt;p&gt;她给的实用建议只有一句：「别怕让对话慢下来。」换成具体动作：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;下一句话之前，先问一个跟进问题（follow-up question），而不是急着分享自己的类似经历。&lt;/li&gt;
-&lt;li&gt;想换话题时，用一座桥：「你刚说的 X 让我想到……」，而不是硬切。&lt;/li&gt;
-&lt;li&gt;注意自己是不是在一味点头附和。偶尔提出一点不同角度，反而让对话活起来。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;局限得说清楚。所有真人数据都是观察性的，作者自己强调「这项工作关键在于它是观察性的」——也可能是两个人本来就投缘，才自然聊出了这种节奏。效应量小；当把粉红噪声和另外三种动量、对齐指标一起放进模型时，它不再是显著的独立预测因子。所以它更像一个描述好对话的新指纹，而不是一个已证实的「聊天技巧」。&lt;/p&gt;
-
-&lt;p&gt;这和本栏 11/9 介绍的 Davison 等人的冲突修复研究可以对照着看：那篇说沉默比难听的回应更伤人，这篇说附和得太紧也会让对话变平。两头指向同一件事——对话里的人需要对方真的在场，而在场不等于同意。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1126/sciadv.aeb2684"&gt;O'Nell, Sanchez &amp;amp; Finn, Science Advances (DOI 10.1126/sciadv.aeb2684)&lt;/a&gt;；&lt;a href="https://www.psypost.org/the-best-conversations-may-follow-a-hidden-mathematical-rhythm-called-pink-noise-according-to-new-psychology-research/"&gt;PsyPost 报道（2026-11-11）&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1126/sciadv.aeb2684"&gt;https://doi.org/10.1126/sciadv.aeb2684&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/the-best-conversations-may-follow-a-hidden-mathematical-rhythm-called-pink-noise-according-to-new-psychology-research/"&gt;https://www.psypost.org/the-best-conversations-may-follow-a-hidden-mathematical-rhythm-called-pink-noise-according-to-new-psychology-research/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">82a5e96e-d35b-5362-b268-1b9a24145d2b</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:06 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1126/sciadv.aeb2684</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/conversation-750x375.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 「我希望」悄悄变成了「我预计」：UConn 分析 70 年选民数据，约九成人预计自己支持的候选人会赢，笃定会赢的输家选后敌意不降</title>
-      <description>&lt;p&gt;美国中期选举刚过去一周。一项发在 &lt;em&gt;Political Behavior&lt;/em&gt; 的研究提醒了一件比党派之争更普遍的事：人想要什么，就容易相信什么会发生。心理学上叫它一厢情愿偏误（wishful thinking，也叫期望偏差 desirability bias）。&lt;/p&gt;
-
-&lt;p&gt;作者是康涅狄格大学（UConn）政治学者 Seth Warner，论文题为《Partisan Wishful Thinking in Polarized Times》。美国全国选举研究（ANES）从 1952 年起每次大选都问受访者「你觉得谁会赢」，Warner 把这些回答和每个人的投票意向对上，再配上当时的民调均值（2004 年前用 Gallup，之后用 RealClearPolitics）。&lt;/p&gt;
-
-&lt;h3&gt;数字&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;说得出自己支持谁的选民里，&lt;strong&gt;约九成预计自己的人会赢&lt;/strong&gt;。这个比例几十年来一直在 70% 左右，2000 年代升到 70% 多，2012 年后稳定在 80% 多到 90%。两个候选人，不可能九成的人都对。&lt;/li&gt;
-&lt;li&gt;民调领先每多 1 个百分点，预计获胜的几率高约 7%——人确实会看民调，但 2012 年后的信心明显跑在民调前面。&lt;/li&gt;
-&lt;li&gt;1980—2020 年间「预计己方赢」上升约 18 个百分点。统计分解里，投票越来越忠于本党解释约 25%，对另一党的敌意上升解释约 22%（给对方打分低于 25/100 的人多了 47 个百分点）。对自家候选人的好感是个人层面最强的预测因子。&lt;/li&gt;
-&lt;li&gt;选后 22,313 份前后访谈：一般来说输家选后敌意会比赢家低约 2 分（百分制），但赛前确信能赢的输家没有这种降温，比赛前就预料会输的输家高约 3.1 分。2020 年预期获胜的共和党输家，这份额外敌意到 2024 年还在。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;效应不大，约 3 分，而且 Warner 自己把 2020 年当作特例（伴随无根据的舞弊说法）。数据是观察性的，敌意和乐观可能互为因果，也分不开「内心愿望」和「党派媒体喂的信息」。他还在论文里披露用 GPT-5 和 Claude Opus 4.6 帮忙写统计代码，数据和代码公开。&lt;/p&gt;
-
-&lt;h3&gt;把「想要」和「预计」拆成两个数&lt;/h3&gt;
-&lt;p&gt;这个偏误不只发生在投票上。你觉得面试稳了、论文这次一定中、对方一定会答应、这个项目下季度能上线——这些判断里有多少是证据，有多少是愿望？Warner 的数据最有用的地方在后半段：预期越笃定，落空后越难消化，愤怒更可能找外部归因。&lt;/p&gt;
-
-&lt;p&gt;一个简单做法：每次面对你很在乎的结果，写下两个数。第一个是「我有多希望它发生」（0—10），第二个是「如果这是别人的事，我会给多大概率」。第二个问题借的是外部视角（outside view）：同类事情的基础比率是多少？民调差多少？过去几次结果怎样？两个数如果几乎一样，大概率是愿望在替你估计。&lt;/p&gt;
-
-&lt;p&gt;然后，在结果出来前把概率写下来。这不只是为了事后校准，它还提前给失望留了位置。Warner 发现那些赛前就承认可能会输的人，输了之后反而更快平静。想要可以是 100%，预计最好老老实实写个 55%。&lt;/p&gt;
-
-&lt;p&gt;这和本栏一直在追的「动机性解读」线索是一路的：Vollberg &amp;amp; Gross 发现人会按偏好扭曲模糊的社会后果，Gu 等发现我们怎么归因同事的动机决定自己的反应。Warner 补上的是时间维度——扭曲不只影响当下的判断，还会在结果揭晓后变成持续好几年的情绪账单。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1007/s11109-026-10214-y"&gt;Warner, Political Behavior (DOI 10.1007/s11109-026-10214-y)&lt;/a&gt;；&lt;a href="https://www.psypost.org/nearly-90-of-voters-now-expect-their-candidate-to-win-the-math-doesnt-work/"&gt;PsyPost（2026-10-31）&lt;/a&gt;；&lt;a href="https://studyfinds.com/sore-loser-effect-high-election-expectations-tied-to-lasting-partisan-hostility/"&gt;StudyFinds（2026-11-08）&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1007/s11109-026-10214-y"&gt;https://doi.org/10.1007/s11109-026-10214-y&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/nearly-90-of-voters-now-expect-their-candidate-to-win-the-math-doesnt-work/"&gt;https://www.psypost.org/nearly-90-of-voters-now-expect-their-candidate-to-win-the-math-doesnt-work/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://studyfinds.com/sore-loser-effect-high-election-expectations-tied-to-lasting-partisan-hostility/"&gt;https://studyfinds.com/sore-loser-effect-high-election-expectations-tied-to-lasting-partisan-hostility/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">06fc7244-6e7f-5569-8215-e28582137602</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:07 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1007/s11109-026-10214-y</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/10/voting-750x375.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 众议院以211比204把赫格塞思弹劾案送进委员会：条款没人表决，民主党1月还会再提</title>
-      <description>&lt;p&gt;众议院11月10日以211比204票把马西（Thomas Massie）提出的赫格塞思（Pete Hegseth）弹劾决议交付委员会，这在实际效果上等于把它埋在了本届国会里。共和党人里只有马西自己投了反对票。这是一次程序性表决，八条弹劾条款本身从头到尾没有被表决过。&lt;/p&gt;
-
-&lt;p&gt;先说它怎么走到这一步的。马西9月15日提交了一份34页的决议，列了八条弹劾条款，核心指控是赫格塞思在没有国会授权的情况下发动伊朗战争，并且越过《战争权力法》的期限继续打。决议还批评了抓捕委内瑞拉总统马杜罗的行动。关键在于马西把它作为"特权决议"（privileged resolution）提出：这种决议一旦提交，众议院领导层必须在两个立法日内安排表决，不能靠不排日程把它压住。&lt;/p&gt;
-
-&lt;p&gt;共和党领导层的办法是拖。NBC报道，党内领袖曾经取消原定的表决，把它推到11月选举之后，众议院11月9日复会，这才有了本周二的这一票。议长约翰逊（Mike Johnson）称马西的做法"荒谬"（ridiculous），为赫格塞思辩护。民主党少数党领袖杰弗里斯（Hakeem Jeffries）9月就说自己是"坚定的赞成票"。&lt;/p&gt;
-
-&lt;p&gt;表决之后，两边的说法一如所料。特朗普在社交平台上称这次表决是对"一位伟大爱国者的&lt;em&gt;平反&lt;/em&gt;"（原文为"EXONERATION of a Great American Patriot"）。赫格塞思对NBC说，这"是一场闹剧，是一次作秀，每个人都知道"。&lt;/p&gt;
-
-&lt;p&gt;这里有一个要纠正的地方。我们之前的条目引用Axios称众议院本周可能就弹劾表决，当时只有单一来源。现在可以确认的是：表决确实发生了，但结果不是弹劾条款被否决，而是被送进委员会。区别很实在——送委员会可以说"没有结果"，却没有留下一条"共和党多数明确否决弹劾"的记录。&lt;/p&gt;
-
-&lt;p&gt;为什么这件事不会就此结束？Axios的判断是，这次缓刑多半很短：民主党在1月重新拿下众议院和参议院多数之后，几乎肯定会再把这个问题提出来。到那时，发动程序的就不再是一个孤立无援的共和党异见者，而是掌握议程、手握传票权的多数党。伊朗战争权力问题、赫格塞思处理战争的方式，都是现成的调查题目。&lt;/p&gt;
-
-&lt;p&gt;顺带一提另一条线。10日同一天，众议院共和党还在选下一任党团领导人。有一份汇总称吉姆·乔丹（Jim Jordan）以106比73当选少数党领袖，但我没能找到第二个信源，所以这里只作线索，不当结论。共和党在新国会里由谁带头，会直接决定他们对赫格塞思、对伊朗战争是继续护航还是开始切割，这一点值得盯。&lt;/p&gt;
-
-&lt;p&gt;这条线对读者的实际含义不复杂：赫格塞思短期内不会因弹劾丢掉职位，真正的压力窗口在2027年1月新国会开张之后。要看的具体节点是1月3日前后的新国会宣誓，以及民主党新任委员会主席的第一批听证和传票名单。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534"&gt;NBC News&lt;/a&gt;、&lt;a href="https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress"&gt;CNN现场更新&lt;/a&gt;、&lt;a href="https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"&gt;CNBC&lt;/a&gt;、&lt;a href="https://www.axios.com/2026/11/10/pete-hegseth-impeachment-house-republicans-massie"&gt;Axios&lt;/a&gt;、&lt;a href="https://www.pbs.org/newshour/politics/watch-live-house-expected-to-hold-preliminary-vote-on-hegseth-impeachment-as-gop-chooses-next-leader"&gt;PBS NewsHour&lt;/a&gt;、&lt;a href="https://krdo.com/news/2026/09/15/massie-pushes-surprise-impeachment-vote-of-hegseth-overshadowing-a-democrats-bid-to-impeach-trump/"&gt;CNN（9月15日，经KRDO转载）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534"&gt;https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress"&gt;https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"&gt;https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.axios.com/2026/11/10/pete-hegseth-impeachment-house-republicans-massie"&gt;https://www.axios.com/2026/11/10/pete-hegseth-impeachment-house-republicans-massie&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d153bddf-6973-5ffa-9da6-140faeb0e8f9</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534</link>
-      <enclosure url="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261110-hegseth-rs-d9fa9e.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 艾森科特的28天：48席加19席是67，但利伯曼不要阿拉伯政党，极端正统派要兵役豁免</title>
-      <description>&lt;p&gt;艾森科特（Gadi Eisenkot）手里有28天，需要凑出61席。以色列总统赫尔佐格（Isaac Herzog）11月7日（周六）在听取各党意见之后，把组阁授权交给了这位66岁的前军队总参谋长。如果拿不下，可以延期14天，之后才轮到别的选项。按7日起算，第一个期限大约落在12月5日，延期后大约是12月19日（日期是我按法定天数推算的）。&lt;/p&gt;
-
-&lt;p&gt;先看算术。Al Jazeera 11月8日的解释稿给出了几个关键数字：艾森科特领导的Yashar党拿了21席，利库德仍是第一大党，27席。内塔尼亚胡的宗教民族主义阵营从2022年的64席掉到53席。艾森科特能依靠的核心圈子包括Yashar、戈兰（Yair Golan）的民主党、贝内特（Naftali Bennett）的Together，以及利伯曼（Avigdor Lieberman）的我们的家园党，合计48席。议会共120席，过半要61席，还差13席。&lt;/p&gt;
-
-&lt;p&gt;差的这13席从哪来，是整件事的核心。Ra'am和联合名单（Joint List）两个阿拉伯政党合计19席，已经表态支持艾森科特组阁，加上去就是67席，这也是此前"67比46"那个推荐数字的来源。问题是48席里有人不愿意接这份支持。报道称，利伯曼拒绝依靠阿拉伯政党；另一侧，联合名单据说只愿意从政府外面支持，不入阁。&lt;/p&gt;
-
-&lt;p&gt;另一条路是向右走。沙斯党和犹太教联盟（UTJ）合计13席，48加13刚好61。但极端正统派的头号诉求是兵役豁免，这和艾森科特阵营里的世俗派几乎正面相撞。UTJ在总统磋商时没有推荐内塔尼亚胡，也没有推荐任何人，说明他们在观望。以色列Hayom报道，艾森科特11月9日专门和利伯曼见面谈联盟问题，标题写的是"主要障碍仍在"。该文我没能打开（对方返回403），所以只引标题。&lt;/p&gt;
-
-&lt;p&gt;内塔尼亚胡这边的打法很清楚。他呼吁成立"国家团结政府"，同时攻击艾森科特是在和"想消灭以色列国的人"组阁。艾森科特的回应有点出人意料：他自己表示，对内塔尼亚胡加入联合政府持开放态度。他在X上写的是："现在是组建国家紧急政府的时候，我会尽一切努力配得上这份信任。"&lt;/p&gt;
-
-&lt;p&gt;如果48席加阿拉伯政党的方案走不通，Al Jazeera列出的备选有三个：一是由阿拉伯政党从外部撑腰的少数政府；二是和利库德联合的团结政府；三是所有尝试都失败，进入约100天的程序，之后可能重新大选。&lt;/p&gt;
-
-&lt;p&gt;这件事为什么值得读者关注？伦敦玛丽女王大学的内夫·戈登（Neve Gordon）的判断是，如果艾森科特真能组成政府，他大概率能叫停司法改革。换句话说，这不只是换一个总理，而是以色列三年来最大的内政争议能不能刹车。反过来，如果阿拉伯政党的支持成了联盟内部的毒丸，内塔尼亚胡"看守总理"的身份就会继续拖下去。&lt;/p&gt;
-
-&lt;p&gt;接下来该看三件事：利伯曼是否松口接受外部支持；沙斯和UTJ会不会为兵役豁免开价；艾森科特会不会在12月5日之前申请延期。哪一件先有动静，就是风向。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition"&gt;Al Jazeera（11月8日）&lt;/a&gt;、&lt;a href="https://www.israelhayom.com/2026/11/09/eisenkot-liberman-meet-for-coalition-talks-as-major-hurdles-remain/"&gt;Israel Hayom（11月9日，仅标题）&lt;/a&gt;、&lt;a href="https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"&gt;Al Jazeera（11月3日）&lt;/a&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae72d243514-1793535268.jpg" alt="耶路撒冷总理官邸附近的示威者" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;10月31日，耶路撒冷总理官邸附近的示威。图：AFP/Al Jazeera&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition"&gt;https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"&gt;https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e625858c-3ab4-5bff-a75f-2f494229fed8</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae72d243514-1793535268.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 阿布扎比俄乌会谈进入第二天：威特科夫与库什纳坐庄，议程是安全保障，结果暂无报道</title>
-      <description>&lt;p&gt;美国中东特使威特科夫（Steve Witkoff）11月2日宣布，美国将在11月10日至11日把乌克兰和俄罗斯代表团请到阿布扎比，谈"战后安全协议、降级、人道措施以及结束战争"。今天是第二天。截至我检索时，还没有找到任何一家媒体报道会谈的结果，所以这篇只能讲清楚桌上摆着什么，不能假装知道谁让了步。&lt;/p&gt;
-
-&lt;p&gt;路透社11月3日的报道给了几个确定的事实。美方出席的是威特科夫和库什纳（Jared Kushner），这是一位美国高级官员对路透社透露的。普京是在圣彼得堡和威特科夫见面之后，同意再开一轮三方会谈，那次见面发生在宣布前大约两周。同一周，美国谈判代表还要在布鲁塞尔和法国、德国、英国、欧盟、北约开工作层会议，议题是乌克兰的安全保障。路透社的总体判断很直接：乌俄双方在和平条件上"仍然相距甚远"。&lt;/p&gt;
-
-&lt;p&gt;为什么说这轮的看点在"安全协议"而不是"停火线"？因为前几轮已经把这个问题摆出来了。今年1月在阿布扎比的首次三方会谈之后，泽连斯基（Volodymyr Zelensky）说美方的安全保障文件"100%准备好了"，只等签署的时间和地点。真正卡住的是另一头：俄罗斯要求乌克兰军队撤出顿涅茨克地区约五分之一的区域，以及是否允许国际维和部队进驻。换句话说，美乌之间的文件是一回事，俄罗斯愿不愿意接受它的后果是另一回事。&lt;/p&gt;
-
-&lt;p&gt;也要看会谈之外的战场。我们此前记录过，俄国防部11月9日声称打击了三艘运往乌克兰的货船和两座变电站，这个说法由俄方发布，我没有找到独立证实。会谈开始前一天，一边谈安全保障，一边打击能源和运输节点，这种节奏在这场战争里并不新鲜：谈判桌上的筹码，往往要靠战场上的动作来加码。&lt;/p&gt;
-
-&lt;p&gt;还有一条值得标注来源的信息。印度媒体Dainik Jagran的11月11日汇总称，泽连斯基在会谈前和印度总理莫迪通了电话，并称会谈可能涉及恢复黑海粮食出口通道，另有一个标题提到"G7寻求团结"。这些说法我只在这一个来源看到，细节没有展开，所以只作参考。&lt;/p&gt;
-
-&lt;p&gt;顺带记一笔时间线：路透社说上一次美国斡旋的会谈是今年2月，之后美国和以色列就对伊朗开战，俄乌这条线随之被挤到了后面。这次重启，本身就是一个信号：华盛顿在伊朗问题上有了一点喘息，有精力回到乌克兰。反过来看，如果伊朗局势恶化，这条线很容易再次被搁置。&lt;/p&gt;
-
-&lt;p&gt;接下来看什么？一，会谈结束后有没有美方或乌方的书面通报，尤其是有没有出现下一轮的时间和地点；二，布鲁塞尔工作层会议是否给出欧洲对安全保障的具体出资和部署方案；三，莫斯科对"国际维和部队"的表态有没有变化。如果11月12日之前三方都没有任何公开通报，那本身就说明没什么进展。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff"&gt;Khaleej Times转载路透社（11月3日）&lt;/a&gt;、&lt;a href="https://novayagazeta.eu/en/articles/2026/01/26/us-security-guarantees-for-ukraine-100-ready-after-abu-dhabi-talks-zelensky-says-en-news"&gt;Novaya Gazeta Europe（1月26日）&lt;/a&gt;、&lt;a href="https://www.aljazeera.com/news/2026/1/31/us-envoy-witkoff-says-ukraine-talks-with-russia-productive"&gt;Al Jazeera（1月31日）&lt;/a&gt;、&lt;a href="https://english.dainikjagranmpcg.com/top-stories/november-11-news-india-and-world-latest-headlines-2026/article-43649"&gt;Dainik Jagran（11月11日，单一来源）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff"&gt;https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://novayagazeta.eu/en/articles/2026/01/26/us-security-guarantees-for-ukraine-100-ready-after-abu-dhabi-talks-zelensky-says-en-news"&gt;https://novayagazeta.eu/en/articles/2026/01/26/us-security-guarantees-for-ukraine-100-ready-after-abu-dhabi-talks-zelensky-says-en-news&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/1/31/us-envoy-witkoff-says-ukraine-talks-with-russia-productive"&gt;https://www.aljazeera.com/news/2026/1/31/us-envoy-witkoff-says-ukraine-talks-with-russia-productive&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e6b83f23-0ef0-5288-bcf9-d0e7dfd62b6c</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff</link>
-      <enclosure url="https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-29/44gffbdi/2026newsmlRC2OCOA47EJX1154500405.jpeg?width=800&amp;height=533&amp;q=60&amp;format=auto&amp;mode=crop&amp;rect=0,1016,2334,1556" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 COP31领导人环节今天开场：印度、中国不派最高领导人，“2035年35%”倡议和化石燃料路线图都悬着</title>
-      <description>&lt;p&gt;COP31的领导人环节今天（11月11日）在安塔利亚开幕，持续到12日。联合国气候大会11月9日至20日举行，土耳其管"行动议程"，澳大利亚管正式谈判。Climate Home News的会前简报给出的信号不太乐观：印度和中国都不派最高领导人，而美国本来就缺席。&lt;/p&gt;
-
-&lt;p&gt;先说谁来了。已知的发言名单上有巴西总统卢拉、英国的安迪·伯纳姆（Andy Burnham）和西班牙首相桑切斯（Pedro Sánchez）。印度和中国派的不是国家元首或政府首脑。对一个以"把承诺变成行动"为口号的大会来说，全球排放第一和第三的国家缺了最高层，分量会打折扣。&lt;/p&gt;
-
-&lt;p&gt;东道国推的是一个自愿性倡议，叫"2035年35%"（35 by 35）：到2035年，电力占全球终端能源消费的比重达到35%。按计划它会在11月10日的能源日（Energy Day）发布。Climate Home的判断是澳大利亚已经签了，印度"很可能说不"，中国"也许"。Climate Action Tracker给了一个参照：按现行政策，2035年这个比例只能到28%，差7个百分点。我没能确认这个倡议是否已经正式发布，以及有多少国家签署，这一点要等官方通报。&lt;/p&gt;
-
-&lt;p&gt;正式谈判这头，最大的争议还是化石燃料。巴西在COP30上推动的化石燃料路线图，11月3日发布了182页的文本，给出自愿性的三阶段时间表，目标时间点到2033年。但这份路线图不在COP31的正式议程上，各方只能在"封面决定"（cover decision）里争取一句话。澳大利亚气候与能源部长鲍恩（Chris Bowen）说要推动一个由主席国发起、缔约方主导的决定，争取拿出一个实用的成果；土耳其则表态，在安塔利亚发生什么，土耳其有最终决定权。两套分工叠在一起，谁来拍板会是个问题。&lt;/p&gt;
-
-&lt;p&gt;发展中国家这边的声音很具体。非洲集团主席阿莫阿（Antwi-Boasiako Amoah）说，关于"三倍"可再生能源的目标，"没人确定基线是什么，路径也不清楚"。小岛屿国家联盟（AOSIS）主席赛德（Ilana Seid）则说，"减轻海洋压力最好的办法，是转向摆脱化石燃料。"前一个质疑的是目标怎么算，后一个坚持的是目标要不要有牙齿，两者在同一张桌子上很难一次谈完。&lt;/p&gt;
-
-&lt;p&gt;科学评估这头也不顺。Climate Home称，政府间气候变化专门委员会（IPCC）第六次未能就下一轮评估周期的时间表达成一致。这听上去很技术，实际后果是：下一份评估报告什么时候出，可能牵动2028年全球盘点的节奏。&lt;/p&gt;
-
-&lt;p&gt;所以对这场大会，一个现实的预期是：领导人环节会有若干倡议和表态，真正的分歧要到11月20日前后的封面决定里才见分晓。具体盯两个点：封面决定的草案里有没有出现"化石燃料转型"的措辞；"35 by 35"最后的签署国名单有多长。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/"&gt;Climate Home News（11月5日，11月6日更新）&lt;/a&gt;、&lt;a href="https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis"&gt;Khaleej Times（开幕报道）&lt;/a&gt;、&lt;a href="https://www.dailysabah.com/turkiye/cop31-opens-in-turkiye-with-push-to-turn-climate-pledges-into-action/news/amp"&gt;Daily Sabah（开幕报道）&lt;/a&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.climatechangenews.com/wp-content/files/2026/11/55632294802_42ccee88fb_c-1.jpg" alt="COP31安塔利亚气候大会" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：Climate Home News&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/"&gt;https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis"&gt;https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9a68c46b-9a0e-5029-ac11-c9f6c9cc2f58</guid>
-      <pubDate>Wed, 11 Nov 2026 12:11:48 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/</link>
-      <enclosure url="https://www.climatechangenews.com/wp-content/files/2026/11/55632294802_42ccee88fb_c-1.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎨 The EU's Digital Fairness Act Blacklists Ten Dark Patterns: A Designer's Reading of the Draft / 欧盟《数字公平法》把十种暗黑模式列入黑名单：设计师视角读草案</title>
       <description>&lt;p&gt;The European Commission was due to present its Digital Fairness Act (DFA) today, November 11, and the independent tracker digitalfairnessact.com already lists the proposal as published. The specifics below come from the leaked draft (COM(2026) 1100) that &lt;a href="https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows"&gt;Euronews&lt;/a&gt;, &lt;a href="https://neurowired.substack.com/p/the-ten-dark-patterns-in-the-leaked"&gt;Neurowired&lt;/a&gt; and the German &lt;a href="https://shopbetreiber-blog.de/digital-fairness-act-entwurf-der-europaeischen-kommission-geleakt"&gt;Shopbetreiber-Blog&lt;/a&gt; reported on November 9-10. Article numbers and exact wording are provisional until the official text reaches EUR-Lex. The overall design is already clear, though. If you design checkouts, subscription screens or engagement loops, the draft works less like a legal text and more like a lint rule set for your UI.&lt;/p&gt;
@@ -2130,6 +1299,869 @@
       <category>mindset-growth</category>
       <link>https://scholars.duke.edu/publication/1911601</link>
       <enclosure url="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/september/chicago-booth-man-boulder.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Great Dickens Christmas Fair 第 42 届：Cow Palace 变身维多利亚伦敦，票价与避坑</title>
+      <description>&lt;p&gt;Cow Palace 每年这个时候会变成一条维多利亚时代的伦敦街。Great Dickens Christmas Fair 今年是第 42 届，11 月 21 日到 12 月 20 日的每个周末开放，外加感恩节次日的 11 月 27 日（周五），每天 10:00–18:00。地址是 Daly City 的 2600 Geneva Ave，场地超过 14 万平方英尺，一个下午逛不完。&lt;/p&gt;
+
+&lt;p&gt;先说最容易踩的坑：&lt;strong&gt;只能提前在线买票&lt;/strong&gt;。现场没有售票窗口，票按日期绑定，不能当天去了再买。早鸟价（10 月 31 日截止）已经过了，现在全天票成人 $50、儿童（5–12 岁）$30；下午 3 点以后入场的 Twilight 票成人 $35、儿童 $20；5 岁以下免费。Cow Palace 停车 $20 一辆，一家人开车去算下来不便宜。Twilight 票最省钱，不过只剩三小时。&lt;/p&gt;
+
+&lt;p&gt;里面具体有什么？Streets of London 上有扮成 Scrooge、Oliver Twist 的演员，还有扫烟囱工人和唱圣诞颂歌的小队。Fezziwig's Dance Party 教维多利亚舞会和英式乡村舞，不会跳也能加入。Green Man Inn 和几家伦敦酒馆有现场音乐，Dickens' Study 有人朗读《圣诞颂歌》，Punch &amp;amp; Judy 木偶剧和 Father Christmas 舞台适合带小孩。Victoria Station 大厅里还有一列微型蒸汽小火车。&lt;/p&gt;
+
+&lt;p&gt;酒馆特别场次要另外买票：波特酒配巧克力、香槟品鉴，还有一场 Jekyll and Hyde 的 pub crawl。想认真吃喝的人，建议提前把这几场加进行程。&lt;/p&gt;
+
+&lt;p&gt;服装不强制，穿维多利亚风格的欢迎，普通人穿日常衣服也不会被看。现役军人及三位家属在首两个周末（11/21、22、27、28、29）免费，需带军人证件去现场 Will Call。&lt;/p&gt;
+
+&lt;p&gt;交通方面，我没找到官方公交或接驳信息，列表页只写了停车。​&lt;/p&gt;
+
+&lt;p&gt;买票前先看一眼 dickensfair.com 的最新价格，Funcheap 页面注明价格可能不含手续费。每天限流，周末热门场次可能卖完。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://sf.funcheap.com/sfs-42nd-annual-great-dickens-christmas-fair-nov-21-dec-20/"&gt;Funcheap 活动页&lt;/a&gt;；舞台时间表见 &lt;a href="https://dickensfair.com/stage-schedules/"&gt;dickensfair.com&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/sfs-42nd-annual-great-dickens-christmas-fair-nov-21-dec-20/"&gt;https://sf.funcheap.com/sfs-42nd-annual-great-dickens-christmas-fair-nov-21-dec-20/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dickensfair.com/stage-schedules/"&gt;https://dickensfair.com/stage-schedules/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7ebdf4bf-1b29-5ccc-91b9-60af3b4ffc64</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:28 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sf.funcheap.com/sfs-42nd-annual-great-dickens-christmas-fair-nov-21-dec-20/</link>
+      <enclosure url="https://sf.funcheap.com/wp-content/uploads/2023/11/7-RichYeePhoto-59_1000.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 这个周末 SF 两个市集：Renegade Craft 手作展与 Ferry Building 茶会</title>
+      <description>&lt;p&gt;上一篇说了 Sausalito 的 The Big Open，这个周末（11 月 14–15 日）SF 还有两个适合顺路逛的东西，都在市里，不用开远。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Renegade Craft Holiday Fair&lt;/strong&gt;，Fort Mason Center Festival Pavilion（2 Marina Blvd），周六周日 11:00–17:00。官方说有 250 多家小型手作品牌，类目包括陶瓷、外套、零食和针织帽。基本室内，外面有几辆餐车，下雨也照常开。入场名义上免费，现场用二维码付建议的 $5 参与费，钱用于 Renegade 的活动运营。&lt;/p&gt;
+
+&lt;p&gt;有个细节：周日早上 6:30–11:30 Marina Blvd 封路，进 Fort Mason 要绕行，可能堵。周日想早点去的人，预留十几分钟。官网建议自带帆布袋，很实在，这类展会买两三件陶瓷就拎不动了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SF International Tea Festival&lt;/strong&gt; 在 Ferry Building，同样是 11 月 14–15 日。Funcheap 页面写的是周六 10:00–17:00，也有来源写 11:00 开场、持票者 10:00 早入场，所以时间我建议以官网 sfitf.com 为准。票价各处说法不一：Funcheap 头部写 $24 起，正文写 $19 起，另一个聚合站写 $26 起。Funcheap 的优惠码 FUNCHEAP 减 $5，限前 200 次。票里包含 30 多家茶商的免费品茶和一只瓷质品茶杯。&lt;/p&gt;
+
+&lt;p&gt;点名的茶商里，Imperial Tea Court 是 SF 的中式茶馆，卖绿茶、白茶、乌龙和普洱。Sugimoto Tea 是 1946 年创立的日本家族茶厂，主打静冈的深蒸煎茶。K&amp;amp;K Chai 是北加州得奖的印度奶茶品牌。The Republic of Tea 卖茶叶也卖茶具。&lt;/p&gt;
+
+&lt;p&gt;两个活动可以排成一天：上午 Ferry Building 喝茶，下午去 Fort Mason 逛手作。周日 Marina Blvd 早上封路，所以周六更省心。&lt;/p&gt;
+
+&lt;p&gt;只想去一个的话，我选茶会：$19–$26 把 30 多家茶商喝一圈。不过它常常卖光，现场票不保证有。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://sf.funcheap.com/sfs-renegade-craft-holiday-2026-fair-250-makers-fort-mason-nov-1415/"&gt;Renegade 活动页（Funcheap）&lt;/a&gt;；&lt;a href="https://sf.funcheap.com/2026-sf-tea-festival-at-ferry-building-nov-14-15/"&gt;茶会活动页（Funcheap）&lt;/a&gt;；&lt;a href="https://www.renegadecraft.com/city/san-francisco/"&gt;Renegade 官网&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/sfs-renegade-craft-holiday-2026-fair-250-makers-fort-mason-nov-1415/"&gt;https://sf.funcheap.com/sfs-renegade-craft-holiday-2026-fair-250-makers-fort-mason-nov-1415/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/2026-sf-tea-festival-at-ferry-building-nov-14-15/"&gt;https://sf.funcheap.com/2026-sf-tea-festival-at-ferry-building-nov-14-15/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.renegadecraft.com/city/san-francisco/"&gt;https://www.renegadecraft.com/city/san-francisco/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4a2e4e43-6f75-5c40-99ca-3f4e5fcc20de</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:28 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sf.funcheap.com/sfs-renegade-craft-holiday-2026-fair-250-makers-fort-mason-nov-1415/</link>
+      <enclosure url="https://sf.funcheap.com/wp-content/uploads/2026/09/Zs9J1DbdToCLJCtxbeuF8Q.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 12 月 4 日半岛点灯夜：Palo Alto Lytton Plaza 与 Menlo Park Fremont Park</title>
+      <description>&lt;p&gt;12 月 4 日（周五）这天，半岛的两座小城同时点灯。Palo Alto 和 Menlo Park 的圣诞树点亮仪式撞在了同一个晚上，再加上上一期提过的 Let's Glow SF 也从这天开始，行程得选一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Palo Alto：Lytton Plaza&lt;/strong&gt;。时间是 17:30–19:00，地址 200 University Ave（University 和 Emerson 路口），免费。市政府页面列出的表演者有 School of Rock、Boost Class Merry Holiday Dancers 和 Palo Alto Chamber Orchestra，另有节目待公布，现场有给家庭准备的冬季小点心。联系电话 650-329-2478，社交媒体标签 #PaloAltoTreeLighting。官方页面没有写停车和公交信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Menlo Park：Light Up the Season&lt;/strong&gt;。官方页面上 2026 年的日期就是 12 月 4 日，地点在 Fremont Park（University Drive 和 Santa Cruz Avenue 交口）。城市页面写了“传统上在 12 月第一个周五”，但这次抓到的内容里没有具体开始时间，去之前再看一眼 menlopark.gov/lightup。内容包括适合家庭的演出、本地青少年表演、冬季主题拍照点、免费热可可，最后点亮 Menlo Park 的那棵橡树。雨天照常，鼓励顺便在下城的店里吃饭购物。&lt;/p&gt;
+
+&lt;p&gt;两边都不大，别指望旧金山那种规模。它们更像社区聚会：小孩跳舞，邻居拿着热饮聊天。&lt;/p&gt;
+
+&lt;p&gt;怎么排？Palo Alto 17:30 开始，Menlo Park 的时间还没查到，所以要想两边都去，得先确认 Menlo Park 的开始时间再定顺序。&lt;/p&gt;
+
+&lt;p&gt;想要更大场面，就是 Let's Glow SF（12/4–12/13，免费），那在市里，晚上回半岛要算好 Caltrain 末班车。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting"&gt;Palo Alto 市政府活动页&lt;/a&gt;；&lt;a href="https://www.menlopark.gov/lightup"&gt;Menlo Park 市政府 Light Up the Season 页面&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting"&gt;https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.menlopark.gov/lightup"&gt;https://www.menlopark.gov/lightup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d8270df3-220a-50a6-8c87-e91285833662</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:28 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting</link>
+      <enclosure url="https://www.paloalto.gov/files/assets/public/v/1/community-services/special-events/tree-lighting-event-2026jpg.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 每天 4 分钟、97 位 74 岁老人、12 周：FAST-2 试验里“最小有效剂量”的力量训练长什么样</title>
+      <description>&lt;p&gt;昨天那条哈佛医护人员队列说，力量训练每周 90–120 分钟时死亡风险降幅最大，再多没有额外好处。问题是，对一个平时每周只运动 18 分钟的 74 岁老人，90 分钟听上去像另一个世界。宾州州立大学医学院（Penn State College of Medicine）今年 6 月发在 PLOS One 的 FAST-2 试验，试的恰好是另一端：每天 4 分钟，能不能算数？&lt;/p&gt;
+
+&lt;h2&gt;试验怎么做的&lt;/h2&gt;
+&lt;p&gt;97 名 65 岁以上、平均 74 岁的受试者，入组时自述每周运动约 18 分钟，并且走四分之一英里（约 400 米）有困难。他们被随机分成两组：一组做 FAST-2 方案，另一组不干预，保持原来的生活。&lt;/p&gt;
+&lt;p&gt;FAST-2 一共四个动作：俯卧撑、椅子起立、双臂划船（弹力带）、踏台阶。每个动作做 30 秒，休息 30 秒，合计 4 分钟，每天一次。研究者给每人寄了四根弹力带和一个可调高度的踏步器，并附有降级版本：俯卧撑可以扶台面或墙，起立时可以用手撑膝盖。进步以后再往原版动作或更高的台阶推进。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/woman-walking-1536x1020.jpg?h=19ad3fdd&amp;itok=0s9jOMJn" alt="一位老年女性在户外步行" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：宾州州立大学新闻稿配图（Amanda Mills / Creative Commons）。试验本身是居家完成的，没有健身房。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2&gt;结果：三个“日常动作”指标&lt;/h2&gt;
+&lt;p&gt;研究者在基线、中期和结束时测了三件事：站起来的速度和次数、单腿站立时间。12 周后，与对照组相比：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;30 秒椅子起立多做 &lt;strong&gt;4.2 次&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;单腿站立时间多 &lt;strong&gt;3.6 秒&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;坐起（sit-to-stand）所需时间少 &lt;strong&gt;2.3 秒&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;参与者在记录到的天数里有 81% 完成了训练。对一个需要每天做的方案来说，这个依从率不算低，也是 4 分钟设计的核心卖点：做不到的时候你很难找借口说“没时间”。&lt;/p&gt;
+
+&lt;h2&gt;这些数字该怎么读&lt;/h2&gt;
+&lt;p&gt;首先，这些指标不是花哨的实验室测量。椅子起立和单腿站立常被用来预测跌倒、行动障碍和日后是否需要护理，主要作者 Christopher Sciamanna 的说法是它们“预示你将来能不能保持活动”。所以改善方向是对的。&lt;/p&gt;
+&lt;p&gt;其次，几个保留意见。对照组是“无干预”，不是做别的运动，所以试验证明的是“做这个比不做好”，没证明“4 分钟比 20 分钟好或一样好”。受试者知道自己在不在运动组，主观努力程度会影响起立速度这类测试。12 周也只是短期，谁能坚持半年一年，这篇试验没回答。我读到的是宾州州立大学的新闻稿和 News-Medical 的转述，没有读到 PLOS One 全文，所以主要终点、效应量的置信区间以及不同亚组的细节，我没核对到。另外，另有媒体把这项研究写成哈佛的工作，应是和别的研究混了，引用时以 Penn State 为准。&lt;/p&gt;
+&lt;p&gt;另外，整套方案里下肢力量训练只有 60 秒（椅子起立 30 秒加踏台阶 30 秒），这一点反而说明：对几乎不运动的人，起点的收益可能来得很快。研究团队此前的 FAST-1（24 人，每天 30 秒俯卧撑和深蹲，半年后深蹲表现提升）也是同一思路。&lt;/p&gt;
+
+&lt;h2&gt;和已有的几条线怎么接&lt;/h2&gt;
+&lt;p&gt;把它放到我们追踪的 strength-longevity 线里：哈佛队列告诉你“长期做到什么量会触顶”，FAST-2 告诉你“从零出发，最低多少就能看到变化”。两者并不矛盾，前者是上限，后者是门槛。至于 4 分钟能不能长期替代更长的训练，Penn State 团队还有一项约 700 人的更大试验，把每天 5 分钟的版本与每周 3 次、每次 45 分钟的方案对比，据注册信息已招募完成，结果还没出来。那才是回答“最小有效剂量”的关键一块。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.psu.edu/news/research/story/four-minute-daily-workout-improves-strength-balance-older-adults"&gt;Penn State 新闻稿（2026-06-09）&lt;/a&gt;；&lt;a href="https://www.news-medical.net/news/20260610/Four-minutes-of-daily-workout-boosts-quality-of-life-for-seniors.aspx"&gt;News-Medical&lt;/a&gt;；论文：Sciamanna 等，PLOS One，DOI 10.1371/journal.pone.0336748（据 News-Medical 标注）。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psu.edu/news/research/story/four-minute-daily-workout-improves-strength-balance-older-adults"&gt;https://www.psu.edu/news/research/story/four-minute-daily-workout-improves-strength-balance-older-adults&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20260610/Four-minutes-of-daily-workout-boosts-quality-of-life-for-seniors.aspx"&gt;https://www.news-medical.net/news/20260610/Four-minutes-of-daily-workout-boosts-quality-of-life-for-seniors.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pennstatehealthnews.org/2026/06/four-minutes-of-daily-resistance-training-can-quadruple-fitness-in-older-adults/"&gt;https://pennstatehealthnews.org/2026/06/four-minutes-of-daily-resistance-training-can-quadruple-fitness-in-older-adults/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ea1bf6ab-9f97-5760-af55-3fc4908988ba</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:31 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.psu.edu/news/research/story/four-minute-daily-workout-improves-strength-balance-older-adults</link>
+      <enclosure url="https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/woman-walking-1536x1020.jpg?h=19ad3fdd&amp;itok=0s9jOMJn" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 啤酒、烈酒、葡萄酒，死亡风险三种走势：34 万英国人、13 年随访的 Nutrition Journal 分析</title>
+      <description>&lt;p&gt;“少量喝酒有益心脏”这句话几乎每隔两年就被推翻一次，又在下一篇队列研究里被重新捡起来。这次是 Nutrition Journal 2026 年第 25 卷发表的一项英国生物银行（UK Biobank）分析（Li Z 等，DOI 10.1186/s12937-026-01361-3），特点是它没有只看“总酒精量”，而是把啤酒/苹果酒、烈酒、红酒、白酒、加强型葡萄酒分开算。我们之前追踪过地中海饮食与适量红酒那条线，这篇把“酒”拆成了不同种类，问题问得更细。&lt;/p&gt;
+
+&lt;h2&gt;设计&lt;/h2&gt;
+&lt;p&gt;340,924 名参与者，平均年龄约 56 岁，女性略过半，96.3% 为白人。排除了曾经饮酒现已戒酒的人、基线已有心血管病或癌症的人，以及酒精数据不全的人。问卷在入组时收集每种酒的饮用频率和平均量，折算成纯酒精克数。&lt;/p&gt;
+&lt;p&gt;参照组是“从不或偶尔”喝（每周不超过 20 克纯酒精，大致一瓶 500 毫升、5 度的啤酒）。低量：男性每天最多 20 克，女性最多 10 克；中量：男性 20–40 克，女性 10–20 克；高量：超过这个范围。平均随访 13.4 年，期间 22,381 人死亡，死因按 ICD-10 编码。模型调整了年龄、性别、种族、学历、剥夺指数、吸烟、体力活动、BMI、饮食质量、临床特征、家族史和饮酒模式，每种酒的比较都额外调整了其他酒的摄入。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.news-medical.net/images/news/ImageForNews_849594_17929727388337928.jpg" alt="多种酒精饮料的示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：News-Medical 配图（Tero Vesalainen / Shutterstock）。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2&gt;发现&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;总酒精量：高量与全因、心血管、癌症和其他死因死亡风险升高相关；中量只与癌症死亡升高相关；低量与“其他死因”死亡较低相关。总量与全因、心血管、癌症死亡之间接近线性，主要由烈酒和啤酒/苹果酒贡献。&lt;/li&gt;
+&lt;li&gt;啤酒/苹果酒：高量全面不利；连低量都与癌症死亡升高相关。&lt;/li&gt;
+&lt;li&gt;烈酒：低量，或中高量合并，与全因及各类死因死亡升高相关。&lt;/li&gt;
+&lt;li&gt;葡萄酒：呈 J 形。低量与全因和分类死亡较低相关，高量则癌症死亡升高。红酒的中低量与全因、心血管、其他死因较低相关，高量红酒则全因和癌症死亡升高；高量白酒和加强型葡萄酒同样不利。&lt;/li&gt;
+&lt;li&gt;癌症：在 20 种癌症死亡结局里，总酒精量或某种酒的摄入在多重比较校正后与 15 种死亡升高相关，包括头颈、呼吸、消化道、肝胆、血液、乳腺和生殖系统癌症。&lt;/li&gt;
+&lt;li&gt;饮酒方式：有时或经常随餐饮酒，死亡风险比较低；餐外饮酒在高摄入量时不良关联更强。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;亚组分析里，总酒精量与全因死亡的关联在男性、较年轻者、非白人、当前吸烟者和非肥胖者中更强。排除了不饮酒者和随访 2 年内死亡者的敏感性分析结果相近。&lt;/p&gt;
+
+&lt;h2&gt;怎么读才不被带偏&lt;/h2&gt;
+&lt;p&gt;这篇最容易被截成两个标题：“葡萄酒喝得少反而长寿”和“再少的烈酒啤酒也伤身”。作者自己的结论比标题克制：这是观察性研究，不能证明因果；低量葡萄酒与较低死亡风险相关，不等于葡萄酒有保护作用。酒精摄入是自报的，主要在基线测一次，之后几十年的变化没捕捉到；残余混杂也没法排除。&lt;/p&gt;
+&lt;p&gt;最该警惕的是“选择葡萄酒的人本身就不一样”。喝葡萄酒的人，在不少队列里通常收入、教育和饮食质量更高，随餐饮酒的比例也更高；而随餐本身，在这项分析里恰恰也和更低风险相关。模型调整了教育、剥夺指数和饮食质量，但自报的饮食问卷抓不住全部差别。其实这个故事里更稳的是风险一侧：癌症死亡随饮酒量上升的信号在多种酒、多个癌种里一致，而“保护”一侧只在特定酒类、特定剂量、特定结局上出现。&lt;/p&gt;
+&lt;p&gt;还要提一句：同期的其他研究并不一致。美国一项发表于 Journal of Studies on Alcohol and Drugs 的建模研究认为低量也看不到保护作用，REGARDS 队列则发现轻度饮酒与癌症死亡较低相关但作者认为很可能是混杂；世界卫生组织的立场是没有绝对安全的饮酒量。这几项加起来，比较站得住的结论是：高量一定有害，低量的“好处”大概率被高估，且癌症一侧的风险是真实的。&lt;/p&gt;
+&lt;p&gt;我这里读的是 News-Medical 对论文的报道，没有核对 Springer 全文里的风险比和置信区间，具体数值需要看原文表格。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx"&gt;News-Medical（2026-10-25）&lt;/a&gt;；&lt;a href="https://link.springer.com/article/10.1186/s12937-026-01361-3"&gt;Li Z 等，Nutrition Journal 25(1):114&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx"&gt;https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1186/s12937-026-01361-3"&gt;https://link.springer.com/article/10.1186/s12937-026-01361-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ecb5b50b-e101-595e-b9f3-5b7e014ec3ac</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:32 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx</link>
+      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_849594_17929727388337928.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 ESMO 2026：数字版失眠认知行为疗法 Sleepio 用于癌症女性，6 周后 24 周时失眠缓解率 62% 对 19%，但只有 44% 的人做完了随访</title>
+      <description>&lt;p&gt;癌症患者里 30%–60% 有失眠，ESMO 在 2023 年就把认知行为疗法（CBT）列为一线推荐，但真正能接受面对面 CBT-I 的人很少。10 月 23–27 日马德里的 ESMO 大会上，都柏林大学学院（UCD）妇科肿瘤学教授 Donal Brennan 报告了 Sleepio After Cancer（SAC）三期随机试验（摘要 LBA91，NCT05816460）：把数字版 CBT-I 做成 6 周线上课程，放到癌症女性身上，会怎样？&lt;/p&gt;
+
+&lt;h2&gt;试验设计&lt;/h2&gt;
+&lt;p&gt;308 名患者，年龄中位数 52 岁（四分位 46–57），61% 是乳腺癌，29.2% 是妇科肿瘤，大约 30% 为 III–IV 期。1:1 随机：Sleepio 组（n = 156）做 6 周、每周一次的数字 CBT；对照组接受睡眠卫生教育（固定作息、舒适卧室、晚些时候少喝咖啡因、别为“睡够了没有”焦虑这类建议）。主要终点是 24 周时睡眠状况指数（Sleep Condition Indicator, SCI）的变化，以及失眠缓解（SCI &amp;gt; 16）的人数；次要终点是疲劳、抑郁、焦虑和潮热。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.healio.com/~/media/slack-news/hemonc/misc/infographics/hot-infographics/2026/10_october/hot1026brennan_esmo_graphic_01.jpg" alt="Healio 对 SAC 试验结果的信息图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：Healio 对 Brennan 等 ESMO 2026 报告的图示。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2&gt;结果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;24 周时 SCI 改善幅度，Sleepio 组比对照组多 6.36 分（P &amp;lt; .001），按癌种和是否用内分泌治疗分层结果相似。&lt;/li&gt;
+&lt;li&gt;失眠缓解率：意向治疗人群 &lt;strong&gt;27% 对 12%&lt;/strong&gt;；只算完成 24 周评估的人则是 &lt;strong&gt;62% 对 19%&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;疲劳、抑郁、焦虑、潮热的改善都显著更大，效应量在 0.48–0.77 之间。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;潮热的变化尤其有意思。Brennan 的说法是，很多患者处于（治疗引起的）绝经状态，睡眠和绝经症状的生活质量之间互相拉扯，在癌症人群里这条关系还研究得不够。他们之前的 Menopause After Cancer 试验里，近 95% 的患者其实也有失眠，没有专门筛选，综合干预后失眠自己就改善了。&lt;/p&gt;
+
+&lt;h2&gt;两组数字，哪个更接近真相？&lt;/h2&gt;
+&lt;p&gt;这是整个报道里最值得细看的地方。62% 对 19% 好看，但它只统计了做完 24 周评估的人，而这个比例在 Sleepio 组只有 &lt;strong&gt;44%&lt;/strong&gt;，对照组 34%。大半的人在中途没了数据。27% 对 12% 的意向治疗分析把所有随机分组的人算进去，缺失按失败/未缓解处理时会低估疗效，所以真实效果大概落在两个数字之间，而且主要依赖缺失数据的处理方式。Brennan 说团队做了大量敏感性分析，认为结果稳健，但具体方法我读不到。完成率他本人也称“非常令人失望”，并提出不少患者可能做 1 到 3 次课就够了，不需要完整的 6 次。这是个假设，不是已经证明的结论。&lt;/p&gt;
+
+&lt;p&gt;另外，睡眠这类自评结局对行为干预天然偏乐观：参与者知道自己有没有被分到 App，无法盲法；对照组拿到的只是一页建议，期待值也不同。这并不否定疗效（数字 CBT-I 已有 30 多项试验的支持，英国 NICE 推荐它优先于安眠药），但提醒你 6.36 分里有一部分可能是安慰和期待效应。&lt;/p&gt;
+
+&lt;h2&gt;为什么还是值得关注&lt;/h2&gt;
+&lt;p&gt;现有数字 CBT-I 的证据多数来自一般人群，没在癌症人群里正式测过。第一次在三期规模、有活动期肿瘤患者（约三成是 III–IV 期）的人群里看到正向信号，还能带动疲劳和情绪。与我们 11 月 8 日那条“睡得少的人入睡时间不规律，心血管风险约翻倍”放在一起看：睡眠的问题不只靠“多睡一点”，行为层面的刻意干预，在最难睡的人群里也能起作用。对普通读者的实际含义很具体：如果失眠超过一个月，别先去找安眠药，CBT-I（包括数字版）是第一选择；这一结果也提示，做不完全套也可能有收益。&lt;/p&gt;
+&lt;p&gt;最后说清楚局限：这是会议摘要的报道，来源是 Healio 的采访稿，没有同行评审论文；效应量的置信区间、统计方法细节、无应答者的特征都没公开。试验还在继续随访，用来评估持续性和再次使用 App 的情况。费用是否由医保承担，Brennan 说“取决于你住在哪儿”。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.healio.com/news/hematology-oncology/20261027/digital-app-immensely-powerful-in-treating-insomnia-among-women-with-cancer"&gt;Healio（2026-10-28）&lt;/a&gt;；&lt;a href="https://clinicaltrials.gov/study/NCT05816460"&gt;ClinicalTrials.gov NCT05816460&lt;/a&gt;；Brennan D 等，ESMO 2026 摘要 LBA91。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.healio.com/news/hematology-oncology/20261027/digital-app-immensely-powerful-in-treating-insomnia-among-women-with-cancer"&gt;https://www.healio.com/news/hematology-oncology/20261027/digital-app-immensely-powerful-in-treating-insomnia-among-women-with-cancer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://clinicaltrials.gov/study/NCT05816460"&gt;https://clinicaltrials.gov/study/NCT05816460&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">431c4009-6b36-5e30-ba7b-462b0187f485</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:32 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.healio.com/news/hematology-oncology/20261027/digital-app-immensely-powerful-in-treating-insomnia-among-women-with-cancer</link>
+      <enclosure url="https://www.healio.com/~/media/slack-news/hemonc/misc/infographics/hot-infographics/2026/10_october/hot1026brennan_esmo_graphic_01.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 看别人怎么选之前，先问菜单有多大：六个预注册实验、一万人显示我们判断他人偏好时系统性忽略选项数量</title>
+      <description>&lt;p&gt;同事午饭点了沙拉，你可能顺手给他贴上“爱吃健康餐”的标签。可要是那家店只有沙拉和炸鸡两样呢？芝加哥大学 Booth 商学院的 Beidi Hu、乔治城大学的 Alice Moon 和范德堡大学的 Eric VanEpps 把这个日常盲点做成了六个预注册实验，论文《Choice Set Size Neglect in Predicting Others' Preferences》2026 年 1 月 7 日发表在 &lt;em&gt;Psychological Science&lt;/em&gt;，总样本 10,092 名美国成年人。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/april/chicago-booth-choice-set-hero.jpg" alt="一只手指向冰柜里的冰淇淋" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;十种口味里挑中巧克力，和两种里挑中巧克力，说明的偏好强度并不一样（Chicago Booth Review）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;道理本身不难。选项越多，你最后挑中的那个越可能是真心喜欢的；选项只有两个，挑中的往往只是“没那么差”的一个。实验 1 是后面几项的模板：在餐厅点配菜的情境里，被试随机被分去自己选，或者看别人选，配菜数量随机设为 2 个或 6 个。自己选的人，从 6 个里挑出来的配菜确实更喜欢。旁观者预测别人有多喜欢时，却几乎没把菜单大小算进去——从两个里选和从六个里选，被当成差不多强烈的偏好。作者把这叫&lt;strong&gt;选择集大小忽视（Choice Set Size Neglect）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，人并不是不懂这个规律。被直接问到时，大家都承认选项多少会影响喜欢程度。问题出在注意力：判断别人时，菜单大小根本不在视野里。所以修正方法也很轻：让人同时比较不同大小的选择集，或者在预测前先回忆一下对方有几个选项，偏差就明显减弱；把任务从“挑一个”改成“排个序”，敏感度也会上升。VanEpps 的原话是：“他们只是不会自然地注意到它，除非有什么东西把注意力引过去。”&lt;/p&gt;
+
+&lt;p&gt;这条和本栏最近几篇是同一个家族。11 月 11 日 Warner 的研究讲选民把“想要”和“预计”混成一个数；11 月 8 日 Vollberg 与 Gross 讲人会有选择地解读选择的社会后果。这里的版本是：我们把别人的选择读得太满。作者自己举的例子就是两党投票——两个候选人里选一个，可能更多是在拒绝另一个，而不是全心支持这一个。忽略这一点，看到的两极分化会比实际更严重。&lt;/p&gt;
+
+&lt;p&gt;生活和工作里的类似场景不少：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;送礼：对方一直用某个牌子，未必是真爱，可能只是当时货架上就那几样。&lt;/li&gt;
+&lt;li&gt;管理：团队在两个方案里选了你的方案，不等于他们热情拥护。可选的路窄，热情的信号就要打折扣。&lt;/li&gt;
+&lt;li&gt;产品：用户“选择”了现有功能，也许只是因为没有别的选项。拿窄菜单里的选择去论证要加大投入，容易过度承诺。&lt;/li&gt;
+&lt;li&gt;人际：朋友留在一份不喜欢的工作里，先别急着下“他就是不想改变”的结论，看看他手上的牌。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;可以带走的那个动作只有一句：判断别人的选择之前，先问菜单有多大。如果只有两三个选项，把“他喜欢 X”降级成“他觉得 X 比 Y 好一点”。反过来也成立：想让别人准确理解你的偏好，告诉他们你是从多少个选项里挑出来的。&lt;/p&gt;
+
+&lt;p&gt;局限：六个实验都是线上情境题，测的是预测出来的喜好，不是真实行为；我看到的是新闻稿和 Booth Review 的解读，各实验的具体效应量没有披露。但这个偏差的修正成本几乎为零，值得先用起来。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://business.vanderbilt.edu/?p=115887"&gt;范德堡大学 Owen 商学院新闻稿&lt;/a&gt;；&lt;a href="https://www.chicagobooth.edu/review/what-youre-probably-ignoring-when-you-judge-someone-elses-choice"&gt;Chicago Booth Review&lt;/a&gt;；&lt;a href="https://journals.sagepub.com/doi/10.1177/09567976251400333"&gt;Psychological Science 论文&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://business.vanderbilt.edu/?p=115887"&gt;https://business.vanderbilt.edu/?p=115887&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.chicagobooth.edu/review/what-youre-probably-ignoring-when-you-judge-someone-elses-choice"&gt;https://www.chicagobooth.edu/review/what-youre-probably-ignoring-when-you-judge-someone-elses-choice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://journals.sagepub.com/doi/10.1177/09567976251400333"&gt;https://journals.sagepub.com/doi/10.1177/09567976251400333&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6616fdfb-6a69-5fed-8b13-e19a181b558b</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:33 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://business.vanderbilt.edu/?p=115887</link>
+      <enclosure url="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/april/chicago-booth-choice-set-hero.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 替别人做决定时，你会突然觉得自己不行：苏黎世大学实验发现责任让信心下降、委托增加，准确率却丝毫未变</title>
+      <description>&lt;p&gt;先做个小测验：同一道题，你答对的概率完全一样，只是这次答错要连累另外三个人一起少拿钱。你对自己答案的把握会不会变低？苏黎世大学神经经济学中心的 Sherry Dongqi Bao 和 Todd Hare 用实验给出的答案是：会，而且这种动摇和你的真实水平没有关系。论文《Deciding for others alters metacognition leading to responsibility aversion》2026 年 2 月发表在 &lt;em&gt;Science Advances&lt;/em&gt;（12 卷 eady0441，DOI 10.1126/sciadv.ady0441）。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://bluewin-prod-sc-images.imgix.net/2026/02/26/c242b39a-093d-48e1-8fcc-fced4862da73.jpeg?rect=0%2C0%2C1280%2C720&amp;w=1920&amp;auto=format&amp;s=76eeebb24365a4cfee27462f6637c94a" alt="实验中被试答对即可获得小额报酬（示意图）" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;实验里答对就有小额报酬，区别只在钱进谁的口袋（示意图，Keystone / blue News）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;实验设计很干净。约 400 名被试判断两个圆里哪个点更多——没有风险，对错客观可查，这样“做得好不好”和“觉得自己做得好不好”可以分开测。一部分回合答对只给自己发钱，另一部分回合的结果决定四人小组每个人的收入。每次选完，被试用一种激励相容（incentive-compatible）的方式报告信心，说实话最划算。&lt;/p&gt;
+
+&lt;p&gt;结果：两种回合的正确率没有差别，但为小组做决定时，信心稳定地更低，反应也更慢。研究者用计算模型把表现和自我评估拆开，发现变化出在元认知偏差（metacognitive bias）上——人本来就有点低估自己，背上责任后低估得更厉害。有两处细节很说明问题。第一，给被试无限决策时间，信心差距还在，所以不是“没想清楚”。第二，直接给被试看反馈，告诉他们两种条件下准确率一样，差距依然没消失。知道了也没用。&lt;/p&gt;
+
+&lt;p&gt;这种不自信会直接改变行为。被试可以把决定交给已知准确率 70% 或 90% 的“专家”。刚为小组负过责的人更频繁地选择外包，而模型显示，这部分增加的委托完全可以用信心下降来解释。对小组认同感越强的人，信心掉得越多。&lt;/p&gt;
+
+&lt;p&gt;这条研究接的是 Hare 团队 2018 年在 &lt;em&gt;Science&lt;/em&gt; 上的工作：Edelson、Polania、Ruff、Fehr 与 Hare 当时提出&lt;strong&gt;责任厌恶（Responsibility Aversion）&lt;/strong&gt;，发现有人在决定会影响他人时需要更高的确定性才肯拍板，而这个“门槛”越低的人，领导力评分越高。2026 年的新结果补上了机制：不是能力下降，而是对自己能力的读数被压低了。&lt;/p&gt;
+
+&lt;p&gt;11 月 12 日那条关于“核心过度自信”的研究说，有些人稳定地高估自己。这里是同一枚硬币的另一面：情境也能让人系统性地低估自己，而且方向正好落在最需要拍板的时刻——带团队、替家人做医疗选择、审批别人的申请。两条放在一起看，校准（calibration）并不是某种固定性格，而是性格和处境叠加出来的读数。&lt;/p&gt;
+
+&lt;p&gt;可以带走的用法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;替别人做决定时，如果你发现自己格外犹豫，先问一句：“如果只影响我自己，我会怎么选？”两个答案不同，差的那一截很可能只是责任带来的噪音，不是新信息。&lt;/li&gt;
+&lt;li&gt;想把决定推给“更专业的人”之前，比一比对方的历史准确率和你自己过往的真实命中率，而不是和你此刻的感觉比。&lt;/li&gt;
+&lt;li&gt;团队层面，作者建议降低事后追责的压力：提前写下决策理由、做事前验尸（pre-mortem），让“我当时依据什么”有据可查，人就不用靠多犹豫来自保。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;局限也要说清楚。任务是判断点数，离真实的管理决策很远；论文报告的总样本约 400 人，各实验分量和效应量的细节我只看到新闻稿版本。可它揭示的那个循环——责任让人更不自信，不自信让人更想甩手——在现实组织里随处可见。下次觉得“我不够格做这个决定”时，先查查这是事实，还是责任在说话。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.zne.uzh.ch/en/news/Deciding-for-others.html"&gt;苏黎世大学神经经济学中心新闻稿&lt;/a&gt;；&lt;a href="https://www.bluewin.ch/en/news/confidence-in-own-decisions-decreases-with-responsibility-li.3115443"&gt;blue News / Keystone-SDA 报道&lt;/a&gt;；&lt;a href="https://www.science.org/doi/10.1126/sciadv.ady0441"&gt;Science Advances 论文&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.zne.uzh.ch/en/news/Deciding-for-others.html"&gt;https://www.zne.uzh.ch/en/news/Deciding-for-others.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bluewin.ch/en/news/confidence-in-own-decisions-decreases-with-responsibility-li.3115443"&gt;https://www.bluewin.ch/en/news/confidence-in-own-decisions-decreases-with-responsibility-li.3115443&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/sciadv.ady0441"&gt;https://www.science.org/doi/10.1126/sciadv.ady0441&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6d034f14-c19d-594f-be8b-5d3770a10944</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:39 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.zne.uzh.ch/en/news/Deciding-for-others.html</link>
+      <enclosure url="https://bluewin-prod-sc-images.imgix.net/2026/02/26/c242b39a-093d-48e1-8fcc-fced4862da73.jpeg?rect=0%2C0%2C1280%2C720&amp;w=1920&amp;auto=format&amp;s=76eeebb24365a4cfee27462f6637c94a" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 用 ChatGPT 写作业快了 45%，45 天后记住的少了 11 个百分点：巴西 120 人 RCT 把 AI 称作「认知拐杖」</title>
+      <description>&lt;p&gt;用 ChatGPT 做作业，作业做得更快，45 天后脑子里留下的却更少。巴西热图利奥·瓦加斯基金会（FGV）和里约联邦大学的 André Barcaui 做了一个随机对照试验（RCT），论文标题很直白：《ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention》，发表于 &lt;em&gt;Social Sciences &amp;amp; Humanities Open&lt;/em&gt;（DOI 10.1016/j.ssaho.2025.102287），PsyPost 今年 3 月做了报道。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2026/03/chatgpt.jpg" alt="ChatGPT 界面示意" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图源：PsyPost&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;设计不复杂。120 名 18-24 岁的工商管理本科生，都没有计算机或机器学习背景，随机分成两组各 60 人。任务一样：用最多两周时间研究 AI 的基本概念（伦理、社会影响、技术基础），然后做十分钟展示。一组可以随便用 ChatGPT 解释概念、举例、搭展示结构；另一组禁用聊天机器人，只能用课程笔记、学术数据库和普通搜索引擎。45 天后突击考 20 道选择题，考的是概念理解而不是死记。&lt;/p&gt;
+
+&lt;p&gt;结果：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;传统组平均正确率 68.5%，ChatGPT 组 57.5%，差 11 个百分点。&lt;/li&gt;
+&lt;li&gt;ChatGPT 组只花了 3.2 小时完成作业，传统组花了 5.8 小时。控制学习时长后，传统组仍然更高。&lt;/li&gt;
+&lt;li&gt;技术类题目差距最大，伦理与社会类题目差距较小。&lt;/li&gt;
+&lt;li&gt;之前用没用过聊天机器人，不改变结果。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Barcaui 给的总结是一句话：“生产力不能替代能力（Productivity does not replace competence）。”&lt;/p&gt;
+
+&lt;p&gt;这条正好接上 11 月 10 日那篇 Autor 等人的专利律师实验。那里的发现是：AI 让所有人的产出质量都提高了 0.34-0.38 个标准差，但在不许用 AI 的修订任务里，技能提升全部来自资深律师，新手平均没有进步。两个研究对象、领域、规模都不同，指向却一致——AI 让你交出更好的东西，不一定让你变成更会做的人，而越是新手越容易只拿到前者。认知心理学对此早有解释：&lt;strong&gt;必要难度（Desirable Difficulties）&lt;/strong&gt;。自己去检索、组织、卡住再想通的过程费劲，但正是这份费劲在把知识写进长期记忆。把这一步外包出去，也就是把认知卸载（Cognitive Offloading）推到了学习最需要的环节。&lt;/p&gt;
+
+&lt;p&gt;不过，别把它读成“AI 让人变笨”。这个实验比的是“随便用”和“不用”，没测“怎么用”。Barcaui 自己提出的下一步，恰恰是让学生先自己尝试再去问聊天机器人。把这两项研究叠起来，可以整理出一套用法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;想学会的东西，先自己写一版、答一遍，再拿 AI 的答案对照。顺序反过来，你得到的是一份好作业，而不是一段记忆。&lt;/li&gt;
+&lt;li&gt;只想交差的东西（格式、样板邮件），放心外包，这类知识本来也不需要留在脑子里。&lt;/li&gt;
+&lt;li&gt;对照完 AI 的版本后，合上屏幕用自己的话复述一遍。这一步就是在补回被跳过的“提取练习”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;局限不少。约 29% 的学生没回来参加 45 天后的测试（剩 85 人），虽然两组流失率相近，仍可能有偏；样本只来自巴西一所大学的商科学生；PsyPost 的报道没给出显著性检验和效应量。它是一项小规模单点研究，不是定论。但它提醒的那个区别值得每个用 AI 的人分清：这件事，我是想把它做完，还是想把它学会？&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.psypost.org/chatgpt-acts-as-a-cognitive-crutch-that-weakens-memory-new-research-suggests/"&gt;PsyPost 报道&lt;/a&gt;；&lt;a href="https://doi.org/10.1016/j.ssaho.2025.102287"&gt;Social Sciences &amp;amp; Humanities Open 论文&lt;/a&gt;；&lt;a href="https://www.nber.org/papers/w35720"&gt;Autor 等 NBER w35720&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/chatgpt-acts-as-a-cognitive-crutch-that-weakens-memory-new-research-suggests/"&gt;https://www.psypost.org/chatgpt-acts-as-a-cognitive-crutch-that-weakens-memory-new-research-suggests/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.ssaho.2025.102287"&gt;https://doi.org/10.1016/j.ssaho.2025.102287&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nber.org/papers/w35720"&gt;https://www.nber.org/papers/w35720&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e4551488-0476-52c6-b7c3-df24b33acc1e</guid>
+      <pubDate>Fri, 13 Nov 2026 12:14:01 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/chatgpt-acts-as-a-cognitive-crutch-that-weakens-memory-new-research-suggests/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/03/chatgpt.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 死了九个月的教宗被挖出来，穿上祭衣坐上被告席：公元 897 年「尸体审判」，以及教会后来不得不立法禁止审判死人</title>
+      <description>&lt;p&gt;公元 897 年初，罗马拉特兰大殿里坐着一位教宗。他已经死了九个月。&lt;/p&gt;
+
+&lt;p&gt;被审判的是福尔摩苏斯（Formosus），891 年 10 月当选教宗，896 年 4 月 4 日去世。继任者波尼法爵六世在位仅半个月，接着上台的斯德望六世（Stephen VI）做了一件在教会史上独一无二的事：他下令把前任的尸体从坟里挖出来，穿回教宗的全套祭衣，扶上审判席，开庭。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg/640px-Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg" alt="Jean-Paul Laurens 1870 年油画《教宗福尔摩苏斯与斯德望六世》" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Jean-Paul Laurens 1870 年的油画《Le Pape Formose et Étienne VI》，画的正是这场尸体审判。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;为了让程序看起来「合规」，法庭还指派了一名执事站在尸体旁边，替死者回答讯问。可以想象那个场面：检察官质问一具腐坏的躯体，一个年轻执事压着嗓子代为辩解。这场闹剧后来被称为「尸体审判」（Cadaver Synod）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;罪名其实是个技术问题。&lt;/strong&gt;中世纪教会法规定主教不得改换教区——一位主教和他的教区被视为一种类婚姻的终身绑定关系。福尔摩苏斯 864 年成为波尔图（Portus）主教，866 年作为教廷特使出使保加利亚，保加利亚的鲍里斯一世（Boris I）相当喜欢他，想把他留下来当保加利亚总主教。这就触了红线。876 年教宗若望八世以「擅离教区」把他绝罚，878 年才解除，883 年由马里诺一世恢复其波尔图主教职位。而他后来居然当上了教宗——按那条教规，等于从一个教区跳到了罗马。&lt;/p&gt;
+
+&lt;p&gt;所以审判的判决是：福尔摩苏斯的教宗任期自始无效，他主持的一切祝圣、任命统统作废。尸体被剥去祭衣，右手用于祝福的三根手指被砍掉，先草草葬进外国人墓地，随后又被挖出、捆上重物，扔进台伯河。&lt;/p&gt;
+
+&lt;p&gt;但真正的动机在政治。福尔摩苏斯 892 年给斯波莱托的兰伯特加冕，后来却反悔，邀请加洛林家族的阿努尔夫（Arnulf of Carinthia）南下意大利，并在 896 年初阿努尔夫进罗马后为他加冕为皇帝。斯波莱托家族恨他入骨。阿努尔夫随后中风撤军，罗马落回斯波莱托手里——尸体审判就发生在这个权力真空里。传统说法是兰伯特逼宫，不过 Joseph Duhr 1932 年提出的修正意见（898 年拉韦纳会议上兰伯特才追认）如今更被学界接受。&lt;/p&gt;
+
+&lt;p&gt;报应来得很快。尸体被渔夫从台伯河里捞了上来，罗马城里开始流传遗体显灵的传闻，民怨沸腾。897 年夏天，一场暴动把斯德望六世赶下台、关进监狱，七月或八月他在狱中被勒死。同年 12 月，狄奥多禄二世（Theodore II）召开会议宣布尸体审判无效，把福尔摩苏斯重新以教宗祭衣安葬进圣伯多禄大殿。898 年若望九世在罗马和拉韦纳两次会议上再次作废该审判，销毁庭审记录，绝罚七名参与的枢机，并立下一条新规矩：&lt;strong&gt;此后不得审判死人。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;可这事还没完。曾在那场审判中担任法官的塞尔吉乌斯三世（Sergius III）904 年当上教宗后，又召开会议推翻狄奥多禄二世和若望九世的决议，重新确认对福尔摩苏斯的定罪、再次宣告他祝圣过的人全部无效。这在当时制造了一场货真价实的行政灾难——被福尔摩苏斯祝圣的主教，以及被这些主教祝圣的神父，身份全部悬空；有人不得不反复重新受圣。至于「塞尔吉乌斯又把尸体挖出来斩首」的说法，出自 1959 年耶稣会史家 Brusher 的转述，学界对此有分歧，不能当定论。&lt;/p&gt;
+
+&lt;p&gt;还有一个让人起鸡皮疙瘩的细节：斯德望六世在位期间，拉特兰大殿被一场地震严重损坏，由于教廷财政拮据，多年无力修缮，一直拖到塞尔吉乌斯三世才重建。当时的罗马人当然把它解读成天谴。&lt;/p&gt;
+
+&lt;p&gt;最后必须加一句方法论上的提醒：这段故事最主要的原始记载来自克雷莫纳的柳特普兰德（Liudprand of Cremona），成文已是六十年之后，史家普遍认为他把细节渲染得更戏剧化了。砍手指、河里捞尸这类画面有多少属实，无从核验。但审判本身、判决本身、以及若望九世那条「不得审判死人」的禁令，都是会议文献层面站得住的事实——教会得专门立法禁止这件事，本身就说明它真的发生过。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Cadaver_Synod"&gt;https://en.wikipedia.org/wiki/Cadaver_Synod&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Pope_Formosus"&gt;https://en.wikipedia.org/wiki/Pope_Formosus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.britannica.com/biography/Sergius-III"&gt;https://www.britannica.com/biography/Sergius-III&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.avclub.com/in-897-the-pope-dug-up-his-dead-predecessor-and-put-hi-1830087264"&gt;https://www.avclub.com/in-897-the-pope-dug-up-his-dead-predecessor-and-put-hi-1830087264&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">23427ee3-a217-5a0d-a739-5ea02f88c1e4</guid>
+      <pubDate>Fri, 13 Nov 2026 12:15:17 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Cadaver_Synod</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg/640px-Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 黄仁勋辞去英伟达CEO：CFO克雷斯临时接任，一个没有COO、没有现成接班人的公司</title>
+      <description>&lt;p&gt;英伟达周四（11月12日）发布公告：黄仁勋辞去总裁、CEO和董事会成员职务，即刻生效。CFO &lt;strong&gt;科莱特·克雷斯（Colette Kress）&lt;/strong&gt;出任临时CEO，同时继续担任CFO；哈维·琼斯（Harvey C. Jones，1993年起任董事）被任命为公司史上第一任董事长；董事会启动永久CEO的遴选，内外部人选都会考虑。按提交给SEC的8-K，董事会11月11日接受了辞呈。&lt;/p&gt;
+
+&lt;p&gt;这是11月9日那条线的后续。当时我们记下的是单一来源的消息：英伟达董事会据报下令独立调查黄仁勋遭外国情报行动一事。《财富》11月9日的报道把经过补全了：黄仁勋周日（11月8日）承认对妻子不忠，董事会随即宣布调查。《纽约时报》此前报道称，与他有关系的那位女性被美国当局认定为中国情报人员。董事会当时的表态是“没有理由相信国家安全或英伟达机密受到损害”，调查会检视“所有可得信息”。周一英伟达股价一度跌超4%。&lt;/p&gt;
+
+&lt;p&gt;公告本身没有说辞职原因，8-K里也没有把辞职和调查挂钩。把“辞职”写成“被罢免”，目前没有文件支持；《民主现在！》称董事会此前正准备罢免他，这是转述媒体报道，我没有找到第二个独立来源。&lt;/p&gt;
+
+&lt;p&gt;真正让这件事分量重的，是英伟达的权力结构。《财富》的描述：黄仁勋当了33年CEO，公司没有首席运营官，他有大约60个直接下属，也没有首席合规官（2022年9月SEC工作人员曾就董事会风险监督和合规官设置向公司提问）。他持股3.56%，没有超级投票权，但英伟达市值约4.3万亿美元，是全球第二值钱的公司，在AI数据中心GPU市场的份额估计在九成左右。乔治城大学教授杰森·施勒策（Jason Schloetzer）对《财富》的评价很直接：董事会没有提前一两年向市场公开接班计划，现在撞上的是“清算日”，而且是仓促的、可能是被迫的那种，不是平稳交接。&lt;/p&gt;
+
+&lt;p&gt;克雷斯是临时安排，不是继任信号。她手上要同时扛住三件事：财报和供应链的日常运转、股东诉讼（据《民主现在！》，加州联邦法院已有股东起诉英伟达和黄仁勋，指其就这段关系误导投资者），以及特朗普所说的FBI调查。《纽约时报》还报道，特朗普在黄仁勋游说后放宽了对华先进芯片的部分出口限制，并在大约一年前就被告知黄仁勋被“拿捏”的风险——这两点是报纸的说法，白宫没有在我检索到的材料里证实。&lt;/p&gt;
+
+&lt;p&gt;放到本地跟踪的大线索里，这是“AI数据中心政治风险”线最硬的一个新节点。11月5日纳指单日下跌5.52%、欧洲16国发起反数据中心行动、美国多地数据中心禁令（奥克兰市议会周三一致把暂停令延长一年；SpaceX在布朗斯维尔计划的240亿美元数据中心，因为当地新近生效的暂停令，已按公司要求把用地从市区划出）——这些压力原本都来自外部，现在最大的那家供应商连掌舵人也换了。&lt;/p&gt;
+
+&lt;p&gt;接下来要看三件事：永久CEO人选是内部（克雷斯之外还有谁）还是外聘；独立调查的结论会不会公开；下一次季度财报前，市场对“黄仁勋溢价”打多少折。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"&gt;https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"&gt;https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/"&gt;https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/12/headlines"&gt;https://www.democracynow.org/2026/11/12/headlines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">d0754e41-991f-583b-8e24-fdafdad5b33a</guid>
+      <pubDate>Fri, 13 Nov 2026 12:15:40 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2299714527-e1794261800694.jpg?resize=1200,600" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 范霍伦宣布挑战舒默：12月1日闭门投票，桑德斯和埃尔-赛义德站他，金和科尔特斯·马斯托站舒默</title>
+      <description>&lt;p&gt;马里兰州联邦参议员克里斯·范霍伦（Chris Van Hollen）周四宣布，他将挑战舒默，竞争参议院民主党团领袖。党团闭门投票定在&lt;strong&gt;12月1日&lt;/strong&gt;。CNN的说法是“处于劣势的挑战”——舒默仍被认为是大热门——但表态很快就分成了两边。&lt;/p&gt;
+
+&lt;p&gt;挺舒默的：缅因州独立参议员安格斯·金（Angus King）发声明说，舒默是“现代史上最成功的一次选举的主要设计者之一”，并反问“你刚拿了世界大赛冠军，为什么要炒掉教练？”内华达州的凯瑟琳·科尔特斯·马斯托（Catherine Cortez Masto）说舒默帮民主党翻了8个参议院席位、“很快是9个”，她会投舒默。&lt;/p&gt;
+
+&lt;p&gt;挺范霍伦的：即将就任的密歇根参议员阿卜杜勒·埃尔-赛义德（Abdul El-Sayed）说，4月他就公开呼吁范霍伦出来竞选党团领袖；伯尼·桑德斯（Bernie Sanders）发文表示支持，理由是选民要的是一个“敢对抗特殊利益集团、敢对付亿万富翁阶层”的民主党。这也把我们之前记下的单一来源消息——桑德斯不支持舒默——落到了实处。&lt;/p&gt;
+
+&lt;p&gt;范霍伦这个时间点选得有讲究：他这周早些时候已经公开批评舒默和民主党参议院竞选委员会（DSCC）。据《民主现在！》引述他的话，埃尔-赛义德（密歇根）和特洛伊·杰克逊（缅因）在初选中没有得到舒默和DSCC的支持，两人后来都赢了大选；他的说法是，这两位参议员“如果按舒默和DSCC的意愿，今天就不会坐在那个房间里”，并指责他们在初选里站在了加密货币业和AIPAC一边。这是范霍伦一方的陈述，舒默阵营的回应我没有找到。CNN还提到范霍伦对2028年总统选举表达过兴趣。&lt;/p&gt;
+
+&lt;p&gt;数字上，舒默的牌其实不差：民主党参议院席位现在是55席（科利姆周三赢下密西西比，阿拉斯加还没定），这是他带队打出来的，党团投票是秘密投票，需要民主党参议员的简单多数。但从目前公开表态的几位看，党团内部分歧不小，真正的票数要到12月1日才见分晓。&lt;/p&gt;
+
+&lt;p&gt;同一天，众议院那边也不太平。《民主现在！》报道，周二有11名民主党人没有出席一次程序性表决（部分人据说是参加“选举民主党女性”超级PAC活动后遇上堵车），结果众议院以微弱差距没能推进赫格塞思弹劾案——这指的就是11月10日那次211比204的投票，我们11月11日那条已经写过结果。当选众议员唐·伦纳德（Don Leonard，俄亥俄州）说，他向资深民主党人提出支持杰弗里斯当议长的两个条件：就推翻“公民联合”案的宪法修正案投票、终止对伊朗战争和对以色列的援助；他称对方威胁要让他“生不如死”。这是他个人的说法，党内资深人士没有公开回应。&lt;/p&gt;
+
+&lt;p&gt;放在一起看：民主党拿下两院以后，党内的第一场硬仗不是对共和党，而是参众两院各自的领导层。12月1日是第一个节点，舒默要么靠胜利的功劳压住场面，要么有人开始数票。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/11/12/politics/live-news/trump-congress"&gt;https://www.cnn.com/2026/11/12/politics/live-news/trump-congress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/12/headlines"&gt;https://www.democracynow.org/2026/11/12/headlines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">eaec5e56-87ee-501a-a385-df4cee88676d</guid>
+      <pubDate>Fri, 13 Nov 2026 12:15:40 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnn.com/2026/11/12/politics/live-news/trump-congress</link>
+      <enclosure url="https://media.cnn.com/api/v1/images/stellar/prod/senate-20261113011231612.jpg?c=16x9&amp;q=h_540,w_960,c_fill" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 特朗普一天三种说法：战争“暂停”、不需要和德黑兰谈、政权不倒就是失败；12月11日拨款线成了反战杠杆</title>
+      <description>&lt;p&gt;周三退伍军人节，特朗普在阿灵顿国家公墓说伊朗战争“暂时按下暂停”，美国“已经赢了”（《民主现在！》转述）。周四，他在两场访谈和一条社交媒体帖子里又换了三种说法。把这几句并排放在一起，才看得出白宫对这场仗现在到底怎么想。&lt;/p&gt;
+
+&lt;p&gt;据CNN整理，周四的几点是：他对休·休伊特（Hugh Hewitt）说，如果“伊朗疯子们”在他任期结束时还掌权，那“绝对是失败”；被问到如果伊朗杀了美国官员、比如财政部长贝森特，他回答“他们将不复存在”。在另一场对斯蒂芬·A·史密斯（Stephen A. Smith）的访谈里，他说只要打击伊朗的能源设施和制造业，几天就能制服伊朗——评论人士指出，如果这些目标只用于民用，就可能构成战争罪。同时他发帖说美国“不需要”和德黑兰达成协议，并让副总统万斯把注意力转到别处。&lt;/p&gt;
+
+&lt;p&gt;“暂停”“不需要协议”“不倒就算输”——这三句没法同时成立。如果战争已经赢了，没有理由把政权存续当成成败标准；如果不需要协议，又为什么在11月9日卢比奥还在公开谈伊朗条件“离谱而且荒唐”、美方两阶段方案还在桌上。这也是我们跟踪这条线半年来的一贯模式：口径随当天听众变，政策层面的实际动作（海军封锁、制裁）倒是比较稳定。&lt;/p&gt;
+
+&lt;p&gt;另一个同日披露的细节是安保。CNN和《民主现在！》都报道，贝森特本周从华盛顿的住所搬到了一处美军基地，原因是据称来自伊朗的人身威胁。贝森特是这场仗里的“经济战”主角：8月24日财政部启动“经济放逐行动”（Operation Economic Outcast），对伊朗的银行通道和第三国贸易伙伴实施二级制裁。具体威胁的来源和性质，官方没有公开细节。&lt;/p&gt;
+
+&lt;p&gt;特朗普还承认了共和党在中期选举里的惨败和战争有关：CNN转述，他说败选既有候选人太差的原因，也有选民对物价的担忧，同时又说对因为战争而投票反对共和党的人“失望”，称更高的成本是阻止伊朗拥核的“小代价”。&lt;/p&gt;
+
+&lt;p&gt;这些话要在国会里兑现成立法条件，窗口很窄：联邦政府的临时拨款到&lt;strong&gt;12月11日&lt;/strong&gt;到期。范霍伦近日说，不应该继续给伊朗战争拨款，“如果特朗普想告诉全国他要为了继续这场非法战争让整个政府关门，那是他的决定”。进步派民主党人正在推动一项持续决议案（CR），禁止五角大楼把资金用于对伊朗的作战行动。民主党要到明年1月才接管国会，这个条款在现有国会里怎么过、民主党领导层愿不愿意拿关门去赌，我没有看到两党领导层的公开表态。&lt;/p&gt;
+
+&lt;p&gt;要盯的两件事：12月11日前共和党领导层有没有愿意加入的反战条款；以及特朗普那条“不需要协议”的帖子之后，卢比奥的两阶段方案渠道还在不在。这个方案此前只有单一来源，我也没有看到伊朗的新回应。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/11/12/politics/live-news/trump-congress"&gt;https://www.cnn.com/2026/11/12/politics/live-news/trump-congress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/12/headlines"&gt;https://www.democracynow.org/2026/11/12/headlines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://jewishinsider.com/2026/08/bessent-operation-economic-outcast-iran-economy-treasury-sanctions/"&gt;https://jewishinsider.com/2026/08/bessent-operation-economic-outcast-iran-economy-treasury-sanctions/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b6d0b926-f91f-5699-a665-3f8305162d41</guid>
+      <pubDate>Fri, 13 Nov 2026 12:15:40 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnn.com/2026/11/12/politics/live-news/trump-congress</link>
+      <enclosure url="https://media.cnn.com/api/v1/images/stellar/prod/01-gettyimages-2302155357.JPG?c=16x9&amp;q=w_800,c_fill" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 民主党20年来首次拿下阿拉斯加州长；参议院那一席：佩尔托拉领先约4,000票，11月18日才出排序选择结果</title>
+      <description>&lt;p&gt;CNN周四晚间预测，民主党人乔纳森·克赖斯-汤姆金斯（Jonathan Kreiss-Tomkins）将赢得阿拉斯加州长选举，成为&lt;strong&gt;二十年来第一位当选的民主党籍州长&lt;/strong&gt;。他是锡特卡人，前州众议员，竞选主题是物价、医保覆盖和渔业。对手是三位共和党人，选票被分散；夏季“前四名”初选里与他一同晋级的另一位民主党人后来退出，帮他集中了票源。决赛阶段他拿到了阿拉斯加资深共和党参议员穆尔科斯基（Lisa Murkowski）的跨党派背书。&lt;/p&gt;
+
+&lt;p&gt;同日，CNN还预测堪萨斯州民主党人辛迪·霍尔舍（Cindy Holscher）击败特朗普支持的共和党人泰·马斯特森（Ty Masterson）。两州加进来，民主党将持有30个州长职位，共和党20个；宣誓就职后，大约75%的美国人将生活在民主党州长治下。&lt;/p&gt;
+
+&lt;p&gt;州长席位是这轮阿拉斯加结果里的新事实。参议院那一席则还没定，而且数字已经开始有出入。&lt;/p&gt;
+
+&lt;p&gt;阿拉斯加新闻日报（ADN）报道，周二（11月10日）晚新一批计票后，累计选票超过24.5万张，比前一次更新多出约2.5万张。佩尔托拉（Mary Peltola）拿到118,926张第一选择票（49%），现任共和党参议员沙利文（Dan Sullivan）114,676张（47.2%），差距&lt;strong&gt;4,250票&lt;/strong&gt;，比周一的2,517票又拉开了约1,700票。共和党人杰拉德·海克斯（Gerald Heikes）得5,318票（2.2%），退休教师、与现任参议员同名的丹·J·沙利文（Dan J. Sullivan）得4,027票（1.7%）。&lt;/p&gt;
+
+&lt;p&gt;之后的数字就对不上了。《民主现在！》说佩尔托拉周三又扩大了领先，约15%的选票尚未计入；另一份检索摘要（援引The Hill）称某次更新后差距从4,250缩小到3,975，增量主要来自偏保守的马特苏地区。我没有找到阿拉斯加选举局周三的官方汇总，所以最稳妥的说法是：佩尔托拉领先约4,000票，上下浮动，仍有数万张早期票和缺席票未计入。数字请以选举局网站为准。&lt;/p&gt;
+
+&lt;p&gt;为什么还要等到11月18日？阿拉斯加用排序选择投票。如果最终没人过半，得票最少的候选人被淘汰，其选票按第二选择重新分配，直到有人过50%。海克斯和同名的沙利文很可能先后被淘汰，他们的选票流向会成为变量。Alaska Beacon此前的初步测算曾显示，排序选择后沙利文占优；但据报道，周一的更新之后佩尔托拉的第一选择领先已经大到足以抵消这一点。这一说法来自二手摘要，我没有读到原文。&lt;/p&gt;
+
+&lt;p&gt;另外三件事会影响时间表：官方认证预计在11月25日；佩尔托拉竞选团队上周向州政府提起诉讼，要求公开被拒绝的缺席选票数据，可能在安克雷奇高等法院开庭；联邦法官此前驳回了司法部提出的、阻止在共和党现任败选时认证阿拉斯加参议院选举的诉讼，司法部表示会上诉。&lt;/p&gt;
+
+&lt;p&gt;在这个席位尘埃落定前，民主党参议院席位数是55（密西西比之后），佩尔托拉赢的话是56。11月13日密西西比认证、11月18日阿拉斯加排序选择计票，是下一个要看的两个节点。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnn.com/2026/11/12/politics/live-news/trump-congress"&gt;https://www.cnn.com/2026/11/12/politics/live-news/trump-congress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.adn.com/politics/2026/11/10/peltola-adds-to-lead-over-sullivan-after-large-batch-of-ballots-drop-but-alaskas-senate-race-is-still-tight/"&gt;https://www.adn.com/politics/2026/11/10/peltola-adds-to-lead-over-sullivan-after-large-batch-of-ballots-drop-but-alaskas-senate-race-is-still-tight/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.adn.com/politics/2026/11/09/mary-peltola-inches-further-ahead-of-sen-sullivan-in-alaskas-senate-race/"&gt;https://www.adn.com/politics/2026/11/09/mary-peltola-inches-further-ahead-of-sen-sullivan-in-alaskas-senate-race/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://thehill.com/homenews/campaign/6215353-mary-peltola-dan-sullivan-alaska-senate-race-update/"&gt;https://thehill.com/homenews/campaign/6215353-mary-peltola-dan-sullivan-alaska-senate-race-update/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.democracynow.org/2026/11/12/headlines"&gt;https://www.democracynow.org/2026/11/12/headlines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3cb697c1-4baa-5e8b-a415-7ada5aebecfe</guid>
+      <pubDate>Fri, 13 Nov 2026 12:15:40 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnn.com/2026/11/12/politics/live-news/trump-congress</link>
+      <enclosure url="https://www.adn.com/resizer/v2/LMPMEJUYGJAWVIHUJ73EURBFVI.JPG?smart=true&amp;auth=0f00f917ff34cff8911ffeaa1c7740372e7e5f113f48bba0b0a53f0c5c8f68dc&amp;width=1200&amp;height=630" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一道「五个点里必有凸四边形」的小题，让两位数学家结了婚，也让第四个答案等了七十一年：圆满结局问题</title>
+      <description>&lt;p&gt;数学史上有一个问题，名字叫「圆满结局问题」（Happy Ending Problem）。它得名的理由跟数学毫无关系：解这道题的两个人结婚了。&lt;/p&gt;
+
+&lt;p&gt;1933 年的布达佩斯，一群犹太裔年轻人常在公园和咖啡馆聚会做数学。其中有 23 岁的埃丝特·克莱因（Esther Klein），还有后来成为二十世纪最高产数学家的保罗·埃尔德什（Paul Erdős）和乔治·塞凯赖什（George Szekeres）。某天克莱因抛出一个她自己已经证好的小结论：&lt;strong&gt;平面上任取五个点，只要没有三点共线，其中必定有四个点构成一个凸四边形。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2017/05/CupsCapsConstellations_2880x1613_01.jpg" alt="Quanta Magazine 为「圆满结局问题」制作的点集与凸多边形示意插画" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;五个点里一定藏着一个凸四边形——克莱因 1933 年的小发现，开启了整个凸多边形计数问题。插画：Olena Shmahalo / Quanta Magazine&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这个结论用穷举就能验证，听起来像一道竞赛题。但克莱因紧接着问了一句要命的话：那么凸五边形需要几个点？凸六边形呢？凸 n 边形呢？&lt;/p&gt;
+
+&lt;p&gt;埃尔德什和塞凯赖什被这个问题缠住了。1935 年两人发表了一篇论文，里面引入了一个叫「杯」（cup）和「帽」（cap）的构造——杯是开口朝上的 u 形点列，帽是开口朝下的 n 形点列，把一个杯和一个帽粘在一起就得到凸多边形。他们证明了凸 n 边形一定会在大约 4^n 个点中出现，同时给出猜想：真正需要的最小点数应该是 &lt;strong&gt;2^(n−2) + 1&lt;/strong&gt;。n=4 代入得 5，n=5 得 9，都对得上。埃尔德什后来为这个猜想悬赏 500 美元。&lt;/p&gt;
+
+&lt;p&gt;更重要的是，他们在这篇论文里重新发现了拉姆齐理论（Ramsey theory）——英国人 Frank Ramsey 几年前刚提出、还没什么人知道的那套「足够大的混乱里必然藏着秩序」的思想。这场冷门的夏日散步题，后来成了组合几何整整一个分支的起点。&lt;/p&gt;
+
+&lt;p&gt;至于那个「圆满结局」：克莱因和塞凯赖什在讨论这道题的过程中相爱，1937 年 6 月 13 日结婚。给这个问题起名的正是埃尔德什本人，他最初叫它 "happy end problem"。&lt;/p&gt;
+
+&lt;p&gt;然后就是漫长的战争。作为犹太人，这对夫妇为躲避纳粹迫害逃到上海，在那里度过战争年代，第一个孩子也在上海出生。1948 年他们移居澳大利亚，塞凯赖什后来做到澳大利亚数学会主席，克莱因在悉尼的麦考瑞大学教书。&lt;/p&gt;
+
+&lt;p&gt;而那道题几乎卡住了七十年。在 2006 年之前，人类知道的全部确切答案只有三条：三角形 3 个点、四边形 5 个点、五边形 9 个点（8 个点可以避开）。&lt;strong&gt;第四条答案直到 2006 年才补上&lt;/strong&gt;：塞凯赖什和 Lindsay Peters 用计算机穷举证明，17 个点必出凸六边形，16 个点可以躲掉。这篇论文发表在塞凯赖什去世之后。&lt;/p&gt;
+
+&lt;p&gt;——而他的去世本身就是一个故事。2005 年夫妇俩住进阿德莱德的养老院，同年 8 月 28 日，两人在相隔不到一小时内先后离世。认识他们七十二年的埃尔德什已经于 1996 年去世了。&lt;/p&gt;
+
+&lt;p&gt;凸七边形需要多少个点？至今无人知道。按猜想应该是 33，但没人能证明，计算机也算不动：搜索空间随点数爆炸式增长。&lt;/p&gt;
+
+&lt;p&gt;最接近的突破来自 2016 年。当时在伊利诺伊大学芝加哥分校的 Andrew Suk 发表了一篇后来刊于《Journal of the American Mathematical Society》(2017) 的论文，把上界从 4^n 一口气压到 2^(n+o(n))——和猜想的 2^(n−2)+1 只差一个低阶项。他的办法是用拉姆齐理论先把点集切成围绕凸包排布的「尖刺」（spikes），再在每根尖刺内部用 Dilworth 定理找链或反链，最后靠鸽巢原理把所有情况逼进两种构型之一。关键在于他从不移动点。埃尔德什的合作者 Ronald Graham 的评价是：「非常聪明，非常初等，这是埃尔德什和塞凯赖什自己当年就能做出来的东西。」Suk 的导师 János Pach 则说：「我想埃尔德什和塞凯赖什会非常高兴地发现，他们当年确实走在正确的路上。」&lt;/p&gt;
+
+&lt;p&gt;那 500 美元悬赏至今无人领取。而这一切的起点，不过是 1933 年一个 23 岁姑娘在公园里随口问的一句：那五边形呢？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/a-puzzle-of-clever-connections-nears-a-happy-end-20170530/"&gt;https://www.quantamagazine.org/a-puzzle-of-clever-connections-nears-a-happy-end-20170530/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/how-the-happy-ending-problem-launched-a-new-branch-of-math-and-a-romance/"&gt;https://www.scientificamerican.com/article/how-the-happy-ending-problem-launched-a-new-branch-of-math-and-a-romance/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/1604.08657"&gt;https://arxiv.org/abs/1604.08657&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Happy_ending_problem"&gt;https://en.wikipedia.org/wiki/Happy_ending_problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">cb294bb4-4947-51c4-8167-c203549c84e0</guid>
+      <pubDate>Fri, 13 Nov 2026 12:15:51 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.quantamagazine.org/a-puzzle-of-clever-connections-nears-a-happy-end-20170530/</link>
+      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2017/05/CupsCapsConstellations_2880x1613_01.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 1937 年算出来的一种大气波，等了 85 年才被一座火山炸出来：汤加喷发与首次探测到的 Pekeris 共振</title>
+      <description>&lt;p&gt;1937 年，物理学家 Chaim Leib Pekeris 从方程里推出：地球大气应该存在第二种全球共振波。它比著名的兰姆波（Lamb wave）慢大约两成，而且在平流层下部会出现 180° 的相位反转。此后八十五年，没有任何人在真实大气里看到过它。&lt;/p&gt;
+
+&lt;p&gt;2022 年 1 月 15 日，汤加的 Hunga 火山爆发，终于把它炸了出来。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.jamstec.go.jp/e/about/press_release/20220912/img/image001.jpg" alt="葵花 8 号卫星 9.6 微米波段亮温差分图，可见两圈同心波前" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;葵花 8 号（Himawari-8）9.6 μm 波段的 10 分钟亮温差分图，喷发约 4 小时后。快的那圈是兰姆波，慢的那圈就是 Pekeris 波。图：JAMSTEC&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先说更有名的那一半。兰姆波由 Horace Lamb 在 1911 年提出，是一种贴着地面传播、几乎不衰减的大气压力波，历史上在 1883 年喀拉喀托火山、1908 年通古斯事件和核试验后都被记录到过。Hunga 这次产生的兰姆波以约 315 m/s（大致等于音速）向外扩散，&lt;strong&gt;沿一个方向绕地球跑了四圈，反方向跑了三圈，持续六天&lt;/strong&gt;——这是自喀拉喀托以来火山造成的最强大气波动，量级与 1883 年相当。加州大学圣巴巴拉分校的 Robin Matoza 等人把这些观测写成论文发在《Science》(doi: 10.1126/science.abo7063)。波动还一路顶进电离层，以时速超过 1,100 公里爬升到约 450 公里高度。约一万公里外的阿拉斯加有人听到了反复的轰鸣，不过作者认为这些可闻声并非直接从火山口传来，更可能是传播路径上的非线性效应产生的。&lt;/p&gt;
+
+&lt;p&gt;真正的新发现是慢的那一圈。JAMSTEC 的渡边真吾、中野满寿男，夏威夷大学的 Kevin Hamilton 和京都大学的坂崎贵俊，在葵花 8 号气象卫星 9.6 μm 波段（对臭氧和平流层温度敏感）的亮温数据里，看到兰姆波之外还有一圈速度约 &lt;strong&gt;245 m/s&lt;/strong&gt; 的独立波前。这正是 Pekeris 1937 年预言的那个值。&lt;/p&gt;
+
+&lt;p&gt;他们接着用 JAGUAR 全中性大气高分辨率模式（水平 ~5 km、垂直 ~300 m）做了模拟，复现出的压力扰动在垂直结构上确实带着理论预言的平流层下部 180° 相位反转。地面数据同样对得上：Weathernews 提供的 SORATENA 气压计阵列约 1,600 个站点、一分钟采样，兰姆波在最初 20 分钟把气压抬高约 2 hPa，而 Pekeris 波约两小时后抵达，在十来分钟里让气压&lt;em&gt;下降&lt;/em&gt;约 0.1–0.2 hPa——幅度只有兰姆波的百分之几，这正是它躲了八十五年的原因。&lt;/p&gt;
+
+&lt;p&gt;两者的物理差别在于能量被关在哪里。兰姆波是沿地表传播的外部模态，Pekeris 波则是内部模态，能量被捕获在对流层顶和中间层顶之间来回反射，所以它在高层平流层振幅大、在地面上微弱得几乎读不出来。&lt;/p&gt;
+
+&lt;p&gt;论文最漂亮的一步是最后那个反转：既然这是大气的固有共振模态，它就不该只在火山爆发时出现。作者翻出 1950–2016 共 67 年的逐小时地表气压再分析资料，取南北纬 20° 之间，做纬向波数 1 和 2 的功率谱——结果在 Pekeris 和兰姆波预言的频率附近都有谱峰。&lt;strong&gt;换句话说，这种共振一直在地球大气里安静地响着，只是没有一次火山把它敲得足够响。&lt;/strong&gt;论文 2022 年 9 月 12 日发表于《Journal of the Atmospheric Sciences》。&lt;/p&gt;
+
+&lt;p&gt;作者还提出一个尚未证实的可能：Hunga 喷发后日本沿岸出现的异常海面变化，或许有 Pekeris 波引起的气压变化的一份贡献。此前 Kubota 等人已在《Science》上论证兰姆波驱动了跑在地震海啸前面的快速海啸——汤加喷发后约一小时，远比地震海啸早到的那波水位扰动。&lt;/p&gt;
+
+&lt;p&gt;这条冷知识里最让人恍惚的部分，是时间尺度：一个人在 1937 年用纸笔算出一种波应该存在，自己没能看到，整整一代大气物理学家也没能看到；直到 2022 年，一座南太平洋的火山、一颗日本气象卫星和 1,600 台自动气压计凑在一起，才把那张八十五年前的草稿纸上的数字——245 米每秒——核对成真。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.jamstec.go.jp/e/about/press_release/20220912/"&gt;https://www.jamstec.go.jp/e/about/press_release/20220912/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1175/JAS-D-22-0078.1"&gt;https://doi.org/10.1175/JAS-D-22-0078.1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.science.org/doi/10.1126/science.abo7063"&gt;https://www.science.org/doi/10.1126/science.abo7063&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.futurity.org/hunga-tonga-volcano-atmospheric-waves-2741852/"&gt;https://www.futurity.org/hunga-tonga-volcano-atmospheric-waves-2741852/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">cbaaed47-9133-5841-b845-beba3eed29d8</guid>
+      <pubDate>Fri, 13 Nov 2026 12:16:24 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.jamstec.go.jp/e/about/press_release/20220912/</link>
+      <enclosure url="https://www.jamstec.go.jp/e/about/press_release/20220912/img/image001.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 把你半个大脑麻醉掉，再跟剩下那半个聊天：和田试验，一项 1948 年起沿用至今的「关机检查」</title>
+      <description>&lt;p&gt;有一种至今仍在用的临床检查，做法是：给你的一侧大脑注射麻醉剂，让半个脑子睡过去，另外半个保持清醒，然后医生跟清醒的那半个说话。&lt;/p&gt;
+
+&lt;p&gt;这叫和田试验（Wada test），全称颈内动脉异戊巴比妥试验。它不是思想实验，是癫痫外科术前评估的标准流程之一，全世界做了几十年。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.the-scientist.com/assets/articleNo/30208/iImg/1230/wada-scaled.jpg" alt="1970 年代初，神经科医生在给患者做改良版和田试验" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1970 年代初，现任职 UCLA 的资深神经科医生 Rebecca Rausch 在执行改良版和田试验。图：The Scientist&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;发明者和田淳（Juhn Atsushi Wada）1940 年代在北海道念医学院，那时的日本连「神经科」这个科室都还没有。毕业后他研究电休克疗法——当时用于重度抑郁和精神分裂症的主流手段，副作用是损伤语言和记忆。和田的思路很直接：既然语言和记忆主要住在某一侧半球，那就在电击前把那一侧麻醉掉，让它躲过这一下。这个想法当时被骂得很惨。&lt;/p&gt;
+
+&lt;p&gt;1948 年他等来了第一个病人：一个在美军基地做饭的年轻厨子，被一名喝醉的士兵用枪打中头部——那士兵本来想打掉他的帽子——此后癫痫反复发作，药物无效。走投无路之下，厨子同意让他试试。和田把巴比妥类药物注入只供应左半球的那条动脉，发作被控制住了。副作用立刻显现：病人暂时完全失去了语言能力，对侧肢体也瘫了。和田自己的记录里写道，当时「一阵阵寒意从脊背上下窜」。&lt;/p&gt;
+
+&lt;p&gt;后来他在蒙特利尔神经学研究所做访问学者，把这项技术介绍给了 Brenda Milner 等人——就是后来研究失忆症病人 H.M. 的那位 Milner。她的团队把它改造成了&lt;strong&gt;术前语言和记忆定侧&lt;/strong&gt;的工具：在单侧颞叶切除之前，先确认语言中枢在哪一侧、另一侧的海马能否独自支撑记忆。有神经心理学家主张这个检查应该改名叫「Wada-Milner 试验」。&lt;/p&gt;
+
+&lt;p&gt;实际过程比描述更荒诞。药物通常经股动脉插管送入一侧颈内动脉，患者全程清醒，脑电图确认该侧半球确实「关机」。如果关掉的是优势半球，病人会突然说不出话——注射优势半球后恢复出的语言往往还带着失语的错误。一个经常被提到的细节是：&lt;strong&gt;有些患者说不出话，却还能唱歌。&lt;/strong&gt;对侧偏瘫、半侧忽视、发抖都很常见，去抑制（突然变得话多、情绪外放）也很常见，严重人格改变则罕见。药效只维持几分钟，神经心理学家必须抢在这几分钟里把图片给病人看完，再等药退了问他记不记得。&lt;/p&gt;
+
+&lt;p&gt;这项检查顺手回答了一个大众最爱问错的问题：语言到底在左脑还是右脑？Bernal 和 Ardila 汇总 1,799 例和田试验的数据给出的答案是，&lt;strong&gt;约 10% 的右利手和约 27% 的左利手（含双利手）的语言功能由两侧半球共同支撑&lt;/strong&gt;。其他研究估计一般人群中语言非典型侧化（右侧或双侧）在右利手约 4–7.5%，左利手可高达 22%。所以「左利手语言在右脑」是个流行的误读——绝大多数左利手的语言仍在左脑，只是双侧化的比例明显更高。&lt;/p&gt;
+
+&lt;p&gt;各家医院的具体操作差异很大，这让不同中心的结果难以互相比较，也是这项检查一直被诟病的地方。更要命的是它有创：插管造影本身带风险。所以 fMRI、经颅磁刺激、脑磁图、近红外光谱都在争着取代它。fMRI 在语言定侧上与和田试验吻合度已经很高——但两种方法分歧最大的恰恰是双侧语言的那批人，也就是最需要问清楚的那批人。&lt;/p&gt;
+
+&lt;p&gt;所以这项技术至今没有被完全淘汰。七十多年前，北海道一个年轻医生为了给一个被醉汉误伤的厨子止住抽搐，把半个人脑暂时关掉；今天在神经外科的手术排期表上，这项操作还写在那里。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.the-scientist.com/the-wada-test-1948-30208"&gt;https://www.the-scientist.com/the-wada-test-1948-30208&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Wada_test"&gt;https://en.wikipedia.org/wiki/Wada_test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bps.org.uk/research-digest/where-language-located-brain"&gt;https://www.bps.org.uk/research-digest/where-language-located-brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3649863/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC3649863/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">62dadd6f-7992-5f80-bce5-3c45efaf6068</guid>
+      <pubDate>Fri, 13 Nov 2026 12:16:57 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.the-scientist.com/the-wada-test-1948-30208</link>
+      <enclosure url="https://cdn.the-scientist.com/assets/articleNo/30208/iImg/1230/wada-scaled.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 用棘轮把分子乱撞整流成单向旋转，为什么造不出永动机？正确答案不是摩擦力——是「你的棘爪也是热的」</title>
+      <description>&lt;p&gt;设计一台永动机，最漂亮的方案长这样：把一个极小的桨叶放进气体里，分子随机撞击它，桨叶就会随机左右乱转；再用一根轴把桨叶连到一个棘轮上，棘轮配一个弹簧压住的棘爪，只允许单向转动。于是随机的乱撞被「整流」成单向旋转，可以拿来吊起一个重物——热运动凭空变成了功。&lt;/p&gt;
+
+&lt;p&gt;这台机器哪里出了问题？答案比大多数人的第一反应要刁钻得多。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Feynman_ratchet.png" alt="费曼棘轮示意图：左侧桨叶浸在气体中，通过轴连接右侧的棘轮与弹簧棘爪" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;费曼棘轮（Feynman ratchet）：左边是浸在温度 T₁ 气体中的桨叶，右边是温度 T₂ 的棘轮与棘爪。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;多数人会去挑摩擦力的毛病。但摩擦只会让机器效率低，不会在原理上禁止它——而热力学第二定律要求的是原理上不可能。真正的答案由 Marian Smoluchowski 在 1912 年明斯特的一次会议报告上给出：&lt;strong&gt;棘爪也是泡在同一个温度里的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;棘爪本身足够小，小到它也会做布朗运动。它会时不时自己弹起来，这一瞬间棘轮就可以往回转一格。更微妙的是，弹簧压在棘齿斜面上的那个力，本身就有一个把棘轮往反方向推的分量。于是：当棘爪温度 T₂ 等于气体温度 T₁ 时，正向成功和反向打滑的概率恰好抵消，长时间平均下来净转动为零。机器会抖，但不会走。&lt;/p&gt;
+
+&lt;p&gt;理查德·费曼在 1962 年 5 月 11 日的加州理工课堂上讲了这个装置（收录于《费曼物理学讲义》第一卷第 46 章），他用麦克斯韦-玻尔兹曼分布做了定量分析，这台机器从此在全世界叫做「费曼棘轮」。顺带一提，更早把棘轮棘爪当成违反第二定律的装置来讨论的是 Gabriel Lippmann，时间是 1900 年。&lt;/p&gt;
+
+&lt;p&gt;真正有意思的是下一步：&lt;strong&gt;如果让棘爪比气体更冷呢？&lt;/strong&gt;那它就真的会转，而且真的能做功——只不过能量来自温差，棘爪把废热排进冷端，这就是一台如假包换的微型热机，完全符合第二定律。反过来如果棘爪更热，机器会朝相反方向转。换句话说，这台「永动机」只要你给它一个温差，它立刻变成一台正常的发动机；你不给，它就一动不动。整流本身从来不是免费的。&lt;/p&gt;
+
+&lt;p&gt;还有一个后续，连费曼自己都没躲过。1996 年 Juan M. R. Parrondo 和 Pep Español 指出：费曼的结论没错，但他的分析过程有问题——他错误地使用了准静态近似，由此推出的效率公式是不对的。1998 年 Magnasco 和 Stolovitzky 对整个装置做了完整分析，结论是它的实际功率远低于费曼暗示的卡诺效率。一个被写进教科书、被讲了半个多世纪的经典例子，正确答案是对的，推导却是错的。&lt;/p&gt;
+
+&lt;p&gt;电学上有一个完全对应的版本。既然二极管只让电流单向通过，那把二极管接在一个电阻上，是不是就能把电阻的热噪声（约翰逊噪声）整流成直流电、然后免费发电？Léon Brillouin 1950 年提出过这个思路。答案同样是不行：二极管内部的热涨落产生的反向电流恰好把净电流抵消掉。只要二极管和电阻同温，电表指针就是不动。&lt;/p&gt;
+
+&lt;p&gt;而这个「失败」的模型后来生出了一整个活跃领域。布朗马达（Brownian motor）研究的正是：既然单靠热噪声不行，那么&lt;strong&gt;把系统推离平衡态&lt;/strong&gt;——比如提供化学势差、周期性外力或非热涨落——就可以从随机运动中稳定地提取定向功。细胞里的驱动蛋白（kinesin）沿微管单向行走，靠的就是 ATP 水解提供的非平衡条件，而不是热运动本身。费曼棘轮的失败，恰恰告诉了生物学家马达必须在什么条件下工作。&lt;/p&gt;
+
+&lt;p&gt;所以下次有人拿「用棘轮整流分子碰撞」来推销永动机，正确的反驳不是「有摩擦」，而是一句更短的：&lt;strong&gt;你的棘爪也是热的。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Brownian_ratchet"&gt;https://en.wikipedia.org/wiki/Brownian_ratchet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.feynmanlectures.caltech.edu/I_46.html"&gt;https://www.feynmanlectures.caltech.edu/I_46.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/cond-mat/0010237"&gt;https://arxiv.org/abs/cond-mat/0010237&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/1703.07882"&gt;https://arxiv.org/abs/1703.07882&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">08932928-f680-5ad8-a23e-9b3c72878d4a</guid>
+      <pubDate>Fri, 13 Nov 2026 12:17:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Brownian_ratchet</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/e/ed/Feynman_ratchet.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 The Official Digital Fairness Act Goes Beyond the Dark-Pattern List: Agent Checkout Modes, Two-Button Cancellation, and Discoverable A/B Tests / 正式版《数字公平法》不止暗黑模式清单：智能体下单模式、两步退订按钮，A/B 测试也可能被要求披露</title>
+      <description>&lt;p&gt;Following up on the November 11 reading of the leaked draft: the European Commission formally adopted the Digital Fairness Act on November 11, and the official proposal carries the same number as the leak, &lt;a href="https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en"&gt;COM(2026) 1100 final&lt;/a&gt; (procedure 2026/0356 COD). The structure the leak described holds up. Article 10(1) bans any interface "likely to deceive or manipulate consumers," Article 10(2) points to a per-se blacklist in Part III of Annex I, and Article 10(3) lets the Commission add patterns by delegated act. I could read the 70-page proposal, but the Commission's server would not serve the annex PDF, so I can't yet confirm that the ten blacklisted patterns survived word for word. Everything below comes from the proposal text itself, not from press summaries.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt572cf99b0373d4f7/6af4a0b24316a662dde9f579/berlaymont-flags-sky-eu-021126.jpg" alt="EU flags in front of the Berlaymont building, the European Commission headquarters in Brussels" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The Commission adopted the DFA together with a Simplification Directive and a revision of the CPC enforcement regulation. Photo via IAPP.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Last week's entry covered the dark-pattern list. This one is about the parts designers haven't read yet, which turn out to be more concrete than the blacklist.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agent checkout gets a mandatory onboarding screen.&lt;/strong&gt; Article 26 covers "automated systems" that sign contracts for a consumer, which in practice means shopping agents. On first use, the consumer must explicitly pick one of three modes: (a) confirm every purchase, (b) confirm only purchases matching criteria they set, "including a maximum price and a time limit," or (c) no confirmation at all. The choice has to be confirmed on a durable medium, stay editable at any time, and confirmation screens must show the core pre-contract information. The agent must also disclose any payment it receives for proposing a contract. Most agent UIs right now ship one hard-coded autonomy level. Under this text that becomes a required, user-chosen setting with a spend cap. It's the same intent-preview pattern behind Adobe's Plan Mode, written into law.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The cancel flow is specified down to the label.&lt;/strong&gt; Article 23 requires a termination function on any online interface, "irrespective of the manner in which the contract was concluded," labelled "terminate the contract here" and prominently placed. It leads to a short form (name, contract, where to send the receipt) and a second button labelled "only with the words 'confirm the contract termination'." An acknowledgement with date and time follows within a week. Article 24 applies the same two-step pattern to withdrawal ("withdraw from contract here" / "confirm withdrawal"), and Article 25 gives users a human in customer service when other channels aren't working. So the save offer between the two buttons has no legal room left.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Addictive design is defined by feature, not by intent.&lt;/strong&gt; Article 17 requires toggles, available "individually or all at once," for four feature classes: autoplay and uninterrupted feeds without "regular interruption moments," notifications not triggered by the user's own activity, streak-style mechanics that penalise missed sessions, and "persistent prompts to continue engaging with an automated system" (the companion-chatbot clause). Traders already covered by the EU KIDS Act for minors are carved out. Like the dark-pattern list, the feature list can be extended by delegated act.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Game and ticketing UI get line-item rules.&lt;/strong&gt; Paid virtual currencies have to show the real-money value (Art. 14) and are off by default for minors, unlockable only with parent approval. Loot boxes must disclose odds and offer an off switch (Art. 15). Pay-to-win and pay-to-progress mechanics are banned for minors (Art. 16). Dynamic-priced event tickets must show how many tickets remain at the advertised price and the maximum possible price (Art. 18). Virtual queues must display the live price, whether it can change, and the ceiling (Art. 19).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your experiment logs become evidence.&lt;/strong&gt; This is the sleeper. Under Article 34, a claimant who shows a likely unfair practice, or an authority with "reasonable suspicion," can make a trader disclose "relevant evidence in relation to the design, operation and impact on the behaviour of consumers" of that practice, with penalties for incomplete answers and a trade-secret balancing test. In practice that means A/B test results, funnel analyses and design rationale. MEP Kim van Sparrentak &lt;a href="https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act"&gt;wants the burden of proof reversed outright&lt;/a&gt;. Article 34 doesn't go that far, but it's close.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A correction on fines.&lt;/strong&gt; The 6% figure in last week's entry needs qualifying. Under Article 35, national authorities must be able to fine at least 4% of turnover in the member states concerned, or at least €2 million where turnover data is missing. The 6%-of-worldwide-turnover ceiling applies only to cases the Commission investigates itself under the revised CPC Regulation, which also gives it direct investigative powers in large cross-border cases (&lt;a href="https://news.europawire.eu/european-commission-proposes-digital-fairness-act-and-stronger-eu-consumer-law-enforcement/eu-press-release/2026/11/12/15/28/04/187330/"&gt;Commission release&lt;/a&gt;). The savings estimates also differ: the press release says up to €13.7 billion a year for the whole package, while IAPP reports €10.3 billion. "Fairness by design" doesn't appear anywhere in the proposal text, even though some coverage uses it as a label.&lt;/p&gt;
+
+&lt;p&gt;Reactions split along familiar lines. IAB Europe calls the act redundant next to the GDPR and estimates €10–29 billion in annual losses. McGrath calls it the biggest consumer-law reform in 20 years. Clifford Chance's Dessislava Savova had the most useful line for designers: compliance is moving "from the small print to the user journey." The regulation would apply 12 months after entry into force, and Parliament and Council negotiations haven't started, so nothing binds before about 2028.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; audit two flows now, even with years of lead time. Can a user leave in two labelled clicks, and does your agent or auto-buy feature let the user choose a confirmation level with a price cap? Both are cheap to build today and expensive to retrofit after a disclosure order.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;接着 11 月 11 日那篇对泄露草案的解读往下说。欧盟委员会已于 11 月 11 日正式通过《数字公平法》（Digital Fairness Act, DFA），正式文本编号和泄露版完全一样：&lt;a href="https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en"&gt;COM(2026) 1100 final&lt;/a&gt;（立法程序号 2026/0356 COD）。泄露版的骨架基本没动：第 10(1) 条禁止"可能欺骗或操纵消费者"的界面，第 10(2) 条指向附件一第三部分的"一律视为不公平"黑名单，第 10(3) 条授权委员会以授权法案（delegated act）往名单里加新模式。70 页的正文我读了，附件 PDF 委员会服务器拒绝下载，所以那十种暗黑模式（dark patterns）是否一字未改，暂时还没法确认。下面的内容全部出自条文本身，不是新闻稿的转述。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt572cf99b0373d4f7/6af4a0b24316a662dde9f579/berlaymont-flags-sky-eu-021126.jpg" alt="布鲁塞尔欧盟委员会总部贝尔莱蒙大楼前的欧盟旗帜" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;DFA 与《简化指令》（Simplification Directive）、CPC 执法条例修订一起打包发布。图片来自 IAPP。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;黑名单上周已经讲过。这次说设计师还没细看的部分，它们比黑名单具体得多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;智能体下单必须有一个首次设置页。&lt;/strong&gt;第 26 条管的是替消费者签合同的"自动化系统"，说白了就是购物智能体。首次使用时，用户必须在三种模式里明确选一个：(a) 每笔都确认；(b) 只确认符合自设条件的交易，条件"包括最高价格和有效期限"；(c) 完全不确认。选择结果要以耐久介质（durable medium）发给用户，随时可改，确认界面还得列出核心的合同前信息。智能体从推荐中拿了钱，也必须披露。现在多数智能体产品的自主程度是写死的，按这份文本，它会变成一个必须由用户自己选、还带消费上限的设置。Adobe Plan Mode 那种"先看计划再执行"的模式，这下写进了法律。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;退订流程连按钮文案都规定好了。&lt;/strong&gt;第 23 条要求，凡是能在线签约的界面都要有终止功能，而且"不论合同当初以何种方式订立"。按钮写"在此终止合同"（terminate the contract here），位置要醒目。点进去是一张简短表单（姓名、哪份合同、回执发到哪），然后是第二个按钮，"只能"写"确认终止合同"。一周内要发出带日期时间的回执。第 24 条把同样的两步结构用在撤回权上，第 25 条规定其他渠道解决不了问题时，用户有权找真人客服。两个按钮之间插挽留弹窗？法律上已经没有空间了。&lt;/p&gt;
+
+&lt;p&gt;成瘾设计（addictive design）这次是按功能定义的，不看动机。第 17 条要求为四类功能提供开关，可以"逐个或一次性"关闭：自动播放和没有"定期中断时刻"的无尽信息流；不是由用户自身行为触发的通知；惩罚断签的连续打卡（streak）机制；"持续提示用户继续与自动化系统互动"的设计，也就是针对陪伴型聊天机器人的那一条。已受《EU KIDS Act》管辖的未成年人相关业务除外。和黑名单一样，这份功能清单也能通过授权法案扩充。&lt;/p&gt;
+
+&lt;p&gt;游戏和票务界面拿到了逐项规则。付费虚拟货币必须标出对应的真实金额（第 14 条），对未成年人默认关闭，须家长批准才能开启。抽卡要公布概率并提供关闭开关（第 15 条）。未成年人禁用"付费变强"（pay-to-win）和"付费推进"（pay-to-progress）机制（第 16 条）。动态定价的演出门票要显示按广告价还剩几张、最高可能付多少（第 18 条）。虚拟排队页面要实时显示当前价格、是否会变、上限是多少（第 19 条）。&lt;/p&gt;
+
+&lt;p&gt;最容易被忽略的是第 34 条：你的实验日志可能变成证据。原告只要拿出初步证据表明可能存在不公平行为，或者监管机构有"合理怀疑"，就可以要求商家披露该做法"在设计、运作及对消费者行为影响方面的相关证据"。提供信息不完整要罚，商业秘密另作权衡。落到实处，就是 A/B 测试结果、漏斗分析和设计决策记录。欧洲议会议员 Kim van Sparrentak &lt;a href="https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act"&gt;希望直接倒置举证责任&lt;/a&gt;。第 34 条没走到那一步，但也差不了多少。&lt;/p&gt;
+
+&lt;p&gt;罚款要更正一下。上周写的"最高 6%"需要加限定：按第 35 条，成员国监管机构的罚款上限不得低于相关成员国营业额的 4%，拿不到营业额数据时不低于 200 万欧元。全球营业额 6% 的上限，只适用于委员会依修订后的 CPC 条例亲自调查的案件；新 CPC 条例同时给了委员会在大型跨境案件中直接调查的权力（&lt;a href="https://news.europawire.eu/european-commission-proposes-digital-fairness-act-and-stronger-eu-consumer-law-enforcement/eu-press-release/2026/11/12/15/28/04/187330/"&gt;委员会新闻稿&lt;/a&gt;）。节省金额也有两个版本：新闻稿说整个一揽子方案每年最多为消费者省 137 亿欧元，IAPP 报道的是 103 亿。另外，有些报道把"设计即公平"（fairness by design）当作标签，正式文本里其实找不到这个说法。&lt;/p&gt;
+
+&lt;p&gt;各方反应没出意外。IAB Europe 认为有了 GDPR 这部法就是多余的，估计每年损失 100 亿到 290 亿欧元。McGrath 称之为 20 多年来最大的消费者法改革。对设计师最有用的是 Clifford Chance 律师 Dessislava Savova 那句话：合规正在"从小字条款转移到用户旅程"。条例在生效 12 个月后适用，议会和理事会的谈判还没开始，真正有约束力最早也要到 2028 年前后。&lt;/p&gt;
+
+&lt;p&gt;趁现在离生效还有几年，先查两个流程：用户能不能两次点击、两个标注清楚的按钮就退订成功？你的智能体或自动购买功能，能不能让用户自选确认级别并设价格上限？这两件事现在做很便宜，等收到证据披露令再返工就贵了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en"&gt;https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act"&gt;https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.europawire.eu/european-commission-proposes-digital-fairness-act-and-stronger-eu-consumer-law-enforcement/eu-press-release/2026/11/12/15/28/04/187330/"&gt;https://news.europawire.eu/european-commission-proposes-digital-fairness-act-and-stronger-eu-consumer-law-enforcement/eu-press-release/2026/11/12/15/28/04/187330/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">10ad1fee-921b-5b41-bd87-19409ef0ce82</guid>
+      <pubDate>Fri, 13 Nov 2026 12:18:36 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en</link>
+      <enclosure url="https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt572cf99b0373d4f7/6af4a0b24316a662dde9f579/berlaymont-flags-sky-eu-021126.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Should You Actually Add AI to That? Victor Yocco's Four-Question Audit Puts Skill Decay on the Spec / 真的要给它加 AI 吗？Victor Yocco 的四问审核把技能退化写进需求</title>
+      <description>&lt;p&gt;Most "should we add AI?" debates inside product teams turn on whether the model can do the task. In &lt;a href="https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/"&gt;a Smashing Magazine piece published November 12&lt;/a&gt;, Victor Yocco argues that's the wrong question. His test: &lt;strong&gt;an AI feature earns its place only when what it returns beats what it costs the user to adjust&lt;/strong&gt;, for one user doing one task. He calls the point where those cross the break-even line. The return comes in three forms (effort removed, errors caught, consistency across people), and the cost is mostly attention spent checking output, something a click count never captures.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/should-you-add-au-audit-product-teams/ai-adoption-adjustment-effort.jpg" alt="Graph showing users initially work harder when adopting AI, with net value rising only after verification effort falls" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Yocco's net-value curve: the return has to overtake what the user spends adjusting before the feature pays anything back. (Smashing Magazine)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;His opening case is a familiar failure. A health insurer built a model that drafted full benefits-appeal determinations. The model worked, but specialists stopped using it or got slower, because checking an AI draft took about as long as writing one. Version two only surfaced the relevant policy provisions and prior decisions, each with its source and retrieval date, and left the writing to people. Review time dropped. Same model, different job.&lt;/p&gt;
+
+&lt;h3&gt;The four questions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Does it reduce total effort for this user?&lt;/strong&gt; "Fewer clicks proves nothing on its own." Pre-filling a loan-tracking field swaps cheap typing for expensive verification. The answer also depends on who the user is: a junior analyst gets a head start, while a senior analyst ends up checking a summary against judgment they already have. Condition: name the segment you serve and design an exit for everyone else.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Does it beat the current method?&lt;/strong&gt; AI wins on ambiguity, scale, speed, consistency, or catching errors people miss, as in fraud screening. In an HR succession tool, AI candidate search won, but AI-drafted notification emails lost to the existing template. Condition: remove AI from any step the current method already handles quickly and reliably.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Can the user catch the errors?&lt;/strong&gt; List the three most likely error types and rate each for visibility and consequence. A museum suggestion that falls on its closing day is invisible. A connecting flight that leaves before you land is obvious. Automation bias, documented across aviation, medicine and process control in Parasuraman and Manzey's 2010 review, makes the invisible ones worse. Condition: high-consequence, low-visibility errors ship with provenance (sources, data, retrieval dates) and verification prompts, or the feature doesn't ship.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. After a year, can the user still tell when it's wrong?&lt;/strong&gt; This is the question most teams skip. Yocco cites Dratsch et al. (2023): 27 radiologists read 40 mammograms with a simulated AI, 12 of which carried deliberately wrong suggestions. The most experienced readers (about 15 years) were right 82.3% of the time when the AI was right and 45.5% when it was wrong. The least experienced group fell from 79.7% to 19.8%. Condition: build a named mechanism into the workflow that keeps verification skill in use, such as periodic blind review, rotating cases off AI, or weekly human-versus-machine comparisons. "A slide in the training deck will not do it."&lt;/p&gt;
+
+&lt;table style="border-collapse:collapse;width:100%;font-size:0.9em;" border="1" cellpadding="6"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Question&lt;/th&gt;&lt;th&gt;AI earns its place when…&lt;/th&gt;&lt;th&gt;AI costs the user when…&lt;/th&gt;&lt;th&gt;Design condition&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Reduces total effort?&lt;/td&gt;&lt;td&gt;Synthesis across large or varied inputs is the bottleneck&lt;/td&gt;&lt;td&gt;Fast manual path exists, or checking costs as much as doing&lt;/td&gt;&lt;td&gt;Name the segment; give others an exit&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Beats current method?&lt;/td&gt;&lt;td&gt;Wins on ambiguity, scale, speed, consistency, catch rate&lt;/td&gt;&lt;td&gt;Current method already works&lt;/td&gt;&lt;td&gt;Remove AI from those steps&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Can user catch errors?&lt;/td&gt;&lt;td&gt;Errors visible, stakes low, correction cheap&lt;/td&gt;&lt;td&gt;Errors subtle, stakes high&lt;/td&gt;&lt;td&gt;Provenance + verification prompts, or don't build&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Still able to judge after a year?&lt;/td&gt;&lt;td&gt;AI absorbs volume, human keeps judgment&lt;/td&gt;&lt;td&gt;AI absorbs judgment with no feedback&lt;/td&gt;&lt;td&gt;Named skill-maintenance mechanism&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Adapted from Yocco's decision matrix. A weak answer on Q1 can be offset by a strong Q2. A weak answer on Q3 can stop the build.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;How it fits what we've been tracking&lt;/h3&gt;
+
+&lt;p&gt;The audit gives a pre-build gate to problems this feed has mostly seen after launch. Unreliable output was the top complaint in &lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;NN/g's 2026 AI-in-UX survey&lt;/a&gt;, and accuracy dominated complaints in MeasuringU's chatbot benchmark. Questions 3 and 4 say plainly that unreliable output is a design-scope problem, not just a model problem. They also line up with two of the four rules Romina Kavcic found in the few design systems that document AI: "keep humans in control" and "design for failure." Yocco adds what the design-system docs mostly skip: provenance as a shipping requirement, and skill decay as a risk with a named owner.&lt;/p&gt;
+
+&lt;p&gt;The format is practical, too. He proposes a 60-minute version: 10 minutes to state the task (one user, one sitting), 25 with someone who actually does the work asking where the effort sits and what they'd lose the ability to check, 15 to map the error surface, and 10 to write the conditions into the brief. His argument for doing it up front is blunt. Requirements written in at the start survive, while requirements discovered later get cut as polish when the timeline slips.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; before the next AI feature kickoff, put Q4 in the PRD template. "What keeps the user able to spot a wrong answer in month twelve?" is a question almost no spec answers today, and the radiology numbers show what that gap costs.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;产品团队讨论"要不要加 AI"，多半争的是模型能不能把这件事做好。Victor Yocco 11 月 12 日在 &lt;a href="https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/"&gt;Smashing Magazine&lt;/a&gt; 上说，问题问错了。他的标准是：&lt;strong&gt;AI 功能带来的回报，必须超过用户为适应它付出的成本&lt;/strong&gt;，而且要落到"一个用户做一件事"的粒度上。两条线交叉的位置，他叫盈亏平衡线（break-even line）。回报有三种：省下的工作量、拦住的错误、不同人之间的一致性。成本主要是检查输出花掉的注意力，点击次数完全反映不出来。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/should-you-add-au-audit-product-teams/ai-adoption-adjustment-effort.jpg" alt="曲线图：用户刚开始使用 AI 时工作量反而增加，验证成本下降后净价值才上升" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Yocco 的净价值曲线：回报要先追上用户的适应成本，功能才开始真正有用。（Smashing Magazine）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;开篇的案例很常见。一家医疗保险公司做了个模型，直接起草完整的理赔申诉裁定书。模型本身没问题，可专员们要么干脆不用，要么用了反而更慢，因为核对 AI 草稿的时间跟自己写差不多。第二版改成只调出相关的保单条款和过往裁定，逐条附上来源和检索日期，裁定书还是人来写。审核时间降了下来。同一个模型，换了个分工。&lt;/p&gt;
+
+&lt;h3&gt;四个问题&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 对这个用户来说，总工作量减少了吗？&lt;/strong&gt;"点击变少本身什么也证明不了。"贷款跟踪表里的字段自动预填，等于把便宜的打字换成了昂贵的核对。用户是谁也很关键：初级分析师拿到一个起点，资深分析师却得拿摘要去对照自己早已有的判断。设计条件：写明这个功能服务哪类用户，给其他用户留出口。&lt;/p&gt;
+
+&lt;p&gt;2. 它比现在的做法更好吗？AI 擅长处理模糊输入、大规模、高速度、一致性，或者找出人会漏掉的错误，欺诈筛查就是典型。在一个人力资源继任规划工具里，AI 搜候选人赢了，AI 起草通知邮件却输给了现成模板。设计条件：现有方法已经又快又稳的步骤，把 AI 拿掉。&lt;/p&gt;
+
+&lt;p&gt;3. 用户发现得了错误吗？列出最可能的三类错误，逐一按"可见度"和"后果"打分。推荐的博物馆刚好闭馆，这种错用户看不出来；转机航班在你落地前就起飞了，这种一眼就能看到。Parasuraman 和 Manzey 2010 年的综述显示，自动化偏差（automation bias）在航空、医疗、流程控制领域都普遍存在，会让看不出来的错误更难发现。设计条件：后果严重又难以察觉的错误，必须配上溯源信息（来源、数据、检索日期）和核对提示，否则不上线。&lt;/p&gt;
+
+&lt;p&gt;4. 用了一年之后，用户还看得出 AI 错了吗？大多数团队根本不问这一条。Yocco 引用了 Dratsch 等人 2023 年的实验：27 名放射科医生借助模拟 AI 阅读 40 张乳腺 X 光片，其中 12 张的 AI 建议是故意给错的。经验最丰富的一组（平均 15 年）在 AI 正确时准确率 82.3%，AI 出错时跌到 45.5%。经验最少的一组从 79.7% 掉到 19.8%。设计条件：在工作流里放一个有名字、有人负责的机制，让核对能力不至于荒废，比如定期盲审、轮换部分案例不用 AI、每周对比人机结果。"培训材料里加一页 PPT 解决不了问题。"&lt;/p&gt;
+
+&lt;table style="border-collapse:collapse;width:100%;font-size:0.9em;" border="1" cellpadding="6"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;问题&lt;/th&gt;&lt;th&gt;AI 值得加的情况&lt;/th&gt;&lt;th&gt;AI 增加负担的情况&lt;/th&gt;&lt;th&gt;设计条件&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;总工作量减少？&lt;/td&gt;&lt;td&gt;瓶颈在于综合大量或多样的输入&lt;/td&gt;&lt;td&gt;手动路径本来就快，或核对成本等于自己做&lt;/td&gt;&lt;td&gt;写明服务对象，给其他人留出口&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;比现有方法好？&lt;/td&gt;&lt;td&gt;在模糊性、规模、速度、一致性、查错率上胜出&lt;/td&gt;&lt;td&gt;现有方法已经够好&lt;/td&gt;&lt;td&gt;从这些步骤中移除 AI&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;用户能发现错误？&lt;/td&gt;&lt;td&gt;错误显眼、风险低、改正成本低&lt;/td&gt;&lt;td&gt;错误隐蔽、风险高&lt;/td&gt;&lt;td&gt;溯源 + 核对提示，否则不做&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;一年后还能判断？&lt;/td&gt;&lt;td&gt;AI 分担工作量，判断留给人&lt;/td&gt;&lt;td&gt;AI 接管判断且没有质量反馈&lt;/td&gt;&lt;td&gt;有名字的技能维持机制&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;据 Yocco 的决策矩阵改编。第 1 题答得差，可以用第 2 题的优势抵消；第 3 题答得差，可以直接叫停项目。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;和我们一直在跟的线索怎么接上&lt;/h3&gt;
+
+&lt;p&gt;这份审核清单，等于给这个 feed 过去主要在上线后才看到的问题加了一道上线前的关卡。&lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;NN/g 2026 年 AI 与 UX 调查&lt;/a&gt;里，输出不可靠是头号抱怨；MeasuringU 的聊天产品基准测试里，准确性问题也占了大头。第 3、4 题讲得很直白：输出不可靠不只是模型问题，也是设计范围内的问题。它们也正好对应 Romina Kavcic 在少数记录了 AI 的设计系统里找到的四条规则中的两条："让人保持控制"和"为失败而设计"。Yocco 补上了设计系统文档大多缺的两块：把溯源当作上线门槛，把技能退化当作有人负责的风险。&lt;/p&gt;
+
+&lt;p&gt;形式上也很好落地。他给了一个 60 分钟版本：10 分钟把任务说具体（一个用户、一次操作），25 分钟找真正干这活的人，问清楚工作量花在哪、用了 AI 之后会失去什么核对能力，15 分钟画错误分布，10 分钟把条件写进需求文档。为什么要一开始就做？他说得很直接：开头写进去的要求能留下来，后来才补的，工期一紧就会被当成"打磨"砍掉。&lt;/p&gt;
+
+&lt;p&gt;下次 AI 功能立项前，可以把第 4 题加进 PRD 模板："到第十二个月，用户靠什么还能认出错误答案？"如今几乎没有哪份需求文档回答这个问题，放射科那组数据已经说明了答不上来的代价。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/"&gt;https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/ai-in-ux-survey-26/"&gt;https://www.nngroup.com/articles/ai-in-ux-survey-26/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">2150f844-68e0-5c23-9140-c55f63a7fb5d</guid>
+      <pubDate>Fri, 13 Nov 2026 12:18:41 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/</link>
+      <enclosure url="https://files.smashing.media/articles/should-you-add-au-audit-product-teams/should-you-add-ai-audit-product-teams.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Modern CSS Can Make Your Design System More Complex: Four Ways Native-Feature Migrations Break Components / 现代 CSS 可能让设计系统更复杂：原生特性迁移弄坏组件的四种方式</title>
+      <description>&lt;p&gt;Design-system teams are busy replacing JavaScript layout logic with native CSS: container queries instead of &lt;code&gt;ResizeObserver&lt;/code&gt;, &lt;code&gt;:has()&lt;/code&gt; instead of state classes, nesting and cascade layers instead of naming conventions. The usual pitch is less code. In &lt;a href="https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/"&gt;a November 3 Smashing Magazine piece&lt;/a&gt;, Gabriel Shoyombo argues the diff is misleading because it measures the wrong thing. He separates &lt;strong&gt;local simplicity&lt;/strong&gt; (how little code one file needs) from &lt;strong&gt;system complexity&lt;/strong&gt; (how many interactions you have to understand before you can change the app safely). A native feature lowers complexity only when it fully replaces the old code and doesn't disturb its neighbours. His metaphor is a new roommate: the CSS feature has to get along with your JavaScript, your layouts, the cascade and the rendering engine.&lt;/p&gt;
+
+&lt;p&gt;This matters more for component libraries than for app code. A component ships into dozens of host layouts the library team never sees, and every side effect gets multiplied.&lt;/p&gt;
+
+&lt;h3&gt;Four ways a migration bites&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Two owners for one behaviour.&lt;/strong&gt; A card switched to two columns with a &lt;code&gt;ResizeObserver&lt;/code&gt; toggling &lt;code&gt;.card--wide&lt;/code&gt;. The team migrated it to a container query but left the observer and the old class rules in place. Someone later changed the breakpoint in one location only, and the card ended up in an unintended state between 480px and 600px. Shoyombo's rule: CSS owns presentation derived from size or DOM structure, JavaScript owns application state and async work, and a migration isn't finished until the old observer, classes and selectors are deleted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The container changes its own layout.&lt;/strong&gt; &lt;code&gt;container-type: inline-size&lt;/code&gt; creates a new block formatting context and applies inline-size containment. In his demos, child margins stopped collapsing (a card grew from 30px to 54px), floats were excluded (a card shifted and narrowed by 120px), and content-sized flex items collapsed to 0px (tags measuring 74, 96 and 114px vanished). For a design system, this is the dangerous one. The component looks fine in Storybook and breaks inside one consumer's flex row.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The cascade picks the wrong winner.&lt;/strong&gt; &lt;code&gt;.card:has(img) p&lt;/code&gt; matched a comment's avatar image and stripped paragraph margins from a card with no hero image, because its specificity (0-1-2) beat &lt;code&gt;.comment p&lt;/code&gt; (0-1-1).&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/modern-css-might-make-your-front-end-more-complex/comment-paragraph-devtools.png" alt="Chrome DevTools Styles pane showing a .card:has(img) p rule unexpectedly applied to a comment paragraph" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;DevTools showing the over-broad &lt;code&gt;:has(img)&lt;/code&gt; rule landing on a comment paragraph. (Smashing Magazine)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The fixes are child combinators (&lt;code&gt;.card:has(&amp;gt; img) &amp;gt; p&lt;/code&gt;) and &lt;code&gt;:where()&lt;/code&gt; to zero out specificity. Nesting has the same trap, since &lt;code&gt;&amp;amp;&lt;/code&gt; takes the highest specificity in its selector list. Cascade layers only help when both sides of a conflict are layered: a layered rule at 0-4-0 still lost to an unlayered &lt;code&gt;.title&lt;/code&gt; at 0-1-0. That's directly relevant to libraries that ship layered CSS into apps with unlayered legacy styles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The cost moves to the browser.&lt;/strong&gt; Moving logic to CSS doesn't remove the work, it hands it to the style engine. Shoyombo benchmarked a 5,000-row list in Chrome 153 (October 2026), toggling selection on one row:&lt;/p&gt;
+
+&lt;table style="border-collapse:collapse;width:100%;font-size:0.9em;" border="1" cellpadding="6"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Rule set&lt;/th&gt;&lt;th&gt;Median per toggle&lt;/th&gt;&lt;th&gt;Elements restyled&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;JS toggles a class on the toolbar&lt;/td&gt;&lt;td&gt;&amp;lt;0.1 ms&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;body:has(.row.is-selected) .toolbar&lt;/code&gt;&lt;/td&gt;&lt;td&gt;~1.4 ms&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;.list:has(.cell &amp;gt; b) .row&lt;/code&gt; alone&lt;/td&gt;&lt;td&gt;&amp;lt;0.1 ms&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Both &lt;code&gt;:has()&lt;/code&gt; rules together&lt;/td&gt;&lt;td&gt;~7 ms&lt;/td&gt;&lt;td&gt;5,001&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;JS restyling every row (reference)&lt;/td&gt;&lt;td&gt;~6 ms&lt;/td&gt;&lt;td&gt;5,001&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Each rule is harmless on its own. Together they invalidate every row, and at 20,000 rows that comes to about 31 ms per toggle, which is dropped-frame territory. He filed a Chromium issue and only tested Chrome. In a design system, those two rules could easily sit in two different packages, so neither team would ever see the combination.&lt;/p&gt;
+
+&lt;h3&gt;What to put in the PR template&lt;/h3&gt;
+
+&lt;p&gt;The most reusable part is a six-item migration checklist Shoyombo suggests for PR descriptions: &lt;em&gt;ownership&lt;/em&gt; (CSS or JS, never both), &lt;em&gt;scope&lt;/em&gt; (does the selector reach outside the component?), &lt;em&gt;cascade&lt;/em&gt; (layered vs. unlayered on both sides), &lt;em&gt;completeness&lt;/em&gt; (old code deleted), &lt;em&gt;measured performance&lt;/em&gt; (DevTools Performance panel with selector stats on, comparing Recalculate Style, Layout and Paint at production data sizes), and &lt;em&gt;maintainability&lt;/em&gt;. Test every component in the real layouts that host it, not in isolation.&lt;/p&gt;
+
+&lt;p&gt;This connects to the platform thread this feed has been following. Native customizable &lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt; and the Chrome 154 carousel semantics reversal both showed that "use the platform" moves complexity into places design-system teams don't fully control, whether that's browser defaults or accessibility-tree behaviour. Shoyombo's piece makes the same point for layout and the cascade. Reddit commenters he quotes put it more sharply: the "less" in many modern-CSS articles often means "they just do less."&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Open question:&lt;/em&gt; design-system linters already police tokens and component usage. Should they also flag unscoped &lt;code&gt;:has()&lt;/code&gt; selectors and &lt;code&gt;container-type&lt;/code&gt; on elements with content-sized children? I haven't seen either check in widely shared stylelint configs.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;设计系统团队正在用原生 CSS 替换 JavaScript 布局逻辑：用容器查询（container queries）代替 &lt;code&gt;ResizeObserver&lt;/code&gt;，用 &lt;code&gt;:has()&lt;/code&gt; 代替状态类名，用嵌套和级联层（cascade layers）代替命名约定。卖点通常是代码更少。Gabriel Shoyombo 11 月 3 日在 &lt;a href="https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/"&gt;Smashing Magazine&lt;/a&gt; 上说，代码 diff 会骗人，因为它量错了东西。他把两件事分开：&lt;strong&gt;局部简洁&lt;/strong&gt;（单个文件需要多少代码）和&lt;strong&gt;系统复杂度&lt;/strong&gt;（安全改动应用之前，你得弄懂多少相互作用）。原生特性只有在彻底替换旧代码、又不惊动周边的情况下，才真正降低复杂度。他的比喻是合租：新来的 CSS 特性得和你的 JavaScript、布局、级联、渲染引擎都处得来。&lt;/p&gt;
+
+&lt;p&gt;对组件库来说，这比对业务代码更要紧。组件会被放进几十个库团队根本看不到的宿主布局里，每个副作用都会被放大。&lt;/p&gt;
+
+&lt;h3&gt;迁移踩坑的四种方式&lt;/h3&gt;
+
+&lt;p&gt;第一种：一个行为两个主人。一张卡片原本靠 &lt;code&gt;ResizeObserver&lt;/code&gt; 切换 &lt;code&gt;.card--wide&lt;/code&gt; 类来变成两栏。团队把它迁到容器查询，旧的 observer 和类规则却没删。后来有人只改了其中一处断点，卡片在 480px 到 600px 之间进入了谁也没设计过的状态。Shoyombo 的规则：由尺寸或 DOM 结构决定的外观归 CSS，应用状态和异步逻辑归 JavaScript；旧的 observer、类名、选择器没删干净，迁移就不算完成。&lt;/p&gt;
+
+&lt;p&gt;第二种：容器改了自己的布局。&lt;code&gt;container-type: inline-size&lt;/code&gt; 会创建新的块格式化上下文（block formatting context），并施加行内尺寸约束（containment）。他的演示里，子元素外边距不再折叠（卡片从 30px 长到 54px），浮动元素被排除在外（卡片偏移并变窄 120px），按内容定宽的 flex 子项直接缩成 0px（原本 74、96、114px 的标签消失了）。对设计系统来说这是最危险的一种：组件在 Storybook 里好好的，放进某个使用方的 flex 行里就坏了。&lt;/p&gt;
+
+&lt;p&gt;第三种：级联选错了赢家。&lt;code&gt;.card:has(img) p&lt;/code&gt; 匹配到了评论区的头像图片，把一张没有头图的卡片里的段落边距抹掉了，原因是它的优先级（0-1-2）压过了 &lt;code&gt;.comment p&lt;/code&gt;（0-1-1）。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/modern-css-might-make-your-front-end-more-complex/comment-paragraph-devtools.png" alt="Chrome DevTools 样式面板显示 .card:has(img) p 规则意外作用在评论段落上" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;DevTools 里，范围过宽的 &lt;code&gt;:has(img)&lt;/code&gt; 规则落到了评论段落上。（Smashing Magazine）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;修法是用子代组合器（&lt;code&gt;.card:has(&amp;gt; img) &amp;gt; p&lt;/code&gt;）收窄范围，再用 &lt;code&gt;:where()&lt;/code&gt; 把优先级清零。嵌套也有同样的陷阱：&lt;code&gt;&amp;amp;&lt;/code&gt; 会取选择器列表里的最高优先级。级联层只有在冲突双方都分了层时才管用：一条分层的 0-4-0 规则，照样输给了没分层的 0-1-0 &lt;code&gt;.title&lt;/code&gt;。组件库把分层 CSS 发进还带着大量未分层旧样式的应用，正好会撞上这一条。&lt;/p&gt;
+
+&lt;p&gt;第四种：成本转嫁给了浏览器。把逻辑挪进 CSS，活并没有消失，只是交给了样式引擎。Shoyombo 在 Chrome 153（2026 年 10 月）上用一个 5000 行的列表做了测试，每次只切换一行的选中状态：&lt;/p&gt;
+
+&lt;table style="border-collapse:collapse;width:100%;font-size:0.9em;" border="1" cellpadding="6"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;规则组合&lt;/th&gt;&lt;th&gt;每次切换中位耗时&lt;/th&gt;&lt;th&gt;重算样式的元素数&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;JS 给工具栏切换类名&lt;/td&gt;&lt;td&gt;&amp;lt;0.1 ms&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;body:has(.row.is-selected) .toolbar&lt;/code&gt;&lt;/td&gt;&lt;td&gt;约 1.4 ms&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;单独 &lt;code&gt;.list:has(.cell &amp;gt; b) .row&lt;/code&gt;&lt;/td&gt;&lt;td&gt;&amp;lt;0.1 ms&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;两条 &lt;code&gt;:has()&lt;/code&gt; 规则同时存在&lt;/td&gt;&lt;td&gt;约 7 ms&lt;/td&gt;&lt;td&gt;5,001&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;JS 重设每一行样式（参照）&lt;/td&gt;&lt;td&gt;约 6 ms&lt;/td&gt;&lt;td&gt;5,001&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;单看每条规则都没问题，放在一起就让每一行都失效重算。到 2 万行时，每次切换约 31 ms，已经会掉帧。他给 Chromium 提了 issue，而且只测了 Chrome。在设计系统里，这两条规则完全可能分属两个不同的包，两个团队谁也不会看到它们的组合效果。&lt;/p&gt;
+
+&lt;h3&gt;PR 模板里该加什么&lt;/h3&gt;
+
+&lt;p&gt;最能直接拿来用的，是他建议写进 PR 描述的六项迁移清单：&lt;em&gt;归属&lt;/em&gt;（CSS 或 JS，不能两边都管）、&lt;em&gt;范围&lt;/em&gt;（选择器有没有伸出组件之外）、&lt;em&gt;级联&lt;/em&gt;（冲突双方是否都分层）、&lt;em&gt;完整性&lt;/em&gt;（旧代码删了没有）、&lt;em&gt;实测性能&lt;/em&gt;（DevTools Performance 面板打开选择器统计，用生产规模的数据对比 Recalculate Style、Layout、Paint），以及&lt;em&gt;可维护性&lt;/em&gt;。每个组件都要放进真实的宿主布局里测，别只孤立地测。&lt;/p&gt;
+
+&lt;p&gt;这和本 feed 一直跟踪的平台线索是同一回事。原生可定制 &lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt;，还有 Chrome 154 撤回轮播组件语义的那次调整，都说明"用平台原生能力"会把复杂度挪到设计系统团队管不全的地方，可能是浏览器默认行为，也可能是无障碍树的表现。Shoyombo 这篇把同样的道理讲到了布局和级联上。他引用的一条 Reddit 评论说得更狠：很多"现代 CSS 让代码更少"的文章里，"更少"往往只是"做得更少"。&lt;/p&gt;
+
+&lt;p&gt;设计系统的 linter 已经在管 token 和组件用法了，要不要再加两条：标记没收窄范围的 &lt;code&gt;:has()&lt;/code&gt;，以及在含按内容定宽子元素的节点上使用 &lt;code&gt;container-type&lt;/code&gt;？这两项检查，我在常见的公开 stylelint 配置里都还没见过。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/"&gt;https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">16e421e1-1c76-5096-b50e-d7550fd60178</guid>
+      <pubDate>Fri, 13 Nov 2026 12:18:41 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/</link>
+      <enclosure url="https://files.smashing.media/articles/modern-css-might-make-your-front-end-more-complex/modern-css-might-make-your-front-end-more-complex.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
