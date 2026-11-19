@@ -9,587 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Wed, 18 Nov 2026 12:15:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 12:21:00 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 NN/g Defines the Agent Harness: The Layer Around the Model Is Where Most Agent UX Gets Decided / NN/g 定义智能体框架：模型外面那层软件，决定了大部分智能体体验</title>
-      <description>&lt;p&gt;When an AI assistant suggests a Friday meeting you told it to avoid, or sends an invite without asking, the cause is often not the model. It is the software wrapped around the model. Nielsen Norman Group's Caleb Sponheim gave that layer a plain definition on November 6: an &lt;strong&gt;agent harness&lt;/strong&gt; "is the software around an AI model." It runs the execution loop, carries out the model's tool requests, returns results, and controls what the model sees and what it is allowed to do. His argument for designers is that most agent behavior users experience is decided in the harness, so UX has to specify it the way it specifies screens.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/11/06/how-an-agent-harness-runs-an-execution-loop_jHSEz0a.jpg" alt="NN/g diagram showing how an agent harness runs an execution loop: model requests a tool, harness checks permissions and runs it, result returns to the model" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The execution loop: the model asks, the harness checks permissions and acts, the result goes back to the model. (NN/g)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;What the harness does.&lt;/strong&gt; A language model only produces text. It cannot check a calendar. It outputs a request ("check availability Tuesday"), and the harness checks permissions, calls the tool, and feeds the result back; the model then acts again or answers. That request-action-result cycle is what turns a chatbot into an agent. Sponheim breaks the harness into four jobs:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Execution loop:&lt;/em&gt; running the cycle, sometimes several tool calls between model turns.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Supplying context:&lt;/em&gt; assembling the user's request, developer instructions, earlier messages, saved preferences and connected data for each step, and deciding the format. A PDF can arrive as extracted text only, or as page images too, and the model sees different things.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Connecting tools and enforcing permissions:&lt;/em&gt; which tools are available and when the user must approve. Connectors and the underlying apps keep their own rules, and harness approval does not override them.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Instructions and limits:&lt;/em&gt; behavioral guidance plus caps on time, cost and number of steps, pausing for human input and rejecting responses that break a guardrail.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;His scheduling example&lt;/strong&gt; maps each job to a visible UX failure. If the "keep Fridays free" preference is saved but never passed into context, the assistant proposes Friday and the user has to repeat themselves. A calendar connection might allow reading availability but not creating events, or allow both while still requiring approval before an invite goes out; that choice decides whether the user sees a confirmation dialog. When no time works for all guests, harness limits and design decide whether the assistant stops, asks whether some attendees are optional, searches another week, explains the conflict, or keeps looping on new searches.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Three things to change in practice.&lt;/strong&gt; First, check task support at the harness level: knowing which model a product uses tells you little about whether it can do your task. Compare products on the same tasks and inputs, and look at their connections, permissions and limits. Second, specify harness behavior alongside the screen. Work with engineers early on defaults, permission dialogs, how preferences are saved and passed to the model, what happens when a task is canceled, and which actions need approval. Third, test the whole task with realistic context, including the unhappy paths: a disconnected calendar, a changed preference, no available slot. Record outcomes and the effort users spend correcting results, then work out whether the interface, the harness or the model caused each failure.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why this vocabulary helps.&lt;/strong&gt; Several stories we have tracked turn out to be harness problems once you have the word. NN/g's review of the new Siri (covered Nov 15) found that the worst failures were invisible source boundaries, "I couldn't find it" when the assistant simply had no access. That is the context-supply job failing quietly. The EU Digital Fairness Act's Article 26 (covered Nov 13), which makes shopping agents ask at first use whether to confirm every purchase, confirm by criteria such as a maximum price, or never confirm, is in effect a regulation of harness permission settings. Adobe Firefly's new Plan Mode, where the user approves a plan before the assistant acts, is a harness approval gate turned into a UI. And Raluca Budiu's NN/g piece from October 30, "Experience Design: Dropping the 'User' from 'User Experience'," describes a flight-booking agent that hands a login step to the user inside its own in-app browser, where the user's password manager doesn't work. That handoff is designed in the harness too.&lt;/p&gt;
-
-&lt;p&gt;Sponheim's definition also fits the team-level critique in Tanner Kohler's software-factories article: if UX writes only "context," it is shaping one of the harness's four jobs and leaving permissions, limits and the loop to engineering defaults.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Takeaway.&lt;/strong&gt; For the next agent feature on your roadmap, add a one-page harness spec next to the wireframes: what context is supplied at each step, which actions need approval, what the step and cost limits are, and what the user sees when a limit is hit. If nobody on the team can fill in that page, the agent's UX is being designed by default.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://www.nngroup.com/articles/agent-harness/"&gt;NN/g, Agent Harness: Definition (Caleb Sponheim, Nov 6, 2026)&lt;/a&gt;; &lt;a href="https://www.nngroup.com/articles/ux-vs-experience-design/"&gt;NN/g, Experience Design: Dropping the "User" from "User Experience" (Raluca Budiu, Oct 30, 2026)&lt;/a&gt;; &lt;a href="https://www.nngroup.com/articles/ux-agentic-software-factories/"&gt;NN/g, The Role of UX in Agentic Software Factories (Oct 30, 2026)&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;AI 助手给你约在你明确说过要空出来的周五，或者没问一声就把邀请发了出去，问题往往不在模型，而在包着模型的那层软件。NN/g 的 Caleb Sponheim 在 11 月 6 日给这层东西下了个朴素的定义：&lt;strong&gt;智能体框架（agent harness）&lt;/strong&gt;"就是模型外面的那层软件"。它运行执行循环（execution loop），替模型执行工具请求、返回结果，并控制模型能看到什么、能做什么。他想告诉设计师的是：用户感受到的智能体行为，大部分由这一层决定，所以 UX 得像规定界面那样把它也规定清楚。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/11/06/how-an-agent-harness-runs-an-execution-loop_jHSEz0a.jpg" alt="NN/g 图示：智能体框架如何运行执行循环" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;执行循环：模型提出请求，框架检查权限并执行，结果再交回模型。（NN/g）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;语言模型只会生成文本，自己查不了日历。它输出一条请求（"查一下周二有没有空"），框架检查权限、调用工具、把结果送回去，模型再决定下一步动作或直接回答。这个"请求—动作—结果"的循环，就是聊天机器人变成智能体的关键。Sponheim 把框架的工作拆成四块：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;执行循环：&lt;/em&gt;跑这个循环，有时两次模型调用之间会连续执行好几个工具操作。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;提供上下文：&lt;/em&gt;每一步都要拼装用户请求、开发者指令、历史消息、已保存的偏好和连接的数据，还要决定格式。同一份 PDF，只抽文字和连页面图像一起给，模型看到的东西完全不同。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;连接工具、执行权限：&lt;/em&gt;决定哪些工具可用、什么时候必须让用户批准。连接器和底层应用各有规则，框架批准了也不能越过它们。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;指令与限制：&lt;/em&gt;给出行为指引，限制时间、成本和步数，需要人介入时暂停，违反护栏的回复直接拒掉。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;他用排会议的例子把每一块都对应到用户看得见的故障上。"周五空出来"这条偏好存了，却没被放进上下文，助手就会提议周五，用户只好再说一遍。日历连接可以只读不写，也可以读写都行但发邀请前仍须批准，这个选择决定了用户会不会看到确认对话框。所有人都凑不出时间时，是停下、问组织者哪些人可选、换一周再找、解释冲突，还是不停地重新搜索？这由框架的限制和设计共同决定。&lt;/p&gt;
-
-&lt;p&gt;落到实践上有三件事。第一，在框架层面检查任务支持：知道产品用的是哪个模型，几乎说明不了它能不能完成你的任务；拿同样的任务和输入去比，看连接、权限和限制。第二，和界面一起规定框架行为：尽早和工程师一起定默认值、权限对话框、偏好如何保存并传给模型、任务取消后会怎样、哪些动作需要批准。第三，用真实上下文测完整任务，包括不顺利的路径：日历断开、偏好改了、根本没有空档。记录结果和用户纠正结果花的力气，再判断每次失败该归咎于界面、框架还是模型。&lt;/p&gt;
-
-&lt;p&gt;有了这个词，我们之前跟踪的好几件事都能归到一处。NN/g 评新 Siri（本栏 11 月 15 日）发现最糟的失败是看不见的来源边界：助手明明是没权限，却说"我没找到"。这正是"提供上下文"这块悄悄出了错。欧盟《数字公平法》第 26 条（本栏 11 月 13 日）要求购物智能体首次使用时让用户选：每笔都确认、按条件确认（比如最高价格）、或从不确认，说穿了就是在立法规定框架的权限设置。Adobe Firefly 新的 Plan Mode 让用户先批准计划再执行，是把框架的审批关口做成了界面。Raluca Budiu 10 月 30 日在 NN/g 发表的《Experience Design: Dropping the "User" from "User Experience"》里还有个例子：订机票的智能体把登录这一步交还给用户，却是在它自己的内置浏览器里，用户的密码管理器用不了。这个交接，同样是在框架里设计出来的。&lt;/p&gt;
-
-&lt;p&gt;Sponheim 的定义也能接上 Tanner Kohler 那篇"软件工厂"文章的批评：如果 UX 只负责写"上下文"，那它只管到了框架四块工作中的一块，权限、限制和循环本身都留给了工程默认值。&lt;/p&gt;
-
-&lt;p&gt;下一个上路线图的智能体功能，不妨在线框图旁边附一页框架说明：每一步提供什么上下文、哪些动作需要批准、步数和成本上限是多少、触到上限时用户会看到什么。团队里要是没人填得出这一页，这个智能体的体验其实就是被默认值设计出来的。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/agent-harness/"&gt;https://www.nngroup.com/articles/agent-harness/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/ux-vs-experience-design/"&gt;https://www.nngroup.com/articles/ux-vs-experience-design/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/ux-agentic-software-factories/"&gt;https://www.nngroup.com/articles/ux-agentic-software-factories/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">adbbb2a1-a186-509a-8340-9b8a3c5576b9</guid>
-      <pubDate>Mon, 16 Nov 2026 12:14:59 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/agent-harness/</link>
-      <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Agent-Harness_socialcard.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 「谢谢」说得比心里多，代价两个人一起付：PSPB 四项预注册研究、639 对伴侣发现放大感激会削弱真实感和被回应感，而且对方识没识破都一样</title>
-      <description>&lt;p&gt;伴侣帮你改了一个坏习惯，或者为你推掉了周末的安排。你其实没那么感动，但还是说了一句很用力的「太谢谢你了，你真好」。这算体贴，还是算演？&lt;/p&gt;
-
-&lt;p&gt;罗切斯特大学 Bonnie Le 实验室的 Claire Shimshock 等人去年 12 月在 &lt;em&gt;Personality and Social Psychology Bulletin&lt;/em&gt; 发表的研究，专门测了这件事。他们把它叫作&lt;strong&gt;感激放大（Gratitude Amplification）&lt;/strong&gt;：表达出来的感激超过心里实际感到的。这是情绪调节里「放大」策略的一种，和压抑（Suppression）方向相反——一个是收着，一个是往外加。&lt;/p&gt;
-
-&lt;p&gt;研究一共四组对偶样本，639 对伴侣（111、214、150、164 对），全部预注册，方法各不相同：实验室里互相说一件感激的事（研究 1a、2a），两周日常日记（1b、2b），每周日记加 6 个月随访（研究 3，伴侣在为对方做改变的时期），以及三个月四波的目标追求研究（研究 4）。每次都同时问两边：表达者「我是不是说得比感觉的多」，接收者「对方是不是说得比感觉的多」。&lt;/p&gt;
-
-&lt;p&gt;先说一个容易被忽略的数字：放大的平均水平很低，7 点量表上大约 1.5 到 3 分。大多数时候人们说的就是心里想的。但放大一旦发生，代价相当稳定。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;表达者自己先吃亏。&lt;/strong&gt;内部元分析显示，放大越多，自己的真实感越低（β=−0.286），真实感又连着关系质量（β=0.419）；放大对关系质量的总效应 β=−0.355，约 31% 由「我觉得自己不真」解释。&lt;/li&gt;
-&lt;li&gt;接收者那一侧，觉得对方在放大，会同时拉低「对方真诚」（β=−0.489）和「对方懂我、回应我」（β=−0.411），总效应 β=−0.401，两条路径合计解释约 72%。&lt;/li&gt;
-&lt;li&gt;反直觉的一点：对方有没有&lt;em&gt;准确&lt;/em&gt;识破，几乎不影响结果。表达者的代价在对方没察觉时照样存在；接收者的代价只取决于自己怎么看，不管对方是否真的在放大。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;长期结果更乱一些，研究者也照实报告了。研究 3 里，接收者越觉得对方在放大，6 个月后&lt;em&gt;表达者&lt;/em&gt;的分手念头上升，接收者自己的分手念头却反而略降。研究 4 里，表达者放大能预测三个月后对方觉得自己更不真诚。控制了关系满意度、平时的欣赏程度和当下实际感激水平之后，个人层面的代价都还在，人际层面的部分代价被吸收。&lt;/p&gt;
-
-&lt;p&gt;局限要说清楚：样本全在北美，以异性伴侣为主；「放大」多用单题测量；低放大既可能是真心，也可能是在压着不说，量表分不开。经费来自 John Templeton Foundation 的 Honesty Project。&lt;/p&gt;
-
-&lt;p&gt;这条和本话题一直在跟的「真实践 vs 表演式实践」线索对得上。Brown 的研究里，真斯多葛（重评）和硬汉斯多葛（硬撑）方向相反；乔治城的慈心冥想试验输给了没有社交内容的肌肉放松。现在轮到感恩练习：外面流行的建议是「多说谢谢」，这篇研究说，说的量不是关键，说的是不是真的才是。作者在讨论部分也引了 Wang 2023（被提醒去感谢会削弱真诚感）和 Laurin 2025（过于浓烈的感激会适得其反）。&lt;/p&gt;
-
-&lt;p&gt;可以怎么用？下次想说谢谢却没什么感觉时，别往上加形容词，往下找细节。对方做的这件事里，哪一部分是你&lt;em&gt;确实&lt;/em&gt;受用的？「你帮我把早上的会挪了，我那一小时终于能好好写东西」比「你太好了」短得多，也真得多。找不到可感激的细节，也许说明这次只需要一句平常的「谢了」。少说一点，没关系；说多了，对方往往听得出来。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1177/01461672251389045"&gt;Shimshock, Sisson, Chee, Stellar, Impett &amp;amp; Le (2025), PSPB, DOI 10.1177/01461672251389045&lt;/a&gt;；&lt;a href="https://sites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf"&gt;实验室公开 PDF&lt;/a&gt;；&lt;a href="https://metatoc.com/papers/129293-the-hidden-costs-of-gratitude-gratitude-amplification-is-costly-for-personal-and-relationship-well-being"&gt;MetaTOC 收录（2025-12-04）&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1177/01461672251389045"&gt;https://doi.org/10.1177/01461672251389045&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf"&gt;https://sites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://metatoc.com/papers/129293-the-hidden-costs-of-gratitude-gratitude-amplification-is-costly-for-personal-and-relationship-well-being"&gt;https://metatoc.com/papers/129293-the-hidden-costs-of-gratitude-gratitude-amplification-is-costly-for-personal-and-relationship-well-being&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">70ea1254-2006-5a3c-88ae-e5a464b3bb9f</guid>
-      <pubDate>Mon, 16 Nov 2026 12:18:16 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1177/01461672251389045</link>
-    </item>
-    <item>
-      <title>🧠 比你强的人给建议，你只听进三成半：Communications Psychology 实验发现，明说对方更准也纠正不了自我中心折扣，顾问越好浪费越多</title>
-      <description>&lt;p&gt;拿到一个比你强的人的意见，你会听多少？米兰比可卡大学（Milano-Bicocca）和帕维亚大学的 Joshua Zonca、Alice Giampino、Paolo Cherubini、Carlo Reverberi 今年 5 月在 &lt;em&gt;Communications Psychology&lt;/em&gt; 发表的实验，把这个问题量化到了小数点后两位：答案是听得太少，而且对方越强，少听的损失越大。&lt;/p&gt;
-
-&lt;p&gt;实验用的是经典的随机点运动判断（Random Dot Kinematogram）：屏幕上一团点闪 500 毫秒，你判断整体往哪个方向走，再报一个 0–100% 的信心。然后屏幕显示一位「顾问」的判断和信心，你做最终决定。顾问是程序，一共七种：准确率比你高或低 20 个百分点的（Acc+/Acc−），平均信心比你高或低 20% 的（Conf+/Conf−），信心和对错高度挂钩或毫无关系的（MSe+/MSe−），还有一个和你参数完全一样的「另一个我」。89 人分两个实验，实验 1 的人只能从逐题反馈里慢慢摸清顾问的底；实验 2 每轮开始前直接告诉你双方的准确率和信心特征。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44271-026-00456-1/MediaObjects/44271_2026_456_Fig6_HTML.png" alt="Zonca 等 2026 图 6：七种顾问条件下观察到的准确率与贝叶斯最优准确率对比" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;观察准确率 vs 贝叶斯最优：差距集中在最好的几类顾问身上（Zonca et al., 2026, Communications Psychology）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;好消息是建议确实有用：平均准确率从 42% 升到 51%（实验 1），43% 升到 53%（实验 2），没有任何一种顾问让人变差。坏消息在细节里。&lt;/p&gt;
-
-&lt;p&gt;第一，&lt;strong&gt;自我中心折扣（Egocentric Discounting）&lt;/strong&gt;顽固得惊人。和「另一个我」搭档时，理性权重应该是五五开，实际给对方的权重只有 0.36（实验 1）和 0.35（实验 2）；碰上准确率高出 20 点的顾问，权重仍然低于 0.5。和 Acc+ 合作的人，最终准确率比顾问自己单干还低 6 个百分点——加上你的判断，反而拖累了答案。&lt;/p&gt;
-
-&lt;p&gt;第二，明确告知没用。实验 2 把「对方比你准」写在屏幕上，对整合效率的主效应 B=0.01，p=.47。过度自信略降了一点，但没消失。差距最大的恰恰是最值得听的顾问：Acc+ 离最优还差 12%（实验 1）和 10%（实验 2），MSe+ 差 8% 和 6%。&lt;/p&gt;
-
-&lt;p&gt;第三，作者称为「整体到局部缺陷」（Global-to-Local Deficit）：人们知道某人平均更准，却很难在具体某一题上据此调整。他们过度看重顾问的&lt;em&gt;平均信心&lt;/em&gt;（一个本不该用的线索，B=0.15），却低估了逐题信心差异里的信息（B=−0.21）。换句话说，你会被一个总是很笃定的人带着走，却没注意他这一题其实比平时犹豫。&lt;/p&gt;
-
-&lt;p&gt;个体差异很大。按整合效率分三档，最低一档几乎没从建议里得到好处（0–2%），碰上差顾问还会跌 4%；最高一档平均提升 13%，连差顾问都能用出 7%。预测因素正是元认知：元认知敏感度越高越接近最优（B=0.36），越过度自信越差（B=−0.32）。&lt;/p&gt;
-
-&lt;p&gt;前几天这里连着写了 Lawson 的核心过度自信、3,088 名棋手的 Elo 自评、Bao &amp;amp; Hare 的责任厌恶，讲的都是「你对自己有多准的感觉」。这篇换了个出口：同样的校准问题，最后会体现在你听不听别人上。作者把结论延伸到 AI 决策辅助，Reverberi 的意思是光有准确、透明的 AI 不够，还得训练人怎么给每条建议定权重——不过实验本身没有测 AI。另外要记住，这是有即时反馈的知觉任务，顾问的意图、名声这些社会因素都被拿掉了。&lt;/p&gt;
-
-&lt;p&gt;可带走的做法很具体。听建议时分开问两件事：这个人&lt;em&gt;过去&lt;/em&gt;在这类问题上的命中率是多少？他&lt;em&gt;这一次&lt;/em&gt;的把握比他平时高还是低？第一个问题决定基础权重，第二个决定这次上调还是下调。至于他平时说话有多笃定，基本可以忽略。如果你发现自己面对一个公认比你强的人，最后决定还是和自己最初判断几乎一样，那多半就是那 0.35 在起作用。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1038/s44271-026-00456-1"&gt;Zonca, Giampino, Cherubini &amp;amp; Reverberi (2026), Communications Psychology 4:123&lt;/a&gt;；&lt;a href="https://en.unimib.it/news/ai-gives-us-access-plenty-advice-we-do-not-make-much-use-it-we-could"&gt;米兰比可卡大学新闻稿（2026-07-29）&lt;/a&gt;；&lt;a href="https://boa.unimib.it/handle/10281/608281"&gt;机构仓储记录&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1038/s44271-026-00456-1"&gt;https://doi.org/10.1038/s44271-026-00456-1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.unimib.it/news/ai-gives-us-access-plenty-advice-we-do-not-make-much-use-it-we-could"&gt;https://en.unimib.it/news/ai-gives-us-access-plenty-advice-we-do-not-make-much-use-it-we-could&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://boa.unimib.it/handle/10281/608281"&gt;https://boa.unimib.it/handle/10281/608281&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1f3f930b-5fa0-5917-b4e7-d85deed6ba35</guid>
-      <pubDate>Mon, 16 Nov 2026 12:18:16 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1038/s44271-026-00456-1</link>
-      <enclosure url="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44271-026-00456-1/MediaObjects/44271_2026_456_Fig6_HTML.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 在稳定规则里练得越顺，换场景越容易掉链子：Communications Psychology 预注册实验（N=241）发现外加压力不影响学习，影响迁移的是身体反应和情绪调节习惯</title>
-      <description>&lt;p&gt;练习时越顺手，换个场景越容易翻车？凯斯西储大学、芝加哥大学 Booth 商学院和普渡大学的 Kyle LaFollette、David Frank、Alexander Burgoyne、Brooke Macnamara 今年 1 月在 &lt;em&gt;Communications Psychology&lt;/em&gt; 发表的预注册实验给了一个具体的答案。Macnamara 这个名字你可能见过：她 2014 年那篇元分析把「一万小时刻意练习」能解释的表现差异压到了 12% 左右。&lt;/p&gt;
-
-&lt;p&gt;这次的问题是&lt;strong&gt;学习迁移（Transfer of Learning）&lt;/strong&gt;：在一个环境里练出来的本事，换到另一个环境还剩多少。研究招了 241 名 18–30 岁的成年人（一半大学生、一半克利夫兰社区居民），玩一个改编自《植物大战僵尸》的游戏：种向日葵收太阳能量、种豌豆射手挡僵尸。设计是 2×2×2：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;环境是否一致&lt;/strong&gt;：一致版里红色太阳永远最快、大太阳永远能量最多；不一致版每 50 步就悄悄改一次规则（规则一直标在屏幕底部，不增加记忆负担）。&lt;/li&gt;
-&lt;li&gt;压力与否：每轮前做马斯特里赫特急性应激测试（脚泡 2°C 冰水 + 心算 + 穿白大褂、面无表情的实验员盯着），对照组泡温水、慢慢数数。全程记录心电与血压。&lt;/li&gt;
-&lt;li&gt;第六轮突然换版：一半人换到没练过的版本，一半人照旧。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;&lt;img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44271-026-00408-9/MediaObjects/44271_2026_408_Fig2_HTML.png" alt="LaFollette 等 2026 图 2：六轮训练中一致组与不一致组的成绩与完成时间，以及第六轮换版后的变化" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;蓝线：在稳定规则下训练；橙线：在变化规则下训练。虚线为第六轮换版后（LaFollette et al., 2026）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;结果有三层。&lt;/p&gt;
-
-&lt;p&gt;前五轮，一致组明显更快、更高效。这符合直觉：规则稳定，你很快形成一套固定打法。可一到第六轮，从一致切到不一致的那组成绩明显下滑（换版×轮次交互 β=−0.386，p=.004），从不一致切到一致的那组反而上升。完成时间倒是很快向新版本的「常住居民」看齐。作者的解读是：在稳定环境里练出的是高效的习惯式路线（Model-Free），一旦规则变了就脆；在多变环境里被迫保持规划式控制（Model-Based），平时慢一点，换场景时却更扛得住。&lt;/p&gt;
-
-&lt;p&gt;第二层出乎预期：应激操纵确实让心率和血压升高了，但对成绩和完成时间&lt;em&gt;没有任何影响&lt;/em&gt;，预注册的「压力下学得更差」没得到支持。真正有预测力的是个人的生理反应。换版时，若一个人从第五轮到第六轮的心率变异性（RMSSD）上升，留在不一致环境里的那组成绩更差（四阶交互 β=0.833，p=.030；图 3 中这一组的斜率约为 −0.6），回到一致环境的那组则更慢——作者推测这是在稳定场景里放慢步子、重新校准。&lt;/p&gt;
-
-&lt;p&gt;第三层关于情绪特质，而且这部分是&lt;em&gt;探索性&lt;/em&gt;分析（论文自己列为预注册偏离）。习惯用认知重评（Cognitive Reappraisal）少的人，在稳定环境里练得最好，第五轮成绩明显领先，一换版就掉；重评多的人练习期平平，换版前后几乎不变。不确定性耐受度、行为抑制、寻乐倾向也呈类似的分化。图 4 里最直观的一点：分组平均看起来像一个整齐的交叉，拆开看是两拨人往相反方向走，平均数把个体差异抹平了。&lt;/p&gt;
-
-&lt;p&gt;这又是一个「特质不是全部、情境也不是全部」的例子，和 Klein &amp;amp; Swann 主张的交互论同一个方向：同一种训练对不同的人效果相反。它也补了「自我调节是生理容量」那条线一个反直觉的细节——外加的压力不一定伤害学习，身体对变化本身怎么反应，才更关键。&lt;/p&gt;
-
-&lt;p&gt;局限：一个游戏任务，只有一次换版，样本是年轻人，第六轮只看一轮。但可带走的原则足够清楚。如果你练的东西将来会在多变环境里用（谈判、带团队、调代码、临场演讲），别只在最舒服的条件下反复刷：换题型、换顺序、换对象，让规则时不时变一变。练习时会觉得进步慢、更累，这正是在买换场景时的保险。反过来，如果你发现自己在熟悉环境里表现特别好，不妨找个机会故意换一个场景测一下，看看那份熟练有多少能带走。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1038/s44271-026-00408-9"&gt;LaFollette, Frank, Burgoyne &amp;amp; Macnamara (2026), Communications Psychology 4:42&lt;/a&gt;；&lt;a href="https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2026/03/LaFollette-Frank-Burgoyne-Macnamara-2026.pdf"&gt;普渡大学技能学习实验室 PDF&lt;/a&gt;；预注册：&lt;a href="https://osf.io/wj68f"&gt;osf.io/wj68f&lt;/a&gt;、&lt;a href="https://osf.io/x72z3"&gt;osf.io/x72z3&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1038/s44271-026-00408-9"&gt;https://doi.org/10.1038/s44271-026-00408-9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2026/03/LaFollette-Frank-Burgoyne-Macnamara-2026.pdf"&gt;https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2026/03/LaFollette-Frank-Burgoyne-Macnamara-2026.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://osf.io/wj68f"&gt;https://osf.io/wj68f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">74e69c3d-86e6-5ab7-bdff-043d538d715a</guid>
-      <pubDate>Mon, 16 Nov 2026 12:18:16 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1038/s44271-026-00408-9</link>
-      <enclosure url="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44271-026-00408-9/MediaObjects/44271_2026_408_Fig2_HTML.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 海参用肛门呼吸，于是有一种鱼住了进去：潜鱼循着呼出的水流倒着钻进门，一只海参里曾数出 15 条，幼鱼住进去后身长反缩 60%，还会在里面用鳔「吵架」</title>
-      <description>&lt;p&gt;有一种鱼，家住在海参的肛门里。不是偶尔钻进去躲一躲，而是成年后白天就待在里面，晚上出来觅食，天亮前再倒着退回去。1977 年，新西兰生物学家 Victor Benno Meyer-Rochow 剖开一只海参，在里面数出了 15 条。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/pearlfish-1.jpg" alt="一条细长的潜鱼正从海参体后端钻出" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;潜鱼从海参泄殖腔探出身子。图：Australian Geographic&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这类鱼叫潜鱼（pearlfish），属于潜鱼科（Carapidae），全科分 10 个属，生活在热带大西洋、印度洋和太平洋，最深可到 2000 米。身体细长像鳗鱼，没有腹鳍，体表几乎透明。英文名里的 pearl 来自一个更怪的事实：它们有时也住在珍珠贝、牡蛎里，偶尔被贝壳新分泌的珍珠层封死在里面，变成一条「镶在珍珠母里的鱼」。&lt;/p&gt;
-
-&lt;h3&gt;海参用屁股呼吸，所以门是开着的&lt;/h3&gt;
-
-&lt;p&gt;潜鱼能住进去，要从海参的呼吸方式说起。海参没有鳃，它把海水经泄殖腔吸进体内一对分叉的「呼吸树」（respiratory tree），换完气再从同一个口排出去。也就是说，海参的肛门同时负责排泄、生殖和呼吸，每隔一会儿就得张开一次。&lt;/p&gt;
-
-&lt;p&gt;潜鱼循着海参呼出的水流找到入口，先用头碰一碰。海参被触碰会收紧肛门，可它总得喘气。等它一放松，潜鱼要么头朝前、靠尾巴左右甩动硬挤进去；要么更讲究一点，把细尖的尾巴先插进去，趁下一次吸气顺势倒滑进去。进去后，它们一般先落脚在呼吸树里，有的种类会钻进体腔甚至消化道。&lt;/p&gt;
-
-&lt;p&gt;海参也不是毫无防备。很多海参受惊时会从肛门喷出一团黏稠有毒的居维叶氏管（Cuvierian tubules），还能把内脏整个吐出去吓退敌人。比利时列日大学的 Eric Parmentier 团队研究发现，潜鱼进门时并不会触发居维叶氏管喷射，这跟海参泄殖腔的位置偏低有关；而且潜鱼对海参毒素的耐受力也明显高于其他礁鱼。有几种海参，比如加勒比海的 &lt;em&gt;Actinopyga agassizi&lt;/em&gt;，肛门口长着一圈五颗小「牙」，能把潜鱼挡在外面。这些牙是不是专门针对潜鱼演化出来的，目前还只是推测。&lt;/p&gt;
-
-&lt;h3&gt;房客、寄生虫，还是会唱歌的室友&lt;/h3&gt;
-
-&lt;p&gt;潜鱼和海参算什么关系，取决于是哪一种潜鱼。&lt;em&gt;Carapus&lt;/em&gt; 属多数是共栖者（commensal），只借住、不吃房东。&lt;em&gt;Encheliophis&lt;/em&gt; 属就不客气了，它们以海参的生殖腺和其他内脏为食，算真正的寄生虫。好在海参再生能力极强，被吃掉的生殖腺几周后就能重新长出来。&lt;/p&gt;
-
-&lt;p&gt;更离奇的是它们的成长过程。潜鱼的幼体在开阔海域漂流，发育到一个叫 tenuis 的阶段时，身长可达 15 到 20 厘米。找到海参住进去之后，它会在里面完成变态，身体反而缩短大约 60%，长成 6 到 8 厘米的幼鱼。Parmentier 等人 2004 年在《实验动物学杂志》（Journal of Experimental Zoology）上的研究发现，缩短来自椎骨数量减少、单节变短；在海参体内，这一过程大约 15 天完成，比在自然光下快。研究者推测，缩掉的组织被回收用来造骨头和耳石，这期间它们并不吃房东。&lt;/p&gt;
-
-&lt;p&gt;最后一个细节：潜鱼会在海参肚子里「说话」。2003 年 Parmentier、Vandewalle 和 Lagardère 在《比较生理学杂志 A》（J. Comp. Physiol. A）上首次发表了潜鱼的录音，录的是住在同一种海参 &lt;em&gt;Bohadschia argus&lt;/em&gt; 里的 &lt;em&gt;Carapus boraborensis&lt;/em&gt;、&lt;em&gt;C. homei&lt;/em&gt; 和 &lt;em&gt;Encheliophis gracilis&lt;/em&gt;。声音靠鳔相关的肌肉机构发出，而且只有当同一种的几条鱼挤在同一只海参里时才会出声。2005 年的后续研究发现，不同种、甚至同种的雌雄个体，脉冲长短和节奏都不一样；两种潜鱼被放进同一只海参时，68% 的情况下叫声缩成单个脉冲。&lt;/p&gt;
-
-&lt;p&gt;所以下次在海鲜市场看到一盆海参，不妨想一想：南太平洋某个礁盘上，此刻可能正有几条鱼在一只海参的呼吸树里，用鳔吵架。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.australiangeographic.com.au/?p=22670"&gt;Australian Geographic&lt;/a&gt;；&lt;a href="https://www.popsci.com/this-fish-burrows-up-sea-cucumbers-anus-for-safety-and-food"&gt;Popular Science&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Carapidae"&gt;Wikipedia: Carapidae&lt;/a&gt;；&lt;a href="https://orbi.uliege.be/bitstream/2268/12701/1/14m%c3%a9tamorphose.pdf"&gt;Parmentier 等，潜鱼变态研究（ORBi）&lt;/a&gt;；&lt;a href="https://orbi.uliege.be/handle/2268/12843"&gt;Parmentier 等，潜鱼发声研究（ORBi）&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.australiangeographic.com.au/?p=22670"&gt;https://www.australiangeographic.com.au/?p=22670&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.popsci.com/this-fish-burrows-up-sea-cucumbers-anus-for-safety-and-food"&gt;https://www.popsci.com/this-fish-burrows-up-sea-cucumbers-anus-for-safety-and-food&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Carapidae"&gt;https://en.wikipedia.org/wiki/Carapidae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://orbi.uliege.be/bitstream/2268/12701/1/14m%c3%a9tamorphose.pdf"&gt;https://orbi.uliege.be/bitstream/2268/12701/1/14m%c3%a9tamorphose.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://orbi.uliege.be/handle/2268/12843"&gt;https://orbi.uliege.be/handle/2268/12843&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">de134da7-88c2-5c1d-af14-df2203dd3e4b</guid>
-      <pubDate>Mon, 16 Nov 2026 12:20:01 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.australiangeographic.com.au/?p=22670</link>
-      <enclosure url="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/pearlfish-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 没有地震也没有炸弹，一座站了九百年的塔在 1989 年某个早上自己塌了：帕维亚市政塔被顶上 3 万千牛的钟楼压了四百年，石头「蠕变」到极限，十个月后比萨斜塔因此关门</title>
-      <description>&lt;p&gt;1989 年 3 月 17 日早上 8 点 55 分，意大利帕维亚（Pavia）大教堂旁那座站了九百多年的市政塔，没有地震、没有爆炸、没有明显预兆，自己塌了。四个人被埋在废墟下身亡，十五人受伤。十个月后，1990 年 1 月 7 日，意大利政府把比萨斜塔对游客关上了大门，一关就是十一年。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Torre_Civica_di_Pavia.jpg" alt="倒塌前的帕维亚市政塔，砖砌方塔顶部有石砌钟楼" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;倒塌前的帕维亚市政塔（Torre Civica）。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;11 月 12 日那条讲比萨斜塔「黑色九月」和掏土纠偏的冷知识里，斜塔为什么偏偏在 1990 年关闭，其实就要从帕维亚说起。&lt;/p&gt;
-
-&lt;h3&gt;一座越加越重的塔&lt;/h3&gt;
-
-&lt;p&gt;帕维亚市政塔始建于 11 世纪下半叶，原本是两座老教堂共用的钟楼，方形平面，高七十多米（意大利语维基记 78 米，英文资料多写 72 米）。米兰理工大学（Politecnico di Milano）Luigia Binda 团队事后考证，塔分三四期建成，起点约在 1060 年。1583 年起，建筑师 Pellegrino Tibaldi 又在塔顶加盖了一个花岗岩和安杰拉石砌的钟室，工程持续到 1590 年代末。&lt;/p&gt;
-
-&lt;p&gt;问题就出在这个「帽子」上。Binda 等人估算，全塔总重约 12 万千牛（约 1.2 万吨），光是顶上的钟室就占了 3 万千牛，四分之一的重量压在中世纪的老塔身上。塔墙厚约 2.8 米，但它并不是实心砖墙：内外两层规整的砖砌面，中间夹着一层碎砖、卵石和厚厚灰浆混成的「土法混凝土」，楼梯还在墙体里面螺旋上升。这种三叶墙（three-leaf masonry）看着厚实，承载力却很不均匀。&lt;/p&gt;
-
-&lt;h3&gt;排除法：不是地基，不是炸弹，不是超音速飞机&lt;/h3&gt;
-
-&lt;p&gt;塌了之后，各种说法满天飞：地基沉降、有人放炸弹、城市交通震动、超音速飞机掠过。调查组从约 7000 立方米的废墟里捞出大约 100 块大尺寸砌体样本带回实验室，同时做地质勘探、砂浆与砖石的化学和岩相分析。结论是：地基沉降和化学风化都可以排除，倒塌前几个月也找不到任何特殊事件。&lt;/p&gt;
-
-&lt;p&gt;唯一扎眼的数字是应力。有限元弹性模型算出，塔底墙体在自重下承受 1.7 到 2.0 兆帕的压应力；而用废墟砌体切出的 400×600×700 毫米棱柱做试验，抗压强度只有 1.5 到 3.5 兆帕。也就是说，这座塔几百年来一直站在自身强度的边缘。&lt;/p&gt;
-
-&lt;h3&gt;石头也会「蠕变」&lt;/h3&gt;
-
-&lt;p&gt;真正的罪魁祸首，Binda 团队认为是时间。他们把废墟样本放进恒温 20 °C、湿度 50% 的环境里，用液压机对其施加恒定的高荷载，一压就是上千天。结果样本并没有在加载瞬间破坏，而是慢慢变形：竖向压缩、横向膨胀、内部竖向裂缝一点点扩展，体积应变先是基本不变，后来突然急剧变化，直到某一天垮掉。有些试件就在模型预测的应力水平附近、在持续荷载下发生了破坏。&lt;/p&gt;
-
-&lt;p&gt;这就是砌体的蠕变（creep）损伤：材料在长期高应力下不断累积微裂纹，几百年风载和昼夜温差造成的疲劳又在一旁推波助澜。考古学家 1960 年代拍下的照片里，承重墙上已经能看到细密的竖向裂缝。只是当时没人把它们当回事。&lt;/p&gt;
-
-&lt;p&gt;蠕变至今仍是主流解释，而非盖棺定论。意大利语维基百科对这座塔的条目里，直接写着「倒塌原因从未查清」。&lt;/p&gt;
-
-&lt;h3&gt;它倒下之后，别的塔才被认真体检&lt;/h3&gt;
-
-&lt;p&gt;帕维亚的教训在于：一座看上去健康的老塔，可能在毫无外力的情况下突然垮掉。意大利各地随之紧张起来。比萨斜塔早已研究了二十多年，帕维亚一塌，政府就在 1990 年 1 月把它关闭，组建委员会，后来才有了掏土纠偏工程，2001 年重新开放。Binda 团队也用同样的方法检查了蒙扎和克雷莫纳大教堂的钟楼，在承重墙上找到了类似的竖向裂缝。&lt;/p&gt;
-
-&lt;p&gt;帕维亚没有重建这座塔。1994 年有议员提出拨款约 100 亿里拉复建，被艺术史学家和时任市长以「造假古迹」为由挡了回去。部分石块今天存放在维斯孔蒂城堡（Castello Visconteo）的护城河里。2014 年 3 月 17 日，二十五周年那天，废墟旁落成了一座纪念遇难者的水池，四周的镜面映出这座塔原来的轮廓。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.witpress.com/Secure/elibrary/papers/STR03/STR03010FU.pdf"&gt;Binda, Anzani &amp;amp; Saisi, WIT Transactions on the Built Environment vol. 66 (2003)&lt;/a&gt;；&lt;a href="https://it.wikipedia.org/wiki/Torre_civica_di_Pavia"&gt;Wikipedia (it): Torre civica di Pavia&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Civic_Tower_(Pavia)"&gt;Wikipedia: Civic Tower (Pavia)&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.witpress.com/Secure/elibrary/papers/STR03/STR03010FU.pdf"&gt;https://www.witpress.com/Secure/elibrary/papers/STR03/STR03010FU.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://it.wikipedia.org/wiki/Torre_civica_di_Pavia"&gt;https://it.wikipedia.org/wiki/Torre_civica_di_Pavia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Civic_Tower_(Pavia)"&gt;https://en.wikipedia.org/wiki/Civic_Tower_(Pavia)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">35e4f5e1-d3bd-5581-ba77-68f14c3e1396</guid>
-      <pubDate>Mon, 16 Nov 2026 12:20:01 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.witpress.com/Secure/elibrary/papers/STR03/STR03010FU.pdf</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/1/18/Torre_Civica_di_Pavia.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 搬沙发过拐角，数学家卡了近 60 年：最大面积约 2.2195，由 18 段曲线拼成，密歇根毕业的 Jineon Baek 用 119 页、零计算机证明 Gerver 1992 年的沙发就是极限</title>
-      <description>&lt;p&gt;搬过家的人都知道，大沙发卡在楼道拐角是什么滋味。数学家把这件事抽象成一道题，然后整整卡了将近 60 年：宽度为 1 的直角走廊，能水平推过拐角的平面图形，面积最大是多少？答案大约是 2.2195。证明它的人，是一位在密歇根大学读博时开始啃这道题的韩国数学家，论文写了 119 页，没用计算机。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2025/02/Moving-sofas_crTommy-Parker-Lede.webp" alt="不同形状的沙发在 L 形走廊中转弯的示意插图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;移动沙发问题：什么形状能转过直角弯，同时面积最大？插图：Tommy Parker / Quanta Magazine&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;从正方形到「电话听筒」&lt;/h3&gt;
-
-&lt;p&gt;这道题叫移动沙发问题（moving sofa problem），1966 年由加拿大数学家 Leo Moser 正式提出。最容易想到的答案是边长为 1 的正方形，面积 1：推到拐角，换个方向接着推。半径为 1 的半圆好一点，可以在拐角处原地转 90 度，面积 π/2 ≈ 1.57。&lt;/p&gt;
-
-&lt;p&gt;1968 年，英国数学家 John Hammersley 想出一个妙招：把半圆从中间切开，两半往外拉开，中间塞进一块挖掉半圆形缺口的长方形。整个形状像一个老式电话听筒，转弯时缺口正好套住走廊的内角。面积是 π/2 + 2/π ≈ 2.2074。他还证明了任何沙发都不可能超过 2√2 ≈ 2.8284。下界 2.2074，上界 2.8284，中间的缺口一留就是几十年。&lt;/p&gt;
-
-&lt;h3&gt;18 段曲线拼出来的沙发&lt;/h3&gt;
-
-&lt;p&gt;1992 年，罗格斯大学的 Joseph Gerver 把 Hammersley 的听筒「打磨」了一遍，把棱角改成一段段精心计算的弧线，整个边界由 18 段不同的曲线拼成，面积提升到约 2.2195。贝尔实验室的工程师 Ben Logan 其实也独立找到了同一个形状，只是从来没发表。&lt;/p&gt;
-
-&lt;p&gt;Gerver 认为这就是最优解，但证明不了。之后的进展主要在上界一侧：2018 年，加州大学戴维斯分校的 Dan Romik 和 Yoav Kallus 让走廊只在有限的几个角度上「转动」，用计算机搜索把上界压到 2.37，还证明了最优沙发至少要转约 81.2 度。2016 年 Romik 还把 Gerver 沙发的形状写成了 22 个变量、22 个方程的系统。可 2.2195 和 2.37 之间的那一小段，靠计算机怎么都合不拢。&lt;/p&gt;
-
-&lt;h3&gt;一个「比面积大、又刚好在 Gerver 沙发上等于面积」的函数&lt;/h3&gt;
-
-&lt;p&gt;Jineon Baek（백진언）2016 年进入密歇根大学读研，导师是代数学家 Michael Zieve。中间他回韩国服了四年兵役，2021 年回到安娜堡，继续啃这道题。2024 年 11 月 29 日，他在 arXiv 上贴出《Optimality of Gerver's Sofa》（arXiv:2411.19826）。&lt;/p&gt;
-
-&lt;p&gt;思路分两步。先证明最优沙发必然长得「像」Gerver 的沙发，把候选范围大幅缩小。然后构造一个函数 Q：对每个候选沙发，Q 的值都不小于它的面积；而对 Gerver 的沙发，Q 恰好等于面积。如果能证明 Q 在 Gerver 沙发处取最大值，那就没有任何沙发的面积能超过它。难点在于找到这样一个 Q，Baek 找到的 Q 性质很好，最大化它的过程像求一条抛物线的顶点。整份证明没有用计算机辅助穷举，这在组合几何里并不常见。&lt;/p&gt;
-
-&lt;p&gt;Zieve 对 Quanta 说：「Jin 是我见过最会用计算机的学生。」偏偏这位最会用计算机的学生，交出了一份纯手写推理的证明。Gerver 本人则说：「我很幸运，活得够久，看到有人终于解决了这个问题。」&lt;/p&gt;
-
-&lt;h3&gt;现在到哪一步了&lt;/h3&gt;
-
-&lt;p&gt;论文投给了《数学年刊》（Annals of Mathematics）。截至 2026 年年中韩国高等科学院（KIAS）对他的专访，论文仍在同行评审中，但数学界普遍认为论证是正确的。《科学美国人》把它列为 2025 年十大数学突破之一。Baek 先在延世大学做博士后，2026 年初的韩国媒体报道中，他已在 KIAS 的 June Huh 数学难题研究中心任职。&lt;/p&gt;
-
-&lt;p&gt;问题还有不少变体没解决。比如 Romik 研究过的「双手沙发」（ambidextrous sofa），要求同一张沙发能连续拐一个左弯和一个右弯，目前最好的构造面积约 1.6450，同样由 18 段曲线组成，但没人证明它最优。&lt;/p&gt;
-
-&lt;p&gt;美剧《老友记》里 Ross 扛着沙发在楼梯间狂喊「Pivot!」的那一集，维基百科的这个词条就把它列在「另见」里。现实中的答案是：在宽 1 米的走廊里，你能转过去的沙发最多约 2.2195 平方米，前提是它长成 Gerver 设计的那个怪样子。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.quantamagazine.org/the-largest-sofa-you-can-move-around-a-corner-20250214/"&gt;Quanta Magazine, 2025-02-14&lt;/a&gt;；&lt;a href="https://arxiv.org/abs/2411.19826"&gt;Baek, arXiv:2411.19826&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Moving_sofa_problem"&gt;Wikipedia: Moving sofa problem&lt;/a&gt;；&lt;a href="https://horizon.kias.re.kr/wp-content/uploads/2026/06/Horizon_An-Interview-with-Jineon-Baek_최은선.pdf"&gt;KIAS Horizon 专访&lt;/a&gt;；&lt;a href="https://www.hankyung.com/article/202601049901Y"&gt;韩国经济新闻 2026-01&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/the-largest-sofa-you-can-move-around-a-corner-20250214/"&gt;https://www.quantamagazine.org/the-largest-sofa-you-can-move-around-a-corner-20250214/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2411.19826"&gt;https://arxiv.org/abs/2411.19826&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Moving_sofa_problem"&gt;https://en.wikipedia.org/wiki/Moving_sofa_problem&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://horizon.kias.re.kr/wp-content/uploads/2026/06/Horizon_An-Interview-with-Jineon-Baek_최은선.pdf"&gt;https://horizon.kias.re.kr/wp-content/uploads/2026/06/Horizon_An-Interview-with-Jineon-Baek_최은선.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.hankyung.com/article/202601049901Y"&gt;https://www.hankyung.com/article/202601049901Y&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7afd8b93-f3e4-5796-bfc3-247b56032eb0</guid>
-      <pubDate>Mon, 16 Nov 2026 12:20:01 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.quantamagazine.org/the-largest-sofa-you-can-move-around-a-corner-20250214/</link>
-      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2025/02/Moving-sofas_crTommy-Parker-Social.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 「最后两个会说这门语言的人互不说话」：2011 年刷屏的 Ayapaneco 故事，研究者说「碰巧不太对」，两人只是合不来，2020 年墨西哥普查还登记了 70 名母语者</title>
-      <description>&lt;p&gt;「一门语言只剩最后两个会说的人，两人住得相隔 500 米，却因为多年不和，谁也不跟谁说话。」这个故事 2011 年传遍全球，标题党们写得一个比一个心酸。故事本身倒不全是假的，那门语言确实岌岌可危。偏偏最抓人的那一句「拒绝交谈」，研究这门语言十年的人类学家说：不太对。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://static.guim.co.uk/sys-images/Guardian/About/General/2011/4/13/1302717411050/Manuel-Segovia-still-spea-007.jpg" alt="墨西哥 Ayapa 村的 Manuel Segovia" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Manuel Segovia，2011 年报道中 Ayapaneco 的两位「最后使用者」之一。图：The Guardian&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;「真正的声音」&lt;/h3&gt;
-
-&lt;p&gt;这门语言外人叫它 Ayapaneco，又称阿亚帕索克语（Ayapa Zoque），属于米塞-索克语系（Mixe-Zoquean）的索克语支，分布在墨西哥东南部塔巴斯科州（Tabasco）低地的 Ayapa 村。说这门语言的人自己管它叫 Nuumte Oote，意思是「真正的声音」。&lt;/p&gt;
-
-&lt;p&gt;它曾经是个活跃的少数语言。20 世纪中叶，墨西哥推行西班牙语义务教育，几十年里原住民孩子在学校被明令禁止说本族语；1970 年代起城市化和外出务工又把村里的语言群体打散了。研究它的印第安纳大学语言人类学家 Daniel Suslak 形容它是「语言孤岛」，周围都是势力更大的原住民语言。它的拟声词极其丰富，比如 kolo-golo-nay，意思是「像火鸡一样咯咯叫」。&lt;/p&gt;
-
-&lt;h3&gt;故事是怎么来的&lt;/h3&gt;
-
-&lt;p&gt;2011 年 4 月，英国《卫报》报道：Ayapaneco 只剩两位流利使用者，75 岁的 Manuel Segovia 和 69 岁的 Isidro Velázquez，住在同一个村子，相距 500 米，「据说彼此回避」。Segovia 以前跟哥哥说这门语言，哥哥大约十年前去世；他在家里还对妻子和儿子说，对方听得懂但说不出几句。Velázquez 则据说已经不跟任何人说母语了。&lt;/p&gt;
-
-&lt;p&gt;这段描写很快被转述成「两人结怨、拒绝交谈、语言因此等死」。可就在同一篇报道里，Suslak 的说法温和得多：「他们俩没什么共同点。」他说 Segovia「有点扎手」，Velázquez「更沉默寡言」，原文的意思是两人性格合不来、平时没什么来往，而不是什么世仇。Segovia 本人也否认对 Velázquez 有敌意。&lt;/p&gt;
-
-&lt;p&gt;2014 年 Suslak 接受《Indian Country Today》采访时说得更直接：「两个最后使用者互不说话」这个故事，「只是碰巧不太对」。会说的人也不止两个，还有 Isidro 的兄弟姐妹和 Manuel 的一个表亲，另有几位他认识的使用者近年陆续去世。两位老人还和墨西哥人类学家 Denisse Rebeca Gómez Ramírez 合作编写了一本讲 Ayapaneco 人体部位词汇的书，Suslak 打趣说他们是这门语言的「第一批作家」。&lt;/p&gt;
-
-&lt;h3&gt;广告公司也来讲故事&lt;/h3&gt;
-
-&lt;p&gt;传说一旦好听，就会有人拿去用。2013 到 2014 年，Vodafone 推出了一场 Ayapaneco 主题营销：拍纪录片，上线一个「世界首个社交词典」平台，邀请网友「认领」一个 Ayapaneco 单词。戛纳国际创意节的参赛资料里，这个案子挂在德国 Jung von Matt 汉堡公司名下，宣称「超过 5000 个单词被永久保存」，2015 年的参赛资料干脆写「一门语言被拯救了」。按英文维基百科的说法，这次营销还把 Don Manuel 和 Don Isidro 之间的「宿怨」当作卖点；Suslak 等观察者则认为，Vodafone 实际给社区的帮助极其有限，并不对应社区真正的需要。&lt;/p&gt;
-
-&lt;h3&gt;数字为什么对不上&lt;/h3&gt;
-
-&lt;p&gt;Ayapaneco 到底有几个人会说？2011 年的报道说 2 个；Suslak 2014 年说「还有一小撮」；维基百科引用过一个约 15 人、年龄 67 到 90 岁的估计（年份不详）；墨西哥 2020 年人口普查（INEGI）则登记了 70 名母语使用者。这几个数字之间不矛盾，它们量的东西不一样：「流利、日常使用」「能说」「自报母语」是三种口径。濒危语言的统计常常就卡在这里，媒体最爱用最小的那个数。&lt;/p&gt;
-
-&lt;p&gt;真实的进展没那么戏剧化，但在发生：墨西哥国家原住民语言研究所（INALI）2012 年起支持社区复兴工作；Segovia 的儿子（也叫 Manuel）在村里办起 Ayapaneco 语言学校，社区办起了语言节；Suslak 牵头编纂第一部词典，2019 年法国国立东方语言文化学院（INALCO）还完成了一篇关于阿亚帕索克语的博士论文，教学用的正字法也在制定中。&lt;/p&gt;
-
-&lt;p&gt;「最后两个人不说话」是个完美的故事，完美到让人懒得核实。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://ictnews.org/archive/language-at-risk-of-dying-out-the-last-two-speakers-arent-talking"&gt;The Guardian 2011 报道（ICT 转载）&lt;/a&gt;；&lt;a href="https://ictnews.org/archive/fighting-off-extinction-the-story-of-indigenous-mexican-languages/"&gt;Indian Country Today, 2014-04-14&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Ayapanec"&gt;Wikipedia: Ayapa Zoque&lt;/a&gt;；&lt;a href="https://lovethework.com/work-awards/campaigns/ayapaneco-225202"&gt;Cannes Lions: Ayapaneco&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://ictnews.org/archive/language-at-risk-of-dying-out-the-last-two-speakers-arent-talking"&gt;https://ictnews.org/archive/language-at-risk-of-dying-out-the-last-two-speakers-arent-talking&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ictnews.org/archive/fighting-off-extinction-the-story-of-indigenous-mexican-languages/"&gt;https://ictnews.org/archive/fighting-off-extinction-the-story-of-indigenous-mexican-languages/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Ayapanec"&gt;https://en.wikipedia.org/wiki/Ayapanec&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://lovethework.com/work-awards/campaigns/ayapaneco-225202"&gt;https://lovethework.com/work-awards/campaigns/ayapaneco-225202&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7ed0143c-739b-55cb-8aef-6c2e005b4a89</guid>
-      <pubDate>Mon, 16 Nov 2026 12:20:01 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://ictnews.org/archive/language-at-risk-of-dying-out-the-last-two-speakers-arent-talking</link>
-      <enclosure url="https://static.guim.co.uk/sys-images/Guardian/About/General/2011/4/13/1302717411050/Manuel-Segovia-still-spea-007.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 破产商人在报纸上宣布自己是「美国皇帝」，旧金山陪他演了二十年：警察抓他后局长道歉、餐馆收他印的钞票，他下诏要修的跨湾大桥在他死后 56 年通车</title>
-      <description>&lt;p&gt;1867 年，旧金山一名私人治安队的特约警员 Armand Barbier 把一个穿旧军装、佩军刀的男人抓了起来，打算送去强制治疗精神病。第二天全城舆论炸了锅，警察局长 Patrick Crowley 亲自下令放人，并代表警队正式道歉。被抓的那位随后颁布了一道「帝国特赦」，赦免了抓他的 Barbier。他的头衔是：美利坚合众国皇帝诺顿一世（Norton I, Emperor of the United States）。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Norton-2.jpg" alt="身穿军装、头戴礼帽的诺顿一世肖像照" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;诺顿一世，约 1870 年代。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一船大米毁掉的商人&lt;/h3&gt;
-
-&lt;p&gt;Joshua Abraham Norton 1818 年前后生于伦敦一个犹太家庭，两岁随家人移居南非。21 岁时在父亲资助下开船具店，18 个月就破产。1848 年前父母和两个兄弟姐妹相继离世，1849 年底他来到淘金热中的旧金山，做房地产和商品生意，一度很成功。&lt;/p&gt;
-
-&lt;p&gt;1852 年，听说中国闹米荒、大米要涨价，他和合伙人押上 2.5 万美元，买下整整一船秘鲁大米。结果几艘运米船接连抵港，米价崩盘。几年官司打下来，1856 年，38 岁的 Norton 第二次破产，从此消失了一阵子。&lt;/p&gt;
-
-&lt;h3&gt;「应绝大多数公民的强烈要求」&lt;/h3&gt;
-
-&lt;p&gt;1859 年 9 月 17 日，Norton 亲自走进《旧金山晚报》（San Francisco Daily Evening Bulletin）编辑部，递上一份公告：应「绝大多数公民的强烈要求」，他宣布自己为「这些合众国的皇帝」。编辑觉得好玩，当晚就登了出来。&lt;/p&gt;
-
-&lt;p&gt;接下来他越来越认真。同年 10 月下令废除美国国会；1860 年 1 月命令陆军总司令 Winfield Scott「以适当兵力」清空国会大厅（当然没人理他）；7 月又宣布解散共和国、改行君主制。1861 年法国拿破仑三世出兵墨西哥后，他给自己加了个「墨西哥保护者」的头衔。&lt;/p&gt;
-
-&lt;p&gt;旧金山人选择陪他玩下去。他穿着据说是普雷西迪奥（Presidio）驻军军官送的二手蓝色军装、镀金肩章，每天在街上巡视街道、人行道和下水道。他自己印发 50 美分到 10 美元面额的期票，城里一些餐馆真收。这些期票如今在拍卖会上一张能卖到一万美元以上。&lt;/p&gt;
-
-&lt;h3&gt;真诏书和假诏书&lt;/h3&gt;
-
-&lt;p&gt;他的名气大到报纸开始替他「下诏」。几年之后，《上加州日报》（Daily Alta California）等报纸登出的不少诺顿诏书，其实是编辑自己编的。历史学家今天大致认可的，是 1870 年到 1875 年间刊登在《太平洋诉求报》（The Pacific Appeal）上的约 250 份公告。这是一份非裔美国人创办的废奴主义周报，1870 年 12 月被指定为皇帝的「帝国官报」。&lt;/p&gt;
-
-&lt;p&gt;1867 年那次抓捕后，《上加州日报》替他说了一句流传很广的话：他「没流过一滴血，没抢过任何人，也没掠夺过任何国家」。马克·吐温以他为原型写了《哈克贝利·费恩历险记》里的「国王」，史蒂文森把他写进了小说《The Wrecker》。&lt;/p&gt;
-
-&lt;h3&gt;他要的那座桥&lt;/h3&gt;
-
-&lt;p&gt;诺顿最出名的诏书，是要求在奥克兰和旧金山之间经耶尔巴布埃纳岛（Yerba Buena Island）修一座吊桥或隧道。常被引用的一份 1872 年诏书还顺便规定，谁敢把这座城市叫「Frisco」就罚 25 美元，不过这份的真伪历史学家也说不准。六十多年后，1936 年，海湾大桥（Bay Bridge）通车，路线和他说的差不多。&lt;/p&gt;
-
-&lt;p&gt;1880 年 1 月 8 日晚上，他在去加州科学院听辩论的路上，倒在加州街与杜邦街（今 Grant Avenue）路口，对面就是老圣玛丽教堂，没等到马车就去世了。身上只有五六块零钱；住处搜出一枚金索维林（约合 2.5 美元）、几根手杖、一把破军刀、给维多利亚女王的信，以及一家倒闭金矿的 98 股股票。《旧金山纪事报》的讣告标题是「Le roi est mort」（国王驾崩）。原本要用政府提供的薄棺下葬，他的老商界朋友凑钱换了红木棺材。据《纪事报》报道，约一万人前来瞻仰遗容。&lt;/p&gt;
-
-&lt;p&gt;他的遗骨 1934 年迁到科尔马（Colma）的 Woodlawn 墓园。湾区人到现在也没忘了他：2004 年旧金山市议会通过决议，把海湾大桥「新增部分」命名为「诺顿皇帝桥」，不过大桥归州政府管，这只是市级决议；2013 年有人发起请愿要把整座桥改名；2025 年加州参议院以 39 比 0 通过 SCR 193 决议，提议把耶尔巴布埃纳岛隧道命名为「诺顿皇帝隧道」，众议院至今没有动作。一个破产商人的玩笑，旧金山陪他开了一百六十多年。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Emperor_Norton"&gt;Wikipedia: Emperor Norton&lt;/a&gt;；&lt;a href="https://www.kqed.org/news/11652705/americas-emperor-san-franciscos-treasure-who-was-emperor-norton"&gt;KQED&lt;/a&gt;；&lt;a href="https://www.mentalfloss.com/history/retrobituaries-emperor-norton-san-franciscos-most-beloved-19th-century-eccentric"&gt;Mental Floss&lt;/a&gt;；&lt;a href="https://gizmodo.com/that-time-a-bankrupt-businessman-declared-himself-emper-1685280529"&gt;Gizmodo&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Emperor_Norton"&gt;https://en.wikipedia.org/wiki/Emperor_Norton&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.kqed.org/news/11652705/americas-emperor-san-franciscos-treasure-who-was-emperor-norton"&gt;https://www.kqed.org/news/11652705/americas-emperor-san-franciscos-treasure-who-was-emperor-norton&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9343e71e-1081-5c92-9a1f-ae3d861c03ba</guid>
-      <pubDate>Mon, 16 Nov 2026 12:20:01 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Emperor_Norton</link>
-      <enclosure url="https://ww2.kqed.org/app/uploads/sites/10/2018/03/His-Imperial-Majesty-Emperor-Norton-I-portrait-crop-e1519862812657-JJJH.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 SF 十一月新店清单：Julius' Castle 11/12 重开、Scout 全天咖啡馆、Lorella 面包店月底开</title>
-      <description>&lt;p&gt;这个月 SF 开的新店里，有几家值得周末专门跑一趟。信息来自 SF Standard 11 月 1 日的「本月最期待新店」和 SFist 10 月 23 日的美食周报。两家都没写人均价格，所以下面不报价，去之前自己看菜单。另外我没有逐家核实是否已按时开张，出发前翻一下 Instagram 最稳。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Julius' Castle&lt;/strong&gt;（302 Greenwich St，Telegraph Hill）：这座老餐厅 1922 年开张，2007 年关门，隔了快二十年重开，官方日期是 11 月 12 日。主打 Alice Waters 风格的加州当季食材菜，约 130 个座位，订位会通过 Instagram 分批放出，不是一次性全开。老建筑加山坡视野，适合带来访的朋友或约会。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scout&lt;/strong&gt;（2359 Chestnut St，Marina）：全天营业的咖啡馆，偏加州风，有柴火烤炉，菜单里提到兔肉卷和烤大虾。背后是 Norcina 和 Frankie's 的团队（Kait Bauman、Angelo De Lorenzi），预计 11 月上中旬开。想找个不赶人的午餐位置，可以先记下。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lorella&lt;/strong&gt;（2139 Polk St，Russian Hill）：Melissa Perello 和 Melissa Loar 做的面包店，之前靠周末快闪出名，11 月底实体店开张。招牌有乡村酸种面包、番茄罗勒可颂，还有墨西哥街边玉米味的 masa 牛奶小面包。二楼有儿童游戏区，带娃的人会喜欢。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bare Bones&lt;/strong&gt;（2325 Taraval St，Parkside）：柜台点餐的烤鸡类小店，菜单有 porchetta、凯撒沙拉和一款「不是炸鱼薯条」的三明治。两家媒体对开业时间说法不一，SFist 写 10 月 29 日软开，Standard 写 11 月初。Taraval 线的住宅区，游客少，适合顺路。&lt;/p&gt;
-
-&lt;p&gt;还有几个在路上的：Stir Crazy 鸡尾酒吧（1400 Lombard，Marina，含无酒精款，11 月内开）；Bernal 的 El Buen Comer 要在 Chase Center 旁的 Thrive City 开分店，主厨希望 12 月初开；hed 11 改成泰餐 hed Very Thai，原定 11 月 13 日开业；Jupiter Room 鸡尾酒吧只说「2026 年底」。&lt;/p&gt;
-
-&lt;p&gt;从 Menlo Park 过去，Caltrain 到 4th &amp;amp; King 再转车，Polk 和 Chestnut 这两家相对好顺路。周末晚上别指望随便进，新店头两周基本都要排。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"&gt;https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sfist.com/2026/10/23/this-week-in-food-deep-fall/"&gt;https://sfist.com/2026/10/23/this-week-in-food-deep-fall/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9161e542-2f75-5941-aff5-1db7fbc637ec</guid>
-      <pubDate>Tue, 17 Nov 2026 13:36:28 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_hg2t4cf3914qb22s53ut728u6b/-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Palo Alto 的 Meze Kebab：$60 土耳其烤肉自助，晚餐限时 90 分钟</title>
-      <description>&lt;p&gt;Palo Alto 市中心的餐饮变化不小。Almanac 今年 1 月 14 日报道，开了 36 年的 Il Fornaio 在那周日结束营业，同一时期，&lt;strong&gt;Meze Kebab&lt;/strong&gt; 作为一家 all-you-can-eat 的新店开张。这条不是新闻，但它是我这周能读到全文、信息比较完整的半岛餐厅资料，对想找聚餐地点的人有用，所以单独写一条。&lt;/p&gt;
-
-&lt;p&gt;地址是 632 Emerson St，电话 650-521-0935。营业时间：周一到周四和周日 5–9 PM，周五周六 5–10:30 PM。只做晚餐，没有午市。每桌有 &lt;strong&gt;90 分钟&lt;/strong&gt;的用餐时限，一群人聊天聊嗨了的话，要注意这个。&lt;/p&gt;
-
-&lt;p&gt;价格按档位走，文章里写的「Elite」档：非素食 $60，素食 $45，12 岁以下儿童 $25。文章没有列饮料、税和小费是否另算，也没写有没有别的档位，所以实际账单会比 $60 高，下单前问清楚。&lt;/p&gt;
-
-&lt;p&gt;什么人适合去：四五个人以上、胃口大、想吃肉的聚餐。两个人去就没那么划算，$60 的自助要吃到至少 $40–50 的菜量才不亏，而且 90 分钟的限制让你没法慢慢聊。素食者的 $45 档是个体贴的设计，吃素的朋友不用被迫买肉档。&lt;/p&gt;
-
-&lt;p&gt;我没有找到这家店的食客评价，所以味道如何我不敢替它说话。建议先看一下 Google Maps 的近期评论，再决定要不要订位。&lt;/p&gt;
-
-&lt;p&gt;顺带两条本周的 Peninsula 餐饮标题，我只看到了标题没读到正文：Mountain View 的 Vaso Azzurro 营业 27 年后要关门（11 月 10 日的报道），Palo Alto 一家新的冻酸奶店排长队（Palo Alto Online，11 月 4 日）。真想去的话，直接搜这两个标题读原文。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.almanacnews.com/?p=565539"&gt;https://www.almanacnews.com/?p=565539&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a8f7adf3-1d8f-529c-9990-322decbd10a5</guid>
-      <pubDate>Tue, 17 Nov 2026 13:36:28 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.almanacnews.com/?p=565539</link>
-      <enclosure url="https://i0.wp.com/www.almanacnews.com/wp-content/uploads/2026/01/WEB-260112-PA_Il-Fornaio_33.jpg?fit=2000%2C1333&amp;ssl=1" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 旧金山两大美术馆「湾区居民周六免费」：de Young 和 Legion of Honor 怎么去、要带什么</title>
-      <description>&lt;p&gt;周末不想花钱又想出门，旧金山有个不太会过期的选择：de Young 和 Legion of Honor 这两家美术馆的常设展，对湾区居民周六免费。需要先说明：官网（famsf.org）这次对我的抓取返回 403，没读到，下面的内容来自 SF Funcheap 的活动列表，日期从 2024 持续到 2026，&lt;strong&gt;没有找到 2026 年的官方确认&lt;/strong&gt;。列表自己也写着「可能随时更改或取消」。出门前务必去官网看一眼。&lt;/p&gt;
-
-&lt;p&gt;列表里的规则是这样：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;对象：Alameda、Contra Costa、Marin、Napa、San Francisco、San Mateo、Santa Clara、Solano、Sonoma 九个县的居民。Menlo Park、Palo Alto、South Bay 的人都在范围内。&lt;/li&gt;
-  &lt;li&gt;证明：带有照片的有效证件，或寄到你家地址的邮件信封。&lt;/li&gt;
-  &lt;li&gt;票：要提前订&lt;strong&gt;限时票&lt;/strong&gt;，不订不能保证进。de Young 的限时票时段大致是 9:30 AM–4:30 PM，Legion of Honor 约 9:30 AM–5:15 PM。&lt;/li&gt;
-  &lt;li&gt;不含：特展要另外付全价。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;怎么排半天：de Young 在 Golden Gate Park，旁边就是 Japanese Tea Garden 和植物园，可以和公园玩一整天。Legion of Honor 在 Lincoln Park 海边，位置偏，但风景很好，Land's End 步道就在附近，出了馆走一段海岸线正合适。两家车程差十来分钟，一天跑两家有点赶，选一家慢慢逛更舒服。&lt;/p&gt;
-
-&lt;p&gt;停车是真正的痛点。Golden Gate Park 周末的路边车位很难，de Young 有地下车库，要付费；公共交通的话，从 Caltrain 4th &amp;amp; King 转 Muni 要折腾，过来之前用地图算一下换乘。&lt;/p&gt;
-
-&lt;p&gt;有一点我没法确认：当前正在展出的特展是什么，因为官网打不开。如果你本来想看特展，那部分要付票价，这点请以官网为准。&lt;/p&gt;
-
-&lt;p&gt;最后重复一次：这是靠第三方列表整理的，政策是否在 2026 年冬天仍然有效，先查官网，别白跑。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/free-legion-of-honor-museum-day-for-bay-area-residents-every-saturday-330/"&gt;https://sf.funcheap.com/free-legion-of-honor-museum-day-for-bay-area-residents-every-saturday-330/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d84d8b79-78b1-5777-93d9-c3a678d7b5f6</guid>
-      <pubDate>Tue, 17 Nov 2026 13:36:30 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sf.funcheap.com/free-legion-of-honor-museum-day-for-bay-area-residents-every-saturday-330/</link>
-    </item>
-    <item>
-      <title>🧠 你帮了多少心里有数，拖了多少却没数：106 对同居伴侣 14 天日记发现，人会低估自己对伴侣目标的阻碍，而且低估越多两人越疏远</title>
-      <description>&lt;p&gt;想一下最近一周：你帮伴侣推进了多少事？又给他（她）添了多少堵？大多数人对第一个问题答得挺准，第二个问题就开始含糊了。Emily Connard、Jenna Kilian、Judith Gere 和 Jessica LaBuda 今年 3 月 16 日在 &lt;em&gt;Journal of Social and Personal Relationships&lt;/em&gt; 上发表的研究（DOI 10.1177/02654075261435648，PsyPost 11/14 报道）正好测了这件事。&lt;/p&gt;
-
-&lt;p&gt;研究找了 106 对美国同居伴侣（212 人，经 Craigslist 招募，以白人为主），做了 14 天的对偶日记（Dyadic Daily Diary），最终分析 2,377 份每日报告。每晚睡前，两人各自独立回答四道 7 点量表题：伴侣今天让我更容易推进目标；我今天让伴侣更容易推进目标；伴侣今天让我更难推进；我今天让伴侣更难推进。再加上当天的关系满意度和亲密感。这种设计的好处是能把「我觉得我做了什么」和「对方觉得我做了什么」逐日对齐。&lt;/p&gt;
-
-&lt;p&gt;结果分三层。第一层是追踪准确度（Tracking Accuracy）：对方觉得被帮得多的那天，自评帮得多；对方觉得被拖累的那天，自评也偏高。人不是完全没感觉。第二层是投射（Projection）：自己觉得被伴侣帮了，就倾向认为自己也帮了对方；觉得被拖了，就觉得自己也在拖。作者认为这部分可能反映真实的互相依赖，不全是错觉。第三层最有意思，是系统偏差：&lt;strong&gt;帮助估得准，阻碍却被系统性低估&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;代价也不对称。高估自己帮了多少，跟自己的满意度偏低有关，伴侣也报告更低的亲密和满意；低估自己的阻碍，则和双方亲密感下降、伴侣满意度下降相关。作者的结论很朴素：两边都准一点更好。PsyPost 没给系数，我也没读到全文，效应大小未知。&lt;/p&gt;
-
-&lt;p&gt;为什么会低估阻碍？研究没直接检验，但机制不难猜。阻碍大多是「没做什么」或「顺手做了什么」：晚饭时拉对方聊天打断了他赶稿，周末临时提议出门挤掉了她的复习时间，随口一句「这个项目值得吗」泄了气。这些行为在自己眼里是陪伴或关心，记忆里也不会被标为「妨碍」。帮助则通常是有意为之，很容易记得。这和上周 Yilmaz &amp; Stanton 的情侣日记研究能接上：当天压力高于平时会让爱意下滑，而压力的来源有一部分恰好可能是伴侣在无意中添的。&lt;/p&gt;
-
-&lt;p&gt;可以带走的做法有两个。其一，把「我今天帮你了吗」换成「我今天有没有挡你的路」。前一个问题你自己就有答案，后一个问题只有对方能回答。每周问一次，具体到事：「这周有没有哪件事因为我被耽误了？」其二，在对方有截止日期、考试或重要项目的时期，主动降低自己的「默认请求量」，因为你最容易漏看的正是这些顺手的打扰。&lt;/p&gt;
-
-&lt;p&gt;局限要讲清楚：样本是美国、以白人为主的同居伴侣；没有第三方观察，所以分不清是自评偏低、对方报告偏高，还是两者都有。观察性数据也不能说「纠正低估」就一定能改善关系。不过，在没有更好证据之前，多问一句的成本几乎为零。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/people-tend-to-underestimate-how-much-they-get-in-the-way-of-their-partners-goals/"&gt;https://www.psypost.org/people-tend-to-underestimate-how-much-they-get-in-the-way-of-their-partners-goals/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://metatoc.com/papers/129174-do-people-know-how-they-impact-their-partner-s-goal-pursuit-accuracy-bias-and-associations-with-relationship-outcomes"&gt;https://metatoc.com/papers/129174-do-people-know-how-they-impact-their-partner-s-goal-pursuit-accuracy-bias-and-associations-with-relationship-outcomes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.synapsesocial.com/papers/69ba429c4e9516ffd37a3033"&gt;https://www.synapsesocial.com/papers/69ba429c4e9516ffd37a3033&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7ed6469e-fc28-5008-a2b1-b5f2ae260147</guid>
-      <pubDate>Tue, 17 Nov 2026 14:02:17 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/people-tend-to-underestimate-how-much-they-get-in-the-way-of-their-partners-goals/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/03/upset-stressed-couple-woman-and-man-in-bed.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 AI 帮你写申请书，拿到钱的机会多了，想法却往中间靠：PNAS 分析 NSF/NIH 13 万多份项目，AI 痕迹越重，与已资助项目越像</title>
-      <description>&lt;figure&gt;&lt;img src="https://cdn.craft.cloud/019d3066-3548-718e-af5b-3333a57196ee/assets/content/uploads/Full_0826_research_funding_AI.jpg?fit=cover&amp;width=1200&amp;s=VbdpndJB3kX6AimI_4dmNfnEf5cTihdCPrMGU0a2yXs" alt="AI 与科研经费申请示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Kellogg Insight 配图（图源：Kellogg School of Management）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;「AI 辅助与技能形成」这条线前面追了两个案例：Autor 团队的专利律师 RCT（资深律师受益、新手没长进）和 Barcaui 的 ChatGPT 课堂实验（用了 AI 的学生 45 天后测验更差）。两者都在问个人能力。西北大学 Kellogg 科学学中心（CSSI）的 Yifan Qian、Dashun Wang 等六人在 &lt;em&gt;PNAS&lt;/em&gt; 发表的研究（DOI 10.1073/pnas.2601439123，PsyPost 11/16 报道）把问题往上抬了一层：AI 写作会不会让「想法」本身变得更像？&lt;/p&gt;
-
-&lt;p&gt;数据有两类。一是两所美国大型研究型大学的保密申请材料，含中与未中的：约 1,600 份 NSF 和 4,100 份 NIH 申请；二是 Dimensions 公开数据库里的 5.7 万个 NSF 和 7.4 万个 NIH 资助项目，起始年份 2021-2025。AI 参与度用词频分布估计：以 2021 年摘要为人类基线，以 GPT-3.5 改写版为 AI 基准。「独特性」则用科学语言模型算每篇摘要与该机构上一年已资助项目的平均距离，换成百分位。模型控制了金额、年份、领域，还做了个人内比较，即只拿同一位科学家的不同申请互相比。&lt;/p&gt;
-
-&lt;p&gt;几个关键数字：AI 参与度 2022 年底前平坦，2023 年起陡升，而且呈双峰，一群人几乎不用，另一群约 10-15% 的句子有 AI 改动痕迹。AI 参与度从第 25 百分位升到第 75 百分位，独特性在 NSF 下降约 5 个百分位，NIH 约 4 个。&lt;strong&gt;关键的对照是&lt;/strong&gt;：把 2021 年人类摘要交给 AI 改写，同一个想法换了措辞，独特性几乎不变。也就是说，变「像」的不只是文字，更可能是选题和构思本身。&lt;/p&gt;
-
-&lt;p&gt;回报呢？NIH 上 AI 参与度高的申请中标概率高约 4 个百分点，项目产出论文多约 5%，但在被引前 5% 或前 1% 的高影响论文上没有差别。NSF 两项都不显著。限定生物医学领域后差异仍在，说明不只是学科构成造成的。&lt;/p&gt;
-
-&lt;p&gt;Wang 的说法是：「科学的进步靠探索那些现在看起来还不明显的想法。」如果 AI 越来越多地从昨天的成功申请中学习，明天的科研组合会不会变得「不那么冒险」？Qian 补了一句很实在的话：对个人来说，用 AI 可能确实帮你拿到钱。&lt;/p&gt;
-
-&lt;p&gt;这就是一个典型的探索与利用（Exploration vs. Exploitation）困境：对个人最优的策略（写得更像已经成功的东西），叠加起来让整体变窄。可带走的做法：用 AI 改写之前，先自己写一版「最怪的那个想法」并保存下来；改完后对照，问一句「哪个让我兴奋的点被磨平了」。AI 适合打磨表达，构思阶段最好先关掉它。&lt;/p&gt;
-
-&lt;p&gt;局限：观察性研究，不能证明因果；AI 使用只从摘要用词推断，覆盖不到头脑风暴和完整计划；保密数据只来自两所学校；随访只有一到两年，高影响论文本来就需要更长时间才显现。作者也坦白，自己的论文用 GPT-5 和 Claude Opus 4 润色过语言。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/scientists-who-use-ai-propose-less-distinctive-ideas-for-federal-research-grants/"&gt;https://www.psypost.org/scientists-who-use-ai-propose-less-distinctive-ideas-for-federal-research-grants/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://insight.kellogg.northwestern.edu/article/ai-could-help-researchers-get-funding-but-at-what-cost"&gt;https://insight.kellogg.northwestern.edu/article/ai-could-help-researchers-get-funding-but-at-what-cost&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds"&gt;https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2601.15485v1"&gt;https://arxiv.org/abs/2601.15485v1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4b9d4f9f-bbf7-5f01-a91f-0fde5966f910</guid>
-      <pubDate>Tue, 17 Nov 2026 14:02:19 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/scientists-who-use-ai-propose-less-distinctive-ideas-for-federal-research-grants/</link>
-      <enclosure url="https://cdn.craft.cloud/019d3066-3548-718e-af5b-3333a57196ee/assets/content/uploads/Full_0826_research_funding_AI.jpg?fit=cover&amp;width=1200&amp;s=VbdpndJB3kX6AimI_4dmNfnEf5cTihdCPrMGU0a2yXs" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 领导讲自己做的好事，员工是被鼓舞还是觉得恶心？JAP 两项研究：同时表扬别人的善举，厌恶感就消失</title>
-      <description>&lt;p&gt;领导力课程常教一句话：以身作则。可「以身作则」说出口之后，就容易变成「你看我多有原则」。南卫理公会大学 Cox 商学院的 Grace Ching Chi Ho 和亚利桑那州立大学 W. P. Carey 商学院的 Hudson Sessions 在 &lt;em&gt;Journal of Applied Psychology&lt;/em&gt; 上的新研究（DOI 10.1037/apl0001416，PsyPost 11/17 报道）检验了这件事的两面。&lt;/p&gt;
-
-&lt;p&gt;他们提出「道德资本化」（Moral Capitalization）的概念：主管主动分享和自己有关的正面道德事件。分两种：&lt;strong&gt;自我聚焦&lt;/strong&gt;（讲自己做过的道德之举）和他人聚焦（讲别人的）。员工可能产生两种情绪：道德升华（Moral Elevation，被善行打动、想变得更好）或道德厌恶（Moral Disgust）。结果变量是员工对主管的组织公民行为，也就是自愿帮忙。&lt;/p&gt;
-
-&lt;p&gt;研究 1 是三波现场调查。305 名全职主管各自邀请一位常合作的员工，最终 254 对，平均共事近三年。第一波主管报告几周内讲自己和别人道德事迹的频率，几周后员工报告升华与厌恶，第三波主管评员工的主动帮助。分析控制了主管的道德谦逊，补充分析还排除了普通工作成就的分享和骄傲表情。结果是：常讲自己的善举整体上会提高员工的升华感，升华又带来更多帮助，总体上和厌恶没有显著关系。但如果主管很少表扬别人的道德行为，讲自己就和厌恶正相关，厌恶又对应更少帮助。如果主管也常夸别人，厌恶的路径就消失了，升华反而更强。补充分析还发现女性主管讲自己善举时引发的厌恶更强，这一点值得留意，可能涉及性别期望。&lt;/p&gt;
-
-&lt;p&gt;研究 2 是预注册在线实验，233 名美国全职员工看一段模拟 Slack 对话，主管叫 Jamie。2×2 设计：Jamie 高频或低频讲自己的善举，同时表扬同事的善举或只发普通工作更新。结果几乎复现了现场研究：自我聚焦分享提高升华和帮忙意愿；不配合表扬同事时，厌恶上升、帮忙意愿下降；配上表扬同事，厌恶降低，间接效应变成正的。另一个补充实验显示，厌恶专门针对「道德炫耀」，普通的业绩炫耀不会引发。&lt;/p&gt;
-
-&lt;p&gt;Ho 的建议是：&lt;strong&gt;把聚光灯分出去&lt;/strong&gt;，在讲自己的同时认可别人的道德行为。她也提醒：员工反感，不代表领导的善举是假的。&lt;/p&gt;
-
-&lt;p&gt;这条和 11/15 那篇 Sezer、Chon 和 Flynn 的 AMJ 研究能对上：高管针对 360 反馈改得太快，会被看成不真诚。两者都说明，下属判断的不只是行为本身，还有它看起来像是为了谁。道德行为一旦带上「为自己加分」的味道，就会触发厌恶这种很原始的情绪，而厌恶比不喜欢更难修复。&lt;/p&gt;
-
-&lt;p&gt;可以带走的做法：如果你带团队、想讲自己的某次坚持，先找一个同事的类似例子一起讲，比例至少一比一；讲的时候说「这件事让我想到某某上次……」，而非「我当时就决定……」。如果你是员工，听到领导讲自己时先别急着翻白眼，留意他是否也在夸别人，这个信号比他讲的内容更能说明问题。&lt;/p&gt;
-
-&lt;p&gt;局限：主管自己挑选邀请的员工，可能偏向合作关系好的配对；现场数据是相关性的；实验测的是对虚构主管的假想帮忙意愿；厌恶的平均分很低（现场 2.74/7，实验 1.44/7），可能有社会赞许压力。PsyPost 没报告系数。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/new-study-finds-bosses-who-brag-about-their-own-good-deeds-risk-disgusting-their-employees/"&gt;https://www.psypost.org/new-study-finds-bosses-who-brag-about-their-own-good-deeds-risk-disgusting-their-employees/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">b940b59b-d833-5dba-b8c0-6b845dcd2e20</guid>
-      <pubDate>Tue, 17 Nov 2026 14:02:19 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/new-study-finds-bosses-who-brag-about-their-own-good-deeds-risk-disgusting-their-employees/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/smug-boss.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🌿 超加工食品在血里留下“指纹”：Whitehall II 六千多人、最长 20 年随访，代谢物评分解释了心血管关联的 51%</title>
       <description>&lt;p&gt;超加工食品（ultra-processed food, UPF）的争论一直卡在同一个地方：它不好，是因为糖、盐、饱和脂肪太多，还是因为“加工”这件事本身？UCL 和帝国理工的一项新研究给了一个偏向后者的答案，而且用的是血液里能测到的东西。&lt;/p&gt;
@@ -786,74 +209,6 @@
       <category>healthy-life</category>
       <link>https://mindsitenews.org/2026/06/16/the-healing-powers-of-nature-for-mental-health-affirmed-in-new-study/</link>
       <enclosure url="https://dl3wjxrn8qv3a.cloudfront.net/wp-content/uploads/2026/06/16113102/unnamed-5-e1781641856489.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 助听器能不能防痴呆？一项随机试验说“差异不显著”，一项跨 33 国队列说“要看戴得好不好”</title>
-      <description>&lt;p&gt;听力下降一直被《柳叶刀》痴呆委员会列为最大的可干预风险因素，估计能解释约 8% 的痴呆病例。问题是：把听力补回来，真的能少得痴呆吗？2026 年下半年有两项新结果，读起来方向不太一样。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://medicaldialogues.in/h-upload/2026/09/29/477551-hearing-intervention.jpg" alt="CHOICE 试验听力干预示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;CHOICE 试验报道配图（来源：Medical Dialogues）&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;CHOICE 试验&lt;/strong&gt;（JAMA Neurology，2026-09-28 在线发表，上海交通大学医学院附属第九人民医院陈颖团队）是一项多中心、开放标签的随机试验。研究者从 21,908 名 60 岁以上老人中筛出 703 人：都有轻度认知障碍（MCI）和中重度听力损失，平均 74.5 岁，64% 为男性。353 人配助听器，350 人只接受听力保健教育，610 人完成了 24 个月随访。&lt;/p&gt;
-&lt;p&gt;主要终点是从 MCI 进展到痴呆水平（临床痴呆评定 CDR 整体分≥1）。助听器组 3.09%，教育组 4.74%，差异没有统计学意义（报道给出的风险差为 −2.07%）。换句话说，主要终点没有达到。&lt;/p&gt;
-&lt;p&gt;有意思的是预设的次要终点：认知“改善”（CDR 回到 0）的比例，助听器组 15.34%，对照组 2.36%，相对风险 5.94。没有与干预相关的不良事件。但作者自己列出了不少限制：CDR 0.5 的入组标准不是事先设定的，可能有选择偏倚；CDR 是主观量表，而且试验开放标签，评估者和参与者都知道分组；转为痴呆的人比预期少，统计效能不足；助听器是免费提供的，对照组也有健康教育，都可能影响结果。&lt;/p&gt;
-&lt;p&gt;另一项证据来自 2026 年 7 月阿尔茨海默病协会国际会议（AAIC，伦敦）上香港大学陈善全团队的汇报，论文发表于 Cell Reports Medicine。他们汇总了 7 个队列、33 个国家共 61,089 人，平均随访 6.5 年，除了问“戴不戴助听器”，还让人给助听器效果打分（极好到差五档）。自评“好”及以上的人，痴呆风险比（HR）0.71（95% CI 0.66–0.77）；自评“一般或差”的人，HR 1.03（0.97–1.10），和没戴的人基本一样。整体戴助听器是 HR 0.91。陈善全的说法很直接：放大不足的助听器，在防痴呆上“等于没戴”。另外，听力受损的老人里只有约 15.4% 在用助听器。&lt;/p&gt;
-&lt;p&gt;两项结果放在一起，能读出的信息有限，也要小心。队列研究里“觉得助听器好用”的人，本身可能更健康、更爱社交、更有资源去调试设备，这是典型的健康使用者偏倚；痴呆是用记忆、定向、执行功能测评推算的“可能痴呆”，不是临床诊断；评分也是自报。CHOICE 则是目前少有的随机证据，但 24 个月对痴呆来说偏短。&lt;/p&gt;
-&lt;p&gt;实际能带走的只有一点：如果要配助听器，别配完就算了。验配、调试和后续随访，可能比“有没有这个设备”更重要。真正能回答因果问题的，是更大样本、更长随访、盲法评估的试验。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://medicaldialogues.in/amp/neurology-neurosurgery/news/hearing-aids-did-not-reduce-dementia-progression-in-mild-cognitive-impairment-trial-jama-181228"&gt;Medical Dialogues 对 CHOICE 的报道&lt;/a&gt;（DOI 10.1001/jamaneurol.2026.3395）；&lt;a href="https://www.healio.com/news/neurology/20260720/people-with-poor-hearing-aids-face-similar-dementia-risk-as-people-without-hearing-aids"&gt;Healio 对 AAIC 汇报的报道&lt;/a&gt;。两篇论文原文均未读，数字取自这两篇二手报道。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://medicaldialogues.in/amp/neurology-neurosurgery/news/hearing-aids-did-not-reduce-dementia-progression-in-mild-cognitive-impairment-trial-jama-181228"&gt;https://medicaldialogues.in/amp/neurology-neurosurgery/news/hearing-aids-did-not-reduce-dementia-progression-in-mild-cognitive-impairment-trial-jama-181228&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.healio.com/news/neurology/20260720/people-with-poor-hearing-aids-face-similar-dementia-risk-as-people-without-hearing-aids"&gt;https://www.healio.com/news/neurology/20260720/people-with-poor-hearing-aids-face-similar-dementia-risk-as-people-without-hearing-aids&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">bc5e26ac-5fed-5a8a-b159-0ca969bbaf50</guid>
-      <pubDate>Tue, 17 Nov 2026 14:05:46 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://medicaldialogues.in/amp/neurology-neurosurgery/news/hearing-aids-did-not-reduce-dementia-progression-in-mild-cognitive-impairment-trial-jama-181228</link>
-      <enclosure url="https://medicaldialogues.in/h-upload/2026/09/29/477551-hearing-intervention.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 家里放台 HEPA 空气净化器，血压降多少？JACC 随机交叉试验：整体只有 0.5 mmHg，基线偏高的人降 2.8</title>
-      <description>&lt;p&gt;住在高速公路旁，要不要买空气净化器？波士顿大学 Brugge 等人在 JACC（2025，DOI 10.1016/j.jacc.2025.06.037）发表了一项务实的随机交叉试验，答案是：对大多数人，血压几乎没变化；对基线收缩压偏高的人，有点用。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://www.news-medical.net/images/news/ImageForNews_816655_1755075842615885.jpg" alt="HEPA 空气净化器与高速公路旁住户血压研究配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;配图来源：News-Medical&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;设计很干净。研究者在马萨诸塞州东部，挨家挨户招募住在 I-93 和 Rt-38 两条高流量公路 200 米以内的居民，2020 到 2024 年陆续入组，多在冬季，因为那时交通颗粒物更高。参与者 30 岁以上，不吸烟、不吸电子烟，没有服用降压药或抗炎药。每户先用 HEPA 净化器或“假净化器”（同款机器取出滤芯）一个月，空一个月洗脱期，再换另一种。血压在三次家访时测量，77.5% 的测量在早上 6 点到 8 点之间。&lt;/p&gt;
-&lt;p&gt;结果：共 154 人（108 户）参与，153 人完成 HEPA 期，152 人完成假滤芯期。平均年龄 41.1 岁，女性 59.7%，基线血压 118.8/76.5 mmHg，也就是说大部分人本来血压正常。HEPA 确实把室内空气变干净了：24 小时平均 PM2.5 为户外 3.9、假滤芯 5.2、HEPA 2.5 μg/m³；颗粒数浓度为 10,052、6,925、4,706 个/cm³。但全体参与者的收缩压差只有 0.5 mmHg，没有统计学意义。&lt;/p&gt;
-&lt;p&gt;有变化的是基线收缩压偏高的那组：用 HEPA 时收缩压降 2.8 mmHg，用假滤芯时反而升 0.2 mmHg。基线血压正常的人没有可见获益。作者因此建议有心血管风险（如血压偏高）、住在大路旁的人考虑用净化器，因为没有观察到不良反应。&lt;/p&gt;
-&lt;p&gt;几点要保留。第一，这是分层结果，不是事先宣称的主要结论，而“按基线血压分组”这件事天然会碰到均值回归：基线偏高的人，下次测量本来就容易偏低一点。不过假滤芯期同一批人没有下降，这在一定程度上削弱了这种解释，但不能完全排除。第二，样本偏年轻、偏富裕（多数大学毕业，家庭年收入超过 8.5 万美元），颗粒物浓度本身也不算高，外推到污染更重的城市要谨慎。第三，干预只有一个月，不知道长期效果；2.8 mmHg 的量级也要放在背景里看：近期 BLESS 试验里八段锦 52 周多降 3.3 mmHg，和这差不多大，但后者是一年的坚持，前者是插上电源。&lt;/p&gt;
-&lt;p&gt;如果你住得离主干道很近、血压又偏高，净化器大概是门槛最低的辅助手段之一，但它不替代药物，也不替代运动。更大的类似试验仍在进行，包括针对老年人和心衰患者的 HEPA 试验，目前注册信息里还没有结果。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.news-medical.net/news/20250813/HEPA-filtration-reduces-blood-pressure-for-highway-residents.aspx"&gt;News-Medical 报道&lt;/a&gt;；&lt;a href="https://www.jacc.org/doi/10.1016/j.jacc.2025.06.037"&gt;JACC 论文页&lt;/a&gt;（未读全文，数字来自 News-Medical）。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20250813/HEPA-filtration-reduces-blood-pressure-for-highway-residents.aspx"&gt;https://www.news-medical.net/news/20250813/HEPA-filtration-reduces-blood-pressure-for-highway-residents.aspx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.jacc.org/doi/10.1016/j.jacc.2025.06.037"&gt;https://www.jacc.org/doi/10.1016/j.jacc.2025.06.037&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4645846d-3c9a-5b1a-ae26-0837fc7c4953</guid>
-      <pubDate>Tue, 17 Nov 2026 14:05:46 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.news-medical.net/news/20250813/HEPA-filtration-reduces-blood-pressure-for-highway-residents.aspx</link>
-      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_816655_1755075842615885.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 孩子近视，户外时间是目前最“可操作”的一项：欧洲近视网络综述里的几个数字，和它们各自的分量</title>
-      <description>&lt;p&gt;近视不只是配副眼镜的事。全球近视患病率从 2000 年的约 23% 升到 2020 年的约 34%，按预测 2050 年会接近一半。高度近视（≥−6.00 D）还会抬高近视性黄斑病变、视网膜脱离、青光眼和白内障的终身风险。2026 年 5 月，欧洲近视网络（European Myopia Network）的 Vagge、Lança、Kearney、Grzybowski 在 The Ophthalmologist 上发表了一篇危险因素综述，把各项证据排了个序。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://res.cloudinary.com/broadcastmed/image/fetch/q_auto,c_fill,g_faces:center,f_auto/https://vision-umbraco.euwest01.umbraco.io//media/hyfeqawg/0526-601-profession-risk-factors-of-myopia-andrzej.png" alt="The Ophthalmologist 近视危险因素文章配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;配图来源：The Ophthalmologist&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;先说改变不了的部分。家族史是最强的预测因素：一位家长近视，孩子风险约翻倍，两位都近视约为五倍。但基因变化跟不上近视流行的速度，同一族裔在不同环境里患病率差异很大，所以综述的说法是：基因搭台，环境决定演什么。&lt;/p&gt;
-&lt;p&gt;再看近距离用眼。连续阅读超过 30 分钟，近视发生的比值比（OR）约 1.5；阅读距离小于 30 cm，约 2.5。屏幕每天超过 3 小时，OR 只有约 1.06，而且作者明确说，屏幕可能主要是通过“增加近距离工作、挤占户外时间”起作用，不一定是独立的风险因素。这和一个常见的说法有出入：家长盯着屏幕，但数据上更值得盯的是“孩子是不是总在室内”。&lt;/p&gt;
-&lt;p&gt;户外时间是综述里被称为“最可操作”的保护因素。广州的户外活动纵向试验里，学校每天增加 40 分钟户外时间，三年近视发生率从 39.5% 降到 30.4%。一项荟萃分析估计，每天多 1 小时户外活动，新发近视减少 45%，目前证据支持的目标是每天至少 2 小时。机制猜想是户外强光（通常超过 10,000 lux，室内只有 100–500 lux）刺激视网膜释放多巴胺，抑制眼轴变长，但作者坦率承认，这个机制在儿童中还需要验证。&lt;/p&gt;
-&lt;p&gt;还有一个容易被忽略的限定：保护作用主要体现在“预防发病”，对已经近视的孩子，放慢进展的效果弱得多。所以窗口期是学龄前到小学低年级，视力表还没出问题的时候。&lt;/p&gt;
-&lt;p&gt;现实里的差距不小。澳大利亚一则 2026 年 1 月的报道称，去年做过眼科检查的孩子里 27% 被诊断为近视（这是看了眼科的孩子，不能代表所有儿童）；另一项 2025 年研究称中学生每天屏幕时间约 9 小时。我没有核实这些数字的原始出处，只能当作背景。&lt;/p&gt;
-&lt;p&gt;需要说明的是，这篇文章是学会的教育性综述，不是系统评价，引用的数字来自它的参考文献，我没有逐篇核对。实用的结论倒是一致的：每天尽量争取户外时间，课间出门比周末补课式的户外更稳定；近距离用眼中间休息；两位家长都近视的孩子，从上学开始就要定期查眼。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://theophthalmologist.com/issues/2026/articles/may/risk-factors-of-myopia"&gt;The Ophthalmologist：Risk Factors of Myopia&lt;/a&gt;；&lt;a href="https://www.thesouthernwire.com.au/one-in-four-children-now-short-sighted-as-screen-time-replaces-outdoor-play-2026-01-20"&gt;The Southern Wire 澳大利亚报道&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://theophthalmologist.com/issues/2026/articles/may/risk-factors-of-myopia"&gt;https://theophthalmologist.com/issues/2026/articles/may/risk-factors-of-myopia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.thesouthernwire.com.au/one-in-four-children-now-short-sighted-as-screen-time-replaces-outdoor-play-2026-01-20"&gt;https://www.thesouthernwire.com.au/one-in-four-children-now-short-sighted-as-screen-time-replaces-outdoor-play-2026-01-20&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">68e86e24-8d9f-5e5b-a20d-7c977ac02089</guid>
-      <pubDate>Tue, 17 Nov 2026 14:05:46 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://theophthalmologist.com/issues/2026/articles/may/risk-factors-of-myopia</link>
-      <enclosure url="https://res.cloudinary.com/broadcastmed/image/fetch/q_auto,c_fill,g_faces:center,f_auto/https://vision-umbraco.euwest01.umbraco.io//media/hyfeqawg/0526-601-profession-risk-factors-of-myopia-andrzej.png" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>🎲 问路问到一半，对面的人被一扇门换掉了：1998 年康奈尔校园 15 个路人只有 7 个发现，发现的全是同龄学生；实验者换上工地安全帽后，学生也只剩 4/12 看出来</title>
@@ -1137,96 +492,6 @@
       <pubDate>Wed, 18 Nov 2026 12:08:23 +0000</pubDate>
       <category>bay-area-life</category>
       <link>https://bartable.bart.gov/node/374236</link>
-    </item>
-    <item>
-      <title>🌿 55 岁以上吃素还能增肌吗？荷兰 108 人随机试验：力量一样涨，肌肉量杂食者多涨约 70%</title>
-      <description>&lt;p&gt;上一轮（11 月 8 日）我们写过 Tufts 的析因试验：给健康老人额外补蛋白，肌肉并没有更好。这次的问题换了个角度：如果蛋白质本来就吃得够，来源是植物还是动物，有区别吗？&lt;/p&gt;
-
-&lt;h2&gt;试验怎么做的&lt;/h2&gt;
-&lt;p&gt;阿姆斯特丹应用科学大学团队（van Oppenraaij 等）在 &lt;em&gt;American Journal of Clinical Nutrition&lt;/em&gt; 2026 年发表了一项随机试验：108 位 55 岁以上的成年人，随机分到素食（可吃奶蛋）或杂食饮食，共 12 周。所有人每周做 3 次抗阻训练——腿举、深蹲、卧推、高位下拉、划船类动作和腹部训练。每个人都接受饮食咨询，目标是每天至少 1.2 克/公斤体重蛋白质，两组平均都达标了，包括不吃肉和鱼的素食组。&lt;/p&gt;
-
-&lt;h2&gt;结果：功能一样，肌肉量有差距&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;力量和体能：两组都进步，腿举重量上升，椅子起立变快，组间无显著差异。&lt;/li&gt;
-&lt;li&gt;四肢肌肉量：两组都增加，杂食组 +0.66 公斤，素食组 +0.38 公斤，杂食组约多 70%。&lt;/li&gt;
-&lt;li&gt;有意思的细节：素食者蛋白质吃得越多，肌肉长得越多；杂食者没有这个关系。作者的解释是杂食组可能已经碰到“饱和阈值”，再多蛋白也没有额外合成收益。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;怎么读这个数字&lt;/h2&gt;
-&lt;p&gt;0.28 公斤的差距是 12 周内的肌肉量差，没有告诉我们更长时间会不会收敛或拉大；而且力量、功能没有差异，对日常生活来说，这个差距的实际分量未必大。作者自己也承认，不清楚差距来自素食组蛋白摄入略少，还是动物蛋白的质量（氨基酸组成、消化率）。受试者主要是白人、健康、高学历，能不能推广到别人不确定。以上全部来自 ScienceAlert 的报道，我没有读到论文全文，所以 CI 和 p 值没核对。&lt;/p&gt;
-
-&lt;h2&gt;对你的训练意味着什么&lt;/h2&gt;
-&lt;p&gt;如果你吃素或想少吃肉，这项试验给的是个相当实用的信息：把蛋白质目标写成数字（1.2 g/kg 起步），再配上一周三次抗阻，增肌是做得到的。作者特别提醒食欲差、总能量摄入低的人，要盯紧蛋白质的量和质量——豆制品、奶蛋、混合植物蛋白搭配，比单吃一种更稳。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sciencealert.com/new-trial-compared-muscle-gains-in-vegetarians-and-meat-eaters-one-difference-stood-out"&gt;https://sciencealert.com/new-trial-compared-muscle-gains-in-vegetarians-and-meat-eaters-one-difference-stood-out&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5f412e43-f4f8-593c-a818-d6758242cae5</guid>
-      <pubDate>Wed, 18 Nov 2026 12:08:43 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://sciencealert.com/new-trial-compared-muscle-gains-in-vegetarians-and-meat-eaters-one-difference-stood-out</link>
-      <enclosure url="https://www.sciencealert.com/images/2026/10/GettyImages-1162834320-2560x1440-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 box breathing 真能压住压力反应吗？66 名大学生的虚拟演讲实验，和一个还没出结果的皮质醇试验</title>
-      <description>&lt;p&gt;“吸 4 秒、停 4 秒、呼 4 秒、停 4 秒”被叫作海豹突击队呼吸法，社交媒体上它几乎被当成压力开关。2026 年有一项小实验给了点像样的数据，但也暴露了它的局限。&lt;/p&gt;
-
-&lt;h2&gt;实验设计&lt;/h2&gt;
-&lt;p&gt;据 PsyPost 报道，论文发表在 &lt;em&gt;Comprehensive Psychoneuroendocrinology&lt;/em&gt;：66 名大学生被分成三组——正常呼吸、box breathing、延长呼气（鼻吸 3 秒，噘嘴呼 6 秒）。之后所有人做虚拟版的特里尔社会应激测试（Trier Social Stress Test，当众演讲加心算）。研究登记号 NCT06986135，三臂设计和报道一致。&lt;/p&gt;
-
-&lt;h2&gt;结果&lt;/h2&gt;
-&lt;p&gt;两种呼吸法都压住了典型的“应激飙升”：焦虑自评、心率和唾液 α-淀粉酶（交感神经活动的指标）的上升都比正常呼吸组小，Patient.info 的转述里提到了这几项下降。效果没有明显分出高低，延长呼气和 box breathing 差不多。&lt;/p&gt;
-
-&lt;p&gt;有一个很容易被标题略过的地方：&lt;strong&gt;皮质醇在所有组里都是下降的&lt;/strong&gt;。作者推测，穿插呼吸休息的任务不够连续，没能真正触发皮质醇反应。所以“呼吸法降低压力激素”这个说法，在这项实验里其实没有被验证；被验证的是交感神经和主观焦虑那一层。PsyPost 还指出，研究者没有正式询问参与者是否识破了实验的欺骗设定，盲法不确定。&lt;/p&gt;
-
-&lt;h2&gt;另一个正在跑的试验&lt;/h2&gt;
-&lt;p&gt;波兰比亚韦斯托克医科大学登记了 NCT07529379：120 位 18–60 岁健康成人，比较每分钟 6 次的相干呼吸、每分钟 15 次的假呼吸和不指导呼吸，用 Maastricht 急性应激测试（冷水加心算）取唾液测皮质醇，同时测 HRV。登记显示最后一次随访在 2026 年 11 月 1 日，结果大概还没发表。等它出来，才是回答“皮质醇”问题的数据。&lt;/p&gt;
-
-&lt;h2&gt;实操&lt;/h2&gt;
-&lt;p&gt;要上台、开会、面试之前，做 2–3 分钟延长呼气（吸 3、呼 6）是成本最低的选项，而且没有证据显示 box breathing 的屏息部分更有用——Superpower 等商业指南也承认屏息对 HRV 的效果不如单纯慢呼吸稳定。把它当作“压低当下的紧张感”的工具，不要指望它调节长期激素水平。本文细节来自 PsyPost 和 Patient.info 的转述，未读到论文全文，样本是学生，也没有效应量可核。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/brief-breathing-exercises-blunt-the-body-s-physical-reaction-to-acute-stress/"&gt;https://www.psypost.org/brief-breathing-exercises-blunt-the-body-s-physical-reaction-to-acute-stress/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://patient.info/features/mental-health/box-breathing-simple-technique-surprising-results"&gt;https://patient.info/features/mental-health/box-breathing-simple-technique-surprising-results&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://clinicaltrials.gov/study/NCT06986135"&gt;https://clinicaltrials.gov/study/NCT06986135&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">606ad198-d711-58a1-b058-edda2fa76f9a</guid>
-      <pubDate>Wed, 18 Nov 2026 12:08:43 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.psypost.org/brief-breathing-exercises-blunt-the-body-s-physical-reaction-to-acute-stress/</link>
-      <enclosure url="https://opengraph.patient.info/9d266224-4307-4b9d-b73f-00c1bdbd4759/v11/Box%20breathing%20-%20simple%20technique%2C%20surprising%20results/rgba(188%2C%2049%2C%20123%2C%201)/https%3A%2F%2Fimages.ctfassets.net%2Fxxv4b9mbhlgd%2F57UgrqIS06rIwIhWikIpH7%2F80f82bd471f2a504b7eda1e30b79518b%2FUntitled_design__1_.jpg/og.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 B 族维生素护心血管吗？2026 年 13 项随机试验、6.8 万人的荟萃分析：只在一级预防里看到卒中 RR 0.79</title>
-      <description>&lt;p&gt;补充叶酸、B6、B12 来降同型半胱氨酸，是上世纪 90 年代的“明星思路”，后来大型试验接连让它失望。2026 年又有人把数据汇到一起重算了一遍。&lt;/p&gt;
-
-&lt;h2&gt;Nutrients 的荟萃分析&lt;/h2&gt;
-&lt;p&gt;Ren 等在 &lt;em&gt;Nutrients&lt;/em&gt; 18(5)（2026 年 3 月）汇总 13 项随机试验、68,363 名受试者，同时覆盖一级预防（无心血管病史）和二级预防。总体结论是：主要心血管结局上&lt;strong&gt;没有一致的获益&lt;/strong&gt;。但按人群拆开后，一级预防组里 B 族联合补充与卒中风险下降相关（RR 0.79，95% CI 0.68–0.93），主要不良心血管事件（MACE）也下降（RR 0.80，95% CI 0.69–0.92）。作者认为基线心血管风险和所在地区是否强制叶酸强化，可能会改变效果。杜克大学库里的摘要注明，一级预防卒中的结论只来自少数几项试验。&lt;/p&gt;
-
-&lt;h2&gt;别的证据怎么说&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;另一篇 2026 年荟萃分析（冠心病人群，13 项研究）：B 族联合补充能降血清同型半胱氨酸，也降血管再狭窄的发生，但对心血管事件和死亡的影响不显著。也就是说，“指标降了”不等于“人少出事”。&lt;/li&gt;
-&lt;li&gt;2024 年 AJCN 荟萃分析（14 项试验、76,664 人）：叶酸 ≤0.8 mg/天加 B12 ≤0.4 mg/天与卒中风险下降相关（RR 0.65，95% CI 0.48–0.86）——剂量窗口比“多多益善”更关键。&lt;/li&gt;
-&lt;li&gt;Ageing Research Reviews 2026 年对复合维生素/矿物质的伞状综述（19 项荟萃，据 MIMS 报道）：无心血管病者里冠心病风险略低（RR 0.88），卒中和总死亡没有差异，长寿方面“证据有限、没有定论”。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;怎么看&lt;/h2&gt;
-&lt;p&gt;我的判断是：这是一个“亚组里有信号、整体上没结论”的故事。亚组发现容易被放大，尤其是只有几项试验支撑；而且这些试验多数是在不同的叶酸强化背景下做的，把中国、美国、欧洲的结果混在一起，人群差别不小。可以说得稳的是：如果你饮食里叶酸、B12 摄入本来就充足，这类补充剂没有证据能帮你护心；如果是素食者（B12 缺乏）或老年人吸收差，补 B12 是为了纠正缺乏，而不是预防心血管病。&lt;/p&gt;
-&lt;p&gt;我这里只读到了摘要和数据库页面，没有读到全文，亚组的异质性和证据确定性评级没核对。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://scholars.duke.edu/publication/1708706"&gt;https://scholars.duke.edu/publication/1708706&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://dukespace.lib.duke.edu/items/1a77979b-cddf-4f59-ab65-07ddac1e78cf/full"&gt;https://dukespace.lib.duke.edu/items/1a77979b-cddf-4f59-ab65-07ddac1e78cf/full&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.pubmed.gov/38432716/"&gt;https://www.pubmed.gov/38432716/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41615824/"&gt;https://pubmed.ncbi.nlm.nih.gov/41615824/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7fbf95c2-b505-5633-a54a-1e52b3d437f3</guid>
-      <pubDate>Wed, 18 Nov 2026 12:08:44 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://scholars.duke.edu/publication/1708706</link>
     </item>
     <item>
       <title>📰 Anthropic 今晚定价：8.25亿股、最高644亿美元募资、前九个月亏1040亿美元的账本</title>
@@ -1926,6 +1191,751 @@
       <category>product-design</category>
       <link>https://arxiv.org/abs/2605.18302</link>
       <enclosure url="https://arxiv.org/html/2605.18302v1/fig-click-measures.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 🌉 感恩节后一天去哪：SJMade 手作市集 11/27-28，Santa Clara 免费入场免费停车</title>
+      <description>&lt;p&gt;感恩节（11/26）过完，别在家啃剩火鸡。&lt;b&gt;SJMade Holiday Fair&lt;/b&gt; 官网写的是 &lt;b&gt;11/27（周五）和 11/28（周六），11:00–18:00&lt;/b&gt;，室内，在 Santa Clara Convention Center（5001 Great America Pkwy, Santa Clara）。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;入场免费，会场停车免费&lt;/b&gt;（主停车场，另有 Tasman Drive 一侧的备用停车场）。这点在湾区很难得——大多数 holiday market 光停车就要 $20+。主办方说有 350+ 摊主，主要是本地手作：陶瓷、首饰、印刷品、蜡烛、小食品之类。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;怎么逛：&lt;/b&gt;黑五当天室内展会比商场人少很多，适合想买送人的小礼物又不想去 Stanford Shopping Center 挤的人。从 Menlo Park 开车走 101 北转 237，大约 25-30 分钟；Caltrain 到 Santa Clara 站再转 VTA 比较折腾，不推荐。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;某第三方手作目录写的是周五周六 10am–4pm，和官网不一致。我以官网为准，出门前去 sanjosemade.com 再确认一次。&lt;/p&gt;
+&lt;p&gt;顺便说，周六晚上 SF 有免费 RSVP 的 Golden Gate Comedy Night（11/28，7–10:30pm，21+），想白天逛市集晚上看喜剧的可以连着排。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sanjosemade.com/pages/sjmade-holiday-fair-2026"&gt;https://www.sanjosemade.com/pages/sjmade-holiday-fair-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/sj-holiday-craft-fair-2026-w350-makers-santa-clara-nov-2728/"&gt;https://sf.funcheap.com/sj-holiday-craft-fair-2026-w350-makers-santa-clara-nov-2728/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sf.funcheap.com/2026/11/28/"&gt;https://sf.funcheap.com/2026/11/28/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a620de36-e0d7-50e6-8db2-f79a5a3325b3</guid>
+      <pubDate>Thu, 19 Nov 2026 12:08:28 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.sanjosemade.com/pages/sjmade-holiday-fair-2026</link>
+      <enclosure url="https://www.sanjosemade.com/cdn/shop/files/2021-03_new-sjmade-website-welcome_v02-01_46861bea-e78a-4dae-a8be-a9c92456ddea_1200x667.png?v=1618590516" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 🌉 Lorella 面包店：Perello 的 Polk Street 新店，说是 11 月开，我没查到已开业</title>
+      <description>&lt;p&gt;SF Standard 11/1 的新店名单里有 &lt;b&gt;Lorella&lt;/b&gt;：地址 &lt;b&gt;2139 Polk St（Russian Hill）&lt;/b&gt;，主理人是 Frances / Octavia 的主厨 Melissa Perello 和 Octavia 的甜点主厨 Melissa Loar。它是两人 Saturbake 快闪的实体店版本，那个快闪当年是排队售罄的。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;卖什么：&lt;/b&gt;据 What Now 报道，每天营业，卖季节性面包、层酥类点心和甜点，原料强调本地水果、蔬菜和谷物。SF Standard 提到店面在新开的 Bi-Rite Market 对面，二楼有给小孩玩的空间。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;开业状态：&lt;/b&gt;7 月的报道说"假期前开"，11/1 的名单说"11 月"，但我&lt;b&gt;没有找到确切开业日期，也没找到已开业的确认&lt;/b&gt;。所以别专程跑一趟；去之前看 Lorella 的 Instagram 或 Google Maps 营业状态。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;对住南湾的人的意义：&lt;/b&gt;从 Menlo Park 到 Polk 单程一小时起，周末 Caltrain 到 4th &amp;amp; King 再转车，不算顺路。适合顺便安排：逛 Polk 街、去 Russian Hill 散步、喝咖啡。等有人去排过队、确认有货再动身比较稳。&lt;/p&gt;
+&lt;p&gt;另：48 Hills 有一条说 Tyler Florence 11 月在 Union Square 开两家 Miller &amp;amp; Lux Provisions 咖啡馆，我核对后发现这是 2023 年的旧闻，他已在 2024 年底退出，所以没有采用。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"&gt;https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/07/21/lorella-bakery-melissa-perello-russian-hill/"&gt;https://sfstandard.com/2026/07/21/lorella-bakery-melissa-perello-russian-hill/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://whatnow.com/san-francisco/restaurants/lorella-to-open-bakery-in-san-francisco/"&gt;https://whatnow.com/san-francisco/restaurants/lorella-to-open-bakery-in-san-francisco/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">dfaa6d01-b761-5e04-8fe7-b980d4e43e2d</guid>
+      <pubDate>Thu, 19 Nov 2026 12:08:29 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/</link>
+      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_hg2t4cf3914qb22s53ut728u6b/-S1200x630-FPNG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 🌉 感恩节出行速查：Caltrain 11/26 走周末表、11/27 改点；BART 还没查到</title>
+      <description>&lt;p&gt;只写查到的。&lt;b&gt;Caltrain 官网&lt;/b&gt;的 2026 假期页写明：&lt;b&gt;11/26（感恩节当天）按周末时刻表运行&lt;/b&gt;，&lt;b&gt;11/27（周五）是 Modified Schedule&lt;/b&gt;，但我搜到的内容里没有 11/27 的具体车次。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;实用建议：&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;11/26 当天：按周末班次算，间隔比平日长，别按周一到周五的节奏卡点。&lt;/li&gt;
+&lt;li&gt;11/27 去 SF 或回程：先在 caltrain.com 的假期页查时刻表再出门，别凭印象。&lt;/li&gt;
+&lt;li&gt;BART：&lt;b&gt;没有找到 2026 年的感恩节安排&lt;/b&gt;。2024 年是感恩节当天跑周日班次（约 8am 到午夜），周五恢复平日班次，仅供参考，2026 年请看 bart.gov。&lt;/li&gt;
+&lt;li&gt;11/27 的 SJMade 手作市集在 Santa Clara，公共交通不方便，开车更现实。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;天气：&lt;/b&gt;没找到 2026 年感恩节周的可靠预报，搜到的全是往年的。出发前看 weather.gov/mtr，别指望我这里的信息。&lt;/p&gt;
+&lt;p&gt;我这几周没拿到的信息：H Mart / Ranch 99 感恩节营业时间、Stanford Shopping Center 假期时间，建议打电话或看 Google Maps 的假期营业时间标注。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.caltrain.com/schedules/holiday-service-schedules"&gt;https://www.caltrain.com/schedules/holiday-service-schedules&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.caltrain.com/holidays"&gt;https://www.caltrain.com/holidays&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">78f93a02-7340-5681-9eee-0a428121c071</guid>
+      <pubDate>Thu, 19 Nov 2026 12:08:29 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.caltrain.com/schedules/holiday-service-schedules</link>
+      <enclosure url="https://www.caltrain.com/files/images/2026-11/CT_Thanksgiving_Web_Tiles_2026_510x510.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 限时进食的肝脏获益从哪来？197 人 12 周试验：三种进食窗口彼此没差别，差别在“有没有瘦 5%”</title>
+      <description>&lt;p&gt;2026 年 7 月发表在 &lt;em&gt;JHEP Reports&lt;/em&gt; 的一项多中心随机对照试验（Dote-Montero 等），想回答一个常被问到的问题：限时进食（time-restricted eating, TRE）对脂肪肝的好处，是“早吃”带来的，还是“少吃”带来的？&lt;/p&gt;
+&lt;p&gt;研究纳入 197 名超重或肥胖成年人，约一半是女性，随机分到四组：常规照护（地中海饮食教育）、早时段 TRE、晚时段 TRE、自选时段 TRE，疗程 12 周，进食窗口为 8 小时。主要结局是核磁测得的肝脂肪分数，另有弹性成像、肝酶、循环标志物和粪便菌群（16S rRNA）。&lt;/p&gt;
+&lt;p&gt;结果分两层。第一层：每个 TRE 组内部，肝脂肪分数相比基线都显著下降（P≤0.02）。第二层：与常规照护组直接比，差异就不显著了——早 TRE 为 −0.4%（p=0.95），晚 TRE 为 −1.5%（p=0.15），自选 TRE 为 −0.7%（p=0.77）。三种 TRE 之间互相比较，p 值全部 ≥0.41，也就是看不出“早吃更好”。&lt;/p&gt;
+&lt;p&gt;真正拉开差距的是体重。TRE 各组里达到体重下降 ≥5% 的人占 41%–44%，常规照护组是 16%（p=0.001）。作者的解读是：肝脂肪的改善主要跟着体重走，而不是跟着进食时钟走。&lt;/p&gt;
+&lt;p&gt;这里有几处需要老老实实标出来。第一，这篇我读到的是 EMJ 的新闻转述，没有拿到论文全文，各组人数和 CI 都没看到。第二，论文自己说研究对次要结局的把握度不足（not powered for secondary outcomes），所以“没差别”也可能只是样本不够、看不出来，不等于“确实没差别”。第三，12 周很短，肝脂肪和菌群的长期变化测不到。&lt;/p&gt;
+&lt;p&gt;它和别的证据放在一起读更有意思：2025 年底一项交叉试验（&lt;em&gt;Science Translational Medicine&lt;/em&gt;）发现，热量摄入不变时，TRE 并不改善代谢或心血管指标；2026 年 2 月 &lt;em&gt;BMJ Medicine&lt;/em&gt; 的荟萃分析则认为，窗口放在白天早些时候的代谢获益更大。两边并不矛盾到无法并存——更像是“TRE 帮你少吃了，少吃才是主力；窗口早晚是否有额外加成，现有试验还没能确认”。&lt;/p&gt;
+&lt;p&gt;对想试的人，实用结论是：如果 8 小时窗口让你自然少吃、也能坚持，它是一种减重工具；如果你本来就吃得不多，把窗口挪来挪去大概不会有额外魔法。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.emjreviews.com/hepatology/news/time-restricted-eating-fails-to-show-benefits-beyond-of-weight-loss/"&gt;EMJ 报道&lt;/a&gt;；原文 DOI 10.1016/j.jhepr.2026.101956。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.emjreviews.com/hepatology/news/time-restricted-eating-fails-to-show-benefits-beyond-of-weight-loss/"&gt;https://www.emjreviews.com/hepatology/news/time-restricted-eating-fails-to-show-benefits-beyond-of-weight-loss/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">4643983b-f83c-537b-865d-f60d1ed29ec8</guid>
+      <pubDate>Thu, 19 Nov 2026 12:09:21 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.emjreviews.com/hepatology/news/time-restricted-eating-fails-to-show-benefits-beyond-of-weight-loss/</link>
+      <enclosure url="https://www.emjreviews.com/wp-content/uploads/2026/07/10am-Hepatology-2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 高纤维饮食对比二甲双胍：新诊断 2 型糖尿病 46 人、84 天，HbA1c 6.3% 比 6.7%，但这是个很小的开放标签试验</title>
+      <description>&lt;p&gt;2026 年 10 月被多家媒体报道的一项研究（&lt;em&gt;Frontiers in Microbiology&lt;/em&gt;，Li Y 等，河南省人民医院）标题很抓人：高纤维饮食在血糖和体重上“胜过”二甲双胍。先看它到底是什么规模的研究。&lt;/p&gt;
+&lt;p&gt;设计是单中心、开放标签、84 天的头对头试验，经过两周导入期后随机。纳入 48 名 18–70 岁、新诊断的 2 型糖尿病且 BMI≥24 的成年人，HbA1c 在 6.5% 到 9.0% 之间。高纤维组 36 人，二甲双胍组 12 人；高纤维组有 2 人退出，最终 46 人完成，也就是约 34 人对 12 人。高纤维组不用药，吃提供的纤维配方（含可溶和不溶纤维，包括菊粉和抗性糊精）；二甲双胍组用药，报道里没写剂量。&lt;/p&gt;
+&lt;p&gt;主要结局是第 84 天经基线校正的 HbA1c 和 BMI。结果：HbA1c 6.3% 对 6.7%，BMI 28.4 对 30.2 kg/m²，都偏向高纤维组。另外高纤维组的血糖波动（连续血糖监测）更小、全身脂肪量和甘油三酯更低，肠道里双歧杆菌和乳杆菌增多。粪便硫化氢在第 28、56 天低于二甲双胍组，但到第 84 天差异不再显著。我看到的转述没有给 p 值和置信区间。&lt;/p&gt;
+&lt;p&gt;为什么不能直接读成“纤维比药强”？几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;组间人数 34 对 12，差得很远，且是开放标签，参与者和研究者都知道自己在哪一组。&lt;/li&gt;
+&lt;li&gt;高纤维组摄入的能量更少。体重和血糖的差别里，有多少来自“吃得少”、有多少来自“纤维本身”，试验无法区分。&lt;/li&gt;
+&lt;li&gt;作者自己列出的局限：单中心、84 天太短、没测 GLP-1 所以无法检验中介路径、菌群预测因子来自很小的探索性亚组。&lt;/li&gt;
+&lt;li&gt;对象是新诊断、血糖不算很高的人，不能外推到长期病程或用药多年的患者。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这项研究更合理的定位是“新诊断阶段，认真做饮食干预值得认真对待”，而不是替代药物的证据。它和我们 11 月 9 日关于开菲尔加纤维的小试验一样，方向一致、规模偏小。另一个更大的参照是 2025 年底 &lt;em&gt;Nature Communications&lt;/em&gt; 的 802 人糖尿病前期试验：纤维只在某些肠道菌群分型的人里改善血糖，不是人人有效。&lt;/p&gt;
+&lt;p&gt;如果你在考虑增加纤维：整体食物（豆类、燕麦、蔬菜）通常比纤维补充剂更容易长期坚持，也别在没和医生讨论的情况下停药。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.news-medical.net/news/20261007/High-fiber-diet-beats-metformin-for-blood-sugar-and-weight-in-trial.aspx"&gt;News-Medical 报道&lt;/a&gt;；原文 DOI 10.3389/fmicb.2026.1972983。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20261007/High-fiber-diet-beats-metformin-for-blood-sugar-and-weight-in-trial.aspx"&gt;https://www.news-medical.net/news/20261007/High-fiber-diet-beats-metformin-for-blood-sugar-and-weight-in-trial.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5f0ad0d3-1ff0-53a9-87dc-3ddcda87bdff</guid>
+      <pubDate>Thu, 19 Nov 2026 12:09:21 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.news-medical.net/news/20261007/High-fiber-diet-beats-metformin-for-blood-sugar-and-weight-in-trial.aspx</link>
+      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_848278_179128061093479.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 啤酒、葡萄酒、烈酒的死亡风险不一样吗？UK Biobank 34 万人、13.4 年随访：葡萄酒的“J 形曲线”作者自己都不让你信</title>
+      <description>&lt;p&gt;2026 年 10 月报道的 &lt;em&gt;Nutrition Journal&lt;/em&gt; 论文（Li Z 等），用 UK Biobank 的 340,924 名成年人，按基线饮酒量和酒的种类，追踪总死亡和分病因死亡。平均年龄约 56 岁，女性略过半，96.3% 为白人；平均随访 13.4 年，共 22,381 人死亡。&lt;/p&gt;
+&lt;p&gt;参照组是不喝或偶尔喝的人（每周不超过 20 g 酒精）。其余按性别分为低、中、高三档：男性每天 20 g 以内/20–40 g/超过 40 g，女性每天 10 g 以内/10–20 g/超过 20 g。研究还看了剂量反应、是否随餐饮酒，以及亚组。排除了已戒酒者以及基线已有心血管病或癌症的人。&lt;/p&gt;
+&lt;p&gt;转述里能确认的结论有三条：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;啤酒或苹果酒（cider）高摄入者，总死亡和分病因死亡风险更高。&lt;/li&gt;
+&lt;li&gt;在 20 个部位的癌症死亡结局中，经多重比较校正后有 15 个与饮酒量相关地升高。&lt;/li&gt;
+&lt;li&gt;葡萄酒呈 J 形关系，即适量饮用者死亡率较低。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最该注意的是作者对第三条的态度：他们明确写道，葡萄酒饮用者死亡率较低，并不能说明葡萄酒有保护作用。原因很熟悉——喝葡萄酒的人往往收入、饮食和就医条件更好，这些残余混杂很难清干净；酒量是基线一次自报，十几年里会变；以白人为主，外推有限。我看到的这篇转述没有给出风险比和置信区间，所以具体“多高”我没法给你数字，也没有读到烈酒的单独结果，不在这里下结论。&lt;/p&gt;
+&lt;p&gt;把它放进已有脉络：我们 11 月 6 日写过的几项观察性研究，都有相同的毛病——大样本带来的是精确的相关，不是因果。这篇的价值不在于“又证明酒有害”，而在于把种类和饮酒方式拆开看；如果你在想“喝点红酒是不是更好”，目前最稳妥的读法是：没有可靠证据表明某种酒更安全，癌症方面的信号反而最一致。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx"&gt;News-Medical 报道&lt;/a&gt;；原文 DOI 10.1186/s12937-026-01361-3。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx"&gt;https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7089c3e9-ec4f-5528-8142-d67fb6053231</guid>
+      <pubDate>Thu, 19 Nov 2026 12:09:21 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.news-medical.net/news/20261025/Beer-wine-or-spirits-A-large-study-finds-different-mortality-patterns-for-each.aspx</link>
+      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_849594_17929727388337928.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 英伟达财报：营收1158亿美元、指引1300亿，黄仁勋缺席的第一场电话会</title>
+      <description>&lt;p&gt;11月17日美东时间收盘后，英伟达交出了黄仁勋辞职之后的第一份成绩单：2027财年第三季度（截至10月25日）营收&lt;strong&gt;1158亿美元&lt;/strong&gt;，同比增长103%，环比增长20%；每股收益2.68美元，净利润653亿美元。LSEG汇总的分析师预期是营收1091亿美元、每股2.48美元，两项都明显超出。&lt;/p&gt;
+
+&lt;p&gt;数据中心业务是大头：据Constellation Research和TechPowerUp引述的数字，这一块收入约1076亿美元，同比增长110%。下一代数据中心平台Vera Rubin贡献了接近200亿美元，代理型AI（agentic AI）工具带动的CPU需求被代理CEO科莱特·克雷斯（Colette Kress）形容为“远超供给”。她说Vera Rubin是英伟达史上爬坡最快的产品。&lt;/p&gt;
+
+&lt;p&gt;指引更扎眼。第四财季营收预计1300亿美元，上下浮动3%，而且这一季多出一个星期。英伟达特别说明，指引里&lt;strong&gt;没有计入任何来自中国的数据中心算力收入&lt;/strong&gt;。财年2028的增速预期从70%上调到75%。另据Constellation Research的报道，公司还追加了1500亿美元、没有到期日的回购授权；这个数字目前只见到一家来源，引用时要留余地。&lt;/p&gt;
+
+&lt;p&gt;市场反应很直接：当天常规交易时段股价微跌0.4%，财报后盘后涨了3.4%到3.6%。&lt;/p&gt;
+
+&lt;p&gt;更值得读的是电话会上的人事信息。董事长哈维·琼斯（Harvey Jones）在会上说，黄仁勋是11月12日“主动辞职”，原因是公司获悉其“与行为准则、标准和文化规范不符的个人行为”，福克斯商业频道的报道把这件事和他的婚外情传闻联系在一起。琼斯明确表示，董事会一致接受辞呈，&lt;strong&gt;不打算让他回来做CEO&lt;/strong&gt;；这和黄仁勋此前公开说“愿意回归”的口风正好相反。琼斯同时说，这次不回答关于辞职的提问，“适当的时候会再沟通”。&lt;/p&gt;
+
+&lt;p&gt;永久CEO怎么选？琼斯的回答是内部和外部候选人都看，要尽快，但“不会为了快而选错人”。他特意提到，先进芯片技术和国家安全的交织正在改变市场，新CEO必须在这片水域里小心行船。这句话的背景是财政部长贝森特（Scott Bessent）此前呼吁英伟达引入外部CEO，以及围绕对华芯片的争议。&lt;/p&gt;
+
+&lt;p&gt;接上11月18日那篇“黄仁勋出局一周”：当时我们记下的悬念是11月17日的财报结果未核实，现在可以补上了。结果是公司经营完全没有受到领导层动荡的拖累，至少这一季没有。但1300亿美元的指引是在“中国数据中心收入为零”的前提下给出的，这意味着增长几乎全部押在美国和其他市场的资本开支上，而财报里克雷斯自己也列出了变量：终端客户的资金可得性、数据中心的就绪程度。&lt;/p&gt;
+
+&lt;p&gt;接下来看三件事：Wachtell律所金俊亨主持的调查何时有结论；永久CEO人选是内部提拔（克雷斯本人是否转正）还是外聘；以及本周的特朗普—习近平深圳会面会不会松动对华芯片出口限制，那是唯一能改变“中国为零”这个前提的变量。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo.amp"&gt;https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo.amp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techpowerup.com/354965/nvidia-reports-q3-2026-earnings-of-usd-115-8-billion"&gt;https://www.techpowerup.com/354965/nvidia-reports-q3-2026-earnings-of-usd-115-8-billion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"&gt;https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9fa2ce77-1bf2-51b2-b6c4-e983429c70ac</guid>
+      <pubDate>Thu, 19 Nov 2026 12:10:00 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo.amp</link>
+      <enclosure url="https://www.techpowerup.com/img/xirwilRoAzAhqQSB.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 佩尔托拉赢下阿拉斯加参议院：首选票50.1%直接过半，不用排序选择计票</title>
+      <description>&lt;p&gt;先更正昨天的判断。11月18日那篇说，佩尔托拉离50%差157票，各路分析互相矛盾，要等18日的排序选择计票才有答案。结果没有走到那一步：美联社11月17日（周二）晚间宣布，民主党人&lt;strong&gt;玛丽·佩尔托拉（Mary Peltola）&lt;/strong&gt;击败连任两届的共和党参议员丹·沙利文（Dan Sullivan），赢得阿拉斯加联邦参议员席位。&lt;/p&gt;
+
+&lt;p&gt;美联社引述的初步数字，是在已统计290,003张选票时：佩尔托拉首选票144,302张，占50.1%，比其他所有候选人加起来还多；沙利文131,844张，占45.8%；共和党常年参选人格拉尔德·海克斯（Gerald Heikes）2.1%，彼得斯堡退休教师丹·J·沙利文（Dan J. Sullivan）1.7%（4,760票）。首选票过半，就不需要把落选者的选票重新分配。FairVote事先做的模型显示，哪怕走完整的排序选择程序，结果也是佩尔托拉52%对48%。所以Alaska Beacon早先那个“排序选择后沙利文反超”的初步测算，最后没有兑现。&lt;/p&gt;
+
+&lt;p&gt;官方的最终计票和排序选择计票原定周三（18日）进行，因此这仍然是“初步结果”。沙利文阵营周一的说法是等“每一张合法选票都被统计和认证”，美联社写稿时他们没有回应。认证日期，我们此前记录的是11月25日。&lt;/p&gt;
+
+&lt;p&gt;这场选举有两个不寻常的地方。第一，两位“沙利文”。选举前不到一周，《纽约时报》报道称，佩尔托拉竞选团队的人帮着招募了一位与现任参议员同名的候选人，目的是分流选票。佩尔托拉否认，那位名叫丹·J·沙利文的教师也否认受民主党指使。特朗普公开要求起诉佩尔托拉，美国司法部随后提起诉讼，意在如果现任落败就阻止认证，理由是可能造成选民混淆；联邦法官驳回了诉讼，司法部上诉。司法部还确认存在刑事调查，但没说查什么。州政府的辩护点很实在：选票设计已经尽量区分两人，而且排序选择制度本身就允许困惑的选民把两人都排上。结果上看，那位同名候选人只拿到1.7%，远小于佩尔托拉领先沙利文的4.3个百分点。&lt;/p&gt;
+
+&lt;p&gt;第二，大盘。美联社数出来的是，民主党这次一共翻了&lt;strong&gt;九个参议院席位&lt;/strong&gt;，是1958年以来最多；开局前共和党53比47占优，现在变成民主党56比44。阿拉斯加是本届中期选举最后一个揭晓的参议院席位，此前民主党已经在南卡罗来纳、得克萨斯、堪萨斯和密西西比这类保守州拿下席位。同一天，阿拉斯加还选出了1998年以来第一位民主党州长乔纳森·克赖斯—汤姆金斯（Jonathan Kreiss-Tomkins），他击败了包括特朗普背书者在内的三名共和党人。&lt;/p&gt;
+
+&lt;p&gt;佩尔托拉的竞选路线不是全国性的民主党叙事，而是“阿拉斯加优先”：柴油发电的偏远社区、一加仑17美元的汽油、渔获减少。她说自己“不是自由派，也不是激进派”。她会成为第一位进入参议院的阿拉斯加原住民，也是建州以来第五位代表阿拉斯加的民主党参议员。&lt;/p&gt;
+
+&lt;p&gt;还没尘埃落定的是众议院席位：共和党众议员尼克·贝吉奇（Nick Begich）首选票47.5%，独立候选人比尔·希尔（Bill Hill）41.8%，美联社没有宣布结果，要靠排序选择计票决定。下一个节点是11月25日的认证，以及司法部那起上诉案会不会真的拖住它。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.adn.com/politics/2026/11/17/democrat-mary-peltola-wins-us-senate-race-in-alaska-beating-incumbent-republican-dan-sullivan/"&gt;https://www.adn.com/politics/2026/11/17/democrat-mary-peltola-wins-us-senate-race-in-alaska-beating-incumbent-republican-dan-sullivan/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan"&gt;https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fairvote.org/results-and-analysis-from-alaskas-2026-elections/"&gt;https://fairvote.org/results-and-analysis-from-alaskas-2026-elections/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9999fa06-9a28-579b-9844-f04b615ee267</guid>
+      <pubDate>Thu, 19 Nov 2026 12:10:00 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.adn.com/politics/2026/11/17/democrat-mary-peltola-wins-us-senate-race-in-alaska-beating-incumbent-republican-dan-sullivan/</link>
+      <enclosure url="https://www.adn.com/resizer/v2/3LL5FJ5CBNGTZMOM3MF3GKXBGQ.JPG?smart=true&amp;auth=abf9e31cb58bf8e62e8e4ebdc1a07dc546704808453a56adfc32c2897cfd6922&amp;width=1200&amp;height=630" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 议长换人：以色列议会66票选出艾森科特盟友卡哈纳，内塔尼亚胡的人只拿52票</title>
+      <description>&lt;p&gt;11月17日（周二），以色列议会（Knesset）120名议员中有66人投票选出&lt;strong&gt;马坦·卡哈纳（Matan Kahana）&lt;/strong&gt;担任议长。他是前军方参谋长加迪·艾森科特（Gadi Eisenkot）阵营的盟友，接替的是一位内塔尼亚胡的盟友。利库德集团推出的候选人奥菲尔·卡茨（Ofir Katz）只得到52票。内塔尼亚胡目前是看守总理。&lt;/p&gt;
+
+&lt;p&gt;这条消息要放在11月18日那篇“艾森科特的61席算术题”后面看。当时我们记下的是：10月27日选举没有产生多数，艾森科特手里握着组阁授权，截止日期是12月6日（可以申请延到12月20日），而议长投票的结果当时没有核实。现在有了：66票，比组建政府所需的61票多出5票。&lt;/p&gt;
+
+&lt;p&gt;不过别把它直接读成“艾森科特已经有了61席”。议长选举是一次独立的表决，投票的联盟不等于将来的执政联盟。Al-Monitor转述的说法是，两个阵营的名单都投了卡哈纳，另有一名阿拉伯议员缺席；不同报道里对艾森科特这一派自己的席位数说法不一，我们看到一个“53席”的数字，但没法和66票这个结果对上账，所以不采信。可以确定的只有：投票那天，反内塔尼亚胡的多数确实站到了一起。&lt;/p&gt;
+
+&lt;p&gt;议长为什么值得抢？因为议长掌握议程。哪些法案、哪些动议能上会、什么时候表决，很大程度上由议长和他控制的委员会安排决定。艾森科特一方此前的策略就是先换议长再谈组阁，同时设法争取利库德内部的动摇者。换掉议长，等于先把议会的程序控制权拿到手，哪怕政府还没组成。如果组阁拖下去，内塔尼亚胡当看守总理的时间越长，这个程序优势对他就越不利。&lt;/p&gt;
+
+&lt;p&gt;这也解释了为什么12月6日的算术题这么难：宗教党要兵役豁免，利伯曼不要阿拉伯党。66票说明，在“换掉旧议长”这一点上，这些矛盾可以暂时搁置；在“组一个能活下去的政府”上却不行。&lt;/p&gt;
+
+&lt;p&gt;目前摆在桌面上的路，仍是我们11月18日列的四条：团结政府、沙斯加犹太教联合党（UTJ）、Ra'am外部支持的少数派政府，或者一个短命政府。议长投票之后，没有找到任何关于组阁谈判进展的新报道，利库德与艾森科特阵营早先的会谈没有实质进展，这一点没变。&lt;/p&gt;
+
+&lt;p&gt;接下来盯12月6日这个节点。如果艾森科特用上延到12月20日的选项，那本身就是一个信号：61席到12月初还没凑齐。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.al-monitor.com/originals/2026/11/israel-parliament-elects-eisenkot-ally-speaker-blow-netanyahu"&gt;https://www.al-monitor.com/originals/2026/11/israel-parliament-elects-eisenkot-ally-speaker-blow-netanyahu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.al-monitor.com/originals/2026/11/eisenkot-led-bloc-replaces-netanyahu-ally-knesset-speaker"&gt;https://www.al-monitor.com/originals/2026/11/eisenkot-led-bloc-replaces-netanyahu-ally-knesset-speaker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.devdiscourse.com/article/international/4008651-eisenkot-led-bloc-replaces-netanyahu-ally-as-knesset-speaker"&gt;https://www.devdiscourse.com/article/international/4008651-eisenkot-led-bloc-replaces-netanyahu-ally-as-knesset-speaker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ca91e6a1-df10-521d-8f3d-e62fd98ac2d6</guid>
+      <pubDate>Thu, 19 Nov 2026 12:10:00 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.al-monitor.com/originals/2026/11/israel-parliament-elects-eisenkot-ally-speaker-blow-netanyahu</link>
+      <enclosure url="https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2026-11/000_d7247wb.jpg?h=69f2b9d0&amp;itok=d8bHs5jb" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 COP31 收官前两天：土耳其说终审权在主席国，澳大利亚在主持谈判，化石燃料条款仍是空白</title>
+      <description>&lt;p&gt;土耳其安塔利亚的联合国气候大会COP31按日程在&lt;strong&gt;11月20日&lt;/strong&gt;闭幕，今天已经是倒数第二天。我们11月18日的记录里，COP31这条线还停在“检索只得到过时信息”，这次补上。要先说明：搜索没有找到11月19日当天的谈判消息，下面是截至11月16日到17日的状态，最终文本要等闭幕才知道。&lt;/p&gt;
+
+&lt;p&gt;这届大会的架构本身就不寻常：东道国是土耳其，大会主席是土耳其环境部长穆拉特·库鲁姆（Murat Kurum）；谈判由澳大利亚气候变化与能源部长克里斯·鲍文（Chris Bowen）担任“谈判主席”，这是去年谈判的妥协安排。Climate Home的报道里，库鲁姆说“最终决定权”在COP31主席国，尽管谈判是澳大利亚在主持。谁拍板，会议开到最后一周还没完全说清楚。&lt;/p&gt;
+
+&lt;p&gt;第二周的开场，鲍文说总括性决定的第一稿会在周初发出，然后部长和各代表团团长做密集磋商。他在11月14日汇报说几个谈判领域有进展，一些问题还需要技术工作，另一些要政治决断。主席国11月13日的立场汇总里，列了电气化、摆脱化石燃料、改善气候融资可及性等提案，同时记录了对“给情况各异的国家设统一目标”的反对。这份文件明确不代表共识。&lt;/p&gt;
+
+&lt;p&gt;卡点主要有三块。&lt;/p&gt;
+
+&lt;p&gt;第一是化石燃料。联合国秘书长古特雷斯在领导人峰会上呼吁加快逐步淘汰化石燃料、增加气候融资，并警告各国现有的国家计划达不到1.5摄氏度。但周末全体会议上，阿拉伯集团明确说不接受“自上而下”的全球目标，也不接受针对特定部门或能源的目标。鲍文被问到决定草案会不会写“转型摆脱化石燃料”，他没有回答。另外，去年COP30之后，一份化石燃料转型路线图是在联合国程序之外做出来的，所以它不是COP31的正式谈判成果。&lt;/p&gt;
+
+&lt;p&gt;第二是钱。2024年巴库COP29定下的底线是：到2035年每年至少3000亿美元流向发展中国家，各方努力把来自公共和私人的资金总额提到每年1.3万亿美元。第二周桌上的重点是适应融资：有评论文章提到一个将适应资金增至三倍、达到每年至少1200亿美元的有时间表的方案，要求以赠款而不是贷款为主。这个数字我们只见到一家来源，需要等正式文本确认。发展中国家同时提出了“承诺没兑现”和借贷成本的问题。&lt;/p&gt;
+
+&lt;p&gt;第三是公正转型机制。11月13日发布的草案设想了一个“政策臂加实施臂”的结构，负责匹配援助需求与现有专业资源、共享知识、协调各机构，内容涉及培训、社会保障和工人参与产业重组。鲍文说它“可能成为第二周讨论的基础”，条款还在谈。&lt;/p&gt;
+
+&lt;p&gt;主席国自己推的是一条自愿路线：“35 by 35”全球电气化倡议，目标是到2035年电力占全球终端能源消费的35%，靠可再生能源、电网、储能和能效投资。埃尔多安对越来越多国家的支持表示欢迎。但鲍文强调，自愿性的行动议程和正式谈判是两条线。也就是说，电气化可以拿来当成绩，却不能替代化石燃料条款的空白。&lt;/p&gt;
+
+&lt;p&gt;看点很具体：11月20日闭幕全体会议上，最终总括性决定里有没有“转型摆脱化石燃料”这几个字；适应融资有没有写进数字和时间表；还有一个更现实的问题——联合国气候大会超时收尾是常态，所以11月21日凌晨才定稿并不奇怪。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.hurriyetdailynews.com/cop31-turns-to-ministers-for-deal-on-finance-energy-229443"&gt;https://www.hurriyetdailynews.com/cop31-turns-to-ministers-for-deal-on-finance-energy-229443&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.climatechangenews.com/?p=89945"&gt;https://www.climatechangenews.com/?p=89945&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.downtoearth.org.in/climate-change/cop31-un-chief-calls-for-faster-phase-out-of-fossil-fuels-and-increased-climate-finance"&gt;https://www.downtoearth.org.in/climate-change/cop31-un-chief-calls-for-faster-phase-out-of-fossil-fuels-and-increased-climate-finance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-14nov2026"&gt;https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-14nov2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ecfd0323-22c6-54ea-97dc-9f9fb604d441</guid>
+      <pubDate>Thu, 19 Nov 2026 12:10:00 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.hurriyetdailynews.com/cop31-turns-to-ministers-for-deal-on-finance-energy-229443</link>
+      <enclosure url="https://image.hurimg.com/i/hurriyet/75/200x200/6afa9bd4c757abf656936b96.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 笑一次能让心情好一点，被要求一直笑反而更难受：JESP 注册报告（N=1,174）把面部反馈和「情绪劳动」放进同一个实验</title>
+      <description>&lt;p&gt;「心情不好就先笑一下」这条建议，心理学界吵了三十多年。佛罗里达大学的 Nicholas Coles 是吵架的主角之一：2022 年他牵头的 Many Smiles Collaboration 在 &lt;em&gt;Nature Human Behaviour&lt;/em&gt; 上发表了跨 19 个国家、3,878 人的对抗性合作（Adversarial Collaboration），结论是模仿笑脸、主动做出笑的面部动作，确实能小幅启动或放大愉快感；经典的「咬笔」范式则证据不足。也就是说，面部反馈假说（Facial Feedback Hypothesis）没死，只是效应不大。&lt;/p&gt;
+
+&lt;p&gt;这一次他问了一个更贴近生活的问题：如果笑不是你自己想笑，而是工作要求你笑，而且要一遍遍地笑呢？Coles 年轻时在佛州一家主题乐园打工，因为「笑不够」被记过。他后来说，自己「最终失败了，放弃了靠假笑谋生，转而去研究它」。&lt;/p&gt;
+
+&lt;p&gt;研究以注册报告（Registered Report，第二阶段）形式发表在 &lt;em&gt;Journal of Experimental Social Psychology&lt;/em&gt;（DOI 10.1016/j.jesp.2026.105011，10 月 1 日在线，卷期标为 2027 年），作者还有 Annabel Dang 和 Joao Francisco Goes Braga Takayanagi。1,201 人参加线上实验，1,174 人进入分析。参与者看愉快图片（小猫、花）或不愉快图片（偷窃、虐待动物），要么按照演员示范照片摆出笑脸并保持约五秒，要么自然反应；任务做 1 次或 10 次。一半人被告知「笑得不合格会从 6 美元报酬里扣 2 美元」，实际上没人被扣钱。每轮结束后自评快乐程度。&lt;/p&gt;
+
+&lt;p&gt;结果分两种情境：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;看不愉快图片时，笑一次能带来小幅情绪提升，即便有扣钱威胁也一样。笑 10 次，好处变弱；10 次加上扣钱威胁，好处消失。&lt;/li&gt;
+&lt;li&gt;看愉快图片时，主动笑一次几乎没额外效果。反复笑或被施压笑，快乐评分反而低于自然反应组，烦躁和愤怒也更多。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Coles 的总结是假笑可以是「快乐的来源，也可以是痛苦的来源」。区别在两个变量：&lt;strong&gt;次数，以及笑是不是你自己选的&lt;/strong&gt;。他说得很直白：「情绪劳动（Emotional Labor）往往就是情绪控制」，而在服务业，「每一次互动都是又一个假笑」。新闻稿还点名了 Target 曾被批评的规定——顾客走到一定距离内员工必须微笑。&lt;/p&gt;
+
+&lt;p&gt;这和本 feed 11 月 16 日写过的「感激放大」研究是同一条线：表达超过真实感受时，先付代价的是表达者本人的真实感。被规定的笑，是同一机制的极端版本——表情不再是你调节情绪的工具，而是别人调节你的工具。&lt;/p&gt;
+
+&lt;p&gt;局限要说清楚。公开材料都没给效应量；实验在线上进行，「客服压力」是用一个从未兑现的 2 美元威胁模拟的，真实职场的压力大得多也久得多；只测了即时自评，不知道效果持续多久。但作为注册报告，假设和分析方案是在看到数据前锁定的，这让「方向」比较可信。&lt;/p&gt;
+
+&lt;p&gt;可以带走的用法：把笑当成偶尔用一次的情绪杠杆，比如开一个难熬的会之前，或刷到糟心新闻之后，主动笑一下，效果小但真实。别把它变成全天候的表演。如果你是管理者，与其规定团队「保持积极」，不如问问自己：这份积极是他们的，还是我要的？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/11/261112025536.htm"&gt;https://www.sciencedaily.com/releases/2026/11/261112025536.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1150435"&gt;https://www.eurekalert.org/news-releases/1150435&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://newsweek.com/forcing-a-smile-has-surprising-effect-on-happiness-study-12668924"&gt;https://newsweek.com/forcing-a-smile-has-surprising-effect-on-happiness-study-12668924&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.jesp.2026.105011"&gt;https://doi.org/10.1016/j.jesp.2026.105011&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1038/s41562-022-01458-9"&gt;https://doi.org/10.1038/s41562-022-01458-9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a7a61ea8-52d5-5037-85dc-642f59046ff8</guid>
+      <pubDate>Thu, 19 Nov 2026 12:13:02 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.sciencedaily.com/releases/2026/11/261112025536.htm</link>
+      <enclosure url="https://www.sciencedaily.com/images/1920/woman-with-fake-forced-smile.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 不想共情，和共情不来，是两回事：前额叶腹内侧受损患者「想不想感受别人」与常人无异，SCAN 预注册研究把共情的动机和能力拆开</title>
+      <description>&lt;p&gt;前额叶腹内侧皮层（ventromedial Prefrontal Cortex, vmPFC）受损的人，常被描述为「假性精神病态」（Pseudopsychopathy）：冲动、情感淡漠、社交判断变差。最有名的例子是 19 世纪被铁棍贯穿头部的 Phineas Gage。一个自然的推论是，这些人「不在乎」别人。&lt;/p&gt;
+
+&lt;p&gt;Julian Scheffer（西安大略大学，研究期间在爱荷华大学）、Justin Reber、C. Daryl Cameron（宾州州立大学）和 Daniel Tranel（爱荷华大学）在 &lt;em&gt;Social Cognitive and Affective Neuroscience&lt;/em&gt; 上发表的研究（DOI 10.1093/scan/nsag072，PsyPost 11/17 报道）检验了这个推论，结果并不成立。&lt;/p&gt;
+
+&lt;p&gt;他们用的是 Cameron 实验室的共情选择任务（Empathy Selection Task）。被试反复在两副牌之间选：一副要求感受并写下一位难民儿童的情绪（FEEL），另一副只需描述他的外貌（DESCRIBE）；另一个任务是看完一张中等情绪强度的照片后，选择体会对方感受还是体会自己的感受。各 40 轮。参与者包括 13 名 vmPFC 损伤患者、13 名其他脑区损伤的对照患者和 16 名健康成年人，年龄、性别、教育匹配；假设和分析方案事先预注册，病灶边界由不知道假设的神经科医生核验。&lt;/p&gt;
+
+&lt;p&gt;情感共情任务里，vmPFC 组选择共情的比例是 47%，脑损伤对照组 44%，健康人 37%；认知共情任务里分别是 33%、33%、31%。差异都不显著，贝叶斯分析支持「实际上等同」。vmPFC 患者甚至觉得情感共情牌没那么费劲。Scheffer 的说法是：他们「似乎并不缺乏想共情的意愿，而是可能无法成功地把共情用出来」。&lt;/p&gt;
+
+&lt;p&gt;这个结论之所以有意思，要放回 Cameron 2019 年那项研究里看。那篇发表在 &lt;em&gt;Journal of Experimental Psychology: General&lt;/em&gt; 的论文做了 11 个实验、1,204 人，发现普通人在能选的时候会&lt;strong&gt;主动回避共情&lt;/strong&gt;，原因主要是觉得费力、难受、而且「做了也没用」。当实验告诉被试「你很擅长共情」，回避现象就消失了。2021 年 Scheffer、Cameron 和 Inzlicht 把这一结论扩展到同情心：人们选择同情牌的比例只有约 21%-25%。&lt;/p&gt;
+
+&lt;p&gt;两项研究合起来，一个人「没有共情」可能对应三种完全不同的状态：不想（动机）、做不到（能力）、觉得做了没用（效能感）。vmPFC 患者落在第二种；我们大多数健康人日常的冷漠，更多落在第一和第三种。&lt;/p&gt;
+
+&lt;p&gt;样本是硬伤。vmPFC 局灶损伤很罕见，13 人只够检测相当大的组间差异，作者自己估算要约 120 人才能可靠检测个体层面的中等关联。患者平均受伤已 24 年，可能有长期代偿；同一批人的情绪识别能力也没直接测，「能力受损」这一半是从既往文献推的。同团队另一篇发表在 &lt;em&gt;Brain&lt;/em&gt; 的杏仁核损伤研究（DOI 10.1093/brain/awag074）也发现共情动机完好，方向一致。&lt;/p&gt;
+
+&lt;p&gt;放到日常里，这套区分有现成的用处。觉得某个同事「冷」，先别急着下性格判断，想想他是不想、不会，还是不觉得有用。对自己也是：如果你发现自己在回避朋友的倾诉，多半不是心变硬了，而是觉得接不住。Cameron 的实验提示，有效的办法不是自责，而是降低成本、提高把握：不必解决对方的问题，只需复述一句「听起来你这周真的很累」，共情就从一件难事变成了一件能做的事。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/brain-damage-linked-to-pseudopsychopathy-may-not-reduce-the-will-to-empathize/"&gt;https://www.psypost.org/brain-damage-linked-to-pseudopsychopathy-may-not-reduce-the-will-to-empathize/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1093/scan/nsag072"&gt;https://doi.org/10.1093/scan/nsag072&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.apa.org/news/press/releases/2019/04/empathy-mental-effort"&gt;https://www.apa.org/news/press/releases/2019/04/empathy-mental-effort&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pure.psu.edu/en/publications/empathy-is-hard-work-people-choose-to-avoid-empathy-because-of-it/"&gt;https://pure.psu.edu/en/publications/empathy-is-hard-work-people-choose-to-avoid-empathy-because-of-it/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">64db050c-330f-5e14-8650-0bca72bdb0d8</guid>
+      <pubDate>Thu, 19 Nov 2026 12:13:03 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/brain-damage-linked-to-pseudopsychopathy-may-not-reduce-the-will-to-empathize/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/03/prefrontal-cortex.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 课堂上最不敢开口的不是哪一派，而是立场温和的人：NBER 杜克大学调查发现自我审查跟着信心走，沉默者一多，房间里的「主流意见」就被说话的人代表了</title>
+      <description>&lt;p&gt;先说清楚这项研究的分量：它是 NBER 工作论文（w35979），尚未经过同行评审；数据来自一所学校（杜克大学）、一个时间点（2023 年 2-3 月）；受邀学生回复率 37%。所以别把它读成「美国大学的真相」。但它拆解沉默的方式，比结论本身更有用。&lt;/p&gt;
+
+&lt;p&gt;作者是 Peter Arcidiacono（约翰霍普金斯大学）、Cory Dowd（数据在杜克收集，现任职纽约市长办公室）和 Matthew Lilley（澳大利亚国立大学），PsyPost 11/17 报道。498 名本科生的有效样本按种族、性别、年级加权，回答了八个议题：选举舞弊说法、堕胎、BLM、控枪、政府角色、青少年青春期阻断剂、争议演讲嘉宾、机会平等与结果平等。每人给自己的立场打 0（最保守）到 100（最进步）分，估计同学的平均立场，划出自己能容忍的观点范围（个人的 Overton Window），并报告在不同场合多常说出看法。&lt;/p&gt;
+
+&lt;p&gt;最反直觉的一点：经常表达看法的比例，中间派 33%，偏右 19%，左派 45%，右派 48%。&lt;strong&gt;立场越温和，越少开口&lt;/strong&gt;；立场鲜明的两端反而都敢说。作者的解释是自我审查主要跟信心和议题重要性走——越确信、越在乎，立场往往越极端，也越愿意说。偏右学生在杜克课堂上经常开口的只有 12%，但在校外和非杜克的人聊时是 49%，场合效应非常大。总体看，课堂上经常表达的比例 34%，校园其他场合 54%。&lt;/p&gt;
+
+&lt;p&gt;沉默的理由也分两种。偏左学生不说话，48% 是因为对自己的看法没把握（偏右为 15%）；偏右学生不说话，66% 是怕被孤立或排斥（偏左为 20%）。同样是沉默，一种是「我不确定」，一种是「我不安全」，需要的回应完全不同。&lt;/p&gt;
+
+&lt;p&gt;后果是房间里的「民意」会被说话的人重新画一遍。在堕胎、BLM、控枪、青春期阻断剂上，开口的学生比沉默的同学进步 14-20 分。关于校园演讲限制，学生估计同学平均 55 分，实际是 45 分，比真实情况更偏一侧。这就是社会心理学里的多元无知（Pluralistic Ignorance）：每个人根据听到的声音推断大家怎么想，而听到的声音恰恰来自最不典型的人。&lt;/p&gt;
+
+&lt;p&gt;局限：自报行为、横截面，不能说因果；愿意上杜克的保守派学生本身可能更能容忍异见。独立评论者 Christopher Ferguson 提醒，「这些数据只针对杜克」。&lt;/p&gt;
+
+&lt;p&gt;这和 11 月 8 日写过的 Grey 等人 PSPB 研究可以对着看：在政治议题上表态前先承认「我想过另一边」，会在对立者眼里加分。温和派的问题恰恰在于，他们最有资格说「我两边都想过」，却最常选择不说。&lt;/p&gt;
+
+&lt;p&gt;可以带走两件事。第一，判断「大家怎么想」时，把你听到的声音当成偏向强信心者的样本，打个折。第二，如果你在主持会议、带讨论或者管一个团队，别只问「有没有不同意见」。给没把握的人一个低门槛的出口（「说说你还没想清楚的部分」），给怕被排斥的人一个安全的渠道（匿名、一对一），才能听到真正的中间。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/moderate-students-self-censor-the-most-on-campus-survey-finds/"&gt;https://www.psypost.org/moderate-students-self-censor-the-most-on-campus-survey-finds/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nber.org/papers/w35979"&gt;https://www.nber.org/papers/w35979&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://marginalrevolution.com/marginalrevolution/2026/11/what-drives-censorship-on-college-campuses.html"&gt;https://marginalrevolution.com/marginalrevolution/2026/11/what-drives-censorship-on-college-campuses.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.chronicle.com/article/who-self-censors-on-campus-the-answer-might-surprise-you"&gt;https://www.chronicle.com/article/who-self-censors-on-campus-the-answer-might-surprise-you&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">620fe372-7456-5a9a-8cdc-3cef8509d43b</guid>
+      <pubDate>Thu, 19 Nov 2026 12:13:03 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/moderate-students-self-censor-the-most-on-campus-survey-finds/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2023/03/College-Student-Uses-Laptop-while-Listening-to-a-Lecture-at-the-University.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Safari's Adaptive Dark Mode Recolors Light-Only Sites: Declare color-scheme or Let the Browser Theme You / Safari 自适应深色模式会给纯浅色网站自动改色：要么声明 color-scheme，要么交给浏览器配色</title>
+      <description>&lt;p&gt;Safari has started treating a missing &lt;code&gt;color-scheme&lt;/code&gt; declaration as an invitation. On November 3, WebKit announced &lt;strong&gt;Adaptive Dark Mode&lt;/strong&gt; in the Safari 27.3 beta. It is opt-in, and the user turns it on. Once enabled, Safari recolors light-only websites so they render dark. Sites that declare their own dark support are left alone. The post was written by Simon Fraser, Luming Yin, Lily Spiniolas, Joanne Pan, Veda Periwal and Jen Simmons. Its argument is simple: lots of people run their devices in dark mode, few websites support it, and the browser can close that gap. For design teams, the practical upshot is that your light theme is no longer guaranteed to be the theme your users see.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png" alt="Split view of a complex demo website: original light design on the left, Safari's Adaptive Dark Mode transformation on the right" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;WebKit's demo site, original (left) and transformed by Adaptive Dark Mode (right). Source: WebKit&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;What the browser actually does&lt;/h3&gt;
+&lt;p&gt;Safari first checks whether the page has declared dark support through &lt;code&gt;color-scheme&lt;/code&gt;. If it has, nothing happens. If it hasn't, Safari quickly analyzes the page's colors to estimate whether it is mostly light. Pages that are already dark with light text are skipped. For light pages it applies a color matrix that &lt;em&gt;inverts luminosity while preserving hue&lt;/em&gt;. That means a brand blue stays recognizably blue instead of flipping to orange, as a naive invert filter would. Light backgrounds go dark, dark text goes light, and light CSS gradients are transformed. Text contrast is targeted at WCAG's 4.5:1. WebKit says Safari also checks that buttons, text over images and hover menus stay legible.&lt;/p&gt;
+&lt;p&gt;Images are where the edge cases live. Most bitmaps are left untouched. SVG colors are transformed when needed. Safari runs a pixel histogram on bitmaps and inverts only simple black-and-white logos. &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; content is never changed, and masks and &lt;code&gt;mix-blend-mode&lt;/code&gt; may be switched off on transformed elements. The Interop 2026 dashboard example shows what that means in practice: the chart keeps its light appearance while the page around it goes dark.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://webkit.org/wp-content/uploads/Interop-dashboard-with-Adaptive-Dark-Mode_light-scaled.png" alt="Interop 2026 dashboard shown original and transformed; the canvas chart stays light while surrounding page turns dark" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;On the Interop 2026 dashboard the chart stays light while the rest of the page turns dark, a mismatch designers should check for. Source: WebKit&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The user flow is deliberately cautious. The feature requires the 27.3 beta and a system appearance already set to Dark. When the user opens a bright site, Safari offers a preview, and the user taps "Try." On privacy, WebKit says sites cannot detect the transformation. Scripts reading computed colors get the original authored values, and canvas renders in its original form. That closes off a fingerprinting signal. It also means your analytics can't tell you how many visitors see the recolored version.&lt;/p&gt;
+
+&lt;h3&gt;The three-way decision every site now has&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;You have a real dark theme:&lt;/em&gt; declare it early with &lt;code&gt;&amp;lt;meta name="color-scheme" content="light dark"&amp;gt;&lt;/code&gt; in the head and/or &lt;code&gt;color-scheme&lt;/code&gt; on &lt;code&gt;:root&lt;/code&gt;. WebKit is explicit: "Don't wait to inject this information later via JavaScript." A late declaration means Safari may already have decided to transform the page. WebKit points to &lt;code&gt;prefers-color-scheme&lt;/code&gt;, &lt;code&gt;light-dark()&lt;/code&gt;, &lt;code&gt;color-mix()&lt;/code&gt;, &lt;code&gt;contrast-color()&lt;/code&gt; and custom properties as the toolkit.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;You want out:&lt;/em&gt; use &lt;code&gt;color-scheme: light only&lt;/code&gt; (or the meta equivalent). Because it works in CSS, you can apply it to specific elements, such as a product photo gallery or a brand-critical hero. Timing matters here. The &lt;code&gt;only&lt;/code&gt; keyword did not work in 27.3 beta 1. WebKit's updated post says it arrived in beta 2, so test on the current beta before assuming the opt-out works.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;You do nothing:&lt;/em&gt; users who turn the feature on get Safari's version of your design. WebKit's hygiene advice is what makes that version look good: use SVG rather than bitmap logos, CSS colors rather than tiled background images, transparent content images, and padding inside containers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode-plus-custom-dark-mode_light-scaled.png" alt="Three windows of the demo site: original light, Safari's automatic transformation, and a hand-designed custom dark theme" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Original, automatic, and a hand-built dark theme side by side. The automatic result is a floor, not a design. Source: WebKit&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Why this matters beyond Safari&lt;/h3&gt;
+&lt;p&gt;Chrome has shipped "Auto Dark Mode for Web Contents" behind a flag for years, and extensions like Dark Reader do the same job. Samsung Internet and Opera for Android have offered forced dark pages as settings too. Safari's version is different: it ships in the default browser on Apple devices, offers a per-site preview prompt, and can't be detected by sites. It changes how teams should think about theming. "We only ship light" used to be a scope decision. Now it effectively hands your dark theme to Apple's algorithm. There is also an accessibility angle: some low-vision and photophobic users depend on dark interfaces, and a 4.5:1 floor is better than glare. The risks are charts drawn on canvas, blend-mode illustrations and photos with baked-in white backgrounds, which can now sit in a dark page as bright rectangles.&lt;/p&gt;
+&lt;p&gt;9to5Mac, citing MacRumors, expects iOS, iPadOS and macOS 27.3 to ship in December. WebKit itself gave no date. The same release adds vertical tabs, but that is a separate change to the browser's own interface.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; before December, audit your site in the 27.3 beta with dark appearance on. Then pick one of the three options deliberately. Add &lt;code&gt;light dark&lt;/code&gt; if you have a theme, add &lt;code&gt;light only&lt;/code&gt; to the components you can't let be recolored, and fix bitmap logos either way. The open question is whether Chrome promotes its flag in response. If it does, "undeclared" will mean "browser-themed" across most of the web.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Safari 开始把"没写 &lt;code&gt;color-scheme&lt;/code&gt;"当成一种默许。11 月 3 日，WebKit 宣布 Safari 27.3 beta 加入自适应深色模式（Adaptive Dark Mode）。这个功能需要用户自己打开，打开后 Safari 会把只有浅色设计的网站重新上色，渲染成深色；已经声明了深色支持的网站不受影响。文章署名 Simon Fraser、Luming Yin、Lily Spiniolas、Joanne Pan、Veda Periwal 和 Jen Simmons，理由很直接：开深色模式的人很多，支持深色的网站很少，浏览器可以替网站补上这块。落到设计团队身上，就是一件事：你设计的浅色主题，不一定就是用户看到的样子了。&lt;/p&gt;
+
+&lt;h3&gt;浏览器具体做了什么&lt;/h3&gt;
+&lt;p&gt;Safari 先看页面有没有通过 &lt;code&gt;color-scheme&lt;/code&gt; 声明深色支持，有就什么都不动。没有的话，它会快速分析页面颜色，判断页面是不是以浅色为主；本来就是深底浅字的页面直接跳过。对浅色页面，Safari 用一个颜色矩阵&lt;em&gt;反转明度、保留色相&lt;/em&gt;，品牌蓝还是蓝，不会像简单的 invert 滤镜那样变成橙色。浅色背景变深，深色文字变浅，浅色 CSS 渐变也一并转换。文字对比度以 WCAG 的 4.5:1 为目标，WebKit 还说 Safari 会检查按钮、图片上的文字和悬停菜单，确保它们依然看得清。&lt;/p&gt;
+&lt;p&gt;麻烦主要出在图片上。大多数位图保持原样；SVG 颜色在需要时会被转换；对位图，Safari 会做像素直方图分析，只反转简单的黑白 logo。&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 内容一律不动，被转换的元素上 mask 和 &lt;code&gt;mix-blend-mode&lt;/code&gt; 可能被关掉。Interop 2026 仪表盘的例子很典型：图表还是浅色，周围的页面已经全黑了。&lt;/p&gt;
+&lt;p&gt;用户流程设计得很保守：必须装 27.3 beta，系统外观先设成深色；打开一个亮色网站时，Safari 会给出预览，用户点"Try"才生效。隐私方面，WebKit 说网站无法察觉页面被转换过——脚本读到的计算颜色仍是原始值，canvas 也按原样渲染。这样少了一个指纹追踪信号，但也意味着你的数据分析没法告诉你，有多少访客看到的是被改过色的版本。&lt;/p&gt;
+
+&lt;h3&gt;每个网站都得做的三选一&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;你有真正的深色主题：&lt;/em&gt;尽早声明，在 head 里写 &lt;code&gt;&amp;lt;meta name="color-scheme" content="light dark"&amp;gt;&lt;/code&gt;，或在 &lt;code&gt;:root&lt;/code&gt; 上设置 &lt;code&gt;color-scheme&lt;/code&gt;。WebKit 说得很明确：别等 JavaScript 晚些时候再注入，声明来得太晚，Safari 可能已经决定转换了。配套工具是 &lt;code&gt;prefers-color-scheme&lt;/code&gt;、&lt;code&gt;light-dark()&lt;/code&gt;、&lt;code&gt;color-mix()&lt;/code&gt;、&lt;code&gt;contrast-color()&lt;/code&gt; 和 CSS 变量。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;你想退出：&lt;/em&gt;用 &lt;code&gt;color-scheme: light only&lt;/code&gt;（或对应的 meta）。因为是 CSS 属性，可以只作用于特定元素，比如商品图集或品牌主视觉。注意版本：&lt;code&gt;only&lt;/code&gt; 关键字在 27.3 beta 1 里不生效，WebKit 更新后的文章说 beta 2 才支持，别默认它已经能用。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;你什么都不做：&lt;/em&gt;开了这个功能的用户看到的就是 Safari 版本的你。想让这个版本好看一点，就按 WebKit 的建议做：logo 用 SVG 而不是位图，用 CSS 颜色代替平铺背景图，内容图片用透明底，容器里留好 padding。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;影响不止 Safari&lt;/h3&gt;
+&lt;p&gt;Chrome 的"网页内容自动深色模式"（Auto Dark Mode for Web Contents）藏在 flag 里好几年了，Dark Reader 之类的扩展也一直在做同样的事。Samsung Internet 和 Android 版 Opera 也早有强制深色网页的设置。Safari 的不同在于：它是 Apple 设备上的默认浏览器，会按网站弹出预览提示，而且网站察觉不到。主题策略的性质因此变了："我们只做浅色"以前是个范围决定，现在等于把深色主题交给了 Apple 的算法。从无障碍角度看，有些低视力和畏光用户离不开深色界面，有 4.5:1 的底线总比刺眼强。风险也很具体：canvas 画的图表、依赖混合模式的插画、白底烘焙在图里的照片，都可能在深色页面里变成一块块亮色矩形。&lt;/p&gt;
+&lt;p&gt;9to5Mac 援引 MacRumors 的消息，iOS、iPadOS 和 macOS 27.3 预计 12 月发布；WebKit 本身没给日期。同一版本还加了垂直标签页，那是浏览器自身界面的另一件事。&lt;/p&gt;
+&lt;p&gt;建议在 12 月前，把系统调成深色，用 27.3 beta 过一遍自己的网站，然后认真三选一：有主题就加 &lt;code&gt;light dark&lt;/code&gt;，不能被改色的组件加 &lt;code&gt;light only&lt;/code&gt;，位图 logo 无论如何都换掉。接下来要看 Chrome 会不会把那个 flag 转正——真转正了，"没声明"在大半个网络上就等于"交给浏览器配色"。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://webkit.org/blog/18541/introducing-adaptive-dark-mode/"&gt;https://webkit.org/blog/18541/introducing-adaptive-dark-mode/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/"&gt;https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ppc.land/safaris-new-dark-mode-repaints-light-websites-without-the-sites-knowing/"&gt;https://ppc.land/safaris-new-dark-mode-repaints-light-websites-without-the-sites-knowing/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">54a25931-29b9-5c2f-b500-bd9909f0f5fd</guid>
+      <pubDate>Thu, 19 Nov 2026 12:16:58 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://webkit.org/blog/18541/introducing-adaptive-dark-mode/</link>
+      <enclosure url="https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light-1024x654.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 AI Sped Up the Build, Not the Judgment: 12 of 15 AI-Built Sites Shipped Skip Links That Don't Move Focus / AI 加快了构建，没加快判断：15 个 AI 网站里 12 个放了跳转链接，焦点却一个都没移过去</title>
+      <description>&lt;p&gt;Twelve of fifteen AI-built websites included a skip link, and none of the twelve worked. In each case the page scrolled, but focus never moved to the target, so keyboard users were left at the top of the navigation. That detail comes from an AudioEye-commissioned study published through Stacker on October 13. It explains why Andrew Chung's new Smashing Magazine piece (November 17) is framed the way it is. The markup &lt;em&gt;looks&lt;/em&gt; right, a code-level check may pass, and the experience is still broken. Chung's argument is that AI has sped up the build without speeding up the judgment, and that the fix is to move human checks earlier rather than adding more AI or banning it.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://files.smashing.media/articles/ai-sped-up-build-how-can-accessibility-testing-keep-up/ai-sped-up-build-how-can-accessibility-testing-keep-up.jpg" alt="Smashing Magazine article illustration for 'AI Sped Up The Build: How Can Accessibility Testing Keep Up?'" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Andrew Chung, Smashing Magazine, Nov 17, 2026. Source: Smashing Magazine&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Read the sources with their sponsors in view&lt;/h3&gt;
+&lt;p&gt;Both pieces are vendor-backed, and that shapes how much weight they can carry. Chung is Chief Product Officer at Level Access, which sponsors the Smashing article. The AudioEye study was also run as sponsored content on VentureBeat under the byline of AudioEye's CEO. It does not disclose per-tool results, the survey sample size, or whether testing was automated, manual or both. Its headline comparison of 55 issues per AI-built page against 62 in AudioEye's own index crosses different page sets. The independent anchor is WebAIM's Million 2026 scan, which found automatically detected errors rising 10.1%, from 51 to 56.1 per homepage. WebAIM named AI-assisted coding as one possible contributor. The vendor numbers are therefore best read as illustrations of failure modes, not as precise rates.&lt;/p&gt;
+
+&lt;h3&gt;What the 15-site test found&lt;/h3&gt;
+&lt;p&gt;AudioEye gave tools from OpenAI, Anthropic, Google, xAI and Lovable the same brief: build a news site, an online store and a financial services site, each meeting WCAG 2.2 AA. All 15 sites failed Level A. The test found 306 distinct issues, appearing more than 59,000 times. That repetition is typical of generated components, where one broken nav or form pattern is copied onto every page. 91% of the issues were rated medium or high severity, and 33% blocked a task outright. Thirteen of the 15 sites shipped at least one complete blocker. The most common failures were basic: links with no description, buttons a screen reader can't identify, and unlabeled form fields, many of them in checkout and login. The stores were worst, at 174 issues per page. AudioEye also reports that nearly half of all issues could not be found by reading code. They appeared only during use, when opening a menu, tabbing through a dialog, submitting a form with errors, or viewing the page at phone width.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://images.stacker.com/w/1024/styles/max_width_1024/s3/images/stories/2026/10/13/AI%20Coding%20Graphic%201.png?v=v3" alt="Bar chart: AI-built sites average 55 accessibility issues per page versus 62 for pages in AudioEye's 2026 Digital Accessibility Index" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;AudioEye's headline comparison. The two bars come from different page sets, so treat the gap as rough. Source: AudioEye via Stacker&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Chung's model: Find, Fix, Prove&lt;/h3&gt;
+&lt;p&gt;Level Access's 2026 State of Digital Accessibility survey (2,500+ professionals) gives the gap a shape. Respondents said AI sped up planning (58%), design (61%) and development (51%), but only 30% said it sped up QA and testing. Organizations that improved on every accessibility metric they track adopted AI at about the same rate as everyone else. What set them apart was training, ownership and culture. Chung notes that this is correlational. His workflow:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Find&lt;/strong&gt; while context is fresh. Specify focus order, accessible names, states, heading structure and live-region announcements at handoff, and put them where agents read: design-system components, AGENTS.md, Cursor rules, Copilot instructions. He suggests GitHub's Annotation Toolkit for Figma. Gate pull requests with eslint-plugin-jsx-a11y, Pa11y or Lighthouse CI against a baseline. Run more than one engine (axe-core, QualWeb, Equal Access), and give every check a named owner. Designers own focus, errors and states. Developers do a keyboard and screen reader pass on custom components. UX or QA walks the full journey.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fix&lt;/strong&gt; before context goes cold. Tickets should carry the element, repro steps, the WCAG criterion and the PR link. Let AI take the first pass, but treat it as a draft. Chung warns that "a green result can come from markup that looks right and isn't," such as &lt;code&gt;role="button"&lt;/code&gt; on a div, redundant ARIA, or invented alt text. Work the backlog by impact, starting with journeys like paying a bill or resetting a password.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prove&lt;/strong&gt; with a receipt. Ship a regression test with each fix, and add a PR note on what was tested, with which assistive technology, and what judgment calls were made. In his words: "A passing test shows a known issue hasn't returned. It doesn't show the experience works."&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Where this connects&lt;/h3&gt;
+&lt;p&gt;The skip-link failure is the same pattern open-design-system-bench found in design-system adherence: agents produce plausible structure without the wiring behind it. It also fits Tony Alicea's Research-in-the-Loop and NN/g's harness framing, both covered earlier this month. In each case the fix is to write the expectation into the spec the agent reads, then verify the behavior, not the markup. The designer's part of this is concrete. Accessibility specs (focus order, names, announcements) are now agent context, so a vague annotation leaves the model to fill the gap with its defaults.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; Chung's exercise is worth running this week. Pick a feature that shipped recently and trace it from the first Figma frame to production. Mark every point where a person checked it with a keyboard, a screen reader or at 400% zoom. If the marks cluster at the end, your build sped up and your accessibility checks didn't.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;15 个 AI 搭建的网站里，有 12 个放了跳转链接（skip link），一个都不好用：页面会滚动，焦点却没移过去，键盘用户还卡在导航顶部。这个细节出自 AudioEye 委托、10 月 13 日经 Stacker 发布的一项研究，也正好说明了 Andrew Chung 11 月 17 日那篇 Smashing Magazine 文章为什么要这样立论：标记&lt;em&gt;看起来&lt;/em&gt;对，代码层面的检查可能也能过，体验照样是坏的。Chung 的观点是，AI 加快了构建，却没有加快判断；解决办法不是多用 AI 或干脆禁用，而是把人的检查往前挪。&lt;/p&gt;
+
+&lt;h3&gt;先看清楚谁出的数据&lt;/h3&gt;
+&lt;p&gt;两份材料都有厂商背景，这决定了它们能说明多少问题。Chung 是 Level Access 的首席产品官，Smashing 这篇文章由 Level Access 赞助。AudioEye 的研究在 VentureBeat 上也是赞助内容，署名是 AudioEye CEO；它没公开各工具的分项结果、问卷样本量，也没说测试是自动、人工还是两者兼有。它最醒目的对比——AI 网站平均每页 55 个问题，自家指数平均 62 个——用的还是两批不同的页面。独立的参照是 WebAIM Million 2026：首页自动检出错误从 51 涨到 56.1，增幅 10.1%，WebAIM 把 AI 辅助编码列为可能原因之一。所以厂商数字更适合用来看失败模式，别当精确比率。&lt;/p&gt;
+
+&lt;h3&gt;15 个网站测出了什么&lt;/h3&gt;
+&lt;p&gt;AudioEye 给 OpenAI、Anthropic、Google、xAI 和 Lovable 的工具同一个任务：做一个新闻站、一个网店、一个金融服务站，都要符合 WCAG 2.2 AA。结果 15 个网站全部没过 A 级。测试共发现 306 种问题，出现超过 59,000 次——生成式组件就是这样，一个坏掉的导航或表单模式会被复制到每一页。91% 的问题被评为中高严重度，33% 会直接阻断任务，15 个站里有 13 个至少带着一个完全阻断的问题。最常见的都是基础问题：没有描述的链接、读屏软件认不出的按钮、没有标签的表单字段，很多就在结账和登录流程里。网店最糟，每页 174 个问题。AudioEye 还说，将近一半的问题读代码是发现不了的，只有在实际使用时才会暴露：展开菜单、在对话框里 Tab 切换、提交带错误的表单、切到手机宽度。&lt;/p&gt;
+
+&lt;h3&gt;Chung 的三步：发现、修复、留证&lt;/h3&gt;
+&lt;p&gt;Level Access 的 2026 数字无障碍现状调查（2,500 多名从业者）给这个落差描了个轮廓：受访者认为 AI 加快了规划（58%）、设计（61%）和开发（51%），但说 QA 和测试变快的只有 30%。在所有无障碍指标上都在进步的组织，AI 采用率和其他人差不多，拉开差距的是培训、责任归属和团队文化。Chung 自己也承认这只是相关性。他的流程是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;发现（Find）&lt;/strong&gt;，趁上下文还新鲜。交接时就写清焦点顺序、可访问名称、状态、标题层级和实时区域播报，并放进智能体会读的地方：设计系统组件、AGENTS.md、Cursor rules、Copilot instructions。Figma 里可以用 GitHub 的 Annotation Toolkit。PR 阶段用 eslint-plugin-jsx-a11y、Pa11y 或 Lighthouse CI 对照基线设闸门；检测引擎不止跑一个（axe-core、QualWeb、Equal Access）；每项检查都要有具体负责人：设计师管焦点、错误和状态，开发者给自定义组件过一遍键盘和读屏，UX 或 QA 走完整流程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复（Fix）&lt;/strong&gt;，别等上下文凉了。工单里带上元素、复现步骤、对应的 WCAG 条款和 PR 链接。让 AI 先改一版，但只当草稿——Chung 提醒，测试全绿也可能来自"看着对、其实不对"的标记，比如 div 上加 &lt;code&gt;role="button"&lt;/code&gt;、多余的 ARIA、瞎编的 alt 文本。积压问题按影响排序，先处理缴费、重置密码这类关键流程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;留证（Prove）&lt;/strong&gt;，每次修复都附回归测试，PR 里写明测了什么、用的哪种辅助技术、做了哪些判断。他的原话是："测试通过只说明已知问题没有复发，不说明体验是好的。"&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;和之前的线索怎么接上&lt;/h3&gt;
+&lt;p&gt;跳转链接失效，和 open-design-system-bench 在设计系统遵循度上看到的是同一种模式：智能体能生成像模像样的结构，背后的连线却没接上。这也呼应了本月早些时候写过的 Tony Alicea 的 Research-in-the-Loop 和 NN/g 的智能体框架（harness）：把预期写进智能体读的规格里，然后验证行为，而不是验证标记。设计师能做的很具体——焦点顺序、名称、播报这些无障碍规格现在就是智能体的上下文，标注写得含糊，模型就会拿自己的默认值去填。&lt;/p&gt;
+&lt;p&gt;Chung 的那个练习这周就可以做：挑一个最近上线的功能，从第一个 Figma 画框一路追到生产环境，把每个有人用键盘、读屏软件或 400% 缩放检查过的节点标出来。如果标记都挤在最后，那就是构建提速了，无障碍检查没跟上。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/"&gt;https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://stacker.com/stories/ai/study-ai-coding-tools-do-not-write-accessible-code"&gt;https://stacker.com/stories/ai/study-ai-coding-tools-do-not-write-accessible-code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://venturebeat.com/technology/we-asked-five-ai-tools-to-build-accessible-websites-all-15-sites-failed"&gt;https://venturebeat.com/technology/we-asked-five-ai-tools-to-build-accessible-websites-all-15-sites-failed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://webaim.org/projects/million/"&gt;https://webaim.org/projects/million/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f894bf8e-0ed4-53ff-b23d-6a1971fab7d0</guid>
+      <pubDate>Thu, 19 Nov 2026 12:16:58 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/</link>
+      <enclosure url="https://files.smashing.media/articles/ai-sped-up-build-how-can-accessibility-testing-keep-up/ai-sped-up-build-how-can-accessibility-testing-keep-up.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 WebKit's Spatial CSS Preview Treats 3D as Page Content: Portals, Anchors and Media Queries Instead of a Canvas Black Box / WebKit 空间 CSS 预览把 3D 当成页面内容：用 portal、锚点和媒体查询取代 canvas 黑盒</title>
+      <description>&lt;p&gt;Most 3D on the web today sits inside a black box. A &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; runs Three.js or a vendor viewer, and the page around it can't see in. Media queries don't reach inside, theme changes don't propagate, and reduced-motion preferences only apply if someone remembers to wire them through JavaScript. WebKit's November 16 post, "Introducing spatial CSS: A developer preview" by Brandel Zachernuk, proposes a different model. Placement, lighting and interaction for 3D content become CSS properties, so 3D answers the same context cues as everything else on the page. The preview is narrow: it runs only on visionOS 27.3, behind a flag. The design model behind it is worth understanding now, before teams settle into the habits of whichever 3D viewer they adopt first.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://webkit.org/wp-content/uploads/webkids-puzzle-playground.png" alt="Blue shape-sorter puzzle board with octagon, star, cross and triangle recesses, with orange octagon and star blocks beside it" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;WebKit's shape-sorter demo: board and blocks are separate &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; elements sharing one spatial portal. Source: WebKit&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;The pieces&lt;/h3&gt;
+&lt;p&gt;The starting point is the &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; element, which WebKit says is now in Safari 27 on all platforms and presents a single 3D object on its own. The preview adds a layer for composing several of them:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;spatial: portal&lt;/code&gt; turns an element into a shared 3D space for its children, a kind of stage. The preview applies it to models.&lt;/li&gt;
+&lt;li&gt;Within a portal, the ordinary &lt;code&gt;transform&lt;/code&gt; property becomes a true 3D transform, so each model can be moved, rotated and scaled independently. In the demo, the blocks are offset to start beside the board.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;position-anchor&lt;/code&gt; with &lt;code&gt;position-context: anchor&lt;/code&gt; attaches a model to a named point on another model. This is the 3D counterpart of CSS anchor positioning. The anchor points are authored in the 3D file itself (WebKit uses Blender "empties"), and they can be animated.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@environment-map&lt;/code&gt; defines reusable lighting that elements share. The preview supports 360° HDR images.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;portal-action: orbit&lt;/code&gt; lets users rotate the scene in place. WebKit floats future modes such as &lt;code&gt;pan-x&lt;/code&gt; or &lt;code&gt;pan-y&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;requestVolumetricScene()&lt;/code&gt; lifts the content out of the window into the user's space. It must be called from a user action, such as a button click, and the page stays connected so it can add, remove or move objects afterwards.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://webkit.org/wp-content/uploads/webkids-puzzle-playground-slotted.png" alt="The orange octagon block seated in its matching recess on the blue board, other recesses still empty" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Anchoring the octagon block to a reference point in the board seats it in its recess. Source: WebKit&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;What changes for designers&lt;/h3&gt;
+&lt;p&gt;First, 3D starts to follow responsive rules. WebKit's argument is that spatial content should respond to "the device display capabilities, window size, and color theme," and that a page "can use media queries targeting aspect ratio, color theme and reduced motion to adapt spatially as well." Spatial values can be animated and transitioned like any other CSS value, so the patterns from 2D motion carry over. Reduced-motion users can get a static arrangement instead of an orbiting one, and a dark theme can swap the environment map. That matches the reduced-motion-as-opt-in pattern covered in this feed's scroll-driven animation entries. The difference is that the motion now has depth.&lt;/p&gt;
+
+&lt;p&gt;Second, layout work moves into the asset pipeline. Models are void elements, so they can't be nested inside one another, and WebKit uses anchors instead. As a result, the snap points that decide where a part sits are authored by whoever builds the model in Blender, not by the person writing CSS. Design systems that adopt this will need conventions for naming anchors, much as they now have conventions for icon grids and token names. Without them, a CSS selector will be reaching for an empty called "Octagon_target" that a 3D artist might rename.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://webkit.org/wp-content/uploads/webkids-puzzle-playground-blender-scaled.png" alt="Blender 5.3 Beta scene with outliner listing the puzzle blocks, target empties and board" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The anchor targets live in the Blender file's outliner, which makes them part of the design contract. Source: WebKit&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Third, interaction becomes declarative. &lt;code&gt;portal-action: orbit&lt;/code&gt; is a single line where today you would write a custom drag-to-rotate handler. That has the usual trade-off: consistency and platform-native behavior, in exchange for less control. There is an accessibility gap to watch. The post's only accessibility hook is the reduced-motion media query. It says nothing about keyboard control of orbiting, how screen readers describe a portal and its models, or focus management when a volumetric scene leaves the window. The user-activation requirement on &lt;code&gt;requestVolumetricScene()&lt;/code&gt; is a good default for consent, the same idea as fullscreen and pop-up gating. Still, a scene that escapes into the room needs a clear way back.&lt;/p&gt;
+
+&lt;h3&gt;How much to invest now&lt;/h3&gt;
+&lt;p&gt;Not much code. The preview runs only on Vision Pro or the visionOS Simulator (Settings &amp;gt; Apps &amp;gt; Safari &amp;gt; Advanced &amp;gt; Feature flags &amp;gt; CSS Portals). WebKit itself calls it a proposal with "a long journey ahead," and no other engine has said anything. The thinking is worth more than the code. If your product shows 3D (furniture, sneakers, hardware configurators), ask whether your current viewer respects color scheme, reduced motion and container size. A spatial CSS model would make those behaviors defaults rather than features you have to remember to build.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Open question:&lt;/em&gt; will spatial CSS stay an Apple-platform feature, the way &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; spent years as one? Or will other engines take it to standards discussion? Watch whether it turns up in CSSWG issues or in Interop 2027 proposals.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;今天网页上的 3D 大多关在一个黑盒里：一块 &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;，里面跑着 Three.js 或某家厂商的查看器，外面的页面看不进去。媒体查询管不到它，主题切换传不进去，减少动态效果（reduced motion）的偏好只有在有人记得用 JavaScript 接上时才生效。11 月 16 日，WebKit 的 Brandel Zachernuk 发了一篇《Introducing spatial CSS: A developer preview》，提出另一种做法：3D 内容的摆放、光照和交互都变成 CSS 属性，让 3D 和页面上其他内容响应同一套环境信号。预览范围很窄，只在 visionOS 27.3 上、而且要打开 flag 才能用。但它背后的设计模型值得现在就搞明白——趁团队还没被第一个采用的 3D 查看器养成固定习惯。&lt;/p&gt;
+
+&lt;h3&gt;都有哪些部件&lt;/h3&gt;
+&lt;p&gt;起点是 &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; 元素，WebKit 说它已经进入所有平台的 Safari 27，可以单独展示一个 3D 对象。这次预览在上面加了一层，用来组合多个模型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;spatial: portal&lt;/code&gt; 把一个元素变成子元素共享的 3D 空间，相当于一个舞台，预览里只用于模型。&lt;/li&gt;
+&lt;li&gt;在 portal 里，普通的 &lt;code&gt;transform&lt;/code&gt; 变成真正的 3D 变换，每个模型都能单独移动、旋转、缩放；示例里积木块就是这样被放到板子旁边的。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;position-anchor&lt;/code&gt; 配合 &lt;code&gt;position-context: anchor&lt;/code&gt;，可以把一个模型挂到另一个模型的命名点上，等于 CSS 锚点定位的 3D 版。锚点写在 3D 文件里（WebKit 用的是 Blender 的 empty），还能做动画。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@environment-map&lt;/code&gt; 定义可复用、可共享的光照，预览支持 360° HDR 图像。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;portal-action: orbit&lt;/code&gt; 让用户原地旋转整个场景，WebKit 还提到以后可能有 &lt;code&gt;pan-x&lt;/code&gt;、&lt;code&gt;pan-y&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;requestVolumetricScene()&lt;/code&gt; 把内容从窗口里"拿出来"放进用户所在的空间。必须由用户操作触发（比如点按钮），之后页面仍与场景保持连接，可以继续增删、移动对象。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;对设计师来说变了什么&lt;/h3&gt;
+&lt;p&gt;一是 3D 开始讲响应式了。WebKit 的说法是，空间内容应该响应"设备显示能力、窗口尺寸和配色主题"，页面可以用针对宽高比、配色主题和减少动态效果的媒体查询来调整空间布局。空间数值和其他 CSS 值一样可以过渡和动画，所以 2D 动效的那套做法能直接搬过来：开了减少动态效果的用户看到静止的摆放而不是旋转的场景，深色主题可以换一张环境贴图。这和本 feed 之前在滚动驱动动画里写过的"动效默认关、按偏好开启"是一回事，只是多了纵深。&lt;/p&gt;
+
+&lt;p&gt;二是布局工作挪进了资产管线。模型是空元素，不能互相嵌套，WebKit 用锚点代替嵌套。这样一来，决定零件放在哪儿的吸附点，是在 Blender 里建模的人定的，不是写 CSS 的人定的。设计系统要用这套东西，就得有锚点命名规范，就像现在有图标网格和 token 命名规范一样。否则 CSS 选择器去找一个叫"Octagon_target"的 empty，3D 美术哪天一改名就断了。&lt;/p&gt;
+
+&lt;p&gt;三是交互变成声明式。现在要自己写拖拽旋转的处理逻辑，以后 &lt;code&gt;portal-action: orbit&lt;/code&gt; 一行搞定。代价还是老问题：换来一致性和平台原生手感，失去部分控制权。无障碍这块有缺口：文章里唯一的无障碍抓手是减少动态效果媒体查询，没提怎么用键盘控制旋转、读屏软件怎么描述一个 portal 和里面的模型、体积场景离开窗口后焦点怎么管。&lt;code&gt;requestVolumetricScene()&lt;/code&gt; 要求用户触发，在授权上是个好默认，和全屏、弹窗的门槛一个思路。可一个"跑进房间里"的场景，总得有条清楚的退路吧？&lt;/p&gt;
+
+&lt;h3&gt;现在该投入多少&lt;/h3&gt;
+&lt;p&gt;代码不用写多少。预览只能在 Vision Pro 或 visionOS 模拟器上跑（设置 &amp;gt; App &amp;gt; Safari &amp;gt; 高级 &amp;gt; Feature flags &amp;gt; CSS Portals），WebKit 自己也说这只是提案，"前面的路还很长"，其他引擎也都没表态。值得花时间的是思路。如果你的产品要展示 3D——家具、球鞋、硬件配置器——不妨问问：现在的查看器尊重配色方案、减少动态效果和容器尺寸吗？按空间 CSS 的模型，这些都会是默认行为，而不是得有人记得去做的功能。&lt;/p&gt;
+
+&lt;p&gt;接下来的问题是：空间 CSS 会不会像当年的 &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; 那样，在 Apple 平台上独自待好几年？还是会有其他引擎把它带进标准讨论？可以留意它会不会出现在 CSSWG 的 issue 或 Interop 2027 的提案里。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/"&gt;https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://webkit.org/blog/"&gt;https://webkit.org/blog/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">64e31c38-18d9-5c03-816a-730235693f80</guid>
+      <pubDate>Thu, 19 Nov 2026 12:16:59 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/</link>
+      <enclosure url="https://webkit.org/wp-content/uploads/webkids-puzzle-playground-poster-1024x576.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 524 米高的浪：1958 年一块山崖砸进阿拉斯加利图亚湾，把对岸森林剥到岩床，船上的父子却在浪尖上活了下来；2025 年同样的事在游轮航道里重演，冲上 481 米</title>
+      <description>&lt;p&gt;524 米。比台北 101 的塔尖还高出十几米——这是 1958 年 7 月 9 日夜里，阿拉斯加利图亚湾（Lituya Bay）一道水浪冲上对岸山坡的高度。浪退之后，坡上的云杉林被整片剥光，露出岩床，林子和裸岩之间留下一条整齐得像刀切的分界线，地质学家管它叫「修剪线」（trimline）。直到今天，这仍是人类记录到的最高海啸爬高（run-up）。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/5/52/1958_Lituya_Bay_earthquake_and_megatsunami.jpg" alt="1958 年利图亚湾大海啸后，山坡上被浪剥光的浅色区域" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;利图亚湾海啸后的航拍：浅色区域就是被浪剥掉森林的山坡（USGS / Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;当地时间 22:15，费尔韦瑟断层（Fairweather Fault）发生 7.8–8.3 级走滑地震。湾顶吉尔伯特小湾（Gilbert Inlet）上方的峭壁被震松，约 3000 万立方米、折合 9000 万吨左右的岩石一头扎进水里。洛斯阿拉莫斯的 Charles Mader 在 1999 年的模拟里形容，这堆石头「几乎是作为一整块」砸到湾底的，在水下砸出了一个坑。&lt;/p&gt;
+
+&lt;p&gt;那天晚上湾里停着三条渔船。Howard Ulrich 带着 7 岁的儿子泊在南侧小湾，他事后说，湾顶那一声「像爆炸，又像冰川崩塌」。两三分钟后浪头就到了，锚链被直接扯断，「Edrie」号被托上浪尖，先被推向岸边，又被吸回湾心。父子俩只受了点轻伤。停在湾口附近的 Bill 和 Vivian Swanson 看见冰川「疯了一样又跳又抖」，接着「一堵水墙越过了岬角」，两人也活了下来。第三条船上的两个人没能幸存。&lt;/p&gt;
+
+&lt;p&gt;为什么会有 524 米这种离谱的数字？关键在于它不是大洋里横穿千里的那种海啸，而是一记砸在狭窄峡湾里的「水花」。524 米是浪正对面那面坡上的爬高，不是浪本身的高度。Ulrich 估计湾心的浪大约 30 米；后来有人做了 1:675 的缩比实验，推算浪峰约 150 米。巨量的水被岩石推出去，正面撞上一堵陡墙，只能往上爬。&lt;/p&gt;
+
+&lt;p&gt;成因至今还有争议。Mader 认为单靠岩崩就够了；Steven Ward 和 Simon Day 在 2010 年反驳说，单纯岩崩解释不了湾底沉积物的变化和波浪的能量，他们提出「双重滑坡」：岩石砸断了利图亚冰川前缘约 400 米的冰，被冰压着的沉积物随之倾泻，体积是岩崩本身的 5 到 10 倍。&lt;/p&gt;
+
+&lt;p&gt;利图亚湾其实是个惯犯。在 1958 年之前，它至少在 1854 年（约 120 米）、1899 年（约 60 米）和 1936 年（约 150 米）掀起过 30 米以上的大浪。1786 年法国航海家拉彼鲁兹（Lapérouse）路过时，就在航海日志里记下了岸边那些被剥光的山坡。&lt;/p&gt;
+
+&lt;p&gt;这本来是一件「六十多年一遇」的老故事。2025 年 8 月 10 日清晨 5 点半，它在朱诺以南约 80 公里的特雷西湾（Tracy Arm）重演了一次。至少 6350 万立方米的岩土滑进峡湾，体积约为利图亚湾岩崩的两倍，地震台网记到的信号相当于 5.4 级地震。卡尔加里大学的 Dan Shugar 团队 2026 年 5 月 6 日在 &lt;em&gt;Science&lt;/em&gt; 发表的分析显示：滑坡先激起一道约 100 米高、速度超过每秒 70 米的破碎浪，冲上 1.6 公里外的对岸崖壁，留下 481 米高的痕迹，成为有记录以来第二高的海啸爬高。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://media.news.climate.columbia.edu/wp-content/uploads/2026/05/IMG_0334_20250813_1233_Lyons_2-650x433.jpg" alt="2025 年特雷西湾滑坡后的峡湾航拍" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;2025 年 8 月 13 日，USGS 拍摄的特雷西湾滑坡现场（John Lyons / USGS）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;特雷西湾和利图亚湾最大的不同是：这里是游轮航线。平时每天约有 20 艘游轮、游艇和皮划艇进出。幸好浪来得太早，船都还没进湾。一群在岸边扎营的皮划艇客 5 点 45 分被帐篷外的流水声惊醒，冲走了一条艇和大部分装备；峡湾口锚泊的一艘游轮只看到乱流和白浪。事后至少六家游轮公司改了阿拉斯加航线。哥伦比亚大学拉蒙特-多尔蒂地球观测站的合著者 Göran Ekström 说，地震数据显示，滑坡前好几个小时岩体就已经在开裂，只是这种微弱信号平时不会有人注意。&lt;/p&gt;
+
+&lt;p&gt;论文把这次滑坡和冰川快速后退联系在一起：冰川退去后，原本被冰撑着的陡峭谷壁失去支撑。Shugar 的原话是「这次真的是出乎意料」。1958 年利图亚湾那条修剪线，是一场地震画上去的；特雷西湾的 481 米，背后推手换成了正在后退的冰川。阿拉斯加还有很多这样的峡湾。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/1958_Lituya_Bay_earthquake_and_megatsunami"&gt;https://en.wikipedia.org/wiki/1958_Lituya_Bay_earthquake_and_megatsunami&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.earthmagazine.org/article/benchmarks-july-9-1958-megatsunami-drowns-lituya-bay-alaska/"&gt;https://www.earthmagazine.org/article/benchmarks-july-9-1958-megatsunami-drowns-lituya-bay-alaska/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.climate.columbia.edu/2026/05/06/near-miss-tsunami-in-alaskan-cruise-area-offers-lessons-for-steep-landscapes-near-glaciers/"&gt;https://news.climate.columbia.edu/2026/05/06/near-miss-tsunami-in-alaskan-cruise-area-offers-lessons-for-steep-landscapes-near-glaciers/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.usgs.gov/publications/a-481-m-high-landslide-tsunami-a-cruise-ship-frequented-alaska-fjord"&gt;https://www.usgs.gov/publications/a-481-m-high-landslide-tsunami-a-cruise-ship-frequented-alaska-fjord&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://alaskabeacon.com/2026/05/07/megatsunami-in-alaskas-tracy-arm-was-the-second-highest-ever-measured/"&gt;https://alaskabeacon.com/2026/05/07/megatsunami-in-alaskas-tracy-arm-was-the-second-highest-ever-measured/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">136e51af-1a00-5eb3-a1d2-50a9f658aa95</guid>
+      <pubDate>Thu, 19 Nov 2026 12:21:00 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/1958_Lituya_Bay_earthquake_and_megatsunami</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/5/52/1958_Lituya_Bay_earthquake_and_megatsunami.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 二战英国差点用冰造一艘 600 米长的航母：掺了木屑的冰能把手枪子弹弹回去，未来的诺奖得主躲在伦敦肉市冷库里做实验，加拿大湖底至今躺着它的模型</title>
+      <description>&lt;p&gt;1943 年 8 月的魁北克会议上，蒙巴顿勋爵（Lord Mountbatten）当着英美参谋长们的面掏出手枪。他先朝一块普通冰块开了一枪，冰块应声粉碎；接着又对另一块看着差不多的冰开枪，子弹却被弹了回来，擦着美国海军上将欧内斯特·金（Ernest King）的裤腿飞过。会场里的人大概都没想到，一块冰能把子弹弹回来。&lt;/p&gt;
+
+&lt;p&gt;第二块「冰」叫 &lt;strong&gt;pykrete&lt;/strong&gt;，英国当时想用它造一艘长 600 米、排水量 220 万吨、永远不沉的航空母舰。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Habakukk_aircraft_01_%28cropped%29.jpg" alt="Project Habakkuk 冰航母设想图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Habakkuk 冰航母的设想图（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;点子来自 Geoffrey Pyke，一个在联合作战司令部（Combined Operations）工作的怪才。他一战时曾从德国的平民拘留营里逃出来，平日不修边幅，满脑子奇思异想。1942 年，大西洋中部有一片陆基飞机够不着的「空中缺口」（Mid-Atlantic gap），德国 U 艇在那里肆无忌惮。钢材紧缺，航母造不过来。Pyke 算了一笔账：冰的原料几乎免费，造同等质量的冰只需要钢材约 1% 的能量，那为什么不拿冰造船？&lt;/p&gt;
+
+&lt;p&gt;蒙巴顿把方案递给丘吉尔，丘吉尔大为兴奋。项目代号取自《旧约·哈巴谷书》1:5：「你们要向列国中观看，大大惊奇；因为在你们的时候，我行一件事，虽有人告诉你们，你们总是不信。」（拼写在公文里还常被误写成 Habbakuk。）&lt;/p&gt;
+
+&lt;p&gt;纯冰太脆，一砸就碎，还会慢慢变形。转机来自纽约布鲁克林理工学院的 Herman Mark 和 Walter Hohenstein：往水里掺木浆再冻起来，强度会大幅提高，融化也慢得多。最后的配方大约是 14% 木屑浆加 86% 水，以 Pyke 的名字命名为 pykrete。它可以像木头一样锯、刨，放进海里比冰耐得住。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Block_of_pykrete.jpg" alt="一块 pykrete 冰块" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;一块 pykrete（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;负责测试材料的人后来更出名：Max Perutz，日后因血红蛋白结构拿了 1962 年诺贝尔化学奖。当时他在伦敦史密斯菲尔德肉市（Smithfield Market）地下的冷库里做实验，四周用冻肉胴体挡着，免得被人看见。Perutz 发现了一个致命问题：pykrete 在负载下会缓慢蠕变（creep），船体必须一直冷却到零下 16 摄氏度左右才撑得住。换句话说，船肚子里得铺满制冷管道。&lt;/p&gt;
+
+&lt;p&gt;为了验证可行性，加拿大在阿尔伯塔省贾斯珀国家公园的帕特里夏湖（Patricia Lake）上造了一个 18 米长、9 米宽、约 1000 吨重的模型，只靠一台 1 马力的电机维持冷冻。干活的是一批良心拒服兵役者，他们自始至终没被告知自己在造什么。&lt;/p&gt;
+
+&lt;p&gt;纸面上的「Habakkuk II」很吓人：船长约 600 米、宽约 90 米，船壁厚 12 米，用 26 台装在外挂舱里的电动机推进，能载约 150 架飞机。设想中，鱼雷打上去只能啃掉表层一小块，损伤可以就地冻水修补。&lt;/p&gt;
+
+&lt;p&gt;问题是它越算越贵。为了对付蠕变，绝缘材料和钢结构不断加码，预算从 70 万英镑涨到 250 万英镑。省下钢材本来是整件事的初衷，现在钢材需求反而越来越多。与此同时，战局也变了：葡萄牙在 1943 年同意盟军使用亚速尔群岛的机场，远程飞机和副油箱补上了大西洋空中缺口，护航航母也越造越多。1943 年 12 月，评估委员会认定 Habakkuk II「不切实际」，项目下马。&lt;/p&gt;
+
+&lt;p&gt;魁北克的那一枪，故事版本也不止一个。Perutz 在回忆里说，类似的跳弹曾打中英军总参谋长 Alan Brooke 的肩膀；Brooke 本人的日记里只写子弹在众人腿边「嗡嗡乱飞」。不管哪个版本，这一枪都让 pykrete 名声大噪。&lt;/p&gt;
+
+&lt;p&gt;帕特里夏湖上的那个模型后来融化沉底，冷冻机械和木质骨架至今还躺在水下几十米的湖底。据当地潜水爱好者的记录，1985 年有人在湖底找到了残骸，湖底还放了一块纪念牌。据潜水媒体 The Scuba News 2026 年 5 月报道，加拿大公园管理局正式把帕特里夏湖列为贾斯珀国家公园五个允许休闲潜水的湖泊之一——这艘「冰船」的遗骸成了少有的高山潜水点。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Project_Habakkuk"&gt;https://en.wikipedia.org/wiki/Project_Habakkuk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Pykrete"&gt;https://en.wikipedia.org/wiki/Pykrete&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.military.com/daily-news/2019/03/05/mammoth-unsinkable-ice-ships-wwii-almost-existed.html"&gt;https://www.military.com/daily-news/2019/03/05/mammoth-unsinkable-ice-ships-wwii-almost-existed.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cabinetmagazine.org/issues/7/collins.php"&gt;https://cabinetmagazine.org/issues/7/collins.php&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.thescubanews.com/2026/05/29/parks-canada-has-officially-designated-5-lakes-in-jasper-national-park-for-recreational-scuba-diving/"&gt;https://www.thescubanews.com/2026/05/29/parks-canada-has-officially-designated-5-lakes-in-jasper-national-park-for-recreational-scuba-diving/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">27e7173a-ee42-5f3e-a3fd-cc7f9f541c7e</guid>
+      <pubDate>Thu, 19 Nov 2026 12:21:00 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Project_Habakkuk</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/e/e0/Habakukk_aircraft_01_%28cropped%29.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一根针掉个头，扫过的面积可以想要多小就多小：挂谷宗一 1917 年的问题卡了数学家一百多年，王虹和 Zahl 的 127 页证明终于拿下三维情形，她也因此成为第三位女性菲尔兹奖得主</title>
+      <description>&lt;p&gt;拿一根长度为 1、粗细为零的针，在平面上把它掉个头，让它指过所有方向。最少需要扫过多大面积？答案是：想要多小就能多小。&lt;/p&gt;
+
+&lt;p&gt;这个问题是日本数学家挂谷宗一（Sōichi Kakeya）在 1917 年提出的。最直观的做法是让针绕中点转半圈，扫出一个直径为 1 的圆，面积约 0.785。挂谷自己找到了更省地方的办法：让针沿着一个三尖内摆线（deltoid）的形状边滑边转，面积降到一半。他以为这已经差不多是极限了。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kakeya_needle.gif" alt="针在三尖内摆线内旋转的动画" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;针在三尖内摆线里掉头，比原地转圈省一半面积（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;俄国数学家 Abram Besicovitch 给出了一个让人瞠目的回答：把针的运动拆成无数次细碎的平移和小角度转动，扫过的面积可以压到任意小。更离谱的是，他还构造出一种「每个方向都含一条单位线段」的集合，总面积恰好是零。这类集合后来被称作挂谷集（Kakeya set）。&lt;/p&gt;
+
+&lt;p&gt;面积为零，听起来像是「几乎什么都没有」。可数学家很快意识到，面积只是很粗的尺子。换用更细的尺子——闵可夫斯基维数（Minkowski dimension）和豪斯多夫维数（Hausdorff dimension）——挂谷集看起来就没那么「空」了。&lt;strong&gt;挂谷猜想（Kakeya conjecture）&lt;/strong&gt;说的是：在 n 维空间里，挂谷集的维数一定是满的 n。面积可以消失，但它在「维数」意义上不能比整个空间更瘦。&lt;/p&gt;
+
+&lt;p&gt;平面的情形，Roy Davies 在 1971 年就证完了。三维却卡了半个世纪。同一年，Charles Fefferman 在研究傅里叶变换时发现，挂谷集的存在会直接推翻调和分析里一个大家原本以为成立的命题。从那以后，挂谷问题成了一座塔的地基：上面压着限制猜想（restriction conjecture）等一串调和分析的核心问题。挂谷要是塌了，整座塔都得倒。&lt;/p&gt;
+
+&lt;p&gt;进展慢得令人绝望。1995 年 Tom Wolff 证明三维挂谷集的维数至少是 2.5；此后二十多年，这个数字只往上挪了一点点。2014 年，Larry Guth 证明任何反例都必须是「颗粒状」的，里面有许多小区域被大量管子反复穿过。同一年，陶哲轩（Terence Tao）在博客上写了一条他和 Nets Katz 构想过、但没走下去的路线：如果反例存在，它必然具有某种刚性结构，而这种结构会和关于加法与乘法关系的定理相冲突。&lt;/p&gt;
+
+&lt;p&gt;王虹（Hong Wang）读到了那篇博文，然后找上了当时在不列颠哥伦比亚大学（UBC）的 Joshua Zahl。两人先在 2022 年拿下一类叫「黏性」（sticky）的挂谷集；2025 年 2 月 24 日，他们把 127 页的完整证明贴上 arXiv（2502.17655）：三维挂谷集的闵可夫斯基维数和豪斯多夫维数都等于 3。证明的思路是从 Wolff 的 2.5 出发，用「颗粒」代替「管子」一级一级地把下界往上推，直到推满。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2025/03/3D-Kakeya_crDVDP-Social.jpg" alt="三维挂谷问题示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;三维挂谷猜想示意（Quanta Magazine）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;业内反应近乎狂喜。Nets Katz 对 Quanta 说这是「百年一遇的结果」。陶哲轩形容这个方法「像是造出了一台完美的永动机，太神奇了」。法国 Bourbaki 讨论班 2026 年专门请 Larry Guth 讲解这项证明，Guth 在讲稿里列出了 Wolff、Bourgain、Katz、Łaba、陶哲轩、Orponen、Shmerkin 等人几十年的铺垫。&lt;/p&gt;
+
+&lt;p&gt;王虹本人的经历也不按常理出牌。她 1991 年生于广西桂林，父母都是教师，从不逼她学习，小时候连跳几级。2007 年考进北京大学时数学专业名额已满，只能先读地球科学，后来才转到数学系。2011 年她去法国巴黎综合理工学院（École Polytechnique），用一门当时还不会说的语言上课，中途还短暂学过一学期建筑。博士阶段她在 MIT 跟随 Larry Guth，之后去了普林斯顿高等研究院、UCLA，2023 年起在纽约大学任教，同时任职于法国高等科学研究所（IHES）。&lt;/p&gt;
+
+&lt;p&gt;2026 年 7 月，国际数学家大会在费城召开，王虹与 Yu Deng、John Pardon、Jacob Tsimerman 一同获得菲尔兹奖。她是菲尔兹奖 90 年历史上第三位女性得主（前两位是 2014 年的 Maryam Mirzakhani 和 2022 年的 Maryna Viazovska），也是第一位获奖的中国女性。被问到证明刚完成时的心情，她说：「你会怀疑。但论证本身又显得很自然。」&lt;/p&gt;
+
+&lt;p&gt;挂谷的那根针，至今在四维空间里还没转完。Guth 认为王虹和 Zahl 的方法有希望推广到更高维度，那会是下一场硬仗。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"&gt;https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2502.17655"&gt;https://arxiv.org/abs/2502.17655&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/"&gt;https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.math.ubc.ca/node/4209"&gt;https://www.math.ubc.ca/node/4209&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bourbaki.fr/TEXTES/Exp1251-Guth.pdf"&gt;https://www.bourbaki.fr/TEXTES/Exp1251-Guth.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">97607ab6-b6a9-5b30-a4dc-33c24ae3d389</guid>
+      <pubDate>Thu, 19 Nov 2026 12:21:00 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/</link>
+      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2025/03/3D-Kakeya_crDVDP-Social.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 「没做完的事记得更牢」可能是个误会：蔡格尼克效应流行近百年，2025 年的荟萃分析发现它整体不存在，真正站得住的是她同门的「奥夫相基娜效应」</title>
+      <description>&lt;p&gt;你大概听过这个说法：没做完的事比做完的事记得更牢，所以电视剧爱在最紧张处断掉，App 爱给你一个停在 80% 的进度条。心理学课本管它叫「蔡格尼克效应」（Zeigarnik effect），流行了快一百年。2025 年，瑞士伯尔尼大学的两位研究者把能找到的研究汇总起来重新算了一遍，结论是：这个「记得更牢」的效应，整体上并不存在。&lt;/p&gt;
+
+&lt;p&gt;先说起源。课本里最常见的版本是：1920 年代，格式塔心理学家 Kurt Lewin 和学生们在柏林一家咖啡馆里聊天，发现服务员能把一大桌人点的东西记得一字不差，可一旦结完账，他就全忘了。Lewin 的学生 Bluma Zeigarnik 据此设计了实验。这个故事讲得很圆，但在 Zeigarnik 1927 年发表于《心理学研究》（Psychologische Forschung）的原始论文里，找不到服务员的影子；有的转述甚至把咖啡馆搬到了维也纳。它更像是后来者添上去的开场白。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bluma_Zeigarnik%2C_April_3%2C_1921.jpg/960px-Bluma_Zeigarnik%2C_April_3%2C_1921.jpg" alt="1921 年的 Bluma Zeigarnik" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Bluma Zeigarnik，摄于 1921 年 4 月（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;真实的实验相当精巧。Zeigarnik 1900 年前后生于立陶宛普列奈（Prienai），在柏林随 Lewin 读博。她找来 164 名受试者，有大学生、教师，也有孩子，每人依次做 18 到 22 个小任务，每个三到五分钟：用硬纸板折盒子、捏泥塑、解谜题、算算术。其中一半任务会在中途被打断。打断的时机经过挑选，一般是受试者刚想通怎么做、但还没看到结果的时候。论文里举了个例子：一个人正在捏一只泥狗，四条腿已经出来了，但「狗」随时可能变成「猫」，这时实验者把新任务放上桌说：「请做这个。」被打断的人常常抗议，有的还相当激动。任务分成 a、b 两组轮换，保证每个任务都既被完成过、也被打断过。&lt;/p&gt;
+
+&lt;p&gt;做完之后，实验者突然问：刚才都做了哪些任务？结果是，被打断任务的回忆量平均是完成任务的 1.9 倍，也就是多出 90%。另外两组集体实验里，47 名成人的比值同样是 1.9，45 名儿童是 2.1。为了排除「被打断的惊吓让人印象深」这种解释，她还加了对照：另找 12 个人，有些任务打断后又让他们接着做完，有些打断后就不再理会。如果是惊吓在起作用，两类任务受到的惊吓一样，应该记得一样好；结果打断后没再做的任务被记住的数量，是「打断后又做完」的 1.85 倍。她的解释沿用 Lewin 的场论（field theory）：没完成的任务会留下一股「心理张力」，让相关记忆一直处于激活状态，完成了，张力也就释放了。&lt;/p&gt;
+
+&lt;p&gt;问题是后人复现不出来。后来不同国家的研究者重做这个实验，常常找不到完成与未完成任务在回忆上的显著差别，荷兰学者 Annelies van Bergen 1968 年的专著就汇总过这类失败。2025 年 7 月，伯尔尼大学的 Romain Ghibellini 和 Beat Meier 在《人文与社会科学通讯》（Humanities and Social Sciences Communications）发表了一篇荟萃分析（meta-analysis），把「打断—回忆」和「打断—重拾」两类研究合在一起算。答案很干脆：未完成任务没有整体上的记忆优势。&lt;/p&gt;
+
+&lt;p&gt;但还有另一半故事。Lewin 的另一位学生 Maria Ovsiankina 在 1928 年研究的是：被打断的人会不会自己回去把事做完？这个「奥夫相基娜效应」（Ovsiankina effect）在同一篇荟萃分析里站住了：人们普遍有重拾中断任务的倾向。换句话说，没做完的事确实会「勾着你」，只是勾的是行动冲动，不是记忆。我们日常说的「蔡格尼克效应」，大多数时候其实是奥夫相基娜效应，被安错了名字。&lt;/p&gt;
+
+&lt;p&gt;那 1927 年的结果为什么那么漂亮？Ghibellini 和 Meier 推测，蔡格尼克效应可能依赖一些情境条件：实验者的权威感、任务带来的压力、受试者的投入程度。这些条件在早年的实验室里更常见，如今少了。翻回原论文，能看到印证：Zeigarnik 把受试者分成三类——想讨好实验者的、好胜心强的、单纯对任务感兴趣的——并刻意调整自己的态度。对第一类人，她会流露满意；对第二类，她「以考官的神情」检查作品；对第三类，她就保持沉默。一个故意摆出考官架子的实验者，本身就是变量。&lt;/p&gt;
+
+&lt;p&gt;Zeigarnik 本人的后半生和这个效应关系不大。1931 年她移居莫斯科，战后成了苏联病理心理学（pathopsychology）的奠基人之一，研究脑损伤和精神疾病患者的思维障碍，1988 年在莫斯科去世。以她名字命名的效应传遍了全世界，到头来却是最站不住的那一部分。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1057/s41599-025-05000-w"&gt;https://doi.org/10.1057/s41599-025-05000-w&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html"&gt;https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.gwern.net/doc/psychology/willpower/1927-zeigarnik.pdf"&gt;https://www.gwern.net/doc/psychology/willpower/1927-zeigarnik.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Zeigarnik_effect"&gt;https://en.wikipedia.org/wiki/Zeigarnik_effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bluma_Zeigarnik"&gt;https://en.wikipedia.org/wiki/Bluma_Zeigarnik&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">52950bc3-bf88-5a0d-89b0-1d00011dfbfe</guid>
+      <pubDate>Thu, 19 Nov 2026 12:21:00 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://doi.org/10.1057/s41599-025-05000-w</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bluma_Zeigarnik%2C_April_3%2C_1921.jpg/960px-Bluma_Zeigarnik%2C_April_3%2C_1921.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一百年只认出九个符号，几只来历不明的银杯让它几乎全被读出：线形埃兰文可能是最古老的纯表音文字，但能念出来不等于能读懂</title>
+      <description>&lt;p&gt;1903 年，法国考古队在伊朗西南部的苏萨（Susa）挖出了一种没人认识的文字。一百多年里，学者能确定读音的符号只有大约九个。2022 年，一个五人团队宣布：这套叫线形埃兰文（Linear Elamite）的文字，他们几乎全读出来了。打开突破口的，是几只来历不明的银杯。&lt;/p&gt;
+
+&lt;p&gt;埃兰（Elam）是两河流域东边、今天伊朗西南部的古国，和苏美尔、阿卡德人打了上千年交道。线形埃兰文大约在公元前 2300 年到前 1880 年间使用，存世材料少得可怜：截至 2021 年只有 51 件文本和残片。其中 18 件来自苏萨一带的低地，刻在石头和陶器上，共 533 个符号；24 件刻在银器上，来自高原地区，共 1133 个符号；另有 8 件来自更东边的短铭文，每件只有 2 到 11 个符号。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/1/15/List_of_known_Linear_Elamite_characters.jpg" alt="已知线形埃兰文符号表" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;线形埃兰文的已知符号（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;早期的突破来自双语碑。卢浮宫藏的「狮子桌」（Table au Lion）上同时刻着阿卡德楔形文字和线形埃兰文，楔形文字那一面提到公元前 22 世纪的苏萨统治者 Puzur-Inshushinak。德国学者 Ferdinand Bork 在 1905 年、Carl Frank 在 1912 年比对两边重复出现的词尾，认出了国王名和神名 Inshushinak，大约九个符号的读音由此确定。之后 Walther Hinz 和 Piero Meriggi 又往前推了一些，但材料太少，工作停滞了几十年。&lt;/p&gt;
+
+&lt;p&gt;转机出现在 2000 年代初。一批刻有线形埃兰文的银杯在私人收藏中露面，大部分属于伦敦的 Mahboubian 收藏，据称出自伊朗法尔斯省 Kam-Firuz 一带，靠近古城安善（Anshan）。法国国家科学研究中心（CNRS）的考古学家 François Desset 在这些杯子上发现一个反复出现的四符号序列：第一个符号已知读作 shi，最后两个符号相同。他据此猜测这是国王名 Shilhaha，读作 shi-l-ha-ha。顺着这个名字，他又认出了 Shilhaha 的前任、很可能是他父亲的 Eparti（e-pa-r-ti），以及埃兰主神 Napirisha（na-pi-ri-sha，「伟大的神」）。几个名字下来，一口气新增了 e、ha、l、pa、pi、ri、sha、ti 八个读音。&lt;/p&gt;
+
+&lt;p&gt;这条思路很眼熟。1952 年 Michael Ventris 破译线形文字 B（本栏 11 月 11 日写过），关键一步正是用克诺索斯（ko-no-so）这样的地名去套符号；更早，商博良也是靠托勒密和克娄巴特拉的名字撬开了埃及圣书字。专有名词在任何语言里都难以意译，读音最稳定，是破译者的第一根撬棍。&lt;/p&gt;
+
+&lt;p&gt;2022 年 7 月，Desset 与 Kambiz Tabibzadeh、Matthieu Kervran、Gian Pietro Basello 和 Gianni Marchesi 在《亚述学杂志》（Zeitschrift für Assyriologie）发表了《线形埃兰文的破译》。他们的结论是：这是一套几乎纯表音的文字，由元音、辅音和「辅音+元音」音节组成，偶尔夹杂少量表意符号。如果成立，它可能是已知最古老的纯表音文字系统，比腓尼基字母早一千多年。&lt;/p&gt;
+
+&lt;p&gt;质疑同样不少。伯尔尼大学的 Michael Mäder 认为，按他的分析，只有约 70% 的符号是表音的，其余是表意符号，在拿出完整翻译之前，这套文字仍应算作「未破译」。牛津的 Jacob Dahl 走得更远，他认为线形埃兰文的符号用法不规范，有些可能只是「伪字」，整套系统更像是对原始埃兰文（Proto-Elamite）的模仿，而不是一种成熟的书写体系。&lt;/p&gt;
+
+&lt;p&gt;还有一个绕不开的软肋：关键证据来自来历不明的文物。收藏者 Houshang Mahboubian 向 Desset 介绍，这些银杯是他父亲在 1922 年的发掘中出土、1970 年前运到欧洲的，但这类说法几乎无法核实。技术分析显示银杯含银 93%–96%、铜 4%–7%，研究团队据此认为它们是古物，而非现代的精巧伪造；据报道其中一件文物还曾被扣押。另一方面，伊朗吉罗夫特（Jiroft）出土的三块砖铭被普遍怀疑是赝品。考古学界的共识是，没有出土地点的文物会让学术结论悬在半空。&lt;/p&gt;
+
+&lt;p&gt;就算符号都能读出声，也不代表能读懂。埃兰语是孤立语言（language isolate），找不到亲戚可以对照，语法和词汇至今所知有限。Desset 团队自己也拿伊特鲁里亚语打比方：能念出来，但很多句子意思只懂一半。当年 Ventris 的破译之所以被学界接受，是因为 1953 年 Carl Blegen 寄来一块皮洛斯的新泥板，按新读法一念，正是「三足鼎」，图文对得严丝合缝。线形埃兰文还在等它的那块三足鼎泥板。团队预告的下一步，是在 OrientLab 丛书里出版四十多件铭文的完整校订本。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Linear_Elamite"&gt;https://en.wikipedia.org/wiki/Linear_Elamite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://languagelog.ldc.upenn.edu/nll/?p=56019"&gt;https://languagelog.ldc.upenn.edu/nll/?p=56019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.degruyter.com/document/doi/10.1515/za-2022-0003/html"&gt;https://www.degruyter.com/document/doi/10.1515/za-2022-0003/html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.livescience.com/ancient-linear-elamite-writing-deciphered"&gt;https://www.livescience.com/ancient-linear-elamite-writing-deciphered&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://anetoday.org/desset-irans-linear-elamite-deciphered/"&gt;https://anetoday.org/desset-irans-linear-elamite-deciphered/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3168d514-dbd8-5ffb-b896-fa884ff04d0c</guid>
+      <pubDate>Thu, 19 Nov 2026 12:21:00 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Linear_Elamite</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/1/15/List_of_known_Linear_Elamite_characters.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
