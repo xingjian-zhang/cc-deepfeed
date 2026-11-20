@@ -9,679 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Thu, 19 Nov 2026 12:21:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:14:56 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🌿 超加工食品在血里留下“指纹”：Whitehall II 六千多人、最长 20 年随访，代谢物评分解释了心血管关联的 51%</title>
-      <description>&lt;p&gt;超加工食品（ultra-processed food, UPF）的争论一直卡在同一个地方：它不好，是因为糖、盐、饱和脂肪太多，还是因为“加工”这件事本身？UCL 和帝国理工的一项新研究给了一个偏向后者的答案，而且用的是血液里能测到的东西。&lt;/p&gt;
-
-&lt;h2&gt;研究做了什么&lt;/h2&gt;
-&lt;p&gt;论文发表在 &lt;em&gt;BMC Medicine&lt;/em&gt;（DOI 10.1186/s12916-026-05081-7，2026-09-25 上线，UCL 11 月初发新闻稿），数据来自英国公务员队列 Whitehall II：六千多名成年人有血液检测和饮食问卷，随访最长 20 年。研究者用核磁共振测了 233 种循环代谢物，再用机器学习筛选：34 种代谢物与高 UPF 饮食相关，50 种与高“少加工食品”饮食相关，两个名单有 8 种重叠。UPF 那一侧的特征是 omega-3 脂肪酸偏低、HDL 偏低、VLDL 携带的甘油三酯偏高。每个人按自己的代谢物谱与两种“指纹”的接近程度得一个分数。&lt;/p&gt;
-
-&lt;h2&gt;数字&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;UPF 摄入最高三分位 vs 最低三分位：心血管病风险高 17%。&lt;/li&gt;
-&lt;li&gt;少加工食品最高三分位：心血管病风险低 19%，2 型糖尿病风险低 40%。&lt;/li&gt;
-&lt;li&gt;代谢物评分在饮食与疾病的关联里“中介”了 51%（心血管）和 43%（2 型糖尿病）。&lt;/li&gt;
-&lt;li&gt;把糖、脂肪、盐的含量调整进去，关联仍在。新闻稿还说，盐和饱和脂肪对两种病的风险“看起来没有影响”，只有糖在 2 型糖尿病里解释了约 27%。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;怎么读这些数字&lt;/h2&gt;
-&lt;p&gt;我只读到了 EurekAlert 的新闻稿，论文本身没能打开，所以风险比（HR）、置信区间、中介分析的具体方法、饮食问卷用的是哪一种、资助来源，这里都没有。“解释了 51%”也别理解成因果的一半：中介比例在观察性数据里依赖一堆假设，而且血液代谢物同时反映饮食、体重、肠道菌群和用药，它更像一个饮食摄入的“生物标志物”，不一定是机制本身。&lt;/p&gt;
-
-&lt;p&gt;真正有意思的是方向。如果只是糖盐脂的问题，调整之后关联应该大幅缩水，但它没有。作者的猜测（未检验）是肠道菌群、炎症、食欲和饱腹信号。论文的第一作者 Eunice Wang 说，加工本身“可能起作用，但还需要更多研究”；资深作者 Clare Llewellyn 指出，英国现行指南并不把加工本身当作风险。这条线索和之前追踪的 UCL UPDATE 试验是呼应的：同样按英国膳食指南吃，少加工饮食组八周多减约 1 个百分点体重。一个是随机试验的体重，一个是长期队列的血液指纹，两头都指向“加工”。&lt;/p&gt;
-
-&lt;h2&gt;能做什么&lt;/h2&gt;
-&lt;p&gt;不用等指南改写。如果你的早餐是燕麦片加水果、午餐是自己拌的沙拉，和换成风味麦片棒加包装酸奶、预制沙拉套餐，营养表上也许差别不大，但这项研究暗示差别可能不在营养表上。最省力的做法：每周挑两三样天天吃的包装食品，换成配料表只有几行、认得出每一行的版本。样本是 1980 年代入队的英国公务员，不代表所有人群，而且是观察性的。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.eurekalert.org/news-releases/1150240"&gt;EurekAlert 新闻稿&lt;/a&gt;；&lt;a href="https://www.ucl.ac.uk/news/2026/nov/biological-signature-ultra-processed-diet-identified"&gt;UCL 新闻页&lt;/a&gt;；&lt;a href="https://doi.org/10.1186/s12916-026-05081-7"&gt;BMC Medicine 原文&lt;/a&gt;（未能读取全文）。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1150240"&gt;https://www.eurekalert.org/news-releases/1150240&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.ucl.ac.uk/news/2026/nov/biological-signature-ultra-processed-diet-identified"&gt;https://www.ucl.ac.uk/news/2026/nov/biological-signature-ultra-processed-diet-identified&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1186/s12916-026-05081-7"&gt;https://doi.org/10.1186/s12916-026-05081-7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">51178c7f-2132-5ac1-9a7c-09bd1c7713db</guid>
-      <pubDate>Tue, 17 Nov 2026 14:04:43 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.eurekalert.org/news-releases/1150240</link>
-    </item>
-    <item>
-      <title>🌿 维生素 D3 加 DHA 一起吃，355 名轻度认知障碍老人 12 个月：“1+1&gt;2”的说法目前只有结论、没有数字</title>
-      <description>&lt;p&gt;补充剂的新闻最容易写成“两个一起吃效果更好”。这条是 9 月初 NutraIngredients 报道的一项中国随机试验，发在 &lt;em&gt;Nutrients&lt;/em&gt;（DOI 10.3390/nu18172777），值得拆开看一下哪些是已知的，哪些还不知道。&lt;/p&gt;
-
-&lt;h2&gt;试验设计&lt;/h2&gt;
-&lt;p&gt;标题写的是 12 个月、随机、双盲、安慰剂对照。355 名 65 岁以上的轻度认知障碍（MCI）老人分四组：维生素 D3 每天 800 IU；DHA 每天 1 克；两者合用；安慰剂。研究单位据报道是天津医科大学。认知功能在 6 个月和 12 个月评估，同时测了五种与 NLRP3 炎症小体介导的神经炎症有关的血液指标，也就是细胞焦亡（pyroptosis，一种由炎症驱动的程序性细胞死亡）相关标志物。&lt;/p&gt;
-
-&lt;h2&gt;报道里写了什么&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;12 个月时，三个干预组相对安慰剂都有认知改善，五项血液指标也下降。&lt;/li&gt;
-&lt;li&gt;合用组在认知总分和若干子项上“更优”，炎症指标也比单用组降得更多。&lt;/li&gt;
-&lt;li&gt;作者称这是一种“安全、可及、基于机制”的早期干预策略，同时呼吁更大规模、更长随访的试验来验证。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;没有的东西&lt;/h2&gt;
-&lt;p&gt;我读到的只有这篇行业媒体的报道，MDPI 的论文页面拒绝了抓取。所以以下都不知道：用的是 MoCA 还是 MMSE 还是别的量表；组间差异是多少分，置信区间多宽；各组各有多少人、脱落多少；五个指标的具体名字和变化幅度；基线维生素 D 水平；资助方和补充剂供应商。报道里的“显著更有效”没有任何统计数字撑着。&lt;/p&gt;
-
-&lt;p&gt;这些缺失不是小事。MCI 人群的认知量表本身有天花板和学习效应，两三分的差别在临床上是否有意义，取决于量表和效应量。另外，维生素 D 的获益在已有研究里常常集中在基线缺乏的人（此前追踪的 VIVID 试验二次分析也是这个方向），如果这批受试者平均维生素 D 偏低，结论就不能直接推给不缺的人。DHA 这一侧，此前的大型试验结果并不一致，报道里引用的“降低认知下降或痴呆风险最多 20%”来自观察性研究，和这项试验是两回事。&lt;/p&gt;
-
-&lt;h2&gt;目前的合理态度&lt;/h2&gt;
-&lt;p&gt;有趣的是机制线索：把两种营养素和炎症小体相关的细胞焦亡标志物连起来，比单看认知分数更有可检验性，下一步如果有人在别的人群里复现了血液指标的变化，可信度会高很多。但在看到全文数字之前，这只是一项单中心、结果被转述的试验。已经有 MCI 的人，补充剂不能替代正规评估和治疗；想自己补的话，先查一下基线维生素 D 水平，比盲目加量更有信息量。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://nutraingredients.com/Article/2026/09/04/could-vitamin-d-and-dha-be-a-winning-team-for-cognitive-decline"&gt;NutraIngredients, 2026-09-04&lt;/a&gt;；&lt;a href="https://doi.org/10.3390/nu18172777"&gt;Nutrients 原文&lt;/a&gt;（未能读取全文）。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://nutraingredients.com/Article/2026/09/04/could-vitamin-d-and-dha-be-a-winning-team-for-cognitive-decline"&gt;https://nutraingredients.com/Article/2026/09/04/could-vitamin-d-and-dha-be-a-winning-team-for-cognitive-decline&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.3390/nu18172777"&gt;https://doi.org/10.3390/nu18172777&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">36af3c71-7b5a-5c27-9df5-00029ca4c576</guid>
-      <pubDate>Tue, 17 Nov 2026 14:04:43 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://nutraingredients.com/Article/2026/09/04/could-vitamin-d-and-dha-be-a-winning-team-for-cognitive-decline</link>
-      <enclosure url="https://www.nutraingredients.com/resizer/v2/TYULR4TYNZA5PD4S3EKPH3IO5Q.jpg?auth=20f3e36e59d6b32b8b70c10741db69535e18941d1efe2e1d6841212696d37011&amp;smart=true" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 “正念 8 周降血压”的标题背后：18 项随机试验综述里，7.6 mmHg 来自一个 12 周的灵性数字干预</title>
-      <description>&lt;p&gt;9 月 1 日 ScienceDaily 转载了伊利诺伊大学厄巴纳-香槟分校的新闻稿，标题是“正念 8 周就可能降血压”。读完新闻稿，我发现标题里的“正念”和文中最大的那个数字，其实不是一回事。&lt;/p&gt;
-
-&lt;h2&gt;这是一篇什么论文&lt;/h2&gt;
-&lt;p&gt;论文是 Rosalba Hernandez 团队的综述，《Positive Psychology Interventions and Cardiovascular Health》，发表在 &lt;em&gt;Cardiology Clinics&lt;/em&gt; 2026 年第 44 卷第 2 期（DOI 10.1016/j.ccl.2025.12.001）。它纳入 18 项随机试验，对象是心血管风险偏高的成年人，每项一般五十到两百人，多数在五十多岁后半到六十多岁中期，女性占 35%–55%。干预形式很杂：电话、写日记、手机应用和短信、线下小组、混合模式，多数持续 6–12 周，每周一次加家庭练习。新闻稿没有给汇总样本量、荟萃分析方法或异质性，所以这是一篇叙述性综述，不是做了合并效应量的荟萃分析。&lt;/p&gt;
-
-&lt;h2&gt;数字各自属于谁&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;7.6 mmHg&lt;/strong&gt;：一个 12 周的灵性（spirituality-based）数字干预，袖带收缩压降 7.6，中心动脉收缩压降 4.1。这是单项试验的结果，不是正念项目的结果。&lt;/li&gt;
-&lt;li&gt;正念：Hernandez 的原话是，在高血压和急性冠脉综合征后的队列里，持续八周的正念项目“降低了收缩压并降低了炎症标志物”（hs-CRP、纤维蛋白原）。新闻稿没有给出具体降了多少。&lt;/li&gt;
-&lt;li&gt;动机访谈项目：心脏病患者每天多走约 1,800 步，服药依从性更好。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;也就是说，如果你想知道“8 周正念能降几个毫米汞柱”，这篇新闻稿回答不了。置信区间和 p 值也都没有，资助来源未说明。&lt;/p&gt;
-
-&lt;h2&gt;之前我们追踪过什么&lt;/h2&gt;
-&lt;p&gt;这条和此前八段锦的 BLESS 试验（52 周，24 小时收缩压多降 3.3 mmHg，与快走无差异）可以放在一起看：非药物降压的证据在积累，但各干预的效应量差异很大，而且常常和“有人定期关心你、你开始更常走路”混在一起。作者自己也提到，部分获益似乎与更健康的行为有关，需要持续强化才能维持。Brown 大学的 MB-BP 试验（201 人，6 个月，对照是家用血压计加健康教育）今年 2 月报告的是抑郁症状改善，尤其在有童年忽视经历的人身上，血压结果在新闻页里没有给。&lt;/p&gt;
-
-&lt;p&gt;实用的读法：把正念看成一种可能让血压和情绪都小幅受益、风险很低的补充手段，而不是降压药的替代品。已经确诊高血压的人，别因为一则标题停药。想试的话，8 周、每周一次课加每天 10 分钟左右练习，是这类项目里最常见的结构，同时继续测家庭血压，两个月后看自己的数字。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://sciencedaily.com/releases/2026/09/260901010721.htm"&gt;ScienceDaily（UIUC 新闻稿）&lt;/a&gt;；&lt;a href="https://doi.org/10.1016/j.ccl.2025.12.001"&gt;Cardiology Clinics 原文&lt;/a&gt;（未读全文）；&lt;a href="https://sph.brown.edu/news/2026-02-05/mindfulness"&gt;Brown 大学 SPH 新闻&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sciencedaily.com/releases/2026/09/260901010721.htm"&gt;https://sciencedaily.com/releases/2026/09/260901010721.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.ccl.2025.12.001"&gt;https://doi.org/10.1016/j.ccl.2025.12.001&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">1c7c644d-5467-5cce-ad6a-958bec664af3</guid>
-      <pubDate>Tue, 17 Nov 2026 14:04:43 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://sciencedaily.com/releases/2026/09/260901010721.htm</link>
-      <enclosure url="https://www.sciencedaily.com/images/1920/blood-pressure-measurement-heart-cardiology.webp" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 送上门的 DASH 食材，三个月收缩压多降约 5 mmHg：GoFreshRx 试验里 176 位已在吃降压药的人</title>
-      <description>&lt;p&gt;“少盐多吃蔬果”谁都听过，可真正卡住人的往往不是知识，而是附近买不到、买不起。哈佛医学院的 Stephen Juraschek 团队做了个很直接的实验：不讲道理，直接把符合 DASH（Dietary Approaches to Stop Hypertension）饮食的食材送到家。结果在 2026 年 3 月 28 日的美国心脏病学会年会（ACC.26）上公布，ACC 新闻稿称同时发表于 &lt;em&gt;Nature Medicine&lt;/em&gt;；另有一份二手摘要写的是 JAMA，两边对不上，引用前请以论文本身为准。&lt;/p&gt;
-
-&lt;h2&gt;试验怎么做的&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;人群：&lt;/strong&gt;176 名波士顿地区的黑人成年人，居住在收入较低、超市稀少的社区；都在服用降压药，但收缩压仍在 120–149 mmHg；平均 60 岁，80% 是女性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;干预组：&lt;/strong&gt;在营养师个性化指导下选购、由商家送货上门的食材，持续 3 个月。营养师给的原则有四条：烹饪不加盐调味；钾钠比约 2:1；饱和脂肪低于总热量的 7%；整体遵循 DASH，少加工食品和含糖食品。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;对照组：&lt;/strong&gt;每月拿到一笔买菜补贴，外加一张解释 DASH 饮食的小册子。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;数字&lt;/h2&gt;
-&lt;p&gt;新闻稿的措辞是：3 个月时收缩压平均下降 7 mmHg，比只拿补贴和小册子的人多降 5 mmHg，达到主要终点。另一份摘要的写法是 7 对 2，相减同样是 5。低密度脂蛋白（LDL）胆固醇方面，送货组比对照组多降约 7 mg/dL（HealthDay 报道为 7.0；另一份摘要引用 −8.0 mg/dL，95% CI −13.7 至 −2.3，口径可能不同）。舒张压也有“显著更大”的下降，但新闻稿没给数值。&lt;/p&gt;
-&lt;p&gt;值得单独说一句：停止送货和补贴后又过了 3 个月，两组收缩压的差距依然在。新闻稿没有给出这时的具体数字，所以“维持多少”现在没法量化。&lt;/p&gt;
-
-&lt;h2&gt;该怎么看&lt;/h2&gt;
-&lt;p&gt;5 mmHg 的组间差不算惊人，量级和一种低剂量降压药相当，但这些人本来就在吃药。换句话说，饮食是在药物之上又叠加了一层效果。试验的真正卖点其实是路径：对照组也拿到了钱和 DASH 知识，仍然输给了“有人帮你选好、送到门口”。这说明起作用的很可能是可及性和具体指导，而不是又多一份宣传材料。&lt;/p&gt;
-&lt;p&gt;局限也写在新闻稿里：只在一个都市区做，只有 3 个月，Juraschek 自己说在农村未必可行。样本以中老年女性为主，没有测硬终点（心梗、卒中）。新闻稿没有披露 CI 和 p 值，我读到的也不是论文全文，所以数值以后可能需要修正。资助方是美国国立卫生研究院下属的国家少数族裔健康与健康差异研究所（NIMHD）。&lt;/p&gt;
-&lt;p&gt;可以拿走的一点：如果你自己或家人在吃降压药但血压仍偏高，限盐之外把“钾”也当成目标（蔬果、豆类），比单纯“少吃盐”更接近这个试验的做法；肾功能不好或服用保钾类药物的人先问医生。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;a href="https://www.acc.org/About-ACC/Press-Releases/2026/03/28/16/45/DASH-Diet-Grocery-Program-Delivers-blood-Pressure-and-Cholesterol-Benefits"&gt;ACC 新闻稿&lt;/a&gt;；&lt;a href="https://www.healthday.com/healthpro-news/cardiovascular-diseases/acc-dash-diet-grocery-delivery-program-aids-blood-pressure-cholesterol"&gt;HealthDay&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.acc.org/About-ACC/Press-Releases/2026/03/28/16/45/DASH-Diet-Grocery-Program-Delivers-blood-Pressure-and-Cholesterol-Benefits"&gt;https://www.acc.org/About-ACC/Press-Releases/2026/03/28/16/45/DASH-Diet-Grocery-Program-Delivers-blood-Pressure-and-Cholesterol-Benefits&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.healthday.com/healthpro-news/cardiovascular-diseases/acc-dash-diet-grocery-delivery-program-aids-blood-pressure-cholesterol"&gt;https://www.healthday.com/healthpro-news/cardiovascular-diseases/acc-dash-diet-grocery-delivery-program-aids-blood-pressure-cholesterol&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">30e1f420-6633-587f-8c0c-1e351f38fa03</guid>
-      <pubDate>Tue, 17 Nov 2026 14:04:43 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.acc.org/About-ACC/Press-Releases/2026/03/28/16/45/DASH-Diet-Grocery-Program-Delivers-blood-Pressure-and-Cholesterol-Benefits</link>
-      <enclosure url="http://www.acc.org/-/media/9E7FA8BE7B44449AB9993CC9237EF455.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 复合维生素两年，表观遗传时钟慢了多少？COSMOS 的 958 位老人：PhenoAge −0.214 年，“少老 4 个月”的说法对不上</title>
-      <description>&lt;p&gt;标题很诱人：每天一片复合维生素，生物学年龄变慢。出处是 &lt;em&gt;Nature Medicine&lt;/em&gt; 2026 年的一篇论文（DOI 10.1038/s41591-026-04239-3），属于大型试验 COSMOS 的预设附属研究，资深作者是布列根和妇女医院的 Howard Sesso。我只读到了 NutraIngredients 的报道，没读到论文，下面的数字都来自这篇报道。&lt;/p&gt;
-
-&lt;h2&gt;做了什么&lt;/h2&gt;
-&lt;p&gt;958 人（482 名女性、476 名男性），平均 70 岁，随机分配后每天服用复合维生素矿物质（Centrum Silver）或安慰剂，持续两年；另一个维度是可可提取物（每天 500 mg 可可黄烷醇，含 80 mg 表儿茶素）。研究者测了五种表观遗传时钟（根据 DNA 甲基化推算“生物学年龄”），报道里只点名了两种：PhenoAge 和 GrimAge。&lt;/p&gt;
-
-&lt;h2&gt;结果&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;PhenoAge：与安慰剂相比，两年里“增长速度”慢了 0.214 年。&lt;/li&gt;
-&lt;li&gt;GrimAge：慢了 0.113 年；基线时已经“老得快”的人效果更强（报道没给这一亚组的数值）。&lt;/li&gt;
-&lt;li&gt;可可提取物对这些时钟没有影响。&lt;/li&gt;
-&lt;li&gt;报道只说两个时钟的下降“统计显著”，没给置信区间和 p 值。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;报道的标题式说法是“两年少老约 4 个月”。但 0.214 年约 2.6 个月，0.113 年约 1.4 个月，哪一项也凑不出 4 个月，页面也没有解释这个差距。引用的时候我会用原始的年数。&lt;/p&gt;
-
-&lt;h2&gt;为什么要冷静一点&lt;/h2&gt;
-&lt;p&gt;独立评论者、杜伦大学的 David Weinkove 指出：效果很小，而且只出现在部分时钟上，不是所有时钟。时钟本身的误差也大，两年的差异在方法的噪声范围附近，他认为随访三年会更有说服力。作者自己的结论也只是“还需要更多试验来确认”。&lt;/p&gt;
-&lt;p&gt;还有一个更根本的问题：表观遗传时钟是替代指标，时钟慢了 0.2 年并不等于活得更久或少生病。跟上周我们写过的 DO-HEALTH（维生素 D、Omega-3、运动并不能防住衰弱）放在一起看，补剂领域的规律很一致：生物标志物上有小幅变化，临床结局上证据弱得多。产品是辉瑞消费保健业务（现 Haleon）的 Centrum Silver，报道没给出资助与利益冲突声明，我没法判断。&lt;/p&gt;
-&lt;p&gt;对普通人的意义：如果本来就在吃复合维生素，这个结果没有理由让你停；但它也不足以让一个饮食正常的人为了“抗衰老”专门去买。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;a href="https://www.nutraingredients.com/Article/2026/03/25/multivitamin-minerals-linked-to-slower-aging/"&gt;NutraIngredients（Stephen Daniells，2026-03-25）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nutraingredients.com/Article/2026/03/25/multivitamin-minerals-linked-to-slower-aging/"&gt;https://www.nutraingredients.com/Article/2026/03/25/multivitamin-minerals-linked-to-slower-aging/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4a7b2371-54b6-55a2-be85-bb859b820b54</guid>
-      <pubDate>Tue, 17 Nov 2026 14:04:44 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.nutraingredients.com/Article/2026/03/25/multivitamin-minerals-linked-to-slower-aging/</link>
-      <enclosure url="https://www.nutraingredients.com/resizer/v2/IBTPSHTWZVCCFCQ2PHJWN3CIEY.jpg?auth=28c85d028b8b88dff165ee82da0296c31f6f5f76ce62275e4ee1caafbd265d25&amp;amp;width=1200&amp;amp;height=630&amp;amp;smart=true" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 “亲近自然能缓解焦虑抑郁”：一篇覆盖 3,800 多项研究的综述，和它没回答的两个问题</title>
-      <description>&lt;p&gt;MindSite News 在 2026 年 6 月 16 日报道了一篇发表在 &lt;em&gt;Nature Human Behaviour&lt;/em&gt; 的研究（链接指向 s41562-026-02433-4），由伊朗伊斯兰阿扎德大学的 Esmaeel Saedy Robat 领衔。报道说论文“今年 2 月发表”，所以这是一个半年前的结果，我把它当作“夏天没来得及写、值得补上”的一篇。需要先声明：Nature 的页面把我重定向到登录页，我没读到摘要，下面的内容全部来自这篇报道。&lt;/p&gt;
-
-&lt;h2&gt;报道里写了什么&lt;/h2&gt;
-&lt;p&gt;研究是对已有证据的综合，报道称涉及“3,800 多项研究、超过 1,000 万人”。这个数字应该是汇总了大量已发表研究后的总量，而不是一个 1,000 万人的试验；报道没说有多少篇综述或 meta 分析。所谓“亲近自然的干预”被定义得很宽：在公园、森林、湖海、荒野、城市森林里待着；看虚拟自然场景；以及园艺、散步、徒步、生态疗法（ecotherapy）。结论是这类干预能降低焦虑和抑郁症状、促进放松，也能提升正面情绪。报道没有给出效应量或置信区间。&lt;/p&gt;
-
-&lt;h2&gt;这条结论该怎么读&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;“自然”很宽，证据很杂。&lt;/strong&gt;在 VR 里看森林和每周去远郊徒步，成本、强度、社交属性都不一样。合在一起得到“平均有效”，并不能告诉你该做哪一种、做多久。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;对照组可能偏弱。&lt;/strong&gt;这类研究经常拿“什么都不做”当对照，而不是同样强度的室内活动或同样的社交。报道自己也承认，下一步需要“高质量、标准化、有主动对照的研究”，这句话基本等于承认现有对照不够强。我搜索时看到的另一份二手摘要也提到了被动对照的问题，但那个页面已经打不开，所以我不引用它的具体效应量。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;还在进行的检验&lt;/h2&gt;
-&lt;p&gt;注册信息里有几项正在做的随机试验：瑞典斯德哥尔摩的 CALM 森林疗法试验（12 周带领式项目，主要结局是感知压力，计划到 2026 年 12 月）；英国的 GreenME（自然疗法对比常规照护，计划到 2027 年 8 月）。它们出结果之前，“自然有益”更像一个合理但效应大小未知的假设。&lt;/p&gt;
-&lt;p&gt;实际一点的做法：把它当成成本很低的辅助手段，而不是治疗。每周固定去一次有树的地方走 30–60 分钟，门槛低、副作用几乎没有；如果焦虑或抑郁已经影响生活，应当先找专业帮助。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;a href="https://mindsitenews.org/2026/06/16/the-healing-powers-of-nature-for-mental-health-affirmed-in-new-study/"&gt;MindSite News&lt;/a&gt;；&lt;a href="https://www.nature.com/articles/s41562-026-02433-4"&gt;原论文页面（需登录）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://mindsitenews.org/2026/06/16/the-healing-powers-of-nature-for-mental-health-affirmed-in-new-study/"&gt;https://mindsitenews.org/2026/06/16/the-healing-powers-of-nature-for-mental-health-affirmed-in-new-study/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/s41562-026-02433-4"&gt;https://www.nature.com/articles/s41562-026-02433-4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">115d0d30-7086-5d7d-934d-77bcc82230d7</guid>
-      <pubDate>Tue, 17 Nov 2026 14:05:46 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://mindsitenews.org/2026/06/16/the-healing-powers-of-nature-for-mental-health-affirmed-in-new-study/</link>
-      <enclosure url="https://dl3wjxrn8qv3a.cloudfront.net/wp-content/uploads/2026/06/16113102/unnamed-5-e1781641856489.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 问路问到一半，对面的人被一扇门换掉了：1998 年康奈尔校园 15 个路人只有 7 个发现，发现的全是同龄学生；实验者换上工地安全帽后，学生也只剩 4/12 看出来</title>
-      <description>&lt;p&gt;你在校园里走着，一个拿地图的年轻人拦住你问路。你正给他指方向，两个工人抬着一扇门粗鲁地从你俩中间穿过去。门过去以后，你接着讲完路线，对方道谢离开。这时有人告诉你：门过去之后跟你说话的，已经是另一个人了。穿的衣服不一样，个子矮了约 5 厘米，嗓音也不同。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Globe_and_high_court_%28Spot_the_difference%29.jpg" alt="一组找不同的对比照片，用于演示变化盲视" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;「找不同」是变化盲视（Change Blindness）在实验室里的经典形式。Simons 和 Levin 想知道，把它搬到真实的面对面交谈里还成不成立。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这是 Daniel Simons（当时在哈佛）和 Daniel Levin（当时在 Kent State）1998 年发表在《Psychonomic Bulletin &amp;amp; Review》上的「门实验」（door study），论文题目很朴素：&lt;em&gt;Failure to detect changes to people during a real-world interaction&lt;/em&gt;。实验其实是在康奈尔大学校园里做的，相关部分出自 Simons 的博士论文。两位作者在脚注里说贡献相同，署名顺序是随便定的。&lt;/p&gt;
-
-&lt;p&gt;做法是这样的：实验者 A 拿着校园地图，向迎面走来的路人打听附近一栋楼怎么走。路人从约 20 米外就能看清他。聊了 10 到 15 秒，另外两名实验者抬着门从中间穿过。经过的一瞬间，A 抓住门板后端跟着走了，原本抬门的 B 留在原地，掏出一份一模一样的地图，继续问路。门挡住视线大约只有 1 秒。按论文描述，路人通常会和 B 对上眼，然后接着指路。整个交谈持续 2 到 5 分钟。&lt;/p&gt;
-
-&lt;p&gt;结果：15 个路人里，只有 7 个在被问「刚才门过去时你注意到什么不寻常吗」时说出换了人。大多数人的第一反应是抱怨抬门的人没礼貌。没发现的那些人继续若无其事地聊天，有几个发现了的人居然也照样接着聊。被告知真相时，没发现的人「相当吃惊」。&lt;/p&gt;
-
-&lt;h3&gt;真正诡异的是谁发现了&lt;/h3&gt;
-
-&lt;p&gt;论文里最有意思的不是那个「一半」，而是分布：&lt;strong&gt;发现换人的 7 个，全是和实验者年龄相仿（约 20 到 30 岁）的学生&lt;/strong&gt;；没发现的，都比实验者年长，大约 35 到 65 岁。&lt;/p&gt;
-
-&lt;p&gt;Simons 和 Levin 的解释来自社会心理学的内群体/外群体（in-group / out-group）区分：碰到「自己人」，我们会去编码能区分个体的细节；碰到「另一类人」，我们只记住类别——「一个问路的大学生」——然后就不再往下看了。你记住的不是这个人，是这个人的标签。&lt;/p&gt;
-
-&lt;p&gt;为了验证，他们做了实验二：还是那两位实验者，还是同一个地点（碰巧离一处工地约 50 米），但这次打扮成建筑工人。一个戴着印字的安全帽、挂着大工具腰带、穿浅蓝衬衫，另一个戴没字的新帽子、不挂腰带、穿黑衬衫。这回专挑康奈尔的本科生和研究生——也就是实验一里「每次都能发现」的那一群。&lt;/p&gt;
-
-&lt;p&gt;结果 12 个学生里只有 4 个在第一轮提问中说出换了人。另有 3 人先说「没注意到什么」，被直接追问时又声称注意到了，但他们说不出两人有什么区别，作者判断这是被问题「带」出来的。一位没发现的女生几乎把作者的假设原样说了出来：她只是看到了「一个建筑工人」，没有去记这个人本身长什么样。&lt;/p&gt;
-
-&lt;h3&gt;和「选择盲视」不是一回事&lt;/h3&gt;
-
-&lt;p&gt;11 月 15 日写过的选择盲视（Choice Blindness）讲的是：你选了 A，实验者偷偷递给你 B，你不但没察觉，还会为 B 编理由。那是关于我们如何事后解释自己的决定。门实验则更底层，它说的是视觉表征本身有多稀薄。我们主观上觉得自己「看清了」眼前的人，其实大脑只存了一个能用的摘要，细节是需要时才去取的。&lt;/p&gt;
-
-&lt;p&gt;Simons 和 Levin 在此之前已用电影剪辑做过类似实验：演员在镜头切换时换成另一个人，40 名观众里只有 33% 发现。门实验就是为了反驳「那是因为看屏幕太被动」——结果真人面对面，照样有一半人没看出来。一年后，Simons 和 Chabris 发表了那个更出名的「看不见的大猩猩」实验，研究的是相关但不同的现象：不注意盲视（Inattentional Blindness）。&lt;/p&gt;
-
-&lt;p&gt;样本只有 15 人和 12 人，按今天的标准算很小，结论应该当作有力的演示，不是精确的比例。但它把变化盲视从屏幕搬进了真实的社交场景，这一步此后成了该领域被引用最多的演示之一。下次有人说「我一眼就能认出来」，可以问问他：对方要是穿着工装呢？&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/1998-simons.pdf"&gt;Simons &amp;amp; Levin 1998, Psychonomic Bulletin &amp;amp; Review 5(4):644–649（原文 PDF）&lt;/a&gt;；&lt;a href="https://www.apa.org/monitor/oct06/eyes"&gt;APA Monitor 2006 综述&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Change_blindness"&gt;Wikipedia: Change blindness&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/1998-simons.pdf"&gt;https://gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/1998-simons.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.apa.org/monitor/oct06/eyes"&gt;https://www.apa.org/monitor/oct06/eyes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Change_blindness"&gt;https://en.wikipedia.org/wiki/Change_blindness&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">fbcf9315-5e1c-5c32-8c80-4da78d99003f</guid>
-      <pubDate>Tue, 17 Nov 2026 16:06:27 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/1998-simons.pdf</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/f/f9/Globe_and_high_court_%28Spot_the_difference%29.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 1518 年斯特拉斯堡「跳舞瘟疫」：市议会的药方是腾出行会大厅、搭台雇乐队让病人接着跳；但「一天跳死 15 人」在当年官方文献里找不到，死亡数字都出自后人记述</title>
-      <description>&lt;p&gt;1518 年 7 月 14 日前后，斯特拉斯堡一位叫 Troffea 的妇人走出家门，在街上跳起舞来。没有音乐，丈夫求她也不停。她一连跳了四到六天，最后被装上车，送到约 30 英里外萨韦尔讷（Saverne）的圣维特（Saint Vitus）圣祠。可这时城里已经有别人也跳起来了。按 Imlin 家族编年史的说法，一个月内被卷进去的市民有大约 400 人。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://pdr-assets.b-cdn.net/essays/the-dancing-plague-of-1518/Hondius_brugje-copy-849x1024.jpg" alt="Hondius 1642 年版画，描绘舞蹈病人被搀扶着跳舞" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Hendrik Hondius 1642 年的版画，依据老彼得·勃鲁盖尔 1564 年的素描，画的是莫伦贝克朝圣路上的「舞蹈病人」。图：The Public Domain Review&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这就是「1518 年舞蹈瘟疫」（Dancing Plague of 1518）。它在网上常见的版本是：数百人连跳数周，高峰时一天累死 15 个。听着离谱，但这件事本身确实存在：市议会的处理记录在斯特拉斯堡市档案里查得到（R3, fol. 72 recto），时任市府书记官、《愚人船》（&lt;em&gt;Ship of Fools&lt;/em&gt;，1494）的作者 Sebastian Brant 还亲手写过相关禁令的例外条款。&lt;/p&gt;
-
-&lt;h3&gt;官方药方：让他们接着跳&lt;/h3&gt;
-
-&lt;p&gt;最荒诞的部分恰好是证据最扎实的部分。当地医生告诉议会，这是「过热的血液」引起的自然疾病，放血不管用，得让病人把它跳出来。议会照办：把木匠和制革匠的行会大厅腾出来当临时舞池，在马市和粮市搭起舞台，花钱雇来几十个乐手打鼓、拉琴、吹笛吹号，还找了身体健康的人下场陪跳，给病人「带节奏」。&lt;/p&gt;
-
-&lt;p&gt;结果可想而知。人越跳越多。议会很快掉头：拆掉舞台，把病人挪出公众视线，全城禁止跳舞和奏乐直到 9 月。婚礼和新神父的首台弥撒可以用弦乐，但手鼓和鼓不行。病得最重的被一车车拉去萨韦尔讷。那里的神父让他们站在一尊圣维特木雕下，手握小十字架，穿上红鞋。鞋上洒圣水，再用圣油画上十字。当时的教士认为这是圣维特降下的诅咒，治法自然要找他本人。&lt;/p&gt;
-
-&lt;h3&gt;但「每天跳死 15 人」从哪来？&lt;/h3&gt;
-
-&lt;p&gt;这里需要泼点冷水。死亡人数是整个故事里最弱的一环。当年斯特拉斯堡官方文献既没记死了多少人，也没明确说有没有人死。提到死亡的说法——包括常被引用的「一天 15 个」——出自事后的编年史和记述，其中有的引自一首如今已经失传、只在 17 世纪法学家 Johann Schilter 的编年史里被转引的手稿诗。参与跳舞的人数也说法不一，从 50 到 400 都有。&lt;/p&gt;
-
-&lt;p&gt;所以比较稳妥的说法是：跳舞是真的，议会「以舞治舞」是真的，送往圣祠是真的；「跳死数百人」很可能是后来加的戏。&lt;/p&gt;
-
-&lt;h3&gt;为什么偏偏是 1518 年？&lt;/h3&gt;
-
-&lt;p&gt;首先要排除的是麦角中毒（Ergotism）。这个解释流传很广，但密歇根州立大学医学史学者 John Waller 在 2009 年的《A Time to Dance, a Time to Die》里指出：麦角碱会收缩四肢血管，中毒者抽搐、坏疽，根本撑不住连跳几天。&lt;/p&gt;
-
-&lt;p&gt;Waller 给出的是另一套解释：大规模的应激性精神障碍。1518 年前后的阿尔萨斯连遭歉收、饥荒、天花和新传入的梅毒，政局也不稳。更关键的是，莱茵河和摩泽尔河一带自 1374 年起就出过十多次类似的「舞蹈狂」，人们普遍相信圣维特会让罪人跳到死。一个绝望又笃信诅咒的社会，给集体失控准备好了剧本。连议会那套「搭台雇乐队」的做法，客观上也是在给剧本加戏。&lt;/p&gt;
-
-&lt;p&gt;八年后来过斯特拉斯堡的帕拉塞尔苏斯（Paracelsus）则刻薄得多。他在《Opus Paramirum》里说 Troffea 太太是装病，为了给丈夫难堪，别人有样学样。他还把这类病分成三种：欲望引起的、想象引起的、身体原因引起的。&lt;/p&gt;
-
-&lt;p&gt;这个故事和之前写过的 1962 年坦噶尼喀笑疫可以对照着看：一个从寄宿女校蔓延的笑，一个从一位主妇开始的舞。两者相隔四百多年，机制看起来出奇地像——情绪在一个承压的群体里，沿着人际网络传开。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://publicdomainreview.org/essay/the-dancing-plague-of-1518/"&gt;The Public Domain Review: The Dancing Plague of 1518&lt;/a&gt;；&lt;a href="https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania"&gt;National Geographic&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Dancing_plague_of_1518"&gt;Wikipedia: Dancing plague of 1518&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://publicdomainreview.org/essay/the-dancing-plague-of-1518/"&gt;https://publicdomainreview.org/essay/the-dancing-plague-of-1518/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania"&gt;https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Dancing_plague_of_1518"&gt;https://en.wikipedia.org/wiki/Dancing_plague_of_1518&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0a7b76ba-9906-5e44-bd2f-fd6318bbdff1</guid>
-      <pubDate>Tue, 17 Nov 2026 16:06:27 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://publicdomainreview.org/essay/the-dancing-plague-of-1518/</link>
-      <enclosure url="https://pdr-assets.b-cdn.net/essays/the-dancing-plague-of-1518/Hondius_brugje-copy-849x1024.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 没有大脑的黏菌 26 小时长出「东京铁路网」：36 粒燕麦片当城市、强光当山海，2010 年 Science 论文从中提炼出一条局部反馈规则，团队因此第二次拿下搞笑诺贝尔奖</title>
-      <description>&lt;p&gt;一团没有神经、没有大脑的黄色黏液，花 26 个小时，在培养皿里长出了一张和东京周边铁路网很像的线路图。这不是科幻片桥段，是 2010 年 1 月 22 日发表在《Science》上的论文。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Physarum_polycephalum_plasmodium.jpg" alt="黄色的多头绒泡菌原质团在树皮上铺开" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;多头绒泡菌（Physarum polycephalum）的原质团（plasmodium）：整团其实是一个细胞，里面有成千上万个细胞核。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;主角是多头绒泡菌（&lt;em&gt;Physarum polycephalum&lt;/em&gt;），俗称黏菌。它既不是真菌也不是动物，营养阶段是一大团单细胞原生质，能在地上缓慢爬行，每小时几厘米。它爱吃燕麦片，怕强光。&lt;/p&gt;
-
-&lt;h3&gt;实验怎么做&lt;/h3&gt;
-
-&lt;p&gt;北海道大学电子科学研究所的手老笃史（Atsushi Tero）、中垣俊之（Toshiyuki Nakagaki）和英国牛津的 Mark Fricker、Dan Bebber 等人，在一张湿润的平面上按照东京周边地图摆了 &lt;strong&gt;36 粒燕麦片&lt;/strong&gt;，代表东京和周围的城镇。黏菌从「东京」的位置放下。为了模拟地形，他们用光照代替山地、湖泊和海岸线：黏菌躲光，就像铁路不愿意翻山过海。&lt;/p&gt;
-
-&lt;p&gt;黏菌一开始几乎铺满了能去的区域，随后开始「做减法」：营养流量大的管道越长越粗，用得少的逐渐萎缩、消失。26 小时后，剩下的是一张连接所有食物点的管网。论文作者的说法是，许多培养皿给出的方案不一样，但其中不少和真实的东京铁路系统在视觉上惊人地相似；加上光照「地形」后，相似度更高。另一种做法——先让黏菌铺满，再同时放上所有食物点——结果也差不多。&lt;/p&gt;
-
-&lt;p&gt;团队用三个指标比较黏菌网络和真实铁路：总长度（代表建设成本）、点与点之间的最短距离（代表运输效率），以及断掉某条线后整张网还能不能连通（代表容错性）。结论是三项大体相当。黏菌网络还会额外长出一些「冗余」的横向连接，代价是多一点长度，换来断线后不至于瘫痪。&lt;/p&gt;
-
-&lt;h3&gt;真正的成果是一组方程&lt;/h3&gt;
-
-&lt;p&gt;论文标题是 &lt;em&gt;Rules for Biologically Inspired Adaptive Network Design&lt;/em&gt;，重点不在「黏菌很聪明」，而在于从它身上抽出了规则。研究者把黏菌写成一个数学模型：管道里的原生质流量越大，管道就变粗（电导增加）；流量小，管道就收缩。只靠这一条局部反馈，没有任何中央规划和全局信息，就能从一张乱网里「演化」出又省又稳的结构。调节模型参数，还能让结果更偏向省钱或更偏向抗故障。作者设想的用途包括无线传感器阵列、移动自组织网络这类没有中央调度的系统。&lt;/p&gt;
-
-&lt;p&gt;同期《Science》配发评论的 Wolfgang Marwan（马格德堡 Otto von Guericke 大学）称这个模型「漂亮又好用」，认为它得出的网络可以与真实基础设施相当，甚至更好。中垣俊之本人说得更直接：黏菌网和真实铁路的差别，很大程度上来自人类的政治；黏菌也许能设计出更高效的铁路。这是他的观点，不是论文测出来的数字。&lt;/p&gt;
-
-&lt;p&gt;也有冷静的声音。波特兰州立大学的 Melanie Mitchell 对《Discover》表示，这篇论文只用了一个相对简单的例子，换成别的交通网络是否同样有效，并不显然。后来也有人拿黏菌去「设计」英国和伊比利亚半岛的道路网，但一张网长得像，不等于这套办法能直接拿去规划城市。&lt;/p&gt;
-
-&lt;h3&gt;走迷宫、记时间，还拿了两次搞笑诺贝尔&lt;/h3&gt;
-
-&lt;p&gt;这不是中垣第一次让黏菌出圈。2000 年他和山田裕康、Ágota Tóth 在《Nature》发表了一页纸的短文《Maze-solving amoeboid》：把黏菌铺满一座琼脂迷宫，只在入口和出口放燕麦，黏菌会从所有死胡同里撤出来，只留下连接两处食物的最短通路。这项工作拿了 2008 年搞笑诺贝尔认知科学奖。东京铁路这篇又拿了 2010 年搞笑诺贝尔交通规划奖，中垣因此成了少数两度获奖的人之一。&lt;/p&gt;
-
-&lt;p&gt;2008 年北海道大学的三枝哲（Tetsu Saigusa）等人还发现，如果每隔固定时间让黏菌短暂经历一次又冷又干的环境，它会放慢爬行；之后环境不再变化，它到了「该变冷」的时刻仍会自发减速，最多能重复约七个周期。没有大脑，却像在预判。&lt;/p&gt;
-
-&lt;p&gt;说到底，黏菌并不知道东京在哪，它只是在「哪里有吃的就往哪里加粗管子」。可这一条笨规则，恰好是工程师花几十年、几轮审批才凑出来的答案。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.sciencedaily.com/releases/2010/01/100121141051.htm"&gt;ScienceDaily / AAAS（Tero et al. 2010, Science 327:439）&lt;/a&gt;；&lt;a href="https://www.scientificamerican.com/blog/observations/slime-mold-validates-efficiency-of-tokyo-rail-network/"&gt;Scientific American&lt;/a&gt;；&lt;a href="https://www.discovermagazine.com/planet-earth/brainless-slime-mold-builds-a-replica-tokyo-subway"&gt;Discover&lt;/a&gt;；&lt;a href="https://www.nationalgeographic.com/science/article/slime-mould-attacks-simulates-tokyo-rail-network"&gt;National Geographic（Ed Yong）&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Toshiyuki_Nakagaki"&gt;Wikipedia: Toshiyuki Nakagaki&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedaily.com/releases/2010/01/100121141051.htm"&gt;https://www.sciencedaily.com/releases/2010/01/100121141051.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/blog/observations/slime-mold-validates-efficiency-of-tokyo-rail-network/"&gt;https://www.scientificamerican.com/blog/observations/slime-mold-validates-efficiency-of-tokyo-rail-network/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.discovermagazine.com/planet-earth/brainless-slime-mold-builds-a-replica-tokyo-subway"&gt;https://www.discovermagazine.com/planet-earth/brainless-slime-mold-builds-a-replica-tokyo-subway&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Toshiyuki_Nakagaki"&gt;https://en.wikipedia.org/wiki/Toshiyuki_Nakagaki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8b948b00-0f77-58fa-a72b-332aa527d9b2</guid>
-      <pubDate>Tue, 17 Nov 2026 16:06:28 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.sciencedaily.com/releases/2010/01/100121141051.htm</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/6/6d/Physarum_polycephalum_plasmodium.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 1948 年阿德莱德海滩无名男尸，口袋里只有一张印着「Tamám Shud」的纸条：2022 年靠石膏面模上的头发 DNA 被认作墨尔本工程师 Carl Webb，到 2026 年底警方报告仍未交给验尸官</title>
-      <description>&lt;p&gt;1948 年 12 月 1 日早上 6 点半左右，南澳大利亚阿德莱德格莱内尔格（Glenelg）附近的萨默顿公园海滩上，有人发现一个穿西装的男人靠着海堤死了。他衣服上的标签全被剪掉，身上没有钱包和证件。七十多年后，靠着他石膏面模里夹着的几根头发，一位工程教授说出了他的名字。只是到今天，官方还没签字。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/SomertonMan2.jpg" alt="萨默顿男子 1948 年的警方照片" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;「萨默顿男子」（Somerton Man）遗体被发现后不久由警方拍摄的照片。图：South Australia Police / Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;一桩没有答案的死亡&lt;/h3&gt;
-
-&lt;p&gt;病理学家推断他死于凌晨 2 点前后，死前三四个小时吃过一个肉馅饼（pasty）。验尸查不出任何外来物质，但主检病理学家 John Dwyer 写道：「我完全确信死亡不可能是自然原因。」后来讨论最多的是洋地黄（digitalis）或哇巴因（ouabain）这类毒物，它们在当年的技术条件下很难验出。1994 年，维多利亚州首席大法官 John Harber Phillips 复盘时说：「几乎可以肯定是洋地黄。」&lt;/p&gt;
-
-&lt;p&gt;1949 年 1 月 14 日，阿德莱德火车站行李寄存处发现一只 11 月 30 日上午 11 点后寄存、一直没人取的棕色手提箱，里面的衣物标签也被剪了。真正让这桩案子变成传奇的是一张小纸条：有人在死者裤子上一个缝进去的小表袋里发现了它，上面印着两个波斯语词「Tamám Shud」，意思是「完了」「结束」。&lt;/p&gt;
-
-&lt;p&gt;它撕自《鲁拜集》（&lt;em&gt;Rubaiyat of Omar Khayyam&lt;/em&gt;）的 FitzGerald 英译本。1949 年 7 月 22 日，一本缺了最后一页的 1941 年新西兰 Whitcombe and Tombs 版《鲁拜集》被交到警方，据说是在格莱内尔格 Jetty Road 一辆敞篷车里捡到的。书背面有五行模糊的铅笔大写字母，比如「WRGOABABD」「ITTMTSAMSTGAB」，至今没人能读懂。书上还有一个电话号码，属于住在附近的护士 Jessica「Jo」Thomson。她对警方说不认识死者，警方还同意不在记录里留下她的名字，这给后来的调查添了大麻烦。&lt;/p&gt;
-
-&lt;h3&gt;一位教授的十三年&lt;/h3&gt;
-
-&lt;p&gt;阿德莱德大学电子工程教授 Derek Abbott 从 2009 年 3 月起钻进这个案子。他发现死者和 Thomson 的儿子 Robin 有同样罕见的耳廓特征（耳甲艇比耳甲腔大），还都有先天缺牙（hypodontia，侧切牙缺失），他估算巧合概率在一千万到两千万分之一。2018 年，他从当年做的石膏面模上的头发里测出线粒体单倍群 H4a1a1a，大约只有 1% 的欧洲人带有。&lt;/p&gt;
-
-&lt;p&gt;2021 年 5 月 19 日，南澳警方在「Operation Persevere」框架下把遗体从 West Terrace 公墓挖了出来，目标是给州内所有无名遗骸确认身份。2022 年 7 月 26 日，Abbott 与美国法医遗传系谱学家 Colleen Fitzpatrick 宣布：面模头发的 DNA 经由 Ancestry.com 上的远亲比对、搭出家族树后，指向一个人——&lt;strong&gt;Carl「Charles」Webb&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;Webb 1905 年 11 月 16 日生于墨尔本 Footscray，电气工程师、仪器制造者。1941 年娶了药剂师 Dorothy「Doff」Robertson，婚姻不幸，妻子说他会写关于死亡的诗。他 1947 年离家，此后没有任何官方记录；妻子后来以「遗弃」为由离婚。Abbott 说，案子里唯一被解开的小线索是部分衣物上的名字「Keane」：Webb 有个外甥 John Keane 死于二战，衣服很可能是他留下的。&lt;/p&gt;
-
-&lt;h3&gt;警方：仍在进行中&lt;/h3&gt;
-
-&lt;p&gt;可这个名字到现在都只是「研究者认定」。ABC 2026 年 7 月 6 日报道，遗体挖出五年后，南澳警方仍未把报告交给验尸官，只回应「这项死因调查复杂且仍在进行」。Abbott 说自己「99.99% 确定」，并转述警方说报告「很快」完成，验尸官可能在年底前给出结论。截至本文发稿（2026 年 11 月中旬），我们没查到验尸官的正式结论。&lt;/p&gt;
-
-&lt;p&gt;即使身份落定，死因多半永远是谜：Abbott 自己也说，这么久远的遗骸几乎不可能查出死因，警方关注的只是身份。Webb 家族远亲 Stuart Webb 对漫长等待并不在意，还说如果遗骸重新葬回原来那块曾写着「无名男子」的墓地，「也挺好的」。&lt;/p&gt;
-
-&lt;p&gt;名字有了，「Tamám Shud」的那句「结束了」却还没真正结束：密码没破，毒物没定，他为什么会在一个陌生城市的海滩上安静地死去，没人知道。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://www.abc.net.au/news/2026-07-06/sa-police-report-coroner-into-somerton-man-case-very-soon/106869302"&gt;ABC News 2026-07-06&lt;/a&gt;；&lt;a href="https://www.abc.net.au/news/2022-07-26/somerton-man-identified-melbourne-born-engineer-researcher-says/101272182"&gt;ABC News 2022-07-26&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Somerton_Man"&gt;Wikipedia: Somerton Man&lt;/a&gt;；&lt;a href="https://www.smithsonianmag.com/smart-news/mystery-somerton-man-finally-solved-180980540/"&gt;Smithsonian&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.abc.net.au/news/2026-07-06/sa-police-report-coroner-into-somerton-man-case-very-soon/106869302"&gt;https://www.abc.net.au/news/2026-07-06/sa-police-report-coroner-into-somerton-man-case-very-soon/106869302&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.abc.net.au/news/2022-07-26/somerton-man-identified-melbourne-born-engineer-researcher-says/101272182"&gt;https://www.abc.net.au/news/2022-07-26/somerton-man-identified-melbourne-born-engineer-researcher-says/101272182&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Somerton_Man"&gt;https://en.wikipedia.org/wiki/Somerton_Man&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">72e1fa4e-26e0-5277-897d-3e4ab8deb8d5</guid>
-      <pubDate>Tue, 17 Nov 2026 16:06:28 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.abc.net.au/news/2026-07-06/sa-police-report-coroner-into-somerton-man-case-very-soon/106869302</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/5/5c/SomertonMan2.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 1913 年平安夜，密歇根铜矿镇一声「着火了」踩死 73 人、其中 59 个孩子：根本没有火，喊话者至今成谜，而伍迪·格思里歌里那扇「堵死的门」很可能是向外开的</title>
-      <description>&lt;p&gt;1913 年 12 月 24 日下午，密歇根上半岛的铜矿小镇卡柳梅特（Calumet），意大利会堂（Italian Hall）二楼挤着四百多人，大多是罢工矿工的妻子和孩子。西部矿工联合会（Western Federation of Miners, WFM）的妇女辅助会在这里办圣诞派对，孩子们排队领礼物。这时门口有人喊了一声「着火了！」&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Italian_Hall_Disaster_in_Pictures_-_Italian_Hall_%28crop%29.jpg" alt="1913 年卡柳梅特意大利会堂外观" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;卡柳梅特的意大利会堂。灾难发生在二楼，通往街面的主要通道只有一道陡峭的楼梯。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;根本没有火。红夹克（Red Jacket）消防队的出勤日志上写着「no fire」。但人群涌向唯一一道陡峭的楼梯，前面的人摔倒，后面的人压上去。消防梯标识不清，要从窗户爬出去才够得着。73 人死于踩踏和窒息，&lt;strong&gt;其中 59 个是孩子&lt;/strong&gt;。死者里 50 位是芬兰裔，13 位克罗地亚裔，7 位斯洛文尼亚裔，3 位意大利裔。&lt;/p&gt;
-
-&lt;h3&gt;一场罢工里的平安夜&lt;/h3&gt;
-
-&lt;p&gt;背景是 1913 至 1914 年的铜乡大罢工（Copper Country Strike）。11 月 15 日写托莱多战争时提过，密歇根当年「输掉」托莱多、被补偿了上半岛，结果那里挖出了全美最富的铜矿。到 1913 年，基维诺半岛最大的公司是卡柳梅特-赫克拉（Calumet and Hecla, C&amp;amp;H）。WFM 1908 年在当地建分会，到 1913 年声称约 1.5 万名矿工里有 9000 人入会。罢工从 7 月 23 日开始，到圣诞节仍在僵持，一直拖到 1914 年 4 月。&lt;/p&gt;
-
-&lt;p&gt;站在资方一边的是「公民联盟」（Citizens' Alliance）。1914 年 3 月 7 日，美国国会众议院小组委员会听证时，有八名证人作证说，第一个喊「着火」的人佩戴着公民联盟的徽章。联盟矢口否认。验尸官的调查只开了三天：不会英语的证人被要求用英语回答，大多数人没被追问，不少人根本没看到现场。最后的裁定没有说清惨案起因，也没追究任何人。&lt;/p&gt;
-
-&lt;p&gt;后续更加难看。公民联盟牵头募得 2.5 万美元救济金，遇难者家庭拒收，说工会已经承诺援助。WFM 主席 Charles Moyer 公开指控联盟，拒绝收回。没几天，一伙人在汉考克（Hancock）的旅馆里朝他开枪，把他绑上火车赶出密歇根。Moyer 到芝加哥开记者会，当众展示枪伤，发誓还会回来。&lt;/p&gt;
-
-&lt;h3&gt;那扇「从外面堵住的门」&lt;/h3&gt;
-
-&lt;p&gt;1941 年，伍迪·格思里（Woody Guthrie）写了一首《1913 Massacre》，歌里唱的是：资方的打手在门外把门死死顶住，孩子们出不去。后来的流行版本又加上一个细节——楼梯底部的门是向内开的，人群把门压死了。这个说法流传得太广，连会堂遗址上最早的纪念牌都照着写了。&lt;/p&gt;
-
-&lt;p&gt;问题是，证据并不支持。现存照片显示楼梯底下是一对向外开的双扇门。历史学者 Alison K. Hoagland 指出，外门是外开的，里面也许另有一组折叠门；1913 年当时的一篇报道直接写着「所有门都向外开」。律师兼作家 Steve Lehto 在《Death's Door》里也注意到，无论 1913 年 12 月的死因调查、1914 年的国会听证，还是当年的报纸，都没人把门当成问题提出来。纪念牌上的「内开门」说法后来被删掉了。&lt;/p&gt;
-
-&lt;p&gt;可这并没有让惨案变得不那么可怕。门照样能被人群的重量压住：前排一倒，后面的人只会越挤越紧。门的方向是个流言，喊「着火」的那个人却是真实存在的，只是至今身份成谜。Lehto 认为最可能是资方一边的人，并在 2013 年第二版里点了一个具体名字；也有历史学者 Arthur Thurner 猜测，可能别处真冒过烟，比如烟囱，但没有一个证人说自己看到了火。&lt;/p&gt;
-
-&lt;p&gt;会堂在 1984 年 10 月被拆除，只留下拱门。1987 年立了州历史标牌，如今遗址是基维诺国家历史公园（Keweenaw National Historical Park）维护的小公园。一个多世纪过去，大家记住的反倒是那扇可能并不存在的门，那声确实存在的喊叫，却始终没找到主人。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Italian_Hall_disaster"&gt;Wikipedia: Italian Hall disaster&lt;/a&gt;；&lt;a href="https://www.hmdb.org/m.asp?m=76300"&gt;HMdb: Italian Hall marker&lt;/a&gt;；&lt;a href="https://www.kmuw.org/post/past-present-fake-news-history"&gt;KMUW: Past &amp;amp; Present&lt;/a&gt;；&lt;a href="https://assets.atlasobscura.com/places/italian-hall-memorial"&gt;Atlas Obscura: Italian Hall Memorial&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Italian_Hall_disaster"&gt;https://en.wikipedia.org/wiki/Italian_Hall_disaster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.hmdb.org/m.asp?m=76300"&gt;https://www.hmdb.org/m.asp?m=76300&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.kmuw.org/post/past-present-fake-news-history"&gt;https://www.kmuw.org/post/past-present-fake-news-history&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">be791721-1553-5887-b34f-6a74d0167f58</guid>
-      <pubDate>Tue, 17 Nov 2026 16:06:28 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Italian_Hall_disaster</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/a/a5/Italian_Hall_Disaster_in_Pictures_-_Italian_Hall_%28crop%29.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Legion of Honor 周六开幕 Alaïa 回顾展：80 件高定，展到明年 4 月 11 日</title>
-      <description>&lt;p&gt;上周写过 de Young 和 Legion of Honor 对湾区居民的周六免费。这周六（11/21）正好有个理由去 Legion of Honor：&lt;em&gt;Azzedine Alaïa: Sculpting Fashion&lt;/em&gt; 开幕，展期到 2027 年 4 月 11 日。&lt;/p&gt;
-&lt;p&gt;Alaïa 是已故的法国-突尼斯裔设计师，以贴身剪裁著称，圈里人叫他“针线下的雕塑家”。据 FashionUnited 和 Secret San Francisco 的报道，这是他在美国首次大型回顾展，约 80 件服装，包含高级定制（haute couture）系列。展览分两处：地下一层的特展厅，加上一楼几间常设展厅——Alaïa 的衣服会和馆藏的雕塑、绘画放在一起看。这个安排挺聪明：他本来就是把衣服当雕塑做的。&lt;/p&gt;
-&lt;p&gt;实用信息。地址是 100 34th Ave（Lincoln Park 里，面朝海）。展期很长，将近五个月，不用急着第一周挤。想少排队，选工作日上午最稳；周六免费日人一定多，尤其开幕首周。&lt;/p&gt;
-&lt;p&gt;票价我没查到。搜到的价格都是巴黎 Alaïa 基金会的，和旧金山这场无关。特展有没有额外加价、周六免费是否覆盖特展，请直接看 Fine Arts Museums of San Francisco 官网（famsf.org）再决定。之前那篇“周六免费”的消息本来就只有 Funcheap 一个来源，别把它当板上钉钉。&lt;/p&gt;
-&lt;p&gt;顺路可以安排：看完去 Lands End 走一小段，或者开到 Richmond 吃点东西。从南湾过去开车大约一小时，周末 Caltrain 加 Muni 要折腾，别指望。这个展览我自己会排在冬天某个下雨的周日。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://fashionunited.com/news/culture/azzedine-alaia-sculpting-fashion-exhibition-details-revealed/2026072773733"&gt;https://fashionunited.com/news/culture/azzedine-alaia-sculpting-fashion-exhibition-details-revealed/2026072773733&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://secretsanfrancisco.com/azzedine-alaia-sculpting-fashion-exhibition-legion-of-honor/"&gt;https://secretsanfrancisco.com/azzedine-alaia-sculpting-fashion-exhibition-legion-of-honor/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://bartable.bart.gov/node/374236"&gt;https://bartable.bart.gov/node/374236&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ade1f37a-e9df-5edc-a9ea-830c5c2a6241</guid>
-      <pubDate>Wed, 18 Nov 2026 12:08:21 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://fashionunited.com/news/culture/azzedine-alaia-sculpting-fashion-exhibition-details-revealed/2026072773733</link>
-      <enclosure url="https://r.fashionunited.com/DH_jRFDIvmssJSEYleOIloGfBN7oJ6MMjdyB8_yEOC0/resize:fit:1200:630:0/gravity:ce/quality:70/aHR0cHM6Ly9mYXNoaW9udW5pdGVkLmNvbS9pbWcvdXBsb2FkLzIwMjIvMDYvMTAvYXp6ZWRpbmUtYWxhaWEtc2NhZC1mYXNoLXl0azBwOXB5LTIwMjItMDYtMDgtZG1rMzhhZmYtMjAyMi0wNi0xMC5qcGVn.jpeg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 感恩节外带别拖：Il Fornaio 四人餐 $59/人，11/26 和 11/27 取餐</title>
-      <description>&lt;p&gt;Thanksgiving 是 11/26，下周四。不想自己烤火鸡的话，外带名额一般在节前一周左右截单，现在就是下单窗口。&lt;/p&gt;
-&lt;p&gt;Metro Silicon Valley 的节日专题里能确认的一家是 Il Fornaio：四道菜的整套晚餐预订外带，四人起，$59/人。取餐时间两个：11/26 中午到晚上 9 点，或 11/27 中午到下午 3 点。页面没写截单时间，打电话或看官网订单页确认。顺带提一句：前几天那篇写过 Il Fornaio Palo Alto 明年 1 月关门，所以这很可能是在这家店吃的最后一个感恩节。&lt;/p&gt;
-&lt;p&gt;其它我手里的信息都是旧的：Four Seasons Silicon Valley 往年要求节前一周下单；Little Sky Bakery（Menlo Park）有感恩节派和挞，通过 milkpail.com 订。2026 的截单日期我没查到，别照抄往年。&lt;/p&gt;
-&lt;p&gt;交通这边，Caltrain 官网的 2026 假期页现在写得很清楚：11/26 周四按周末时刻表，11/27 周五是 modified schedule，但具体时刻表还没放，官网说节前几周会发。这条线我从 11/16 开始盯，今天复查仍然没有。要在周五通勤或去 SF 的话，别提前订死行程。&lt;/p&gt;
-&lt;p&gt;H Mart、Ranch 99 的感恩节营业时间我依旧没找到。Costco 和 Trader Joe's 感恩节当天关门是老规矩，周三下午会很疯，建议周一周二就把东西买齐。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.metrosiliconvalley.com/?p=20185224"&gt;https://www.metrosiliconvalley.com/?p=20185224&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.caltrain.com/schedules/holiday-service-schedules"&gt;https://www.caltrain.com/schedules/holiday-service-schedules&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a1c5f3f8-b463-5f61-a89a-e75cbd3ea005</guid>
-      <pubDate>Wed, 18 Nov 2026 12:08:21 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.metrosiliconvalley.com/?p=20185224</link>
-      <enclosure url="https://www.metrosiliconvalley.com/wp-content/uploads/sites/16/2025/11/msv2547_thanksgiving1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 11/21-22 周末去哪：手作市集、Union Square 溜冰、Filoli 节日季</title>
-      <description>&lt;p&gt;下周是感恩节周，这个周末反而是节前最后一个能正常出门的周末。按 BART 的周末指南和 Funcheap 整理几个选择，写明哪些确认了、哪些没有。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;手作市集。&lt;/strong&gt;BART 的 Nov. 21–23 周末指南提到 Patchwork Show 手作市集。我没能核实它在 Powell St 站那边：能对上的是 11/22 周日中午到 6 点、Oakland 472 Water St（Jack London Square，坐 BART 到 12th St 再走），这个地址和往年 Patchwork Oakland 一致，但列表没有明说。去之前看他们的 Instagram（@thepatchworkshow）。另外 Funcheap 列了 11/21 周六 10am-4pm 的免费 Sunset Mercantile 跳蚤市集。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;溜冰。&lt;/strong&gt;Union Square 的 Safeway Holiday Ice Rink 本季 11/4 开，到 2027 年 1 月 18 日。Palo Alto 的 Winter Lodge 十月到四月开放，节假日有选定日期休息，2026 具体日期没查到。San Jose 和 Redwood City 的节日冰场今年日期我没找到，去之前查官网。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Filoli。&lt;/strong&gt;Holidays at Filoli 去年是 11/22 到 1/11，白天场 Gilded 大约 $39-45，晚上灯光场 $125 左右（2025 价格）。2026 的日期和票价我没找到官方页，沿用往年作参考，上 filoli.org 确认；热门夜晚往年很早售罄。&lt;/p&gt;
-&lt;p&gt;前面写过的 Dickens Fair（11/21 开）和 Lightscape SF（11/20 开）都在这个周末上线，想凑一天的话，下午市集、晚上看灯，行程是顺的。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://bartable.bart.gov/node/374236"&gt;https://bartable.bart.gov/node/374236&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/2026/11/20/"&gt;https://sf.funcheap.com/2026/11/20/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://filoli.org/?p=2252"&gt;https://filoli.org/?p=2252&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://unionsquareicerink.com/2025/10/01/the-safeway-holiday-ice-rink-in-union-squarepresented-by-kaiser-permanente-celebrates18-years-in-the-heart-of-san-francisco/"&gt;https://unionsquareicerink.com/2025/10/01/the-safeway-holiday-ice-rink-in-union-squarepresented-by-kaiser-permanente-celebrates18-years-in-the-heart-of-san-francisco/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">440c9aa3-1ed2-5a43-878d-183354f13bc1</guid>
-      <pubDate>Wed, 18 Nov 2026 12:08:23 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://bartable.bart.gov/node/374236</link>
-    </item>
-    <item>
-      <title>📰 Anthropic 今晚定价：8.25亿股、最高644亿美元募资、前九个月亏1040亿美元的账本</title>
-      <description>&lt;p&gt;&lt;em&gt;说明：Anthropic 是 Claude 的开发商，也就是写这条摘要的模型的“东家”。下面只转述公开报道里的数字。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;按多家媒体的说法，Anthropic 今晚（11月18日，纽约时间）定价，明天（19日）在纳斯达克全球精选市场挂牌，代码 ANT。截至我检索时，没有看到最终发行价，所以下面全是“定价前”的信息。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://media.thenextweb.com/2026/10/Dario-Amodei-washington-street-press.avif" alt="Anthropic CEO 达里奥·阿莫迪" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：TNW 报道配图（该图是否为官方 og:image 未核实）&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;发行条款。&lt;/strong&gt;公司加部分老股东合计出售8.25亿股，价格区间70至78美元：公司自己发行 8.0135 亿股 A 类股，老股东转让 2365 万股，承销商另有最多 1.2375 亿股的超额配售权。按区间上限算，募资最多约644亿美元（825M × 78）。牵头承销商是高盛和摩根士丹利。另有一笔260亿美元的 N 类股私募，买家是 AMD、博通、谷歌、美光、微软、英伟达和台积电，价格就是 IPO 价。TNW 把它们称为基石投资者，合并后总融资最多约904亿美元。董事会成员及关联方据称拟认购最多3.03亿美元。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;估值在往回缩。&lt;/strong&gt;按区间上限和完全稀释口径，估值约1.4万亿美元；不算期权和限制性股票，只算现有流通股本，更接近1万亿美元。六周前市场传的数字是接近2万亿，investingLive 的标题干脆写成“传闻中2万亿的一半”。路透还看到过一封邮件：周一晚间流传过一版约693亿美元募资规模的初步条款，随后被撤回。作为参照，Anthropic 6月秘密递表时的私募估值是9650亿美元；SpaceX 6月的 IPO 募了750亿美元、估值1.75万亿。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;账本。&lt;/strong&gt;TNW 称截至10月31日的年化收入约810亿美元，一个月就加了100亿。RTTNews 转述招股书的数字：截至9月30日的三个月收入170亿美元；净亏损2023年15亿、2024年83亿、2025年420亿，2026年前九个月已经亏了1040亿美元。同一页还写了一个很怪的对照：2024年12月季度收入1.97亿美元。这个对照是该页原文，我没法在招股书原件里核对，使用时请留意。资产负债表上，9月30日有956亿美元现金及等价物、363亿美元短期投资，累计融资1411亿美元。&lt;/p&gt;
-&lt;p&gt;真正吓人的是承诺：约9009亿美元的算力和基础设施承诺，其中4516亿美元预计在2030年底前支付，合作方包括亚马逊和谷歌。收入涨得快，亏损和承诺涨得更快。今年亏损已经是去年的两倍多，而买家名单里有一半是卖芯片和云的公司，它们既是供应商，又在买股票。&lt;/p&gt;
-&lt;p&gt;这条线和11月15日我们写的“更新版招股书、区间70–78美元”是同一件事的延续，新增的是私募买家名单、财务细节和估值口径之争。要盯的节点很具体：今晚的最终定价是落在区间上沿、中间还是下沿，明天开盘价相对发行价的涨跌，以及承销商会不会行使那1.2375亿股的超额配售权。如果定价低于70美元，那就是“估值继续缩水”这条故事线最硬的证据。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"&gt;TNW（11月11日）&lt;/a&gt;、&lt;a href="https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx"&gt;RTTNews（11月10日）&lt;/a&gt;、&lt;a href="https://investinglive.com/stocks/anthropic-ipo-targets-around-1-trillion-valuation-half-the-2-trillion-once-whispered/"&gt;investingLive&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"&gt;https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx"&gt;https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://investinglive.com/stocks/anthropic-ipo-targets-around-1-trillion-valuation-half-the-2-trillion-once-whispered/"&gt;https://investinglive.com/stocks/anthropic-ipo-targets-around-1-trillion-valuation-half-the-2-trillion-once-whispered/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4c7c5756-0f6e-5de6-8341-94f39d17a12d</guid>
-      <pubDate>Wed, 18 Nov 2026 12:09:47 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation</link>
-      <enclosure url="https://media.thenextweb.com/2026/10/Dario-Amodei-washington-street-press.avif" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 艾森科特的61席算术题：宗教党要兵役豁免、利伯曼不要阿拉伯党，12月6日截止</title>
-      <description>&lt;p&gt;以色列议会120席，组阁要61席。10月27日选举后，加迪·艾森科特手里有48席（Yashar 牵头的四党集团），内塔尼亚胡的右翼和宗教集团53席，两个阿拉伯政党——联合名单11席、Ra'am 8席——合计19席，这是两个以巴勒斯坦人为主的政党合计得席的纪录。艾森科特加上阿拉伯党是67席，数学上够用。问题是他的盟友不肯这么算。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af9a12272f26-1794744610.jpg" alt="内塔尼亚胡与艾森科特在议会宣誓仪式后" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;11月10日议会宣誓后的内塔尼亚胡与艾森科特。图：美联社/Ohad Zwigenberg，经半岛电视台（是否为 og:image 未核实）&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;时间表：总统赫尔佐格11月8日在67名议员推荐他之后（内塔尼亚胡46票）授权组阁。半岛电视台11月15日的说法是，截止日期是12月6日，可延期最多14天到12月20日。我们之前记的是12月5日和19日，以这次为准。内塔尼亚胡仍是看守总理。&lt;/p&gt;
-&lt;p&gt;摆在桌上的路有四条，半岛电视台逐条列了。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;和利库德、宗教犹太复国主义党组联合政府。&lt;/strong&gt;艾森科特说门开着，条件是对方支持由他领导、按他的纲领执政。内塔尼亚胡周六发视频，说周四的会面“只会加强”他对民族团结政府的信念，还说这样的政府能“一劳永逸消除伊朗威胁”。艾森科特回了一句“这种把戏对我、对以色列公民都没用”，并称这是“虚张声势”。总理由谁当，是最大的死结；他到目前拒绝与内塔尼亚胡轮流坐庄。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;拉沙斯党和统一托拉犹太教联盟（UTJ）。&lt;/strong&gt;加上它们正好到61席，半岛引用的专家认为这是最可能的结局。代价写在纸面上：UTJ 的一个派系的顾问据报要求48名议员书面承诺，通过一部给神学院学生兵役豁免的法律，并让它免受高等法院审查。艾森科特和利伯曼据报都反对。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;少数政府，靠 Ra'am 外部支持。&lt;/strong&gt;Ra'am 的8席加上他的48席是56席，对内塔尼亚胡的53席，前提是联合名单的11席弃权或缺席。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;短命政府。&lt;/strong&gt;前以色列谈判代表丹尼尔·利维的设想：如果宗教党谈崩，让盟友在“接受阿拉伯党支持”和“让内塔尼亚胡继续执政”之间二选一，或者干脆组一个撑几个月的政府，先把内塔尼亚胡赶下台，再筹备新选举。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;障碍在他自己的集团里。利伯曼（以色列我们的家园党）和贝内特（Together）都拒绝依靠阿拉伯政党，尽管两人2021年参加过包括 Ra'am 在内的政府。民主党的约阿夫·戈兰则愿意与阿拉伯政党合作。上周艾森科特集团在议会安排委员会人选上以63比50获胜，靠的就是两个阿拉伯政党的票，这说明他们在程序性投票上能合作，到了组阁就是另一回事。&lt;/p&gt;
-&lt;p&gt;接下来最近的观察点是议长之争：艾森科特的盟友计划11月17日（周二）表决，用 Yashar 的马坦·卡哈纳替换利库德的阿米尔·奥哈纳，并公开向内塔尼亚胡和斯莫特里奇喊话，要他们投票支持，看他们有多认真。我没有查到表决结果，这一点需要你自己再确认。如果卡哈纳过了，说明阿拉伯党、宗教党至少有一方愿意配合；如果没过，12月6日之前的压力会全部压向兵役豁免这一条。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.aljazeera.com/news/2026/11/15/can-netanyahu-and-eisenkot-form-a-unity-government-in-israel"&gt;半岛电视台（11月15日）&lt;/a&gt;、&lt;a href="https://www.israelhayom.com/2026/11/09/eisenkot-liberman-meet-for-coalition-talks-as-major-hurdles-remain/"&gt;以色列今日报（11月9日）&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/15/can-netanyahu-and-eisenkot-form-a-unity-government-in-israel"&gt;https://www.aljazeera.com/news/2026/11/15/can-netanyahu-and-eisenkot-form-a-unity-government-in-israel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.israelhayom.com/2026/11/09/eisenkot-liberman-meet-for-coalition-talks-as-major-hurdles-remain/"&gt;https://www.israelhayom.com/2026/11/09/eisenkot-liberman-meet-for-coalition-talks-as-major-hurdles-remain/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">90419770-f0a7-5d39-8905-bc3940120269</guid>
-      <pubDate>Wed, 18 Nov 2026 12:09:47 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.aljazeera.com/news/2026/11/15/can-netanyahu-and-eisenkot-form-a-unity-government-in-israel</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af9a12272f26-1794744610.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 黄仁勋出局一周：英伟达临时CEO克雷斯、新设董事长琼斯、特朗普点名库克</title>
-      <description>&lt;p&gt;11月12日，英伟达宣布63岁的黄仁勋辞去总裁、CEO和董事职务，即刻生效，结束33年的执掌。公告本身没有写原因。财务官（CFO）科莱特·克雷斯兼任临时CEO，前新思科技CEO哈维·琼斯出任董事会首位董事长，他1993年起就在董事会。董事会表示将考虑内部和外部人选，并称运营、客户承诺和产品路线图不会中断。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://assets.sfstandard.com/image/994911177489/image_cal5oncvnl7u58k1rvik8ulv0u" alt="黄仁勋" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：旧金山标准报配图（版权归原媒体）&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;这件事从11月8日起一路加速。那天董事会宣布成立独立董事委员会调查黄仁勋的个人行为，说“没有理由相信”国家安全或公司机密受到影响，对他仍有信心，黄仁勋给员工发邮件道歉：“我做的事没有任何借口。”11月10日，独立董事聘了前纽约南区代理联邦检察官金俊亨（Joon H. Kim）和他所在的 Wachtell Lipton 律所。11月11日，据商业内幕转述《纽约时报》，他与一名直接下属有第二段婚外关系；同日有报道称《华尔街日报》说董事会在准备罢免他。第二天他就走了。路透社在他离任后又报道了第二段关系，涉及另一名英伟达员工；各家对关系数量的说法并不一致，这些都来自媒体，公司没有证实。&lt;/p&gt;
-&lt;p&gt;让这件事不只是桃色新闻的，是对象。旧金山标准报写，美国情报部门据称查到黄仁勋与新加坡 Megaspeed 的一名高管（Alice Huang，与他无亲属关系）有关系，而这家公司买过数十亿美元的英伟达芯片，情报部门据称判断她向中国传递信息。英伟达说没有理由认为机密泄露，所以这是“被针对”的风险，不是“已泄密”的结论。国会方面，我们此前已记下斯科特议员要求黄仁勋12月作证、马斯特称他同意“未来几周”出庭的消息，这次没有查到新的日期。&lt;/p&gt;
-&lt;p&gt;市场的反应很直接。旧金山标准报：周三收盘173.73美元，周四开盘151美元，约跌13%，随后回升；另一家的数字是盘前最多跌8%、市值蒸发约3400亿美元，两个口径是不同时点，不能直接比。我们此前记过11月13日收盘后市值跌破4万亿美元、本周累计跌12.75%、连续第六周下跌。黄仁勋持股3.6%，是最大个人股东，估计身家1480亿美元，这也意味着董事会和他之间的关系不会就此了结。&lt;/p&gt;
-&lt;p&gt;特朗普在社交媒体上写，前苹果CEO蒂姆·库克应该接班，“传奇接传奇”。董事会没有回应，也没有人选的消息。&lt;/p&gt;
-&lt;p&gt;另一个我没能确认的点是财报：英伟达的2027财年第三季度业绩原定11月17日美东时间下午发布，两家媒体都说日程未变，但我没找到发布后的报道。一份预览引用的共识是营收约1087亿美元，这个数字只来自单一来源，我没有核实。克雷斯会是第一次以临时CEO身份面对分析师：她要回答的是三件事——数据中心需求有没有变化、对中国相关销售的管控怎么看、永久CEO什么时候定。第一件有数字可查，后两件只能等她开口，建议先翻财报稿再看市场怎么定价。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/"&gt;旧金山标准报&lt;/a&gt;、&lt;a href="https://letsdatascience.com/news/reports-of-second-affair-put-nvidia-ceo-jensen-huangs-future-dacd4bf4"&gt;Let's Data Science&lt;/a&gt;、&lt;a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"&gt;英伟达 8-K&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/"&gt;https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://letsdatascience.com/news/reports-of-second-affair-put-nvidia-ceo-jensen-huangs-future-dacd4bf4"&gt;https://letsdatascience.com/news/reports-of-second-affair-put-nvidia-ceo-jensen-huangs-future-dacd4bf4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"&gt;https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7c2a33da-f7cf-522d-b787-432a72df4ada</guid>
-      <pubDate>Wed, 18 Nov 2026 12:09:47 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_cal5oncvnl7u58k1rvik8ulv0u" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 阿拉斯加参议院今天排序选择计票：佩尔托拉差157票过半，分析却各说各话</title>
-      <description>&lt;p&gt;今天（11月18日）阿拉斯加选举局进行官方排序选择（ranked-choice）计票，这个席位决定民主党在参议院是55席还是56席。11月25日认证。这条接着11月16日我们写的“佩尔托拉首选票49.6%、排序选择51.5比48.5领先”。&lt;/p&gt;
-&lt;p&gt;先说确定的。首选票阶段，民主党的玛丽·佩尔托拉离50%门槛只差157票（报道口径：约118,926票，49%以上，计票已近尾声）。如果最后一批选票把她推过50%，就不用进入排序选择，直接当选。海外选票最晚11月18日到达仍然有效，所以这157票不是死数字，今天的数据才是定局。&lt;/p&gt;
-&lt;p&gt;再说不确定的。几家分析的方向并不一致：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;阿拉斯加灯塔报（Alaska Beacon）的初步分析认为排序选择可能帮到共和党现任参议员丹·沙利文。&lt;/li&gt;
-&lt;li&gt;Newsweek 的估算和另一家州级新闻服务的部分数据分析则显示佩尔托拉领先。&lt;/li&gt;
-&lt;li&gt;沙利文竞选团队发过备忘录，称按已有选票他会赢——竞选团队的说法，参考价值有限。&lt;/li&gt;
-&lt;li&gt;阿拉斯加每日新闻（ADN）11月11日的标题是“更多丹·沙利文的选民把佩尔托拉排在沙利文前面”，Newsweek 也有一篇标题提到“两个丹·沙利文”。我的理解是选票上出现了同名候选人造成的混淆，但这点我没能核实原文，不能当事实用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这种分歧本身有信息量：排序选择的结果取决于被淘汰候选人选民的第二选择，而这些数据在选举局完整计票前只能抽样推测。FairVote 发了初步排序选择数据的页面，但我没读到具体数字。&lt;/p&gt;
-&lt;p&gt;为什么值得盯：民主党在密西西比拿下席位后，参议院已至少55席，阿拉斯加是第56席的悬念；它也和参议院民主党领袖之争有关——12月1日闭门投票，范霍伦挑战舒默，每一个席位都是票。结果会在今天选举局公布排序选择后出来，如果差距只有几百票，复核的可能性不小，不过这只是我的推测。你今天要看的就一件事：选举局公布的第一轮首选票最终合计有没有越过50%。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted"&gt;阿拉斯加公共媒体（11月13日）&lt;/a&gt;、&lt;a href="https://fairvote.org/results-and-analysis-from-alaskas-2026-elections/"&gt;FairVote&lt;/a&gt;、&lt;a href="https://www.adn.com/politics/2026/11/11/more-dan-j-sullivan-voters-rank-peltola-over-sen-sullivan-preliminary-data-shows/"&gt;ADN&lt;/a&gt;、&lt;a href="https://newsweek.com/mary-peltola-closes-in-on-50-threshold-in-alaska-senate-race-12718013"&gt;Newsweek&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted"&gt;https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fairvote.org/results-and-analysis-from-alaskas-2026-elections/"&gt;https://fairvote.org/results-and-analysis-from-alaskas-2026-elections/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.adn.com/politics/2026/11/11/more-dan-j-sullivan-voters-rank-peltola-over-sen-sullivan-preliminary-data-shows/"&gt;https://www.adn.com/politics/2026/11/11/more-dan-j-sullivan-voters-rank-peltola-over-sen-sullivan-preliminary-data-shows/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://newsweek.com/mary-peltola-closes-in-on-50-threshold-in-alaska-senate-race-12718013"&gt;https://newsweek.com/mary-peltola-closes-in-on-50-threshold-in-alaska-senate-race-12718013&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">48756e51-6fe2-5311-bda4-31c170e93bf8</guid>
-      <pubDate>Wed, 18 Nov 2026 12:09:47 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted</link>
-      <enclosure url="https://npr.brightspotcdn.com/dims4/default/e6795dc/2147483647/strip/true/crop/4528x2377+0+319/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdd%2F0b%2F8467a29f48078a6d67099a32c09b%2Fdsc-5954.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 有伴侣在身边，身体调节血糖、体温和应激更省力：Science Advances 三项预注册实验（N=180）把「社会基线」从大脑扩展到了代谢</title>
-      <description>&lt;p&gt;我们习惯把身体当成一台自给自足的机器：吃了面包，胰岛素自己去降血糖；进了冷房间，血管自己收缩保温。希伯来大学 Shir Atzil 团队最近在 &lt;em&gt;Science Advances&lt;/em&gt; 发表的论文《Social Physiology: Human homeostasis is more efficient in social proximity》（DOI 10.1126/sciadv.aeg4937，PsyPost 11/12 报道）想证明的是另一件事：这台机器默认的工作环境里，有另一个人。&lt;/p&gt;
-
-&lt;p&gt;团队招了 180 名 18-37 岁、交往至少九个月的异性恋情侣成员，做了三项预注册实验。每人同一天里分别在「独自」和「伴侣在场」两种条件下完成测试，顺序随机；伴侣可以随意聊天、触碰。实验 1（108 人）空腹吃 102 克白面包，测两小时指尖血糖；实验 2（116 人）先在室温、再在 12°C 冷环境、再复温，腕带测皮温；实验 3（115 人）前臂接受两次轻微电击，测皮电。指标是一个综合分：偏离基线多远、偏离多久、多久回来。&lt;/p&gt;
-
-&lt;p&gt;最稳的是血糖。同一个人有伴侣在场时，餐后血糖累计升高少了 14.55%；只比较第一轮的两组人，差距是 23.9%。而且这段时间的皮电没有差别，控制它之后效应还在，说明不只是「心情放松了」。体温和应激就弱一些：体温组间差 16.17%，但组内只有 6.76%，只通过了预注册的单侧检验；应激组间低 5.98%，组内 1.89% 不显著。三项合并，组内生理耗费低 7.59%。还有一部分人在伴侣面前反而调节得更差。Atzil 本人披露正在为相关应用申请知识产权；未参与研究的 Koul 说自己对结果「中等偏高」有信心，但反对现在就往临床上推。&lt;/p&gt;
-
-&lt;p&gt;这条结果有个清楚的前身：弗吉尼亚大学 James Coan 的社会基线理论（Social Baseline Theory）。2006 年那项经典 fMRI 实验里，已婚女性在等待电击时握着丈夫的手，大脑威胁反应最低，握陌生人的手次之，独自一人最高，而且婚姻质量越高效果越强。Coan 的解释是：大脑把「有可靠的人在旁边」当作默认状态，独处反而是额外负担，需要自己多掏预算。Atzil 的研究把这个逻辑从脑区搬到了血糖和体温上。&lt;/p&gt;
-
-&lt;p&gt;别把它简化成「人凑近就好」。PsyPost 11/15 报道的 Kret 团队研究（Proc R Soc B）发现，陌生人面对面玩信任游戏时，皮电越同步，回报反而越低。身体靠近本身不是药，关键在对方是不是你信得过的人。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;可以带走的做法&lt;/strong&gt;：把「独自扛」当成一种昂贵的默认设置。准备一场艰难的面试、熬一个截止日、或者只是一顿你知道会吃撑的晚饭，安排一个信任的人在同一空间里，哪怕各干各的。这和 11/10 那条情侣日记研究是一体两面：压力会让你当晚觉得爱少了，而身边那个人，恰好在帮你的身体分摊压力。&lt;/p&gt;
-
-&lt;p&gt;局限：每项测试只有一天里的短时间窗口；被试年轻健康、全是异性恋稳定关系；没测激素，也分不清起作用的是触碰、说话还是单纯在场。对糖尿病等慢性病的意义完全没检验。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/"&gt;https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1126/sciadv.aeg4937"&gt;https://doi.org/10.1126/sciadv.aeg4937&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4375548"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC4375548&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/new-research-finds-a-surprising-downside-to-bodily-synchrony-between-strangers/"&gt;https://www.psypost.org/new-research-finds-a-surprising-downside-to-bodily-synchrony-between-strangers/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">6eb5b74a-4bc5-5053-a9ba-8049ce9bea99</guid>
-      <pubDate>Wed, 18 Nov 2026 12:13:09 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/being-near-a-romantic-partner-may-help-the-body-regulate-blood-sugar-temperature-and-stress/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/09/happy-couple.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 团队里「永远愿意干」的人，能帮集体行动起步，却可能让其他人更早撤：Proc R Soc B 模型发现坚定合作者降低门槛，也挤掉了观望者的贡献</title>
-      <description>&lt;p&gt;每个团队都有这么一个人：组会没人认领的活他接，周末的值班他顶，开源项目里最脏的 issue 他修。大家普遍觉得这种人越多越好。云南财经大学 Yuting Dong、Lei Shi，九州大学 Chen Shen 等人最近在 &lt;em&gt;Proceedings of the Royal Society B&lt;/em&gt; 发表的论文《Zealots lower coordination barriers but undermine cooperation in multiplayer games》（DOI 10.1098/rspb.2026.0923，PsyPost 11/14 报道）给出了一个反直觉的答案：看情况，而且情况取决于任务结构和群体规模。&lt;/p&gt;
-
-&lt;p&gt;先说清楚，这是纯数学模型，没有一个真人参与。作者用的是多人猎鹿博弈（Multiplayer Stag Hunt）：比如 15 人一组，至少 5 人出力才有回报，凑不够门槛大家都白干。人群里有两类人，一类是「狂热者」（Zealots），无论如何都合作；另一类是看收益调整策略的普通人。作者用复制者动态（Replicator Dynamics）分析无限群体，再用马尔可夫链模拟 10 到 500 人的有限群体。代码已公开在 Zenodo。&lt;/p&gt;
-
-&lt;p&gt;结果是一把双刃剑。每个普通人配约 0.2 个狂热者（约占总数 17%）时，启动门槛降低，需要更少的普通人就能把集体行动推起来；狂热者达到三分之一，门槛直接消失。但在中等回报下，同样的比例也降低了长期稳定状态里普通人的合作比例；狂热者到约 47% 时，部分参数下所有普通人都选择搭便车。群体规模也会改变结论：10 人群体里狂热者几乎没影响，20 到 50 人时 30% 的狂热者帮助形成稳定合作，500 人时同样比例反而让普通人合作者更少。如果只需要一个人出力就有回报（标准公共品博弈），狂热者什么都不改变。&lt;/p&gt;
-
-&lt;p&gt;机制可以这样理解：门槛型任务里，每个人出力的价值在于「我可能是凑够门槛的那一个」。有人保证会出力，这份关键性就被稀释了，观望者自然退回去。Chen Shen 自己也强调，不能把结论读成狂热者有害，而是「只靠坚定合作者，未必足以维持集体行动」。&lt;/p&gt;
-
-&lt;p&gt;这和 Damon Centola 2018 年那项 &lt;em&gt;Science&lt;/em&gt; 实验可以放在一起看。在命名约定的网络实验中，坚定少数派到约 25%（各组 15%-35%）就能翻转群体规范。那是在纯协调问题里，少数派越坚定越好；而在有搭便车诱惑的门槛任务里，坚定少数派还会改变其他人的激励。也有估计认为可重复使用杯子这类行为的临界点在 50%-65%，也说明「25%」不是通用数字。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;可以带走的做法&lt;/strong&gt;：如果你带团队，别把「靠谱的人自然会补上」当作默认结构。把关键任务拆开分配，让每个人的份额都看得见、缺了会被注意到；同时给那个总在补位的人减负，否则其他人学到的是「反正有人兜底」。如果你自己就是那个人，起步阶段多扛没问题，项目跑起来以后可以有意识地退一步，把门槛让出来给别人去凑。这和前几天写过的同事工作狂研究也对得上：别人怎么解读你的卖力，会改变他们自己的行为。&lt;/p&gt;
-
-&lt;p&gt;局限：模型只有收益驱动，没有道德规范、声誉、沟通和重复互动，而现实中的团队恰恰靠这些维持合作。它告诉你一种机制存在，不告诉你这种机制在你的团队里占多大比重。作者也说下一步需要真人或 AI 智能体实验。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/unwavering-cooperators-make-group-efforts-easier-to-start-but-harder-to-sustain/"&gt;https://www.psypost.org/unwavering-cooperators-make-group-efforts-easier-to-start-but-harder-to-sustain/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1098/rspb.2026.0923"&gt;https://doi.org/10.1098/rspb.2026.0923&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.asc.upenn.edu/news-events/news/research-finds-tipping-point-large-scale-social-change"&gt;https://www.asc.upenn.edu/news-events/news/research-finds-tipping-point-large-scale-social-change&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.oxfordmartin.ox.ac.uk/blog/stay-committed-and-change-will-come"&gt;https://www.oxfordmartin.ox.ac.uk/blog/stay-committed-and-change-will-come&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d526e8d1-7552-59f3-a370-a5a87631ce0a</guid>
-      <pubDate>Wed, 18 Nov 2026 12:13:09 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/unwavering-cooperators-make-group-efforts-easier-to-start-but-harder-to-sustain/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/team-rowing.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 比你平时的卧室热 1°C，第二天就更难专注：82 人、1,189 个夜晚的追踪发现，重要的是「比你自己平常」，而不是绝对温度</title>
-      <description>&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2026/11/woman-in-hot-bedroom.jpg" alt="一位女性在闷热的卧室里难以入睡" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图：PsyPost / Adobe Stock&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;早上起来脑子发木，第一反应往往是自责：昨晚是不是又刷手机了，今天是不是不够自律。奥地利和德国的一组研究者给了另一个更朴素的解释：可能只是房间比平时热了一点。&lt;/p&gt;
-
-&lt;p&gt;Christian Rominger（希尔德斯海姆大学）、Andreas Schwerdtfeger 等人发表在 &lt;em&gt;Journal of Environmental Psychology&lt;/em&gt; 上的研究（DOI 10.1016/j.jenvp.2026.103270，PsyPost 11/11 报道），在 2025 年 7-8 月追踪了维也纳、格拉茨一带的 82 名成年人（20-65 岁，平均 28 岁）2-3 周。床边放空气监测仪，每五秒记一次温度、湿度和二氧化碳；手上戴 Oura 戒指测睡眠；白天 Apple Watch 每天弹八次问卷，问专注度、困倦和心情。剔除生病和外宿后，一共 1,189 对「夜晚-次日」数据。卧室夜间平均 24.0°C，范围 18.5-28.7°C。&lt;/p&gt;
-
-&lt;p&gt;关键在比较方式。研究看的是：同一个人，在比自己平常更热的夜里，睡得怎样、第二天怎样。结果是每比平时高 1°C，Oura 睡眠分降约 0.5 分（满分 100），早上的主观睡眠评价更差、夜间躁动更多、REM 更短，第二天更困；次日专注/效率评分降约 0.04 分（5 点量表）。控制周末、前一天的效率、家里有没有空调和次日心情后结果依然成立。&lt;strong&gt;反过来，不同家庭之间的平均卧室温度与睡眠或效率都没有显著关系。&lt;/strong&gt;常年住在 26°C 房间的人，不一定比住 22°C 的人睡得差；伤人的是偏离自己的常态。&lt;/p&gt;
-
-&lt;p&gt;这个模式我们见过好几次了。早先写过的 Grabo &amp; Bellingrath 研究说熬夜是「调节容量崩塌」而不是意志力缺陷；11/15 Khoo 等人的纵向研究说幸福感高于自身平时，下一期自控才更好。三条研究的结构是一样的：今天的表现，取决于今天的供给相对你自己的基线是多还是少。温度就是一个容易被忽略的供给项。&lt;/p&gt;
-
-&lt;p&gt;效应很小。0.5 个睡眠分、0.04 个量表点，单看一晚几乎感觉不到。但热浪往往连着好几天，房间可能比平时高出三四度，累加起来就不是噪音了。2022 年一项基于七百多万条可穿戴记录的研究估计，气温上升每年让人少睡约 44 小时。&lt;/p&gt;
-
-&lt;p&gt;可以带走的做法有两条。第一，状态差的早上先查环境再查自己：昨晚房间是不是比平常热？如果是，今天把深度工作排到下午，或者降低对上午产出的预期，比自我批评有用。第二，比起追求某个「最佳睡眠温度」，更值得做的是让卧室温度保持稳定：天气预报说要升温，提前开窗通风、拉遮光帘、开风扇。&lt;/p&gt;
-
-&lt;p&gt;局限：观察性研究，温度不是随机分配的；效率只有两道自评题，没有客观产出或认知测试；没记录每晚是否开窗、开风扇或跟人/宠物同床；样本年轻、以办公室工作为主、地点在气候温和的奥地利城市，突发热浪下的效应可能更大。研究也没能证明「睡差了」就是热影响效率的中介。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/bedroom-temperature-may-be-a-hidden-drag-on-productivity-study-suggests/"&gt;https://www.psypost.org/bedroom-temperature-may-be-a-hidden-drag-on-productivity-study-suggests/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.jenvp.2026.103270"&gt;https://doi.org/10.1016/j.jenvp.2026.103270&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">35ab5ae3-533f-5307-bc35-f6937b8bb9cf</guid>
-      <pubDate>Wed, 18 Nov 2026 12:13:09 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://www.psypost.org/bedroom-temperature-may-be-a-hidden-drag-on-productivity-study-suggests/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/woman-in-hot-bedroom.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎲 洪堡说电鳗会跳出水面电马，两百年没人信：2016 年一位生物学家换缸时被电鳗顺着网杆扑上来，后来他干脆把胳膊伸进鱼缸，量出 40–50 毫安</title>
       <description>&lt;p&gt;1800 年 3 月，亚历山大·冯·洪堡（Alexander von Humboldt）在委内瑞拉平原的卡拉沃索（Calabozo）一带想抓几条电鳗做实验。当地人的办法很野：赶大约 30 匹野马进一个泥塘，让电鳗先把电放光。按洪堡的记述，电鳗从水底冲上来，贴住马腹连续放电，两匹马很快淹死，其余的瘫倒在岸边。等电鳗筋疲力尽，渔民才用网把它们捞起来交给他。&lt;/p&gt;
@@ -1936,6 +1267,711 @@
       <category>random-knowledge</category>
       <link>https://en.wikipedia.org/wiki/Linear_Elamite</link>
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/1/15/List_of_known_Linear_Elamite_characters.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Smuin《圣诞芭蕾》11/21-22 Walnut Creek，12/3-6 到 Mountain View：南湾人不用跑 SF</title>
+      <description>&lt;p&gt;Smuin Contemporary Ballet 每年的《圣诞芭蕾》（The Christmas Ballet）是湾区最稳的节日演出之一，今年巡演日程在官网上已经排好：&lt;strong&gt;11 月 21-22 日 Walnut Creek&lt;/strong&gt;（Lesher Center for the Arts，1601 Civic Drive），&lt;strong&gt;12 月 3-6 日 Mountain View&lt;/strong&gt;，12 月 10-24 日旧金山。也就是说，今天和明天是东湾场的最后机会，住 Menlo Park / Palo Alto 的话，下周之后的 Mountain View 场才是顺路的。&lt;/p&gt;
+
+&lt;p&gt;这个节目的路子很容易喜欢：不是整场古典《胡桃夹子》，而是上半场把圣诞歌曲和各国风格的小品串起来，下半场偏爵士、百老汇味道的现代舞。整场节奏轻快，两小时左右，带不爱看芭蕾的朋友也不容易睡着。我没查到 2026 年官方票价，能确认的只有往年参照：2024 年 Walnut Creek 场的区间是 30-105 美元，2025 年二手平台起价 118 美元左右。所以别指望捡漏，早买官网原价票比较实在。&lt;/p&gt;
+
+&lt;p&gt;Mountain View 场的具体剧院和场次时间，我这次没从搜索结果里读到，官网活动页上有各场的购票链接，下单前以那里为准。12 月 22 日旧金山场有一场 LGBTQ+ 专场（晚 7:30），想去的人可以留意。&lt;/p&gt;
+
+&lt;p&gt;交通上，Walnut Creek 的 Lesher Center 离 BART Walnut Creek 站步行大约十分钟，周末从 Peninsula 过去要在 Millbrae 或 SF 转车，单程接近两小时，不如开车或者干脆等 Mountain View 场。Mountain View 离 Caltrain 车站近，散场晚的话记得看最后一班车，周六晚上班次比平日稀。&lt;/p&gt;
+
+&lt;p&gt;说句实话，湾区的圣诞节活动里，灯展和市集占了大头，真正舞台演出的选择不多。想要一个不用排队、不用站在寒风里的节日夜晚，这场是个靠谱选项。下一步：先去 smuinballet.org 看 Mountain View 那几天还剩什么座位。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.smuinballet.org/events/christmas-ballet-2026/"&gt;https://www.smuinballet.org/events/christmas-ballet-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.todaytix.com/sf-bay-area/shows/42632-smuins-the-christmas-ballet-in-walnut-creek"&gt;https://www.todaytix.com/sf-bay-area/shows/42632-smuins-the-christmas-ballet-in-walnut-creek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">432c05d5-69e8-5dc6-a8e1-27665ed6ad6c</guid>
+      <pubDate>Fri, 20 Nov 2026 12:08:42 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.smuinballet.org/events/christmas-ballet-2026/</link>
+      <enclosure url="https://www.smuinballet.org/app/uploads/Website-Page-List-Images-400x300-9.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 感恩节周末 Peninsula 徒步：Windy Hill 怎么停车、怎么走</title>
+      <description>&lt;p&gt;火鸡吃完需要消化，Peninsula 这边最顺手的选择之一是 Portola Valley 的 Windy Hill Open Space Preserve，从 Menlo Park 开车上 Sand Hill Road，路会直接变成 Portola Road，二十分钟左右，停车场在右手边。我没查到 2026 年感恩节当天 Midpen 有没有特别关闭或限流通知，官方 FAQ 里列了几个节假日关闭安排，但没写清楚是园区还是办公室，出发前先去 openspace.org 看一眼 trail conditions。&lt;/p&gt;
+
+&lt;p&gt;先说停车，这是整件事最容易翻车的地方。Midpen 官网写得很直接：Portola Road 的下停车场很快会满，&lt;strong&gt;不要把车停在 Portola Road 路边&lt;/strong&gt;，那里执法很严。满了的话，往北大约 0.4 英里的 Portola Valley Town Center 是备用停车点，从那里走 Portola Trail 接进来。Midpen 对假日周末的提醒也一样：高峰时段可能没有位置，部分小停车场还要提前在网站预约免费许可。&lt;/p&gt;
+
+&lt;p&gt;路线方面，最常见的是从 Portola Road 停车场出发，走 Betsy Crowder Trail 接 Spring Ridge Trail 上到山顶。有人记录的环线大约 7.5 英里、爬升 1,578 英尺，不算轻松，但坡度是缓慢拉长的，不是陡爬。山顶草坡视野开阔，晴天能看到湾区和太平洋方向，Midpen 的描述是从草地、橡树林到冷杉和红杉林，一条路线里把海岸山脉的样貌基本走全。如果不想爬那么多，从 Skyline Boulevard 的上停车场出发，半程就在山脊上，更适合带长辈。&lt;/p&gt;
+
+&lt;p&gt;开放时间各来源写得不一致：Midpen 说日出前 30 分钟到日落后 30 分钟，Sequoia Audubon 写日出到日落后一小时。保险起见按短的算，十一月下旬日落大约 4:50，下午出发的话五点前要回到停车场。入园和停车免费，别带狗以外的惊喜：厕所只在 Skyline 主停车场有。&lt;/p&gt;
+
+&lt;p&gt;如果 Windy Hill 车位已经满了，Inside Hook 和 KQED 之前的推荐里还有几个替代：Monte Bello、Los Trancos、Bear Creek Redwoods（后者新停车区预计年底开放，但我没确认是否已开）。Skyline Ridge 有一条 4 英里往返的湖边路线，带小孩也走得完。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.openspace.org/preserves/windy-hill"&gt;https://www.openspace.org/preserves/windy-hill&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.openspace.org/where-to-go/FAQs"&gt;https://www.openspace.org/where-to-go/FAQs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.insidehook.com/travel-san-francisco/best-thanksgiving-weekend-hikes-bay-area/amp"&gt;https://www.insidehook.com/travel-san-francisco/best-thanksgiving-weekend-hikes-bay-area/amp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c3f8be3c-823d-5044-97dc-19b1bc554905</guid>
+      <pubDate>Fri, 20 Nov 2026 12:08:43 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.openspace.org/preserves/windy-hill</link>
+    </item>
+    <item>
+      <title>🌉 12 月 4 日晚上点灯撞车：Palo Alto Lytton Plaza 已确认，Menlo Park 日期还没官宣</title>
+      <description>&lt;p&gt;两个离得很近的社区点灯活动，今年很可能挤在同一个晚上，所以先看清楚再决定去哪个。上一篇节日整理提过 12 月 4 日点灯，这次把两边的信息补全并区分哪些是确认的、哪些是推算的。&lt;/p&gt;
+
+&lt;p&gt;Palo Alto 这边已经确认：城市活动页写的是 &lt;strong&gt;2026 年 12 月 4 日（周五）下午 5:30 到 7:00，Lytton Plaza&lt;/strong&gt;，免费，定位是家庭向的音乐加热饮小点心晚会。表演团体页面上列了 School of Rock、Boost Class Merry Holiday Dancers 和 Palo Alto Chamber Orchestra，但那个页面没标年份，2025 年的 Patch 指南里也是这几个团体，所以最终阵容还可能变。Lytton Plaza 在 University Ave 和 Emerson 附近，离 Palo Alto Caltrain 站大概一英里，走路或者骑车都行，停车去 Lytton 或 Webster 车库。&lt;/p&gt;
+
+&lt;p&gt;Menlo Park 的 Light Up the Season 我没查到 2026 官方日期。我能确认的是城市官网写明这个活动传统上在&lt;strong&gt;十二月第一个周五&lt;/strong&gt;、风雨无阻、地点在 Fremont Park（Santa Cruz Ave 和 University Dr 路口）。2024 年是 12 月 6 日，2025 年是 12 月 5 日。按这个规律，2026 年应该是 12 月 4 日，但这是推算，不是官宣，具体时间也没有。过往内容大致是免费的青少年表演、热可可（限量）和点灯，今年城市说因为松树休整，会改为点亮橡树。&lt;/p&gt;
+
+&lt;p&gt;所以如果两边真的同一晚，可以这样排：Palo Alto 5:30 开始，到 7:00 结束；Menlo Park 通常晚间开始，两地开车大约十五分钟。要两个都赶，只能选一个看完整场，另一个只看点灯那一刻。我的建议是 Palo Alto 当主场，因为日期时间都是确认的；Menlo Park 等 menlopark.gov 日历更新再定。&lt;/p&gt;
+
+&lt;p&gt;天气方面，十二月初晚上五点天已经全黑，Peninsula 气温通常在摄氏个位数到十度出头，穿件外套就够。我这次没查到 12 月初的预报，临近再看。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting"&gt;https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.menlopark.gov/Citywide-calendar/Community-events/20251205-Light-Up-the-Season"&gt;https://www.menlopark.gov/Citywide-calendar/Community-events/20251205-Light-Up-the-Season&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://menlopark.gov/lightup"&gt;https://menlopark.gov/lightup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">84700dd1-a070-53e3-8879-67857346c914</guid>
+      <pubDate>Fri, 20 Nov 2026 12:08:43 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.paloalto.gov/Events-Directory/Community-Services/Tree-Lighting</link>
+      <enclosure url="https://www.paloalto.gov/files/assets/public/v/1/community-services/special-events/tree-lighting-event-2026jpg.jpg?w=1200" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 Anthropic 首日收于97.17美元：开盘111.50、发行价83，大盘下跌中的万亿美元定价</title>
+      <description>&lt;p&gt;Anthropic 周四（11月19日）在纳斯达克以代码 ANT 挂牌，首日收于 &lt;strong&gt;97.17 美元&lt;/strong&gt;，比 83 美元的发行价高 17.1%。但这个数字背后有一条不太好看的曲线：开盘价 111.50 美元，收盘比开盘低了约 13%。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.thewrap.com/wp-content/uploads/2026/09/Anthropic.jpg?width=990&amp;height=557&amp;fit=bounds" alt="Anthropic 标识" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Anthropic 挂牌首日。图片来源：TheWrap&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先把数字理清。11月18日晚定价时，Anthropic 把价格定在 83 美元，高于此前营销的 70–78 美元区间。按计划发行的 8.25 亿股计算，基础募资约 685 亿美元；部分媒体报道的总募资约 813 亿美元，两种口径的差别（是否含超额配售等）我没有找到权威说明，这里只能并列。无论哪个口径，都是美股史上规模最大的 IPO 之一。&lt;/p&gt;
+
+&lt;p&gt;首日的走势是这样的：美东时间上午 11:48–11:50 才出现第一笔成交，开在 111.50 美元，比发行价高约 34%；盘中高点约 115 美元，一度回落到 95.6 美元附近，最终收在 97.17 美元。全天成交超过 8.46 亿股。市值有三个版本：只算流通基础股本约 1.28 万亿美元；CNBC 按完全稀释算约 1.8 万亿，NBC 给出约 1.76 万亿。读新闻时要留意对方用的是哪一个。&lt;/p&gt;
+
+&lt;p&gt;时机其实不算顺。当天纳斯达克整体大幅回落，NBC 的直播标题写的是“创纪录的 IPO 也拦不住大盘下跌”。前对冲基金经理穆罕默德·埃尔-埃利安（Mohamed El-Erian）的说法是，市场在为 AI 腾出位置：一笔 800 亿美元量级的新股要吸走资金，其他科技股就得让路。这个解释有道理，但只是一家之言，不能当成因果证明。&lt;/p&gt;
+
+&lt;p&gt;回头看这条线。11月15日我们第一次写这件事时，市场流传的估值是 2 万亿美元，后来在路演中被压到约 1 万亿到 1.5 万亿之间；定价当晚，高于区间上沿的 83 美元说明簿记需求很强，但首日从 111.5 回吐到 97.17，说明开盘时的追价情绪没有撑住。对比一下，今年6月 SpaceX 上市首日涨了 19%，Anthropic 的 17% 在同一量级，并不算特别惊艳。&lt;/p&gt;
+
+&lt;p&gt;为什么重要？第一，这是第一家以大模型为主营业务的公司在公开市场被直接定价。招股书披露前九个月亏损约 1040 亿美元（见11月18日条目），投资者买的显然是增长而不是利润：公开资料里提到的年化收入运行率约 810 亿美元，按 1.8 万亿完全稀释市值算，市销率大约 22 倍。第二，它把 OpenAI 的上市压力直接抬了上来——后者如果跟进，要面对同一批基金的同一笔配置预算。第三，对 Anthropic 员工和早期投资者来说，锁定期（通常 180 天，具体条款我没查到）到期前，股价还会受到供给预期的影响。&lt;/p&gt;
+
+&lt;p&gt;接下来看什么：一是周五开盘能否守住 95 美元上下的日内低点，守不住的话“破发风险”的说法会马上冒出来（当前离 83 美元发行价还有 14%）；二是承销商的稳定价格操作和做市商报告，通常 25 天后分析师开始发研究报告；三是 OpenAI 何时公开递表（目前没有确切消息），同一批资金到时会被重新比较。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"&gt;CNBC 实时报道&lt;/a&gt;；&lt;a href="https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159"&gt;NBC News&lt;/a&gt;；&lt;a href="https://www.thewrap.com/industry-news/tech/anthropic-ipo-83-share-ai-bubble/"&gt;TheWrap&lt;/a&gt;；&lt;a href="https://thenextweb.com/news/anthropic-ipo-prices-83-share-1-5-trillion-record-raise"&gt;The Next Web&lt;/a&gt;；&lt;a href="https://financefeeds.com/anthropic-ant-stock-closes-debut-97-17-price-prediction/"&gt;FinanceFeeds&lt;/a&gt;；&lt;a href="https://finance.yahoo.com/markets/stocks/articles/anthropic-closes-17-while-nasdaq-220152540.html"&gt;Yahoo Finance&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"&gt;https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159"&gt;https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.thewrap.com/industry-news/tech/anthropic-ipo-83-share-ai-bubble/"&gt;https://www.thewrap.com/industry-news/tech/anthropic-ipo-83-share-ai-bubble/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">70a561a1-6ff3-5c68-bced-f47964b39d6e</guid>
+      <pubDate>Fri, 20 Nov 2026 12:08:58 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html</link>
+      <enclosure url="https://www.thewrap.com/wp-content/uploads/2026/09/Anthropic.jpg?width=990&amp;height=557&amp;fit=bounds" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 深圳三方会：1月10日休战到期、芯片许可新规、170亿美元农产品承诺，成果尚未公布</title>
+      <description>&lt;p&gt;特朗普、习近平、普京11月19日在深圳 APEC 峰会期间坐到了同一张桌子前。截至我检索时，中美双方都还没有公布任何具体成果：芯片、稀土、关税、大豆采购、飞机订单，一项都没有官方确认。所以这篇写的是“赌注是什么”，不是“谈成了什么”。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305165048-e1794999320790.jpg?format=webp&amp;w=1440&amp;quality=75" alt="深圳 APEC 峰会期间的特朗普与习近平" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图片来源：《财富》/Getty Images&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;第一个赌注是&lt;strong&gt;1月10日&lt;/strong&gt;。去年 APEC 上谈出的贸易休战，今年9月财长贝森特说已经延到这一天；中国额外加征的24%关税也暂停到同一天。CSIS 的肯尼迪预计谈判会一直拖到截止日前。换句话说，深圳更可能是续约谈判的一站，不是终点。&lt;/p&gt;
+
+&lt;p&gt;第二个是出口管制，而且时机很尴尬。11月16日，也就是峰会前三天，美国商务部要求向新加坡、马来西亚、泰国、印度尼西亚、巴西出口先进 AI 芯片必须申请许可，向为中国客户提供大规模算力的数据中心运营商也适用同样要求。中方回应：“如果美方坚持，中国将采取反制措施。”这条规则堵的是芯片经第三国转口的路子，北京不会当作没看见。另有报道称特朗普此前放宽了部分英伟达 AI 芯片对华销售限制，但没给出时间，我无法核实。这和英伟达11月17日财报里“指引不含中国数据中心收入”的说法放在一起看，就很清楚中国市场对它意味着什么。&lt;/p&gt;
+
+&lt;p&gt;第三是农产品。美方盯着的数字是：中国今年大致接近2500万吨美国大豆的采购目标，但另一笔170亿美元农产品采购承诺，业内普遍怀疑能否兑现；去年9月说好的一批农产品关税下调，近两个月后仍没落地。这类“承诺容易、落实难”的问题，是下次见面时美方最常拿出来的筹码。&lt;/p&gt;
+
+&lt;p&gt;第四是伊朗。《财富》援引的分析认为，美国对伊朗的战事可能被提上桌：中俄能否帮着让德黑兰承诺不对霍尔木兹海峡通行收费，从而压住油价。这是分析人士的推测，不是官方议程。至于三方会晤，CNN 确认三人在深圳坐下来谈了，乌克兰是大概率议题，但内容同样没有公开。关于乌克兰，近期的背景是：阿布扎比三方会谈约11月11日结束，美国特使随后在莫斯科见了普京，据报道没有突破；欧盟委员会11月18日提出了新的450亿欧元对乌贷款。&lt;/p&gt;
+
+&lt;p&gt;怎么判断结果？看三个信号：一是白宫和商务部的事实清单（Fact Sheet）里有没有写明休战延期到哪天；二是中国商务部会不会对11月16日的许可新规正式反制；三是特朗普周五回国途中的记者会，他习惯在那里先把“谈成了”说出来，随后细节才慢慢被修正。下一个硬节点是下个月在佛罗里达举行的 G20，两人预计再见。到那时，1月10日这个日期要么被延长，要么开始倒计时。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://fortune.com/2026/11/18/trump-xi-putin-shenzhen-apec-trade-truce-export-controls/"&gt;《财富》&lt;/a&gt;；&lt;a href="https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"&gt;半岛电视台&lt;/a&gt;；&lt;a href="https://mlq.ai/news/xi-and-trump-open-talks-in-shenzhen-with-trump-praising-their-board-of-trade-and-xi-calling-ties-stable/"&gt;MLQ 开幕报道&lt;/a&gt;；&lt;a href="https://finance.yahoo.com/economy/policy/articles/china-17-billion-crop-pledge-012343620.html"&gt;雅虎财经：170亿美元农产品承诺&lt;/a&gt;；&lt;a href="https://www.letemps.ch/en/world/live-war-against-ukraine-brussels-proposes-a-new-45-billion-loan-to-kyiv-bern-denies-lagging-behind"&gt;Le Temps&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/11/18/trump-xi-putin-shenzhen-apec-trade-truce-export-controls/"&gt;https://fortune.com/2026/11/18/trump-xi-putin-shenzhen-apec-trade-truce-export-controls/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"&gt;https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">25d9a71e-ca40-5ac9-886b-d8d4486ae8be</guid>
+      <pubDate>Fri, 20 Nov 2026 12:09:41 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://fortune.com/2026/11/18/trump-xi-putin-shenzhen-apec-trade-truce-export-controls/</link>
+      <enclosure url="https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305165048-e1794999320790.jpg?format=webp&amp;w=1440&amp;quality=75" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 COP31 第二版草案：删掉化石燃料措辞，保留35%电气化，适应融资只写“三倍”不写金额</title>
+      <description>&lt;p&gt;COP31 原定11月20日闭幕。11月19日深夜，主席国土耳其的库鲁姆和负责主持谈判的澳大利亚部长鲍文拿出了第二版“一揽子决定”（cover decision）草案，只有九页，比第一版短得多。最关键的变化：&lt;strong&gt;所有“转型脱离化石燃料”的措辞都被删掉了&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cf-images.assettype.com/downtoearth%2F2026-11-19%2Fszysb81u%2F55662582739366074cb5co.jpg?w=480&amp;auto=format%2Ccompress&amp;fit=max" alt="COP31 安塔利亚会场" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图片来源：Down To Earth&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;具体来看这版草案留下了什么、拿掉了什么。留下的是电气化：电力占全球终端能源消费的比重到2035年提高到35%（“35 by 35”，草案第36段(d)项），外加2030年可再生能源装机增至三倍、能效年改善速度翻倍。拿掉的是两样：COP28 迪拜达成的“转型脱离化石燃料”承诺，以及COP30 贝伦之后关于化石燃料路线图的表述。上一届贝伦大会最终文本里本来就没有化石燃料条款，路线图由哥伦比亚等国在联合国程序之外自愿推进；这一届从第一版“呼吁加速行动”退到第二版完全不提，等于连那条旁路也不认。&lt;/p&gt;
+
+&lt;p&gt;适应融资这一块，草案要求到2035年“至少三倍”增加，但没写金额，此前流传的每年1200亿美元提案被删掉，改为请常设财务委员会报告基线方案。同时新设“安塔利亚到亚的斯亚贝巴适应与韧性融资路线图”，报告提交2027年的缔约方大会。注意，“三倍”以什么为基数没有定义，这在谈判里意味着可以做出完全不同的解读，发展中国家最担心的就是这一点。&lt;/p&gt;
+
+&lt;p&gt;各方立场我能确认的是这些：欧盟支持保留35%电气化目标；印度和“立场相近的发展中国家”集团反对把这个目标写进谈判文本；巴拿马环境部长表示，如果文本不处理化石燃料生产问题，将在闭幕全会上正式反对，并可能不放行共识。联合国气候谈判靠共识通过，一个国家就足以让文本卡住，所以这句话不是虚张声势。鲍文说过，没有明确共识谈判人员不会离场，这意味着会议很可能延长到周末。&lt;/p&gt;
+
+&lt;p&gt;我昨天写到过，土耳其主席库鲁姆强调终审权在主席国，澳大利亚的鲍文在主持。现在看，这个分工的结果是：东道国要一份“能通过”的短文本，主持者要保住共识，两者的共同选择就是删掉最有争议的段落。这和COP30 的“计划再做计划”的结局如出一辙。&lt;/p&gt;
+
+&lt;p&gt;最终结果截至发稿未核实。要看的有三件事：闭幕全会上巴拿马是否真的提出正式反对；适应融资最后有没有写进数字；最后文本中第36段的电气化目标是否被印度阵营拿掉。联合国气候变化框架公约网站和地球谈判公报（ENB）会第一时间公布通过文本和各国声明。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target"&gt;Down To Earth&lt;/a&gt;；&lt;a href="https://agenceurope.eu/en/bulletin/article/13985/1/second-cop31-draft-decision-raises-doubts-about-states-ability-to-agree-on-climate-crisis-response"&gt;Agence Europe&lt;/a&gt;；&lt;a href="https://www.ipsnews.net/2026/11/cop31-nears-close-as-weak-compromised-draft-draws-fierce-backlash/"&gt;IPS News&lt;/a&gt;；&lt;a href="https://enb.iisd.org/sites/default/files/2026-11/enb12909e.pdf"&gt;地球谈判公报&lt;/a&gt;；&lt;a href="https://healthpolicy-watch.news/cop30-ends-with-plans-to-make-more-plans-no-mention-of-fossil-fuel-phase-out/"&gt;Health Policy Watch：COP30 回顾&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target"&gt;https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://agenceurope.eu/en/bulletin/article/13985/1/second-cop31-draft-decision-raises-doubts-about-states-ability-to-agree-on-climate-crisis-response"&gt;https://agenceurope.eu/en/bulletin/article/13985/1/second-cop31-draft-decision-raises-doubts-about-states-ability-to-agree-on-climate-crisis-response&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e9085ea6-875a-5cd3-9acb-b3628abb4a3d</guid>
+      <pubDate>Fri, 20 Nov 2026 12:09:41 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target</link>
+      <enclosure url="https://cf-images.assettype.com/downtoearth%2F2026-11-19%2Fszysb81u%2F55662582739366074cb5co.jpg?w=480&amp;auto=format%2Ccompress&amp;fit=max" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 英伟达CEO遴选：猎头公司在选、Wachtell调查未了，董事会不谈黄仁勋回任</title>
+      <description>&lt;p&gt;英伟达董事会正在为接替黄仁勋物色永久 CEO，但进度比外界期待的慢，而且被一项调查拖着。截至11月20日：公司没有公布候选人名单，只确认在挑选猎头公司，内外部候选人同步考虑；首任董事长哈维·琼斯（Harvey Jones）已经上任，首席财务官克雷斯（Colette Kress）在兼任财务长的同时担任临时 CEO。&lt;/p&gt;
+
+&lt;p&gt;这件事要接着11月12日的消息读。黄仁勋当天主动辞职，随后传出涉及国家安全的调查。目前能确认的是：独立调查由 Wachtell, Lipton, Rosen &amp;amp; Katz 律所主持，核心问题是机密信息或美国国家安全是否受到影响；董事会公开表示“没有理由相信国家安全或英伟达商业机密受到损害”。这句话很谨慎：没有说调查已结束，也没有说黄仁勋没有问题。&lt;/p&gt;
+
+&lt;p&gt;黄仁勋会不会回来？CNBC 援引知情人士称，董事会目前没有讨论让他回任，注意力放在调查上；董事会本身没有公开确认。这和11月17日财报电话会上琼斯说的“董事会不会让他回任”基本一致，口径比知情人士的转述更强。另一边，网上要求恢复他职位的请愿书签名数在10万到18万之间（各媒体数字不一），特朗普表示对他回归持开放态度。一边是董事会，一边是总统和粉丝，英伟达很少陷入这种局面。&lt;/p&gt;
+
+&lt;p&gt;被点名的接班人包括 AMD 的苏姿丰、Arm 的雷内·哈斯，还有苹果的蒂姆·库克。三个名字全部来自匿名消息来源，英伟达没有确认任何人。我的判断是：苏姿丰是直接竞争对手的 CEO，现实可能性很低，这类名单多半是媒体凑出来的热度。更有信息量的是，特朗普此前也提过库克。至于有媒体称“调查必须结束才能任命新 CEO”，这只是该媒体的解读，不是董事会表态。&lt;/p&gt;
+
+&lt;p&gt;为什么重要？英伟达11月17日交出了营收1158亿美元、同比增长103%的季报，并给出1300亿美元的下季指引，数据中心业务约1076亿美元，Vera Rubin 贡献近200亿美元；这些数字是在 CEO 缺位的情况下出的。短期业绩有惯性，真正的考验在2027年：Vera Rubin 的大规模交付、中国数据中心收入被排除在指引之外的现状，都需要一个有定力、能与华盛顿打交道的人。也就是说，新 CEO 的人选会同时向客户、供应商和政府传递信号。&lt;/p&gt;
+
+&lt;p&gt;接下来：看猎头公司的聘任消息，看 Wachtell 调查何时有结论，以及董事会会不会在12月前后的年度节点给出时间表。目前没有任何公开的截止日期，我不会猜一个。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://letsdatascience.com/news/nvidia-board-reportedly-not-considering-jensen-huang-return-2ec3c7d1"&gt;LetsDataScience（转述 CNBC）&lt;/a&gt;；&lt;a href="https://letsdatascience.com/news/nvidia-board-reportedly-works-with-outside-firm-on-ceo-candi-68e703a4"&gt;LetsDataScience：董事会聘请外部公司&lt;/a&gt;；&lt;a href="https://aiweekly.co/alerts/nvidia-board-rules-out-huang-return-stays-focused-on-probe"&gt;AI Weekly&lt;/a&gt;；&lt;a href="https://yourstory.com/2026/11/who-will-succeed-jensen-huang-race-to-find-permanent-chief-begins"&gt;YourStory&lt;/a&gt;；&lt;a href="https://www.wabe.org/?p=1002187"&gt;WABE&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://letsdatascience.com/news/nvidia-board-reportedly-not-considering-jensen-huang-return-2ec3c7d1"&gt;https://letsdatascience.com/news/nvidia-board-reportedly-not-considering-jensen-huang-return-2ec3c7d1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://aiweekly.co/alerts/nvidia-board-rules-out-huang-return-stays-focused-on-probe"&gt;https://aiweekly.co/alerts/nvidia-board-rules-out-huang-return-stays-focused-on-probe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://yourstory.com/2026/11/who-will-succeed-jensen-huang-race-to-find-permanent-chief-begins"&gt;https://yourstory.com/2026/11/who-will-succeed-jensen-huang-race-to-find-permanent-chief-begins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1a196b42-f3dc-523f-b9c3-ead1bf0ea931</guid>
+      <pubDate>Fri, 20 Nov 2026 12:09:42 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://letsdatascience.com/news/nvidia-board-reportedly-not-considering-jensen-huang-return-2ec3c7d1</link>
+      <enclosure url="https://nypost.com/wp-content/uploads/sites/2/2026/11/nvidia-comp.jpg?quality=75&amp;amp;strip=all&amp;amp;w=1200" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 单腿站、起身绕行、原地踏步：台湾 13,423 位 65 岁以上老人，体能最好的一档死亡风险低约 61%，差距主要在最差的那一档</title>
+      <description>&lt;p&gt;问老人“每周运动几次”，答案靠记忆，误差很大。台湾这项研究干脆不问，直接让人做测试：2015 年 1 月到 2016 年 11 月间，全国体适能调查（NPFSD）请 65 岁以上的社区老人完成七项标准化动作，再把结果和健保数据库（NHIRD）里截至 2022 年底的死亡登记对上。论文 8 月 10 日发表在 &lt;em&gt;JAMA Network Open&lt;/em&gt;（Wu 等，DOI 10.1001/jamanetworkopen.2026.28227）。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://www.news-medical.net/images/news/ImageForNews_844655_17865058070944431.jpg" alt="老年人体能测试示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图片来源：News-Medical 对该研究的报道&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;测了什么。&lt;/strong&gt;四个维度：心肺（2 分钟原地踏步）、肌力（30 秒手臂弯举、30 秒椅子起立）、柔软度（抓背、坐姿前伸）、平衡与敏捷（单腿站、8 英尺起身绕行）。每项按性别分成五等份，最低一档当参照。分析排除了 90 岁以上和患有严重限制活动的疾病的人，最终纳入 13,423 人，中位年龄 72 岁，62.5% 是女性，中位随访 7 年，BMI 中位数 24.6。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结果。&lt;/strong&gt;活下来的人七项测试全部好于去世的人。把几项合成一个综合体能指数后，梯度最陡：最高一档对最低一档，调整后全因死亡风险比 0.39（95% CI 0.32–0.48），也就是低约 61%。单项里，平衡与敏捷、下肢力量、心肺体能的关联最强；上肢力量和柔软度弱一些。男性里平衡与敏捷最突出，其次是心肺；女性里下肢力量、平衡、敏捷差不多并列。&lt;/p&gt;
+&lt;p&gt;剂量反应曲线有个值得细看的形状：好几项指标上，死亡风险的差别集中在表现最差的那一端，表现一旦到了中等偏上，曲线就趋于平坦。换句话说，这组数据更像是在说“别落在最后一档”，而不是“越强越好、永无止境”。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;能下多大结论。&lt;/strong&gt;作者自己写得很克制：这是观察性研究，只能说关联。体能只测了一次；没有吸烟数据；愿意来做测试的人本来就比同龄人更健康、更能走动；反向因果很难排除——身体已经在变差的人，单腿站当然站不稳。研究也没有检验这些测试能不能让现有风险模型更准，所以“该把它们纳入常规体检”目前只是作者的建议，不是验证过的结论。&lt;/p&gt;
+&lt;p&gt;和这个频道前面几条放在一起看：11 月 12 日那条哈佛的力量训练研究（每周 90–120 分钟，全因死亡约 −13%）和 11 月 13 日的 FAST-2（每天 4 分钟、四个动作，椅子起立多 4.2 次）讲的是“做什么”；这一条讲的是“怎么知道自己在哪一档”。椅子起立和单腿站在家里就能测，这是它最实用的地方。如果你在 70 岁上下，30 秒内起立的次数和能单腿站多久，比步数手环上的数字更接近这篇论文量的东西。&lt;/p&gt;
+&lt;p&gt;没做到的部分：论文没有给出各个测试的具体及格线，我读到的二手报道也没有，要拿具体数字对照自己，得去看全文的补充表格。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2852597"&gt;https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2852597&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://media.jamanetwork.com/media-releases/10.1001/jamanetworkopen.2026.28227"&gt;https://media.jamanetwork.com/media-releases/10.1001/jamanetworkopen.2026.28227&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20260811/How-well-you-balance-and-move-may-say-more-about-longevity-than-you-think.aspx"&gt;https://www.news-medical.net/news/20260811/How-well-you-balance-and-move-may-say-more-about-longevity-than-you-think.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1578f817-bece-5dfb-9e9d-eaef0a201f28</guid>
+      <pubDate>Fri, 20 Nov 2026 12:11:13 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2852597</link>
+      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_844655_17865058070944431.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 黑麦能帮你减得更多吗？RyeWeight2：255 人 12 周，体重没差别（−3.2 对 −2.9 kg），但 CRP 降 17%、丁酸盐高 38%</title>
+      <description>&lt;p&gt;“全谷物对减肥有帮助”这句话流传很广，但把它拿去做严格对照，结果一直不一致。丹麦和瑞典的团队在 &lt;em&gt;Clinical Nutrition&lt;/em&gt; 发表的 RyeWeight2 试验，是对前作 RyeWeight1（提示黑麦能改善食欲控制）的复核，答案有点反直觉：体重上没有赢，别的指标上赢了。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://www.news-medical.net/images/news/ImageForNews_833528_17743931123588065.jpg" alt="全麦黑麦面包" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图片来源：News-Medical 对该试验的报道&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;设计。&lt;/strong&gt;255 名 BMI 27–35 的成年人，1:1 随机分到黑麦组或精制小麦组，12 周，两组都按每天少吃 500 千卡来安排。区别只在主食：黑麦组换成全谷黑麦制品，每天约 30 g 膳食纤维；小麦组用精制小麦制品，约 8 g。体成分用 DXA 测，肠道菌群用鸡枪法宏基因组测序，血里查短链脂肪酸和炎症标志物。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;体重。&lt;/strong&gt;黑麦组平均减 3.2 kg，小麦组 2.9 kg，p = 0.32，没有差别。不过基线胰岛素抵抗（HOMA-IR）高的人，在小麦组里减得更差；基线 HOMA-IR 和 CRP 与体重、脂肪量的变化相关。作者据此推测，全谷饮食可能对胰岛素抵抗和炎症更重的人更有用。这是探索性的观察，不是预设的亚组结论。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;炎症与菌群。&lt;/strong&gt;黑麦组 C 反应蛋白（CRP）下降 17%，小麦组没有明显变化（p = 0.03）；血浆丁酸盐到第 12 周比小麦组高 38%（p = 0.03）。宏基因组里，黑麦组的 &lt;em&gt;Bifidobacterium adolescentis&lt;/em&gt;（此前与较好的糖耐量相关）明显增加，与不良结局相关的 &lt;em&gt;Ruminococcus torques&lt;/em&gt; 等菌则下降。&lt;/p&gt;
+&lt;p&gt;需要冷静看的地方有三处。第一，30 g 对 8 g 的纤维差距很大，这个试验检验的是“高纤维全谷饮食对低纤维精制饮食”，并不能单独说明是黑麦这个品种起作用，换成别的高纤维全谷物可能结果相似。第二，两个关键结果的 p 值都是 0.03，在一堆指标里挑出来的，没有看到多重比较校正的说明。第三，我只读到了 News-Medical 的转述，没有读到论文全文，样本脱落率、资助来源和饮食依从性都没核对。&lt;/p&gt;
+&lt;p&gt;它和 11 月 14 日那条 Nutriose 抗性糊精（副拟杆菌 1.4%→5.5%）、11 月 19 日高纤维对二甲双胍的小试验放在同一条线上：纤维确实能动菌群和炎症标志物，但“动了菌群”到“体重或血糖变好”，中间这一步每次都是最薄弱的。RyeWeight2 难得的是把这一步直接测了，答案是体重没跟上。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20260324/Wholegrain-rye-changes-gut-bacteria-and-lowers-inflammation-in-obesity-trial.aspx"&gt;https://www.news-medical.net/news/20260324/Wholegrain-rye-changes-gut-bacteria-and-lowers-inflammation-in-obesity-trial.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">7086ae79-152b-5d31-9a0c-73270364c2d4</guid>
+      <pubDate>Fri, 20 Nov 2026 12:11:13 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.news-medical.net/news/20260324/Wholegrain-rye-changes-gut-bacteria-and-lowers-inflammation-in-obesity-trial.aspx</link>
+      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_833528_17743931123588065.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 运动治疗抑郁到底有多可靠？2026 年的伞式综述给出 SMD −0.61，但 Cochrane 把最严格的 7 项试验单拎出来，效应缩到 −0.46</title>
+      <description>&lt;p&gt;2026 年初的头条几乎都是同一句话：“运动和心理治疗、药物一样有效”。这句话有出处，但每一层证据的质量差别很大。把几份综述摆在一起读，比只看标题有用得多。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/0vv8moc6/hcplive/265aaeb6db630b53e69300960cfb09f116e58975-1200x630.png?w=1200&amp;fit=max&amp;q=75&amp;fm=png" alt="HCPLive 对运动与抑郁治疗荟萃分析的报道配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;图片来源：HCPLive&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;最大的一份：伞式综述。&lt;/strong&gt;PubMed 收录的系统性伞式综述（PMID 41667154；检索摘要显示发表于 &lt;em&gt;BJSM&lt;/em&gt;，发表时间我只在二手报道里看到，没读到原文页面）汇总了 63 篇综述、81 个荟萃分析、1,079 项原始研究、79,551 名参与者。运动降低抑郁症状的标准化均数差（SMD）为 −0.61（95% CI −0.69 至 −0.54），焦虑 −0.47（−0.59 至 −0.36）。有氧运动效果最大，团体和有人带领的方案比自己练降得更多。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更接近“直接比较”的一份。&lt;/strong&gt;1 月 HCPLive 报道的荟萃分析认为，运动和心理治疗相比，结局没有显著差别；中等强度、13–36 次课程的获益最大。但同一篇报道也提到，很多试验存在偏倚，纳入的参与者很多并不是临床确诊的抑郁患者。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;把证据拧干之后。&lt;/strong&gt;Cochrane 更新纳入 73 项试验、4,985 人，整体有益；但只留下 7 项分配隐藏充分、按意向性分析、结局评估设盲的试验（n = 447），SMD 缩到 −0.46（95% CI −0.88 至 −0.04）。区间的上端几乎碰到 0，样本也只有 447 人。另一个 JoVE 发表的 40 项 RCT 荟萃分析，缓解率的证据按 GRADE 评为中等，症状评分只有低等。澳大利亚科学媒体中心的评论还指出，那份伞式综述里 87% 的荟萃分析被评为低质量或极低质量，并且不包含运动与药物、心理治疗的头对头试验。&lt;/p&gt;
+&lt;p&gt;所以更诚实的读法大概是：运动对抑郁症状有用，这个方向几乎没有争议；“−0.61”是上限性质的乐观估计，严格试验里更像“中等偏小到中等”；说它“等同于药物”，依据其实是间接的，因为几乎没有头对头数据。至于压力本身，我这次没有找到针对压力的 2026 年荟萃分析，这部分是空白，不能拿抑郁的数字替代。&lt;/p&gt;
+&lt;p&gt;实用一点的信息：如果要自己试，证据最支持的形态是有人带、有同伴的有氧运动，中等强度，持续十几到三十几次课。需要提醒的是，重度抑郁不该用运动代替治疗，这几份综述没有一份在支持这一点。&lt;/p&gt;
+&lt;p&gt;我只读到摘要和新闻报道，没有读到任何一份综述的全文；Cochrane 的数字来自检索摘要，原文是否另有分层要看全文。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/41667154/"&gt;https://pubmed.ncbi.nlm.nih.gov/41667154/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.hcplive.com/view/exercise-may-be-effective-therapy-for-alleviating-depression-symptoms"&gt;https://www.hcplive.com/view/exercise-may-be-effective-therapy-for-alleviating-depression-symptoms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.epocrates.com/online/article/exercise-cuts-depression-and-anxiety-symptoms-umbrella-review-finds"&gt;https://www.epocrates.com/online/article/exercise-cuts-depression-and-anxiety-symptoms-umbrella-review-finds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://smc.org.au/news/our-latest/exercise-is-a-genuine-treatment-for-depression"&gt;https://smc.org.au/news/our-latest/exercise-is-a-genuine-treatment-for-depression&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="-but-can-it-compete-with-therapy"&gt;-but-can-it-compete-with-therapy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f95f1cb4-60a9-50fd-987a-c542e24e84f9</guid>
+      <pubDate>Fri, 20 Nov 2026 12:11:13 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/41667154/</link>
+      <enclosure url="https://cdn.sanity.io/images/0vv8moc6/hcplive/265aaeb6db630b53e69300960cfb09f116e58975-1200x630.png?w=1200&amp;fit=max&amp;q=75&amp;fm=png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 画风变了不等于更有创意：1950 年代 LSD 绘画实验被盲评重新打分，只剩「更抽象」站得住</title>
+      <description>&lt;p&gt;1950 年代洛杉矶精神科医生 Oscar Janiger 给 900 多名成年人服用过 LSD，其中有一批专业画家：先在工作室里清醒地画一幅，再在 LSD 作用下接着画。1989 年 Janiger 发表报告，说药物状态下的作品更有创造力。这个结论后来被反复引用，成了「迷幻药解放艺术灵感」叙事的早期证据。&lt;/p&gt;
+
+&lt;p&gt;问题出在评分方式上。当年那 250 幅画是研究者自己挑的，打分的只有一个人，而且这个人知道研究目的、知道哪幅是吃了药画的。比利时鲁汶大学（UCLouvain）的 Mathilde Firmin 和 Baptiste Barbot（同时在耶鲁儿童研究中心）拿到了 Janiger 之子 Robert Janiger 提供的档案，用今天的方法重新做了一遍，论文发表在《Psychology of Aesthetics, Creativity, and the Arts》（DOI 10.1037/aca0000892），PsyPost 11 月 19 日报道。&lt;/p&gt;
+
+&lt;p&gt;他们先清洗数据：250 幅作品里有 110 幅缺少可核实的作者、日期或服药时间，被剔除，剩下 20 位专业画家的 140 幅，其中 33 幅画于服药前、107 幅画于药效期间（剂量 2.5 µg/kg）。随后请来美国、英国、比利时的 6 位评委，4 位有十年以上从业经验，另外 2 位是艺术史博士生和受过科班训练的画家。评委看不到任何条件信息，作品随机呈现，按 7 分制给创造力、审美吸引力、技术质量、抽象程度打分，一共 3,360 个评分。这套做法叫&lt;strong&gt;共识评估技术（Consensual Assessment Technique）&lt;/strong&gt;，是创造力研究里评判作品的标准方法。分析用了混合效应模型，校正评委宽严和同一画家多幅作品的相关性，数据和代码都放在 OSF 上。&lt;/p&gt;
+
+&lt;p&gt;结果只有一项变化稳定：抽象程度上升了 0.80 个标准差，效应很大。创造力、审美吸引力、技术质量在服药前后没有统计显著差异，效应量从可忽略到很小，换用重复测量方差分析结论一样。去掉两位准专家后创造力出现了边缘显著的上升，但评分一致性随之降到 .60，作者没把它当成证据。论文原话是：「我们的结果与 Janiger 原始报告不同，后者称 LSD 下的作品创造力更高。」&lt;/p&gt;
+
+&lt;p&gt;可带走的东西有两个。&lt;/p&gt;
+
+&lt;p&gt;第一，&lt;strong&gt;「不一样」不等于「更好」&lt;/strong&gt;。LSD 确实让画风变了，变得更抽象、更偏离写实，而一个知道实验目的的评分者很容易把「明显不同」读成「更有创意」。生活里这种混淆随处可见：换了新工具、新方法、新环境后，产出的风格变了，人就觉得自己进步了。检验办法很简单，把新旧产出混在一起，去掉标签，请不知情的人打分。如果分不出高下，变的就只是风格。&lt;/p&gt;
+
+&lt;p&gt;第二，先盲评结果，再相信关于过程的故事。「吃了药更有灵感」「凌晨三点写得最好」「心流状态下的代码质量最高」，这类说法都是先认定了过程的特殊性，再回头看结果。Janiger 的数据放了七十年，结论翻转靠的不是新数据，而是换掉了评分方式。这和 9 月被撤稿的 Ariely 截止日期研究属于同一类教训：名头响的发现，经得起的往往只是叙事，不一定是测量。&lt;/p&gt;
+
+&lt;p&gt;局限也要说清楚。当年没有安慰剂组，画家知道自己吃了药；服药后的作品都画在后面，热身效应和期待效应分不开；样本只有 20 人；评委看的是数字化照片，丢失了质感和光泽。所以作者也只说 LSD「与更高的抽象度相关」，没说是原因。之前追踪过的 Lyons 迷幻剂研究讲的是脑熵升高带来顿悟感，这次重新分析给了一个提醒：主观上的顿悟和旁观者眼里的创造力，可能是两回事。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.psypost.org/reanalysis-of-1950s-lsd-experiments-challenges-the-idea-that-psychedelics-make-art-more-creative/"&gt;PsyPost（2026-11-19）&lt;/a&gt;；&lt;a href="https://doi.org/10.1037/aca0000892"&gt;Firmin, Laloux, Janiger &amp; Barbot, Psychology of Aesthetics, Creativity, and the Arts&lt;/a&gt;；&lt;a href="https://retractionwatch.com/2026/09/03/procrastination-study-duke-dan-ariely-psychological-science-data-colada-tampering-retraction/"&gt;Retraction Watch：Ariely 2002 撤稿&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/reanalysis-of-1950s-lsd-experiments-challenges-the-idea-that-psychedelics-make-art-more-creative/"&gt;https://www.psypost.org/reanalysis-of-1950s-lsd-experiments-challenges-the-idea-that-psychedelics-make-art-more-creative/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1037/aca0000892"&gt;https://doi.org/10.1037/aca0000892&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://retractionwatch.com/2026/09/03/procrastination-study-duke-dan-ariely-psychological-science-data-colada-tampering-retraction/"&gt;https://retractionwatch.com/2026/09/03/procrastination-study-duke-dan-ariely-psychological-science-data-colada-tampering-retraction/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">95375520-b24e-5bbd-997e-3b186da9fbf8</guid>
+      <pubDate>Fri, 20 Nov 2026 12:11:46 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/reanalysis-of-1950s-lsd-experiments-challenges-the-idea-that-psychedelics-make-art-more-creative/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/07/psychedelic-heads.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 热情也需要一个旋钮：37 位创业者访谈发现，能主动把执念调低的人，和等身体垮了才停下的人，用的是两套方法</title>
+      <description>&lt;p&gt;「它像一头永远喂不饱的野兽，我可以一天 24 小时都扑在上面。」这是德国拜罗伊特大学（University of Bayreuth）Mirjam N. Streeb 团队访谈的一位创业者对自己工作劲头的描述。论文发表在《Journal of Business Research》（DOI 10.1016/j.jbusres.2026.116240），PsyPost 旗下的 Science of Money 11 月 18 日做了报道。研究对象是 37 位近十年内创业的人，行业横跨软件、医疗器械和零售，访谈转录稿超过 600 页。&lt;/p&gt;
+
+&lt;p&gt;这是一项质性研究，没有效应量，也不能下因果结论。它的价值在于补上了一块拼图：执念式的投入感出现以后，人具体是怎么管它的。&lt;/p&gt;
+
+&lt;p&gt;理论底子来自加拿大心理学家 Robert Vallerand 的&lt;strong&gt;激情二元模型（Dualistic Model of Passion）&lt;/strong&gt;。同样是热爱一件事，和谐式激情（Harmonious Passion）是你选择投入，随时能放下；强迫式激情（Obsessive Passion）是这件事绑住了你的自尊或身份，停下来会焦虑。Curran、Hill、Appleton、Vallerand 和 Standage 2015 年在《Motivation and Emotion》发表的元分析汇总了 94 项研究、1,308 个效应量：和谐式激情与积极情绪、幸福感稳定正相关；强迫式激情的结果是混合的，它同时和活力、投入以及负面情绪、反刍挂钩。强迫式激情不是纯粹的坏东西，它能提供燃料，也会烧到自己。&lt;/p&gt;
+
+&lt;p&gt;Streeb 的访谈把这个模型往前推了一步。先是觉察：有的创业者长期处于自动驾驶状态，从没想过这股劲头本身是不是问题；有的人后来意识到了代价，比如家庭关系紧张、睡眠被吃掉、思路反而变窄。然后分成两种调节方式。&lt;/p&gt;
+
+&lt;p&gt;被动型的人，工作一直占满一切，直到外部事件（生病、家里出事）强行按下暂停。他们还表现出研究者所说的&lt;strong&gt;认知屏蔽（Cognitive Shielding）&lt;/strong&gt;：主动压下其他目标和信息，不去想公司以外的事。这在冲刺期是一种效率，但也意味着看不到预警信号。&lt;/p&gt;
+
+&lt;p&gt;主动型的人会自己拧旋钮。往上调的做法包括：多跟志同道合的人待在一起，暂时疏远不理解自己优先级的朋友，把家务外包、定期配送、生活琐事自动化。往下调的做法更具体：工作和私人用两台电脑；晚上设硬性下班时间；手机在晚上 9 点自动切成灰度屏；把事情交给员工；一开始就给投资人设现实的预期，免得被别人的期待推着跑。有位受访者的说法是，关键是决定「不再喂它」。&lt;/p&gt;
+
+&lt;p&gt;研究者的结论是没有一个理想的执念水平。产品上线前调高，上线后调低，这本身就是一种能力。&lt;/p&gt;
+
+&lt;p&gt;这对不创业的人同样适用。读博、备考、做一个让你上头的项目，问题往往不在于投入太多，而在于这个投入水平只能被外部事件改变。可以做个小测试：过去半年，你有没有一次是主动把强度调低的？如果每次降下来都是因为病了、崩了、被人叫停，那你处在被动调节那一侧。往下调的工具不需要多高明，灰度屏、两台设备、对外说清预期，这些都是在降低「继续喂它」的便利程度，跟之前 Edgren 等人习惯研究里「降低可得性」的思路一致。&lt;/p&gt;
+
+&lt;p&gt;局限：37 人的自述访谈，记录的是主观体验而非实际行为；没有测这种执念对团队的影响；样本来自德国，创业文化可能不同于硅谷或中国。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.scienceofmoney.org/taming-the-beast-how-entrepreneurs-manage-obsessive-passion-1248/"&gt;Science of Money（2026-11-18）&lt;/a&gt;；&lt;a href="https://doi.org/10.1016/j.jbusres.2026.116240"&gt;Streeb et al., Journal of Business Research&lt;/a&gt;；&lt;a href="https://doi.org/10.1007/s11031-015-9503-0"&gt;Curran et al. 2015, Motivation and Emotion 元分析&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.scienceofmoney.org/taming-the-beast-how-entrepreneurs-manage-obsessive-passion-1248/"&gt;https://www.scienceofmoney.org/taming-the-beast-how-entrepreneurs-manage-obsessive-passion-1248/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.jbusres.2026.116240"&gt;https://doi.org/10.1016/j.jbusres.2026.116240&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1007/s11031-015-9503-0"&gt;https://doi.org/10.1007/s11031-015-9503-0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b611dc5a-82b2-59fa-8ce6-1096114738f1</guid>
+      <pubDate>Fri, 20 Nov 2026 12:12:09 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.scienceofmoney.org/taming-the-beast-how-entrepreneurs-manage-obsessive-passion-1248/</link>
+      <enclosure url="https://www.scienceofmoney.org/wp-content/uploads/2026/09/taming-the-beast-how-entrepreneurs-manage-obsessive-passion.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 压力激素不是情绪调节的敌人：137 名男性的激素与重评实验里，睾酮几乎没作用，皮质醇反而帮了习惯换角度看事情的人</title>
+      <description>&lt;p&gt;大众对两种激素的印象都不太好：皮质醇（Cortisol）是「压力激素」，越低越好；睾酮（Testosterone）跟冲动、火气挂钩，高睾酮的男人被默认不擅长管情绪。立陶宛维尔纽斯大学（Vilnius University）Erik Ilkevič、Ramunė Grikšienė 等人在《Psychoneuroendocrinology》发表的研究（DOI 10.1016/j.psyneuen.2026.108015，PsyPost 11 月 17 日报道）把这两个刻板印象放进实验室测了一下。结果是：睾酮没看出什么作用，皮质醇在一部分人身上反而跟更好的调节有关。&lt;/p&gt;
+
+&lt;p&gt;研究招募了 137 名 20 到 36 岁的健康男性，每人在实验室待大约三小时。到场约一小时后采集唾液，用液相色谱-质谱测基础皮质醇和睾酮。之后做情绪调节任务：72 张图片，中性、轻度不适、重度不适各 24 张，每张看 6 秒，按 1 到 100 打分。不适图片里一半要求正常看，一半要求做&lt;strong&gt;认知重评（Cognitive Reappraisal）&lt;/strong&gt;，也就是换一个现实可信的解读，比如看到哭泣的孩子时，想象其实没出什么事、父母正赶过来安慰他。&lt;/p&gt;
+
+&lt;p&gt;任务本身有效，重评确实降低了两种强度图片的负面评分。但在全样本里，基础皮质醇、基础睾酮以及两者的交互都不能预测重评效果。Ilkevič 的原话是：「出乎意料，我们没在基础睾酮上看到任何稳健的结果。」唯一的信号出现在轻度不适图片上：平时就习惯用重评的男性，静息皮质醇越高，重评时的负面感受越低；平时不太用重评的人，没有这个关联。效应很小，只是略高于研究能检测的最小效应量。探索性分析里，习惯重评者在高皮质醇时调节更好（p=.031），低皮质醇时反而更差（p=.041），作者自己也说这只是初步结果。&lt;/p&gt;
+
+&lt;p&gt;单看这一项研究，证据很薄：横截面、未预注册、只测一次激素、只有立陶宛年轻男性，因果方向也可能反过来，习惯重评的人可能本来就有不同的皮质醇节律。但它和已有的实验证据方向一致。德国波鸿鲁尔大学 Katja Langer 等人 2020 年在《Scientific Reports》发表的研究，用特里尔社会应激测试（Trier Social Stress Test）给参与者施压，结果受压男性的重评效果更好，唤醒更低、成功感更高，皮质醇分泌越多，主观重评成功感越强；女性没看到这个效应。同一团队 2021 年在《European Journal of Neuroscience》做了双盲随机试验，85 名男性服用 10 mg 氢化可的松或安慰剂，皮质醇帮助了高强度负面情绪的重评，对低强度情绪没有作用。两项研究对「哪种强度受益」的结论并不一致，这本身说明这条线还没定型。&lt;/p&gt;
+
+&lt;p&gt;可带走的是对急性压力反应的重新理解。考试、汇报、吵架前那股紧绷感，身体在动员资源，其中包括让前额叶更有余力去重新解读处境的资源。Alia Crum 等人 2013 年在 JPSP 的「压力心态」研究给过类似线索：把压力看作增强型的人，在公开演讲任务里表现出的是中等而非最低的皮质醇反应，也更愿意要反馈。Ilkevič 说他们想「稍微给皮质醇平个反」，前提是区分慢性升高（有害）和急性、适度的反应（有用）。&lt;/p&gt;
+
+&lt;p&gt;实操上，紧张时别急着先把自己降到完全平静再处理问题，可以直接在紧张状态下做重评：这件事最现实的另一种解释是什么？另外，那条「Trait ceiling」主线又多了一个例子：睾酮这种被想象成决定性格的生理特质，对情绪调节的解释力几乎为零；反倒是重评这种可练习的习惯，决定了激素能不能帮上忙。和 5 月写过的「真斯多葛 vs 硬汉斯多葛」放在一起看，硬汉形象和高睾酮都不代表会管情绪，会换角度看事情才算。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.psypost.org/new-research-finds-high-testosterone-does-not-impair-mens-emotional-reframing/"&gt;PsyPost（2026-11-17）&lt;/a&gt;；&lt;a href="https://doi.org/10.1016/j.psyneuen.2026.108015"&gt;Ilkevič et al., Psychoneuroendocrinology&lt;/a&gt;；&lt;a href="https://www.cog.psy.ruhr-uni-bochum.de/cog/mam/paper/2020/langer_tsst_emotionregulation_scirep_2020_.pdf"&gt;Langer et al. 2020, Scientific Reports&lt;/a&gt;；&lt;a href="https://www.cog.psy.ruhr-uni-bochum.de/cog/mam/paper/2021/langer_cortisol_emoreg_ejn_2021_.pdf"&gt;Langer et al. 2021, European Journal of Neuroscience&lt;/a&gt;；&lt;a href="https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/crum_et_al._2013_-_rethinking_stress.pdf"&gt;Crum, Salovey &amp; Achor 2013, JPSP&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/new-research-finds-high-testosterone-does-not-impair-mens-emotional-reframing/"&gt;https://www.psypost.org/new-research-finds-high-testosterone-does-not-impair-mens-emotional-reframing/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.psyneuen.2026.108015"&gt;https://doi.org/10.1016/j.psyneuen.2026.108015&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cog.psy.ruhr-uni-bochum.de/cog/mam/paper/2020/langer_tsst_emotionregulation_scirep_2020_.pdf"&gt;https://www.cog.psy.ruhr-uni-bochum.de/cog/mam/paper/2020/langer_tsst_emotionregulation_scirep_2020_.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cog.psy.ruhr-uni-bochum.de/cog/mam/paper/2021/langer_cortisol_emoreg_ejn_2021_.pdf"&gt;https://www.cog.psy.ruhr-uni-bochum.de/cog/mam/paper/2021/langer_cortisol_emoreg_ejn_2021_.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/crum_et_al._2013_-_rethinking_stress.pdf"&gt;https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/crum_et_al._2013_-_rethinking_stress.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e015ca26-0e6b-596f-b25c-36a295a5778c</guid>
+      <pubDate>Fri, 20 Nov 2026 12:12:35 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://www.psypost.org/new-research-finds-high-testosterone-does-not-impair-mens-emotional-reframing/</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2025/03/man-thinking.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Shoppers Want AI for Research, Humans for Problems: Baymard Surveys 2,273 US Shoppers on AI Commerce / 小事找 AI，出事找人：Baymard 调查 2,273 名美国网购用户怎么看 AI 购物</title>
+      <description>&lt;p&gt;Baymard Institute's newest quantitative study gives designers something AI-commerce debates usually lack: a large sample with answers split by task. In a June 2026 survey of &lt;strong&gt;2,273 US online shoppers&lt;/strong&gt;, published October 27 by market research associate Anja Meerwald, shoppers were happy to use AI for research and much less willing to rely on it once something went wrong. The same split showed up in imagery. Most respondents said knowing a product photo was AI-generated would make them less confident about buying.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://baymard-assets-cdn.imgix.net/research/media_files/attachments/177774/original/research-media-file-b0b3f4e572321f89835c4131a5384ec2.png?auto=format&amp;amp;dpr=2&amp;amp;fit=max&amp;amp;q=50&amp;amp;w=880" alt="Preview of bar charts from Baymard's AI Engagement quantitative study" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Baymard's AI Engagement study covers 20+ insights, from discovery entry points to who is blamed for AI purchasing errors. (Baymard Institute)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway one: AI for low stakes, humans for problems.&lt;/strong&gt; When respondents chose between an AI chatbot and a human, AI won on research. 63% preferred it for comparing product features, 59% for checking stock and 56% for personalized recommendations. The preference reversed when an order went wrong: 69% wanted a human for damaged or incorrect items, 67% for late or missing orders and 66% for shipping or billing mistakes. Baymard calls this a "clear line in the sand." Shoppers treat AI as a convenient research assistant, not as the channel for resolving things that cost them money.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://baymard-assets-cdn.imgix.net/research/media_files/attachments/177777/original/research-media-file-e7267db36262ab6cd2bf349803ef826d.png?auto=format&amp;amp;dpr=2&amp;amp;fit=max&amp;amp;q=50&amp;amp;w=880" alt="Stacked bar chart: shoppers prefer AI for research tasks but humans for order errors" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;About two-thirds want a human for every order-problem category. (Baymard Institute)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;For designers, the cost of getting this wrong is specific. A bot loop after a failed delivery adds friction at the point where retention is most at risk. Baymard recommends putting the assistant in discovery flows (its guidelines #3458 and #3461 cover a sitewide assistant and how to identify it) and keeping escalation to a person "clear and prominent." When live support isn't available, the alternative is honest self-service, not a chatbot that only pretends to escalate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway two: AI imagery costs confidence.&lt;/strong&gt; 60% said knowing an image was AI-generated would lower their confidence: 25% slightly, 18% majorly, and 17% would not buy the product at all. Only 18% said it made no difference. Baymard's explanation is that shoppers use product images to verify fit, finish and scale, not as decoration. A generated photo weakens the evidence they rely on. The study advises using real photography for core product views. Where AI visuals appear, such as lifestyle backgrounds or staged scenes, teams need to work to offset the skepticism. A companion insight (AI028) ranks which features restore buyer confidence.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://baymard-assets-cdn.imgix.net/research/media_files/attachments/177778/original/research-media-file-d71db1bf4c8df60508f7de504661487c.png?auto=format&amp;amp;dpr=2&amp;amp;fit=max&amp;amp;q=50&amp;amp;w=880" alt="Bar chart: 60% say AI-generated product images reduce purchase confidence, 18% unaffected" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;17% say they would not buy at all if they knew a product image was AI-generated. (Baymard Institute)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;How to read it.&lt;/strong&gt; This is self-reported survey data, not observed behavior. Baymard's article doesn't give sampling, weighting or margin of error. Stated intent ("I'd want a human") often differs from what people do under time pressure. Still, the direction matches several other 2026 surveys that point the same way, even though their samples and wording differ. Omnisend (January) found only about 8% of US shoppers "fully comfortable" with AI completing a purchase. Ipsos (February) found 27% of Gen Z would let an agent choose and buy without approval. In each case the pattern is the same: people let AI suggest, but they want to approve the purchase themselves.&lt;/p&gt;
+
+&lt;p&gt;The data also fits two threads this feed has been tracking. The EU's Digital Fairness Act, adopted November 11, already writes this split into law. Article 25 gives consumers a right to reach a human, and Article 26 requires a first-use confirmation mode for shopping agents (confirm everything, confirm by criteria with a maximum price, or none). Baymard's numbers suggest these rules mostly match what shoppers say they want, so they shouldn't be treated only as a compliance cost. The study also echoes NN/g's earlier survey finding that unreliable output is users' top complaint about AI. Shoppers trust AI where a mistake costs them a few seconds, and stop trusting it where a mistake costs money.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What to do with it.&lt;/strong&gt; Map your support flows by stakes, not by channel. Any state involving money already spent, such as refunds, damage claims or billing disputes, should show a visible path to a human from the first screen. Audit product detail pages for AI-generated core images and label any AI visuals you keep. If you are designing agentic checkout, make approval the default and treat "no confirmation" as an advanced setting users must opt into. Baymard's full study goes further on purchasing-authority limits and on who shoppers blame for AI purchasing errors. Those two charts, behind the paywall, are the ones most worth reading before you ship an agent that can spend money.&lt;/p&gt;
+
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;关于 AI 电商的争论，很少有大样本、分任务的数据。Baymard Institute 最新的一项量化研究补上了这一块。10 月 27 日，市场研究助理 Anja Meerwald 发布了 2026 年 6 月对 2,273 名美国网购用户的调查结果。用户愿意用 AI 做功课，一旦出了问题就不想找它了。图片也是同样的分界：多数人说，如果知道商品图是 AI 生成的，买的信心会下降。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结论一：小事找 AI，出事找人。&lt;/strong&gt;在 AI 聊天机器人和真人客服之间二选一时，研究类任务 AI 胜出：比较产品功能 63% 选 AI，查库存 59%，个性化推荐 56%。订单一出问题，偏好就反过来了：商品损坏或发错 69% 要真人，延迟或丢件 67%，运费、账单出错 66%。Baymard 说这是“一条清楚的分界线”。在用户眼里，AI 是顺手的研究助理，涉及自己钱的事还是要找人。&lt;/p&gt;
+
+&lt;p&gt;设计上做错的代价很具体。配送失败之后再把人困在机器人循环里，恰好是在用户最容易流失的时候添堵。Baymard 建议把助手放进商品发现流程（其第 #3458、#3461 条指南讲全站 AI 助手及其标识方式），同时让转人工的入口“清晰、显眼”。没有在线客服时，就老老实实提供自助选项，别放一个假装能转人工的机器人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结论二：AI 图片损耗信任。&lt;/strong&gt;60% 的人表示，知道图片是 AI 生成的会降低购买信心：25% 稍有下降，18% 明显下降，17% 干脆不买。只有 18% 说没影响。Baymard 的解释是，用户拿商品图核对尺寸、做工和质感，图片不是装饰。生成的图削弱的正是他们核实用的证据。研究建议核心商品视图坚持用实拍。生活场景背景之类的地方如果要用 AI 图，就得想办法抵消用户的怀疑。配套洞察 AI028 列出了哪些功能能把信心拉回来。&lt;/p&gt;
+
+&lt;p&gt;怎么看这份数据？这是自报的调查结果，不是行为观察，文章也没写抽样、加权和误差范围。嘴上说“我要真人”，和赶时间时的实际选择常常不一样。不过方向与 2026 年其他几份调查一致，尽管样本和问法各不相同。Omnisend 1 月的调查里，只有约 8% 的美国用户“完全放心”让 AI 替自己下单。Ipsos 2 月的调查中，愿意让智能体（agent）不经确认就选购的 Z 世代只有 27%。结论都一样：AI 可以推荐，付款要自己点头。&lt;/p&gt;
+
+&lt;p&gt;这也和本 feed 一直在跟的两条线对上了。欧盟 11 月 11 日通过的《数字公平法》（Digital Fairness Act）已经把这条分界写进法条：第 25 条规定消费者有权找到真人，第 26 条要求购物智能体首次使用时设定确认模式（全部确认、按条件确认并设最高价，或不确认）。照 Baymard 的数据看，这些条款基本符合用户自己说想要的东西，不该只当成合规成本。它也呼应了 NN/g 早先的调查：AI 输出不可靠是用户最大的抱怨。出错只耽误几秒的地方，用户愿意信 AI；出错要花钱的地方，就不信了。&lt;/p&gt;
+
+&lt;p&gt;可以做什么？按风险高低梳理客服流程，别按渠道。凡是涉及已付款的状态，比如退款、损坏索赔、账单争议，第一屏就该能看到转人工的路径。排查商品详情页里由 AI 生成的核心图，保留的 AI 图要做标注。如果在设计代理式结账（agentic checkout），默认就该是用户确认，“无需确认”放进高级设置，让用户主动开启。Baymard 完整报告里还有购买授权上限、以及 AI 买错东西用户怪谁这两张图，藏在付费墙后面。要上线能花用户钱的智能体之前，最该看的就是这两张。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://baymard.com/research-articles/ai-engagement-quantitative-ux-insights-2026"&gt;https://baymard.com/research-articles/ai-engagement-quantitative-ux-insights-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.techwyse.com/news/ai/ai-shopping-adoption-consumer-distrust-autonomous-spending-2026"&gt;https://www.techwyse.com/news/ai/ai-shopping-adoption-consumer-distrust-autonomous-spending-2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.omnisend.com/resources/reports/ai-shopping-report/"&gt;https://www.omnisend.com/resources/reports/ai-shopping-report/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b9abe52d-94af-5595-8444-f6ff166f15d6</guid>
+      <pubDate>Fri, 20 Nov 2026 12:13:47 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://baymard.com/research-articles/ai-engagement-quantitative-ux-insights-2026</link>
+      <enclosure url="https://baymard-assets-cdn.imgix.net/research/media_files/attachments/177774/original/research-media-file-b0b3f4e572321f89835c4131a5384ec2.png?auto=format&amp;dpr=2&amp;fit=max&amp;q=50&amp;w=880" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Material 3 Expressive Adds a Scroll Time Picker: When a Wheel Beats a Dial, and the Accessibility It Needs / Material 3 Expressive 新增滚动时间选择器：滚轮什么时候比表盘好用，又需要哪些无障碍保障</title>
+      <description>&lt;p&gt;Google's Material Design team has given the Material 3 time picker its Expressive redesign and added a third input mode. 9to5Google's Abner Li reported the change on November 17. The &lt;strong&gt;scroll time picker&lt;/strong&gt; lets people set a time by flicking vertical columns instead of typing or dragging a clock hand. A new set of &lt;strong&gt;scroll fields&lt;/strong&gt; applies the same interaction to units such as distance, weight, temperature, water and calories. The Expressive components are available in Jetpack Compose. Compose's &lt;code&gt;TimeScroll&lt;/code&gt; component still carries &lt;code&gt;@ExperimentalMaterial3Api&lt;/code&gt; in the published samples, so expect API churn.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5google.com/wp-content/uploads/sites/4/2026/11/scroll-time-picker-cover.png?w=1600" alt="Material 3 Expressive scroll time picker shown inline in a scheduling interface" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The new scroll time picker is meant to sit inline with other content. (Google via 9to5Google)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;What changed in the existing pickers.&lt;/strong&gt; The input (text field) and dial pickers drop the "Select time" hint from the top corner. The hour and minute fields and the dial selector get higher contrast. The AM/PM toggle picks up Expressive shape, color and motion. None of this changes how the components behave, though higher contrast on the active field should make the selected value easier to read at a glance. Teams with M3 screenshots in their design system docs will need to update them.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5google.com/wp-content/uploads/sites/4/2026/11/Material-3-Expressive-time-picker.jpg" alt="Material 3 Expressive input and dial time pickers with higher-contrast fields and redesigned AM/PM toggle" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Expressive input and dial pickers: no "Select time" label, higher-contrast fields, reshaped AM/PM. (Google via 9to5Google)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;When to use which.&lt;/strong&gt; The most useful part of the update is the selection rule. Google calls the scroll picker a "compact way to select time" that is "best placed inline with other content." Its guidance: "Use scroll time pickers instead of dial pickers when you want people to see surrounding content." In practice that gives three cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dial&lt;/strong&gt; stays a modal choice: good for touch, with an analog mental model, but it covers the screen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt; is fastest when users know the exact value, and it is the only mode that works well with a hardware keyboard.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scroll&lt;/strong&gt; fits inline forms where context matters, such as an alarm next to its repeat settings or a meeting time next to the attendee list.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5google.com/wp-content/uploads/sites/4/2026/11/scroll-time-picker-2.png?w=800" alt="Scroll time picker with hour, minute and AM/PM columns and a keyboard icon to switch to text input" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;A keyboard icon switches the scroll picker to text input. (Google via 9to5Google)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The wheel's known weakness.&lt;/strong&gt; Scroll wheels are not new. They are the classic iOS picker, and the evidence on them is mixed. Apple replaced the date wheel with a calendar grid in iOS 14, and its time picker became editable digit fields with a numeric keypad. Developers of calendar apps such as Pocket Informant have written about users finding wheels slow and imprecise for distant values. I couldn't find a controlled study comparing wheels to other inputs; most of the evidence is practitioner reports. The pattern is consistent, though: wheels are fine for small, bounded ranges near a default, and frustrating for long ranges like birth years. Time of day fits that well, with 12 or 24 hours and 60 minutes, often in 5-minute steps. Scroll fields for weight or distance need more care. A 0–300 kg column without a sensible default or step is the birth-year problem again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accessibility is where implementations will fail.&lt;/strong&gt; A flick-to-scroll column is a gesture. WCAG 2.2's success criterion 2.5.7 (Dragging Movements) requires a single-pointer alternative for dragging, and 2.5.1 covers path-based gestures. Google's keyboard toggle to input mode is that alternative, so do not hide it to save space. Keyboard users need arrow-key stepping within each column, and screen readers need each column exposed with its unit and current value (on Android, TalkBack's increment and decrement actions). Columns also need 24×24 px minimum targets under 2.5.8. Custom web or cross-platform copies of this pattern are the most likely to break. React wheel-picker libraries claim arrow-key and type-ahead support, but those are vendor claims, not independent tests.&lt;/p&gt;
+
+&lt;p&gt;This is the second Material 3 Expressive change this month after the Gmail settings rollout (November 13). It fits a pattern this feed tracked in the Material 3 Expressive adoption thread: Google updates components in Compose first while Views-based apps lag. If your Android product still runs on MDC-Android Views, the scroll picker doesn't appear to be available there yet, and building a custom version means owning its accessibility yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; before replacing an input picker with a scroll picker because it looks lighter, check two things. Can the user reach the target value in a few flicks from the default? Can they reach the same value without scrolling at all? If either answer is no, keep the text field.&lt;/p&gt;
+
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Google 的 Material Design 团队给 Material 3 时间选择器做了 Expressive 改版，还加了第三种输入方式。9to5Google 的 Abner Li 在 11 月 17 日报道了这次更新。新的滚动时间选择器（scroll time picker）让用户上下拨动几列数字来定时间，不用打字，也不用拖表盘指针。同时推出的还有滚动字段（scroll fields），把同样的交互用在距离、体重、温度、饮水量、卡路里这类单位上。Expressive 组件已经进了 Jetpack Compose，不过 Compose 里的 &lt;code&gt;TimeScroll&lt;/code&gt; 在官方示例中仍标着 &lt;code&gt;@ExperimentalMaterial3Api&lt;/code&gt;，API 可能还会变。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;旧的两种选择器改了什么？&lt;/strong&gt;输入式（文本框）和表盘式都去掉了右上角的“Select time”提示，小时、分钟字段和表盘指针的对比度提高了，AM/PM 切换按钮换上了 Expressive 的形状、颜色和动效。组件行为没变，但当前字段对比度提高后，选中的值应该一眼就能看清。设计系统文档里还挂着 M3 截图的团队，得更新一轮。&lt;/p&gt;
+
+&lt;p&gt;这次最有用的，是 Google 给出的选用规则。它把滚动选择器称为“选择时间的紧凑方式”，“最适合和其他内容一起内嵌摆放”，并明确说：“想让用户看到周围内容时，用滚动时间选择器代替表盘选择器。”落到实际：表盘仍是模态弹窗，适合触屏、符合钟表直觉，但会盖住页面；输入式在用户知道确切时间时最快，也是唯一适合实体键盘的方式；滚动式适合需要保留上下文的内嵌表单，比如闹钟旁边的重复设置、会议时间旁边的参会人列表。&lt;/p&gt;
+
+&lt;p&gt;滚轮不是新东西，iOS 用了很多年，口碑一直有好有坏。Apple 在 iOS 14 把日期滚轮换成了日历网格，时间选择器也改成可编辑数字加数字键盘。Pocket Informant 等日历应用的开发者都写过，用户嫌滚轮慢，远一点的数值很难拨准。我没找到滚轮和其他输入方式的对照实验，现有证据大多是从业者的经验之谈，但规律一致：范围小、离默认值近，滚轮没问题；范围长，比如选出生年份，就很折磨。一天的时间正好落在舒适区：12 或 24 小时，60 分钟，常常还按 5 分钟一档。体重、距离的滚动字段要小心，一个 0 到 300 公斤、没有合理默认值和步长的滚动列，就是出生年份问题的翻版。&lt;/p&gt;
+
+&lt;p&gt;最容易出问题的是无障碍（accessibility）。拨动滚动列本质上是手势。WCAG 2.2 的 2.5.7（拖动操作，Dragging Movements）要求拖动必须有单指针替代方式，2.5.1 管路径类手势。Google 放的那个键盘图标切换到输入模式，就是替代方式，别为了省地方把它藏掉。键盘用户要能在每一列里用方向键调整，读屏软件要读出每列的单位和当前值（Android 上是 TalkBack 的增减操作）。2.5.8 还要求触控目标至少 24×24 像素。最容易翻车的是自己在 Web 或跨平台框架里仿做的版本。一些 React 滚轮组件库号称支持方向键和输入跳转，但那是厂商自己说的，没有独立测试。&lt;/p&gt;
+
+&lt;p&gt;这是本月 Material 3 Expressive 的第二次更新，前一次是 11 月 13 日 Gmail 设置页的改版。模式和本 feed 在“Material 3 Expressive 采用落差”这条线里观察到的一样：Google 先在 Compose 里更新组件，基于 Views 的应用跟得慢。如果你的 Android 产品还在用 MDC-Android Views，目前看那边还拿不到滚动选择器，自己做的话，无障碍也得自己负责。&lt;/p&gt;
+
+&lt;p&gt;要不要因为滚动选择器看着更轻，就把输入框换掉？先问两个问题：用户从默认值出发，拨几下能到目标值？不拨动能不能输入同样的值？只要有一个答案是否定的，就留着文本框。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/?p=738338"&gt;https://9to5google.com/?p=738338&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://m3.material.io/components/scroll-fields/overview"&gt;https://m3.material.io/components/scroll-fields/overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://composables.com/jetpack-compose/androidx.compose.material3/material3/components/TimeScroll/examples"&gt;https://composables.com/jetpack-compose/androidx.compose.material3/material3/components/TimeScroll/examples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://uxplanet.org/the-state-of-date-time-on-ios-in-2020-10ba9a5e3974"&gt;https://uxplanet.org/the-state-of-date-time-on-ios-in-2020-10ba9a5e3974&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html"&gt;https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">96847ddb-0465-57b2-99c4-3f845ea01792</guid>
+      <pubDate>Fri, 20 Nov 2026 12:13:47 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://9to5google.com/?p=738338</link>
+      <enclosure url="https://9to5google.com/wp-content/uploads/sites/4/2026/11/scroll-time-picker-cover.png?resize=1200,628" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Chrome's Declarative Overscroll Actions Make Swipe Drawers Native, but Only If You Ship a Button / Chrome 声明式越界滚动操作让滑动抽屉原生化，前提是必须配一个按钮</title>
+      <description>&lt;p&gt;Side drawers, bottom sheets and swipe-to-reveal panels are some of the most familiar mobile interactions, and on the web they are still mostly built with JavaScript gesture libraries or nested scrollers. A Chromium proposal called &lt;strong&gt;Declarative Overscroll Actions&lt;/strong&gt; aims to make them native HTML and CSS. Its main design choice is that the browser won't recognize the gesture unless the page also provides a button. The feature went to a developer trial behind a flag in Chrome 149 in April. Chrome Platform Status's release notes for Chrome 157 now list "Overscroll Areas" as an origin trial, marked pending review. That is the stage where production sites can try it with real users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How it works.&lt;/strong&gt; The explainer, by Vladimir Levin (GitHub @vmpstr), Robert Flack and Mason Freed, was created in February and last updated August 20. It lets an element live in the &lt;em&gt;overscroll area&lt;/em&gt; of another element, the space past a scroll boundary. The container gets &lt;code&gt;overscrollcontainer&lt;/code&gt;, and a child gets &lt;code&gt;overscrollarea&lt;/code&gt;. When the user scrolls the container to its edge and keeps going, the scroll chains into the hidden area and reveals it, with snapping and momentum handled by the browser rather than a &lt;code&gt;touchmove&lt;/code&gt; listener:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id="container" overscrollcontainer&amp;gt;
+  &amp;lt;nav id="menu" overscrollarea&amp;gt;…&amp;lt;/nav&amp;gt;
+  Page content
+&amp;lt;/div&amp;gt;
+&amp;lt;button commandfor="menu" command="toggle-overscroll"&amp;gt;Menu&amp;lt;/button&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A CSS property, &lt;code&gt;overscroll-container-type&lt;/code&gt;, picks the presentation: &lt;code&gt;push&lt;/code&gt; moves content aside, &lt;code&gt;overlay&lt;/code&gt; slides the area over it, and &lt;code&gt;none&lt;/code&gt; turns the behavior off. The &lt;code&gt;none&lt;/code&gt; value is meant for media queries, so a desktop layout can show the same nav inline. An open area gets an &lt;code&gt;::overscroll-backdrop&lt;/code&gt; that dismisses it on click, much like a dialog's &lt;code&gt;::backdrop&lt;/code&gt;. Four events (&lt;code&gt;overscrollstart&lt;/code&gt;, &lt;code&gt;overscrollchanging&lt;/code&gt;, &lt;code&gt;overscrollend&lt;/code&gt;, &lt;code&gt;overscrollcancel&lt;/code&gt;) expose the gesture lifecycle for pull-to-refresh logic or haptics. The dev-trial notes list side menus, bottom sheets and pull-to-refresh as target patterns. Flack's demos are at &lt;a href="https://flackr.github.io/web-demos/html/overscrollcontainer/"&gt;flackr.github.io&lt;/a&gt; (they need Chrome with experimental web platform features enabled).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The button requirement is the interesting part.&lt;/strong&gt; The structure only works if a &lt;code&gt;show-overscroll&lt;/code&gt; or &lt;code&gt;toggle-overscroll&lt;/code&gt; invoker exists, using the same &lt;code&gt;commandfor&lt;/code&gt;/&lt;code&gt;command&lt;/code&gt; mechanism as invoker commands for popovers and dialogs. The authors considered a CSS-only design and rejected it because it "could create invisible gestures that some users cannot perform." In practice this builds the WCAG requirements into the API. Criterion 2.5.1 (Pointer Gestures) and 2.5.7 (Dragging Movements) both require a non-gesture path, and here the gesture can't exist without one. Focus handling follows popovers: a closed area is inert and out of the tab order, and an open area makes the content it covers inert. The explainer cites WCAG 3.2.1 and 2.4.11 to explain why focus shouldn't automatically open a hidden drawer.&lt;/p&gt;
+
+&lt;p&gt;Chrome's own "Swipe to reveal" guide shows the situation today. To get per-row actions like Pin, Archive and Delete, it uses CSS scroll snap, &lt;code&gt;overscroll-behavior: chain&lt;/code&gt; and a script that sets &lt;code&gt;aria-expanded&lt;/code&gt; and toggles &lt;code&gt;tabindex&lt;/code&gt; on hidden buttons. It works, but each team has to remember the ARIA and focus details. The guide also says it plainly: "swipe-only functionality is not acceptable." Declarative overscroll would move most of that bookkeeping into the browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What's still open.&lt;/strong&gt; Several points are unresolved. The explainer asks whether the browser should set &lt;code&gt;aria-expanded&lt;/code&gt; and &lt;code&gt;aria-controls&lt;/code&gt; on invokers automatically, as it does for popovers. It also asks whether closed areas should be &lt;code&gt;aria-hidden&lt;/code&gt;, whether focus leaving the area should dismiss it, and whether the default should be &lt;code&gt;push&lt;/code&gt;. The April dev-trial build lacked light dismiss, the backdrop and area inertness, so check what the origin-trial build actually includes. There's no spec yet, and no public Mozilla or WebKit position in what I found. Progressive enhancement is also a weak spot: unsupported browsers render the drawer content inline inside the scroller, which "likely looks broken." The suggested polyfill turns the area into a &lt;code&gt;popover&lt;/code&gt; and the button into &lt;code&gt;toggle-popover&lt;/code&gt;. That keeps the semantics, though you lose the gesture.&lt;/p&gt;
+
+&lt;p&gt;This continues the direction this feed has followed with scroll-driven animations (Baseline since Firefox 159) and Chrome's switch of carousel markers to link semantics: the browser takes over scroll-linked UI that used to need JavaScript. Chrome 157 also shipped smaller additions to that toolkit: &lt;code&gt;text-overflow&lt;/code&gt; with a custom string such as &lt;code&gt;" (more)"&lt;/code&gt;, &lt;code&gt;text-decoration-inset&lt;/code&gt; for underlines that draw in on &lt;code&gt;:hover&lt;/code&gt;/&lt;code&gt;:focus-visible&lt;/code&gt;, and the rename of &lt;code&gt;anchors-visible&lt;/code&gt;/&lt;code&gt;anchors-valid&lt;/code&gt; to singular &lt;code&gt;anchor-visible&lt;/code&gt;/&lt;code&gt;anchor-valid&lt;/code&gt; (old names remain as deprecated aliases).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Takeaway for design systems:&lt;/strong&gt; if your drawer or bottom-sheet component can open only with a swipe, you'll need to change it whether or not this API ships. Add a visible trigger now and treat it as the component's main control. The API is built on the same idea.&lt;/p&gt;
+
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;侧边抽屉、底部面板、滑动露出操作按钮，这些都是移动端最常见的交互。在 Web 上，它们大多还是靠 JavaScript 手势库或嵌套滚动容器拼出来的。Chromium 有一份叫声明式越界滚动操作（Declarative Overscroll Actions）的提案，想把它们变成原生 HTML 和 CSS。设计上最关键的一点是：页面不提供按钮，浏览器就不认这个手势。这个功能 4 月在 Chrome 149 以开发者试用（dev trial）形式上线，需要开 flag。Chrome Platform Status 的 Chrome 157 发布说明里，“Overscroll Areas”已列为源试用（origin trial），标注待审。到了这一步，正式网站就能拿真实用户来试了。&lt;/p&gt;
+
+&lt;p&gt;原理是这样的。说明文档（explainer）由 Vladimir Levin（GitHub @vmpstr）、Robert Flack 和 Mason Freed 撰写，2 月创建，8 月 20 日最后更新。它允许一个元素待在另一个元素的越界区域（overscroll area），也就是滚动到头之后的那片空间。容器加 &lt;code&gt;overscrollcontainer&lt;/code&gt; 属性，子元素加 &lt;code&gt;overscrollarea&lt;/code&gt;。用户把容器滚到边缘后继续拉，滚动就会传递到隐藏区域、把它拉出来，吸附和惯性都由浏览器处理，不再靠 &lt;code&gt;touchmove&lt;/code&gt; 监听。&lt;/p&gt;
+
+&lt;p&gt;CSS 属性 &lt;code&gt;overscroll-container-type&lt;/code&gt; 决定呈现方式：&lt;code&gt;push&lt;/code&gt; 把内容推开，&lt;code&gt;overlay&lt;/code&gt; 盖在内容上面，&lt;code&gt;none&lt;/code&gt; 关掉这个行为。&lt;code&gt;none&lt;/code&gt; 是给媒体查询准备的，桌面布局可以直接把同一个导航内嵌显示。打开的区域会带一个 &lt;code&gt;::overscroll-backdrop&lt;/code&gt;，点击即关闭，和对话框的 &lt;code&gt;::backdrop&lt;/code&gt; 类似。四个事件（&lt;code&gt;overscrollstart&lt;/code&gt;、&lt;code&gt;overscrollchanging&lt;/code&gt;、&lt;code&gt;overscrollend&lt;/code&gt;、&lt;code&gt;overscrollcancel&lt;/code&gt;）暴露手势的完整过程，可以用来写下拉刷新逻辑或触觉反馈。试用说明里列出的目标模式包括侧边菜单、底部面板和下拉刷新。&lt;/p&gt;
+
+&lt;p&gt;真正有意思的是按钮要求。只有存在 &lt;code&gt;show-overscroll&lt;/code&gt; 或 &lt;code&gt;toggle-overscroll&lt;/code&gt; 触发按钮，整个结构才会生效，机制和 popover、dialog 用的 &lt;code&gt;commandfor&lt;/code&gt;/&lt;code&gt;command&lt;/code&gt; 调用命令一样。作者考虑过纯 CSS 方案，最后否掉了，理由是它“可能制造出部分用户根本做不出来的隐形手势”。这相当于把 WCAG 的要求写进了 API。2.5.1（指针手势，Pointer Gestures）和 2.5.7（拖动操作，Dragging Movements）都要求有非手势的操作路径，而这里没有这条路径，手势就不存在。焦点处理沿用 popover 的做法：关闭的区域是惰性的（inert），不进 Tab 顺序；打开的区域会让被它盖住的内容变成惰性。说明文档引用 WCAG 3.2.1 和 2.4.11，解释为什么焦点落到隐藏抽屉里时不该自动把它打开。&lt;/p&gt;
+
+&lt;p&gt;Chrome 自己的“Swipe to reveal”指南能看出现在有多麻烦。为了给列表项做置顶、归档、删除这类滑动操作，它用 CSS 滚动吸附、&lt;code&gt;overscroll-behavior: chain&lt;/code&gt;，再加一段脚本去改 &lt;code&gt;aria-expanded&lt;/code&gt;、切换隐藏按钮的 &lt;code&gt;tabindex&lt;/code&gt;。能用，但每个团队都得记住这些 ARIA 和焦点细节。指南说得也直接：“只能靠滑动的功能不可接受。”声明式方案会把大部分琐事交给浏览器。&lt;/p&gt;
+
+&lt;p&gt;还有几个问题没定下来。说明文档在问：浏览器要不要像对待 popover 那样，自动给触发按钮加 &lt;code&gt;aria-expanded&lt;/code&gt; 和 &lt;code&gt;aria-controls&lt;/code&gt;？关闭的区域该不该 &lt;code&gt;aria-hidden&lt;/code&gt;？焦点离开时要不要自动关闭？默认值该不该是 &lt;code&gt;push&lt;/code&gt;？4 月的试用版还没有轻触关闭、遮罩层和区域惰性，源试用版本到底实现了多少，得自己去验证。目前没有正式规范，我也没查到 Mozilla 或 WebKit 的公开立场。渐进增强也是短板：不支持的浏览器会把抽屉内容直接内嵌显示在滚动容器里，说明文档自己也承认“很可能看起来是坏的”。建议的 polyfill 是把区域转成 &lt;code&gt;popover&lt;/code&gt;、按钮改成 &lt;code&gt;toggle-popover&lt;/code&gt;，语义保住了，手势就没了。&lt;/p&gt;
+
+&lt;p&gt;本 feed 之前跟踪过滚动驱动动画（Firefox 159 起成为 Baseline），也写过 Chrome 把轮播指示点改成链接语义。这次的方向一样：过去要写 JavaScript 的滚动类 UI，正在交给浏览器处理。Chrome 157 同时还上了几个小功能：&lt;code&gt;text-overflow&lt;/code&gt; 支持自定义字符串（比如 &lt;code&gt;" (more)"&lt;/code&gt;）；&lt;code&gt;text-decoration-inset&lt;/code&gt; 可以做 &lt;code&gt;:hover&lt;/code&gt;/&lt;code&gt;:focus-visible&lt;/code&gt; 时逐渐画出的下划线；&lt;code&gt;anchors-visible&lt;/code&gt;/&lt;code&gt;anchors-valid&lt;/code&gt; 改名为单数的 &lt;code&gt;anchor-visible&lt;/code&gt;/&lt;code&gt;anchor-valid&lt;/code&gt;，旧名字保留为已弃用的别名。&lt;/p&gt;
+
+&lt;p&gt;给设计系统团队的建议：如果你的抽屉或底部面板组件只能靠滑动打开，不管这个 API 最后上不上线，都得改。现在就加一个看得见的触发按钮，把它当成组件的主控件，这个 API 本来就是按这个思路设计的。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://open-ui.org/components/overscroll-actions.explainer/"&gt;https://open-ui.org/components/overscroll-actions.explainer/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/YYe6ZhaMDrc"&gt;https://groups.google.com/a/chromium.org/g/blink-dev/c/YYe6ZhaMDrc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://chromestatus.com/release-notes/157"&gt;https://chromestatus.com/release-notes/157&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/swipe-to-reveal"&gt;https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/swipe-to-reveal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/vmpstr/htmldemos/blob/master/gestures/devtrial.md"&gt;https://github.com/vmpstr/htmldemos/blob/master/gestures/devtrial.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9d31fa7f-fc21-5ee5-b58e-b693a856faab</guid>
+      <pubDate>Fri, 20 Nov 2026 12:13:47 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://open-ui.org/components/overscroll-actions.explainer/</link>
+      <enclosure url="https://opengraph.githubassets.com/1/vmpstr/htmldemos" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 锤子砸不碎、手指一掐就炸成粉：鲁珀特之泪让英国皇家学会琢磨了三百年，秘密是一层只有圆头直径十分之一厚、压应力堪比钢材的「铠甲」</title>
+      <description>&lt;p&gt;把一滴熔化的玻璃直接滴进冷水，会得到一颗十厘米长的「蝌蚪」：一个圆头，拖着一条越来越细的尾巴。拿小锤子砸它的圆头，砸不碎；夹在两块碳化钨压板之间压，能扛住约 15,000 牛顿，差不多压上一吨半；美国 YouTube 频道 SmarterEveryDay 拿手枪朝圆头开火，高速摄影里碎掉的是子弹。可你要是用手指轻轻掐断尾巴尖，整颗玻璃会在不到一毫秒内「噗」地炸成一捧粉末。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.purdue.edu/uns/images/2017/chandy-ruperts.jpg" alt="几颗蝌蚪形的鲁珀特之泪玻璃滴" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;鲁珀特之泪：圆头能挡子弹，尾巴一掐就全碎。图：Purdue University&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这东西叫鲁珀特之泪（Prince Rupert's Drop），也叫「荷兰泪」（Batavian tears）。它可查的最早记录在 1625 年前后的德国北部梅克伦堡，之后作为玩具和奇物在欧洲流传。荷兰诗人兼外交官 Constantijn Huygens 曾托纽卡斯尔公爵夫人 Margaret Cavendish 研究，她的结论是里面封了一点会挥发的液体——错得很有想象力。&lt;/p&gt;
+
+&lt;p&gt;名字里那位鲁珀特亲王（Prince Rupert of the Rhine）是查理一世的外甥、英国内战时的保王党骑兵统帅，玻璃滴不是他发明的。1660 年他带了五颗回英国，送给刚复辟的查理二世；国王转手交给第二年就忙着做实验的皇家学会（Royal Society）。1661 年 Robert Moray 爵士在学会宣读了《玻璃滴记述》，1662 年 1 月 13 日佩皮斯（Samuel Pepys）在日记里提到它，诗人 Samuel Butler 在《Hudibras》里拿它打比方。它成了复辟时代有教养人士的派对节目：你得知道这玩意儿，才算懂行。1665 年 Robert Hooke 在《显微图谱》（Micrographia）里已经猜到了大半：秘密在玻璃内部的某种「张力」。&lt;/p&gt;
+
+&lt;p&gt;完整答案要等到高速摄影出场。原理其实一句话说得清：玻璃滴入冷水，表面瞬间凝固成硬壳，里面还是热的；内部随后冷却收缩，拼命往里拽外壳。结果外层被挤压，处于强大的压应力（compressive stress）之下，芯部则被拉着，处于拉应力（tensile stress）之下。玻璃怕拉不怕压——裂纹只会在被拉开的地方长大，在被挤紧的地方会自己合拢。所以锤子砸圆头，表面裂纹刚冒头就被压回去，经典的赫兹锥形裂纹（Hertzian cone crack）根本形成不了。&lt;/p&gt;
+
+&lt;p&gt;尾巴是另一回事。它细到零点几毫米到三毫米，掐断它，裂纹几乎直接就钻进了处于拉应力的芯部。一旦进去，芯里储存的弹性能就成了燃料：裂纹一路加速、不断分叉，从尾巴冲向圆头。1994 年，普渡大学的 Srinivasan Chandrasekar 和剑桥大学的 Munawar Chaudhri 用每秒近百万帧的高速摄影拍下这个过程，裂纹前沿速度约 1,450–1,900 米/秒，换算超过每小时 4,000 英里。这也解释了为什么它神秘了三百多年：肉眼看到的只有「一下子全没了」。&lt;/p&gt;
+
+&lt;p&gt;二十多年后，这两人又拉上爱沙尼亚塔林理工大学的 Hillar Aben 团队，用 Aben 开创的积分光弹法（integrated photoelasticity）把玻璃滴放在偏振光下，看它被应力染成的彩色条纹，再用类似医学 CT 重建的数学方法反推出整颗玻璃的三维应力分布。论文发在 2016 年底的《Applied Physics Letters》（109 卷 231903），2017 年 5 月普渡发布新闻。测出的表面压应力高达 400–700 MPa，约合每平方英寸 29 到 50 吨，相当于某些钢材的强度。但这层「铠甲」只有圆头直径的十分之一左右厚，里面全是绷紧的拉应力。他们还确认，圆头表面就算出了裂纹，也只会平行于表面延伸，钻不进芯部——想让它炸，只能从尾巴下手。普渡的新闻稿还顺手吐槽：直到 2013 年，还有人在发表错误的解释。&lt;/p&gt;
+
+&lt;p&gt;这个十七世纪的派对把戏，原理和今天的钢化玻璃（tempered glass）一脉相承：先给表面预加压应力。Chandrasekar 的原话是：「第一批玻璃强化专利出现在 19 世纪，时间差了两百多年。」法国人 De Luynes 1873 年发表淬火玻璃实验，Royer de la Bastie 1874 年在英国申请专利。普渡也指出，手机屏幕用的抗摔玻璃靠的是同一类表面压应力思路。&lt;/p&gt;
+
+&lt;p&gt;还有两处冷门的回声。火山也会自己做「鲁珀特之泪」：熔岩飞溅冷却成的「贝利之泪」（Pele's tears）形状相近，布里斯托大学和冰岛大学的研究者用玻璃滴的碎片来研究岩浆破碎和火山灰的形成。另一个来自弗洛伊德：他在 1921 年的《群体心理学与自我分析》里写道，一个群体失去领袖时会「化为齑粉，就像折断尾巴的鲁珀特之泪」。一颗玻璃滴，从国王的玩具一路跑进了精神分析。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.purdue.edu/newsroom/releases/2017/Q2/research-solves-centuries-old-riddle-of-prince-ruperts-drops.html"&gt;Purdue University 新闻稿（2017-05-10）&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Prince_Rupert%27s_drop"&gt;Wikipedia: Prince Rupert's drop&lt;/a&gt;；&lt;a href="https://www.smithsonianmag.com/smart-news/researchers-crack-400-year-old-mystery-prince-ruperts-drops-180963308/"&gt;Smithsonian Magazine&lt;/a&gt;；&lt;a href="https://ceramics.org/ceramic-tech-today/glass-goes-ballistic-what-happens-when-you-shoot-a-bullet-at-prince-ruperts-drops"&gt;American Ceramic Society: 子弹测试&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.purdue.edu/newsroom/releases/2017/Q2/research-solves-centuries-old-riddle-of-prince-ruperts-drops.html"&gt;https://www.purdue.edu/newsroom/releases/2017/Q2/research-solves-centuries-old-riddle-of-prince-ruperts-drops.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Prince_Rupert%27s_drop"&gt;https://en.wikipedia.org/wiki/Prince_Rupert%27s_drop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smithsonianmag.com/smart-news/researchers-crack-400-year-old-mystery-prince-ruperts-drops-180963308/"&gt;https://www.smithsonianmag.com/smart-news/researchers-crack-400-year-old-mystery-prince-ruperts-drops-180963308/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://ceramics.org/ceramic-tech-today/glass-goes-ballistic-what-happens-when-you-shoot-a-bullet-at-prince-ruperts-drops"&gt;https://ceramics.org/ceramic-tech-today/glass-goes-ballistic-what-happens-when-you-shoot-a-bullet-at-prince-ruperts-drops&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">1c2f1ecc-b86a-58ba-aa6d-de4cb1f7d0c9</guid>
+      <pubDate>Fri, 20 Nov 2026 12:14:56 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.purdue.edu/newsroom/releases/2017/Q2/research-solves-centuries-old-riddle-of-prince-ruperts-drops.html</link>
+      <enclosure url="https://www.purdue.edu/uns/images/2017/chandy-ruperts.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 全岛 264 人被火山赶到英国，学会了用洗衣机、拿到了周薪和存折，一年后却几乎全体投票回到火山脚下：特里斯坦-达库尼亚岛民的 1961–1963</title>
+      <description>&lt;p&gt;1961 年 10 月 10 日，世界上最偏远的有人岛之一，南大西洋的特里斯坦-达库尼亚（Tristan da Cunha），定居点「七海之爱丁堡」（Edinburgh of the Seven Seas）背后的山坡裂开，一座寄生火山锥开始喷发。全岛 264 人一个不剩地撤走，被一路送到了英格兰。英国政府给他们安排了房子、工作、学校和电器培训，私下里似乎就没打算让他们再回去。一年多以后，岛民在汉普郡投票：几乎全体要回火山脚下。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://nfhwa.org/wp-content/uploads/2024/11/tristan-da-cunha-evacuees-on-stirling-castle.jpg" alt="1961 年特里斯坦-达库尼亚撤离岛民乘 Stirling Castle 号抵达英国" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1961 年 11 月，岛民乘 Stirling Castle 号抵达南安普敦。图：New Forest Heritage / nfhwa.org&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先说这个岛有多偏。它距开普敦约 2,800 公里，最近的「邻居」是 350 公里外南非气象站的工作人员。英国 1816 年 8 月派兵驻守，理由是防止有人以此为跳板，去圣赫勒拿岛救拿破仑；驻军 1817 年撤走，下士 William Glass 一家留了下来，成了社区的核心。1867 年维多利亚女王的次子阿尔弗雷德亲王（爱丁堡公爵）来访，定居点由此得名。直到今天，岛上常住人口也只有两百二十人左右，姓氏屈指可数：Glass、Green、Repetto、Lavarello、Swain、Hagan……&lt;/p&gt;
+
+&lt;p&gt;喷发那天，岛民开着两条捕龙虾的船 Tristania 和 Frances Repetto，先撤到无人的南丁格尔岛（Nightingale Island）过夜。第二天，改道赶来的荷兰客轮 Tjisadane 号把他们接到开普敦，再换乘邮轮 Stirling Castle 号，1961 年 11 月 3 日抵达南安普敦，迎接他们的是一大群记者。媒体给他们起的外号是「来自世界上最孤独小岛、被遗忘的人们」。&lt;/p&gt;
+
+&lt;p&gt;先在萨里郡 Merstham 的 Pendell 军营短住，1962 年 1 月 23 日，他们搬进汉普郡卡尔肖特（Calshot）一座 1961 年 4 月刚关闭的皇家空军水上飞机基地。岛民反复说的一句话是「我们想住在海边」。64 栋空着的军官家属房分给各家，那条路被改名为「特里斯坦巷」（Tristan Close），房子至今还在。妇女们学用电灶、洗衣机和电熨斗，男人们学电工；18 个孩子进了霍尔伯里的中学，22 个小一点的进了布莱克菲尔德小学。&lt;/p&gt;
+
+&lt;p&gt;论适应，他们做得相当好。约九成有劳动能力的人找到了工作：博利厄汽车博物馆、海斯的船厂、利明顿的食品加工厂；男人周薪约 9 英镑，全岛约 2,000 英镑的积蓄转进了邮政储蓄银行。雇主夸他们勤快，只是有一件事很难教会——按钟点上班。岛上从来没人按时钟干活。&lt;/p&gt;
+
+&lt;p&gt;代价也不小。1962 年 1 月的冬天格外冷，许多人病倒，又碰上了在孤岛上从没遇到过的流感。英国医学研究理事会（Medical Research Council）专门成立工作组，对这个「刚接触外界病菌的群体」开展了一系列医学研究，一直持续到他们回岛之后；牙医则记录了 1948 年罐头厂商店带来「文明食品」后岛民牙齿的恶化。后来有历史学者专门写文章，讨论这批「豚鼠」研究的伦理问题。一位 62 岁、做守夜人的岛民 Gordon Glass 还在英国遭人殴打抢劫。伦敦大学的学者趁机录下了特里斯坦方言，几个月下来，大多数人的口音几乎没变。&lt;/p&gt;
+
+&lt;p&gt;1962 年春天，岛民越来越确信殖民部打算让他们永久留在英国。美国人类学家 Peter Munch 记录了接下来发生的事：这个向来没有首领、崇尚互不支配的社区，生平第一次组织起集体行动。请愿没回音，他们就开会，决定自己筹钱，先派一支先遣队回岛准备。同年，皇家学会的考察队上岛评估，报告说七海之爱丁堡挺过了这次喷发。&lt;/p&gt;
+
+&lt;p&gt;1962 年 12 月，卡尔肖特举行投票，结果是压倒性的「回家」，只有 5 票主张留在汉普郡。英国议会记录显示，计划让约 52 人的先遣队 1963 年春乘船出发，其余人当年秋天包船跟进；到 1963 年 11 月，约两百人已从南安普敦返航。临行前，他们在卡尔肖特的圣乔治礼拜堂做了告别礼拜。当时的报道把这写成「拒绝了摇摆六十年代」的生活方式。也有人留下了：三位在当地嫁人的年轻女子，后代至今住在汉普郡。&lt;/p&gt;
+
+&lt;p&gt;Munch 后来写了一本书，名字起得很准：《乌托邦危机》（Crisis in Utopia，1971）。一个被送进现代社会、拿到了电器、工资和储蓄存折的社区，只用了一年就做出判断：活火山旁边的那块地，比这一切都值。2012 年格拉斯哥大学还去岛上做了「岩石时钟」测年调查，帮岛民为下一次喷发做准备——他们显然没打算再搬走。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://nfhwa.org/raf-calshot-tristan-da-cunha-evacuees/"&gt;New Forest Heritage: RAF Calshot &amp; Tristan evacuees&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Tristan_da_Cunha"&gt;Wikipedia: Tristan da Cunha&lt;/a&gt;；&lt;a href="https://peacefulsocieties.uncg.edu/?p=1163"&gt;UNCG Peaceful Societies（Peter Munch 研究）&lt;/a&gt;；&lt;a href="https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5F*.html"&gt;Margaret Mackay《Angry Island》(1964) 第五部分&lt;/a&gt;；&lt;a href="https://api.parliament.uk/historic-hansard/written_answers/1963/feb/12/refugees-return"&gt;Hansard 1963-02-12&lt;/a&gt;；&lt;a href="https://www.gla.ac.uk/news/archiveofnews/2012/june/headline_236604_en.html"&gt;University of Glasgow 2012&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://nfhwa.org/raf-calshot-tristan-da-cunha-evacuees/"&gt;https://nfhwa.org/raf-calshot-tristan-da-cunha-evacuees/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Tristan_da_Cunha"&gt;https://en.wikipedia.org/wiki/Tristan_da_Cunha&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://peacefulsocieties.uncg.edu/?p=1163"&gt;https://peacefulsocieties.uncg.edu/?p=1163&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5F*.html"&gt;https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5F*.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://api.parliament.uk/historic-hansard/written_answers/1963/feb/12/refugees-return"&gt;https://api.parliament.uk/historic-hansard/written_answers/1963/feb/12/refugees-return&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0d2f40fe-f221-561a-bd14-a064f0e5e890</guid>
+      <pubDate>Fri, 20 Nov 2026 12:14:56 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://nfhwa.org/raf-calshot-tristan-da-cunha-evacuees/</link>
+      <enclosure url="https://nfhwa.org/wp-content/uploads/2024/11/tristan-da-cunha-evacuees-on-stirling-castle.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 黑猩猩打赢十年战争后迎来婴儿潮，出生数翻倍、幼崽夭折率从 41% 降到 8%；几年后这个最大的野生群落自己裂成两半互相残杀</title>
+      <description>&lt;p&gt;乌干达基巴莱国家公园（Kibale National Park）的恩戈戈（Ngogo）黑猩猩，十年里有组织地杀死了邻群至少 21 只黑猩猩，抢下了一块地盘。随后它们迎来了一场「婴儿潮」：出生数翻了一倍多，幼崽夭折率从 41% 掉到 8%。故事到这里还没完——几年后，这个世界上已知最大的野生黑猩猩群落自己裂成两半，开始互相残杀。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/2025-11/Miliah%2C%20Penelope%2C%20Renata%20and%20kids%20%2827%29%20%281%29.JPG?itok=AXlCxd3P" alt="恩戈戈的雌性黑猩猩与幼崽" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;恩戈戈群落的雌性黑猩猩和幼崽。图：Arizona State University / Ngogo Chimpanzee Project&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先回到半个世纪前。1974 年 1 月 7 日，坦桑尼亚贡贝（Gombe）的研究人员目睹了一件当时没人相信黑猩猩会干的事：卡塞克拉（Kasakela）群的一队雄性，伏击了正在进食的雄性 Godi，把他打成重伤，之后再没人见过他。此前大约八个月里，原本的卡塞克拉群慢慢分出一支南方派，6 只成年雄性、3 只成年雌性带着孩子另立门户，后来被称为卡哈马（Kahama）群。接下来四年，卡哈马的雄性 Dé、年迈的 Goliath、Charlie、Sniff 一个接一个被围攻致死或失踪，老雌性 Madam Bee 被打后四天死去。到 1978 年，卡哈马群不复存在。&lt;/p&gt;
+
+&lt;p&gt;珍·古道尔（Jane Goodall）一直以为黑猩猩比人类「好一些」。这场「贡贝四年战争」（Gombe Chimpanzee War）击碎了这个印象，她在 1990 年的回忆录《Through a Window》里写道：「好几年里，我都在努力接受这个新认识。」她会在半夜醒来，脑中浮现那些攻击的画面。但质疑一直没停：贡贝的黑猩猩被研究站长期投喂香蕉，人为聚集是否激化了冲突？只有一次观察，算不算数？&lt;/p&gt;
+
+&lt;p&gt;恩戈戈给了一个干净得多的样本。这里的黑猩猩从 1995 年起被持续观察，森林基本未受干扰、没有投喂，群落有一百五六十到将近两百只，成年雄性超过 30 只。1999 到 2008 年，它们在边界巡逻和突袭中杀死了邻群至少 21 只成员，2009 年前后把领地扩大了约 6.4 平方公里，约 22%。&lt;/p&gt;
+
+&lt;p&gt;2025 年 11 月，UCLA 的 Brian Wood 领衔，与密歇根大学荣休教授 John Mitani、亚利桑那州立大学的 Kevin Langergraber、耶鲁的 David Watts 在《PNAS》发表论文（doi:10.1073/pnas.2524502122），算了这笔账：扩张前三年，恩戈戈雌性一共生了 15 只幼崽；扩张后三年，37 只。三岁前死亡的概率从 41% 降到 8%。他们排除了两种替代解释：一是「孩子死得多所以生得勤」——数据显示生育率和存活率是同时上升的；二是「那几年果子多」——核心旧领地里的果实丰度持平甚至略降。剩下最合理的解释是：新地盘让雌性吃得更好、身体更好。Wood 说，这是「群体间联合杀戮带来领地收益」的第一个直接证据。用进化的语言讲，有组织的暴力在这里是有回报的。&lt;/p&gt;
+
+&lt;p&gt;然后，赢家内部出了问题。2026 年 4 月 9 日，得克萨斯大学奥斯汀分校的 Aaron Sandel 等人在《Science》发表《群体分裂后的野生黑猩猩致命冲突》（392 卷 216–220 页，doi:10.1126/science.adz4944）。大约从 2015 年起，恩戈戈内部两个社交圈子——研究者称之为西群和中群——开始互相回避。两群之间最后一次跨群受孕发生在 2015 年 3 月；2016 年西群开始巡逻边界；到 2018 年，分裂已成定局。2018 至 2024 年，西群对中群发动了 24 次攻击，杀死至少 7 只成年雄性和 17 只幼崽。中群的死亡率约为每年每十万只 3,376，是其他黑猩猩种群中位数（约 100）的三十多倍。&lt;/p&gt;
+
+&lt;p&gt;这些个体几年前还一起理毛、一起巡逻、一起去杀邻居。为什么会裂？作者提出「关系动力学假说」（relational dynamics hypothesis）：社交网络里那些连接两个小圈子的关键个体一旦消失或关系改变，群体身份就会被重新划线，随后升级为集体暴力。2017 年一场由人类传入的呼吸道疫情杀死了 25 只恩戈戈黑猩猩，可能也是推手之一，但作者承认原因「很难确认」。明尼苏达大学研究黑猩猩冲突的 Michael Wilson 不赞成用「内战」这个词，觉得更像「一次群体分裂，接着打起来了」。Sandel 估计这种事大概五百年才发生一次，而人类只在贡贝和恩戈戈两次亲眼见到。&lt;/p&gt;
+
+&lt;p&gt;Netflix 2023 年的纪录片《黑猩猩帝国》（Chimp Empire）拍的正是这个群落。镜头外的结局目前还在继续：Sandel 说，中群「处境危险」，接下来的问题是，它们会怎么反击。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://news.asu.edu/20251117-science-and-technology-lethal-aggression-territorial-expansion-wild-chimpanzees-lead-more"&gt;ASU News（2025-11-17）&lt;/a&gt;；&lt;a href="https://newsroom.ucla.edu/releases/lethal-aggression-territory-increased-reproductive-success-wild-chimpanzees-ucla"&gt;UCLA Newsroom&lt;/a&gt;；&lt;a href="https://news.mongabay.com/2026/04/chimp-civil-war-follows-rare-community-split-in-a-ugandan-national-park/"&gt;Mongabay（2026-04）&lt;/a&gt;；&lt;a href="https://www.sciencealert.com/scientists-announce-the-first-clear-evidence-of-a-chimpanzee-civil-war"&gt;ScienceAlert&lt;/a&gt;；&lt;a href="https://en.wikipedia.org/wiki/Gombe_Chimpanzee_War"&gt;Wikipedia: Gombe Chimpanzee War&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://news.asu.edu/20251117-science-and-technology-lethal-aggression-territorial-expansion-wild-chimpanzees-lead-more"&gt;https://news.asu.edu/20251117-science-and-technology-lethal-aggression-territorial-expansion-wild-chimpanzees-lead-more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://news.mongabay.com/2026/04/chimp-civil-war-follows-rare-community-split-in-a-ugandan-national-park/"&gt;https://news.mongabay.com/2026/04/chimp-civil-war-follows-rare-community-split-in-a-ugandan-national-park/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencealert.com/scientists-announce-the-first-clear-evidence-of-a-chimpanzee-civil-war"&gt;https://www.sciencealert.com/scientists-announce-the-first-clear-evidence-of-a-chimpanzee-civil-war&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Gombe_Chimpanzee_War"&gt;https://en.wikipedia.org/wiki/Gombe_Chimpanzee_War&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ea49df89-f039-584f-bf87-e28a602813fa</guid>
+      <pubDate>Fri, 20 Nov 2026 12:14:56 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://news.asu.edu/20251117-science-and-technology-lethal-aggression-territorial-expansion-wild-chimpanzees-lead-more</link>
+      <enclosure url="https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/2025-11/Miliah%2C%20Penelope%2C%20Renata%20and%20kids%20%2827%29%20%281%29.JPG?itok=AXlCxd3P" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 你的朋友平均比你朋友多，这不怪你人缘差，是数学：友谊悖论让哈佛提前两周看到流感，也解释了为什么「好像人人都在做某件事」</title>
+      <description>&lt;p&gt;如果你常觉得身边朋友的社交生活比你热闹，别急着怀疑自己。对绝大多数人来说，这是真的：你的朋友平均拥有的朋友数，确实比你多。这不是因为你人缘差，而是一个躲不开的统计偏差。2009 年，两位社会学家利用它，比传统监测提前大约两周看到了哈佛校园里的流感。&lt;/p&gt;
+
+&lt;p&gt;这个现象叫友谊悖论（Friendship Paradox），由社会学家 Scott Feld 1991 年在《美国社会学杂志》上一篇标题很扎心的论文里正式提出：《为什么你的朋友比你朋友多》（Why Your Friends Have More Friends Than You Do，96 卷 6 期 1464–1477 页）。&lt;/p&gt;
+
+&lt;p&gt;道理用一个极端例子最好懂。设想一个 11 人的小圈子：一个社交达人认识另外 10 个人，而这 10 个人彼此不认识，只认识他。平均每人的朋友数是 20÷11，不到 2 个。但对那 10 个普通人来说，他们唯一的朋友有 10 个朋友。11 个人里有 10 个「朋友比自己多」。原因在于抽样方式：你随便挑一个人，每个人被挑中的机会相等；可你顺着友谊关系去挑「某人的朋友」，交游广的人会被一遍又一遍地挑中——他出现在很多人的好友名单里。用数学写出来，随机一个朋友的期望朋友数等于 μ + σ²/μ，μ 是平均朋友数，σ² 是方差。只要大家的朋友数不完全一样，方差就大于零，「朋友的朋友」就一定比平均多。&lt;/p&gt;
+
+&lt;p&gt;严格说，「大多数人的朋友比自己多」不是对任何网络都成立的定理：一个人人互相认识、只少了一条关系的网络就是反例。但真实社交网络的朋友数分布极不均匀，悖论几乎总会出现。南加州大学信息科学研究所的 Nathan Hodas、Farshad Kooti 和 Kristina Lerman 2013 年分析推特数据，发现超过 98% 的用户，其关注对象的平均粉丝数高于自己，比值的峰值在 10 倍左右；他们还发现，你关注的人平均发帖更多、接触到的热门内容也更多，于是论文副标题干脆叫「你的朋友比你更有趣」。同样的偏差出现在合作者的论文引用数、性伴侣数，甚至幸福感上（Bollen 等 2017 年称之为「幸福悖论」）。2023 年 Ghasemian 和 Christakis 还发现了镜像版的「敌意悖论」：你的敌人平均也比你树敌更多。&lt;/p&gt;
+
+&lt;p&gt;这个看似只会打击自尊的现象，被 Nicholas Christakis（时在哈佛）和 James Fowler（加州大学圣迭戈分校）变成了一件工具。2009 年 H1N1 流感季，他们随机招募了 319 名哈佛本科生，请每人提名朋友，共得到 425 名「朋友组」成员，总计跟踪 744 名学生，数据来自自我报告和哈佛大学健康服务中心的诊断记录。按友谊悖论，被提名的朋友平均更处于网络中心，接触的人更多，也应该更早被传染。结果正是如此：朋友组的发病曲线比随机组提前约两周；换一种统计方法，能在疫情高峰前 46 天发出预警。论文《用于早期发现传染病暴发的社交网络传感器》2010 年 9 月 15 日发表在《PLoS ONE》。&lt;/p&gt;
+
+&lt;p&gt;妙处在于，这种方法完全不需要画出整张社交网络，只需要问一句「你的朋友是谁」。他们还试了另一种直觉做法——让学生自评人缘——结果并不能提前发现疫情。人对自己在网络里的位置，判断得并不准。&lt;/p&gt;
+
+&lt;p&gt;同样的思路早就用在了疫苗上。2003 年，Reuven Cohen、Shlomo Havlin 和 Daniel ben-Avraham 提出「熟人免疫」（acquaintance immunization）：随机挑一个人，不给他打，而给他随口说出的某个熟人打。按友谊悖论，这样更容易打中网络里的枢纽，用少得多的疫苗就能切断传播。Christakis 团队后来在洪都拉斯推广母婴健康做法、在印度推广加铁盐时，也用类似办法寻找「被提名的人」作为突破口。&lt;/p&gt;
+
+&lt;p&gt;这个偏差还有一个更让人不安的亲戚。Lerman 与 Xiaoran Yan、Xin-Zeng Wu 2016 年在《PLOS ONE》发表的「多数幻觉」（majority illusion）研究指出：如果少数几个人缘极好的人都有某种特征，很多人会发现自己大部分朋友都有这个特征，哪怕它在整个网络里很少见。他们用红头发打比方：红发的人很少，可很多人眼里，自己一半以上的朋友都是红发。朋友数分布越不均匀，越是「大 V 连着小号」的结构，这种幻觉就越强。&lt;/p&gt;
+
+&lt;p&gt;所以当你觉得「好像人人都在去那个地方度假」「好像人人都在用那个新应用」，可以先想一想：你看到的是朋友，而朋友本身就是一个被放大过的样本。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://en.wikipedia.org/wiki/Friendship_paradox"&gt;Wikipedia: Friendship paradox&lt;/a&gt;；&lt;a href="https://hms.harvard.edu/news/friendship-paradox-helps-predict-spread-flu"&gt;Harvard Medical School 新闻（2010-09-15）&lt;/a&gt;；&lt;a href="https://www.cidrap.umn.edu/influenza-general/study-friend-sentinels-provide-early-flu-warning"&gt;CIDRAP&lt;/a&gt;；&lt;a href="https://arxiv.org/pdf/1304.3480v1"&gt;Hodas, Kooti &amp; Lerman 2013, arXiv:1304.3480&lt;/a&gt;；&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4757419"&gt;Lerman, Yan &amp; Wu 2016, PLOS ONE&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Friendship_paradox"&gt;https://en.wikipedia.org/wiki/Friendship_paradox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://hms.harvard.edu/news/friendship-paradox-helps-predict-spread-flu"&gt;https://hms.harvard.edu/news/friendship-paradox-helps-predict-spread-flu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/pdf/1304.3480v1"&gt;https://arxiv.org/pdf/1304.3480v1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4757419"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC4757419&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">05a6927d-f947-5b42-804c-bb802977a9ec</guid>
+      <pubDate>Fri, 20 Nov 2026 12:14:56 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Friendship_paradox</link>
+      <enclosure url="https://hms.harvard.edu/sites/default/files/assets/News/2010/October/friendship2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 橡胶手错觉里可能混着一份「配合演出」：越容易被催眠的人越觉得假手是自己的，神经科学家随即在同一本期刊反驳「没有特定关系」</title>
+      <description>&lt;p&gt;把你的左手藏进一个盒子，面前摆一只橡胶假手。研究者拿两支毛刷，同时、同节奏地刷你的真手和假手。一两分钟后，很多人会说出一句很怪的话：「我觉得那只橡胶手是我的。」研究者突然作势要「伤害」那只假手，你的皮肤会冒汗，好像真的要挨打。这就是神经科学教科书里的经典——橡胶手错觉（Rubber Hand Illusion, RHI）。2020 年，一组英国研究者提出了一个让同行很不舒服的问题：这种感觉，有多少来自你的大脑在「配合演出」？&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cef/7519080/b6b518c1e8f1/41467_2020_18591_Fig3_HTML.jpg" alt="Lush 等 2020 论文中橡胶手错觉各项指标与催眠易感性的关系图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Lush 等（2020）：橡胶手错觉的主观报告与催眠易感性呈正相关。图：Nature Communications，CC BY&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;错觉本身的来历很清楚。1998 年 2 月 19 日，匹兹堡大学的 Matthew Botvinick 和 Jonathan Cohen 在《Nature》上发表了只有一页的短文《橡胶手「感觉到」眼睛看见的触碰》（391 卷 756 页）。关键是同步：真手和假手同时被刷，错觉出现；节奏错开（异步），错觉基本消失。2003 年，Kathleen Armel 和 V.S. Ramachandran 在《英国皇家学会会刊 B》上补了一个更「硬」的证据：「伤害」假手时，受试者出现明显的皮肤电反应（skin conductance response），也就是测谎仪测的那种出汗反应。另一个常用指标叫本体感觉漂移（proprioceptive drift）：错觉之后，闭眼指出自己真手在哪，人会不自觉地往假手方向偏几厘米。二十多年来，这个实验成了研究「身体归属感」（body ownership）的标准工具。&lt;/p&gt;
+
+&lt;p&gt;问题出在那个对照组上。苏塞克斯大学的 Peter Lush、Zoltan Dienes、Anil Seth 等六人在 2020 年 9 月的《Nature Communications》（11 卷 4853）发表论文，先给受试者做「苏塞克斯-滑铁卢催眠易感性量表」（SWASH）——10 个暗示项目，比如「你的手臂越来越重」，看你主观上有多少感觉。然后让 353 人做橡胶手实验。结果，越容易接受暗示的人，在同步刷动后报告的错觉越强（Spearman 相关约 0.26，大约解释 9% 的差异）。更麻烦的是，他们在异步条件下的报告同样随易感性升高；就连一条本来设计为「不该被认同」的对照陈述——「那只橡胶手看起来越来越像我的手」——也和易感性相关（约 0.31）。客观一些的漂移指标，关系则弱得多（约 0.11）。同一篇论文还在另外 400 多人身上发现，自称有「镜像触觉」「替代性疼痛」的人，同样和易感性挂钩。&lt;/p&gt;
+
+&lt;p&gt;Lush 等人给这种能力起了个名字：现象控制（phenomenological control）。意思不是受试者撒谎，而是一部分人有一种稳定的本事，能真切地「体验到」情境期待他们体验的东西。心理学家 Martin Orne 早在 1962 年就警告过「需求特征」（demand characteristics）：受试者会揣摩实验想要什么。Lush 的说法更进一步——需求特征改变的可能不只是行为，还有体验本身。他们自己也承认，这是相关研究，错觉「可能、也可能不」完全归因于此；原计划用来操纵期待的实验处理还失败了。&lt;/p&gt;
+
+&lt;p&gt;反击在 2022 年 1 月到来，发在同一份期刊。斯德哥尔摩卡罗林斯卡学院的 Henrik Ehrsson、伦敦大学学院的 Aikaterini Fotopoulou 等人拿 Lush 的公开数据重新分析，标题毫不含糊：《催眠易感性与橡胶手错觉之间没有特定关系》（13 卷 564）。他们的核心论点是：既然易感性同时影响同步、异步两种条件，那就该看两者之差——这才是错觉「特有」的部分。按这个算法，相关系数约 0.047，p = 0.376，等于没有。他们还指出，即便是最不容易被暗示的那批人，也清楚地体验到了错觉。言下之意：易感性会普遍抬高人们对各种主观问卷的打分，但并不制造这个错觉本身。&lt;/p&gt;
+
+&lt;p&gt;Lush 和 Seth 当月就发了回应，坚持 9% 的解释量「不算弱」，并认为异步条件本身就不是干净的对照——受试者同样知道实验希望他们感觉到什么，拿它当基线，会把期待效应一起减掉。双方的分歧说到底是方法论：在一个只能靠「你感觉到了吗」来测量的现象里，怎样的对照才算真的对照？&lt;/p&gt;
+
+&lt;p&gt;目前的共识大致是：橡胶手错觉是真的，多感官整合的解释依然站得住；但它的强度里，可能混进了一部分因人而异的「暗示加成」。这对依赖主观报告的整个领域都是提醒——从假肢和虚拟现实里的身体归属感，到联觉研究。下次有人在课堂上演示橡胶手，你可以留心看看：最先惊呼「真的像我的手」的，是不是也是最先在催眠秀上手臂抬起来的那个人。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7519080"&gt;Lush et al. 2020, Nature Communications 11:4853&lt;/a&gt;；&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799653/"&gt;Ehrsson et al. 2022, Nature Communications 13:564&lt;/a&gt;；&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799699/"&gt;Lush &amp; Seth 2022 回应&lt;/a&gt;；&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1691405"&gt;Armel &amp; Ramachandran 2003, Proc. R. Soc. B&lt;/a&gt;；&lt;a href="https://www.anilseth.com/its-rubber-hand-time-again"&gt;Anil Seth 博客&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7519080"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC7519080&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799653/"&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799653/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799699/"&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799699/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1691405"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC1691405&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">550ddf6b-bf2d-5819-b5d2-191a1b1d8ed5</guid>
+      <pubDate>Fri, 20 Nov 2026 12:14:56 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC7519080</link>
+      <enclosure url="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9cef/7519080/b6b518c1e8f1/41467_2020_18591_Fig3_HTML.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
