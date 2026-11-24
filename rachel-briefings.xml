@@ -9,796 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Mon, 23 Nov 2026 12:14:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 12:21:21 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 Feed AI Your Findings, Not Your Transcripts: NN/g Finds Synthesized Research Beats Raw Comments by 8.4 Points / 给 AI 喂结论，别喂原始记录：NN/g 发现综合后的研究比原始评论高出 8.4 分</title>
-      <description>&lt;p&gt;Nielsen Norman Group ran an experiment a lot of teams have been running informally: if you hand an AI design tool your user research, does it matter what shape that research is in? Megan Chan and Rachel Banawa's answer, published November 20, is yes, by a measurable margin. Designs generated from &lt;strong&gt;synthesized findings and recommendations&lt;/strong&gt; met 77.9% of a predefined scorecard's criteria. Designs generated from the same research as roughly 100 raw user comments met 69.5%. The 8.4-point gap was significant at p &amp;lt; 0.001.&lt;/p&gt;
-
-&lt;p&gt;This is a different question from the one NN/g asked in October about synthetic users, which this feed covered on November 18. That study put AI in the participant's chair and found it erased the long tail of human answers. This one puts AI in the designer's chair and asks what it needs to read.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/11/20/bar-chart.png" alt="Bar chart comparing scorecard criteria met by AI designs generated from raw comments versus synthesized findings" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Across both tasks, designs built from synthesized findings and recommendations met 77.9% of scorecard criteria versus 69.5% for raw comments (NN/g)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;How the study worked&lt;/h3&gt;
-
-&lt;p&gt;The team used two common design problems: a one-page form for rebooking a canceled flight, and a multistep online-store checkout. Each task had about 100 user comments. A researcher, helped by an AI tool, synthesized those comments into findings and recommendations, and made the final calls on what to include. The prompt and the design-system information were held constant, so the only variable was raw comments versus synthesis. The AI model generated eight designs per task per condition, 32 in total. A human grader and an LLM judge scored each design blind against the scorecard; after calibration they agreed on about 96% of decisions, and NN/g reports the human scores. The article does not name the model.&lt;/p&gt;
-
-&lt;p&gt;The gap differed by task. Flight rebooking showed an 11.4-point advantage for synthesized input; checkout showed 5.5. The authors explain the smaller checkout gap: the task prompt already flagged discounts and delivery timing, so even the raw-comment designs often handled them. If the brief already contains the insight, the research format matters less.&lt;/p&gt;
-
-&lt;h3&gt;The failures are the useful part&lt;/h3&gt;
-
-&lt;p&gt;Two failure modes show what synthesis adds. In the flight task, a few comments complained about loyalty miles. None of the raw-comment designs showed whether canceling would affect miles. Every synthesized-input design did. A minority complaint, once a researcher turned it into a finding, became a requirement. Left in the pile, it disappeared.&lt;/p&gt;
-
-&lt;p&gt;In the checkout task, several users wrote that items vanished from their cart mid-checkout. Fewer than half of the raw-comment designs kept items and totals visible at every step. Nearly all synthesized-input designs did. "Items disappeared from my cart" describes a symptom. "Keep the order summary persistent across steps" is a design decision, and the model was much more reliable at following a decision than at deriving one.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/11/20/synthesized-findings-and-recommendations-add-a-layer-of-interpretation.png" alt="Diagram showing synthesized findings and recommendations adding a layer of interpretation between raw data and AI design output" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;With raw data alone the AI has to guess what to build; with synthesis it builds on decisions the team already made (NN/g)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;The authors' explanation fits what researchers already know about raw feedback. Users describe their problems well but predict their own behavior badly, and comments can be irrelevant or contradictory. Synthesis weighs that feedback against business needs, technical constraints, and what has been tried before, and those are tradeoffs the authors say AI tools struggle to make on their own. The data here was relatively clean: more than half the comments in each task supported a finding, compared with app-store research suggesting only about a third of reviews help product teams. The authors expect the advantage to grow with messier, larger datasets and less familiar problems.&lt;/p&gt;
-
-&lt;h3&gt;What it does not show yet&lt;/h3&gt;
-
-&lt;p&gt;The sample is small (32 designs, two familiar patterns, one unnamed model). The study can't separate the effect of findings from the effect of recommendations. And it doesn't test interview transcripts, usability-test notes, or whether file format matters. NN/g lists all of these as next studies.&lt;/p&gt;
-
-&lt;h3&gt;What to do with it&lt;/h3&gt;
-
-&lt;p&gt;NN/g's term for the practice is &lt;strong&gt;UX-context design&lt;/strong&gt;: deciding what research knowledge an AI tool needs, organizing it, and keeping it current. It fits the arc this feed has tracked all autumn, where the source of truth for agents keeps moving into structured documents: DESIGN.md in repos, Figma Specs on the canvas, and Tony Alicea's Research-in-the-Loop sections in every spec (NN/g, November 13). This study gives that work its first number. Practically, three things follow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Don't paste interview dumps or survey exports into a design agent and expect it to find the minority problem that matters. It probably won't.&lt;/li&gt;
-&lt;li&gt;Write findings so they can be lifted directly into a prompt or spec: one observed problem, its evidence, and an explicit recommendation.&lt;/li&gt;
-&lt;li&gt;Treat research repositories as having two readers, teammates and tools, and maintain them like a design system rather than an archive.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The open question is cost. Synthesis is the slow part of research, and AI-speed teams are trying to skip it. This study suggests skipping it costs you the loyalty-miles case: the issue a few users raised that should have shaped the screen.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://www.nngroup.com/articles/raw-data-vs-synthesized-data/"&gt;NN/g, "Can AI Generate Good Designs from Raw User Data?"&lt;/a&gt;; &lt;a href="https://www.nngroup.com/articles/research-in-the-loop/"&gt;NN/g, "Research-In-The-Loop"&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;很多团队私下都试过这件事：把用户研究丢给 AI 设计工具，研究材料是什么形态，到底有没有影响？NN/g 的 Megan Chan 和 Rachel Banawa 在 11 月 20 日给出了答案：有，而且能量化。用&lt;strong&gt;综合后的发现与建议（synthesized findings and recommendations）&lt;/strong&gt;生成的设计，平均满足预设评分表 77.9% 的标准；用同一批研究的约 100 条原始用户评论生成的设计，只有 69.5%。差 8.4 个百分点，p &amp;lt; 0.001。&lt;/p&gt;
-
-&lt;p&gt;这和 NN/g 十月那项合成用户（synthetic users）研究不是一回事。本 feed 11 月 18 日写过那篇：AI 当受访者，结果把人类回答的长尾抹平了。这次 AI 坐到了设计师的位置上，问题变成：它需要读什么？&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/11/20/bar-chart.png" alt="原始评论与综合发现两种输入下 AI 设计满足评分标准比例的柱状图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;两项任务合计：综合输入 77.9%，原始评论 69.5%（NN/g）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;实验用了两个常见场景：航班取消后改签的单页表单，和电商多步结账流程。每个任务约 100 条用户评论。研究员借助 AI 工具把评论整理成发现与建议，最后由人拍板取舍。提示词和设计系统信息保持不变，唯一变量是给原始评论还是给综合结果。每个任务每种条件生成 8 个设计，共 32 个。一名人类评分员和一个 LLM 评委对照评分表盲评，校准后一致率约 96%，文中报告的是人类分数。用的哪个模型，文章没说。&lt;/p&gt;
-
-&lt;p&gt;两个任务差距不一样：改签任务综合输入领先 11.4 分，结账任务只领先 5.5 分。原因很直接，结账任务的提示词本身已经点了折扣和配送时间，原始评论组也大多覆盖到了。洞察已经写进需求里，研究材料的形态就没那么要紧。&lt;/p&gt;
-
-&lt;p&gt;真正有用的是失败案例。改签任务里，有几条评论抱怨里程积分。原始评论组的设计，没有一个告诉用户取消会不会影响里程；综合输入组则全部都有。少数人的抱怨，被研究员写成一条发现，就变成了需求；留在评论堆里，就没了。&lt;/p&gt;
-
-&lt;p&gt;结账任务里，好几位用户说购物车里的商品结账到一半就不见了。原始评论组只有不到一半的设计在每一步都保留商品和总价；综合输入组几乎全部做到。"购物车东西不见了"是症状，"订单摘要在每一步常驻"是设计决策。模型执行决策靠谱得多，自己从症状推导决策就差一截。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://media.nngroup.com/media/editor/2026/11/20/synthesized-findings-and-recommendations-add-a-layer-of-interpretation.png" alt="综合发现与建议在原始数据和 AI 设计之间加了一层解读的示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;只有原始数据，AI 只能猜；有了综合结论，它是在团队已做的决策上继续搭（NN/g）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;作者的解释和研究员的经验吻合：用户描述问题很在行，预测自己的行为却很糟，评论里还常有无关或互相矛盾的内容。综合这一步要把反馈和业务需求、技术约束、过往尝试放在一起权衡，作者认为 AI 工具自己很难做这种取舍。而且这次的数据算干净的，每个任务一半以上评论都支撑了某条发现；应用商店评论研究显示，只有约三分之一的评论对产品团队有用。数据越大越乱、问题越陌生，作者预计差距会越大。&lt;/p&gt;
-
-&lt;p&gt;局限也很明显：样本小（32 个设计、两个熟悉的模式、一个未具名模型）；分不清功劳是"发现"的还是"建议"的；也没测访谈转录、可用性测试笔记，以及文件格式是否有影响。NN/g 把这些都列为下一步。&lt;/p&gt;
-
-&lt;p&gt;NN/g 给这项工作起了个名字：&lt;strong&gt;UX 上下文设计（UX-context design）&lt;/strong&gt;，即决定 AI 工具需要哪些研究知识、怎么组织、怎么保持更新。这和本 feed 整个秋天追踪的脉络一致：给 agent 看的"事实来源"不断搬进结构化文档，代码库里的 DESIGN.md、画布上的 Figma Specs，还有 Tony Alicea 提出的、每份 spec 都带一段研究说明的 Research-in-the-Loop（NN/g，11 月 13 日）。这项研究给这件事第一次加上了数字。落到实践上有三点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;别把访谈记录或问卷导出直接塞给设计 agent，指望它自己找出那个关键的少数派问题。大概率找不到。&lt;/li&gt;
-&lt;li&gt;写发现时就按能直接放进 prompt 或 spec 的格式写：一个观察到的问题、证据、一条明确建议。&lt;/li&gt;
-&lt;li&gt;研究库现在有两类读者，同事和工具。要像维护设计系统一样维护它，而不是当档案馆。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;悬而未决的是成本。综合恰恰是研究里最慢的环节，追求 AI 速度的团队最想省掉它。这项研究说明，省掉它的代价就是"里程积分"这类问题：少数用户提过、本该改变那个页面的事。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/raw-data-vs-synthesized-data/"&gt;https://www.nngroup.com/articles/raw-data-vs-synthesized-data/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/research-in-the-loop/"&gt;https://www.nngroup.com/articles/research-in-the-loop/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a172c51e-ddb3-58a0-a038-7c5bacef6437</guid>
-      <pubDate>Sat, 21 Nov 2026 12:14:31 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.nngroup.com/articles/raw-data-vs-synthesized-data/</link>
-      <enclosure url="https://media.nngroup.com/media/editor/2026/11/20/bar-chart.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Figma's 3D Transform Is Really a CSS Lesson: preserve-3d, Flattening Rules and Springs as Tokens / Figma 3D 变换其实是一堂 CSS 课：preserve-3d、压平规则与弹簧动效 token</title>
-      <description>&lt;p&gt;Figma shipped a &lt;strong&gt;3D transform&lt;/strong&gt; effect on November 12, in open beta for every plan with a Full seat. Layers (vectors, images, text, frames, components) can now rotate on X, Y and Z with on-canvas handles, move along the Z axis with a Depth value, and share a viewpoint through a Perspective effect on their parent frame. It sounds like a visual toy, and the launch video is mostly a showcase. The part practitioners should care about is that every control maps to a CSS property, and the mapping exposes the same constraints that have tripped up front-end developers for a decade.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44957118157591" alt="Figma 3D transform effect settings panel with rotation, depth and origin controls" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The 3D transform effect settings: rotation per axis, depth, origin point and backface (Figma Help Center)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;The CSS model, made visible&lt;/h3&gt;
-
-&lt;p&gt;Figma's help documentation spells out what Dev Mode exports. Depth becomes &lt;code&gt;translateZ&lt;/code&gt;. The parent's Perspective effect becomes &lt;code&gt;perspective&lt;/code&gt;. A parent toggle called "Keep nested layers 3D" becomes &lt;code&gt;transform-style: preserve-3d&lt;/code&gt;, and its opposite, "Turn into flat plane," becomes &lt;code&gt;transform-style: flat&lt;/code&gt;. Rotation values appear among the copyable transform values. Origin point sets the pivot, the same job &lt;code&gt;transform-origin&lt;/code&gt; does, and Backface controls whether the mirrored back of a layer shows when it turns away, which is &lt;code&gt;backface-visibility&lt;/code&gt; in practice. Figma's advice for a two-sided card is the one every CSS tutorial gives: separate front and back layers with hidden backfaces.&lt;/p&gt;
-
-&lt;p&gt;The constraints carry over too, and Figma documents them honestly. Perspective does nothing visible unless children have a 3D transform. Depth does nothing unless the parent keeps nested layers 3D and has perspective or rotation. And turning on "Keep nested layers 3D" disables the parent's opacity, blend modes, shaders, other effects, clip content, fills and strokes until you flatten it. That list is close to the set of CSS properties that force &lt;code&gt;preserve-3d&lt;/code&gt; to fall back to flat in browsers, since opacity below 1, filters and &lt;code&gt;overflow&lt;/code&gt; clipping all create a flattening context. Designers who hit the disabled controls in Figma are seeing a real rendering rule, not a Figma quirk. That is useful: a mockup that relies on a semi-transparent 3D container with nested depth was never going to ship as drawn.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44959534425111" alt="Keep nested layers 3D toggle in Figma's right sidebar" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;"Keep nested layers 3D" maps to transform-style: preserve-3d and disables several parent properties until flattened (Figma Help Center)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Motion and agents&lt;/h3&gt;
-
-&lt;p&gt;3D transforms plug into Figma Motion, still in open beta. Rotate X, Rotate Y, Depth and parent perspective are keyframeable. Two days earlier, on November 10, Motion added physics-based springs: you set stiffness, damping and (for iOS and web) mass, and duration falls out of the physics instead of being typed in. Android springs use stiffness and a damping ratio with no mass. Springs and custom curves can be saved as variables, which makes motion tokens part of the design system rather than a note in a handoff doc. Figma also warns that a spring can settle before or after its keyframe, so use a time-based spring or a curve when exact timing matters.&lt;/p&gt;
-
-&lt;p&gt;The built-in agent can apply 3D transforms and motion from a prompt, and coding agents connected through the Figma MCP server can read and implement them. Chad Colby, Figma's director of motion design, described how the Brand Studio team made the launch video: designer Deanna Gueli had the agent repeat a word at intervals along the Z axis ("the agent handled the math"), and Ben Hill had it build a plugin that arranges cards as a grid, helix, ring or scatter.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/222f89045df6d65e95959134992974b5d8d51f31-3840x2160.png?rect=0,1,3840,2159&amp;amp;w=804&amp;amp;h=452&amp;amp;q=75&amp;amp;fit=max&amp;amp;auto=format" alt="Agent-built 3D layout arranger plugin in Figma with ring layout selected" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;An agent-built plugin arranging layers in 3D layouts for the launch video (Figma blog)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Two ideas of 3D in one week&lt;/h3&gt;
-
-&lt;p&gt;The timing is worth noting. On November 16, WebKit previewed spatial CSS for visionOS, covered here on November 19: portals, models and anchors authored in 3D files, real depth rather than projection. Figma's feature is the older idea, CSS 3D transforms that project flat planes onto a 2D screen. That is the right call for a tool whose output is mostly web and app UI today. It also means Figma 3D is not a path to spatial interfaces; nothing here exports to &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; or a portal.&lt;/p&gt;
-
-&lt;h3&gt;Takeaways&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Treat the disabled-property warnings as a spec. If a design needs opacity or clipping on a 3D container, restructure layers in Figma before handoff.&lt;/li&gt;
-&lt;li&gt;Pair every 3D rotation or depth animation with a reduced-motion variant. Large rotations and parallax are classic vestibular triggers, and Figma's Motion documentation doesn't describe a reduced-motion state, so plan to design and hand off the variant explicitly.&lt;/li&gt;
-&lt;li&gt;Save springs as variables now, while Motion is in beta, so engineering gets named values instead of eyeballed durations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Open question: will Dev Mode's CSS for springs and 3D export platform code (SwiftUI, Compose) with the same fidelity? The help pages don't say, and that is where design-to-code for motion usually breaks.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://help.figma.com/hc/en-us/articles/44568893374999"&gt;Figma Help, 3D transform&lt;/a&gt;; &lt;a href="https://help.figma.com/hc/en-us/articles/41414048690839-Adjust-an-animation-s-easing"&gt;Figma Help, easing and springs&lt;/a&gt;; &lt;a href="https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/"&gt;Figma blog, Chad Colby&lt;/a&gt;; &lt;a href="https://www.figma.com/release-notes/"&gt;Figma release notes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Figma 11 月 12 日上线了 &lt;strong&gt;3D 变换（3D transform）&lt;/strong&gt;效果，所有套餐的 Full 席位都能用，目前是公开测试。矢量、图片、文字、frame、组件都可以用画布上的手柄绕 X、Y、Z 轴旋转，用 Depth 沿 Z 轴前后移动，再在父 frame 上加 Perspective 让子元素共享同一个视点。听上去像个视觉玩具，发布视频也基本是炫技。但对实践者来说，真正有价值的是每个控件都对应一个 CSS 属性，而且这套映射把前端开发者踩了十年的约束原样搬了过来。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44957118157591" alt="Figma 3D 变换设置面板，含旋转、深度和原点控件" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;3D 变换设置：各轴旋转、深度、原点和背面（Figma 帮助中心）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Figma 的帮助文档写明了 Dev Mode 导出什么：Depth 对应 &lt;code&gt;translateZ&lt;/code&gt;；父级 Perspective 对应 &lt;code&gt;perspective&lt;/code&gt;；父级开关"Keep nested layers 3D"对应 &lt;code&gt;transform-style: preserve-3d&lt;/code&gt;，反过来的"Turn into flat plane"对应 &lt;code&gt;transform-style: flat&lt;/code&gt;；旋转值出现在可复制的 transform 里。Origin point 设定旋转支点，相当于 &lt;code&gt;transform-origin&lt;/code&gt;；Backface 控制背面翻过去时是否显示镜像，实际就是 &lt;code&gt;backface-visibility&lt;/code&gt;。做双面卡片，Figma 给的办法和所有 CSS 教程一样：正反两层分开，各自隐藏背面。&lt;/p&gt;
-
-&lt;p&gt;约束也一并搬来了，Figma 写得很坦白。子元素没有 3D 变换，Perspective 看不出效果；父级没开"保持嵌套 3D"且没有透视或旋转，Depth 也看不出效果。一旦开启"Keep nested layers 3D"，父级的不透明度、混合模式、着色器、其他效果、内容裁切、填充和描边全部禁用，直到压平为止。这份清单和浏览器里让 &lt;code&gt;preserve-3d&lt;/code&gt; 退化成平面的属性几乎重合：opacity 小于 1、filter、&lt;code&gt;overflow&lt;/code&gt; 裁切都会制造压平上下文。设计师在 Figma 里看到控件变灰，碰到的是真实的渲染规则，不是 Figma 的怪癖。这反而是好事：一个依赖半透明 3D 容器加嵌套深度的稿子，本来就没法照原样上线。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44959534425111" alt="Figma 右侧栏中的 Keep nested layers 3D 开关" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;"Keep nested layers 3D"对应 transform-style: preserve-3d，开启后父级若干属性被禁用（Figma 帮助中心）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;3D 变换接入了同样在公测的 Figma Motion，Rotate X、Rotate Y、Depth 和父级透视都能打关键帧。两天前（11 月 10 日），Motion 加了基于物理的弹簧（physics-based springs）：设定刚度、阻尼，iOS 和 Web 还有质量，时长由物理参数算出来，不再手填。Android 弹簧没有质量参数，用刚度加阻尼比。弹簧和自定义曲线可以存成变量，动效 token 从此进了设计系统，而不是交付文档里的一句备注。Figma 也提醒，弹簧可能在关键帧之前或之后才停稳，对时间精度有要求时用基于时间的弹簧或曲线。&lt;/p&gt;
-
-&lt;p&gt;内置 agent 可以按提示词加 3D 变换和动效，通过 Figma MCP 服务器连接的编码 agent 也能读取并实现。Figma 动效设计总监 Chad Colby 讲了品牌工作室怎么做发布视频：设计师 Deanna Gueli 让 agent 把一个词沿 Z 轴按间隔重复（她说"数学交给 agent"），Ben Hill 则让 agent 写了个插件，把卡片排成网格、螺旋、圆环或随机散布。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.sanity.io/images/599r6htc/regionalized/222f89045df6d65e95959134992974b5d8d51f31-3840x2160.png?rect=0,1,3840,2159&amp;amp;w=804&amp;amp;h=452&amp;amp;q=75&amp;amp;fit=max&amp;amp;auto=format" alt="Figma 中由 agent 构建的 3D 布局插件，选中圆环布局" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;agent 写的 3D 布局插件，用于发布视频（Figma 博客）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;同一周出现了两种"3D"。11 月 16 日 WebKit 在 visionOS 上预览了空间 CSS（本 feed 11 月 19 日写过）：portal、模型、在 3D 文件里定义的锚点，是真正的深度。Figma 做的是更老的那种，CSS 3D 变换，把平面投影到 2D 屏幕上。对一个产出主要是网页和 App 界面的工具，这个选择没错。但它也不是通往空间界面的路，这里没有任何东西能导出成 &lt;code&gt;&amp;lt;model&amp;gt;&lt;/code&gt; 或 portal。&lt;/p&gt;
-
-&lt;p&gt;几条可以直接用的建议：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;把属性禁用提示当成规格。如果设计需要在 3D 容器上用不透明度或裁切，交付前就在 Figma 里重组图层。&lt;/li&gt;
-&lt;li&gt;每个 3D 旋转或深度动画都配一个减少动效（reduced motion）版本。大幅旋转和视差是典型的前庭触发源，而 Figma Motion 的文档里没有提到减少动效状态，最好单独设计并交付这个版本。&lt;/li&gt;
-&lt;li&gt;趁 Motion 还在测试期，就把弹簧存成变量，让工程拿到有名字的数值，而不是目测出来的时长。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;还有个问题没答案：Dev Mode 给弹簧和 3D 导出平台代码（SwiftUI、Compose）时，能否和 CSS 一样精确？帮助文档没提，而动效的设计到代码，往往就断在这里。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/44568893374999"&gt;https://help.figma.com/hc/en-us/articles/44568893374999&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/41414048690839-Adjust-an-animation-s-easing"&gt;https://help.figma.com/hc/en-us/articles/41414048690839-Adjust-an-animation-s-easing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/"&gt;https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/release-notes/"&gt;https://www.figma.com/release-notes/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d35c6b09-d979-52cf-a29b-4bfed0d948c7</guid>
-      <pubDate>Sat, 21 Nov 2026 12:14:31 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://help.figma.com/hc/en-us/articles/44568893374999</link>
-      <enclosure url="https://cdn.sanity.io/images/599r6htc/regionalized/222f89045df6d65e95959134992974b5d8d51f31-3840x2160.png?rect=0,1,3840,2159&amp;w=804&amp;h=452&amp;q=75&amp;fit=max&amp;auto=format" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Figma Now Has Two Agent Allowlists: Admins Can Approve MCP Clients, but Figma's Own Catalog Still Decides Who Gets In / Figma 现在有两道 agent 白名单：管理员能审批 MCP 客户端，但谁能进门仍由 Figma 的目录说了算</title>
-      <description>&lt;p&gt;On November 17 Figma gave Organization and Enterprise admins a new control: an &lt;strong&gt;allowlist of approved OAuth apps&lt;/strong&gt;, explicitly including MCP clients such as Cursor and Claude Code. Admins can now require that any app touching company design files be approved first, review member requests in a new Extensions tab, and approve or decline each app's requested scopes. Two days later Figma's agent arrived in Dev Mode, where developers can ask it to inspect designs, diff versions and generate code snippets. Agents are spreading into more of Figma, and admins now have a gate for them.&lt;/p&gt;
-
-&lt;p&gt;The admin gate sits on top of an older one that Figma itself controls. Design-ops leads need to understand both, because they answer different questions: which agents Figma will talk to at all, and which ones your company lets in.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44800167121943" alt="Figma admin Extensions tab showing a suggested app with an Approve button" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Admins approve suggested apps, including MCP clients, from the new Extensions tab (Figma Help Center)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Gate one: Figma's catalog&lt;/h3&gt;
-
-&lt;p&gt;Figma's remote MCP server, the one that supports write-to-canvas, does not accept any client that speaks the protocol. During dynamic client registration it checks the &lt;code&gt;client_name&lt;/code&gt; the client sends against a supported list (Claude Code, Claude Desktop, Cursor, VS Code, Codex, Gemini CLI, Kiro, Warp, Replit, Xcode in beta and others). Anything else gets a bare 403. WorkOS, in an October 5 write-up, pointed out the weakness: &lt;code&gt;client_name&lt;/code&gt; is self-reported, so the check verifies a label rather than an identity. It is a policy gate, not a security boundary.&lt;/p&gt;
-
-&lt;p&gt;The gate has been contentious. On April 1 a user opened a Figma forum thread titled "Figma's approach breaks the core promise of MCP" after OpenCode was refused, arguing that any client should work with any server. A Figma staffer replied on May 1 that the allowlist was "an intentional choice" during beta. OpenCode was added on October 15, six months later, after 42 replies. Other threads still ask Figma to admit enterprise gateways such as AWS Bedrock AgentCore and SecureAuth, which companies use to route agent traffic through their own policy layer. The fallback, the desktop MCP server, needs a Dev or Full seat and cannot write to the canvas.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/621f84dc15b5ed16dc85a18a/6ac3a71e4b139735be852661_figma-client-name-check.webp" alt="Diagram of Figma's remote MCP server checking the client_name sent during dynamic client registration" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Figma's remote MCP server admits clients by the self-reported client_name at registration (WorkOS)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Gate two: your organization's allowlist&lt;/h3&gt;
-
-&lt;p&gt;The new control works per organization. Under Admin, then Extensions, then Apps, admins choose between "Allow all apps" (the default) and "Only admin-approved apps." Approving an app approves its requested scopes, such as reading file content or creating comments. If the app later asks for more, like write access, those scopes need separate approval, and declining them leaves the earlier approval in place. Members can request unapproved apps with a reason; requests for the same app and permission set are grouped on the admin dashboard.&lt;/p&gt;
-
-&lt;p&gt;Two details matter for rollout. First, switching to approval-only applies to existing connections, not just new ones: unapproved apps lose access the next time they reach for organization resources, including tools people already authorized. Figma's own docs tell admins to inventory what teams use before flipping the switch. Second, revoking an app cuts it off for everyone but doesn't delete individual authorizations, so switching the policy back may revive connections, possibly requiring a reconnect. The help article does not mention audit logging for these decisions.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44800167122711" alt="Figma admin dashboard showing app approval requests from members" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Member requests for unapproved apps land on the admin dashboard, grouped by app and permission set (Figma Help Center)&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Why this is a design-systems story&lt;/h3&gt;
-
-&lt;p&gt;This feed has tracked how design systems now serve agents: 18 of 21 major systems ship MCP servers, and Figma said on its November 4 earnings call that its MCP server was its fastest-growing product by weekly active users. Once agents can write to the canvas, the people who own a design system also inherit the question of which agents may edit the source of truth. The scope model is the useful part: a team can approve a coding agent for read-only access to specs and components while withholding write access to libraries. The Dev Mode agent fits the same pattern by seat type. Dev seats can chat without editing; only Full seats with edit access can ask it to change the design.&lt;/p&gt;
-
-&lt;h3&gt;What to do&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Inventory the MCP clients your designers and engineers already use before enabling approval-only mode, or you will break workflows without warning.&lt;/li&gt;
-&lt;li&gt;Approve read scopes broadly and write scopes narrowly. Treat agent write access to shared libraries like publish rights.&lt;/li&gt;
-&lt;li&gt;If your company routes agents through a gateway, check Figma's catalog first. Your admin approval cannot help a client Figma's server rejects.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The open question is whether Figma will open its catalog gate now that customers have their own. With admin control in place, keeping the vendor-side list is harder to justify as a safety measure and easier to read as a way to control access to the canvas.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://help.figma.com/hc/en-us/articles/44716871463319"&gt;Figma Help, managing OAuth apps&lt;/a&gt;; &lt;a href="https://www.figma.com/release-notes/"&gt;Figma release notes&lt;/a&gt;; &lt;a href="https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files"&gt;Figma Help, Figma agent&lt;/a&gt;; &lt;a href="https://workos.com/blog/figma-mcp-403-forbidden-client-name"&gt;WorkOS&lt;/a&gt;; &lt;a href="https://forum.figma.com/share-your-feedback-26/figma-s-approach-breaks-the-core-promise-of-mcp-52507"&gt;Figma Forum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;11 月 17 日，Figma 给 Organization 和 Enterprise 管理员加了一个新开关：&lt;strong&gt;已批准 OAuth 应用白名单（allowlist）&lt;/strong&gt;，明确把 Cursor、Claude Code 这类 MCP 客户端算在内。管理员现在可以要求任何接触公司设计文件的应用先过审批，在新的 Extensions 标签页里处理成员申请，并逐项批准或拒绝应用请求的权限范围（scope）。两天后，Figma agent 进了 Dev Mode，开发者可以让它检查设计、对比版本、生成代码片段。agent 在 Figma 里铺得越来越开，管理员也终于有了一道闸门。&lt;/p&gt;
-
-&lt;p&gt;这道闸门之上还有一道更早的、由 Figma 自己控制的闸门。设计运营负责人得把两道都搞清楚，因为它们回答的是两个问题：Figma 愿意和哪些 agent 对话，以及你的公司放哪些进来。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44800167121943" alt="Figma 管理后台 Extensions 页，推荐应用旁有批准按钮" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;管理员在新的 Extensions 页批准推荐应用，包括 MCP 客户端（Figma 帮助中心）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;先说第一道：Figma 的客户端目录。支持写入画布的远程 MCP 服务器，并不接受所有会说 MCP 协议的客户端。动态客户端注册时，它拿客户端自报的 &lt;code&gt;client_name&lt;/code&gt; 去比对支持列表（Claude Code、Claude Desktop、Cursor、VS Code、Codex、Gemini CLI、Kiro、Warp、Replit、测试中的 Xcode 等），不在名单上就返回一个光秃秃的 403。WorkOS 10 月 5 日的文章点出了漏洞：&lt;code&gt;client_name&lt;/code&gt; 是客户端自己填的，这个检查核对的是标签，不是身份。它是政策闸门，不是安全边界。&lt;/p&gt;
-
-&lt;p&gt;这道闸门争议不小。4 月 1 日，一位用户因为 OpenCode 被拒，在 Figma 论坛开了一个帖子，标题就是"Figma 的做法违背了 MCP 的核心承诺"，理由是任何客户端都应该能连任何服务器。5 月 1 日 Figma 员工回复说，白名单是测试期"有意为之"。OpenCode 直到 10 月 15 日才被加进去，前后半年，帖子攒了 42 条回复。还有帖子在请求 Figma 放行 AWS Bedrock AgentCore、SecureAuth 这类企业网关，企业要靠它们把 agent 流量导进自己的策略层。退路是桌面版 MCP 服务器，但它要 Dev 或 Full 席位，而且不能写画布。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/621f84dc15b5ed16dc85a18a/6ac3a71e4b139735be852661_figma-client-name-check.webp" alt="Figma 远程 MCP 服务器在动态客户端注册时检查 client_name 的示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Figma 远程 MCP 服务器按注册时自报的 client_name 放行客户端（WorkOS）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;再看第二道：组织自己的白名单。路径是 Admin → Extensions → Apps，可以在"允许所有应用"（默认）和"仅限管理员批准的应用"之间选。批准一个应用，就同时批准它请求的权限范围，比如读文件内容、发评论。之后它要更多权限，比如写入，需要单独批准；拒绝的话，原来批过的权限照旧有效。成员可以附上理由申请未批准的应用，同一应用、同一权限组合的申请会在管理面板上合并显示。&lt;/p&gt;
-
-&lt;p&gt;上线时有两点容易踩坑。一是切到"仅限批准"会波及现有连接，不只是新连接：未批准的应用下次访问组织资源时就会失去权限，包括大家早已授权的工具。Figma 自己的文档也建议，先盘点团队在用什么再开开关。二是撤销批准会切断所有人的访问，但不会删除个人授权，所以把策略改回去，连接可能会恢复，也可能要重连。帮助文档没有提到这些操作是否有审计日志。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://help.figma.com/hc/article_attachments/44800167122711" alt="Figma 管理面板中成员的应用审批申请" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;成员对未批准应用的申请汇总到管理面板，按应用和权限组合分组（Figma 帮助中心）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;为什么说这是设计系统的事？本 feed 一直在追踪设计系统怎么服务 agent：21 个主流设计系统里有 18 个提供 MCP 服务器，Figma 在 11 月 4 日财报会上说，按周活跃用户增长算，MCP 服务器是它增长最快的产品。agent 一旦能写画布，维护设计系统的人就得回答：哪些 agent 可以改"事实来源"？权限范围模型是关键：团队可以给编码 agent 开放规格和组件的只读权限，同时不给它写组件库的权限。Dev Mode agent 也按席位走同一套逻辑：Dev 席位只能聊天、不能改，只有带编辑权限的 Full 席位才能让它动设计。&lt;/p&gt;
-
-&lt;p&gt;可以马上做的：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;开启"仅限批准"之前，先盘点设计师和工程师已经在用的 MCP 客户端，否则会悄无声息地弄坏别人的工作流。&lt;/li&gt;
-&lt;li&gt;读权限放宽，写权限收紧。agent 对共享组件库的写权限，按发布权限来管。&lt;/li&gt;
-&lt;li&gt;如果公司用网关转发 agent 流量，先查 Figma 的客户端目录。Figma 服务器拒绝的客户端，你的管理员批了也没用。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;现在客户手里有了自己的闸门，Figma 还会守着厂商那一道吗？有了管理员控制，这份厂商名单再拿安全当理由就站不太住，更像是在控制谁能进画布。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/44716871463319"&gt;https://help.figma.com/hc/en-us/articles/44716871463319&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.figma.com/release-notes/"&gt;https://www.figma.com/release-notes/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files"&gt;https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://workos.com/blog/figma-mcp-403-forbidden-client-name"&gt;https://workos.com/blog/figma-mcp-403-forbidden-client-name&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://forum.figma.com/share-your-feedback-26/figma-s-approach-breaks-the-core-promise-of-mcp-52507"&gt;https://forum.figma.com/share-your-feedback-26/figma-s-approach-breaks-the-core-promise-of-mcp-52507&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">fbabdb0c-a31b-59cf-b87d-aa2a8d2c85ed</guid>
-      <pubDate>Sat, 21 Nov 2026 12:14:31 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://help.figma.com/hc/en-us/articles/44716871463319</link>
-      <enclosure url="https://help.figma.com/hc/article_attachments/44800167121943" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 被雷劈过的人皮肤上会浮现一片「蕨叶纹身」，一两天就消失：同一棵分形放电树，1777 年被一位哥廷根教授用硫磺粉印在纸上，如今在家庭车库里夺走了至少 35 条命</title>
-      <description>&lt;p&gt;被闪电击中却活下来的人，有时会在胸口、后背或手臂上发现一片暗红色的花纹：一根主干，向两边分出越来越细的枝杈，像蕨叶，又像一棵倒长的树。几个小时到一两天后，这片「闪电纹身」会自己褪掉，不留疤。医学上管它叫 keraunographic markings，物理学家叫它&lt;strong&gt;利希滕贝格图形（Lichtenberg figure）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Lightning_injury.jpg" alt="雷击幸存者皮肤上的蕨状利希滕贝格图形" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;附近一次雷击的电流在皮肤上留下的蕨状纹路，通常一天左右就会消退（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;名字来自哥廷根大学的物理学教授格奥尔格·克里斯托夫·利希滕贝格（Georg Christoph Lichtenberg）。1777 年前后，他造了一台巨大的起电盘（electrophorus），靠感应攒出很高的静电电压，再让高压尖端对着绝缘板放电。放电本身看不出什么，于是他往板上撒粉末。硫磺粉容易带负电，会被吸到带正电的区域；红铅（四氧化三铅）带正电，偏爱负电区域。粉一撒，板上浮现出两种截然不同的图案：正电荷留下的是大片、层层分叉的「星芒」，负电荷留下的则小而圆，边缘利落，几乎没有分枝。&lt;/p&gt;
-
-&lt;p&gt;接下来那一步更妙。利希滕贝格把白纸压在粉末图案上，图案就转印到了纸上。用静电决定粉末落在哪里、再把粉末转到纸上，这正是今天复印机和激光打印机的基本原理。不过要说清楚：切斯特·卡尔森（Chester Carlson）1938 年 10 月 22 日做出第一张静电复印件，动机是抄专利图纸太麻烦，史料里找不到他受利希滕贝格启发的记载。利希滕贝格算是早了一百六十年的先行者，没有直接的师承关系。&lt;/p&gt;
-
-&lt;p&gt;为什么放电总会长成树？电荷沿着电场最强的方向往前冲，一旦某个尖端稍微领先，它附近的电场就更强，于是长得更快，领先越拉越大。这种「富者愈富」的生长和扩散限制凝聚（Diffusion-Limited Aggregation, DLA）是同一类数学，1984 年 Niemeyer、Pietronero 和 Wiesmann 据此提出了介电击穿模型（Dielectric Breakdown Model）。闪电、绝缘材料里的电树枝、皮肤上的蕨纹，用的都是这同一套分形算法。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Lichtenberg_figure_within_a_acrylic_block.jpg" alt="亚克力块内部的利希滕贝格图形" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;用直线加速器电子束「装进」亚克力的放电树（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;工艺品店里那种「封在亚克力里的闪电」，做法也很硬核：把一块有机玻璃（PMMA）送进直线加速器（LINAC），用能量高达 25 MeV、速度达光速 95% 以上的电子束照射。电子钻进塑料内部停住，越积越多，内部电压能攒到数百万伏。这时拿一根尖头金属往表面一戳，积蓄的电荷瞬间找到出口，在塑料里炸出一棵立体的放电树。被辐照的亚克力还会先变成青柠绿、再转琥珀色，颜色日后慢慢褪去。&lt;/p&gt;
-
-&lt;p&gt;这套图案还有一个致命的版本。近些年社交媒体上流行「分形烧木」（fractal burning）：在木板上涂电解液，接上高压，看焦痕沿着木纹长出闪电。家用装置常拆微波炉变压器来做，输出数千伏，电流足以致命。美国木工协会（American Association of Woodturners, AAW）统计至少 35 人因此死亡，绝大多数在美国，也有加拿大、澳大利亚和英国的案例：从 2016 年俄亥俄州的 Jarrett Hutton，到 2022 年 4 月威斯康星州一对同时触电的情侣，再到同年 9 月堪萨斯州的 Shawn Gilligan。AAW 2017 年起禁止在任何活动上演示这项技术，连相关广告都不接。协会的安全页面只有一句话说得最直白：高压电是看不见的，它不像锯片，你看不出危险在哪。&lt;/p&gt;
-
-&lt;p&gt;从哥廷根的硫磺粉，到复印机，到被雷劈过的皮肤，再到车库里的木板，这棵树两百多年来一直按同一套规则在长。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Lichtenberg_figure"&gt;https://en.wikipedia.org/wiki/Lichtenberg_figure&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aps.org/apsnews/2003/10/october-1938-invention-xerography"&gt;https://www.aps.org/apsnews/2003/10/october-1938-invention-xerography&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://woodturner.org/Woodturner/Resources/Safety-Materials/Safety-Fractal-Burning-Lichtenburg-Burning.aspx"&gt;https://woodturner.org/Woodturner/Resources/Safety-Materials/Safety-Fractal-Burning-Lichtenburg-Burning.aspx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.woodworkingnetwork.com/news/woodworking-industry-news/death-prompts-ban-fractal-burning"&gt;https://www.woodworkingnetwork.com/news/woodworking-industry-news/death-prompts-ban-fractal-burning&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0235d272-397d-5cd7-95f8-538672ebb500</guid>
-      <pubDate>Sat, 21 Nov 2026 12:16:58 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Lichtenberg_figure</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/9/98/Lichtenberg_figure_within_a_acrylic_block.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 没人碰、没冷热冲击，钢化玻璃门半夜自己炸了：凶手是一粒冻在高温晶型里的硫化镍，它要等上几年甚至几十年才慢慢膨胀 2.5%</title>
-      <description>&lt;p&gt;半夜一声闷响，浴室的钢化玻璃门自己碎成了一地小方粒，没人碰过它，也没有冷热冲击。高层住宅的阳台玻璃挡板，装好好几年之后突然炸开，碎片从几十层高处往下掉。这种事在玻璃行业有个正式名字，叫&lt;strong&gt;自爆（spontaneous breakage）&lt;/strong&gt;，罪魁祸首里最出名的那个，是玻璃里一粒肉眼几乎看不见的硫化镍（NiS）小石子。&lt;/p&gt;
-
-&lt;p&gt;要理解它，得先回到上一期那颗鲁珀特之泪（Prince Rupert's drop）。钢化玻璃和那颗玻璃泪是同一套设计：把玻璃加热到软化点附近，再用冷风猛吹表面，表层先凝固，芯部后收缩，把表层往里拽，结果表面处在压应力状态，芯部处在拉应力状态。表面的压应力让钢化玻璃比普通玻璃结实好几倍；芯部的拉应力则是它的死穴，一旦有裂纹钻进芯部，储存的能量会瞬间释放，整块玻璃碎成颗粒。鲁珀特之泪掐断尾巴就炸，钢化玻璃也一样，只不过这次「掐断尾巴」的是从里面长出来的东西。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.glassonweb.com/sites/default/files/styles/6/public/articles/2025/Spontaneous-breaking-of-thermally-toughened-safety-glass-in-facades.jpg?itok=hniFZolz" alt="幕墙钢化玻璃自爆的研究配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;幕墙钢化玻璃自爆研究（glassonweb）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;镍可能来自原料、设备磨损的不锈钢屑，硫则来自澄清剂和燃料，两者在熔窑里凑成一粒硫化镍。硫化镍有两种晶型：高温下稳定的 α 相，和室温下稳定的 β 相，分界大约在 380°C。普通玻璃冷却慢，小石子有足够时间从 α 变成 β。钢化工艺偏偏是急冷，这粒硫化镍被冻结在高温的 α 相里，成了一颗亚稳态的「定时炸弹」。装上楼之后，它在室温下极其缓慢地转回 β 相，体积膨胀约 2.5%。如果它碰巧落在芯部的拉应力区，又足够大，膨胀产生的额外应力就会让裂纹起跳。这个过程可能要几个月，也可能要几年甚至几十年，太阳晒得越热，转变越快。&lt;/p&gt;
-
-&lt;p&gt;事后调查员有个办法辨认凶手：钢化玻璃碎片在起爆点会留下两块相邻的、形似蝴蝶翅膀的碎块，业内叫「蝴蝶纹」（butterfly），用显微镜在翅膀交界处往往能找到那粒小黑点。&lt;/p&gt;
-
-&lt;p&gt;2011 年夏天，多伦多市中心好几栋新公寓楼接连有阳台玻璃挡板自爆坠落，Festival Tower 一栋楼从 5 月到 8 月就发生多起，所幸无人受伤。舆论一炸，安大略省修改了建筑规范，补充标准 SB-13《Glass in Guards》2012 年 7 月 1 日生效：楼板边缘 50 毫米内必须用破碎后仍留在框里的半钢化夹胶玻璃，往里一点也要求经过热浸处理的钢化玻璃或夹胶玻璃。开发商 Lanterra 等也开始把多栋楼的阳台钢化玻璃换成夹胶玻璃。&lt;/p&gt;
-
-&lt;p&gt;所谓热浸处理（Heat Soak Test, HST），思路就是「提前引爆」：按欧洲标准 EN 14179-1，把钢化好的玻璃放进炉子，在 290±10°C 下保温至少两小时，给硫化镍一个加速转变的机会，有问题的玻璃在工厂里就先碎掉。代价是成本增加约一成，炉内一块炸了还常连带损坏旁边两到四块。它也不是百分之百保险：铁含量较高、化学计量偏离较多的硫化镍颗粒在测试中可能不转变，学界对热浸后残余风险的估计至今争论不休。&lt;/p&gt;
-
-&lt;p&gt;说到底，钢化玻璃的强和它的脆来自同一个应力分布。三百多年前英国皇家学会的绅士们拿锤子敲那颗玻璃泪时，大概想不到同样的物理，会在今天的阳台上以「过几年再说」的方式兑现。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.glassonweb.com/article/spontaneous-breaking-thermally-toughened-safety-glass-facades"&gt;https://www.glassonweb.com/article/spontaneous-breaking-thermally-toughened-safety-glass-facades&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.constructionspecifier.com/spontaneous-glass-breakage-why-it-happens-and-what-to-do-about-it/"&gt;https://www.constructionspecifier.com/spontaneous-glass-breakage-why-it-happens-and-what-to-do-about-it/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.constructioncanada.net/balcony-glazing-what-has-happened-and-where-we-are-now/"&gt;https://www.constructioncanada.net/balcony-glazing-what-has-happened-and-where-we-are-now/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ca.news.yahoo.com/shattered-glass-causes-panes-fall-off-buildings-092116836.html"&gt;https://ca.news.yahoo.com/shattered-glass-causes-panes-fall-off-buildings-092116836.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://aisglass.com/wp-content/uploads/2020/11/AIS-174.pdf"&gt;https://aisglass.com/wp-content/uploads/2020/11/AIS-174.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e57f17a9-9616-58da-bb38-ed7b71cbb03a</guid>
-      <pubDate>Sat, 21 Nov 2026 12:16:58 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.glassonweb.com/article/spontaneous-breaking-thermally-toughened-safety-glass-facades</link>
-      <enclosure url="https://www.glassonweb.com/sites/default/files/styles/6/public/articles/2025/Spontaneous-breaking-of-thermally-toughened-safety-glass-in-facades.jpg?itok=hniFZolz" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 南极冰下 3.7 公里藏着一个会涨潮、含氧量是普通湖 50 倍的湖：俄罗斯钻了几十年终于打穿，第一桶「湖水」一半是煤油</title>
-      <description>&lt;p&gt;南极东部的沃斯托克站（Vostok Station）是地球上最冷的地方之一，1983 年 7 月 21 日测到约 −89°C 的自然最低气温纪录。就在它脚下大约 3.7 公里深处，压着一个液态的湖：沃斯托克湖（Lake Vostok），面积约 1.25 万平方公里，差不多三个青海湖，平均水深 432 米，水量约 5,400 立方公里。它会涨潮，随太阳和月亮的位置起伏约 12 毫米。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Lake_Vostok_Sat_Photo_color.jpg" alt="沃斯托克湖雷达卫星影像" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;雷达卫星影像中冰盖表面那片平坦的椭圆，就是沃斯托克湖的轮廓（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;湖水约 −3°C 却不结冰，靠的是上方冰层带来的约 350 个大气压，压力把冰点压低了。湖水里的气体更离谱：冰盖底部不断融化，把封在冰里的空气释放进湖，估计每公斤水溶有约 2.5 升氮气和氧气，&lt;strong&gt;含氧量大约是普通淡水湖的 50 倍&lt;/strong&gt;。这样的超饱和环境对生命是福是祸，一直有争论。&lt;/p&gt;
-
-&lt;p&gt;发现它本身就绕了大半个世纪。苏联的 Andrey Kapitsa 在 1959 和 1964 年用地震波测冰厚，七十年代英国的机载雷达看到冰底有异常平坦的反射面，1993 年欧洲卫星 ERS-1 的测高数据才确认冰面下有一片平坦区域。1996 年 6 月 20 日，Kapitsa、Ridley、Zotikov 等人在 Nature 上正式宣布。媒体最爱的说法是「封存了 1500 万年的湖」。这里有个容易被忽略的细节：湖与外界隔绝的估计在 1500 万到 2500 万年，但湖水本身在不断更新。顶部的水冻结到冰盖底面被带走，另一头的冰又融化补进来，湖水的停留时间（residence time）只有约 13,300 年。封住的是这个湖，不是同一批水。&lt;/p&gt;
-
-&lt;p&gt;真正让人哭笑不得的是钻探史。俄罗斯团队为了防止钻孔重新冻上，往孔里灌了约 54 吨煤油和氟利昂作钻井液。2012 年 2 月 5 日到 6 日，钻头在约 3,769 米处打穿冰底、触到湖面。湖水在压力下顺着钻孔往上涌，和钻井液混在一起冻住。2013 年取上来的「湖水」，据批评者说近一半是煤油。俄方先宣布发现了一种与已知细菌 DNA 相似度不到 86% 的未知菌，后来实验室负责人 Vladimir Korolev 对国际文传电讯社承认：没有找到生命，只有钻探带来的污染物，那种「新菌」可能本来就能吃煤油。2015 年 1 月，团队宣称打出一个「干净」的新钻孔，取到约 1 升水，结果湖水在孔里涌上了 500 多米，远超预测的 30 到 40 米。同年 10 月，项目因缺钱暂停。2017 年，俄罗斯研究者自己承认样品污染太重，给不出可靠的化学或生物学数据。&lt;/p&gt;
-
-&lt;p&gt;生物学线索于是只能从冰里找。湖水冻结到冰盖底部形成的「增生冰」（accretion ice）是湖水的间接样本。2013 年，美国鲍灵格林州立大学 Scott Rogers 团队在 PLOS ONE 报告从增生冰里测到 3,507 个独特基因序列，其中有通常生活在鱼类肠道里的细菌；2020 年 Gura 和 Rogers 又找到一条与南极岩鳕（Notothenia coriiceps）高度吻合的序列。批评者包括俄方的 Sergey Bulat 认为，九十年代的钻具根本没灭菌，这些 DNA 多半是污染。&lt;/p&gt;
-
-&lt;p&gt;如今这个湖还在等一次干净的接触。2026 年 1 月的现场报道说，俄罗斯第 71 次南极考察队已经住进新的沃斯托克越冬综合楼，上一季改用更环保的聚甲基硅氧烷（PMS-3）作钻井液；可整个钻探综合体只分到 10 千瓦电力，室内温度不超过零下 10 度。《2030 年前俄罗斯南极活动发展战略》写的目标是打第一口「洁净进入」的钻孔，没有给日期。同一个季节，中国第 42 次南极考察队 2026 年 2 月 5 日在东南极麒麟冰下湖上方用热水钻打到 3,413 米，比此前 2,540 米的极地热水钻纪录深近 900 米，目标也是给冰下湖留一条无污染的通道。地球上最孤立的水体之一，第一口洁净样本会出自谁手，还说不准。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Lake_Vostok"&gt;https://en.wikipedia.org/wiki/Lake_Vostok&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nature.com/articles/nature.2013.12578"&gt;https://www.nature.com/articles/nature.2013.12578&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.popsci.com/science/article/2013-03/fisticuffs-dawn-researchers-argue-over-vostok-life/"&gt;https://www.popsci.com/science/article/2013-03/fisticuffs-dawn-researchers-argue-over-vostok-life/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://forpost-sz.ru/en/a/2026-01-28/why-work-vostok-station-so-important-today"&gt;https://forpost-sz.ru/en/a/2026-01-28/why-work-vostok-station-so-important-today&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sixthtone.com/news/1018399"&gt;https://www.sixthtone.com/news/1018399&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">3094212e-8628-5a58-979c-a39089ba45a1</guid>
-      <pubDate>Sat, 21 Nov 2026 12:16:58 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Lake_Vostok</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/e/e8/Lake_Vostok_Sat_Photo_color.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 停掉他汀的 60 个人被随机发了他汀、糖丸和空瓶：吃糖丸的月份难受程度几乎一样，约九成「副作用」来自反安慰剂效应</title>
-      <description>&lt;p&gt;2020 年，伦敦帝国理工学院做了一个看上去有点「整蛊」的试验：找来 60 个因为副作用而停用他汀（statin）的人，每人发 12 个药瓶，一个月一瓶。四瓶装着 20 毫克阿托伐他汀，四瓶装外观一样的安慰剂，还有四瓶是空的。哪个月用哪瓶，由电脑随机决定，病人和医生都不知道。参与者每天用手机给自己的症状打分，0 到 100。&lt;/p&gt;
-
-&lt;p&gt;结果发表在《新英格兰医学杂志》（NEJM）上，这项名为 SAMSON 的 N-of-1 试验算出：吃他汀的月份，平均症状分 16.3；吃安慰剂的月份，15.4；什么都不吃的月份，8.0。他汀和糖丸之间的差异没有统计学意义。照研究者的算法，吃他汀时感受到的症状约 90% 在吃安慰剂时同样出现。因为受不了而中途停药的比例，两种药也差不多。60 人中有 49 人坚持完 12 个月；拿到自己的数据后，大约一半人重新开始吃他汀。英国心脏基金会医学主任 Nilesh Samani 的评价是：结果毫无疑问地显示，许多归咎于他汀的副作用并不是他汀造成的。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.bhf.org.uk/-/media/news-images/2020/november/statinsnocebotrial-640x410px.jpg" alt="SAMSON 他汀反安慰剂试验配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;SAMSON 试验：药瓶里装的是他汀、糖丸还是空气，病人自己并不知道（British Heart Foundation）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这就是&lt;strong&gt;反安慰剂效应（nocebo effect）&lt;/strong&gt;：安慰剂的「黑暗双胞胎」。安慰剂是相信会好而真的好一点，反安慰剂是预期会难受而真的难受。nocebo 一词在拉丁语里是「我将伤害」，1961 年由医生 Walter Kennedy 在论文中提出，与 placebo（「我将取悦」）成对。&lt;/p&gt;
-
-&lt;p&gt;规模最大的一次「自然实验」来自新冠疫苗。2022 年 1 月，哈佛医学院贝斯以色列女执事医疗中心的 Julia Haas 等人在 JAMA Network Open 上汇总了 12 项疫苗临床试验，包括 22,578 名安慰剂组和 22,802 名疫苗组受试者。打了生理盐水的人里，第一针后约三分之一报告至少一种全身不适，最常见的是头痛（19.6%）和疲劳（16.7%）。按他们的估算，第一针后疫苗组报告的全身不良反应里，约 76% 可以用反安慰剂效应解释；第二针后约为 52%。&lt;/p&gt;
-
-&lt;p&gt;它不只是「想多了」。意大利都灵大学的 Fabrizio Benedetti 1997 年在《Pain》上发表过一项实验：给术后轻度疼痛的病人注射生理盐水，告诉他们这针会让疼痛加重，疼痛真的加重了；如果在盐水里加入 0.5 或 5 毫克胆囊收缩素（CCK）受体拮抗剂丙谷胺（proglumide），这种反安慰剂痛觉过敏就消失了，而且阿片拮抗剂纳洛酮也逆转不了这种阻断。作者推测，负面预期先引发焦虑，焦虑再通过 CCK 放大痛觉。预期会通过具体的神经化学通路改变身体感受，而不仅仅是报告时夸大其词。&lt;/p&gt;
-
-&lt;p&gt;坊间流传最广的极端案例是 2007 年《General Hospital Psychiatry》上的一则病例：一名 26 岁男子参加抗抑郁药试验，与女友吵架后一口气吞下 29 粒胶囊，被送急诊时血压骤降；医生打完点滴、确认他吃的是安慰剂之后，他很快恢复。这个故事常被当成「吃糖丸吃到休克」的铁证。但英国怀疑论者 Mike Hall 2025 年撰文指出，惊恐发作同样可以解释这些症状，把它称作「安慰剂过量」，反而夸大了安慰剂的威力。单个病例确实说明不了太多，SAMSON 这种设计严谨的试验更有分量。&lt;/p&gt;
-
-&lt;p&gt;这对日常生活有实际意义。药品说明书上列着长长一串副作用，医生讲解时的措辞，网上病友的吐槽，都在悄悄设定你的预期。SAMSON 的作者们的建议很朴素：别急着放弃一种可能救命的药，先搞清楚让你难受的究竟是药，还是你对药的预期。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.bhf.org.uk/what-we-do/news-from-the-bhf/news-archive/2020/november/no-difference-in-side-effects-with-a-statin-or-dummy-pill"&gt;https://www.bhf.org.uk/what-we-do/news-from-the-bhf/news-archive/2020/november/no-difference-in-side-effects-with-a-statin-or-dummy-pill&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.healio.com/news/cardiology/20201115/nocebo-effect-may-explain-many-cases-of-statin-intolerance-samson"&gt;https://www.healio.com/news/cardiology/20201115/nocebo-effect-may-explain-many-cases-of-statin-intolerance-samson&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2788172"&gt;https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2788172&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://research.uniupo.it/en/publications/blockade-of-nocebo-hyperalgesia-by-the-cholecystokinin-antagonist/"&gt;https://research.uniupo.it/en/publications/blockade-of-nocebo-hyperalgesia-by-the-cholecystokinin-antagonist/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/17484949/"&gt;https://pubmed.ncbi.nlm.nih.gov/17484949/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.skeptic.org.uk/2025/02/an-overdose-on-placebo-pills-can-cause-adverse-reactions-but-not-because-of-the-nocebo-effect/"&gt;https://www.skeptic.org.uk/2025/02/an-overdose-on-placebo-pills-can-cause-adverse-reactions-but-not-because-of-the-nocebo-effect/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ce1c200c-ad69-597d-b9d2-f9296afee827</guid>
-      <pubDate>Sat, 21 Nov 2026 12:16:59 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.bhf.org.uk/what-we-do/news-from-the-bhf/news-archive/2020/november/no-difference-in-side-effects-with-a-statin-or-dummy-pill</link>
-      <enclosure url="https://www.bhf.org.uk/-/media/news-images/2020/november/statinsnocebotrial-640x410px.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 只有两条规则的「蚂蚁」先乱走一万步，再突然开始修一条无限长的高速公路：四十年来没人能证明它一定会修路</title>
-      <description>&lt;p&gt;规则简单到一句话就能说完：一只「蚂蚁」站在无限大的方格纸上，脚下是白格就右转 90 度，是黑格就左转 90 度；转完之后把脚下格子的颜色翻过来，再往前走一格。就这样。从全白的格子出发，它会先画出几百步看上去挺对称的小图案，然后陷入长达近一万步的混乱涂鸦，毫无规律可言。到了大约第 9,977 步，它突然「开窍」，开始一遍遍重复一个 104 步的固定动作，每个周期沿对角线挪两格，从此朝着一个方向修出一条无限延伸的「高速公路」（highway），再也不回头。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/0/09/LangtonsAntAnimated.gif" alt="兰顿蚂蚁的动画：混乱阶段之后出现斜向高速公路" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;兰顿蚂蚁：一万步左右的混乱之后，突然开始修路（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这就是&lt;strong&gt;兰顿蚂蚁（Langton's ant）&lt;/strong&gt;，1986 年由克里斯·兰顿（Chris Langton）提出。兰顿是「人工生命」（Artificial Life）这个领域的奠基人，1987 年在洛斯阿拉莫斯召集了第一届人工生命研讨会。他想研究的问题是：极简的局部规则，能不能长出复杂的整体行为？这只蚂蚁给出的答案相当吓人。&lt;/p&gt;
-
-&lt;p&gt;先说已知的部分。1990 年代证明的 Cohen–Kong 定理指出，无论初始格子怎么涂，蚂蚁的轨迹都不会被困在有限区域里，它迟早要走向无穷远。2000 年，智利数学家 Anahí Gajardo 与 Andrés Moreira、Eric Goles 证明，只要初始图案摆得巧，单只蚂蚁的轨迹可以计算任意布尔电路。换句话说，这只两条规则的蚂蚁可以当计算机用。&lt;/p&gt;
-
-&lt;p&gt;再说不知道的部分，这才是最让人吃惊的。从全白格子出发，一万步后必然修路，这是模拟出来的事实；但如果初始格子里随便撒一些有限的黑格呢？所有试过的有限初始图案，最后都修上了同一种 104 步的高速公路。&lt;strong&gt;「高速公路猜想」（Highway conjecture）&lt;/strong&gt;说的就是：蚂蚁从任何有限初始图案出发，最终都会修路。四十年过去，这个猜想没人能证明，也没人能推翻。一条规则、两种颜色、一只蚂蚁，现代数学对它的长期命运依然束手无策。这跟前几期写过的 BB(6) 里那台类 Collatz 机器 Antihydra 是同一种困境：规则透明，行为却无法预言。既然单只蚂蚁能模拟布尔电路，它的长期行为可能在某些问题上根本不可判定。&lt;/p&gt;
-
-&lt;p&gt;Greg Turk 和 Jim Propp 后来把蚂蚁推广到多种颜色，用 L 和 R 组成的字符串命名规则。有些规则（比如 LLRR）永远对称生长，这一点已经借助特吕谢瓷砖（Truchet tiles）证明。还有的规则会画出螺旋、三角形，或者在一片混沌里无限扩张。&lt;/p&gt;
-
-&lt;p&gt;最近两年，法国研究者 Victor Lutfalla 和 Michaël Rao 与 Gajardo 合作，在 2024 年 9 月的 arXiv 论文《Ants on the highway》中对广义兰顿蚂蚁做了大规模计算，证明一条规则能修出的不同高速公路数量没有上限，甚至可以无穷多；有些高速公路出现的频率低到约千万分之一。2025 年 5 月，Lutfalla 在短文《Sideways on the highways》里又找到两种规则 LLRRRL 和 LLRLRLL：同一只蚂蚁，有时修路，有时演化出别的花样。这意味着把高速公路猜想推广到广义蚂蚁，一般是不成立的。原版那只两色蚂蚁倒是还没被抓到「不修路」的反例，它守住这个秘密的时间，说不定会比 BB(6) 还长。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Langton%27s_ant"&gt;https://en.wikipedia.org/wiki/Langton%27s_ant&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2409.10124"&gt;https://arxiv.org/abs/2409.10124&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2505.05426"&gt;https://arxiv.org/abs/2505.05426&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/nlin/0306022"&gt;https://arxiv.org/abs/nlin/0306022&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">0a450688-a8b3-52b9-af95-f122f53b623c</guid>
-      <pubDate>Sat, 21 Nov 2026 12:16:59 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Langton%27s_ant</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/0/09/LangtonsAntAnimated.gif" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 打 tirzepatide 减重时练力量有用吗？Nature Medicine 2026 随机试验 120 人 40 周：瘦组织少丢约 23%（−3.6 对 −4.7 kg），减脂没打折</title>
-      <description>&lt;p&gt;GLP-1 类药物最常被追问的副作用不是恶心，而是肌肉：体重掉得快，掉的不只是脂肪。网上的建议很多，多吃蛋白、多练力量，但直到最近，几乎都是从别的减重研究里推出来的。今年 11 月，&lt;em&gt;Nature Medicine&lt;/em&gt; 发表了一项直接在 tirzepatide（替尔泊肽）治疗期间检验力量训练的随机对照试验（Green DJ、Haynes A、Underwood DR 等，DOI 10.1038/s41591-026-04752-5）。我读到的是 News-Medical 的转述，没有拿到论文全文，下面的数字以论文为准。&lt;/p&gt;
-
-&lt;h2&gt;试验怎么做的&lt;/h2&gt;
-&lt;p&gt;120 名 50–70 岁、久坐、超重或肥胖（且至少有一种体重相关合并症）的成年人，男性和绝经后女性各占一半。排除了用过 GLP-1 类药物、有糖尿病或心血管疾病、在服降压药或他汀的人。随机分成两组：只用 tirzepatide（T 组），或 tirzepatide 加力量训练（T+REx 组）。药从 2.5 mg 起，按耐受情况加到最高 15 mg。训练组每周三次、每次一小时，由认证运动生理师带着做。没有规定饮食，只是鼓励保证饮水、蛋白和纤维。整个试验 40 周，每 8 周做一次 DXA。&lt;/p&gt;
-
-&lt;h2&gt;结果&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;两组都减了约 22 kg，其中大部分是脂肪：T 组脂肪减 17.2 kg，T+REx 组减 18 kg。所以运动没有拖累药物的减重效果。&lt;/li&gt;
-&lt;li&gt;瘦软组织（lean soft tissue）：T 组丢了约 4.7 kg，T+REx 组丢了约 3.6 kg，少丢约 1.1 kg，也就是少了大约 23%。四肢瘦软组织是 3.6 对 2.9 kg。第 24 周就能看出差别。&lt;/li&gt;
-&lt;li&gt;力量：只打药的人在三项力量测试里全都变弱了，练的人变强了。组间差距从卧推的约 9 kg 到高位下拉的约 13 kg，膝伸展方向类似。&lt;/li&gt;
-&lt;li&gt;心血管代谢指标：两组收缩压都降了约 15–17 mmHg，血糖、胰岛素、HbA1c、总胆固醇、甘油三酯也都改善，运动没有带来统计上显著的额外好处。&lt;/li&gt;
-&lt;li&gt;不良反应：约一半人恶心，约三分之一有便秘、腹泻或消化不良，不到四分之一呕吐，多数几周内缓解。运动没有让不良事件变多。6 例严重不良事件，都被判定与研究干预无关。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;这个数字该怎么读&lt;/h2&gt;
-&lt;p&gt;先说好消息：这是第一批直接回答这个问题的 RCT 之一，而且结论不玄乎，力量训练确实能把肌肉流失压下去一部分，也确实保住了力量。再看冷静的一面：&lt;strong&gt;只是少丢，不是不丢&lt;/strong&gt;。练的人仍然丢了 3.6 kg 瘦软组织。作者也提醒，一部分瘦组织下降可能是体重变轻后身体的正常适应，因为你背的重量少了，肌肉不需要那么多；同时，在大幅减重期间想靠训练长肌肉，空间本来就有限。&lt;/p&gt;
-&lt;p&gt;还有两个测量问题。DXA 量的是瘦软组织，不是骨骼肌本身，里面混着水分和器官等成分。另外，试验里是每周三次、有人带的训练，现实中有多少人能做到，试验没回答；对长期功能（上楼、起身、跌倒）和生活质量有没有帮助，也还没有数据。人群方面，年轻人、本来就爱运动的人、有糖尿病或心血管病的人都不在里面。资助情况：礼来只提供了药，没有其他资金，也没参与试验执行和分析，但有几位作者披露了与药企包括礼来的财务关系。&lt;/p&gt;
-
-&lt;h2&gt;蛋白质呢&lt;/h2&gt;
-&lt;p&gt;我在检索时看到一篇 11 月的综述，说针对 GLP-1 使用者的蛋白质干预试验还没有直接结果，现有证据来自非 GLP-1 的减重研究，而且在不到一半的比较里蛋白质能保住瘦体重；另有两项相关试验在进行（这一条也是二手来源，我没有核对原文）。所以目前能说得比较有底气的，是练力量，而不是“多吃蛋白”。本栏 11 月 8 日写过 Tufts 的老年人试验，补蛋白对健康老人的肌肉也没有帮助，两件事放在一起，蛋白质不该被当成万能的肌肉保险。&lt;/p&gt;
-
-&lt;p&gt;如果你或家人正在用这类药，这篇试验给的信息很具体：每周三次、带教练、持续 40 周。能否缩短到两次、不要教练，试验没有测过。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20261112/Muscle-benefits-of-lifting-weights-while-taking-tirzepatide.aspx"&gt;https://www.news-medical.net/news/20261112/Muscle-benefits-of-lifting-weights-while-taking-tirzepatide.aspx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1038/s41591-026-04752-5"&gt;https://doi.org/10.1038/s41591-026-04752-5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">68c14a31-a14c-544b-a674-6b556d7bb88b</guid>
-      <pubDate>Sun, 22 Nov 2026 12:09:17 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.news-medical.net/news/20261112/Muscle-benefits-of-lifting-weights-while-taking-tirzepatide.aspx</link>
-      <enclosure url="https://www.news-medical.net/images/news/ImageForNews_851440_17944922133671270.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 代糖会让胰岛素和 HbA1c 变高吗？Tufts 2026 综述汇总 21 项随机试验：和水或安慰剂相比空腹胰岛素、HbA1c 偏高，但证据有两个硬伤</title>
-      <description>&lt;p&gt;“无糖”是过去二十年里最成功的健康营销之一，代糖也被默认为糖的安全替代。Tufts 大学 Friedman 营养科学与政策学院的 Meng Wang 和 Dariush Mozaffarian 团队今年 6 月在 &lt;em&gt;Current Atherosclerosis Reports&lt;/em&gt; 发表了一篇综述加荟萃分析（题为《人工及其他非营养性甜味剂、微生物组与心血管代谢健康》，DOI 10.1007/s11883-026-01429-9），给出的结论不太好听。我只读到 News-Medical 转述的 Tufts 新闻稿，没读到论文，所以连具体效应量都没有，这一点先说在前面。&lt;/p&gt;
-
-&lt;h2&gt;他们发现了什么&lt;/h2&gt;
-&lt;p&gt;作者汇总了 21 项成年人随机临床试验，把人工甜味剂和其他非营养性甜味剂，与不含热量的对照（水或安慰剂）做比较。结果是：摄入甜味剂的组&lt;strong&gt;空腹胰岛素更高、HbA1c 更高&lt;/strong&gt;，胰岛素敏感性有变差的趋势。新闻稿没有给出具体的数值、参与者人数，也没有说明是哪一种甜味剂在驱动这个结果。&lt;/p&gt;
-&lt;p&gt;观察性研究这边，大型队列普遍把非营养性甜味剂的摄入与更高的心血管代谢疾病风险联系在一起，同样没有给出效应量。&lt;/p&gt;
-
-&lt;h2&gt;为什么会这样：微生物组假说&lt;/h2&gt;
-&lt;p&gt;综述提出的机制是肠道菌群。其中一项试验用了微生物组测序，并把人的菌群移植到小鼠身上，发现某些低热量甜味剂会改变肠道菌群的组成和功能，而且这种变化能“传”给小鼠。这条线索并不新，不过人体试验里能这样走完全链条的还很少，因此更像是一个值得追的方向，不是已经定论的机制。&lt;/p&gt;
-
-&lt;h2&gt;两个硬伤：混杂和测量&lt;/h2&gt;
-&lt;p&gt;先说观察性研究。作者自己写明，已经有体重或代谢问题的人，本来就更可能去买代糖产品，这是典型的反向因果。你看到“喝代糖饮料的人糖尿病更多”，不代表是代糖造成的。再说测量：美国的食品标签只列出甜味剂是配料，不标含量，所以研究者很难知道人们到底吃了多少。&lt;/p&gt;
-&lt;p&gt;随机试验没有这个反向因果问题，所以那 21 项试验是这篇综述里最有分量的部分。但新闻稿同时承认，不同甜味剂的作用可能不一样，把它们合并成一类，可能抹掉真正的差别。阿斯巴甜、三氯蔗糖、甜菊糖苷、赤藓糖醇的化学性质和代谢路径都不一样，合在一起分析，得到的是一个“平均”结论。作者因此呼吁做设计更严谨的试验。&lt;/p&gt;
-
-&lt;h2&gt;读到这里怎么办&lt;/h2&gt;
-&lt;p&gt;这篇综述并不证明代糖有害，它说的是“现有试验里出现了一个方向不太对的信号”。如果你用代糖是为了控制体重或血糖，值得留意的问题是：你的空腹胰岛素和 HbA1c 有没有真的更好？如果没有，它就没起到你期望的作用。最保守的替代方案很无聊：能喝水和无糖茶就喝水和无糖茶，把代糖当作过渡，而不是长期的主角。这是我的建议，不是综述的结论。&lt;/p&gt;
-&lt;p&gt;值得追的下一步是论文全文：如果能看到每项试验的甜味剂种类、剂量、时长和效应量，才能判断那个“偏高”是 0.1 个单位还是 1 个单位，是临床上有意义，还是统计上存在。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20260630/Analysis-shows-artificial-sweeteners-may-harm-adult-metabolism-function.aspx"&gt;https://www.news-medical.net/news/20260630/Analysis-shows-artificial-sweeteners-may-harm-adult-metabolism-function.aspx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1007/s11883-026-01429-9"&gt;https://doi.org/10.1007/s11883-026-01429-9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">53abbfe2-4aed-5389-946d-07928df8806f</guid>
-      <pubDate>Sun, 22 Nov 2026 12:09:17 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.news-medical.net/news/20260630/Analysis-shows-artificial-sweeteners-may-harm-adult-metabolism-function.aspx</link>
-      <enclosure url="https://www.news-medical.net/image-handler/picture/2014/7/Atherosclerosis-cropped-620x480.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 早上晒太阳真的会让你睡得更早吗？巴西 1,762 位成年人：10 点前每多晒 30 分钟，睡眠中点提前约 23 分钟（自报、横断面）</title>
-      <description>&lt;p&gt;“早上出门晒晒太阳，晚上更容易睡着”，这句话在睡眠建议里几乎是标配。它背后的生理学是站得住的：早晨的强光会推动生物钟提前。但在真实生活里，每天多晒多久、在什么时候晒，究竟换来多少，数字并不多。今年 2 月，巴西 Ouro Preto 联邦大学的 Menezes-Júnior 等人在 &lt;em&gt;BMC Public Health&lt;/em&gt; 发表了一项调查（DOI 10.1186/s12889-025-24618-8），给了一个具体数字。我读到的是 PsyPost 的报道，没有读到论文全文。&lt;/p&gt;
-
-&lt;h2&gt;研究做了什么&lt;/h2&gt;
-&lt;p&gt;共 1,762 名成年人，来自巴西的两个城市，调查时间是 2020 年 10 月到 12 月。参与者自己报告晒太阳的频率和时长，分三个时段：早上 10 点前、10 点到下午 3 点、3 点之后；同时报告睡眠习惯。没有光传感器，没有活动记录仪，一切都是问卷。&lt;/p&gt;
-
-&lt;h2&gt;结果&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;10 点前每多晒 30 分钟，睡眠中点（入睡到醒来的中间时刻）平均提前约 23 分钟。&lt;/li&gt;
-&lt;li&gt;下午 3 点后的阳光也让睡眠提前，但效应更小，具体数字报道里没有给。&lt;/li&gt;
-&lt;li&gt;10 点到 3 点之间的阳光，与睡眠时间没有明显关联。&lt;/li&gt;
-&lt;li&gt;早晨光照多的人，总体睡眠质量更好；总睡眠时长和入睡所需时间基本不受影响。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;报道里没有给置信区间、p 值和睡眠质量的具体量表，所以这些数字只能作为方向参考。&lt;/p&gt;
-
-&lt;h2&gt;该怎么看这个“23 分钟”&lt;/h2&gt;
-&lt;p&gt;它主要说的是&lt;strong&gt;睡眠时间的位置&lt;/strong&gt;，不是睡多久。对习惯晚睡的人，这是一个有用的信号：想把作息往前挪，早上的光比晚上的各种“助眠技巧”更像一个杠杆。但这项研究有两个很实在的局限。第一，自报：人对自己晒了多久太阳的记忆本来就不准，睡得早的人也许就是更早出门、更爱户外，因果方向可以反过来。第二，作者承认没有控制屏幕等人造光，而晚间的光恰恰是推迟睡眠的主要变量。调查是 2020 年底做的，当时很多人居家，晒太阳的方式也和平时不同，这也可能影响结论能否推广。&lt;/p&gt;
-
-&lt;h2&gt;放在更大的光照证据里&lt;/h2&gt;
-&lt;p&gt;我在检索中还看到几项相关的报道，同样是二手来源，没有核对原文。曼彻斯特大学的研究（Fox News 2026 年 7 月转述）称，白天光更亮、更稳定的人入睡更早、前半夜深睡更多，作者也强调这是关联。另外有一项用腕戴光传感器的研究（mindbodygreen 2026 年 11 月转述）说，白天光照与更好的代谢健康相关，夜间光照单独看关联不明显。而 2024 年 11 月 NPR 报道的英国大规模研究，发现夜里光线最亮的人，早亡风险高 21% 到 34%。这些结果的指向一致：白天要亮，夜里要暗。但除了最后一项样本很大，其余都还是自报或关联性证据。&lt;/p&gt;
-&lt;p&gt;能用上的做法其实很简单：上午出门走一段，哪怕只是通勤时不戴墨镜，晚上把客厅灯调暗。要不要买光疗灯，这类研究并不能回答。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/morning-sunlight-shifts-sleep-cycles-earlier-and-boosts-quality/"&gt;https://www.psypost.org/morning-sunlight-shifts-sleep-cycles-earlier-and-boosts-quality/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://link.springer.com/article/10.1186/s12889-025-24618-8"&gt;https://link.springer.com/article/10.1186/s12889-025-24618-8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.npr.org/sections/shots-health-news/2024/11/07/nx-s1-5178149/light-exposure-circadian-rhythms-sleep"&gt;https://www.npr.org/sections/shots-health-news/2024/11/07/nx-s1-5178149/light-exposure-circadian-rhythms-sleep&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">38f70510-33e3-5908-b991-e8f68fc08ecd</guid>
-      <pubDate>Sun, 22 Nov 2026 12:09:17 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.psypost.org/morning-sunlight-shifts-sleep-cycles-earlier-and-boosts-quality/</link>
-      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/01/morning-sunlight.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Julius' Castle 关了 19 年后重新开门：Telegraph Hill 上的百年老餐厅，只有晚餐，订位很难</title>
-      <description>&lt;p&gt;Telegraph Hill 上那栋 1922 年的三层小楼 Julius' Castle，上周正式重新营业，上一次在这里正经开饭还是 2007 年之前。SF Standard 11/19 的探店文章标题很直接：景色本来就是全城最好，现在菜也值得吃。&lt;/p&gt;
-
-&lt;p&gt;老板 Paul Scott 2012 年在破产拍卖会上买下这栋楼，之后十几年一直在跟水灾、产权线纠纷和各种审批耗。能开起来本身就算半个奇迹。地址是 302 Greenwich St.，从 Montgomery St. 尽头的小回转道上去，山上几乎没有停车位，开车的话要有绕圈的心理准备。&lt;/p&gt;
-
-&lt;p&gt;菜单走 NorCal 当季路线，Scott 自己的说法是"garden-to-castle"，还特地说"我们不会上和牛"。文章里点到的几道：手切牛肉鞑靼（配酸豆、小黄瓜、鹌鹑蛋和米脆片）、兔肉 ragu 宽面（加 chanterelles 蘑菇）、羊排配 merguez 香肠和 corona 豆、Dungeness 蟹肉 tagliatelle（Meyer 柠檬加蒜香面包屑）、一个 tavern 风格的汉堡。甜点有 huckleberry pavlova 和 Calvados 焦糖苹果 gateau。酒单偏老派：Gibson、Black Manhattan，还有借 Trader Vic's 的 El Diablo，house wine 是 Anderson Valley 的 Pinot Noir。文章没写价格，但三层楼、130 个座位、带景观的老牌餐厅，人均大概率不低，去之前先看菜单。&lt;/p&gt;
-
-&lt;p&gt;目前只做晚餐，5 点一开门就有一波人。订位"暂时很难"，老板有意放慢节奏，想让开业期别出乱子。想去的话盯着他们的 Instagram 放位，或者去 juliuscastle.com 看。三楼那张"市长桌"，据说 Willie Brown 最近刚坐过。&lt;/p&gt;
-
-&lt;p&gt;顺带跟进之前追的开业清单。同一份 SF Standard 11/1 名单里的 Lorella（Russian Hill 的面包店）跳票了：11/17 的报道说，PG&amp;E 发现楼里的供电多年前被擅自从单相改成三相，没有审批，万圣节当天直接断电，整个配电盘要重做，开业从"感恩节前后"推到 &lt;strong&gt;2027 年 2 月&lt;/strong&gt;。同栋楼里的 Streets 已经两个多星期只能卖酒不能出餐。想吃 masa milk bun，得再等一个冬天。&lt;/p&gt;
-
-&lt;p&gt;名单里的 Scout（Marina，Chestnut St.，Frankie's 团队，有柴火烤炉）和 Bare Bones Rotisserie（Parkside，Taraval St.，porchetta 三明治）原定 11 月初开，我没查到明确的开业确认，出门前先看 Instagram。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/19/julius-castle-telegraph-hill/"&gt;https://sfstandard.com/2026/11/19/julius-castle-telegraph-hill/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"&gt;https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/17/lorella-bakery-delayed-pge/"&gt;https://sfstandard.com/2026/11/17/lorella-bakery-delayed-pge/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a475bb92-c3a8-5e90-a77a-96c08b5d030c</guid>
-      <pubDate>Sun, 22 Nov 2026 12:09:34 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/11/19/julius-castle-telegraph-hill/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_lkgbpng39t5qj6c32duuucpl01/-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 感恩节后去哪砍圣诞树：Los Gatos、Half Moon Bay、Pescadero 几家农场的 2026 开放时间和价格</title>
-      <description>&lt;p&gt;感恩节是 11/26，大部分圣诞树农场会在周五 11/27 前后开门。下面的数据来自 Funcheap 11/17 更新的 2026 版名单，只覆盖 Peninsula、South Bay 和 Half Moon Bay 一带。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Patchen California&lt;/strong&gt;（Los Gatos，Santa Cruz Mountains）两个农场 11/21 就开了。Old Town Farm 在 22217 Old Santa Cruz Hwy，只开周末 9a-5p；Rancho Farm 在 17430 Old Summit Rd，周二到周五 1-5p，周末 9a-5p。黑色星期五两边都开，关门前 15 分钟停止入场。有热苹果酒、免费品酒，选定日期有 Santa 和一辆 1955 年的雪佛兰老卡车拍照，工作人员帮你砍树和打包。付现金的话 Patchen 替你出销售税，并不是只收现金。部分树工作日便宜 $5。&lt;/p&gt;
-
-&lt;p&gt;往海边走有三家。Santa's Tree Farm and Village（78 Pilarcitos Creek Rd，Half Moon Bay）砍树时间 11/14 到 12/23，周末 8a-5p，工作日 9a-5p。周末有小火车、驯鹿和 Mrs. Claus 的小厨房（到 12/13，9a-4p，看天气），Santa 在 11/27 和 11/21 起的周末 11a-4p 出现，12/5 没有。每棵树送一根拐杖糖，网站上有 $2 优惠券，要提前打印。树最高到 13 英尺。&lt;/p&gt;
-
-&lt;p&gt;Lemos Farm（12320 San Mateo Rd，Half Moon Bay）更偏带孩子玩：周末 10a-5p，Winter Farm Pass $14.99-$29.99，Gold 含骑小马，Silver 含其他主要游乐项目，14 个月以下免费。有干草车拉你去树田，还有迷你动物园。名单上写开到 12/17，但那天是周四，出发前再核对。&lt;/p&gt;
-
-&lt;p&gt;Rancho Siempre Verde（Pescadero）今年是买票制的 Winter Fest：11/27-29、12/4-6、12/11-13、12/18-20 的周五到周日 9a-4:30p。按车收费，最多 6 人，含 3.5 小时活动。门票 $30 线上 / $35 现场；买树 $150 / $160；做花环 $50 / $60；树加花环 $175 / $185。以前进场免费，现在没买树也要买票。海景秋千、滑梯、吊床和篝火棉花糖是卖点，但如果你只是想拉一棵树回家，这个价位不如就近去 Patchen。&lt;/p&gt;
-
-&lt;p&gt;现金问题：Tinybeans 2023 版提到 Ward Ranch、Crest Ranch、Four Winds 当时只收现金或支票，今年有没有变我没核实，山里信号差，带点现金不吃亏。另外 Ski Lane（Half Moon Bay）只卖预切的 Noble 和 Silver tip，不能自己砍，想体验砍树的别走错。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sf.funcheap.com/city-guide/sf-bay-area-christmas-tree-farms-cut-your-own/"&gt;https://sf.funcheap.com/city-guide/sf-bay-area-christmas-tree-farms-cut-your-own/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://tinybeans.com/san-francisco/christmas-tree-farms-in-the-bay-area/"&gt;https://tinybeans.com/san-francisco/christmas-tree-farms-in-the-bay-area/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">d230528f-50dd-5d52-9cdd-8c5d478fd23e</guid>
-      <pubDate>Sun, 22 Nov 2026 12:09:34 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sf.funcheap.com/city-guide/sf-bay-area-christmas-tree-farms-cut-your-own/</link>
-      <enclosure url="https://cdn.funcheap.com/wp-content/uploads/2021/12/banner-trees-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 感恩节当天湾区超市谁开谁关：去年的名单（Lucky 开到 6 点、Trader Joe's 全关），今年出门前再核一遍</title>
-      <description>&lt;p&gt;先说明：我没有找到 2026 年感恩节（11/26，周四）的完整官方营业时间。下面是 2025 年 KTVU（11/19）和 SF Chronicle（11/26 更新）的名单，各家连锁年年大致一样，可以当心理预期，出门前仍要核对门店。&lt;/p&gt;
-
-&lt;p&gt;去年开门的：Lucky 和 FoodMaxx 全湾区 6a-6p；Safeway 大多 6 点关，各店不一；Whole Foods 7a-1p；Sprouts 7a-2p；Mollie Stone's 不少店 5 点关；Nugget Markets 多在 7 点关；Andronico's 开，时间各店不同；CVS 大多 9a-2p。&lt;strong&gt;99 Ranch&lt;/strong&gt; 在 Chronicle 的名单里是 9a-8p，也有低质量网站说全关，我以 Chronicle 为准，但建议打电话确认。H Mart 和 Mitsuwa 两篇都没提，我没查到数据，别假设开门。&lt;/p&gt;
-
-&lt;p&gt;去年全关的：Trader Joe's、Costco、Sam's Club、Target、Walmart、Rainbow Grocery，Berkeley Bowl 周三（11/25）晚 8 点关，周四整天休息。所以 TJ's 和 Costco 要在周三前买完，周三下午通常排队很夸张，今天或明天去最稳。&lt;/p&gt;
-
-&lt;p&gt;交通方面，Caltrain 官网已列出 11/26 走周末时刻表，11/27 有特别时刻表（上一篇写过，大约半小时一班）。BART 我没找到 2026 的公告：2025 年感恩节当天走周日时刻表（8a 到午夜），第二天恢复平日班；2019、2022 年也是类似安排。这是规律不是确认，去 bart.gov 看一眼。&lt;/p&gt;
-
-&lt;p&gt;留在湾区不回家的话，最省事的方案：周三去 Ranch 99 或 Lucky 买烤鸡和现成配菜，周四缺什么 6 点前去 Lucky 补。想在外面吃，不少中餐馆和日料店照常营业，但要先看 Google Maps 上的节日时间。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.ktvu.com/news/bay-area-grocery-stores-open-thanksgiving-day"&gt;https://www.ktvu.com/news/bay-area-grocery-stores-open-thanksgiving-day&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://preview-prod.w.sfchronicle.com/bayarea/article/thanksgiving-bay-area-store-hours-21207482.php"&gt;https://preview-prod.w.sfchronicle.com/bayarea/article/thanksgiving-bay-area-store-hours-21207482.php&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.bart.gov/node/45841"&gt;https://www.bart.gov/node/45841&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.caltrain.com/holidays"&gt;https://www.caltrain.com/holidays&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">9ca8d87b-cc64-54fd-b11b-3226998b2285</guid>
-      <pubDate>Sun, 22 Nov 2026 12:09:35 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.ktvu.com/news/bay-area-grocery-stores-open-thanksgiving-day</link>
-      <enclosure url="https://images.foxtv.com/static.ktvu.com/www.ktvu.com/content/uploads/2023/11/1200/630/Thanksgiving-gathering.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 AI 写初稿最省事，也最容易让文章不再像你的：253 人实验拆开规划、起草、修改三个介入点</title>
-      <description>&lt;p&gt;11 月 21 日这里写过 Chi 等人的实验：GPT-5.2 替你写的目标更 SMART，你却更不想动手。当时的建议是「先自己起稿，再让 AI 挑毛病」，但那项研究没有直接比较 AI 该在哪一步进来。Katy Ilonka Gero、Tao Long、Carly Schnitzler 和 Paramveer Dhillon 在 DIS 2026 发表的实验，正好把写作过程拆开测了一遍。&lt;/p&gt;
-
-&lt;p&gt;253 名 Prolific 参与者写一篇 200 到 300 词的议论文，所有人都走完三步：列提纲（最多 10 分钟）、写初稿（最多 15 分钟）、修改（最多 10 分钟）。随机分成四组：全程无 AI（60 人）、只在规划时有 AI（66 人）、由 AI 根据本人提纲生成初稿（66 人）、只在修改时有 AI 建议（61 人）。文章质量由一个用人工评分校准过的模型按 IELTS 标准打分（0 到 9 分）。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://arxiv.org/html/2604.11009v2/fig/result_rq1.png" alt="四种 AI 写作支持条件下的心理所有权得分柱状图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;不同写作阶段引入 AI 后的所有权得分。来源：Gero et al., DIS 2026&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;心理所有权（Psychological Ownership，「这篇东西是我的」的感觉，1 到 7 分）呈清晰的阶梯：无 AI 6.74，AI 规划 6.30，AI 修改 5.57，AI 起草 4.29。质量却几乎只在一个地方跳升：无 AI 5.69，规划 5.85，修改 5.79，起草 7.27。&lt;/p&gt;
-
-&lt;p&gt;把这两组数字放一起看，最有意思的不是「AI 起草伤所有权」，这谁都猜得到。意外的是修改组：所有权掉了 1.17 分，质量却只差 0.10 分（5.79 对 5.69），置信区间大幅重叠。至少在这种短文任务里，&lt;strong&gt;「我写完让 AI 改」并不是免费的折中方案&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;第二个意外藏在归因里。起草组的提纲明明是自己写的，他们却认为最终文章 26.9% 的想法来自 AI（无 AI 组 2.4%），文字部分更高达 56.9%。流畅的成段文字会把「想法」也一起带走：你给的是骨架，读到成稿时已经分不清哪些推论是自己的。一位参与者说得很准：想法是我的，但从这些想法长出来的东西不是。&lt;/p&gt;
-
-&lt;p&gt;规划组的结果则提醒我们，工具摆在那里不等于发生了作用。35% 的人从没点过 AI 规划功能，这些人的所有权和归因都与无 AI 组没有区别；修改工具的使用率是 84%。&lt;/p&gt;
-
-&lt;p&gt;局限要说清楚。任务短、没有真实利害，18% 的提交因为私自使用外部 AI 被剔除，论文也没有测量写完之后学到了多少。所有权下降是否一定是坏事，要看你写这篇东西图什么。&lt;/p&gt;
-
-&lt;p&gt;所以可以带走的是一个写作前的分诊问题：&lt;strong&gt;这篇东西的价值在成品，还是在我想清楚的过程？&lt;/strong&gt;例行邮件、格式化说明，让 AI 起草没什么可惜。研究计划、年度目标、一封难开口的信，至少把论点和推理链写成完整句子再交给 AI，要它指出漏洞，而不是替你改写。如果确实用了 AI 的段落，也别只是照抄：Chi 那项实验里，逐字重打 AI 写的目标并没有保住所有权。关掉窗口，用自己的话重说一遍，说不顺的地方，往往就是你还没想明白的地方。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2604.11009"&gt;https://arxiv.org/abs/2604.11009&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1145/3800645.3813003"&gt;https://doi.org/10.1145/3800645.3813003&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">622557d5-526c-5fe8-886a-9404fc02bc34</guid>
-      <pubDate>Sun, 22 Nov 2026 12:11:34 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://arxiv.org/abs/2604.11009</link>
-      <enclosure url="https://arxiv.org/html/2604.11009v2/fig/result_rq1.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 灵感来时的笃定，半年后写作者自己都不认了：Aha 感能帮你找对答案，却会抬高创意的自我评分</title>
-      <description>&lt;p&gt;深夜突然想通一件事，那种「就是它了」的感觉几乎不容置疑。该信它吗？加州大学圣塔芭芭拉分校的 Jacqueline McGuinness、Jonathan Schooler、Shelly Gable 与洛约拉马利蒙特大学的 Madeleine Gross 今年 8 月在 Journal of Intelligence 给出的答案是：看你在解哪一类问题。&lt;/p&gt;
-
-&lt;p&gt;过去大量研究发现，伴随顿悟感（Aha! experience）出现的答案确实更可能正确，这也是尤里卡启发式（Eureka Heuristic）的基础。问题在于，这些实验几乎都用有标准答案的题目。写小说、想产品、提研究方向，并没有答案可以对。&lt;/p&gt;
-
-&lt;p&gt;第一项研究重新分析了 Gable 团队 2019 年的日记数据：45 名物理学家和 53 名职业作家连续两周每晚记录当天最有创意的想法，标注是否属于 Aha 时刻，6 个月后再给同一批想法打分（1 到 7 分）。作家的 Aha 想法从 5.07 跌到 4.59，非 Aha 想法反而从 3.95 升到 4.33。物理学家没有这种回落，Aha 想法从 3.98 升到 4.45，非 Aha 想法也从 3.16 升到 3.80。&lt;/p&gt;
-
-&lt;p&gt;职业差异混杂太多，于是第二项预注册研究让 100 名 Prolific 参与者同时做两种任务。一种是远距联想测验（Compound Remote Associates Task, CRAT），比如给 COTTAGE、SWISS、CAKE，找出能和三者组词的 CHEESE，答案唯一。另一种是替代用途任务（Alternate Uses Task, AUT），为砖头、罐头盒、纸箱想新奇用途，由两位不知情的评分者打分。&lt;/p&gt;
-
-&lt;p&gt;在 CRAT 上，顿悟感每强 1 分（0 到 10），答对的几率约为 1.92 倍，信号相当可靠。到了 AUT，同样强 1 分，自评创意上升 0.27 分，盲评只上升 0.08 分，相差三倍多。作者把这个落差叫作 &lt;strong&gt;Aha 光晕（Aha! glow）&lt;/strong&gt;。更扎心的是个体层面：平时顿悟感更强的人，自评明显更高，盲评却没有更好（b = 0.02，p = .33）。&lt;/p&gt;
-
-&lt;p&gt;别急着把灵感判死刑。作者原本预测顿悟感和盲评创意毫无关系，结果还是有一点正相关，说明它不是纯噪音。日记数据里，有 Aha 的日子人们也更受鼓舞、更自信。没有外部标尺的工作常常要靠这股高估撑过漫长的未知期，这可能正是它的用处，不过这部分证据只是相关性。&lt;/p&gt;
-
-&lt;p&gt;这和 11 月 20 日写过的 Janiger LSD 画作重评是同一个教训：当事人强烈觉得更好，盲评未必同意。局限也不小：职业只是问题类型的粗糙代理，第一项研究全靠自评，创意的「客观分」本身也来自人的判断，样本都在美国。&lt;/p&gt;
-
-&lt;p&gt;实用的做法是灵感一来先问一句：&lt;strong&gt;这件事有没有办法验证？&lt;/strong&gt;有，就把 Aha 当高质量线索，马上跑数据、写证明、做测试。没有，就让热情继续，但把判断推迟：记下想法和此刻的评分，一周后不看旧分重评一次，或者混进几个别的方案，请朋友盲选。决定要不要投入几个月之前，先让那层光退一退。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.3390/jintelligence14080160"&gt;https://doi.org/10.3390/jintelligence14080160&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://metalab.psych.ucsb.edu/media/171"&gt;https://metalab.psych.ucsb.edu/media/171&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">59e84902-9a6d-5489-a4b7-48b55029043a</guid>
-      <pubDate>Sun, 22 Nov 2026 12:11:34 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.3390/jintelligence14080160</link>
-    </item>
-    <item>
-      <title>🧠 与其学会怀疑一切，不如认识谣言的套路：21 万条事实核查提炼的说服手法，只在陌生话题上帮人分清真假</title>
-      <description>&lt;p&gt;教人防骗有个老毛病：警惕心一上来，真消息也跟着不信了。杜克大学的 Tong Guo、明尼苏达大学的 Teng Ye、密歇根大学的 Yutong Xie 和 Qiaozhu Mei 10 月 15 日在 arXiv 发布的预印本（尚未经同行评审），试了另一条路：不教人核对每条说法，也不教人多疑，而是让人先看懂虚假信息惯用的说服手法。&lt;/p&gt;
-
-&lt;p&gt;他们用 GPT-4o 标注了 2019 年 1 月到 2024 年 4 月间 214,646 条经过事实核查的说法，覆盖 51 种语言，归纳出 13 类策略，涉及社会影响、信息操纵和情绪诉诸。诉诸恐惧（Appeal to Fear）出现在 30% 的说法里。最稳定的组合是恐惧、阴谋论和捏造信息三件套，这个核心在样本量足够的 15 种语言里都成立。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://arxiv.org/html/2610.22724v1/figure/Cialdini_pct.png" alt="虚假信息中各类说服策略出现比例的图表" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;21 万余条事实核查说法中各类说服策略的占比。来源：Guo et al., arXiv:2610.22724&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;关键实验招募了 749 名美国成年人，随机分到五种条件。完整版简报包括三部分：讲解 13 类策略及其常见搭配，用三条样例练习识别并给反馈，最后加一句提醒：&lt;strong&gt;说服策略描述的是一条说法怎么讲，不是它真不真。&lt;/strong&gt;随后每人给 20 条说法（7 真 13 假）的可信度打分（1 到 7 分）。&lt;/p&gt;
-
-&lt;p&gt;先说不好看的结果：预注册的主要指标没有过关。完整简报让真假说法的可信度差距平均扩大 0.23 分（d = 0.15，p = .39），统计上不显著。所以标题里那个「只在」不能省。&lt;/p&gt;
-
-&lt;p&gt;分开看就有意思了。面对参与者自己不熟悉的话题，差距扩大 0.42 分（95% CI [0.03, 0.80]）；熟悉的话题只有 0.04 分，预注册检验显示，简报效果确实随熟悉度变化（p = .0004）。这说得通：懂行时你直接看事实，手法知识用不上；不懂时，手法才成了少数还能抓住的线索。&lt;/p&gt;
-
-&lt;p&gt;更值得记住的是副作用没有出现。五组人对真实说法的相信程度几乎一样（5.08 到 5.09），通过了预注册的等效检验。完整简报压低的是对虚假说法的相信度（-0.23，p = .042，探索性分析）。学界常用的准确性提示（Accuracy Prompt，问一句「这条说法准确吗」），这次无论总体还是陌生话题都没有带来提升。&lt;/p&gt;
-
-&lt;p&gt;保留意见有几条。实验里的假说法全部由 GPT-4o 生成，和真实流传的谣言未必一样。测量紧跟在简报之后，没有隔几周再测，效果能留多久未知。策略组退出率 15%，其他组 8%，读得下去的人可能本来就更认真。简报更长，内容和阅读时长的作用也分不开。&lt;/p&gt;
-
-&lt;p&gt;日常可以把判断拆成两步。刷到一条你不了解的说法，比如「医生绝不会告诉你的某某致癌真相」，第一步只认手法：这里有恐惧吗？有「他们在瞒你」吗？有查不到出处的数字吗？第二步才问证据：谁测的，原始来源在哪？手法多只是提高核查优先级，不等于判它死刑，真实的公共卫生警告也会用恐惧。少了第二步，你学到的就只是另一种偏见。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2610.22724"&gt;https://arxiv.org/abs/2610.22724&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/pdf/2610.22724"&gt;https://arxiv.org/pdf/2610.22724&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">2913e3c1-bdee-5e26-b9cd-7c358ed0ee94</guid>
-      <pubDate>Sun, 22 Nov 2026 12:11:35 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://arxiv.org/abs/2610.22724</link>
-      <enclosure url="https://arxiv.org/html/2610.22724v1/figure/Cialdini_pct.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 COP31 无果而终：主席宣布“没有共识”，欧盟等否决最终草案，路透拿哥本哈根作比</title>
-      <description>&lt;p&gt;COP31 没有成果文件。土耳其主席穆拉特·库鲁姆（Murat Kurum）在闭幕全会上宣布，会场内有缔约方反对这份文本，“没有共识”，因此这些决定“未获通过”。路透社11月22日（周日）的报道用的词是“陷入混乱”。欧盟和其他一些缔约方否决了最终草案。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/11/COP31_419-696x465.jpg" alt="COP31 安塔利亚会场" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;COP31 安塔利亚会场（图片：ThePrint 转载路透社报道）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;经过：&lt;/strong&gt;这届大会原定11月20日（周五）结束。地球谈判公报（ENB）记录，周五夜里10点29分闭幕全会休会，打算周六复会，也就是我们上一篇写到的“加时”。实际拖到了周末，周日才有了结果。主席国是土耳其，谈判由澳大利亚牵头，两国联合提交了好几版草案，试图在最易受气候冲击的国家和靠化石燃料生产、消费吃饭的经济体之间找平衡。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;草案里有什么：&lt;/strong&gt;路透说，最终文本首次写明全球升温正走向超过1.5°C，并呼吁加快碳移除技术，以便将来把超出的部分拉回来。批评者把它说成“缺乏雄心”。我们前几天写过，第二版草案已经删掉了化石燃料措辞、保留了35%电气化，适应融资只写“三倍”不写金额；巴拿马当时就说不提化石燃料的决定“不可接受”。这条线最后果然没有被调和。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;谁反对：&lt;/strong&gt;路透确认欧盟是反对方之一，没有在我读到的部分里展开理由。Al-Monitor 和 Rappler 的转载稿称，欧盟轮值主席国代表在会上说，这份“安塔利亚协定”“没有回应这一时刻”，巴拿马和马绍尔群岛也站在反对一边，德国气候部长卡斯滕·施奈德（Carsten Schneider）表示不会接受现有文本。这几处我只在转载摘要里看到，没有读到原文（Rappler 页面打不开），引用时请留余地。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;没有被毁掉的东西：&lt;/strong&gt;并非所有议题都空手而归。ENB 和多家媒体显示，此前已经定稿的几项决定是通过了的，包括《巴黎协定》第六条（国际合作）、最不发达国家相关事项和定期审评。山地与气候变化的两年期工作方案，据报道谈判层面已达成，但是否在全会上正式通过，我没有查到确认。路透也特别提醒，政治宣言没谈成，“并不抹去”以往峰会已经达成的义务，以及技术和法律框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;路透把这次比作2009年的哥本哈根，那是上一次联合国气候谈判大面积破局，《哥本哈根协议》也是没能以共识方式通过。这个类比有一定道理，也有限度：哥本哈根之后，各国用了六年才在巴黎找到新的框架；而这次崩的是一份政治性的“成果文件”，不是整套规则。真正有杀伤力的是信号——2035年适应融资目标被删、化石燃料不入文本，发展中国家和欧盟各有各的理由不买账。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;接下来：&lt;/strong&gt;我查到的报道没有给出后续安排，没说会不会复会，也没说议题是否顺延到下一届。这是目前最大的未知数。下一个值得盯的节点是 UNFCCC 秘书处对已通过决定的处理方式，以及澳大利亚和土耳其会不会发表联合声明。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/"&gt;https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://enb.iisd.org/antalya-un-climate-change-conference-cop31-20Nov2026"&gt;https://enb.iisd.org/antalya-un-climate-change-conference-cop31-20Nov2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-break-down-eu-others-reject-deal"&gt;https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-break-down-eu-others-reject-deal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">18b50dd2-5b4f-540c-927a-74732cb9e67e</guid>
-      <pubDate>Sun, 22 Nov 2026 12:12:29 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/</link>
-      <enclosure url="https://staticprintenglish.theprint.in/wp-content/uploads/2026/11/COP31_419-696x465.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 Anthropic 上市第二天收 88.91 美元：盘中摸到 83.05，离发行价只差5美分</title>
-      <description>&lt;p&gt;Anthropic 上市第二天，11月20日（周五），收盘 88.91 美元，比首日收盘价 97.17 美元跌了约 8.5%，盘中最低 83.05 美元，只比 83 美元的发行价高5美分。这是一个在科技股普遍重挫的日子里发生的事。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;数字：&lt;/strong&gt;首日（11月19日）开盘 111.50 美元，随后一路下滑，收在 97.17 美元。周五 CNBC 的标题是“上市首个完整交易日下跌近9%”，多家行情站给出的收盘价是 88.91 美元，跌幅 8.5%（有一家小站报 88.30 美元、跌 9.13%，我按多数口径处理）。这次发行募资约 813 亿美元，是有史以来最大的 IPO。按开盘价算，市值一度逼近2万亿美元，到周五收盘已经明显回落。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么跌：&lt;/strong&gt;主要不是 Anthropic 自己的问题。CNBC 列了几个因素：英伟达创始人黄仁勋离任之后，AI 概念股本来就承压；公众对数据中心的情绪在变坏；利率上行可能影响数万亿美元级的 AI 基础设施投资计划。亚马逊、谷歌、微软这几家云厂商当天也都收跌。CNBC 还写到，英伟达和 AMD 当天都跌了“超过13%”，这个数字目前我只在这一家看到，没有交叉验证；AMD 前一天还因为一份做空报告称其对华敞口而下挫。CNN 的标题说，纳斯达克把今年的涨幅全部抹掉了，但 CNN 页面我没读到，具体跌幅我不引用。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;分析师怎么说：&lt;/strong&gt;Seaport Research 给的是中性评级，说这是一家“了不起的公司”，但要求投资者做“一次了不起的信念跳跃”，要撑起这个估值，未来两年增速必须大幅提高。William Blair 给了“跑赢大盘”，看好它的效率，认为长期能成为“显著盈利的业务”。据 Financefeeds 汇总，五家机构的平均目标价约 134 美元，比周五收盘价高出五成多。多空差距这么大，说明现在谁也没有可靠的定价锚。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;政治层面的插曲：&lt;/strong&gt;财政部长贝森特周五在 CNBC 上称 Anthropic 是“只可能发生在美国的故事”，并说联合创始人汤姆·布朗（Tom Brown）预计在未来几周向“特朗普账户”（Trump Accounts）捐一大笔钱，消息来自知情人士，金额没有披露。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;跟踪线索：&lt;/strong&gt;上一篇写首日收盘时，我们标记过“后续看稳价与锁定期”。现在能确定的是：发行价 83 美元这条线已经被盘中触碰，没有被击穿。下周是感恩节周，美股周四休市、周五提前收盘，成交会偏淡；但真正的看点是 AI 板块能不能止跌。如果周一开盘继续往下，83 美元就会是整个市场都在盯的位置，没有哪条消息比这个价位更能说明承销商的稳价力度有多大。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"&gt;https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://financefeeds.com/anthropic-ant-stock-88-91-saturday-week-ahead-after-friday-low-tested-83-ipo-price-bull-97-bear-80/"&gt;https://financefeeds.com/anthropic-ant-stock-88-91-saturday-week-ahead-after-friday-low-tested-83-ipo-price-bull-97-bear-80/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/"&gt;https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">97ffd3e4-9c66-5b27-9b73-3398c0ae85b4</guid>
-      <pubDate>Sun, 22 Nov 2026 12:12:29 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html</link>
-      <enclosure url="https://image.cnbcfm.com/api/v1/image/108556066-1795129874503-108556066-1795129228984-gettyimages-2305354070-ANTHROPIC_IPO.jpeg?v=1795144010&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 罗兴亚判决之后：英国驱逐缅甸武官，但国际法院“没有强制执行手段”</title>
-      <description>&lt;p&gt;国际法院11月19日以9比6裁定缅甸违反《防止及惩治灭绝种族罪公约》，这是该院成立80年来第一次认定一个国家本身犯有种族灭绝。判决不能上诉。接下来的问题只有一个：谁来执行？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;法院怎么说：&lt;/strong&gt;据自由亚洲电台（RFA）报道，法院认定对2017年镇压行动，“唯一合理的推断”是缅甸安全部队意图摧毁相当一部分罗兴亚人，同时认定缅甸没有履行防止种族灭绝的义务。院长岩泽雄司（Yuji Iwasawa）说，证据显示安全部队杀害了约1万名罗兴亚人。这一口径我们此前标注过与其他估计（10万）相差悬殊，法院采信的是前者。案子由冈比亚2019年提起。当年有超过73万罗兴亚人逃往孟加拉国，如今仍有近120万人滞留在那里的营地，援助削减后口粮已经缩水。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一波反应：&lt;/strong&gt;英国外交大臣埃德·米利班德（Ed Miliband）表示，英国将下令驱逐缅甸国防武官，并呼吁联合国安理会处理这一判决，称“缅甸必须完全遵守判决”。国际危机组织（ICG）的理查德·霍西（Richard Horsey）称之为“历史性裁决”，说罗兴亚人“等了九年”。人权观察的玛丽亚·埃琳娜·维尼奥利（Maria Elena Vignoli）说这是“期待已久的承认”，敦促各国向军方施压，并确保难民“安全、自愿”返回。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;缅甸方面：&lt;/strong&gt;我没有找到军方政府针对这次判决的直接表态。能查到的是它一贯的立场：行动是对阿拉干罗兴亚救世军（ARSA）袭击警哨的回应；今年1月它还称此案“有缺陷、毫无根据”。需要说明，一条搜索结果里“军方将坚决应对”的说法其实对应的是2022年的管辖权裁决，不是这次。2017年的军方总司令敏昂莱，现在是总统。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;执行难题：&lt;/strong&gt;霍西说得很直白：法院“没有强制执行这一裁决的手段”。能让判决落地的渠道主要有两条。一条是安理会，但常任理事国里的态度决定了它走不远；另一条是各国双边的成本，比如英国这次驱逐武官。霍西预计多数政府会“照旧”，但再要把与内比都的往来说成“一切如常”会更难。他还指出一个现实：罗兴亚人逃离的大片土地现在由与军方作战的阿拉干军（Arakan Army）控制，所以这支武装如何对待仍留在若开邦的罗兴亚人，比内比都说什么更重要。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;后续：&lt;/strong&gt;此前写过，赔偿方案要在2028年11月前提交。眼下更近的观察点是安理会会不会真的列入议程，以及除英国外还有没有第二个国家跟进外交措施。到本文写作时，我没有查到这两件事的消息。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://rfa.org/english/myanmar/2026/11/19/rohingya-genocide-icj-ruling-myanmar/"&gt;https://rfa.org/english/myanmar/2026/11/19/rohingya-genocide-icj-ruling-myanmar/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">7bde5953-27a5-5fc7-bf83-b1a1632609bc</guid>
-      <pubDate>Sun, 22 Nov 2026 12:12:29 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://rfa.org/english/myanmar/2026/11/19/rohingya-genocide-icj-ruling-myanmar/</link>
-      <enclosure url="https://www.rfa.org/resizer/v2/CAYER72FVFGK3MKU5OEVOAP4IY.jpg?smart=true&amp;amp;auth=81d8c0b7e0b5381ce8674a9803d8d2dfcd4e27ffae9395cb06afeed7b5f14320&amp;amp;width=1200&amp;amp;height=630" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>📰 阿布扎比三方会谈：换俘原则上达成，领土“每一寸”寸步不让，欧洲能否入席成焦点</title>
-      <description>&lt;p&gt;11月10日至11日，俄罗斯、乌克兰和美国在阿布扎比谈了两天，结果是一项“原则上同意”的大规模换俘，领土问题没有任何松动。时间已经过去十来天，但它是11月19日柏林峰会上默茨和马克龙那番“欧洲必须同桌”的直接背景，值得补上。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af45cc5-1794399429.jpg" alt="阿布扎比三方会谈" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;阿布扎比三方会谈（图片：路透社/半岛电视台）&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;谁在桌上：&lt;/strong&gt;俄方代表团由普京助手弗拉基米尔·梅金斯基（Vladimir Medinsky）率领，乌方是鲁斯捷姆·乌梅罗夫（Rustem Umerov）带队、大卫·阿拉哈米亚（David Arakhamia）参加，美方是贾里德·库什纳（Jared Kushner）和史蒂夫·威特科夫（Steve Witkoff）。普京和泽连斯基都没出席。半岛电视台说这是双方自2月以来第一次会谈。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;换俘：&lt;/strong&gt;梅金斯基说双方“原则上同意”一次新的大规模交换，具体参数“近期”公布。阿拉哈米亚称可能是“规模最大的一次”。库什纳说数字将在11月12日敲定；塔斯社援引消息称交换会在两到三周内进行。半岛电视台的分析认为，要想成为最大的一次，必须超过2025年5月那次一千换一千。我没有查到11月12日的数字有没有公布，所以实际落地情况要看这几天的后续。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;没谈拢的部分：&lt;/strong&gt;梅金斯基的话几乎没留余地。领土问题上他说“我们的每一寸土地都将回到俄罗斯”；对谈判进展，他的说法是双方“在一些领域找到了相互理解，另一些没有”，还说整个局面“病得不轻”，“创可贴解决不了”（据 Meduza 的机器翻译，经编辑审校）。库什纳也承认这次会“非常艰难，但有成果”，领土仍是“最难的”。美方评估是双方之间没有互信。有一个小亮点：库什纳称战后安全框架有“进展”，乌梅罗夫说“很大进展”，但都没给细节。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;欧洲怎么办：&lt;/strong&gt;这是后来柏林那场争论的由头。Meduza 报道，俄方代表团在阿布扎比没有和欧洲人交流，梅金斯基说莫斯科不明白他们是以什么身份在场；半岛电视台则称他又表示俄方“不反对”欧盟参与，只是不清楚在欧洲没有提案的情况下能谈什么。阿拉哈米亚主张下一轮应当是多边的、有欧洲在场；库什纳说下一步要讨论能否把欧洲人拉进来，变成多边格式。泽连斯基的原话大意是，没有欧洲，就谈不了欧洲安全。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;接下来：&lt;/strong&gt;库什纳和威特科夫计划先去莫斯科向普京通报，再飞都柏林见泽连斯基。Meduza 引述乌方的说法称，年底前有望达成协议，但这是乌方的乐观表态，俄方没有呼应。11月20日的夜袭致8人死亡，也很难说明莫斯科有多急着收手。下一个能验证的信号很具体：这次换俘到底多大、什么时候发生，以及下一轮会谈有没有欧洲代表入场。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory"&gt;https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"&gt;https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">386409a2-6c0e-561f-8bf7-91c4654d3fe2</guid>
-      <pubDate>Sun, 22 Nov 2026 12:12:30 +0000</pubDate>
-      <category>daily-news</category>
-      <link>https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory</link>
-      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af45cc5-1794399429.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🎨 WebAIM's 2026 Screen Reader Survey: Fewer Users See Progress, and 92% Now Lean on AI / WebAIM 2026 屏幕阅读器调查：看到进步的人变少，92% 的用户已在借助 AI</title>
       <description>&lt;p&gt;The most useful number in WebAIM's new Screen Reader User Survey is not the market share of any tool. It is the direction of sentiment: &lt;strong&gt;22.9% of respondents say web content became less accessible over the past year&lt;/strong&gt;, up from 18.6% in the 2024 survey. The share reporting improvement slipped from 34.6% to 32.2%, and 44.9% see no change. At the same time, only 8.2% did not report using AI in any of the listed ways to improve their online experience.&lt;/p&gt;
@@ -1869,6 +1083,729 @@
       <category>mindset-growth</category>
       <link>https://doi.org/10.1037/pspi0000525</link>
       <enclosure url="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/may/chicago-booth-puzzle-conversation.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 走得快的人真的活得更久吗？JAMA Netw Open 2026：英国 4,067 人随访近 12 年，诊所步速与日常步频各自与死亡率相关（观察性）</title>
+      <description>&lt;p&gt;走路快的人活得更久，这个结论听过很多遍。这次的新意在于：研究者把"办公室里测一次步速"和"手腕设备记录的日常步频"放在一起比，并且在调整了每天总步数之后，两者依然各自和死亡风险相关。&lt;/p&gt;
+&lt;p&gt;论文发表于 2026 年 10 月 23 日的 &lt;em&gt;JAMA Network Open&lt;/em&gt;，标题大意是《临床步速、自由活动步频与全因死亡率》（第一作者 Haddadj R）。据福克斯新闻 11 月 1 日的报道，样本是英国 4,067 名成年人，平均约 69 岁，随访近 12 年，期间 739 人死亡。参与者先在诊所按平常速度走一小段，再戴腕式活动记录仪 9 天，用来估算日常生活中的步速和步频。&lt;/p&gt;
+&lt;p&gt;具体数字我只能引用二手报道（Epocrates、MedicineNet 转述，未读到全文）：步频每多 10 步/分钟，死亡率大约低六分之一（日常典型步速段，约 75 步/分钟）；放在一天里走得最快的那几段，则接近低五分之一（约 112 步/分钟）。办公室步速每快 0.1 米/秒，死亡率约低十分之一。有一点要注意：研究者同时指出，在标准风险因素之外，这两个指标额外增加的预测力有限。也就是说，它们更像"体能的体温计"，而不是新的独立风险因子。&lt;/p&gt;
+&lt;p&gt;为什么有意思？之前我们记录过"7000 步"那条（Lancet Public Health，2025）：总量到 5000–7000 步后边际收益变小。这篇补的是另一个维度——同样的步数，走得快慢是否还有区别。答案似乎是有，而且不必靠"专门去运动"：日常里那几段走得最快的片段就带着信息。&lt;/p&gt;
+&lt;p&gt;别急着得出"快走能续命"。福克斯报道里的外部专家 Beth Templin 说得直白：这是关联，不是"走快一点就能多活几年"的证据。论文纳入的人群本身比更大的队列健康，腕戴设备算步速也没有统一标准，慢走可能只是身体已经有问题的结果（反向因果）。&lt;/p&gt;
+&lt;p&gt;能做的事很小：下次通勤或遛弯，挑一段刻意提到"有点喘但还能说话"的节奏，大概是 100–110 步/分钟，数一数自己平时在哪个区间。用来了解自己的基线，比追求某个神奇数字有用。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print"&gt;Fox News（2026-11-01）&lt;/a&gt;；&lt;a href="https://www.medicinenet.com/step_to_it_brisker_walking_tied_to_longer_life/news.htm"&gt;MedicineNet 转述&lt;/a&gt;；&lt;a href="https://www.epocrates.com/online/article/faster-everyday-walking-tied-to-lower-mortality"&gt;Epocrates 摘要&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print"&gt;https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.medicinenet.com/step_to_it_brisker_walking_tied_to_longer_life/news.htm"&gt;https://www.medicinenet.com/step_to_it_brisker_walking_tied_to_longer_life/news.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.epocrates.com/online/article/faster-everyday-walking-tied-to-lower-mortality"&gt;https://www.epocrates.com/online/article/faster-everyday-walking-tied-to-lower-mortality&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a0d9e404-5224-5152-9052-e01558a33e45</guid>
+      <pubDate>Tue, 24 Nov 2026 12:08:56 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print</link>
+    </item>
+    <item>
+      <title>🌿 🌿 运动后泡冷水、热水还是躺着？东伦敦大学随机试验 40 人：72 小时内力量恢复四种方式无显著差异，热疗只改变了分子标志物</title>
+      <description>&lt;p&gt;运动完腿酸得下不了楼梯，泡冷水、泡热水、还是干脆躺着不管？东伦敦大学的一项小型随机试验给了个不太浪漫的答案：三种"处理"在力量恢复上和什么都不做没有显著差别。&lt;/p&gt;
+&lt;p&gt;研究发表在 &lt;em&gt;Journal of Thermal Biology&lt;/em&gt;（Bayne 等，2026，DOI 10.1016/j.jtherbio.2026.104551），共 40 名健康、有运动习惯的成年人。先用高强度运动造成暂时性肌肉损伤和延迟性肌肉酸痛，再随机分成四组：42°C 热水浸泡 30 分钟、9°C 冷水浸泡 15 分钟、30°C 热空气 30 分钟、室温被动休息。追踪 72 小时。&lt;/p&gt;
+&lt;p&gt;结果：运动刚结束时力量下降约 36%，之后 72 小时内逐渐恢复，四组之间没有统计学差异。酸痛方面，热疗组也没有显著更轻。有差别的是分子层面：热疗组的热休克蛋白 HSP72 表达升高；肌酸激酶 CK-MM（肌肉损伤标志物）回落得比冷水组更快。换句话说，热确实改变了身体里的一些指标，但没有转化成你能感觉到的力量恢复。&lt;/p&gt;
+&lt;p&gt;另一点：MDLinx 11 月 11 日的文章提到，力量训练后立刻泡冷水，长期可能削弱肌肉增长（我没有核对其原始证据）。如果目标是长肌肉，冷水浸泡未必是"免费的恢复加成"；这篇论文的新闻稿也没有给出冷水组酸痛的具体数字，所以"冷水缓解酸痛"在这里无法下结论。&lt;/p&gt;
+
+&lt;p&gt;局限很明显：每组只有约 10 人（新闻稿未给分组人数、效应量和 p 值，我没读到全文）；受试者是年轻活跃人群；只追踪 72 小时，看不到反复使用的长期效果。通讯作者自己也说，重复热暴露是否有长期好处需要更多研究。&lt;/p&gt;
+&lt;p&gt;实际含义：恢复手段更像是"选你愿意坚持、并且舒服的那一个"。睡眠、蛋白质和下一次训练前留足间隔，大概率比水温重要。泡热水澡如果让你睡得好，那是另外一个理由。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx"&gt;News-Medical（2026-10-21，东伦敦大学新闻稿）&lt;/a&gt;；&lt;a href="https://www.sciencedirect.com/science/article/pii/S0306456526001841"&gt;论文页面&lt;/a&gt;；&lt;a href="https://www.mdlinx.com/article/patients-swear-by-cold-plunges-and-saunas-is-the-payoff-worth-the-risk/1rG7qbbwCpqwPNjl7229IF"&gt;MDLinx&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx"&gt;https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S0306456526001841"&gt;https://www.sciencedirect.com/science/article/pii/S0306456526001841&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mdlinx.com/article/patients-swear-by-cold-plunges-and-saunas-is-the-payoff-worth-the-risk/1rG7qbbwCpqwPNjl7229IF"&gt;https://www.mdlinx.com/article/patients-swear-by-cold-plunges-and-saunas-is-the-payoff-worth-the-risk/1rG7qbbwCpqwPNjl7229IF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">c2ee78b1-4183-50b3-bcdd-a9143d43a8eb</guid>
+      <pubDate>Tue, 24 Nov 2026 12:08:56 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx</link>
+      <enclosure url="https://www.news-medical.net/image-handler/picture/2016/3/Black_and_White_Sneezy_Cold_Guy_-_Rynio_Productions_d9ab890b0c744a1389d404dd606049d9-620x480.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 早睡能帮前驱糖尿病的人减重吗？NYU 196 人 8 周：辅导只让人提早约 12 分钟入睡，每提早 1 小时对应多减约 1.3 磅（组内关联）</title>
+      <description>&lt;p&gt;"早点睡"能帮你减重吗？纽约大学的一项分析说：可能有点关系，但这次试验里，专门教人早睡的那组并没有比对照组瘦得更多。&lt;/p&gt;
+&lt;p&gt;研究发表在 &lt;em&gt;Nursing Research&lt;/em&gt;，第一作者是纽约大学罗里·迈耶斯护理学院的 Susan Kohl Malone，与特拉华大学合作，美国国立护理研究所（NIH）资助。据福克斯新闻 11 月 7 日报道，这是对一项随机试验数据的分析：196 名前驱糖尿病成年人，平时每晚睡不到 6.5 小时。两组都上 8 周生活方式课程（饮食、运动、压力管理），其中一组额外接受分阶段的"提早入睡"行为辅导。研究用传感器、睡眠日志和腕戴监测仪记录血糖、睡眠和活动。&lt;/p&gt;
+&lt;p&gt;数字比标题朴素得多：辅导组平均只提早了约 12 分钟入睡；血糖两组都没有显著改善；两组都减了体重，辅导组没有显著多减。真正被拿来做文章的是组内相关：不分组别，入睡时间每提早 60 分钟，8 周体重大约多减 1.3 磅（约 0.6 公斤）——报道称这是统计推算。另外，辅导组的睡眠质量和白天嗜睡有改善，但这两项主要靠自评。&lt;/p&gt;
+&lt;p&gt;为什么这个细节有意思？之前我们写过入睡时间不规律与心血管事件风险（北芬兰队列）、也写过镁补充剂改善睡眠的试验，共同点是"睡得好"的证据常常集中在自评指标上。这篇进一步说明：把一个人的入睡时间往前挪，在现实中很难——8 周只挪了 12 分钟。要 1 小时的差距，远远超出干预能做到的程度。&lt;/p&gt;
+&lt;p&gt;解读上要小心三点。第一，1.3 磅（约 0.6 公斤）是观察性关联，睡得早的人可能本来就生活更规律、吃得更好。第二，8 周太短，看不出能否维持。第三，样本是睡眠不足的前驱糖尿病人群，不能直接推广到所有人。&lt;/p&gt;
+&lt;p&gt;如果你想试：别指望一周内从 1 点睡改成 11 点。每隔几天提早 10–15 分钟，这种渐进方式正是该研究采用的思路，同时把睡眠时长拉到 7 小时左右，比盯着体重秤合理。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print"&gt;Fox News（2026-11-07）&lt;/a&gt;。论文本身未找到链接，数字均据该报道。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print"&gt;https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3d2bf7fc-f5b9-5b05-80f8-ca5772012610</guid>
+      <pubDate>Tue, 24 Nov 2026 12:08:57 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print</link>
+    </item>
+    <item>
+      <title>🌉 感恩节当天湾区还有什么开着：Turkey Trot、免费植物园，和哪些博物馆别去</title>
+      <description>&lt;p&gt;感恩节当天（11/26，周四）大部分博物馆关门，Peninsula 的餐厅也多半只做预订的套餐。想出门的话，旧金山这边有几个确定开着的去处，Secret San Francisco 11 月初整理过一份清单，我挑了实用的。&lt;/p&gt;
+&lt;p&gt;先说早上。&lt;strong&gt;SF Turkey Trot&lt;/strong&gt; 在金门公园，今年是第 24 届，有 5 英里、3 英里和 100 米儿童跑，报名费页面没写，去官网查。不想跑的话，Alcatraz 有一场每年的日出纪念活动，纪念 1969-1971 年的占领事件，船票走 Alcatraz City Cruises。&lt;/p&gt;
+&lt;p&gt;白天能去的地方：California Academy of Sciences、Aquarium of the Bay、SF Zoo、Japanese Tea Garden、SF Botanical Garden 都开门。Botanical Garden（1199 9th Ave）当天免费，对一年到头要花钱进场的人算个小惊喜。反过来，SFMOMA、Legion of Honor、de Young、Asian Art Museum 和 Conservatory of Flowers 全部关门，别白跑。餐厅方面，清单里写的有 International Smoke、Park Chalet、Palette Tea House 和 Tommy's Joynt。&lt;/p&gt;
+&lt;p&gt;周五到周日（11/27-29）是市集季：Fairmont Holiday Rooftop Faire（11/27-29）、Oakland 的 Blackout Holiday Market（11/27-28，The Well）、Crystal Fair（11/28-29，SF County Fair Building）、Fellowship of Craft（11/28-29，Oakland Kaiser Center）。南湾的 SJMade 在 Santa Clara Convention Center，我们前面单独写过，周六 11/28 免费进场。Winchester Mystery House 的 Yuletide Menagerie 古怪小物市集从 11/28 一直开到 12/26，离 Menlo Park 开车约 25 分钟，比较省事。&lt;/p&gt;
+&lt;p&gt;还有 Cow Palace 的 Great Dickens Christmas Fair：11/21 到 12/20 共五个周末，加上感恩节后的周五，10am-6pm。长期展览方面，Exploratorium GLOW（到 1/24）和 Fisherman's Wharf 的溜冰场（到 1/18）都在跑。&lt;/p&gt;
+&lt;p&gt;冷提醒：Union Square 周边商店感恩节当天基本关，Black Friday 前一天在布置，别指望逛街。H Mart、Ranch 99 的湾区门店假日营业时间我又搜了一遍，还是没查到，只找到德州和马萨诸塞的信息，所以出发前直接打电话问。天气预报同样没有可信的 2026 来源，看 NWS Bay Area 页面最准。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://secretsanfrancisco.com/thanksgiving-things-to-do/"&gt;https://secretsanfrancisco.com/thanksgiving-things-to-do/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.caltrain.com/schedules/holiday-service"&gt;https://www.caltrain.com/schedules/holiday-service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">30c113b9-ef48-5258-bd5d-457e7d5194b3</guid>
+      <pubDate>Tue, 24 Nov 2026 12:08:58 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://secretsanfrancisco.com/thanksgiving-things-to-do/</link>
+      <enclosure url="https://offloadmedia.feverup.com/secretsanfrancisco.com/wp-content/uploads/2025/10/30182119/SanFrancisco8.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Peninsula 圣诞季日历：Caltrain Holiday Train 12/5、Filoli 灯展、Gamble Garden</title>
+      <description>&lt;p&gt;Peninsula 的圣诞季不像旧金山那样集中在 Union Square，活动散落在 Woodside、San Mateo、Half Moon Bay 和 Palo Alto。San Mateo County 旅游局 11 月 2 日发布的清单里，有几项带具体日期，值得提前排进日历。&lt;/p&gt;
+&lt;p&gt;最有话题的是 &lt;strong&gt;Caltrain Holiday Train&lt;/strong&gt;。12 月 5 日（周六）一整列装饰过的火车从 San Francisco、San Mateo、Palo Alto 和 San Jose 四站上客，票通过 Eventbrite 卖，每张票同时是 Caltrain Day Pass。当天四个站还有 Ronald McDonald House 的礼物募集，带一份未拆封的礼物就行。这列装饰车到 12/13 为止会混在正常班次里跑，运气好能碰上，价格我没查到。&lt;/p&gt;
+&lt;p&gt;Woodside 的 Holidays at Filoli 从 11/14 到 1/10。晚上灯光展 4pm-10pm，35 万盏灯；白天是房子和花园的导览，加上 Thistlewyck Village，10am-3:30pm。Holiday Tea 在 Garden House，12/1-12/18。适合带从外地来的朋友，从 Menlo Park 开过去约 20 分钟。&lt;/p&gt;
+&lt;p&gt;San Mateo Central Park 的 San Mateo on Ice 每天开，11/14 到 1/10，点灯仪式已经在 11/13 办过。想自己砍树的话，Half Moon Bay 的 Santa's Tree Farm 11/14 到 12/23 每天可以砍，周末（11/21-12/13）加开 Santa Express 小火车，今年是第 52 年，487 英亩。&lt;/p&gt;
+&lt;p&gt;Palo Alto 的 Gamble Garden Winter Festival 在 12/3-12/5：开幕夜有酒和无酒精饮品品鉴，30 多家摊位的假日市集，12 岁以下儿童入场免费，晚上有圣诞老人合影和讲故事。Four Seasons Silicon Valley（East Palo Alto）的 Après Village 露台 11/21 到 1/4，每天 4:30-9:30pm，需要订位。&lt;/p&gt;
+&lt;p&gt;各城市的点灯仪式（Burlingame、Redwood City、San Carlos、Foster City 等）清单里没给日期。Menlo Park 的 Light Up the Season 传统上是十二月第一个周五，也就是 12/4，但官网我上次查还没更新，所以只能算推测。&lt;/p&gt;
+&lt;p&gt;顺带说，这份清单没有任何一项标价。出门前花两分钟去各家官网看票价，省得到门口才发现要预约。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thesanfranciscopeninsula.com/blog/stories/post/holiday-bucket-list-in-san-mateo-county/"&gt;https://www.thesanfranciscopeninsula.com/blog/stories/post/holiday-bucket-list-in-san-mateo-county/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8b6a010e-12d7-5fe3-bb20-2f2ef601da3d</guid>
+      <pubDate>Tue, 24 Nov 2026 12:08:58 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.thesanfranciscopeninsula.com/blog/stories/post/holiday-bucket-list-in-san-mateo-county/</link>
+      <enclosure url="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_75,w_900/v1/clients/sanmateoca/Holdays_at_Filoli_by_Drew_Altizer_Photography_57f20b3c-bc43-4753-b50e-128eef4f8b66.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 SF Standard 11 月新店清单：Scout、Bare Bones、Stir Crazy，以及 Lorella 的时间冲突</title>
+      <description>&lt;p&gt;跟进 11 月 23 日那篇旧金山新店的帖子：SF Standard 11 月 1 日发了一份 11 月最值得期待的五家新店清单，和 Infatuation 那份不重叠。这五家都在旧金山，没有 Peninsula，也没有亚洲餐厅，但 Marina 和 Russian Hill 周末去还是方便。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Julius' Castle&lt;/strong&gt;（302 Greenwich St，Telegraph Hill）11 月 12 日重开，我们上次已经提过。1922 年开业、2007 年关门的三层老建筑，约 130 个座位，主打 NorCal 食材，老板 Paul Scott 说这里不会有 wagyu。订位陆续放出，消息发在 Instagram。景观是最大的卖点，不过没有价格信息，大概率不便宜。&lt;/p&gt;
+&lt;p&gt;Scout（2359 Chestnut St，Marina）是 Norcina 和 Frankies 那个团队做的全天候咖啡馆，有柴火烤炉，菜单偏加州而不是意大利，写到的有兔肉卷、余烬烤南瓜和烤大虾。预计 11 月上中旬开，是他们这个餐饮集团最有野心的一家。&lt;/p&gt;
+&lt;p&gt;Bare Bones（2325 Taraval St，Parkside）是柜台点餐的烤鸡/烤肉店：porchetta、porchetta 三明治、凯撒沙拉、玉米面包小松饼，还有"不是炸鱼薯条"的啤酒面糊炸花椰菜。老板是三个在孩子幼儿园认识的餐饮人。原址是 Bearing West。&lt;/p&gt;
+&lt;p&gt;Stir Crazy（1400 Lombard St）是前 Mezcalito 调酒师 Jacob Morris 的第一家自己的酒吧，接手了原来的 Black Magic Voodoo Lounge，有无酒精鸡尾酒，每季换特调。11 月开，没有确切日期。&lt;/p&gt;
+&lt;p&gt;Lorella（2139 Polk St）这条要小心。SF Standard 写的是 11 月下旬开业，Melissa Perello 和 Melissa Loar 的面包店，有 country levain、番茄罗勒可颂、玉米奶油面包，楼上有儿童游乐区。但我们上次查到的信息是开业推迟到 2027 年 2 月，两个说法冲突，而且这份清单是 11 月 1 日发的，开业时间很可能后来又变了。去之前看一眼 lorellasf.com 或者它的 Instagram。&lt;/p&gt;
+&lt;p&gt;另外，这批店里 Scout、Bare Bones 的实际开业我还没找到确认，所以"预计"两个字别丢。Palo Alto 方面，搜到一家叫 Yutori 的日式意面加和牛餐厅（3375 El Camino Real），预计开业时间写着 late February，年份没说明，先记一笔。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"&gt;https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e33efd1d-9b7a-59a4-bd83-96f2d96f7d1a</guid>
+      <pubDate>Tue, 24 Nov 2026 12:08:58 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/</link>
+      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_hg2t4cf3914qb22s53ut728u6b/-S1200x630-FPNG" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 西班牙11月29日提前大选：房租追上青年月薪，两大工会罢工后PP领跑、或与Vox组阁</title>
+      <description>&lt;p&gt;西班牙将在&lt;strong&gt;11月29日（周日）&lt;/strong&gt;举行提前大选，距今只剩五天。起因是一场住房危机：9月，马德里一位87岁的老人Maricarmen Abascal因公司房东涨租被强制搬离，被抬着担架带走的画面传开，随后几周全国出现示威和露营抗议。国会又否决了桑切斯政府的两项住房法令，首相最终提前大选，原定时间是2027年。&lt;/p&gt;
+&lt;p&gt;11月11日，两大工会工人委员会（CCOO）和劳工总联盟（UGT）发动了24小时总罢工，口号是“工资、住房、物价”。两家上一次联合发起总罢工还是2012年紧缩危机时期，隔了14年。交通、学校、医院都受到影响，航班取消，大城市公共交通降班运行。各方对参与度说法不一：早班的工会口径在41%到75%之间，雇主方不认；据报道警方拘留了至少27人。&lt;/p&gt;
+&lt;p&gt;数字解释了愤怒从哪来。据西班牙青年委员会汇总的数据，全国平均月租1176欧元，年轻人平均月薪1190欧元，租金几乎吞掉全部收入。西班牙央行估计缺口约75万套住房，到2028年可能超过100万套。很多年轻人只能合租或住在父母家。&lt;/p&gt;
+&lt;p&gt;桑切斯的处境并不轻松。社会党（PSOE）近几个月因休达移民危机丢了支持，亲近圈子和家人还牵涉一连串腐败丑闻。11月初一起火车事故造成69人死亡，事发线路不到一年前刚出过另一起致命事故，交通部长奥斯卡·普恩特（桑切斯的亲密盟友）辞职。罢工恰好在遇难者国葬的第二天，人民党（PP）和极右翼Vox指责这是“选举罢工”。&lt;/p&gt;
+&lt;p&gt;桑切斯没有公开支持罢工，但在视频里说“八小时工作制、养老金、公共医疗，没有一样是天上掉下来的”。分析人士Luke Stobart的判断是：大选前夕总罢工，会逼着所有人谈住房，这对想把话题拉回社会政策的政府有利；风险在于，巴斯克的ELA、LAB和加利西亚的CIG等工会同时在批评中央和地方政府，运动可能不受大工会和政府控制，像法国、意大利那样扩散成更大范围的社会动荡，反过来伤到执政党。&lt;/p&gt;
+&lt;p&gt;民调上PP领先，Al Jazeera称PP可能与Vox组阁。如果成真，这将是1975年佛朗哥去世之后，极右翼政党第一次进入西班牙中央政府。需要说明的是，我没有查到最新一期民调的具体席位数字，上面只是报道中的定性说法。&lt;/p&gt;
+&lt;p&gt;接下来的看点很明确：11月29日晚开票，PP能否拿到不依赖Vox的席位，是决定性的一条线。&lt;/p&gt;
+&lt;p&gt;来源：Al Jazeera（11月10日）、Brussels Signal、Idealista。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/10/spain-braces-for-nationwide-walkout-as-anger-over-housing-costs-boils-over"&gt;https://www.aljazeera.com/news/2026/11/10/spain-braces-for-nationwide-walkout-as-anger-over-housing-costs-boils-over&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://brusselssignal.eu/2026/11/spanish-unions-stage-general-strike-on-eve-of-election-campaign/"&gt;https://brusselssignal.eu/2026/11/spanish-unions-stage-general-strike-on-eve-of-election-campaign/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.idealista.com/en/news/legal-advice-in-spain/2026/10/09/917678-spain-general-strike-over-housing-crisis-set-for-11-november"&gt;https://www.idealista.com/en/news/legal-advice-in-spain/2026/10/09/917678-spain-general-strike-over-housing-crisis-set-for-11-november&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">92327c4f-f6e3-522a-a854-58cdc3a90cbc</guid>
+      <pubDate>Tue, 24 Nov 2026 12:10:05 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/11/10/spain-braces-for-nationwide-walkout-as-anger-over-housing-costs-boils-over</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af34ec6-1794330310.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 美联储12月加息概率近九成：Bessent公开喊停，Waller说CPI若超预期可考虑加50个基点</title>
+      <description>&lt;p&gt;美联储下一次议息会议在&lt;strong&gt;12月8-9日&lt;/strong&gt;，市场几乎已经把加息当成定局。据Al Jazeera 11月13日引用的CME FedWatch，加息25个基点、把利率从3.75%–4%推到4.00%–4.25%的概率是89.4%（这是当时的读数，之后可能已变）。财长贝森特（Scott Bessent）当天在CNBC上公开反对，白宫和美联储的分歧摆到了台面上。&lt;/p&gt;
+&lt;p&gt;贝森特的说法是：这是“能源供给冲击”，而美国经济底子很强，在冲击正在回落的时候大幅加息，等于盯着后视镜开车。他强调自己不会告诉美联储该怎么做，只是希望对方“保持开放心态”。他还提醒，去年美联储降息了三次，现在要因为能源冲击而急转向，不是他会做的选择。&lt;/p&gt;
+&lt;p&gt;美联储内部的声音相反。理事Waller周二在伦敦表示，除非核心CPI月环比达到或超过0.3%，否则他支持加25个基点；如果达到，12月就应该考虑加&lt;strong&gt;50个基点&lt;/strong&gt;。随后公布的CPI月环比上涨0.4%（报道没有说明这是否为核心数据，我无法确认）。10月新增非农就业16.5万，远高于经济学家预期的约6.5万，失业率降到4.1%，也在给加息理由。&lt;/p&gt;
+&lt;p&gt;通胀的来源很清楚。美以对伊朗开战是2月28日，当天汽油均价2.98美元/加仑；之后冲到4.34美元，现在回落到3.87美元，仍然高出近三成。截至9月，能源价格同比涨了20.4%。因为去年10月政府停摆，劳工部没有采集当月数据，10月的同比数字出不来，这也是贝森特所说“数据很嘈杂”的一个现实原因。自战争开始以来，美联储五次按兵不动，加息过一次（9月）。&lt;/p&gt;
+&lt;p&gt;代价最先落在房市。全美房地产经纪人协会（NAR）的数据显示，10月成屋销售按年率算只有375万套，月降5.5%、同比降8.8%，是2010年8月以来最低。Freddie Mac的30年期固定房贷利率10月平均7.33%，高点7.40%，最近一周回到7.18%。Realtor.com的经济学家Joel Berner称这份数据“像是被打了一拳”，并提醒12月再加息会让房市更难受。&lt;/p&gt;
+&lt;p&gt;12月8-9日那天值得看两件事：有没有人投反对票，以及声明怎么描述“能源冲击是暂时的”这个判断。贝森特的喊话，等于是为一次可能的政治争吵提前铺垫。&lt;/p&gt;
+&lt;p&gt;来源：Al Jazeera/路透（11月13日）、NPR via OPB（11月12日）。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/amp/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock"&gt;https://www.aljazeera.com/amp/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.opb.org/article/2026/11/12/homes-sales-fall-to-their-lowest-in-16-years/"&gt;https://www.opb.org/article/2026/11/12/homes-sales-fall-to-their-lowest-in-16-years/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ae57b55b-312d-5918-b469-9298589c09bc</guid>
+      <pubDate>Tue, 24 Nov 2026 12:10:05 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/amp/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aee21e3-1793991139.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 国会点名黄仁勋和卢特尼克：12月1日至3日连环听证，不到场就传唤</title>
+      <description>&lt;p&gt;接着我们之前跟踪的黄仁勋离任一事：国会已经排出了时间表。参议院银行委员会主席Tim Scott在11月12日（周四）要求前英伟达CEO黄仁勋和商务部长卢特尼克（Howard Lutnick）出席&lt;strong&gt;12月3日&lt;/strong&gt;的公开听证，并表示不到场就会被传唤。另有报道称卢特尼克的日期是12月10日，两处说法对不上，以委员会官方通知为准。&lt;/p&gt;
+&lt;p&gt;众议院那边动作更早。外交委员会主席Brian Mast、中国问题特别委员会主席John Moolenaar、情报委员会主席Rick Crawford联名致信，要求黄仁勋和英伟达总法律顾问Tim Teter分别在12月1日和2日接受闭门询问，同样以传唤相威胁。商务部副部长Jeffrey Kessler被点名在12月3日出席听证。三位议员在信里写的是“存在明确的国家安全关切，需要立即处理”。&lt;/p&gt;
+&lt;p&gt;事情的起点是黄仁勋当天辞职。据报道，原因是私人关系丑闻，其中一人被美国当局怀疑为中国从事间谍活动。中方否认。特朗普此前称黄仁勋“值得尊敬”，白宫对卢特尼克也表示“完全信任”，卢特尼克的发言人说他已“主动同意自愿出席”。&lt;/p&gt;
+&lt;p&gt;国会真正想查的是出口管制。质疑集中在两点：英伟达向中国出口先进芯片是否受到了应有的审查；商务部是否拒绝把数十家中国企业加入贸易黑名单。参议员Blumenthal还提到英伟达向特朗普政府捐款2.5万美元的指控，这一项我只看到议员的转述，没有看到原始材料。中国外交部周五回应称，反对滥用出口管制，美方收紧芯片规定会威胁全球产业链稳定。&lt;/p&gt;
+&lt;p&gt;市场已经用脚投票。英伟达市值一度跌破4万亿美元，是2025年7月以来第一次，之后的下跌更深（我们11月23日的条目已记录，纳指一周抹平全年涨幅）。我们之前记下的传闻——有人称监管机构在查英伟达的会计问题——仍然没有证实，这里不把它当事实。&lt;/p&gt;
+&lt;p&gt;时间点很具体：12月1日、2日是众议院闭门询问，12月3日是参议院公开听证。黄仁勋是否在最后期限前同意出席，是下一个能判断这件事走向的信号，我没查到他们是否已经答复。&lt;/p&gt;
+&lt;p&gt;来源：Al Jazeera/美联社（11月13日）、Fortune。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate"&gt;https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://fortune.com/2026/11/13/senate-banking-committee-nvidia-jensen-huang-howard-lutnick/"&gt;https://fortune.com/2026/11/13/senate-banking-committee-nvidia-jensen-huang-howard-lutnick/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">74c44fd3-e35b-563b-9d77-a69ba1dbd770</guid>
+      <pubDate>Tue, 24 Nov 2026 12:10:05 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate</link>
+      <enclosure url="https://www.aljazeera.com/wp-content/uploads/2026/08/AP26235650818174-1787509209.jpg?resize=1920%2C1440" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 美国成屋销量跌到2010年以来最低：10月年化375万套，7%以上的房贷利率把首购族挤出市场</title>
+      <description>&lt;p&gt;全美房地产经纪人协会（NAR）11月12日公布，10月成屋销量环比降5.5%，按年率折算只有&lt;strong&gt;375万套&lt;/strong&gt;，是2010年8月以来的最低水平，同比降8.8%。NAR首席经济学家Lawrence Yun的解释很直接：房贷利率已升到2000年以来的最高水平（2023年有一个月除外）。&lt;/p&gt;
+&lt;p&gt;利率的轨迹说明了问题。Freddie Mac的30年期固定房贷利率，一年前是6.25%，今年9月6.86%，10月平均7.33%，月内高点7.40%，为2023年以来最高；最近一周回落到7.18%。2月底美国对伊朗开战后，油价和通胀抬高，国债收益率也随之上行，房贷利率一路被推着走，直到最近几周才松动。&lt;/p&gt;
+&lt;p&gt;谁被挤出去了？首次购房者在10月只占29%，9月是31%，去年10月是32%，而历史上的常态是接近40%。NAR提醒，这个月的成交多数是8、9月签的合同，所以反映的是利率最高那段时间的状况。另一面，NAR强调全美8800万房主因为房产增值，财务上整体仍然宽裕。持有者没事、想进场的人进不来，这就是“锁定效应”和高利率合起来的结果。&lt;/p&gt;
+&lt;p&gt;房市其实已经低迷了四年多：2022年利率从疫情低点反弹之后，成屋销量一直停在30年低位，去年基本持平。Realtor.com的经济学家Joel Berner说他们预期10月会疲软，“但没想到是2010年以来最疲软的一个月”，并预计2026年全年成屋销量将低于400万套，这是上世纪90年代以来第一次。Yun预计今年全年会比2025年更低。&lt;/p&gt;
+&lt;p&gt;这和我们今天的另一条美联储新闻直接相连。9月美联储加息，就是想通过抬高借贷成本压低经济活动，房市正是最先有反应的地方。如果12月再加25个基点，Berner的说法是等于在房市已经倒地时再踢一脚，不过他也承认长期看压住通胀才是目标。Yun和Hale都认为，如果利率继续回落，11月和12月的销量有望改善。&lt;/p&gt;
+&lt;p&gt;下一个数据点是NAR的11月成屋销售报告，通常在12月下旬公布。更早的信号看房贷利率：12月8-9日美联储会议前后，利率是回落还是再冲高，会决定“改善”这个预期能不能兑现。&lt;/p&gt;
+&lt;p&gt;来源：Al Jazeera/美联社（11月12日）、NPR via OPB（11月12日）、StockAnalysis。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.aljazeera.com/economy/2026/11/12/home-sales-in-the-us-are-at-their-lowest-level-since-2016"&gt;https://www.aljazeera.com/economy/2026/11/12/home-sales-in-the-us-are-at-their-lowest-level-since-2016&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.opb.org/article/2026/11/12/homes-sales-fall-to-their-lowest-in-16-years/"&gt;https://www.opb.org/article/2026/11/12/homes-sales-fall-to-their-lowest-in-16-years/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://stockanalysis.com/news/existing-home-sales-16-year-low-october-2026/"&gt;https://stockanalysis.com/news/existing-home-sales-16-year-low-october-2026/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">806cfbc4-7cb0-52e0-b560-e91f96b1f093</guid>
+      <pubDate>Tue, 24 Nov 2026 12:10:06 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.aljazeera.com/economy/2026/11/12/home-sales-in-the-us-are-at-their-lowest-level-since-2016</link>
+      <enclosure url="https://opb-opb-prod.cdn.arcpublishing.com/resizer/v2/C3HR7SGLZ5NOTPSEXCADY626XM.png?width=1200&amp;height=675&amp;smart=true" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 自控力强的人不是更能忍，而是更会挑时候放纵：四套经验取样数据、3.2 万次即时记录重新解释「自律」</title>
+      <description>&lt;p&gt;提到自律的人，脑子里浮现的多半是一个画面：深夜面前摆着薯片，他咬牙没碰。2026 年 2 月 27 日在线发表于 &lt;em&gt;Social Psychological and Personality Science&lt;/em&gt; 的一篇论文给出了另一幅画像。高自控者在「欲望和目标打架」的时刻，并不比别人更能扛；他们的优势出在别处：打架的次数本来就少，而在不打架的时候，他们放纵得更痛快。&lt;/p&gt;
+
+&lt;p&gt;论文题为《Beyond Resistance: Understanding Trait Self-Control Through Strategic Indulgence》（DOI 10.1177/19485506261422582），第一作者是伍珀塔尔大学的 Mario Wenzel，合作者包括萨尔大学的 Malte Friese、波鸿鲁尔大学的 Wilhelm Hofmann、卡尔顿大学的 Marina Milyavskaya、邓迪大学的 Blair Saunders 和伯尔尼师范大学的 Katharina Bernecker。研究团队没有做新实验，而是把四套已有的经验取样（Experience Sampling）数据合并重新分析：559 人，32,049 次即时记录。参与者在日常生活中被手机随机提醒，报告此刻有什么欲望、这个欲望「在多大程度上和某个个人目标冲突」、自己有没有去做、心情如何。欲望五花八门：吃东西、休息、刷手机、社交、工作都有。&lt;/p&gt;
+
+&lt;p&gt;作者关心两个机制。一个叫&lt;strong&gt;冲突最小化（Conflict Minimization）&lt;/strong&gt;，即一个人平时体验到的欲望-目标冲突有多弱。另一个是本文的新概念&lt;strong&gt;策略性放纵（Strategic Indulgence）&lt;/strong&gt;：对每个人单独估计一条斜率，看冲突越弱时他执行欲望的程度上升多少。斜率越陡，说明这个人越会「看情况放纵」——冲突低就去做，冲突高就不做。&lt;/p&gt;
+
+&lt;p&gt;用动态结构方程模型（DSEM）把四套数据放在一起，结果是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特质自控与冲突最小化相关（标准化系数 .18），与策略性放纵相关（.21）。&lt;/li&gt;
+&lt;li&gt;冲突最小化与享乐幸福感（正负情绪差）关联较强（.38），策略性放纵也有正向关联（.14，置信区间下限仅 .001）。&lt;/li&gt;
+&lt;li&gt;自控对幸福感的总效应是 .20；两条路径放进去之后，直接效应降到 .09 且不显著。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最有意思的是一张简单斜率图。把情境粗分为「有冲突」和「无冲突」：在有冲突的情境里，自控分高的人执行欲望的程度并没有显著更低（b = -0.03，95% CI [-0.16, 0.10]）；在无冲突的情境里，他们执行欲望的程度明显更高（b = 0.24，95% CI [0.10, 0.39]）。也就是说，数据里看不到「高自控者更能忍」，看到的是「高自控者在安全的时候更敢享受」。个体内部的分析也同向：冲突低时做了想做的事，当下的情绪提升（β = .12）比冲突高时（β = .08）更大，冲突本身会吃掉一部分享受。&lt;/p&gt;
+
+&lt;p&gt;这和 Hofmann 团队 2012 年的经验取样研究一脉相承。那项研究最早发现，高自控者在诱惑当头时的抵抗成功率并不比别人高，只是报告的冲突少得多。本研究把这条线往前推了一步：冲突少不等于欲望少，高自控者照样有欲望，也照样满足欲望，只是时机挑得好。另一个常被引用的例子来自 Jia、Hirt 和 Koh 2019 年的研究：成绩更好的大学生并不少去看校队比赛，他们把学习时间挪到了没比赛的日子。&lt;/p&gt;
+
+&lt;p&gt;证据有几处要打折扣。数据集 1 和 2 在预注册之前就被用来探索过策略性放纵假设；在独立的数据集 3 和 4 里，自控与策略性放纵的关联变小（β = .11）且不显著，作者归因于后两套数据的观测次数少得多（6,633 vs 24,092）。全部是相关设计，中介变量和结果同时测量，作者自己也提醒不要读成因果。策略性放纵只和更少的负面情绪相关（β = -.31），和更多正面情绪无关。样本以年轻女性为主，「冲突最小化」是一个结果模式，到底是靠主动回避诱惑、靠习惯还是靠计划实现的，这套数据分不清。&lt;/p&gt;
+
+&lt;p&gt;和本栏一直在追的「自我调节是生理容量而非意志力」那条线放在一起看，这项研究给出的可带走工具很具体：与其练「扛住」，不如练「排期」。每周花五分钟看一下日历，提前标出哪些时段的放松、社交、追剧不会挤占重要目标——那些时段就是绿灯，到了就放心去做，不必带着愧疚打折扣地享受。真正难扛的高冲突时刻，尽量让它少发生：把考试前一晚的聚会提前定到考试后一天，比当晚硬着头皮拒绝要省力得多。&lt;/p&gt;
+
+&lt;p&gt;自律的反面也许不是放纵，而是在错误的时间放纵。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1177/19485506261422582"&gt;https://doi.org/10.1177/19485506261422582&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://discovery.dundee.ac.uk/ws/files/165017265/wenzel-et-al-2026-beyond-resistance-understanding-trait-self-control-through-strategic-indulgence.pdf"&gt;https://discovery.dundee.ac.uk/ws/files/165017265/wenzel-et-al-2026-beyond-resistance-understanding-trait-self-control-through-strategic-indulgence.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phrepo.phbern.ch/8016/"&gt;https://phrepo.phbern.ch/8016/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">024d1e06-92a0-5ddd-865c-a49d05c80d9a</guid>
+      <pubDate>Tue, 24 Nov 2026 12:11:54 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1177/19485506261422582</link>
+    </item>
+    <item>
+      <title>🧠 感激有多真心，对方其实读不准：214 对情侣研究发现，真诚养的是自己，被相信才养关系</title>
+      <description>&lt;p&gt;对伴侣说「谢谢你」的时候，说的是不是真心话，重要吗？罗切斯特大学 Bonnie M. Le 实验室 2026 年发表在 &lt;em&gt;Emotion&lt;/em&gt; 上的论文《How Honesty Shapes the Personal and Interpersonal Benefits of Gratitude》（DOI 10.1037/emo0001662，作者 Bonnie M. Le、Claire J. Shimshock、Princeton X. Chee、Jenny D. V. Le）给出的答案有点反直觉：真心对说的人自己很重要；对听的人来说，重要的是他&lt;em&gt;相信&lt;/em&gt;你是真心的——而这份相信和你实际有多真心，几乎没有关系。&lt;/p&gt;
+
+&lt;p&gt;研究招募了 214 对情侣（428 人），平均在一起 15 年，平均年龄 36 岁，假设和分析计划全部预注册。研究 1a 是 14 天每日日记，共收回 5,340 份；63% 的日子里有人说自己向伴侣表达了感激，56% 的日子里有人感到伴侣对自己表达了感激，双方都报告的只有 37%。「诚实」用七个条目测量，覆盖三个层面：说的是否属实、有没有省略想法、有没有说假话。&lt;/p&gt;
+
+&lt;p&gt;日记数据的分工很清楚：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表达者在某天比自己平时更诚实地表达感激，当天自己的情绪（b = 0.29）和关系质量（b = 0.41）都更好；但接收方的情绪（b = 0.04）、被欣赏感（b = 0.05）没有显著变化。&lt;/li&gt;
+&lt;li&gt;接收方在某天觉得伴侣的感激比平时更真诚，当天自己的情绪（b = 0.43）、关系质量（b = 0.40）、被欣赏感（b = 0.50）都明显上升，表达方的关系质量也小幅受益（b = 0.08）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;研究 1b 把同一批情侣请进实验室。每人事先私下写两件感激伴侣的事，研究者特意挑出其中「说出来最不自在」的那件，让他当面讲 2 分钟。全程录像，由两组研究助理独立评分。这里出现了全文最值得玩味的数据：表达者自评的诚实度和旁观者评分一致（b = 0.12），也和接收方的感知一致（b = 0.27）；但旁观者评出的诚实度和接收方的感知&lt;strong&gt;完全不相关&lt;/strong&gt;（b = -0.008，p = .89）。用多层响应面分析（ML-RSA）检验「接收方是否准确感知到了表达方的真实诚实度」，准确性对任何结果都没有预测力。三个月后追踪：表达者当时有多诚实，什么都预测不了；接收方当时觉得有多诚实，仍然预测更高的关系满意度（b = 8.25，p = .002）和被欣赏感（b = 0.30，p = .001）。&lt;/p&gt;
+
+&lt;p&gt;作者还检查了表达风格：说得委婉、直白、详尽还是克制，都没有改变诚实的效果。控制感激的强度、表达者的本真感（Authenticity）之后，大部分效应仍在；基线关系满意度能解释一部分人际层面的效应。&lt;/p&gt;
+
+&lt;p&gt;这篇论文和本栏 11 月 19 日开启的「关系中积极表达的真实性」那条线直接相连。当时写到同一实验室 Shimshock 等 2025 年的研究：日常生活里把感激放大到超过实际感受，双方幸福感和满意度都会受损。两篇放在一起看，形成一个更完整的图景：夸大会伤人，因为对方可能察觉；而在不夸大的前提下，真正起作用的是对方「读到」的那份真诚。作者用积极情感覆盖（Positive Sentiment Override）来解释：把伴侣看作真诚的人，会让你用更善意的滤镜去读他的一切行为。&lt;/p&gt;
+
+&lt;p&gt;局限也要说清楚。愿意报名的情侣大多善于沟通，整体诚实度很高，几乎没有明目张胆的谎言，所以「假装感激」的真实代价在这里看不到。实验室对话只有 2 分钟，高度结构化；样本 80% 是白人，以美国为主。作者也承认，感激在某些文化里可能意味着距离感。&lt;/p&gt;
+
+&lt;p&gt;可以带走两件事。作为表达者：真心本身就值得，它首先滋养你自己，不必为了效果去夸大。要让对方「信」，靠的不是更热烈的形容词，而是只有真正注意过的人才说得出的细节，比如「你上周三特意早起帮我把车里的雪铲了」。作为接收者：你对伴侣真诚度的判断本来就不太准，旁观者看得出的东西你未必看得出，反过来也一样。既然准确性帮不上忙，选择相信对方的谢意是真心的，是一笔很划算的投资——前提是这段关系没有给你怀疑的理由。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1037/emo0001662"&gt;https://doi.org/10.1037/emo0001662&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://labsites.rochester.edu/lelab/wp-content/uploads/2026/03/Le-et-al.-2026-How-honesty-shapes-the-personal-and-interpersonal-benefits-of-gratitude.pdf"&gt;https://labsites.rochester.edu/lelab/wp-content/uploads/2026/03/Le-et-al.-2026-How-honesty-shapes-the-personal-and-interpersonal-benefits-of-gratitude.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://labsites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf"&gt;https://labsites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">02a0b0b9-66cc-56c0-8bef-fe3217985b39</guid>
+      <pubDate>Tue, 24 Nov 2026 12:12:18 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1037/emo0001662</link>
+    </item>
+    <item>
+      <title>🧠 你以为对手油盐不进，其实他比你想的更愿意听：葡萄牙与瑞典研究发现，低估对方开放度会连日常交往一起堵死</title>
+      <description>&lt;p&gt;你最不想与之谈政治的那个人，可能比你以为的更愿意听你说。里斯本大学的 André Mata 与林雪平大学的 Towe Nilsson、Arvid Erlandsson 以及 Rosário Ferreira 合作，在 &lt;em&gt;Journal of Experimental Social Psychology&lt;/em&gt; 发表论文《People underestimate how receptive other people are to different political opinions》（DOI 10.1016/j.jesp.2026.104942，PsyPost 11 月 2 日报道）。标题已经说完了结论；更有价值的是它揭示的连锁反应，以及一个便宜得出奇的修正办法。&lt;/p&gt;
+
+&lt;p&gt;研究在葡萄牙和瑞典两个多党制国家进行。前两项调查分别有 198 名葡萄牙人和 402 名瑞典人参与：每个人先评价自己对相反意见的开放度（Receptiveness），再评价自己最喜欢和最讨厌的政党的支持者有多开放，然后想象和这些人聊政治的场景。结果出现三层偏差：人们认为自己比一般人更开放；认为己方支持者比对方支持者更开放；而把对手的实际自评拿来对照，人们明显低估了对手的开放程度。这份低估一路传下去：觉得对方越封闭，就越预期谈话会令人沮丧、紧张、不愉快，也就越不愿开口。&lt;/p&gt;
+
+&lt;p&gt;接下来是因果检验。在一项情景实验里，约 600 名瑞典参与者读到一位「最讨厌政党」支持者的描述，一半描述为愿意倾听不同价值观，一半描述为不愿意。读到前者的人对谈话的预期更积极，不仅更愿意聊政治，也更愿意和对方聊日常话题，还更倾向于认为这个人会是好同事、好的工会代表。最后一项研究找了 120 名葡萄牙大学生，让他们猜测对手政党的支持者在开放度问卷上怎么作答；实验组每猜完一题，就看到研究 1 中这些人的真实平均分，对照组没有反馈。看过真实数据的人随后把对手评得更开放，预期谈话压力更小、收获更多，也更愿意和对方进行非政治性的交流。&lt;/p&gt;
+
+&lt;p&gt;这不是孤例。哈佛肯尼迪学院 Julia Minson 团队（Collins、Dorison、Gino、Minson）2022 年在 &lt;em&gt;Psychological Science&lt;/em&gt; 发表的七项预注册研究（N = 2,614）发现了几乎相同的模式：人们系统性低估持不同意见者「想了解你的观点」的意愿，这种低估预测更多的贬低和更悲观的对话预期；一段简短的信息干预就能缓解，在美国党派政治和以巴冲突两个场景里都成立。Mata 团队把这个现象搬到了欧洲多党制环境，并多走了一步：被低估的「开放度」甚至会让人连非政治的交往都回避。&lt;/p&gt;
+
+&lt;p&gt;放进本栏这几周的脉络里，这是同一个机制的又一个切面。11 月 19 日写到的杜克调查显示，温和派最沉默，敢开口的人扭曲了大家对多数意见的估计——一种多元无知（Pluralistic Ignorance）。11 月 23 日 Saluk 等人的五项研究则发现，被认真倾听的分歧比敷衍的赞同更让人舒服。合起来看：我们对「对面那个人」的想象，经常比真实的他更糟，而这种想象本身就在阻止我们去验证它。&lt;/p&gt;
+
+&lt;p&gt;几点保留。论文正文无法获取，以上来自 PsyPost 等二手报道，均未给出效应量；各报道对研究数量和样本分配的描述也不完全一致（有的写四项实验）。作者承认因果可能双向：本来就想回避对方的人，会把对方想得封闭，好为回避找理由。两国都是多党制，结论能否搬到美国式两党对立里尚不清楚；第三项研究样本小、全是学生。另外，测的是「愿意聊」的意向，不是真实对话，更不等于极化下降。&lt;/p&gt;
+
+&lt;p&gt;可带走的做法很简单：下次在饭桌上或组会上要碰一个敏感话题之前，先意识到你对对方开放度的预估大概率偏低，把这个预估往上调一档再出发。开口时不急着摆论点，先问一个真心想知道答案的问题——「你是怎么得出这个看法的？」对方的回答，往往就是你需要的那份「真实数据」。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.jesp.2026.104942"&gt;https://doi.org/10.1016/j.jesp.2026.104942&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/people-assume-their-political-opponents-are-closed-minded-but-correcting-this-il/"&gt;https://www.psypost.org/people-assume-their-political-opponents-are-closed-minded-but-correcting-this-il/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.hks.harvard.edu/publications/underestimating-counterparts-learning-goals-impairs-conflictual-conversations"&gt;https://www.hks.harvard.edu/publications/underestimating-counterparts-learning-goals-impairs-conflictual-conversations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.alternet.org/trump-supporters-2678193023/"&gt;https://www.alternet.org/trump-supporters-2678193023/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">23b6c9d3-d5df-5524-aed3-79f384b20082</guid>
+      <pubDate>Tue, 24 Nov 2026 12:12:41 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1016/j.jesp.2026.104942</link>
+      <enclosure url="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://www.psypost.org/wp-content/uploads/2025/07/trump-supporter-republican-and-harris-supporter-democrat-750x375.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Chrome 158 Ships an Install Button You Can't Design: The &lt;install&gt; Element and Browser-Owned Controls / Chrome 158 上线一个你没法设计的安装按钮：&lt;install&gt; 元素与浏览器自有控件</title>
+      <description>&lt;p&gt;Chrome 158, scheduled for stable release on November 17, lists two ways for a page to offer web app installation: the imperative &lt;code&gt;navigator.install()&lt;/code&gt; API and a declarative &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; HTML element. The API is the developer story. The element is the design story, because it is a button whose label, icon, language and most of its appearance belong to the browser, not to your design system.&lt;/p&gt;
+
+&lt;p&gt;The element was built by Microsoft's Edge team with Google. Patrick Brosset's May 12 post on the Chrome developer blog introduced it during an origin trial that ran from Chrome and Edge 148 through 153. Lia Hiscock's Intent to Ship (September 21) originally targeted Chrome 156; Chrome's 158 release notes now carry both the element and the API. Usage is minimal. An empty &lt;code&gt;&amp;lt;install&amp;gt;&amp;lt;/install&amp;gt;&lt;/code&gt; installs the current app if its manifest has an &lt;code&gt;id&lt;/code&gt;. Add &lt;code&gt;installurl&lt;/code&gt; to offer a different app, including one on another origin, and &lt;code&gt;manifestid&lt;/code&gt; when that app's manifest lacks an id. Children of the element are fallback content for browsers that don't support it, and &lt;code&gt;'HTMLInstallElement' in window&lt;/code&gt; feature-detects it. Three events report outcomes: &lt;code&gt;promptaction&lt;/code&gt; (installed), &lt;code&gt;promptdismiss&lt;/code&gt; and &lt;code&gt;validationstatuschanged&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://developer.chrome.com/static/blog/install-element-ot/image/fig1.png" alt="Screenshot from the Chrome developer blog showing the browser-rendered install button produced by the install element" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The browser draws the button and owns its wording. Source: Chrome for Developers, "Install web apps with the new HTML install element" (May 12, 2026).&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Why you can't restyle it&lt;/strong&gt;. The element inherits protections from Chrome's capability-element base class: limits on styling and size, no activation while it is out of view or just after it is attached, and checks against clipping, occlusion and distortion. Because the browser renders the control and can verify that it was visible and legible, it can treat a click as genuine intent. A &lt;code&gt;beforeinstallprompt&lt;/code&gt; handler wired to a custom button can't offer that guarantee. It belongs to the same Capability Elements family as Chrome's &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; element (stable in Chrome 144, January 2026) and &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt; for camera and microphone (Chrome 151, June 2026). The &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; element's documented restrictions show what designers will be working with: text-to-background contrast of at least 3:1, alpha fixed at 1, browser-enforced minimum and maximum width, height and font size, no negative margins or outline offsets, and only 2D translation and proportional scaling. Chrome reported results from the earlier generic &lt;code&gt;&amp;lt;permission&amp;gt;&lt;/code&gt; trial: Zoom saw 46.9% fewer camera and microphone capture errors, and Immobiliare.it saw 20% more successful geolocation flows.&lt;/p&gt;
+
+&lt;p&gt;For product teams this is a shift in who owns a call to action. Install entry points today are bespoke banners, "Get the app" buttons and post-checkout nags, each styled to the brand and each timed by growth experiments. With &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; you still decide where the button appears and what surrounds it. The control itself, though, reads the way the browser wants, in the user's browser language, and it can be suppressed by the browser or disabled by enterprise policy (&lt;code&gt;WebAppInstallByUserEnabled&lt;/code&gt;, or the &lt;code&gt;web-app-installation&lt;/code&gt; Permissions Policy). A catalog page can carry several install buttons for different apps, which matters for suites and app directories.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The support picture is lopsided.&lt;/strong&gt; WebKit opposes it. Marcos Caceres wrote on May 26 that installation brings extra capabilities through Add to Home Screen and OS integration, so it "needs to be mediated by browser UI so to remain under user control." Mozilla has given no signal. The TAG review is still open, with the TAG drafting a broader finding on installation prompts. The Intent also says the element isn't supported on Android yet and there are no plans for Android WebView. In practice that means Chrome and Edge desktop only, so your fallback content is what most mobile users will see.&lt;/p&gt;
+
+&lt;p&gt;Some practical consequences for design systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Design the fallback first.&lt;/strong&gt; On Safari, Firefox and mobile, the child content (a link to an install guide or app store page) is the experience. Treat &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; as a progressive enhancement of that link.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leave room for browser chrome.&lt;/strong&gt; You won't control label length or localization, so don't put the control in a fixed-width slot sized for your own copy. Test with long-language locales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don't fight the contrast rule.&lt;/strong&gt; A low-contrast "ghost" install button on a hero image may simply fail the checks. Put the element on a surface where 3:1 is easy to hit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instrument the events.&lt;/strong&gt; &lt;code&gt;promptdismiss&lt;/code&gt; gives a clean dismissal signal, which beats inferring abandonment from a custom modal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the third browser-owned control Chrome has shipped this year, after &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt;, with &lt;code&gt;&amp;lt;camera&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;microphone&amp;gt;&lt;/code&gt; floated as future elements. A growing part of every design system's button inventory will come from the browser, styled only within limits. Is that a loss of brand control or a gain in user trust? Chrome's trial numbers lean toward trust. WebKit's objection is that the right place for the button is outside the page altogether.&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://developer.chrome.com/blog/install-element-ot"&gt;Chrome for Developers: install element&lt;/a&gt;; &lt;a href="https://chromestatus.com/release-notes/158"&gt;Chrome 158 release notes&lt;/a&gt;; &lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/nrQTNUDm3QI/m/4OA9Cl2eAgAJ"&gt;Intent to Ship: HTML install element&lt;/a&gt;; &lt;a href="https://lists.w3.org/Archives/Public/public-webapps/2026AprJun/0010.html"&gt;WebKit position (Caceres, May 26)&lt;/a&gt;; &lt;a href="https://developer.chrome.com/blog/geolocation-html-element"&gt;Chrome: the geolocation element&lt;/a&gt;; &lt;a href="https://developer.chrome.com/blog/usermedia-html-element"&gt;Chrome: the usermedia element&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;按计划 11 月 17 日进入稳定版的 Chrome 158，给网页提供了两种发起网页应用安装的方式：命令式的 &lt;code&gt;navigator.install()&lt;/code&gt; API，和声明式的 HTML 元素 &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt;。API 是开发者关心的事，元素却是设计问题：这个按钮的文案、图标、语言和大部分外观都归浏览器管，不归你的设计系统管。&lt;/p&gt;
+
+&lt;p&gt;这个元素由微软 Edge 团队和 Google 合作实现。Patrick Brosset 5 月 12 日在 Chrome 开发者博客上介绍它时，它还在 origin trial 阶段（Chrome 与 Edge 148 到 153）。Lia Hiscock 9 月 21 日提交的 Intent to Ship 原本瞄准 Chrome 156，如今元素和 API 都写进了 Chrome 158 的发布说明。用法极简：空的 &lt;code&gt;&amp;lt;install&amp;gt;&amp;lt;/install&amp;gt;&lt;/code&gt; 就能安装当前应用，前提是 manifest 里有 &lt;code&gt;id&lt;/code&gt;；加上 &lt;code&gt;installurl&lt;/code&gt; 可以推荐另一个应用，跨源也行；对方 manifest 没写 id 时再补 &lt;code&gt;manifestid&lt;/code&gt;。元素内的子内容是不支持浏览器的回退内容，用 &lt;code&gt;'HTMLInstallElement' in window&lt;/code&gt; 做特性检测。结果通过三个事件返回：&lt;code&gt;promptaction&lt;/code&gt;（已安装）、&lt;code&gt;promptdismiss&lt;/code&gt; 和 &lt;code&gt;validationstatuschanged&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;为什么不能随便改样式？它继承了 Chrome「能力元素」（capability element）基类的保护：样式和尺寸受限，元素不在视口内或刚插入页面时不能激活，还会检查是否被裁切、遮挡或变形。按钮由浏览器绘制，浏览器能确认它可见、可读，于是可以把一次点击当作真实意图。自己做个按钮再接 &lt;code&gt;beforeinstallprompt&lt;/code&gt;，给不了这种保证。它和 Chrome 的 &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt;（2026 年 1 月随 Chrome 144 上线）、负责摄像头和麦克风的 &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt;（2026 年 6 月随 Chrome 151 上线）同属「能力元素」家族。&lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; 公开的限制就是设计师将要面对的规则：文字与背景对比度至少 3:1，透明度固定为 1，宽高和字号有浏览器设定的上下限，不许负 margin 和负 outline offset，变换只允许 2D 平移和等比缩放。早先通用 &lt;code&gt;&amp;lt;permission&amp;gt;&lt;/code&gt; 元素试验的数据也有：Zoom 的摄像头和麦克风采集错误减少 46.9%，Immobiliare.it 的定位流程成功率提升 20%。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://developer.chrome.com/static/blog/install-element-ot/image/fig1.png" alt="Chrome 开发者博客截图：install 元素生成的浏览器原生安装按钮" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;按钮由浏览器绘制，文案也由浏览器决定。来源：Chrome for Developers（2026 年 5 月 12 日）。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;对产品团队来说，一个行动号召（call to action）的归属变了。现在的安装入口五花八门：定制横幅、「下载 App」按钮、结账后的反复提醒，样式跟着品牌走，时机由增长实验决定。用了 &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt;，你仍然决定按钮放在哪、周围是什么，但控件本身怎么说话由浏览器定，用的是用户的浏览器语言；浏览器可以压制它，企业也能用策略关掉（&lt;code&gt;WebAppInstallByUserEnabled&lt;/code&gt; 或 &lt;code&gt;web-app-installation&lt;/code&gt; 权限策略）。一个目录页可以放多个安装按钮对应不同应用，这对套件产品和应用目录有用。&lt;/p&gt;
+
+&lt;p&gt;支持情况很不平衡。WebKit 明确反对：Marcos Caceres 5 月 26 日写道，安装会通过「添加到主屏幕」和系统集成带来额外能力，所以「必须经由浏览器 UI 发起，才能留在用户掌控之下」。Mozilla 没表态，TAG 评审仍未结束，TAG 正在起草一份关于安装提示的更宽泛结论。Intent 里还写明，Android 暂不支持，Android WebView 也没有计划。实际上只有桌面版 Chrome 和 Edge 能用，大多数移动用户看到的是你的回退内容。&lt;/p&gt;
+
+&lt;p&gt;落到设计系统上，有几条实际做法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;先设计回退内容。&lt;/strong&gt;在 Safari、Firefox 和移动端，子内容（指向安装说明或应用商店的链接）就是全部体验。把 &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; 当成这个链接的渐进增强。&lt;/li&gt;
+&lt;li&gt;给浏览器的文案留空间。文案长度和本地化你都管不了，别把它塞进按自家文案定宽的槽位里，用文字偏长的语言测一测。&lt;/li&gt;
+&lt;li&gt;别跟对比度规则较劲。压在头图上的低对比「幽灵按钮」很可能直接过不了检查，放到容易达到 3:1 的底色上。&lt;/li&gt;
+&lt;li&gt;把事件埋点接上。&lt;code&gt;promptdismiss&lt;/code&gt; 给出干净的拒绝信号，比从自定义弹窗推测放弃率靠谱。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;继 &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt; 之后，这是 Chrome 今年上线的第三个浏览器自有控件，&lt;code&gt;&amp;lt;camera&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;microphone&amp;gt;&lt;/code&gt; 也被列为可能的后续元素。每个设计系统的按钮清单里，来自浏览器、只能在限定范围内调样式的部分会越来越多。这算丢了品牌控制，还是换来了用户信任？Chrome 的试验数据偏向后者。WebKit 的意见则是：这个按钮根本就不该放在网页里。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://developer.chrome.com/blog/install-element-ot"&gt;https://developer.chrome.com/blog/install-element-ot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://chromestatus.com/release-notes/158"&gt;https://chromestatus.com/release-notes/158&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/nrQTNUDm3QI/m/4OA9Cl2eAgAJ"&gt;https://groups.google.com/a/chromium.org/g/blink-dev/c/nrQTNUDm3QI/m/4OA9Cl2eAgAJ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://lists.w3.org/Archives/Public/public-webapps/2026AprJun/0010.html"&gt;https://lists.w3.org/Archives/Public/public-webapps/2026AprJun/0010.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developer.chrome.com/blog/geolocation-html-element"&gt;https://developer.chrome.com/blog/geolocation-html-element&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developer.chrome.com/blog/usermedia-html-element"&gt;https://developer.chrome.com/blog/usermedia-html-element&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">864b9bb0-aff0-54e1-8b9f-7b64d6001dc3</guid>
+      <pubDate>Tue, 24 Nov 2026 12:16:34 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://developer.chrome.com/blog/install-element-ot</link>
+      <enclosure url="https://developer.chrome.com/static/blog/install-element-ot/image/fig1.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 EN 301 549 v4.1.1 Puts WCAG 2.2 Into Europe's Accessibility Benchmark, but Its Safe Harbor Slips to January / EN 301 549 v4.1.1 把 WCAG 2.2 写进欧洲无障碍基准，法律安全港却推迟到明年一月</title>
+      <description>&lt;p&gt;Europe's accessibility rulebook has a new reference version, and it reaches into component libraries. ETSI published &lt;strong&gt;EN 301 549 v4.1.1&lt;/strong&gt; on September 2, 2026. It is the harmonised standard the Commission designated under standardisation request M/587 to support the European Accessibility Act (EAA), and its headline change is that the six new Level A and AA success criteria from WCAG 2.2 are now part of the European benchmark. The catch is timing. The standard only gives a legal presumption of conformity once it is cited in the Official Journal of the EU. Deque's Matthew Luken and Glenda Sims first projected that citation for around November 30, 2026; their post now carries an update moving the date to &lt;strong&gt;January 22, 2027&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.deque.com/wp-content/uploads/2026/09/09.08.26-EN-301-549-4.1.1-update-Blog-image.jpg" alt="Deque blog header image for EN 301 549 v4.1.1 update" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Deque's explainer on v4.1.1, published September 8 and later updated with the January 2027 citation projection. Source: Deque.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The six criteria are a design-system checklist more than a content checklist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2.4.11 Focus Not Obscured (Minimum), AA&lt;/em&gt;: a focused element can't be fully hidden by sticky headers, cookie banners or chat launchers.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2.5.7 Dragging Movements, AA&lt;/em&gt;: every drag (sliders, sortable lists, map pans, kanban cards) needs a single-pointer alternative.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2.5.8 Target Size (Minimum), AA&lt;/em&gt;: 24 by 24 CSS pixels, or enough spacing to compensate.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;3.2.6 Consistent Help, A&lt;/em&gt;: help mechanisms appear in the same relative place across pages.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;3.3.7 Redundant Entry, A&lt;/em&gt;: don't make people re-type information they already gave in the same process.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;3.3.8 Accessible Authentication (Minimum), AA&lt;/em&gt;: no cognitive function tests (memorising, transcribing, puzzles) without an alternative; allow paste and password managers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deque's advice is to start with the design system, because target size, drag alternatives and focus visibility are usually fixed once in a component and then inherited everywhere. That matches what this feed has tracked elsewhere. The Material 3 Expressive scroll time pickers covered on November 20 live or die on 2.5.7 and 2.5.8. The sticky headers and floating chat bubbles common in ecommerce are the classic 2.4.11 failure.&lt;/p&gt;
+
+&lt;p&gt;Two parts of v4.1.1 go beyond WCAG. The User Preferences requirements were "significantly reworked", meaning how software respects platform settings such as text size, contrast and colour. Clause 6, on real-time two-way communication, moves toward a "Total Conversation" model where voice, real-time text (RTT) and video work together in one session. That reaches calling, messaging, contact-centre and video-conferencing products, and Deque warns it may be a hard refactor. Its blunt conclusion: testing only against WCAG 2.2 AA will not be enough to meet EN 301 549 v4.1.1.&lt;/p&gt;
+
+&lt;p&gt;Why does a citation date matter to designers? Under the EAA, conformity with a cited harmonised standard is the safe harbor. Until the Official Journal cites v4.1.1, the only cited version is v3.2.1, referenced in 2021 under the Web Accessibility Directive. Vendors disagree on whether it gives presumption of conformity under the EAA, and v4.1.1 is the first version with annexes mapping the standard to the EAA. Meanwhile some national laws point to EN 301 549 without a version number, so a newly published version can become the working benchmark without any new legislation. Enforcement is not waiting either. The Caen injunction against Carrefour (June 4) relied on Carrefour's own audit showing 71.21% conformity to the French RGAA framework, which maps to EN 301 549. The court gave six months to fix carrefour.fr and the app, with a €500-per-day penalty for delay. That deadline falls in early December. Our thread check today found no public word yet on compliance or an appeal.&lt;/p&gt;
+
+&lt;p&gt;A practical sequence for the next two months:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Gap-scan components, not pages.&lt;/em&gt; Audit buttons, icon buttons, chips, sliders, drag handles, sticky bars and auth forms against the six criteria. Fixing a token for minimum hit area is cheaper than fixing 400 screens.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Add a drag alternative pattern to the library&lt;/em&gt;, such as move-up and move-down actions on sortable rows or arrow-key stepping on sliders, so product teams don't invent one per feature.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Specify scroll-padding&lt;/em&gt; wherever sticky UI exists so focused elements scroll clear of it.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Review sign-in flows&lt;/em&gt; for paste blocking, CAPTCHA-only gates and re-entry of shipping data.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Scope Clause 6 early&lt;/em&gt; if you ship any real-time communication feature, including support chat with a video option.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A caveat on sourcing: the January 22 date comes from Deque, a vendor, and EUR-Lex has not yet published a citation. Check the Official Journal before you set compliance dates. Still, the direction is set. WCAG 2.2 has been a W3C Recommendation since October 2023, and Europe's reference standard is catching up. Teams that built to WCAG 2.1 AA and called it done now have a dated gap list.&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/"&gt;Deque: EN 301 549 v4.1.1 is final&lt;/a&gt;; &lt;a href="https://www.deque.com/blog/frances-major-court-decision-supporting-digital-accessibility-under-the-eaa/"&gt;Deque: France's court decision under the EAA (Carrefour)&lt;/a&gt;; &lt;a href="https://informations.handicap.fr/a-accessibilite-web-carrefour-condamne-par-la-justice-39309.php"&gt;Handicap.fr: Carrefour condamné&lt;/a&gt;; &lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/"&gt;W3C: What's new in WCAG 2.2&lt;/a&gt;; &lt;a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"&gt;EUR-Lex: Implementing Decision (EU) 2021/1339&lt;/a&gt;; &lt;a href="https://nda.ie/news/en301549-published"&gt;NDA Ireland: EN 301 549 published&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;欧洲无障碍规则有了新的参考版本，而且直接管到组件库。ETSI 于 2026 年 9 月 2 日发布了 &lt;strong&gt;EN 301 549 v4.1.1&lt;/strong&gt;。欧盟委员会通过标准化请求 M/587 指定它为支撑《欧洲无障碍法案》（European Accessibility Act, EAA）的协调标准（harmonised standard），这一版最大的变化是把 WCAG 2.2 新增的六条 A 级和 AA 级成功标准纳入欧洲基准。麻烦在时间上：标准只有在《欧盟官方公报》（Official Journal）上被引用后，才产生法律上的「合规推定」（presumption of conformity）。Deque 的 Matthew Luken 和 Glenda Sims 起初预计 11 月 30 日左右引用，文章后来更新，把日期改到了 &lt;strong&gt;2027 年 1 月 22 日&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.deque.com/wp-content/uploads/2026/09/09.08.26-EN-301-549-4.1.1-update-Blog-image.jpg" alt="Deque 关于 EN 301 549 v4.1.1 的博客头图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Deque 9 月 8 日发布的 v4.1.1 解读，后来补充了 2027 年 1 月的引用预期。来源：Deque。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这六条与其说是内容检查表，不如说是设计系统检查表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2.4.11 焦点不被遮挡（最低），AA&lt;/em&gt;：获得焦点的元素不能被吸顶栏、Cookie 横幅或聊天浮窗完全挡住。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2.5.7 拖动操作，AA&lt;/em&gt;：所有拖动（滑块、可排序列表、地图平移、看板卡片）都要有单指针替代方式。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2.5.8 目标尺寸（最低），AA&lt;/em&gt;：24×24 CSS 像素，或留出足够间距来补偿。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;3.2.6 一致的帮助，A&lt;/em&gt;：帮助入口在各页面的相对位置保持一致。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;3.3.7 冗余输入，A&lt;/em&gt;：同一流程里已经填过的信息，别让人再敲一遍。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;3.3.8 无障碍身份验证（最低），AA&lt;/em&gt;：不能只靠认知测试（记忆、转抄、拼图），要允许粘贴和密码管理器。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deque 建议从设计系统入手：目标尺寸、拖动替代和焦点可见性，通常在组件里修一次，所有地方就都继承了。这和本 feed 其他追踪对得上。11 月 20 日写过的 Material 3 Expressive 滚动时间选择器，成败就系于 2.5.7 和 2.5.8；电商里常见的吸顶栏和悬浮聊天气泡，是 2.4.11 的典型失败案例。&lt;/p&gt;
+
+&lt;p&gt;v4.1.1 有两块超出了 WCAG。用户偏好（User Preferences）要求被「大幅改写」，管的是软件如何尊重系统层面的字号、对比度、颜色等设置。第 6 条款讲实时双向通信，转向「全会话」（Total Conversation）模型：语音、实时文字（RTT）和视频在同一会话里协同工作，覆盖通话、即时通讯、呼叫中心和视频会议产品，Deque 提醒这可能是一次艰难的重构。结论说得很直白：只按 WCAG 2.2 AA 测试，达不到 EN 301 549 v4.1.1 的要求。&lt;/p&gt;
+
+&lt;p&gt;引用日期跟设计师有什么关系？在 EAA 框架下，符合已被引用的协调标准就是「安全港」。公报引用 v4.1.1 之前，唯一被引用的版本是 v3.2.1，2021 年依据《网站无障碍指令》（Web Accessibility Directive）引用；它在 EAA 下是否产生合规推定，各家供应商说法不一，而 v4.1.1 是第一个带有 EAA 对照附录的版本。另外，有些国家的法律引用 EN 301 549 时没写版本号，新版一发布就可能成为实际基准，不需要任何新立法。执法也没在等。卡昂法院 6 月 4 日对家乐福下达的禁令，依据的是家乐福自己的审计：按法国 RGAA 框架（对应 EN 301 549）合规率只有 71.21%。法院给了六个月整改 carrefour.fr 和 App，逾期每天罚 500 欧元，期限落在 12 月初。今天的线索检查还没找到关于整改或上诉的公开消息。&lt;/p&gt;
+
+&lt;p&gt;接下来两个月，可以按这个顺序做：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按组件做差距扫描，而不是按页面。用六条标准检查按钮、图标按钮、标签、滑块、拖动手柄、吸顶栏和登录表单。改一个最小点击区域的 token，比改 400 个页面便宜得多。&lt;/li&gt;
+&lt;li&gt;在组件库里加一个拖动替代模式，比如可排序行上的「上移／下移」操作、滑块上的方向键步进，免得每个功能团队各造一套。&lt;/li&gt;
+&lt;li&gt;有吸顶 UI 的地方都写明 scroll-padding，让获得焦点的元素滚出遮挡区。&lt;/li&gt;
+&lt;li&gt;检查登录流程：是否禁止粘贴、是否只有验证码一道门、是否要求重新填写收货信息。&lt;/li&gt;
+&lt;li&gt;只要产品里有实时通信功能（包括带视频选项的客服聊天），尽早评估第 6 条款的影响。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;来源上要打个折扣：1 月 22 日这个日期来自供应商 Deque，EUR-Lex 还没有公布引用。定合规时间表之前，请以官方公报为准。方向倒是很清楚：WCAG 2.2 自 2023 年 10 月起就是 W3C 推荐标准，欧洲的参考标准正在追上来。那些按 WCAG 2.1 AA 做完就收工的团队，现在拿到了一份有日期的差距清单。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/"&gt;https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.deque.com/blog/frances-major-court-decision-supporting-digital-accessibility-under-the-eaa/"&gt;https://www.deque.com/blog/frances-major-court-decision-supporting-digital-accessibility-under-the-eaa/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://informations.handicap.fr/a-accessibilite-web-carrefour-condamne-par-la-justice-39309.php"&gt;https://informations.handicap.fr/a-accessibilite-web-carrefour-condamne-par-la-justice-39309.php&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/"&gt;https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"&gt;https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://nda.ie/news/en301549-published"&gt;https://nda.ie/news/en301549-published&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e6d737ba-f613-551b-820a-3b5f69bb08cb</guid>
+      <pubDate>Tue, 24 Nov 2026 12:16:35 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/</link>
+      <enclosure url="https://www.deque.com/wp-content/uploads/2026/09/09.08.26-EN-301-549-4.1.1-update-Blog-image.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Penpot 2.19 Turns Design Tokens Into a Library Asset: One Source File, Synced Everywhere, Local Imports Locked / Penpot 2.19 把设计 token 变成库资产：单一来源、全局同步、锁住本地导入</title>
+      <description>&lt;p&gt;Penpot 2.19 ("Is this it"; release notes dated October 28, with Elest.io's upgrade guide listing 2.19.0 on November 9 and 2.19.1 a day later) closes the biggest gap in its native design tokens: until now, tokens lived inside a single file. You can now &lt;strong&gt;store tokens in a shared library and use them in every connected file&lt;/strong&gt;, and they stay in sync with library updates the way components and colours already do. The same release adds fully remappable keyboard shortcuts, per-side stroke widths that accept tokens, a rebuilt path editor and an opt-in WebGL renderer.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://site-assets.plasmic.app/1a2ce4b94f458f50da140477aebd7cf1.jpg" alt="Penpot 2.19 'Is this it' release header artwork" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Penpot 2.19 "Is this it". Source: Penpot release notes.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Why does this matter more than a feature bump? Tokens that can't leave a file aren't a design system. They're a style sheet for one document. Teams using Penpot's tokens (first shipped natively in 2.6) had to copy token JSON between files or route everything through import/export, which is exactly the drift tokens are meant to prevent. Library-level tokens turn the token set into a governed asset with a single owner, the same model Figma uses for library variables.&lt;/p&gt;
+
+&lt;p&gt;The mechanics, per Penpot's help docs and the GitHub changelog, are stricter than "share and forget":&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You keep tokens in a shared library and &lt;em&gt;set that library as the tokens source&lt;/em&gt; of other files. The changelog describes it as "support for internal libraries and file sync for Design Tokens" (#9334), and the assets tab now shows a tokens-source indicator (#11365).&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Import is disabled while a library is the tokens source.&lt;/em&gt; A consuming file can't quietly overwrite the shared set with a local JSON drop. That's a governance decision built into the UI.&lt;/li&gt;
+&lt;li&gt;Renaming a referenced token in a library prompts a remap that "will also update references in files that use that library." Decline it and the connections break.&lt;/li&gt;
+&lt;li&gt;Set order still controls resolution (later sets override earlier ones), and themes are multidimensional, with one active theme per group. A fix (#12177) stops the theme selector from showing the editor message when the source is a library, which hints that themes are switched, not edited, downstream.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=47983c6669e0a87ea0ef3f9ede5a8b5c.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 interface showing design tokens shared from a library" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Sharing design tokens from a library in Penpot 2.19. Source: Penpot release notes.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Penpot's token format follows the W3C Design Tokens Community Group (DTCG) Format Module (&lt;code&gt;$value&lt;/code&gt;, &lt;code&gt;$type&lt;/code&gt;, &lt;code&gt;$description&lt;/code&gt;, dot paths becoming nested groups). The DTCG published its first stable version, 2025.10, on October 28, 2025, but Penpot's docs still describe the format as a draft and keep themes in a separate &lt;code&gt;$themes.json&lt;/code&gt; rather than the DTCG Resolver Module. If you plan to round-trip tokens with Style Dictionary or another tool, test themes specifically. Known limits remain: font-size tokens must be in px for now (rem is planned), line-height exists only inside the composite typography token, and tokens can't be applied to groups.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Shortcuts as a workflow feature.&lt;/strong&gt; Remappable shortcuts sound minor until you look at who uses Penpot. Designers switching from Figma or Sketch bring muscle memory, and non-US keyboard layouts have long collided with default bindings. 2.19 lets you reassign any shortcut, search by action or key combination, record a binding with conflict warnings, reset one or all, and export or import the set. The changelog's bug list (#11003 to #11032) fixed search not matching key combinations, Shift plus special characters capturing the wrong key, and an export entry that broke re-import. Export and import mean a team can standardise a shortcut profile the way it standardises tokens.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=aa9e85f21cdf847f1c361e9a6d39f156.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 keyboard shortcut customization panel" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Customizable keyboard shortcuts with search and conflict warnings. Source: Penpot release notes.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Agents are in this release too. The changelog adds permission checks to the Plugin API for tokens, shapes, variants, flows, layouts and user identity (#11137), validates the plugin postMessage channel by origin (#10968), and stops &lt;code&gt;connectLibrary&lt;/code&gt; from linking unpublished files (#12001). A community fix addressed a crash when navigating pages with the MCP plugin connected. As covered here on November 21 with Figma's MCP-client allowlists, design tools are adding gates for automated clients, and Penpot is closing the same holes from the plugin side. Self-hosters should note that 2.19 enables the Admin Console by default, which requires the &lt;code&gt;penpot-admin-console&lt;/code&gt; service, and that plugins relying on the old permissive behaviour may now be refused.&lt;/p&gt;
+
+&lt;p&gt;Takeaway: if you run Penpot, make one library file the token owner, connect product files to it, and treat the disabled import as a feature. The open question is how merges and branching will work when two teams need to change the shared set at once. Penpot hasn't documented that yet.&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://penpot.app/release-notes/2-19-is-this-it"&gt;Penpot 2.19 release notes&lt;/a&gt;; &lt;a href="https://github.com/penpot/penpot/blob/develop/CHANGES.md"&gt;Penpot CHANGES.md&lt;/a&gt;; &lt;a href="https://help.penpot.app/user-guide/design-tokens/"&gt;Penpot help: Design tokens&lt;/a&gt;; &lt;a href="https://blog.elest.io/penpot-2-19-what-to-check-before-you-upgrade/"&gt;Elest.io: Penpot 2.19 upgrade notes&lt;/a&gt;; &lt;a href="https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/"&gt;DTCG: first stable version&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Penpot 2.19（代号「Is this it」，发布说明标注 10 月 28 日；Elest.io 的升级指南把 2.19.0 记在 11 月 9 日，2.19.1 隔天跟进）补上了原生设计 token 最大的短板：以前 token 只能待在单个文件里。现在可以&lt;strong&gt;把 token 存进共享库，所有关联文件都能使用&lt;/strong&gt;，库更新时自动同步，跟组件和颜色一样。同一版本还加入了可完全自定义的快捷键、可绑定 token 的分边描边宽度、重做的路径编辑器，以及可选开启的 WebGL 渲染。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://site-assets.plasmic.app/1a2ce4b94f458f50da140477aebd7cf1.jpg" alt="Penpot 2.19 发布头图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Penpot 2.19「Is this it」。来源：Penpot 发布说明。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这为什么不只是一次功能小更新？出不了文件的 token 算不上设计系统，顶多是某一份文档的样式表。Penpot 从 2.6 起原生支持 token，但团队只能在文件之间复制 token JSON，或者靠导入导出中转，而这正是 token 本该消除的漂移。库级 token 让整套 token 变成有唯一负责人的受管资产，和 Figma 的库变量（library variables）是同一个思路。&lt;/p&gt;
+
+&lt;p&gt;按 Penpot 帮助文档和 GitHub 变更日志，具体机制比「共享了就完事」严格：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;token 放在共享库里，然后在其他文件中&lt;em&gt;把这个库设为 token 来源&lt;/em&gt;。变更日志的说法是「为设计 token 支持内部库和文件同步」（#9334），资产面板也新增了 token 来源指示（#11365）。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;库作为 token 来源时，导入功能被禁用。&lt;/em&gt;下游文件没法悄悄用本地 JSON 覆盖共享集合，这是写进界面的治理规则。&lt;/li&gt;
+&lt;li&gt;在库里重命名一个被引用的 token，会提示重新映射，而且「也会更新使用该库的文件里的引用」。拒绝的话，引用关系就断了。&lt;/li&gt;
+&lt;li&gt;解析顺序仍由 set 的排列决定（靠后的覆盖靠前的）；主题是多维的，每个主题组同时只能激活一个。有个修复（#12177）让来源为库时主题选择器不再显示编辑提示，可见下游只能切换主题，不能编辑。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=47983c6669e0a87ea0ef3f9ede5a8b5c.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 中从库共享设计 token 的界面" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Penpot 2.19 从库共享设计 token。来源：Penpot 发布说明。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Penpot 的 token 格式遵循 W3C 设计 Token 社区组（Design Tokens Community Group, DTCG）的 Format Module：&lt;code&gt;$value&lt;/code&gt;、&lt;code&gt;$type&lt;/code&gt;、&lt;code&gt;$description&lt;/code&gt;，点号路径变成嵌套分组。DTCG 在 2025 年 10 月 28 日发布了首个稳定版 2025.10，可 Penpot 文档仍称之为草案，主题也放在单独的 &lt;code&gt;$themes.json&lt;/code&gt; 里，没用 DTCG 的 Resolver Module。要和 Style Dictionary 等工具来回同步，主题这部分务必单独测。已知限制还在：字号 token 目前只能用 px（rem 在计划中），行高只存在于复合排版 token 里，token 也不能应用到编组上。&lt;/p&gt;
+
+&lt;p&gt;快捷键看似小事，其实是工作流功能。看看谁在用 Penpot 就明白了：从 Figma 或 Sketch 转过来的设计师带着肌肉记忆，非美式键盘布局又一直和默认键位冲突。2.19 允许重新分配任意快捷键，按操作名或按键组合搜索，录制新键位并提示冲突，单个或全部重置，还能导出导入整套配置。变更日志里的一串修复（#11003 到 #11032）解决了搜索匹配不到按键组合、Shift 加特殊字符抓错键、导出项导致无法重新导入等问题。有了导出导入，团队可以像统一 token 一样统一一套快捷键方案。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=aa9e85f21cdf847f1c361e9a6d39f156.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 快捷键自定义面板" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;支持搜索和冲突提示的自定义快捷键。来源：Penpot 发布说明。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这一版也有 agent 的影子。变更日志为 Plugin API 补上了针对 token、图形、变体、流程、布局和用户身份的权限检查（#11137），按来源校验插件的 postMessage 通道（#10968），并阻止 &lt;code&gt;connectLibrary&lt;/code&gt; 链接未发布的文件（#12001）。社区还修了一个连着 MCP 插件切换页面时崩溃的问题。11 月 21 日写 Figma 的 MCP 客户端白名单时就提到，设计工具正在给自动化客户端加闸门，Penpot 则从插件这一侧堵同样的漏洞。自托管用户注意：2.19 默认开启 Admin Console，需要部署 &lt;code&gt;penpot-admin-console&lt;/code&gt; 服务；依赖旧的宽松行为的插件，现在可能会被拒绝。&lt;/p&gt;
+
+&lt;p&gt;实际建议：如果你在用 Penpot，指定一个库文件作为 token 的唯一归属，把产品文件都连上去，被禁用的导入就当成一项功能。悬而未决的是：两个团队要同时改共享集合时，合并和分支怎么处理？Penpot 还没写文档。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://penpot.app/release-notes/2-19-is-this-it"&gt;https://penpot.app/release-notes/2-19-is-this-it&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/penpot/penpot/blob/develop/CHANGES.md"&gt;https://github.com/penpot/penpot/blob/develop/CHANGES.md&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://help.penpot.app/user-guide/design-tokens/"&gt;https://help.penpot.app/user-guide/design-tokens/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.elest.io/penpot-2-19-what-to-check-before-you-upgrade/"&gt;https://blog.elest.io/penpot-2-19-what-to-check-before-you-upgrade/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/"&gt;https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5c4ef033-1098-5d60-8ee7-e4120d62c103</guid>
+      <pubDate>Tue, 24 Nov 2026 12:16:35 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://penpot.app/release-notes/2-19-is-this-it</link>
+      <enclosure url="https://site-assets.plasmic.app/1a2ce4b94f458f50da140477aebd7cf1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一顿吃掉十五人份的饭、生吞活猫，还被法军派去当「人肉信使」：18 世纪的塔拉尔是医学史上最离谱的多食症病例</title>
+      <description>&lt;p&gt;1790 年代，法国莱茵军团里有个士兵，一顿能吃掉给十五个劳工准备的饭：两个大肉馅饼、几盘油脂和盐、四加仑牛奶。吃完肚子胀得像气球，然后睡着了。醒来接着饿。他十七岁时体重只有约 45 公斤，一天却能吃下四分之一头小公牛，重量和他本人差不多。他叫塔拉尔（Tarrare），医学史上记载最离谱的「多食症」（polyphagia）病例。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/M%C3%A9moire_sur_la_polyphagie_I.jpg/500px-M%C3%A9moire_sur_la_polyphagie_I.jpg" alt="Percy 关于多食症的医学报告首页" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;军医 Pierre-François Percy 发表的《多食症报告》（Mémoire sur la polyphagie）——今天关于塔拉尔的几乎所有细节都出自这份文献。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先说清楚来源，因为这个故事太像都市传说了。塔拉尔大约 1772 年生于里昂附近，1798 年死在凡尔赛，前后只活了二十六岁左右。关于他的一切，核心都来自一份文献：法军首席军医皮埃尔-弗朗索瓦·佩尔西（Pierre-François Percy）1804 年前后发表在《医学、外科、药学杂志》上的《多食症报告》。佩尔西是当时很有声望的军医，一般被认为是可信的观察者。但这依然是单一来源，后来的英文转述（1819 年伦敦期刊、1839 年 Millingen、2000 年代 Jan Bondeson 的医学奇闻集）又层层加料，像「吞下外科医生的怀表」这种情节，基本只在通俗版本里出现。下面尽量只讲能追溯到佩尔西报告的情节，可疑的部分会标出来。&lt;/p&gt;
+
+&lt;p&gt;塔拉尔十几岁时，家里实在养不起他，父母把他赶出了门。他跟着一伙小偷和妓女四处流浪，又给江湖郎中当暖场演员，当众吞软木塞、石头和活物招揽看客，后来辗转到了巴黎。1792 年第一次反法同盟战争爆发，他参了军。军粮给他四倍，不够；他就去翻垃圾堆、跟别人讨剩饭，最后饿到虚脱，被送进苏尔茨（Soultz-sous-Forêts）的军医院。&lt;/p&gt;
+
+&lt;p&gt;在医院里，第 9 骠骑兵团的军医库尔维尔（Courville）和佩尔西开始拿他做实验。他当着医生的面抓起一只活猫，用牙撕开，喝血，吃得只剩骨头，再把毛皮吐出来。蛇、蜥蜴、小狗也都吃过，鳗鱼不嚼，咬碎头直接吞。医生描述他的身体同样怪：饿着的时候腹部皮肤松垮到能绕腰一圈塞进裤子；吃饱后浑身发烫、大汗淋漓，散发出的气味「二十步以外都受不了」；嘴巴张开能同时塞下十二个鸡蛋或苹果。&lt;/p&gt;
+
+&lt;p&gt;接下来剧情突然拐进了谍战片。库尔维尔想：这人胃这么大，能不能当活体信使？医生先让塔拉尔吞下一只装着文件的小木盒，两天后盒子从排泄物里取出，文件还能看清，实验成功。亚历山大·德·博阿尔内将军（后来约瑟芬皇后的第一任丈夫）亲自批准，让他扮成德国农民穿越普鲁士防线，给被困在诺伊施塔特附近的一名法国上校送信。问题是塔拉尔一句德语都不会，在兰道城外很快就被抓了。挨了鞭子，起初不肯说，二十四小时后全招了。普鲁士人把他锁在厕所边，直到木盒排出来——距他吞下时大约三十个小时——里面只是一张假纸条，请收件人确认收到而已。普鲁士将军气到把绳套挂到他脖子上，最后还是心软，揍一顿放回了法军阵线。回来后他对佩尔西说，只要能治好这胃口，什么疗法都愿意试。&lt;/p&gt;
+
+&lt;p&gt;医生们试过鸦片酊、酒醋、烟草丸、大量软煮蛋，全无效果。故事的阴暗面在这里出现：他被撞见偷喝病人放血时接出的血，还有人看到他在医院停尸房里想啃尸体。后来医院里一个十四个月大的幼儿失踪，所有人都怀疑他。佩尔西没法、或者不愿替他辩护，塔拉尔被赶走，从此下落不明。这起幼儿失踪始终没有证据，也是整个故事里最该打问号的部分。&lt;/p&gt;
+
+&lt;p&gt;四年后的 1798 年，凡尔赛一家医院的 Tessier 医生写信给佩尔西：塔拉尔躺在他们这儿，快不行了。塔拉尔自称两年前吞了一把金叉子卡在肚里；佩尔西诊断为晚期结核。一个月后持续腹泻，死了。尸体腐烂得异常快，院里的外科医生一度拒绝解剖，最后在 Tessier 坚持下还是做了，看到了几样东西：食道宽得能直接望见胃，胃巨大、布满溃疡、几乎塞满整个腹腔，肝和胆囊都异常肿大，体内满是脓。金叉子没找到。&lt;/p&gt;
+
+&lt;p&gt;他到底得了什么病？两百多年过去依然没有答案。常见猜测包括甲状腺功能亢进（能解释怕热、多汗、吃不胖）、普拉德-威利综合征（Prader-Willi Syndrome）、失控的糖尿病，或者下丘脑、杏仁核一带受损导致饱腹信号失灵。问题是这些病都解释不了全部：甲亢不会让人吃活猫，普拉德-威利患者通常肥胖。没有遗体、没有组织样本，只剩一位军医用法语写下的观察记录，塔拉尔大概会永远是一个无法确诊的病例。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Tarrare"&gt;https://en.wikipedia.org/wiki/Tarrare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mentalfloss.com/history/tarrare-greatest-glutton-all-time"&gt;https://www.mentalfloss.com/history/tarrare-greatest-glutton-all-time&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ripleys.com/stories/tarrare"&gt;https://www.ripleys.com/stories/tarrare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://history.howstuffworks.com/historical-figures/tarrare.htm"&gt;https://history.howstuffworks.com/historical-figures/tarrare.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">96d46a8d-d7a6-5806-b32f-4a8634312a96</guid>
+      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Tarrare</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/M%C3%A9moire_sur_la_polyphagie_I.jpg/500px-M%C3%A9moire_sur_la_polyphagie_I.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 物理学家在飞机过道上亲眼看见一颗发光球飘过，可它直到 2012 年才第一次被仪器拍下：球状闪电的光谱里藏着泥土</title>
+      <description>&lt;p&gt;1963 年 3 月 19 日午夜刚过，东方航空 EA 539 航班从纽约飞往华盛顿，途中被雷暴裹住，机身外一声巨响、一片强光。几秒钟后，坐在客舱前部的肯特大学电子学实验室研究者 Roger Jennison 看见一个直径二十多厘米的发光球从驾驶舱飘出来，沿着过道往后走，从他身边约五十厘米处经过，高度和路线始终不变。他后来把这件事写进了 1969 年的《自然》（Nature）。专业研究者亲眼看见、正式发表，可球状闪电（ball lightning）直到 2012 年才第一次被科学仪器完整拍下，相关论文 2014 年才见刊。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://scx1.b-cdn.net/csz/news/800a/2014/firstinstanc.jpg" alt="球状闪电示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;球状闪电的历史图像大多来自目击描述与绘画，直到 2012 年青海的一次偶然记录才有了光谱数据。图：Phys.org / Wikipedia&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;这东西难研究，难在它不讲道理。目击报告描述的通常是一个直径几厘米到一米的发光球体，持续几秒到十几秒，在离地不远处水平飘移，有时穿过窗户、钻进屋子，最后要么无声消失，要么砰地爆掉。它不配合任何实验时间表。1960 年美国橡树岭国家实验室做过一次问卷调查：1,962 名员工里有 5.6% 说见过，另一组 15,923 名联合碳化公司核部门员工里有 3.1%。这个比例被一些科普文章外推成「全球 5% 的人见过球状闪电」，外推过头了，但至少说明它并不罕见，只是从来没在镜头前出现过。&lt;/p&gt;
+
+&lt;p&gt;历史上的记录也不少。1638 年 10 月 21 日，英格兰德文郡的维德科姆（Widecombe-in-the-Moor）教堂在礼拜时遭雷暴袭击，目击者说一个约 2.4 米的火球闯进教堂，四人死亡、约六十人受伤。1753 年 8 月 6 日，圣彼得堡科学院的物理学家里赫曼（Georg Wilhelm Richmann）在雷暴中测量一根绝缘铁杆的带电情况时遭雷电身亡。在场的科学院雕刻师索科洛夫（Sokolov）事后描述，一团火球从仪器飞向里赫曼的额头，紧接着一声爆炸，把索科洛夫本人掀翻在地，连房门都被震脱了铰链。里赫曼因此成了历史上第一个死于电学实验的人，这起事故也常被当作最早有据可查的球状闪电记录。&lt;/p&gt;
+
+&lt;p&gt;转机来得很偶然。2012 年夏天，西北师范大学的岑建勇、袁萍、薛思敏团队在青海高原架设了两台无缝光谱仪（slitless spectrograph），本来是拍普通闪电的。7 月 23 日北京时间 21:54:59，一道云地闪电劈在约 900 米外，落点底部冒出了一个光球。团队的数码摄像机记录了全过程：从诞生到熄灭共 1.64 秒，平均水平速度约 8.6 米/秒，颜色依次从紫白变成橙色、白色，最后变红。另一台每秒 3,000 帧的高速相机只赶上最后 0.78 秒，拍了约 2,360 张图。为了确认距离，他们还用雷声和闪光之间 2.64 秒的时间差反算，结果 0.898 到 0.9 公里，和地图测量吻合。论文 2014 年 1 月发表在《物理评论快报》（Physical Review Letters）上。&lt;/p&gt;
+
+&lt;p&gt;关键在光谱。光球发出的光里，硅、铁、钙的谱线在几乎整个生命周期都清晰可见，而这三种元素正是土壤的主要成分。空气里的氮、氧谱线只是周期性出现，说明光球温度明显低于闪电通道本身（闪电先导约 15,000–30,000 K）。这和新西兰坎特伯雷大学 John Abrahamson 与 James Dinniss 2000 年在《自然》上提出的假说对上了：闪电击中地面，瞬间把土壤里的二氧化硅还原成硅蒸气，冲击波把这团蒸气抛到空中，硅纳米颗粒在空气中缓慢氧化发光，就成了一个会飘的「慢燃火球」。2007 年巴西伯南布哥联邦大学的 Antonio Pavão 和 Gerson Paiva 用电流电击硅片，确实在实验室里做出过能存在几秒的小光球。&lt;/p&gt;
+
+&lt;p&gt;但事情没那么简单。论文里有个奇怪的细节：光球亮度在稳定阶段以 99.4 Hz 的频率持续闪烁。研究者发现约 20 米外正好有一组 35 千伏的高压输电线，50 Hz 交流电的二次谐波恰好是 100 Hz。这意味着这颗光球可能受到输电线电磁场的影响，至于是不是「纯天然」的球状闪电，有人存疑。另一个问题是尺寸：论文给出的视直径约 5 米，远大于目击报告的典型尺寸，作者自己也强调视直径反映的是发光范围，不等于真实大小（摄像机一个像素对应约 1.1 米）。&lt;/p&gt;
+
+&lt;p&gt;更不用说硅蒸气假说解释不了钻进飞机机舱的光球。于是还有其他理论在竞争：苏联物理学家卡皮察（Pyotr Kapitsa）认为是大气中的微波驻波在维持一个等离子体空腔，以色列特拉维夫大学的 Eli Jerby 和 Vladimir Dikhtyar 用改装微波炉在实验室里打出过类似的火球；最出人意料的是「幻觉说」——2008 年 Vernon Cooray 与 Gerald Cooray 提出，以及后来奥地利因斯布鲁克大学的计算支持：近距离闪电产生的剧烈变化磁场可以像经颅磁刺激（Transcranial Magnetic Stimulation, TMS）一样刺激视觉皮层，让人「看见」光斑。可幻觉不会烧焦东西，也拍不进摄像机。&lt;/p&gt;
+
+&lt;p&gt;电磁空腔这条路线今年有了新进展。2026 年 4 月 16 日，中国科学院上海光学精密机械研究所宋立伟团队在《自然·光子学》（Nature Photonics）发表论文：他们用激光驱动金属丝产生太赫兹表面波，聚焦到纳米针尖上，再把超音速氩气流打进针尖附近。气体电离后形成一个球形空腔和高温等离子体外壳，腔内辐射压和外壳热压达成平衡，把太赫兹波「关」在里面。这颗实验室小球直径约一百微米，寿命约一百纳秒，团队按物理标度换算，对应自然界里直径几十厘米、持续数秒的球状闪电。它证明了「电磁波困在等离子体泡里」这种结构能自洽存在，至于野外的火球是不是这么来的，还得靠更多野外数据。&lt;/p&gt;
+
+&lt;p&gt;青海这 1.64 秒至今仍是唯一一份完整的天然球状闪电光谱，样本量是一。下一次它会不会恰好出现在另一台光谱仪面前，谁也说不准。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://link.aps.org/doi/10.1103/PhysRevLett.112.035001"&gt;https://link.aps.org/doi/10.1103/PhysRevLett.112.035001&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://physics.aps.org/articles/v7/5"&gt;https://physics.aps.org/articles/v7/5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2014-01-instance-ball-lightning-captured-video.html"&gt;https://phys.org/news/2014-01-instance-ball-lightning-captured-video.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Ball_lightning"&gt;https://en.wikipedia.org/wiki/Ball_lightning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://founders.archives.gov/documents/Franklin/01-05-02-0064"&gt;https://founders.archives.gov/documents/Franklin/01-05-02-0064&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.news.cn/tech/20260416/b487a8967b70495f8fc00364844225d6/c.html"&gt;https://www.news.cn/tech/20260416/b487a8967b70495f8fc00364844225d6/c.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">f8e46796-34ed-5dc2-982a-4fd3d31254a3</guid>
+      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://link.aps.org/doi/10.1103/PhysRevLett.112.035001</link>
+      <enclosure url="https://scx1.b-cdn.net/csz/news/800a/2014/firstinstanc.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一面镜子加一个纸箱，能让截肢者感到「不存在的手」松开了：拉马钱德兰的镜箱怎样骗过大脑，又到底有多管用</title>
+      <description>&lt;p&gt;一条手臂已经截掉多年，那只不存在的手却一直紧攥成拳，指甲像要掐进掌心，疼得睡不着——这是不少截肢者真实描述过的感受。药物和手术常常不管用，后来帮上一部分人的，是一面在五金店就能买到的普通镜子，外加一个开了两个洞的纸箱。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg" alt="治疗师在美国海军医疗中心用镜像疗法为截肢者治疗幻肢痛" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;2011 年美国海军拍摄：一位职业治疗助理用镜像疗法帮助截肢者处理幻肢痛。图：U.S. Navy / Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先说幻肢（phantom limb）本身有多普遍：截肢者里大约 50%–80% 会感到失去的肢体还在，有人觉得它能动、能接电话、能挥手告别，也有很多人感到它在痛。十六世纪的法国军医帕雷（Ambroise Paré）就记录过病人抱怨已经锯掉的腿在疼；「幻肢」这个词则是美国神经科医生米切尔（Silas Weir Mitchell）在 1870 年代初给出的。长期主流解释是断端神经瘤在乱放电。可后来加拿大心理学家 Ronald Melzack 发现，一些天生没有手臂的人也会感到幻肢，问题显然出在大脑里。&lt;/p&gt;
+
+&lt;p&gt;真正把幻肢变成脑科学窗口的是加州大学圣地亚哥分校的拉马钱德兰（V. S. Ramachandran）。1991 年，美国国立卫生研究院的 Pons 等人发现，猴子手臂的感觉输入被切断多年后，大脑初级体感皮层里原本属于手的那块区域被旁边的「脸部区域」占领了。在潘菲尔德（Penfield）画的大脑体感地图上，脸和手恰好是邻居。拉马钱德兰据此推测：人也一样。他找来一位截肢病人（他在科普书里叫他 Tom），蒙上眼睛，用棉签碰他的脸颊。病人说：你碰到了我的大拇指——那只已经不存在的大拇指。拉马钱德兰在他脸上找到了一整张「幻手地图」，1992 年发表在《科学》（Science）上。&lt;/p&gt;
+
+&lt;p&gt;镜箱（mirror box）就是从这条思路长出来的。拉马钱德兰的解释是：很多人截肢前手臂已经因神经损伤瘫痪过一段时间，大脑一次次发出「动」的指令，眼睛却一次次报告「没动」，于是大脑学会了一种「习得性瘫痪」（learned paralysis），截肢之后，这种瘫痪被原封不动带进了幻肢。幻手僵在一个别扭姿势里，疼也动不了。那如果骗过眼睛呢？&lt;/p&gt;
+
+&lt;p&gt;装置简单得近乎可笑：一个开口纸箱，中间竖一面镜子。病人把健全的手伸进镜子一侧，把「幻手」放在另一侧，从镜面这边看过去，健全手的倒影正好落在幻手的位置上，看起来就像两只手都完好无缺。然后让病人两只手同时做对称动作。拉马钱德兰在 1996 年发表于《英国皇家学会会刊 B》（Proceedings of the Royal Society B）的论文里报告：十名上肢截肢者中，有六人看着镜中的手动起来时，真的感到幻手也在动。他在纪录片里讲过一位叫 Philip Martinez 的病人，1984 年摩托车事故后幻臂冻结了近十年，在镜子前第一次感到它动了，一闭上眼又冻住。这是研究者本人的叙述，属于个案，不是试验数据。&lt;/p&gt;
+
+&lt;p&gt;严格一点的证据要等到 2007 年。美国沃尔特·里德陆军医疗中心的 Chan 等人在《新英格兰医学杂志》（NEJM）发表一项小型随机试验：22 名下肢截肢、有幻肢痛的病人（最终 18 人完成，每组 6 人）分成三组，一组照镜子做动作，一组对着盖住的镜子做同样动作，一组闭眼想象幻脚在动，每天 15 分钟，持续四周。结果镜子组 6 人疼痛全部减轻；盖布镜子组有 3 人、想象组有 4 人疼痛反而加重。样本小得可怜，但对照设计说明起作用的确实是「看见」，而不只是动一动或想一想。&lt;/p&gt;
+
+&lt;p&gt;那它算不算「真的」有效？二十年后结论依然有点暧昧。2016 年一篇综述认为相关研究大多质量不高；2018 年的综述挑出 15 项质量较好的研究，结论是镜像疗法「看起来有效」；2025 年的一篇范围综述则指出各家做法五花八门，没有统一方案。它便宜、无创、几乎没有副作用，所以很多康复科照用不误，美国军方医院就给伊拉克和阿富汗回来的截肢士兵用过。这套逻辑和本栏写过的橡胶手错觉一脉相承：大脑对「身体在哪、长什么样」的判断，很大程度上是视觉说了算。&lt;/p&gt;
+
+&lt;p&gt;还有个问题至今没讲透：镜子到底改变了什么？拉马钱德兰的答案是视觉反馈「解开」了大脑里指令和反馈的死结，可这仍是一个解释框架，不是被直接测量到的机制。一面普通镜子，把「疼痛到底住在身体里还是脑子里」这个老问题重新摆上了桌面。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/8637922/"&gt;https://pubmed.ncbi.nlm.nih.gov/8637922/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cnl.salk.edu/~marni/science.html"&gt;https://cnl.salk.edu/~marni/science.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/its-all-done-with-mirrors-2008-05/"&gt;https://www.scientificamerican.com/article/its-all-done-with-mirrors-2008-05/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://sciencedaily.com/releases/2007/11/071123195218.htm"&gt;https://sciencedaily.com/releases/2007/11/071123195218.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pbs.org/wgbh/nova/mind/note_nf5.html"&gt;https://www.pbs.org/wgbh/nova/mind/note_nf5.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phantom_limb"&gt;https://en.wikipedia.org/wiki/Phantom_limb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8853e317-b4a2-5fd2-a24c-b0d3920f3bcc</guid>
+      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://pubmed.ncbi.nlm.nih.gov/8637922/</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 扛过了 1990 年的地震，却在五年后一个平静的夜里自己塌了：西西里诺托大教堂输给了柱子里的碎石和一块水泥板</title>
+      <description>&lt;p&gt;1990 年 12 月 13 日，西西里东南部发生了一场强震，诺托（Noto）大教堂挺住了。五年多以后，1996 年 3 月 13 日夜里，没有新的地震，这座巴洛克大教堂的穹顶、中殿屋顶和右侧一整排柱子突然自己塌了下来。幸好是深夜，没有人员伤亡。新闻传遍全世界，人们最先问的是：一座扛过地震的教堂，怎么会在一个普通的晚上倒下？&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.catholicculture.org/images/commentary/noto-cathedral-before.jpg" alt="诺托大教堂坍塌前的外观" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1996 年坍塌之前的诺托圣尼科洛大教堂。图：Catholic Culture&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;诺托这座城本身就是地震的产物。1693 年 1 月 11 日，西西里东南部经历了可能是意大利史上最猛烈的一次地震，旧诺托城（今天的 Noto Antica）几乎被夷平。幸存者没有在废墟上重建，而是往东南方向挪了几公里，从零规划了一座全新的巴洛克城市。圣尼科洛大教堂是新城的核心，18 世纪初开工，建筑师 Rosario Gagliardi 设计，1776 年才由 Bernardo Labisi 收尾。整座城后来被意大利艺术评论家 Cesare Brandi 称为「石头花园」，2002 年随「瓦尔迪诺托晚期巴洛克城镇」列入世界遗产。&lt;/p&gt;
+
+&lt;p&gt;坍塌后，意大利民防部门牵头调查。答案藏在柱子里。设计团队在清理废墟时把每块碎石编号、拍照、测绘，又请加州大学伯克利分校的建筑史学者 Stephen Tobriner 做档案研究，拼出了这座教堂复杂而混乱的建造史。民防部门后来出版的专题报告写得很直白：坍塌的一个主要原因是中殿柱子所用材料「质量极差」，而这些缺陷来自当年仓促的震后重建，从内部一点点掏空了结构。外表看是规整的石灰岩，里面却是碎石填芯，强度远不如外观。&lt;/p&gt;
+
+&lt;p&gt;第二个嫌疑人来自 20 世纪 50 年代。那次翻修把中殿原有的木屋架和芦苇编制的轻质拱顶拆掉，换成了一块沉重而刚硬的钢筋混凝土平板，施工时还切掉了中殿尽头的一道大拱。本来就虚弱的柱子，头顶突然多了一大块水泥。1990 年的地震又在柱子里留下裂缝，没有及时修复，这些裂缝在之后几年里慢慢扩展。到了 1996 年 3 月，某根柱子终于撑不住，带着一连串构件倒了下去。损失清单很长：中殿南侧四根柱子、支撑穹顶的四根主墩之一、中殿整个屋顶和拱顶、穹顶鼓座的四分之三、穹顶和顶塔、南翼屋顶、大部分侧殿小穹顶。&lt;/p&gt;
+
+&lt;p&gt;接下来是一个在今天看来有点反潮流的决定：按原样、在原地重建（dov'era, com'era），而且用传统砌石，而不是钢筋混凝土。主持设计的是建筑师 Salvatore Tringali 和工程师 Roberto De Benedictis，项目的整体思路最初由修复结构专家 Antonino Giuffrè 定下，他不久后英年早逝，由两人接手完成。有几个细节很见功夫：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;原来每根柱子的基础是互不相连的独立墩子，新方案用一套砖石「倒拱」（archi rovesci）把它们连成整体，提高抗震能力。&lt;/li&gt;
+&lt;li&gt;调查发现左侧那排没倒的柱子有同样的先天缺陷，于是连它们也全部拆掉重砌。做法是先用支架顶住上方的拱，卸掉柱子的荷载，再把柱子一根根换掉。等新柱养护完成，再把上方墙体的重量转回到新柱上——这个卸载回传的过程花了整整 24 小时，全程用高精度仪器监测，生怕某处局部超载再塌一次。&lt;/li&gt;
+&lt;li&gt;50 年代的混凝土板被拆除，恢复砖砌大拱，但在拱上加了碳纤维加固，18 世纪的手艺和 21 世纪的材料混在一起。&lt;/li&gt;
+&lt;li&gt;拱顶用木制拱架（centine）一块块砌起来，方法和三百年前几乎一样。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;民防部门报告给出的工程量：七年施工，现场约 75,000 个工日，作业面积约 1,000 平方米，砌体约 19,500 立方米，用了大约 10 万块石材——本地的诺托石砌基础和柱子，帕拉佐洛石砌拱和鼓座，卡尔塔尼塞塔砂岩砌穹顶和小穹顶（部分媒体报道过 2.5 万立方米、15 万块的更大数字，这里以官方报告为准）。很多年轻工匠就是在这个工地上被老石匠手把手带出来的。2007 年 6 月 15 日，大教堂重新开放，教宗本笃十六世专门发来贺信；2011 年，画家 Oleg Supereko 的穹顶壁画和 Francesco Mori 的彩窗也完成了。&lt;/p&gt;
+
+&lt;p&gt;本栏写过的汉考克大厦和花旗大楼，问题出在现代工程的计算与细节上。诺托的教训更朴素：一座建筑扛住了一次地震，却输给两百多年前偷工减料的柱芯，外加几十年前一次好心办坏事的「现代化」改造。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.protezionecivile.gov.it/static/7238a3392e69026aa11848e0a2247db8/Cattedrale_adornata.pdf"&gt;https://www.protezionecivile.gov.it/static/7238a3392e69026aa11848e0a2247db8/Cattedrale_adornata.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Noto_Cathedral"&gt;https://en.wikipedia.org/wiki/Noto_Cathedral&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://re.public.polimi.it/handle/11311/553198"&gt;https://re.public.polimi.it/handle/11311/553198&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.catholicculture.org/commentary/restoring-sacred/"&gt;https://www.catholicculture.org/commentary/restoring-sacred/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.vatican.va/content/benedict-xvi/it/letters/2007/documents/hf_ben-xvi_let_20070615_cattedrale-noto.html"&gt;https://www.vatican.va/content/benedict-xvi/it/letters/2007/documents/hf_ben-xvi_let_20070615_cattedrale-noto.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8bd63dfd-34f8-5a8a-a758-86b62a46ed70</guid>
+      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.protezionecivile.gov.it/static/7238a3392e69026aa11848e0a2247db8/Cattedrale_adornata.pdf</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/CattedraleNoto-1.jpg/500px-CattedraleNoto-1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 穿白袍、戴鹤头木偶、一句话不许说：人类开着超轻型飞机给美洲鹤当了 15 年领航员，鹤学会了迁徙，却没学会当父母</title>
+      <description>&lt;p&gt;2001 年 10 月 17 日清晨，威斯康星州 Necedah 国家野生动物保护区上空，一架像三轮摩托装上三角翼的超轻型飞机起飞了，驾驶员从头到脚裹着白色罩袍。它身后排成一列跟着飞的，是七八只半大的美洲鹤（whooping crane）。48 天后，这支队伍飞完约 1,960 公里，落在佛罗里达州 Citrus County。领航员是人，教的是一条鹤们的祖先早已遗忘的迁徙路线。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Operation_Migration_leads_five_whooping_cranes_%288186280600%29.jpg" alt="超轻型飞机带领五只美洲鹤飞行" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Operation Migration 的超轻型飞机带领美洲鹤飞行。鹤贴在机翼尾流里，能省不少力气。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;先交代一下这种鸟有多惨。美洲鹤是北美最高的鸟，站起来接近一米五，曾经数以千计。到了 1941 年，全世界野生的只剩 21 只。仅存的那一群每年从加拿大伍德布法罗飞到德州阿兰萨斯过冬，所有蛋都在一个篮子里。保护者想在东部再建一个会迁徙的种群作为保险，可人工孵出来的小鹤没有父母带路，根本不知道该往南飞。&lt;/p&gt;
+
+&lt;p&gt;解决办法来自动物行为学的老课题：印记（imprinting）。1935 年，奥地利动物学家洛伦兹（Konrad Lorenz）发现灰雁雏鸟会把出壳后最先看到的移动物体当成妈妈，他那只叫 Martina 的小雁跟着他满屋跑，晚上还睡在他卧室里。加拿大安大略的雕塑家、业余飞行员比尔·利什曼（Bill Lishman）把这个现象推到了极致：既然雏鸟会跟着第一个看见的东西走，那为什么不能是一架飞机？1988 年他让 12 只加拿大雁跟着他的超轻型飞机起飞；1993 年 10 月，他和搭档 Joe Duff 带着 18 只小雁从安大略的 Purple Hill 飞了约 680 公里到弗吉尼亚。16 只活过冬天，第二年春天有 13 只自己飞回了安大略，没人带路。1996 年的电影《伴你高飞》（Fly Away Home）就是照这个故事拍的，片中的飞行镜头很多是利什曼本人开着自己的飞机飞的。（印记也有反面教材：本栏写过的「狂暴美洲驼综合征」，就是奶瓶喂大的小驼把人当成同类，长大后把人当对手。）&lt;/p&gt;
+
+&lt;p&gt;1994 年，两人成立了 Operation Migration，先拿沙丘鹤练手，2001 年正式开始带美洲鹤。这件事的执行细节相当疯狂：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;工作人员必须穿全身白罩袍，戴网面兜帽和护目镜，手上套着鹤头造型的木偶，绝对不许在鹤附近说话——要让小鹤记住的是「鹤」和「飞机」，而不是人。&lt;/li&gt;
+&lt;li&gt;小鹤只有编号，没有名字，提醒所有人它们不是宠物。&lt;/li&gt;
+&lt;li&gt;蛋在孵化期间就会听到超轻型飞机引擎声的录音。&lt;/li&gt;
+&lt;li&gt;约 8 周大时，小鹤开始跟着在地面滑行的飞机跑；80 到 90 天大时，跟着它起飞。&lt;/li&gt;
+&lt;li&gt;每一段航程看天气和鸟的状态，短的 37 公里，长的 300 多公里，后面还有两架塞斯纳小飞机负责和空管协调。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2001 年首航带了 8 只，最后送到佛罗里达 7 只，路上有 23 天因为天气趴窝。冬天两只被短尾猫吃了。剩下 5 只在 2002 年春天没有任何人引导，自己飞回了威斯康星——这是一百多年来第一次有美洲鹤在北美东部完成迁徙。2006 年，第一只「迁徙种群」的野生雏鹤在美国孵出。&lt;/p&gt;
+
+&lt;p&gt;然后剧情急转。到 2015 年，Operation Migration 一共带飞了 186 只美洲鹤，耗资约 2,000 万美元。鹤学会了迁徙，却不会繁殖。Necedah 的鹤巢一到春天就被大群黑蝇（Simulium annulus 等）围攻，亲鸟被叮得弃巢。2011 到 2012 年研究人员用苏云金芽孢杆菌（Bti）压制黑蝇，孵化率翻了一倍，可最终能长大离巢的雏鹤还是少得可怜。到 2016 年初，自 2005 年以来野外只成功养大了 10 只雏鹤。美国鱼类及野生动物管理局（USFWS）在 2016 年 1 月 22 日宣布停止支持飞机引导，理由之一是这种高度人工的养育方式可能让鹤缺了点什么，做不好父母。2018 年 Operation Migration 宣布解散。&lt;/p&gt;
+
+&lt;p&gt;东部种群如今还在，但在缓慢萎缩。国际鹤类基金会 2026 年 6 月的统计是 64 只，其中 15 只是野外孵化的；2001 年以来累计放归了 363 只，到今年初还活着的不到两成。现在的做法改为「父母养育」：让圈养的成年鹤自己带小鹤，再放到没有黑蝇的湿地。西部那一群倒是争气，2025–26 年冬天在德州海岸估计有约 540 只。&lt;/p&gt;
+
+&lt;p&gt;回头看，印记确实能教会一只鸟飞两千公里，却教不会它怎么当一只鹤。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Operation_Migration"&gt;https://en.wikipedia.org/wiki/Operation_Migration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://airandspace.si.edu/stories/editorial/operation-migration"&gt;https://airandspace.si.edu/stories/editorial/operation-migration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fws.gov/story/2001-12/longest-flight-endangered-whooping-cranes-and-ultralight-aircraft-successfully-ends"&gt;https://www.fws.gov/story/2001-12/longest-flight-endangered-whooping-cranes-and-ultralight-aircraft-successfully-ends&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.usgs.gov/publications/examination-multiple-working-hypotheses-address-reproductive-failure-reintroduced"&gt;https://www.usgs.gov/publications/examination-multiple-working-hypotheses-address-reproductive-failure-reintroduced&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://savingcranes.org/news/resources/whooping-crane-eastern-population-update-june-2026/"&gt;https://savingcranes.org/news/resources/whooping-crane-eastern-population-update-june-2026/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bill_Lishman"&gt;https://en.wikipedia.org/wiki/Bill_Lishman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ab442ecf-f906-50da-9c6e-66002e9785e0</guid>
+      <pubDate>Tue, 24 Nov 2026 12:21:21 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Operation_Migration</link>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/c/ce/Operation_Migration_leads_five_whooping_cranes_%288186280600%29.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
