@@ -9,831 +9,10 @@
     </image>
     <description>产品设计、健康生活、每日新闻与冷知识</description>
     <link>https://xingjianz.com/rss-research/rachel-briefings.xml</link>
-    <lastBuildDate>Wed, 25 Nov 2026 12:19:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 12:20:34 +0000</lastBuildDate>
     <generator>rss-research via Claude Code</generator>
     <ns0:image href="https://xingjianz.com/rss-research/icon-rachel.png" />
     <ns1:icon>https://xingjianz.com/rss-research/icon-rachel.png</ns1:icon>
-    <item>
-      <title>🎨 Most UX Researchers Distrust Synthetic Users, but Only 11% Work Under a Formal Policy / 多数 UX 研究员不信合成用户，但只有 11% 的人有正式政策可依</title>
-      <description>&lt;p&gt;Synthetic users have reached an awkward stage inside research teams: most researchers don't trust them, yet few organizations have decided what to do about them. &lt;a href="https://www.userinterviews.com/state-of-synthetic-users-report"&gt;The State of Synthetic Users&lt;/a&gt;, from User Interviews, found that &lt;strong&gt;62.7% of 150 respondents work somewhere with no organization-level stance&lt;/strong&gt;, leaving the decision to individual researchers. Only 17 people, or 11.3%, reported a formal policy of any kind. The most actionable finding here isn't about model quality. It's a governance gap that a team could close in an afternoon.&lt;/p&gt;
-
-&lt;p&gt;Read the numbers with the source in mind. User Interviews, which brands itself "by UserTesting," sells access to human research participants, so it has a commercial interest in skepticism toward simulated ones. The sample was recruited from its newsletter, an in-product slideout, social media and research communities between May 11 and 22, 2026, then supplemented by five moderated interviews. That's a self-selected group, 92.7% of whom hold UX or user research titles. It describes engaged researchers, not the whole industry. The page also shows no publication date, and a few body-text figures differ slightly from its charts, so the figures below come from the charts.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/59ace8427353c50001765cbd/6a21b60b7eb475bfd295b83f_7.png" alt="Bar chart of organizational stance on synthetic users: 6.7% formal policy on use, 4.7% formal restriction, 11.3% informal use, 62.7% no organization-level stance, 14.7% do not know" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Most respondents say the decision is left to individual researchers. Chart: User Interviews&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Skeptical, but already experimenting&lt;/h3&gt;
-
-&lt;p&gt;On overall sentiment, 46.7% chose "skeptical," defined as wanting a lot more evidence before trusting synthetic users, and another 17.3% were opposed. Just 3.3% were enthusiastic, while 24% were cautiously optimistic. Behavior is a bit looser than sentiment. Asked whether they had used AI tools that generate or simulate participant responses, 8% said they do so regularly and 20.7% had experimented once or twice. Another 18% had seriously considered it, 25.3% hadn't, and 28% actively choose not to.&lt;/p&gt;
-
-&lt;p&gt;So close to three in ten respondents have tried this, while only about one in nine works under a formal policy. That's how a method spreads without shared standards: one researcher runs a quick synthetic study to shape a screener, someone else pastes the output into a deck, and a stakeholder later reads it as customer evidence.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/59ace8427353c50001765cbd/6a21b60be5609e76d119bbdc_6.png" alt="Bar chart of concerns about synthetic users, led by quality and accuracy at 88%, stakeholders over-trusting findings at 79.3% and bias at 77.3%" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;No respondent selected "I don't have significant concerns." Chart: User Interviews&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;That scenario is what respondents worry about. Quality and accuracy led the concerns at 88%, but stakeholders over-trusting AI-generated findings came second at 79.3%, ahead of bias or exclusion of underrepresented groups at 77.3%. Another 44% fear synthetic users will be used to justify cutting research headcount. Those are organizational risks, and better prompting won't fix them.&lt;/p&gt;
-
-&lt;h3&gt;Where the line seems to fall&lt;/h3&gt;
-
-&lt;p&gt;When asked where synthetic users could be legitimate, respondents leaned toward preparation work: survey and screener design drew 46%, ahead of usability testing at 34%, early discovery at 32%, concept testing at 31.3% and persona validation at 24.7%. About one in five, 20.7%, said they aren't appropriate in any context.&lt;/p&gt;
-
-&lt;p&gt;The 34% for usability testing deserves pushback. This feed's November 18 entry covered Kuric and colleagues' preprint on 12 first-click studies with 3,431 participants: GPT-4.1 matched the top human hotspot in 71% of tasks, yet the click distributions differed in 53%, and synthetic responses erased much of the long tail. NN/g's comparison pointed the same way, with far fewer distinct answers from synthetic respondents. If the point of a usability test is to catch the minority who fail, a method that compresses minorities is a poor fit. Stress-testing a screener for confusing wording is a much safer job.&lt;/p&gt;
-
-&lt;h3&gt;A one-page policy is enough to start&lt;/h3&gt;
-
-&lt;p&gt;The report suggests evaluating any use against five topics: use cases, decisions informed, data, backtesting and high-stakes impacts. It also tells teams to ask vendors where their data originates, how it's stored or used for training, and what guardrails protect quality. Turned into a working policy, that could be four rules:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Allowed:&lt;/strong&gt; drafting and pressure-testing instruments, such as screeners, discussion guides and survey wording.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Human-required:&lt;/strong&gt; any decision that's costly to reverse or affects protected or marginalized groups.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Labeled:&lt;/strong&gt; synthetic output is marked in every artifact, so it can't become "users said" two slides later.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Backtested:&lt;/strong&gt; before expanding use, rerun a past human study synthetically and compare the disagreements, especially on minority behavior.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The last rule gives you an answer specific to your product instead of a general argument about AI. If your organization is among the 62.7%, the first question for your next team meeting is simple: has synthetic data already reached a decision document, and would anyone be able to tell?&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;合成用户（synthetic users）在研究团队里正处于一个尴尬阶段：多数研究员不信它，却很少有公司决定该拿它怎么办。User Interviews 发布的 &lt;a href="https://www.userinterviews.com/state-of-synthetic-users-report"&gt;The State of Synthetic Users&lt;/a&gt; 显示，150 名受访者中有 62.7% 所在的组织没有统一立场，用不用全看研究员个人。报告有任何形式正式政策的只有 17 人，占 11.3%。这份报告最能落地的发现跟模型质量无关，而是一个治理缺口，团队花一个下午就能补上。&lt;/p&gt;
-
-&lt;p&gt;读数字时要记得来源。User Interviews 打着“by UserTesting”的品牌，卖的正是真人研究参与者招募，对合成参与者持怀疑态度符合它的商业利益。样本来自它的新闻通讯、产品内弹层、社交媒体和研究社群，收集于 2026 年 5 月 11 日至 22 日，另加 5 场主持访谈。这是自选样本，92.7% 的职位是 UX 或用户研究，反映的是活跃研究者，不是整个行业。页面没有标注发布日期，正文个别数字也和图表略有出入，所以下面的数字一律取自图表。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/59ace8427353c50001765cbd/6a21b60b7eb475bfd295b83f_7.png" alt="组织对合成用户立场的柱状图：6.7% 有使用政策，4.7% 有限制或禁止政策，11.3% 非正式使用，62.7% 无组织层面立场，14.7% 不知道" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;多数受访者表示，这件事交给研究员个人决定。图表：User Interviews&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h3&gt;嘴上怀疑，手上已经在试&lt;/h3&gt;
-
-&lt;p&gt;整体态度上，46.7% 选了“怀疑”，即需要看到更多证据才会信任，另有 17.3% 明确反对。热情支持的只有 3.3%，谨慎乐观的占 24%。实际行为比态度松动一些。问到是否用过生成或模拟参与者回答的 AI 工具，8% 说经常用，20.7% 试过一两次，18% 认真考虑过，25.3% 没考虑过，28% 主动选择不用。&lt;/p&gt;
-
-&lt;p&gt;也就是说，将近三成的人已经试过，而在正式政策下工作的大约只有九分之一。方法就是这样在没有共同标准时扩散开的：一个研究员跑了个合成小实验来改筛选问卷，另一个人把结果贴进汇报，后来某位决策者把它当成了客户证据。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://cdn.prod.website-files.com/59ace8427353c50001765cbd/6a21b60be5609e76d119bbdc_6.png" alt="合成用户担忧柱状图：质量与准确性 88%，利益相关方过度信任 79.3%，偏见 77.3%" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;没有一位受访者选择“我没有重大担忧”。图表：User Interviews&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;受访者担心的正是这种场景。质量和准确性以 88% 居首，排第二的是利益相关方过度信任 AI 生成的结论（79.3%），高于放大偏见或排除弱势群体（77.3%）。还有 44% 担心合成用户会成为裁减研究人员的理由。这些都是组织层面的风险，提示词写得再好也解决不了。&lt;/p&gt;
-
-&lt;h3&gt;界线大致划在哪里&lt;/h3&gt;
-
-&lt;p&gt;问到合成用户在哪些场景可以算正当工具，受访者更偏向准备性工作：问卷和筛选器设计 46%，高于可用性测试 34%、早期探索 32%、概念测试 31.3% 和用户画像验证 24.7%。约五分之一（20.7%）认为任何场景都不合适。&lt;/p&gt;
-
-&lt;p&gt;可用性测试那 34% 值得反驳。本 feed 11 月 18 日介绍过 Kuric 等人的预印本：12 项首次点击研究、3,431 名参与者，GPT-4.1 在 71% 的任务里猜中了人类的首选热点，但 53% 的任务点击分布不同，长尾被抹掉了一大截。NN/g 的对比也指向同一方向，合成受访者给出的不同答案要少得多。可用性测试本来就是为了抓住那些会失败的少数人，一个会压缩少数派的方法并不合适。用它来排查筛选问卷里的歧义措辞，就稳妥得多。&lt;/p&gt;
-
-&lt;h3&gt;一页纸的政策就够起步&lt;/h3&gt;
-
-&lt;p&gt;报告建议从五个方面评估每次使用：用例、支撑的决策、数据、回测（backtesting）和高风险影响。它还提醒团队追问供应商：数据从哪来，如何存储、是否用于训练，有什么质量护栏。落到实处，可以写成四条规则：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;允许：起草和压力测试研究工具，比如筛选问卷、访谈提纲和问卷措辞。&lt;/li&gt;
-&lt;li&gt;必须用真人：任何难以逆转的决策，或影响受保护、边缘群体的决策。&lt;/li&gt;
-&lt;li&gt;必须标注：所有产出物都标明合成数据，免得翻两页就变成“用户说”。&lt;/li&gt;
-&lt;li&gt;必须回测：扩大使用前，用合成方式重跑一项做过的真人研究，对比分歧，尤其看少数群体的行为。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最后一条能给你一个针对自家产品的答案，而不是又一场关于 AI 的泛泛争论。如果你的公司也在那 62.7% 里，下次团队会上可以先问一句：合成数据是不是已经进了某份决策文档，而且没人分辨得出来？&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.userinterviews.com/state-of-synthetic-users-report"&gt;https://www.userinterviews.com/state-of-synthetic-users-report&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2605.18302"&gt;https://arxiv.org/abs/2605.18302&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/"&gt;https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">4f387e16-0306-55ca-92c5-115290afe296</guid>
-      <pubDate>Mon, 23 Nov 2026 12:14:06 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.userinterviews.com/state-of-synthetic-users-report</link>
-      <enclosure url="https://cdn.prod.website-files.com/59ace8427353c50001765cbd/6a21b60b7eb475bfd295b83f_7.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 压力没抹掉记忆，却拆了记忆之间的桥：121 人 fMRI 实验显示，学得会不等于串得起来</title>
-      <description>&lt;p&gt;考试前一晚被导师叫去改材料，第二天题目都认识，可就是想不到两章内容之间的关系。这种「知识点都在，就是串不起来」的状态，汉堡大学 Lars Schwabe 团队在 2026 年 5 月发表于 &lt;em&gt;Science Advances&lt;/em&gt; 的&lt;a href="https://doi.org/10.1126/sciadv.aea5496"&gt;一项预注册 fMRI 实验&lt;/a&gt;里给出了一个具体解释：急性压力未必妨碍你记住新东西，它干扰的是新旧记忆之间的&lt;strong&gt;记忆整合（Memory Integration）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;实验招了 121 名健康成年人，随机分到压力组（60 人）和对照组（61 人）。第一天学 24 组 A-B 图片配对，比如一位朋友和一辆淡蓝色 Vespa。约 24 小时后，压力组先做特里尔社会应激测试（Trier Social Stress Test, TSST），也就是模拟求职面试加高难度心算，随后所有人学习 B-C 配对，比如同一辆 Vespa 和大学图书馆。大约一小时后来一场突击测验：朋友和图书馆有什么关系？这两者从未同时出现，只能靠 B 这座桥推出来。&lt;/p&gt;
-
-&lt;p&gt;结果比新闻标题要细。两组对 A-B、B-C 的直接记忆没有差别，压力确实没让人「学不进去」。推理成绩上，压力的主效应也不显著（β=0.317, P=.249）；显著的是压力与图片主观效价的交互（β=-0.099, P=.029）。对照组遇到自己觉得愉快的图片时推理更准，压力组这份加成消失了。换句话说，压力拿走的主要是正面材料本来带来的联想优势，并非让所有推理一起下滑。&lt;/p&gt;
-
-&lt;p&gt;脑成像给出了机制线索。学 B-C 时，对照组的海马（Hippocampus）会自动把相关的 A 重新激活，压力组的这种再激活明显更弱（校正后 P=.019），而再激活越弱，之后的推理越差（P=.041）。压力组海马里 A 与 C 的神经表征也更分离，像是被存成了两件互不相干的事，不过控制学习前的基线后这一差异不再显著。皮质醇升高的幅度同样预测不了推理成绩，所以别急着把账全算到「压力激素」头上。&lt;/p&gt;
-
-&lt;p&gt;这和 11 月 16 日写过的 LaFollette 等人的研究放在一起很有意思：那项实验里应激升高了心率血压，任务成绩却没掉。两边合起来看，压力对「执行已知任务」可能没那么致命，真正脆弱的是需要把信息连起来的那一步。&lt;/p&gt;
-
-&lt;p&gt;有没有办法护住这座桥？华中师范大学 Wei Liu 团队的 &lt;a href="https://elifesciences.org/reviewed-preprints/110350"&gt;eLife 评审预印本&lt;/a&gt;（11 月 12 日更新至第二版，共 136 人、两项 EEG 实验）提供了一条线索：学完后用提取练习（Retrieval Practice）巩固过 AB、BC 的人，24 小时后遭遇压力再做推理时，受损更轻，桥梁信息的快速再激活也更强。证据要打折扣：有无练习分属两个实验，没有随机成 2×2 设计，也没有「多看一遍」的对照，作者在评审后已把标题从「预防」改成「与减轻相关」。&lt;/p&gt;
-
-&lt;p&gt;可以带走的做法是&lt;strong&gt;把「连接」单独当成一步&lt;/strong&gt;。高压期学东西时，别满足于「这页我看懂了」，合上材料问自己两个问题：这和我上周学的哪件事有关？如果它成立，能推出什么？重要的知识提前自测，别只重读。至于刚开完一场难熬的会就去做需要融会贯通的工作，比如写方案、下判断，不妨先把事实记下来，等缓过来再做综合。后面这条是我从机制推出来的建议，研究本身没有测试过。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1126/sciadv.aea5496"&gt;Schüren et al., Science Advances (2026)&lt;/a&gt;；&lt;a href="https://www.uni-hamburg.de/en/newsroom/presse/2026/pm19.html"&gt;汉堡大学新闻稿&lt;/a&gt;；&lt;a href="https://elifesciences.org/reviewed-preprints/110350"&gt;Guo et al., eLife Reviewed Preprint&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1126/sciadv.aea5496"&gt;https://doi.org/10.1126/sciadv.aea5496&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.uni-hamburg.de/en/newsroom/presse/2026/pm19.html"&gt;https://www.uni-hamburg.de/en/newsroom/presse/2026/pm19.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://elifesciences.org/reviewed-preprints/110350"&gt;https://elifesciences.org/reviewed-preprints/110350&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e2a71984-f118-5e36-bb54-8d0ee5cbb23c</guid>
-      <pubDate>Mon, 23 Nov 2026 12:14:59 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1126/sciadv.aea5496</link>
-      <enclosure url="https://assets.rrz.uni-hamburg.de/instance_assets/uni/28026021/erinnerungen-integrieren-hippocampus-screen-9f0de4e914362a0a5d4718355bcff8493c02b249.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 明知是抛硬币的消息源，还是会被带偏：五个实验发现，知道自己有偏差也拦不住它</title>
-      <description>&lt;p&gt;群里有人转来一条消息，开头写着「不保真，随便看看」。你也确实没当真。可等你真要做决定时，它还会不会起作用？&lt;/p&gt;
-
-&lt;p&gt;伦敦大学学院（UCL）的 Keiji Ota、Lucie Charles、Patrick Haggard 等人 2026 年 10 月在 &lt;a href="https://doi.org/10.1371/journal.pcbi.1014818"&gt;&lt;em&gt;PLOS Computational Biology&lt;/em&gt;&lt;/a&gt; 发表的五个在线实验，把这件事压缩成了一个干净的小游戏。参与者要猜一个网页的「真实颜色」是红还是蓝，每轮依次看到六个消息源的预测，每个消息源都明码标出正确率：65%、55%、50%、45% 或 35%。&lt;/p&gt;
-
-&lt;p&gt;标 50% 的来源等于抛硬币，理性做法是当它不存在。标 35% 的反而有用，它说红，你就该偏向蓝。规则提前讲清楚，不存在「不知道它不靠谱」的问题。&lt;/p&gt;
-
-&lt;p&gt;分析样本共 140 人（各实验 23 至 32 人，均来自英国）。计算模型显示，参与者的行为就好像把 50% 的来源当成了 &lt;strong&gt;54% 到 61% 可靠&lt;/strong&gt;。具体数值取决于模型设定，但方向在五个实验里都成立：明确贴了「没信息量」标签的内容，仍然把选择往它那边推。&lt;/p&gt;
-
-&lt;p&gt;另外两个偏差同样实用。第一，人不太会用「反向指标」。来源为 65%、55%、50% 的实验 2a 正确率为 64.4%，换成 50%、45%、35% 的实验 2b，降到 58.2%，尽管反向来源在数学上同样有信息量。第二，后到的信息权重更高：第六条消息的权重比第一条大 37.9%（实验一）和 26.7%（实验二）。同样六条证据，顺序一变，结论就可能跟着变。&lt;/p&gt;
-
-&lt;p&gt;最反直觉的部分在实验 2。研究者让参与者每轮评估某个来源对自己选择的影响，结果他们能报告出自己被 50% 来源带偏了，而且支持自己选择的 50% 来源越多，报告的影响越大。人知道自己被影响，却还是被影响了。作者的措辞很准确：这更像元认知知识（Metacognitive Knowledge），而非元认知控制（Metacognitive Control）。&lt;/p&gt;
-
-&lt;p&gt;这给 11 月 22 日那条「认识谣言套路」的研究加了个注脚。学会识别手法确实有帮助，但识别和免疫是两回事。11 月 16 日 Zonca 等人的研究也是同一个方向：明确告诉人们顾问的能力，并不能让他们把建议的权重调对。&lt;/p&gt;
-
-&lt;p&gt;当然别过度外推。任务是抽象的红蓝方块，样本小，论文也没有提到预注册；媒体把它延伸到事实核查标签和平台设计，这一步研究并没有实际测试。真实世界里的消息还带着立场和情绪，偏差可能更大，也可能完全是另一种机制。&lt;/p&gt;
-
-&lt;p&gt;能用的办法是&lt;strong&gt;别靠「我心里有数」，要在流程上把它拿掉&lt;/strong&gt;。做重要决定时，把依据列成清单，划掉所有你自己都认为不靠谱的条目，只看剩下的部分能否支撑结论；如果划掉前后结论变了，说明那条「随便看看」一直在替你投票。再把清单倒过来读一遍，检查最先看到的证据有没有被最新消息盖掉。招聘、投资、看医学资讯都适用。那条不保真的消息，最便宜的处理方式往往是一开始就别点开。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1371/journal.pcbi.1014818"&gt;Ota et al., PLOS Computational Biology (2026)&lt;/a&gt;；&lt;a href="https://neurosciencenews.com/unreliable-labels-decision-making-psychology-32358/"&gt;Neuroscience News 报道&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1371/journal.pcbi.1014818"&gt;https://doi.org/10.1371/journal.pcbi.1014818&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://neurosciencenews.com/unreliable-labels-decision-making-psychology-32358/"&gt;https://neurosciencenews.com/unreliable-labels-decision-making-psychology-32358/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c9c39987-fdaa-565f-b96b-cc87164e1eae</guid>
-      <pubDate>Mon, 23 Nov 2026 12:14:59 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1371/journal.pcbi.1014818</link>
-      <enclosure url="https://neurosciencenews.com/files/2026/10/unreliable-labels-decision-making-neuroscience.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 专注听你说话的反对者，胜过边看手机边点头的赞同者：五项研究重新称量倾听与同意</title>
-      <description>&lt;p&gt;跟人争论时，我们总以为不舒服来自「他不同意我」。海法大学的 Dvori Saluk、Guy Itzchakov 与雷丁大学的 Netta Weinstein、奥诺学院的 Moty Amar 今年 6 月在 &lt;a href="https://doi.org/10.1037/pspi0000525"&gt;&lt;em&gt;Journal of Personality and Social Psychology&lt;/em&gt;&lt;/a&gt; 发表的五项研究（N=1,624，其中三项预注册）提出了另一种看法：决定一场对话感受的，很大程度上是对方怎么听。&lt;/p&gt;
-
-&lt;p&gt;研究方法一层层往真实场景靠：工作争执视频情境（487 人）、Zoom 真人对话（187 人）、回忆真实经历（492 人）、再一轮真人对话（205 人），最后让 253 人分别回忆与同事、朋友、家人的一次分歧。两轮真人对话里，由受过训练的研究助理扮演倾听者，被试讲自己的观点。&lt;/p&gt;
-
-&lt;p&gt;最抓眼球的结果来自研究 3 和研究 4：&lt;strong&gt;被认真倾听的分歧，比被敷衍倾听的赞同，让说话者感觉更好&lt;/strong&gt;。研究 4 用 9 点量表，高质量倾听加分歧组的状态幸福感为 7.92，中等倾听加赞同组 7.02，中等倾听加分歧组 7.01。回忆真实职场对话的研究 3 方向一致（d=0.49）。&lt;/p&gt;
-
-&lt;p&gt;不过这里的「中等倾听」名字起得太客气。翻开论文附录的操作手册，真人对话中这一组的研究助理被要求：中途说一次「抱歉我没听清」，两次移开视线，看一两次手机，偶尔露出评判的表情。所以这个结论的准确版本是：&lt;em&gt;专注听你说话的反对者，胜过一边看手机一边点头的赞同者&lt;/em&gt;。日常对话里后一种人并不少见，所以这个比较依然有用。但赞同并非无关紧要：研究 3 的完整 2×2 设计里，被赞同的人状态幸福感平均高 0.94 分，被好好倾听的人平均高 1.81 分。两者都起作用，倾听的差距更大，而这个差距的大小又取决于「差的倾听」被设定得有多差。&lt;/p&gt;
-
-&lt;p&gt;高质量组的动作则具体得可以照抄：手机收起来，保持眼神接触，点头；至少复述两次，「我想确认一下我理解对了，你的意思是……还有别的吗？」；多问开放式问题，「能再展开说说吗？」；谢谢对方愿意分享。整个过程没有一句是在认同对方的立场。&lt;/p&gt;
-
-&lt;p&gt;为什么有用？作者用自我决定理论（Self-Determination Theory）解释：好的倾听满足了关系感、自主感和胜任感三种基本心理需求，其中关系感（Relatedness）的中介作用最稳定。这部分要谨慎看，因为中介变量是和幸福感同时测的，无法确定先后。其他限制作者也写得很坦白：倾听者不还嘴，和真实争论差得挺远；结果全靠自我报告；样本主要来自直接表达更常见的西方文化，放到更含蓄的沟通环境未必成立。研究 5 是相关设计，只能说明在同一个人的不同关系里，感到被听得更好的那次分歧，体验也更好。&lt;/p&gt;
-
-&lt;p&gt;这和之前几条线索能接上。11 月 9 日 Davison 等人发现，对焦虑依恋者杀伤力最大的是伴侣的沉默；&lt;a href="https://www.chicagobooth.edu/review/2026/may/is-conversation-magical"&gt;Chicago Booth Review 今年 5 月梳理的对话研究&lt;/a&gt;里，Wald、Kardas 和 Epley 2024 年也发现，与立场相反的陌生人真正对话，平均体验和与立场相同者差不多好，而人们事前并不这么预期。&lt;/p&gt;
-
-&lt;p&gt;下次想反驳之前，可以先做一件小事：用自己的话把对方的观点复述一遍，问一句「我说对了吗」，等他点头再讲你的不同意见。你一点立场都不用让。放下手机这一步，可能比你准备的所有论据都管用。&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href="https://doi.org/10.1037/pspi0000525"&gt;Saluk et al., JPSP (2026)&lt;/a&gt;；&lt;a href="https://selfdeterminationtheory.org/wp-content/uploads/2026/04/2026_SalukItzchakovEtAl_Listening.pdf"&gt;作者接受稿 PDF&lt;/a&gt;；&lt;a href="https://www.chicagobooth.edu/review/2026/may/is-conversation-magical"&gt;Chicago Booth Review&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1037/pspi0000525"&gt;https://doi.org/10.1037/pspi0000525&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://selfdeterminationtheory.org/wp-content/uploads/2026/04/2026_SalukItzchakovEtAl_Listening.pdf"&gt;https://selfdeterminationtheory.org/wp-content/uploads/2026/04/2026_SalukItzchakovEtAl_Listening.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.chicagobooth.edu/review/2026/may/is-conversation-magical"&gt;https://www.chicagobooth.edu/review/2026/may/is-conversation-magical&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8026f010-08c2-5941-8386-de6bfd6f81a6</guid>
-      <pubDate>Mon, 23 Nov 2026 12:14:59 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1037/pspi0000525</link>
-      <enclosure url="https://www.chicagobooth.edu/-/media/project/chicago-booth/chicago-booth-review/2026/may/chicago-booth-puzzle-conversation.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 走得快的人真的活得更久吗？JAMA Netw Open 2026：英国 4,067 人随访近 12 年，诊所步速与日常步频各自与死亡率相关（观察性）</title>
-      <description>&lt;p&gt;走路快的人活得更久，这个结论听过很多遍。这次的新意在于：研究者把"办公室里测一次步速"和"手腕设备记录的日常步频"放在一起比，并且在调整了每天总步数之后，两者依然各自和死亡风险相关。&lt;/p&gt;
-&lt;p&gt;论文发表于 2026 年 10 月 23 日的 &lt;em&gt;JAMA Network Open&lt;/em&gt;，标题大意是《临床步速、自由活动步频与全因死亡率》（第一作者 Haddadj R）。据福克斯新闻 11 月 1 日的报道，样本是英国 4,067 名成年人，平均约 69 岁，随访近 12 年，期间 739 人死亡。参与者先在诊所按平常速度走一小段，再戴腕式活动记录仪 9 天，用来估算日常生活中的步速和步频。&lt;/p&gt;
-&lt;p&gt;具体数字我只能引用二手报道（Epocrates、MedicineNet 转述，未读到全文）：步频每多 10 步/分钟，死亡率大约低六分之一（日常典型步速段，约 75 步/分钟）；放在一天里走得最快的那几段，则接近低五分之一（约 112 步/分钟）。办公室步速每快 0.1 米/秒，死亡率约低十分之一。有一点要注意：研究者同时指出，在标准风险因素之外，这两个指标额外增加的预测力有限。也就是说，它们更像"体能的体温计"，而不是新的独立风险因子。&lt;/p&gt;
-&lt;p&gt;为什么有意思？之前我们记录过"7000 步"那条（Lancet Public Health，2025）：总量到 5000–7000 步后边际收益变小。这篇补的是另一个维度——同样的步数，走得快慢是否还有区别。答案似乎是有，而且不必靠"专门去运动"：日常里那几段走得最快的片段就带着信息。&lt;/p&gt;
-&lt;p&gt;别急着得出"快走能续命"。福克斯报道里的外部专家 Beth Templin 说得直白：这是关联，不是"走快一点就能多活几年"的证据。论文纳入的人群本身比更大的队列健康，腕戴设备算步速也没有统一标准，慢走可能只是身体已经有问题的结果（反向因果）。&lt;/p&gt;
-&lt;p&gt;能做的事很小：下次通勤或遛弯，挑一段刻意提到"有点喘但还能说话"的节奏，大概是 100–110 步/分钟，数一数自己平时在哪个区间。用来了解自己的基线，比追求某个神奇数字有用。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print"&gt;Fox News（2026-11-01）&lt;/a&gt;；&lt;a href="https://www.medicinenet.com/step_to_it_brisker_walking_tied_to_longer_life/news.htm"&gt;MedicineNet 转述&lt;/a&gt;；&lt;a href="https://www.epocrates.com/online/article/faster-everyday-walking-tied-to-lower-mortality"&gt;Epocrates 摘要&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print"&gt;https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.medicinenet.com/step_to_it_brisker_walking_tied_to_longer_life/news.htm"&gt;https://www.medicinenet.com/step_to_it_brisker_walking_tied_to_longer_life/news.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.epocrates.com/online/article/faster-everyday-walking-tied-to-lower-mortality"&gt;https://www.epocrates.com/online/article/faster-everyday-walking-tied-to-lower-mortality&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">a0d9e404-5224-5152-9052-e01558a33e45</guid>
-      <pubDate>Tue, 24 Nov 2026 12:08:56 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.foxnews.com/health/walking-speed-clue-how-long-youll-live-study-suggests.print</link>
-    </item>
-    <item>
-      <title>🌿 🌿 运动后泡冷水、热水还是躺着？东伦敦大学随机试验 40 人：72 小时内力量恢复四种方式无显著差异，热疗只改变了分子标志物</title>
-      <description>&lt;p&gt;运动完腿酸得下不了楼梯，泡冷水、泡热水、还是干脆躺着不管？东伦敦大学的一项小型随机试验给了个不太浪漫的答案：三种"处理"在力量恢复上和什么都不做没有显著差别。&lt;/p&gt;
-&lt;p&gt;研究发表在 &lt;em&gt;Journal of Thermal Biology&lt;/em&gt;（Bayne 等，2026，DOI 10.1016/j.jtherbio.2026.104551），共 40 名健康、有运动习惯的成年人。先用高强度运动造成暂时性肌肉损伤和延迟性肌肉酸痛，再随机分成四组：42°C 热水浸泡 30 分钟、9°C 冷水浸泡 15 分钟、30°C 热空气 30 分钟、室温被动休息。追踪 72 小时。&lt;/p&gt;
-&lt;p&gt;结果：运动刚结束时力量下降约 36%，之后 72 小时内逐渐恢复，四组之间没有统计学差异。酸痛方面，热疗组也没有显著更轻。有差别的是分子层面：热疗组的热休克蛋白 HSP72 表达升高；肌酸激酶 CK-MM（肌肉损伤标志物）回落得比冷水组更快。换句话说，热确实改变了身体里的一些指标，但没有转化成你能感觉到的力量恢复。&lt;/p&gt;
-&lt;p&gt;另一点：MDLinx 11 月 11 日的文章提到，力量训练后立刻泡冷水，长期可能削弱肌肉增长（我没有核对其原始证据）。如果目标是长肌肉，冷水浸泡未必是"免费的恢复加成"；这篇论文的新闻稿也没有给出冷水组酸痛的具体数字，所以"冷水缓解酸痛"在这里无法下结论。&lt;/p&gt;
-
-&lt;p&gt;局限很明显：每组只有约 10 人（新闻稿未给分组人数、效应量和 p 值，我没读到全文）；受试者是年轻活跃人群；只追踪 72 小时，看不到反复使用的长期效果。通讯作者自己也说，重复热暴露是否有长期好处需要更多研究。&lt;/p&gt;
-&lt;p&gt;实际含义：恢复手段更像是"选你愿意坚持、并且舒服的那一个"。睡眠、蛋白质和下一次训练前留足间隔，大概率比水温重要。泡热水澡如果让你睡得好，那是另外一个理由。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx"&gt;News-Medical（2026-10-21，东伦敦大学新闻稿）&lt;/a&gt;；&lt;a href="https://www.sciencedirect.com/science/article/pii/S0306456526001841"&gt;论文页面&lt;/a&gt;；&lt;a href="https://www.mdlinx.com/article/patients-swear-by-cold-plunges-and-saunas-is-the-payoff-worth-the-risk/1rG7qbbwCpqwPNjl7229IF"&gt;MDLinx&lt;/a&gt;。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx"&gt;https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sciencedirect.com/science/article/pii/S0306456526001841"&gt;https://www.sciencedirect.com/science/article/pii/S0306456526001841&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.mdlinx.com/article/patients-swear-by-cold-plunges-and-saunas-is-the-payoff-worth-the-risk/1rG7qbbwCpqwPNjl7229IF"&gt;https://www.mdlinx.com/article/patients-swear-by-cold-plunges-and-saunas-is-the-payoff-worth-the-risk/1rG7qbbwCpqwPNjl7229IF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">c2ee78b1-4183-50b3-bcdd-a9143d43a8eb</guid>
-      <pubDate>Tue, 24 Nov 2026 12:08:56 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.news-medical.net/news/20261021/Cold-water-immersion-lacks-superiority-for-recovering-muscle-strength.aspx</link>
-      <enclosure url="https://www.news-medical.net/image-handler/picture/2016/3/Black_and_White_Sneezy_Cold_Guy_-_Rynio_Productions_d9ab890b0c744a1389d404dd606049d9-620x480.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌿 🌿 早睡能帮前驱糖尿病的人减重吗？NYU 196 人 8 周：辅导只让人提早约 12 分钟入睡，每提早 1 小时对应多减约 1.3 磅（组内关联）</title>
-      <description>&lt;p&gt;"早点睡"能帮你减重吗？纽约大学的一项分析说：可能有点关系，但这次试验里，专门教人早睡的那组并没有比对照组瘦得更多。&lt;/p&gt;
-&lt;p&gt;研究发表在 &lt;em&gt;Nursing Research&lt;/em&gt;，第一作者是纽约大学罗里·迈耶斯护理学院的 Susan Kohl Malone，与特拉华大学合作，美国国立护理研究所（NIH）资助。据福克斯新闻 11 月 7 日报道，这是对一项随机试验数据的分析：196 名前驱糖尿病成年人，平时每晚睡不到 6.5 小时。两组都上 8 周生活方式课程（饮食、运动、压力管理），其中一组额外接受分阶段的"提早入睡"行为辅导。研究用传感器、睡眠日志和腕戴监测仪记录血糖、睡眠和活动。&lt;/p&gt;
-&lt;p&gt;数字比标题朴素得多：辅导组平均只提早了约 12 分钟入睡；血糖两组都没有显著改善；两组都减了体重，辅导组没有显著多减。真正被拿来做文章的是组内相关：不分组别，入睡时间每提早 60 分钟，8 周体重大约多减 1.3 磅（约 0.6 公斤）——报道称这是统计推算。另外，辅导组的睡眠质量和白天嗜睡有改善，但这两项主要靠自评。&lt;/p&gt;
-&lt;p&gt;为什么这个细节有意思？之前我们写过入睡时间不规律与心血管事件风险（北芬兰队列）、也写过镁补充剂改善睡眠的试验，共同点是"睡得好"的证据常常集中在自评指标上。这篇进一步说明：把一个人的入睡时间往前挪，在现实中很难——8 周只挪了 12 分钟。要 1 小时的差距，远远超出干预能做到的程度。&lt;/p&gt;
-&lt;p&gt;解读上要小心三点。第一，1.3 磅（约 0.6 公斤）是观察性关联，睡得早的人可能本来就生活更规律、吃得更好。第二，8 周太短，看不出能否维持。第三，样本是睡眠不足的前驱糖尿病人群，不能直接推广到所有人。&lt;/p&gt;
-&lt;p&gt;如果你想试：别指望一周内从 1 点睡改成 11 点。每隔几天提早 10–15 分钟，这种渐进方式正是该研究采用的思路，同时把睡眠时长拉到 7 小时左右，比盯着体重秤合理。&lt;/p&gt;
-&lt;p&gt;来源：&lt;a href="https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print"&gt;Fox News（2026-11-07）&lt;/a&gt;。论文本身未找到链接，数字均据该报道。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print"&gt;https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">3d2bf7fc-f5b9-5b05-80f8-ca5772012610</guid>
-      <pubDate>Tue, 24 Nov 2026 12:08:57 +0000</pubDate>
-      <category>healthy-life</category>
-      <link>https://www.foxnews.com/health/simple-bedtime-change-help-individuals-lose-weight-study-finds.print</link>
-    </item>
-    <item>
-      <title>🌉 感恩节当天湾区还有什么开着：Turkey Trot、免费植物园，和哪些博物馆别去</title>
-      <description>&lt;p&gt;感恩节当天（11/26，周四）大部分博物馆关门，Peninsula 的餐厅也多半只做预订的套餐。想出门的话，旧金山这边有几个确定开着的去处，Secret San Francisco 11 月初整理过一份清单，我挑了实用的。&lt;/p&gt;
-&lt;p&gt;先说早上。&lt;strong&gt;SF Turkey Trot&lt;/strong&gt; 在金门公园，今年是第 24 届，有 5 英里、3 英里和 100 米儿童跑，报名费页面没写，去官网查。不想跑的话，Alcatraz 有一场每年的日出纪念活动，纪念 1969-1971 年的占领事件，船票走 Alcatraz City Cruises。&lt;/p&gt;
-&lt;p&gt;白天能去的地方：California Academy of Sciences、Aquarium of the Bay、SF Zoo、Japanese Tea Garden、SF Botanical Garden 都开门。Botanical Garden（1199 9th Ave）当天免费，对一年到头要花钱进场的人算个小惊喜。反过来，SFMOMA、Legion of Honor、de Young、Asian Art Museum 和 Conservatory of Flowers 全部关门，别白跑。餐厅方面，清单里写的有 International Smoke、Park Chalet、Palette Tea House 和 Tommy's Joynt。&lt;/p&gt;
-&lt;p&gt;周五到周日（11/27-29）是市集季：Fairmont Holiday Rooftop Faire（11/27-29）、Oakland 的 Blackout Holiday Market（11/27-28，The Well）、Crystal Fair（11/28-29，SF County Fair Building）、Fellowship of Craft（11/28-29，Oakland Kaiser Center）。南湾的 SJMade 在 Santa Clara Convention Center，我们前面单独写过，周六 11/28 免费进场。Winchester Mystery House 的 Yuletide Menagerie 古怪小物市集从 11/28 一直开到 12/26，离 Menlo Park 开车约 25 分钟，比较省事。&lt;/p&gt;
-&lt;p&gt;还有 Cow Palace 的 Great Dickens Christmas Fair：11/21 到 12/20 共五个周末，加上感恩节后的周五，10am-6pm。长期展览方面，Exploratorium GLOW（到 1/24）和 Fisherman's Wharf 的溜冰场（到 1/18）都在跑。&lt;/p&gt;
-&lt;p&gt;冷提醒：Union Square 周边商店感恩节当天基本关，Black Friday 前一天在布置，别指望逛街。H Mart、Ranch 99 的湾区门店假日营业时间我又搜了一遍，还是没查到，只找到德州和马萨诸塞的信息，所以出发前直接打电话问。天气预报同样没有可信的 2026 来源，看 NWS Bay Area 页面最准。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://secretsanfrancisco.com/thanksgiving-things-to-do/"&gt;https://secretsanfrancisco.com/thanksgiving-things-to-do/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.caltrain.com/schedules/holiday-service"&gt;https://www.caltrain.com/schedules/holiday-service&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">30c113b9-ef48-5258-bd5d-457e7d5194b3</guid>
-      <pubDate>Tue, 24 Nov 2026 12:08:58 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://secretsanfrancisco.com/thanksgiving-things-to-do/</link>
-      <enclosure url="https://offloadmedia.feverup.com/secretsanfrancisco.com/wp-content/uploads/2025/10/30182119/SanFrancisco8.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 Peninsula 圣诞季日历：Caltrain Holiday Train 12/5、Filoli 灯展、Gamble Garden</title>
-      <description>&lt;p&gt;Peninsula 的圣诞季不像旧金山那样集中在 Union Square，活动散落在 Woodside、San Mateo、Half Moon Bay 和 Palo Alto。San Mateo County 旅游局 11 月 2 日发布的清单里，有几项带具体日期，值得提前排进日历。&lt;/p&gt;
-&lt;p&gt;最有话题的是 &lt;strong&gt;Caltrain Holiday Train&lt;/strong&gt;。12 月 5 日（周六）一整列装饰过的火车从 San Francisco、San Mateo、Palo Alto 和 San Jose 四站上客，票通过 Eventbrite 卖，每张票同时是 Caltrain Day Pass。当天四个站还有 Ronald McDonald House 的礼物募集，带一份未拆封的礼物就行。这列装饰车到 12/13 为止会混在正常班次里跑，运气好能碰上，价格我没查到。&lt;/p&gt;
-&lt;p&gt;Woodside 的 Holidays at Filoli 从 11/14 到 1/10。晚上灯光展 4pm-10pm，35 万盏灯；白天是房子和花园的导览，加上 Thistlewyck Village，10am-3:30pm。Holiday Tea 在 Garden House，12/1-12/18。适合带从外地来的朋友，从 Menlo Park 开过去约 20 分钟。&lt;/p&gt;
-&lt;p&gt;San Mateo Central Park 的 San Mateo on Ice 每天开，11/14 到 1/10，点灯仪式已经在 11/13 办过。想自己砍树的话，Half Moon Bay 的 Santa's Tree Farm 11/14 到 12/23 每天可以砍，周末（11/21-12/13）加开 Santa Express 小火车，今年是第 52 年，487 英亩。&lt;/p&gt;
-&lt;p&gt;Palo Alto 的 Gamble Garden Winter Festival 在 12/3-12/5：开幕夜有酒和无酒精饮品品鉴，30 多家摊位的假日市集，12 岁以下儿童入场免费，晚上有圣诞老人合影和讲故事。Four Seasons Silicon Valley（East Palo Alto）的 Après Village 露台 11/21 到 1/4，每天 4:30-9:30pm，需要订位。&lt;/p&gt;
-&lt;p&gt;各城市的点灯仪式（Burlingame、Redwood City、San Carlos、Foster City 等）清单里没给日期。Menlo Park 的 Light Up the Season 传统上是十二月第一个周五，也就是 12/4，但官网我上次查还没更新，所以只能算推测。&lt;/p&gt;
-&lt;p&gt;顺带说，这份清单没有任何一项标价。出门前花两分钟去各家官网看票价，省得到门口才发现要预约。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.thesanfranciscopeninsula.com/blog/stories/post/holiday-bucket-list-in-san-mateo-county/"&gt;https://www.thesanfranciscopeninsula.com/blog/stories/post/holiday-bucket-list-in-san-mateo-county/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8b6a010e-12d7-5fe3-bb20-2f2ef601da3d</guid>
-      <pubDate>Tue, 24 Nov 2026 12:08:58 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://www.thesanfranciscopeninsula.com/blog/stories/post/holiday-bucket-list-in-san-mateo-county/</link>
-      <enclosure url="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_75,w_900/v1/clients/sanmateoca/Holdays_at_Filoli_by_Drew_Altizer_Photography_57f20b3c-bc43-4753-b50e-128eef4f8b66.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🌉 SF Standard 11 月新店清单：Scout、Bare Bones、Stir Crazy，以及 Lorella 的时间冲突</title>
-      <description>&lt;p&gt;跟进 11 月 23 日那篇旧金山新店的帖子：SF Standard 11 月 1 日发了一份 11 月最值得期待的五家新店清单，和 Infatuation 那份不重叠。这五家都在旧金山，没有 Peninsula，也没有亚洲餐厅，但 Marina 和 Russian Hill 周末去还是方便。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Julius' Castle&lt;/strong&gt;（302 Greenwich St，Telegraph Hill）11 月 12 日重开，我们上次已经提过。1922 年开业、2007 年关门的三层老建筑，约 130 个座位，主打 NorCal 食材，老板 Paul Scott 说这里不会有 wagyu。订位陆续放出，消息发在 Instagram。景观是最大的卖点，不过没有价格信息，大概率不便宜。&lt;/p&gt;
-&lt;p&gt;Scout（2359 Chestnut St，Marina）是 Norcina 和 Frankies 那个团队做的全天候咖啡馆，有柴火烤炉，菜单偏加州而不是意大利，写到的有兔肉卷、余烬烤南瓜和烤大虾。预计 11 月上中旬开，是他们这个餐饮集团最有野心的一家。&lt;/p&gt;
-&lt;p&gt;Bare Bones（2325 Taraval St，Parkside）是柜台点餐的烤鸡/烤肉店：porchetta、porchetta 三明治、凯撒沙拉、玉米面包小松饼，还有"不是炸鱼薯条"的啤酒面糊炸花椰菜。老板是三个在孩子幼儿园认识的餐饮人。原址是 Bearing West。&lt;/p&gt;
-&lt;p&gt;Stir Crazy（1400 Lombard St）是前 Mezcalito 调酒师 Jacob Morris 的第一家自己的酒吧，接手了原来的 Black Magic Voodoo Lounge，有无酒精鸡尾酒，每季换特调。11 月开，没有确切日期。&lt;/p&gt;
-&lt;p&gt;Lorella（2139 Polk St）这条要小心。SF Standard 写的是 11 月下旬开业，Melissa Perello 和 Melissa Loar 的面包店，有 country levain、番茄罗勒可颂、玉米奶油面包，楼上有儿童游乐区。但我们上次查到的信息是开业推迟到 2027 年 2 月，两个说法冲突，而且这份清单是 11 月 1 日发的，开业时间很可能后来又变了。去之前看一眼 lorellasf.com 或者它的 Instagram。&lt;/p&gt;
-&lt;p&gt;另外，这批店里 Scout、Bare Bones 的实际开业我还没找到确认，所以"预计"两个字别丢。Palo Alto 方面，搜到一家叫 Yutori 的日式意面加和牛餐厅（3375 El Camino Real），预计开业时间写着 late February，年份没说明，先记一笔。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"&gt;https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e33efd1d-9b7a-59a4-bd83-96f2d96f7d1a</guid>
-      <pubDate>Tue, 24 Nov 2026 12:08:58 +0000</pubDate>
-      <category>bay-area-life</category>
-      <link>https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/</link>
-      <enclosure url="https://assets.sfstandard.com/image/994911177489/image_hg2t4cf3914qb22s53ut728u6b/-S1200x630-FPNG" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🧠 自控力强的人不是更能忍，而是更会挑时候放纵：四套经验取样数据、3.2 万次即时记录重新解释「自律」</title>
-      <description>&lt;p&gt;提到自律的人，脑子里浮现的多半是一个画面：深夜面前摆着薯片，他咬牙没碰。2026 年 2 月 27 日在线发表于 &lt;em&gt;Social Psychological and Personality Science&lt;/em&gt; 的一篇论文给出了另一幅画像。高自控者在「欲望和目标打架」的时刻，并不比别人更能扛；他们的优势出在别处：打架的次数本来就少，而在不打架的时候，他们放纵得更痛快。&lt;/p&gt;
-
-&lt;p&gt;论文题为《Beyond Resistance: Understanding Trait Self-Control Through Strategic Indulgence》（DOI 10.1177/19485506261422582），第一作者是伍珀塔尔大学的 Mario Wenzel，合作者包括萨尔大学的 Malte Friese、波鸿鲁尔大学的 Wilhelm Hofmann、卡尔顿大学的 Marina Milyavskaya、邓迪大学的 Blair Saunders 和伯尔尼师范大学的 Katharina Bernecker。研究团队没有做新实验，而是把四套已有的经验取样（Experience Sampling）数据合并重新分析：559 人，32,049 次即时记录。参与者在日常生活中被手机随机提醒，报告此刻有什么欲望、这个欲望「在多大程度上和某个个人目标冲突」、自己有没有去做、心情如何。欲望五花八门：吃东西、休息、刷手机、社交、工作都有。&lt;/p&gt;
-
-&lt;p&gt;作者关心两个机制。一个叫&lt;strong&gt;冲突最小化（Conflict Minimization）&lt;/strong&gt;，即一个人平时体验到的欲望-目标冲突有多弱。另一个是本文的新概念&lt;strong&gt;策略性放纵（Strategic Indulgence）&lt;/strong&gt;：对每个人单独估计一条斜率，看冲突越弱时他执行欲望的程度上升多少。斜率越陡，说明这个人越会「看情况放纵」——冲突低就去做，冲突高就不做。&lt;/p&gt;
-
-&lt;p&gt;用动态结构方程模型（DSEM）把四套数据放在一起，结果是这样的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;特质自控与冲突最小化相关（标准化系数 .18），与策略性放纵相关（.21）。&lt;/li&gt;
-&lt;li&gt;冲突最小化与享乐幸福感（正负情绪差）关联较强（.38），策略性放纵也有正向关联（.14，置信区间下限仅 .001）。&lt;/li&gt;
-&lt;li&gt;自控对幸福感的总效应是 .20；两条路径放进去之后，直接效应降到 .09 且不显著。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最有意思的是一张简单斜率图。把情境粗分为「有冲突」和「无冲突」：在有冲突的情境里，自控分高的人执行欲望的程度并没有显著更低（b = -0.03，95% CI [-0.16, 0.10]）；在无冲突的情境里，他们执行欲望的程度明显更高（b = 0.24，95% CI [0.10, 0.39]）。也就是说，数据里看不到「高自控者更能忍」，看到的是「高自控者在安全的时候更敢享受」。个体内部的分析也同向：冲突低时做了想做的事，当下的情绪提升（β = .12）比冲突高时（β = .08）更大，冲突本身会吃掉一部分享受。&lt;/p&gt;
-
-&lt;p&gt;这和 Hofmann 团队 2012 年的经验取样研究一脉相承。那项研究最早发现，高自控者在诱惑当头时的抵抗成功率并不比别人高，只是报告的冲突少得多。本研究把这条线往前推了一步：冲突少不等于欲望少，高自控者照样有欲望，也照样满足欲望，只是时机挑得好。另一个常被引用的例子来自 Jia、Hirt 和 Koh 2019 年的研究：成绩更好的大学生并不少去看校队比赛，他们把学习时间挪到了没比赛的日子。&lt;/p&gt;
-
-&lt;p&gt;证据有几处要打折扣。数据集 1 和 2 在预注册之前就被用来探索过策略性放纵假设；在独立的数据集 3 和 4 里，自控与策略性放纵的关联变小（β = .11）且不显著，作者归因于后两套数据的观测次数少得多（6,633 vs 24,092）。全部是相关设计，中介变量和结果同时测量，作者自己也提醒不要读成因果。策略性放纵只和更少的负面情绪相关（β = -.31），和更多正面情绪无关。样本以年轻女性为主，「冲突最小化」是一个结果模式，到底是靠主动回避诱惑、靠习惯还是靠计划实现的，这套数据分不清。&lt;/p&gt;
-
-&lt;p&gt;和本栏一直在追的「自我调节是生理容量而非意志力」那条线放在一起看，这项研究给出的可带走工具很具体：与其练「扛住」，不如练「排期」。每周花五分钟看一下日历，提前标出哪些时段的放松、社交、追剧不会挤占重要目标——那些时段就是绿灯，到了就放心去做，不必带着愧疚打折扣地享受。真正难扛的高冲突时刻，尽量让它少发生：把考试前一晚的聚会提前定到考试后一天，比当晚硬着头皮拒绝要省力得多。&lt;/p&gt;
-
-&lt;p&gt;自律的反面也许不是放纵，而是在错误的时间放纵。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1177/19485506261422582"&gt;https://doi.org/10.1177/19485506261422582&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://discovery.dundee.ac.uk/ws/files/165017265/wenzel-et-al-2026-beyond-resistance-understanding-trait-self-control-through-strategic-indulgence.pdf"&gt;https://discovery.dundee.ac.uk/ws/files/165017265/wenzel-et-al-2026-beyond-resistance-understanding-trait-self-control-through-strategic-indulgence.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://phrepo.phbern.ch/8016/"&gt;https://phrepo.phbern.ch/8016/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">024d1e06-92a0-5ddd-865c-a49d05c80d9a</guid>
-      <pubDate>Tue, 24 Nov 2026 12:11:54 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1177/19485506261422582</link>
-    </item>
-    <item>
-      <title>🧠 感激有多真心，对方其实读不准：214 对情侣研究发现，真诚养的是自己，被相信才养关系</title>
-      <description>&lt;p&gt;对伴侣说「谢谢你」的时候，说的是不是真心话，重要吗？罗切斯特大学 Bonnie M. Le 实验室 2026 年发表在 &lt;em&gt;Emotion&lt;/em&gt; 上的论文《How Honesty Shapes the Personal and Interpersonal Benefits of Gratitude》（DOI 10.1037/emo0001662，作者 Bonnie M. Le、Claire J. Shimshock、Princeton X. Chee、Jenny D. V. Le）给出的答案有点反直觉：真心对说的人自己很重要；对听的人来说，重要的是他&lt;em&gt;相信&lt;/em&gt;你是真心的——而这份相信和你实际有多真心，几乎没有关系。&lt;/p&gt;
-
-&lt;p&gt;研究招募了 214 对情侣（428 人），平均在一起 15 年，平均年龄 36 岁，假设和分析计划全部预注册。研究 1a 是 14 天每日日记，共收回 5,340 份；63% 的日子里有人说自己向伴侣表达了感激，56% 的日子里有人感到伴侣对自己表达了感激，双方都报告的只有 37%。「诚实」用七个条目测量，覆盖三个层面：说的是否属实、有没有省略想法、有没有说假话。&lt;/p&gt;
-
-&lt;p&gt;日记数据的分工很清楚：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;表达者在某天比自己平时更诚实地表达感激，当天自己的情绪（b = 0.29）和关系质量（b = 0.41）都更好；但接收方的情绪（b = 0.04）、被欣赏感（b = 0.05）没有显著变化。&lt;/li&gt;
-&lt;li&gt;接收方在某天觉得伴侣的感激比平时更真诚，当天自己的情绪（b = 0.43）、关系质量（b = 0.40）、被欣赏感（b = 0.50）都明显上升，表达方的关系质量也小幅受益（b = 0.08）。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;研究 1b 把同一批情侣请进实验室。每人事先私下写两件感激伴侣的事，研究者特意挑出其中「说出来最不自在」的那件，让他当面讲 2 分钟。全程录像，由两组研究助理独立评分。这里出现了全文最值得玩味的数据：表达者自评的诚实度和旁观者评分一致（b = 0.12），也和接收方的感知一致（b = 0.27）；但旁观者评出的诚实度和接收方的感知&lt;strong&gt;完全不相关&lt;/strong&gt;（b = -0.008，p = .89）。用多层响应面分析（ML-RSA）检验「接收方是否准确感知到了表达方的真实诚实度」，准确性对任何结果都没有预测力。三个月后追踪：表达者当时有多诚实，什么都预测不了；接收方当时觉得有多诚实，仍然预测更高的关系满意度（b = 8.25，p = .002）和被欣赏感（b = 0.30，p = .001）。&lt;/p&gt;
-
-&lt;p&gt;作者还检查了表达风格：说得委婉、直白、详尽还是克制，都没有改变诚实的效果。控制感激的强度、表达者的本真感（Authenticity）之后，大部分效应仍在；基线关系满意度能解释一部分人际层面的效应。&lt;/p&gt;
-
-&lt;p&gt;这篇论文和本栏 11 月 19 日开启的「关系中积极表达的真实性」那条线直接相连。当时写到同一实验室 Shimshock 等 2025 年的研究：日常生活里把感激放大到超过实际感受，双方幸福感和满意度都会受损。两篇放在一起看，形成一个更完整的图景：夸大会伤人，因为对方可能察觉；而在不夸大的前提下，真正起作用的是对方「读到」的那份真诚。作者用积极情感覆盖（Positive Sentiment Override）来解释：把伴侣看作真诚的人，会让你用更善意的滤镜去读他的一切行为。&lt;/p&gt;
-
-&lt;p&gt;局限也要说清楚。愿意报名的情侣大多善于沟通，整体诚实度很高，几乎没有明目张胆的谎言，所以「假装感激」的真实代价在这里看不到。实验室对话只有 2 分钟，高度结构化；样本 80% 是白人，以美国为主。作者也承认，感激在某些文化里可能意味着距离感。&lt;/p&gt;
-
-&lt;p&gt;可以带走两件事。作为表达者：真心本身就值得，它首先滋养你自己，不必为了效果去夸大。要让对方「信」，靠的不是更热烈的形容词，而是只有真正注意过的人才说得出的细节，比如「你上周三特意早起帮我把车里的雪铲了」。作为接收者：你对伴侣真诚度的判断本来就不太准，旁观者看得出的东西你未必看得出，反过来也一样。既然准确性帮不上忙，选择相信对方的谢意是真心的，是一笔很划算的投资——前提是这段关系没有给你怀疑的理由。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1037/emo0001662"&gt;https://doi.org/10.1037/emo0001662&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://labsites.rochester.edu/lelab/wp-content/uploads/2026/03/Le-et-al.-2026-How-honesty-shapes-the-personal-and-interpersonal-benefits-of-gratitude.pdf"&gt;https://labsites.rochester.edu/lelab/wp-content/uploads/2026/03/Le-et-al.-2026-How-honesty-shapes-the-personal-and-interpersonal-benefits-of-gratitude.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://labsites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf"&gt;https://labsites.rochester.edu/lelab/wp-content/uploads/2025/12/Shimshock-et-al.-2025-Amplification-is-costly-for-personal-and-relationship-well-being.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">02a0b0b9-66cc-56c0-8bef-fe3217985b39</guid>
-      <pubDate>Tue, 24 Nov 2026 12:12:18 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1037/emo0001662</link>
-    </item>
-    <item>
-      <title>🧠 你以为对手油盐不进，其实他比你想的更愿意听：葡萄牙与瑞典研究发现，低估对方开放度会连日常交往一起堵死</title>
-      <description>&lt;p&gt;你最不想与之谈政治的那个人，可能比你以为的更愿意听你说。里斯本大学的 André Mata 与林雪平大学的 Towe Nilsson、Arvid Erlandsson 以及 Rosário Ferreira 合作，在 &lt;em&gt;Journal of Experimental Social Psychology&lt;/em&gt; 发表论文《People underestimate how receptive other people are to different political opinions》（DOI 10.1016/j.jesp.2026.104942，PsyPost 11 月 2 日报道）。标题已经说完了结论；更有价值的是它揭示的连锁反应，以及一个便宜得出奇的修正办法。&lt;/p&gt;
-
-&lt;p&gt;研究在葡萄牙和瑞典两个多党制国家进行。前两项调查分别有 198 名葡萄牙人和 402 名瑞典人参与：每个人先评价自己对相反意见的开放度（Receptiveness），再评价自己最喜欢和最讨厌的政党的支持者有多开放，然后想象和这些人聊政治的场景。结果出现三层偏差：人们认为自己比一般人更开放；认为己方支持者比对方支持者更开放；而把对手的实际自评拿来对照，人们明显低估了对手的开放程度。这份低估一路传下去：觉得对方越封闭，就越预期谈话会令人沮丧、紧张、不愉快，也就越不愿开口。&lt;/p&gt;
-
-&lt;p&gt;接下来是因果检验。在一项情景实验里，约 600 名瑞典参与者读到一位「最讨厌政党」支持者的描述，一半描述为愿意倾听不同价值观，一半描述为不愿意。读到前者的人对谈话的预期更积极，不仅更愿意聊政治，也更愿意和对方聊日常话题，还更倾向于认为这个人会是好同事、好的工会代表。最后一项研究找了 120 名葡萄牙大学生，让他们猜测对手政党的支持者在开放度问卷上怎么作答；实验组每猜完一题，就看到研究 1 中这些人的真实平均分，对照组没有反馈。看过真实数据的人随后把对手评得更开放，预期谈话压力更小、收获更多，也更愿意和对方进行非政治性的交流。&lt;/p&gt;
-
-&lt;p&gt;这不是孤例。哈佛肯尼迪学院 Julia Minson 团队（Collins、Dorison、Gino、Minson）2022 年在 &lt;em&gt;Psychological Science&lt;/em&gt; 发表的七项预注册研究（N = 2,614）发现了几乎相同的模式：人们系统性低估持不同意见者「想了解你的观点」的意愿，这种低估预测更多的贬低和更悲观的对话预期；一段简短的信息干预就能缓解，在美国党派政治和以巴冲突两个场景里都成立。Mata 团队把这个现象搬到了欧洲多党制环境，并多走了一步：被低估的「开放度」甚至会让人连非政治的交往都回避。&lt;/p&gt;
-
-&lt;p&gt;放进本栏这几周的脉络里，这是同一个机制的又一个切面。11 月 19 日写到的杜克调查显示，温和派最沉默，敢开口的人扭曲了大家对多数意见的估计——一种多元无知（Pluralistic Ignorance）。11 月 23 日 Saluk 等人的五项研究则发现，被认真倾听的分歧比敷衍的赞同更让人舒服。合起来看：我们对「对面那个人」的想象，经常比真实的他更糟，而这种想象本身就在阻止我们去验证它。&lt;/p&gt;
-
-&lt;p&gt;几点保留。论文正文无法获取，以上来自 PsyPost 等二手报道，均未给出效应量；各报道对研究数量和样本分配的描述也不完全一致（有的写四项实验）。作者承认因果可能双向：本来就想回避对方的人，会把对方想得封闭，好为回避找理由。两国都是多党制，结论能否搬到美国式两党对立里尚不清楚；第三项研究样本小、全是学生。另外，测的是「愿意聊」的意向，不是真实对话，更不等于极化下降。&lt;/p&gt;
-
-&lt;p&gt;可带走的做法很简单：下次在饭桌上或组会上要碰一个敏感话题之前，先意识到你对对方开放度的预估大概率偏低，把这个预估往上调一档再出发。开口时不急着摆论点，先问一个真心想知道答案的问题——「你是怎么得出这个看法的？」对方的回答，往往就是你需要的那份「真实数据」。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://doi.org/10.1016/j.jesp.2026.104942"&gt;https://doi.org/10.1016/j.jesp.2026.104942&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.psypost.org/people-assume-their-political-opponents-are-closed-minded-but-correcting-this-il/"&gt;https://www.psypost.org/people-assume-their-political-opponents-are-closed-minded-but-correcting-this-il/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.hks.harvard.edu/publications/underestimating-counterparts-learning-goals-impairs-conflictual-conversations"&gt;https://www.hks.harvard.edu/publications/underestimating-counterparts-learning-goals-impairs-conflictual-conversations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.alternet.org/trump-supporters-2678193023/"&gt;https://www.alternet.org/trump-supporters-2678193023/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">23b6c9d3-d5df-5524-aed3-79f384b20082</guid>
-      <pubDate>Tue, 24 Nov 2026 12:12:41 +0000</pubDate>
-      <category>mindset-growth</category>
-      <link>https://doi.org/10.1016/j.jesp.2026.104942</link>
-      <enclosure url="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_375/https://www.psypost.org/wp-content/uploads/2025/07/trump-supporter-republican-and-harris-supporter-democrat-750x375.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Chrome 158 Ships an Install Button You Can't Design: The &lt;install&gt; Element and Browser-Owned Controls / Chrome 158 上线一个你没法设计的安装按钮：&lt;install&gt; 元素与浏览器自有控件</title>
-      <description>&lt;p&gt;Chrome 158, scheduled for stable release on November 17, lists two ways for a page to offer web app installation: the imperative &lt;code&gt;navigator.install()&lt;/code&gt; API and a declarative &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; HTML element. The API is the developer story. The element is the design story, because it is a button whose label, icon, language and most of its appearance belong to the browser, not to your design system.&lt;/p&gt;
-
-&lt;p&gt;The element was built by Microsoft's Edge team with Google. Patrick Brosset's May 12 post on the Chrome developer blog introduced it during an origin trial that ran from Chrome and Edge 148 through 153. Lia Hiscock's Intent to Ship (September 21) originally targeted Chrome 156; Chrome's 158 release notes now carry both the element and the API. Usage is minimal. An empty &lt;code&gt;&amp;lt;install&amp;gt;&amp;lt;/install&amp;gt;&lt;/code&gt; installs the current app if its manifest has an &lt;code&gt;id&lt;/code&gt;. Add &lt;code&gt;installurl&lt;/code&gt; to offer a different app, including one on another origin, and &lt;code&gt;manifestid&lt;/code&gt; when that app's manifest lacks an id. Children of the element are fallback content for browsers that don't support it, and &lt;code&gt;'HTMLInstallElement' in window&lt;/code&gt; feature-detects it. Three events report outcomes: &lt;code&gt;promptaction&lt;/code&gt; (installed), &lt;code&gt;promptdismiss&lt;/code&gt; and &lt;code&gt;validationstatuschanged&lt;/code&gt;.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://developer.chrome.com/static/blog/install-element-ot/image/fig1.png" alt="Screenshot from the Chrome developer blog showing the browser-rendered install button produced by the install element" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The browser draws the button and owns its wording. Source: Chrome for Developers, "Install web apps with the new HTML install element" (May 12, 2026).&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Why you can't restyle it&lt;/strong&gt;. The element inherits protections from Chrome's capability-element base class: limits on styling and size, no activation while it is out of view or just after it is attached, and checks against clipping, occlusion and distortion. Because the browser renders the control and can verify that it was visible and legible, it can treat a click as genuine intent. A &lt;code&gt;beforeinstallprompt&lt;/code&gt; handler wired to a custom button can't offer that guarantee. It belongs to the same Capability Elements family as Chrome's &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; element (stable in Chrome 144, January 2026) and &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt; for camera and microphone (Chrome 151, June 2026). The &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; element's documented restrictions show what designers will be working with: text-to-background contrast of at least 3:1, alpha fixed at 1, browser-enforced minimum and maximum width, height and font size, no negative margins or outline offsets, and only 2D translation and proportional scaling. Chrome reported results from the earlier generic &lt;code&gt;&amp;lt;permission&amp;gt;&lt;/code&gt; trial: Zoom saw 46.9% fewer camera and microphone capture errors, and Immobiliare.it saw 20% more successful geolocation flows.&lt;/p&gt;
-
-&lt;p&gt;For product teams this is a shift in who owns a call to action. Install entry points today are bespoke banners, "Get the app" buttons and post-checkout nags, each styled to the brand and each timed by growth experiments. With &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; you still decide where the button appears and what surrounds it. The control itself, though, reads the way the browser wants, in the user's browser language, and it can be suppressed by the browser or disabled by enterprise policy (&lt;code&gt;WebAppInstallByUserEnabled&lt;/code&gt;, or the &lt;code&gt;web-app-installation&lt;/code&gt; Permissions Policy). A catalog page can carry several install buttons for different apps, which matters for suites and app directories.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The support picture is lopsided.&lt;/strong&gt; WebKit opposes it. Marcos Caceres wrote on May 26 that installation brings extra capabilities through Add to Home Screen and OS integration, so it "needs to be mediated by browser UI so to remain under user control." Mozilla has given no signal. The TAG review is still open, with the TAG drafting a broader finding on installation prompts. The Intent also says the element isn't supported on Android yet and there are no plans for Android WebView. In practice that means Chrome and Edge desktop only, so your fallback content is what most mobile users will see.&lt;/p&gt;
-
-&lt;p&gt;Some practical consequences for design systems:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Design the fallback first.&lt;/strong&gt; On Safari, Firefox and mobile, the child content (a link to an install guide or app store page) is the experience. Treat &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; as a progressive enhancement of that link.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Leave room for browser chrome.&lt;/strong&gt; You won't control label length or localization, so don't put the control in a fixed-width slot sized for your own copy. Test with long-language locales.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Don't fight the contrast rule.&lt;/strong&gt; A low-contrast "ghost" install button on a hero image may simply fail the checks. Put the element on a surface where 3:1 is easy to hit.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Instrument the events.&lt;/strong&gt; &lt;code&gt;promptdismiss&lt;/code&gt; gives a clean dismissal signal, which beats inferring abandonment from a custom modal.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the third browser-owned control Chrome has shipped this year, after &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt;, with &lt;code&gt;&amp;lt;camera&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;microphone&amp;gt;&lt;/code&gt; floated as future elements. A growing part of every design system's button inventory will come from the browser, styled only within limits. Is that a loss of brand control or a gain in user trust? Chrome's trial numbers lean toward trust. WebKit's objection is that the right place for the button is outside the page altogether.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://developer.chrome.com/blog/install-element-ot"&gt;Chrome for Developers: install element&lt;/a&gt;; &lt;a href="https://chromestatus.com/release-notes/158"&gt;Chrome 158 release notes&lt;/a&gt;; &lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/nrQTNUDm3QI/m/4OA9Cl2eAgAJ"&gt;Intent to Ship: HTML install element&lt;/a&gt;; &lt;a href="https://lists.w3.org/Archives/Public/public-webapps/2026AprJun/0010.html"&gt;WebKit position (Caceres, May 26)&lt;/a&gt;; &lt;a href="https://developer.chrome.com/blog/geolocation-html-element"&gt;Chrome: the geolocation element&lt;/a&gt;; &lt;a href="https://developer.chrome.com/blog/usermedia-html-element"&gt;Chrome: the usermedia element&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;按计划 11 月 17 日进入稳定版的 Chrome 158，给网页提供了两种发起网页应用安装的方式：命令式的 &lt;code&gt;navigator.install()&lt;/code&gt; API，和声明式的 HTML 元素 &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt;。API 是开发者关心的事，元素却是设计问题：这个按钮的文案、图标、语言和大部分外观都归浏览器管，不归你的设计系统管。&lt;/p&gt;
-
-&lt;p&gt;这个元素由微软 Edge 团队和 Google 合作实现。Patrick Brosset 5 月 12 日在 Chrome 开发者博客上介绍它时，它还在 origin trial 阶段（Chrome 与 Edge 148 到 153）。Lia Hiscock 9 月 21 日提交的 Intent to Ship 原本瞄准 Chrome 156，如今元素和 API 都写进了 Chrome 158 的发布说明。用法极简：空的 &lt;code&gt;&amp;lt;install&amp;gt;&amp;lt;/install&amp;gt;&lt;/code&gt; 就能安装当前应用，前提是 manifest 里有 &lt;code&gt;id&lt;/code&gt;；加上 &lt;code&gt;installurl&lt;/code&gt; 可以推荐另一个应用，跨源也行；对方 manifest 没写 id 时再补 &lt;code&gt;manifestid&lt;/code&gt;。元素内的子内容是不支持浏览器的回退内容，用 &lt;code&gt;'HTMLInstallElement' in window&lt;/code&gt; 做特性检测。结果通过三个事件返回：&lt;code&gt;promptaction&lt;/code&gt;（已安装）、&lt;code&gt;promptdismiss&lt;/code&gt; 和 &lt;code&gt;validationstatuschanged&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;为什么不能随便改样式？它继承了 Chrome「能力元素」（capability element）基类的保护：样式和尺寸受限，元素不在视口内或刚插入页面时不能激活，还会检查是否被裁切、遮挡或变形。按钮由浏览器绘制，浏览器能确认它可见、可读，于是可以把一次点击当作真实意图。自己做个按钮再接 &lt;code&gt;beforeinstallprompt&lt;/code&gt;，给不了这种保证。它和 Chrome 的 &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt;（2026 年 1 月随 Chrome 144 上线）、负责摄像头和麦克风的 &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt;（2026 年 6 月随 Chrome 151 上线）同属「能力元素」家族。&lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; 公开的限制就是设计师将要面对的规则：文字与背景对比度至少 3:1，透明度固定为 1，宽高和字号有浏览器设定的上下限，不许负 margin 和负 outline offset，变换只允许 2D 平移和等比缩放。早先通用 &lt;code&gt;&amp;lt;permission&amp;gt;&lt;/code&gt; 元素试验的数据也有：Zoom 的摄像头和麦克风采集错误减少 46.9%，Immobiliare.it 的定位流程成功率提升 20%。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://developer.chrome.com/static/blog/install-element-ot/image/fig1.png" alt="Chrome 开发者博客截图：install 元素生成的浏览器原生安装按钮" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;按钮由浏览器绘制，文案也由浏览器决定。来源：Chrome for Developers（2026 年 5 月 12 日）。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;对产品团队来说，一个行动号召（call to action）的归属变了。现在的安装入口五花八门：定制横幅、「下载 App」按钮、结账后的反复提醒，样式跟着品牌走，时机由增长实验决定。用了 &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt;，你仍然决定按钮放在哪、周围是什么，但控件本身怎么说话由浏览器定，用的是用户的浏览器语言；浏览器可以压制它，企业也能用策略关掉（&lt;code&gt;WebAppInstallByUserEnabled&lt;/code&gt; 或 &lt;code&gt;web-app-installation&lt;/code&gt; 权限策略）。一个目录页可以放多个安装按钮对应不同应用，这对套件产品和应用目录有用。&lt;/p&gt;
-
-&lt;p&gt;支持情况很不平衡。WebKit 明确反对：Marcos Caceres 5 月 26 日写道，安装会通过「添加到主屏幕」和系统集成带来额外能力，所以「必须经由浏览器 UI 发起，才能留在用户掌控之下」。Mozilla 没表态，TAG 评审仍未结束，TAG 正在起草一份关于安装提示的更宽泛结论。Intent 里还写明，Android 暂不支持，Android WebView 也没有计划。实际上只有桌面版 Chrome 和 Edge 能用，大多数移动用户看到的是你的回退内容。&lt;/p&gt;
-
-&lt;p&gt;落到设计系统上，有几条实际做法：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;先设计回退内容。&lt;/strong&gt;在 Safari、Firefox 和移动端，子内容（指向安装说明或应用商店的链接）就是全部体验。把 &lt;code&gt;&amp;lt;install&amp;gt;&lt;/code&gt; 当成这个链接的渐进增强。&lt;/li&gt;
-&lt;li&gt;给浏览器的文案留空间。文案长度和本地化你都管不了，别把它塞进按自家文案定宽的槽位里，用文字偏长的语言测一测。&lt;/li&gt;
-&lt;li&gt;别跟对比度规则较劲。压在头图上的低对比「幽灵按钮」很可能直接过不了检查，放到容易达到 3:1 的底色上。&lt;/li&gt;
-&lt;li&gt;把事件埋点接上。&lt;code&gt;promptdismiss&lt;/code&gt; 给出干净的拒绝信号，比从自定义弹窗推测放弃率靠谱。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;继 &lt;code&gt;&amp;lt;geolocation&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;usermedia&amp;gt;&lt;/code&gt; 之后，这是 Chrome 今年上线的第三个浏览器自有控件，&lt;code&gt;&amp;lt;camera&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;microphone&amp;gt;&lt;/code&gt; 也被列为可能的后续元素。每个设计系统的按钮清单里，来自浏览器、只能在限定范围内调样式的部分会越来越多。这算丢了品牌控制，还是换来了用户信任？Chrome 的试验数据偏向后者。WebKit 的意见则是：这个按钮根本就不该放在网页里。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://developer.chrome.com/blog/install-element-ot"&gt;https://developer.chrome.com/blog/install-element-ot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://chromestatus.com/release-notes/158"&gt;https://chromestatus.com/release-notes/158&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/nrQTNUDm3QI/m/4OA9Cl2eAgAJ"&gt;https://groups.google.com/a/chromium.org/g/blink-dev/c/nrQTNUDm3QI/m/4OA9Cl2eAgAJ&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://lists.w3.org/Archives/Public/public-webapps/2026AprJun/0010.html"&gt;https://lists.w3.org/Archives/Public/public-webapps/2026AprJun/0010.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://developer.chrome.com/blog/geolocation-html-element"&gt;https://developer.chrome.com/blog/geolocation-html-element&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://developer.chrome.com/blog/usermedia-html-element"&gt;https://developer.chrome.com/blog/usermedia-html-element&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">864b9bb0-aff0-54e1-8b9f-7b64d6001dc3</guid>
-      <pubDate>Tue, 24 Nov 2026 12:16:34 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://developer.chrome.com/blog/install-element-ot</link>
-      <enclosure url="https://developer.chrome.com/static/blog/install-element-ot/image/fig1.png" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 EN 301 549 v4.1.1 Puts WCAG 2.2 Into Europe's Accessibility Benchmark, but Its Safe Harbor Slips to January / EN 301 549 v4.1.1 把 WCAG 2.2 写进欧洲无障碍基准，法律安全港却推迟到明年一月</title>
-      <description>&lt;p&gt;Europe's accessibility rulebook has a new reference version, and it reaches into component libraries. ETSI published &lt;strong&gt;EN 301 549 v4.1.1&lt;/strong&gt; on September 2, 2026. It is the harmonised standard the Commission designated under standardisation request M/587 to support the European Accessibility Act (EAA), and its headline change is that the six new Level A and AA success criteria from WCAG 2.2 are now part of the European benchmark. The catch is timing. The standard only gives a legal presumption of conformity once it is cited in the Official Journal of the EU. Deque's Matthew Luken and Glenda Sims first projected that citation for around November 30, 2026; their post now carries an update moving the date to &lt;strong&gt;January 22, 2027&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.deque.com/wp-content/uploads/2026/09/09.08.26-EN-301-549-4.1.1-update-Blog-image.jpg" alt="Deque blog header image for EN 301 549 v4.1.1 update" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Deque's explainer on v4.1.1, published September 8 and later updated with the January 2027 citation projection. Source: Deque.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;The six criteria are a design-system checklist more than a content checklist:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;2.4.11 Focus Not Obscured (Minimum), AA&lt;/em&gt;: a focused element can't be fully hidden by sticky headers, cookie banners or chat launchers.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;2.5.7 Dragging Movements, AA&lt;/em&gt;: every drag (sliders, sortable lists, map pans, kanban cards) needs a single-pointer alternative.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;2.5.8 Target Size (Minimum), AA&lt;/em&gt;: 24 by 24 CSS pixels, or enough spacing to compensate.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;3.2.6 Consistent Help, A&lt;/em&gt;: help mechanisms appear in the same relative place across pages.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;3.3.7 Redundant Entry, A&lt;/em&gt;: don't make people re-type information they already gave in the same process.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;3.3.8 Accessible Authentication (Minimum), AA&lt;/em&gt;: no cognitive function tests (memorising, transcribing, puzzles) without an alternative; allow paste and password managers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Deque's advice is to start with the design system, because target size, drag alternatives and focus visibility are usually fixed once in a component and then inherited everywhere. That matches what this feed has tracked elsewhere. The Material 3 Expressive scroll time pickers covered on November 20 live or die on 2.5.7 and 2.5.8. The sticky headers and floating chat bubbles common in ecommerce are the classic 2.4.11 failure.&lt;/p&gt;
-
-&lt;p&gt;Two parts of v4.1.1 go beyond WCAG. The User Preferences requirements were "significantly reworked", meaning how software respects platform settings such as text size, contrast and colour. Clause 6, on real-time two-way communication, moves toward a "Total Conversation" model where voice, real-time text (RTT) and video work together in one session. That reaches calling, messaging, contact-centre and video-conferencing products, and Deque warns it may be a hard refactor. Its blunt conclusion: testing only against WCAG 2.2 AA will not be enough to meet EN 301 549 v4.1.1.&lt;/p&gt;
-
-&lt;p&gt;Why does a citation date matter to designers? Under the EAA, conformity with a cited harmonised standard is the safe harbor. Until the Official Journal cites v4.1.1, the only cited version is v3.2.1, referenced in 2021 under the Web Accessibility Directive. Vendors disagree on whether it gives presumption of conformity under the EAA, and v4.1.1 is the first version with annexes mapping the standard to the EAA. Meanwhile some national laws point to EN 301 549 without a version number, so a newly published version can become the working benchmark without any new legislation. Enforcement is not waiting either. The Caen injunction against Carrefour (June 4) relied on Carrefour's own audit showing 71.21% conformity to the French RGAA framework, which maps to EN 301 549. The court gave six months to fix carrefour.fr and the app, with a €500-per-day penalty for delay. That deadline falls in early December. Our thread check today found no public word yet on compliance or an appeal.&lt;/p&gt;
-
-&lt;p&gt;A practical sequence for the next two months:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Gap-scan components, not pages.&lt;/em&gt; Audit buttons, icon buttons, chips, sliders, drag handles, sticky bars and auth forms against the six criteria. Fixing a token for minimum hit area is cheaper than fixing 400 screens.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Add a drag alternative pattern to the library&lt;/em&gt;, such as move-up and move-down actions on sortable rows or arrow-key stepping on sliders, so product teams don't invent one per feature.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Specify scroll-padding&lt;/em&gt; wherever sticky UI exists so focused elements scroll clear of it.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Review sign-in flows&lt;/em&gt; for paste blocking, CAPTCHA-only gates and re-entry of shipping data.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Scope Clause 6 early&lt;/em&gt; if you ship any real-time communication feature, including support chat with a video option.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A caveat on sourcing: the January 22 date comes from Deque, a vendor, and EUR-Lex has not yet published a citation. Check the Official Journal before you set compliance dates. Still, the direction is set. WCAG 2.2 has been a W3C Recommendation since October 2023, and Europe's reference standard is catching up. Teams that built to WCAG 2.1 AA and called it done now have a dated gap list.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/"&gt;Deque: EN 301 549 v4.1.1 is final&lt;/a&gt;; &lt;a href="https://www.deque.com/blog/frances-major-court-decision-supporting-digital-accessibility-under-the-eaa/"&gt;Deque: France's court decision under the EAA (Carrefour)&lt;/a&gt;; &lt;a href="https://informations.handicap.fr/a-accessibilite-web-carrefour-condamne-par-la-justice-39309.php"&gt;Handicap.fr: Carrefour condamné&lt;/a&gt;; &lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/"&gt;W3C: What's new in WCAG 2.2&lt;/a&gt;; &lt;a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"&gt;EUR-Lex: Implementing Decision (EU) 2021/1339&lt;/a&gt;; &lt;a href="https://nda.ie/news/en301549-published"&gt;NDA Ireland: EN 301 549 published&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;欧洲无障碍规则有了新的参考版本，而且直接管到组件库。ETSI 于 2026 年 9 月 2 日发布了 &lt;strong&gt;EN 301 549 v4.1.1&lt;/strong&gt;。欧盟委员会通过标准化请求 M/587 指定它为支撑《欧洲无障碍法案》（European Accessibility Act, EAA）的协调标准（harmonised standard），这一版最大的变化是把 WCAG 2.2 新增的六条 A 级和 AA 级成功标准纳入欧洲基准。麻烦在时间上：标准只有在《欧盟官方公报》（Official Journal）上被引用后，才产生法律上的「合规推定」（presumption of conformity）。Deque 的 Matthew Luken 和 Glenda Sims 起初预计 11 月 30 日左右引用，文章后来更新，把日期改到了 &lt;strong&gt;2027 年 1 月 22 日&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.deque.com/wp-content/uploads/2026/09/09.08.26-EN-301-549-4.1.1-update-Blog-image.jpg" alt="Deque 关于 EN 301 549 v4.1.1 的博客头图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Deque 9 月 8 日发布的 v4.1.1 解读，后来补充了 2027 年 1 月的引用预期。来源：Deque。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这六条与其说是内容检查表，不如说是设计系统检查表：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;2.4.11 焦点不被遮挡（最低），AA&lt;/em&gt;：获得焦点的元素不能被吸顶栏、Cookie 横幅或聊天浮窗完全挡住。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;2.5.7 拖动操作，AA&lt;/em&gt;：所有拖动（滑块、可排序列表、地图平移、看板卡片）都要有单指针替代方式。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;2.5.8 目标尺寸（最低），AA&lt;/em&gt;：24×24 CSS 像素，或留出足够间距来补偿。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;3.2.6 一致的帮助，A&lt;/em&gt;：帮助入口在各页面的相对位置保持一致。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;3.3.7 冗余输入，A&lt;/em&gt;：同一流程里已经填过的信息，别让人再敲一遍。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;3.3.8 无障碍身份验证（最低），AA&lt;/em&gt;：不能只靠认知测试（记忆、转抄、拼图），要允许粘贴和密码管理器。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Deque 建议从设计系统入手：目标尺寸、拖动替代和焦点可见性，通常在组件里修一次，所有地方就都继承了。这和本 feed 其他追踪对得上。11 月 20 日写过的 Material 3 Expressive 滚动时间选择器，成败就系于 2.5.7 和 2.5.8；电商里常见的吸顶栏和悬浮聊天气泡，是 2.4.11 的典型失败案例。&lt;/p&gt;
-
-&lt;p&gt;v4.1.1 有两块超出了 WCAG。用户偏好（User Preferences）要求被「大幅改写」，管的是软件如何尊重系统层面的字号、对比度、颜色等设置。第 6 条款讲实时双向通信，转向「全会话」（Total Conversation）模型：语音、实时文字（RTT）和视频在同一会话里协同工作，覆盖通话、即时通讯、呼叫中心和视频会议产品，Deque 提醒这可能是一次艰难的重构。结论说得很直白：只按 WCAG 2.2 AA 测试，达不到 EN 301 549 v4.1.1 的要求。&lt;/p&gt;
-
-&lt;p&gt;引用日期跟设计师有什么关系？在 EAA 框架下，符合已被引用的协调标准就是「安全港」。公报引用 v4.1.1 之前，唯一被引用的版本是 v3.2.1，2021 年依据《网站无障碍指令》（Web Accessibility Directive）引用；它在 EAA 下是否产生合规推定，各家供应商说法不一，而 v4.1.1 是第一个带有 EAA 对照附录的版本。另外，有些国家的法律引用 EN 301 549 时没写版本号，新版一发布就可能成为实际基准，不需要任何新立法。执法也没在等。卡昂法院 6 月 4 日对家乐福下达的禁令，依据的是家乐福自己的审计：按法国 RGAA 框架（对应 EN 301 549）合规率只有 71.21%。法院给了六个月整改 carrefour.fr 和 App，逾期每天罚 500 欧元，期限落在 12 月初。今天的线索检查还没找到关于整改或上诉的公开消息。&lt;/p&gt;
-
-&lt;p&gt;接下来两个月，可以按这个顺序做：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;按组件做差距扫描，而不是按页面。用六条标准检查按钮、图标按钮、标签、滑块、拖动手柄、吸顶栏和登录表单。改一个最小点击区域的 token，比改 400 个页面便宜得多。&lt;/li&gt;
-&lt;li&gt;在组件库里加一个拖动替代模式，比如可排序行上的「上移／下移」操作、滑块上的方向键步进，免得每个功能团队各造一套。&lt;/li&gt;
-&lt;li&gt;有吸顶 UI 的地方都写明 scroll-padding，让获得焦点的元素滚出遮挡区。&lt;/li&gt;
-&lt;li&gt;检查登录流程：是否禁止粘贴、是否只有验证码一道门、是否要求重新填写收货信息。&lt;/li&gt;
-&lt;li&gt;只要产品里有实时通信功能（包括带视频选项的客服聊天），尽早评估第 6 条款的影响。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;来源上要打个折扣：1 月 22 日这个日期来自供应商 Deque，EUR-Lex 还没有公布引用。定合规时间表之前，请以官方公报为准。方向倒是很清楚：WCAG 2.2 自 2023 年 10 月起就是 W3C 推荐标准，欧洲的参考标准正在追上来。那些按 WCAG 2.1 AA 做完就收工的团队，现在拿到了一份有日期的差距清单。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/"&gt;https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.deque.com/blog/frances-major-court-decision-supporting-digital-accessibility-under-the-eaa/"&gt;https://www.deque.com/blog/frances-major-court-decision-supporting-digital-accessibility-under-the-eaa/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://informations.handicap.fr/a-accessibilite-web-carrefour-condamne-par-la-justice-39309.php"&gt;https://informations.handicap.fr/a-accessibilite-web-carrefour-condamne-par-la-justice-39309.php&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/"&gt;https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng"&gt;https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://nda.ie/news/en301549-published"&gt;https://nda.ie/news/en301549-published&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">e6d737ba-f613-551b-820a-3b5f69bb08cb</guid>
-      <pubDate>Tue, 24 Nov 2026 12:16:35 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/</link>
-      <enclosure url="https://www.deque.com/wp-content/uploads/2026/09/09.08.26-EN-301-549-4.1.1-update-Blog-image.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎨 Penpot 2.19 Turns Design Tokens Into a Library Asset: One Source File, Synced Everywhere, Local Imports Locked / Penpot 2.19 把设计 token 变成库资产：单一来源、全局同步、锁住本地导入</title>
-      <description>&lt;p&gt;Penpot 2.19 ("Is this it"; release notes dated October 28, with Elest.io's upgrade guide listing 2.19.0 on November 9 and 2.19.1 a day later) closes the biggest gap in its native design tokens: until now, tokens lived inside a single file. You can now &lt;strong&gt;store tokens in a shared library and use them in every connected file&lt;/strong&gt;, and they stay in sync with library updates the way components and colours already do. The same release adds fully remappable keyboard shortcuts, per-side stroke widths that accept tokens, a rebuilt path editor and an opt-in WebGL renderer.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://site-assets.plasmic.app/1a2ce4b94f458f50da140477aebd7cf1.jpg" alt="Penpot 2.19 'Is this it' release header artwork" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Penpot 2.19 "Is this it". Source: Penpot release notes.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Why does this matter more than a feature bump? Tokens that can't leave a file aren't a design system. They're a style sheet for one document. Teams using Penpot's tokens (first shipped natively in 2.6) had to copy token JSON between files or route everything through import/export, which is exactly the drift tokens are meant to prevent. Library-level tokens turn the token set into a governed asset with a single owner, the same model Figma uses for library variables.&lt;/p&gt;
-
-&lt;p&gt;The mechanics, per Penpot's help docs and the GitHub changelog, are stricter than "share and forget":&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You keep tokens in a shared library and &lt;em&gt;set that library as the tokens source&lt;/em&gt; of other files. The changelog describes it as "support for internal libraries and file sync for Design Tokens" (#9334), and the assets tab now shows a tokens-source indicator (#11365).&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Import is disabled while a library is the tokens source.&lt;/em&gt; A consuming file can't quietly overwrite the shared set with a local JSON drop. That's a governance decision built into the UI.&lt;/li&gt;
-&lt;li&gt;Renaming a referenced token in a library prompts a remap that "will also update references in files that use that library." Decline it and the connections break.&lt;/li&gt;
-&lt;li&gt;Set order still controls resolution (later sets override earlier ones), and themes are multidimensional, with one active theme per group. A fix (#12177) stops the theme selector from showing the editor message when the source is a library, which hints that themes are switched, not edited, downstream.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=47983c6669e0a87ea0ef3f9ede5a8b5c.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 interface showing design tokens shared from a library" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Sharing design tokens from a library in Penpot 2.19. Source: Penpot release notes.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Penpot's token format follows the W3C Design Tokens Community Group (DTCG) Format Module (&lt;code&gt;$value&lt;/code&gt;, &lt;code&gt;$type&lt;/code&gt;, &lt;code&gt;$description&lt;/code&gt;, dot paths becoming nested groups). The DTCG published its first stable version, 2025.10, on October 28, 2025, but Penpot's docs still describe the format as a draft and keep themes in a separate &lt;code&gt;$themes.json&lt;/code&gt; rather than the DTCG Resolver Module. If you plan to round-trip tokens with Style Dictionary or another tool, test themes specifically. Known limits remain: font-size tokens must be in px for now (rem is planned), line-height exists only inside the composite typography token, and tokens can't be applied to groups.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Shortcuts as a workflow feature.&lt;/strong&gt; Remappable shortcuts sound minor until you look at who uses Penpot. Designers switching from Figma or Sketch bring muscle memory, and non-US keyboard layouts have long collided with default bindings. 2.19 lets you reassign any shortcut, search by action or key combination, record a binding with conflict warnings, reset one or all, and export or import the set. The changelog's bug list (#11003 to #11032) fixed search not matching key combinations, Shift plus special characters capturing the wrong key, and an export entry that broke re-import. Export and import mean a team can standardise a shortcut profile the way it standardises tokens.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=aa9e85f21cdf847f1c361e9a6d39f156.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 keyboard shortcut customization panel" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Customizable keyboard shortcuts with search and conflict warnings. Source: Penpot release notes.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Agents are in this release too. The changelog adds permission checks to the Plugin API for tokens, shapes, variants, flows, layouts and user identity (#11137), validates the plugin postMessage channel by origin (#10968), and stops &lt;code&gt;connectLibrary&lt;/code&gt; from linking unpublished files (#12001). A community fix addressed a crash when navigating pages with the MCP plugin connected. As covered here on November 21 with Figma's MCP-client allowlists, design tools are adding gates for automated clients, and Penpot is closing the same holes from the plugin side. Self-hosters should note that 2.19 enables the Admin Console by default, which requires the &lt;code&gt;penpot-admin-console&lt;/code&gt; service, and that plugins relying on the old permissive behaviour may now be refused.&lt;/p&gt;
-
-&lt;p&gt;Takeaway: if you run Penpot, make one library file the token owner, connect product files to it, and treat the disabled import as a feature. The open question is how merges and branching will work when two teams need to change the shared set at once. Penpot hasn't documented that yet.&lt;/p&gt;
-
-&lt;p&gt;Sources: &lt;a href="https://penpot.app/release-notes/2-19-is-this-it"&gt;Penpot 2.19 release notes&lt;/a&gt;; &lt;a href="https://github.com/penpot/penpot/blob/develop/CHANGES.md"&gt;Penpot CHANGES.md&lt;/a&gt;; &lt;a href="https://help.penpot.app/user-guide/design-tokens/"&gt;Penpot help: Design tokens&lt;/a&gt;; &lt;a href="https://blog.elest.io/penpot-2-19-what-to-check-before-you-upgrade/"&gt;Elest.io: Penpot 2.19 upgrade notes&lt;/a&gt;; &lt;a href="https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/"&gt;DTCG: first stable version&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Penpot 2.19（代号「Is this it」，发布说明标注 10 月 28 日；Elest.io 的升级指南把 2.19.0 记在 11 月 9 日，2.19.1 隔天跟进）补上了原生设计 token 最大的短板：以前 token 只能待在单个文件里。现在可以&lt;strong&gt;把 token 存进共享库，所有关联文件都能使用&lt;/strong&gt;，库更新时自动同步，跟组件和颜色一样。同一版本还加入了可完全自定义的快捷键、可绑定 token 的分边描边宽度、重做的路径编辑器，以及可选开启的 WebGL 渲染。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://site-assets.plasmic.app/1a2ce4b94f458f50da140477aebd7cf1.jpg" alt="Penpot 2.19 发布头图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Penpot 2.19「Is this it」。来源：Penpot 发布说明。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这为什么不只是一次功能小更新？出不了文件的 token 算不上设计系统，顶多是某一份文档的样式表。Penpot 从 2.6 起原生支持 token，但团队只能在文件之间复制 token JSON，或者靠导入导出中转，而这正是 token 本该消除的漂移。库级 token 让整套 token 变成有唯一负责人的受管资产，和 Figma 的库变量（library variables）是同一个思路。&lt;/p&gt;
-
-&lt;p&gt;按 Penpot 帮助文档和 GitHub 变更日志，具体机制比「共享了就完事」严格：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;token 放在共享库里，然后在其他文件中&lt;em&gt;把这个库设为 token 来源&lt;/em&gt;。变更日志的说法是「为设计 token 支持内部库和文件同步」（#9334），资产面板也新增了 token 来源指示（#11365）。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;库作为 token 来源时，导入功能被禁用。&lt;/em&gt;下游文件没法悄悄用本地 JSON 覆盖共享集合，这是写进界面的治理规则。&lt;/li&gt;
-&lt;li&gt;在库里重命名一个被引用的 token，会提示重新映射，而且「也会更新使用该库的文件里的引用」。拒绝的话，引用关系就断了。&lt;/li&gt;
-&lt;li&gt;解析顺序仍由 set 的排列决定（靠后的覆盖靠前的）；主题是多维的，每个主题组同时只能激活一个。有个修复（#12177）让来源为库时主题选择器不再显示编辑提示，可见下游只能切换主题，不能编辑。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=47983c6669e0a87ea0ef3f9ede5a8b5c.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 中从库共享设计 token 的界面" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Penpot 2.19 从库共享设计 token。来源：Penpot 发布说明。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Penpot 的 token 格式遵循 W3C 设计 Token 社区组（Design Tokens Community Group, DTCG）的 Format Module：&lt;code&gt;$value&lt;/code&gt;、&lt;code&gt;$type&lt;/code&gt;、&lt;code&gt;$description&lt;/code&gt;，点号路径变成嵌套分组。DTCG 在 2025 年 10 月 28 日发布了首个稳定版 2025.10，可 Penpot 文档仍称之为草案，主题也放在单独的 &lt;code&gt;$themes.json&lt;/code&gt; 里，没用 DTCG 的 Resolver Module。要和 Style Dictionary 等工具来回同步，主题这部分务必单独测。已知限制还在：字号 token 目前只能用 px（rem 在计划中），行高只存在于复合排版 token 里，token 也不能应用到编组上。&lt;/p&gt;
-
-&lt;p&gt;快捷键看似小事，其实是工作流功能。看看谁在用 Penpot 就明白了：从 Figma 或 Sketch 转过来的设计师带着肌肉记忆，非美式键盘布局又一直和默认键位冲突。2.19 允许重新分配任意快捷键，按操作名或按键组合搜索，录制新键位并提示冲突，单个或全部重置，还能导出导入整套配置。变更日志里的一串修复（#11003 到 #11032）解决了搜索匹配不到按键组合、Shift 加特殊字符抓错键、导出项导致无法重新导入等问题。有了导出导入，团队可以像统一 token 一样统一一套快捷键方案。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://img.plasmic.app/img-optimizer/v1/img?src=aa9e85f21cdf847f1c361e9a6d39f156.jpg&amp;amp;f=webp&amp;amp;q=75" alt="Penpot 2.19 快捷键自定义面板" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;支持搜索和冲突提示的自定义快捷键。来源：Penpot 发布说明。&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这一版也有 agent 的影子。变更日志为 Plugin API 补上了针对 token、图形、变体、流程、布局和用户身份的权限检查（#11137），按来源校验插件的 postMessage 通道（#10968），并阻止 &lt;code&gt;connectLibrary&lt;/code&gt; 链接未发布的文件（#12001）。社区还修了一个连着 MCP 插件切换页面时崩溃的问题。11 月 21 日写 Figma 的 MCP 客户端白名单时就提到，设计工具正在给自动化客户端加闸门，Penpot 则从插件这一侧堵同样的漏洞。自托管用户注意：2.19 默认开启 Admin Console，需要部署 &lt;code&gt;penpot-admin-console&lt;/code&gt; 服务；依赖旧的宽松行为的插件，现在可能会被拒绝。&lt;/p&gt;
-
-&lt;p&gt;实际建议：如果你在用 Penpot，指定一个库文件作为 token 的唯一归属，把产品文件都连上去，被禁用的导入就当成一项功能。悬而未决的是：两个团队要同时改共享集合时，合并和分支怎么处理？Penpot 还没写文档。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://penpot.app/release-notes/2-19-is-this-it"&gt;https://penpot.app/release-notes/2-19-is-this-it&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/penpot/penpot/blob/develop/CHANGES.md"&gt;https://github.com/penpot/penpot/blob/develop/CHANGES.md&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://help.penpot.app/user-guide/design-tokens/"&gt;https://help.penpot.app/user-guide/design-tokens/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blog.elest.io/penpot-2-19-what-to-check-before-you-upgrade/"&gt;https://blog.elest.io/penpot-2-19-what-to-check-before-you-upgrade/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/"&gt;https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">5c4ef033-1098-5d60-8ee7-e4120d62c103</guid>
-      <pubDate>Tue, 24 Nov 2026 12:16:35 +0000</pubDate>
-      <category>product-design</category>
-      <link>https://penpot.app/release-notes/2-19-is-this-it</link>
-      <enclosure url="https://site-assets.plasmic.app/1a2ce4b94f458f50da140477aebd7cf1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 一顿吃掉十五人份的饭、生吞活猫，还被法军派去当「人肉信使」：18 世纪的塔拉尔是医学史上最离谱的多食症病例</title>
-      <description>&lt;p&gt;1790 年代，法国莱茵军团里有个士兵，一顿能吃掉给十五个劳工准备的饭：两个大肉馅饼、几盘油脂和盐、四加仑牛奶。吃完肚子胀得像气球，然后睡着了。醒来接着饿。他十七岁时体重只有约 45 公斤，一天却能吃下四分之一头小公牛，重量和他本人差不多。他叫塔拉尔（Tarrare），医学史上记载最离谱的「多食症」（polyphagia）病例。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/M%C3%A9moire_sur_la_polyphagie_I.jpg/500px-M%C3%A9moire_sur_la_polyphagie_I.jpg" alt="Percy 关于多食症的医学报告首页" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;军医 Pierre-François Percy 发表的《多食症报告》（Mémoire sur la polyphagie）——今天关于塔拉尔的几乎所有细节都出自这份文献。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;先说清楚来源，因为这个故事太像都市传说了。塔拉尔大约 1772 年生于里昂附近，1798 年死在凡尔赛，前后只活了二十六岁左右。关于他的一切，核心都来自一份文献：法军首席军医皮埃尔-弗朗索瓦·佩尔西（Pierre-François Percy）1804 年前后发表在《医学、外科、药学杂志》上的《多食症报告》。佩尔西是当时很有声望的军医，一般被认为是可信的观察者。但这依然是单一来源，后来的英文转述（1819 年伦敦期刊、1839 年 Millingen、2000 年代 Jan Bondeson 的医学奇闻集）又层层加料，像「吞下外科医生的怀表」这种情节，基本只在通俗版本里出现。下面尽量只讲能追溯到佩尔西报告的情节，可疑的部分会标出来。&lt;/p&gt;
-
-&lt;p&gt;塔拉尔十几岁时，家里实在养不起他，父母把他赶出了门。他跟着一伙小偷和妓女四处流浪，又给江湖郎中当暖场演员，当众吞软木塞、石头和活物招揽看客，后来辗转到了巴黎。1792 年第一次反法同盟战争爆发，他参了军。军粮给他四倍，不够；他就去翻垃圾堆、跟别人讨剩饭，最后饿到虚脱，被送进苏尔茨（Soultz-sous-Forêts）的军医院。&lt;/p&gt;
-
-&lt;p&gt;在医院里，第 9 骠骑兵团的军医库尔维尔（Courville）和佩尔西开始拿他做实验。他当着医生的面抓起一只活猫，用牙撕开，喝血，吃得只剩骨头，再把毛皮吐出来。蛇、蜥蜴、小狗也都吃过，鳗鱼不嚼，咬碎头直接吞。医生描述他的身体同样怪：饿着的时候腹部皮肤松垮到能绕腰一圈塞进裤子；吃饱后浑身发烫、大汗淋漓，散发出的气味「二十步以外都受不了」；嘴巴张开能同时塞下十二个鸡蛋或苹果。&lt;/p&gt;
-
-&lt;p&gt;接下来剧情突然拐进了谍战片。库尔维尔想：这人胃这么大，能不能当活体信使？医生先让塔拉尔吞下一只装着文件的小木盒，两天后盒子从排泄物里取出，文件还能看清，实验成功。亚历山大·德·博阿尔内将军（后来约瑟芬皇后的第一任丈夫）亲自批准，让他扮成德国农民穿越普鲁士防线，给被困在诺伊施塔特附近的一名法国上校送信。问题是塔拉尔一句德语都不会，在兰道城外很快就被抓了。挨了鞭子，起初不肯说，二十四小时后全招了。普鲁士人把他锁在厕所边，直到木盒排出来——距他吞下时大约三十个小时——里面只是一张假纸条，请收件人确认收到而已。普鲁士将军气到把绳套挂到他脖子上，最后还是心软，揍一顿放回了法军阵线。回来后他对佩尔西说，只要能治好这胃口，什么疗法都愿意试。&lt;/p&gt;
-
-&lt;p&gt;医生们试过鸦片酊、酒醋、烟草丸、大量软煮蛋，全无效果。故事的阴暗面在这里出现：他被撞见偷喝病人放血时接出的血，还有人看到他在医院停尸房里想啃尸体。后来医院里一个十四个月大的幼儿失踪，所有人都怀疑他。佩尔西没法、或者不愿替他辩护，塔拉尔被赶走，从此下落不明。这起幼儿失踪始终没有证据，也是整个故事里最该打问号的部分。&lt;/p&gt;
-
-&lt;p&gt;四年后的 1798 年，凡尔赛一家医院的 Tessier 医生写信给佩尔西：塔拉尔躺在他们这儿，快不行了。塔拉尔自称两年前吞了一把金叉子卡在肚里；佩尔西诊断为晚期结核。一个月后持续腹泻，死了。尸体腐烂得异常快，院里的外科医生一度拒绝解剖，最后在 Tessier 坚持下还是做了，看到了几样东西：食道宽得能直接望见胃，胃巨大、布满溃疡、几乎塞满整个腹腔，肝和胆囊都异常肿大，体内满是脓。金叉子没找到。&lt;/p&gt;
-
-&lt;p&gt;他到底得了什么病？两百多年过去依然没有答案。常见猜测包括甲状腺功能亢进（能解释怕热、多汗、吃不胖）、普拉德-威利综合征（Prader-Willi Syndrome）、失控的糖尿病，或者下丘脑、杏仁核一带受损导致饱腹信号失灵。问题是这些病都解释不了全部：甲亢不会让人吃活猫，普拉德-威利患者通常肥胖。没有遗体、没有组织样本，只剩一位军医用法语写下的观察记录，塔拉尔大概会永远是一个无法确诊的病例。&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Tarrare"&gt;https://en.wikipedia.org/wiki/Tarrare&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.mentalfloss.com/history/tarrare-greatest-glutton-all-time"&gt;https://www.mentalfloss.com/history/tarrare-greatest-glutton-all-time&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.ripleys.com/stories/tarrare"&gt;https://www.ripleys.com/stories/tarrare&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://history.howstuffworks.com/historical-figures/tarrare.htm"&gt;https://history.howstuffworks.com/historical-figures/tarrare.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">96d46a8d-d7a6-5806-b32f-4a8634312a96</guid>
-      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Tarrare</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/M%C3%A9moire_sur_la_polyphagie_I.jpg/500px-M%C3%A9moire_sur_la_polyphagie_I.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 物理学家在飞机过道上亲眼看见一颗发光球飘过，可它直到 2012 年才第一次被仪器拍下：球状闪电的光谱里藏着泥土</title>
-      <description>&lt;p&gt;1963 年 3 月 19 日午夜刚过，东方航空 EA 539 航班从纽约飞往华盛顿，途中被雷暴裹住，机身外一声巨响、一片强光。几秒钟后，坐在客舱前部的肯特大学电子学实验室研究者 Roger Jennison 看见一个直径二十多厘米的发光球从驾驶舱飘出来，沿着过道往后走，从他身边约五十厘米处经过，高度和路线始终不变。他后来把这件事写进了 1969 年的《自然》（Nature）。专业研究者亲眼看见、正式发表，可球状闪电（ball lightning）直到 2012 年才第一次被科学仪器完整拍下，相关论文 2014 年才见刊。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://scx1.b-cdn.net/csz/news/800a/2014/firstinstanc.jpg" alt="球状闪电示意图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;球状闪电的历史图像大多来自目击描述与绘画，直到 2012 年青海的一次偶然记录才有了光谱数据。图：Phys.org / Wikipedia&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;这东西难研究，难在它不讲道理。目击报告描述的通常是一个直径几厘米到一米的发光球体，持续几秒到十几秒，在离地不远处水平飘移，有时穿过窗户、钻进屋子，最后要么无声消失，要么砰地爆掉。它不配合任何实验时间表。1960 年美国橡树岭国家实验室做过一次问卷调查：1,962 名员工里有 5.6% 说见过，另一组 15,923 名联合碳化公司核部门员工里有 3.1%。这个比例被一些科普文章外推成「全球 5% 的人见过球状闪电」，外推过头了，但至少说明它并不罕见，只是从来没在镜头前出现过。&lt;/p&gt;
-
-&lt;p&gt;历史上的记录也不少。1638 年 10 月 21 日，英格兰德文郡的维德科姆（Widecombe-in-the-Moor）教堂在礼拜时遭雷暴袭击，目击者说一个约 2.4 米的火球闯进教堂，四人死亡、约六十人受伤。1753 年 8 月 6 日，圣彼得堡科学院的物理学家里赫曼（Georg Wilhelm Richmann）在雷暴中测量一根绝缘铁杆的带电情况时遭雷电身亡。在场的科学院雕刻师索科洛夫（Sokolov）事后描述，一团火球从仪器飞向里赫曼的额头，紧接着一声爆炸，把索科洛夫本人掀翻在地，连房门都被震脱了铰链。里赫曼因此成了历史上第一个死于电学实验的人，这起事故也常被当作最早有据可查的球状闪电记录。&lt;/p&gt;
-
-&lt;p&gt;转机来得很偶然。2012 年夏天，西北师范大学的岑建勇、袁萍、薛思敏团队在青海高原架设了两台无缝光谱仪（slitless spectrograph），本来是拍普通闪电的。7 月 23 日北京时间 21:54:59，一道云地闪电劈在约 900 米外，落点底部冒出了一个光球。团队的数码摄像机记录了全过程：从诞生到熄灭共 1.64 秒，平均水平速度约 8.6 米/秒，颜色依次从紫白变成橙色、白色，最后变红。另一台每秒 3,000 帧的高速相机只赶上最后 0.78 秒，拍了约 2,360 张图。为了确认距离，他们还用雷声和闪光之间 2.64 秒的时间差反算，结果 0.898 到 0.9 公里，和地图测量吻合。论文 2014 年 1 月发表在《物理评论快报》（Physical Review Letters）上。&lt;/p&gt;
-
-&lt;p&gt;关键在光谱。光球发出的光里，硅、铁、钙的谱线在几乎整个生命周期都清晰可见，而这三种元素正是土壤的主要成分。空气里的氮、氧谱线只是周期性出现，说明光球温度明显低于闪电通道本身（闪电先导约 15,000–30,000 K）。这和新西兰坎特伯雷大学 John Abrahamson 与 James Dinniss 2000 年在《自然》上提出的假说对上了：闪电击中地面，瞬间把土壤里的二氧化硅还原成硅蒸气，冲击波把这团蒸气抛到空中，硅纳米颗粒在空气中缓慢氧化发光，就成了一个会飘的「慢燃火球」。2007 年巴西伯南布哥联邦大学的 Antonio Pavão 和 Gerson Paiva 用电流电击硅片，确实在实验室里做出过能存在几秒的小光球。&lt;/p&gt;
-
-&lt;p&gt;但事情没那么简单。论文里有个奇怪的细节：光球亮度在稳定阶段以 99.4 Hz 的频率持续闪烁。研究者发现约 20 米外正好有一组 35 千伏的高压输电线，50 Hz 交流电的二次谐波恰好是 100 Hz。这意味着这颗光球可能受到输电线电磁场的影响，至于是不是「纯天然」的球状闪电，有人存疑。另一个问题是尺寸：论文给出的视直径约 5 米，远大于目击报告的典型尺寸，作者自己也强调视直径反映的是发光范围，不等于真实大小（摄像机一个像素对应约 1.1 米）。&lt;/p&gt;
-
-&lt;p&gt;更不用说硅蒸气假说解释不了钻进飞机机舱的光球。于是还有其他理论在竞争：苏联物理学家卡皮察（Pyotr Kapitsa）认为是大气中的微波驻波在维持一个等离子体空腔，以色列特拉维夫大学的 Eli Jerby 和 Vladimir Dikhtyar 用改装微波炉在实验室里打出过类似的火球；最出人意料的是「幻觉说」——2008 年 Vernon Cooray 与 Gerald Cooray 提出，以及后来奥地利因斯布鲁克大学的计算支持：近距离闪电产生的剧烈变化磁场可以像经颅磁刺激（Transcranial Magnetic Stimulation, TMS）一样刺激视觉皮层，让人「看见」光斑。可幻觉不会烧焦东西，也拍不进摄像机。&lt;/p&gt;
-
-&lt;p&gt;电磁空腔这条路线今年有了新进展。2026 年 4 月 16 日，中国科学院上海光学精密机械研究所宋立伟团队在《自然·光子学》（Nature Photonics）发表论文：他们用激光驱动金属丝产生太赫兹表面波，聚焦到纳米针尖上，再把超音速氩气流打进针尖附近。气体电离后形成一个球形空腔和高温等离子体外壳，腔内辐射压和外壳热压达成平衡，把太赫兹波「关」在里面。这颗实验室小球直径约一百微米，寿命约一百纳秒，团队按物理标度换算，对应自然界里直径几十厘米、持续数秒的球状闪电。它证明了「电磁波困在等离子体泡里」这种结构能自洽存在，至于野外的火球是不是这么来的，还得靠更多野外数据。&lt;/p&gt;
-
-&lt;p&gt;青海这 1.64 秒至今仍是唯一一份完整的天然球状闪电光谱，样本量是一。下一次它会不会恰好出现在另一台光谱仪面前，谁也说不准。&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://link.aps.org/doi/10.1103/PhysRevLett.112.035001"&gt;https://link.aps.org/doi/10.1103/PhysRevLett.112.035001&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://physics.aps.org/articles/v7/5"&gt;https://physics.aps.org/articles/v7/5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://phys.org/news/2014-01-instance-ball-lightning-captured-video.html"&gt;https://phys.org/news/2014-01-instance-ball-lightning-captured-video.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Ball_lightning"&gt;https://en.wikipedia.org/wiki/Ball_lightning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://founders.archives.gov/documents/Franklin/01-05-02-0064"&gt;https://founders.archives.gov/documents/Franklin/01-05-02-0064&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.news.cn/tech/20260416/b487a8967b70495f8fc00364844225d6/c.html"&gt;https://www.news.cn/tech/20260416/b487a8967b70495f8fc00364844225d6/c.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">f8e46796-34ed-5dc2-982a-4fd3d31254a3</guid>
-      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://link.aps.org/doi/10.1103/PhysRevLett.112.035001</link>
-      <enclosure url="https://scx1.b-cdn.net/csz/news/800a/2014/firstinstanc.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 一面镜子加一个纸箱，能让截肢者感到「不存在的手」松开了：拉马钱德兰的镜箱怎样骗过大脑，又到底有多管用</title>
-      <description>&lt;p&gt;一条手臂已经截掉多年，那只不存在的手却一直紧攥成拳，指甲像要掐进掌心，疼得睡不着——这是不少截肢者真实描述过的感受。药物和手术常常不管用，后来帮上一部分人的，是一面在五金店就能买到的普通镜子，外加一个开了两个洞的纸箱。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg" alt="治疗师在美国海军医疗中心用镜像疗法为截肢者治疗幻肢痛" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;2011 年美国海军拍摄：一位职业治疗助理用镜像疗法帮助截肢者处理幻肢痛。图：U.S. Navy / Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;先说幻肢（phantom limb）本身有多普遍：截肢者里大约 50%–80% 会感到失去的肢体还在，有人觉得它能动、能接电话、能挥手告别，也有很多人感到它在痛。十六世纪的法国军医帕雷（Ambroise Paré）就记录过病人抱怨已经锯掉的腿在疼；「幻肢」这个词则是美国神经科医生米切尔（Silas Weir Mitchell）在 1870 年代初给出的。长期主流解释是断端神经瘤在乱放电。可后来加拿大心理学家 Ronald Melzack 发现，一些天生没有手臂的人也会感到幻肢，问题显然出在大脑里。&lt;/p&gt;
-
-&lt;p&gt;真正把幻肢变成脑科学窗口的是加州大学圣地亚哥分校的拉马钱德兰（V. S. Ramachandran）。1991 年，美国国立卫生研究院的 Pons 等人发现，猴子手臂的感觉输入被切断多年后，大脑初级体感皮层里原本属于手的那块区域被旁边的「脸部区域」占领了。在潘菲尔德（Penfield）画的大脑体感地图上，脸和手恰好是邻居。拉马钱德兰据此推测：人也一样。他找来一位截肢病人（他在科普书里叫他 Tom），蒙上眼睛，用棉签碰他的脸颊。病人说：你碰到了我的大拇指——那只已经不存在的大拇指。拉马钱德兰在他脸上找到了一整张「幻手地图」，1992 年发表在《科学》（Science）上。&lt;/p&gt;
-
-&lt;p&gt;镜箱（mirror box）就是从这条思路长出来的。拉马钱德兰的解释是：很多人截肢前手臂已经因神经损伤瘫痪过一段时间，大脑一次次发出「动」的指令，眼睛却一次次报告「没动」，于是大脑学会了一种「习得性瘫痪」（learned paralysis），截肢之后，这种瘫痪被原封不动带进了幻肢。幻手僵在一个别扭姿势里，疼也动不了。那如果骗过眼睛呢？&lt;/p&gt;
-
-&lt;p&gt;装置简单得近乎可笑：一个开口纸箱，中间竖一面镜子。病人把健全的手伸进镜子一侧，把「幻手」放在另一侧，从镜面这边看过去，健全手的倒影正好落在幻手的位置上，看起来就像两只手都完好无缺。然后让病人两只手同时做对称动作。拉马钱德兰在 1996 年发表于《英国皇家学会会刊 B》（Proceedings of the Royal Society B）的论文里报告：十名上肢截肢者中，有六人看着镜中的手动起来时，真的感到幻手也在动。他在纪录片里讲过一位叫 Philip Martinez 的病人，1984 年摩托车事故后幻臂冻结了近十年，在镜子前第一次感到它动了，一闭上眼又冻住。这是研究者本人的叙述，属于个案，不是试验数据。&lt;/p&gt;
-
-&lt;p&gt;严格一点的证据要等到 2007 年。美国沃尔特·里德陆军医疗中心的 Chan 等人在《新英格兰医学杂志》（NEJM）发表一项小型随机试验：22 名下肢截肢、有幻肢痛的病人（最终 18 人完成，每组 6 人）分成三组，一组照镜子做动作，一组对着盖住的镜子做同样动作，一组闭眼想象幻脚在动，每天 15 分钟，持续四周。结果镜子组 6 人疼痛全部减轻；盖布镜子组有 3 人、想象组有 4 人疼痛反而加重。样本小得可怜，但对照设计说明起作用的确实是「看见」，而不只是动一动或想一想。&lt;/p&gt;
-
-&lt;p&gt;那它算不算「真的」有效？二十年后结论依然有点暧昧。2016 年一篇综述认为相关研究大多质量不高；2018 年的综述挑出 15 项质量较好的研究，结论是镜像疗法「看起来有效」；2025 年的一篇范围综述则指出各家做法五花八门，没有统一方案。它便宜、无创、几乎没有副作用，所以很多康复科照用不误，美国军方医院就给伊拉克和阿富汗回来的截肢士兵用过。这套逻辑和本栏写过的橡胶手错觉一脉相承：大脑对「身体在哪、长什么样」的判断，很大程度上是视觉说了算。&lt;/p&gt;
-
-&lt;p&gt;还有个问题至今没讲透：镜子到底改变了什么？拉马钱德兰的答案是视觉反馈「解开」了大脑里指令和反馈的死结，可这仍是一个解释框架，不是被直接测量到的机制。一面普通镜子，把「疼痛到底住在身体里还是脑子里」这个老问题重新摆上了桌面。&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/8637922/"&gt;https://pubmed.ncbi.nlm.nih.gov/8637922/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://cnl.salk.edu/~marni/science.html"&gt;https://cnl.salk.edu/~marni/science.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/its-all-done-with-mirrors-2008-05/"&gt;https://www.scientificamerican.com/article/its-all-done-with-mirrors-2008-05/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://sciencedaily.com/releases/2007/11/071123195218.htm"&gt;https://sciencedaily.com/releases/2007/11/071123195218.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.pbs.org/wgbh/nova/mind/note_nf5.html"&gt;https://www.pbs.org/wgbh/nova/mind/note_nf5.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Phantom_limb"&gt;https://en.wikipedia.org/wiki/Phantom_limb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8853e317-b4a2-5fd2-a24c-b0d3920f3bcc</guid>
-      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://pubmed.ncbi.nlm.nih.gov/8637922/</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 扛过了 1990 年的地震，却在五年后一个平静的夜里自己塌了：西西里诺托大教堂输给了柱子里的碎石和一块水泥板</title>
-      <description>&lt;p&gt;1990 年 12 月 13 日，西西里东南部发生了一场强震，诺托（Noto）大教堂挺住了。五年多以后，1996 年 3 月 13 日夜里，没有新的地震，这座巴洛克大教堂的穹顶、中殿屋顶和右侧一整排柱子突然自己塌了下来。幸好是深夜，没有人员伤亡。新闻传遍全世界，人们最先问的是：一座扛过地震的教堂，怎么会在一个普通的晚上倒下？&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://www.catholicculture.org/images/commentary/noto-cathedral-before.jpg" alt="诺托大教堂坍塌前的外观" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;1996 年坍塌之前的诺托圣尼科洛大教堂。图：Catholic Culture&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;诺托这座城本身就是地震的产物。1693 年 1 月 11 日，西西里东南部经历了可能是意大利史上最猛烈的一次地震，旧诺托城（今天的 Noto Antica）几乎被夷平。幸存者没有在废墟上重建，而是往东南方向挪了几公里，从零规划了一座全新的巴洛克城市。圣尼科洛大教堂是新城的核心，18 世纪初开工，建筑师 Rosario Gagliardi 设计，1776 年才由 Bernardo Labisi 收尾。整座城后来被意大利艺术评论家 Cesare Brandi 称为「石头花园」，2002 年随「瓦尔迪诺托晚期巴洛克城镇」列入世界遗产。&lt;/p&gt;
-
-&lt;p&gt;坍塌后，意大利民防部门牵头调查。答案藏在柱子里。设计团队在清理废墟时把每块碎石编号、拍照、测绘，又请加州大学伯克利分校的建筑史学者 Stephen Tobriner 做档案研究，拼出了这座教堂复杂而混乱的建造史。民防部门后来出版的专题报告写得很直白：坍塌的一个主要原因是中殿柱子所用材料「质量极差」，而这些缺陷来自当年仓促的震后重建，从内部一点点掏空了结构。外表看是规整的石灰岩，里面却是碎石填芯，强度远不如外观。&lt;/p&gt;
-
-&lt;p&gt;第二个嫌疑人来自 20 世纪 50 年代。那次翻修把中殿原有的木屋架和芦苇编制的轻质拱顶拆掉，换成了一块沉重而刚硬的钢筋混凝土平板，施工时还切掉了中殿尽头的一道大拱。本来就虚弱的柱子，头顶突然多了一大块水泥。1990 年的地震又在柱子里留下裂缝，没有及时修复，这些裂缝在之后几年里慢慢扩展。到了 1996 年 3 月，某根柱子终于撑不住，带着一连串构件倒了下去。损失清单很长：中殿南侧四根柱子、支撑穹顶的四根主墩之一、中殿整个屋顶和拱顶、穹顶鼓座的四分之三、穹顶和顶塔、南翼屋顶、大部分侧殿小穹顶。&lt;/p&gt;
-
-&lt;p&gt;接下来是一个在今天看来有点反潮流的决定：按原样、在原地重建（dov'era, com'era），而且用传统砌石，而不是钢筋混凝土。主持设计的是建筑师 Salvatore Tringali 和工程师 Roberto De Benedictis，项目的整体思路最初由修复结构专家 Antonino Giuffrè 定下，他不久后英年早逝，由两人接手完成。有几个细节很见功夫：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;原来每根柱子的基础是互不相连的独立墩子，新方案用一套砖石「倒拱」（archi rovesci）把它们连成整体，提高抗震能力。&lt;/li&gt;
-&lt;li&gt;调查发现左侧那排没倒的柱子有同样的先天缺陷，于是连它们也全部拆掉重砌。做法是先用支架顶住上方的拱，卸掉柱子的荷载，再把柱子一根根换掉。等新柱养护完成，再把上方墙体的重量转回到新柱上——这个卸载回传的过程花了整整 24 小时，全程用高精度仪器监测，生怕某处局部超载再塌一次。&lt;/li&gt;
-&lt;li&gt;50 年代的混凝土板被拆除，恢复砖砌大拱，但在拱上加了碳纤维加固，18 世纪的手艺和 21 世纪的材料混在一起。&lt;/li&gt;
-&lt;li&gt;拱顶用木制拱架（centine）一块块砌起来，方法和三百年前几乎一样。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;民防部门报告给出的工程量：七年施工，现场约 75,000 个工日，作业面积约 1,000 平方米，砌体约 19,500 立方米，用了大约 10 万块石材——本地的诺托石砌基础和柱子，帕拉佐洛石砌拱和鼓座，卡尔塔尼塞塔砂岩砌穹顶和小穹顶（部分媒体报道过 2.5 万立方米、15 万块的更大数字，这里以官方报告为准）。很多年轻工匠就是在这个工地上被老石匠手把手带出来的。2007 年 6 月 15 日，大教堂重新开放，教宗本笃十六世专门发来贺信；2011 年，画家 Oleg Supereko 的穹顶壁画和 Francesco Mori 的彩窗也完成了。&lt;/p&gt;
-
-&lt;p&gt;本栏写过的汉考克大厦和花旗大楼，问题出在现代工程的计算与细节上。诺托的教训更朴素：一座建筑扛住了一次地震，却输给两百多年前偷工减料的柱芯，外加几十年前一次好心办坏事的「现代化」改造。&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.protezionecivile.gov.it/static/7238a3392e69026aa11848e0a2247db8/Cattedrale_adornata.pdf"&gt;https://www.protezionecivile.gov.it/static/7238a3392e69026aa11848e0a2247db8/Cattedrale_adornata.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Noto_Cathedral"&gt;https://en.wikipedia.org/wiki/Noto_Cathedral&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://re.public.polimi.it/handle/11311/553198"&gt;https://re.public.polimi.it/handle/11311/553198&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.catholicculture.org/commentary/restoring-sacred/"&gt;https://www.catholicculture.org/commentary/restoring-sacred/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.vatican.va/content/benedict-xvi/it/letters/2007/documents/hf_ben-xvi_let_20070615_cattedrale-noto.html"&gt;https://www.vatican.va/content/benedict-xvi/it/letters/2007/documents/hf_ben-xvi_let_20070615_cattedrale-noto.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">8bd63dfd-34f8-5a8a-a758-86b62a46ed70</guid>
-      <pubDate>Tue, 24 Nov 2026 12:21:20 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://www.protezionecivile.gov.it/static/7238a3392e69026aa11848e0a2247db8/Cattedrale_adornata.pdf</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/CattedraleNoto-1.jpg/500px-CattedraleNoto-1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>🎲 穿白袍、戴鹤头木偶、一句话不许说：人类开着超轻型飞机给美洲鹤当了 15 年领航员，鹤学会了迁徙，却没学会当父母</title>
-      <description>&lt;p&gt;2001 年 10 月 17 日清晨，威斯康星州 Necedah 国家野生动物保护区上空，一架像三轮摩托装上三角翼的超轻型飞机起飞了，驾驶员从头到脚裹着白色罩袍。它身后排成一列跟着飞的，是七八只半大的美洲鹤（whooping crane）。48 天后，这支队伍飞完约 1,960 公里，落在佛罗里达州 Citrus County。领航员是人，教的是一条鹤们的祖先早已遗忘的迁徙路线。&lt;/p&gt;
-
-&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Operation_Migration_leads_five_whooping_cranes_%288186280600%29.jpg" alt="超轻型飞机带领五只美洲鹤飞行" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Operation Migration 的超轻型飞机带领美洲鹤飞行。鹤贴在机翼尾流里，能省不少力气。图：Wikimedia Commons&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;先交代一下这种鸟有多惨。美洲鹤是北美最高的鸟，站起来接近一米五，曾经数以千计。到了 1941 年，全世界野生的只剩 21 只。仅存的那一群每年从加拿大伍德布法罗飞到德州阿兰萨斯过冬，所有蛋都在一个篮子里。保护者想在东部再建一个会迁徙的种群作为保险，可人工孵出来的小鹤没有父母带路，根本不知道该往南飞。&lt;/p&gt;
-
-&lt;p&gt;解决办法来自动物行为学的老课题：印记（imprinting）。1935 年，奥地利动物学家洛伦兹（Konrad Lorenz）发现灰雁雏鸟会把出壳后最先看到的移动物体当成妈妈，他那只叫 Martina 的小雁跟着他满屋跑，晚上还睡在他卧室里。加拿大安大略的雕塑家、业余飞行员比尔·利什曼（Bill Lishman）把这个现象推到了极致：既然雏鸟会跟着第一个看见的东西走，那为什么不能是一架飞机？1988 年他让 12 只加拿大雁跟着他的超轻型飞机起飞；1993 年 10 月，他和搭档 Joe Duff 带着 18 只小雁从安大略的 Purple Hill 飞了约 680 公里到弗吉尼亚。16 只活过冬天，第二年春天有 13 只自己飞回了安大略，没人带路。1996 年的电影《伴你高飞》（Fly Away Home）就是照这个故事拍的，片中的飞行镜头很多是利什曼本人开着自己的飞机飞的。（印记也有反面教材：本栏写过的「狂暴美洲驼综合征」，就是奶瓶喂大的小驼把人当成同类，长大后把人当对手。）&lt;/p&gt;
-
-&lt;p&gt;1994 年，两人成立了 Operation Migration，先拿沙丘鹤练手，2001 年正式开始带美洲鹤。这件事的执行细节相当疯狂：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;工作人员必须穿全身白罩袍，戴网面兜帽和护目镜，手上套着鹤头造型的木偶，绝对不许在鹤附近说话——要让小鹤记住的是「鹤」和「飞机」，而不是人。&lt;/li&gt;
-&lt;li&gt;小鹤只有编号，没有名字，提醒所有人它们不是宠物。&lt;/li&gt;
-&lt;li&gt;蛋在孵化期间就会听到超轻型飞机引擎声的录音。&lt;/li&gt;
-&lt;li&gt;约 8 周大时，小鹤开始跟着在地面滑行的飞机跑；80 到 90 天大时，跟着它起飞。&lt;/li&gt;
-&lt;li&gt;每一段航程看天气和鸟的状态，短的 37 公里，长的 300 多公里，后面还有两架塞斯纳小飞机负责和空管协调。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2001 年首航带了 8 只，最后送到佛罗里达 7 只，路上有 23 天因为天气趴窝。冬天两只被短尾猫吃了。剩下 5 只在 2002 年春天没有任何人引导，自己飞回了威斯康星——这是一百多年来第一次有美洲鹤在北美东部完成迁徙。2006 年，第一只「迁徙种群」的野生雏鹤在美国孵出。&lt;/p&gt;
-
-&lt;p&gt;然后剧情急转。到 2015 年，Operation Migration 一共带飞了 186 只美洲鹤，耗资约 2,000 万美元。鹤学会了迁徙，却不会繁殖。Necedah 的鹤巢一到春天就被大群黑蝇（Simulium annulus 等）围攻，亲鸟被叮得弃巢。2011 到 2012 年研究人员用苏云金芽孢杆菌（Bti）压制黑蝇，孵化率翻了一倍，可最终能长大离巢的雏鹤还是少得可怜。到 2016 年初，自 2005 年以来野外只成功养大了 10 只雏鹤。美国鱼类及野生动物管理局（USFWS）在 2016 年 1 月 22 日宣布停止支持飞机引导，理由之一是这种高度人工的养育方式可能让鹤缺了点什么，做不好父母。2018 年 Operation Migration 宣布解散。&lt;/p&gt;
-
-&lt;p&gt;东部种群如今还在，但在缓慢萎缩。国际鹤类基金会 2026 年 6 月的统计是 64 只，其中 15 只是野外孵化的；2001 年以来累计放归了 363 只，到今年初还活着的不到两成。现在的做法改为「父母养育」：让圈养的成年鹤自己带小鹤，再放到没有黑蝇的湿地。西部那一群倒是争气，2025–26 年冬天在德州海岸估计有约 540 只。&lt;/p&gt;
-
-&lt;p&gt;回头看，印记确实能教会一只鸟飞两千公里，却教不会它怎么当一只鹤。&lt;/p&gt;
-
-&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Operation_Migration"&gt;https://en.wikipedia.org/wiki/Operation_Migration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://airandspace.si.edu/stories/editorial/operation-migration"&gt;https://airandspace.si.edu/stories/editorial/operation-migration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.fws.gov/story/2001-12/longest-flight-endangered-whooping-cranes-and-ultralight-aircraft-successfully-ends"&gt;https://www.fws.gov/story/2001-12/longest-flight-endangered-whooping-cranes-and-ultralight-aircraft-successfully-ends&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.usgs.gov/publications/examination-multiple-working-hypotheses-address-reproductive-failure-reintroduced"&gt;https://www.usgs.gov/publications/examination-multiple-working-hypotheses-address-reproductive-failure-reintroduced&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://savingcranes.org/news/resources/whooping-crane-eastern-population-update-june-2026/"&gt;https://savingcranes.org/news/resources/whooping-crane-eastern-population-update-june-2026/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Bill_Lishman"&gt;https://en.wikipedia.org/wiki/Bill_Lishman&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">ab442ecf-f906-50da-9c6e-66002e9785e0</guid>
-      <pubDate>Tue, 24 Nov 2026 12:21:21 +0000</pubDate>
-      <category>random-knowledge</category>
-      <link>https://en.wikipedia.org/wiki/Operation_Migration</link>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/c/ce/Operation_Migration_leads_five_whooping_cranes_%288186280600%29.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>🌉 黑五湾区免费去处：Ghirardelli 点灯、Tea Garden 免费一小时、East Bay 公园免费日</title>
       <description>&lt;p&gt;感恩节过完是黑色星期五（11/27），商场人挤人，但湾区这天有一堆不用花钱的去处。下面是 SF Funcheap 11/27 当天列表里我挑出来的，都标了 FREE。&lt;/p&gt;
@@ -1746,6 +925,848 @@ video:muted + .controls .muted-badge { display: block; }
       <category>mindset-growth</category>
       <link>https://pubmed.ncbi.nlm.nih.gov/42127104/</link>
       <enclosure url="https://cms-cdn.lmu.de/media/newsroom-content-hub/photos/newsroom_stock/schachspiel_entscheidungen_imago1071218916_1_1_format_s.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 心衰患者练瑜伽式心脏康复有用吗？Yoga-CaRe HF（AHA 2026）约 3,500 人：生活质量多改善约 8 分、6 分钟步行多走约 25 米，但死亡/住院/卒中复合终点没有显著降低</title>
+      <description>&lt;p&gt;心衰患者能不能靠瑜伽康复？Yoga-CaRe HF 是 2026 年美国心脏协会科学年会（AHA，芝加哥）11 月 7 日的晚间突破性报告之一，答案分两半：生活质量和步行能力确实改善了，死亡、再住院、卒中的复合终点没有显著降低。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;试验设计。&lt;/strong&gt;这是一项多中心、开放标签、终点盲法评估的随机试验，在印度 16 家医院纳入约 3,492 名射血分数降低型心衰（HFrEF）成人，对照组是“强化常规照护”。干预组接受由受过训练的瑜伽与自然疗法医师按统一方案带领的瑜伽式心脏康复。主要研究者包括 Dorairaj Prabhakaran 等人（据 AHA 年会材料与媒体报道）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结果。&lt;/strong&gt;3 个月时，瑜伽组在明尼苏达心衰生活质量问卷（MLHFQ）上比对照组多改善约 8.1 分（P&amp;lt;0.001，另一来源写作 8.06 分），6 分钟步行距离多走约 25.5 米。据主办方与研究者说法，这些差异能维持到 24 个月。复合终点（全因死亡、全因住院、卒中）方面，一份报道给出瑜伽组 21% 对对照组 22.8%，校正后 HR 约 0.90（95% CI 0.79–1.05），区间跨过 1，没有统计学显著性。按方案分析中，练得最勤的人首次心脏事件更少，但这是探索性亚组，练得勤的人本来就可能更健康、依从性更高，不能当作因果证据。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么读这组数字。&lt;/strong&gt;MLHFQ 的“最小临床意义差异”常被引用为 5 分左右，8 分的改善从患者感受上不算小，但开放标签设计意味着受试者知道自己在练瑜伽，问卷这类主观结局天然容易偏乐观；6 分钟步行是更客观的指标，25 米的增益在心衰人群里处于有意义的边缘。事件数没有降下来，也提醒大家：瑜伽是康复的补充，不是替代药物与器械治疗的东西。另一点是外推性：干预由专业人员按标准流程带领，社区里随便报的瑜伽课不一定等价；试验在印度做，饮食、药物可及性、合并症谱与欧美不同。&lt;/p&gt;
+
+&lt;p&gt;这个结果和本订阅里此前的几条线是一致的：11 月 25 日那篇乳腺癌幸存者远程运动试验同样是“主观与功能指标有改善、硬终点或主要结局不显著”。运动类干预在不同疾病里反复出现这种形态，也许说明它的价值主要落在“活得怎样”而不是“活多久”，当然这需要更长随访才能下结论。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信息来源的局限。&lt;/strong&gt;以上数据来自 AHA 的会议新闻材料、TCTMD、Patient Care 以及研究者的新闻稿，我没有读到同行评审全文，未找到期刊版本；各来源对事件数的措辞侧重不同（AHA 材料强调生活质量，研究者新闻稿强调事件数下降的数字趋势），其中 21% 对 22.8% 与 HR 0.90 只来自单一报道，请视作待核对。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://tctmd.com/news/yoga-care-qol-and-functional-gains-seen-hfref-patients"&gt;TCTMD&lt;/a&gt;；&lt;a href="https://professional.heart.org/en/-/media/PHD-Files/Meetings/Scientific-Sessions/2026/scinews/YOGA-CARE-FINAL.pdf"&gt;AHA 科学年会新闻材料&lt;/a&gt;；&lt;a href="https://www.patientcareonline.com/view/yoga-based-cardiac-rehab-improves-quality-of-life-in-heart-failure-trial"&gt;Patient Care&lt;/a&gt;；&lt;a href="https://clinicaltrials.gov/study/NCT07817589"&gt;ClinicalTrials.gov NCT07817589&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://tctmd.com/news/yoga-care-qol-and-functional-gains-seen-hfref-patients"&gt;https://tctmd.com/news/yoga-care-qol-and-functional-gains-seen-hfref-patients&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://professional.heart.org/en/-/media/PHD-Files/Meetings/Scientific-Sessions/2026/scinews/YOGA-CARE-FINAL.pdf"&gt;https://professional.heart.org/en/-/media/PHD-Files/Meetings/Scientific-Sessions/2026/scinews/YOGA-CARE-FINAL.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.patientcareonline.com/view/yoga-based-cardiac-rehab-improves-quality-of-life-in-heart-failure-trial"&gt;https://www.patientcareonline.com/view/yoga-based-cardiac-rehab-improves-quality-of-life-in-heart-failure-trial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://clinicaltrials.gov/study/NCT07817589"&gt;https://clinicaltrials.gov/study/NCT07817589&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e0c00937-4bc9-5be4-b8aa-df7753a59559</guid>
+      <pubDate>Thu, 26 Nov 2026 12:08:53 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://tctmd.com/news/yoga-care-qol-and-functional-gains-seen-hfref-patients</link>
+    </item>
+    <item>
+      <title>🌿 🌿 癌症治疗后用正念还是太极？JCO 2026 MATCH 试验 587 人：两者都让疲劳改善约 3.4–3.7 分，只有太极/气功改善睡眠，两组无差异（部分随机、等待组对照）</title>
+      <description>&lt;p&gt;癌症治疗结束后，很多人留下的是疲劳、疼痛和睡不好，而不是肿瘤本身。JCO 2026 年 9 月发表的 MATCH 研究（Mindfulness And Tai Chi for Cancer Health）把两种身心练习放在一起比：正念癌症康复（MBCR）与太极/气功，各自对照等待组。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;设计很特别。&lt;/strong&gt;这是“部分随机的患者偏好比较有效性试验”：587 名已完成主要治疗、至少中度心理困扰的癌症幸存者，约 64% 自己选了想练的项目，其余被随机分配。通讯作者团队来自卡尔加里大学（Linda Carlson 为主要研究者之一）。论文标题大意为“正念与太极用于癌症治疗后困扰人群的睡眠、疲劳与疼痛”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结果。&lt;/strong&gt;两种干预都让疲劳改善约 3.4–3.7 分（据二手报道，95% CI 约 0.25–7.08 与 0.10–6.73），疼痛对生活的干扰也都下降；睡眠质量只有太极/气功组改善。两组之间在所有结局上没有显著差异，也就是说“哪个更好”这个问题在这项试验里没有答案。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么要谨慎读。&lt;/strong&gt;第一，区间下限贴近 0（0.10、0.25），效应估计很不精确；作者自己也提醒要看整体模式，而不是盯某个点估计。第二，对照是等待组，没有活动对照，改善里有多少来自“被关注、定期出门、有人带着练”，分不出来。第三，大多数人是自选项目，选择偏倚会让组间比较不干净，这也是它被称作“比较有效性”而非“疗效”试验的原因。第四，睡眠只在太极组显著，但“一个显著、一个不显著”不等于两组有差异，直接比较并不显著。另外据报道，作者披露了书籍版税及与太极中心的关系，利益冲突需要留意。&lt;/p&gt;
+
+&lt;p&gt;为什么还值得看？因为它给了一个现实的结论：疲劳是癌症幸存者最难缓解的症状之一，药物手段有限，这类课程成本低、没有明显危害，且两种风格都有效，患者可以按喜好选。这与 11 月 25 日乳腺癌幸存者远程运动试验形成对照：那项试验的主要认知结局没有差异，而这里的症状类结局有改善，说明“练什么、测什么”决定了结论的形状。&lt;/p&gt;
+
+&lt;p&gt;局限：我读到的是 ASCO Post、CURE、EurekAlert、ecancer 的报道，没有取到 JCO 全文，具体数值请以论文为准。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://ascopost.com/news/september-2026/mindfulness-and-tai-chi-may-improve-symptoms-after-cancer-treatment/"&gt;ASCO Post&lt;/a&gt;；&lt;a href="https://www.curetoday.com/view/mindfulness-and-tai-chi-help-improve-fatigue-and-pain-after-cancer-treatment"&gt;CURE&lt;/a&gt;；&lt;a href="https://www.eurekalert.org/news-releases/1144061"&gt;EurekAlert&lt;/a&gt;；&lt;a href="https://clinicaltrials.gov/study/NCT02801123"&gt;ClinicalTrials.gov NCT02801123&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://ascopost.com/news/september-2026/mindfulness-and-tai-chi-may-improve-symptoms-after-cancer-treatment/"&gt;https://ascopost.com/news/september-2026/mindfulness-and-tai-chi-may-improve-symptoms-after-cancer-treatment/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.curetoday.com/view/mindfulness-and-tai-chi-help-improve-fatigue-and-pain-after-cancer-treatment"&gt;https://www.curetoday.com/view/mindfulness-and-tai-chi-help-improve-fatigue-and-pain-after-cancer-treatment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1144061"&gt;https://www.eurekalert.org/news-releases/1144061&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://clinicaltrials.gov/study/NCT02801123"&gt;https://clinicaltrials.gov/study/NCT02801123&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b34b0521-855b-58db-94c7-434787d10e21</guid>
+      <pubDate>Thu, 26 Nov 2026 12:08:54 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://ascopost.com/news/september-2026/mindfulness-and-tai-chi-may-improve-symptoms-after-cancer-treatment/</link>
+      <enclosure url="https://res.cloudinary.com/broadcastmed/image/fetch/c_limit,w_1200,q_auto,f_auto/https://ascopost.com/media/ojlbnyvk/tai-chi.jpeg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌿 🌿 作息不规律伤心脏吗？AHA 2026 摘要：All of Us 10,362 人手环数据，睡眠时间逐夜波动大者严重心脏事件风险高 20–23%（观察性、未经同行评审）</title>
+      <description>&lt;p&gt;睡得多不多之外，睡得“规不规律”也在被盯上。AHA 2026 科学年会（摘要 MDP2618，Viet NMT 等，波士顿儿童医院/哈佛医学院）用美国 NIH “All of Us” 计划里的可穿戴设备数据，给出了又一条观察性证据。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据。&lt;/strong&gt;分析纳入 10,362 名基线无心血管和代谢疾病的成年人，累计超过 100 万个夜晚的睡眠记录，中位随访约 3.7 年。据 AHA 新闻稿，约 6 个月内入睡/起床时间逐夜波动更大的人，严重心脏事件（心梗、卒中、心衰）风险高 20%–23%；每晚完整睡眠周期数更多，房性心律失常风险低 28%；异常偏长的睡眠周期与心梗或卒中风险高 55% 相关。模型校正了年龄、性别、种族、教育、收入、吸烟、饮酒、癌症和心理健康状况。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么理解。&lt;/strong&gt;这是未经同行评审的会议摘要，我没拿到摘要全文和确切 HR，20%–23% 来自新闻稿概述。AHA 志愿专家 Marie-Pierre St-Onge 的评价很直接：数据还不足以说明睡眠规律性本身独立导致心血管病。三个原因：一，消费级手环估算睡眠分期，不是睡眠实验室的脑电；二，随访只有 3.7 年，早期未诊断的疾病可能先打乱作息（反向因果）；三，作息不规律常伴随轮班、慢性压力、收入不稳定，校正不一定到位。“睡眠周期更长风险反而更高”这一条尤其值得保留怀疑，因为设备对周期的划分误差大。&lt;/p&gt;
+
+&lt;p&gt;这条线并不孤立。11 月 8 日这里记录过北芬兰队列：睡得少又入睡时间不规律的人 MACE 风险约翻倍。方向一致，但都是观察性，也都没证明“把作息变规律就能降风险”。目前还没有一项以规律作息为干预的大型试验给出硬终点。&lt;/p&gt;
+
+&lt;p&gt;实用角度：固定起床时间比固定入睡时间更容易做到，也是 CBT-I 里最常用的锚点之一；这不需要等 RCT，因为成本几乎为零。但别指望它是心脏保护的“证明手段”，证据级别只到“值得做、没有害处”。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://newsroom.heart.org/news/is-a-consistent-sleep-schedule-important-to-heart-health"&gt;AHA Newsroom&lt;/a&gt;；&lt;a href="https://www.eurekalert.org/news-releases/1149481"&gt;EurekAlert&lt;/a&gt;；&lt;a href="https://www.epocrates.com/online/article/are-sleep-schedule-swings-bad-for-the-heart"&gt;Epocrates&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://newsroom.heart.org/news/is-a-consistent-sleep-schedule-important-to-heart-health"&gt;https://newsroom.heart.org/news/is-a-consistent-sleep-schedule-important-to-heart-health&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.eurekalert.org/news-releases/1149481"&gt;https://www.eurekalert.org/news-releases/1149481&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.epocrates.com/online/article/are-sleep-schedule-swings-bad-for-the-heart"&gt;https://www.epocrates.com/online/article/are-sleep-schedule-swings-bad-for-the-heart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">5748e150-97ac-597e-a0d5-091bc6249986</guid>
+      <pubDate>Thu, 26 Nov 2026 12:08:54 +0000</pubDate>
+      <category>healthy-life</category>
+      <link>https://newsroom.heart.org/news/is-a-consistent-sleep-schedule-important-to-heart-health</link>
+      <enclosure url="https://iprsoftwaremedia.com/67/files/20179/59f65ad42cfac22ba50dcbf2_Woman%20sleeping%20%28V%29/Woman%20sleeping%20%28V%29_hero.jpg?v=6d375cce-4570-4db1-9a33-906903cf8c8f" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Caltrain Holiday Train 12/5：怎么上车、哪几站有免费活动，装饰车还能坐到 12/13</title>
+      <description>&lt;p&gt;Caltrain 每年的 Holiday Train 今年定在 &lt;strong&gt;12 月 5 日（周六）&lt;/strong&gt;，在电动车队上跑一趟旧金山到圣荷西的来回。票 11 月 18 日中午已经开卖，南下和北上两班分开卖。这趟车从 2002 年跑到现在，电气化之后改成了车厢内体验：装饰过的车厢，Ensemble Continuo 现场唱圣诞歌，有人念节日故事，每人一个小礼物袋。&lt;/p&gt;
+
+&lt;p&gt;时刻表我直接抄过来，Palo Alto 的人最关心这个：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;南下：旧金山 4:20pm → Millbrae 4:36 → San Mateo 4:42 → &lt;strong&gt;Palo Alto 4:57&lt;/strong&gt; → Santa Clara 5:12 → San Jose Diridon 5:19&lt;/li&gt;
+&lt;li&gt;北上：Diridon 6:11pm → Santa Clara 6:18 → &lt;strong&gt;Palo Alto 6:34&lt;/strong&gt; → San Mateo 7:04 → Millbrae 7:09 → 旧金山 7:25&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;每个方向停五站，对应沿线的社区活动：Millbrae 点灯、San Mateo 的 Winter Wonderland 和 Santa Mateo、Santa Clara 的 South Bay Historical Railroad Society、圣荷西的 Christmas in the Park。旧金山、San Mateo、Palo Alto、Diridon 四个站在列车到达之前有免费娱乐，不用票也能进。但要注意：&lt;strong&gt;只有这四站允许持票上车&lt;/strong&gt;，没票的人只能在站台看热闹。想拍照的话，Palo Alto 站是离 Menlo Park 最近的一个，骑车或者坐一站就到。&lt;/p&gt;
+
+&lt;p&gt;今年有个新东西：装饰车&lt;strong&gt;会一直在正常线路上跑到 12 月 13 日&lt;/strong&gt;，不用买特别票，碰上就能坐。Caltrain 说会在社交媒体上预告它去哪些活动，提到的有 Redwood City 的 Hometown Holidays 和 Mountain View 的 German Holiday Market。也就是说周六票抢不到也没关系，下周末还有机会。&lt;/p&gt;
+
+&lt;p&gt;今年的受益方是 Ronald McDonald House Bay Area（Palo Alto 和 Oakland 都有房子，服务重症儿童家庭）。去参加站台活动的话，可以带一份没拆封的新礼物放进 Comfort and Joy 项目的收集点。&lt;/p&gt;
+
+&lt;p&gt;顺带一提，之前整理的 12/4 Palo Alto 点灯和 Menlo Park 点灯（按首个周五的惯例推测是 12/4，官方还没公布 2026 日期）都在前一天晚上。想把整个周末排满的话：周五逛两个点灯，周六下午去 Palo Alto 站台，傍晚上车。周六那天 Caltrain 的常规班次会和 Holiday Train 共用轨道，出行前看一眼 Service Alerts。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.caltrain.com/news/all-aboard-holiday-train-saturday-dec-5"&gt;Caltrain 官方公告（2026-11-16）&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.caltrain.com/news/all-aboard-holiday-train-saturday-dec-5"&gt;https://www.caltrain.com/news/all-aboard-holiday-train-saturday-dec-5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e8b65dca-13b6-53d9-963c-9571c65375c1</guid>
+      <pubDate>Thu, 26 Nov 2026 12:08:57 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.caltrain.com/news/all-aboard-holiday-train-saturday-dec-5</link>
+      <enclosure url="https://www.caltrain.com/files/images/2026-11/CT_HolidayTrain2026_Webtile_510x510.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 开了 98 年的 Menlo Park Cook's Seafood 一夜关门：45 名员工凌晨 3 点收到短信</title>
+      <description>&lt;p&gt;住在 Menlo Park 一带的人，大概都路过过 El Camino 上那家 Cook's Seafood。10 月 28 日夜里，它和 Pleasanton 分店同时关了。The Almanac 的报道里，员工是在 10 月 29 日凌晨 3 点左右收到老板 Roy Crumrine Jr. 发的群发短信：&amp;ldquo;经过 98 年，我们在 10 月 28 日（周三）关闭了所有 Cook's Seafood 门店。&amp;rdquo;短信里说，不想让大家第二天白跑一趟，因为楼已经锁了。两家店共约 45 人，同时被解雇，没有任何提前通知。&lt;/p&gt;
+
+&lt;p&gt;这家店的历史很长。1928 年，一个当过警察的 Bill Cook 开了这家店；1940 年代卖给 Robert Rahe；1955 年 15 岁的 Roy Crumrine 来洗碗，后来 23 岁时从 Rahe 遗孀手里买下了生意。Roy 和儿子 Mike 一起经营到 2018 年 Roy 去世，近几年由 Roy Jr. 管。2025 年才开了 Pleasanton 分店，从 2017 年报批到开业拖了八年。&lt;/p&gt;
+
+&lt;p&gt;最让人想不通的是时机。在店里干了 44 年的 Steve Whitaker 和干了 55 年的 Dan Dowler 都说，生意一直不错，感恩节、圣诞节正好是旺季，一二月因为复活节前后也不差。Menlo Park 和 Pleasanton 的租约要到 2028 年才到期，各自还有两次五年的续约权；地皮属于 Rahe 家族。Crumrine 兄弟没有回应记者的多次联系。&lt;/p&gt;
+
+&lt;p&gt;对员工来说，麻烦在后面：个人物品还锁在店里，PTO 什么时候发也没说。一位在店里干了 14 年的员工，家里有两个小孩，只收到了那条短信。老顾客也懵了，有人开车去买海鲜才发现门上贴着告示，有人一周去三四次，说鱼一向新鲜、店员懂行。有常客提到 Kepler's Books 和 Guild Theatre 当年都靠社区募款活下来，早知道可以先开个 GoFundMe。Dowler 的儿子 Chris 想接手把店保下来，目前只是想法。&lt;/p&gt;
+
+&lt;p&gt;生活上的实际影响是，Peninsula 少了一个能买整只 Dungeness 蟹、鲑鱼卵的老牌鱼铺。这个季节正好是 Dungeness 蟹季，想买活蟹的话，Ranch 99 和 Mitsuwa 的海鲜柜台、旧金山 Fisherman's Wharf 一带的鱼贩还在，不过我没有核对各家目前的蟹价和营业时间，出门前请自己查一下。如果你想帮前员工，目前报道里没有看到官方的募款渠道，别随便转发不明链接。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.almanacnews.com/menlo-park/2026/11/04/abrupt-closure-of-98-year-old-cooks-seafood-rattles-menlo-park-community/"&gt;The Almanac / Peninsula Foodist（2026-11-04）&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.almanacnews.com/menlo-park/2026/11/04/abrupt-closure-of-98-year-old-cooks-seafood-rattles-menlo-park-community/"&gt;https://www.almanacnews.com/menlo-park/2026/11/04/abrupt-closure-of-98-year-old-cooks-seafood-rattles-menlo-park-community/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">987d2b44-8bb7-542c-9cba-6b18eb84628a</guid>
+      <pubDate>Thu, 26 Nov 2026 12:08:57 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.almanacnews.com/menlo-park/2026/11/04/abrupt-closure-of-98-year-old-cooks-seafood-rattles-menlo-park-community/</link>
+      <enclosure url="https://www.almanacnews.com/wp-content/uploads/2026/11/Roy-Sr-Juan-Madero-Mike-Crumrine-Derek-Sawyer-Steve-Whitaker-Tom-Crumrine-Dan-Dowler.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🌉 Millbrae 新开 Nyonya House：Hakkasan 前主厨的平价马来菜，叻沙 $22、肉骨茶 $28 起</title>
+      <description>&lt;p&gt;Millbrae 的 Broadway 上多了一家马来餐厅：&lt;strong&gt;Nyonya House&lt;/strong&gt;，11 月 18 日开业，地址 979 Broadway, Millbrae，原来 Naked Fish 的位置（那家 2024 年关了）。每天 11am–3pm、5–10pm 营业，Instagram 是 @nyonyaworld。60 个座位，有全套酒吧。从 Menlo Park 过去，Caltrain 到 Millbrae 站，再走一小段就到。&lt;/p&gt;
+
+&lt;p&gt;主厨 Ho Chee Boon 的履历有点吓人：全球餐饮集团 Hakkasan 出身，现在旧金山的 Empress by Boon 是 $118 的广式 prix fixe。他住在 Millbrae，这次反过来做一家朴素的店，多数主菜 $20–30。他 13 岁时在马来西亚一家餐厅打工，凌晨 2:30 起床去 Port Klang 买鱼，顺便喝一碗肉骨茶，这个记忆就是店的起点。他说想做的是传统版本，不改良、不精致化。&lt;/p&gt;
+
+&lt;p&gt;菜单大概是这样（价格来自报道）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;午餐：炒粿角、怡保香浓咖喱干捞烧肉面 $18–22；咖喱叻沙 $22–25；巴生肉骨茶 $28–58，按份量分档；椰浆饭 $25–28。&lt;/li&gt;
+&lt;li&gt;晚餐加开：黑醋或红烧猪脚 $28、香蕉叶烤海鲜 $28–42、参巴虎虾或鱿鱼 $25–28、亚参鲈鱼 $25–38，用的是加州 rockfish 和 sea bream。&lt;/li&gt;
+&lt;li&gt;点心：娘惹糕 $2.50–3.80（ondeh ondeh、seri muka、kuih lapis 都有）、apam balik $3、kaya toast $10，配白咖啡 $5–7。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;装修也有心思：墙纸模仿娘惹 kebaya 的刺绣，天花板挂着伞，吊灯做成鸟笼形，是马来西亚养鸣禽的文化。午餐时入口处的桌子上会摆一排彩色的娘惹糕。&lt;/p&gt;
+
+&lt;p&gt;我的看法：湾区马来菜一直不算多，South Bay 有几家，Peninsula 北段很少，价格带又正好落在&amp;ldquo;能常去&amp;rdquo;的范围。肉骨茶 $28 起不算便宜，但这类汤是按份量定价的，两个人点小份加一份叻沙应该够。我还没去过，菜的实际水准要等开业几周后的评价，先当成一个值得排进周末的候选。想一次吃到娘惹糕的话，建议午餐时间去，晚上不确定还摆不摆。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.almanacnews.com/san-mateo-county/2026/11/17/renowned-bay-area-chef-to-debut-nyonya-house-a-malaysian-restaurant-in-millbrae/"&gt;The Almanac / Peninsula Foodist（2026-11-17）&lt;/a&gt;。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.almanacnews.com/san-mateo-county/2026/11/17/renowned-bay-area-chef-to-debut-nyonya-house-a-malaysian-restaurant-in-millbrae/"&gt;https://www.almanacnews.com/san-mateo-county/2026/11/17/renowned-bay-area-chef-to-debut-nyonya-house-a-malaysian-restaurant-in-millbrae/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">3d6c013a-53c2-5102-b4bf-582bd55f51e2</guid>
+      <pubDate>Thu, 26 Nov 2026 12:08:57 +0000</pubDate>
+      <category>bay-area-life</category>
+      <link>https://www.almanacnews.com/san-mateo-county/2026/11/17/renowned-bay-area-chef-to-debut-nyonya-house-a-malaysian-restaurant-in-millbrae/</link>
+      <enclosure url="https://i0.wp.com/www.almanacnews.com/wp-content/uploads/2026/11/banana-leaf-rockfish.jpg?fit=1920%2C1080&amp;ssl=1" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 西班牙大选前最后一轮民调：PP加Vox预计187席、过半门槛176席，Vox涨到57席，只有官方CIS仍让社会党领先</title>
+      <description>&lt;p&gt;西班牙周日（11月29日）投票，最后一轮公开民调几乎一致指向同一个结果：右翼的人民党（PP）加极右翼Vox拿下议会多数。El País和Cadena SER委托40dB做的最终跟踪调查（11月10至21日，访问7500人）显示，PP得票31.8%，社会工人党（PSOE）30.9%，Vox 17.3%。折算成席位：PP 130席，Vox 57席，PSOE 124席，Frente Amplio等左翼和地区联盟合计9席。PP加Vox是187席，过半门槛是176席。&lt;/p&gt;
+
+&lt;p&gt;得票率上PP和PSOE只差不到一个百分点，席位差距却有六席，PP加Vox与PSOE之间更是差出六十多席，这是选区制和票仓分布的结果。Vox才是真正的变量：17.3%的得票率比2023年的12.4%高出约5个百分点，议席从33席涨到57席。每一个从PP转向Vox的选民，都在把Feijóo推向一个绕不开Vox的组阁方程。我们11月24日写过PP领跑、或与Vox组阁的格局，最后一周的民调没有改变它。&lt;/p&gt;
+
+&lt;p&gt;别的机构的数字是同一个方向，细节略有不同。Politico的民调汇总里，PP约32%，PSOE 29%，Vox 18%。Target Point的最后一轮预测里，Vox 17.4%、59至63席，在竞选期间掉了1.3个百分点，PP从中受益，PP加Vox合计186至194席。ABC委托GAD3的调查给PP 131席、PSOE 110席、Vox 63席，右翼合计194席。离群的是SW Demoscopia的跟踪：PSOE 134席居首，PP加Vox 173席，差3席才过半数。&lt;/p&gt;
+
+&lt;p&gt;还有一个必须单独说的数字：官方的社会学研究中心（CIS）11月的最后一次调查给了PSOE 34.4%，比其他机构都高得多。The Local的评价是，CIS是唯一一直把社会党放在前面的机构，需要“打个折扣”看待。另一方面，据报道Sánchez在2023年7月曾翻转过不利的民调，所以这一次也没人敢把话说满。&lt;/p&gt;
+
+&lt;p&gt;民调背后是什么情绪？竞选的调子越来越个人化：左翼选民为了阻止Vox和Abascal而动员，右翼选民则为了赶走Sánchez而集结。房租追上青年月薪、两大工会罢工，是这次选举的经济底色，我们此前已经写过。&lt;/p&gt;
+
+&lt;p&gt;结果怎么落地，要看两件事。第一，PP加Vox能否稳过176席。如果真是SW Demoscopia那样的173席，Sánchez仍有机会靠左翼联盟守住阵地。第二，即使右翼过半，PP是否愿意让Vox进入内阁，还是只在议会里给支持，这决定新政府的政策方向。&lt;/p&gt;
+
+&lt;p&gt;具体的节点：11月29日周日投票，当晚开票；之后的组阁谈判才是真正的悬念。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.thelocal.es/20261124/latest-who-do-polls-say-will-win-the-spanish-election"&gt;The Local Spain：最终民调汇总&lt;/a&gt;；&lt;a href="https://brusselssignal.eu/2026/11/spains-right-holds-its-majority-in-final-poll-one-week-before-the-election/"&gt;Brussels Signal&lt;/a&gt;。Target Point、GAD3、SW Demoscopia的数字来自检索摘要，未逐一核对原始报告。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.thelocal.es/20261124/latest-who-do-polls-say-will-win-the-spanish-election"&gt;https://www.thelocal.es/20261124/latest-who-do-polls-say-will-win-the-spanish-election&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://brusselssignal.eu/2026/11/spains-right-holds-its-majority-in-final-poll-one-week-before-the-election/"&gt;https://brusselssignal.eu/2026/11/spains-right-holds-its-majority-in-final-poll-one-week-before-the-election/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a43cd625-4252-5aff-9c95-2977ce6af016</guid>
+      <pubDate>Thu, 26 Nov 2026 12:10:50 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.thelocal.es/20261124/latest-who-do-polls-say-will-win-the-spanish-election</link>
+      <enclosure url="https://assets.thelocal.com/cdn-cgi/rs:fit:1200/quality:75/plain/https://apiwp.thelocal.com/wp-content/uploads/2026/11/AFP__20261123__D8E82Y8__v2__MidRes__SpainPoliticsElectionGovernmentCampaign.jpg@webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 热PCE加新关税，纳指盘中暴跌4.6%又收回大半：道指翻红，核心PCE 3.3%、12月加息概率近98%</title>
+      <description>&lt;p&gt;11月25日（周三），美股吃下了三重冲击：10月PCE通胀偏热，政府提议对14个贸易伙伴加征新关税，AI股的抛售还没停。Nasdaq综合指数盘中一度重挫4.6%，S&amp;amp;P 500最深跌了3.2%，道指曾下挫超过1100点。然后风向变了。收盘时道指涨164点（0.3%）至50,183，S&amp;amp;P 500仅跌18.31点（0.3%）至7,182.78，Nasdaq跌0.6%收在23,585.80。一天之内，从崩盘边缘走回接近平盘。&lt;/p&gt;
+
+&lt;p&gt;先看让市场慌的那份数据。商务部公布，10月PCE物价指数环比涨0.3%，同比3.8%，都符合LSEG经济学家预期；9月同比从最初的3.6%上修到3.7%。真正的坏消息在核心：核心PCE同比3.3%，高于预期的3.2%，9月是3.1%。Navy Federal Credit Union首席经济学家Heather Long说，10月核心PCE是三年来最高，美国的通胀问题“比能源冲击更大”，美联储12月必须动手，1月大概率还要再来一次。&lt;/p&gt;
+
+&lt;p&gt;消费端的信号偏弱。经通胀调整后的支出10月持平，储蓄率从9月的3.6%回升到4.1%。Long的判断是“谨慎的消费者回来了”，这个假日季会是个到处找折扣的假日季。同日公布的第三季度GDP初值年化增长4.3%，市场预期为3.5%；当周首次申请失业金人数18.9万，低于预期的20万。增长强、就业稳、通胀高，这套组合给了美联储继续加息的底气。&lt;/p&gt;
+
+&lt;p&gt;加息预期因此更满了。CME FedWatch显示，12月8至9日会议加息25个基点（把联邦基金利率目标区间推到4%至4.25%）的概率为97.8%，一周前是93.5%。我们11月24日写过Bessent公开喊停、Waller提到50个基点的争论；现在看，焦点已经不是“加不加”，而是“加多少、之后还加不加”。美联储主席Kevin Warsh反复强调以PCE衡量的2%目标，他不太可能因为股市一天的震荡改口。&lt;/p&gt;
+
+&lt;p&gt;关税是另一条线。据报道，政府提议对中国、欧盟、日本等14个主要贸易伙伴加征最高20%的新关税，计划明年生效。不同来源对它是已定案还是提案说法不一，目前只能按提案看待。它叠在热通胀之上，市场的第一反应是：进口成本再抬一档，美联储的活更难干。Nvidia和Micron开盘后跌得最狠，Nasdaq 100一度比历史收盘高点低了20%，擦着熊市线。&lt;/p&gt;
+
+&lt;p&gt;为什么收盘能收回来？来源给出的解释很朴素：AI股的抛售在下午失去了动能，跌幅随之收窄。这不等于趋势反转。我们11月23日记录的“纳指抹平全年涨幅”并没有被一天的反弹修复，只是这一天没有再破新低。更稳妥的读法是：这是一次剧烈的日内洗牌，还谈不上底部确认。&lt;/p&gt;
+
+&lt;p&gt;债市给了一点参照。据Seoul Economic Daily，10年期美债收益率已从10月初5.3%的峰值回落到约4.9%，债券交易者本月增持了130万份中期看涨期权，大约是反向头寸增幅的六倍，说明有人在押注加息周期不会无限延长。股市则被两头夹击：利率向上，AI估值向下。&lt;/p&gt;
+
+&lt;p&gt;接下来的节点很具体：周四感恩节休市，周五提前收盘；12月1至3日国会听证；12月8至9日FOMC。在那之前，每一份通胀和就业数据都会被放大。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.foxbusiness.com/economy/october-2026-pce-inflation"&gt;Fox Business：10月PCE&lt;/a&gt;；&lt;a href="https://en.sedaily.com/economy/2026/11/26/us-growth-hits-43-percent-as-jobs-hold-firm-raising"&gt;Seoul Economic Daily：GDP与就业&lt;/a&gt;；&lt;a href="https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"&gt;CNBC市场直播&lt;/a&gt;；&lt;a href="https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"&gt;Yahoo Finance市场直播&lt;/a&gt;。盘中和收盘数字各来源口径略有差异，以收盘数据为准。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.foxbusiness.com/economy/october-2026-pce-inflation"&gt;https://www.foxbusiness.com/economy/october-2026-pce-inflation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.sedaily.com/economy/2026/11/26/us-growth-hits-43-percent-as-jobs-hold-firm-raising"&gt;https://en.sedaily.com/economy/2026/11/26/us-growth-hits-43-percent-as-jobs-hold-firm-raising&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"&gt;https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">b9266bfb-9ee1-5f93-b79f-4b1914684478</guid>
+      <pubDate>Thu, 26 Nov 2026 12:11:18 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.foxbusiness.com/economy/october-2026-pce-inflation</link>
+      <enclosure url="https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/11/0/0/shopper-grocery-store.jpg?ve=1&amp;amp;tl=1" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 Anthropic上市四个交易日后收盘跌破83美元发行价：周二收跌6.5%，三家券商仍给“买入”、目标价120至150美元</title>
+      <description>&lt;p&gt;Anthropic（纳斯达克代码ANT）11月24日周二收盘跌6.5%，收在83美元发行价之下。据CNBC报道，报道没有给出确切收盘价。四个交易日前，它以111.50美元开盘，首日收在97.17美元，募资813亿美元，是史上最大的一次IPO。从开盘价算，已经回吐了大半涨幅。&lt;/p&gt;
+
+&lt;p&gt;这条下坡路并不平滑。据MarketScreener和TradingKey等媒体报道，上市第二天（11月20日），股价盘中最低探到83.10美元，离发行价只差一毛钱，从首日收盘算跌幅一度接近15%。周二那一下，收盘才真正落到83美元之下。&lt;/p&gt;
+
+&lt;p&gt;卖压的来源不难找。一是大环境：Nvidia、AMD、Intel等芯片股和CoreWeave、Nebius等新云公司周二盘中同步下跌，AI板块的抛售仍在延续（我们11月23日、24日写过这条线）。二是筹码结构：CNBC称这次IPO认购火爆，但约一半下单的机构投资者最终一股没分到，这些人现在并不急着追买。有分析师把这个局面类比成2012年Facebook上市，当年Facebook在第二天跌破38美元发行价，之后继续下探。&lt;/p&gt;
+
+&lt;p&gt;华尔街分析师的态度却几乎一边倒。覆盖集中在周一、周二启动：Wedbush周一给出“跑赢大盘”，目标价120美元，称Anthropic将“抓住一个特别大的可触达市场”；Oppenheimer周二给出“跑赢大盘”，目标价150美元，理由是企业级AI支出增长、算力效率改善、多芯片策略，以及企业业务“较少依赖消费者补贴”；Canaccord Genuity周二给出“买入”，目标价135美元，称它是“AI时代最重要的企业技术特许经营权之一”，同时也点出基础设施承诺和竞争差异化方面的风险“异常之大”。MarketScreener统计的11位分析师共识为买入，平均目标价约120美元。&lt;/p&gt;
+
+&lt;p&gt;这里要多想一层。新股上市后券商集中发布看多报告是常见的节奏，目标价比83美元的发行价高出四到八成，本身并不构成独立验证。真正的检验在两处：一是上市后的第一份财报，二是锁定期到期。目前没有来源给出财报日期，我们会继续跟踪。&lt;/p&gt;
+
+&lt;p&gt;对这个feed来说，ANT已经成了AI估值的温度计。11月19日首日涨17%时，它被当作“AI叙事还在”的证据；几天后跌破发行价，同一只股票又成了“AI泡沫在松动”的证据。公司没变，故事换了方向。短期内它更可能跟着Nvidia和整个AI板块摆动，而不是跟着自己的业绩摆动。&lt;/p&gt;
+
+&lt;p&gt;具体的观察点：周五感恩节后的提前收盘日里，83美元能不能收回；12月1至3日国会听证和12月8至9日FOMC前后，AI板块是否继续承压。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"&gt;CNBC：Anthropic收于发行价之下&lt;/a&gt;；&lt;a href="https://www.marketscreener.com/news/anthropic-tumbles-near-ipo-price-in-second-day-of-trading-ce785ed3da8af425"&gt;MarketScreener：第二天&lt;/a&gt;；&lt;a href="https://www.tradingkey.com/analysis/stocks/us-stocks/262315899-anthropic-stock-falls-14-percent-nears-83-ipo-price-tradingkey"&gt;TradingKey&lt;/a&gt;。第二天的跌幅与最低价各来源略有出入，已按多数口径表述。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"&gt;https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.marketscreener.com/news/anthropic-tumbles-near-ipo-price-in-second-day-of-trading-ce785ed3da8af425"&gt;https://www.marketscreener.com/news/anthropic-tumbles-near-ipo-price-in-second-day-of-trading-ce785ed3da8af425&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tradingkey.com/analysis/stocks/us-stocks/262315899-anthropic-stock-falls-14-percent-nears-83-ipo-price-tradingkey"&gt;https://www.tradingkey.com/analysis/stocks/us-stocks/262315899-anthropic-stock-falls-14-percent-nears-83-ipo-price-tradingkey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9f20e59f-fd85-5f87-b333-9038bb4f87a6</guid>
+      <pubDate>Thu, 26 Nov 2026 12:11:19 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html</link>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/108555283-1795099651358-gettyimages-2305298415-AFP_D7ZG87L.jpeg?v=1795099694&amp;amp;w=1920&amp;amp;h=1080" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>📰 伊朗下令霍尔木兹海峡“逐日”关闭：革命卫队称三艘护航油轮触雷、联合海事中心称未证实，卡塔尔首相赴华盛顿斡旋</title>
+      <description>&lt;p&gt;伊朗陆军总司令Amir Hatami 11月23日（周一）命令海军“一天接一天地”继续封锁霍尔木兹海峡，直到华盛顿满足德黑兰的条件。据Euronews报道，他称这一命令来自最高领袖Mojtaba Khamenei，并警告如果美国“再发动一场战争”，打击将“更严厉、更具毁灭性，且没有地理限制”。同一天，革命卫队宣称三艘油轮在美军空中护航下触雷起火。&lt;/p&gt;
+
+&lt;p&gt;这个说法目前无法证实。联合海事信息中心（JMIC）在覆盖11月19至21日的通报里记录了114次“在美国协助下”的通行，并说触雷一事未获确认。也就是说，海峡没有完全断航，但每一次通行都带着风险，伊朗的宣示本身就是在抬高保险和航运成本。革命卫队还警告船东，美军护航“不能替代遵守海事规定”，言下之意是：想走，先过伊朗这一关。&lt;/p&gt;
+
+&lt;p&gt;伊朗到底要什么？Hatami说的是“七项条件”，Euronews没有列出具体内容。外交部的表述更具体一些：解除美国的海上封锁、取消“残酷且非法的制裁”，以及落实6月谅解备忘录的其他条款。议会议长Ghalibaf是伊斯兰堡谈判的伊方代表团团长，他的话说得很死：七项条件落实之前，“没有行动，也没有谈判”，并提到要用“军事手段”打破封锁。外交部发言人Baghaei则称伊朗有权使用一切可用手段自卫。&lt;/p&gt;
+
+&lt;p&gt;斡旋在另一边进行。卡塔尔首相Mohammed bin Abdulrahman Al Thani周一在华盛顿见了国务卿Rubio和副总统Vance，目的是重启谈判。他对Rubio说，该地区“承受不起美伊之间紧张局势的再度升级”。据美联社，与Vance的会面只有约10分钟。卡塔尔既是调解人，又驻着中东最大的美军基地和中央司令部前方总部，这个位置让它没有太多选择。&lt;/p&gt;
+
+&lt;p&gt;美国一侧的信号偏硬。Trump周日说，对伊朗的军事打击可能在新年后恢复。CBS援引知情人士称，美国和以色列正在考虑在短期内对伊朗发动新一轮攻击，数月的间接谈判没能换来重开海峡的停火协议。NBC引述Trump的话，说停火处在“靠生命维持系统”的状态。4月7日宣布停火以来，已有超过8000艘商船通过海峡，大约一半有美军护航，这是目前最能说明局面的一个数字：停火是真的，但脆弱得很。&lt;/p&gt;
+
+&lt;p&gt;和我们11月23日写的伊朗袭击巴林连起来看，脉络是一致的：伊朗近日多次打击美军在巴林和科威特的基地，同时用封锁换取谈判筹码；美国用海上封锁和制裁施压，并把“恢复打击”的时间表挂在新年之后。双方都在等对方先眨眼。&lt;/p&gt;
+
+&lt;p&gt;要盯的点：Trump所说的“新年后”之前，卡塔尔能不能把双方拉回谈判桌；JMIC下一期通报里的通行数字是否下降，那会是封锁是否真的生效的最直接证据。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"&gt;Euronews：伊朗下令海峡“逐日”关闭&lt;/a&gt;；&lt;a href="https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/"&gt;CBS News：美以考虑新一轮打击&lt;/a&gt;。8000艘商船和停火日期来自CBS直播页面摘要，未单独核实。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"&gt;https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/"&gt;https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">0be43b74-d1c3-57bd-9334-8cb515d69cf7</guid>
+      <pubDate>Thu, 26 Nov 2026 12:11:19 +0000</pubDate>
+      <category>daily-news</category>
+      <link>https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks</link>
+      <enclosure url="https://images.euronews.com/articles/stories/10/00/54/79/1536x864_cmsv2_d09bc77c-4395-5a65-8782-b47673e3e794-10005479.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Declarative Dragging Wins a UIST 2026 Best Paper: List the States a Drag Can Reach, and the Library Builds the Interaction / 声明式拖拽获 UIST 2026 最佳论文：写出拖拽能到达的状态，交互由库来生成</title>
+      <description>&lt;p&gt;Drag-and-drop is the interaction everyone sketches in Figma and quietly drops in code. A paper that won one of six Best Paper awards at UIST 2026 (Detroit, Nov 2-5) offers a different way to build it. In &lt;a href="https://declarative-dragging.github.io/"&gt;Declarative Dragging&lt;/a&gt;, Joshua Horowitz and Jeffrey Heer (University of Washington) and Andrew Blinn (University of Michigan) argue that the author of a draggable element should only have to say which future states of the data a drag can reach. The engine works out drop zones, previews and animation from that list.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://declarative-dragging.github.io/how-it-works-four.webp" alt="Diagram: a model state renders to a view, candidate target states are rendered speculatively, and the dragged element's position in each becomes a drop zone" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;How it works: target states are rendered ahead of time, and where the dragged element lands in each rendering becomes a drop zone. Source: Horowitz, Blinn and Heer, UIST 2026.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The core trick is speculative rendering.&lt;/strong&gt; Take a Scrabble rack holding [A, B, C]. If you drag B, the reachable states are [B, A, C], [A, B, C] and [A, C, B]. Today you would hand-build three drop targets and the geometry to match. With the open-source library &lt;a href="https://github.com/declarative-dragging/dragology"&gt;Dragology&lt;/a&gt; (TypeScript, React, SVG only), you hand those three arrays to the engine. It renders each through your normal render function, reads where B ends up in each rendering, and uses those positions as targets. Between states it interpolates the SVG attribute by attribute: positions, colours, transforms, paths.&lt;/p&gt;
+
+&lt;p&gt;Behaviour then comes from a small set of composable operators instead of flags. &lt;code&gt;d.closest(states)&lt;/code&gt; snaps to the nearest target. Adding &lt;code&gt;.withFloating()&lt;/code&gt; detaches the dragged element so it follows the pointer while the other items move aside to preview the drop. &lt;code&gt;d.between(...)&lt;/code&gt; slides smoothly through the space between targets. &lt;code&gt;d.vary(state, param)&lt;/code&gt; uses numerical optimisation to drag continuous values such as a meeting's start time, with constraints attached. &lt;code&gt;snapping.whenFar(free)&lt;/code&gt; gives you the block-editor pattern: snap into a slot when close, position freely when not. Escape hatches like &lt;code&gt;dropTarget&lt;/code&gt; (drag to a trash bin) and &lt;code&gt;switchToStateAndFollow&lt;/code&gt; (drag a new shape out of a toolbar) cover the drags that create or destroy things.&lt;/p&gt;
+
+&lt;h3&gt;What the evidence shows&lt;/h3&gt;
+
+&lt;p&gt;The paper's evaluation is a hands-on qualitative study with 13 developers (90-120 minute sessions, pair-coded tutorial, reflexive thematic analysis). The authors note the sample skews toward people already interested in HCI and programming languages. Participants were struck by how little code was needed. One said a rotary dial felt "as easy as implementing your bog standard horizontal slider", and another said the automatic interpolation felt like something "someone paid money to sit down and carefully hand-roll." The sharp edge was thinking in state spaces. Simple switches went smoothly, but a reorderable list required enumerating every successor state, and participants called that "brain-twisting."&lt;/p&gt;
+
+&lt;p&gt;An appendix includes a small experiment that will interest anyone prototyping with coding agents. Claude Code (Opus 4.6) built one nested-list interaction from a written spec in seven conditions, with five one-shot trials each. Dragology reached a full score in 4 of 5 trials, while the other libraries managed 0 to 2. Plain React did as well as Dragology once minor artefacts were allowed, and the other libraries needed 87-103% more code. The authors scored the results themselves and wrote an AGENTS.md for the Dragology condition only, so read this as a hint, not a benchmark.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://declarative-dragging.github.io/video-poster.webp" alt="Title card of the Declarative Dragging video showing draggable diagram examples" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;The project's demo gallery includes card piles, a braid, an algebra rewriter and a tree-mapping explorable. Source: declarative-dragging.github.io.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;What it means for designers&lt;/h3&gt;
+
+&lt;p&gt;The useful idea is in how you write the spec, whether or not you ever use the library. A drag spec written as "from here, the user can reach these states, and this is how it should feel in between" is something an engineer or an agent can implement. That beats a prototype video of one happy path. The operator names (closest, floating, between, snap radius) also give designers and engineers a shared vocabulary for drag feel, which participants singled out as a contribution in its own right.&lt;/p&gt;
+
+&lt;p&gt;The limits are real. It only handles drags that reposition something, not brush strokes or scrubbing. It supports one touch point at a time. Setup cost grows quadratically with the number of states: over 1.5 seconds to start a drag with 512 states. Porting beyond SVG to HTML layout may cost too much for continuous drags. The authors point to SwiftUI and Jetpack Compose as possible hosts.&lt;/p&gt;
+
+&lt;p&gt;The paper is also silent on accessibility. That is my observation, not something the authors claim to cover. WCAG 2.2's 2.5.7 Dragging Movements (Level AA, and now part of EN 301 549 v4.1.1, which we covered on Nov 24) requires a single-pointer alternative to any drag. A model-driven design may actually make that easier. If the reachable states are already listed, the same list could drive "move up / move down" buttons or a keyboard picker. Whether anyone builds that bridge is the open question worth watching.&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://declarative-dragging.github.io/D2.pdf"&gt;paper (PDF, CC BY)&lt;/a&gt;, &lt;a href="https://doi.org/10.1145/3830398.3830556"&gt;ACM DOI&lt;/a&gt;, &lt;a href="https://uist.acm.org/2026/awards/"&gt;UIST 2026 awards&lt;/a&gt;, &lt;a href="https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-585/"&gt;Smashing Newsletter #585&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;拖拽（drag-and-drop）是大家都在 Figma 里画、到了代码阶段又悄悄砍掉的交互。UIST 2026（11 月 2-5 日，底特律）六篇最佳论文之一给了另一种做法。在 &lt;a href="https://declarative-dragging.github.io/"&gt;Declarative Dragging&lt;/a&gt; 里，华盛顿大学的 Joshua Horowitz、Jeffrey Heer 和密歇根大学的 Andrew Blinn 主张：作者只需要说清楚一次拖拽能把数据带到哪些未来状态，落点、预览和动画都由引擎推出来。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://declarative-dragging.github.io/how-it-works-four.webp" alt="示意图：模型状态渲染为视图，候选目标状态被预先渲染，被拖元素在各渲染结果中的位置成为落点" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;原理：先把目标状态渲染出来，被拖元素在每个结果里的位置就是落点。来源：Horowitz、Blinn、Heer，UIST 2026。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;核心是&lt;strong&gt;推测式渲染（speculative rendering）&lt;/strong&gt;。拿一个 [A, B, C] 的字母架举例，拖 B 时可到达的状态是 [B, A, C]、[A, B, C]、[A, C, B]。现在的做法是手写三个落点外加一堆几何计算。用开源库 &lt;a href="https://github.com/declarative-dragging/dragology"&gt;Dragology&lt;/a&gt;（TypeScript + React，目前只支持 SVG），你把这三个数组交给引擎就行。它用你原本的渲染函数把每个状态画一遍，读出 B 在每张图里的位置，当作目标点；状态之间则逐个属性插值，位置、颜色、变换、路径都包括在内。&lt;/p&gt;
+
+&lt;p&gt;手感靠一组可组合的算子来调，不靠一堆配置项。&lt;code&gt;d.closest(states)&lt;/code&gt; 吸附到最近目标；加上 &lt;code&gt;.withFloating()&lt;/code&gt;，被拖元素跟着指针走，其他元素提前让位预览落点；&lt;code&gt;d.between(...)&lt;/code&gt; 在目标之间平滑过渡；&lt;code&gt;d.vary(state, param)&lt;/code&gt; 用数值优化拖动连续值，比如会议开始时间，还能加约束。&lt;code&gt;snapping.whenFar(free)&lt;/code&gt; 就是积木编辑器那种"靠近就吸附、远离就自由摆放"。创建或删除元素的拖拽，比如拖进垃圾桶、从工具栏拖出新形状，则有 &lt;code&gt;dropTarget&lt;/code&gt; 和 &lt;code&gt;switchToStateAndFollow&lt;/code&gt; 兜底。&lt;/p&gt;
+
+&lt;h3&gt;证据有多硬&lt;/h3&gt;
+
+&lt;p&gt;论文的评估是一场 13 位开发者参与的定性研究：每场 90-120 分钟，结对编码教程，反思性主题分析。作者自己承认样本偏向本就对 HCI 和编程语言感兴趣的人。参与者最惊讶的是代码量之少。有人说做旋钮"跟写一个普通横向滑块一样简单"，另一位觉得自动插值像是"有人花钱一点点手工打磨的"。卡点在于用状态空间思考：开关类任务很顺，可排序列表要列出所有后继状态，参与者直呼"烧脑"。&lt;/p&gt;
+
+&lt;p&gt;附录里有个小实验，用编码智能体做原型的人会感兴趣。Claude Code（Opus 4.6）照着一份书面规格实现同一个嵌套列表交互，七种条件各跑五次、只看首次输出。Dragology 五次里四次满分，其他库只有零到两次；放宽到"有小瑕疵"后，纯 React 也能到五分之四。其他库的代码量多出 87%-103%。打分是作者自己做的，AGENTS.md 也只给了 Dragology 组写，当个信号看，别当基准。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://declarative-dragging.github.io/video-poster.webp" alt="Declarative Dragging 演示视频封面，展示可拖拽图表示例" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;演示库里有卡牌堆、辫子、代数改写器和树映射可探索图。来源：declarative-dragging.github.io。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;对设计师有什么用&lt;/h3&gt;
+
+&lt;p&gt;就算不用这个库，写规格的方式也值得借鉴。"从这里出发，用户能到达这些状态，中间的手感是这样"，这种拖拽规格工程师和智能体都能照着实现，比一段只演示顺利路径的原型视频强得多。closest、floating、between、snap radius 这些算子名，也让设计和工程有了讨论"拖拽手感"的共同词汇，参与者专门把这一点当作贡献提了出来。&lt;/p&gt;
+
+&lt;p&gt;局限也很实在。它只管"挪动位置"类的拖拽，画笔、拖动进度条（scrubbing）这类做不了；一次只支持一个触点；初始化成本随状态数平方增长，512 个状态时开始拖拽要 1.5 秒以上；从 SVG 搬到 HTML 布局，连续拖拽可能太贵。作者认为 SwiftUI 和 Jetpack Compose 有望承载这套思路。&lt;/p&gt;
+
+&lt;p&gt;论文完全没谈无障碍，这是我的观察，不是作者的说法。WCAG 2.2 的 2.5.7 拖拽动作（Dragging Movements，AA 级，11 月 24 日写过的 EN 301 549 v4.1.1 也已纳入）要求任何拖拽都有单指针替代方案。模型驱动的思路反而可能让这件事更容易：可到达状态既然已经列出来了，同一份列表就能驱动"上移/下移"按钮或键盘选择器。会不会有人把这座桥搭起来？值得盯着。&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://declarative-dragging.github.io/"&gt;https://declarative-dragging.github.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://declarative-dragging.github.io/D2.pdf"&gt;https://declarative-dragging.github.io/D2.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1145/3830398.3830556"&gt;https://doi.org/10.1145/3830398.3830556&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/declarative-dragging/dragology"&gt;https://github.com/declarative-dragging/dragology&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://uist.acm.org/2026/awards/"&gt;https://uist.acm.org/2026/awards/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-585/"&gt;https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-585/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">734e073d-a623-55bc-a922-2f8865f9eaac</guid>
+      <pubDate>Thu, 26 Nov 2026 12:17:21 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://declarative-dragging.github.io/</link>
+      <enclosure url="https://declarative-dragging.github.io/video-poster.webp" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 axe-core 4.14 Turns On Label in Name by Default: Expect New Failures Wherever aria-label Overrides Visible Text / axe-core 4.14 默认启用 Label in Name 检查：aria-label 覆盖可见文字的地方会多出一批失败项</title>
+      <description>&lt;p&gt;If your accessibility dashboard picked up a new cluster of failures after a dependency bump this autumn, this is probably why. &lt;a href="https://github.com/dequelabs/axe-core/releases"&gt;axe-core 4.14.0&lt;/a&gt; (released Oct 5) turns on &lt;code&gt;label-content-name-mismatch&lt;/code&gt; by default. That rule checks WCAG 2.5.3 Label in Name (Level A). It has existed for years as an experimental opt-in, and in Deque's own words, "Most teams never ran it, so we got no coverage for the rule." axe-core is the engine under axe DevTools, many CI pipelines and a long tail of testing tools. Lighthouse also builds its accessibility audits on it, though each tool picks its own rule subset. So as those tools upgrade, the number of teams seeing this check goes from a handful to most.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.deque.com/wp-content/uploads/2026/10/Deque-Blog-Featured-Image-10.16.26-Find-Label-02-1-scaled.png" alt="Deque blog header image for the axe-core 4.14.0 Label in Name announcement" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Deque's announcement post by Wilco Fiers, Oct 22, 2026. Source: deque.com.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;What the rule actually flags&lt;/h3&gt;
+
+&lt;p&gt;Per the &lt;a href="https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch"&gt;rule documentation&lt;/a&gt;, it looks at elements with a widget role that takes its name from content: button, checkbox, gridcell, link, menuitem (and its checkbox/radio variants), option, radio, searchbox, switch, tab and treeitem. It only fires when the element has visible text &lt;em&gt;and&lt;/em&gt; an &lt;code&gt;aria-label&lt;/code&gt; or &lt;code&gt;aria-labelledby&lt;/code&gt; that overrides it. The whole visible label has to appear in the accessible name, in order. Case and surrounding whitespace are ignored. The examples are the patterns every design system has somewhere:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;button aria-label="Start page"&amp;gt;Home&amp;lt;/button&amp;gt;&lt;/code&gt; fails. A voice user says "click Home," and nothing has that name.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;button aria-label="the full"&amp;gt;The full label&amp;lt;/button&amp;gt;&lt;/code&gt; fails, because only part of the visible label is in the name.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;button aria-label="Next Page in the list"&amp;gt;Next Page&amp;lt;/button&amp;gt;&lt;/code&gt; passes. Adding context after the visible text is allowed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The 4.14 release also changed the matching itself. Comparison is now word by word, text in parentheses is ignored (so a count like "Inbox (3)" shouldn't trip it), and CJK and full-width characters are normalised. Deque says whitespace-based tools produce false positives in Chinese, Japanese and Korean interfaces. For multilingual products that matters as much as the default switch.&lt;/p&gt;
+
+&lt;h3&gt;Why designers, not just engineers, should care&lt;/h3&gt;
+
+&lt;p&gt;Most Label in Name failures start in design handoff, not in code. A designer annotates an icon-plus-text button with a "more descriptive" accessible name. A content designer renames a visible CTA but nobody updates the aria-label. A localisation pass translates one string and not the other. The fix is almost always to delete the aria-label and let the visible text be the name. Where extra context really is needed, keep the visible words first and append the context.&lt;/p&gt;
+
+&lt;p&gt;Deque adds an important caveat. WCAG only requires the visible text to appear &lt;em&gt;somewhere&lt;/em&gt; in the name, so axe passes cases that Apple's own tools fail. Deque says macOS Voice Control wants an exact match and iOS wants the visible text at the start of the name. Deque plans a separate best-practice rule for this. Until it lands, "visible label first, verbatim" is the safer design rule. It matters more now that voice is a primary input on some devices. On Nov 23 we covered how Safari on Apple HomeView targets controls by "calling its name." Every mismatch is a button a HomeView user can't press.&lt;/p&gt;
+
+&lt;h3&gt;The EN 301 549 connection&lt;/h3&gt;
+
+&lt;p&gt;The same release adds EN 301 549 v4 tags to the &lt;code&gt;target-size&lt;/code&gt; rule. That links it to WCAG 2.2's 2.5.8 (24x24 CSS px), one of the six WCAG 2.2 A/AA criteria that v4.1.1 brought into Europe's accessibility benchmark. Deque promised a full EN 301 549 v4.1.1 rule set "in November." We found no announcement as of Nov 26, so treat that as pending. Deque's post also repeats the earlier projection that the standard would be cited in the EU Official Journal around Nov 30. As we noted on Nov 24, later vendor projections moved that to Jan 22, 2027, and we have seen no citation so far. A follow-up patch, 4.14.1 (Nov 16), mostly removes false positives, so totals should drift back down a little.&lt;/p&gt;
+
+&lt;h3&gt;What to do this week&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Expect the jump and say so in advance. Deque's own framing is that a higher count means newly reported issues, not a worse site. Tell stakeholders before the dashboard turns red.&lt;/li&gt;
+&lt;li&gt;Search your component library for &lt;code&gt;aria-label&lt;/code&gt; on elements that also render text. Each one is either redundant or a likely failure.&lt;/li&gt;
+&lt;li&gt;Add a line to handoff annotations: the accessible name starts with the visible label, word for word.&lt;/li&gt;
+&lt;li&gt;For Apple platforms, test with Voice Control. Axe passing is necessary but not sufficient there.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://www.deque.com/blog/find-label-in-name-issues-in-every-scan-with-axe-core-4-14-0/"&gt;Deque blog (Wilco Fiers, Oct 22)&lt;/a&gt;, &lt;a href="https://github.com/dequelabs/axe-core/releases"&gt;axe-core release notes&lt;/a&gt;, &lt;a href="https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch"&gt;rule reference&lt;/a&gt;, &lt;a href="https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/"&gt;Deque on EN 301 549 v4.1.1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;如果你的无障碍看板在今年秋天某次依赖升级后突然冒出一批新失败项，原因多半在这里。&lt;a href="https://github.com/dequelabs/axe-core/releases"&gt;axe-core 4.14.0&lt;/a&gt;（10 月 5 日发布）默认启用了 &lt;code&gt;label-content-name-mismatch&lt;/code&gt;，检查的是 WCAG 2.5.3 名称含标签（Label in Name，A 级）。这条规则早就有，一直是实验性的、要手动打开。用 Deque 自己的话说："大多数团队从没跑过，所以这条规则基本没覆盖。"axe-core 是 axe DevTools、大量 CI 流水线和各种测试工具的引擎，Lighthouse 的无障碍审计也建在它上面，只是各家工具会挑选自己的规则子集。随着这些工具陆续升级，能看到这项检查的团队会从少数变成多数。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.deque.com/wp-content/uploads/2026/10/Deque-Blog-Featured-Image-10.16.26-Find-Label-02-1-scaled.png" alt="Deque 关于 axe-core 4.14.0 Label in Name 公告的博客头图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Deque 公告，作者 Wilco Fiers，2026 年 10 月 22 日。来源：deque.com。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;规则到底查什么&lt;/h3&gt;
+
+&lt;p&gt;按&lt;a href="https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch"&gt;规则文档&lt;/a&gt;，检查对象是"名称取自内容"的控件角色：button、checkbox、gridcell、link、menuitem（及其 checkbox/radio 变体）、option、radio、searchbox、switch、tab、treeitem。只有当元素既有可见文字、又用 &lt;code&gt;aria-label&lt;/code&gt; 或 &lt;code&gt;aria-labelledby&lt;/code&gt; 覆盖了名称时才会触发。可见标签必须完整、按顺序出现在可访问名称（accessible name）里，大小写和首尾空格忽略。示例里的写法，每个设计系统多少都有：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;button aria-label="Start page"&amp;gt;Home&amp;lt;/button&amp;gt;&lt;/code&gt; 不通过。语音用户说"点击 Home"，页面上没有叫这个名字的东西。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;button aria-label="the full"&amp;gt;The full label&amp;lt;/button&amp;gt;&lt;/code&gt; 不通过，名称里只有一部分可见标签。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;button aria-label="Next Page in the list"&amp;gt;Next Page&amp;lt;/button&amp;gt;&lt;/code&gt; 通过，在可见文字后面补充上下文是允许的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.14 还改了匹配逻辑：改为按词比较，忽略括号里的内容（"Inbox (3)"这种计数不会误报），并对 CJK 和全角字符做了归一化。Deque 说按空格切分的工具在中日韩界面上会误报。做多语言产品的团队，这一点和默认开启同样重要。&lt;/p&gt;
+
+&lt;h3&gt;为什么设计师也该管&lt;/h3&gt;
+
+&lt;p&gt;Label in Name 的失败大多出在设计交付，而不是代码。设计师给"图标+文字"按钮标注一个"更有描述性"的可访问名称；内容设计改了可见的 CTA 文案，没人同步 aria-label；本地化只翻了其中一个字符串。修法几乎总是删掉 aria-label，让可见文字直接当名称。确实需要补充上下文的，可见文字放前面，补充放后面。&lt;/p&gt;
+
+&lt;p&gt;Deque 还提醒了一点：WCAG 只要求可见文字出现在名称的"某个位置"，所以 axe 会放过一些苹果自家工具判为失败的情况。按 Deque 的说法，macOS 语音控制（Voice Control）要求完全一致，iOS 要求可见文字位于名称开头。Deque 打算以后单独加一条最佳实践规则。在那之前，"可见标签原样放在最前"是更稳的设计规范。语音已经是某些设备的主要输入方式，11 月 23 日写过，HomeView 上的 Safari 靠"说出控件名称"来操作。名称对不上的按钮，HomeView 用户就按不到。&lt;/p&gt;
+
+&lt;h3&gt;和 EN 301 549 的关系&lt;/h3&gt;
+
+&lt;p&gt;同一版本给 &lt;code&gt;target-size&lt;/code&gt; 规则加上了 EN 301 549 v4 标签，对应 WCAG 2.2 的 2.5.8（24x24 CSS 像素），是 v4.1.1 引入欧洲无障碍基准的六条 WCAG 2.2 A/AA 准则之一。Deque 承诺"11 月"推出完整的 EN 301 549 v4.1.1 规则集，截至 11 月 26 日我们没找到发布公告，先当作待定。Deque 文中还沿用了"约 11 月 30 日在欧盟官方公报（OJEU）引用"的旧预测；11 月 24 日我们提过，后来的厂商预测已推到 2027 年 1 月 22 日，我们目前也没看到正式引用。后续补丁 4.14.1（11 月 16 日）主要是消除误报，总数会稍微回落。&lt;/p&gt;
+
+&lt;h3&gt;这周可以做的事&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;提前打招呼。Deque 的说法是数字变多代表新报告出来的问题，不代表网站变差了。看板变红之前先跟相关方讲清楚。&lt;/li&gt;
+&lt;li&gt;在组件库里搜同时渲染文字又带 &lt;code&gt;aria-label&lt;/code&gt; 的元素，每一个不是多余就是隐患。&lt;/li&gt;
+&lt;li&gt;交付标注里加一条：可访问名称以可见标签开头，逐字一致。&lt;/li&gt;
+&lt;li&gt;苹果平台用语音控制实测。axe 通过是必要条件，不是充分条件。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.deque.com/blog/find-label-in-name-issues-in-every-scan-with-axe-core-4-14-0/"&gt;https://www.deque.com/blog/find-label-in-name-issues-in-every-scan-with-axe-core-4-14-0/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/dequelabs/axe-core/releases"&gt;https://github.com/dequelabs/axe-core/releases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch"&gt;https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/"&gt;https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">eac5ea1c-c2e2-517c-9e2a-1928e0721cb6</guid>
+      <pubDate>Thu, 26 Nov 2026 12:17:22 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://www.deque.com/blog/find-label-in-name-issues-in-every-scan-with-axe-core-4-14-0/</link>
+      <enclosure url="https://www.deque.com/wp-content/uploads/2026/10/Deque-Blog-Featured-Image-10.16.26-Find-Label-02-1-scaled.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎨 Safari 27.3's Vertical Tabs Default to Icons Only, Which Makes Your Favicon the Tab's Name / Safari 27.3 竖排标签默认只显示图标，favicon 成了标签页的名字</title>
+      <description>&lt;p&gt;Apple's surprise addition to the iOS, iPadOS and macOS 27.3 betas (Nov 3) is a vertical tab bar for Safari. Chrome shipped native vertical tabs on desktop in April, and Edge has had them for years, so the feature isn't news on its own. What matters for anyone who ships a website is one default: &lt;strong&gt;Safari's vertical tabs show only the site icon&lt;/strong&gt;. Titles appear only if the user widens the column or, on the Mac, hovers. For many Safari users, your favicon is about to become the only label your tab has.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://media.idownloadblog.com/wp-content/uploads/2026/11/Vertical-tab-in-Safari.jpg" alt="Safari beta with a narrow vertical tab column on the left and apple.com open; several tabs from the same site show identical icons" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Icon-only vertical tabs in the Safari beta. Several tabs from the same site show identical icons and can't be told apart. Source: iDownloadBlog.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;What ships, and where&lt;/h3&gt;
+
+&lt;p&gt;From &lt;a href="https://sixcolors.com/post/2026/11/safari-update-brings-vertical-tabs-adaptive-dark-mode-ai-integration/"&gt;Six Colors&lt;/a&gt; (Jason Snell), &lt;a href="https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/"&gt;9to5Mac&lt;/a&gt; and &lt;a href="https://www.idownloadblog.com/?p=1063811"&gt;iDownloadBlog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Opt-in. On Mac it lives under View &amp;gt; Tab Layout &amp;gt; Vertical. On iPad and iPhone Duo it's in Settings &amp;gt; Apps &amp;gt; Safari. 9to5Mac's screenshot shows it as a choice between the Separate and Vertical layouts.&lt;/li&gt;
+&lt;li&gt;Devices. Mac, iPad (portrait and landscape) and the foldable iPhone Duo. iDownloadBlog says regular iPhones don't get it, even in landscape. 9to5Mac only says "iOS 27.3", which may just mean the Duo. Treat device coverage as unsettled until release.&lt;/li&gt;
+&lt;li&gt;Icon-only by default. On Mac, hovering shows the title Dock-style and then a page preview. On iPad, a button at the bottom expands the column to show titles, and you can drag the edge to set a width.&lt;/li&gt;
+&lt;li&gt;Organisation. Drag to the top to pin a tab. Tab Groups and the Apple Intelligence-sorted Topics still work.&lt;/li&gt;
+&lt;li&gt;Timing. It's a beta. Macworld expects a public release in early December.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5mac.com/wp-content/uploads/sites/6/2026/11/IMG_0336.jpg?quality=82&amp;amp;strip=all&amp;amp;w=800" alt="Safari beta with the vertical tab column expanded to show page titles beside a MacStories article" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Expanded, the column shows titles, at the cost of a sizeable slice of the page's width. Source: 9to5Mac.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Three design consequences&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Same-site tabs collapse into one identity.&lt;/strong&gt; iDownloadBlog's main complaint is that tabs from the same website share an identical icon and are hard to tell apart without hovering. Think of five docs, three tickets or four product pages from one retailer. Products used in many tabs at once have handled this before. Google gives Docs, Sheets and Slides distinct favicons, and Gmail-style badges change the icon with state. Those patterns move from nice-to-have to the main way users find their tab. Apple hasn't said which icon source, at which size, the column uses, so test your real favicon set in the beta rather than guessing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Your viewport gets narrower without the user resizing anything.&lt;/strong&gt; The column sits beside the page. On a tablet in particular, expanding it to show titles can push a layout below a breakpoint it used to clear. Layouts that respond to the width they actually get, whether through media or container queries, cope with that. Layouts that assume a landscape iPad is a desktop do not. This lands in the same release as Adaptive Dark Mode, which we covered on Nov 19. In one update, Safari takes over both your page's colours, unless you declare them, and part of its width.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. The tab strip is becoming something an agent operates.&lt;/strong&gt; The same betas add Siri actions that move, sort, group and close tabs. One example is sorting Amazon product tabs by price. According to Six Colors, Siri can also read the full content of every open tab, not just what's on screen. That is the same shift we tracked with Safari on HomeView (Nov 23). Page titles, structured data and clear prices are becoming inputs to a system assistant as well as text for people. A product page whose price an assistant can't read will probably sort badly.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5mac.com/wp-content/uploads/sites/6/2026/11/IMG_0334.png?w=800" alt="Safari settings in the 27.3 beta showing a Tabs section with Separate and Vertical layout options and an Allow Website Tinting toggle" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Safari's tab settings in the beta: Separate vs Vertical, next to Allow Website Tinting. The Outer/Inner switch hints this was shot on a two-screen device. Source: 9to5Mac.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Takeaway&lt;/h3&gt;
+
+&lt;p&gt;Before 27.3 ships, open your product in the beta with vertical tabs on and five of your own pages in a row. If you can't tell which tab is which, neither can your users. The cheapest fixes are distinct favicons per product area or document type, and titles that put the specific thing before the brand. The open question is whether Apple gives sites a way to say what the icon should be in this context, or whether that tiny favicon has just become the most important piece of identity design on the platform.&lt;/p&gt;
+
+&lt;p&gt;Sources: &lt;a href="https://sixcolors.com/post/2026/11/safari-update-brings-vertical-tabs-adaptive-dark-mode-ai-integration/"&gt;Six Colors&lt;/a&gt;, &lt;a href="https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/"&gt;9to5Mac&lt;/a&gt;, &lt;a href="https://www.idownloadblog.com/?p=1063811"&gt;iDownloadBlog&lt;/a&gt;, &lt;a href="https://macworld.com/article/3273418/apple-finally-brings-vertical-tabs-to-safari-in-surprise-27-3-feature-drop.html"&gt;Macworld&lt;/a&gt;, &lt;a href="https://blog.google/products-and-platforms/products/chrome/new-chrome-productivity-features/"&gt;Google (Chrome vertical tabs, Apr 2026)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;中文版&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;苹果在 iOS、iPadOS、macOS 27.3 测试版（11 月 3 日）里塞进了一个意外功能：Safari 竖排标签栏。Chrome 桌面版 4 月就上线了原生竖排标签，Edge 更是早就有了，功能本身算不上新闻。对做网站的人来说，真正要紧的是一个默认设置：&lt;strong&gt;Safari 竖排标签默认只显示网站图标&lt;/strong&gt;。用户得把栏拉宽，或者在 Mac 上悬停，才看得到标题。对不少 Safari 用户来说，favicon 马上就是你这个标签页唯一的名字了。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://media.idownloadblog.com/wp-content/uploads/2026/11/Vertical-tab-in-Safari.jpg" alt="Safari 测试版，左侧窄竖排标签栏，打开的是 apple.com，同一网站的多个标签图标完全一样" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Safari 测试版里只显示图标的竖排标签，同站点的几个标签长得一模一样。来源：iDownloadBlog。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;功能细节与适用设备&lt;/h3&gt;
+
+&lt;p&gt;综合 &lt;a href="https://sixcolors.com/post/2026/11/safari-update-brings-vertical-tabs-adaptive-dark-mode-ai-integration/"&gt;Six Colors&lt;/a&gt;（Jason Snell）、&lt;a href="https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/"&gt;9to5Mac&lt;/a&gt; 和 &lt;a href="https://www.idownloadblog.com/?p=1063811"&gt;iDownloadBlog&lt;/a&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;需要手动开启。Mac 在"显示 &amp;gt; 标签页布局 &amp;gt; 竖排"，iPad 和 iPhone Duo 在"设置 &amp;gt; App &amp;gt; Safari"，9to5Mac 的截图里是"分离"和"竖排"二选一。&lt;/li&gt;
+&lt;li&gt;设备：Mac、iPad（横竖屏）和折叠屏 iPhone Duo。iDownloadBlog 说普通直板 iPhone 横屏也没有；9to5Mac 只写了"iOS 27.3"，可能指的就是 Duo。正式版出来前先当作未定。&lt;/li&gt;
+&lt;li&gt;默认只有图标。Mac 上悬停会像程序坞一样显示标题，停久一点出页面预览；iPad 底部有按钮可展开显示标题，也能拖边缘调宽度。&lt;/li&gt;
+&lt;li&gt;拖到顶部即可固定标签；标签页组和 Apple Intelligence 自动整理的"主题"照常可用。&lt;/li&gt;
+&lt;li&gt;目前是测试版，Macworld 预计 12 月初正式推送。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5mac.com/wp-content/uploads/sites/6/2026/11/IMG_0336.jpg?quality=82&amp;amp;strip=all&amp;amp;w=800" alt="Safari 测试版竖排标签栏展开显示页面标题，旁边是 MacStories 文章" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;展开后能看到标题，但页面宽度被吃掉一大块。来源：9to5Mac。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;三个设计后果&lt;/h3&gt;
+
+&lt;p&gt;第一，同站点标签全挤成一个身份。iDownloadBlog 最大的抱怨是同一网站的标签图标完全相同，不悬停根本分不清：五份文档、三张工单、同一家店的四个商品页。经常被多开的产品其实早有对策，Google 给 Docs、Sheets、Slides 各配了不同的 favicon，Gmail 式角标会随状态变化。这些做法以前是加分项，现在成了用户找标签的主要途径。苹果没说这一栏用哪个图标来源、多大尺寸，别猜，拿你真实的 favicon 去测试版里看。&lt;/p&gt;
+
+&lt;p&gt;第二，视口在用户没动窗口的情况下变窄了。竖排栏在页面旁边占位，平板上展开标题后，原本能跨过的断点可能就掉下去了。按实际拿到的宽度来布局的页面，不管用媒体查询还是容器查询（container queries），都扛得住；默认"iPad 横屏=桌面"的就要出问题。这和 11 月 19 日写过的自适应深色模式（Adaptive Dark Mode）在同一版本上线：一次更新，Safari 既接管你没声明的配色，又拿走一截宽度。&lt;/p&gt;
+
+&lt;p&gt;第三，标签栏开始由智能体来操作。同批测试版给 Siri 加了移动、排序、分组、关闭标签的能力，比如把亚马逊商品标签按价格排序。据 Six Colors，Siri 还能读取所有打开标签的完整内容，不只是屏幕上那部分。这和 11 月 23 日聊 HomeView 上的 Safari 是同一个走向：页面标题、结构化数据、清晰的价格，不仅给人看，也成了系统助手的输入。助手读不出价格的商品页，大概率会被排错位置。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://9to5mac.com/wp-content/uploads/sites/6/2026/11/IMG_0334.png?w=800" alt="27.3 测试版的 Safari 设置，标签页区域有分离和竖排两种布局，下方是允许网站着色开关" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;测试版 Safari 的标签页设置：分离与竖排两种布局，旁边是"允许网站着色"开关。顶部的"外屏/内屏"切换说明截图可能来自双屏设备。来源：9to5Mac。&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;落到手上&lt;/h3&gt;
+
+&lt;p&gt;27.3 正式版之前，用测试版打开竖排标签，连开五个你自己产品的页面。你分不清哪个是哪个，用户也分不清。成本最低的改法：按产品区域或文档类型配不同的 favicon，标题把具体内容放在品牌名前面。悬而未决的是，苹果会不会让网站声明"这种场景下用哪个图标"，还是说，那枚小小的 favicon 就此成了这个平台上最要紧的身份设计？&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://sixcolors.com/post/2026/11/safari-update-brings-vertical-tabs-adaptive-dark-mode-ai-integration/"&gt;https://sixcolors.com/post/2026/11/safari-update-brings-vertical-tabs-adaptive-dark-mode-ai-integration/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/"&gt;https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.idownloadblog.com/?p=1063811"&gt;https://www.idownloadblog.com/?p=1063811&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://macworld.com/article/3273418/apple-finally-brings-vertical-tabs-to-safari-in-surprise-27-3-feature-drop.html"&gt;https://macworld.com/article/3273418/apple-finally-brings-vertical-tabs-to-safari-in-surprise-27-3-feature-drop.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.google/products-and-platforms/products/chrome/new-chrome-productivity-features/"&gt;https://blog.google/products-and-platforms/products/chrome/new-chrome-productivity-features/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">a0b43c87-461a-59cd-9154-ca343655f655</guid>
+      <pubDate>Thu, 26 Nov 2026 12:17:22 +0000</pubDate>
+      <category>product-design</category>
+      <link>https://sixcolors.com/post/2026/11/safari-update-brings-vertical-tabs-adaptive-dark-mode-ai-integration/</link>
+      <enclosure url="https://media.idownloadblog.com/wp-content/uploads/2026/11/Vertical-tab-in-Safari.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 不回消息的人，往往比你以为的更难受：伯克利与剑桥三项研究发现，被晾着的一方系统性低估对方的内疚，一句简短回复就能缩小误判</title>
+      <description>&lt;p&gt;你给一个刚认识不久的人发了消息，对方一直没回。脑子里最常见的剧本是：他根本不在乎，或者我是不是说错话了。伯克利 Haas 商学院的 Sophia Li、剑桥 Judge 商学院的 Coral Zheng 和伯克利的 Juliana Schroeder 在 &lt;em&gt;Personality and Social Psychology Bulletin&lt;/em&gt; 发表的三项研究（DOI 10.1177/01461672261478732，PsyPost 10/13 首发报道，11/25 又转发了一遍）给出了一个不太一样的画面：&lt;strong&gt;沉默的那一方，往往比等待的一方以为的更难受。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2024/06/ghosted-ghosting-on-phone.jpg" alt="一个人盯着手机屏幕等待回复" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;被晾着的人以为对方无所谓，真实情况常常相反（图：PsyPost / Adobe Stock）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;三项研究分别测了什么&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;研究 1（N=195，回忆）：一半人回忆自己对不太熟的人「已读不回」的经历，另一半回忆被这样对待的经历，用 1-5 分评自己的感受并预测对方的感受。沉默者自评难受 2.27，被晾者预测对方只有 1.56；反过来，沉默者对被晾者的估计（2.11）和对方实际（2.11）完全吻合。误判只朝一个方向走。如果沉默是无意的（比如忘了回），差距更大。&lt;/li&gt;
+&lt;li&gt;研究 2（N=601，想象情境）：设想和一个不太熟的朋友发消息，对方突然不回。想象中的沉默者预计自己难受 3.23，等待者以为对方只有 1.94。如果沉默者只回一句「抱歉，现在没法聊」，自己的难受降到 2.33，等待者的预测（1.82）也更接近真实。另一个数字更扎心：没有回复时，约三分之一的人认为是自己太烦人了；有一句简短回复后，降到约五分之一。&lt;/li&gt;
+&lt;li&gt;研究 3（229 对陌生人实时聊天）：先聊 8 分钟，然后一方可以选择跳过第二轮 5 分钟的聊天、不解释就离开。175 对有人跳过。整体上，跳过者的实际感受（3.26）和等待者的预测（3.35）几乎一样，主效应没出现。只有在事后、非预先计划的分析中，把行为认定为「ghosting」的那部分人里，沉默者才比预测的更难受（3.93 vs 3.51）。等待者还高估了对方对自己的负面看法（预测 3.41，实际 2.29），并低估了对方想交朋友的程度。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以证据强度要分开看：前两项研究方向一致，但一个是回忆、一个是假设情境；唯一的真实互动实验没有复现整体效应。报道里也没有给出检验统计量。样本全部在美国，场景都是浅关系，跟恋人或老朋友之间的断联不是一回事。&lt;/p&gt;
+
+&lt;h3&gt;为什么我们会猜错&lt;/h3&gt;
+&lt;p&gt;沉默者在内部经历的是内疚、难过，也夹杂着解脱（IFLScience 报道中作者的原话）。这些情绪等待者看不到。他手里只有一个空白，而空白最容易被填成「他不在乎」。这和 11 月 9 日写过的 Davison 等人研究正好接上：真正让焦虑型依恋者变得有攻击性的，不是对方拒绝道歉，而是对方毫无回应，因为沉默被解读成「对方不可得」。也和 Mata 等人那条线相通：我们习惯把对方想得比实际更封闭、更冷淡。&lt;/p&gt;
+
+&lt;h3&gt;可以带走的做法&lt;/h3&gt;
+&lt;p&gt;作为等待的人：在给对方的沉默下结论之前，先把「他可能也挺难受的」放进候选解释，至少别第一时间归咎于自己。研究 3 提示，你对「对方怎么看我」的担心大概率偏高。&lt;/p&gt;
+&lt;p&gt;作为想抽身的人：一句不承诺任何事的短回复，比彻底消失对双方都便宜得多。「收到，这周有点忙」就够了。研究 2 里这一句话同时降低了你自己的难受和对方的自责。&lt;/p&gt;
+&lt;p&gt;还有一个更难的问题作者没有回答：如果双方都在不舒服，为什么沉默还这么普遍？可能是因为每一次不回都像是在推迟一个小麻烦，而成本是悄悄分摊到两个人身上的。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://doi.org/10.1177/01461672261478732"&gt;Li, Zheng &amp; Schroeder, PSPB (2026)&lt;/a&gt;；&lt;a href="https://www.psypost.org/people-who-ghost-tend-to-feel-worse-about-it-than-the-people-they-ghost-realize/"&gt;PsyPost 10/13 报道&lt;/a&gt;；&lt;a href="https://www.iflscience.com/think-people-who-ghost-you-dont-feel-guilty-think-again-84926"&gt;IFLScience&lt;/a&gt;；&lt;a href="https://www.psypost.org/psychology-says-going-silent-on-a-text-isnt-proof-someone-doesnt-care-people-who-stop-replying-tend-to-feel-worse-than-you-realize/"&gt;PsyPost 11/25 转述&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1177/01461672261478732"&gt;https://doi.org/10.1177/01461672261478732&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/people-who-ghost-tend-to-feel-worse-about-it-than-the-people-they-ghost-realize/"&gt;https://www.psypost.org/people-who-ghost-tend-to-feel-worse-about-it-than-the-people-they-ghost-realize/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.iflscience.com/think-people-who-ghost-you-dont-feel-guilty-think-again-84926"&gt;https://www.iflscience.com/think-people-who-ghost-you-dont-feel-guilty-think-again-84926&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">fd5f699d-0e86-5af0-b667-a0fa0b6aa90b</guid>
+      <pubDate>Thu, 26 Nov 2026 12:17:38 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1177/01461672261478732</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/ghosted.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 感恩节怎么道谢更有用？UC Riverside 916 人预注册实验：私下写信、私信本人、公开发帖都有效，一对一只在连接感和支持感上略胜</title>
+      <description>&lt;p&gt;今天是美国感恩节。PsyPost 应景地把一篇旧论文翻了出来，标题叫「让你最有被支持感的，不是公开的大声感谢，而是更安静、更日常的东西」。这篇论文其实发表于 2022 年 10 月（&lt;em&gt;Affective Science&lt;/em&gt; 4(1)，2023 年 3 月正式出刊，DOI 10.1007/s42761-022-00150-5），作者是 UC Riverside 的 Lisa Walsh、Annie Regan、Sonja Lyubomirsky 和圣地亚哥州立大学的 Jean Twenge。之前没写过，正好借这个日子把它读细，因为标题和论文本身说的并不完全一样。&lt;/p&gt;
+
+&lt;h3&gt;实验怎么做的&lt;/h3&gt;
+&lt;p&gt;研究在 OSF 预注册，2020 年 2 月到 12 月收集数据。招募 1,105 名本科生，按预注册标准剔除没做任务、敷衍作答等情况后剩 916 人（平均 19.4 岁，67.7% 女性，42.4% 亚裔、33.6% 拉丁裔），每组超过 210 人。大家被随机分到四组，约一周内做四次：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;私下写感谢信，不给任何人看；&lt;/li&gt;
+&lt;li&gt;用手机给某个帮过自己的人发短信道谢（一对一）；&lt;/li&gt;
+&lt;li&gt;在社交媒体上公开感谢某个人；&lt;/li&gt;
+&lt;li&gt;对照组：只记录当天做了什么。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;每次要换一个感谢对象，以减缓新鲜感衰退。&lt;/p&gt;
+
+&lt;h3&gt;结果：三种方式都有用，差别比标题小&lt;/h3&gt;
+&lt;p&gt;和对照组比，三个感恩组在感恩感（partial d=.36）、连接感（.33）、支持感（.32）、正面情绪（.29）、升华感（elevation，.35）、生活满意度（.17）上都更好，孤独感也下降得更多（d=-.13）。效应量都在小到中等之间。&lt;/p&gt;
+&lt;p&gt;作者原本押注一对一短信会全面胜出，这个假设&lt;strong&gt;大部分没被支持&lt;/strong&gt;。一对一组只在两项上明显更高：社会连接感（partial d=.18）和被支持感（d=.16）。而且这个比较是「短信组 vs 其余三组合并（含对照）」。从论文图 2 看，私下写信在连接感上的提升（约 0.29）和发短信（约 0.34）其实相差不大，公开发帖（约 0.23）略低。所以说「发给本人比私下写好得多」是读过头了。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.psypost.org/wp-content/uploads/2026/11/texting-connection.jpg" alt="一个人在手机上发送消息" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;一对一的感谢短信在连接感和支持感上略占优势（图：PsyPost）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;还有一个容易忽略的细节：正面情绪和支持感的「提升」，很大程度是缓冲。感恩组基本持平，对照组在下降。数据采集正好碰上 2020 年疫情转网课，学生整体在变得更不开心。感恩练习在这里的作用更像是止跌，而不是拉升。&lt;/p&gt;
+
+&lt;h3&gt;为什么一对一多出那一点&lt;/h3&gt;
+&lt;p&gt;作者的解释很朴素：三种方式里只有发短信必然产生一次真实的社交互动。Algoe 的「发现—提醒—绑定」（find-remind-and-bind）理论认为，感激的核心功能是把你和一个靠谱的人绑得更紧；只在自己心里感激，绑定这一步就少了。公开发帖则多了一个观众，人会开始自我审查，想着怎么写好看。&lt;/p&gt;
+&lt;p&gt;这和前几周写过的「正向表达的真实性」线索接得上。Shimshock 等人发现，表达的感激多于实际感受时，表达者自己会觉得不真实；Le 等人发现，接收者是否相信你是真心的，比旁观者判断的诚实度更重要。公开帖天然带表演成分，一对一短信更容易写成具体、真诚的一句话。&lt;/p&gt;
+
+&lt;h3&gt;局限&lt;/h3&gt;
+&lt;p&gt;只有一周、没有追踪；对象是美国大学生，作者自己提到感恩干预在集体主义文化中可能效果更弱甚至适得其反；三种方式在投入程度、媒介、感谢对象上同时不同（发朋友圈的人可能不会去感谢不用社交媒体的祖父母），无法拆开。&lt;/p&gt;
+
+&lt;h3&gt;今晚可以做的&lt;/h3&gt;
+&lt;p&gt;与其发一条「感恩有你们」的群发动态，不如挑一个具体的人，私信一句具体的事：「谢谢你三月份帮我改简历那晚，那次面试过了。」如果这样做太尴尬，私下写下来也几乎一样有效。三种方式都比什么都不做强，选你最可能真的去做的那一种就行。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://doi.org/10.1007/s42761-022-00150-5"&gt;Walsh, Regan, Twenge &amp; Lyubomirsky, Affective Science (2023)&lt;/a&gt;；&lt;a href="https://escholarship.org/uc/item/5rf9f6sr"&gt;eScholarship 全文&lt;/a&gt;；&lt;a href="https://www.psypost.org/psychology-says-its-not-the-big-public-shout-out-that-makes-you-feel-most-supported-its-something-far-quieter-and-ordinary/"&gt;PsyPost 11/26 报道&lt;/a&gt;；&lt;a href="https://www.psypost.org/what-is-the-best-way-to-give-thanks-study-provides-key-insights/"&gt;PsyPost 2023 报道&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://doi.org/10.1007/s42761-022-00150-5"&gt;https://doi.org/10.1007/s42761-022-00150-5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://escholarship.org/uc/item/5rf9f6sr"&gt;https://escholarship.org/uc/item/5rf9f6sr&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.psypost.org/psychology-says-its-not-the-big-public-shout-out-that-makes-you-feel-most-supported-its-something-far-quieter-and-ordinary/"&gt;https://www.psypost.org/psychology-says-its-not-the-big-public-shout-out-that-makes-you-feel-most-supported-its-something-far-quieter-and-ordinary/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">9cf13eb4-b8ad-5cb7-bc0e-c113218dfb5c</guid>
+      <pubDate>Thu, 26 Nov 2026 12:17:38 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://doi.org/10.1007/s42761-022-00150-5</link>
+      <enclosure url="https://www.psypost.org/wp-content/uploads/2026/11/texting-connection.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🧠 给 AI 设奖惩不管用，照一面镜子管用：LMU 704 人预注册实验发现，告诉学习者「你刚才是怎么用 AI 的」能减少直接要答案、守住独立解题能力</title>
+      <description>&lt;p&gt;「AI 辅助与技能形成」这条线从 11 月 10 日追到现在，大多数研究回答的是「用 AI 会不会让人学得更差」：Autor 等人的专利律师实验里，初级律师没从 AI 那里长出本事；Barcaui 的巴西本科生实验里，自由用 ChatGPT 的一组 45 天后概念测验低了 11 个百分点。慕尼黑大学（LMU）Sebastian Maier、Kai Schwabe、Manuel Schneider 和 Stefan Feuerriegel 9 月 17 日挂上 arXiv 的预印本（arXiv:2609.20143，未经同行评审）换了个问题：如果 AI 一定会在身边，能不能设计点什么，让人用它的同时不把练习也一起交出去？&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://arxiv.org/html/2609.20143v1/fig-abstract.png" alt="研究设计概览：分数练习阶段使用 LLM 助手，随后独立测验" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;研究概览：先在 AI 助手陪同下练习，再独立做测验（图：Maier et al., arXiv:2609.20143）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;实验设计&lt;/h3&gt;
+&lt;p&gt;在 AsPredicted 预注册，704 名英国 Prolific 用户（平均 39 岁）练习分数四则运算：9 道计分练习题，然后 6 道换了数字的独立测验题。助手是 GPT-OSS-120B，默认只给提示，不主动给完整答案，你得明确要求才给。研究把「直接要完整答案」定义为答案卸载（answer offloading），要提示或中间步骤不算。&lt;/p&gt;
+&lt;p&gt;五个组：不用 AI（146 人）、只用 AI（137）、AI + 元认知反馈（144）、AI + 努力积分（138）、两者兼有（139）。元认知反馈在每题揭晓答案后出现，由模型根据你的聊天记录生成，分三段：一面镜子（「你没写任何东西就直接要了答案」）、一句后果（「你读了解法，而不是自己算出来」）、一个提醒（「下一题你能自己做多少？」），外加一条从「全靠你」到「主要靠助手」的四格进度条。它不告诉你该怎么做。努力积分则是：不用 AI 或只要提示做对得 10 分，要了中间结果 5 分，要了完整答案只得 1 分。&lt;/p&gt;
+
+&lt;h3&gt;结果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;只用 AI 没有显著拉低独立测验成绩：0.62 vs 不用 AI 的 0.65（OR=0.80，不显著）。作者认为这部分是因为助手默认不给答案，只用 AI 组里不到四成的人曾经要过完整答案。&lt;/li&gt;
+&lt;li&gt;元认知反馈让答案卸载减少（OR=0.47），独立测验提高（OR=1.51，正确率 0.67）。不过 p 值是预注册的单侧检验（.026/.030），双侧 95% 置信区间刚好碰到或跨过 1（[0.22, 1.00]、[0.98, 2.33]）。效应方向清楚，强度只能算勉强过线。&lt;/li&gt;
+&lt;li&gt;积分没用：AI 用得少了（任何帮助的几率 OR=0.39），但卸载没显著减少，测验成绩反而最低（0.58）。人们是整体少用了，并没有学会分辨哪种帮助有益。&lt;/li&gt;
+&lt;li&gt;探索性分析：卸载比例每高 10 个百分点，测验答对几率低 32%（相关性）。卸载会滚雪球，上一题直接要了答案，下一题再要的概率是 69.7%；有反馈时降到 55.9%。反馈的作用主要就是打断这个连锁。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;还要看清楚一点：反馈组的 0.67 只是回到了不用 AI 的水平（0.65），并没有超过它。作者也承认，「比完全不用 AI 学得更好」目前还没有证据。&lt;/p&gt;
+
+&lt;h3&gt;为什么镜子比奖惩管用&lt;/h3&gt;
+&lt;p&gt;这和 11 月 16 日写过的 Zonca 等人的研究可以对照着看：人们在采纳建议上的问题，往往不是不知道顾问多准，而是看不清自己逐题的状态。积分改变的是 AI 整体的吸引力，镜子改变的是你对「这一题我刚才到底练没练」的觉察。作者的原话是，真正的分界线不在用不用 AI，而在怎么用。认知需求（need for cognition）低和信心低的人卸载更多、成绩更差，但两种干预都没有扩大这道差距。&lt;/p&gt;
+
+&lt;h3&gt;局限&lt;/h3&gt;
+&lt;p&gt;只有一个领域（分数）、一次练习、立刻测验，没测持久技能；助手默认不给答案，结论不一定能推广到会主动吐答案的通用聊天机器人；反馈是镜子、后果、提醒三件打包，不知道哪个部件起作用。&lt;/p&gt;
+
+&lt;h3&gt;自己可以照着做&lt;/h3&gt;
+&lt;p&gt;没有这样的工具，也可以给自己装一面镜子：学新东西时每次向 AI 求助后，花五秒问一句「这一步是我做的，还是它做的？」；如果刚刚直接要了答案，下一题强制自己先写出第一步再开口。给自己设奖惩规则（「用 AI 就扣分」）看起来更严格，这个实验里却是输的那一边。&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href="https://arxiv.org/abs/2609.20143"&gt;Maier, Schwabe, Schneider &amp; Feuerriegel, arXiv:2609.20143 (2026)&lt;/a&gt;；&lt;a href="https://aspredicted.org/gx2fa8.pdf"&gt;AsPredicted 预注册&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2609.20143"&gt;https://arxiv.org/abs/2609.20143&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://aspredicted.org/gx2fa8.pdf"&gt;https://aspredicted.org/gx2fa8.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">af60685a-f92a-5d19-ab76-2ff58825d2b8</guid>
+      <pubDate>Thu, 26 Nov 2026 12:17:38 +0000</pubDate>
+      <category>mindset-growth</category>
+      <link>https://arxiv.org/abs/2609.20143</link>
+      <enclosure url="https://arxiv.org/html/2609.20143v1/fig-abstract.png" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 富兰克林放风筝那天，闪电根本没劈中风筝；更麻烦的是，他本人从没写过“我放了”：一个美国人从小听到大的实验，证据只有 15 年后的一段转述</title>
+      <description>&lt;p&gt;先把最流行的画面拆掉：雷雨里，富兰克林举着风筝，一道闪电劈下来，顺着线打在钥匙上，他“发现了电”。这里面几乎每一处都不对。电早在他之前被研究了一百多年；风筝要是真被闪电直接击中，拿线的人大概率当场死亡。更让人坐不住的是另一件事——&lt;strong&gt;富兰克林本人从来没有白纸黑字写过“我做了这个实验”&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Benjamin_West%2C_English_%28born_America%29_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg/500px-Benjamin_West%2C_English_%28born_America%29_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg" alt="Benjamin West 约 1816 年的油画，富兰克林在云中引电，身边环绕小天使" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Benjamin West 约 1816 年画的《富兰克林从天空引电》。画里有天使、有闪电，唯独没有那间据说用来避雨的小棚子。（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;法国人先做成了&lt;/h3&gt;
+&lt;p&gt;时间线是这样的。1750 年，富兰克林在给伦敦友人 Peter Collinson 的信里提出一个“岗亭实验”：在高处竖一根尖头铁杆，人站在绝缘的小亭子里，看能不能从雷雨云里引出电火花。这些信 1751 年在伦敦结集出版，很快被 Thomas-François Dalibard 译成法文。1752 年 5 月 10 日，在巴黎北边的 Marly-la-Ville，Dalibard 安排的一名退伍龙骑兵 Coiffier 照着方案竖起 40 英尺铁杆，真的引出了火花。消息很快传遍欧洲。&lt;/p&gt;
+&lt;p&gt;也就是说，“闪电是电”这件事，第一次被实验证实是在法国，用的是富兰克林的设计，但富兰克林本人不在场。费城当时没有够高的尖塔，他据说正等着基督教堂的钟楼盖好。&lt;/p&gt;
+
+&lt;h3&gt;那封只讲“怎么做”的信&lt;/h3&gt;
+&lt;p&gt;1752 年 10 月 19 日，富兰克林在自己办的《宾夕法尼亚公报》（Pennsylvania Gazette）上登了一封信，开头说欧洲报纸常提“费城实验”的成功，读者或许想知道“同样的实验在费城也成功了，只是用了一种更简便的办法”。接下来是一份制作说明：两根轻雪松木条扎成十字，绷上丝手帕，顶端装一根尖铁丝；风筝线末端系丝带，交接处挂一把钥匙；人要站在门内或窗下，让丝带保持干燥。&lt;/p&gt;
+&lt;p&gt;这封信后来在 12 月 21 日被宣读于伦敦皇家学会，并刊入《哲学汇刊》（Philosophical Transactions）。可它没有日期、没有地点、没有说谁在场。最关键的段落写成了将来式：“雷雨云一到风筝上方，尖铁丝就会从云中引出电火……”读起来像菜谱，不像实验报告。&lt;/p&gt;
+
+&lt;h3&gt;唯一的细节来源：Priestley，1767&lt;/h3&gt;
+&lt;p&gt;我们今天熟悉的版本——1752 年 6 月、儿子 William 帮忙、两人躲在一间敞开的棚子里、松散的麻线纤维一根根竖起来、他用指节靠近钥匙感到火花、还给莱顿瓶（Leyden jar）充了电——几乎全部出自 Joseph Priestley 1767 年的《电学的历史与现状》（The History and Present State of Electricity）。那时距事件已经 15 年，Priestley 在伦敦，消息大概率直接来自当时也在伦敦的富兰克林。富兰克林在自传里也提到过这件事，但同样没留下当天的记录。&lt;/p&gt;
+&lt;p&gt;疑点于是累积起来。1924 年，气象学家 Alexander McAdie 在美国古物学会发文，引用了一句很刺耳的评价：这“与其说是实际完成的实验，不如说是一个设想好、结果也预先写好的实验”。普利策奖传记作者 Carl Van Doren 的说法更含蓄：风筝故事“在传说里稳如磐石，在事实上模糊难辨”。&lt;/p&gt;
+
+&lt;h3&gt;“骗局”说与反驳&lt;/h3&gt;
+&lt;p&gt;2003 年，Tom Tucker 出版《Bolt of Fate》，副标题直接叫“富兰克林和他的电风筝骗局”。他的论证有三条：一是那封信的将来式和缺失细节；二是动机——皇家学会的 William Watson 曾压过富兰克林的文章、嘲笑过他的实验，法国人又刚抢了风头，富兰克林需要一个“我也做成了”的故事；三是这么关键的实验，记录却比富兰克林平时的写作简略得多，不像他的风格。&lt;/p&gt;
+&lt;p&gt;反驳也不弱。亚利桑那大学的 Michael Schiffer 认为，18 世纪电学圈子很小，伪造实验的代价是名誉扫地，富兰克林犯不着冒这个险。Walter Isaacson 在同年出版的传记里说，没有任何一个案例显示富兰克林夸大过自己的科学成果。《American Scientist》的书评则指出，Tucker 自己最后也承认“没法证明富兰克林没放过风筝”。&lt;/p&gt;
+&lt;p&gt;后来复现的人里，代价最惨重的是圣彼得堡的 Georg Wilhelm Richmann。1753 年 8 月 6 日（俄历 7 月 26 日），他在用绝缘铁杆做类似测量时被击身亡，成为第一个死于电学实验的科学家——本栏在球状闪电那篇里写过他。&lt;/p&gt;
+&lt;p&gt;所以比较稳妥的说法是：富兰克林设计了证明闪电带电的实验，法国人先做成了；风筝版本很可能真有其事，但我们对它的全部了解，来自一位当事人 15 年后讲给朋友听的故事。至于闪电劈中钥匙那一幕，连 Priestley 都没这么写过。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://constitutioncenter.org/blog/the-great-debate-about-if-benjamin-franklin-really-flew-his-kite/"&gt;https://constitutioncenter.org/blog/the-great-debate-about-if-benjamin-franklin-really-flew-his-kite/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.livescience.com/benjamin-franklin-kite-key"&gt;https://www.livescience.com/benjamin-franklin-kite-key&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Kite_experiment"&gt;https://en.wikipedia.org/wiki/Kite_experiment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fi.edu/en/benjamin-franklin/kite-key-experiment"&gt;https://www.fi.edu/en/benjamin-franklin/kite-key-experiment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.americanscientist.org/node/4129"&gt;https://www.americanscientist.org/node/4129&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aps.org/apsnews/2000/05/electricity-from-lightning-1752"&gt;https://www.aps.org/apsnews/2000/05/electricity-from-lightning-1752&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://founders.archives.gov/documents/Franklin/01-04-02-0109"&gt;https://founders.archives.gov/documents/Franklin/01-04-02-0109&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8c847944-2a0e-5364-a8a6-872a8433b1a1</guid>
+      <pubDate>Thu, 26 Nov 2026 12:20:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://constitutioncenter.org/blog/the-great-debate-about-if-benjamin-franklin-really-flew-his-kite/</link>
+      <enclosure url="https://cdn.mos.cms.futurecdn.net/AsMcgqExXdWTgHUKq6v778-1920-80.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 医生把药瓶递给你，上面直接印着“安慰剂”，告诉你里面只有糖，结果你还是好多了：开放标签安慰剂在 2010 年第一次正经做了随机对照</title>
+      <description>&lt;p&gt;安慰剂效应的教科书定义里有个前提：病人得以为自己吃的是真药。骗不住，就不灵。哈佛医学院的 Ted Kaptchuk 偏偏想试试不骗会怎样。2010 年他做的实验里，药瓶标签上就印着 placebo 这个词，医生当面说清楚：里面是惰性物质，跟糖丸一样，没有任何有效成分。病人照样一天两粒地吃。三周后，这组人的症状改善几乎是对照组的两倍。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://news.harvard.edu/gazette/wp-content/uploads/2010/12/big-canvaspills2.jpg" alt="一堆白色药片" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Kaptchuk 团队给病人的药瓶上直接写着“安慰剂”。（Harvard Gazette）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;实验怎么做的&lt;/h3&gt;
+&lt;p&gt;这项研究叫“Placebos without Deception”，2010 年 12 月 22 日发表在 PLoS ONE（5(12): e15591）。2009 年 8 月到 2010 年 4 月，团队在波士顿一家学术医院招了 80 名符合罗马 III 标准的肠易激综合征（Irritable Bowel Syndrome, IBS）患者，随机分成两组：一组拿开放标签安慰剂（Open-label Placebo, OLP），一组什么也不吃，两组见医生的次数和时长相同。&lt;/p&gt;
+&lt;p&gt;给安慰剂组的说明词有讲究，大意是四点：这是安慰剂，像糖丸一样没有活性成分；临床研究显示安慰剂可以通过身心自我调节过程改善 IBS 症状；你不必相信安慰剂效应；但请按时吃，每天两次。Kaptchuk 后来接受采访时说：“我们告诉病人，他们甚至不用相信安慰剂效应。吃就是了。”&lt;/p&gt;
+&lt;p&gt;结果是：第 11 天，整体改善评分（IBS-GIS）安慰剂组 5.2、对照组 4.0；第 21 天 5.0 对 3.9。报告“症状得到充分缓解”的比例，安慰剂组 59%，对照组 35%。症状严重度也显著下降，生活质量只出现改善趋势。&lt;/p&gt;
+
+&lt;h3&gt;质疑一开始就来了&lt;/h3&gt;
+&lt;p&gt;批评主要有三点。样本小、只做了三周；招募广告写的是“一种新的身心疗法”，愿意来的人可能本来就更吃这一套；最要命的是，结果全是自评量表，没有任何客观指标。一个知道自己在吃“疗法”的病人，在问卷上多打一分并不难。&lt;/p&gt;
+&lt;p&gt;接下来十多年，研究者一点点补这些漏洞。葡萄牙里斯本的 Carvalho 等人 2016 年在 Pain 上发表慢性腰痛试验，83 名病人在常规治疗基础上加三周开放标签安慰剂，疼痛评分降了 1.5 分，常规治疗组只降 0.2 分，失能评分也明显改善。2021 年，Lembo、Kaptchuk 等人在 Pain 上做了更硬的一版：262 名 IBS 患者分成开放标签安慰剂、双盲安慰剂、不吃药三组，持续六周。开放标签组症状评分平均改善 100.3，双盲组 90.6，两者没有显著差别。换句话说，知道是假药和不知道是假药，效果差不多。&lt;/p&gt;
+
+&lt;h3&gt;效应在缩水，但没消失&lt;/h3&gt;
+&lt;p&gt;荟萃分析给出的数字一路往下走。2021 年 von Wernsdorff 等人在 Scientific Reports 合并 11 项临床试验，标准化均差（SMD）0.72，算是中到大的效应；剔除高偏倚风险的研究后降到 0.49。2023 年一项网络荟萃分析发现，自评结果有效，客观指标几乎为零（SMD −0.026）。2025 年 Fendel 等人在 Scientific Reports 的更新版纳入 60 项随机对照试验、4554 人，总体 SMD 0.35；只看临床病人是 0.47，自评结果 0.39，客观指标只有 0.09。&lt;/p&gt;
+&lt;p&gt;这个轨迹本身就很说明问题：开放标签安慰剂确实能让人“感觉更好”，尤其在疼痛、IBS、疲劳这种主观症状为主的病上；但它不会让肿瘤缩小，也不会改变血检数字。&lt;/p&gt;
+&lt;p&gt;为什么不骗也有效？Kaptchuk 的解释是“仪式”：去诊所、被认真倾听、按时吃药，这套医疗程序本身就会触发身体的预期和条件反射，药片只是仪式的道具。本栏之前写过反安慰剂效应（nocebo）——SAMSON 试验里，他汀类药物的副作用九成可以由空药丸复现。两件事放在一起看挺有意思：人的预期既能凭空制造痛苦，也能在明知是糖的情况下减轻痛苦。&lt;/p&gt;
+&lt;p&gt;它暂时还不能替代真药。可如果一种疗法便宜、无副作用、病人完全知情，还能让一部分病人得到实打实的缓解，医生该不该开？这在伦理上反而比传统安慰剂干净得多。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://news.harvard.edu/gazette/story/2010/12/placebos-work-even-without-deception"&gt;https://news.harvard.edu/gazette/story/2010/12/placebos-work-even-without-deception&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dash.harvard.edu/entities/publication/73120378-9982-6bd4-e053-0100007fdf3b"&gt;https://dash.harvard.edu/entities/publication/73120378-9982-6bd4-e053-0100007fdf3b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pubmed.ncbi.nlm.nih.gov/33605656/"&gt;https://pubmed.ncbi.nlm.nih.gov/33605656/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.aafp.org/afp/2017/0401/p456"&gt;https://www.aafp.org/afp/2017/0401/p456&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7887232/"&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7887232/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12356945"&gt;https://pmc.ncbi.nlm.nih.gov/articles/PMC12356945&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363169/"&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363169/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">bdc1eaf2-4ab2-5508-8af9-ed77aa5ba350</guid>
+      <pubDate>Thu, 26 Nov 2026 12:20:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://news.harvard.edu/gazette/story/2010/12/placebos-work-even-without-deception</link>
+      <enclosure url="https://news.harvard.edu/gazette/wp-content/uploads/2010/12/big-canvaspills2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 这门语言描述位置时不说“左边”“右边”，只说“你脚的北边有只蚂蚁”；“袋鼠”这个词也出自它，而且完全不是“我听不懂”的意思</title>
+      <description>&lt;p&gt;1980 年代初，澳大利亚昆士兰北部 Hope Vale 社区，一位叫 Jack Bambi 的老人两次给人讲同一个故事：他的船在有鲨鱼的海里翻了。两次录像相隔数年，由两位学者分别拍下，第一次他面朝一个方向，第二次恰好转了个身。可他的手势完全没变方向——他从船的西边跳下水，同伴落在东边，鲨鱼往北游走。他比划的不是“我的左边、右边”，而是真实世界里的东西南北。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://humanities.org.au/wp-content/uploads/2021/10/Language-and-thought-2.jpg" alt="澳大利亚人文学院关于语言与思维的配图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Guugu Yimithirr 语研究是“语言影响思维”争论里最常被引用的案例之一。（Australian Academy of the Humanities）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;一门几乎只用罗盘方位的语言&lt;/h3&gt;
+&lt;p&gt;这门语言叫 Guugu Yimithirr（也拼作 Guugu Yimidhirr），属帕马-尼荣甘语系（Pama–Nyungan），2021 年澳大利亚人口普查记录的母语使用者是 810 人，多数住在离库克敦（Cooktown）约 46 公里的 Hope Vale。名字本身就是个语言学标签：guugu 是“话”，yimithirr 指“用 yi(mi) 表示‘这个’的”。&lt;/p&gt;
+&lt;p&gt;拍下 Bambi 的两人，是语言人类学家 John Haviland 和 Stephen Levinson。他们发现，Guugu Yimithirr 描述空间时几乎完全不用以身体为参照的“前后左右”，而用四个方位词根：gungga-（北）、jiba-（南）、naga-（东）、guwa-（西）。严格说，这四个词指的是象限而不是精确的罗盘点。语言里并不是没有“左手”“右手”这样的词，但没人用它们来说东西在哪儿。“你脚边有只蚂蚁”要说成“你脚的北边有只蚂蚁”。另一门同样靠绝对方位说话的澳洲语言 Kayardild 里，想在车座上往右挪一点，说的是“往北一点”。&lt;/p&gt;
+&lt;p&gt;这种说话方式逼着人时时刻刻在后台算方位。Levinson 记得，夜里开车走蜿蜒山路，车上的 Guugu Yimithirr 男人随手就能指出部落领地边界在哪个方向，在他们看来这根本不算本事。两人在密林里让当地人指认远处的已知地点，120 次试验，偏差不到一圈的 4%；Levinson 1997 年的论文给出的平均精度约 13°。拿荷兰人做对照组的记忆任务里，Guugu Yimithirr 说话者倾向于按绝对方位记住物体排列，荷兰人按自己的左右记。&lt;/p&gt;
+&lt;p&gt;这项研究让沉寂多年的“语言相对论”（Linguistic Relativity，也就是常说的 Sapir-Whorf 假说）重新有了实证抓手。不过 Haviland 本人对 Levinson 的分类有保留，认为这套系统并不是一种和左右截然分开的“另一种逻辑”。争论到今天也没完全平息，但“说什么语言会影响你怎么记空间”这一点，至少在这个案例上证据相当扎实。&lt;/p&gt;
+
+&lt;h3&gt;袋鼠：一个流传两百年的误会&lt;/h3&gt;
+&lt;p&gt;Guugu Yimithirr 还有另一个身份：它是第一门被欧洲人写下来的澳大利亚原住民语言。1770 年 6 月，库克（James Cook）的“奋进号”（Endeavour）在大堡礁触礁，只好开进后来叫奋进河的河口修船，在那里停了将近七个星期。船员记下了当地人的一批词。8 月 4 日，库克在航海日志里写，那种动物“被当地人称作 Kangooroo 或 Kanguru”。&lt;/p&gt;
+&lt;p&gt;之后便有了那个人人爱讲的段子：船员指着袋鼠问这是什么，当地人回答“kangaroo”，意思是“我听不懂你在说什么”。故事的源头是 1820 年。英国海军军官 Phillip Parker King 到同一地区记词汇，大部分和库克的记录对得上，唯独袋鼠一词记成了 menuah。于是有人推断库克当年弄错了，“我不知道”的说法就此流传。Macquarie 词典认为，King 拿到的多半是 minha，意思是“可吃的动物”，一个泛称。&lt;/p&gt;
+&lt;p&gt;真相直到 1970 年代才被敲定。Haviland 在 Hope Vale 调查时确认，gangurru（k 和 g 在这门语言里可以互换）是一个真实存在的词，指一种大型黑色或灰色袋鼠的雄性。这门语言至少区分八种袋鼠，gangurru 只是其中之一。&lt;/p&gt;
+&lt;p&gt;更有意思的是这个词后来的旅行。1788 年第一舰队到悉尼，船员对当地 Dharug 人说“kangaroo”，没意识到那是两千多公里外另一门语言的词。Dharug 人以为这是英语，意思大概是“能吃的动物”，看见英国人带来的牛，还问那是不是 kangaroo。几十年后，新南威尔士北部的 Baagandji 人也从殖民者那里学到了这个词，拿去指马。一个北昆士兰的词，绕了一圈，在别处变成了“牛”和“马”。&lt;/p&gt;
+&lt;p&gt;本栏之前写过 Dyirbal 的“岳母语”回避语体，那是同一片大陆上另一种让人意外的语言设计。Guugu Yimithirr 的故事则说明，一门只剩八百人在说的语言，同时塞进了两件世界级的冷知识。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://humanities.org.au/power-of-the-humanities/i-dont-like-the-look-of-that-fellow-to-your-south-west/"&gt;https://humanities.org.au/power-of-the-humanities/i-dont-like-the-look-of-that-fellow-to-your-south-west/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mpi.nl/node/45265"&gt;https://www.mpi.nl/node/45265&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Guugu_Yimithirr_language"&gt;https://en.wikipedia.org/wiki/Guugu_Yimithirr_language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.macquariedictionary.com.au/the-origin-of-kangaroo-getting-to-the-bottom-of-an-australian-furphy/"&gt;https://www.macquariedictionary.com.au/the-origin-of-kangaroo-getting-to-the-bottom-of-an-australian-furphy/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.wordorigins.org/big-list-entries/kangaroo"&gt;https://www.wordorigins.org/big-list-entries/kangaroo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.discovermagazine.com/how-absolute-space-and-sense-of-direction-affect-different-languages-45208"&gt;https://www.discovermagazine.com/how-absolute-space-and-sense-of-direction-affect-different-languages-45208&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">e95d1221-3083-538a-a76f-38fe1dacc093</guid>
+      <pubDate>Thu, 26 Nov 2026 12:20:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://humanities.org.au/power-of-the-humanities/i-dont-like-the-look-of-that-fellow-to-your-south-west/</link>
+      <enclosure url="https://humanities.org.au/wp-content/uploads/2021/10/Language-and-thought-2.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 纳米布沙漠里有几百万个圆形秃斑，直径 2 到 12 米，排得像蜂巢，能“活”三十到六十年：到底是白蚁啃的，还是草自己排出来的，两派德国科学家吵了十几年</title>
+      <description>&lt;p&gt;从热气球上往下看纳米比亚西部的草原，地面像被饼干模子一个个扣过：成千上万个光秃秃的圆斑，边缘一圈草长得格外茂密，圆与圆之间的距离惊人地均匀。这就是“仙女圈”（Fairy Circles）。它们分布在离海岸约 80 到 140 公里的狭长地带，从安哥拉南部一路延伸约 2,400 公里到南非北开普，总数以百万计。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Aerial_view_of_Fairy_circles%2C_Namibia_%282017%29.jpg" alt="纳米布-诺克卢夫特国家公园仙女圈航拍" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;纳米布-诺克卢夫特国家公园的仙女圈航拍，2017 年。（Wikimedia Commons）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;圆圈也有生老病死&lt;/h3&gt;
+&lt;p&gt;它们不是静止的。按现有观测，一个仙女圈大约在直径 2 米时变得肉眼可辨，长到 12 米左右达到顶峰，然后草慢慢侵入，最终消失，寿命大约 30 到 60 年；有的十年内就没了，有的能撑几百年。北部的辛巴人（Himba）说，这是祖先 Mukuru 留下的，或者是神的脚印。导游们更爱讲另一个版本：地底下有条龙，它呼出的毒气把草熏死了。&lt;/p&gt;
+&lt;p&gt;科学解释同样五花八门。有人提出土壤放射性，有人说地下冒出的气体，2008 年还有人认为是枯死的大戟（Euphorbia damarana）残留毒素。这些假说后来都站不住了，剩下两派对峙到今天。&lt;/p&gt;
+
+&lt;h3&gt;白蚁派：Jürgens 与沙白蚁&lt;/h3&gt;
+&lt;p&gt;2013 年 3 月 29 日，汉堡大学生态学家 Norbert Jürgens 在 Science 发文，称在纳米布全区调查中，一种沙白蚁 Psammotermes allocerus 出现在 80% 到 100% 的仙女圈里，新形成的圆圈里则是 100%，而且它是唯一一种跨越全部分布区的昆虫。他的逻辑是：白蚁啃掉圆圈中心的草根，裸露的沙子不再蒸腾，雨水就存在地下，形成一座“水库”，养活白蚁群落，也养活圆圈边上那圈特别茂盛的草。&lt;/p&gt;
+&lt;p&gt;批评者说，相关不等于因果。佛罗里达州立大学的 Walter Tschinkel 一直对此存疑，纳米比亚本地的白蚁专家也报告，沙白蚁并没有 Jürgens 说的那么无处不在。&lt;/p&gt;
+
+&lt;h3&gt;自组织派：Getzin 与“草自己排队”&lt;/h3&gt;
+&lt;p&gt;另一派的代表是哥廷根大学的 Stephan Getzin。他的核心论据是几何：仙女圈的排列接近六边形，一个圆周围通常有六个邻居，间距几乎一致。白蚁群落互相争地盘或许能解释一部分规律，但这么规整的周期性图案，更像是 Alan Turing 1952 年描述过的那种反应-扩散斑图（Turing pattern）——资源稀缺时，植物通过“近处互助、远处竞争”的反馈，自己排列出规则的空隙。&lt;/p&gt;
+&lt;p&gt;2016 年，Getzin 和同事在 PNAS 报告，在西澳大利亚皮尔巴拉（Pilbara）纽曼镇附近，离纳米比亚约一万公里的地方，也发现了仙女圈。那里土壤是硬结的红土，白蚁种类也不同，图案却几乎一样。2022 年 10 月，他们又发表了覆盖纳米布十个地区、用每 30 分钟记录一次的土壤湿度传感器跟踪两个雨季的研究：降雨后大约 10 天，圆圈里新冒的草开始死，20 天后全黄，周围的草还是绿的；死草的根并没有被啃，反而比外面的更长，像是在拼命找水。Getzin 的解释是，外圈的草把根系周围的水分吸成“真空”，水分横向流动七米以上，被拉向圈外。&lt;/p&gt;
+&lt;p&gt;Jürgens 2023 年在同一本期刊上回击，认为对方的土壤湿度数据和自己的一致，而沙子的实测水力学性质恰恰否定了“自我调节”的前提。在他们看来，这场争论要靠物理来裁决，确切说是土壤物理。&lt;/p&gt;
+
+&lt;h3&gt;越吵越大&lt;/h3&gt;
+&lt;p&gt;2017 年，普林斯顿的 Corina Tarnita 等人在 Nature 发表模型，认为两种机制可以同时起作用：白蚁决定大尺度的六边形格局，草的自组织决定小尺度的细节。Jürgens 自己也说过，两个模型合起来能解释自然。但这并没让任何一方让步。2023 年澳大利亚的研究引入了 Martu 原住民的知识，他们把这种圆斑叫 linyji，认为是收获白蚁 Drepanotermes 的“路面巢穴”屋顶；同年西班牙团队在 PNAS 用 AI 分析了五十多万张卫星图，在 15 个国家找到 263 处“类仙女圈”，Getzin 和 Tschinkel 都说那些图案不够规整，算不上真货。2025 年 2 月，Michael Cramer 和 Tschinkel 发表综述，认定植被自组织是唯一与全部野外观测相符的理论。&lt;/p&gt;
+&lt;p&gt;连“什么算仙女圈”都还没有公认定义。辛巴人的牛倒是不管这些，照样在圆圈边上那圈好草上吃得很开心。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Fairy_circle_(arid_grass_formation)"&gt;https://en.wikipedia.org/wiki/Fairy_circle_(arid_grass_formation)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.uni-goettingen.de/en/73613.html?id=6841"&gt;https://www.uni-goettingen.de/en/73613.html?id=6841&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phys.org/news/2023-07-termites-fairy-circles-namib.amp"&gt;https://phys.org/news/2023-07-termites-fairy-circles-namib.amp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/thousands-more-puzzling-fairy-circles-have-been-found-around-the-world/"&gt;https://www.scientificamerican.com/article/thousands-more-puzzling-fairy-circles-have-been-found-around-the-world/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sciencenews.org/article/australian-fairy-circles-first-be-found-outside-africa"&gt;https://www.sciencenews.org/article/australian-fairy-circles-first-be-found-outside-africa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://uwa.edu.au/news/article/2023/april/aboriginal-art-and-knowledge-unlocks-mystery-of-fairy-circles"&gt;https://uwa.edu.au/news/article/2023/april/aboriginal-art-and-knowledge-unlocks-mystery-of-fairy-circles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">8f32a353-e2b3-5a5c-a15f-b9582bfbaaf7</guid>
+      <pubDate>Thu, 26 Nov 2026 12:20:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://en.wikipedia.org/wiki/Fairy_circle_(arid_grass_formation)</link>
+      <enclosure url="https://static.scientificamerican.com/sciam/cache/file/ADD51C4D-BD41-4DAA-B49A6144A9BC5638_source.jpg?w=1200" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>🎲 一个立方体能从另一个同样大的立方体身上钻洞穿过去，这是 300 多年前的赌局；2025 年，两位不在学术界工作的奥地利人造出第一个“怎么钻都穿不过去”的凸多面体</title>
+      <description>&lt;p&gt;拿两个一模一样的正方体，能不能在其中一个身上打一条笔直的隧道，让另一个从隧道里整个穿过去？直觉说不行——洞得比方块本身还大才行，而方块会被打穿成碎片。答案却是可以，而且隧道还能宽裕到让一个大 6% 的立方体通过。17 世纪有人跟莱茵的鲁珀特亲王（Prince Rupert of the Rhine）打赌说做不到，亲王赢了。&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src="https://www.quantamagazine.org/wp-content/uploads/2025/10/SelfContainingShapes-crDavidRenshaw-Social.webp" alt="Quanta Magazine 关于自我穿越形状的插图" style="max-width:100%;height:auto;" /&gt;&lt;figcaption&gt;Noperthedron 有 90 个顶点、152 个面：150 个三角形加上下两个正十五边形。（Quanta Magazine / David Renshaw）&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;从一次打赌开始&lt;/h3&gt;
+&lt;p&gt;鲁珀特亲王是查理一世的外甥，英国内战里的保王党骑兵统帅，晚年在温莎城堡研究冶金和玻璃——本栏写过的“鲁珀特之泪”（Prince Rupert's drop）也挂着他的名字。1693 年，数学家 John Wallis 记下了这次赌局，并给出证明：沿立方体的体对角线方向钻孔，可以让一个比它大出约 4% 的同款立方体穿过。大约一百年后，荷兰人 Pieter Nieuwland 找到了更好的角度，把余量提到 6% 以上（比例约 1.06）。&lt;/p&gt;
+&lt;p&gt;道理其实是投影。从体对角线方向看，正方体的影子是个正六边形，比它正面的正方形影子要大，大到能把那个正方形斜着塞进去，还四周留边。只要一个形状从某个方向看过去的影子，能严格装下它从另一个方向看过去的影子，就能沿前一个方向打洞让后者通过。具备这种性质的形状被称为有“鲁珀特性质”（Rupert's property）。&lt;/p&gt;
+
+&lt;h3&gt;几乎所有形状都能自我穿越&lt;/h3&gt;
+&lt;p&gt;1968 年，Christoph Scriba 证明正四面体和正八面体也有鲁珀特性质。过去十年，数学家和爱好者陆续给正十二面体、正二十面体、截角二十面体（也就是足球的形状）找到了隧道。2017 年，所有柏拉图立体都被证明是鲁珀特的，相关作者顺势提出猜想：所有凸多面体都有鲁珀特性质。&lt;/p&gt;
+&lt;p&gt;有的隧道窄得离谱。三角化四面体（triakis tetrahedron）的通道余量只有形状半径的约 0.000002 倍。谷歌软件工程师 Tom Murphy VII 2024 年用程序生成了上亿个随机凸多面体去试，几乎每一个都能找到隧道。他给“不是鲁珀特”的形状起了个绰号 Nopert，由 Rupert 和 nope 拼成。&lt;/p&gt;
+&lt;p&gt;真正的钉子户只有几个，最出名的是有 62 个面的小斜方截半二十面体（rhombicosidodecahedron）。约翰斯·霍普金斯大学的 Benjamin Grimmer 让电脑跑了两周也没找到通道，他说这个形状“似乎抵抗一切尝试”。&lt;/p&gt;
+
+&lt;h3&gt;两个当年的奥赛少年&lt;/h3&gt;
+&lt;p&gt;Jakob Steininger 和 Sergey Yurkevich 在奥地利一起备战数学奥林匹克时认识，大学时在 YouTube 上看到鲁珀特立方体，从此惦记了很多年。如今一个在奥地利统计局工作，一个在科技公司 A&amp;amp;R Tech 上班，都不在大学或研究所任职。2021 年他们发表论文，猜测小斜方截半二十面体不是鲁珀特的，算是公开站到了主流猜想的对面。&lt;/p&gt;
+&lt;p&gt;2025 年 8 月，两人把论文《A convex polyhedron without Rupert's property》挂上 arXiv（2508.18475），构造出 Noperthedron：90 个顶点，由三个基点在一个 30 元对称群下的轨道生成，群由绕 z 轴的 15 重旋转加中心反演组成，所有顶点到中心的距离在 0.98 到 1 之间。&lt;/p&gt;
+&lt;p&gt;证明思路是把所有可能的打洞姿态看作一个五维参数空间——每一根轴代表一种旋转角度——然后切成约 1,800 万个小块，逐块排除。用两条定理：&lt;strong&gt;“全局定理”&lt;/strong&gt;负责一个投影有顶点明显伸到另一个投影外面的情形；“局部定理”负责两个投影几乎重合、差一点就能塞进去的情形。每一块都被其中一条判死。为防浮点误差，他们把两条定理都改写成有理数版本，用 SageMath 重新验证，代码全部开源。Steininger 对 Quanta 说：“它能成功简直是个奇迹。”&lt;/p&gt;
+&lt;p&gt;于是 2017 年的猜想被推翻了。泰国朱拉隆功大学的 Pongbunthit Tonpho 评价说，他没料到这么快就有人能证伪。不过小斜方截半二十面体本身到底是不是 Nopert，依然没人知道。Noperthedron 是专门为了好证明而设计的“人造反例”，那些天然的经典多面体，还在等下一个人去钻。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/"&gt;https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://arxiv.org/abs/2508.18475"&gt;https://arxiv.org/abs/2508.18475&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/mathematicians-make-surprising-breakthrough-in-3d-geometry-with-noperthedron/"&gt;https://www.scientificamerican.com/article/mathematicians-make-surprising-breakthrough-in-3d-geometry-with-noperthedron/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://mathworld.wolfram.com/Noperthedron.html"&gt;https://mathworld.wolfram.com/Noperthedron.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">ee014001-1db3-50eb-ba29-9a3bf12db1ec</guid>
+      <pubDate>Thu, 26 Nov 2026 12:20:34 +0000</pubDate>
+      <category>random-knowledge</category>
+      <link>https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/</link>
+      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2025/10/SelfContainingShapes-crDavidRenshaw-Social.webp" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
